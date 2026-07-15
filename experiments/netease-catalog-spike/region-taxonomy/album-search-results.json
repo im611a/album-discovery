@@ -1,0 +1,215 @@
+[
+  {
+    "probe_id": "historical-zh",
+    "query": "周杰伦 范特西",
+    "reason": "检查历史华语专辑搜索结果是否直接返回地区或语种字段",
+    "success": true,
+    "returned_album_count": 5,
+    "albums": [
+      {
+        "netease_album_id": "18915",
+        "title": "范特西",
+        "artists": [
+          {
+            "artist_id": "6452",
+            "name": "周杰伦"
+          }
+        ],
+        "release_date": "2001-09-13",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "272566217",
+        "title": "范特西 - 流行Pop x 周杰伦 Type Beat",
+        "artists": [
+          {
+            "artist_id": "48816818",
+            "name": "YKFireVibes"
+          }
+        ],
+        "release_date": "2025-05-20",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "252860647",
+        "title": "周杰伦×范特西×2000s Type Beat''Result''",
+        "artists": [
+          {
+            "artist_id": "34466316",
+            "name": "Khazs"
+          }
+        ],
+        "release_date": "2024-11-04",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "18914",
+        "title": "范特西PLUS",
+        "artists": [
+          {
+            "artist_id": "6452",
+            "name": "周杰伦"
+          }
+        ],
+        "release_date": "2001-12-24",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "18893",
+        "title": "依然范特西",
+        "artists": [
+          {
+            "artist_id": "6452",
+            "name": "周杰伦"
+          }
+        ],
+        "release_date": "2006-09-04",
+        "region_field_observations": []
+      }
+    ],
+    "error_category": null
+  },
+  {
+    "probe_id": "historical-ea",
+    "query": "Fleetwood Mac Rumours",
+    "reason": "检查历史欧美专辑搜索结果是否直接返回地区或语种字段",
+    "success": true,
+    "returned_album_count": 10,
+    "albums": [
+      {
+        "netease_album_id": "1637054",
+        "title": "Rumours",
+        "artists": [
+          {
+            "artist_id": "56788",
+            "name": "Fleetwood Mac"
+          }
+        ],
+        "release_date": "1977-02-03",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "39487866",
+        "title": "Fleetwood Mac Rumours: Solo Cello",
+        "artists": [
+          {
+            "artist_id": "12996762",
+            "name": "Solo Sounds"
+          },
+          {
+            "artist_id": "14051914",
+            "name": "Trevor Exter"
+          }
+        ],
+        "release_date": "2017-02-02",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "74045678",
+        "title": "Rumours (Deluxe Edition)",
+        "artists": [
+          {
+            "artist_id": "56788",
+            "name": "Fleetwood Mac"
+          }
+        ],
+        "release_date": "1977-02-03",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "34548249",
+        "title": "Rumours (Super Deluxe)",
+        "artists": [
+          {
+            "artist_id": "56788",
+            "name": "Fleetwood Mac"
+          }
+        ],
+        "release_date": "1977-02-03",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "280926646",
+        "title": "Rumours Tour 1978 - Tiger Stadium, Baton Rouge (Live)",
+        "artists": [
+          {
+            "artist_id": "56788",
+            "name": "Fleetwood Mac"
+          }
+        ],
+        "release_date": "2025-09-11",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "260901",
+        "title": "Rumours (Roughs & Outtakes, Early Demos, and Jam Sessions)",
+        "artists": [
+          {
+            "artist_id": "56788",
+            "name": "Fleetwood Mac"
+          }
+        ],
+        "release_date": "1977-02-03",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "82932663",
+        "title": "Live... Rumours Tour, LA 1978 -Remastered",
+        "artists": [
+          {
+            "artist_id": "56788",
+            "name": "Fleetwood Mac"
+          }
+        ],
+        "release_date": "2019-11-06",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "37513374",
+        "title": "Rumours: The String Quartet Tribute To Fleetwood Mac",
+        "artists": [
+          {
+            "artist_id": "104696",
+            "name": "Vitamin String Quartet"
+          }
+        ],
+        "release_date": "2000-07-06",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "174087616",
+        "title": "Rumours Live",
+        "artists": [
+          {
+            "artist_id": "56788",
+            "name": "Fleetwood Mac"
+          }
+        ],
+        "release_date": "2023-09-07",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "85772913",
+        "title": "A Tribute to Fleetwood Mac",
+        "artists": [
+          {
+            "artist_id": "13419185",
+            "name": "Rhiannon & the Rumours"
+          }
+        ],
+        "release_date": "2006-03-20",
+        "region_field_observations": []
+      }
+    ],
+    "error_category": null
+  },
+  {
+    "probe_id": "multi-artist-soundtrack",
+    "query": "Lady Gaga Bradley Cooper A Star Is Born Soundtrack",
+    "reason": "检查多艺术家原声专辑的字段形态和归类歧义",
+    "success": true,
+    "returned_album_count": 0,
+    "albums": [],
+    "error_category": null
+  }
+]

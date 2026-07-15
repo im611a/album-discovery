@@ -1,0 +1,119 @@
+{
+  "artist_probes": [
+    {
+      "probe_id": "existing-cui-jian",
+      "query": "崔健",
+      "known_artist_id": "2111",
+      "source_sample_id": "cn-cui-jian-1989",
+      "manual_control_note": "中国大陆边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-dao-lang",
+      "query": "刀郎",
+      "known_artist_id": "2517",
+      "source_sample_id": "cn-dao-lang-2023",
+      "manual_control_note": "中国大陆边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-eason-chan",
+      "query": "陈奕迅",
+      "known_artist_id": "2116",
+      "source_sample_id": "hk-eason-chan-2005",
+      "manual_control_note": "香港边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-leslie-cheung",
+      "query": "张国荣",
+      "known_artist_id": "6457",
+      "source_sample_id": "hk-leslie-cheung-1996",
+      "manual_control_note": "香港边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-jay-chou",
+      "query": "周杰伦",
+      "known_artist_id": "6452",
+      "source_sample_id": "tw-jay-chou-2001",
+      "manual_control_note": "台湾边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-no-party-for-cao-dong",
+      "query": "草东没有派对",
+      "known_artist_id": "1161122",
+      "source_sample_id": "tw-no-party-for-cao-dong-2023",
+      "manual_control_note": "台湾边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-fleetwood-mac",
+      "query": "Fleetwood Mac",
+      "known_artist_id": "56788",
+      "source_sample_id": "west-fleetwood-mac-1977",
+      "manual_control_note": "欧美频道边界对照；不是艺术家国籍证据"
+    },
+    {
+      "probe_id": "existing-beyonce",
+      "query": "Beyoncé",
+      "known_artist_id": "48436",
+      "source_sample_id": "west-beyonce-2013",
+      "manual_control_note": "欧美频道边界对照；不是艺术家国籍证据"
+    },
+    {
+      "probe_id": "existing-hikaru-utada",
+      "query": "宇多田ヒカル",
+      "known_artist_id": "18122",
+      "source_sample_id": "jp-hikaru-utada-1999",
+      "manual_control_note": "日本频道边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-ryuichi-sakamoto",
+      "query": "坂本龍一",
+      "known_artist_id": "15289",
+      "source_sample_id": "jp-ryuichi-sakamoto-2023",
+      "manual_control_note": "日本频道边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-bts",
+      "query": "BTS (防弹少年团)",
+      "known_artist_id": "783124",
+      "source_sample_id": "kr-bts-2020",
+      "manual_control_note": "韩国频道边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "existing-iu",
+      "query": "IU",
+      "known_artist_id": "160947",
+      "source_sample_id": "kr-iu-2017",
+      "manual_control_note": "韩国频道边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "boundary-stefanie-sun",
+      "query": "孙燕姿",
+      "known_artist_id": null,
+      "source_sample_id": null,
+      "manual_control_note": "新加坡华语艺术家边界对照；仅作人工比较，不作为接口证据"
+    },
+    {
+      "probe_id": "boundary-vivian-chan",
+      "query": "陈慧敏",
+      "known_artist_id": null,
+      "source_sample_id": null,
+      "manual_control_note": "澳门艺术家边界对照；仅作人工比较，不作为接口证据"
+    }
+  ],
+  "album_search_probes": [
+    {
+      "probe_id": "historical-zh",
+      "query": "周杰伦 范特西",
+      "reason": "检查历史华语专辑搜索结果是否直接返回地区或语种字段"
+    },
+    {
+      "probe_id": "historical-ea",
+      "query": "Fleetwood Mac Rumours",
+      "reason": "检查历史欧美专辑搜索结果是否直接返回地区或语种字段"
+    },
+    {
+      "probe_id": "multi-artist-soundtrack",
+      "query": "Lady Gaga Bradley Cooper A Star Is Born Soundtrack",
+      "reason": "检查多艺术家原声专辑的字段形态和归类歧义"
+    }
+  ]
+}

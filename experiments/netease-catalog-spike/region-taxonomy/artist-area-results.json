@@ -1,0 +1,338 @@
+[
+  {
+    "probe_id": "existing-cui-jian",
+    "query": "崔健",
+    "source_sample_id": "cn-cui-jian-1989",
+    "manual_control_note": "中国大陆边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "2111",
+      "selected_artist_name": "崔健",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "2111",
+      "artist_name": "崔健",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-dao-lang",
+    "query": "刀郎",
+    "source_sample_id": "cn-dao-lang-2023",
+    "manual_control_note": "中国大陆边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "2517",
+      "selected_artist_name": "刀郎",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "2517",
+      "artist_name": "刀郎",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-eason-chan",
+    "query": "陈奕迅",
+    "source_sample_id": "hk-eason-chan-2005",
+    "manual_control_note": "香港边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "2116",
+      "selected_artist_name": "陈奕迅",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "2116",
+      "artist_name": "陈奕迅",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-leslie-cheung",
+    "query": "张国荣",
+    "source_sample_id": "hk-leslie-cheung-1996",
+    "manual_control_note": "香港边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "6457",
+      "selected_artist_name": "张国荣",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "6457",
+      "artist_name": "张国荣",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-jay-chou",
+    "query": "周杰伦",
+    "source_sample_id": "tw-jay-chou-2001",
+    "manual_control_note": "台湾边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "6452",
+      "selected_artist_name": "周杰伦",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "6452",
+      "artist_name": "周杰伦",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-no-party-for-cao-dong",
+    "query": "草东没有派对",
+    "source_sample_id": "tw-no-party-for-cao-dong-2023",
+    "manual_control_note": "台湾边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 2,
+      "selected_artist_id": "1161122",
+      "selected_artist_name": "草东没有派对",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "1161122",
+      "artist_name": "草东没有派对",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-fleetwood-mac",
+    "query": "Fleetwood Mac",
+    "source_sample_id": "west-fleetwood-mac-1977",
+    "manual_control_note": "欧美频道边界对照；不是艺术家国籍证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "56788",
+      "selected_artist_name": "Fleetwood Mac",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "56788",
+      "artist_name": "Fleetwood Mac",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-beyonce",
+    "query": "Beyoncé",
+    "source_sample_id": "west-beyonce-2013",
+    "manual_control_note": "欧美频道边界对照；不是艺术家国籍证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "48436",
+      "selected_artist_name": "Beyoncé",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "48436",
+      "artist_name": "Beyoncé",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-hikaru-utada",
+    "query": "宇多田ヒカル",
+    "source_sample_id": "jp-hikaru-utada-1999",
+    "manual_control_note": "日本频道边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "18122",
+      "selected_artist_name": "宇多田ヒカル",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "18122",
+      "artist_name": "宇多田ヒカル",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-ryuichi-sakamoto",
+    "query": "坂本龍一",
+    "source_sample_id": "jp-ryuichi-sakamoto-2023",
+    "manual_control_note": "日本频道边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "15289",
+      "selected_artist_name": "坂本龍一",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "15289",
+      "artist_name": "坂本龍一",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-bts",
+    "query": "BTS (防弹少年团)",
+    "source_sample_id": "kr-bts-2020",
+    "manual_control_note": "韩国频道边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "783124",
+      "selected_artist_name": "BTS (防弹少年团)",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "783124",
+      "artist_name": "BTS (防弹少年团)",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "existing-iu",
+    "query": "IU",
+    "source_sample_id": "kr-iu-2017",
+    "manual_control_note": "韩国频道边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "160947",
+      "selected_artist_name": "IU",
+      "selection_method": "known_015a_artist_id",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "160947",
+      "artist_name": "IU",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "boundary-stefanie-sun",
+    "query": "孙燕姿",
+    "source_sample_id": null,
+    "manual_control_note": "新加坡华语艺术家边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 10,
+      "selected_artist_id": "9272",
+      "selected_artist_name": "孙燕姿",
+      "selection_method": "exact_normalized_name",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "9272",
+      "artist_name": "孙燕姿",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  },
+  {
+    "probe_id": "boundary-vivian-chan",
+    "query": "陈慧敏",
+    "source_sample_id": null,
+    "manual_control_note": "澳门艺术家边界对照；仅作人工比较，不作为接口证据",
+    "manual_control_is_api_evidence": false,
+    "search": {
+      "success": true,
+      "candidate_count": 5,
+      "selected_artist_id": "1042003",
+      "selected_artist_name": "陈慧敏",
+      "selection_method": "exact_normalized_name",
+      "region_field_observations": [],
+      "error_category": null
+    },
+    "detail": {
+      "success": true,
+      "endpoint": "/api/v1/artist/:id",
+      "artist_id": "1042003",
+      "artist_name": "陈慧敏",
+      "region_field_observations": [],
+      "error_category": null
+    }
+  }
+]

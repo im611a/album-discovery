@@ -1,0 +1,100 @@
+{
+  "definition": "Primary overlap uses ZH, EA, JP, and KR only. Duplicate membership rate is (memberships - unique IDs) / memberships.",
+  "album_overlap": {
+    "total_memberships": 40,
+    "unique_items": 40,
+    "items_in_multiple_channels": 0,
+    "excess_memberships": 0,
+    "duplicate_membership_rate_percentage": 0,
+    "multi_channel_item_rate_percentage": 0,
+    "duplicated_items": []
+  },
+  "artist_overlap": {
+    "total_memberships": 62,
+    "unique_items": 62,
+    "items_in_multiple_channels": 0,
+    "excess_memberships": 0,
+    "duplicate_membership_rate_percentage": 0,
+    "multi_channel_item_rate_percentage": 0,
+    "duplicated_items": []
+  },
+  "pairwise_album_overlap": [
+    {
+      "left_area": "ZH",
+      "right_area": "EA",
+      "common_album_count": 0,
+      "common_album_ids": [],
+      "jaccard_percentage": 0
+    },
+    {
+      "left_area": "ZH",
+      "right_area": "JP",
+      "common_album_count": 0,
+      "common_album_ids": [],
+      "jaccard_percentage": 0
+    },
+    {
+      "left_area": "ZH",
+      "right_area": "KR",
+      "common_album_count": 0,
+      "common_album_ids": [],
+      "jaccard_percentage": 0
+    },
+    {
+      "left_area": "EA",
+      "right_area": "JP",
+      "common_album_count": 0,
+      "common_album_ids": [],
+      "jaccard_percentage": 0
+    },
+    {
+      "left_area": "EA",
+      "right_area": "KR",
+      "common_album_count": 0,
+      "common_album_ids": [],
+      "jaccard_percentage": 0
+    },
+    {
+      "left_area": "JP",
+      "right_area": "KR",
+      "common_album_count": 0,
+      "common_album_ids": [],
+      "jaccard_percentage": 0
+    }
+  ],
+  "all_control_overlap": [
+    {
+      "area": "ZH",
+      "common_with_all_count": 3,
+      "common_with_all_ids": [
+        "386884453",
+        "387217523",
+        "386378826"
+      ]
+    },
+    {
+      "area": "EA",
+      "common_with_all_count": 1,
+      "common_with_all_ids": [
+        "387054833"
+      ]
+    },
+    {
+      "area": "JP",
+      "common_with_all_count": 0,
+      "common_with_all_ids": []
+    },
+    {
+      "area": "KR",
+      "common_with_all_count": 6,
+      "common_with_all_ids": [
+        "385520132",
+        "385921161",
+        "385913101",
+        "385003126",
+        "385916848",
+        "386682082"
+      ]
+    }
+  ]
+}

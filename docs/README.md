@@ -8,6 +8,7 @@ Stage 0.1 documentation is split by responsibility:
 - [NETEASE_CATALOG_STRATEGY.md](./NETEASE_CATALOG_STRATEGY.md): future catalog ingestion strategy
 - [NETEASE_FEASIBILITY_PLAN.md](./NETEASE_FEASIBILITY_PLAN.md): gated 0.15 validation plan
 - [NETEASE_FEASIBILITY_REPORT.md](./NETEASE_FEASIBILITY_REPORT.md): bounded 0.15A experiment evidence and risks
+- [NETEASE_REGION_TAXONOMY_REPORT.md](./NETEASE_REGION_TAXONOMY_REPORT.md): bounded 0.15B market-channel and region-signal evidence
 - [RYM_IMPORT_STRATEGY.md](./RYM_IMPORT_STRATEGY.md): authorized offline import strategy
 - [RYM_TAXONOMY.md](./RYM_TAXONOMY.md): rating and taxonomy semantics
 - [OPEN_SOURCE_REFERENCES.md](./OPEN_SOURCE_REFERENCES.md): dated public-repository audit

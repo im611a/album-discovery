@@ -1,0 +1,747 @@
+[
+  {
+    "area_requested": "ALL",
+    "success": true,
+    "returned_album_count": 10,
+    "albums": [
+      {
+        "netease_album_id": "387054833",
+        "title": "Rattle The Cage",
+        "artists": [
+          {
+            "artist_id": "40422",
+            "name": "Nickelback"
+          },
+          {
+            "artist_id": "35345",
+            "name": "John 5"
+          }
+        ],
+        "release_date": "2026-07-15",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386884453",
+        "title": "窗边盼望",
+        "artists": [
+          {
+            "artist_id": "12281745",
+            "name": "吴宇深"
+          },
+          {
+            "artist_id": "100003508",
+            "name": "小羊unicorn"
+          }
+        ],
+        "release_date": "2026-07-15",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "387217523",
+        "title": "吹吹山顶的风",
+        "artists": [
+          {
+            "artist_id": "29810609",
+            "name": "巴扎黑"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385520132",
+        "title": "이상한 나라에 오신 것을 환영합니다.",
+        "artists": [
+          {
+            "artist_id": "126239295",
+            "name": "아더 (0ther)"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385921161",
+        "title": "SAVE ME",
+        "artists": [
+          {
+            "artist_id": "954248",
+            "name": "权珍雅"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385913101",
+        "title": "TEMPERATURE",
+        "artists": [
+          {
+            "artist_id": "1046471",
+            "name": "李旼赫"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385003126",
+        "title": "바다 가자 (2026) X 여름 에피소드",
+        "artists": [
+          {
+            "artist_id": "126235284",
+            "name": "송하예"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385916848",
+        "title": "Forever July",
+        "artists": [
+          {
+            "artist_id": "818678",
+            "name": "宣美"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386378826",
+        "title": "那一眼",
+        "artists": [
+          {
+            "artist_id": "33563937",
+            "name": "王赛罕娜"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386682082",
+        "title": "Love Me Not",
+        "artists": [
+          {
+            "artist_id": "12403052",
+            "name": "Dept"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      }
+    ],
+    "album_area_field_count": 0,
+    "error_category": null
+  },
+  {
+    "area_requested": "ZH",
+    "success": true,
+    "returned_album_count": 10,
+    "albums": [
+      {
+        "netease_album_id": "386884453",
+        "title": "窗边盼望",
+        "artists": [
+          {
+            "artist_id": "12281745",
+            "name": "吴宇深"
+          },
+          {
+            "artist_id": "100003508",
+            "name": "小羊unicorn"
+          }
+        ],
+        "release_date": "2026-07-15",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "387217523",
+        "title": "吹吹山顶的风",
+        "artists": [
+          {
+            "artist_id": "29810609",
+            "name": "巴扎黑"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386378826",
+        "title": "那一眼",
+        "artists": [
+          {
+            "artist_id": "33563937",
+            "name": "王赛罕娜"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386877428",
+        "title": "诗敬薄情人",
+        "artists": [
+          {
+            "artist_id": "35243745",
+            "name": "云汐"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386849800",
+        "title": "毕业生 GRADUATING FROM A CHAPTER OF LIFE",
+        "artists": [
+          {
+            "artist_id": "804159",
+            "name": "阿力普"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386322023",
+        "title": "醉心江湖",
+        "artists": [
+          {
+            "artist_id": "32399227",
+            "name": "王巨星"
+          },
+          {
+            "artist_id": "33849924",
+            "name": "黄恩昱"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "384653629",
+        "title": "Topic 6: 拾 Decennium",
+        "artists": [
+          {
+            "artist_id": "32587260",
+            "name": "体熊专科"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386632533",
+        "title": "Upward Spiral (扶瑶直上)",
+        "artists": [
+          {
+            "artist_id": "50275485",
+            "name": "KKECHO"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "387010610",
+        "title": "从沙至浪",
+        "artists": [
+          {
+            "artist_id": "30588657",
+            "name": "Mikann耙耙柑"
+          },
+          {
+            "artist_id": "12482079",
+            "name": "Knocker"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386815599",
+        "title": "Mysterious Path",
+        "artists": [
+          {
+            "artist_id": "96206577",
+            "name": "拗拗 NeoNew"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      }
+    ],
+    "album_area_field_count": 0,
+    "error_category": null
+  },
+  {
+    "area_requested": "EA",
+    "success": true,
+    "returned_album_count": 10,
+    "albums": [
+      {
+        "netease_album_id": "387054833",
+        "title": "Rattle The Cage",
+        "artists": [
+          {
+            "artist_id": "40422",
+            "name": "Nickelback"
+          },
+          {
+            "artist_id": "35345",
+            "name": "John 5"
+          }
+        ],
+        "release_date": "2026-07-15",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "387098310",
+        "title": "I Knew You Were Waiting (For Me)",
+        "artists": [
+          {
+            "artist_id": "66786",
+            "name": "Meshell Ndegeocello"
+          },
+          {
+            "artist_id": "14805650",
+            "name": "Cynthia Erivo"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "382102088",
+        "title": "I Want You",
+        "artists": [
+          {
+            "artist_id": "12289501",
+            "name": "Memorial"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "387085583",
+        "title": "Moana (Trilha Sonora Original/Edição Deluxe)",
+        "artists": [
+          {
+            "artist_id": "38689",
+            "name": "Lin-Manuel Miranda"
+          },
+          {
+            "artist_id": "39909",
+            "name": "Mark Mancina"
+          },
+          {
+            "artist_id": "49375134",
+            "name": "Te Vaka"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "387082346",
+        "title": "Pop para Niños",
+        "artists": [
+          {
+            "artist_id": "104700",
+            "name": "Various Artists"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386698737",
+        "title": "You Know What I Mean (Live at Perkins Palace, Pasadena, CA, 1982)",
+        "artists": [
+          {
+            "artist_id": "41132",
+            "name": "Phil Collins"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "387086438",
+        "title": "Moana (Trilha Sonora Original)",
+        "artists": [
+          {
+            "artist_id": "38689",
+            "name": "Lin-Manuel Miranda"
+          },
+          {
+            "artist_id": "125402793",
+            "name": "Catherine Laga'aia"
+          },
+          {
+            "artist_id": "246477",
+            "name": "Dwayne Johnson"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "382506628",
+        "title": "Pinewood Prison",
+        "artists": [
+          {
+            "artist_id": "57305153",
+            "name": "Ashleigh Graham"
+          },
+          {
+            "artist_id": "125565770",
+            "name": "Ashleigh Graham & Appalachian Highway"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "387086100",
+        "title": "\"A Gentle Classical Breeze: Bach, Beethoven & more\"",
+        "artists": [
+          {
+            "artist_id": "28510",
+            "name": "Antonio Vivaldi"
+          },
+          {
+            "artist_id": "804174",
+            "name": "Wolfgang Amadeus Mozart"
+          },
+          {
+            "artist_id": "33737",
+            "name": "Frédéric François Chopin"
+          },
+          {
+            "artist_id": "38731",
+            "name": "Ludwig van Beethoven"
+          },
+          {
+            "artist_id": "231393",
+            "name": "Pyotr Ilyich Tchaikovsky"
+          },
+          {
+            "artist_id": "29976",
+            "name": "Claude Debussy"
+          },
+          {
+            "artist_id": "39435",
+            "name": "Maurice Ravel"
+          },
+          {
+            "artist_id": "60942",
+            "name": "Johannes Brahms"
+          },
+          {
+            "artist_id": "129782",
+            "name": "Felix Mendelssohn"
+          },
+          {
+            "artist_id": "123521",
+            "name": "Erik Satie"
+          },
+          {
+            "artist_id": "33363",
+            "name": "Franz Schubert"
+          },
+          {
+            "artist_id": "36490",
+            "name": "Johann Sebastian Bach"
+          },
+          {
+            "artist_id": "31197139",
+            "name": "George frideric Handel"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "384831206",
+        "title": "Switchblade",
+        "artists": [
+          {
+            "artist_id": "29639890",
+            "name": "beabadoobee"
+          }
+        ],
+        "release_date": "2026-07-13",
+        "region_field_observations": []
+      }
+    ],
+    "album_area_field_count": 0,
+    "error_category": null
+  },
+  {
+    "area_requested": "JP",
+    "success": true,
+    "returned_album_count": 10,
+    "albums": [
+      {
+        "netease_album_id": "384937179",
+        "title": "∞劣等星",
+        "artists": [
+          {
+            "artist_id": "28083218",
+            "name": "七音阿卡莉"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "380322261",
+        "title": "黄身加熱中",
+        "artists": [
+          {
+            "artist_id": "1120106",
+            "name": "高橋李依"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386699077",
+        "title": "イッツ・ア・ニューデイ (feat. MONKEY MAJIK)",
+        "artists": [
+          {
+            "artist_id": "47664578",
+            "name": "SKRYU"
+          },
+          {
+            "artist_id": "20453",
+            "name": "MONKEY MAJIK"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386604846",
+        "title": "PLAYER (feat. 初音ミク)",
+        "artists": [
+          {
+            "artist_id": "0",
+            "name": "Lil ZiLLA"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "384880424",
+        "title": "sweet home",
+        "artists": [
+          {
+            "artist_id": "47426916",
+            "name": "八木海莉"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385342937",
+        "title": "おでかけしましょう (feat. 初音ミク)",
+        "artists": [
+          {
+            "artist_id": "57685947",
+            "name": "Not Secret Track"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386816618",
+        "title": "太郎山ハ晴天ナリ (feat. 初音ミク)",
+        "artists": [
+          {
+            "artist_id": "124437867",
+            "name": "まるまど"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385465716",
+        "title": "いちごドバイチョコもち (feat. 初音ミク) [韓国語版]",
+        "artists": [
+          {
+            "artist_id": "52985987",
+            "name": "ヒろアキ・スヌーキィ"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385469624",
+        "title": "硝子の拍手 (feat. 初音ミク)",
+        "artists": [
+          {
+            "artist_id": "47026954",
+            "name": "エグゼチューン"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "384881221",
+        "title": "NEW GAME",
+        "artists": [
+          {
+            "artist_id": "12457051",
+            "name": "halca"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      }
+    ],
+    "album_area_field_count": 0,
+    "error_category": null
+  },
+  {
+    "area_requested": "KR",
+    "success": true,
+    "returned_album_count": 10,
+    "albums": [
+      {
+        "netease_album_id": "385520132",
+        "title": "이상한 나라에 오신 것을 환영합니다.",
+        "artists": [
+          {
+            "artist_id": "126239295",
+            "name": "아더 (0ther)"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385921161",
+        "title": "SAVE ME",
+        "artists": [
+          {
+            "artist_id": "954248",
+            "name": "权珍雅"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385913101",
+        "title": "TEMPERATURE",
+        "artists": [
+          {
+            "artist_id": "1046471",
+            "name": "李旼赫"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385003126",
+        "title": "바다 가자 (2026) X 여름 에피소드",
+        "artists": [
+          {
+            "artist_id": "126235284",
+            "name": "송하예"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385916848",
+        "title": "Forever July",
+        "artists": [
+          {
+            "artist_id": "818678",
+            "name": "宣美"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386682082",
+        "title": "Love Me Not",
+        "artists": [
+          {
+            "artist_id": "12403052",
+            "name": "Dept"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "384843532",
+        "title": "우린 그렇게 끝난 거야",
+        "artists": [
+          {
+            "artist_id": "31113346",
+            "name": "Huie"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385917615",
+        "title": "내일도 출근! OST Part.7",
+        "artists": [
+          {
+            "artist_id": "126333531",
+            "name": "조가을"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "385112911",
+        "title": "물보라",
+        "artists": [
+          {
+            "artist_id": "33923281",
+            "name": "BehindtheMoon"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      },
+      {
+        "netease_album_id": "386835331",
+        "title": "Ride or Die",
+        "artists": [
+          {
+            "artist_id": "126521288",
+            "name": "엔엑스온(NXON)"
+          }
+        ],
+        "release_date": "2026-07-14",
+        "region_field_observations": []
+      }
+    ],
+    "album_area_field_count": 0,
+    "error_category": null
+  }
+]

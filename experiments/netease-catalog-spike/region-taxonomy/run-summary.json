@@ -1,0 +1,109 @@
+{
+  "stage": "0.15B",
+  "started_at": "2026-07-15T15:00:58.029Z",
+  "completed_at": "2026-07-15T15:02:13.194Z",
+  "runtime": {
+    "node": "v24.18.0",
+    "platform": "win32",
+    "architecture": "x64"
+  },
+  "domains_accessed": [
+    "music.163.com"
+  ],
+  "access_method": "Direct anonymous Node.js fetch to public music.163.com metadata endpoints",
+  "credentials": {
+    "login_used": false,
+    "cookie_used": false,
+    "token_used": false,
+    "authorization_used": false,
+    "custom_headers_used": false,
+    "browser_data_used": false,
+    "proxy_used": false
+  },
+  "limits": {
+    "max_requests": 40,
+    "min_gap_ms": 2000,
+    "max_retry_per_failure": 1,
+    "concurrency": 1,
+    "channel_item_limit": 10,
+    "max_artist_probes": 16
+  },
+  "input_reuse": {
+    "normalized_015a_samples_read_locally": 17,
+    "album_details_re_requested": 0
+  },
+  "validation": {
+    "normalized_015a_count": 17,
+    "artist_probe_count": 14,
+    "album_search_probe_count": 3,
+    "channel_probe_count": 5,
+    "expected_base_requests": 36,
+    "retry_reserve": 4
+  },
+  "requests": {
+    "total": 36,
+    "successful": 36,
+    "failed": 0,
+    "blocked": 0,
+    "retries": 0
+  },
+  "blocked_tests": [],
+  "channel_results": [
+    {
+      "area_requested": "ALL",
+      "success": true,
+      "returned_album_count": 10,
+      "album_area_field_count": 0,
+      "error_category": null
+    },
+    {
+      "area_requested": "ZH",
+      "success": true,
+      "returned_album_count": 10,
+      "album_area_field_count": 0,
+      "error_category": null
+    },
+    {
+      "area_requested": "EA",
+      "success": true,
+      "returned_album_count": 10,
+      "album_area_field_count": 0,
+      "error_category": null
+    },
+    {
+      "area_requested": "JP",
+      "success": true,
+      "returned_album_count": 10,
+      "album_area_field_count": 0,
+      "error_category": null
+    },
+    {
+      "area_requested": "KR",
+      "success": true,
+      "returned_album_count": 10,
+      "album_area_field_count": 0,
+      "error_category": null
+    }
+  ],
+  "artist_results": {
+    "probes": 14,
+    "search_successes": 14,
+    "confident_search_matches": 14,
+    "detail_successes": 14,
+    "search_area_field_count": 0,
+    "detail_area_field_count": 0,
+    "observed_area_values": [],
+    "area_semantics_confirmed": false
+  },
+  "album_search_results": {
+    "probes": 3,
+    "successes": 3,
+    "albums_with_region_like_fields": 0
+  },
+  "overlap_summary": {
+    "album_duplicate_membership_rate_percentage": 0,
+    "album_multi_channel_item_rate_percentage": 0,
+    "artist_duplicate_membership_rate_percentage": 0
+  },
+  "evidence_boundary": "Channel parameters are request-side market labels. Manual controls and channel membership are not artist nationality or album origin fields."
+}
