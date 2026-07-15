@@ -1,0 +1,2620 @@
+[
+  {
+    "sample_id": "cn-cui-jian-1989",
+    "sample_region_group": "mainland_china",
+    "match_score": 21,
+    "netease_album_id": "6311",
+    "title": "新长征路上的摇滚",
+    "aliases": [],
+    "artists": [
+      "崔健"
+    ],
+    "artist_ids": [
+      "2111"
+    ],
+    "release_date": "1989-01-31",
+    "release_year": 1989,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "东西音乐",
+    "cover_url": "https://p1.music.126.net/lMEmMiiyItFKrPg610JvOA==/109951167411733685.jpg",
+    "track_count": 8,
+    "tracks": [
+      {
+        "netease_track_id": "63705",
+        "title": "新长征路上的摇滚",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "崔健"
+        ],
+        "duration_ms": 281861
+      },
+      {
+        "netease_track_id": "63708",
+        "title": "不再掩饰",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "崔健"
+        ],
+        "duration_ms": 321773
+      },
+      {
+        "netease_track_id": "63711",
+        "title": "让我睡个好觉",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "崔健"
+        ],
+        "duration_ms": 236866
+      },
+      {
+        "netease_track_id": "63713",
+        "title": "花房姑娘",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "崔健"
+        ],
+        "duration_ms": 289666
+      },
+      {
+        "netease_track_id": "63715",
+        "title": "假行僧",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "崔健"
+        ],
+        "duration_ms": 297332
+      },
+      {
+        "netease_track_id": "63717",
+        "title": "从头再来",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "崔健"
+        ],
+        "duration_ms": 309840
+      },
+      {
+        "netease_track_id": "63719",
+        "title": "出走",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "崔健"
+        ],
+        "duration_ms": 328706
+      },
+      {
+        "netease_track_id": "63725",
+        "title": "不是我不明白",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "崔健"
+        ],
+        "duration_ms": 311225
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=6311",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:02.212Z"
+  },
+  {
+    "sample_id": "cn-dou-wei-1994",
+    "sample_region_group": "mainland_china",
+    "match_score": 21,
+    "netease_album_id": "7608",
+    "title": "黑梦",
+    "aliases": [],
+    "artists": [
+      "窦唯"
+    ],
+    "artist_ids": [
+      "2515"
+    ],
+    "release_date": "1994-10-05",
+    "release_year": 1994,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "滚石唱片",
+    "cover_url": "https://p2.music.126.net/R0wMPraoQqedutLeQz2okA==/109951163269912492.jpg",
+    "track_count": 10,
+    "tracks": [
+      {
+        "netease_track_id": "77444",
+        "title": "明天更漫长",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 271680
+      },
+      {
+        "netease_track_id": "77447",
+        "title": "黑色梦中",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 283746
+      },
+      {
+        "netease_track_id": "77449",
+        "title": "还有你",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 354733
+      },
+      {
+        "netease_track_id": "77452",
+        "title": "开心电话",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 237666
+      },
+      {
+        "netease_track_id": "77455",
+        "title": "从命",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 277280
+      },
+      {
+        "netease_track_id": "77458",
+        "title": "感觉时刻",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 230400
+      },
+      {
+        "netease_track_id": "77462",
+        "title": "悲伤的梦",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 368400
+      },
+      {
+        "netease_track_id": "77466",
+        "title": "噢！乖",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 317493
+      },
+      {
+        "netease_track_id": "77470",
+        "title": "高级动物",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 278826
+      },
+      {
+        "netease_track_id": "77474",
+        "title": "上帝保佑",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "窦唯"
+        ],
+        "duration_ms": 225133
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=7608",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:06.507Z"
+  },
+  {
+    "sample_id": "cn-omnipotent-youth-society-2020",
+    "sample_region_group": "mainland_china",
+    "match_score": 21,
+    "netease_album_id": "120605500",
+    "title": "冀西南林路行",
+    "aliases": [],
+    "artists": [
+      "万能青年旅店"
+    ],
+    "artist_ids": [
+      "13223"
+    ],
+    "release_date": "2020-12-21",
+    "release_year": 2020,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "郊眠寺",
+    "cover_url": "https://p2.music.126.net/aEehIWg8Qk5DXLGf0XZHqw==/109951166554891221.jpg",
+    "track_count": 9,
+    "tracks": [
+      {
+        "netease_track_id": "1805289472",
+        "title": "冀西南林路行 (专辑全长)",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 2662000
+      },
+      {
+        "netease_track_id": "1805289409",
+        "title": "早",
+        "track_number": 1,
+        "disc_number": 2,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 83650
+      },
+      {
+        "netease_track_id": "1805290276",
+        "title": "泥河",
+        "track_number": 2,
+        "disc_number": 2,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 348318
+      },
+      {
+        "netease_track_id": "1805289390",
+        "title": "平等云雾",
+        "track_number": 3,
+        "disc_number": 2,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 86273
+      },
+      {
+        "netease_track_id": "1805289454",
+        "title": "采石",
+        "track_number": 4,
+        "disc_number": 2,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 536167
+      },
+      {
+        "netease_track_id": "1805289414",
+        "title": "山雀",
+        "track_number": 5,
+        "disc_number": 2,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 198032
+      },
+      {
+        "netease_track_id": "1805290245",
+        "title": "绕越",
+        "track_number": 6,
+        "disc_number": 2,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 163471
+      },
+      {
+        "netease_track_id": "1805290318",
+        "title": "河北墨麒麟",
+        "track_number": 7,
+        "disc_number": 2,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 688001
+      },
+      {
+        "netease_track_id": "1805290301",
+        "title": "郊眠寺",
+        "track_number": 8,
+        "disc_number": 2,
+        "artists": [
+          "万能青年旅店"
+        ],
+        "duration_ms": 580491
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=120605500",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:10.727Z"
+  },
+  {
+    "sample_id": "cn-dao-lang-2023",
+    "sample_region_group": "mainland_china",
+    "match_score": 21,
+    "netease_album_id": "169512732",
+    "title": "山歌寥哉",
+    "aliases": [],
+    "artists": [
+      "刀郎"
+    ],
+    "artist_ids": [
+      "2517"
+    ],
+    "release_date": "2023-07-18",
+    "release_year": 2023,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "旭润音乐",
+    "cover_url": "https://p2.music.126.net/hsIpIgKpGlUlaHPF-qIKcQ==/109951168735465189.jpg",
+    "track_count": 22,
+    "tracks": [
+      {
+        "netease_track_id": "2063486972",
+        "title": "序曲",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 281247
+      },
+      {
+        "netease_track_id": "2063487880",
+        "title": "罗刹海市",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 332800
+      },
+      {
+        "netease_track_id": "2063486974",
+        "title": "花妖",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 275698
+      },
+      {
+        "netease_track_id": "2063487882",
+        "title": "镜听",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 255444
+      },
+      {
+        "netease_track_id": "2063486977",
+        "title": "路南柯",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 288580
+      },
+      {
+        "netease_track_id": "2063486979",
+        "title": "颠倒歌",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 218026
+      },
+      {
+        "netease_track_id": "2063487884",
+        "title": "画壁",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 250274
+      },
+      {
+        "netease_track_id": "2063487885",
+        "title": "珠儿",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 250898
+      },
+      {
+        "netease_track_id": "2063486982",
+        "title": "翩翩",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 272918
+      },
+      {
+        "netease_track_id": "2063487887",
+        "title": "画皮",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 286383
+      },
+      {
+        "netease_track_id": "2063486984",
+        "title": "未来的底片",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 290877
+      },
+      {
+        "netease_track_id": "2063486973",
+        "title": "序曲（伴奏）",
+        "track_number": 12,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 284165
+      },
+      {
+        "netease_track_id": "2063487881",
+        "title": "罗刹海市（伴奏）",
+        "track_number": 13,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 332800
+      },
+      {
+        "netease_track_id": "2063486975",
+        "title": "花妖（伴奏）",
+        "track_number": 14,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 283486
+      },
+      {
+        "netease_track_id": "2063486976",
+        "title": "镜听（伴奏）",
+        "track_number": 15,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 276000
+      },
+      {
+        "netease_track_id": "2063486978",
+        "title": "路南柯（伴奏）",
+        "track_number": 16,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 282941
+      },
+      {
+        "netease_track_id": "2063487883",
+        "title": "颠倒歌（伴奏）",
+        "track_number": 17,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 218571
+      },
+      {
+        "netease_track_id": "2063486980",
+        "title": "画壁（伴奏）",
+        "track_number": 18,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 269836
+      },
+      {
+        "netease_track_id": "2063486981",
+        "title": "珠儿（伴奏）",
+        "track_number": 19,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 257560
+      },
+      {
+        "netease_track_id": "2063487886",
+        "title": "翩翩（伴奏）",
+        "track_number": 20,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 285168
+      },
+      {
+        "netease_track_id": "2063486983",
+        "title": "画皮（伴奏）",
+        "track_number": 21,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 289500
+      },
+      {
+        "netease_track_id": "2063487888",
+        "title": "未来的底片（伴奏）",
+        "track_number": 22,
+        "disc_number": 1,
+        "artists": [
+          "刀郎"
+        ],
+        "duration_ms": 290877
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=169512732",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:15.001Z"
+  },
+  {
+    "sample_id": "cn-chen-li-2015",
+    "sample_region_group": "mainland_china",
+    "match_score": 21,
+    "netease_album_id": "3098832",
+    "title": "如也",
+    "aliases": [],
+    "artists": [
+      "陈粒"
+    ],
+    "artist_ids": [
+      "1007170"
+    ],
+    "release_date": "2015-02-01",
+    "release_year": 2015,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "独立发行",
+    "cover_url": "https://p1.music.126.net/VuJFMbXzpAProbJPoXLv7g==/7721870161993398.jpg",
+    "track_count": 15,
+    "tracks": [
+      {
+        "netease_track_id": "30431365",
+        "title": "不灭",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 233599
+      },
+      {
+        "netease_track_id": "30431374",
+        "title": "如也",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 209599
+      },
+      {
+        "netease_track_id": "30431366",
+        "title": "奇妙能力歌",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 253090
+      },
+      {
+        "netease_track_id": "30431375",
+        "title": "历历万乡",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 212307
+      },
+      {
+        "netease_track_id": "30431364",
+        "title": "光",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 141176
+      },
+      {
+        "netease_track_id": "30431378",
+        "title": "贪得",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 452541
+      },
+      {
+        "netease_track_id": "30431373",
+        "title": "七楼",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 189305
+      },
+      {
+        "netease_track_id": "30431376",
+        "title": "易燃易爆炸",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 200347
+      },
+      {
+        "netease_track_id": "30431377",
+        "title": "绝对占有 相对自由",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 336000
+      },
+      {
+        "netease_track_id": "30431369",
+        "title": "脱缰",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 267130
+      },
+      {
+        "netease_track_id": "30431367",
+        "title": "走马",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 235555
+      },
+      {
+        "netease_track_id": "30431368",
+        "title": "祝星",
+        "track_number": 12,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 198000
+      },
+      {
+        "netease_track_id": "30431370",
+        "title": "正趣果上果",
+        "track_number": 13,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 222315
+      },
+      {
+        "netease_track_id": "30431371",
+        "title": "20 times you",
+        "track_number": 14,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 161239
+      },
+      {
+        "netease_track_id": "30431372",
+        "title": "五言",
+        "track_number": 15,
+        "disc_number": 1,
+        "artists": [
+          "陈粒"
+        ],
+        "duration_ms": 248470
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=3098832",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:19.234Z"
+  },
+  {
+    "sample_id": "hk-eason-chan-2005",
+    "sample_region_group": "hong_kong",
+    "match_score": 21,
+    "netease_album_id": "6491",
+    "title": "U87",
+    "aliases": [],
+    "artists": [
+      "陈奕迅"
+    ],
+    "artist_ids": [
+      "2116"
+    ],
+    "release_date": "2005-06-06",
+    "release_year": 2005,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "Cinepoly Records Co. Ltd.",
+    "cover_url": "https://p2.music.126.net/W9imJx0w_JeCGGs43dfjFg==/109951171529987110.jpg",
+    "track_count": 13,
+    "tracks": [
+      {
+        "netease_track_id": "66261",
+        "title": "烂",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 256026
+      },
+      {
+        "netease_track_id": "66265",
+        "title": "阿牛",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 202040
+      },
+      {
+        "netease_track_id": "66272",
+        "title": "夕阳无限好",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 244784
+      },
+      {
+        "netease_track_id": "66277",
+        "title": "16月6日 晴",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 223466
+      },
+      {
+        "netease_track_id": "66282",
+        "title": "浮夸",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 283520
+      },
+      {
+        "netease_track_id": "66285",
+        "title": "葡萄成熟时",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 279846
+      },
+      {
+        "netease_track_id": "66288",
+        "title": "三个人的探戈",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 197320
+      },
+      {
+        "netease_track_id": "66291",
+        "title": "不良嗜好",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 216613
+      },
+      {
+        "netease_track_id": "66297",
+        "title": "怕死",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 253680
+      },
+      {
+        "netease_track_id": "66300",
+        "title": "大个女",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 236533
+      },
+      {
+        "netease_track_id": "66302",
+        "title": "新美人主义",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 215600
+      },
+      {
+        "netease_track_id": "66304",
+        "title": "遇见了你",
+        "track_number": 12,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 252786
+      },
+      {
+        "netease_track_id": "478736220",
+        "title": "夕阳无限好 (只是近黄昏) (Remix)",
+        "track_number": 13,
+        "disc_number": 1,
+        "artists": [
+          "陈奕迅"
+        ],
+        "duration_ms": 247710
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=6491",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:23.487Z"
+  },
+  {
+    "sample_id": "hk-leslie-cheung-1996",
+    "sample_region_group": "hong_kong",
+    "match_score": 21,
+    "netease_album_id": "19038",
+    "title": "红",
+    "aliases": [],
+    "artists": [
+      "张国荣"
+    ],
+    "artist_ids": [
+      "6457"
+    ],
+    "release_date": "1996-11-25",
+    "release_year": 1996,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "滚石唱片",
+    "cover_url": "https://p1.music.126.net/dT9-qe7tusHneOHdxxIN2A==/109951165341227016.jpg",
+    "track_count": 11,
+    "tracks": [
+      {
+        "netease_track_id": "187907",
+        "title": "Prologue",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 15560
+      },
+      {
+        "netease_track_id": "187909",
+        "title": "偷情",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 296983
+      },
+      {
+        "netease_track_id": "187912",
+        "title": "有心人",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 268720
+      },
+      {
+        "netease_track_id": "187916",
+        "title": "还有谁",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 204466
+      },
+      {
+        "netease_track_id": "187919",
+        "title": "谈情说爱",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 233200
+      },
+      {
+        "netease_track_id": "187923",
+        "title": "你我之间",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 249093
+      },
+      {
+        "netease_track_id": "187927",
+        "title": "怨男",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 219266
+      },
+      {
+        "netease_track_id": "187931",
+        "title": "怪你过份美丽",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 297466
+      },
+      {
+        "netease_track_id": "187935",
+        "title": "不想拥抱我的人",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 232040
+      },
+      {
+        "netease_track_id": "187939",
+        "title": "意犹未尽",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 224106
+      },
+      {
+        "netease_track_id": "187943",
+        "title": "红",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "张国荣"
+        ],
+        "duration_ms": 285667
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=19038",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:27.767Z"
+  },
+  {
+    "sample_id": "tw-jay-chou-2001",
+    "sample_region_group": "taiwan",
+    "match_score": 21,
+    "netease_album_id": "18915",
+    "title": "范特西",
+    "aliases": [
+      "Fantasy"
+    ],
+    "artists": [
+      "周杰伦"
+    ],
+    "artist_ids": [
+      "6452"
+    ],
+    "release_date": "2001-09-13",
+    "release_year": 2001,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "",
+    "cover_url": "https://p2.music.126.net/7R4UhE4MBErGHvI-dB3Rzg==/109951165606034156.jpg",
+    "track_count": 10,
+    "tracks": [
+      {
+        "netease_track_id": "186114",
+        "title": "爱在西元前",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 234253
+      },
+      {
+        "netease_track_id": "186116",
+        "title": "爸，我回来了",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 235000
+      },
+      {
+        "netease_track_id": "186119",
+        "title": "简单爱",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 270000
+      },
+      {
+        "netease_track_id": "186122",
+        "title": "忍者",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 158000
+      },
+      {
+        "netease_track_id": "186125",
+        "title": "开不了口",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 284000
+      },
+      {
+        "netease_track_id": "186128",
+        "title": "上海一九四三",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 195000
+      },
+      {
+        "netease_track_id": "186131",
+        "title": "对不起",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 225413
+      },
+      {
+        "netease_track_id": "186134",
+        "title": "威廉古堡",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 236000
+      },
+      {
+        "netease_track_id": "186137",
+        "title": "双截棍",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 201000
+      },
+      {
+        "netease_track_id": "186139",
+        "title": "安静",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "周杰伦"
+        ],
+        "duration_ms": 334000
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=18915",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:32.023Z"
+  },
+  {
+    "sample_id": "tw-no-party-for-cao-dong-2023",
+    "sample_region_group": "taiwan",
+    "match_score": 21,
+    "netease_album_id": "162870766",
+    "title": "瓦合",
+    "aliases": [],
+    "artists": [
+      "草东没有派对"
+    ],
+    "artist_ids": [
+      "1161122"
+    ],
+    "release_date": "2023-05-19",
+    "release_year": 2023,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "草東沒有派對",
+    "cover_url": "https://p1.music.126.net/m2uGF_-L70GUIB1MOpeaug==/109951168605260513.jpg",
+    "track_count": 11,
+    "tracks": [
+      {
+        "netease_track_id": "2046562631",
+        "title": "苦难精算师",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 245946
+      },
+      {
+        "netease_track_id": "2046562196",
+        "title": "缸",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 186506
+      },
+      {
+        "netease_track_id": "2046562197",
+        "title": "空",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 177653
+      },
+      {
+        "netease_track_id": "2046562632",
+        "title": "人洞山",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 207719
+      },
+      {
+        "netease_track_id": "2046562198",
+        "title": "孑",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 55321
+      },
+      {
+        "netease_track_id": "2046035293",
+        "title": "白日梦",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 224626
+      },
+      {
+        "netease_track_id": "2035279723",
+        "title": "床",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 232480
+      },
+      {
+        "netease_track_id": "2046562201",
+        "title": "八",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 226666
+      },
+      {
+        "netease_track_id": "2046562202",
+        "title": "老张",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 219120
+      },
+      {
+        "netease_track_id": "2046562633",
+        "title": "芽",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 192226
+      },
+      {
+        "netease_track_id": "2035320743",
+        "title": "但",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "草东没有派对"
+        ],
+        "duration_ms": 142266
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=162870766",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:36.302Z"
+  },
+  {
+    "sample_id": "west-fleetwood-mac-1977",
+    "sample_region_group": "europe_us",
+    "match_score": 21,
+    "netease_album_id": "1637054",
+    "title": "Rumours",
+    "aliases": [],
+    "artists": [
+      "Fleetwood Mac"
+    ],
+    "artist_ids": [
+      "56788"
+    ],
+    "release_date": "1977-02-03",
+    "release_year": 1977,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "华纳音乐",
+    "cover_url": "https://p1.music.126.net/svXnPDSxzzslKUUQMN9LEg==/109951166142676546.jpg",
+    "track_count": 11,
+    "tracks": [
+      {
+        "netease_track_id": "17786166",
+        "title": "Second Hand News (2004 Remaster)",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 176306
+      },
+      {
+        "netease_track_id": "17786167",
+        "title": "Dreams (2004 Remaster)",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 257800
+      },
+      {
+        "netease_track_id": "17786168",
+        "title": "Never Going Back Again (2004 Remaster)",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 134400
+      },
+      {
+        "netease_track_id": "17786169",
+        "title": "Don't Stop (2004 Remaster)",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 193346
+      },
+      {
+        "netease_track_id": "17786170",
+        "title": "Go Your Own Way (2004 Remaster)",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 223613
+      },
+      {
+        "netease_track_id": "17786171",
+        "title": "Songbird (2004 Remaster)",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 200813
+      },
+      {
+        "netease_track_id": "17786172",
+        "title": "The Chain (2004 Remaster)",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 268200
+      },
+      {
+        "netease_track_id": "17786173",
+        "title": "You Make Loving Fun (2004 Remaster)",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 213693
+      },
+      {
+        "netease_track_id": "17786174",
+        "title": "I Don't Want to Know (2004 Remaster)",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 196853
+      },
+      {
+        "netease_track_id": "17786175",
+        "title": "Oh Daddy (2004 Remaster)",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 236240
+      },
+      {
+        "netease_track_id": "17786176",
+        "title": "Gold Dust Woman (2004 Remaster)",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "duration_ms": 295626
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=1637054",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:40.575Z"
+  },
+  {
+    "sample_id": "west-joni-mitchell-1971",
+    "sample_region_group": "europe_us",
+    "match_score": 21,
+    "netease_album_id": "1724200",
+    "title": "Blue",
+    "aliases": [],
+    "artists": [
+      "Joni Mitchell"
+    ],
+    "artist_ids": [
+      "60926"
+    ],
+    "release_date": "1971-06-21",
+    "release_year": 1971,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "华纳音乐",
+    "cover_url": "https://p1.music.126.net/Nx8Y73m71TanFOPu-NvYLA==/109951168962592467.jpg",
+    "track_count": 10,
+    "tracks": [
+      {
+        "netease_track_id": "18822213",
+        "title": "All I Want",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 214350
+      },
+      {
+        "netease_track_id": "18822215",
+        "title": "My Old Man",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 214826
+      },
+      {
+        "netease_track_id": "18822217",
+        "title": "Little Green",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 207670
+      },
+      {
+        "netease_track_id": "18822218",
+        "title": "Carey",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 182906
+      },
+      {
+        "netease_track_id": "18822220",
+        "title": "Blue",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 185380
+      },
+      {
+        "netease_track_id": "18822222",
+        "title": "California",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 230226
+      },
+      {
+        "netease_track_id": "18822223",
+        "title": "This Flight Tonight",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 172600
+      },
+      {
+        "netease_track_id": "18822225",
+        "title": "River",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 245040
+      },
+      {
+        "netease_track_id": "18822228",
+        "title": "A Case of You",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 263546
+      },
+      {
+        "netease_track_id": "18822230",
+        "title": "The Last Time I Saw Richard",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "duration_ms": 255470
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=1724200",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:44.875Z"
+  },
+  {
+    "sample_id": "west-beyonce-2013",
+    "sample_region_group": "europe_us",
+    "match_score": 21,
+    "netease_album_id": "2732013",
+    "title": "BEYONCÉ",
+    "aliases": [],
+    "artists": [
+      "Beyoncé"
+    ],
+    "artist_ids": [
+      "48436"
+    ],
+    "release_date": "2013-12-12",
+    "release_year": 2013,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "索尼音乐",
+    "cover_url": "https://p2.music.126.net/t2iq9DT03PJ46vbZyFZGMw==/109951167893012212.jpg",
+    "track_count": 14,
+    "tracks": [
+      {
+        "netease_track_id": "28111061",
+        "title": "Pretty Hurts",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 257718
+      },
+      {
+        "netease_track_id": "28111062",
+        "title": "Haunted",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 369040
+      },
+      {
+        "netease_track_id": "28111063",
+        "title": "Drunk in Love",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé",
+          "JAY-Z"
+        ],
+        "duration_ms": 323480
+      },
+      {
+        "netease_track_id": "28111064",
+        "title": "Blow",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 309720
+      },
+      {
+        "netease_track_id": "28111065",
+        "title": "No Angel",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 228693
+      },
+      {
+        "netease_track_id": "28111067",
+        "title": "Partition",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 319466
+      },
+      {
+        "netease_track_id": "28111066",
+        "title": "Jealous",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 184013
+      },
+      {
+        "netease_track_id": "28111068",
+        "title": "Rocket",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 391906
+      },
+      {
+        "netease_track_id": "28111069",
+        "title": "Mine",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé",
+          "Drake"
+        ],
+        "duration_ms": 378671
+      },
+      {
+        "netease_track_id": "28111070",
+        "title": "XO",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 216015
+      },
+      {
+        "netease_track_id": "28111071",
+        "title": "***Flawless",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé",
+          "Chimamanda Ngozi Adichie"
+        ],
+        "duration_ms": 250960
+      },
+      {
+        "netease_track_id": "28111072",
+        "title": "Superpower",
+        "track_number": 12,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé",
+          "Frank Ocean"
+        ],
+        "duration_ms": 276560
+      },
+      {
+        "netease_track_id": "28111073",
+        "title": "Heaven",
+        "track_number": 13,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé"
+        ],
+        "duration_ms": 230893
+      },
+      {
+        "netease_track_id": "28111074",
+        "title": "Blue",
+        "track_number": 14,
+        "disc_number": 1,
+        "artists": [
+          "Beyoncé",
+          "Blue Ivy"
+        ],
+        "duration_ms": 266920
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=2732013",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:49.200Z"
+  },
+  {
+    "sample_id": "west-billie-eilish-2024",
+    "sample_region_group": "europe_us",
+    "match_score": 21,
+    "netease_album_id": "195498828",
+    "title": "HIT ME HARD AND SOFT",
+    "aliases": [],
+    "artists": [
+      "Billie Eilish"
+    ],
+    "artist_ids": [
+      "11972054"
+    ],
+    "release_date": "2024-05-16",
+    "release_year": 2024,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "Darkroom/Interscope Records",
+    "cover_url": "https://p1.music.126.net/NZOnDqpyTA45AWL8kGsqxg==/109951169679537837.jpg",
+    "track_count": 10,
+    "tracks": [
+      {
+        "netease_track_id": "2154850317",
+        "title": "SKINNY",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 219733
+      },
+      {
+        "netease_track_id": "2154851100",
+        "title": "LUNCH",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 179586
+      },
+      {
+        "netease_track_id": "2154850330",
+        "title": "CHIHIRO",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 303440
+      },
+      {
+        "netease_track_id": "2154850334",
+        "title": "BIRDS OF A FEATHER",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 210373
+      },
+      {
+        "netease_track_id": "2154851107",
+        "title": "WILDFLOWER",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 261466
+      },
+      {
+        "netease_track_id": "2154851115",
+        "title": "THE GREATEST",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 293840
+      },
+      {
+        "netease_track_id": "2154850369",
+        "title": "L’AMOUR DE MA VIE",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 333986
+      },
+      {
+        "netease_track_id": "2154851128",
+        "title": "THE DINER",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 186346
+      },
+      {
+        "netease_track_id": "2154851130",
+        "title": "BITTERSUITE",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 298440
+      },
+      {
+        "netease_track_id": "2154851136",
+        "title": "BLUE",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "Billie Eilish"
+        ],
+        "duration_ms": 343120
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=195498828",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:53.460Z"
+  },
+  {
+    "sample_id": "jp-hikaru-utada-1999",
+    "sample_region_group": "japan",
+    "match_score": 21,
+    "netease_album_id": "2093862",
+    "title": "First Love",
+    "aliases": [],
+    "artists": [
+      "宇多田ヒカル"
+    ],
+    "artist_ids": [
+      "18122"
+    ],
+    "release_date": "1999-03-09",
+    "release_year": 1999,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "Universal Music LLC",
+    "cover_url": "https://p2.music.126.net/qoZkuf7BYl4hRi2vSSEXWQ==/109951165561290057.jpg",
+    "track_count": 12,
+    "tracks": [
+      {
+        "netease_track_id": "22786076",
+        "title": "Automatic (Album Edit)",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 328000
+      },
+      {
+        "netease_track_id": "22786079",
+        "title": "Movin' on Without You",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 278000
+      },
+      {
+        "netease_track_id": "22786080",
+        "title": "In My Room",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 259000
+      },
+      {
+        "netease_track_id": "22786083",
+        "title": "First Love",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 257893
+      },
+      {
+        "netease_track_id": "22786077",
+        "title": "甘いワナ 〜Paint It, Black",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 302000
+      },
+      {
+        "netease_track_id": "22786075",
+        "title": "Time Will Tell",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 327000
+      },
+      {
+        "netease_track_id": "22786082",
+        "title": "Never Let Go",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 237000
+      },
+      {
+        "netease_track_id": "22786084",
+        "title": "B&C (Album Version)",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 260000
+      },
+      {
+        "netease_track_id": "22786081",
+        "title": "Another Chance",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 322000
+      },
+      {
+        "netease_track_id": "22786085",
+        "title": "Interlude",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 17000
+      },
+      {
+        "netease_track_id": "22786074",
+        "title": "Give Me a Reason",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 387000
+      },
+      {
+        "netease_track_id": "22786078",
+        "title": "Automatic -Johnny Vicious Remix-",
+        "track_number": 12,
+        "disc_number": 1,
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "duration_ms": 277000
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=2093862",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:37:59.934Z"
+  },
+  {
+    "sample_id": "jp-ryuichi-sakamoto-2023",
+    "sample_region_group": "japan",
+    "match_score": 21,
+    "netease_album_id": "158396696",
+    "title": "12",
+    "aliases": [],
+    "artists": [
+      "坂本龍一"
+    ],
+    "artist_ids": [
+      "15289"
+    ],
+    "release_date": "2023-01-16",
+    "release_year": 2023,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "索尼音乐",
+    "cover_url": "https://p1.music.126.net/9RQk-id8py5mXPDPdW-Urg==/109951168266817739.jpg",
+    "track_count": 12,
+    "tracks": [
+      {
+        "netease_track_id": "2015301661",
+        "title": "20210310",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 413547
+      },
+      {
+        "netease_track_id": "2015299022",
+        "title": "20211130",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 322315
+      },
+      {
+        "netease_track_id": "2015301667",
+        "title": "20211201",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 332393
+      },
+      {
+        "netease_track_id": "2015301678",
+        "title": "20220123",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 520753
+      },
+      {
+        "netease_track_id": "2015299053",
+        "title": "20220202",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 382618
+      },
+      {
+        "netease_track_id": "2015299070",
+        "title": "20220207",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 422394
+      },
+      {
+        "netease_track_id": "2015299072",
+        "title": "20220214",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 549848
+      },
+      {
+        "netease_track_id": "2015299074",
+        "title": "20220302 - sarabande",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 190482
+      },
+      {
+        "netease_track_id": "2015299084",
+        "title": "20220302",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 172338
+      },
+      {
+        "netease_track_id": "2015301725",
+        "title": "20220307",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 151138
+      },
+      {
+        "netease_track_id": "2015301730",
+        "title": "20220404",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 146425
+      },
+      {
+        "netease_track_id": "2015301740",
+        "title": "20220304",
+        "track_number": 12,
+        "disc_number": 1,
+        "artists": [
+          "坂本龍一"
+        ],
+        "duration_ms": 68661
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=158396696",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:38:04.227Z"
+  },
+  {
+    "sample_id": "kr-bts-2020",
+    "sample_region_group": "south_korea",
+    "match_score": 17,
+    "netease_album_id": "85783683",
+    "title": "MAP OF THE SOUL : 7",
+    "aliases": [],
+    "artists": [
+      "BTS (防弹少年团)"
+    ],
+    "artist_ids": [
+      "783124"
+    ],
+    "release_date": "2020-02-20",
+    "release_year": 2020,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "BigHit Entertainment",
+    "cover_url": "https://p2.music.126.net/PunfNNRGPT-tFm-fWPXTrA==/109951164715215423.jpg",
+    "track_count": 20,
+    "tracks": [
+      {
+        "netease_track_id": "1423933879",
+        "title": "Intro : Persona",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 171023
+      },
+      {
+        "netease_track_id": "1423933886",
+        "title": "Boy With Luv (Feat. Halsey)",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)",
+          "Halsey"
+        ],
+        "duration_ms": 229773
+      },
+      {
+        "netease_track_id": "1423946141",
+        "title": "Make It Right",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 226321
+      },
+      {
+        "netease_track_id": "1423947037",
+        "title": "Jamais Vu",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 227275
+      },
+      {
+        "netease_track_id": "1423947042",
+        "title": "Dionysus",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 249215
+      },
+      {
+        "netease_track_id": "1423946148",
+        "title": "Interlude : Shadow",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 259821
+      },
+      {
+        "netease_track_id": "1423947046",
+        "title": "Black Swan",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 198260
+      },
+      {
+        "netease_track_id": "1423946152",
+        "title": "Filter",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 180220
+      },
+      {
+        "netease_track_id": "1423946275",
+        "title": "My Time",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 234457
+      },
+      {
+        "netease_track_id": "1423947250",
+        "title": "Louder than bombs",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 217404
+      },
+      {
+        "netease_track_id": "1423947272",
+        "title": "ON",
+        "track_number": 11,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 246380
+      },
+      {
+        "netease_track_id": "1423946338",
+        "title": "UGH!",
+        "track_number": 12,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 225012
+      },
+      {
+        "netease_track_id": "1423947288",
+        "title": "00:00 (Zero O'Clock)",
+        "track_number": 13,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 250295
+      },
+      {
+        "netease_track_id": "1423946349",
+        "title": "Inner Child",
+        "track_number": 14,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 233265
+      },
+      {
+        "netease_track_id": "1423946361",
+        "title": "Friends",
+        "track_number": 15,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 199338
+      },
+      {
+        "netease_track_id": "1423946371",
+        "title": "Moon",
+        "track_number": 16,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 208589
+      },
+      {
+        "netease_track_id": "1423946385",
+        "title": "Respect",
+        "track_number": 17,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 237540
+      },
+      {
+        "netease_track_id": "1423946406",
+        "title": "We are Bulletproof : the Eternal",
+        "track_number": 18,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 261542
+      },
+      {
+        "netease_track_id": "1423947407",
+        "title": "Outro : Ego",
+        "track_number": 19,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "duration_ms": 196198
+      },
+      {
+        "netease_track_id": "1426865109",
+        "title": "ON (Feat. Sia)",
+        "track_number": 20,
+        "disc_number": 1,
+        "artists": [
+          "BTS (防弹少年团)",
+          "Sia"
+        ],
+        "duration_ms": 246816
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=85783683",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:38:08.588Z"
+  },
+  {
+    "sample_id": "kr-iu-2017",
+    "sample_region_group": "south_korea",
+    "match_score": 21,
+    "netease_album_id": "35377328",
+    "title": "Palette",
+    "aliases": [],
+    "artists": [
+      "IU"
+    ],
+    "artist_ids": [
+      "160947"
+    ],
+    "release_date": "2017-04-20",
+    "release_year": 2017,
+    "album_type": "专辑",
+    "sub_type": "录音室版",
+    "company": "Kakao Entertainment Corp.",
+    "cover_url": "https://p2.music.126.net/xkhgl4GIaEe3cMD9j3ypDw==/109951169726240514.jpg",
+    "track_count": 10,
+    "tracks": [
+      {
+        "netease_track_id": "473873430",
+        "title": "이 지금",
+        "track_number": 1,
+        "disc_number": 1,
+        "artists": [
+          "IU"
+        ],
+        "duration_ms": 176098
+      },
+      {
+        "netease_track_id": "473873431",
+        "title": "팔레트",
+        "track_number": 2,
+        "disc_number": 1,
+        "artists": [
+          "IU",
+          "G-DRAGON"
+        ],
+        "duration_ms": 217412
+      },
+      {
+        "netease_track_id": "473873432",
+        "title": "이런 엔딩",
+        "track_number": 3,
+        "disc_number": 1,
+        "artists": [
+          "IU"
+        ],
+        "duration_ms": 249241
+      },
+      {
+        "netease_track_id": "473873433",
+        "title": "사랑이 잘",
+        "track_number": 4,
+        "disc_number": 1,
+        "artists": [
+          "IU",
+          "吴赫"
+        ],
+        "duration_ms": 195230
+      },
+      {
+        "netease_track_id": "473873434",
+        "title": "잼잼",
+        "track_number": 5,
+        "disc_number": 1,
+        "artists": [
+          "IU"
+        ],
+        "duration_ms": 218160
+      },
+      {
+        "netease_track_id": "473873435",
+        "title": "Black Out",
+        "track_number": 6,
+        "disc_number": 1,
+        "artists": [
+          "IU"
+        ],
+        "duration_ms": 227700
+      },
+      {
+        "netease_track_id": "473873436",
+        "title": "마침표",
+        "track_number": 7,
+        "disc_number": 1,
+        "artists": [
+          "IU"
+        ],
+        "duration_ms": 236188
+      },
+      {
+        "netease_track_id": "473873437",
+        "title": "밤편지",
+        "track_number": 8,
+        "disc_number": 1,
+        "artists": [
+          "IU"
+        ],
+        "duration_ms": 253293
+      },
+      {
+        "netease_track_id": "473873438",
+        "title": "그렇게 사랑은",
+        "track_number": 9,
+        "disc_number": 1,
+        "artists": [
+          "IU"
+        ],
+        "duration_ms": 281944
+      },
+      {
+        "netease_track_id": "473873439",
+        "title": "이름에게",
+        "track_number": 10,
+        "disc_number": 1,
+        "artists": [
+          "IU"
+        ],
+        "duration_ms": 289579
+      }
+    ],
+    "netease_url": "https://music.163.com/#/album?id=35377328",
+    "language_hint": null,
+    "region_hint": {
+      "classification": "unavailable",
+      "evidence": []
+    },
+    "source_endpoint": "/api/v1/album/:id",
+    "fetched_at": "2026-07-15T14:38:12.848Z"
+  }
+]

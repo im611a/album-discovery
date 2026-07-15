@@ -1,0 +1,248 @@
+{
+  "stage": "0.15A",
+  "started_at": "2026-07-15T14:36:59.895Z",
+  "completed_at": "2026-07-15T14:38:35.871Z",
+  "runtime": {
+    "node": "v24.18.0",
+    "platform": "win32",
+    "architecture": "x64"
+  },
+  "access_method": "Direct anonymous Node.js fetch to public music.163.com metadata endpoints",
+  "domains_accessed": [
+    "music.163.com"
+  ],
+  "credentials": {
+    "login_used": false,
+    "cookie_used": false,
+    "token_used": false,
+    "custom_headers_used": false,
+    "proxy_used": false
+  },
+  "limits": {
+    "max_requests": 60,
+    "min_gap_ms": 2000,
+    "max_retry_per_failure": 1,
+    "concurrency": 1
+  },
+  "requests": {
+    "total": 46,
+    "successful": 46,
+    "failed": 0,
+    "blocked": 0,
+    "retries": 0
+  },
+  "manifest": {
+    "sample_count": 18,
+    "region_counts": {
+      "mainland_china": 5,
+      "hong_kong": 2,
+      "taiwan": 2,
+      "europe_us": 5,
+      "japan": 2,
+      "south_korea": 2
+    },
+    "representative_of_full_catalog": false
+  },
+  "sample_results": {
+    "normalized_count": 17,
+    "failed_count": 1,
+    "failures": [
+      {
+        "sample_id": "west-star-is-born-2018",
+        "stage": "match",
+        "error": "no_confident_candidate"
+      }
+    ]
+  },
+  "blocked_capabilities": [],
+  "artist_album_probes": [
+    {
+      "id": "2111",
+      "name": "崔健",
+      "region_group": "mainland_china",
+      "success": true,
+      "returned_album_count": 10,
+      "error_category": null
+    },
+    {
+      "id": "2116",
+      "name": "陈奕迅",
+      "region_group": "hong_kong",
+      "success": true,
+      "returned_album_count": 10,
+      "error_category": null
+    },
+    {
+      "id": "6452",
+      "name": "周杰伦",
+      "region_group": "taiwan",
+      "success": true,
+      "returned_album_count": 10,
+      "error_category": null
+    },
+    {
+      "id": "56788",
+      "name": "Fleetwood Mac",
+      "region_group": "europe_us",
+      "success": true,
+      "returned_album_count": 10,
+      "error_category": null
+    },
+    {
+      "id": "18122",
+      "name": "宇多田ヒカル",
+      "region_group": "japan",
+      "success": true,
+      "returned_album_count": 10,
+      "error_category": null
+    },
+    {
+      "id": "783124",
+      "name": "BTS (防弹少年团)",
+      "region_group": "south_korea",
+      "success": true,
+      "returned_album_count": 10,
+      "error_category": null
+    }
+  ],
+  "new_release_probes": [
+    {
+      "area": "ALL",
+      "success": true,
+      "returned_album_count": 10,
+      "explicit_region_field_count": 0,
+      "region_evidence_classification": "inferred",
+      "region_evidence_note": "The area code is a request channel, not a direct per-album nationality field.",
+      "error_category": null
+    },
+    {
+      "area": "ZH",
+      "success": true,
+      "returned_album_count": 10,
+      "explicit_region_field_count": 0,
+      "region_evidence_classification": "inferred",
+      "region_evidence_note": "The area code is a request channel, not a direct per-album nationality field.",
+      "error_category": null
+    },
+    {
+      "area": "EA",
+      "success": true,
+      "returned_album_count": 10,
+      "explicit_region_field_count": 0,
+      "region_evidence_classification": "inferred",
+      "region_evidence_note": "The area code is a request channel, not a direct per-album nationality field.",
+      "error_category": null
+    },
+    {
+      "area": "JP",
+      "success": true,
+      "returned_album_count": 10,
+      "explicit_region_field_count": 0,
+      "region_evidence_classification": "inferred",
+      "region_evidence_note": "The area code is a request channel, not a direct per-album nationality field.",
+      "error_category": null
+    },
+    {
+      "area": "KR",
+      "success": true,
+      "returned_album_count": 10,
+      "explicit_region_field_count": 0,
+      "region_evidence_classification": "inferred",
+      "region_evidence_note": "The area code is a request channel, not a direct per-album nationality field.",
+      "error_category": null
+    }
+  ],
+  "field_coverage": {
+    "netease_album_id": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "title": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "aliases": {
+      "present": 1,
+      "total": 17,
+      "percentage": 5.9
+    },
+    "artists": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "artist_ids": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "release_date": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "release_year": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "album_type": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "sub_type": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "company": {
+      "present": 16,
+      "total": 17,
+      "percentage": 94.1
+    },
+    "cover_url": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "track_count": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "tracks": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "netease_url": {
+      "present": 17,
+      "total": 17,
+      "percentage": 100
+    },
+    "language_hint": {
+      "present": 0,
+      "total": 17,
+      "percentage": 0
+    },
+    "region_hint": {
+      "present": 0,
+      "total": 17,
+      "percentage": 0
+    }
+  },
+  "region_assessment": {
+    "direct_sample_count": 0,
+    "inferred_new_release_channels": [
+      "ALL",
+      "ZH",
+      "EA",
+      "JP",
+      "KR"
+    ],
+    "conclusion": "Sample region labels are test expectations only. They are never used as API-derived nationality evidence."
+  }
+}

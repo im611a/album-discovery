@@ -57,6 +57,10 @@ experiments/**/output/
 experiments/**/results/
 experiments/**/tmp/
 experiments/**/.cache/
+!experiments/netease-catalog-spike/output/
+!experiments/netease-catalog-spike/output/request-log.jsonl
+!experiments/netease-catalog-spike/output/normalized-samples.json
+!experiments/netease-catalog-spike/output/run-summary.json
 
 # vercel
 .vercel

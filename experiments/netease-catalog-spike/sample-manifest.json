@@ -1,0 +1,146 @@
+[
+  {
+    "sample_id": "cn-cui-jian-1989",
+    "region_group": "mainland_china",
+    "artist_query": "崔健",
+    "album_query": "新长征路上的摇滚",
+    "expected_release_year": 1989,
+    "reason": "Classic mainland Chinese rock album with a Chinese title."
+  },
+  {
+    "sample_id": "cn-dou-wei-1994",
+    "region_group": "mainland_china",
+    "artist_query": "窦唯",
+    "album_query": "黑梦",
+    "expected_release_year": 1994,
+    "reason": "Classic album with a short title that can produce ambiguous search results."
+  },
+  {
+    "sample_id": "cn-omnipotent-youth-society-2020",
+    "region_group": "mainland_china",
+    "artist_query": "万能青年旅店",
+    "album_query": "冀西南林路行",
+    "expected_release_year": 2020,
+    "reason": "Recent independent release with a distinctive Chinese title."
+  },
+  {
+    "sample_id": "cn-dao-lang-2023",
+    "region_group": "mainland_china",
+    "artist_query": "刀郎",
+    "album_query": "山歌寥哉",
+    "expected_release_year": 2023,
+    "reason": "Recent mainland release for modern catalog coverage."
+  },
+  {
+    "sample_id": "cn-chen-li-2015",
+    "region_group": "mainland_china",
+    "artist_query": "陈粒",
+    "album_query": "如也",
+    "expected_release_year": 2015,
+    "reason": "Solo artist album with a short Chinese title."
+  },
+  {
+    "sample_id": "hk-eason-chan-2005",
+    "region_group": "hong_kong",
+    "artist_query": "陈奕迅",
+    "album_query": "U87",
+    "expected_release_year": 2005,
+    "reason": "Hong Kong catalog sample with an alphanumeric album title."
+  },
+  {
+    "sample_id": "hk-leslie-cheung-1996",
+    "region_group": "hong_kong",
+    "artist_query": "张国荣",
+    "album_query": "红",
+    "expected_release_year": 1996,
+    "reason": "Classic Hong Kong album with a highly ambiguous one-character title."
+  },
+  {
+    "sample_id": "tw-jay-chou-2001",
+    "region_group": "taiwan",
+    "artist_query": "周杰伦",
+    "album_query": "范特西",
+    "expected_release_year": 2001,
+    "reason": "Classic Taiwan pop album with a Chinese transliteration title."
+  },
+  {
+    "sample_id": "tw-no-party-for-cao-dong-2023",
+    "region_group": "taiwan",
+    "artist_query": "草东没有派对",
+    "album_query": "瓦合",
+    "expected_release_year": 2023,
+    "reason": "Recent Taiwan band release."
+  },
+  {
+    "sample_id": "west-fleetwood-mac-1977",
+    "region_group": "europe_us",
+    "artist_query": "Fleetwood Mac",
+    "album_query": "Rumours",
+    "expected_release_year": 1977,
+    "reason": "Classic English-language band album."
+  },
+  {
+    "sample_id": "west-joni-mitchell-1971",
+    "region_group": "europe_us",
+    "artist_query": "Joni Mitchell",
+    "album_query": "Blue",
+    "expected_release_year": 1971,
+    "reason": "Classic solo album with a common and ambiguous English title."
+  },
+  {
+    "sample_id": "west-beyonce-2013",
+    "region_group": "europe_us",
+    "artist_query": "Beyoncé",
+    "album_query": "Beyoncé",
+    "expected_release_year": 2013,
+    "reason": "Self-titled album that tests artist and album name ambiguity."
+  },
+  {
+    "sample_id": "west-billie-eilish-2024",
+    "region_group": "europe_us",
+    "artist_query": "Billie Eilish",
+    "album_query": "HIT ME HARD AND SOFT",
+    "expected_release_year": 2024,
+    "reason": "Recent English-language release with uppercase styling."
+  },
+  {
+    "sample_id": "west-star-is-born-2018",
+    "region_group": "europe_us",
+    "artist_query": "Lady Gaga Bradley Cooper",
+    "album_query": "A Star Is Born Soundtrack",
+    "expected_release_year": 2018,
+    "reason": "Multi-artist soundtrack sample."
+  },
+  {
+    "sample_id": "jp-hikaru-utada-1999",
+    "region_group": "japan",
+    "artist_query": "宇多田ヒカル",
+    "album_query": "First Love",
+    "expected_release_year": 1999,
+    "reason": "Japanese artist with an English album title."
+  },
+  {
+    "sample_id": "jp-ryuichi-sakamoto-2023",
+    "region_group": "japan",
+    "artist_query": "坂本龍一",
+    "album_query": "12",
+    "expected_release_year": 2023,
+    "reason": "Recent Japanese album with an ambiguous numeric title."
+  },
+  {
+    "sample_id": "kr-bts-2020",
+    "region_group": "south_korea",
+    "artist_query": "BTS",
+    "album_query": "MAP OF THE SOUL : 7",
+    "expected_release_year": 2020,
+    "reason": "Korean group release with punctuation-sensitive English title."
+  },
+  {
+    "sample_id": "kr-iu-2017",
+    "region_group": "south_korea",
+    "artist_query": "IU",
+    "album_query": "Palette",
+    "expected_release_year": 2017,
+    "reason": "Korean solo artist with an English album title."
+  }
+]
