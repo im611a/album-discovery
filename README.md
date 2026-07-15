@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Album Discovery
 
-## Getting Started
+Album Discovery is a no-account catalog for finding albums through recent
+releases, community ratings, newly indexed records, and random discovery. It is
+currently in the documentation and architecture phase; product pages, database
+integration, and production data providers have not been implemented.
 
-First, run the development server:
+## First-version product shape
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+- Primary navigation: Home, Discover Albums, New Releases, Search.
+- Home: Recent Releases, Highly Rated Albums, Recently Added, Random Discovery.
+- Discover Albums: year, decade, release type, RYM genres, and descriptors;
+  no country, domestic/foreign, language-market, or popularity filters.
+- New Releases: may expose NetEase `ALL`, `ZH`, `EA`, `JP`, and `KR` market
+  channels with a clear source label. These are not nationality or region data.
+- Album detail: catalog facts, RYM community data, tracks, provenance, update
+  time, and one outbound NetEase album link.
+
+NetEase Cloud Music is the candidate source for album catalog, cover, tracks,
+and the only listening link. Authorized offline RYM files are the source for
+rating, rating count, Primary Genres, Secondary Genres, and Descriptors. The
+frontend will read published local snapshots and must never query either source
+live.
+
+## Local commands
+
+```text
 pnpm dev
-# or
-bun dev
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Current boundary
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Stage 0.16 only revises product and data documentation after the bounded 0.15A
+and 0.15B feasibility experiments. It does not authorize page development,
+database work, new NetEase requests, RYM access, deployment, or a production
+catalog provider. See [docs/README.md](./docs/README.md) for the documentation
+index and [docs/ROADMAP.md](./docs/ROADMAP.md) for stage gates.
