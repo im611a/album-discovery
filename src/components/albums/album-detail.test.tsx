@@ -111,17 +111,38 @@ describe("AlbumDetail", () => {
     }
   });
 
-  it("uses the same cover rendering for cards and detail pages", () => {
+  it("uses the same cover component with an independent detail size style", () => {
     const result = getAlbumDetailById("mock-001");
     if (!result) throw new Error("Missing fixture");
 
     const card = render(<AlbumCard album={result.album} />);
     const cardCover = screen.getByRole("img", { name: "纸上月光 的虚构专辑封面" });
     expect(cardCover).toHaveClass("mock-cover", "mock-cover--orbit");
+    expect(cardCover).not.toHaveClass("mock-cover--detail");
     card.unmount();
 
     render(<AlbumDetail album={result.album} detail={result.detail} />);
     const detailCover = screen.getByRole("img", { name: "纸上月光 的虚构专辑封面" });
-    expect(detailCover).toHaveClass("mock-cover", "mock-cover--orbit");
+    expect(detailCover).toHaveClass(
+      "mock-cover",
+      "mock-cover--orbit",
+      "mock-cover--detail",
+    );
+  });
+
+  it("keeps every detail section rendered instead of hiding content for compact layouts", () => {
+    renderAlbum("mock-001");
+
+    for (const heading of [
+      "RYM 社区评分",
+      "流派与描述",
+      "曲目表",
+      "网易云音乐",
+      "数据来源说明",
+    ]) {
+      const section = screen.getByRole("region", { name: heading });
+      expect(section).not.toHaveAttribute("hidden");
+      expect(section).not.toHaveAttribute("aria-hidden", "true");
+    }
   });
 });

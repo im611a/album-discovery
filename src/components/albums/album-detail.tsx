@@ -52,7 +52,7 @@ export function AlbumDetail({ album, detail }: AlbumDetailProps) {
     <>
       <section className="album-hero" aria-labelledby="album-title">
         <div className="album-hero__cover">
-          <AlbumCover album={album} />
+          <AlbumCover album={album} size="detail" />
         </div>
         <div className="album-hero__content">
           <p className="eyebrow">本地虚构专辑详情</p>
