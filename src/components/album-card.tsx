@@ -1,5 +1,6 @@
 import type { MockAlbum } from "@/data/albums.mock";
 import { formatArtists } from "@/lib/albums";
+import { getDisplayLabel } from "@/lib/display-labels";
 
 import { MockAlbumCover } from "./mock-album-cover";
 
@@ -28,9 +29,9 @@ export function AlbumCard({ album }: AlbumCardProps) {
             </span>
           ) : null}
         </div>
-        <ul className="album-card__genres" aria-label="Primary Genres">
+        <ul className="album-card__genres" aria-label="主流派">
           {visibleGenres.map((genre) => (
-            <li key={genre}>{genre}</li>
+            <li key={genre}>{getDisplayLabel(genre)}</li>
           ))}
         </ul>
       </div>

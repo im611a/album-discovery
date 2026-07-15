@@ -24,7 +24,15 @@ describe("AlbumCard", () => {
   it("shows no more than two primary genres", () => {
     render(<AlbumCard album={albumsMock[8]} />);
 
-    const genres = screen.getByRole("list", { name: "Primary Genres" });
+    const genres = screen.getByRole("list", { name: "主流派" });
     expect(within(genres).getAllByRole("listitem")).toHaveLength(2);
+  });
+
+  it("uses the shared Chinese display labels for source genres", () => {
+    render(<AlbumCard album={albumsMock[3]} />);
+
+    const genres = screen.getByRole("list", { name: "主流派" });
+    expect(within(genres).getByText("另类节奏布鲁斯")).toBeInTheDocument();
+    expect(within(genres).getByText("电子")).toBeInTheDocument();
   });
 });

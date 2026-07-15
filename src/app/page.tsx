@@ -7,7 +7,7 @@ import { albumsMock } from "@/data/albums.mock";
 import { byHighestRating, byNewestRelease, byRecentlyAdded } from "@/lib/albums";
 
 export default function Home() {
-  const recentReleases = byNewestRelease(albumsMock).slice(0, 8);
+  const recentReleases = byNewestRelease(albumsMock).slice(0, 6);
   const highRatedAlbums = byHighestRating(albumsMock).slice(0, 6);
   const recentlyAddedAlbums = byRecentlyAdded(albumsMock).slice(0, 6);
   const randomCandidates = byHighestRating(albumsMock).slice(0, 8);
@@ -33,7 +33,7 @@ export default function Home() {
               linkLabel="查看全部"
               title="近期发行"
             />
-            <AlbumGrid albums={recentReleases} />
+            <AlbumGrid albums={recentReleases} layout="home" />
           </section>
 
           <section className="album-section" aria-labelledby="rated-heading">
@@ -42,7 +42,7 @@ export default function Home() {
               headingId="rated-heading"
               title="高分专辑"
             />
-            <AlbumGrid albums={highRatedAlbums} />
+            <AlbumGrid albums={highRatedAlbums} layout="home" />
           </section>
 
           <section className="album-section" aria-labelledby="added-heading">
@@ -51,7 +51,7 @@ export default function Home() {
               headingId="added-heading"
               title="最近收录"
             />
-            <AlbumGrid albums={recentlyAddedAlbums} />
+            <AlbumGrid albums={recentlyAddedAlbums} layout="home" />
           </section>
 
           <section className="album-section" aria-labelledby="random-heading">

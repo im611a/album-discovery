@@ -35,4 +35,16 @@ describe("blue-black theme", () => {
     expect(discoverCatalogSource).not.toMatch(/#[\da-f]{3,8}/i);
     expect(discoverFiltersSource).not.toMatch(/#[\da-f]{3,8}/i);
   });
+
+  it("keeps home and catalog grids as separate responsive layouts", () => {
+    expect(css).toContain(".album-grid--home");
+    expect(css).toContain("grid-template-columns: repeat(6, minmax(0, 1fr))");
+  });
+
+  it("keeps primary filters visible and hides their summary outside mobile", () => {
+    expect(css).toContain(
+      ".primary-filters:not([open]) + .primary-filters__content,\n  .primary-filters[open] + .primary-filters__content {\n    display: grid;",
+    );
+    expect(css).toContain(".primary-filters__summary {\n    display: none;");
+  });
 });

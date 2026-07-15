@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import type { MockAlbum } from "@/data/albums.mock";
 import { formatArtists } from "@/lib/albums";
+import { getDisplayLabel } from "@/lib/display-labels";
 
 import { MockAlbumCover } from "./mock-album-cover";
 
@@ -30,12 +31,12 @@ export function RandomDiscovery({ albums }: RandomDiscoveryProps) {
         <p className="random-discovery__artist">{formatArtists(album.artists)}</p>
         <div className="random-discovery__meta">
           <span>{album.releaseYear}</span>
-          <span>{album.releaseType}</span>
+          <span>{getDisplayLabel(album.releaseType)}</span>
           {album.rymScore !== null ? <span>RYM {album.rymScore.toFixed(2)}</span> : null}
         </div>
-        <ul className="random-discovery__genres" aria-label="Primary Genres">
+        <ul className="random-discovery__genres" aria-label="主流派">
           {album.primaryGenres.slice(0, 2).map((genre) => (
-            <li key={genre}>{genre}</li>
+            <li key={genre}>{getDisplayLabel(genre)}</li>
           ))}
         </ul>
         <button className="secondary-button" onClick={showNextAlbum} type="button">

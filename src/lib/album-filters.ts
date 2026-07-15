@@ -1,4 +1,5 @@
 import type { MockAlbum, ReleaseType } from "@/data/albums.mock";
+import { getDisplayLabel } from "@/lib/display-labels";
 
 export const DECADE_OPTIONS = [
   { value: "all", label: "全部年代" },
@@ -273,7 +274,12 @@ export function getActiveFilters(
     const label = RELEASE_TYPE_OPTIONS.find(
       (option) => option.value === state.releaseType,
     )?.label;
-    if (label) activeFilters.push({ key: "releaseType", label: `发行类型：${label}` });
+    if (label) {
+      activeFilters.push({
+        key: "releaseType",
+        label: `发行类型：${getDisplayLabel(label)}`,
+      });
+    }
   }
 
   const primaryGenre = optionLabel(options.primaryGenres, state.primaryGenre);
@@ -281,16 +287,22 @@ export function getActiveFilters(
   const descriptor = optionLabel(options.descriptors, state.descriptor);
 
   if (primaryGenre) {
-    activeFilters.push({ key: "primaryGenre", label: `Primary Genre：${primaryGenre}` });
+    activeFilters.push({
+      key: "primaryGenre",
+      label: `主流派：${getDisplayLabel(primaryGenre)}`,
+    });
   }
   if (secondaryGenre) {
     activeFilters.push({
       key: "secondaryGenre",
-      label: `Secondary Genre：${secondaryGenre}`,
+      label: `次要流派：${getDisplayLabel(secondaryGenre)}`,
     });
   }
   if (descriptor) {
-    activeFilters.push({ key: "descriptor", label: `Descriptor：${descriptor}` });
+    activeFilters.push({
+      key: "descriptor",
+      label: `描述标签：${getDisplayLabel(descriptor)}`,
+    });
   }
 
   return activeFilters;

@@ -53,7 +53,12 @@ export function DiscoverCatalog({ albums }: DiscoverCatalogProps) {
 
   return (
     <div className="discover-catalog">
-      <DiscoverFilters options={options} state={state} onChange={navigate} />
+      <DiscoverFilters
+        activeFilterCount={activeFilters.length}
+        options={options}
+        state={state}
+        onChange={navigate}
+      />
 
       <section className="discover-results" aria-labelledby="results-heading">
         <div className="discover-results__heading">

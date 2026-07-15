@@ -12,6 +12,17 @@ describe("Home", () => {
     }
   });
 
+  it("renders six albums in each home catalog grid", () => {
+    render(<Home />);
+
+    for (const heading of ["近期发行", "高分专辑", "最近收录"]) {
+      const section = screen.getByRole("region", { name: heading });
+
+      expect(within(section).getAllByRole("article")).toHaveLength(6);
+      expect(section.querySelector(".album-grid--home")).toBeInTheDocument();
+    }
+  });
+
   it("changes the deterministic random discovery album", () => {
     render(<Home />);
 
