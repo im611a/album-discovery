@@ -1,65 +1,70 @@
-import Image from "next/image";
+import { AlbumGrid } from "@/components/album-grid";
+import { RandomDiscovery } from "@/components/random-discovery";
+import { SectionHeading } from "@/components/section-heading";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
+import { albumsMock } from "@/data/albums.mock";
+import { byHighestRating, byNewestRelease, byRecentlyAdded } from "@/lib/albums";
 
 export default function Home() {
+  const recentReleases = byNewestRelease(albumsMock).slice(0, 8);
+  const highRatedAlbums = byHighestRating(albumsMock).slice(0, 6);
+  const recentlyAddedAlbums = byRecentlyAdded(albumsMock).slice(0, 6);
+  const randomCandidates = byHighestRating(albumsMock).slice(0, 8);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="site-shell">
+      <SiteHeader activePath="/" />
+      <main id="main-content">
+        <section className="home-intro page-container" aria-labelledby="home-title">
+          <p className="eyebrow">从一张专辑开始</p>
+          <h1 id="home-title">发现值得从头听到尾的声音。</h1>
+          <p>
+            按发行、评分与收录时间浏览，也可以把选择交给一次简单的随机发现。
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+        </section>
+
+        <div className="home-sections page-container">
+          <section className="album-section" aria-labelledby="recent-heading">
+            <SectionHeading
+              description="按发行日期排列的近期作品"
+              headingId="recent-heading"
+              href="/new-releases"
+              linkLabel="查看全部"
+              title="近期发行"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            <AlbumGrid albums={recentReleases} />
+          </section>
+
+          <section className="album-section" aria-labelledby="rated-heading">
+            <SectionHeading
+              description="兼顾社区评分与足够评分人数的专辑"
+              headingId="rated-heading"
+              title="高分专辑"
+            />
+            <AlbumGrid albums={highRatedAlbums} />
+          </section>
+
+          <section className="album-section" aria-labelledby="added-heading">
+            <SectionHeading
+              description="最近加入本站目录的条目"
+              headingId="added-heading"
+              title="最近收录"
+            />
+            <AlbumGrid albums={recentlyAddedAlbums} />
+          </section>
+
+          <section className="album-section" aria-labelledby="random-heading">
+            <SectionHeading
+              description="从基础信息完整的专辑中依次抽取"
+              headingId="random-heading"
+              title="随机发现"
+            />
+            <RandomDiscovery albums={randomCandidates} />
+          </section>
         </div>
       </main>
+      <SiteFooter />
     </div>
   );
 }
