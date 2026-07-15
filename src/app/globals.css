@@ -906,6 +906,197 @@ button {
   margin-top: 22px;
 }
 
+.new-releases-main {
+  flex: 1;
+  padding-block: 28px 56px;
+}
+
+.new-releases-intro {
+  max-width: 780px;
+}
+
+.new-releases-intro h1 {
+  margin: 0;
+  font-size: clamp(30px, 8.4vw, 56px);
+  font-weight: 680;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+}
+
+.new-releases-intro > p:last-child {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.new-releases-catalog {
+  margin-top: 22px;
+}
+
+.new-releases-loading {
+  margin: 22px 0 0;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--muted);
+}
+
+.new-releases-filter-panel {
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+
+.new-releases-filter-panel__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.new-releases-filter-panel__heading .eyebrow {
+  margin-bottom: 4px;
+}
+
+.new-releases-filter-panel__heading h2,
+.new-releases-results__heading h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 680;
+  letter-spacing: -0.02em;
+}
+
+.new-releases-filter-panel__heading > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.market-channel-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.market-channel-filter button {
+  display: inline-flex;
+  min-height: 44px;
+  max-width: 100%;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--overlay);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 650;
+  transition:
+    border-color 120ms ease,
+    background-color 120ms ease,
+    color 120ms ease;
+}
+
+.market-channel-filter button:hover {
+  border-color: var(--border-strong);
+  color: var(--foreground);
+}
+
+.market-channel-filter button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--foreground);
+}
+
+.market-channel-filter__selected {
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.new-releases-type-filter {
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.new-releases-type-filter select {
+  width: 100%;
+  min-height: 44px;
+  padding: 9px 34px 9px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--overlay);
+  color: var(--foreground);
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.new-releases-type-filter select:hover,
+.new-releases-type-filter select:focus-visible {
+  border-color: var(--accent);
+}
+
+.market-channel-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.new-releases-results {
+  margin-top: 28px;
+}
+
+.new-releases-results__heading {
+  margin-bottom: 16px;
+}
+
+.new-releases-results__heading .eyebrow {
+  margin-bottom: 5px;
+}
+
+.new-releases-results__heading strong {
+  color: var(--foreground);
+  font-variant-numeric: tabular-nums;
+}
+
+.new-releases-empty-state {
+  padding: 42px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--card);
+  text-align: center;
+}
+
+.new-releases-empty-state h3 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.new-releases-empty-state p {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.new-releases-empty-state__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
 @media (min-width: 640px) {
   .page-container {
     width: min(100% - 48px, 1240px);
@@ -985,6 +1176,33 @@ button {
   .active-filters ul {
     flex-basis: auto;
   }
+
+  .new-releases-main {
+    padding-block: 54px 88px;
+  }
+
+  .new-releases-filter-panel {
+    padding: 22px;
+  }
+
+  .new-releases-filter-panel__heading {
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+
+  .new-releases-catalog {
+    margin-top: 34px;
+  }
+
+  .new-releases-results {
+    margin-top: 38px;
+  }
+
+  .new-releases-results__heading {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 760px) {
@@ -1029,6 +1247,14 @@ button {
   }
 
   .discover-intro > p:last-child {
+    margin-top: 16px;
+  }
+
+  .new-releases-intro h1 {
+    font-size: clamp(34px, 9vw, 56px);
+  }
+
+  .new-releases-intro > p:last-child {
     margin-top: 16px;
   }
 }

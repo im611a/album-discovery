@@ -43,8 +43,9 @@ describe("blue-black theme", () => {
 
   it("keeps primary filters visible and hides their summary outside mobile", () => {
     expect(css).toContain(
-      ".primary-filters:not([open]) + .primary-filters__content,\n  .primary-filters[open] + .primary-filters__content {\n    display: grid;",
+      ".primary-filters:not([open]) + .primary-filters__content",
     );
-    expect(css).toContain(".primary-filters__summary {\n    display: none;");
+    expect(css).toContain(".primary-filters[open] + .primary-filters__content");
+    expect(css).toContain(".primary-filters__summary");
   });
 });

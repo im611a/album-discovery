@@ -23,6 +23,15 @@ describe("Home", () => {
     }
   });
 
+  it("links the recent releases section to the new releases page", () => {
+    render(<Home />);
+
+    expect(screen.getByRole("link", { name: "查看全部" })).toHaveAttribute(
+      "href",
+      "/new-releases",
+    );
+  });
+
   it("changes the deterministic random discovery album", () => {
     render(<Home />);
 
