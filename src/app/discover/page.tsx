@@ -1,11 +1,29 @@
-import { PlaceholderPage } from "@/components/placeholder-page";
+import { Suspense } from "react";
+
+import { DiscoverCatalog } from "@/components/discover/discover-catalog";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
+import { albumsMock } from "@/data/albums.mock";
 
 export default function DiscoverPage() {
   return (
-    <PlaceholderPage
-      activePath="/discover"
-      description="筛选与排序功能将在后续阶段实现；当前原型仅确认页面层级与导航关系。"
-      title="发现专辑"
-    />
+    <div className="site-shell">
+      <SiteHeader activePath="/discover" />
+      <main className="discover-main page-container" id="main-content">
+        <header className="discover-intro">
+          <p className="eyebrow">统一专辑目录</p>
+          <h1>发现专辑</h1>
+          <p>
+            按年份、发行类型和 RYM 分类浏览；所有内容当前均为本地虚构原型数据。
+          </p>
+        </header>
+        <Suspense
+          fallback={<p className="discover-loading">正在准备本地专辑目录…</p>}
+        >
+          <DiscoverCatalog albums={albumsMock} />
+        </Suspense>
+      </main>
+      <SiteFooter />
+    </div>
   );
 }
