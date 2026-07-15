@@ -35,4 +35,12 @@ describe("AlbumCard", () => {
     expect(within(genres).getByText("另类节奏布鲁斯")).toBeInTheDocument();
     expect(within(genres).getByText("电子")).toBeInTheDocument();
   });
+
+  it("links the whole card to the stable album detail slug", () => {
+    render(<AlbumCard album={albumsMock[0]} />);
+
+    const link = screen.getByRole("link", { name: "查看《纸上月光》专辑详情" });
+    expect(link).toHaveAttribute("href", "/albums/paper-moonlight");
+    expect(link).toContainElement(screen.getByRole("heading", { name: "纸上月光" }));
+  });
 });

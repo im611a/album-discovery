@@ -1,9 +1,12 @@
-import type { MockAlbum } from "@/data/albums.mock";
 import type { CSSProperties } from "react";
 
-type MockAlbumCoverProps = { album: MockAlbum };
+import type { MockAlbum } from "@/data/albums.mock";
 
-export function MockAlbumCover({ album }: MockAlbumCoverProps) {
+type AlbumCoverProps = {
+  album: Pick<MockAlbum, "cover" | "id" | "title">;
+};
+
+export function AlbumCover({ album }: AlbumCoverProps) {
   const { background, foreground, accent, motif } = album.cover;
 
   return (

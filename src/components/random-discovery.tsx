@@ -2,11 +2,10 @@
 
 import { useState } from "react";
 
+import { AlbumCover } from "@/components/albums/album-cover";
 import type { MockAlbum } from "@/data/albums.mock";
 import { formatArtists } from "@/lib/albums";
 import { getDisplayLabel } from "@/lib/display-labels";
-
-import { MockAlbumCover } from "./mock-album-cover";
 
 type RandomDiscoveryProps = {
   albums: MockAlbum[];
@@ -23,7 +22,7 @@ export function RandomDiscovery({ albums }: RandomDiscoveryProps) {
   return (
     <div className="random-discovery" aria-live="polite">
       <div className="random-discovery__cover">
-        <MockAlbumCover album={album} />
+        <AlbumCover album={album} />
       </div>
       <div className="random-discovery__content">
         <p className="eyebrow">本次发现</p>
