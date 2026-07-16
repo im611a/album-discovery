@@ -568,22 +568,182 @@ button {
   margin: 0;
 }
 
-.placeholder-main {
+.search-main {
   flex: 1;
-  padding-block: 80px;
+  padding-block: 28px 56px;
 }
 
-.placeholder-main h1 {
+.search-intro {
+  max-width: 740px;
+}
+
+.search-intro h1 {
   margin: 0;
-  font-size: clamp(34px, 8vw, 56px);
-  letter-spacing: -0.04em;
+  font-size: clamp(30px, 8.4vw, 56px);
+  font-weight: 680;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
 }
 
-.placeholder-main > p:not(.eyebrow) {
-  max-width: 560px;
-  margin: 18px 0 30px;
+.search-intro > p:last-child {
+  margin: 10px 0 0;
   color: var(--muted);
-  line-height: 1.75;
+  line-height: 1.7;
+}
+
+.search-catalog {
+  margin-top: 22px;
+}
+
+.search-loading {
+  margin: 22px 0 0;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--muted);
+}
+
+.search-panel {
+  max-width: 820px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+
+.search-form {
+  display: grid;
+  gap: 7px;
+}
+
+.search-form > label {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+.search-form__controls {
+  display: grid;
+  min-width: 0;
+  gap: 9px;
+}
+
+.search-form input {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 9px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--overlay);
+  color: var(--foreground);
+  font: inherit;
+  font-size: 14px;
+}
+
+.search-form input::placeholder {
+  color: var(--subtle);
+}
+
+.search-form input:hover,
+.search-form input:focus-visible {
+  border-color: var(--accent);
+}
+
+.search-submit-button,
+.search-clear-button {
+  min-height: 44px;
+  padding: 8px 15px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 650;
+  transition:
+    border-color 120ms ease,
+    background-color 120ms ease,
+    color 120ms ease;
+}
+
+.search-submit-button {
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.search-submit-button:hover {
+  border-color: var(--accent-hover);
+  background: var(--accent-hover);
+}
+
+.search-clear-button {
+  border: 1px solid var(--border-strong);
+  background: var(--surface-muted);
+  color: var(--muted);
+}
+
+.search-clear-button:hover {
+  border-color: var(--accent);
+  color: var(--foreground);
+}
+
+.search-initial-state,
+.search-empty-state {
+  max-width: 820px;
+  margin-top: 22px;
+  padding: 38px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--card);
+  text-align: center;
+}
+
+.search-initial-state h2,
+.search-empty-state h2 {
+  margin: 0;
+  font-size: 21px;
+}
+
+.search-initial-state p,
+.search-empty-state p {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.search-empty-state .secondary-button {
+  margin-top: 22px;
+}
+
+.search-results {
+  margin-top: 28px;
+}
+
+.search-results__heading {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.search-results__heading h2 {
+  margin: 0;
+  overflow-wrap: anywhere;
+  font-size: 20px;
+  font-weight: 680;
+  letter-spacing: -0.02em;
+}
+
+.search-results__heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.search-results__heading strong {
+  color: var(--foreground);
+  font-size: 17px;
+  font-variant-numeric: tabular-nums;
 }
 
 .discover-main {
@@ -1522,6 +1682,35 @@ button {
     justify-content: space-between;
   }
 
+  .search-main {
+    padding-block: 54px 88px;
+  }
+
+  .search-panel {
+    padding: 22px;
+  }
+
+  .search-form__controls {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+  }
+
+  .search-initial-state,
+  .search-empty-state {
+    padding: 48px 22px;
+  }
+
+  .search-results {
+    margin-top: 38px;
+  }
+
+  .search-results__heading {
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
   .discover-main {
     padding-block: 54px 88px;
   }
@@ -1748,6 +1937,18 @@ button {
 
   .discover-catalog {
     margin-top: 38px;
+  }
+
+  .search-catalog {
+    margin-top: 34px;
+  }
+
+  .search-intro h1 {
+    font-size: clamp(34px, 9vw, 56px);
+  }
+
+  .search-intro > p:last-child {
+    margin-top: 16px;
   }
 
   .discover-intro h1 {
