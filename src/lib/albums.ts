@@ -4,11 +4,16 @@ export function byNewestRelease(albums: MockAlbum[]) {
   return [...albums].sort((a, b) => b.releaseDate.localeCompare(a.releaseDate));
 }
 
-export function byHighestRating(albums: MockAlbum[]) {
+export function byHighestRating(
+  albums: MockAlbum[],
+  minimumRatingCount = 0,
+) {
   return albums
     .filter(
       (album): album is MockAlbum & { rymScore: number; rymRatingCount: number } =>
-        album.rymScore !== null && album.rymRatingCount !== null,
+        album.rymScore !== null &&
+        album.rymRatingCount !== null &&
+        album.rymRatingCount >= minimumRatingCount,
     )
     .sort(
       (a, b) =>

@@ -11,6 +11,11 @@ const discoverFiltersSource = readFileSync(
   join(process.cwd(), "src/components/discover/discover-filters.tsx"),
   "utf8",
 );
+const homeSource = readFileSync(join(process.cwd(), "src/app/page.tsx"), "utf8");
+const albumDetailSource = readFileSync(
+  join(process.cwd(), "src/components/albums/album-detail.tsx"),
+  "utf8",
+);
 
 describe("blue-black theme", () => {
   it("defines the shared blue-black design tokens", () => {
@@ -47,5 +52,22 @@ describe("blue-black theme", () => {
     );
     expect(css).toContain(".primary-filters[open] + .primary-filters__content");
     expect(css).toContain(".primary-filters__summary");
+  });
+
+  it("styles home genre entries with existing theme tokens", () => {
+    expect(homeSource).toContain('className="genre-exploration__list"');
+    expect(homeSource).not.toMatch(/#[\da-f]{3,8}/i);
+    expect(css).toContain(".genre-exploration__list");
+    expect(css).toContain("background: var(--card)");
+    expect(css).toContain("border: 1px solid var(--border)");
+  });
+
+  it("reduces rating emphasis without hiding rating content", () => {
+    expect(albumDetailSource).toContain('className="album-rating__value"');
+    expect(albumDetailSource).toContain("RYM 社区评分");
+    expect(albumDetailSource).not.toMatch(/#[\da-f]{3,8}/i);
+    expect(css).not.toMatch(
+      /\.album-rating(?:__[\w-]+)?\s*\{[^}]*(?:display:\s*none|visibility:\s*hidden)/,
+    );
   });
 });

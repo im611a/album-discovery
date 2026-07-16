@@ -13,6 +13,12 @@ function renderAlbum(albumId: string) {
   return render(<AlbumDetail album={result.album} detail={result.detail} />);
 }
 
+function expectBefore(first: Element, second: Element) {
+  expect(first.compareDocumentPosition(second) & Node.DOCUMENT_POSITION_FOLLOWING).toBe(
+    Node.DOCUMENT_POSITION_FOLLOWING,
+  );
+}
+
 describe("AlbumDetail", () => {
   it("shows the album identity and release metadata", () => {
     renderAlbum("mock-001");
@@ -93,6 +99,33 @@ describe("AlbumDetail", () => {
     expect(entry).toHaveAttribute("aria-disabled", "true");
     expect(entry).not.toHaveAttribute("href");
     expect(entry).toHaveTextContent("真实数据接入后启用");
+  });
+
+  it("places listening after the identity and before taxonomy and rating", () => {
+    const { container } = renderAlbum("mock-001");
+
+    const identity = container.querySelector(".album-hero");
+    const listening = screen.getByRole("region", { name: "网易云音乐" });
+    const taxonomy = screen.getByRole("region", { name: "流派与描述" });
+    const rating = screen.getByRole("region", { name: "RYM 社区评分" });
+
+    expect(identity).not.toBeNull();
+    expectBefore(identity as Element, listening);
+    expectBefore(listening, taxonomy);
+    expectBefore(listening, rating);
+  });
+
+  it("places taxonomy before rating, tracks, and sources", () => {
+    renderAlbum("mock-001");
+
+    const taxonomy = screen.getByRole("region", { name: "流派与描述" });
+    const rating = screen.getByRole("region", { name: "RYM 社区评分" });
+    const tracks = screen.getByRole("region", { name: "曲目表" });
+    const sources = screen.getByRole("region", { name: "数据来源说明" });
+
+    expectBefore(taxonomy, rating);
+    expectBefore(rating, tracks);
+    expectBefore(tracks, sources);
   });
 
   it("states that all detail content is fictional prototype data", () => {

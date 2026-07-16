@@ -254,6 +254,42 @@ button {
   text-underline-offset: 4px;
 }
 
+.genre-exploration__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.genre-exploration__list a {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--foreground);
+  font-size: 14px;
+  font-weight: 650;
+  transition:
+    border-color 120ms ease,
+    background-color 120ms ease;
+}
+
+.genre-exploration__list a:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.genre-exploration__list a span:last-child {
+  color: var(--accent);
+}
+
 .album-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -526,6 +562,37 @@ button {
 
 .random-discovery__genres {
   margin-top: 12px;
+}
+
+.random-discovery__actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.random-discovery__detail-link {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  padding: 8px 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface-muted);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.random-discovery__detail-link:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-hover);
+}
+
+.random-discovery__actions .secondary-button {
+  margin-top: 0;
 }
 
 .secondary-button {
@@ -1418,7 +1485,8 @@ button {
 
 .album-rating__value strong {
   color: var(--foreground);
-  font-size: clamp(28px, 8vw, 46px);
+  font-size: clamp(25px, 6vw, 36px);
+  font-weight: 650;
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.04em;
 }
@@ -1672,6 +1740,11 @@ button {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .genre-exploration__list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
   .random-discovery {
     grid-template-columns: minmax(240px, 0.85fr) minmax(0, 1.15fr);
     padding: 28px;
@@ -1837,7 +1910,7 @@ button {
   }
 
   .album-detail-grid {
-    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
     gap: 20px;
     margin-top: 40px;
   }
@@ -1852,7 +1925,7 @@ button {
   }
 
   .album-rating__value strong {
-    font-size: clamp(30px, 8vw, 46px);
+    font-size: clamp(28px, 4vw, 36px);
   }
 
   .album-detail-note {
@@ -1981,6 +2054,10 @@ button {
   }
 
   .album-grid--home {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .genre-exploration__list {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 

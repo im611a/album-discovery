@@ -7,7 +7,6 @@ import {
   formatRatingCount,
   getAlbumDetailById,
   getAlbumDetailBySlug,
-  getDiscoverTaxonomyHref,
   groupTracksByDisc,
   shouldShowTrackArtists,
 } from "@/lib/album-details";
@@ -66,23 +65,6 @@ describe("album detail data", () => {
 
   it("formats rating counts for a Chinese interface", () => {
     expect(formatRatingCount(12_480)).toMatch(/12[,，]480/);
-  });
-
-  it("builds discover links with stable source values", () => {
-    expect(getDiscoverTaxonomyHref("primaryGenre", "Art Pop")).toBe(
-      "/discover?primaryGenre=art-pop",
-    );
-    expect(getDiscoverTaxonomyHref("secondaryGenre", "Ambient Pop")).toBe(
-      "/discover?secondaryGenre=ambient-pop",
-    );
-    expect(getDiscoverTaxonomyHref("descriptor", "introspective")).toBe(
-      "/discover?descriptor=introspective",
-    );
-  });
-
-  it("does not use translated labels as discover parameter values", () => {
-    const href = getDiscoverTaxonomyHref("primaryGenre", "Art Pop");
-    expect(href).not.toContain("艺术流行");
   });
 
   it("detects multi-artist and differing track credits", () => {

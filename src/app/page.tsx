@@ -4,12 +4,21 @@ import { SectionHeading } from "@/components/section-heading";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { albumsMock } from "@/data/albums.mock";
-import { byHighestRating, byNewestRelease, byRecentlyAdded } from "@/lib/albums";
+import { getDiscoverTaxonomyHref } from "@/lib/album-filters";
+import { byHighestRating, byNewestRelease } from "@/lib/albums";
+import { getDisplayLabel } from "@/lib/display-labels";
+import {
+  V0_2_HOME_MOCK_MIN_RYM_RATING_COUNT,
+  V0_2_HOME_PRIMARY_GENRES,
+} from "@/lib/site";
+import Link from "next/link";
 
 export default function Home() {
   const recentReleases = byNewestRelease(albumsMock).slice(0, 6);
-  const highRatedAlbums = byHighestRating(albumsMock).slice(0, 6);
-  const recentlyAddedAlbums = byRecentlyAdded(albumsMock).slice(0, 6);
+  const highRatedAlbums = byHighestRating(
+    albumsMock,
+    V0_2_HOME_MOCK_MIN_RYM_RATING_COUNT,
+  ).slice(0, 6);
   const randomCandidates = byHighestRating(albumsMock).slice(0, 8);
 
   return (
@@ -20,7 +29,7 @@ export default function Home() {
           <p className="eyebrow">从一张专辑开始</p>
           <h1 id="home-title">发现值得从头听到尾的声音。</h1>
           <p>
-            按发行、评分与收录时间浏览，也可以把选择交给一次简单的随机发现。
+            按发行、评分与流派浏览，也可以把选择交给一次简单的随机发现。
           </p>
         </section>
 
@@ -38,20 +47,32 @@ export default function Home() {
 
           <section className="album-section" aria-labelledby="rated-heading">
             <SectionHeading
-              description="兼顾社区评分与足够评分人数的专辑"
+              description="从具有足够评分人数的本地原型样本中选择"
               headingId="rated-heading"
               title="高分专辑"
             />
             <AlbumGrid albums={highRatedAlbums} layout="home" />
           </section>
 
-          <section className="album-section" aria-labelledby="added-heading">
+          <section
+            className="album-section genre-exploration"
+            aria-labelledby="genres-heading"
+          >
             <SectionHeading
-              description="最近加入本站目录的条目"
-              headingId="added-heading"
-              title="最近收录"
+              description="从当前本地目录中的主流派继续浏览"
+              headingId="genres-heading"
+              title="按流派探索"
             />
-            <AlbumGrid albums={recentlyAddedAlbums} layout="home" />
+            <ul className="genre-exploration__list">
+              {V0_2_HOME_PRIMARY_GENRES.map((sourceLabel) => (
+                <li key={sourceLabel}>
+                  <Link href={getDiscoverTaxonomyHref("primaryGenre", sourceLabel)}>
+                    <span>{getDisplayLabel(sourceLabel)}</span>
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </section>
 
           <section className="album-section" aria-labelledby="random-heading">

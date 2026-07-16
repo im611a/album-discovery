@@ -15,8 +15,7 @@ export default function NewReleasesPage() {
           <p className="eyebrow">本地静态原型</p>
           <h1>新发行</h1>
           <p>
-            当前内容均为本地虚构原型数据。频道名称模拟网易云新发行市场频道，
-            但不表示任何国籍、语言、法域或真实地区分类。
+            当前为本地虚构数据；频道名称来自网易云新发行列表，仅用于浏览新碟。
           </p>
         </header>
 

@@ -5,17 +5,11 @@ import {
   type MockAlbumDetail,
   type MockTrack,
 } from "@/data/album-details.mock";
-import { buildDiscoverOptions } from "@/lib/album-filters";
 
 export type AlbumDetailView = {
   album: MockAlbum;
   detail: MockAlbumDetail;
 };
-
-export type TaxonomyKind =
-  | "primaryGenre"
-  | "secondaryGenre"
-  | "descriptor";
 
 export type TrackDisc = {
   discNumber: number;
@@ -25,22 +19,6 @@ export type TrackDisc = {
 const detailsByAlbumId = new Map(
   albumDetailsMock.map((detail) => [detail.albumId, detail] as const),
 );
-const discoverOptions = buildDiscoverOptions(albumsMock);
-
-const taxonomyConfig = {
-  primaryGenre: {
-    options: discoverOptions.primaryGenres,
-    queryKey: "primaryGenre",
-  },
-  secondaryGenre: {
-    options: discoverOptions.secondaryGenres,
-    queryKey: "secondaryGenre",
-  },
-  descriptor: {
-    options: discoverOptions.descriptors,
-    queryKey: "descriptor",
-  },
-} as const;
 
 export function getAlbumDetailBySlug(slug: string): AlbumDetailView | null {
   const album = albumsMock.find((candidate) => candidate.slug === slug);
@@ -94,19 +72,6 @@ export function formatReleaseDate(releaseDate: string) {
 
 export function formatRatingCount(ratingCount: number) {
   return new Intl.NumberFormat("zh-CN").format(ratingCount);
-}
-
-export function getDiscoverTaxonomyHref(
-  kind: TaxonomyKind,
-  sourceLabel: string,
-) {
-  const config = taxonomyConfig[kind];
-  const value = config.options.find((option) => option.label === sourceLabel)?.value;
-
-  if (!value) return "/discover";
-
-  const search = new URLSearchParams({ [config.queryKey]: value });
-  return `/discover?${search.toString()}`;
 }
 
 export function shouldShowTrackArtists(

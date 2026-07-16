@@ -14,7 +14,8 @@ describe("NewReleasesPage", () => {
     render(<NewReleasesPage />);
 
     expect(screen.getByRole("heading", { name: "新发行", level: 1 })).toBeInTheDocument();
-    expect(screen.getByText(/当前内容均为本地虚构原型数据/)).toBeInTheDocument();
-    expect(screen.getByText(/不表示任何国籍、语言、法域或真实地区分类/)).toBeInTheDocument();
+    expect(screen.getByText(/当前为本地虚构数据/)).toBeInTheDocument();
+    expect(screen.getByText(/网易云新发行列表/)).toBeInTheDocument();
+    expect(screen.getByText(/仅用于浏览新碟/)).toBeInTheDocument();
   });
 });

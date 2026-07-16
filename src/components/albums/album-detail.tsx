@@ -3,10 +3,12 @@ import Link from "next/link";
 import type { MockAlbumDetail } from "@/data/album-details.mock";
 import type { MockAlbum } from "@/data/albums.mock";
 import {
-  formatRatingCount,
-  formatReleaseDate,
   getDiscoverTaxonomyHref,
   type TaxonomyKind,
+} from "@/lib/album-filters";
+import {
+  formatRatingCount,
+  formatReleaseDate,
 } from "@/lib/album-details";
 import { formatArtists } from "@/lib/albums";
 import { getDisplayLabel } from "@/lib/display-labels";
@@ -88,21 +90,19 @@ export function AlbumDetail({ album, detail }: AlbumDetailProps) {
         </div>
       </section>
 
-      <div className="album-detail-grid">
-        <section className="album-detail-panel album-rating" aria-labelledby="rating-title">
-          <p className="eyebrow">社区评价</p>
-          <h2 id="rating-title">RYM 社区评分</h2>
-          {album.rymScore !== null && album.rymRatingCount !== null ? (
-            <div className="album-rating__value">
-              <strong>{album.rymScore.toFixed(2)} / 5</strong>
-              <span>{formatRatingCount(album.rymRatingCount)} 人评分</span>
-            </div>
-          ) : (
-            <p className="album-rating__missing">暂无 RYM 评分</p>
-          )}
-          <p className="album-detail-note">当前评分与人数均为本地虚构原型数据。</p>
-        </section>
+      <section className="album-listening" aria-labelledby="listening-title">
+        <div>
+          <p className="eyebrow">唯一外部收听入口</p>
+          <h2 id="listening-title">网易云音乐</h2>
+          <p>本阶段不使用真实专辑链接，也不会发起外部请求。</p>
+        </div>
+        <span aria-disabled="true" className="netease-entry" role="link">
+          <span>在网易云音乐中查看</span>
+          <small>真实数据接入后启用</small>
+        </span>
+      </section>
 
+      <div className="album-detail-grid">
         <section
           className="album-detail-panel album-taxonomy"
           aria-labelledby="taxonomy-title"
@@ -126,6 +126,20 @@ export function AlbumDetail({ album, detail }: AlbumDetailProps) {
             ))}
           </div>
         </section>
+
+        <section className="album-detail-panel album-rating" aria-labelledby="rating-title">
+          <p className="eyebrow">社区评价</p>
+          <h2 id="rating-title">RYM 社区评分</h2>
+          {album.rymScore !== null && album.rymRatingCount !== null ? (
+            <div className="album-rating__value">
+              <strong>{album.rymScore.toFixed(2)} / 5</strong>
+              <span>{formatRatingCount(album.rymRatingCount)} 人评分</span>
+            </div>
+          ) : (
+            <p className="album-rating__missing">暂无 RYM 评分</p>
+          )}
+          <p className="album-detail-note">当前评分与人数均为本地虚构原型数据。</p>
+        </section>
       </div>
 
       <section className="album-detail-panel album-tracks" aria-labelledby="tracks-title">
@@ -137,18 +151,6 @@ export function AlbumDetail({ album, detail }: AlbumDetailProps) {
           <span>{detail.tracks.length} 首</span>
         </div>
         <TrackList albumArtists={album.artists} tracks={detail.tracks} />
-      </section>
-
-      <section className="album-listening" aria-labelledby="listening-title">
-        <div>
-          <p className="eyebrow">唯一外部收听入口</p>
-          <h2 id="listening-title">网易云音乐</h2>
-          <p>本阶段不使用真实专辑链接，也不会发起外部请求。</p>
-        </div>
-        <span aria-disabled="true" className="netease-entry" role="link">
-          <span>在网易云音乐中查看</span>
-          <small>真实数据接入后启用</small>
-        </span>
       </section>
 
       <section className="album-sources" aria-labelledby="sources-title">

@@ -92,11 +92,11 @@ describe("NewReleasesCatalog", () => {
   it("explains the limited meaning of market channels", () => {
     renderCatalog();
 
-    expect(
-      screen.getByText(
-        "市场频道仅表示专辑从哪个新发行列表被发现，不代表专辑或艺术家的国籍。",
-      ),
-    ).toBeInTheDocument();
+    const note = screen.getByText(/市场频道是发现来源/);
+    expect(note).toHaveTextContent(/不代表.*国籍/);
+    expect(note).toHaveTextContent(/语言/);
+    expect(note).toHaveTextContent(/法域/);
+    expect(note).toHaveTextContent(/真实地区/);
   });
 
   it("does not introduce popularity or domestic and foreign categories", () => {

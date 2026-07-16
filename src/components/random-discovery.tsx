@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 import { AlbumCover } from "@/components/albums/album-cover";
@@ -38,9 +39,18 @@ export function RandomDiscovery({ albums }: RandomDiscoveryProps) {
             <li key={genre}>{getDisplayLabel(genre)}</li>
           ))}
         </ul>
-        <button className="secondary-button" onClick={showNextAlbum} type="button">
-          换一张
-        </button>
+        <div className="random-discovery__actions">
+          <Link
+            className="random-discovery__detail-link"
+            href={`/albums/${album.slug}`}
+          >
+            查看专辑详情
+            <span aria-hidden="true"> →</span>
+          </Link>
+          <button className="secondary-button" onClick={showNextAlbum} type="button">
+            换一张
+          </button>
+        </div>
       </div>
     </div>
   );

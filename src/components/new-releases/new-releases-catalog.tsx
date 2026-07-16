@@ -62,7 +62,6 @@ export function NewReleasesCatalog({ albums, sources }: NewReleasesCatalogProps)
             <p className="eyebrow">来源列表</p>
             <h2 id="new-release-filter-heading">网易云市场频道</h2>
           </div>
-          <p>选择会保存到当前页面地址。</p>
         </div>
 
         <MarketChannelFilter
@@ -88,7 +87,7 @@ export function NewReleasesCatalog({ albums, sources }: NewReleasesCatalogProps)
         </div>
 
         <p className="market-channel-note">
-          市场频道仅表示专辑从哪个新发行列表被发现，不代表专辑或艺术家的国籍。
+          市场频道是发现来源，不代表专辑或艺术家的国籍、语言、法域或真实地区。
         </p>
       </section>
 

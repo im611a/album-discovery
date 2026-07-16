@@ -1,4 +1,4 @@
-import type { MockAlbum, ReleaseType } from "@/data/albums.mock";
+import { albumsMock, type MockAlbum, type ReleaseType } from "@/data/albums.mock";
 import { getDisplayLabel } from "@/lib/display-labels";
 
 export const DECADE_OPTIONS = [
@@ -31,6 +31,11 @@ export type SortValue = (typeof SORT_OPTIONS)[number]["value"];
 export type FilterKey =
   | "decade"
   | "releaseType"
+  | "primaryGenre"
+  | "secondaryGenre"
+  | "descriptor";
+
+export type TaxonomyKind =
   | "primaryGenre"
   | "secondaryGenre"
   | "descriptor";
@@ -121,6 +126,36 @@ export function buildDiscoverOptions(albums: MockAlbum[]): DiscoverOptions {
     secondaryGenres: collectOptions(albums, "secondaryGenres", "secondary"),
     descriptors: collectOptions(albums, "descriptors", "descriptor"),
   };
+}
+
+const prototypeDiscoverOptions = buildDiscoverOptions(albumsMock);
+
+const taxonomyConfig = {
+  primaryGenre: {
+    options: prototypeDiscoverOptions.primaryGenres,
+    queryKey: "primaryGenre",
+  },
+  secondaryGenre: {
+    options: prototypeDiscoverOptions.secondaryGenres,
+    queryKey: "secondaryGenre",
+  },
+  descriptor: {
+    options: prototypeDiscoverOptions.descriptors,
+    queryKey: "descriptor",
+  },
+} as const;
+
+export function getDiscoverTaxonomyHref(
+  kind: TaxonomyKind,
+  sourceLabel: string,
+) {
+  const config = taxonomyConfig[kind];
+  const value = config.options.find((option) => option.label === sourceLabel)?.value;
+
+  if (!value) return "/discover";
+
+  const search = new URLSearchParams({ [config.queryKey]: value });
+  return `/discover?${search.toString()}`;
 }
 
 function isOptionValue(options: readonly { value: string }[], value: string | null) {

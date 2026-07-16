@@ -6,6 +6,7 @@ import {
   DEFAULT_DISCOVER_STATE,
   buildDiscoverOptions,
   filterAndSortAlbums,
+  getDiscoverTaxonomyHref,
   parseDiscoverQuery,
   serializeDiscoverState,
   type DiscoverState,
@@ -165,5 +166,23 @@ describe("album filters", () => {
     );
 
     expect(state).toEqual(DEFAULT_DISCOVER_STATE);
+  });
+
+  it("builds taxonomy links with stable source values", () => {
+    expect(getDiscoverTaxonomyHref("primaryGenre", "Art Pop")).toBe(
+      "/discover?primaryGenre=art-pop",
+    );
+    expect(getDiscoverTaxonomyHref("secondaryGenre", "Ambient Pop")).toBe(
+      "/discover?secondaryGenre=ambient-pop",
+    );
+    expect(getDiscoverTaxonomyHref("descriptor", "introspective")).toBe(
+      "/discover?descriptor=introspective",
+    );
+  });
+
+  it("does not use translated labels as taxonomy parameter values", () => {
+    const href = getDiscoverTaxonomyHref("primaryGenre", "Art Pop");
+
+    expect(href).not.toContain("艺术流行");
   });
 });
