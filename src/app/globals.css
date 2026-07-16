@@ -66,6 +66,12 @@ button {
   outline-offset: 3px;
 }
 
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
 .site-shell {
   display: flex;
   min-height: 100vh;
@@ -140,6 +146,7 @@ button {
 
 .primary-nav a,
 .search-entry {
+  min-height: 44px;
   border-radius: var(--radius-sm);
   color: var(--muted);
   font-size: 14px;
@@ -150,6 +157,9 @@ button {
 }
 
 .primary-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 7px 8px;
 }
 
@@ -159,6 +169,12 @@ button {
 .search-entry[aria-current="page"] {
   background: var(--surface-muted);
   color: var(--foreground);
+}
+
+.primary-nav a:active,
+.search-entry:active {
+  background: var(--accent-soft);
+  color: var(--accent-hover);
 }
 
 .search-entry {
@@ -254,6 +270,10 @@ button {
   text-underline-offset: 4px;
 }
 
+.text-link:active {
+  color: var(--foreground);
+}
+
 .genre-exploration__list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -284,6 +304,11 @@ button {
 .genre-exploration__list a:hover {
   border-color: var(--accent);
   background: var(--accent-soft);
+}
+
+.genre-exploration__list a:active {
+  border-color: var(--accent-hover);
+  background: var(--surface-muted);
 }
 
 .genre-exploration__list a span:last-child {
@@ -323,6 +348,10 @@ button {
 
 .album-card__link:focus-visible {
   outline-offset: -2px;
+}
+
+.album-card__link:active {
+  background: var(--surface-muted);
 }
 
 .album-card__body {
@@ -591,6 +620,12 @@ button {
   color: var(--accent-hover);
 }
 
+.random-discovery__detail-link:active {
+  border-color: var(--accent-hover);
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
 .random-discovery__actions .secondary-button {
   margin-top: 0;
 }
@@ -616,6 +651,10 @@ button {
   color: var(--accent-contrast);
 }
 
+.secondary-button:active {
+  background: var(--accent-hover);
+}
+
 .site-footer {
   margin-top: auto;
   border-top: 1px solid var(--border);
@@ -635,7 +674,9 @@ button {
   margin: 0;
 }
 
-.search-main {
+.search-main,
+.discover-main,
+.new-releases-main {
   flex: 1;
   padding-block: 28px 56px;
 }
@@ -644,7 +685,9 @@ button {
   max-width: 740px;
 }
 
-.search-intro h1 {
+.search-intro h1,
+.discover-intro h1,
+.new-releases-intro h1 {
   margin: 0;
   font-size: clamp(30px, 8.4vw, 56px);
   font-weight: 680;
@@ -652,17 +695,22 @@ button {
   line-height: 1.1;
 }
 
-.search-intro > p:last-child {
+.search-intro > p:last-child,
+.discover-intro > p:last-child,
+.new-releases-intro > p:last-child {
   margin: 10px 0 0;
   color: var(--muted);
   line-height: 1.7;
 }
 
-.search-catalog {
+.search-catalog,
+.discover-catalog,
+.new-releases-catalog {
   margin-top: 22px;
 }
 
-.search-loading {
+.search-loading,
+.new-releases-loading {
   margin: 22px 0 0;
   padding: 18px;
   border: 1px solid var(--border);
@@ -743,6 +791,10 @@ button {
   background: var(--accent-hover);
 }
 
+.search-submit-button:active {
+  background: var(--accent);
+}
+
 .search-clear-button {
   border: 1px solid var(--border-strong);
   background: var(--surface-muted);
@@ -752,6 +804,10 @@ button {
 .search-clear-button:hover {
   border-color: var(--accent);
   color: var(--foreground);
+}
+
+.search-clear-button:active {
+  background: var(--accent-soft);
 }
 
 .search-initial-state,
@@ -813,31 +869,8 @@ button {
   font-variant-numeric: tabular-nums;
 }
 
-.discover-main {
-  flex: 1;
-  padding-block: 28px 56px;
-}
-
 .discover-intro {
   max-width: 740px;
-}
-
-.discover-intro h1 {
-  margin: 0;
-  font-size: clamp(30px, 8.4vw, 56px);
-  font-weight: 680;
-  letter-spacing: -0.045em;
-  line-height: 1.1;
-}
-
-.discover-intro > p:last-child {
-  margin: 10px 0 0;
-  color: var(--muted);
-  line-height: 1.7;
-}
-
-.discover-catalog {
-  margin-top: 22px;
 }
 
 .discover-loading {
@@ -848,7 +881,8 @@ button {
   color: var(--muted);
 }
 
-.discover-filter-panel {
+.discover-filter-panel,
+.new-releases-filter-panel {
   padding: 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -900,6 +934,10 @@ button {
 
 .primary-filters__summary::-webkit-details-marker {
   display: none;
+}
+
+.primary-filters__summary:active {
+  color: var(--accent-hover);
 }
 
 .primary-filters__summary-meta {
@@ -991,6 +1029,10 @@ button {
 
 .more-filters summary:hover {
   color: var(--accent-hover);
+}
+
+.more-filters summary:active {
+  color: var(--foreground);
 }
 
 .more-filters__state {
@@ -1111,6 +1153,11 @@ button {
   background: var(--accent-soft);
 }
 
+.active-filters li button:active {
+  border-color: var(--accent-hover);
+  background: var(--surface-muted);
+}
+
 .clear-filter-button {
   flex: 0 0 auto;
   margin-left: auto;
@@ -1123,6 +1170,10 @@ button {
 .clear-filter-button:hover {
   border-color: color-mix(in srgb, var(--danger) 55%, transparent);
   background: var(--danger-soft);
+}
+
+.clear-filter-button:active {
+  color: var(--foreground);
 }
 
 .discover-empty-state {
@@ -1147,46 +1198,8 @@ button {
   margin-top: 22px;
 }
 
-.new-releases-main {
-  flex: 1;
-  padding-block: 28px 56px;
-}
-
 .new-releases-intro {
   max-width: 780px;
-}
-
-.new-releases-intro h1 {
-  margin: 0;
-  font-size: clamp(30px, 8.4vw, 56px);
-  font-weight: 680;
-  letter-spacing: -0.045em;
-  line-height: 1.1;
-}
-
-.new-releases-intro > p:last-child {
-  margin: 10px 0 0;
-  color: var(--muted);
-  line-height: 1.7;
-}
-
-.new-releases-catalog {
-  margin-top: 22px;
-}
-
-.new-releases-loading {
-  margin: 22px 0 0;
-  padding: 18px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  color: var(--muted);
-}
-
-.new-releases-filter-panel {
-  padding: 14px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  background: var(--surface);
 }
 
 .new-releases-filter-panel__heading {
@@ -1243,6 +1256,11 @@ button {
 .market-channel-filter button:hover {
   border-color: var(--border-strong);
   color: var(--foreground);
+}
+
+.market-channel-filter button:active {
+  border-color: var(--accent-hover);
+  background: var(--surface-muted);
 }
 
 .market-channel-filter button[aria-pressed="true"] {
@@ -1362,6 +1380,10 @@ button {
   color: var(--accent-hover);
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+.album-breadcrumb a:active {
+  color: var(--foreground);
 }
 
 .album-breadcrumb span:last-child {
@@ -1549,6 +1571,11 @@ button {
 .album-taxonomy__groups a:focus-visible {
   border-color: var(--accent);
   background: var(--accent-soft);
+}
+
+.album-taxonomy__groups a:active {
+  border-color: var(--accent-hover);
+  background: var(--surface-muted);
 }
 
 .album-tracks {
@@ -1755,7 +1782,9 @@ button {
     justify-content: space-between;
   }
 
-  .search-main {
+  .search-main,
+  .discover-main,
+  .new-releases-main {
     padding-block: 54px 88px;
   }
 
@@ -1784,11 +1813,8 @@ button {
     margin-bottom: 20px;
   }
 
-  .discover-main {
-    padding-block: 54px 88px;
-  }
-
-  .discover-filter-panel {
+  .discover-filter-panel,
+  .new-releases-filter-panel {
     padding: 22px;
   }
 
@@ -1838,14 +1864,6 @@ button {
 
   .active-filters ul {
     flex-basis: auto;
-  }
-
-  .new-releases-main {
-    padding-block: 54px 88px;
-  }
-
-  .new-releases-filter-panel {
-    padding: 22px;
   }
 
   .new-releases-filter-panel__heading {
@@ -2016,26 +2034,14 @@ button {
     margin-top: 34px;
   }
 
-  .search-intro h1 {
-    font-size: clamp(34px, 9vw, 56px);
-  }
-
-  .search-intro > p:last-child {
-    margin-top: 16px;
-  }
-
-  .discover-intro h1 {
-    font-size: clamp(34px, 9vw, 56px);
-  }
-
-  .discover-intro > p:last-child {
-    margin-top: 16px;
-  }
-
+  .search-intro h1,
+  .discover-intro h1,
   .new-releases-intro h1 {
     font-size: clamp(34px, 9vw, 56px);
   }
 
+  .search-intro > p:last-child,
+  .discover-intro > p:last-child,
   .new-releases-intro > p:last-child {
     margin-top: 16px;
   }
