@@ -17,6 +17,21 @@ Router, TypeScript in strict mode, Tailwind CSS, ESLint, Vitest, and pnpm.
 - Store repository-specific agent skills as subdirectories of
   `.agents/skills/`, with one `SKILL.md` per skill.
 
+## Planning conventions
+
+- Before an important version plan, cross-file change, or UI-wide change, read
+  `docs/ALEKSI_CODEX_PLANNING_METHOD.md` and use
+  `.agents/skills/executable-project-planning/SKILL.md`.
+- Base plans on the real repository. Do not guess paths, components, data
+  structures, interfaces, or existing behavior.
+- Plans must include file-by-file requirements, reuse relationships, dependency
+  order, requirement-file-test mapping, global regression scope, stop
+  conditions, and observable acceptance criteria.
+- Do not use a README, summary, or report in place of the requested
+  implementation.
+- Planning-only work must stop before implementation; never clean, overwrite,
+  apply, drop, or rewrite user Git work without explicit authorization.
+
 ## Product and data boundaries
 
 - Read `docs/ROADMAP.md` before starting work and do not cross a stage gate

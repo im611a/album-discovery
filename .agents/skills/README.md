@@ -1,12 +1,17 @@
 # Repository skills
 
-The repository has five deliberately separate skills:
+The repository has six deliberately separate skills:
 
 - `open-source-reference-audit`: read-only public repository research
 - `netease-catalog-ingestion`: authorized future NetEase catalog ingestion
 - `rym-data-import`: authorized offline RYM file import
 - `minimal-album-ui`: later, explicitly approved album UI work
 - `quality-gate`: scope, keyword, test, build, and Git verification
+- `executable-project-planning`: file-level plans for versions, cross-file work,
+  UI-wide changes, refactors, migrations, and architecture changes; it requires
+  reading `docs/ALEKSI_CODEX_PLANNING_METHOD.md` and auditing the real repository
+  before naming files or responsibilities, separates planning from authorized
+  implementation, and protects existing worktrees, stashes, and branch history
 
 Each skill lives in its own directory and defines triggers, exclusions,
 workflow, safety boundaries, and output requirements. No skill grants permission
