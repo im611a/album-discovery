@@ -7,6 +7,9 @@
 - [V0.2_PLAN.md](./V0.2_PLAN.md)：v0.2 文件级执行计划、实际完成结果、偏差与 Git 状态。
 - [V0.2_CODE_AUDIT.md](./V0.2_CODE_AUDIT.md)：基线提交 `5b951da` 时的历史工程审计快照，
   不代表当前最新代码状态。
+- [V0.3_DATA_AUDIT.md](./V0.3_DATA_AUDIT.md)：v0.2 最终基线、Mock 数据消费与既有来源实验的真实数据架构审计。
+- [V0.3_DATA_CONTRACTS.md](./V0.3_DATA_CONTRACTS.md)：来源 DTO、领域实体、观察快照、读模型与 Repository 的目标契约。
+- [V0.3_PLAN.md](./V0.3_PLAN.md)：v0.3 数据边界、内存后端、页面迁移与持久化基础的文件级执行计划。
 - [ROADMAP.md](./ROADMAP.md)：v0.2 完成状态及 v0.3–v0.6 的高层阶段边界。
 - [ALEKSI_CODEX_PLANNING_METHOD.md](./ALEKSI_CODEX_PLANNING_METHOD.md)：项目计划与实施采用的完整方法。
 - [DATA_ARCHITECTURE.md](./DATA_ARCHITECTURE.md)：来源权威、逻辑模型、来源追踪和读模型边界。
