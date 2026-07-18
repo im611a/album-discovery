@@ -14,6 +14,7 @@
     "catalog:validate": "node scripts/catalog/validate-catalog.mjs",
     "catalog:check-links": "node scripts/catalog/check-links.mjs",
     "catalog:report": "node scripts/catalog/report-catalog.mjs",
+    "package:source": "node scripts/package-source.mjs",
     "quality": "pnpm catalog:validate && pnpm lint && pnpm typecheck && pnpm test && pnpm build"
   },
   "dependencies": {

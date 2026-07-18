@@ -41,6 +41,7 @@ yarn-error.log*
 # local credentials and transient data
 .cache/catalog/
 catalog-report.local.json
+artifacts/
 .cookies/
 *.cookie
 *.cookies

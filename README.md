@@ -1,70 +1,62 @@
 # 专辑发现
 
-## 项目定位
+面向中文用户的完整专辑发现与聆听指南。选择类型与场景后，应用会在本机生成有具体理由的推荐；用户可以保存、喜欢、标记听过或排除专辑，再通过经核验的外部链接离开本站聆听。
 
-专辑发现是一个面向中文用户的轻量专辑目录，用于浏览、筛选、搜索并了解完整音乐专辑。
-当前 v0.2 是静态产品原型，全部页面只使用完全虚构的本地 Mock 数据，不包含任何真实
-音乐数据请求。
+产品不需要账号，不上传个人口味，正常浏览不实时请求音乐数据源。
 
-后续版本计划通过网易云目录同步层提供专辑、封面、曲目和唯一外部收听入口，通过 RYM
-离线导入层提供评分、评分人数与分类信息；这些真实数据能力尚未接入。
+## 已交付能力
 
-## 当前页面
+- 120 张真实 MusicBrainz release-group 专辑，12 个本站主流派组；
+- 24 张带中文摘要、聆听方式、场景与起始曲提示的旗舰专辑；
+- 口味设置、确定性推荐、推荐理由与即时反馈；
+- 想听、喜欢、听过、不适合我的本机专辑库；
+- 本机状态的校验、导出、导入与重置；
+- 发现筛选、全文本地搜索、最近收录与有日期依据的近期发行视图；
+- 120 个静态专辑详情页、静态 sitemap、robots 与完整静态导出；
+- MusicBrainz、Cover Art Archive 和外部平台链接的离线刷新工具。
 
-| 路由 | 用途 |
-| --- | --- |
-| `/` | 首页发现入口 |
-| `/discover` | 专辑筛选与排序 |
-| `/new-releases` | 新发行市场频道与发行类型筛选 |
-| `/search` | 按专辑名称、别名或艺术家搜索 |
-| `/albums/[slug]` | 专辑详情；当前生成 18 条静态详情路由 |
-| 框架级 404 | 未知专辑和不存在地址的友好返回状态 |
+当前快照未包含虚构 RYM 评分。Cover Art Archive 在生成环境中不可达，因此当前 120 张专辑都使用明确的生成式回退封面。
 
-## 当前功能
+## 本地运行
 
-- 首页近期发行、高分专辑、按流派探索和随机发现；
-- 发现页年代、发行类型、RYM 分类筛选与排序，并用 URL 保存状态；
-- 新发行页 `ALL`、`ZH`、`EA`、`JP`、`KR` 市场频道、发行类型筛选、去重与日期排序；
-- 专辑名称、别名和艺术家名称的中英文搜索；
-- 专辑详情、虚构 RYM 评分与分类、曲目表，以及禁用的网易云入口原型；
-- 18 个静态详情路由、友好 404、响应式布局和键盘操作支持。
-
-网易云市场频道只表示专辑从哪个新发行来源列表被发现，不代表国家、地区、语言、法域
-或艺术家国籍。
-
-## 明确不做
-
-v0.2 不包含用户系统、评论、收藏、用户评分、在线播放、热度、国内／国外分区、国家、
-语言或国籍筛选、多平台入口、真实数据请求、数据库或正式数据 Provider。
-
-## 技术栈
-
-版本均来自当前 `package.json`：
-
-- Next.js `16.2.10`
-- React / React DOM `19.2.4`
-- TypeScript `^5`
-- Tailwind CSS `^4`
-- Vitest `^4.1.10`
-- React Testing Library `^16.3.2`
-- pnpm `11.7.0`（`packageManager` 声明）
-
-## 本地命令
+需要 Node.js 24、pnpm 11.7.0。
 
 ```text
 pnpm install
 pnpm dev
-pnpm lint
-pnpm typecheck
-pnpm test
-pnpm build
 ```
 
-## 文档入口
+打开 `http://127.0.0.1:3000`。已安装依赖后，日常开发和浏览均可离线进行。
 
-- [产品规格](./docs/PRODUCT_SPEC.md)
-- [信息架构](./docs/INFORMATION_ARCHITECTURE.md)
-- [v0.2 文件级计划与完成记录](./docs/V0.2_PLAN.md)
-- [v0.2 历史代码审计](./docs/V0.2_CODE_AUDIT.md)
-- [路线图](./docs/ROADMAP.md)
-- [Aleksi Codex 规划方法](./docs/ALEKSI_CODEX_PLANNING_METHOD.md)
+## 目录工具
+
+```text
+pnpm catalog:validate
+pnpm catalog:report
+pnpm catalog:refresh
+pnpm catalog:check-links
+```
+
+`catalog:refresh` 会访问 MusicBrainz、Cover Art Archive，并在旗舰链接不足时调用 Apple iTunes Search API。脚本使用可联系的 User-Agent、MusicBrainz 每请求至少 1.1 秒间隔、Apple 约 20 次/分钟间隔、本地忽略缓存、超时与有限重试。刷新失败不会覆盖上一份有效快照。
+
+## 质量与交付
+
+```text
+pnpm quality
+pnpm package:source
+```
+
+`pnpm build` 使用 Next.js 静态导出，产物位于 `out/`。部署时可设置 `NEXT_PUBLIC_SITE_URL` 生成正式 sitemap 与 canonical 基址；未设置时使用 `http://localhost:3000`。
+
+源代码归档写入 `artifacts/`，不会包含 `.git`、`node_modules`、`.next`、`out`、缓存或本地秘密。
+
+## 数据边界
+
+- MusicBrainz：专辑身份、艺术家、发行日期、代表版与曲目；
+- Cover Art Archive：封面首选来源；不可用时使用本站生成式回退；
+- 本站原创层：中文导览、类型、描述与聆听场景；当前均标记 `metadata_based`，不冒充人工评论；
+- 外部平台：仅展示静态快照中已核验的直达链接；
+- NetEase：只保留历史实验，不是产品运行依赖；
+- RYM：不抓取、不依赖、不展示虚构评分。
+
+详见 [产品说明](./docs/PRODUCT.md)、[数据来源](./docs/DATA_SOURCES.md) 与 [现行架构](./docs/ARCHITECTURE.md)。
