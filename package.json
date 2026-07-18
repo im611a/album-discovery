@@ -12,9 +12,13 @@
     "test:watch": "vitest",
     "catalog:refresh": "node scripts/catalog/refresh-catalog.mjs",
     "catalog:validate": "node scripts/catalog/validate-catalog.mjs",
+    "catalog:audit-identities": "node scripts/catalog/audit-verified-identities.mjs",
     "catalog:check-links": "node scripts/catalog/check-links.mjs",
     "catalog:report": "node scripts/catalog/report-catalog.mjs",
     "package:source": "node scripts/package-source.mjs",
+    "package:static": "node scripts/package-static.mjs",
+    "delivery:verify": "node scripts/verify-delivery.mjs",
+    "serve:static": "node scripts/serve-static.mjs",
     "quality": "pnpm catalog:validate && pnpm lint && pnpm typecheck && pnpm test && pnpm build"
   },
   "dependencies": {

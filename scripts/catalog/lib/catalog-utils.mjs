@@ -89,13 +89,22 @@ export async function fetchJsonCached(namespace, key, url, options = {}) {
 
 export function partialDate(value) {
   if (!value || !/^\d{4}(?:-\d{2}(?:-\d{2})?)?$/.test(value)) return null;
+  if (value.length >= 7) {
+    const month = Number(value.slice(5, 7));
+    if (month < 1 || month > 12) return null;
+  }
+  if (value.length === 10) {
+    const [year, month, day] = value.split("-").map(Number);
+    const date = new Date(Date.UTC(year, month - 1, day));
+    if (date.getUTCFullYear() !== year || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) return null;
+  }
   return { value, precision: value.length === 4 ? "year" : value.length === 7 ? "month" : "day" };
 }
 
 export function isSafeExternalUrl(value) {
   try {
     const url = new URL(value);
-    return url.protocol === "https:" || url.protocol === "http:";
+    return url.protocol === "https:";
   } catch {
     return false;
   }

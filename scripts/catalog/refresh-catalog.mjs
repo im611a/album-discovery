@@ -1,12 +1,13 @@
 import { mkdir, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { CANDIDATES, EDITORIAL, TAXONOMY, VERIFIED_LINKS } from "./curation-manifest.mjs";
-import { COVER_DIR, OUTPUT_DIR, REPORT_DIR, fetchJsonCached, fetchWithPolicy, formatDuration, isSafeExternalUrl, normalizeIdentity, partialDate, readJson, stableStringify, writeJson } from "./lib/catalog-utils.mjs";
+import { CANDIDATES, EDITORIAL, TAXONOMY } from "./curation-manifest.mjs";
+import { COVER_DIR, OUTPUT_DIR, REPORT_DIR, ROOT, fetchJsonCached, fetchWithPolicy, formatDuration, isSafeExternalUrl, normalizeIdentity, partialDate, readJson, stableStringify, writeJson } from "./lib/catalog-utils.mjs";
 
 const REFRESH_DATE = process.env.CATALOG_REFRESH_DATE ?? new Date().toISOString().slice(0, 10);
 const MB_BASE = "https://musicbrainz.org/ws/2";
-const APPLE_BASE = "https://itunes.apple.com/search";
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const identityDocument = await readJson(path.join(ROOT, "scripts", "catalog", "verified-identities.json"));
+const VERIFIED_IDENTITIES = new Map((identityDocument?.identities ?? []).map((item) => [item.key, item]));
 
 const GENRE_DEFAULTS = {
   "art-pop": { secondary: ["experimental-pop"], descriptors: ["层次丰富", "作者性"], contexts: ["专注聆听", "夜晚"] },
@@ -23,16 +24,13 @@ const GENRE_DEFAULTS = {
   sinophone: { secondary: ["sinophone-album"], descriptors: ["华语表达", "完整专辑"], contexts: ["通勤", "专注聆听"] },
 };
 
-function escapeLucene(value) {
-  return String(value).replace(/([+\-!(){}\[\]^"~*?:\\/])/g, "\\$1");
-}
-
 function artistNames(credit = []) {
   return credit.map((item) => item.name || item.artist?.name).filter(Boolean);
 }
 
-function exactIdentity(candidate, result) {
-  if (normalizeIdentity(candidate.title) !== normalizeIdentity(result.title)) return false;
+function exactIdentity(candidate, identity, result) {
+  const acceptedTitles = [identity.expectedTitle, ...(identity.acceptedTitleVariants ?? [])].map(normalizeIdentity);
+  if (!acceptedTitles.includes(normalizeIdentity(result.title))) return false;
   const wantedArtist = normalizeIdentity(candidate.artist);
   return artistNames(result["artist-credit"]).some((name) => {
     const actual = normalizeIdentity(name);
@@ -40,18 +38,8 @@ function exactIdentity(candidate, result) {
   });
 }
 
-async function resolveReleaseGroup(candidate) {
-  const query = `releasegroup:\"${escapeLucene(candidate.title)}\" AND artist:\"${escapeLucene(candidate.artist)}\"`;
-  const url = `${MB_BASE}/release-group/?query=${encodeURIComponent(query)}&fmt=json&limit=8`;
-  const data = await fetchJsonCached("musicbrainz-search", candidate.key, url);
-  const exact = (data["release-groups"] ?? []).filter((item) => exactIdentity(candidate, item));
-  const selected = exact.find((item) => item.score === 100) ?? exact[0];
-  if (!selected || !UUID.test(selected.id)) throw new Error(`Ambiguous or unresolved MusicBrainz identity: ${candidate.artist} — ${candidate.title}`);
-  return selected;
-}
-
 async function lookupReleaseGroup(candidate, id) {
-  const inc = encodeURIComponent("releases+url-rels+genres+tags");
+  const inc = encodeURIComponent("artists+releases+url-rels+genres+tags");
   return fetchJsonCached("musicbrainz-release-group", candidate.key, `${MB_BASE}/release-group/${id}?inc=${inc}&fmt=json`);
 }
 
@@ -68,10 +56,12 @@ async function selectRepresentativeRelease(candidate, detail) {
   const releases = [...(detail.releases ?? [])]
     .filter((release) => UUID.test(release.id) && release.status === "Official")
     .sort((a, b) => releaseRank(a, detail["first-release-date"]) - releaseRank(b, detail["first-release-date"]) || String(a.date).localeCompare(String(b.date)));
-  for (const release of releases.slice(0, 4)) {
+  const minimumTrackCount = VERIFIED_IDENTITIES.get(candidate.key)?.minimumTrackCount ?? 1;
+  for (const release of releases.slice(0, 12)) {
     const inc = encodeURIComponent("recordings+artist-credits+labels+release-groups+url-rels");
     const data = await fetchJsonCached("musicbrainz-release", `${candidate.key}-${release.id}`, `${MB_BASE}/release/${release.id}?inc=${inc}&fmt=json`);
-    if ((data.media ?? []).some((medium) => (medium.tracks?.length ?? 0) > 0)) return data;
+    const trackCount = (data.media ?? []).reduce((total, medium) => total + (medium.tracks?.length ?? 0), 0);
+    if (trackCount >= minimumTrackCount) return data;
   }
   return null;
 }
@@ -99,7 +89,6 @@ function platformForUrl(value, relationType = "") {
   if (host === "open.spotify.com") return { platform: "Spotify", kind: "listen" };
   if (host.endsWith("music.apple.com") || host.endsWith("itunes.apple.com")) return { platform: "Apple Music", kind: "listen" };
   if (["music.youtube.com", "youtube.com", "youtu.be"].includes(host)) return { platform: "YouTube Music", kind: "listen" };
-  if (host.endsWith("music.163.com")) return { platform: "网易云音乐", kind: "listen" };
   if (/purchase|stream/i.test(relationType)) return { platform: host, kind: relationType.includes("purchase") ? "purchase" : "listen" };
   return null;
 }
@@ -118,25 +107,6 @@ function relationLinks(...relations) {
     links.push({ ...meta, url: normalized, verified: true, verifiedAt: REFRESH_DATE, source: "MusicBrainz URL relationship" });
   }
   return links;
-}
-
-async function appleAlbumLink(candidate) {
-  const wantedArtist = normalizeIdentity(candidate.artist);
-  const primaryArtist = wantedArtist.split(/\band\b|\bthe london\b/)[0].trim();
-  for (const country of ["US", "CN", "HK", "TW", "JP"]) {
-    const params = new URLSearchParams({ term: `${candidate.artist} ${candidate.title}`, country, media: "music", entity: "album", limit: "10", explicit: "Yes" });
-    const cacheKey = country === "US" ? candidate.key : `${candidate.key}-${country}`;
-    const data = await fetchJsonCached("apple-search", cacheKey, `${APPLE_BASE}?${params}`, { gapMs: 3100 });
-    const match = (data.results ?? []).find((item) => {
-      const actualArtist = normalizeIdentity(item.artistName);
-      return normalizeIdentity(item.collectionName) === normalizeIdentity(candidate.title) &&
-        (wantedArtist.includes(actualArtist) || actualArtist.includes(wantedArtist) || (primaryArtist.length > 3 && actualArtist.includes(primaryArtist)));
-    });
-    if (match?.collectionViewUrl && isSafeExternalUrl(match.collectionViewUrl)) {
-      return { platform: "Apple Music", kind: "listen", url: match.collectionViewUrl.replace(/^http:/, "https:"), verified: true, verifiedAt: REFRESH_DATE, source: `Apple iTunes Search API exact artist/title match (${country})` };
-    }
-  }
-  return null;
 }
 
 let coverArtArchiveAvailable = true;
@@ -182,23 +152,35 @@ function editorialFor(candidate, tracks) {
 }
 
 async function buildAlbum(candidate) {
-  const resolved = await resolveReleaseGroup(candidate);
+  const identity = VERIFIED_IDENTITIES.get(candidate.key);
+  if (!identity || !UUID.test(identity.verifiedReleaseGroupId)) {
+    throw new Error(`Missing fixed verified identity for ${candidate.key}`);
+  }
+  const resolved = await lookupReleaseGroup(candidate, identity.verifiedReleaseGroupId);
+  if (resolved.id !== identity.verifiedReleaseGroupId || !exactIdentity(candidate, identity, resolved)) {
+    throw new Error(`Verified identity no longer matches ${candidate.artist} — ${candidate.title}`);
+  }
+  if (resolved["primary-type"] !== identity.expectedPrimaryType) {
+    throw new Error(`Primary type drift for ${candidate.key}: ${resolved["primary-type"]}`);
+  }
+  if (!String(resolved["first-release-date"] ?? "").startsWith(identity.expectedFirstReleaseYear)) {
+    throw new Error(`First-release year drift for ${candidate.key}: ${resolved["first-release-date"]}`);
+  }
   const artists = (resolved["artist-credit"] ?? []).map((credit) => ({ id: credit.artist?.id ?? credit.name, name: credit.name || credit.artist?.name })).filter((artist) => artist.name);
   const enriched = Boolean(EDITORIAL[candidate.key]);
-  const detail = enriched ? await lookupReleaseGroup(candidate, resolved.id) : null;
+  const detail = enriched ? resolved : null;
   const representative = enriched ? await selectRepresentativeRelease(candidate, detail) : null;
   const tracks = normalizeTracks(representative, artists);
+  if (identity.minimumTrackCount && tracks.length < identity.minimumTrackCount) {
+    throw new Error(`Representative release for ${candidate.key} has ${tracks.length} tracks; expected at least ${identity.minimumTrackCount}`);
+  }
   const defaults = GENRE_DEFAULTS[candidate.primaryGenre];
   const editorial = editorialFor(candidate, tracks);
   const cover = await downloadCover(candidate, resolved.id);
   const links = relationLinks(detail?.relations ?? [], representative?.relations ?? []);
-  for (const link of VERIFIED_LINKS[candidate.key] ?? []) {
+  for (const link of identity.verifiedExternalLinks ?? []) {
     if (!isSafeExternalUrl(link.url) || links.some((existing) => existing.platform === link.platform)) continue;
-    links.unshift({ ...link, verified: true, verifiedAt: REFRESH_DATE, source: "Manually verified direct album URL" });
-  }
-  if (enriched && !links.length) {
-    const apple = await appleAlbumLink(candidate);
-    if (apple) links.unshift(apple);
+    links.unshift({ ...link, verified: true, verifiedAt: REFRESH_DATE, source: "Fixed identity manifest: manually reviewed direct album URL" });
   }
   const seenPlatforms = new Set();
   const externalLinks = links.filter((link) => {
@@ -219,7 +201,7 @@ async function buildAlbum(candidate) {
       : { status: "unavailable", values: [], source: null },
     cover, tracks, externalLinks, musicbrainzReleaseGroupId: resolved.id,
     representativeReleaseId: representative?.id ?? null, editorial, searchText, addedAt: REFRESH_DATE,
-    sourceSummary: { identity: "MusicBrainz release group", metadataUrl: `https://musicbrainz.org/release-group/${resolved.id}`, refreshedAt: REFRESH_DATE, editorial: editorial ? "original local metadata-based guide; not yet human-reviewed" : null },
+    sourceSummary: { identity: "Fixed, reviewed MusicBrainz release group", metadataUrl: `https://musicbrainz.org/release-group/${resolved.id}`, refreshedAt: REFRESH_DATE, editorial: editorial ? "original local metadata-based guide; not yet human-reviewed" : null },
   };
 }
 

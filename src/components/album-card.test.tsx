@@ -11,4 +11,10 @@ describe("AlbumCard", () => {
     expect(screen.getByRole("button", { name: "想听" })).toBeInTheDocument();
     expect(screen.queryByText(/RYM|评分/)).not.toBeInTheDocument();
   });
+  it("lets the containing page choose a continuous h2 or h3 level", () => {
+    const { rerender } = render(<PersonalStateProvider><AlbumCard album={catalogAlbums[0]} headingLevel={2} /></PersonalStateProvider>);
+    expect(screen.getByRole("heading", { level: 2, name: catalogAlbums[0].title })).toBeInTheDocument();
+    rerender(<PersonalStateProvider><AlbumCard album={catalogAlbums[0]} headingLevel={3} /></PersonalStateProvider>);
+    expect(screen.getByRole("heading", { level: 3, name: catalogAlbums[0].title })).toBeInTheDocument();
+  });
 });

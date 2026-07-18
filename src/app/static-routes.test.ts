@@ -1,0 +1,20 @@
+import { describe, expect, it, vi } from "vitest";
+import sitemap from "./sitemap";
+
+vi.mock("next/navigation", () => ({ notFound: vi.fn() }));
+
+describe("static route contract", () => {
+  it("generates exactly one detail parameter for each of 120 unique slugs", async () => {
+    const { generateStaticParams } = await import("./albums/[slug]/page");
+    const params = generateStaticParams();
+    expect(params).toHaveLength(120);
+    expect(new Set(params.map((item) => item.slug)).size).toBe(120);
+  });
+
+  it("publishes all product pages and every album in the sitemap", () => {
+    const routes = sitemap().map((item) => item.url);
+    expect(routes).toHaveLength(127);
+    for (const route of ["/discover", "/for-you", "/new-releases", "/library", "/search", "/settings"]) expect(routes.some((url) => url.endsWith(route))).toBe(true);
+    expect(routes.filter((url) => url.includes("/albums/"))).toHaveLength(120);
+  });
+});

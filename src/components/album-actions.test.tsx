@@ -19,4 +19,12 @@ describe("AlbumActions", () => {
     await screen.findByRole("button", { name: "想听" });
     expect(screen.queryByRole("button", { name: "听过" })).not.toBeInTheDocument();
   });
+  it("keeps favorite and recommendation-like state synchronized", async () => {
+    render(<PersonalStateProvider><AlbumActions album={catalogAlbums[0]} /></PersonalStateProvider>);
+    const favorite = await screen.findByRole("button", { name: "喜欢" });
+    fireEvent.click(favorite);
+    expect(await screen.findByRole("button", { name: "已喜欢" })).toHaveAttribute("aria-pressed", "true");
+    fireEvent.click(screen.getByRole("button", { name: "已喜欢" }));
+    expect(await screen.findByRole("button", { name: "喜欢" })).toHaveAttribute("aria-pressed", "false");
+  });
 });

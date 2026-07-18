@@ -32,23 +32,28 @@ pnpm dev
 
 ```text
 pnpm catalog:validate
+pnpm catalog:audit-identities
 pnpm catalog:report
 pnpm catalog:refresh
 pnpm catalog:check-links
 ```
 
-`catalog:refresh` 会访问 MusicBrainz、Cover Art Archive，并在旗舰链接不足时调用 Apple iTunes Search API。脚本使用可联系的 User-Agent、MusicBrainz 每请求至少 1.1 秒间隔、Apple 约 20 次/分钟间隔、本地忽略缓存、超时与有限重试。刷新失败不会覆盖上一份有效快照。
+`catalog:refresh` 只使用经过人工复核并固定在 `scripts/catalog/verified-identities.json` 的 120 个 MusicBrainz release-group ID。标题搜索只用于人工发现候选，不能决定发布身份。刷新会访问 MusicBrainz 与 Cover Art Archive，使用可联系的 User-Agent、MusicBrainz 每请求至少 1.1 秒间隔、本地忽略缓存、超时与有限重试；失败不会覆盖上一份有效快照。
 
 ## 质量与交付
 
 ```text
 pnpm quality
 pnpm package:source
+pnpm package:static
+pnpm delivery:verify
 ```
 
 `pnpm build` 使用 Next.js 静态导出，产物位于 `out/`。部署时可设置 `NEXT_PUBLIC_SITE_URL` 生成正式 sitemap 与 canonical 基址；未设置时使用 `http://localhost:3000`。
 
-源代码归档写入 `artifacts/`，不会包含 `.git`、`node_modules`、`.next`、`out`、缓存或本地秘密。
+构建后可运行 `pnpm serve:static`，在 `http://127.0.0.1:4173` 用普通静态 HTTP 服务验收 `out/`，不依赖 Next.js 开发服务器。
+
+交付文件写入 `artifacts/`：`album-discovery-source.zip` 是源码包，`album-discovery-static-site.zip` 是可直接部署的 `out/` 内容。两者都会由 `delivery:verify` 检查结构与禁止项；源码包不会包含 `.git`、`node_modules`、`.next`、`out`、缓存或本地秘密。
 
 ## 数据边界
 

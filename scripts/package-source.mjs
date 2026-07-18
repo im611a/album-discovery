@@ -1,4 +1,4 @@
-import { mkdirSync } from "node:fs";
+import { mkdirSync, rmSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import path from "node:path";
 
@@ -6,6 +6,11 @@ const root = path.resolve(import.meta.dirname, "..");
 const artifacts = path.join(root, "artifacts");
 mkdirSync(artifacts, { recursive: true });
 const output = path.join(artifacts, "album-discovery-source.zip");
-const result = spawnSync("git", ["archive", "--format=zip", `--output=${output}`, "HEAD"], { cwd: root, stdio: "inherit" });
+rmSync(output, { force: true });
+
+const listed = spawnSync("git", ["ls-files", "--cached", "--others", "--exclude-standard"], { cwd: root, encoding: "utf8" });
+if (listed.status !== 0) process.exit(listed.status ?? 1);
+const files = listed.stdout.split(/\r?\n/).filter(Boolean);
+const result = spawnSync("tar", ["-a", "-c", "-f", output, ...files], { cwd: root, stdio: "inherit" });
 if (result.status !== 0) process.exit(result.status ?? 1);
-console.log(`Source archive created: ${output}`);
+console.log(`Source archive created from ${files.length} repository files: ${output}`);

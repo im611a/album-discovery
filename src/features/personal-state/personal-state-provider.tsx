@@ -11,6 +11,7 @@ type AlbumListKey = "favoriteAlbumIds" | "savedAlbumIds" | "listenedAlbumIds" | 
 interface PersonalStateContextValue {
   state: LocalUserStateV1;
   hydrated: boolean;
+  storageAvailable: boolean;
   toggleAlbum: (key: AlbumListKey, albumId: string) => void;
   setFeedback: (albumId: string, value: "like" | "not_for_me" | null) => void;
   saveTaste: (taste: TasteProfile, completed?: boolean) => void;
@@ -25,33 +26,55 @@ const PersonalStateContext = createContext<PersonalStateContextValue | null>(nul
 export function PersonalStateProvider({ children }: { children: React.ReactNode }) {
   const [state, setState] = useState(createInitialUserState);
   const [hydrated, setHydrated] = useState(false);
+  const [storageAvailable, setStorageAvailable] = useState(true);
   useEffect(() => {
     let cancelled = false;
     queueMicrotask(() => {
       if (cancelled) return;
       try {
         const raw = localStorage.getItem(STORAGE_KEY);
-        const parsed = raw ? parseLocalUserState(JSON.parse(raw), ids) : null;
+        let parsed: LocalUserStateV1 | null = null;
+        if (raw) {
+          try { parsed = parseLocalUserState(JSON.parse(raw), ids); }
+          catch { parsed = null; }
+        }
         if (parsed) setState(parsed);
         else if (raw) localStorage.removeItem(STORAGE_KEY);
-      } catch { try { localStorage.removeItem(STORAGE_KEY); } catch {} }
+      } catch { setStorageAvailable(false); }
       setHydrated(true);
     });
     return () => { cancelled = true; };
   }, []);
   useEffect(() => {
     if (!hydrated) return;
-    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch {}
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch { queueMicrotask(() => setStorageAvailable(false)); }
   }, [hydrated, state]);
 
   const update = useCallback((recipe: (current: LocalUserStateV1) => LocalUserStateV1) => setState((current) => ({ ...recipe(current), updatedAt: new Date().toISOString() })), []);
-  const toggleAlbum = useCallback((key: AlbumListKey, albumId: string) => update((current) => ({ ...current, [key]: current[key].includes(albumId) ? current[key].filter((id) => id !== albumId) : [...current[key], albumId] })), [update]);
+  const toggleAlbum = useCallback((key: AlbumListKey, albumId: string) => update((current) => {
+    const adding = !current[key].includes(albumId);
+    const next = { ...current, [key]: adding ? [...current[key], albumId] : current[key].filter((id) => id !== albumId) };
+    if (adding && key !== "dismissedAlbumIds") {
+      next.dismissedAlbumIds = next.dismissedAlbumIds.filter((id) => id !== albumId);
+      if (next.recommendationFeedback[albumId] === "not_for_me") {
+        next.recommendationFeedback = { ...next.recommendationFeedback };
+        delete next.recommendationFeedback[albumId];
+      }
+    }
+    if (adding && key === "favoriteAlbumIds") next.recommendationFeedback = { ...next.recommendationFeedback, [albumId]: "like" };
+    if (adding && key === "dismissedAlbumIds") {
+      next.favoriteAlbumIds = next.favoriteAlbumIds.filter((id) => id !== albumId);
+      next.savedAlbumIds = next.savedAlbumIds.filter((id) => id !== albumId);
+      next.recommendationFeedback = { ...next.recommendationFeedback, [albumId]: "not_for_me" };
+    }
+    return next;
+  }), [update]);
   const setFeedback = useCallback((albumId: string, value: "like" | "not_for_me" | null) => update((current) => {
     const feedback = { ...current.recommendationFeedback };
     if (value) feedback[albumId] = value; else delete feedback[albumId];
     return {
       ...current,
-      favoriteAlbumIds: value === "not_for_me" ? current.favoriteAlbumIds.filter((id) => id !== albumId) : current.favoriteAlbumIds,
+      favoriteAlbumIds: value === "like" ? [...new Set([...current.favoriteAlbumIds, albumId])] : current.favoriteAlbumIds.filter((id) => id !== albumId),
       savedAlbumIds: value === "not_for_me" ? current.savedAlbumIds.filter((id) => id !== albumId) : current.savedAlbumIds,
       recommendationFeedback: feedback,
       dismissedAlbumIds: value === "not_for_me" ? [...new Set([...current.dismissedAlbumIds, albumId])] : current.dismissedAlbumIds.filter((id) => id !== albumId),
@@ -70,7 +93,7 @@ export function PersonalStateProvider({ children }: { children: React.ReactNode 
       return { ok: true as const };
     } catch { return { ok: false as const, message: "无法解析 JSON 文件。" }; }
   }, []);
-  const value = useMemo(() => ({ state, hydrated, toggleAlbum, setFeedback, saveTaste, recordRecent, reset, exportJson, importJson }), [state, hydrated, toggleAlbum, setFeedback, saveTaste, recordRecent, reset, exportJson, importJson]);
+  const value = useMemo(() => ({ state, hydrated, storageAvailable, toggleAlbum, setFeedback, saveTaste, recordRecent, reset, exportJson, importJson }), [state, hydrated, storageAvailable, toggleAlbum, setFeedback, saveTaste, recordRecent, reset, exportJson, importJson]);
   return <PersonalStateContext.Provider value={value}>{children}</PersonalStateContext.Provider>;
 }
 
