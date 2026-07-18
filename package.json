@@ -9,7 +9,12 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "catalog:refresh": "node scripts/catalog/refresh-catalog.mjs",
+    "catalog:validate": "node scripts/catalog/validate-catalog.mjs",
+    "catalog:check-links": "node scripts/catalog/check-links.mjs",
+    "catalog:report": "node scripts/catalog/report-catalog.mjs",
+    "quality": "pnpm catalog:validate && pnpm lint && pnpm typecheck && pnpm test && pnpm build"
   },
   "dependencies": {
     "clsx": "^2.1.1",

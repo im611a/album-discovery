@@ -1,33 +1,15 @@
-import type { CSSProperties } from "react";
+import Image from "next/image";
+import type { PublishedAlbum } from "@/catalog/schema";
 
-import type { MockAlbum } from "@/data/albums.mock";
-
-type AlbumCoverProps = {
-  album: Pick<MockAlbum, "cover" | "id" | "title">;
-  size?: "card" | "detail";
-};
-
-export function AlbumCover({ album, size = "card" }: AlbumCoverProps) {
-  const { background, foreground, accent, motif } = album.cover;
-  const sizeClass = size === "detail" ? " mock-cover--detail" : "";
-
+export function AlbumCover({ album, size = "card" }: { album: Pick<PublishedAlbum, "cover" | "title" | "primaryGenres" | "slug">; size?: "card" | "detail" }) {
+  if (album.cover.kind === "local" && album.cover.src) {
+    return <Image className={`album-cover album-cover--${size}`} src={album.cover.src} alt={album.cover.alt} width={album.cover.width} height={album.cover.height} priority={size === "detail"} unoptimized />;
+  }
+  const initials = album.title.replace(/[^\p{Letter}\p{Number}]/gu, "").slice(0, 2).toLocaleUpperCase("zh-CN") || "AD";
   return (
-    <div
-      aria-label={`${album.title} 的虚构专辑封面`}
-      className={`mock-cover mock-cover--${motif}${sizeClass}`}
-      role="img"
-      style={
-        {
-          "--cover-background": background,
-          "--cover-foreground": foreground,
-          "--cover-accent": accent,
-        } as CSSProperties
-      }
-    >
-      <span className="mock-cover__shape" aria-hidden="true" />
-      <span className="mock-cover__index" aria-hidden="true">
-        {album.id.slice(-3)}
-      </span>
+    <div className={`album-cover album-cover--fallback album-cover--${size}`} data-genre={album.primaryGenres[0] ?? "other"} role="img" aria-label={album.cover.alt}>
+      <span className="album-cover__mark" aria-hidden="true">{initials}</span>
+      <span className="album-cover__line" aria-hidden="true" />
     </div>
   );
 }

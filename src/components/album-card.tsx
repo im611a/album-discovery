@@ -1,47 +1,22 @@
 import Link from "next/link";
+import { getTaxonomyLabel } from "@/catalog/published-catalog";
+import type { PublishedAlbum } from "@/catalog/schema";
+import { AlbumActions } from "./album-actions";
+import { AlbumCover } from "./albums/album-cover";
 
-import { AlbumCover } from "@/components/albums/album-cover";
-import type { MockAlbum } from "@/data/albums.mock";
-import { formatArtists } from "@/lib/albums";
-import { getDisplayLabel } from "@/lib/display-labels";
-
-type AlbumCardProps = {
-  album: MockAlbum;
-};
-
-export function AlbumCard({ album }: AlbumCardProps) {
-  const visibleGenres = album.primaryGenres.slice(0, 2);
-
+export function AlbumCard({ album, reason }: { album: PublishedAlbum; reason?: string | null }) {
   return (
     <article className="album-card">
-      <Link
-        aria-label={`查看《${album.title}》专辑详情`}
-        className="album-card__link"
-        href={`/albums/${album.slug}`}
-      >
+      <Link className="album-card__link" href={`/albums/${album.slug}`} aria-label={`查看《${album.title}》专辑导览`}>
         <AlbumCover album={album} />
         <div className="album-card__body">
-          <h3 className="album-card__title" title={album.title}>
-            {album.title}
-          </h3>
-          <p className="album-card__artist" title={formatArtists(album.artists)}>
-            {formatArtists(album.artists)}
-          </p>
-          <div className="album-card__facts">
-            <span>{album.releaseYear}</span>
-            {album.rymScore !== null ? (
-              <span aria-label={`RYM 评分 ${album.rymScore.toFixed(2)}`}>
-                RYM {album.rymScore.toFixed(2)}
-              </span>
-            ) : null}
-          </div>
-          <ul className="album-card__genres" aria-label="主流派">
-            {visibleGenres.map((genre) => (
-              <li key={genre}>{getDisplayLabel(genre)}</li>
-            ))}
-          </ul>
+          <h3 className="album-card__title">{album.title}</h3>
+          <p className="album-card__artist">{album.artists.map((artist) => artist.name).join("、")}</p>
+          <p className="album-card__meta">{album.releaseDate?.value.slice(0, 4) ?? "日期暂缺"} · {getTaxonomyLabel(album.primaryGenres[0] ?? "")}</p>
+          {reason ? <p className="album-card__reason">{reason}</p> : album.editorial ? <p className="album-card__reason">{album.editorial.summaryZh}</p> : null}
         </div>
       </Link>
+      <AlbumActions album={album} compact />
     </article>
   );
 }

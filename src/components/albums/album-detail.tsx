@@ -1,166 +1,26 @@
 import Link from "next/link";
-
-import type { MockAlbumDetail } from "@/data/album-details.mock";
-import type { MockAlbum } from "@/data/albums.mock";
-import {
-  getDiscoverTaxonomyHref,
-  type TaxonomyKind,
-} from "@/lib/album-filters";
-import {
-  formatRatingCount,
-  formatReleaseDate,
-} from "@/lib/album-details";
-import { formatArtists } from "@/lib/albums";
-import { getDisplayLabel } from "@/lib/display-labels";
-
+import { getTaxonomyLabel } from "@/catalog/published-catalog";
+import { getRelatedAlbums } from "@/catalog/queries";
+import { formatPartialDate, RELEASE_TYPE_LABELS, type PublishedAlbum } from "@/catalog/schema";
+import { AlbumGrid } from "@/components/album-grid";
 import { AlbumCover } from "./album-cover";
+import { AlbumDetailActions } from "./album-detail-actions";
 import { TrackList } from "./track-list";
 
-type AlbumDetailProps = {
-  album: MockAlbum;
-  detail: MockAlbumDetail;
-};
-
-type TaxonomyGroup = {
-  id: string;
-  kind: TaxonomyKind;
-  labels: string[];
-  title: string;
-};
-
-export function AlbumDetail({ album, detail }: AlbumDetailProps) {
-  const taxonomyGroups: TaxonomyGroup[] = [
-    {
-      id: "primary-genres",
-      kind: "primaryGenre",
-      labels: album.primaryGenres,
-      title: "主流派",
-    },
-    {
-      id: "secondary-genres",
-      kind: "secondaryGenre",
-      labels: album.secondaryGenres,
-      title: "次要流派",
-    },
-    {
-      id: "descriptors",
-      kind: "descriptor",
-      labels: album.descriptors,
-      title: "描述标签",
-    },
-  ];
-
-  return (
-    <>
-      <section className="album-hero" aria-labelledby="album-title">
-        <div className="album-hero__cover">
-          <AlbumCover album={album} size="detail" />
-        </div>
-        <div className="album-hero__content">
-          <p className="eyebrow">本地虚构专辑详情</p>
-          <h1 id="album-title">{album.title}</h1>
-          {album.aliases.length > 0 ? (
-            <p className="album-hero__aliases">{album.aliases.join(" / ")}</p>
-          ) : null}
-          <p className="album-hero__artists">{formatArtists(album.artists)}</p>
-          <dl className="album-metadata">
-            <div>
-              <dt>发行日期</dt>
-              <dd>
-                <time dateTime={album.releaseDate}>
-                  {formatReleaseDate(album.releaseDate)}
-                </time>
-              </dd>
-            </div>
-            <div>
-              <dt>发行类型</dt>
-              <dd>{getDisplayLabel(album.releaseType)}</dd>
-            </div>
-            {detail.company ? (
-              <div>
-                <dt>发行公司</dt>
-                <dd>{detail.company}</dd>
-              </div>
-            ) : null}
-            <div>
-              <dt>曲目数量</dt>
-              <dd>{detail.tracks.length} 首</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-
-      <section className="album-listening" aria-labelledby="listening-title">
-        <div>
-          <p className="eyebrow">唯一外部收听入口</p>
-          <h2 id="listening-title">网易云音乐</h2>
-          <p>本阶段不使用真实专辑链接，也不会发起外部请求。</p>
-        </div>
-        <span aria-disabled="true" className="netease-entry" role="link">
-          <span>在网易云音乐中查看</span>
-          <small>真实数据接入后启用</small>
-        </span>
-      </section>
-
-      <div className="album-detail-grid">
-        <section
-          className="album-detail-panel album-taxonomy"
-          aria-labelledby="taxonomy-title"
-        >
-          <p className="eyebrow">RYM 分类</p>
-          <h2 id="taxonomy-title">流派与描述</h2>
-          <div className="album-taxonomy__groups">
-            {taxonomyGroups.map((group) => (
-              <section aria-labelledby={group.id} key={group.kind}>
-                <h3 id={group.id}>{group.title}</h3>
-                <ul>
-                  {group.labels.map((label) => (
-                    <li key={label}>
-                      <Link href={getDiscoverTaxonomyHref(group.kind, label)}>
-                        {getDisplayLabel(label)}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            ))}
-          </div>
-        </section>
-
-        <section className="album-detail-panel album-rating" aria-labelledby="rating-title">
-          <p className="eyebrow">社区评价</p>
-          <h2 id="rating-title">RYM 社区评分</h2>
-          {album.rymScore !== null && album.rymRatingCount !== null ? (
-            <div className="album-rating__value">
-              <strong>{album.rymScore.toFixed(2)} / 5</strong>
-              <span>{formatRatingCount(album.rymRatingCount)} 人评分</span>
-            </div>
-          ) : (
-            <p className="album-rating__missing">暂无 RYM 评分</p>
-          )}
-          <p className="album-detail-note">当前评分与人数均为本地虚构原型数据。</p>
-        </section>
-      </div>
-
-      <section className="album-detail-panel album-tracks" aria-labelledby="tracks-title">
-        <div className="album-detail-panel__heading">
-          <div>
-            <p className="eyebrow">完整曲序</p>
-            <h2 id="tracks-title">曲目表</h2>
-          </div>
-          <span>{detail.tracks.length} 首</span>
-        </div>
-        <TrackList albumArtists={album.artists} tracks={detail.tracks} />
-      </section>
-
-      <section className="album-sources" aria-labelledby="sources-title">
-        <h2 id="sources-title">数据来源说明</h2>
-        <p>
-          当前内容为本地虚构原型数据，不代表任何真实专辑、评分或曲目。
-          未来专辑目录数据计划由网易云同步层提供，评分与分类数据计划通过 RYM
-          离线导入层提供；当前页面不会实时连接这些来源。
-        </p>
-      </section>
-    </>
-  );
+export function AlbumDetail({ album }: { album: PublishedAlbum }) {
+  const startTrack = album.tracks.find((track) => track.id === album.editorial?.startWithTrackId);
+  const totalDuration = album.tracks.reduce((sum, track) => sum + (track.durationMs ?? 0), 0);
+  const related = getRelatedAlbums(album);
+  return <article className="album-detail">
+    <nav className="breadcrumbs" aria-label="面包屑"><Link href="/discover">发现</Link><span aria-hidden="true">/</span><span>{album.title}</span></nav>
+    <header className="album-detail__hero"><AlbumCover album={album} size="detail" /><div className="album-detail__intro"><p className="eyebrow">完整专辑导览</p><h1>{album.title}</h1>{album.alternateTitles.length ? <p className="album-detail__aliases">别名：{album.alternateTitles.join("、")}</p> : null}<p className="album-detail__artists">{album.artists.map((artist) => artist.name).join("、")}</p><dl className="album-meta"><div><dt>发行</dt><dd>{formatPartialDate(album.releaseDate)}</dd></div><div><dt>类型</dt><dd>{RELEASE_TYPE_LABELS[album.releaseType]}</dd></div>{album.tracks.length ? <div><dt>长度</dt><dd>{album.tracks.length} 首{totalDuration ? ` · 约 ${Math.round(totalDuration / 60000)} 分钟` : ""}</dd></div> : null}</dl><AlbumDetailActions album={album} /></div></header>
+    <div className="album-detail__content">
+      <section className="detail-card detail-card--guide" aria-labelledby="guide-title"><p className="section-kicker">为什么听</p><h2 id="guide-title">{album.editorial ? "这张专辑可能适合你" : "从类型与场景开始"}</h2><p>{album.editorial?.summaryZh ?? `这张专辑被本站归入${album.primaryGenres.map(getTaxonomyLabel).join("、")}，可从完整曲序开始探索。`}</p>{album.editorial ? <p>{album.editorial.whyListenZh}</p> : null}{startTrack ? <div className="start-with"><span>可以从这里开始</span><strong>{startTrack.title}</strong></div> : <p className="unavailable-note">暂无经核验的起始曲建议。</p>}</section>
+      <section className="detail-card" aria-labelledby="signals-title"><p className="section-kicker">发现信号</p><h2 id="signals-title">类型、描述与场景</h2><div className="signal-groups"><div><h3>主流派</h3>{album.primaryGenres.map((item) => <Link key={item} href={`/discover?genre=${encodeURIComponent(item)}`}>{getTaxonomyLabel(item)}</Link>)}</div><div><h3>描述</h3>{album.descriptors.map((item) => <Link key={item} href={`/discover?descriptor=${encodeURIComponent(item)}`}>{item}</Link>)}</div><div><h3>场景</h3>{album.contexts.map((item) => <Link key={item} href={`/discover?context=${encodeURIComponent(item)}`}>{item}</Link>)}</div></div></section>
+      <section className="detail-card detail-card--tracks" aria-labelledby="tracks-title"><p className="section-kicker">代表版本</p><h2 id="tracks-title">曲目表</h2>{album.representativeReleaseId ? <p className="support-copy">曲序来自一个确定的 MusicBrainz release，不代表所有再版版本。</p> : null}<TrackList tracks={album.tracks} /></section>
+      <section className="detail-card" aria-labelledby="listen-title"><p className="section-kicker">离开本站聆听</p><h2 id="listen-title">经核验的外部去向</h2>{album.externalLinks.length ? <div className="external-links">{album.externalLinks.map((link) => <a key={`${link.platform}-${link.url}`} href={link.url} target="_blank" rel="noopener noreferrer"><strong>{link.platform}</strong><span>{link.kind === "purchase" ? "购买" : "打开专辑"} ↗</span></a>)}</div> : <><p className="unavailable-note">暂无可验证的直达链接。</p><code className="copy-query">{album.artists.map((artist) => artist.name).join(" ")} {album.title}</code></>}</section>
+      <section className="detail-card source-note" aria-labelledby="source-title"><p className="section-kicker">数据透明</p><h2 id="source-title">来源与边界</h2><p>专辑身份与发行元数据来自 MusicBrainz，刷新于 {album.sourceSummary.refreshedAt}。{album.editorial ? "中文导览为本站原创 metadata-based 内容，尚未标记为人工策展评论。" : "当前没有补写未经核验的编辑事实。"}</p><a href={album.sourceSummary.metadataUrl} target="_blank" rel="noopener noreferrer">查看 MusicBrainz 条目 ↗</a></section>
+      {related.length ? <section className="related-section" aria-labelledby="related-title"><header className="section-heading"><div><p className="section-kicker">相同类型或聆听信号</p><h2 id="related-title">继续发现</h2></div></header><AlbumGrid albums={related} /></section> : null}
+    </div>
+  </article>;
 }

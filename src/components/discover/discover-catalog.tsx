@@ -1,110 +1,37 @@
 "use client";
 
-import { useMemo } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
-
+import { useRouter, useSearchParams } from "next/navigation";
 import { AlbumGrid } from "@/components/album-grid";
-import type { MockAlbum } from "@/data/albums.mock";
-import {
-  DEFAULT_DISCOVER_STATE,
-  buildDiscoverOptions,
-  filterAndSortAlbums,
-  getActiveFilters,
-  parseDiscoverQuery,
-  removeFilter,
-  serializeDiscoverState,
-  type DiscoverState,
-  type FilterKey,
-} from "@/lib/album-filters";
+import { buildDiscoverOptions, discoverAlbums, type CatalogSort, type DiscoverFilters } from "@/catalog/queries";
+import { getTaxonomyLabel } from "@/catalog/published-catalog";
+import { RELEASE_TYPE_LABELS, type ReleaseType } from "@/catalog/schema";
 
-import { DiscoverFilters } from "./discover-filters";
+const options = buildDiscoverOptions();
+const sorts: Array<[CatalogSort, string]> = [["recently-added", "最近收录"], ["release-newest", "发行日期：新到旧"], ["release-oldest", "发行日期：旧到新"], ["title", "标题"]];
+const releaseTypes = Object.entries(RELEASE_TYPE_LABELS) as Array<[ReleaseType, string]>;
 
-type DiscoverCatalogProps = {
-  albums: MockAlbum[];
-};
-
-export function DiscoverCatalog({ albums }: DiscoverCatalogProps) {
-  const pathname = usePathname();
+export function DiscoverCatalog() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const options = useMemo(() => buildDiscoverOptions(albums), [albums]);
-  const state = useMemo(
-    () => parseDiscoverQuery(searchParams, options),
-    [options, searchParams],
-  );
-  const results = useMemo(
-    () => filterAndSortAlbums(albums, state, options),
-    [albums, options, state],
-  );
-  const activeFilters = getActiveFilters(state, options);
-
-  function navigate(nextState: DiscoverState) {
-    const query = serializeDiscoverState(nextState);
-    router.push(query ? `${pathname}?${query}` : pathname, { scroll: false });
-  }
-
-  function removeActiveFilter(key: FilterKey) {
-    navigate(removeFilter(state, key));
-  }
-
-  function clearAll() {
-    navigate(DEFAULT_DISCOVER_STATE);
-  }
-
-  return (
-    <div className="discover-catalog">
-      <DiscoverFilters
-        activeFilterCount={activeFilters.length}
-        options={options}
-        state={state}
-        onChange={navigate}
-      />
-
-      <section className="discover-results" aria-labelledby="results-heading">
-        <div className="discover-results__heading">
-          <div>
-            <h2 id="results-heading">专辑结果</h2>
-            <p aria-live="polite">
-              <strong>{results.length}</strong> 张专辑
-            </p>
-          </div>
-        </div>
-
-        {activeFilters.length > 0 ? (
-          <div className="active-filters" aria-label="当前筛选条件">
-            <span className="active-filters__label">当前筛选</span>
-            <ul>
-              {activeFilters.map((filter) => (
-                <li key={filter.key}>
-                  <button
-                    aria-label={`移除筛选：${filter.label}`}
-                    onClick={() => removeActiveFilter(filter.key)}
-                    type="button"
-                  >
-                    <span>{filter.label}</span>
-                    <span aria-hidden="true">移除</span>
-                  </button>
-                </li>
-              ))}
-            </ul>
-            <button className="clear-filter-button" onClick={clearAll} type="button">
-              清除全部
-            </button>
-          </div>
-        ) : null}
-
-        {results.length > 0 ? (
-          <AlbumGrid albums={results} />
-        ) : (
-          <div className="discover-empty-state" role="status">
-            <h3>没有找到符合条件的专辑</h3>
-            <p>可以调整筛选条件，或清除筛选后重新浏览。</p>
-            <button className="secondary-button" onClick={clearAll} type="button">
-              清除筛选
-            </button>
-          </div>
-        )}
-      </section>
-    </div>
-  );
+  const params = useSearchParams();
+  const getValid = (key: string, values: string[]) => values.includes(params.get(key) ?? "") ? params.get(key) : null;
+  const filters: DiscoverFilters = {
+    primaryGenre: getValid("genre", options.primaryGenres), secondaryGenre: getValid("secondary", options.secondaryGenres), descriptor: getValid("descriptor", options.descriptors), context: getValid("context", options.contexts), decade: getValid("decade", options.decades), releaseType: getValid("type", releaseTypes.map(([value]) => value)) as ReleaseType | null, editorialOnly: params.get("guide") === "1",
+  };
+  const sort = (sorts.some(([value]) => value === params.get("sort")) ? params.get("sort") : "recently-added") as CatalogSort;
+  const results = discoverAlbums(filters, sort);
+  function update(key: string, value: string | boolean) { const next = new URLSearchParams(params.toString()); if (!value) next.delete(key); else next.set(key, value === true ? "1" : String(value)); router.push(next.size ? `/discover?${next}` : "/discover", { scroll: false }); }
+  return <>
+    <details className="filter-panel" open><summary>筛选与排序 <span>{Object.values(filters).filter(Boolean).length} 项</span></summary><div className="filter-grid">
+      <label>主流派<select value={filters.primaryGenre ?? ""} onChange={(e) => update("genre", e.target.value)}><option value="">全部</option>{options.primaryGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</select></label>
+      <label>次要流派<select value={filters.secondaryGenre ?? ""} onChange={(e) => update("secondary", e.target.value)}><option value="">全部</option>{options.secondaryGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</select></label>
+      <label>描述<select value={filters.descriptor ?? ""} onChange={(e) => update("descriptor", e.target.value)}><option value="">全部</option>{options.descriptors.map((value) => <option key={value} value={value}>{value}</option>)}</select></label>
+      <label>聆听场景<select value={filters.context ?? ""} onChange={(e) => update("context", e.target.value)}><option value="">全部</option>{options.contexts.map((value) => <option key={value} value={value}>{value}</option>)}</select></label>
+      <label>年代<select value={filters.decade ?? ""} onChange={(e) => update("decade", e.target.value)}><option value="">全部</option>{options.decades.map((value) => <option key={value} value={value}>{value.replace("s", " 年代")}</option>)}</select></label>
+      <label>发行类型<select value={filters.releaseType ?? ""} onChange={(e) => update("type", e.target.value)}><option value="">全部</option>{releaseTypes.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
+      <label>排序<select value={sort} onChange={(e) => update("sort", e.target.value)}>{sorts.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
+      <label className="checkbox-label"><input type="checkbox" checked={Boolean(filters.editorialOnly)} onChange={(e) => update("guide", e.target.checked)} />只看有完整导览</label>
+    </div></details>
+    <div className="results-bar"><p aria-live="polite">找到 <strong>{results.length}</strong> 张专辑</p>{params.size ? <button type="button" onClick={() => router.push("/discover", { scroll: false })}>清除筛选</button> : null}</div>
+    {results.length ? <AlbumGrid albums={results} /> : <div className="empty-state"><h2>当前条件下没有专辑</h2><p>试着减少一个筛选条件，或清除全部筛选。</p></div>}
+  </>;
 }

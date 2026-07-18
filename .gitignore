@@ -39,6 +39,8 @@ yarn-error.log*
 !.env.*.example
 
 # local credentials and transient data
+.cache/catalog/
+catalog-report.local.json
 .cookies/
 *.cookie
 *.cookies
