@@ -14,4 +14,19 @@ describe("local user state", () => {
     expect(parseLocalUserState({ version: 2 }, ids)).toBeNull();
     expect(parseLocalUserState({ ...createInitialUserState(), favoriteAlbumIds: "bad" }, ids)).toBeNull();
   });
+
+  it("normalizes contradictory imported feedback", () => {
+    const albumId = catalogAlbums[0]!.id;
+    const state = createInitialUserState();
+    const parsed = parseLocalUserState({
+      ...state,
+      favoriteAlbumIds: [albumId],
+      savedAlbumIds: [albumId],
+      dismissedAlbumIds: [albumId],
+      recommendationFeedback: { [albumId]: "not_for_me" },
+    }, new Set(catalogAlbums.map((album) => album.id)));
+    expect(parsed?.favoriteAlbumIds).not.toContain(albumId);
+    expect(parsed?.savedAlbumIds).not.toContain(albumId);
+    expect(parsed?.dismissedAlbumIds).toContain(albumId);
+  });
 });

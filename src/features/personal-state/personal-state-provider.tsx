@@ -49,7 +49,13 @@ export function PersonalStateProvider({ children }: { children: React.ReactNode 
   const setFeedback = useCallback((albumId: string, value: "like" | "not_for_me" | null) => update((current) => {
     const feedback = { ...current.recommendationFeedback };
     if (value) feedback[albumId] = value; else delete feedback[albumId];
-    return { ...current, recommendationFeedback: feedback, dismissedAlbumIds: value === "not_for_me" ? [...new Set([...current.dismissedAlbumIds, albumId])] : current.dismissedAlbumIds.filter((id) => id !== albumId) };
+    return {
+      ...current,
+      favoriteAlbumIds: value === "not_for_me" ? current.favoriteAlbumIds.filter((id) => id !== albumId) : current.favoriteAlbumIds,
+      savedAlbumIds: value === "not_for_me" ? current.savedAlbumIds.filter((id) => id !== albumId) : current.savedAlbumIds,
+      recommendationFeedback: feedback,
+      dismissedAlbumIds: value === "not_for_me" ? [...new Set([...current.dismissedAlbumIds, albumId])] : current.dismissedAlbumIds.filter((id) => id !== albumId),
+    };
   }), [update]);
   const saveTaste = useCallback((taste: TasteProfile, completed = true) => update((current) => ({ ...current, taste, onboardingCompleted: completed })), [update]);
   const recordRecent = useCallback((albumId: string) => update((current) => ({ ...current, recentAlbumIds: [albumId, ...current.recentAlbumIds.filter((id) => id !== albumId)].slice(0, 20) })), [update]);

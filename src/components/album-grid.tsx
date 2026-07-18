@@ -1,6 +1,6 @@
 import type { PublishedAlbum } from "@/catalog/schema";
 import { AlbumCard } from "./album-card";
 
-export function AlbumGrid({ albums, reasons }: { albums: PublishedAlbum[]; reasons?: Record<string, string> }) {
-  return <div className="album-grid">{albums.map((album) => <AlbumCard album={album} reason={reasons?.[album.id]} key={album.id} />)}</div>;
+export function AlbumGrid({ albums, reasons, actions = "compact", highlight }: { albums: PublishedAlbum[]; reasons?: Record<string, string>; actions?: "compact" | "full"; highlight?: string }) {
+  return <div className="album-grid">{albums.map((album) => <AlbumCard album={album} reason={reasons?.[album.id]} actions={actions} highlight={highlight} key={album.id} />)}</div>;
 }

@@ -36,11 +36,14 @@ export function parseLocalUserState(value: unknown, albumIds: Set<string>): Loca
   const feedback = input.recommendationFeedback;
   if (!feedback || typeof feedback !== "object" || Object.values(feedback).some((item) => item !== "like" && item !== "not_for_me")) return null;
   const reconcile = (items: string[] = []) => [...new Set(items.filter((id) => albumIds.has(id)))];
+  const recommendationFeedback = Object.fromEntries(Object.entries(feedback).filter(([id]) => albumIds.has(id))) as Record<string, "like" | "not_for_me">;
+  const notForMeIds = new Set(Object.entries(recommendationFeedback).filter(([, item]) => item === "not_for_me").map(([id]) => id));
+  const likedIds = new Set(Object.entries(recommendationFeedback).filter(([, item]) => item === "like").map(([id]) => id));
   return {
     version: 1,
     taste: { genres: [...new Set(taste.genres)], descriptors: [...new Set(taste.descriptors)], contexts: [...new Set(taste.contexts)], eras: [...new Set(taste.eras)], seedAlbumIds: reconcile(taste.seedAlbumIds), exploration: taste.exploration as TasteProfile["exploration"] },
-    favoriteAlbumIds: reconcile(input.favoriteAlbumIds), savedAlbumIds: reconcile(input.savedAlbumIds), listenedAlbumIds: reconcile(input.listenedAlbumIds), dismissedAlbumIds: reconcile(input.dismissedAlbumIds), recentAlbumIds: reconcile(input.recentAlbumIds).slice(0, 20),
-    recommendationFeedback: Object.fromEntries(Object.entries(feedback).filter(([id]) => albumIds.has(id))) as Record<string, "like" | "not_for_me">,
+    favoriteAlbumIds: reconcile(input.favoriteAlbumIds).filter((id) => !notForMeIds.has(id)), savedAlbumIds: reconcile(input.savedAlbumIds).filter((id) => !notForMeIds.has(id)), listenedAlbumIds: reconcile(input.listenedAlbumIds), dismissedAlbumIds: reconcile(input.dismissedAlbumIds).filter((id) => !likedIds.has(id)), recentAlbumIds: reconcile(input.recentAlbumIds).slice(0, 20),
+    recommendationFeedback,
     onboardingCompleted: Boolean(input.onboardingCompleted),
     updatedAt: typeof input.updatedAt === "string" ? input.updatedAt : new Date(0).toISOString(),
   };

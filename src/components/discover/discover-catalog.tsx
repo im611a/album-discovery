@@ -21,7 +21,7 @@ export function DiscoverCatalog() {
   const results = discoverAlbums(filters, sort);
   function update(key: string, value: string | boolean) { const next = new URLSearchParams(params.toString()); if (!value) next.delete(key); else next.set(key, value === true ? "1" : String(value)); router.push(next.size ? `/discover?${next}` : "/discover", { scroll: false }); }
   return <>
-    <details className="filter-panel" open><summary>筛选与排序 <span>{Object.values(filters).filter(Boolean).length} 项</span></summary><div className="filter-grid">
+    <details className="filter-panel"><summary>筛选与排序 <span>{Object.values(filters).filter(Boolean).length} 项</span></summary><div className="filter-grid">
       <label>主流派<select value={filters.primaryGenre ?? ""} onChange={(e) => update("genre", e.target.value)}><option value="">全部</option>{options.primaryGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</select></label>
       <label>次要流派<select value={filters.secondaryGenre ?? ""} onChange={(e) => update("secondary", e.target.value)}><option value="">全部</option>{options.secondaryGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</select></label>
       <label>描述<select value={filters.descriptor ?? ""} onChange={(e) => update("descriptor", e.target.value)}><option value="">全部</option>{options.descriptors.map((value) => <option key={value} value={value}>{value}</option>)}</select></label>
