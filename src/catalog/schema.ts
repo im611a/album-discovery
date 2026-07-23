@@ -1,55 +1,109 @@
-export type PartialDate = { value: string; precision: "year" | "month" | "day" };
-export type ReleaseType = "album" | "ep" | "mixtape" | "live" | "compilation" | "other";
+export type ReleaseDatePrecision = "year" | "month" | "day";
+export type ReleaseType = "album" | "ep" | "single" | "mixtape" | "soundtrack" | "live" | "compilation" | "other";
+export type SourceMarketChannel = "ALL" | "ZH" | "EA" | "JP" | "KR";
 
-export interface PublishedArtist { id: string; name: string }
-export interface PublishedTrack { id: string; title: string; trackNumber: number; discNumber: number; artists: string[]; durationMs: number | null }
-export interface ExternalAlbumLink { platform: string; kind: "listen" | "purchase"; url: string; verified: true; verifiedAt: string; source: string }
-export interface PublishedCover { kind: "local" | "fallback"; src: string | null; width: number; height: number; alt: string; sourceUrl: string | null; retrievedAt: string | null; reason?: string }
+export interface PublishedArtist {
+  id: string;
+  neteaseArtistId: string;
+  name: string;
+}
+
+export interface PublishedTrack {
+  id: string;
+  neteaseTrackId: string | null;
+  title: string;
+  trackNumber: number;
+  discNumber: number;
+  artists: string[];
+  durationMs: number | null;
+}
+
+export interface PublishedCover {
+  kind: "local" | "fallback";
+  src: string | null;
+  alt: string;
+  reason: string | null;
+}
+
 export interface AlbumEditorial {
   summaryZh: string;
   whyListenZh: string;
   bestFor: string[];
   startWithTrackId: string | null;
-  listeningApproachZh: string | null;
   confidence: "curated" | "metadata_based";
   humanReviewed: boolean;
-  factNotes: Array<{ text: string; sourceUrl: string }>;
   descriptors: string[];
 }
+
 export interface PublishedAlbum {
+  internalId: string;
   id: string;
+  neteaseAlbumId: string;
   slug: string;
   title: string;
-  alternateTitles: string[];
+  aliases: string[];
   artists: PublishedArtist[];
-  releaseDate: PartialDate | null;
-  releaseType: ReleaseType;
-  primaryGenres: string[];
-  secondaryGenres: string[];
-  descriptors: string[];
-  contexts: string[];
-  languages: { status: "verified" | "unavailable"; values: string[]; source: string | null };
+  releaseDate: string | null;
+  releaseDatePrecision: ReleaseDatePrecision | null;
+  albumType: ReleaseType;
+  company: string | null;
   cover: PublishedCover;
   tracks: PublishedTrack[];
-  externalLinks: ExternalAlbumLink[];
-  musicbrainzReleaseGroupId: string;
-  representativeReleaseId: string | null;
+  trackCount: number;
+  externalUrl: string;
+  discoveredAt: string;
+  updatedAt: string;
+  sourceMarketChannels: SourceMarketChannel[];
+  coreGenres: string[];
+  relatedGenres: string[];
+  descriptors: string[];
+  contexts: string[];
   editorial: AlbumEditorial | null;
   searchText: string;
-  addedAt: string;
-  sourceSummary: { identity: string; metadataUrl: string; refreshedAt: string; editorial: string | null };
 }
-export interface CatalogTaxonomy { key: string; labelZh: string; descriptionZh: string }
-export interface PublishedCatalog { version: 1; refreshDate: string; attribution: Record<string, string>; taxonomy: CatalogTaxonomy[]; albums: PublishedAlbum[] }
+
+export interface CatalogTaxonomy {
+  key: string;
+  labelZh: string;
+  labelEn: string;
+  kind: "core" | "related";
+}
+
+export interface DescriptorTaxonomy {
+  key: string;
+  label: string;
+  kind: "descriptor";
+}
+
+export interface PublishedCatalog {
+  version: 2;
+  refreshDate: string;
+  source: {
+    catalog: "netease";
+    endpointFamily: string;
+    generatedAt: string;
+    runtimeRequestsAllowed: false;
+  };
+  taxonomy: CatalogTaxonomy[];
+  descriptorTaxonomy: DescriptorTaxonomy[];
+  albums: PublishedAlbum[];
+}
 
 export const RELEASE_TYPE_LABELS: Record<ReleaseType, string> = {
-  album: "专辑", ep: "EP", mixtape: "Mixtape", live: "现场专辑", compilation: "精选集", other: "其他",
+  album: "专辑",
+  ep: "EP",
+  single: "单曲",
+  mixtape: "Mixtape",
+  soundtrack: "原声专辑",
+  live: "现场专辑",
+  compilation: "精选集",
+  other: "其他",
 };
 
-export function formatPartialDate(date: PartialDate | null) {
-  if (!date) return "发行日期暂缺";
-  const [year, month, day] = date.value.split("-");
-  if (date.precision === "year") return `${year} 年`;
-  if (date.precision === "month") return `${year} 年 ${Number(month)} 月`;
+export function formatPartialDate(value: string | null, precision: ReleaseDatePrecision | null) {
+  if (!value || !precision) return "发行日期暂缺";
+  const [year, month, day] = value.split("-");
+  if (precision === "year") return `${year} 年`;
+  if (precision === "month") return `${year} 年 ${Number(month)} 月`;
   return `${year} 年 ${Number(month)} 月 ${Number(day)} 日`;
 }

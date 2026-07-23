@@ -1,58 +1,48 @@
 import { describe, expect, it } from "vitest";
 import catalog from "../../src/data/generated/catalog.json" with { type: "json" };
-import identities from "./verified-identities.json" with { type: "json" };
-import { validateCatalog } from "./catalog-validation.mjs";
+import identities from "./netease-identities.json" with { type: "json" };
+import { validateCatalogData } from "./catalog-validation.mjs";
 
-const clone = (value) => structuredClone(value);
-const issueFor = (value, slug, field) => {
-  const index = value.albums.findIndex((album) => album.slug === slug);
-  return validateCatalog(value, identities).some((issue) => issue.path === `albums[${index}].${field}`);
-};
+const clone = () => structuredClone(catalog);
 
-describe("catalog identity validation", () => {
-  it("accepts the published fixed snapshot", () => expect(validateCatalog(catalog, identities)).toEqual([]));
-
-  it.each([
-    ["paranoid", "0a4484de-f894-4629-bf81-cf30f27bd8c4", "musicbrainzReleaseGroupId"],
-    ["hounds-of-love", "ecc129fd-419f-49ef-ac02-391cd8ef5c39", "musicbrainzReleaseGroupId"],
-    ["whats-going-on", "ef15d15b-85e5-45b1-b143-493d71374281", "musicbrainzReleaseGroupId"],
-    ["is-this-it", "6d44b57a-2b9d-372a-b7c2-c670dca997d3", "musicbrainzReleaseGroupId"],
-    ["since-i-left-you", "d8a6d224-acf2-4be9-ab4d-26ea4545d43c", "musicbrainzReleaseGroupId"],
-  ])("rejects the known wrong %s release-group", (slug, wrongId, field) => {
-    const changed = clone(catalog);
-    const album = changed.albums.find((item) => item.slug === slug);
-    album.musicbrainzReleaseGroupId = wrongId;
-    album.id = `mb:${wrongId}`;
-    expect(issueFor(changed, slug, field)).toBe(true);
+describe("NetEase catalog validation", () => {
+  it("accepts the published snapshot", () => {
+    const result = validateCatalogData(catalog, identities);
+    expect(result.ok).toBe(true);
+    expect(result.errors).toEqual([]);
+    expect(result.summary.albums).toBe(catalog.albums.length);
   });
 
-  it("rejects a flagship with an implausibly short representative track list", () => {
-    const changed = clone(catalog);
-    changed.albums.find((album) => album.slug === "hounds-of-love").tracks = changed.albums.find((album) => album.slug === "hounds-of-love").tracks.slice(0, 3);
-    expect(issueFor(changed, "hounds-of-love", "tracks")).toBe(true);
+  it("rejects duplicate NetEase album IDs", () => {
+    const changed = clone();
+    changed.albums[1].neteaseAlbumId = changed.albums[0].neteaseAlbumId;
+    expect(validateCatalogData(changed, identities).errors).toContain(`Duplicate NetEase album ID: ${changed.albums[0].neteaseAlbumId}`);
   });
 
-  it("rejects a false first-release year and type", () => {
-    const changed = clone(catalog);
-    const album = changed.albums.find((item) => item.slug === "whats-going-on");
-    album.releaseDate = { value: "1983", precision: "year" };
-    album.releaseType = "other";
-    expect(issueFor(changed, "whats-going-on", "releaseDate")).toBe(true);
-    expect(issueFor(changed, "whats-going-on", "releaseType")).toBe(true);
-  });
-  it("rejects duplicate fixed IDs and a non-Album primary identity", () => {
-    const changed = clone(identities);
-    changed.identities[1].verifiedReleaseGroupId = changed.identities[0].verifiedReleaseGroupId;
-    changed.identities[2].expectedPrimaryType = "Single";
-    const issues = validateCatalog(catalog, changed);
-    expect(issues.some((issue) => issue.message.includes("duplicate fixed"))).toBe(true);
-    expect(issues.some((issue) => issue.path.endsWith("expectedPrimaryType"))).toBe(true);
+  it("rejects an outbound URL that does not match its album ID", () => {
+    const changed = clone();
+    changed.albums[0].externalUrl = "https://music.163.com/#/album?id=1";
+    expect(validateCatalogData(changed, identities).errors.some((issue) => issue.includes("external URL"))).toBe(true);
   });
 
-  it("rejects a fixed external URL that is not approved for that album", () => {
-    const changed = clone(catalog);
-    const album = changed.albums.find((item) => item.slug === "hounds-of-love");
-    album.externalLinks[0].url = "https://music.apple.com/us/album/not-the-reviewed-record/1";
-    expect(issueFor(changed, "hounds-of-love", "externalLinks[0]")).toBe(true);
+  it("rejects legacy MusicBrainz production fields", () => {
+    const changed = clone();
+    changed.albums[0].musicbrainzReleaseGroupId = "legacy";
+    expect(validateCatalogData(changed, identities).errors.some((issue) => issue.includes("musicbrainzReleaseGroupId"))).toBe(true);
+  });
+
+  it("rejects invalid dates and unknown taxonomy keys", () => {
+    const changed = clone();
+    changed.albums[0].releaseDate = "2025-02-29";
+    changed.albums[0].coreGenres = ["invented-genre"];
+    const errors = validateCatalogData(changed, identities).errors;
+    expect(errors.some((issue) => issue.includes("invalid release date"))).toBe(true);
+    expect(errors.some((issue) => issue.includes("unknown core genre"))).toBe(true);
+  });
+
+  it("requires both named Chinese acceptance samples", () => {
+    const changed = clone();
+    changed.albums = changed.albums.filter((album) => album.neteaseAlbumId !== "287974232");
+    expect(validateCatalogData(changed, identities).errors).toContain("Required NetEase sample is missing: 艾志恒Asen / 在雨后醒来.");
   });
 });

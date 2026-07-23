@@ -24,4 +24,12 @@ describe("NewReleasesCatalog URL view", () => {
     render(<PersonalStateProvider><NewReleasesCatalog /></PersonalStateProvider>);
     expect(screen.getByRole("tab", { name: "最近收录" })).toHaveAttribute("aria-selected", "true");
   });
+  it("restores a NetEase market channel and keeps its provenance wording precise", () => {
+    query = "channel=zh";
+    render(<PersonalStateProvider><NewReleasesCatalog /></PersonalStateProvider>);
+    expect(screen.getByRole("tab", { name: "华语新碟" })).toHaveAttribute("aria-selected", "true");
+    expect(screen.getByText("频道只记录专辑从哪个新发行列表被发现，不代表国籍、地区或语言。")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("tab", { name: "全部频道" }));
+    expect(push).toHaveBeenCalledWith("/new-releases?channel=all", { scroll: false });
+  });
 });

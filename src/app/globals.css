@@ -85,6 +85,8 @@ img { display: block; max-width: 100%; }
 .album-card__body { padding: 13px 4px 8px; }
 .album-card__title { margin: 0; font-size: .98rem; line-height: 1.32; overflow-wrap: anywhere; }
 .album-card__artist, .album-card__meta, .album-card__reason { margin: 5px 0 0; color: var(--muted); font-size: .8rem; }
+.album-card__genres { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+.album-card__genres span { padding: 3px 7px; border: 1px solid var(--line); border-radius: 999px; color: #c3d3e6; font-size: .7rem; line-height: 1.35; }
 .album-card__reason { color: #c3d3e6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .album-cover { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 12px; background: var(--surface-2); }
 .album-cover--fallback { position: relative; display: grid; place-items: center; overflow: hidden; isolation: isolate; background: radial-gradient(circle at 72% 22%, rgb(105 170 252 / 32%), transparent 38%), linear-gradient(145deg, #142b49, #08111f 65%); }
@@ -173,6 +175,7 @@ select, input[type="text"], input[type="search"], .search-form input { width: 10
 .signal-groups { display: grid; gap: 20px; }
 .signal-groups h3 { margin: 0 0 8px; color: var(--muted); font-size: .78rem; }
 .signal-groups a { display: inline-flex; min-height: 38px; align-items: center; margin: 0 7px 7px 0; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; }
+.netease-album-link { width: fit-content; margin-top: 4px; }
 .track-discs { display: grid; gap: 25px; }
 .track-discs h3 { margin: 0 0 8px; }
 .track-list { margin: 0; padding: 0; list-style: none; }

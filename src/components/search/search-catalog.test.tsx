@@ -15,7 +15,7 @@ describe("SearchCatalog", () => {
   });
   it("submits through a semantic form with encoded URLSearchParams", () => {
     render(<PersonalStateProvider><SearchCatalog /></PersonalStateProvider>);
-    fireEvent.change(screen.getByLabelText("搜索真实专辑目录"), { target: { value: "纸 & + 月" } });
+    fireEvent.change(screen.getByLabelText("搜索专辑目录"), { target: { value: "纸 & + 月" } });
     fireEvent.submit(screen.getByRole("search"));
     expect(push).toHaveBeenCalledWith("/search?q=%E7%BA%B8+%26+%2B+%E6%9C%88", { scroll: false });
   });

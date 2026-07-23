@@ -1,67 +1,65 @@
 # 专辑发现
 
-面向中文用户的完整专辑发现与聆听指南。选择类型与场景后，应用会在本机生成有具体理由的推荐；用户可以保存、喜欢、标记听过或排除专辑，再通过经核验的外部链接离开本站聆听。
+面向中文用户的静态专辑发现网站。产品把网易云专辑目录、本地策展分类、可解释推荐和只保存在浏览器中的个人专辑状态连接成一条无需账号的使用路径。
 
-产品不需要账号，不上传个人口味，正常浏览不实时请求音乐数据源。
+## 当前能力
 
-## 已交付能力
+- 68 张以网易云 albumId 固定身份的真实专辑，中文音乐为目录核心；
+- 核心流派、相关流派、氛围与特征三层本站策展体系；
+- 首页、发现、为你推荐、最近收录、搜索、我的专辑、设置和静态专辑详情；
+- 确定性本机推荐，以及想听、喜欢、听过、不适合我的本地状态；
+- 所有专辑详情、封面、曲目与外部链接在构建前发布为本地快照；
+- 完整 Next.js 静态导出，不要求运行 Next.js 服务器。
 
-- 120 张真实 MusicBrainz release-group 专辑，12 个本站主流派组；
-- 24 张带中文摘要、聆听方式、场景与起始曲提示的旗舰专辑；
-- 口味设置、确定性推荐、推荐理由与即时反馈；
-- 想听、喜欢、听过、不适合我的本机专辑库；
-- 本机状态的校验、导出、导入与重置；
-- 发现筛选、全文本地搜索、最近收录与有日期依据的近期发行视图；
-- 120 个静态专辑详情页、静态 sitemap、robots 与完整静态导出；
-- MusicBrainz、Cover Art Archive 和外部平台链接的离线刷新工具。
+浏览器不会实时访问网易云、MusicBrainz、RYM 或其他音乐数据源。专辑详情的唯一外部音乐操作是“在网易云音乐中查看”。
 
-当前快照未包含虚构 RYM 评分。Cover Art Archive 在生成环境中不可达，因此当前 120 张专辑都使用明确的生成式回退封面。
-
-## 本地运行
-
-需要 Node.js 24、pnpm 11.7.0。
+## 本地开发
 
 ```text
-pnpm install
+pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-打开 `http://127.0.0.1:3000`。已安装依赖后，日常开发和浏览均可离线进行。
-
-## 目录工具
+## 质量检查
 
 ```text
 pnpm catalog:validate
-pnpm catalog:audit-identities
-pnpm catalog:report
-pnpm catalog:refresh
-pnpm catalog:check-links
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm build
 ```
 
-`catalog:refresh` 只使用经过人工复核并固定在 `scripts/catalog/verified-identities.json` 的 120 个 MusicBrainz release-group ID。标题搜索只用于人工发现候选，不能决定发布身份。刷新会访问 MusicBrainz 与 Cover Art Archive，使用可联系的 User-Agent、MusicBrainz 每请求至少 1.1 秒间隔、本地忽略缓存、超时与有限重试；失败不会覆盖上一份有效快照。
-
-## 质量与交付
+## 目录刷新
 
 ```text
-pnpm quality
+pnpm catalog:refresh
+pnpm catalog:validate
+```
+
+刷新只在构建维护阶段运行，使用 Node.js 自带 `fetch` 串行访问已验证的网易云匿名公开专辑元数据路径。它不使用账号、Cookie、Token、浏览器数据、代理、验证码处理或访问限制绕过。请求间隔至少两秒，遇到 401、403、429、验证码或风控信号立即停止。
+
+专辑身份固定在 `scripts/catalog/netease-identities.json`。首次发现缺失身份时使用专辑与艺人组合搜索；固定后直接按 albumId 读取详情。规范化快照发布到 `src/data/generated/catalog.json`，封面保存到 `public/catalog/covers/`，缓存与必要请求日志只保存在被 Git 忽略的 `.cache/catalog/`。
+
+## 静态交付
+
+```text
 pnpm package:source
 pnpm package:static
 pnpm delivery:verify
+pnpm serve:static
 ```
 
-`pnpm build` 使用 Next.js 静态导出，产物位于 `out/`。部署时可设置 `NEXT_PUBLIC_SITE_URL` 生成正式 sitemap 与 canonical 基址；未设置时使用 `http://localhost:3000`。
+- `artifacts/album-discovery-source.zip`：源码、测试、文档、固定身份和已发布快照。
+- `artifacts/album-discovery-static-site.zip`：可以直接部署的 `out/` 静态成品。
 
-构建后可运行 `pnpm serve:static`，在 `http://127.0.0.1:4173` 用普通静态 HTTP 服务验收 `out/`，不依赖 Next.js 开发服务器。
-
-交付文件写入 `artifacts/`：`album-discovery-source.zip` 是源码包，`album-discovery-static-site.zip` 是可直接部署的 `out/` 内容。两者都会由 `delivery:verify` 检查结构与禁止项；源码包不会包含 `.git`、`node_modules`、`.next`、`out`、缓存或本地秘密。
+两个压缩包均排除 Git、依赖、构建缓存、环境文件、Cookie、Token 和原始缓存响应。
 
 ## 数据边界
 
-- MusicBrainz：专辑身份、艺术家、发行日期、代表版与曲目；
-- Cover Art Archive：封面首选来源；不可用时使用本站生成式回退；
-- 本站原创层：中文导览、类型、描述与聆听场景；当前均标记 `metadata_based`，不冒充人工评论；
-- 外部平台：仅展示静态快照中已核验的直达链接；
-- NetEase：只保留历史实验，不是产品运行依赖；
-- RYM：不抓取、不依赖、不展示虚构评分。
+- 网易云音乐：专辑身份、标题、艺人、别名、发行信息、公司、封面、曲目和唯一外部专辑入口。
+- 本地编辑层：核心流派、相关流派、氛围与特征、聆听场景及中文导览。
+- 市场频道：`ALL`、`ZH`、`EA`、`JP`、`KR` 只记录发现来源，不代表国家、地区、语言或国籍。
+- 不抓取或使用 RYM；不展示虚构评分、播放量、评论数或平台统计。
 
-详见 [产品说明](./docs/PRODUCT.md)、[数据来源](./docs/DATA_SOURCES.md) 与 [现行架构](./docs/ARCHITECTURE.md)。
+更完整的产品、架构和刷新边界见 [docs](./docs/README.md)。

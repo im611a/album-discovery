@@ -7,23 +7,32 @@ import { AlbumDetail } from "./album-detail";
 const renderDetail = (slug: string) => render(<PersonalStateProvider><AlbumDetail album={catalogAlbums.find((album) => album.slug === slug)!} /></PersonalStateProvider>);
 
 describe("AlbumDetail", () => {
-  it("shows verified metadata, actions, guide, track list and secure outbound links", async () => {
-    renderDetail("hounds-of-love");
-    expect(screen.getByRole("heading", { level: 1, name: "Hounds of Love" })).toBeInTheDocument();
+  it("shows NetEase metadata, local actions, taxonomy, tracks and the single secure outbound destination", async () => {
+    renderDetail("wake-after-the-rain");
+    expect(screen.getByRole("heading", { level: 1, name: "在雨后醒来" })).toBeInTheDocument();
     expect((await screen.findAllByRole("button", { name: "想听" })).length).toBeGreaterThan(0);
     expect(screen.getByRole("heading", { name: "曲目表" })).toBeInTheDocument();
-    for (const link of screen.getAllByRole("link").filter((item) => item.getAttribute("target") === "_blank")) expect(link).toHaveAttribute("rel", "noopener noreferrer");
+    const link = screen.getByRole("link", { name: "在网易云音乐中查看 ↗" });
+    expect(link).toHaveAttribute("href", "https://music.163.com/#/album?id=287974232");
+    expect(link).toHaveAttribute("target", "_blank");
+    expect(link).toHaveAttribute("rel", "noopener noreferrer");
   });
 
-  it("shows honest missing states instead of inventing tracks or destinations", () => {
-    const album = catalogAlbums.find((item) => item.tracks.length === 0 && item.externalLinks.length === 0)!;
-    render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
-    expect(screen.getByText("曲目表暂未收录；不会用其他版本或占位曲目替代。")).toBeInTheDocument();
-    expect(screen.getByText("暂无可验证的直达链接。")).toBeInTheDocument();
+  it("does not render a data-transparency or MusicBrainz module", () => {
+    renderDetail("super-mr-sun");
+    expect(screen.queryByText("数据透明")).not.toBeInTheDocument();
+    expect(screen.queryByText(/MusicBrainz|Cover Art Archive/)).not.toBeInTheDocument();
   });
 
-  it("keeps taxonomy links on the established discover URL contract", () => {
-    renderDetail("in-rainbows");
-    expect(screen.getByRole("link", { name: "独立摇滚" })).toHaveAttribute("href", "/discover?genre=indie-rock");
+  it("hides optional related genres and descriptors when absent", () => {
+    const source = catalogAlbums.find((item) => item.slug === "window-side-wish")!;
+    render(<PersonalStateProvider><AlbumDetail album={source} /></PersonalStateProvider>);
+    expect(screen.queryByRole("heading", { name: "相关流派" })).not.toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "氛围与特征" })).not.toBeInTheDocument();
+  });
+
+  it("keeps stable taxonomy keys in discover links while showing bilingual labels", () => {
+    renderDetail("wake-after-the-rain");
+    expect(screen.getByRole("link", { name: "嘻哈（Hip Hop）" })).toHaveAttribute("href", "/discover?genre=hip-hop");
   });
 });

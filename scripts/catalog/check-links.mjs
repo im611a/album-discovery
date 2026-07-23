@@ -1,17 +1,9 @@
-import path from "node:path";
-import { OUTPUT_DIR, fetchWithPolicy, readJson } from "./lib/catalog-utils.mjs";
+import { readFile } from "node:fs/promises";
 
-const catalog = await readJson(path.join(OUTPUT_DIR, "catalog.json"));
-if (!catalog) throw new Error("Run catalog:refresh first.");
-const links = catalog.albums.flatMap((album) => album.externalLinks.map((link) => ({ album: album.slug, ...link })));
-const failures = [];
-for (const [index, link] of links.entries()) {
-  try {
-    const response = await fetchWithPolicy(link.url, { gapMs: 750, attempts: 1, timeoutMs: 12000, fetchOptions: { method: "HEAD", redirect: "follow" }, accept: "text/html,*/*" });
-    console.log(`[${index + 1}/${links.length}] ${link.platform} ${response.status} ${link.album}`);
-  } catch (error) {
-    failures.push({ ...link, error: error.message });
-    console.error(`[${index + 1}/${links.length}] failed ${link.platform} ${link.album}: ${error.message}`);
-  }
+const catalog = JSON.parse(await readFile(new URL("../../src/data/generated/catalog.json", import.meta.url), "utf8"));
+const invalid = catalog.albums.filter((album) => album.externalUrl !== `https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
+if (invalid.length) {
+  console.error(`Invalid NetEase album links: ${invalid.map((album) => album.slug).join(", ")}`);
+  process.exit(1);
 }
-if (failures.length) { console.error(`${failures.length} outbound link(s) failed validation.`); process.exit(1); }
+console.log(`Verified ${catalog.albums.length} deterministic NetEase album links without network requests.`);

@@ -26,6 +26,11 @@ export const EMPTY_TASTE: TasteProfile = { genres: [], descriptors: [], contexts
 export const createInitialUserState = (): LocalUserStateV1 => ({ version: 1, taste: EMPTY_TASTE, favoriteAlbumIds: [], savedAlbumIds: [], listenedAlbumIds: [], dismissedAlbumIds: [], recommendationFeedback: {}, recentAlbumIds: [], onboardingCompleted: false, updatedAt: new Date(0).toISOString() });
 
 const strings = (value: unknown) => Array.isArray(value) && value.every((item) => typeof item === "string");
+const legacyDescriptorKeys: Record<string, string> = {
+  "层次丰富": "layered", "朦胧": "hazy", "空间感": "spacious", "旋律性": "melodic",
+  "叙事性": "narrative", "沉浸": "immersive", "即兴": "improvised", "律动": "groovy",
+  "亲密": "intimate", "强劲": "intense", "明亮": "bright", "缓慢": "gradual",
+};
 
 function migrateLocalUserState(value: unknown): Partial<LocalUserStateV1> | null {
   if (!value || typeof value !== "object") return null;
@@ -62,7 +67,7 @@ export function parseLocalUserState(value: unknown, albumIds: Set<string>): Loca
   const likedIds = new Set(Object.entries(recommendationFeedback).filter(([, item]) => item === "like").map(([id]) => id));
   return {
     version: 1,
-    taste: { genres: [...new Set(taste.genres)], descriptors: [...new Set(taste.descriptors)], contexts: [...new Set(taste.contexts)], eras: [...new Set(taste.eras)], seedAlbumIds: reconcile(taste.seedAlbumIds), exploration: taste.exploration as TasteProfile["exploration"] },
+    taste: { genres: [...new Set(taste.genres)], descriptors: [...new Set(taste.descriptors.map((item) => legacyDescriptorKeys[item] ?? item))], contexts: [...new Set(taste.contexts)], eras: [...new Set(taste.eras)], seedAlbumIds: reconcile(taste.seedAlbumIds), exploration: taste.exploration as TasteProfile["exploration"] },
     favoriteAlbumIds: [...likedIds].filter((id) => !notForMeIds.has(id)), savedAlbumIds: reconcile(input.savedAlbumIds).filter((id) => !notForMeIds.has(id)), listenedAlbumIds: reconcile(input.listenedAlbumIds), dismissedAlbumIds: [...notForMeIds].filter((id) => !likedIds.has(id)), recentAlbumIds: reconcile(input.recentAlbumIds).slice(0, 20),
     recommendationFeedback,
     onboardingCompleted: Boolean(input.onboardingCompleted),

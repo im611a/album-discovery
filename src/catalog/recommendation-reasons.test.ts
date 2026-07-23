@@ -5,7 +5,7 @@ import { recommendAlbums, RECOMMENDATION_WEIGHTS } from "./recommendation";
 
 describe("recommendation explanations", () => {
   it("keeps every scoring weight in the exported central table", () => {
-    expect(Object.keys(RECOMMENDATION_WEIGHTS).sort()).toEqual(["coldStart", "context", "descriptor", "editorial", "era", "exploration", "favoriteSimilarity", "negativeSimilarity", "primaryGenre", "savedSimilarity"].sort());
+    expect(Object.keys(RECOMMENDATION_WEIGHTS).sort()).toEqual(["coldStart", "context", "coreGenre", "descriptor", "editorial", "era", "exploration", "favoriteSimilarity", "negativeSimilarity", "relatedGenre", "savedSimilarity"].sort());
   });
 
   it("uses the Chinese taxonomy label instead of leaking an internal genre key", () => {
@@ -21,7 +21,7 @@ describe("recommendation explanations", () => {
     const explained = recommendAlbums(state).filter((item) => item.reasons.some((reason) => reason.includes("已喜欢")));
     expect(explained.length).toBeGreaterThan(0);
     for (const item of explained) {
-      expect(item.album.primaryGenres.some((value) => seed.primaryGenres.includes(value)) || item.album.descriptors.some((value) => seed.descriptors.includes(value))).toBe(true);
+      expect(item.album.coreGenres.some((value) => seed.coreGenres.includes(value)) || item.album.relatedGenres.some((value) => seed.relatedGenres.includes(value)) || item.album.descriptors.some((value) => seed.descriptors.includes(value))).toBe(true);
     }
   });
 

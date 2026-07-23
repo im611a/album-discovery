@@ -1,13 +1,14 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
-import { catalogAlbums } from "@/catalog/published-catalog";
+import { catalogAlbums, publishedCatalog } from "@/catalog/published-catalog";
 
 describe("production delivery boundaries", () => {
-  it("contains no fictional scores or production mock records", () => {
-    const serialized = JSON.stringify(catalogAlbums);
-    expect(serialized).not.toMatch(/rymRating|rymScore|fictional rating|mock album/i);
-    expect(catalogAlbums).toHaveLength(120);
+  it("contains no fictional scores, production mocks, or MusicBrainz identity fields", () => {
+    const serialized = JSON.stringify(publishedCatalog);
+    expect(catalogAlbums.length).toBeGreaterThanOrEqual(60);
+    expect(serialized).not.toMatch(/rymRating|rymScore|fictional rating|mock album|musicbrainzReleaseGroupId|representativeReleaseId/i);
+    expect(publishedCatalog.source).toMatchObject({ catalog: "netease", runtimeRequestsAllowed: false });
   });
 
   it("does not perform runtime provider network requests", () => {
@@ -15,10 +16,9 @@ describe("production delivery boundaries", () => {
     for (const file of files) expect(readFileSync(resolve(file), "utf8")).not.toMatch(/\bfetch\s*\(|XMLHttpRequest|WebSocket|EventSource/);
   });
 
-  it("keeps every published external destination HTTPS and explicitly verified", () => {
-    for (const album of catalogAlbums) for (const link of album.externalLinks) {
-      expect(link.url.startsWith("https://")).toBe(true);
-      expect(link.verified).toBe(true);
+  it("keeps every published destination on the matching HTTPS NetEase album page", () => {
+    for (const album of catalogAlbums) {
+      expect(album.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
     }
   });
 
@@ -27,7 +27,8 @@ describe("production delivery boundaries", () => {
       expect(album).not.toHaveProperty("country");
       expect(album).not.toHaveProperty("region");
       expect(album).not.toHaveProperty("nationality");
-      if (album.languages.status === "unavailable") expect(album.languages.values).toEqual([]);
+      expect(album).not.toHaveProperty("language");
+      expect(album).not.toHaveProperty("languages");
     }
   });
 });

@@ -1,88 +1,99 @@
-import path from "node:path";
-import { existsSync } from "node:fs";
-import { ROOT, isSafeExternalUrl, normalizeIdentity, partialDate } from "./lib/catalog-utils.mjs";
+import { REQUIRED_NETEASE_SAMPLES } from "./netease-seeds.mjs";
 
-const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const RELEASE_TYPES = new Set(["album", "ep", "mixtape", "live", "compilation", "other"]);
+const neteaseAlbumUrl = /^https:\/\/music\.163\.com\/#\/album\?id=(\d+)$/;
+const isoTimestamp = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/;
+const partialDate = /^\d{4}(?:-\d{2}(?:-\d{2})?)?$/;
+const stableKey = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
-function artistMatches(album, identity) {
-  const expected = normalizeIdentity(identity.expectedPrimaryArtist);
-  return album.artists.some((artist) => {
-    const actual = normalizeIdentity(artist.name);
-    return expected.includes(actual) || actual.includes(expected);
-  });
+function validCalendarDate(value) {
+  if (!partialDate.test(value)) return false;
+  const [year, month = "01", day = "01"] = value.split("-");
+  const normalized = new Date(`${year}-${month}-${day}T00:00:00.000Z`);
+  return Number.isFinite(normalized.getTime()) &&
+    normalized.toISOString().slice(0, value.length) === value;
 }
 
-export function validateCatalog(catalog, identityDocument, options = {}) {
-  const issues = [];
-  const add = (pathName, message) => issues.push({ path: pathName, message });
-  if (!catalog || catalog.version !== 1 || !Array.isArray(catalog.albums)) {
-    return [{ path: "catalog", message: "Published catalog is missing or has an unsupported version." }];
+function duplicateValues(values) {
+  const seen = new Set();
+  const duplicates = new Set();
+  for (const value of values) {
+    if (seen.has(value)) duplicates.add(value);
+    seen.add(value);
   }
-  const identities = new Map((identityDocument?.identities ?? []).map((item) => [item.key, item]));
-  if (identities.size !== 120) add("identities", `expected 120 fixed identities, got ${identities.size}`);
-  const identityIds = new Set();
-  for (const [index, identity] of (identityDocument?.identities ?? []).entries()) {
-    if (identityIds.has(identity.verifiedReleaseGroupId)) add(`identities[${index}].verifiedReleaseGroupId`, "duplicate fixed release-group ID");
-    identityIds.add(identity.verifiedReleaseGroupId);
-    if (identity.expectedPrimaryType !== "Album") add(`identities[${index}].expectedPrimaryType`, "published catalog identities must be Album release groups");
-    if (!["album", "mixtape"].includes(identity.expectedReleaseType)) add(`identities[${index}].expectedReleaseType`, "studio catalog cannot publish live, compilation, or other candidates");
+  return [...duplicates];
+}
+
+export function validateCatalogData(catalog, identities = {}) {
+  const errors = [];
+  if (catalog?.version !== 2) errors.push("Catalog version must be 2.");
+  if (catalog?.source?.catalog !== "netease") errors.push("Catalog authority must be NetEase.");
+  if (catalog?.source?.runtimeRequestsAllowed !== false) errors.push("Runtime provider requests must be disabled.");
+  if (!isoTimestamp.test(String(catalog?.source?.generatedAt ?? ""))) errors.push("Catalog generatedAt must be a UTC ISO timestamp.");
+  if (!Array.isArray(catalog?.albums) || !catalog.albums.length) errors.push("Catalog must contain albums.");
+  if (!Array.isArray(catalog?.taxonomy)) errors.push("Catalog taxonomy must be an array.");
+  if (!Array.isArray(catalog?.descriptorTaxonomy)) errors.push("Descriptor taxonomy must be an array.");
+  const albums = Array.isArray(catalog?.albums) ? catalog.albums : [];
+  const ids = albums.map((album) => album.neteaseAlbumId);
+  const slugs = albums.map((album) => album.slug);
+  for (const duplicate of duplicateValues(ids)) errors.push(`Duplicate NetEase album ID: ${duplicate}`);
+  for (const duplicate of duplicateValues(slugs)) errors.push(`Duplicate slug: ${duplicate}`);
+  const taxonomyKeys = new Set((catalog?.taxonomy ?? []).map((item) => item.key));
+  const descriptorKeys = new Set((catalog?.descriptorTaxonomy ?? []).map((item) => item.key));
+  for (const item of catalog?.taxonomy ?? []) {
+    if (!stableKey.test(String(item.key))) errors.push(`Invalid taxonomy key: ${item.key}`);
+    if (!["core", "related"].includes(item.kind)) errors.push(`Invalid taxonomy kind for ${item.key}.`);
+    if (!item.labelZh || !item.labelEn) errors.push(`Taxonomy ${item.key} needs Chinese and English labels.`);
   }
-  const taxonomyKeys = new Set((catalog.taxonomy ?? []).map((item) => item.key));
-  const ids = new Set();
-  const slugs = new Set();
-  let flagshipCount = 0;
-  for (const [index, album] of catalog.albums.entries()) {
-    const base = `albums[${index}]`;
-    const identity = identities.get(album.slug);
-    if (!album.id || ids.has(album.id)) add(`${base}.id`, "missing or duplicate album ID");
-    ids.add(album.id);
-    if (!album.slug || slugs.has(album.slug) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(album.slug)) add(`${base}.slug`, "missing, duplicate, or unstable slug");
-    slugs.add(album.slug);
-    if (!identity) add(`${base}.slug`, "missing fixed verified identity");
-    if (!UUID.test(album.musicbrainzReleaseGroupId)) add(`${base}.musicbrainzReleaseGroupId`, "invalid MusicBrainz UUID");
-    if (identity && album.musicbrainzReleaseGroupId !== identity.verifiedReleaseGroupId) add(`${base}.musicbrainzReleaseGroupId`, "does not match fixed verified identity");
-    const acceptedTitles = identity ? [identity.expectedTitle, ...(identity.acceptedTitleVariants ?? [])].map(normalizeIdentity) : [];
-    if (!String(album.title ?? "").trim()) add(`${base}.title`, "blank title");
-    else if (identity && !acceptedTitles.includes(normalizeIdentity(album.title))) add(`${base}.title`, "does not match the verified title contract");
-    if (!Array.isArray(album.artists) || !album.artists.some((artist) => String(artist.name ?? "").trim())) add(`${base}.artists`, "at least one artist is required");
-    else if (identity && !artistMatches(album, identity)) add(`${base}.artists`, "does not match the verified primary artist contract");
-    if (album.releaseDate && !partialDate(album.releaseDate.value)) add(`${base}.releaseDate`, "invalid calendar partial date");
-    if (identity && String(album.releaseDate?.value ?? "").slice(0, 4) !== identity.expectedFirstReleaseYear) add(`${base}.releaseDate`, "does not match verified first-release year");
-    if (!RELEASE_TYPES.has(album.releaseType)) add(`${base}.releaseType`, "unsupported release type");
-    if (identity && album.releaseType !== identity.expectedReleaseType) add(`${base}.releaseType`, `expected ${identity.expectedReleaseType}`);
-    for (const key of album.primaryGenres ?? []) if (!taxonomyKeys.has(key)) add(`${base}.primaryGenres`, `unknown taxonomy key ${key}`);
-    if (album.cover?.kind === "local") {
-      const localPath = path.join(options.root ?? ROOT, "public", album.cover.src.replace(/^\//, ""));
-      if (!existsSync(localPath)) add(`${base}.cover`, `missing local cover ${album.cover.src}`);
-    } else if (album.cover?.kind !== "fallback") add(`${base}.cover`, "cover must be local or fallback");
-    const platforms = new Set();
-    for (const [linkIndex, link] of (album.externalLinks ?? []).entries()) {
-      if (!isSafeExternalUrl(link.url)) add(`${base}.externalLinks[${linkIndex}]`, "unsafe URL");
-      if (platforms.has(link.platform)) add(`${base}.externalLinks[${linkIndex}]`, `duplicate platform ${link.platform}`);
-      if (link.source?.startsWith("Fixed identity manifest") && !identity?.verifiedExternalLinks?.some((approved) => approved.url === link.url)) add(`${base}.externalLinks[${linkIndex}]`, "fixed link is not approved by this album identity");
-      platforms.add(link.platform);
-    }
-    const trackIds = new Set();
-    for (const [trackIndex, track] of (album.tracks ?? []).entries()) {
-      if (!track.id || trackIds.has(track.id)) add(`${base}.tracks[${trackIndex}]`, "missing or duplicate track ID");
-      trackIds.add(track.id);
-      if (!String(track.title ?? "").trim() || track.title === "曲名暂缺") add(`${base}.tracks[${trackIndex}].title`, "placeholder or blank track title");
-      if (!Number.isInteger(track.trackNumber) || track.trackNumber < 1) add(`${base}.tracks[${trackIndex}].trackNumber`, "invalid track number");
-    }
-    if (identity?.minimumTrackCount && (album.tracks ?? []).length < identity.minimumTrackCount) add(`${base}.tracks`, `verified guide requires at least ${identity.minimumTrackCount} tracks`);
-    if (album.editorial) {
-      flagshipCount += 1;
-      if (album.editorial.confidence === "curated" && !album.editorial.humanReviewed) add(`${base}.editorial`, "curated status requires human review");
-      if (!album.editorial.summaryZh || !album.editorial.whyListenZh) add(`${base}.editorial`, "summary and listening guidance are required");
-      if ((album.descriptors ?? []).length < 2 || (album.contexts ?? []).length < 1) add(`${base}.editorial`, "flagship needs descriptors and contexts");
-      if (album.editorial.startWithTrackId && !trackIds.has(album.editorial.startWithTrackId)) add(`${base}.editorial.startWithTrackId`, "track does not exist");
-      if (!(album.externalLinks ?? []).some((link) => link.verified)) add(`${base}.externalLinks`, "flagship needs a verified outbound destination");
-    }
-    if (/rymRating|fictional|mock album|placeholder/i.test(JSON.stringify(album))) add(base, "production fixture or fictional rating marker detected");
+  for (const album of albums) {
+    const prefix = album?.slug ?? album?.neteaseAlbumId ?? "unknown";
+    if (!/^\d+$/.test(String(album?.neteaseAlbumId ?? ""))) errors.push(`${prefix}: invalid NetEase album ID.`);
+    if (album?.internalId !== `album:${album?.neteaseAlbumId}` || album?.id !== album?.internalId) errors.push(`${prefix}: unstable internal ID.`);
+    if (!stableKey.test(String(album?.slug ?? ""))) errors.push(`${prefix}: invalid slug.`);
+    if (!album?.title || !Array.isArray(album?.artists) || !album.artists.length) errors.push(`${prefix}: title and artists are required.`);
+    if (album?.releaseDate && !validCalendarDate(album.releaseDate)) errors.push(`${prefix}: invalid release date.`);
+    if (album?.releaseDate && album?.releaseDatePrecision !== ({ 4: "year", 7: "month", 10: "day" })[album.releaseDate.length]) errors.push(`${prefix}: release date precision mismatch.`);
+    if (!["album", "ep", "single", "mixtape", "soundtrack", "live", "compilation", "other"].includes(album?.albumType)) errors.push(`${prefix}: invalid album type.`);
+    if (!Number.isInteger(album?.trackCount) || album.trackCount < 0) errors.push(`${prefix}: invalid track count.`);
+    if (!Array.isArray(album?.tracks)) errors.push(`${prefix}: tracks must be an array.`);
+    if (album?.tracks?.length && album.trackCount !== album.tracks.length) errors.push(`${prefix}: track count does not match the published track list.`);
+    const urlMatch = String(album?.externalUrl ?? "").match(neteaseAlbumUrl);
+    if (!urlMatch || urlMatch[1] !== String(album.neteaseAlbumId)) errors.push(`${prefix}: external URL is not the matching NetEase album page.`);
+    if (!isoTimestamp.test(String(album?.discoveredAt ?? "")) || !isoTimestamp.test(String(album?.updatedAt ?? ""))) errors.push(`${prefix}: discovery timestamps must be UTC ISO values.`);
+    if (!["local", "fallback"].includes(album?.cover?.kind)) errors.push(`${prefix}: invalid cover kind.`);
+    if (album?.cover?.kind === "local" && !/^\/catalog\/covers\/\d+\.jpg$/.test(String(album.cover.src))) errors.push(`${prefix}: local cover path must use the NetEase album ID.`);
+    if (album?.cover?.kind === "fallback" && album.cover.src !== null) errors.push(`${prefix}: fallback cover must not pretend to be a real image.`);
+    for (const channel of album?.sourceMarketChannels ?? []) if (!["ALL", "ZH", "EA", "JP", "KR"].includes(channel)) errors.push(`${prefix}: invalid market channel ${channel}.`);
+    for (const key of album?.coreGenres ?? []) if (!taxonomyKeys.has(key)) errors.push(`${prefix}: unknown core genre ${key}.`);
+    for (const key of album?.relatedGenres ?? []) if (!taxonomyKeys.has(key)) errors.push(`${prefix}: unknown related genre ${key}.`);
+    for (const key of album?.descriptors ?? []) if (!descriptorKeys.has(key)) errors.push(`${prefix}: unknown descriptor ${key}.`);
+    const forbiddenKeys = ["musicbrainzReleaseGroupId", "representativeReleaseId", "sourceSummary", "primaryGenres", "secondaryGenres", "externalLinks"];
+    for (const key of forbiddenKeys) if (key in album) errors.push(`${prefix}: legacy production field ${key} is forbidden.`);
+    const fixed = identities[album.slug];
+    if (fixed && String(fixed.albumId) !== String(album.neteaseAlbumId)) errors.push(`${prefix}: fixed NetEase identity mismatch.`);
   }
-  if (catalog.albums.length !== 120) add("catalog.albums", `expected exactly 120, got ${catalog.albums.length}`);
-  if (flagshipCount < 24) add("catalog.flagships", `minimum is 24, got ${flagshipCount}`);
-  if (taxonomyKeys.size < 12) add("catalog.taxonomy", `minimum is 12, got ${taxonomyKeys.size}`);
-  return issues;
+  for (const required of REQUIRED_NETEASE_SAMPLES) {
+    const album = albums.find((item) => item.neteaseAlbumId === required.albumId);
+    if (!album) errors.push(`Required NetEase sample is missing: ${required.artist} / ${required.title}.`);
+    else if (album.title !== required.title || !album.artists.some((artist) => normalizeName(artist.name).includes(normalizeName(required.artist)) || normalizeName(required.artist).includes(normalizeName(artist.name)))) {
+      errors.push(`Required NetEase sample identity mismatch: ${required.albumId}.`);
+    }
+  }
+  const summary = {
+    albums: albums.length,
+    uniqueNeteaseAlbumIds: new Set(ids).size,
+    uniqueSlugs: new Set(slugs).size,
+    localCovers: albums.filter((album) => album.cover?.kind === "local").length,
+    fallbackCovers: albums.filter((album) => album.cover?.kind === "fallback").length,
+    albumsWithTracks: albums.filter((album) => album.tracks?.length).length,
+    albumsWithNeteaseLinks: albums.filter((album) => neteaseAlbumUrl.test(String(album.externalUrl))).length,
+    coreGenres: new Set(albums.flatMap((album) => album.coreGenres ?? [])).size,
+    relatedGenres: new Set(albums.flatMap((album) => album.relatedGenres ?? [])).size,
+    descriptors: new Set(albums.flatMap((album) => album.descriptors ?? [])).size,
+    multiChannelAlbums: albums.filter((album) => (album.sourceMarketChannels?.length ?? 0) > 1).length,
+  };
+  return { ok: errors.length === 0, errors, summary };
+}
+
+function normalizeName(value) {
+  return String(value ?? "").normalize("NFKC").toLocaleLowerCase("zh-CN").replace(/[\p{P}\p{S}\s]+/gu, "");
 }

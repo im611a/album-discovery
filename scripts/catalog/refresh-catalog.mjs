@@ -1,244 +1,373 @@
-import { mkdir, rename, rm, writeFile } from "node:fs/promises";
+import { appendFile, mkdir, readFile, rename, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { CANDIDATES, EDITORIAL, TAXONOMY } from "./curation-manifest.mjs";
-import { COVER_DIR, OUTPUT_DIR, REPORT_DIR, ROOT, fetchJsonCached, fetchWithPolicy, formatDuration, isSafeExternalUrl, normalizeIdentity, partialDate, readJson, stableStringify, writeJson } from "./lib/catalog-utils.mjs";
+import { fileURLToPath } from "node:url";
+import { NETEASE_CATALOG_SEEDS } from "./netease-seeds.mjs";
+import { CATALOG_TAXONOMY, descriptorTaxonomy } from "./taxonomy.mjs";
+import { validateCatalogData } from "./catalog-validation.mjs";
 
-const REFRESH_DATE = process.env.CATALOG_REFRESH_DATE ?? new Date().toISOString().slice(0, 10);
-const MB_BASE = "https://musicbrainz.org/ws/2";
-const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const identityDocument = await readJson(path.join(ROOT, "scripts", "catalog", "verified-identities.json"));
-const VERIFIED_IDENTITIES = new Map((identityDocument?.identities ?? []).map((item) => [item.key, item]));
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const cacheDir = path.join(root, ".cache", "catalog", "netease");
+const coverDir = path.join(root, "public", "catalog", "covers");
+const outputDir = path.join(root, "src", "data", "generated");
+const catalogPath = path.join(outputDir, "catalog.json");
+const manifestPath = path.join(outputDir, "catalog.manifest.json");
+const identitiesPath = path.join(root, "scripts", "catalog", "netease-identities.json");
+const requestLogPath = path.join(cacheDir, "request-log.jsonl");
+const baseUrl = "https://music.163.com";
+const minimumGapMs = 2_000;
+const requestTimeoutMs = 20_000;
+const cacheEnabled = process.env.NETEASE_REFRESH_USE_CACHE !== "0";
+const taxonomyLabels = new Map(CATALOG_TAXONOMY.map((item) => [item.key, `${item.labelZh} ${item.labelEn}`]));
+const descriptorLabels = new Map(descriptorTaxonomy.map((item) => [item.key, item.label]));
+let lastRequestCompletedAt = 0;
+let requestCount = 0;
 
-const GENRE_DEFAULTS = {
-  "art-pop": { secondary: ["experimental-pop"], descriptors: ["层次丰富", "作者性"], contexts: ["专注聆听", "夜晚"] },
-  "indie-rock": { secondary: ["alternative-rock"], descriptors: ["乐队感", "旋律性"], contexts: ["通勤", "专注聆听"] },
-  "dream-pop": { secondary: ["shoegaze"], descriptors: ["朦胧", "空间感"], contexts: ["夜晚", "放松"] },
-  "post-rock": { secondary: ["instrumental-rock"], descriptors: ["渐进", "动态强"], contexts: ["专注聆听", "独处"] },
-  electronic: { secondary: ["idm"], descriptors: ["电子质感", "节奏鲜明"], contexts: ["通勤", "工作"] },
-  ambient: { secondary: ["ambient-electronic"], descriptors: ["沉浸", "缓慢"], contexts: ["工作", "放松"] },
-  jazz: { secondary: ["modern-jazz"], descriptors: ["即兴", "合奏互动"], contexts: ["晚餐", "专注聆听"] },
-  "soul-rnb": { secondary: ["neo-soul"], descriptors: ["律动", "人声丰富"], contexts: ["周末", "放松"] },
-  "hip-hop": { secondary: ["alternative-hip-hop"], descriptors: ["采样", "叙事性"], contexts: ["通勤", "专注聆听"] },
-  folk: { secondary: ["singer-songwriter"], descriptors: ["亲密", "叙事性"], contexts: ["独处", "清晨"] },
-  metal: { secondary: ["heavy-music"], descriptors: ["强劲", "高密度"], contexts: ["运动", "专注聆听"] },
-  sinophone: { secondary: ["sinophone-album"], descriptors: ["华语表达", "完整专辑"], contexts: ["通勤", "专注聆听"] },
-};
+const sleep = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+const asArray = (value) => (Array.isArray(value) ? value : []);
+const normalize = (value) => String(value ?? "")
+  .normalize("NFKC")
+  .toLocaleLowerCase("zh-CN")
+  .replace(/[\p{P}\p{S}\s]+/gu, "");
 
-function artistNames(credit = []) {
-  return credit.map((item) => item.name || item.artist?.name).filter(Boolean);
-}
-
-function exactIdentity(candidate, identity, result) {
-  const acceptedTitles = [identity.expectedTitle, ...(identity.acceptedTitleVariants ?? [])].map(normalizeIdentity);
-  if (!acceptedTitles.includes(normalizeIdentity(result.title))) return false;
-  const wantedArtist = normalizeIdentity(candidate.artist);
-  return artistNames(result["artist-credit"]).some((name) => {
-    const actual = normalizeIdentity(name);
-    return wantedArtist.includes(actual) || actual.includes(wantedArtist);
-  });
-}
-
-async function lookupReleaseGroup(candidate, id) {
-  const inc = encodeURIComponent("artists+releases+url-rels+genres+tags");
-  return fetchJsonCached("musicbrainz-release-group", candidate.key, `${MB_BASE}/release-group/${id}?inc=${inc}&fmt=json`);
-}
-
-function releaseRank(release, groupDate) {
-  let score = release.status === "Official" ? 0 : 1000;
-  if (!release.date) score += 500;
-  if (release.date && groupDate && release.date.startsWith(groupDate.slice(0, 4))) score -= 100;
-  if (release.country === "XW") score -= 20;
-  if (/deluxe|expanded|remaster|anniversary|bonus/i.test(`${release.title} ${release.disambiguation}`)) score += 200;
-  return score;
-}
-
-async function selectRepresentativeRelease(candidate, detail) {
-  const releases = [...(detail.releases ?? [])]
-    .filter((release) => UUID.test(release.id) && release.status === "Official")
-    .sort((a, b) => releaseRank(a, detail["first-release-date"]) - releaseRank(b, detail["first-release-date"]) || String(a.date).localeCompare(String(b.date)));
-  const minimumTrackCount = VERIFIED_IDENTITIES.get(candidate.key)?.minimumTrackCount ?? 1;
-  for (const release of releases.slice(0, 12)) {
-    const inc = encodeURIComponent("recordings+artist-credits+labels+release-groups+url-rels");
-    const data = await fetchJsonCached("musicbrainz-release", `${candidate.key}-${release.id}`, `${MB_BASE}/release/${release.id}?inc=${inc}&fmt=json`);
-    const trackCount = (data.media ?? []).reduce((total, medium) => total + (medium.tracks?.length ?? 0), 0);
-    if (trackCount >= minimumTrackCount) return data;
-  }
-  return null;
-}
-
-function normalizeTracks(release, albumArtists) {
-  if (!release) return [];
-  return (release.media ?? []).flatMap((medium, mediumIndex) =>
-    (medium.tracks ?? []).map((track, trackIndex) => {
-      const names = artistNames(track["artist-credit"]?.length ? track["artist-credit"] : release["artist-credit"]);
-      return {
-        id: track.recording?.id ?? track.id,
-        title: track.title || track.recording?.title || "曲名暂缺",
-        trackNumber: Number.parseInt(track.number, 10) || track.position || trackIndex + 1,
-        discNumber: medium.position || mediumIndex + 1,
-        artists: names.length ? names : albumArtists.map((artist) => artist.name),
-        durationMs: formatDuration(track.length ?? track.recording?.length),
-      };
-    }),
-  );
-}
-
-function platformForUrl(value, relationType = "") {
-  const host = new URL(value).hostname.replace(/^www\./, "").toLowerCase();
-  if (host.endsWith("bandcamp.com")) return { platform: "Bandcamp", kind: relationType.includes("purchase") ? "purchase" : "listen" };
-  if (host === "open.spotify.com") return { platform: "Spotify", kind: "listen" };
-  if (host.endsWith("music.apple.com") || host.endsWith("itunes.apple.com")) return { platform: "Apple Music", kind: "listen" };
-  if (["music.youtube.com", "youtube.com", "youtu.be"].includes(host)) return { platform: "YouTube Music", kind: "listen" };
-  if (/purchase|stream/i.test(relationType)) return { platform: host, kind: relationType.includes("purchase") ? "purchase" : "listen" };
-  return null;
-}
-
-function relationLinks(...relations) {
-  const seen = new Set();
-  const links = [];
-  for (const relation of relations.flat()) {
-    const value = relation?.url?.resource;
-    if (!value || !isSafeExternalUrl(value)) continue;
-    const meta = platformForUrl(value, relation.type ?? "");
-    if (!meta) continue;
-    const normalized = value.replace(/^http:/, "https:");
-    if (seen.has(normalized)) continue;
-    seen.add(normalized);
-    links.push({ ...meta, url: normalized, verified: true, verifiedAt: REFRESH_DATE, source: "MusicBrainz URL relationship" });
-  }
-  return links;
-}
-
-let coverArtArchiveAvailable = true;
-
-async function downloadCover(candidate, releaseGroupId) {
-  if (!coverArtArchiveAvailable) {
-    return { kind: "fallback", src: null, width: 250, height: 250, alt: `${candidate.title} 的生成式占位封面`, sourceUrl: null, retrievedAt: null, reason: "source_unavailable" };
-  }
-  const finalPath = path.join(COVER_DIR, `${candidate.key}.jpg`);
-  const temporaryPath = `${finalPath}.tmp`;
+async function readJson(file, fallback) {
   try {
-    const response = await fetchWithPolicy(`https://coverartarchive.org/release-group/${releaseGroupId}/front-250`, { accept: "image/*", timeoutMs: 6000, attempts: 1, gapMs: 200 });
-    const contentType = response.headers.get("content-type") ?? "";
-    if (!contentType.startsWith("image/")) throw new Error(`Unexpected cover content type: ${contentType}`);
-    const bytes = new Uint8Array(await response.arrayBuffer());
-    if (bytes.byteLength < 1000 || bytes.byteLength > 2_000_000) throw new Error(`Unexpected cover size: ${bytes.byteLength}`);
-    await mkdir(COVER_DIR, { recursive: true });
-    await writeFile(temporaryPath, bytes);
-    await rename(temporaryPath, finalPath);
-    return { kind: "local", src: `/catalog/covers/${candidate.key}.jpg`, width: 250, height: 250, alt: `${candidate.title} 专辑封面`, sourceUrl: `https://coverartarchive.org/release-group/${releaseGroupId}`, retrievedAt: REFRESH_DATE };
+    return JSON.parse(await readFile(file, "utf8"));
   } catch (error) {
-    await rm(temporaryPath, { force: true });
-    if (error?.status !== 404) coverArtArchiveAvailable = false;
-    return { kind: "fallback", src: null, width: 250, height: 250, alt: `${candidate.title} 的生成式占位封面`, sourceUrl: null, retrievedAt: null, reason: error?.status === 404 ? "not_available" : "fetch_failed" };
+    if (error?.code === "ENOENT") return fallback;
+    throw error;
   }
 }
 
-function releaseType(result) {
-  const primary = String(result["primary-type"] ?? "").toLowerCase();
-  const secondary = (result["secondary-types"] ?? []).map((value) => String(value).toLowerCase());
-  if (secondary.includes("mixtape/street")) return "mixtape";
-  if (secondary.includes("live")) return "live";
-  if (secondary.includes("compilation")) return "compilation";
-  if (primary === "ep") return "ep";
-  return primary === "album" ? "album" : "other";
+async function waitForGap() {
+  const remaining = minimumGapMs - (Date.now() - lastRequestCompletedAt);
+  if (lastRequestCompletedAt && remaining > 0) await sleep(remaining);
 }
 
-function editorialFor(candidate, tracks) {
-  const source = EDITORIAL[candidate.key];
-  if (!source) return null;
-  const [summaryZh, whyListenZh, bestFor, descriptors] = source;
-  return { summaryZh, whyListenZh, bestFor, startWithTrackId: tracks[0]?.id ?? null, listeningApproachZh: whyListenZh, confidence: "metadata_based", humanReviewed: false, factNotes: [], descriptors };
+function classifyRestriction(status, text, payload) {
+  if ([401, 403, 429].includes(status)) return `http_${status}`;
+  const code = Number(payload?.code);
+  if ([301, 302, 401, 403, 429, -460].includes(code)) return `upstream_${code}`;
+  if (/验证码|风控|captcha|risk.?control|login required/iu.test(text)) return "captcha_or_risk_control";
+  return null;
 }
 
-async function buildAlbum(candidate) {
-  const identity = VERIFIED_IDENTITIES.get(candidate.key);
-  if (!identity || !UUID.test(identity.verifiedReleaseGroupId)) {
-    throw new Error(`Missing fixed verified identity for ${candidate.key}`);
+async function logRequest(entry) {
+  await appendFile(requestLogPath, `${JSON.stringify(entry)}\n`, "utf8");
+}
+
+async function requestJson({ endpoint, method = "GET", form = null, purpose }) {
+  const url = new URL(endpoint, baseUrl);
+  if (url.protocol !== "https:" || url.hostname !== "music.163.com") {
+    throw new Error(`Blocked non-allowlisted metadata URL: ${url.href}`);
   }
-  const resolved = await lookupReleaseGroup(candidate, identity.verifiedReleaseGroupId);
-  if (resolved.id !== identity.verifiedReleaseGroupId || !exactIdentity(candidate, identity, resolved)) {
-    throw new Error(`Verified identity no longer matches ${candidate.artist} — ${candidate.title}`);
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    await waitForGap();
+    const requestedAt = new Date().toISOString();
+    const startedAt = performance.now();
+    requestCount += 1;
+    let status = null;
+    try {
+      const response = await fetch(url, {
+        method,
+        body: form ? new URLSearchParams(form) : undefined,
+        signal: AbortSignal.timeout(requestTimeoutMs),
+      });
+      status = response.status;
+      const text = await response.text();
+      let payload = null;
+      try {
+        payload = JSON.parse(text);
+      } catch {
+        payload = null;
+      }
+      const restriction = classifyRestriction(status, text, payload);
+      const success = response.ok && payload && !restriction && [0, 200].includes(Number(payload.code ?? 200));
+      await logRequest({
+        purpose,
+        endpoint: url.pathname,
+        requestedAt,
+        status,
+        durationMs: Math.round(performance.now() - startedAt),
+        success,
+        errorCategory: success ? null : restriction ?? (payload ? `upstream_${payload.code ?? "unknown"}` : "invalid_json"),
+      });
+      lastRequestCompletedAt = Date.now();
+      if (restriction) throw new Error(`NetEase access stopped by ${restriction}; no retry was attempted.`);
+      if (success) return payload;
+      if (status < 500 || attempt === 1) throw new Error(`NetEase request failed for ${url.pathname} (${status}).`);
+    } catch (error) {
+      lastRequestCompletedAt = Date.now();
+      if (/access stopped|request failed/.test(String(error?.message))) throw error;
+      await logRequest({
+        purpose,
+        endpoint: url.pathname,
+        requestedAt,
+        status,
+        durationMs: Math.round(performance.now() - startedAt),
+        success: false,
+        errorCategory: error?.name === "TimeoutError" ? "timeout" : "network_error",
+      });
+      if (attempt === 1) throw error;
+    }
   }
-  if (resolved["primary-type"] !== identity.expectedPrimaryType) {
-    throw new Error(`Primary type drift for ${candidate.key}: ${resolved["primary-type"]}`);
+  throw new Error(`NetEase request failed for ${endpoint}.`);
+}
+
+function albumArtists(album) {
+  return asArray(album?.artists ?? album?.ar ?? album?.artist);
+}
+
+function chooseSearchResult(seed, albums) {
+  const expectedTitle = normalize(seed.query.title);
+  const expectedArtist = normalize(seed.query.artist);
+  return asArray(albums)
+    .map((album) => {
+      const title = normalize(album?.name);
+      const artists = normalize(albumArtists(album).map((artist) => artist?.name).join(" "));
+      let score = 0;
+      if (title === expectedTitle) score += 20;
+      else if (title.includes(expectedTitle) || expectedTitle.includes(title)) score += 5;
+      if (artists === expectedArtist) score += 12;
+      else if (artists.includes(expectedArtist) || expectedArtist.includes(artists)) score += 5;
+      return { album, score };
+    })
+    .sort((left, right) => right.score - left.score)[0];
+}
+
+async function resolveAlbumId(seed, identities) {
+  if (seed.albumId) return seed.albumId;
+  if (identities[seed.slug]?.albumId) return identities[seed.slug].albumId;
+  const cachePath = path.join(cacheDir, `search-${seed.slug}.json`);
+  let payload = cacheEnabled ? await readJson(cachePath, null) : null;
+  if (!payload) {
+    payload = await requestJson({
+      purpose: `search:${seed.slug}`,
+      endpoint: "/api/search/get",
+      method: "POST",
+      form: { s: `${seed.query.artist} ${seed.query.title}`, type: "10", limit: "20", offset: "0" },
+    });
+    await writeFile(cachePath, `${JSON.stringify(payload)}\n`, "utf8");
   }
-  if (!String(resolved["first-release-date"] ?? "").startsWith(identity.expectedFirstReleaseYear)) {
-    throw new Error(`First-release year drift for ${candidate.key}: ${resolved["first-release-date"]}`);
+  const selected = chooseSearchResult(seed, payload?.result?.albums ?? payload?.albums);
+  if (!selected || selected.score < 25 || selected.album?.id == null) {
+    throw new Error(`No confident NetEase album match for ${seed.query.artist} / ${seed.query.title}.`);
   }
-  const artists = (resolved["artist-credit"] ?? []).map((credit) => ({ id: credit.artist?.id ?? credit.name, name: credit.name || credit.artist?.name })).filter((artist) => artist.name);
-  const enriched = Boolean(EDITORIAL[candidate.key]);
-  const detail = enriched ? resolved : null;
-  const representative = enriched ? await selectRepresentativeRelease(candidate, detail) : null;
-  const tracks = normalizeTracks(representative, artists);
-  if (identity.minimumTrackCount && tracks.length < identity.minimumTrackCount) {
-    throw new Error(`Representative release for ${candidate.key} has ${tracks.length} tracks; expected at least ${identity.minimumTrackCount}`);
+  return String(selected.album.id);
+}
+
+async function readAlbumDetail(albumId) {
+  const cachePath = path.join(cacheDir, `album-${albumId}.json`);
+  let payload = cacheEnabled ? await readJson(cachePath, null) : null;
+  if (!payload) {
+    payload = await requestJson({
+      purpose: `album-detail:${albumId}`,
+      endpoint: `/api/v1/album/${encodeURIComponent(albumId)}`,
+    });
+    await writeFile(cachePath, `${JSON.stringify(payload)}\n`, "utf8");
   }
-  const defaults = GENRE_DEFAULTS[candidate.primaryGenre];
-  const editorial = editorialFor(candidate, tracks);
-  const cover = await downloadCover(candidate, resolved.id);
-  const links = relationLinks(detail?.relations ?? [], representative?.relations ?? []);
-  for (const link of identity.verifiedExternalLinks ?? []) {
-    if (!isSafeExternalUrl(link.url) || links.some((existing) => existing.platform === link.platform)) continue;
-    links.unshift({ ...link, verified: true, verifiedAt: REFRESH_DATE, source: "Fixed identity manifest: manually reviewed direct album URL" });
+  return payload;
+}
+
+function normalizeCoverUrl(value) {
+  if (!value) return null;
+  const url = new URL(String(value).replace(/^http:/, "https:"));
+  if (url.protocol !== "https:" || !(url.hostname === "music.163.com" || url.hostname.endsWith(".music.126.net"))) {
+    return null;
   }
-  const seenPlatforms = new Set();
-  const externalLinks = links.filter((link) => {
-    if (seenPlatforms.has(link.platform)) return false;
-    seenPlatforms.add(link.platform);
-    return true;
-  }).slice(0, 4);
-  const searchText = [resolved.title, candidate.title, ...artists.map((artist) => artist.name), candidate.primaryGenre, ...defaults.secondary, ...(editorial?.descriptors ?? defaults.descriptors), ...defaults.contexts, editorial?.summaryZh ?? ""].join(" ").normalize("NFKC").toLocaleLowerCase("zh-CN");
+  return url;
+}
+
+async function ensureCover(albumId, sourceUrl) {
+  const destination = path.join(coverDir, `${albumId}.jpg`);
+  try {
+    const existing = await stat(destination);
+    if (existing.size > 1_000) return { ok: true, src: `/catalog/covers/${albumId}.jpg` };
+  } catch {
+    // Download below.
+  }
+  const url = normalizeCoverUrl(sourceUrl);
+  if (!url) return { ok: false, reason: "upstream_cover_missing" };
+  await waitForGap();
+  const requestedAt = new Date().toISOString();
+  const startedAt = performance.now();
+  try {
+    requestCount += 1;
+    const response = await fetch(url, { signal: AbortSignal.timeout(requestTimeoutMs) });
+    const restriction = [401, 403, 429].includes(response.status) ? `http_${response.status}` : null;
+    if (restriction) throw new Error(`cover_${restriction}`);
+    if (!response.ok) throw new Error(`cover_http_${response.status}`);
+    const bytes = Buffer.from(await response.arrayBuffer());
+    if (bytes.length < 1_000) throw new Error("cover_too_small");
+    await writeFile(destination, bytes);
+    await logRequest({
+      purpose: `cover:${albumId}`,
+      endpoint: url.hostname,
+      requestedAt,
+      status: response.status,
+      durationMs: Math.round(performance.now() - startedAt),
+      success: true,
+      errorCategory: null,
+    });
+    lastRequestCompletedAt = Date.now();
+    return { ok: true, src: `/catalog/covers/${albumId}.jpg` };
+  } catch (error) {
+    await logRequest({
+      purpose: `cover:${albumId}`,
+      endpoint: url.hostname,
+      requestedAt,
+      status: null,
+      durationMs: Math.round(performance.now() - startedAt),
+      success: false,
+      errorCategory: String(error?.message ?? "cover_download_failed"),
+    });
+    lastRequestCompletedAt = Date.now();
+    return { ok: false, reason: "cover_download_failed" };
+  }
+}
+
+function releaseDateFromTimestamp(value) {
+  const date = new Date(Number(value));
+  if (!Number.isFinite(date.getTime())) return { releaseDate: null, releaseDatePrecision: null };
+  return { releaseDate: date.toISOString().slice(0, 10), releaseDatePrecision: "day" };
+}
+
+function releaseType(value) {
+  const normalized = String(value ?? "").toLocaleLowerCase("en-US");
+  if (normalized === "ep") return "ep";
+  if (normalized === "single") return "single";
+  if (normalized.includes("mixtape")) return "mixtape";
+  if (normalized.includes("soundtrack") || normalized.includes("原声")) return "soundtrack";
+  if (normalized.includes("live") || normalized.includes("现场")) return "live";
+  if (normalized.includes("compilation") || normalized.includes("精选")) return "compilation";
+  return "album";
+}
+
+function parseDiscNumber(value) {
+  const match = String(value ?? "").match(/\d+/);
+  return match ? Number(match[0]) : 1;
+}
+
+function normalizeAlbum(seed, albumId, payload, cover, refreshedAt) {
+  const album = payload?.album ?? {};
+  const songs = asArray(payload?.songs ?? album?.songs);
+  const artists = albumArtists(album)
+    .filter((artist) => artist?.id != null && artist?.name)
+    .map((artist) => ({ id: `netease-artist:${artist.id}`, neteaseArtistId: String(artist.id), name: String(artist.name) }));
+  const identityTitle = normalize(album.name);
+  const identityArtists = normalize(artists.map((artist) => artist.name).join(" "));
+  if (identityTitle !== normalize(seed.query.title) || !(
+    identityArtists.includes(normalize(seed.query.artist)) ||
+    normalize(seed.query.artist).includes(identityArtists)
+  )) {
+    throw new Error(`Fixed NetEase identity mismatch for ${seed.slug}: received ${album.name} / ${artists.map((artist) => artist.name).join(", ")}.`);
+  }
+  const dates = releaseDateFromTimestamp(album.publishTime ?? album.releaseDate);
+  const tracks = songs.map((song, index) => {
+    const trackArtists = asArray(song?.ar ?? song?.artists).map((artist) => String(artist?.name ?? "")).filter(Boolean);
+    return {
+      id: `netease-track:${song?.id ?? `${albumId}-${index + 1}`}`,
+      neteaseTrackId: song?.id == null ? null : String(song.id),
+      title: String(song?.name ?? `曲目 ${index + 1}`),
+      trackNumber: Number.isFinite(Number(song?.no ?? song?.trackNumber)) ? Number(song?.no ?? song?.trackNumber) : index + 1,
+      discNumber: parseDiscNumber(song?.cd ?? song?.disc),
+      artists: trackArtists,
+      durationMs: Number.isFinite(Number(song?.dt ?? song?.duration)) ? Number(song?.dt ?? song?.duration) : null,
+    };
+  });
+  const aliases = [...new Set(asArray(album.alias ?? album.aliases ?? album.transNames).map(String).map((item) => item.trim()).filter(Boolean))];
+  const externalUrl = `https://music.163.com/#/album?id=${albumId}`;
+  const editorial = seed.guide ? {
+    ...seed.guide,
+    bestFor: seed.contexts,
+    startWithTrackId: tracks[0]?.id ?? null,
+    descriptors: seed.descriptors,
+  } : null;
+  const searchText = [
+    album.name,
+    ...aliases,
+    ...artists.map((artist) => artist.name),
+    ...seed.coreGenres,
+    ...seed.coreGenres.map((item) => taxonomyLabels.get(item) ?? item),
+    ...seed.relatedGenres,
+    ...seed.relatedGenres.map((item) => taxonomyLabels.get(item) ?? item),
+    ...seed.descriptors,
+    ...seed.descriptors.map((item) => descriptorLabels.get(item) ?? item),
+    ...seed.contexts,
+  ].join(" ");
   return {
-    id: `mb:${resolved.id}`, slug: candidate.key, title: resolved.title,
-    alternateTitles: normalizeIdentity(resolved.title) === normalizeIdentity(candidate.title) ? [] : [candidate.title],
-    artists, releaseDate: partialDate(resolved["first-release-date"]), releaseType: releaseType(resolved),
-    primaryGenres: [candidate.primaryGenre], secondaryGenres: defaults.secondary,
-    descriptors: editorial?.descriptors ?? defaults.descriptors,
-    contexts: [...new Set([...(editorial?.bestFor ?? []), ...defaults.contexts])],
-    languages: representative?.["text-representation"]?.language
-      ? { status: "verified", values: [representative["text-representation"].language], source: "MusicBrainz representative release text representation" }
-      : { status: "unavailable", values: [], source: null },
-    cover, tracks, externalLinks, musicbrainzReleaseGroupId: resolved.id,
-    representativeReleaseId: representative?.id ?? null, editorial, searchText, addedAt: REFRESH_DATE,
-    sourceSummary: { identity: "Fixed, reviewed MusicBrainz release group", metadataUrl: `https://musicbrainz.org/release-group/${resolved.id}`, refreshedAt: REFRESH_DATE, editorial: editorial ? "original local metadata-based guide; not yet human-reviewed" : null },
+    internalId: `album:${albumId}`,
+    id: `album:${albumId}`,
+    neteaseAlbumId: albumId,
+    slug: seed.slug,
+    title: String(album.name),
+    aliases,
+    artists,
+    releaseDate: dates.releaseDate,
+    releaseDatePrecision: dates.releaseDatePrecision,
+    albumType: releaseType(album.type ?? album.subType),
+    company: typeof album.company === "string" && album.company.trim() ? album.company.trim() : null,
+    cover: cover.ok
+      ? { kind: "local", src: cover.src, alt: `《${album.name}》专辑封面`, reason: null }
+      : { kind: "fallback", src: null, alt: `《${album.name}》封面暂缺`, reason: cover.reason },
+    tracks,
+    trackCount: Number.isFinite(Number(album.size ?? album.trackCount)) ? Number(album.size ?? album.trackCount) : tracks.length,
+    externalUrl,
+    discoveredAt: seed.sourceMarketChannels.length ? "2026-07-15T00:00:00.000Z" : "2026-07-23T00:00:00.000Z",
+    updatedAt: refreshedAt,
+    sourceMarketChannels: [...new Set(seed.sourceMarketChannels)],
+    coreGenres: [...new Set(seed.coreGenres)],
+    relatedGenres: [...new Set(seed.relatedGenres)],
+    descriptors: [...new Set(seed.descriptors)],
+    contexts: [...new Set(seed.contexts)],
+    editorial,
+    searchText,
   };
 }
 
 async function main() {
-  await mkdir(OUTPUT_DIR, { recursive: true });
-  await mkdir(COVER_DIR, { recursive: true });
-  await mkdir(REPORT_DIR, { recursive: true });
-  const previousCatalog = await readJson(path.join(OUTPUT_DIR, "catalog.json"));
+  await Promise.all([mkdir(cacheDir, { recursive: true }), mkdir(coverDir, { recursive: true }), mkdir(outputDir, { recursive: true })]);
+  await writeFile(requestLogPath, "", "utf8");
+  const previousIdentities = await readJson(identitiesPath, {});
+  const nextIdentities = {};
+  const refreshedAt = new Date().toISOString();
   const albums = [];
-  const rejected = [];
-  for (const [index, candidate] of CANDIDATES.entries()) {
-    process.stdout.write(`[${index + 1}/${CANDIDATES.length}] ${candidate.artist} — ${candidate.title} ... `);
-    try { albums.push(await buildAlbum(candidate)); console.log("ok"); }
-    catch (error) { rejected.push({ key: candidate.key, artist: candidate.artist, title: candidate.title, reason: error.message }); console.log(`rejected: ${error.message}`); }
+  for (const seed of NETEASE_CATALOG_SEEDS) {
+    const albumId = await resolveAlbumId(seed, previousIdentities);
+    const payload = await readAlbumDetail(albumId);
+    const album = payload?.album ?? {};
+    const cover = await ensureCover(albumId, album.picUrl ?? album.coverUrl);
+    albums.push(normalizeAlbum(seed, albumId, payload, cover, refreshedAt));
+    nextIdentities[seed.slug] = {
+      albumId,
+      title: seed.query.title,
+      artist: seed.query.artist,
+      fixedAt: previousIdentities[seed.slug]?.fixedAt ?? refreshedAt,
+    };
+    console.log(`[${albums.length}/${NETEASE_CATALOG_SEEDS.length}] ${albumId} ${album.name}`);
   }
-  albums.sort((a, b) => a.slug.localeCompare(b.slug, "en"));
   const catalog = {
-    version: 1, refreshDate: REFRESH_DATE,
-    attribution: {
-      musicbrainz: "Metadata from MusicBrainz, used under CC0; user-contributed data may also be under CC BY-SA.",
-      coverArtArchive: "Cover art served by the Cover Art Archive and stored locally for this catalog snapshot; rights remain with their respective owners.",
-      editorial: "Original metadata-based Chinese listening guides; not copied reviews and not expert ratings.",
+    version: 2,
+    refreshDate: refreshedAt.slice(0, 10),
+    source: {
+      catalog: "netease",
+      endpointFamily: "anonymous-public-album-metadata",
+      generatedAt: refreshedAt,
+      runtimeRequestsAllowed: false,
     },
-    taxonomy: TAXONOMY, albums,
+    taxonomy: CATALOG_TAXONOMY,
+    descriptorTaxonomy,
+    albums,
   };
-  const flagshipCount = albums.filter((album) => album.editorial).length;
-  const linkedFlagshipCount = albums.filter((album) => album.editorial && album.externalLinks.length > 0).length;
-  const report = { refreshDate: REFRESH_DATE, requested: CANDIDATES.length, published: albums.length, rejected, flagshipCount, linkedFlagshipCount, unlinkedFlagships: albums.filter((album) => album.editorial && album.externalLinks.length === 0).map((album) => album.slug), localCoverCount: albums.filter((album) => album.cover.kind === "local").length, fallbackCoverCount: albums.filter((album) => album.cover.kind === "fallback").length, taxonomyCount: TAXONOMY.length };
-  if (albums.length < 120 || flagshipCount < 24 || linkedFlagshipCount < 24) {
-    await writeJson(path.join(REPORT_DIR, "refresh-report.json"), report);
-    if (previousCatalog) console.error("Refresh failed validation; previous good snapshot was preserved.");
-    throw new Error(`Catalog minimum not met: ${albums.length} albums, ${flagshipCount} flagships, ${linkedFlagshipCount} linked flagships`);
-  }
-  await writeJson(path.join(OUTPUT_DIR, "catalog.json"), catalog);
-  await writeJson(path.join(OUTPUT_DIR, "catalog.manifest.json"), report);
-  await writeJson(path.join(REPORT_DIR, "refresh-report.json"), report);
-  console.log(stableStringify(report));
+  const validation = validateCatalogData(catalog, nextIdentities);
+  if (!validation.ok) throw new Error(`Catalog validation failed:\n${validation.errors.join("\n")}`);
+  const temporaryCatalog = `${catalogPath}.tmp`;
+  const temporaryManifest = `${manifestPath}.tmp`;
+  await writeFile(temporaryCatalog, `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
+  await writeFile(temporaryManifest, `${JSON.stringify(validation.summary, null, 2)}\n`, "utf8");
+  await writeFile(identitiesPath, `${JSON.stringify(nextIdentities, null, 2)}\n`, "utf8");
+  await rename(temporaryCatalog, catalogPath);
+  await rename(temporaryManifest, manifestPath);
+  console.log(`Published ${albums.length} NetEase albums after ${requestCount} external requests.`);
 }
 
-main().catch((error) => { console.error(error); process.exitCode = 1; });
+await main();

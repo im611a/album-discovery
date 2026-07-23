@@ -1,12 +1,13 @@
 {
-  "refreshDate": "2026-07-18",
-  "requested": 120,
-  "published": 120,
-  "rejected": [],
-  "flagshipCount": 24,
-  "linkedFlagshipCount": 24,
-  "unlinkedFlagships": [],
-  "localCoverCount": 0,
-  "fallbackCoverCount": 120,
-  "taxonomyCount": 12
+  "albums": 68,
+  "uniqueNeteaseAlbumIds": 68,
+  "uniqueSlugs": 68,
+  "localCovers": 68,
+  "fallbackCovers": 0,
+  "albumsWithTracks": 68,
+  "albumsWithNeteaseLinks": 68,
+  "coreGenres": 15,
+  "relatedGenres": 36,
+  "descriptors": 58,
+  "multiChannelAlbums": 3
 }

@@ -1,35 +1,55 @@
 # 数据来源与刷新
 
-## 来源职责
+## 字段所有权
 
-MusicBrainz release-group 是专辑概念身份的主来源；代表版 release 只在需要曲目时确定使用。发布快照保留 release-group MBID 和代表版 release MBID，避免把不同版本曲序混成“唯一曲目表”。120 个发布身份逐条固定在 `scripts/catalog/verified-identities.json`，包含预期标题、主艺术家、首发年份、主类型、复核时间和说明；自动搜索结果不能覆盖这份清单。
+| 字段 | 权威来源 |
+|---|---|
+| 专辑是否进入目录、neteaseAlbumId、标题、别名、艺人 | 网易云构建期目录同步 |
+| 发行日期、发行类型、公司、曲目数、曲目表 | 网易云构建期专辑详情 |
+| 封面 | 网易云公开封面地址，构建期下载到本地 |
+| 外部聆听入口 | 按 neteaseAlbumId 构造并校验的网易云专辑页 |
+| 核心流派、相关流派、氛围与特征、场景、中文导览 | 本地策展层 |
+| 市场频道 membership | 网易云新发行列表的发现上下文 |
 
-Cover Art Archive 是封面首选来源。刷新脚本按 release-group 请求 250px 正面缩略图并存入 `public/catalog/covers/`；源站不可达或无图时发布明确的生成式回退，不热链图片，也不主张封面版权。
+MusicBrainz ID 不是目录必填字段，也不参与当前生产目录生成。Cover Art Archive、Apple、RYM 和其他音乐服务不参与当前生产刷新。
 
-中文摘要、为什么听、描述词、聆听场景与起始曲选择属于本站原创编辑层。机器辅助或元数据推导内容保持 `metadata_based` 和 `humanReviewed: false`；只有经过真实人工复核才可改成 `curated`。
+## 匿名访问边界
 
-外部链接只在存在精确专辑 URL 时发布。链接来自 MusicBrainz URL relation或固定身份清单中保留并人工核对的直接专辑 URL。刷新过程不调用其他音乐平台搜索接口；没有直达链接时仅给出可复制搜索词，不伪装为直达。
+刷新只使用 0.15A/0.15B 已验证的公开元数据路径：
 
-## 官方访问规则（核验于 2026-07-18）
+- `POST /api/search/get`：首次固定缺失 albumId；
+- `GET /api/v1/album/:id`：专辑详情和曲目；
+- `POST /api/album/new`：仅在维护市场频道发现记录时使用。
 
-- MusicBrainz 要求包含应用名、版本和联系方式的 User-Agent；来源 IP 平均每秒最多 1 次请求。脚本使用至少 1.1 秒间隔。
-- MusicBrainz 搜索 `limit` 范围为 1–100；本项目每个明确候选只请求少量匹配项，并拒绝身份歧义。
-- Cover Art Archive 支持 release 与 release-group JSON、front 及 250/500/1200 缩略图；当前官方文档未列独立限流，本项目仍采用串行、超时与熔断。
+请求只能访问 `music.163.com`；封面下载只允许 HTTPS 的 `music.126.net` 静态资源域名。流程不使用账号、Cookie、Token、自定义敏感请求头、浏览器数据、代理、播放地址、评论、用户数据或验证码绕过。
 
-官方文档：
+请求严格串行，间隔至少两秒，超时为二十秒；网络错误或 5xx 最多重试一次。401、403、429、验证码和风控信号不重试并立即停止对应刷新。日志只保存用途、公开路径、时间、状态、耗时和错误类别。
 
-- https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting
-- https://musicbrainz.org/doc/MusicBrainz_API/Search
-- https://musicbrainz.org/doc/Cover_Art_Archive/API
+## 固定身份与发布
 
-## 刷新流程
+`scripts/catalog/netease-seeds.mjs` 定义中文优先的候选、本站分类与可选导览。`scripts/catalog/netease-identities.json` 固定 slug、艺人、标题和网易云 albumId。固定后，标题搜索不能自动覆盖身份。
 
-`scripts/catalog/curation-manifest.mjs` 明确列出 120 个 artist/title 候选、主流派与纳入原因，不进行随机抓取。`scripts/catalog/verified-identities.json` 是发布身份权威；`pnpm catalog:audit-identities` 只按固定 ID 重新核对官方记录，不搜索或改写清单。`pnpm catalog:refresh` 依次完成固定身份核对、旗舰详情与代表版曲目、封面、外部链接、规范化和发布前硬门。原始响应只写入忽略的 `.cache/catalog/`。
+`pnpm catalog:refresh`：
 
-发布前要求恰好覆盖 120 份固定身份、至少 24 张旗舰、12 个主流派，以及 24/24 旗舰外链覆盖。校验器同时比对固定 MBID、标题、主艺术家、首发年份、发行类型、日历有效的 PartialDate 和重点指南的合理曲目下限。失败报告写入 `reports/catalog/refresh-report.json`，已有有效快照保持不变。
+1. 读取固定身份；
+2. 仅为未固定候选执行专辑搜索；
+3. 按 albumId 获取详情和曲目；
+4. 下载公开封面到 `public/catalog/covers/`；
+5. 规范化专辑、艺人、日期、公司、曲目、网易云链接和发现频道；
+6. 应用本站策展分类；
+7. 执行唯一性、字段所有权、日期、链接、封面和必选样本校验；
+8. 仅在全部校验通过时原子发布本地快照。
 
-## 归属与非依赖
+原始缓存位于被忽略的 `.cache/catalog/`，不会进入源码包或静态成品。前端只读取 checked-in 的 `src/data/generated/catalog.json`。
 
-MusicBrainz 核心数据以 CC0 提供，部分用户贡献数据可能受 CC BY-SA 约束；应用页脚和设置页保留归属。Cover Art Archive 图像权利仍属于各自权利人，使用风险需由部署者评估。
+## 封面与缺失状态
 
-NetEase 实验保存在 `experiments/netease-catalog-spike/`，不参与运行。RYM 不被抓取或依赖；旧离线导入契约仅作为历史边界，不进入发布快照。
+封面成功下载后以 `{neteaseAlbumId}.jpg` 保存，不进行运行时热链。下载失败不会阻止真实专辑进入目录，快照改为 `fallback` 并在页面使用明确的本地图形占位；占位不冒充真实封面。
+
+## 市场频道
+
+`ALL`、`ZH`、`EA`、`JP`、`KR` 只能保存到 `sourceMarketChannels`。同一 albumId 在多个频道出现时合并为一张专辑并保留全部 membership。频道不映射为国家、地区、语言、国籍或法域。
+
+## 风险
+
+网易云匿名接口不是面向本项目承诺稳定性的正式 API。长期分页、增量同步、删除、字段变化、封面权利和平台规则仍需持续复核。任何限制信号都优先停止刷新，不能用登录、凭据、代理或规避手段维持采集。

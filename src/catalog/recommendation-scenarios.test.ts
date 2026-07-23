@@ -11,7 +11,7 @@ const baseState = () => ({
 
 describe("recommendation state signals", () => {
   it("uses saved albums as weak seeds while excluding them from their own recommendations", () => {
-    const saved = catalogAlbums.find((album) => album.slug === "music-has-right-to-children")!;
+    const saved = catalogAlbums.find((album) => album.slug === "12-ryuichi-sakamoto")!;
     const before = recommendAlbums(baseState(), 12);
     const after = recommendAlbums({ ...baseState(), savedAlbumIds: [saved.id] }, 12);
     expect(after.map((item) => item.album.id)).not.toContain(saved.id);
@@ -19,7 +19,7 @@ describe("recommendation state signals", () => {
   });
 
   it("treats favorite and imported like as the same strong, self-excluding seed", () => {
-    const favorite = catalogAlbums.find((album) => album.slug === "promises")!;
+    const favorite = catalogAlbums.find((album) => album.slug === "kind-of-blue")!;
     const favoriteIds = recommendAlbums({ ...baseState(), favoriteAlbumIds: [favorite.id] }).map((item) => item.album.id);
     const importedLikeIds = recommendAlbums({ ...baseState(), recommendationFeedback: { [favorite.id]: "like" } }).map((item) => item.album.id);
     expect(favoriteIds).not.toContain(favorite.id);
@@ -33,7 +33,7 @@ describe("recommendation state signals", () => {
   });
 
   it("uses not-for-me both as an exclusion and a negative similarity signal", () => {
-    const target = catalogAlbums.find((album) => album.slug === "ambient-1-music-for-airports")!;
+    const target = catalogAlbums.find((album) => album.slug === "12-ryuichi-sakamoto")!;
     const output = recommendAlbums({ ...baseState(), recommendationFeedback: { [target.id]: "not_for_me" } });
     expect(output.map((item) => item.album.id)).not.toContain(target.id);
     expect(output.every((item) => item.score >= 0)).toBe(true);

@@ -14,7 +14,7 @@ describe("recommendation engine", () => {
   });
   it("excludes seeds, listened, dismissed and not-for-me records", () => {
     const [seed, listened, dismissed, disliked] = catalogAlbums.slice(0, 4);
-    const state = { ...createInitialUserState(), onboardingCompleted: true, taste: { ...createInitialUserState().taste, genres: seed.primaryGenres, seedAlbumIds: [seed.id] }, listenedAlbumIds: [listened.id], dismissedAlbumIds: [dismissed.id], recommendationFeedback: { [disliked.id]: "not_for_me" as const } };
+    const state = { ...createInitialUserState(), onboardingCompleted: true, taste: { ...createInitialUserState().taste, genres: seed.coreGenres, seedAlbumIds: [seed.id] }, listenedAlbumIds: [listened.id], dismissedAlbumIds: [dismissed.id], recommendationFeedback: { [disliked.id]: "not_for_me" as const } };
     const ids = recommendAlbums(state).map((item) => item.album.id);
     expect(ids).not.toContain(seed.id);
     expect(ids).not.toContain(listened.id);
@@ -25,7 +25,7 @@ describe("recommendation engine", () => {
     const output = recommendAlbums(createInitialUserState(), 18);
     const artists = output.map((item) => item.album.artists[0]?.id);
     expect(new Set(artists).size).toBe(artists.length);
-    const counts = Object.values(Object.groupBy(output, (item) => item.album.primaryGenres[0])).map((items) => items?.length ?? 0);
+    const counts = Object.values(Object.groupBy(output, (item) => item.album.coreGenres[0])).map((items) => items?.length ?? 0);
     expect(Math.max(...counts)).toBeLessThanOrEqual(3);
   });
 });

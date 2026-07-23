@@ -12,8 +12,8 @@ describe("TasteSetup", () => {
     render(<PersonalStateProvider><TasteSetup /></PersonalStateProvider>);
     const submit = await screen.findByRole("button", { name: "查看我的推荐" });
     expect(submit).toBeDisabled();
-    fireEvent.click(screen.getByRole("button", { name: "艺术流行" }));
-    fireEvent.click(screen.getByRole("button", { name: "朦胧" }));
+    fireEvent.click(screen.getByRole("button", { name: "艺术流行（Art Pop）" }));
+    fireEvent.click(screen.getByRole("button", { name: "朦胧（Hazy）" }));
     expect(submit).toBeEnabled(); fireEvent.click(submit);
     expect(push).toHaveBeenCalledWith("/for-you");
   });

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getTaxonomyLabel } from "@/catalog/published-catalog";
-import type { PublishedAlbum } from "@/catalog/schema";
+import { RELEASE_TYPE_LABELS, type PublishedAlbum } from "@/catalog/schema";
 import { AlbumActions } from "./album-actions";
 import { AlbumCover } from "./albums/album-cover";
 
@@ -21,7 +21,8 @@ export function AlbumCard({ album, reason, actions = "compact", highlight, headi
         <div className="album-card__body">
           <Heading className="album-card__title"><Highlighted text={album.title} query={highlight} /></Heading>
           <p className="album-card__artist"><Highlighted text={album.artists.map((artist) => artist.name).join("、")} query={highlight} /></p>
-          <p className="album-card__meta">{album.releaseDate?.value.slice(0, 4) ?? "日期暂缺"} · {getTaxonomyLabel(album.primaryGenres[0] ?? "")}</p>
+          <p className="album-card__meta">{album.releaseDate?.slice(0, 4) ?? "日期暂缺"} · {RELEASE_TYPE_LABELS[album.albumType]}</p>
+          {album.coreGenres.length ? <div className="album-card__genres" aria-label="专辑核心流派">{album.coreGenres.slice(0, 2).map((genre) => <span key={genre}>{getTaxonomyLabel(genre)}</span>)}</div> : null}
           {reason ? <p className="album-card__reason">{reason}</p> : album.editorial ? <p className="album-card__reason">{album.editorial.summaryZh}</p> : null}
         </div>
       </Link>
