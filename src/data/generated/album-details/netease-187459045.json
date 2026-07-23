@@ -1,0 +1,99 @@
+{
+  "internalId": "album:187459045",
+  "id": "album:187459045",
+  "neteaseAlbumId": "187459045",
+  "slug": "netease-187459045",
+  "title": "某",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13247",
+      "neteaseArtistId": "13247",
+      "name": "文雀"
+    }
+  ],
+  "releaseDate": "2024-02-29",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Beijing Modern Sky Culture Development Co.,Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/187459045.webp",
+    "alt": "《某》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/187459045.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2130993813",
+      "neteaseTrackId": "2130993813",
+      "title": "某年",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 384469
+    },
+    {
+      "id": "netease-track:2130993812",
+      "neteaseTrackId": "2130993812",
+      "title": "某月",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 395008
+    },
+    {
+      "id": "netease-track:2130993811",
+      "neteaseTrackId": "2130993811",
+      "title": "某日",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 310943
+    },
+    {
+      "id": "netease-track:2130993814",
+      "neteaseTrackId": "2130993814",
+      "title": "某时",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 485120
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=187459045",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "某 文雀",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

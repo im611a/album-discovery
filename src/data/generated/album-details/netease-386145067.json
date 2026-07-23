@@ -1,0 +1,119 @@
+{
+  "internalId": "album:386145067",
+  "id": "album:386145067",
+  "neteaseAlbumId": "386145067",
+  "slug": "netease-386145067",
+  "title": "太热爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12236125",
+      "neteaseArtistId": "12236125",
+      "name": "王以太"
+    },
+    {
+      "id": "netease-artist:1203045",
+      "neteaseArtistId": "1203045",
+      "name": "艾热 AIR"
+    }
+  ],
+  "releaseDate": "2026-07-11",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/386145067.webp",
+    "alt": "《太热爱》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/386145067.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3404239106",
+      "neteaseTrackId": "3404239106",
+      "title": "Oversize",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王以太"
+      ],
+      "durationMs": 195692
+    },
+    {
+      "id": "netease-track:3404238776",
+      "neteaseTrackId": "3404238776",
+      "title": "Oversize pt.2",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 189250
+    },
+    {
+      "id": "netease-track:3404238777",
+      "neteaseTrackId": "3404238777",
+      "title": "周旋",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 290731
+    },
+    {
+      "id": "netease-track:3404238778",
+      "neteaseTrackId": "3404238778",
+      "title": "宜居星球",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 221200
+    },
+    {
+      "id": "netease-track:3392180083",
+      "neteaseTrackId": "3392180083",
+      "title": "Crazy Love",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 234430
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=386145067",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "太热爱 王以太 艾热 AIR",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

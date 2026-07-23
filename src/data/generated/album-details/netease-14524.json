@@ -1,0 +1,155 @@
+{
+  "internalId": "album:14524",
+  "id": "album:14524",
+  "neteaseAlbumId": "14524",
+  "slug": "netease-14524",
+  "title": "像草一样",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:4934",
+      "neteaseArtistId": "4934",
+      "name": "苏阳"
+    }
+  ],
+  "releaseDate": "2009-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Su Yang 苏阳",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/14524.webp",
+    "alt": "《像草一样》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/14524.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:145160",
+      "neteaseTrackId": "145160",
+      "title": "牛拉车车",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:145161",
+      "neteaseTrackId": "145161",
+      "title": "冤家",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 350826
+    },
+    {
+      "id": "netease-track:145162",
+      "neteaseTrackId": "145162",
+      "title": "急流",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 319986
+    },
+    {
+      "id": "netease-track:145164",
+      "neteaseTrackId": "145164",
+      "title": "招招手",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 368746
+    },
+    {
+      "id": "netease-track:145166",
+      "neteaseTrackId": "145166",
+      "title": "发芽",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 325546
+    },
+    {
+      "id": "netease-track:145168",
+      "neteaseTrackId": "145168",
+      "title": "喊歌",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 345826
+    },
+    {
+      "id": "netease-track:145169",
+      "neteaseTrackId": "145169",
+      "title": "夫妻小唱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 312613
+    },
+    {
+      "id": "netease-track:145171",
+      "neteaseTrackId": "145171",
+      "title": "像草一样",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 417293
+    },
+    {
+      "id": "netease-track:145173",
+      "neteaseTrackId": "145173",
+      "title": "八宝塬令-下夜川",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 268626
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=14524",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "像草一样 苏阳",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,209 @@
+{
+  "internalId": "album:73982649",
+  "id": "album:73982649",
+  "neteaseAlbumId": "73982649",
+  "slug": "netease-73982649",
+  "title": "老情儿",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    },
+    {
+      "id": "netease-artist:12468289",
+      "neteaseArtistId": "12468289",
+      "name": "梁龙"
+    },
+    {
+      "id": "netease-artist:12443",
+      "neteaseArtistId": "12443",
+      "name": "东方大戏楼"
+    }
+  ],
+  "releaseDate": "2020-10-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/73982649.webp",
+    "alt": "《老情儿》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/73982649.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1825646134",
+      "neteaseTrackId": "1825646134",
+      "title": "笑傲江湖",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 222105
+    },
+    {
+      "id": "netease-track:1432714288",
+      "neteaseTrackId": "1432714288",
+      "title": "黑猫白猫",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 192403
+    },
+    {
+      "id": "netease-track:434550035",
+      "neteaseTrackId": "434550035",
+      "title": "我想有个家",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 264545
+    },
+    {
+      "id": "netease-track:1406117849",
+      "neteaseTrackId": "1406117849",
+      "title": "野马",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 207640
+    },
+    {
+      "id": "netease-track:1915877378",
+      "neteaseTrackId": "1915877378",
+      "title": "吹口哨",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 257280
+    },
+    {
+      "id": "netease-track:1352810609",
+      "neteaseTrackId": "1352810609",
+      "title": "二手玫瑰",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 138504
+    },
+    {
+      "id": "netease-track:1928748821",
+      "neteaseTrackId": "1928748821",
+      "title": "老铁万事兴",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 290904
+    },
+    {
+      "id": "netease-track:1369452910",
+      "neteaseTrackId": "1369452910",
+      "title": "大旅行",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:1318880166",
+      "neteaseTrackId": "1318880166",
+      "title": "最爱你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 287425
+    },
+    {
+      "id": "netease-track:1449145717",
+      "neteaseTrackId": "1449145717",
+      "title": "老情儿",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 236240
+    },
+    {
+      "id": "netease-track:1432487918",
+      "neteaseTrackId": "1432487918",
+      "title": "可以不可以",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 212500
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=73982649",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "老情儿 左小祖咒 梁龙 东方大戏楼",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

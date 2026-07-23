@@ -1,0 +1,193 @@
+{
+  "internalId": "album:132874562",
+  "id": "album:132874562",
+  "neteaseAlbumId": "132874562",
+  "slug": "netease-132874562",
+  "title": "幸存者的负罪感",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12236125",
+      "neteaseArtistId": "12236125",
+      "name": "王以太"
+    },
+    {
+      "id": "netease-artist:1203045",
+      "neteaseArtistId": "1203045",
+      "name": "艾热 AIR"
+    }
+  ],
+  "releaseDate": "2021-09-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "第四音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/132874562.webp",
+    "alt": "《幸存者的负罪感》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/132874562.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1876179155",
+      "neteaseTrackId": "1876179155",
+      "title": "末 (Intro)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 249004
+    },
+    {
+      "id": "netease-track:1876182019",
+      "neteaseTrackId": "1876182019",
+      "title": "Pay Right Now (种瓜得瓜，种豆得豆)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 198997
+    },
+    {
+      "id": "netease-track:1876179154",
+      "neteaseTrackId": "1876179154",
+      "title": "醉",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 193993
+    },
+    {
+      "id": "netease-track:1876179150",
+      "neteaseTrackId": "1876179150",
+      "title": "无言以对",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 210925
+    },
+    {
+      "id": "netease-track:1876179148",
+      "neteaseTrackId": "1876179148",
+      "title": "现实的生活",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 234995
+    },
+    {
+      "id": "netease-track:1851081805",
+      "neteaseTrackId": "1851081805",
+      "title": "没时间流眼泪",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 287994
+    },
+    {
+      "id": "netease-track:1876182023",
+      "neteaseTrackId": "1876182023",
+      "title": "生而为人总错过",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 258997
+    },
+    {
+      "id": "netease-track:1876179152",
+      "neteaseTrackId": "1876179152",
+      "title": "头头是道",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 175997
+    },
+    {
+      "id": "netease-track:1876179147",
+      "neteaseTrackId": "1876179147",
+      "title": "别怕变老",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 245775
+    },
+    {
+      "id": "netease-track:1876182022",
+      "neteaseTrackId": "1876182022",
+      "title": "乡野传说",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 259975
+    },
+    {
+      "id": "netease-track:1876179153",
+      "neteaseTrackId": "1876179153",
+      "title": "始 (Outro)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "艾热 AIR"
+      ],
+      "durationMs": 103973
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=132874562",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "幸存者的负罪感 王以太 艾热 AIR",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

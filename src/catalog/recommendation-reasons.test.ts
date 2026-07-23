@@ -5,7 +5,7 @@ import { recommendAlbums, RECOMMENDATION_WEIGHTS } from "./recommendation";
 
 describe("recommendation explanations", () => {
   it("keeps every scoring weight in the exported central table", () => {
-    expect(Object.keys(RECOMMENDATION_WEIGHTS).sort()).toEqual(["coldStart", "context", "coreGenre", "descriptor", "editorial", "era", "exploration", "favoriteSimilarity", "lessViewedEra", "negativeSimilarity", "relatedGenre", "savedSimilarity"].sort());
+    expect(Object.keys(RECOMMENDATION_WEIGHTS).sort()).toEqual(["coldStart", "context", "coreGenre", "editorial", "era", "exploration", "favoriteSimilarity", "lessViewedEra", "negativeSimilarity", "relatedGenre", "savedSimilarity"].sort());
   });
 
   it("uses the Chinese taxonomy label instead of leaking an internal genre key", () => {
@@ -18,10 +18,12 @@ describe("recommendation explanations", () => {
   it("only states favorite similarity when a favorite actually contributes", () => {
     const seed = catalogAlbums.find((album) => album.slug === "fantasy-jay-chou")!;
     const state = { ...createInitialUserState(), onboardingCompleted: true, favoriteAlbumIds: [seed.id] };
-    const explained = recommendAlbums(state).filter((item) => item.reasons.some((reason) => reason.includes("已喜欢")));
+    const explained = recommendAlbums(state).filter((item) => item.reasons.some((reason) => reason.includes("已喜欢或收藏")));
     expect(explained.length).toBeGreaterThan(0);
     for (const item of explained) {
-      expect(item.album.coreGenres.some((value) => seed.coreGenres.includes(value))).toBe(true);
+      expect(item.album.coreGenres.some((value) => seed.coreGenres.includes(value)) ||
+        item.album.relatedGenres.some((value) => seed.relatedGenres.includes(value)) ||
+        item.album.contexts.some((value) => seed.contexts.includes(value))).toBe(true);
     }
   });
 

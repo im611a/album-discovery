@@ -1,0 +1,166 @@
+{
+  "internalId": "album:15690",
+  "id": "album:15690",
+  "neteaseAlbumId": "15690",
+  "slug": "netease-15690",
+  "title": "走过来 走过去",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5345",
+      "neteaseArtistId": "5345",
+      "name": "万晓利"
+    }
+  ],
+  "releaseDate": "2002-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "BadHead",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15690.webp",
+    "alt": "《走过来 走过去》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/15690.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:155790",
+      "neteaseTrackId": "155790",
+      "title": "狐狸",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 291346
+    },
+    {
+      "id": "netease-track:155794",
+      "neteaseTrackId": "155794",
+      "title": "老新闻",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 277000
+    },
+    {
+      "id": "netease-track:155797",
+      "neteaseTrackId": "155797",
+      "title": "姑娘啊 你真傻",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 228426
+    },
+    {
+      "id": "netease-track:155800",
+      "neteaseTrackId": "155800",
+      "title": "妈妈",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 272826
+    },
+    {
+      "id": "netease-track:155802",
+      "neteaseTrackId": "155802",
+      "title": "七扎",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 181746
+    },
+    {
+      "id": "netease-track:155804",
+      "neteaseTrackId": "155804",
+      "title": "流氓",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 212413
+    },
+    {
+      "id": "netease-track:155807",
+      "neteaseTrackId": "155807",
+      "title": "下岗了",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 168400
+    },
+    {
+      "id": "netease-track:155810",
+      "neteaseTrackId": "155810",
+      "title": "霞",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 220346
+    },
+    {
+      "id": "netease-track:155814",
+      "neteaseTrackId": "155814",
+      "title": "伟大的",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 272706
+    },
+    {
+      "id": "netease-track:155818",
+      "neteaseTrackId": "155818",
+      "title": "走过来 走过去",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 297066
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=15690",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "走过来 走过去 万晓利",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

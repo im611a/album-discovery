@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { AlbumDetail } from "@/components/albums/album-detail";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { getAllAlbums } from "@/catalog/queries";
+import { getAllAlbums, getAlbumsForArtist } from "@/catalog/queries";
 import { getAlbumDetailBySlug } from "@/catalog/published-album-details";
 
 export const dynamicParams = false;
@@ -19,5 +19,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function AlbumPage({ params }: { params: Promise<{ slug: string }> }) {
   const album = getAlbumDetailBySlug((await params).slug);
   if (!album) notFound();
-  return <div className="site-shell"><SiteHeader /><main className="page-main page-container" id="main-content"><AlbumDetail album={album} /></main><SiteFooter /></div>;
+  const sameArtistAlbums = album.artists.flatMap((artist) => getAlbumsForArtist(artist.id)).filter((item, index, all) => item.id !== album.id && all.findIndex((candidate) => candidate.id === item.id) === index);
+  return <div className="site-shell"><SiteHeader /><main className="page-main page-container" id="main-content"><AlbumDetail album={album} sameArtistAlbums={sameArtistAlbums} /></main><SiteFooter /></div>;
 }

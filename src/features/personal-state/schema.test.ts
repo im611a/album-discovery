@@ -12,7 +12,18 @@ describe("local user state", () => {
   it("rejects corruption and unsupported versions", () => {
     expect(parseLocalUserState(null, ids)).toBeNull();
     expect(parseLocalUserState({ version: 2 }, ids)).toBeNull();
+    expect(parseLocalUserState({ ...createInitialUserState(), likedAlbumIds: "bad" }, ids)).toBeNull();
     expect(parseLocalUserState({ ...createInitialUserState(), favoriteAlbumIds: "bad" }, ids)).toBeNull();
+  });
+
+  it("preserves separate liked and collected album states", () => {
+    const [liked, collected] = catalogAlbums;
+    const value = createInitialUserState();
+    value.likedAlbumIds = [liked!.id];
+    value.favoriteAlbumIds = [collected!.id];
+    const parsed = parseLocalUserState(value, ids);
+    expect(parsed?.likedAlbumIds).toEqual([liked!.id]);
+    expect(parsed?.favoriteAlbumIds).toEqual([collected!.id]);
   });
 
   it("normalizes contradictory imported feedback", () => {

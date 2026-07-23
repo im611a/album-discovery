@@ -1,0 +1,192 @@
+{
+  "internalId": "album:18896",
+  "id": "album:18896",
+  "neteaseAlbumId": "18896",
+  "slug": "netease-18896",
+  "title": "11月的萧邦",
+  "aliases": [
+    "November's Chopin"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2005-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18896.webp",
+    "alt": "《11月的萧邦》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18896.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185904",
+      "neteaseTrackId": "185904",
+      "title": "夜曲",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 226827
+    },
+    {
+      "id": "netease-track:185905",
+      "neteaseTrackId": "185905",
+      "title": "蓝色风暴",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 287853
+    },
+    {
+      "id": "netease-track:185906",
+      "neteaseTrackId": "185906",
+      "title": "发如雪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 299000
+    },
+    {
+      "id": "netease-track:185908",
+      "neteaseTrackId": "185908",
+      "title": "黑色毛衣",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 252160
+    },
+    {
+      "id": "netease-track:185910",
+      "neteaseTrackId": "185910",
+      "title": "四面楚歌",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "林迈可"
+      ],
+      "durationMs": 248573
+    },
+    {
+      "id": "netease-track:185912",
+      "neteaseTrackId": "185912",
+      "title": "枫",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:185914",
+      "neteaseTrackId": "185914",
+      "title": "浪漫手机",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:185916",
+      "neteaseTrackId": "185916",
+      "title": "逆鳞",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 234000
+    },
+    {
+      "id": "netease-track:185918",
+      "neteaseTrackId": "185918",
+      "title": "麦芽糖",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:185920",
+      "neteaseTrackId": "185920",
+      "title": "珊瑚海",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "梁心颐"
+      ],
+      "durationMs": 255000
+    },
+    {
+      "id": "netease-track:185922",
+      "neteaseTrackId": "185922",
+      "title": "飘移",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 244974
+    },
+    {
+      "id": "netease-track:185924",
+      "neteaseTrackId": "185924",
+      "title": "一路向北",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 295692
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=18896",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "11月的萧邦 November's Chopin 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

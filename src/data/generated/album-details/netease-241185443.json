@@ -1,0 +1,121 @@
+{
+  "internalId": "album:241185443",
+  "id": "album:241185443",
+  "neteaseAlbumId": "241185443",
+  "slug": "netease-241185443",
+  "title": "贤文乐集 下",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:33154502",
+      "neteaseArtistId": "33154502",
+      "name": "朝简"
+    }
+  ],
+  "releaseDate": "2024-07-05",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "北京窦唯音乐工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/241185443.webp",
+    "alt": "《贤文乐集 下》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/241185443.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2604818083",
+      "neteaseTrackId": "2604818083",
+      "title": "苦斋记",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 786000
+    },
+    {
+      "id": "netease-track:2604818871",
+      "neteaseTrackId": "2604818871",
+      "title": "三峡",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 493421
+    },
+    {
+      "id": "netease-track:2604818872",
+      "neteaseTrackId": "2604818872",
+      "title": "滕王阁序",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 937458
+    },
+    {
+      "id": "netease-track:2604818880",
+      "neteaseTrackId": "2604818880",
+      "title": "望海潮",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 856216
+    },
+    {
+      "id": "netease-track:2604818110",
+      "neteaseTrackId": "2604818110",
+      "title": "养生论",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 1110750
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=241185443",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "贤文乐集 下 窦唯 朝简",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

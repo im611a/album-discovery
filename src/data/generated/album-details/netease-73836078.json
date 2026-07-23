@@ -1,0 +1,111 @@
+{
+  "internalId": "album:73836078",
+  "id": "album:73836078",
+  "neteaseAlbumId": "73836078",
+  "slug": "netease-73836078",
+  "title": "Go Slow",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12463331",
+      "neteaseArtistId": "12463331",
+      "name": "deca joins"
+    }
+  ],
+  "releaseDate": "2018-11-13",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/73836078.webp",
+    "alt": "《Go Slow》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/73836078.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1318284166",
+      "neteaseTrackId": "1318284166",
+      "title": "Somewhere",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 130490
+    },
+    {
+      "id": "netease-track:1320101152",
+      "neteaseTrackId": "1320101152",
+      "title": "海浪",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 322333
+    },
+    {
+      "id": "netease-track:1317420774",
+      "neteaseTrackId": "1317420774",
+      "title": "眼睛里",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 314480
+    },
+    {
+      "id": "netease-track:1317457815",
+      "neteaseTrackId": "1317457815",
+      "title": "夜间独白",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 248360
+    },
+    {
+      "id": "netease-track:1320101153",
+      "neteaseTrackId": "1320101153",
+      "title": "Go Slow",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 192360
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=73836078",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Go Slow deca joins",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

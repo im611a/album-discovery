@@ -1,0 +1,133 @@
+{
+  "internalId": "album:38188",
+  "id": "album:38188",
+  "neteaseAlbumId": "38188",
+  "slug": "zero-point-seven",
+  "title": "0.7",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2012-06-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38188.webp",
+    "alt": "《0.7》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38188.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:385318",
+      "neteaseTrackId": "385318",
+      "title": "2012",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 403276
+    },
+    {
+      "id": "netease-track:385320",
+      "neteaseTrackId": "385320",
+      "title": "Rain Watcher",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 338135
+    },
+    {
+      "id": "netease-track:385322",
+      "neteaseTrackId": "385322",
+      "title": "Lonely God",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 570019
+    },
+    {
+      "id": "netease-track:385325",
+      "neteaseTrackId": "385325",
+      "title": "Angelo's Portrait",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 459124
+    },
+    {
+      "id": "netease-track:385327",
+      "neteaseTrackId": "385327",
+      "title": "Absent Minded Theme",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 218950
+    },
+    {
+      "id": "netease-track:385331",
+      "neteaseTrackId": "385331",
+      "title": "Dragon in the Pool",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 433176
+    },
+    {
+      "id": "netease-track:385333",
+      "neteaseTrackId": "385333",
+      "title": "Seasons",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 309415
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=38188",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "0.7 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

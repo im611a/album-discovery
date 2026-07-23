@@ -1,0 +1,185 @@
+{
+  "internalId": "album:35559140",
+  "id": "album:35559140",
+  "neteaseAlbumId": "35559140",
+  "slug": "black-cab",
+  "title": "Black Cab",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12002201",
+      "neteaseArtistId": "12002201",
+      "name": "Higher Brothers"
+    }
+  ],
+  "releaseDate": "2017-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "CXSHXNLY Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35559140.webp",
+    "alt": "《Black Cab》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35559140.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:480579330",
+      "neteaseTrackId": "480579330",
+      "title": "WeChat feat. Keith Ape (Prod. Roget)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Keith Ape",
+        "Higher Brothers"
+      ],
+      "durationMs": 256803
+    },
+    {
+      "id": "netease-track:480579331",
+      "neteaseTrackId": "480579331",
+      "title": "Isabellae (Prod. Charlie Heat)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "Charlie Heat"
+      ],
+      "durationMs": 156932
+    },
+    {
+      "id": "netease-track:480579332",
+      "neteaseTrackId": "480579332",
+      "title": "Franklin feat. Jay Park (Prod. Jedi P)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "Jedi P",
+        "朴宰范"
+      ],
+      "durationMs": 255064
+    },
+    {
+      "id": "netease-track:480575341",
+      "neteaseTrackId": "480575341",
+      "title": "Why Not (Prod. Origami)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "Origami"
+      ],
+      "durationMs": 217228
+    },
+    {
+      "id": "netease-track:480579333",
+      "neteaseTrackId": "480579333",
+      "title": "Mine (Prod. Izzy Tha Great)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 227514
+    },
+    {
+      "id": "netease-track:1939460649",
+      "neteaseTrackId": "1939460649",
+      "title": "Wudidong (Prod. BricksOnDaBeat)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 244773
+    },
+    {
+      "id": "netease-track:480575342",
+      "neteaseTrackId": "480575342",
+      "title": "Bitc* Don't Kill My Dab (Prod. OG abi)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 221473
+    },
+    {
+      "id": "netease-track:480575343",
+      "neteaseTrackId": "480575343",
+      "title": "Aston Martin feat. Ken Rebel (Prod. Tantu Beat)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Ken Rebel",
+        "Higher Brothers"
+      ],
+      "durationMs": 228937
+    },
+    {
+      "id": "netease-track:480579335",
+      "neteaseTrackId": "480579335",
+      "title": "Ding Mogu (Prod. Maaly Raw)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 177714
+    },
+    {
+      "id": "netease-track:480579336",
+      "neteaseTrackId": "480579336",
+      "title": "Yahh feat. J.mag (Prod. Gold Key$)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "J.Mag"
+      ],
+      "durationMs": 280513
+    },
+    {
+      "id": "netease-track:480579337",
+      "neteaseTrackId": "480579337",
+      "title": "711 (Prod. Masiwei)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "马思唯"
+      ],
+      "durationMs": 247273
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=35559140",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Black Cab Higher Brothers",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

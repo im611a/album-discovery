@@ -1,0 +1,167 @@
+{
+  "internalId": "album:120618796",
+  "id": "album:120618796",
+  "neteaseAlbumId": "120618796",
+  "slug": "netease-120618796",
+  "title": "鸟鸟鸟 Bird and Reflections",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12463331",
+      "neteaseArtistId": "12463331",
+      "name": "deca joins"
+    }
+  ],
+  "releaseDate": "2020-12-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/120618796.webp",
+    "alt": "《鸟鸟鸟 Bird and Reflections》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/120618796.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1805382011",
+      "neteaseTrackId": "1805382011",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 127000
+    },
+    {
+      "id": "netease-track:1805380227",
+      "neteaseTrackId": "1805380227",
+      "title": "漫漫长夜",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 212440
+    },
+    {
+      "id": "netease-track:1805380208",
+      "neteaseTrackId": "1805380208",
+      "title": "黑暗之中闭上眼",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "deca joins",
+        "陳嫺靜"
+      ],
+      "durationMs": 165080
+    },
+    {
+      "id": "netease-track:1805382044",
+      "neteaseTrackId": "1805382044",
+      "title": "雾",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 307160
+    },
+    {
+      "id": "netease-track:1805380283",
+      "neteaseTrackId": "1805380283",
+      "title": "B1",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 385426
+    },
+    {
+      "id": "netease-track:1805382061",
+      "neteaseTrackId": "1805382061",
+      "title": "卧室",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 386146
+    },
+    {
+      "id": "netease-track:1805380240",
+      "neteaseTrackId": "1805380240",
+      "title": "散去的时候",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 267853
+    },
+    {
+      "id": "netease-track:1805380249",
+      "neteaseTrackId": "1805380249",
+      "title": "多完美的一天",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 317893
+    },
+    {
+      "id": "netease-track:1805382012",
+      "neteaseTrackId": "1805382012",
+      "title": "午夜的消亡",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 124986
+    },
+    {
+      "id": "netease-track:1805380233",
+      "neteaseTrackId": "1805380233",
+      "title": "Outro",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 184160
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=120618796",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "鸟鸟鸟 Bird and Reflections deca joins",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

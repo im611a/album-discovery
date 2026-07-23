@@ -1,0 +1,144 @@
+{
+  "internalId": "album:71612875",
+  "id": "album:71612875",
+  "neteaseAlbumId": "71612875",
+  "slug": "netease-71612875",
+  "title": "看不见的城市",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2018-07-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/71612875.webp",
+    "alt": "《看不见的城市》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/71612875.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:862102939",
+      "neteaseTrackId": "862102939",
+      "title": "破晓",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 490562
+    },
+    {
+      "id": "netease-track:862100902",
+      "neteaseTrackId": "862100902",
+      "title": "老虎棒子鸡",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 631700
+    },
+    {
+      "id": "netease-track:863073353",
+      "neteaseTrackId": "863073353",
+      "title": "水之湄",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 377490
+    },
+    {
+      "id": "netease-track:862102940",
+      "neteaseTrackId": "862102940",
+      "title": "Lost in Train Station",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 451683
+    },
+    {
+      "id": "netease-track:862102941",
+      "neteaseTrackId": "862102941",
+      "title": "独舞",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 312918
+    },
+    {
+      "id": "netease-track:862098897",
+      "neteaseTrackId": "862098897",
+      "title": "竹鹤",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 244040
+    },
+    {
+      "id": "netease-track:862100903",
+      "neteaseTrackId": "862100903",
+      "title": "大连，勿语",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 512523
+    },
+    {
+      "id": "netease-track:862098898",
+      "neteaseTrackId": "862098898",
+      "title": "尾声",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 257447
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=71612875",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "看不见的城市 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

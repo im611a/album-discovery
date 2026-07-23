@@ -1,0 +1,111 @@
+{
+  "internalId": "album:135678901",
+  "id": "album:135678901",
+  "neteaseAlbumId": "135678901",
+  "slug": "birdy-island-remixes",
+  "title": "鸟岛(Remixes)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2021-11-04",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/135678901.webp",
+    "alt": "《鸟岛(Remixes)》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/135678901.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1892258268",
+      "neteaseTrackId": "1892258268",
+      "title": "Island Birdy (Mabe Fratti Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 292853
+    },
+    {
+      "id": "netease-track:1892268629",
+      "neteaseTrackId": "1892268629",
+      "title": "Wave, Wave, Wave (Foodman Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 134729
+    },
+    {
+      "id": "netease-track:1892268819",
+      "neteaseTrackId": "1892268819",
+      "title": "Foreign Flowers(Dengue Dengue Dengue Prisma Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 273950
+    },
+    {
+      "id": "netease-track:1892269226",
+      "neteaseTrackId": "1892269226",
+      "title": "Time To The Sun ft.Yehaiyahan(Silvia Kastel Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 293381
+    },
+    {
+      "id": "netease-track:1892262195",
+      "neteaseTrackId": "1892262195",
+      "title": "Birdy Island (Kupla Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 123226
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=135678901",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "鸟岛(Remixes) Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

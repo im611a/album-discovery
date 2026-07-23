@@ -1,0 +1,100 @@
+{
+  "internalId": "album:64246",
+  "id": "album:64246",
+  "neteaseAlbumId": "64246",
+  "slug": "netease-64246",
+  "title": "HEART STATION / Stay Gold",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2008-02-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64246.webp",
+    "alt": "《HEART STATION / Stay Gold》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/64246.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666424",
+      "neteaseTrackId": "666424",
+      "title": "HEART STATION",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 278000
+    },
+    {
+      "id": "netease-track:666428",
+      "neteaseTrackId": "666428",
+      "title": "Stay Gold",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 316000
+    },
+    {
+      "id": "netease-track:666431",
+      "neteaseTrackId": "666431",
+      "title": "HEART STATION -Original Karaoke-",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 278334
+    },
+    {
+      "id": "netease-track:666433",
+      "neteaseTrackId": "666433",
+      "title": "Stay Gold -Original Karaoke-",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 314000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=64246",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "HEART STATION / Stay Gold 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

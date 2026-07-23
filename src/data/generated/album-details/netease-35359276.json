@@ -1,0 +1,208 @@
+{
+  "internalId": "album:35359276",
+  "id": "album:35359276",
+  "neteaseAlbumId": "35359276",
+  "slug": "netease-35359276",
+  "title": "街躁日Street Noise",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:122455",
+      "neteaseArtistId": "122455",
+      "name": "群星"
+    },
+    {
+      "id": "netease-artist:789380",
+      "neteaseArtistId": "789380",
+      "name": "拖鞋OneFly"
+    },
+    {
+      "id": "netease-artist:1043093",
+      "neteaseArtistId": "1043093",
+      "name": "Toy王奕"
+    },
+    {
+      "id": "netease-artist:865007",
+      "neteaseArtistId": "865007",
+      "name": "MC法老"
+    },
+    {
+      "id": "netease-artist:1049168",
+      "neteaseArtistId": "1049168",
+      "name": "MuSik I"
+    }
+  ],
+  "releaseDate": "2017-04-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35359276.webp",
+    "alt": "《街躁日Street Noise》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35359276.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:471763215",
+      "neteaseTrackId": "471763215",
+      "title": "迪热 (Prod. by 依兴驰)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "星驰"
+      ],
+      "durationMs": 277581
+    },
+    {
+      "id": "netease-track:471763216",
+      "neteaseTrackId": "471763216",
+      "title": "谁能比我帅 (Prod. by Yoken)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Yoken_Official",
+        "拖鞋OneFly",
+        "YoungGee（小马）"
+      ],
+      "durationMs": 192170
+    },
+    {
+      "id": "netease-track:471761302",
+      "neteaseTrackId": "471761302",
+      "title": "Killer (Prod. by Yoken)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "YoungGee（小马）",
+        "Kc",
+        "Yoken_Official"
+      ],
+      "durationMs": 236800
+    },
+    {
+      "id": "netease-track:471763223",
+      "neteaseTrackId": "471763223",
+      "title": "选我 (Prod. by Q.luv/Sdound)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "赤垚",
+        "VaVa娃娃",
+        "王洋EVIS"
+      ],
+      "durationMs": 195400
+    },
+    {
+      "id": "netease-track:471761306",
+      "neteaseTrackId": "471761306",
+      "title": "Lose some,Win some",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MuSik I"
+      ],
+      "durationMs": 146000
+    },
+    {
+      "id": "netease-track:471763224",
+      "neteaseTrackId": "471763224",
+      "title": "苦海无涯 (Prod. by Yoken)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "Yoken_Official"
+      ],
+      "durationMs": 235200
+    },
+    {
+      "id": "netease-track:471763225",
+      "neteaseTrackId": "471763225",
+      "title": "You and me (Prod. by MuSik I)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Toy王奕"
+      ],
+      "durationMs": 254119
+    },
+    {
+      "id": "netease-track:471761307",
+      "neteaseTrackId": "471761307",
+      "title": "太空漫步 (Prod. by Kass)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "俞天时",
+        "GALI",
+        "卡斯Kas$"
+      ],
+      "durationMs": 224571
+    },
+    {
+      "id": "netease-track:471761308",
+      "neteaseTrackId": "471761308",
+      "title": "W I F I  (Prod. by Myers Beatz)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "ICE杨长青"
+      ],
+      "durationMs": 203000
+    },
+    {
+      "id": "netease-track:471763227",
+      "neteaseTrackId": "471763227",
+      "title": "Subjunctive Mood (Prod. by Yocho)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "yocho"
+      ],
+      "durationMs": 228196
+    },
+    {
+      "id": "netease-track:471763257",
+      "neteaseTrackId": "471763257",
+      "title": "《街躁日》嘻哈合辑试听",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "拖鞋OneFly",
+        "Toy王奕",
+        "法老"
+      ],
+      "durationMs": 268056
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=35359276",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "街躁日Street Noise 群星 拖鞋OneFly Toy王奕 MC法老 MuSik I",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

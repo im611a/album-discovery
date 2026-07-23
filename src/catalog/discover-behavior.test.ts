@@ -12,7 +12,6 @@ describe("discover combinations and sorting", () => {
     const results = discoverAlbums({ coreGenre: album.coreGenres[0], context: album.contexts[0], decade, releaseType: album.albumType, editorialOnly: true });
     expect(results.map((item) => item.id)).toContain(album.id);
     expect(buildDiscoverOptions().relatedGenres).toEqual([]);
-    expect(buildDiscoverOptions().descriptors).toEqual([]);
   });
   it.each(["release-newest", "release-oldest", "title", "recently-added"] as const)("returns a deterministic %s order", (sort) => expect(discoverAlbums({}, sort).map((album) => album.id)).toEqual(discoverAlbums({}, sort).map((album) => album.id)));
   it("sorts newest and oldest in opposite date directions", () => {

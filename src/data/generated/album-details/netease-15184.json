@@ -1,0 +1,202 @@
+{
+  "internalId": "album:15184",
+  "id": "album:15184",
+  "neteaseAlbumId": "15184",
+  "slug": "netease-15184",
+  "title": "太美丽",
+  "aliases": [
+    "BEAUTIFUL"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "2006-08-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15184.webp",
+    "alt": "《太美丽》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/15184.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:150413",
+      "neteaseTrackId": "150413",
+      "title": "太美丽广播电台",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 16240
+    },
+    {
+      "id": "netease-track:150414",
+      "neteaseTrackId": "150414",
+      "title": "忘不了",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 238280
+    },
+    {
+      "id": "netease-track:150415",
+      "neteaseTrackId": "150415",
+      "title": "太美丽",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 295120
+    },
+    {
+      "id": "netease-track:150416",
+      "neteaseTrackId": "150416",
+      "title": "追",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 209600
+    },
+    {
+      "id": "netease-track:150417",
+      "neteaseTrackId": "150417",
+      "title": "那一瞬间",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 244893
+    },
+    {
+      "id": "netease-track:150418",
+      "neteaseTrackId": "150418",
+      "title": "Walk On",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 185493
+    },
+    {
+      "id": "netease-track:150419",
+      "neteaseTrackId": "150419",
+      "title": "自导自演的悲剧",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 247453
+    },
+    {
+      "id": "netease-track:150420",
+      "neteaseTrackId": "150420",
+      "title": "祝你幸福",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 237946
+    },
+    {
+      "id": "netease-track:150421",
+      "neteaseTrackId": "150421",
+      "title": "似曾相识",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 283680
+    },
+    {
+      "id": "netease-track:150422",
+      "neteaseTrackId": "150422",
+      "title": "今天你要嫁给我",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡依林",
+        "陶喆"
+      ],
+      "durationMs": 272066
+    },
+    {
+      "id": "netease-track:150423",
+      "neteaseTrackId": "150423",
+      "title": "每一面都美",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 270066
+    },
+    {
+      "id": "netease-track:150424",
+      "neteaseTrackId": "150424",
+      "title": "不爱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 205266
+    },
+    {
+      "id": "netease-track:150425",
+      "neteaseTrackId": "150425",
+      "title": "Olia",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 285893
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=15184",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "太美丽 BEAUTIFUL 陶喆",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

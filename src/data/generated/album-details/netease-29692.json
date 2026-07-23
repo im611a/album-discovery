@@ -1,0 +1,256 @@
+{
+  "internalId": "album:29692",
+  "id": "album:29692",
+  "neteaseAlbumId": "29692",
+  "slug": "netease-29692",
+  "title": "王菲",
+  "aliases": [
+    "王菲 2001同名专辑"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2001-10-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KC DIGITAL LIMITED",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29692.webp",
+    "alt": "《王菲》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/29692.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:299508",
+      "neteaseTrackId": "299508",
+      "title": "光之翼",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 201560
+    },
+    {
+      "id": "netease-track:299509",
+      "neteaseTrackId": "299509",
+      "title": "等等",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 207973
+    },
+    {
+      "id": "netease-track:299510",
+      "neteaseTrackId": "299510",
+      "title": "打错了",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 192026
+    },
+    {
+      "id": "netease-track:299511",
+      "neteaseTrackId": "299511",
+      "title": "有时爱情徒有虚名",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 243133
+    },
+    {
+      "id": "netease-track:299513",
+      "neteaseTrackId": "299513",
+      "title": "流年",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 276973
+    },
+    {
+      "id": "netease-track:299514",
+      "neteaseTrackId": "299514",
+      "title": "夜会",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 257333
+    },
+    {
+      "id": "netease-track:299515",
+      "neteaseTrackId": "299515",
+      "title": "流浪的红舞鞋",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 255693
+    },
+    {
+      "id": "netease-track:299516",
+      "neteaseTrackId": "299516",
+      "title": "白痴",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 272533
+    },
+    {
+      "id": "netease-track:299517",
+      "neteaseTrackId": "299517",
+      "title": "两个人的圣经",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 263333
+    },
+    {
+      "id": "netease-track:299518",
+      "neteaseTrackId": "299518",
+      "title": "单行道",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 323173
+    },
+    {
+      "id": "netease-track:299519",
+      "neteaseTrackId": "299519",
+      "title": "迷魂记",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 249066
+    },
+    {
+      "id": "netease-track:299520",
+      "neteaseTrackId": "299520",
+      "title": "色盲",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 196933
+    },
+    {
+      "id": "netease-track:299521",
+      "neteaseTrackId": "299521",
+      "title": "不眠飞行",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 191000
+    },
+    {
+      "id": "netease-track:299522",
+      "neteaseTrackId": "299522",
+      "title": "心路",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 242026
+    },
+    {
+      "id": "netease-track:299523",
+      "neteaseTrackId": "299523",
+      "title": "女皇的新衣",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 192840
+    },
+    {
+      "id": "netease-track:299524",
+      "neteaseTrackId": "299524",
+      "title": "流浪的红舞鞋(钢琴版)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 205066
+    },
+    {
+      "id": "netease-track:299525",
+      "neteaseTrackId": "299525",
+      "title": "Separate Ways (Original Version)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 276066
+    },
+    {
+      "id": "netease-track:299526",
+      "neteaseTrackId": "299526",
+      "title": "Separate Ways (Almighty Mix)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 472000
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=29692",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "王菲 王菲 2001同名专辑 王菲",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

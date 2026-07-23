@@ -1,0 +1,188 @@
+{
+  "internalId": "album:164395759",
+  "id": "album:164395759",
+  "neteaseAlbumId": "164395759",
+  "slug": "netease-164395759",
+  "title": "纳萨力克",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:14117457",
+      "neteaseArtistId": "14117457",
+      "name": "SASIOVERLXRD"
+    }
+  ],
+  "releaseDate": "2023-04-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Believe Artist Service",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/164395759.webp",
+    "alt": "《纳萨力克》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/164395759.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2042359270",
+      "neteaseTrackId": "2042359270",
+      "title": "死亡不是生命的终点(Prod.justxrolo)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 144039
+    },
+    {
+      "id": "netease-track:2042362100",
+      "neteaseTrackId": "2042362100",
+      "title": "铁碎牙(Prod.YOUNGBING)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 89508
+    },
+    {
+      "id": "netease-track:2042362101",
+      "neteaseTrackId": "2042362101",
+      "title": "纳萨力克(Prod.808DAVE2)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 122008
+    },
+    {
+      "id": "netease-track:2042362102",
+      "neteaseTrackId": "2042362102",
+      "title": "人马(Prod.TrezBOIGrout)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 204840
+    },
+    {
+      "id": "netease-track:2042362103",
+      "neteaseTrackId": "2042362103",
+      "title": "几月份(Prod.Milanmadeitx2)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 151640
+    },
+    {
+      "id": "netease-track:2042359271",
+      "neteaseTrackId": "2042359271",
+      "title": "欲望寄生(Prod.sirleo恶)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 130298
+    },
+    {
+      "id": "netease-track:2042359272",
+      "neteaseTrackId": "2042359272",
+      "title": "无能(Prod.llouis)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 152975
+    },
+    {
+      "id": "netease-track:2042359273",
+      "neteaseTrackId": "2042359273",
+      "title": "贪(Prod.Rahkim)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 171204
+    },
+    {
+      "id": "netease-track:2042362105",
+      "neteaseTrackId": "2042362105",
+      "title": "Opps (Prod.WoodOnbeat)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "刀脚"
+      ],
+      "durationMs": 176000
+    },
+    {
+      "id": "netease-track:2042359274",
+      "neteaseTrackId": "2042359274",
+      "title": "It's 吊(Prod.the3rdof3)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 161710
+    },
+    {
+      "id": "netease-track:2042359275",
+      "neteaseTrackId": "2042359275",
+      "title": "不安人(Prod.RRAREBEAR)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 236425
+    },
+    {
+      "id": "netease-track:2042362106",
+      "neteaseTrackId": "2042362106",
+      "title": "死亡是生命的终点(Prod.justxrolo)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 142262
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=164395759",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "纳萨力克 SASIOVERLXRD",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

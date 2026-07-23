@@ -1,0 +1,223 @@
+{
+  "internalId": "album:11527",
+  "id": "album:11527",
+  "neteaseAlbumId": "11527",
+  "slug": "netease-11527",
+  "title": "Insects Awaken",
+  "aliases": [
+    "惊蛰"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "2005-06-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/11527.webp",
+    "alt": "《Insects Awaken》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/11527.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:118586",
+      "neteaseTrackId": "118586",
+      "title": "Taiwan Calling 台湾发声",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 278280
+    },
+    {
+      "id": "netease-track:118589",
+      "neteaseTrackId": "118589",
+      "title": "Peach.Plum.Lotus Flower Red,Millennium Iron Tree In Blossom 1 桃李莲花红 千年铁树开 1",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 228600
+    },
+    {
+      "id": "netease-track:118592",
+      "neteaseTrackId": "118592",
+      "title": "Peach.Plum.Lotus Flower Red,Millennium Iron Tree In Blossom 2 桃李莲花红 千年铁树开 2",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 110000
+    },
+    {
+      "id": "netease-track:118596",
+      "neteaseTrackId": "118596",
+      "title": "Mahjong 麻将",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 192960
+    },
+    {
+      "id": "netease-track:118599",
+      "neteaseTrackId": "118599",
+      "title": "Doesn't Matter 无所谓",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 261040
+    },
+    {
+      "id": "netease-track:118602",
+      "neteaseTrackId": "118602",
+      "title": "Tea Time",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 351893
+    },
+    {
+      "id": "netease-track:118605",
+      "neteaseTrackId": "118605",
+      "title": "Roller",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 237533
+    },
+    {
+      "id": "netease-track:118610",
+      "neteaseTrackId": "118610",
+      "title": "It's All For You",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 252682
+    },
+    {
+      "id": "netease-track:118615",
+      "neteaseTrackId": "118615",
+      "title": "Taiwanese Folk Song:Summer Rain 西北雨直直落(童谣)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 259000
+    },
+    {
+      "id": "netease-track:118620",
+      "neteaseTrackId": "118620",
+      "title": "View",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 268213
+    },
+    {
+      "id": "netease-track:118625",
+      "neteaseTrackId": "118625",
+      "title": "Tv News Disturbances 新闻太吵",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 118693
+    },
+    {
+      "id": "netease-track:118630",
+      "neteaseTrackId": "118630",
+      "title": "Through The Night",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 304266
+    },
+    {
+      "id": "netease-track:118632",
+      "neteaseTrackId": "118632",
+      "title": "Mind Noise",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 244733
+    },
+    {
+      "id": "netease-track:118634",
+      "neteaseTrackId": "118634",
+      "title": "Keep Walking",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 428546
+    },
+    {
+      "id": "netease-track:118639",
+      "neteaseTrackId": "118639",
+      "title": "Chinese Talk",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 395960
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=11527",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Insects Awaken 惊蛰 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

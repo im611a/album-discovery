@@ -1,0 +1,340 @@
+{
+  "internalId": "album:254547742",
+  "id": "album:254547742",
+  "neteaseAlbumId": "254547742",
+  "slug": "netease-254547742",
+  "title": "《边水往事》剧集原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:95011397",
+      "neteaseArtistId": "95011397",
+      "name": "新鲜仔"
+    },
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    },
+    {
+      "id": "netease-artist:1198061",
+      "neteaseArtistId": "1198061",
+      "name": "任丁一"
+    },
+    {
+      "id": "netease-artist:36161065",
+      "neteaseArtistId": "36161065",
+      "name": "Sai Saing Maw"
+    },
+    {
+      "id": "netease-artist:1199068",
+      "neteaseArtistId": "1199068",
+      "name": "李大胡子 Sure"
+    }
+  ],
+  "releaseDate": "2024-11-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "明堂唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/254547742.webp",
+    "alt": "《《边水往事》剧集原声带》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/254547742.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2648879309",
+      "neteaseTrackId": "2648879309",
+      "title": "风",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 99562
+    },
+    {
+      "id": "netease-track:2648879310",
+      "neteaseTrackId": "2648879310",
+      "title": "开",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 78474
+    },
+    {
+      "id": "netease-track:2648878377",
+      "neteaseTrackId": "2648878377",
+      "title": "达班",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "新鲜仔"
+      ],
+      "durationMs": 182162
+    },
+    {
+      "id": "netease-track:2648878378",
+      "neteaseTrackId": "2648878378",
+      "title": "Yoe Yar Ma Pyat Tae Myay",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sai Saing Maw"
+      ],
+      "durationMs": 215597
+    },
+    {
+      "id": "netease-track:2648878379",
+      "neteaseTrackId": "2648878379",
+      "title": "治安官",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 27056
+    },
+    {
+      "id": "netease-track:2648878380",
+      "neteaseTrackId": "2648878380",
+      "title": "盘",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 119562
+    },
+    {
+      "id": "netease-track:2648878381",
+      "neteaseTrackId": "2648878381",
+      "title": "瓦萨里",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 224341
+    },
+    {
+      "id": "netease-track:2648878382",
+      "neteaseTrackId": "2648878382",
+      "title": "衰",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 60224
+    },
+    {
+      "id": "netease-track:2648879311",
+      "neteaseTrackId": "2648879311",
+      "title": "磨矿山的麦格芬",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 132949
+    },
+    {
+      "id": "netease-track:2648878383",
+      "neteaseTrackId": "2648878383",
+      "title": "两枪",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 38917
+    },
+    {
+      "id": "netease-track:2648878384",
+      "neteaseTrackId": "2648878384",
+      "title": "入",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 40800
+    },
+    {
+      "id": "netease-track:2648878385",
+      "neteaseTrackId": "2648878385",
+      "title": "条狗",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "新鲜仔"
+      ],
+      "durationMs": 183882
+    },
+    {
+      "id": "netease-track:2648878386",
+      "neteaseTrackId": "2648878386",
+      "title": "辗",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 87445
+    },
+    {
+      "id": "netease-track:2648878387",
+      "neteaseTrackId": "2648878387",
+      "title": "追夫河畔",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 76634
+    },
+    {
+      "id": "netease-track:2648878388",
+      "neteaseTrackId": "2648878388",
+      "title": "白孔雀",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 52554
+    },
+    {
+      "id": "netease-track:2648879312",
+      "neteaseTrackId": "2648879312",
+      "title": "棕林府邸",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 143632
+    },
+    {
+      "id": "netease-track:2648878389",
+      "neteaseTrackId": "2648878389",
+      "title": "但拓说",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "新鲜仔"
+      ],
+      "durationMs": 183571
+    },
+    {
+      "id": "netease-track:2648879313",
+      "neteaseTrackId": "2648879313",
+      "title": "在一瞬间划过",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 60266
+    },
+    {
+      "id": "netease-track:2648878390",
+      "neteaseTrackId": "2648878390",
+      "title": "优越感",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 33853
+    },
+    {
+      "id": "netease-track:2648879314",
+      "neteaseTrackId": "2648879314",
+      "title": "念念相续",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 172232
+    },
+    {
+      "id": "netease-track:2648879315",
+      "neteaseTrackId": "2648879315",
+      "title": "笼子",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 59233
+    },
+    {
+      "id": "netease-track:2648879316",
+      "neteaseTrackId": "2648879316",
+      "title": "破石头",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 180352
+    },
+    {
+      "id": "netease-track:2648878391",
+      "neteaseTrackId": "2648878391",
+      "title": "Lucky Blue",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "任丁一"
+      ],
+      "durationMs": 131375
+    },
+    {
+      "id": "netease-track:2648878392",
+      "neteaseTrackId": "2648878392",
+      "title": "Citizens Of The World",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "李大胡子 Sure"
+      ],
+      "durationMs": 187580
+    }
+  ],
+  "trackCount": 24,
+  "externalUrl": "https://music.163.com/#/album?id=254547742",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "《边水往事》剧集原声带 新鲜仔 Howie Lee 任丁一 Sai Saing Maw 李大胡子 Sure",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

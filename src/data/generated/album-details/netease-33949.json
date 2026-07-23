@@ -1,0 +1,190 @@
+{
+  "internalId": "album:33949",
+  "id": "album:33949",
+  "neteaseAlbumId": "33949",
+  "slug": "netease-33949",
+  "title": "Bossa Nova",
+  "aliases": [
+    "芭莎诺娃"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:11074",
+      "neteaseArtistId": "11074",
+      "name": "落日飞车"
+    }
+  ],
+  "releaseDate": "2011-09-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "夕阳音乐产业有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/33949.webp",
+    "alt": "《Bossa Nova》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/33949.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:344150",
+      "neteaseTrackId": "344150",
+      "title": "Bomb of Love",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 180546
+    },
+    {
+      "id": "netease-track:344151",
+      "neteaseTrackId": "344151",
+      "title": "No Man's Land",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 260213
+    },
+    {
+      "id": "netease-track:344152",
+      "neteaseTrackId": "344152",
+      "title": "Hogi Hogi La La Jo",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 185253
+    },
+    {
+      "id": "netease-track:344153",
+      "neteaseTrackId": "344153",
+      "title": "Punk",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 184520
+    },
+    {
+      "id": "netease-track:344154",
+      "neteaseTrackId": "344154",
+      "title": "A little Piece of Sadness",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 99786
+    },
+    {
+      "id": "netease-track:344155",
+      "neteaseTrackId": "344155",
+      "title": "Pinky Pinky",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 122386
+    },
+    {
+      "id": "netease-track:344156",
+      "neteaseTrackId": "344156",
+      "title": "Little Monkey Rides on the Little Donkey",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 226240
+    },
+    {
+      "id": "netease-track:344157",
+      "neteaseTrackId": "344157",
+      "title": "I Know You Know I Love You",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 120693
+    },
+    {
+      "id": "netease-track:344158",
+      "neteaseTrackId": "344158",
+      "title": "Blues",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 284453
+    },
+    {
+      "id": "netease-track:344159",
+      "neteaseTrackId": "344159",
+      "title": "No Man's Land (reprise)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 111160
+    },
+    {
+      "id": "netease-track:344161",
+      "neteaseTrackId": "344161",
+      "title": "Queen",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 185106
+    },
+    {
+      "id": "netease-track:344163",
+      "neteaseTrackId": "344163",
+      "title": "My Monday Throne",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 277706
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=33949",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Bossa Nova 芭莎诺娃 落日飞车",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

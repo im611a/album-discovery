@@ -1,0 +1,177 @@
+{
+  "internalId": "album:11558",
+  "id": "album:11558",
+  "neteaseAlbumId": "11558",
+  "slug": "netease-11558",
+  "title": "春风少年兄",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "1992-01-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/11558.webp",
+    "alt": "《春风少年兄》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/11558.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:118954",
+      "neteaseTrackId": "118954",
+      "title": "温泉乡的枪子",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 365400
+    },
+    {
+      "id": "netease-track:118958",
+      "neteaseTrackId": "118958",
+      "title": "春风少年兄",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 238520
+    },
+    {
+      "id": "netease-track:118961",
+      "neteaseTrackId": "118961",
+      "title": "查某人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 308221
+    },
+    {
+      "id": "netease-track:118963",
+      "neteaseTrackId": "118963",
+      "title": "我是为你好",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 252893
+    },
+    {
+      "id": "netease-track:118965",
+      "neteaseTrackId": "118965",
+      "title": "祝福您大家",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 318600
+    },
+    {
+      "id": "netease-track:118967",
+      "neteaseTrackId": "118967",
+      "title": "花心大少爷",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 338407
+    },
+    {
+      "id": "netease-track:118969",
+      "neteaseTrackId": "118969",
+      "title": "我的头壳有问题",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 267842
+    },
+    {
+      "id": "netease-track:118973",
+      "neteaseTrackId": "118973",
+      "title": "未当放未记",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 257760
+    },
+    {
+      "id": "netease-track:118978",
+      "neteaseTrackId": "118978",
+      "title": "拜六的晚时",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 337106
+    },
+    {
+      "id": "netease-track:118983",
+      "neteaseTrackId": "118983",
+      "title": "玉兰花",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 293826
+    },
+    {
+      "id": "netease-track:118988",
+      "neteaseTrackId": "118988",
+      "title": "查某人(伴奏)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 309000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=11558",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "春风少年兄 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

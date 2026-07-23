@@ -1,0 +1,178 @@
+{
+  "internalId": "album:11554",
+  "id": "album:11554",
+  "neteaseAlbumId": "11554",
+  "slug": "entertainment-world",
+  "title": "娱乐世界",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "1994-03-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/11554.webp",
+    "alt": "《娱乐世界》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/11554.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:118895",
+      "neteaseTrackId": "118895",
+      "title": "盒子内的时间",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 437812
+    },
+    {
+      "id": "netease-track:118900",
+      "neteaseTrackId": "118900",
+      "title": "爱情研究院",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 292000
+    },
+    {
+      "id": "netease-track:118904",
+      "neteaseTrackId": "118904",
+      "title": "娱乐世界",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 392855
+    },
+    {
+      "id": "netease-track:118910",
+      "neteaseTrackId": "118910",
+      "title": "绿卡",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 283010
+    },
+    {
+      "id": "netease-track:118913",
+      "neteaseTrackId": "118913",
+      "title": "暗藏",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 191425
+    },
+    {
+      "id": "netease-track:118916",
+      "neteaseTrackId": "118916",
+      "title": "看录影带",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 359836
+    },
+    {
+      "id": "netease-track:118920",
+      "neteaseTrackId": "118920",
+      "title": "生命共同体",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 320417
+    },
+    {
+      "id": "netease-track:118924",
+      "neteaseTrackId": "118924",
+      "title": "无影无只",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 352130
+    },
+    {
+      "id": "netease-track:118928",
+      "neteaseTrackId": "118928",
+      "title": "就这样",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 331440
+    },
+    {
+      "id": "netease-track:118933",
+      "neteaseTrackId": "118933",
+      "title": "Happy Birthday",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林强",
+        "罗百吉"
+      ],
+      "durationMs": 223066
+    },
+    {
+      "id": "netease-track:118937",
+      "neteaseTrackId": "118937",
+      "title": "逃脱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 509293
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=11554",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "娱乐世界 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

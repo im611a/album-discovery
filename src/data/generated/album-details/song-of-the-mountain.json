@@ -1,0 +1,298 @@
+{
+  "internalId": "album:169512732",
+  "id": "album:169512732",
+  "neteaseAlbumId": "169512732",
+  "slug": "song-of-the-mountain",
+  "title": "山歌寥哉",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2023-07-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/169512732.webp",
+    "alt": "《山歌寥哉》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/169512732.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2063486972",
+      "neteaseTrackId": "2063486972",
+      "title": "序曲",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 281247
+    },
+    {
+      "id": "netease-track:2063487880",
+      "neteaseTrackId": "2063487880",
+      "title": "罗刹海市",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 332800
+    },
+    {
+      "id": "netease-track:2063486974",
+      "neteaseTrackId": "2063486974",
+      "title": "花妖",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 275698
+    },
+    {
+      "id": "netease-track:2063487882",
+      "neteaseTrackId": "2063487882",
+      "title": "镜听",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 255444
+    },
+    {
+      "id": "netease-track:2063486977",
+      "neteaseTrackId": "2063486977",
+      "title": "路南柯",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 288580
+    },
+    {
+      "id": "netease-track:2063486979",
+      "neteaseTrackId": "2063486979",
+      "title": "颠倒歌",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 218026
+    },
+    {
+      "id": "netease-track:2063487884",
+      "neteaseTrackId": "2063487884",
+      "title": "画壁",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 250274
+    },
+    {
+      "id": "netease-track:2063487885",
+      "neteaseTrackId": "2063487885",
+      "title": "珠儿",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 250898
+    },
+    {
+      "id": "netease-track:2063486982",
+      "neteaseTrackId": "2063486982",
+      "title": "翩翩",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 272918
+    },
+    {
+      "id": "netease-track:2063487887",
+      "neteaseTrackId": "2063487887",
+      "title": "画皮",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 286383
+    },
+    {
+      "id": "netease-track:2063486984",
+      "neteaseTrackId": "2063486984",
+      "title": "未来的底片",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 290877
+    },
+    {
+      "id": "netease-track:2063486973",
+      "neteaseTrackId": "2063486973",
+      "title": "序曲（伴奏）",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 284165
+    },
+    {
+      "id": "netease-track:2063487881",
+      "neteaseTrackId": "2063487881",
+      "title": "罗刹海市（伴奏）",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 332800
+    },
+    {
+      "id": "netease-track:2063486975",
+      "neteaseTrackId": "2063486975",
+      "title": "花妖（伴奏）",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 283486
+    },
+    {
+      "id": "netease-track:2063486976",
+      "neteaseTrackId": "2063486976",
+      "title": "镜听（伴奏）",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:2063486978",
+      "neteaseTrackId": "2063486978",
+      "title": "路南柯（伴奏）",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 282941
+    },
+    {
+      "id": "netease-track:2063487883",
+      "neteaseTrackId": "2063487883",
+      "title": "颠倒歌（伴奏）",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 218571
+    },
+    {
+      "id": "netease-track:2063486980",
+      "neteaseTrackId": "2063486980",
+      "title": "画壁（伴奏）",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 269836
+    },
+    {
+      "id": "netease-track:2063486981",
+      "neteaseTrackId": "2063486981",
+      "title": "珠儿（伴奏）",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 257560
+    },
+    {
+      "id": "netease-track:2063487886",
+      "neteaseTrackId": "2063487886",
+      "title": "翩翩（伴奏）",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 285168
+    },
+    {
+      "id": "netease-track:2063486983",
+      "neteaseTrackId": "2063486983",
+      "title": "画皮（伴奏）",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 289500
+    },
+    {
+      "id": "netease-track:2063487888",
+      "neteaseTrackId": "2063487888",
+      "title": "未来的底片（伴奏）",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 290877
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=169512732",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "山歌寥哉 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

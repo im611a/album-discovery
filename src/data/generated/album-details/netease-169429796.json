@@ -1,0 +1,125 @@
+{
+  "internalId": "album:169429796",
+  "id": "album:169429796",
+  "neteaseAlbumId": "169429796",
+  "slug": "netease-169429796",
+  "title": "P.E.I_Mixtape1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    }
+  ],
+  "releaseDate": "2013-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/169429796.webp",
+    "alt": "《P.E.I_Mixtape1》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/169429796.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2063193493",
+      "neteaseTrackId": "2063193493",
+      "title": "P.E.I Intro (Ft.ChackZee)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "ChackZee"
+      ],
+      "durationMs": 124264
+    },
+    {
+      "id": "netease-track:2063192601",
+      "neteaseTrackId": "2063192601",
+      "title": "It's  Like (Prod.Pete Rock)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "Peter Rock"
+      ],
+      "durationMs": 341831
+    },
+    {
+      "id": "netease-track:2063192602",
+      "neteaseTrackId": "2063192602",
+      "title": "Amazing (Ft.A&T)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "ATYANG"
+      ],
+      "durationMs": 213995
+    },
+    {
+      "id": "netease-track:2063193494",
+      "neteaseTrackId": "2063193494",
+      "title": "那天晚上Skit",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 10553
+    },
+    {
+      "id": "netease-track:2063193495",
+      "neteaseTrackId": "2063193495",
+      "title": "Local Hero (Prod.Skip)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 221231
+    },
+    {
+      "id": "netease-track:2063192603",
+      "neteaseTrackId": "2063192603",
+      "title": "请期待我的Next One",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 67552
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=169429796",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "P.E.I_Mixtape1 马思唯",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

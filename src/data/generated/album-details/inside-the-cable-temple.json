@@ -1,0 +1,165 @@
+{
+  "internalId": "album:120605500",
+  "id": "album:120605500",
+  "neteaseAlbumId": "120605500",
+  "slug": "inside-the-cable-temple",
+  "title": "冀西南林路行",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13223",
+      "neteaseArtistId": "13223",
+      "name": "万能青年旅店"
+    }
+  ],
+  "releaseDate": "2020-12-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "郊眠寺",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/120605500.webp",
+    "alt": "《冀西南林路行》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/120605500.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1805289472",
+      "neteaseTrackId": "1805289472",
+      "title": "冀西南林路行 (专辑全长)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 2662000
+    },
+    {
+      "id": "netease-track:1805289409",
+      "neteaseTrackId": "1805289409",
+      "title": "早",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 83650
+    },
+    {
+      "id": "netease-track:1805290276",
+      "neteaseTrackId": "1805290276",
+      "title": "泥河",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 348318
+    },
+    {
+      "id": "netease-track:1805289390",
+      "neteaseTrackId": "1805289390",
+      "title": "平等云雾",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 86273
+    },
+    {
+      "id": "netease-track:1805289454",
+      "neteaseTrackId": "1805289454",
+      "title": "采石",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 536167
+    },
+    {
+      "id": "netease-track:1805289414",
+      "neteaseTrackId": "1805289414",
+      "title": "山雀",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 198032
+    },
+    {
+      "id": "netease-track:1805290245",
+      "neteaseTrackId": "1805290245",
+      "title": "绕越",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 163471
+    },
+    {
+      "id": "netease-track:1805290318",
+      "neteaseTrackId": "1805290318",
+      "title": "河北墨麒麟",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 688001
+    },
+    {
+      "id": "netease-track:1805290301",
+      "neteaseTrackId": "1805290301",
+      "title": "郊眠寺",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 580491
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=120605500",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": {
+    "summaryZh": "长篇编曲、铜管和器乐呼应把地域经验转化为连续叙事。",
+    "whyListenZh": "适合留出完整时间，顺着段落转换与器乐主题进入作品。",
+    "confidence": "curated",
+    "humanReviewed": true,
+    "bestFor": [
+      "focus",
+      "solitude"
+    ],
+    "startWithTrackId": "netease-track:1805289472"
+  },
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "冀西南林路行 万能青年旅店",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

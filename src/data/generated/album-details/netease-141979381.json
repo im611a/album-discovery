@@ -1,0 +1,246 @@
+{
+  "internalId": "album:141979381",
+  "id": "album:141979381",
+  "neteaseAlbumId": "141979381",
+  "slug": "netease-141979381",
+  "title": "Humble Swag",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    },
+    {
+      "id": "netease-artist:48165702",
+      "neteaseArtistId": "48165702",
+      "name": "A Few Good Kids Records"
+    }
+  ],
+  "releaseDate": "2022-04-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "StreetVoice/A Few Good Kids Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/141979381.webp",
+    "alt": "《Humble Swag》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/141979381.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1929062435",
+      "neteaseTrackId": "1929062435",
+      "title": "东方明珠 Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 114010
+    },
+    {
+      "id": "netease-track:1929065852",
+      "neteaseTrackId": "1929065852",
+      "title": "SNTS",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 164664
+    },
+    {
+      "id": "netease-track:1929065853",
+      "neteaseTrackId": "1929065853",
+      "title": "长城",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 224725
+    },
+    {
+      "id": "netease-track:1929062436",
+      "neteaseTrackId": "1929062436",
+      "title": "We Back (feat.J.Mag/Thomeboydontkill)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "J.Mag",
+        "THOME"
+      ],
+      "durationMs": 223360
+    },
+    {
+      "id": "netease-track:1929062437",
+      "neteaseTrackId": "1929062437",
+      "title": "Like Me (feat. 袁娅维TIA RAY)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "袁娅维TIA RAY"
+      ],
+      "durationMs": 213830
+    },
+    {
+      "id": "netease-track:1929062438",
+      "neteaseTrackId": "1929062438",
+      "title": "Humble Swag",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 151959
+    },
+    {
+      "id": "netease-track:1929062439",
+      "neteaseTrackId": "1929062439",
+      "title": "拉了拉了",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 179880
+    },
+    {
+      "id": "netease-track:1929065854",
+      "neteaseTrackId": "1929065854",
+      "title": "卧底",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 136789
+    },
+    {
+      "id": "netease-track:1929065855",
+      "neteaseTrackId": "1929065855",
+      "title": "登机",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 161739
+    },
+    {
+      "id": "netease-track:1929065856",
+      "neteaseTrackId": "1929065856",
+      "title": "候鸟",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 160704
+    },
+    {
+      "id": "netease-track:1929062441",
+      "neteaseTrackId": "1929062441",
+      "title": "Beast Mode",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 139696
+    },
+    {
+      "id": "netease-track:1929062442",
+      "neteaseTrackId": "1929062442",
+      "title": "后台 Interlude",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 43738
+    },
+    {
+      "id": "netease-track:1929065857",
+      "neteaseTrackId": "1929065857",
+      "title": "内幕",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 178122
+    },
+    {
+      "id": "netease-track:1929062443",
+      "neteaseTrackId": "1929062443",
+      "title": "你我几兄弟 (feat.Ty./Melo/KnowKnow/PSY.P)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "Ty.",
+        "Melo",
+        "KnowKnow",
+        "PSY.P"
+      ],
+      "durationMs": 288618
+    },
+    {
+      "id": "netease-track:1929065858",
+      "neteaseTrackId": "1929065858",
+      "title": "Humble Swag Pt.2 (feat. 斑比Bambii)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "斑比Bambii"
+      ],
+      "durationMs": 144694
+    },
+    {
+      "id": "netease-track:1929062444",
+      "neteaseTrackId": "1929062444",
+      "title": "亚特兰蒂斯 (feat. GALI)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "GALI"
+      ],
+      "durationMs": 245864
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=141979381",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Humble Swag 马思唯 A Few Good Kids Records",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

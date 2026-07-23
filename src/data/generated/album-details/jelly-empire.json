@@ -1,0 +1,166 @@
+{
+  "internalId": "album:36190",
+  "id": "album:36190",
+  "neteaseAlbumId": "36190",
+  "slug": "jelly-empire",
+  "title": "果冻帝国",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    }
+  ],
+  "releaseDate": "2004-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/36190.webp",
+    "alt": "《果冻帝国》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/36190.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:365562",
+      "neteaseTrackId": "365562",
+      "title": "庆祝生活的方法",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 409000
+    },
+    {
+      "id": "netease-track:365564",
+      "neteaseTrackId": "365564",
+      "title": "Feifei Run",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 296000
+    },
+    {
+      "id": "netease-track:365565",
+      "neteaseTrackId": "365565",
+      "title": "超级Party",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 364933
+    },
+    {
+      "id": "netease-track:365566",
+      "neteaseTrackId": "365566",
+      "title": "情节",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 245586
+    },
+    {
+      "id": "netease-track:365567",
+      "neteaseTrackId": "365567",
+      "title": "果冻帝国",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 338000
+    },
+    {
+      "id": "netease-track:365568",
+      "neteaseTrackId": "365568",
+      "title": "把嘴唇摘除掉",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 195680
+    },
+    {
+      "id": "netease-track:365570",
+      "neteaseTrackId": "365570",
+      "title": "美丽的南方",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 433000
+    },
+    {
+      "id": "netease-track:365572",
+      "neteaseTrackId": "365572",
+      "title": "如果真的恨一个人，那就是我自己",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 339000
+    },
+    {
+      "id": "netease-track:365573",
+      "neteaseTrackId": "365573",
+      "title": "我失去了她(Remix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:365574",
+      "neteaseTrackId": "365574",
+      "title": "Run Feifei. Run",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 213800
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=36190",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "果冻帝国 木马Muma",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

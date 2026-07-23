@@ -1,0 +1,177 @@
+{
+  "internalId": "album:422052",
+  "id": "album:422052",
+  "neteaseAlbumId": "422052",
+  "slug": "loveless",
+  "title": "loveless",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:96273",
+      "neteaseArtistId": "96273",
+      "name": "My Bloody Valentine"
+    }
+  ],
+  "releaseDate": "1991-11-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Domino Recording Co",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/422052.webp",
+    "alt": "《loveless》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/422052.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4174117",
+      "neteaseTrackId": "4174117",
+      "title": "only shallow",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 256680
+    },
+    {
+      "id": "netease-track:4174121",
+      "neteaseTrackId": "4174121",
+      "title": "loomer",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 158120
+    },
+    {
+      "id": "netease-track:4174124",
+      "neteaseTrackId": "4174124",
+      "title": "touched",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 56880
+    },
+    {
+      "id": "netease-track:4174129",
+      "neteaseTrackId": "4174129",
+      "title": "to here knows when",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 330946
+    },
+    {
+      "id": "netease-track:4174137",
+      "neteaseTrackId": "4174137",
+      "title": "when you sleep",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 251920
+    },
+    {
+      "id": "netease-track:4174142",
+      "neteaseTrackId": "4174142",
+      "title": "i only said",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 334373
+    },
+    {
+      "id": "netease-track:4174147",
+      "neteaseTrackId": "4174147",
+      "title": "come in alone",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 238773
+    },
+    {
+      "id": "netease-track:4174151",
+      "neteaseTrackId": "4174151",
+      "title": "sometimes",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 319213
+    },
+    {
+      "id": "netease-track:4174155",
+      "neteaseTrackId": "4174155",
+      "title": "blown a wish",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 216426
+    },
+    {
+      "id": "netease-track:4174157",
+      "neteaseTrackId": "4174157",
+      "title": "what you want",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 333453
+    },
+    {
+      "id": "netease-track:4174158",
+      "neteaseTrackId": "4174158",
+      "title": "soon",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 418466
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=422052",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "loveless My Bloody Valentine",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,212 @@
+{
+  "internalId": "album:138676183",
+  "id": "album:138676183",
+  "neteaseAlbumId": "138676183",
+  "slug": "netease-138676183",
+  "title": "BADモード",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2022-01-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/138676183.webp",
+    "alt": "《BADモード》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/138676183.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1910942794",
+      "neteaseTrackId": "1910942794",
+      "title": "BADモード",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 303218
+    },
+    {
+      "id": "netease-track:1910937514",
+      "neteaseTrackId": "1910937514",
+      "title": "君に夢中",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 258020
+    },
+    {
+      "id": "netease-track:1910937515",
+      "neteaseTrackId": "1910937515",
+      "title": "One Last Kiss",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 249904
+    },
+    {
+      "id": "netease-track:1910937516",
+      "neteaseTrackId": "1910937516",
+      "title": "PINK BLOOD",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 197361
+    },
+    {
+      "id": "netease-track:1910937517",
+      "neteaseTrackId": "1910937517",
+      "title": "Time",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 298251
+    },
+    {
+      "id": "netease-track:1910942795",
+      "neteaseTrackId": "1910942795",
+      "title": "気分じゃないの (Not In The Mood)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 448168
+    },
+    {
+      "id": "netease-track:1910942796",
+      "neteaseTrackId": "1910942796",
+      "title": "誰にも言わない",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 278936
+    },
+    {
+      "id": "netease-track:1910937518",
+      "neteaseTrackId": "1910937518",
+      "title": "Find Love",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 277854
+    },
+    {
+      "id": "netease-track:1910942797",
+      "neteaseTrackId": "1910942797",
+      "title": "Face My Fears (Japanese Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "Skrillex"
+      ],
+      "durationMs": 218267
+    },
+    {
+      "id": "netease-track:1910942798",
+      "neteaseTrackId": "1910942798",
+      "title": "Somewhere Near Marseilles ーマルセイユ辺りー",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 714585
+    },
+    {
+      "id": "netease-track:1910937519",
+      "neteaseTrackId": "1910937519",
+      "title": "Beautiful World (Da Capo Version)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 357886
+    },
+    {
+      "id": "netease-track:1910937520",
+      "neteaseTrackId": "1910937520",
+      "title": "キレイな人 (Find Love)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 277860
+    },
+    {
+      "id": "netease-track:1910942799",
+      "neteaseTrackId": "1910942799",
+      "title": "Face My Fears (English Version)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "Skrillex"
+      ],
+      "durationMs": 219121
+    },
+    {
+      "id": "netease-track:1910942800",
+      "neteaseTrackId": "1910942800",
+      "title": "Face My Fears (A.G. Cook Remix)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 322018
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=138676183",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "BADモード 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

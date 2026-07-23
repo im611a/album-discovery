@@ -1,0 +1,133 @@
+{
+  "internalId": "album:251145843",
+  "id": "album:251145843",
+  "neteaseAlbumId": "251145843",
+  "slug": "netease-251145843",
+  "title": "赋作集 中",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:33154502",
+      "neteaseArtistId": "33154502",
+      "name": "朝简"
+    }
+  ],
+  "releaseDate": "2024-10-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "北京窦唯音乐工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/251145843.webp",
+    "alt": "《赋作集 中》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/251145843.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2637744278",
+      "neteaseTrackId": "2637744278",
+      "title": "吊屈原赋",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 716800
+    },
+    {
+      "id": "netease-track:2637740401",
+      "neteaseTrackId": "2637740401",
+      "title": "登楼赋",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 701538
+    },
+    {
+      "id": "netease-track:2637744281",
+      "neteaseTrackId": "2637744281",
+      "title": "洛神赋",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 1076756
+    },
+    {
+      "id": "netease-track:2637740415",
+      "neteaseTrackId": "2637740415",
+      "title": "小园赋",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 949090
+    },
+    {
+      "id": "netease-track:2637744311",
+      "neteaseTrackId": "2637744311",
+      "title": "舞鹤赋",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 493846
+    },
+    {
+      "id": "netease-track:2637740429",
+      "neteaseTrackId": "2637740429",
+      "title": "寒窑赋",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 875454
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=251145843",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "赋作集 中 窦唯 朝简",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,168 @@
+{
+  "internalId": "album:35377328",
+  "id": "album:35377328",
+  "neteaseAlbumId": "35377328",
+  "slug": "palette-iu",
+  "title": "Palette",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:160947",
+      "neteaseArtistId": "160947",
+      "name": "IU"
+    }
+  ],
+  "releaseDate": "2017-04-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Kakao Entertainment Corp.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35377328.webp",
+    "alt": "《Palette》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35377328.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:473873430",
+      "neteaseTrackId": "473873430",
+      "title": "이 지금",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 176098
+    },
+    {
+      "id": "netease-track:473873431",
+      "neteaseTrackId": "473873431",
+      "title": "팔레트",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "G-DRAGON"
+      ],
+      "durationMs": 217412
+    },
+    {
+      "id": "netease-track:473873432",
+      "neteaseTrackId": "473873432",
+      "title": "이런 엔딩",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 249241
+    },
+    {
+      "id": "netease-track:473873433",
+      "neteaseTrackId": "473873433",
+      "title": "사랑이 잘",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "吴赫"
+      ],
+      "durationMs": 195230
+    },
+    {
+      "id": "netease-track:473873434",
+      "neteaseTrackId": "473873434",
+      "title": "잼잼",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 218160
+    },
+    {
+      "id": "netease-track:473873435",
+      "neteaseTrackId": "473873435",
+      "title": "Black Out",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 227700
+    },
+    {
+      "id": "netease-track:473873436",
+      "neteaseTrackId": "473873436",
+      "title": "마침표",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 236188
+    },
+    {
+      "id": "netease-track:473873437",
+      "neteaseTrackId": "473873437",
+      "title": "밤편지",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 253293
+    },
+    {
+      "id": "netease-track:473873438",
+      "neteaseTrackId": "473873438",
+      "title": "그렇게 사랑은",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 281944
+    },
+    {
+      "id": "netease-track:473873439",
+      "neteaseTrackId": "473873439",
+      "title": "이름에게",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 289579
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=35377328",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Palette IU",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,121 @@
+{
+  "internalId": "album:169930121",
+  "id": "album:169930121",
+  "neteaseAlbumId": "169930121",
+  "slug": "netease-169930121",
+  "title": "如履薄冰",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    },
+    {
+      "id": "netease-artist:49092153",
+      "neteaseArtistId": "49092153",
+      "name": "刘㔻"
+    }
+  ],
+  "releaseDate": "2023-08-17",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "bié Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/169930121.webp",
+    "alt": "《如履薄冰》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/169930121.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2065214493",
+      "neteaseTrackId": "2065214493",
+      "title": "冰之歌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "刘㔻"
+      ],
+      "durationMs": 294801
+    },
+    {
+      "id": "netease-track:2065214494",
+      "neteaseTrackId": "2065214494",
+      "title": "新张力",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "刘㔻"
+      ],
+      "durationMs": 194972
+    },
+    {
+      "id": "netease-track:2065214495",
+      "neteaseTrackId": "2065214495",
+      "title": "瞬裂",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "刘㔻"
+      ],
+      "durationMs": 291004
+    },
+    {
+      "id": "netease-track:2065216349",
+      "neteaseTrackId": "2065216349",
+      "title": "倾角",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "刘㔻"
+      ],
+      "durationMs": 207320
+    },
+    {
+      "id": "netease-track:2065214496",
+      "neteaseTrackId": "2065214496",
+      "title": "深渊凝视",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "刘㔻"
+      ],
+      "durationMs": 270000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=169930121",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "如履薄冰 Howie Lee 刘㔻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

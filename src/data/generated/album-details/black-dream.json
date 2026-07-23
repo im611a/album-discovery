@@ -1,0 +1,176 @@
+{
+  "internalId": "album:7608",
+  "id": "album:7608",
+  "neteaseAlbumId": "7608",
+  "slug": "black-dream",
+  "title": "黑梦",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    }
+  ],
+  "releaseDate": "1994-10-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7608.webp",
+    "alt": "《黑梦》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7608.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77444",
+      "neteaseTrackId": "77444",
+      "title": "明天更漫长",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 271680
+    },
+    {
+      "id": "netease-track:77447",
+      "neteaseTrackId": "77447",
+      "title": "黑色梦中",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 283746
+    },
+    {
+      "id": "netease-track:77449",
+      "neteaseTrackId": "77449",
+      "title": "还有你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 354733
+    },
+    {
+      "id": "netease-track:77452",
+      "neteaseTrackId": "77452",
+      "title": "开心电话",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 237666
+    },
+    {
+      "id": "netease-track:77455",
+      "neteaseTrackId": "77455",
+      "title": "从命",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 277280
+    },
+    {
+      "id": "netease-track:77458",
+      "neteaseTrackId": "77458",
+      "title": "感觉时刻",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 230400
+    },
+    {
+      "id": "netease-track:77462",
+      "neteaseTrackId": "77462",
+      "title": "悲伤的梦",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 368400
+    },
+    {
+      "id": "netease-track:77466",
+      "neteaseTrackId": "77466",
+      "title": "噢！乖",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 317493
+    },
+    {
+      "id": "netease-track:77470",
+      "neteaseTrackId": "77470",
+      "title": "高级动物",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 278826
+    },
+    {
+      "id": "netease-track:77474",
+      "neteaseTrackId": "77474",
+      "title": "上帝保佑",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 225133
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=7608",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": {
+    "summaryZh": "低沉声线、吉他与合成器共同营造幽暗而紧绷的连续气氛。",
+    "whyListenZh": "适合夜间整张播放，关注节奏与音色如何持续塑造空间。",
+    "confidence": "curated",
+    "humanReviewed": true,
+    "bestFor": [
+      "night",
+      "solitude"
+    ],
+    "startWithTrackId": "netease-track:77444"
+  },
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "黑梦 窦唯",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

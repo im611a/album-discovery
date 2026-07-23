@@ -1,0 +1,133 @@
+{
+  "internalId": "album:7578",
+  "id": "album:7578",
+  "neteaseAlbumId": "7578",
+  "slug": "netease-7578",
+  "title": "刀郎Ⅲ",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2006-09-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7578.webp",
+    "alt": "《刀郎Ⅲ》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7578.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77095",
+      "neteaseTrackId": "77095",
+      "title": "世界如此寂寞",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 361560
+    },
+    {
+      "id": "netease-track:77098",
+      "neteaseTrackId": "77098",
+      "title": "西海情歌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 343160
+    },
+    {
+      "id": "netease-track:77105",
+      "neteaseTrackId": "77105",
+      "title": "花瓣下的种子",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 252092
+    },
+    {
+      "id": "netease-track:77109",
+      "neteaseTrackId": "77109",
+      "title": "孤独的牧羊人",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 327613
+    },
+    {
+      "id": "netease-track:77117",
+      "neteaseTrackId": "77117",
+      "title": "朝圣者的脚步",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 275212
+    },
+    {
+      "id": "netease-track:77120",
+      "neteaseTrackId": "77120",
+      "title": "真爱的胸怀",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 290814
+    },
+    {
+      "id": "netease-track:77125",
+      "neteaseTrackId": "77125",
+      "title": "山海天",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 273480
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=7578",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "刀郎Ⅲ 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,122 @@
+{
+  "internalId": "album:34776010",
+  "id": "album:34776010",
+  "neteaseAlbumId": "34776010",
+  "slug": "netease-34776010",
+  "title": "HIGHER BROTHERS",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12002201",
+      "neteaseArtistId": "12002201",
+      "name": "Higher Brothers"
+    }
+  ],
+  "releaseDate": "2016-07-06",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34776010.webp",
+    "alt": "《HIGHER BROTHERS》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34776010.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:420386010",
+      "neteaseTrackId": "420386010",
+      "title": "Higher Brothers Intro[Prod.MA$IWEI]",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 68728
+    },
+    {
+      "id": "netease-track:420386017",
+      "neteaseTrackId": "420386017",
+      "title": "Okay Remix(MA$IWEI)[Prod. Sonny Digital]",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 127059
+    },
+    {
+      "id": "netease-track:420386022",
+      "neteaseTrackId": "420386022",
+      "title": "中华小当家Interlude",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 43833
+    },
+    {
+      "id": "netease-track:420386024",
+      "neteaseTrackId": "420386024",
+      "title": "Without You(DZ&PS￥.P)[Prod.Breezy]",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 229250
+    },
+    {
+      "id": "netease-track:420386026",
+      "neteaseTrackId": "420386026",
+      "title": "小弟娃(MA$IWEI&PS￥.P)[Prod. By IGNORVNCE]",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 192705
+    },
+    {
+      "id": "netease-track:420386028",
+      "neteaseTrackId": "420386028",
+      "title": "谢谢Outro[Prod.MA$IWEI]",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 87640
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=34776010",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "HIGHER BROTHERS Higher Brothers",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

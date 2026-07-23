@@ -1,0 +1,189 @@
+{
+  "internalId": "album:72282189",
+  "id": "album:72282189",
+  "neteaseAlbumId": "72282189",
+  "slug": "netease-72282189",
+  "title": "初恋",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2018-06-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/72282189.webp",
+    "alt": "《初恋》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/72282189.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1301349911",
+      "neteaseTrackId": "1301349911",
+      "title": "Play a Love Song",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 252168
+    },
+    {
+      "id": "netease-track:1301349912",
+      "neteaseTrackId": "1301349912",
+      "title": "あなた",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 277185
+    },
+    {
+      "id": "netease-track:567601200",
+      "neteaseTrackId": "567601200",
+      "title": "初恋",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 280938
+    },
+    {
+      "id": "netease-track:1301349913",
+      "neteaseTrackId": "1301349913",
+      "title": "誓い",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 273670
+    },
+    {
+      "id": "netease-track:1301349914",
+      "neteaseTrackId": "1301349914",
+      "title": "Forevermore",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 294359
+    },
+    {
+      "id": "netease-track:1301350097",
+      "neteaseTrackId": "1301350097",
+      "title": "Too Proud",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "Jevon"
+      ],
+      "durationMs": 281797
+    },
+    {
+      "id": "netease-track:1301350098",
+      "neteaseTrackId": "1301350098",
+      "title": "Good Night",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 262246
+    },
+    {
+      "id": "netease-track:1301349915",
+      "neteaseTrackId": "1301349915",
+      "title": "パクチーの唄",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 223817
+    },
+    {
+      "id": "netease-track:1301349916",
+      "neteaseTrackId": "1301349916",
+      "title": "残り香",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 218546
+    },
+    {
+      "id": "netease-track:1301349917",
+      "neteaseTrackId": "1301349917",
+      "title": "大空で抱きしめて",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 274668
+    },
+    {
+      "id": "netease-track:1301349918",
+      "neteaseTrackId": "1301349918",
+      "title": "夕凪",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 284699
+    },
+    {
+      "id": "netease-track:1301350099",
+      "neteaseTrackId": "1301350099",
+      "title": "嫉妬されるべき人生",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 287370
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=72282189",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "初恋 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

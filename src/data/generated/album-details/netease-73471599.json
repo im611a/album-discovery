@@ -1,0 +1,239 @@
+{
+  "internalId": "album:73471599",
+  "id": "album:73471599",
+  "neteaseAlbumId": "73471599",
+  "slug": "netease-73471599",
+  "title": "生于未来",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:865007",
+      "neteaseArtistId": "865007",
+      "name": "法老"
+    }
+  ],
+  "releaseDate": "2018-10-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "AFSC音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/73471599.webp",
+    "alt": "《生于未来》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/73471599.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1317457749",
+      "neteaseTrackId": "1317457749",
+      "title": "pharaoh（intro）",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 209110
+    },
+    {
+      "id": "netease-track:1317457750",
+      "neteaseTrackId": "1317457750",
+      "title": "改变(feat.Naggy)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "Naggy(A.K.A EnAce)"
+      ],
+      "durationMs": 215185
+    },
+    {
+      "id": "netease-track:1318284115",
+      "neteaseTrackId": "1318284115",
+      "title": "爱是什么",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "超级橘子Orange"
+      ],
+      "durationMs": 223166
+    },
+    {
+      "id": "netease-track:1317410848",
+      "neteaseTrackId": "1317410848",
+      "title": "采访",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "杨秋儒"
+      ],
+      "durationMs": 365459
+    },
+    {
+      "id": "netease-track:1321385072",
+      "neteaseTrackId": "1321385072",
+      "title": "未来（feat.Lil.Jet）",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "陆政廷Lil Jet"
+      ],
+      "durationMs": 200834
+    },
+    {
+      "id": "netease-track:1334297109",
+      "neteaseTrackId": "1334297109",
+      "title": "回家",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "杨秋儒"
+      ],
+      "durationMs": 165015
+    },
+    {
+      "id": "netease-track:1336856498",
+      "neteaseTrackId": "1336856498",
+      "title": "我想part2",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "杨秋儒"
+      ],
+      "durationMs": 281551
+    },
+    {
+      "id": "netease-track:1321385074",
+      "neteaseTrackId": "1321385074",
+      "title": "AFK（feat.Buzzy）",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "Buzzy",
+        "泠风"
+      ],
+      "durationMs": 260691
+    },
+    {
+      "id": "netease-track:1336866438",
+      "neteaseTrackId": "1336866438",
+      "title": "2008.5.12（skit）",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 480118
+    },
+    {
+      "id": "netease-track:1336866431",
+      "neteaseTrackId": "1336866431",
+      "title": "Walkin dad(feat. Viito)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "戾仁Lyrin",
+        "CARTA"
+      ],
+      "durationMs": 235258
+    },
+    {
+      "id": "netease-track:1334295098",
+      "neteaseTrackId": "1334295098",
+      "title": "hustler",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "杨秋儒"
+      ],
+      "durationMs": 182857
+    },
+    {
+      "id": "netease-track:1336864426",
+      "neteaseTrackId": "1336864426",
+      "title": "IP man (feat.Dax)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "Dax",
+        "c0de731",
+        "ZJ余帛书"
+      ],
+      "durationMs": 214055
+    },
+    {
+      "id": "netease-track:1336871435",
+      "neteaseTrackId": "1336871435",
+      "title": "如果死亡将要来临",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "喉结蜥蜴"
+      ],
+      "durationMs": 183562
+    },
+    {
+      "id": "netease-track:1334296108",
+      "neteaseTrackId": "1334296108",
+      "title": "I’m not a killer",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "宁大人",
+        "张迪"
+      ],
+      "durationMs": 208000
+    },
+    {
+      "id": "netease-track:1334297124",
+      "neteaseTrackId": "1334297124",
+      "title": "大气层",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "郑宇界"
+      ],
+      "durationMs": 277716
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=73471599",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "生于未来 法老",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

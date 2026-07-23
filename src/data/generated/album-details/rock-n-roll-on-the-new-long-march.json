@@ -1,0 +1,144 @@
+{
+  "internalId": "album:6311",
+  "id": "album:6311",
+  "neteaseAlbumId": "6311",
+  "slug": "rock-n-roll-on-the-new-long-march",
+  "title": "新长征路上的摇滚",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "1989-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "东西音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6311.webp",
+    "alt": "《新长征路上的摇滚》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6311.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:63705",
+      "neteaseTrackId": "63705",
+      "title": "新长征路上的摇滚",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 281861
+    },
+    {
+      "id": "netease-track:63708",
+      "neteaseTrackId": "63708",
+      "title": "不再掩饰",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 321773
+    },
+    {
+      "id": "netease-track:63711",
+      "neteaseTrackId": "63711",
+      "title": "让我睡个好觉",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 236866
+    },
+    {
+      "id": "netease-track:63713",
+      "neteaseTrackId": "63713",
+      "title": "花房姑娘",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 289666
+    },
+    {
+      "id": "netease-track:63715",
+      "neteaseTrackId": "63715",
+      "title": "假行僧",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 297332
+    },
+    {
+      "id": "netease-track:63717",
+      "neteaseTrackId": "63717",
+      "title": "从头再来",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 309840
+    },
+    {
+      "id": "netease-track:63719",
+      "neteaseTrackId": "63719",
+      "title": "出走",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 328706
+    },
+    {
+      "id": "netease-track:63725",
+      "neteaseTrackId": "63725",
+      "title": "不是我不明白",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 311225
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=6311",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "新长征路上的摇滚 崔健",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

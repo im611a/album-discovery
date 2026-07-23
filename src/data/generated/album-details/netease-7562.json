@@ -1,0 +1,134 @@
+{
+  "internalId": "album:7562",
+  "id": "album:7562",
+  "neteaseAlbumId": "7562",
+  "slug": "netease-7562",
+  "title": "红色经典",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2008-03-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7562.webp",
+    "alt": "《红色经典》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7562.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76980",
+      "neteaseTrackId": "76980",
+      "title": "红星照我去战斗",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 253680
+    },
+    {
+      "id": "netease-track:76985",
+      "neteaseTrackId": "76985",
+      "title": "绣红旗",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 300720
+    },
+    {
+      "id": "netease-track:76986",
+      "neteaseTrackId": "76986",
+      "title": "九九艳阳天",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刀郎",
+        "黄灿"
+      ],
+      "durationMs": 325093
+    },
+    {
+      "id": "netease-track:76988",
+      "neteaseTrackId": "76988",
+      "title": "再见吧,妈妈",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 347520
+    },
+    {
+      "id": "netease-track:76991",
+      "neteaseTrackId": "76991",
+      "title": "映山红",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 291120
+    },
+    {
+      "id": "netease-track:76993",
+      "neteaseTrackId": "76993",
+      "title": "送别",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 260640
+    },
+    {
+      "id": "netease-track:76999",
+      "neteaseTrackId": "76999",
+      "title": "我的祖国",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 340800
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=7562",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "红色经典 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

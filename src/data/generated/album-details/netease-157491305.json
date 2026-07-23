@@ -1,0 +1,260 @@
+{
+  "internalId": "album:157491305",
+  "id": "album:157491305",
+  "neteaseAlbumId": "157491305",
+  "slug": "netease-157491305",
+  "title": "Travesía",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2023-05-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/157491305.webp",
+    "alt": "《Travesía》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/157491305.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2011078678",
+      "neteaseTrackId": "2011078678",
+      "title": "Thousand Knives",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 574206
+    },
+    {
+      "id": "netease-track:2011078162",
+      "neteaseTrackId": "2011078162",
+      "title": "Nuages",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Houria Aïchi"
+      ],
+      "durationMs": 136185
+    },
+    {
+      "id": "netease-track:2011078164",
+      "neteaseTrackId": "2011078164",
+      "title": "LIFE, LIFE",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 263894
+    },
+    {
+      "id": "netease-track:2011078681",
+      "neteaseTrackId": "2011078681",
+      "title": "Ma Mère L'Oye",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 269862
+    },
+    {
+      "id": "netease-track:2011078166",
+      "neteaseTrackId": "2011078166",
+      "title": "Rose",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Arto Lindsay"
+      ],
+      "durationMs": 312819
+    },
+    {
+      "id": "netease-track:2011078169",
+      "neteaseTrackId": "2011078169",
+      "title": "Tokyo Story",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 76741
+    },
+    {
+      "id": "netease-track:2011078685",
+      "neteaseTrackId": "2011078685",
+      "title": "Break With",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 275388
+    },
+    {
+      "id": "netease-track:2011078170",
+      "neteaseTrackId": "2011078170",
+      "title": "Blu",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 316789
+    },
+    {
+      "id": "netease-track:2011078688",
+      "neteaseTrackId": "2011078688",
+      "title": "Asadoya Yunta",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 276526
+    },
+    {
+      "id": "netease-track:2011078172",
+      "neteaseTrackId": "2011078172",
+      "title": "Rio",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 318229
+    },
+    {
+      "id": "netease-track:2011078174",
+      "neteaseTrackId": "2011078174",
+      "title": "Reversing",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 236913
+    },
+    {
+      "id": "netease-track:2011078690",
+      "neteaseTrackId": "2011078690",
+      "title": "Ngo/bitmix",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 312006
+    },
+    {
+      "id": "netease-track:2011078179",
+      "neteaseTrackId": "2011078179",
+      "title": "+Pantonal",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 239931
+    },
+    {
+      "id": "netease-track:2011078692",
+      "neteaseTrackId": "2011078692",
+      "title": "Laménto",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 224862
+    },
+    {
+      "id": "netease-track:2011078180",
+      "neteaseTrackId": "2011078180",
+      "title": "Diabaram",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Youssou N'Dour"
+      ],
+      "durationMs": 255558
+    },
+    {
+      "id": "netease-track:2011078181",
+      "neteaseTrackId": "2011078181",
+      "title": "Same Dream, Same Destination",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Roddy Frame"
+      ],
+      "durationMs": 245992
+    },
+    {
+      "id": "netease-track:2011078182",
+      "neteaseTrackId": "2011078182",
+      "title": "Composition 0919",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 330210
+    },
+    {
+      "id": "netease-track:2011078160",
+      "neteaseTrackId": "2011078160",
+      "title": "The Revenant Main Theme (Alva Noto Remodel)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Alva Noto",
+        "Carsten Nicolai"
+      ],
+      "durationMs": 176216
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=157491305",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Travesía 坂本龍一",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

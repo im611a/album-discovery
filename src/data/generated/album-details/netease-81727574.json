@@ -1,0 +1,210 @@
+{
+  "internalId": "album:81727574",
+  "id": "album:81727574",
+  "neteaseAlbumId": "81727574",
+  "slug": "netease-81727574",
+  "title": "天地不仁",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2019-10-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Do Hits",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/81727574.webp",
+    "alt": "《天地不仁》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/81727574.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1391676366",
+      "neteaseTrackId": "1391676366",
+      "title": "明日不可待",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 228102
+    },
+    {
+      "id": "netease-track:1391673803",
+      "neteaseTrackId": "1391673803",
+      "title": "入老虎林",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 261111
+    },
+    {
+      "id": "netease-track:1391673804",
+      "neteaseTrackId": "1391673804",
+      "title": "瓮中山歌",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 103719
+    },
+    {
+      "id": "netease-track:1391676367",
+      "neteaseTrackId": "1391676367",
+      "title": "太和布鲁斯",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 217631
+    },
+    {
+      "id": "netease-track:1391676368",
+      "neteaseTrackId": "1391676368",
+      "title": "二十一世纪自杀",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 297709
+    },
+    {
+      "id": "netease-track:1391676369",
+      "neteaseTrackId": "1391676369",
+      "title": "弃恶丛林",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 181027
+    },
+    {
+      "id": "netease-track:1391676370",
+      "neteaseTrackId": "1391676370",
+      "title": "溺水的马",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 226827
+    },
+    {
+      "id": "netease-track:1391673805",
+      "neteaseTrackId": "1391673805",
+      "title": "中非友谊大桥",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 204544
+    },
+    {
+      "id": "netease-track:1391676371",
+      "neteaseTrackId": "1391676371",
+      "title": "双王",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 209117
+    },
+    {
+      "id": "netease-track:1391673806",
+      "neteaseTrackId": "1391673806",
+      "title": "鸟的自知",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 188710
+    },
+    {
+      "id": "netease-track:1391673807",
+      "neteaseTrackId": "1391673807",
+      "title": "爱德华度假村",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 200944
+    },
+    {
+      "id": "netease-track:1391676372",
+      "neteaseTrackId": "1391676372",
+      "title": "一水红树",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 160850
+    },
+    {
+      "id": "netease-track:1391673808",
+      "neteaseTrackId": "1391673808",
+      "title": "还童",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 159054
+    },
+    {
+      "id": "netease-track:1391673809",
+      "neteaseTrackId": "1391673809",
+      "title": "拨云",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 276000
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=81727574",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "天地不仁 Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

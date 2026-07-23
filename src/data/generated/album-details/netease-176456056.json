@@ -1,0 +1,144 @@
+{
+  "internalId": "album:176456056",
+  "id": "album:176456056",
+  "neteaseAlbumId": "176456056",
+  "slug": "netease-176456056",
+  "title": "CHIN UP!",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2023-10-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/176456056.webp",
+    "alt": "《CHIN UP!》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/176456056.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2089101695",
+      "neteaseTrackId": "2089101695",
+      "title": "尘大师 Lightly",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 267500
+    },
+    {
+      "id": "netease-track:2089101697",
+      "neteaseTrackId": "2089101697",
+      "title": "人啊人 Homo Sapiens",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 297952
+    },
+    {
+      "id": "netease-track:2089101701",
+      "neteaseTrackId": "2089101701",
+      "title": "焦焦焦 Hold On A Sec",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 217890
+    },
+    {
+      "id": "netease-track:2089096331",
+      "neteaseTrackId": "2089096331",
+      "title": "社交恐惧癌 Don’t Mind Me",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 205029
+    },
+    {
+      "id": "netease-track:2089096338",
+      "neteaseTrackId": "2089096338",
+      "title": "空城记 Something Missing",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 189500
+    },
+    {
+      "id": "netease-track:2089096346",
+      "neteaseTrackId": "2089096346",
+      "title": "是但求其爱 The Search",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 271500
+    },
+    {
+      "id": "netease-track:2089096349",
+      "neteaseTrackId": "2089096349",
+      "title": "盲婚哑嫁 The Code",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 223500
+    },
+    {
+      "id": "netease-track:2089096353",
+      "neteaseTrackId": "2089096353",
+      "title": "致明日的舞 A Dance For Tomorrow",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 212000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=176456056",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "CHIN UP! 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

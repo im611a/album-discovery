@@ -1,0 +1,178 @@
+{
+  "internalId": "album:18915",
+  "id": "album:18915",
+  "neteaseAlbumId": "18915",
+  "slug": "fantasy-jay-chou",
+  "title": "范特西",
+  "aliases": [
+    "Fantasy"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2001-09-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18915.webp",
+    "alt": "《范特西》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18915.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186114",
+      "neteaseTrackId": "186114",
+      "title": "爱在西元前",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 234253
+    },
+    {
+      "id": "netease-track:186116",
+      "neteaseTrackId": "186116",
+      "title": "爸，我回来了",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:186119",
+      "neteaseTrackId": "186119",
+      "title": "简单爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 270000
+    },
+    {
+      "id": "netease-track:186122",
+      "neteaseTrackId": "186122",
+      "title": "忍者",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 158000
+    },
+    {
+      "id": "netease-track:186125",
+      "neteaseTrackId": "186125",
+      "title": "开不了口",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 284000
+    },
+    {
+      "id": "netease-track:186128",
+      "neteaseTrackId": "186128",
+      "title": "上海一九四三",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:186131",
+      "neteaseTrackId": "186131",
+      "title": "对不起",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 225413
+    },
+    {
+      "id": "netease-track:186134",
+      "neteaseTrackId": "186134",
+      "title": "威廉古堡",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 236000
+    },
+    {
+      "id": "netease-track:186137",
+      "neteaseTrackId": "186137",
+      "title": "双截棍",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 201000
+    },
+    {
+      "id": "netease-track:186139",
+      "neteaseTrackId": "186139",
+      "title": "安静",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 334000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18915",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": {
+    "summaryZh": "R&B、说唱与华语旋律在多样编曲中保持统一。",
+    "whyListenZh": "从熟悉旋律进入，留意节拍、人声层次和曲目之间的风格切换。",
+    "confidence": "curated",
+    "humanReviewed": true,
+    "bestFor": [
+      "commute",
+      "relax"
+    ],
+    "startWithTrackId": "netease-track:186114"
+  },
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "范特西 Fantasy 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

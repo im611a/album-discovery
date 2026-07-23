@@ -1,0 +1,155 @@
+{
+  "internalId": "album:93738009",
+  "id": "album:93738009",
+  "neteaseAlbumId": "93738009",
+  "slug": "netease-93738009",
+  "title": "爱是昂贵的",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12711",
+      "neteaseArtistId": "12711",
+      "name": "声音玩具"
+    }
+  ],
+  "releaseDate": "2015-04-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "草台回声",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/93738009.webp",
+    "alt": "《爱是昂贵的》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/93738009.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1469825712",
+      "neteaseTrackId": "1469825712",
+      "title": "最美妙的旅行",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 327426
+    },
+    {
+      "id": "netease-track:1469826254",
+      "neteaseTrackId": "1469826254",
+      "title": "生命",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 540026
+    },
+    {
+      "id": "netease-track:1469825713",
+      "neteaseTrackId": "1469825713",
+      "title": "和那些人一样",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 514813
+    },
+    {
+      "id": "netease-track:1469826255",
+      "neteaseTrackId": "1469826255",
+      "title": "请问哪里才能买到晶体管收音机",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 385946
+    },
+    {
+      "id": "netease-track:1469826256",
+      "neteaseTrackId": "1469826256",
+      "title": "明天你依旧在我身旁",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 306293
+    },
+    {
+      "id": "netease-track:1469825714",
+      "neteaseTrackId": "1469825714",
+      "title": "抚琴小夜曲",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 479560
+    },
+    {
+      "id": "netease-track:1469826257",
+      "neteaseTrackId": "1469826257",
+      "title": "你是无可替代",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 431853
+    },
+    {
+      "id": "netease-track:1469825715",
+      "neteaseTrackId": "1469825715",
+      "title": "星航者发现号",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 478000
+    },
+    {
+      "id": "netease-track:1469825716",
+      "neteaseTrackId": "1469825716",
+      "title": "时间",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 720133
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=93738009",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "爱是昂贵的 声音玩具",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

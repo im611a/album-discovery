@@ -1,0 +1,146 @@
+{
+  "internalId": "album:6355",
+  "id": "album:6355",
+  "neteaseAlbumId": "6355",
+  "slug": "netease-6355",
+  "title": "Stranger Under My Skin",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2011-02-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6355.webp",
+    "alt": "《Stranger Under My Skin》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6355.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:64283",
+      "neteaseTrackId": "64283",
+      "title": "Stranger Under My Skin",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 255362
+    },
+    {
+      "id": "netease-track:64288",
+      "neteaseTrackId": "64288",
+      "title": "最后派对",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 311600
+    },
+    {
+      "id": "netease-track:64293",
+      "neteaseTrackId": "64293",
+      "title": "苦瓜",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 277830
+    },
+    {
+      "id": "netease-track:64298",
+      "neteaseTrackId": "64298",
+      "title": "沼气",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 319245
+    },
+    {
+      "id": "netease-track:64303",
+      "neteaseTrackId": "64303",
+      "title": "My Private Christmas Song",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 139653
+    },
+    {
+      "id": "netease-track:64306",
+      "neteaseTrackId": "64306",
+      "title": "乐园",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅",
+        "黄韵玲"
+      ],
+      "durationMs": 236973
+    },
+    {
+      "id": "netease-track:64312",
+      "neteaseTrackId": "64312",
+      "title": "等你爱我",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 280045
+    },
+    {
+      "id": "netease-track:64317",
+      "neteaseTrackId": "64317",
+      "title": "因为爱情",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅",
+        "王菲"
+      ],
+      "durationMs": 218277
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=6355",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Stranger Under My Skin 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

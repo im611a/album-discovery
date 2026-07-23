@@ -1,0 +1,234 @@
+{
+  "internalId": "album:81262294",
+  "id": "album:81262294",
+  "neteaseAlbumId": "81262294",
+  "slug": "netease-81262294",
+  "title": "Woken Day",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12200652",
+      "neteaseArtistId": "12200652",
+      "name": "活死人"
+    },
+    {
+      "id": "netease-artist:865007",
+      "neteaseArtistId": "865007",
+      "name": "法老"
+    },
+    {
+      "id": "netease-artist:13899303",
+      "neteaseArtistId": "13899303",
+      "name": "杨和苏KeyNG"
+    },
+    {
+      "id": "netease-artist:12294124",
+      "neteaseArtistId": "12294124",
+      "name": "戾仁Lyrin"
+    },
+    {
+      "id": "netease-artist:12094558",
+      "neteaseArtistId": "12094558",
+      "name": "Buzzy"
+    },
+    {
+      "id": "netease-artist:1185047",
+      "neteaseArtistId": "1185047",
+      "name": "龙崎"
+    },
+    {
+      "id": "netease-artist:12092433",
+      "neteaseArtistId": "12092433",
+      "name": "JarStick"
+    },
+    {
+      "id": "netease-artist:12851112",
+      "neteaseArtistId": "12851112",
+      "name": "李毅杰PISSY"
+    },
+    {
+      "id": "netease-artist:12065015",
+      "neteaseArtistId": "12065015",
+      "name": "隆历奇"
+    },
+    {
+      "id": "netease-artist:12287129",
+      "neteaseArtistId": "12287129",
+      "name": "小精灵"
+    }
+  ],
+  "releaseDate": "2019-08-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/81262294.webp",
+    "alt": "《Woken Day》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/81262294.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1378479700",
+      "neteaseTrackId": "1378479700",
+      "title": "飞蛾扑火",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "吕周嘉懿"
+      ],
+      "durationMs": 206943
+    },
+    {
+      "id": "netease-track:1380070418",
+      "neteaseTrackId": "1380070418",
+      "title": "兔八哥",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "杨和苏KeyNG"
+      ],
+      "durationMs": 82395
+    },
+    {
+      "id": "netease-track:1383937363",
+      "neteaseTrackId": "1383937363",
+      "title": "江山美人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "SHARK卫彬月"
+      ],
+      "durationMs": 233600
+    },
+    {
+      "id": "netease-track:1382428857",
+      "neteaseTrackId": "1382428857",
+      "title": "一人日记",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "戾仁Lyrin",
+        "丁芙妮"
+      ],
+      "durationMs": 192000
+    },
+    {
+      "id": "netease-track:1382427982",
+      "neteaseTrackId": "1382427982",
+      "title": "Broken Day",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "李毅杰PISSY"
+      ],
+      "durationMs": 192000
+    },
+    {
+      "id": "netease-track:1382428867",
+      "neteaseTrackId": "1382428867",
+      "title": "Treasure Boy",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "隆历奇"
+      ],
+      "durationMs": 183600
+    },
+    {
+      "id": "netease-track:1382428871",
+      "neteaseTrackId": "1382428871",
+      "title": "死去活来",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "JarStick"
+      ],
+      "durationMs": 191501
+    },
+    {
+      "id": "netease-track:1385203781",
+      "neteaseTrackId": "1385203781",
+      "title": "我 花 机器人（序章）",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "小精灵",
+        "FOX胡天渝"
+      ],
+      "durationMs": 184000
+    },
+    {
+      "id": "netease-track:1385206215",
+      "neteaseTrackId": "1385206215",
+      "title": "KING NEVER DIE",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Buzzy"
+      ],
+      "durationMs": 286403
+    },
+    {
+      "id": "netease-track:1385206236",
+      "neteaseTrackId": "1385206236",
+      "title": "走路随笔",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "龙崎"
+      ],
+      "durationMs": 132800
+    },
+    {
+      "id": "netease-track:1387629743",
+      "neteaseTrackId": "1387629743",
+      "title": "Woken Day",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "活死人",
+        "法老",
+        "杨和苏KeyNG",
+        "Buzzy",
+        "龙崎",
+        "JarStick",
+        "李毅杰PISSY",
+        "隆历奇",
+        "小精灵",
+        "FOX胡天渝"
+      ],
+      "durationMs": 268800
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=81262294",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Woken Day 活死人 法老 杨和苏KeyNG 戾仁Lyrin Buzzy 龙崎 JarStick 李毅杰PISSY 隆历奇 小精灵",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,199 @@
+{
+  "internalId": "album:29669",
+  "id": "album:29669",
+  "neteaseAlbumId": "29669",
+  "slug": "netease-29669",
+  "title": "将爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2003-11-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KC DIGITAL LIMITED",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29669.webp",
+    "alt": "《将爱》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/29669.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:299246",
+      "neteaseTrackId": "299246",
+      "title": "将爱",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 248546
+    },
+    {
+      "id": "netease-track:299249",
+      "neteaseTrackId": "299249",
+      "title": "空城",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 299040
+    },
+    {
+      "id": "netease-track:299252",
+      "neteaseTrackId": "299252",
+      "title": "不留",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 262626
+    },
+    {
+      "id": "netease-track:299255",
+      "neteaseTrackId": "299255",
+      "title": "美错",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 241720
+    },
+    {
+      "id": "netease-track:299258",
+      "neteaseTrackId": "299258",
+      "title": "乘客",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 280226
+    },
+    {
+      "id": "netease-track:299261",
+      "neteaseTrackId": "299261",
+      "title": "阳宝",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 246240
+    },
+    {
+      "id": "netease-track:299264",
+      "neteaseTrackId": "299264",
+      "title": "旋木",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 253120
+    },
+    {
+      "id": "netease-track:299267",
+      "neteaseTrackId": "299267",
+      "title": "四月雪",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 267586
+    },
+    {
+      "id": "netease-track:299270",
+      "neteaseTrackId": "299270",
+      "title": "夜妆",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 274546
+    },
+    {
+      "id": "netease-track:299273",
+      "neteaseTrackId": "299273",
+      "title": "烟",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 255040
+    },
+    {
+      "id": "netease-track:299276",
+      "neteaseTrackId": "299276",
+      "title": "MV",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 235400
+    },
+    {
+      "id": "netease-track:299279",
+      "neteaseTrackId": "299279",
+      "title": "假爱之名",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 248666
+    },
+    {
+      "id": "netease-track:299281",
+      "neteaseTrackId": "299281",
+      "title": "花事了",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 278386
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=29669",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "将爱 王菲",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

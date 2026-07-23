@@ -1,0 +1,179 @@
+{
+  "internalId": "album:178219441",
+  "id": "album:178219441",
+  "neteaseAlbumId": "178219441",
+  "slug": "netease-178219441",
+  "title": "万物II：遥远的相似性",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    },
+    {
+      "id": "netease-artist:12676697",
+      "neteaseArtistId": "12676697",
+      "name": "告五人"
+    },
+    {
+      "id": "netease-artist:711683",
+      "neteaseArtistId": "711683",
+      "name": "好妹妹乐队"
+    },
+    {
+      "id": "netease-artist:942028",
+      "neteaseArtistId": "942028",
+      "name": "The fin."
+    },
+    {
+      "id": "netease-artist:12084229",
+      "neteaseArtistId": "12084229",
+      "name": "焦迈奇"
+    },
+    {
+      "id": "netease-artist:12789956",
+      "neteaseArtistId": "12789956",
+      "name": "陈婧霏"
+    },
+    {
+      "id": "netease-artist:30627660",
+      "neteaseArtistId": "30627660",
+      "name": "王加一"
+    },
+    {
+      "id": "netease-artist:7785",
+      "neteaseArtistId": "7785",
+      "name": "龚琳娜"
+    }
+  ],
+  "releaseDate": "2023-11-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "SN Music × 有此山",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/178219441.webp",
+    "alt": "《万物II：遥远的相似性》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/178219441.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2096093367",
+      "neteaseTrackId": "2096093367",
+      "title": "森林",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 216316
+    },
+    {
+      "id": "netease-track:2096094340",
+      "neteaseTrackId": "2096094340",
+      "title": "预感",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 323591
+    },
+    {
+      "id": "netease-track:2096094339",
+      "neteaseTrackId": "2096094339",
+      "title": "沙",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "好妹妹乐队"
+      ],
+      "durationMs": 264553
+    },
+    {
+      "id": "netease-track:2096094338",
+      "neteaseTrackId": "2096094338",
+      "title": "给南方的你一封信",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "告五人"
+      ],
+      "durationMs": 225332
+    },
+    {
+      "id": "netease-track:2096093369",
+      "neteaseTrackId": "2096093369",
+      "title": "人造扫把星",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "焦迈奇"
+      ],
+      "durationMs": 197686
+    },
+    {
+      "id": "netease-track:2096094335",
+      "neteaseTrackId": "2096094335",
+      "title": "光芒",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈婧霏"
+      ],
+      "durationMs": 185312
+    },
+    {
+      "id": "netease-track:2096093376",
+      "neteaseTrackId": "2096093376",
+      "title": "Constellation",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "The fin."
+      ],
+      "durationMs": 215085
+    },
+    {
+      "id": "netease-track:2096093371",
+      "neteaseTrackId": "2096093371",
+      "title": "神仙岛",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王加一"
+      ],
+      "durationMs": 260294
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=178219441",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "万物II：遥远的相似性 陈粒 告五人 好妹妹乐队 The fin. 焦迈奇 陈婧霏 王加一 龚琳娜",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

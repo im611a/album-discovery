@@ -1,0 +1,171 @@
+{
+  "internalId": "album:92448901",
+  "id": "album:92448901",
+  "neteaseAlbumId": "92448901",
+  "slug": "netease-92448901",
+  "title": "339 EP",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12200029",
+      "neteaseArtistId": "12200029",
+      "name": "HARIKIRI"
+    },
+    {
+      "id": "netease-artist:12059049",
+      "neteaseArtistId": "12059049",
+      "name": "Bohan 冷博涵"
+    },
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    },
+    {
+      "id": "netease-artist:12087155",
+      "neteaseArtistId": "12087155",
+      "name": "J.Mag"
+    }
+  ],
+  "releaseDate": "2020-07-28",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "HARIKIRIMusic",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/92448901.webp",
+    "alt": "《339 EP》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/92448901.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1462879179",
+      "neteaseTrackId": "1462879179",
+      "title": "想干嘛",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "HARIKIRI",
+        "Bohan 冷博涵",
+        "马思唯",
+        "J.Mag"
+      ],
+      "durationMs": 170086
+    },
+    {
+      "id": "netease-track:1462875616",
+      "neteaseTrackId": "1462875616",
+      "title": "一无所有",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "HARIKIRI",
+        "Bohan 冷博涵",
+        "马思唯",
+        "J.Mag"
+      ],
+      "durationMs": 169255
+    },
+    {
+      "id": "netease-track:1462875617",
+      "neteaseTrackId": "1462875617",
+      "title": "你说啥",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "HARIKIRI",
+        "Bohan 冷博涵",
+        "马思唯",
+        "J.Mag"
+      ],
+      "durationMs": 195509
+    },
+    {
+      "id": "netease-track:1462875618",
+      "neteaseTrackId": "1462875618",
+      "title": "不怪她",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "HARIKIRI",
+        "Bohan 冷博涵",
+        "马思唯",
+        "J.Mag"
+      ],
+      "durationMs": 183652
+    },
+    {
+      "id": "netease-track:1462875623",
+      "neteaseTrackId": "1462875623",
+      "title": "想干嘛 (Instrumental)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "HARIKIRI"
+      ],
+      "durationMs": 170086
+    },
+    {
+      "id": "netease-track:1462879191",
+      "neteaseTrackId": "1462879191",
+      "title": "一无所有 (Instrumental)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "HARIKIRI"
+      ],
+      "durationMs": 169787
+    },
+    {
+      "id": "netease-track:1462875637",
+      "neteaseTrackId": "1462875637",
+      "title": "你说啥 (Instrumental)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "HARIKIRI"
+      ],
+      "durationMs": 195509
+    },
+    {
+      "id": "netease-track:1462879196",
+      "neteaseTrackId": "1462879196",
+      "title": "不怪她 (Instrumental)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "HARIKIRI"
+      ],
+      "durationMs": 183652
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=92448901",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "339 EP HARIKIRI Bohan 冷博涵 马思唯 J.Mag",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

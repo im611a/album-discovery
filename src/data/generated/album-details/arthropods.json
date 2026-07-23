@@ -1,0 +1,145 @@
+{
+  "internalId": "album:84951503",
+  "id": "album:84951503",
+  "neteaseAlbumId": "84951503",
+  "slug": "arthropods",
+  "title": "Arthropods",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12802035",
+      "neteaseArtistId": "12802035",
+      "name": "33EMYBW"
+    }
+  ],
+  "releaseDate": "2019-10-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "SVBKVLT",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/84951503.webp",
+    "alt": "《Arthropods》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/84951503.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1416416724",
+      "neteaseTrackId": "1416416724",
+      "title": "Symmetry",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 134000
+    },
+    {
+      "id": "netease-track:1416416725",
+      "neteaseTrackId": "1416416725",
+      "title": "Tentacle Centre",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 212272
+    },
+    {
+      "id": "netease-track:1416416726",
+      "neteaseTrackId": "1416416726",
+      "title": "Adam Bank",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 237260
+    },
+    {
+      "id": "netease-track:1416419344",
+      "neteaseTrackId": "1416419344",
+      "title": "Drum3",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 481234
+    },
+    {
+      "id": "netease-track:1416416728",
+      "neteaseTrackId": "1416416728",
+      "title": "Seeds of the Future",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 160473
+    },
+    {
+      "id": "netease-track:1416419345",
+      "neteaseTrackId": "1416419345",
+      "title": "Induce",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 311363
+    },
+    {
+      "id": "netease-track:1416416730",
+      "neteaseTrackId": "1416416730",
+      "title": "Adam Bank (Lechuga Zafiro Remix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW",
+        "Lechuga Zafiro"
+      ],
+      "durationMs": 282782
+    },
+    {
+      "id": "netease-track:1416419346",
+      "neteaseTrackId": "1416419346",
+      "title": "Drum3 (Don Zilla Remix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW",
+        "Don Zilla"
+      ],
+      "durationMs": 332728
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=84951503",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Arthropods 33EMYBW",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

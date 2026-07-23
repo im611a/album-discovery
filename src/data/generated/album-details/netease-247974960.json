@@ -1,0 +1,157 @@
+{
+  "internalId": "album:247974960",
+  "id": "album:247974960",
+  "neteaseAlbumId": "247974960",
+  "slug": "netease-247974960",
+  "title": "赋作集 上",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:33154502",
+      "neteaseArtistId": "33154502",
+      "name": "朝简"
+    }
+  ],
+  "releaseDate": "2024-09-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京窦唯音乐工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/247974960.webp",
+    "alt": "《赋作集 上》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/247974960.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2627393636",
+      "neteaseTrackId": "2627393636",
+      "title": "赤壁赋",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 791304
+    },
+    {
+      "id": "netease-track:2627393635",
+      "neteaseTrackId": "2627393635",
+      "title": "天马赋",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 576000
+    },
+    {
+      "id": "netease-track:2627393838",
+      "neteaseTrackId": "2627393838",
+      "title": "修竹赋",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 632674
+    },
+    {
+      "id": "netease-track:2627400441",
+      "neteaseTrackId": "2627400441",
+      "title": "闲情赋",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 1139000
+    },
+    {
+      "id": "netease-track:2627412245",
+      "neteaseTrackId": "2627412245",
+      "title": "小石潭记 (器乐版)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 379534
+    },
+    {
+      "id": "netease-track:2627412246",
+      "neteaseTrackId": "2627412246",
+      "title": "雪竹赋",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 618500
+    },
+    {
+      "id": "netease-track:2627410925",
+      "neteaseTrackId": "2627410925",
+      "title": "雁阵赋",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 776000
+    },
+    {
+      "id": "netease-track:2627410924",
+      "neteaseTrackId": "2627410924",
+      "title": "后赤壁赋",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 699130
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=247974960",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "赋作集 上 窦唯 朝简",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

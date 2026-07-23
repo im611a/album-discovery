@@ -41,6 +41,7 @@ yarn-error.log*
 
 # local credentials and transient data
 .cache/catalog/
+.cache/browser-audit/
 catalog-report.local.json
 artifacts/
 /album-discovery-source.zip

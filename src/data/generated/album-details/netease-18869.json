@@ -1,0 +1,179 @@
+{
+  "internalId": "album:18869",
+  "id": "album:18869",
+  "neteaseAlbumId": "18869",
+  "slug": "netease-18869",
+  "title": "惊叹号",
+  "aliases": [
+    "Wow!"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2011-11-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18869.webp",
+    "alt": "《惊叹号》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18869.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185613",
+      "neteaseTrackId": "185613",
+      "title": "惊叹号",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 231266
+    },
+    {
+      "id": "netease-track:185614",
+      "neteaseTrackId": "185614",
+      "title": "迷魂曲",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 230000
+    },
+    {
+      "id": "netease-track:185615",
+      "neteaseTrackId": "185615",
+      "title": "Mine Mine",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 268000
+    },
+    {
+      "id": "netease-track:185616",
+      "neteaseTrackId": "185616",
+      "title": "公主病",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:185617",
+      "neteaseTrackId": "185617",
+      "title": "你好吗",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:185618",
+      "neteaseTrackId": "185618",
+      "title": "疗伤烧肉粽",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 187000
+    },
+    {
+      "id": "netease-track:185619",
+      "neteaseTrackId": "185619",
+      "title": "琴伤",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:185620",
+      "neteaseTrackId": "185620",
+      "title": "水手怕水",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 161000
+    },
+    {
+      "id": "netease-track:185621",
+      "neteaseTrackId": "185621",
+      "title": "世界未末日",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:185622",
+      "neteaseTrackId": "185622",
+      "title": "皮影戏",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:185623",
+      "neteaseTrackId": "185623",
+      "title": "超跑女神",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 156000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18869",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "惊叹号 Wow! 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

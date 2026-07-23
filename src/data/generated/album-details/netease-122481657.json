@@ -1,0 +1,220 @@
+{
+  "internalId": "album:122481657",
+  "id": "album:122481657",
+  "neteaseAlbumId": "122481657",
+  "slug": "netease-122481657",
+  "title": "大悲咒",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    },
+    {
+      "id": "netease-artist:33423604",
+      "neteaseArtistId": "33423604",
+      "name": "希阿荣博"
+    },
+    {
+      "id": "netease-artist:14712157",
+      "neteaseArtistId": "14712157",
+      "name": "喜曼朵曼"
+    }
+  ],
+  "releaseDate": "2021-02-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/122481657.webp",
+    "alt": "《大悲咒》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/122481657.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1817156002",
+      "neteaseTrackId": "1817156002",
+      "title": "百字明",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 36897
+    },
+    {
+      "id": "netease-track:1817156005",
+      "neteaseTrackId": "1817156005",
+      "title": "金刚萨埵百字明",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "喜曼朵曼",
+        "左小祖咒"
+      ],
+      "durationMs": 342036
+    },
+    {
+      "id": "netease-track:1419725040",
+      "neteaseTrackId": "1419725040",
+      "title": "普贤行愿品",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 220615
+    },
+    {
+      "id": "netease-track:1420580500",
+      "neteaseTrackId": "1420580500",
+      "title": "金刚铠甲咒",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 225500
+    },
+    {
+      "id": "netease-track:3353909648",
+      "neteaseTrackId": "3353909648",
+      "title": "财神咒",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 162015
+    },
+    {
+      "id": "netease-track:1817152288",
+      "neteaseTrackId": "1817152288",
+      "title": "大悲咒",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 158400
+    },
+    {
+      "id": "netease-track:1846853273",
+      "neteaseTrackId": "1846853273",
+      "title": "秽积金刚咒",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 195714
+    },
+    {
+      "id": "netease-track:1870060058",
+      "neteaseTrackId": "1870060058",
+      "title": "希阿荣博祈祷文",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 177882
+    },
+    {
+      "id": "netease-track:1817156006",
+      "neteaseTrackId": "1817156006",
+      "title": "神变月愿文",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 194794
+    },
+    {
+      "id": "netease-track:1817156004",
+      "neteaseTrackId": "1817156004",
+      "title": "百字明",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 146625
+    },
+    {
+      "id": "netease-track:1895092729",
+      "neteaseTrackId": "1895092729",
+      "title": "真实名经",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 147540
+    },
+    {
+      "id": "netease-track:3353911592",
+      "neteaseTrackId": "3353911592",
+      "title": "阿弥陀佛",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 116206
+    },
+    {
+      "id": "netease-track:1870068290",
+      "neteaseTrackId": "1870068290",
+      "title": "小活佛",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 212052
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=122481657",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "大悲咒 左小祖咒 希阿荣博 喜曼朵曼",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

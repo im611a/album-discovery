@@ -1,0 +1,111 @@
+{
+  "internalId": "album:2519181",
+  "id": "album:2519181",
+  "neteaseAlbumId": "2519181",
+  "slug": "netease-2519181",
+  "title": "Split",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2012-12-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2519181.webp",
+    "alt": "《Split》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2519181.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:26545022",
+      "neteaseTrackId": "26545022",
+      "title": "Desperdicio (part I)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Pg.lost"
+      ],
+      "durationMs": 572240
+    },
+    {
+      "id": "netease-track:26545023",
+      "neteaseTrackId": "26545023",
+      "title": "Desperdicio (part II)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Pg.lost"
+      ],
+      "durationMs": 624000
+    },
+    {
+      "id": "netease-track:26545024",
+      "neteaseTrackId": "26545024",
+      "title": "13th",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 381600
+    },
+    {
+      "id": "netease-track:26545025",
+      "neteaseTrackId": "26545025",
+      "title": "Homeland Accent",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 383200
+    },
+    {
+      "id": "netease-track:26545026",
+      "neteaseTrackId": "26545026",
+      "title": "Mouse Song",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 412800
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=2519181",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Split 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

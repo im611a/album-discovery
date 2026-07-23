@@ -1,0 +1,188 @@
+{
+  "internalId": "album:11533",
+  "id": "album:11533",
+  "neteaseAlbumId": "11533",
+  "slug": "netease-11533",
+  "title": "电民谣",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "2003-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/11533.webp",
+    "alt": "《电民谣》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/11533.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:118693",
+      "neteaseTrackId": "118693",
+      "title": "台东调",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "叶树茵"
+      ],
+      "durationMs": 269733
+    },
+    {
+      "id": "netease-track:118689",
+      "neteaseTrackId": "118689",
+      "title": "阿拉木汗",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "必爱"
+      ],
+      "durationMs": 327373
+    },
+    {
+      "id": "netease-track:118685",
+      "neteaseTrackId": "118685",
+      "title": "峇里岛",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "必爱"
+      ],
+      "durationMs": 260906
+    },
+    {
+      "id": "netease-track:118680",
+      "neteaseTrackId": "118680",
+      "title": "掀起你的盖头来",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Lisa"
+      ],
+      "durationMs": 204747
+    },
+    {
+      "id": "netease-track:118676",
+      "neteaseTrackId": "118676",
+      "title": "达坂城的姑娘",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Lisa"
+      ],
+      "durationMs": 389933
+    },
+    {
+      "id": "netease-track:118671",
+      "neteaseTrackId": "118671",
+      "title": "草螟弄鸡公",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 292293
+    },
+    {
+      "id": "netease-track:118666",
+      "neteaseTrackId": "118666",
+      "title": "点仔胶",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 226813
+    },
+    {
+      "id": "netease-track:118661",
+      "neteaseTrackId": "118661",
+      "title": "虹彩妹妹",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Lisa"
+      ],
+      "durationMs": 294000
+    },
+    {
+      "id": "netease-track:118658",
+      "neteaseTrackId": "118658",
+      "title": "茉莉花",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "叶树茵"
+      ],
+      "durationMs": 298320
+    },
+    {
+      "id": "netease-track:118655",
+      "neteaseTrackId": "118655",
+      "title": "桃花过渡",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 300386
+    },
+    {
+      "id": "netease-track:118653",
+      "neteaseTrackId": "118653",
+      "title": "一根扁担",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "必爱"
+      ],
+      "durationMs": 324000
+    },
+    {
+      "id": "netease-track:118651",
+      "neteaseTrackId": "118651",
+      "title": "绣荷包",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "叶树茵"
+      ],
+      "durationMs": 411973
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=11533",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "电民谣 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

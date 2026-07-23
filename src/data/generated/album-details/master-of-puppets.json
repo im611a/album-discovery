@@ -1,0 +1,166 @@
+{
+  "internalId": "album:1956859",
+  "id": "album:1956859",
+  "neteaseAlbumId": "1956859",
+  "slug": "master-of-puppets",
+  "title": "Master Of Puppets",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1986-03-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Elektra",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956859.webp",
+    "alt": "《Master Of Puppets》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1956859.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162406",
+      "neteaseTrackId": "21162406",
+      "title": "Battery",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 312093
+    },
+    {
+      "id": "netease-track:21162407",
+      "neteaseTrackId": "21162407",
+      "title": "Master of Puppets",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 514520
+    },
+    {
+      "id": "netease-track:21162408",
+      "neteaseTrackId": "21162408",
+      "title": "The Thing That Should Not Be",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 395786
+    },
+    {
+      "id": "netease-track:21162409",
+      "neteaseTrackId": "21162409",
+      "title": "Welcome Home (Sanitarium)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 388493
+    },
+    {
+      "id": "netease-track:21162410",
+      "neteaseTrackId": "21162410",
+      "title": "Disposable Heroes",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 495840
+    },
+    {
+      "id": "netease-track:21162411",
+      "neteaseTrackId": "21162411",
+      "title": "Leper Messiah",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 339253
+    },
+    {
+      "id": "netease-track:21162412",
+      "neteaseTrackId": "21162412",
+      "title": "Orion",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 507746
+    },
+    {
+      "id": "netease-track:21162413",
+      "neteaseTrackId": "21162413",
+      "title": "Damage, Inc.",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 328640
+    },
+    {
+      "id": "netease-track:21162414",
+      "neteaseTrackId": "21162414",
+      "title": "Battery (Live)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 293146
+    },
+    {
+      "id": "netease-track:21162415",
+      "neteaseTrackId": "21162415",
+      "title": "The Thing That You Should Not Be (Live)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 422240
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1956859",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "exercise",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Master Of Puppets Metallica",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,158 @@
+{
+  "internalId": "album:84600899",
+  "id": "album:84600899",
+  "neteaseAlbumId": "84600899",
+  "slug": "netease-84600899",
+  "title": "Small Town Kid",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12198387",
+      "neteaseArtistId": "12198387",
+      "name": "艾志恒Asen"
+    }
+  ],
+  "releaseDate": "2020-04-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/84600899.webp",
+    "alt": "《Small Town Kid》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/84600899.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1437031801",
+      "neteaseTrackId": "1437031801",
+      "title": "错意",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 164008
+    },
+    {
+      "id": "netease-track:1413149967",
+      "neteaseTrackId": "1413149967",
+      "title": "冰",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "mac ova seas"
+      ],
+      "durationMs": 239098
+    },
+    {
+      "id": "netease-track:1437174920",
+      "neteaseTrackId": "1437174920",
+      "title": "To The Top",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 151464
+    },
+    {
+      "id": "netease-track:1437030883",
+      "neteaseTrackId": "1437030883",
+      "title": "Love Yourself",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 164267
+    },
+    {
+      "id": "netease-track:1437174958",
+      "neteaseTrackId": "1437174958",
+      "title": "Pablo",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 124174
+    },
+    {
+      "id": "netease-track:1437176781",
+      "neteaseTrackId": "1437176781",
+      "title": "Cold Heart",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 130343
+    },
+    {
+      "id": "netease-track:1437030925",
+      "neteaseTrackId": "1437030925",
+      "title": "Passed Out",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "慕斯塔法"
+      ],
+      "durationMs": 223464
+    },
+    {
+      "id": "netease-track:1437030961",
+      "neteaseTrackId": "1437030961",
+      "title": "Butterflies",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "Maikon Flocka Flame"
+      ],
+      "durationMs": 236040
+    },
+    {
+      "id": "netease-track:1437031850",
+      "neteaseTrackId": "1437031850",
+      "title": "等到起",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 148941
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=84600899",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Small Town Kid 艾志恒Asen",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

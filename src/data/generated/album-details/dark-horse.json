@@ -1,0 +1,224 @@
+{
+  "internalId": "album:122743105",
+  "id": "album:122743105",
+  "neteaseAlbumId": "122743105",
+  "slug": "dark-horse",
+  "title": "黑马",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    }
+  ],
+  "releaseDate": "2021-02-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "88rising Records LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/122743105.webp",
+    "alt": "《黑马》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/122743105.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1818844740",
+      "neteaseTrackId": "1818844740",
+      "title": "木头人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 158000
+    },
+    {
+      "id": "netease-track:1818844741",
+      "neteaseTrackId": "1818844741",
+      "title": "破晓",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 134468
+    },
+    {
+      "id": "netease-track:1818845640",
+      "neteaseTrackId": "1818845640",
+      "title": "吹牛老爹",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:1818845641",
+      "neteaseTrackId": "1818845641",
+      "title": "Tag",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 222439
+    },
+    {
+      "id": "netease-track:1818844742",
+      "neteaseTrackId": "1818844742",
+      "title": "H.O.T",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 191722
+    },
+    {
+      "id": "netease-track:1818844743",
+      "neteaseTrackId": "1818844743",
+      "title": "今天",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 166105
+    },
+    {
+      "id": "netease-track:1818844744",
+      "neteaseTrackId": "1818844744",
+      "title": "不会说谎的眼睛 (Feat. DP龙猪)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "DP龙猪"
+      ],
+      "durationMs": 166736
+    },
+    {
+      "id": "netease-track:1818844745",
+      "neteaseTrackId": "1818844745",
+      "title": "卖火柴的小女孩",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 180000
+    },
+    {
+      "id": "netease-track:1818844746",
+      "neteaseTrackId": "1818844746",
+      "title": "飞来横祸 (Feat. 阿达娃)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "阿达娃"
+      ],
+      "durationMs": 186400
+    },
+    {
+      "id": "netease-track:1818844747",
+      "neteaseTrackId": "1818844747",
+      "title": "为什么",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 209801
+    },
+    {
+      "id": "netease-track:1818844748",
+      "neteaseTrackId": "1818844748",
+      "title": "Money On My Mind (Feat.阿达娃)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "阿达娃"
+      ],
+      "durationMs": 214733
+    },
+    {
+      "id": "netease-track:1818845642",
+      "neteaseTrackId": "1818845642",
+      "title": "东大街",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 183602
+    },
+    {
+      "id": "netease-track:1818844749",
+      "neteaseTrackId": "1818844749",
+      "title": "我不用休息",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 196521
+    },
+    {
+      "id": "netease-track:1818844750",
+      "neteaseTrackId": "1818844750",
+      "title": "豆瓣酱",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 186666
+    },
+    {
+      "id": "netease-track:1818844751",
+      "neteaseTrackId": "1818844751",
+      "title": "Hip-Hop Saved My Life",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 237333
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=122743105",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "黑马 马思唯",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

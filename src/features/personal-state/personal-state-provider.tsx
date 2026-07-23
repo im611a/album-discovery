@@ -6,7 +6,7 @@ import { createInitialUserState, parseLocalUserState, type LocalUserStateV1, typ
 
 const STORAGE_KEY = "album-discovery:user-state:v1";
 const ids = new Set(catalogAlbums.map((album) => album.id));
-type AlbumListKey = "favoriteAlbumIds" | "savedAlbumIds" | "listenedAlbumIds" | "dismissedAlbumIds";
+type AlbumListKey = "likedAlbumIds" | "favoriteAlbumIds" | "savedAlbumIds" | "listenedAlbumIds" | "dismissedAlbumIds";
 
 interface PersonalStateContextValue {
   state: LocalUserStateV1;
@@ -61,8 +61,9 @@ export function PersonalStateProvider({ children }: { children: React.ReactNode 
         delete next.recommendationFeedback[albumId];
       }
     }
-    if (adding && key === "favoriteAlbumIds") next.recommendationFeedback = { ...next.recommendationFeedback, [albumId]: "like" };
+    if (adding && key === "likedAlbumIds") next.recommendationFeedback = { ...next.recommendationFeedback, [albumId]: "like" };
     if (adding && key === "dismissedAlbumIds") {
+      next.likedAlbumIds = next.likedAlbumIds.filter((id) => id !== albumId);
       next.favoriteAlbumIds = next.favoriteAlbumIds.filter((id) => id !== albumId);
       next.savedAlbumIds = next.savedAlbumIds.filter((id) => id !== albumId);
       next.recommendationFeedback = { ...next.recommendationFeedback, [albumId]: "not_for_me" };
@@ -74,7 +75,8 @@ export function PersonalStateProvider({ children }: { children: React.ReactNode 
     if (value) feedback[albumId] = value; else delete feedback[albumId];
     return {
       ...current,
-      favoriteAlbumIds: value === "like" ? [...new Set([...current.favoriteAlbumIds, albumId])] : current.favoriteAlbumIds.filter((id) => id !== albumId),
+      likedAlbumIds: value === "like" ? [...new Set([...current.likedAlbumIds, albumId])] : current.likedAlbumIds.filter((id) => id !== albumId),
+      favoriteAlbumIds: value === "not_for_me" ? current.favoriteAlbumIds.filter((id) => id !== albumId) : current.favoriteAlbumIds,
       savedAlbumIds: value === "not_for_me" ? current.savedAlbumIds.filter((id) => id !== albumId) : current.savedAlbumIds,
       recommendationFeedback: feedback,
       dismissedAlbumIds: value === "not_for_me" ? [...new Set([...current.dismissedAlbumIds, albumId])] : current.dismissedAlbumIds.filter((id) => id !== albumId),

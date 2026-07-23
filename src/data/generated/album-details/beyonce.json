@@ -1,0 +1,215 @@
+{
+  "internalId": "album:2732013",
+  "id": "album:2732013",
+  "neteaseAlbumId": "2732013",
+  "slug": "beyonce",
+  "title": "BEYONCÉ",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2013-12-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2732013.webp",
+    "alt": "《BEYONCÉ》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2732013.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:28111061",
+      "neteaseTrackId": "28111061",
+      "title": "Pretty Hurts",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 257718
+    },
+    {
+      "id": "netease-track:28111062",
+      "neteaseTrackId": "28111062",
+      "title": "Haunted",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 369040
+    },
+    {
+      "id": "netease-track:28111063",
+      "neteaseTrackId": "28111063",
+      "title": "Drunk in Love",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "JAY-Z"
+      ],
+      "durationMs": 323480
+    },
+    {
+      "id": "netease-track:28111064",
+      "neteaseTrackId": "28111064",
+      "title": "Blow",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 309720
+    },
+    {
+      "id": "netease-track:28111065",
+      "neteaseTrackId": "28111065",
+      "title": "No Angel",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 228693
+    },
+    {
+      "id": "netease-track:28111067",
+      "neteaseTrackId": "28111067",
+      "title": "Partition",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 319466
+    },
+    {
+      "id": "netease-track:28111066",
+      "neteaseTrackId": "28111066",
+      "title": "Jealous",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 184013
+    },
+    {
+      "id": "netease-track:28111068",
+      "neteaseTrackId": "28111068",
+      "title": "Rocket",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 391906
+    },
+    {
+      "id": "netease-track:28111069",
+      "neteaseTrackId": "28111069",
+      "title": "Mine",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Drake"
+      ],
+      "durationMs": 378671
+    },
+    {
+      "id": "netease-track:28111070",
+      "neteaseTrackId": "28111070",
+      "title": "XO",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 216015
+    },
+    {
+      "id": "netease-track:28111071",
+      "neteaseTrackId": "28111071",
+      "title": "***Flawless",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Chimamanda Ngozi Adichie"
+      ],
+      "durationMs": 250960
+    },
+    {
+      "id": "netease-track:28111072",
+      "neteaseTrackId": "28111072",
+      "title": "Superpower",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Frank Ocean"
+      ],
+      "durationMs": 276560
+    },
+    {
+      "id": "netease-track:28111073",
+      "neteaseTrackId": "28111073",
+      "title": "Heaven",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 230893
+    },
+    {
+      "id": "netease-track:28111074",
+      "neteaseTrackId": "28111074",
+      "title": "Blue",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Blue Ivy"
+      ],
+      "durationMs": 266920
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=2732013",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "BEYONCÉ Beyoncé",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -20,7 +20,7 @@ function recordIsMatchable(record) {
   );
 }
 
-function matchesIdentity(album, record) {
+export function matchesRymIdentity(album, record) {
   if (!recordIsMatchable(record)) return false;
   const albumTitles = normalizedValues([album.title, ...album.aliases]);
   const recordTitles = normalizedValues(record.titles);
@@ -52,7 +52,7 @@ function duplicateKeys(terms) {
 
 export function validateRymTaxonomySnapshot(snapshot) {
   const errors = [];
-  if (snapshot?.version !== 1) errors.push("RYM taxonomy snapshot version must be 1.");
+  if (![1, 2].includes(snapshot?.version)) errors.push("RYM taxonomy snapshot version must be 1 or 2.");
   if (!Array.isArray(snapshot?.records)) errors.push("RYM taxonomy snapshot records must be an array.");
   if (typeof snapshot?.sourceDescription !== "string" || !snapshot.sourceDescription.trim()) {
     errors.push("RYM taxonomy snapshot sourceDescription is required.");
@@ -72,6 +72,22 @@ export function validateRymTaxonomySnapshot(snapshot) {
     if (!validTerms(record.primaryGenres)) errors.push(`${prefix}.primaryGenres is invalid.`);
     if (!validTerms(record.secondaryGenres)) errors.push(`${prefix}.secondaryGenres is invalid.`);
     if (!validTerms(record.descriptors)) errors.push(`${prefix}.descriptors is invalid.`);
+    if (record.rymRating != null && (!Number.isFinite(record.rymRating) || record.rymRating <= 0 || record.rymRating > 5)) {
+      errors.push(`${prefix}.rymRating must be null or a finite number greater than 0 and at most 5.`);
+    }
+    if (record.rymRatingCount != null && (!Number.isInteger(record.rymRatingCount) || record.rymRatingCount < 0)) {
+      errors.push(`${prefix}.rymRatingCount must be null or a non-negative integer.`);
+    }
+    if (record.rymRating == null && record.rymRatingCount != null) {
+      errors.push(`${prefix}.rymRatingCount cannot be published without rymRating.`);
+    }
+    if (record.rymRating != null) {
+      const observedAt = String(record.rymObservedAt ?? "");
+      const observedDate = new Date(observedAt);
+      if (!utcTimestamp.test(observedAt) || !Number.isFinite(observedDate.getTime()) || observedDate.toISOString() !== observedAt) {
+        errors.push(`${prefix}.rymObservedAt is required for a published rating.`);
+      }
+    }
     if (validTerms(record.primaryGenres) && validTerms(record.secondaryGenres) && validTerms(record.descriptors)) {
       for (const field of ["primaryGenres", "secondaryGenres", "descriptors"]) {
         for (const key of duplicateKeys(record[field])) errors.push(`${prefix}.${field} contains duplicate key ${key}.`);
@@ -86,7 +102,7 @@ export function validateRymTaxonomySnapshot(snapshot) {
 }
 
 export function resolveRymTaxonomy(album, manualCoreGenres, records) {
-  const candidates = records.filter((record) => matchesIdentity(album, record));
+  const candidates = records.filter((record) => matchesRymIdentity(album, record));
   const evidence = {
     titleAndAliases: [album.title, ...album.aliases],
     artists: album.artists.map((artist) => artist.name),
@@ -99,6 +115,13 @@ export function resolveRymTaxonomy(album, manualCoreGenres, records) {
         coreGenres: [...manualCoreGenres],
         relatedGenres: [],
         descriptors: [],
+      },
+      rym: {
+        rymRating: null,
+        rymRatingCount: null,
+        rymReference: null,
+        rymObservedAt: null,
+        rymMatchStatus: candidates.length ? "AMBIGUOUS" : "UNVERIFIED_NO_DATA",
       },
       terms: { primary: [], secondary: [], descriptors: [] },
       audit: {
@@ -122,6 +145,13 @@ export function resolveRymTaxonomy(album, manualCoreGenres, records) {
       primary: record.primaryGenres,
       secondary: record.secondaryGenres,
       descriptors: record.descriptors,
+    },
+    rym: {
+      rymRating: record.rymRating ?? null,
+      rymRatingCount: record.rymRating == null ? null : record.rymRatingCount ?? null,
+      rymReference: record.sourceReference,
+      rymObservedAt: record.rymObservedAt ?? null,
+      rymMatchStatus: "MATCHED",
     },
     audit: {
       albumId: album.neteaseAlbumId,

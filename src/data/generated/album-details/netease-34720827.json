@@ -1,0 +1,169 @@
+{
+  "internalId": "album:34720827",
+  "id": "album:34720827",
+  "neteaseAlbumId": "34720827",
+  "slug": "netease-34720827",
+  "title": "周杰伦的床边故事",
+  "aliases": [
+    "Jay Chou's Bedtime Stories"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2016-06-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34720827.webp",
+    "alt": "《周杰伦的床边故事》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34720827.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:415792916",
+      "neteaseTrackId": "415792916",
+      "title": "床边故事",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 226213
+    },
+    {
+      "id": "netease-track:418602084",
+      "neteaseTrackId": "418602084",
+      "title": "说走就走",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 266000
+    },
+    {
+      "id": "netease-track:418603076",
+      "neteaseTrackId": "418603076",
+      "title": "一点点",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 221266
+    },
+    {
+      "id": "netease-track:415792918",
+      "neteaseTrackId": "415792918",
+      "title": "前世情人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 202606
+    },
+    {
+      "id": "netease-track:418602085",
+      "neteaseTrackId": "418602085",
+      "title": "英雄",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 201746
+    },
+    {
+      "id": "netease-track:417250561",
+      "neteaseTrackId": "417250561",
+      "title": "不该",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "张惠妹"
+      ],
+      "durationMs": 290133
+    },
+    {
+      "id": "netease-track:418602086",
+      "neteaseTrackId": "418602086",
+      "title": "土耳其冰淇淋",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 195760
+    },
+    {
+      "id": "netease-track:418603077",
+      "neteaseTrackId": "418603077",
+      "title": "告白气球",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 215146
+    },
+    {
+      "id": "netease-track:417247652",
+      "neteaseTrackId": "417247652",
+      "title": "Now You See Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 174053
+    },
+    {
+      "id": "netease-track:418602087",
+      "neteaseTrackId": "418602087",
+      "title": "爱情废柴",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 285616
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=34720827",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "周杰伦的床边故事 Jay Chou's Bedtime Stories 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,122 @@
+{
+  "internalId": "album:3082267",
+  "id": "album:3082267",
+  "neteaseAlbumId": "3082267",
+  "slug": "netease-3082267",
+  "title": "MC法老的Demo",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:865007",
+      "neteaseArtistId": "865007",
+      "name": "法老"
+    }
+  ],
+  "releaseDate": "2014-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/3082267.webp",
+    "alt": "《MC法老的Demo》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/3082267.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:29810026",
+      "neteaseTrackId": "29810026",
+      "title": "1000000￥",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 221000
+    },
+    {
+      "id": "netease-track:29810027",
+      "neteaseTrackId": "29810027",
+      "title": "future",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 324000
+    },
+    {
+      "id": "netease-track:29810028",
+      "neteaseTrackId": "29810028",
+      "title": "hiphop dream",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 252000
+    },
+    {
+      "id": "netease-track:29810029",
+      "neteaseTrackId": "29810029",
+      "title": "just another day",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 296385
+    },
+    {
+      "id": "netease-track:29810031",
+      "neteaseTrackId": "29810031",
+      "title": "老师",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 207000
+    },
+    {
+      "id": "netease-track:29810032",
+      "neteaseTrackId": "29810032",
+      "title": "请跟这烂圈子说再见",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 255000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=3082267",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "MC法老的Demo 法老",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

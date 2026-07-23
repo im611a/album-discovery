@@ -1,0 +1,100 @@
+{
+  "internalId": "album:178583700",
+  "id": "album:178583700",
+  "neteaseAlbumId": "178583700",
+  "slug": "netease-178583700",
+  "title": "暗流",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12463331",
+      "neteaseArtistId": "12463331",
+      "name": "deca joins"
+    }
+  ],
+  "releaseDate": "2023-12-11",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "发现梦想",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/178583700.webp",
+    "alt": "《暗流》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/178583700.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2097764542",
+      "neteaseTrackId": "2097764542",
+      "title": "我和我的遐想",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 331041
+    },
+    {
+      "id": "netease-track:2097764786",
+      "neteaseTrackId": "2097764786",
+      "title": "暗流",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 262539
+    },
+    {
+      "id": "netease-track:2097764544",
+      "neteaseTrackId": "2097764544",
+      "title": "天堂与泥土",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 234750
+    },
+    {
+      "id": "netease-track:2097764787",
+      "neteaseTrackId": "2097764787",
+      "title": "沉淀",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 239125
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=178583700",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "暗流 deca joins",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

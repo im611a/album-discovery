@@ -1,0 +1,155 @@
+{
+  "internalId": "album:35695038",
+  "id": "album:35695038",
+  "neteaseAlbumId": "35695038",
+  "slug": "netease-35695038",
+  "title": "河床",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:4934",
+      "neteaseArtistId": "4934",
+      "name": "苏阳"
+    }
+  ],
+  "releaseDate": "2017-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beijing Modern Sky Culture Development Co.,Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35695038.webp",
+    "alt": "《河床》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35695038.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:487587115",
+      "neteaseTrackId": "487587115",
+      "title": "珍珠卷帘",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 506480
+    },
+    {
+      "id": "netease-track:479938471",
+      "neteaseTrackId": "479938471",
+      "title": "河水南流",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 425080
+    },
+    {
+      "id": "netease-track:485960329",
+      "neteaseTrackId": "485960329",
+      "title": "黑骡子",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 373186
+    },
+    {
+      "id": "netease-track:487587144",
+      "neteaseTrackId": "487587144",
+      "title": "家在天涯",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 369746
+    },
+    {
+      "id": "netease-track:487590149",
+      "neteaseTrackId": "487590149",
+      "title": "水冰草",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 382240
+    },
+    {
+      "id": "netease-track:487587146",
+      "neteaseTrackId": "487587146",
+      "title": "脚步",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 334613
+    },
+    {
+      "id": "netease-track:487587150",
+      "neteaseTrackId": "487587150",
+      "title": "三花嫂令·尕燕",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 253226
+    },
+    {
+      "id": "netease-track:487587153",
+      "neteaseTrackId": "487587153",
+      "title": "河床",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 263933
+    },
+    {
+      "id": "netease-track:487590154",
+      "neteaseTrackId": "487590154",
+      "title": "水冰草 (Live)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 425186
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=35695038",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "河床 苏阳",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,177 @@
+{
+  "internalId": "album:1637054",
+  "id": "album:1637054",
+  "neteaseAlbumId": "1637054",
+  "slug": "rumours",
+  "title": "Rumours",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1977-02-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637054.webp",
+    "alt": "《Rumours》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1637054.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17786166",
+      "neteaseTrackId": "17786166",
+      "title": "Second Hand News (2004 Remaster)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 176306
+    },
+    {
+      "id": "netease-track:17786167",
+      "neteaseTrackId": "17786167",
+      "title": "Dreams (2004 Remaster)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 257800
+    },
+    {
+      "id": "netease-track:17786168",
+      "neteaseTrackId": "17786168",
+      "title": "Never Going Back Again (2004 Remaster)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 134400
+    },
+    {
+      "id": "netease-track:17786169",
+      "neteaseTrackId": "17786169",
+      "title": "Don't Stop (2004 Remaster)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 193346
+    },
+    {
+      "id": "netease-track:17786170",
+      "neteaseTrackId": "17786170",
+      "title": "Go Your Own Way (2004 Remaster)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 223613
+    },
+    {
+      "id": "netease-track:17786171",
+      "neteaseTrackId": "17786171",
+      "title": "Songbird (2004 Remaster)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 200813
+    },
+    {
+      "id": "netease-track:17786172",
+      "neteaseTrackId": "17786172",
+      "title": "The Chain (2004 Remaster)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 268200
+    },
+    {
+      "id": "netease-track:17786173",
+      "neteaseTrackId": "17786173",
+      "title": "You Make Loving Fun (2004 Remaster)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 213693
+    },
+    {
+      "id": "netease-track:17786174",
+      "neteaseTrackId": "17786174",
+      "title": "I Don't Want to Know (2004 Remaster)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 196853
+    },
+    {
+      "id": "netease-track:17786175",
+      "neteaseTrackId": "17786175",
+      "title": "Oh Daddy (2004 Remaster)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 236240
+    },
+    {
+      "id": "netease-track:17786176",
+      "neteaseTrackId": "17786176",
+      "title": "Gold Dust Woman (2004 Remaster)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 295626
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1637054",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Rumours Fleetwood Mac",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

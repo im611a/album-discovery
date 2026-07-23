@@ -1,0 +1,155 @@
+{
+  "internalId": "album:123717462",
+  "id": "album:123717462",
+  "neteaseAlbumId": "123717462",
+  "slug": "netease-123717462",
+  "title": "世间的每个人",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2021-02-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/123717462.webp",
+    "alt": "《世间的每个人》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/123717462.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1824002308",
+      "neteaseTrackId": "1824002308",
+      "title": "世间的每个人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 354782
+    },
+    {
+      "id": "netease-track:1824002309",
+      "neteaseTrackId": "1824002309",
+      "title": "我的星座",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 259714
+    },
+    {
+      "id": "netease-track:1824002310",
+      "neteaseTrackId": "1824002310",
+      "title": "向着大海而行",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 267527
+    },
+    {
+      "id": "netease-track:1824002312",
+      "neteaseTrackId": "1824002312",
+      "title": "奇台三十里",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 326557
+    },
+    {
+      "id": "netease-track:1824002313",
+      "neteaseTrackId": "1824002313",
+      "title": "风向朝西",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 269992
+    },
+    {
+      "id": "netease-track:1824002314",
+      "neteaseTrackId": "1824002314",
+      "title": "沙丘",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 367500
+    },
+    {
+      "id": "netease-track:1824002968",
+      "neteaseTrackId": "1824002968",
+      "title": "梦更真实",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 245504
+    },
+    {
+      "id": "netease-track:1824002315",
+      "neteaseTrackId": "1824002315",
+      "title": "牢兰海",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 275172
+    },
+    {
+      "id": "netease-track:1824002316",
+      "neteaseTrackId": "1824002316",
+      "title": "就在这一刻",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 268575
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=123717462",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "世间的每个人 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

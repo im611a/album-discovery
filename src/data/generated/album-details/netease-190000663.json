@@ -1,0 +1,246 @@
+{
+  "internalId": "album:190000663",
+  "id": "album:190000663",
+  "neteaseAlbumId": "190000663",
+  "slug": "netease-190000663",
+  "title": "那小子真帅",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:14117457",
+      "neteaseArtistId": "14117457",
+      "name": "SASIOVERLXRD"
+    }
+  ],
+  "releaseDate": "2024-03-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/190000663.webp",
+    "alt": "《那小子真帅》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/190000663.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2139033020",
+      "neteaseTrackId": "2139033020",
+      "title": "数我的钱(Prod.Heisenberg)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 145979
+    },
+    {
+      "id": "netease-track:2139033023",
+      "neteaseTrackId": "2139033023",
+      "title": "Grrah！！！(Prod.byjxny)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 119994
+    },
+    {
+      "id": "netease-track:2139596470",
+      "neteaseTrackId": "2139596470",
+      "title": "胸弟(Prod.4Harry)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "JinJiBeWater_隼",
+        "连麻Swimming"
+      ],
+      "durationMs": 131022
+    },
+    {
+      "id": "netease-track:2139033768",
+      "neteaseTrackId": "2139033768",
+      "title": "321 (Prod.bonnytown)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 145523
+    },
+    {
+      "id": "netease-track:2139033786",
+      "neteaseTrackId": "2139033786",
+      "title": "那小子真帅(Prod.YvKsel2)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 139499
+    },
+    {
+      "id": "netease-track:2139033088",
+      "neteaseTrackId": "2139033088",
+      "title": "LOVE WIT DA BENJI(Prod.FamiliarIX)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 125866
+    },
+    {
+      "id": "netease-track:2139033851",
+      "neteaseTrackId": "2139033851",
+      "title": "都是我挣的(Prod.YayOnbeat)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 128402
+    },
+    {
+      "id": "netease-track:2139033871",
+      "neteaseTrackId": "2139033871",
+      "title": "天下乌鸦一般黑(Prod.Fusion)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "424KP"
+      ],
+      "durationMs": 178780
+    },
+    {
+      "id": "netease-track:2139033163",
+      "neteaseTrackId": "2139033163",
+      "title": "半套(Prod.2FAS)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 131924
+    },
+    {
+      "id": "netease-track:2139033908",
+      "neteaseTrackId": "2139033908",
+      "title": "CASH MONEY 3(Prod.YOUNGBING)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 140133
+    },
+    {
+      "id": "netease-track:2139033190",
+      "neteaseTrackId": "2139033190",
+      "title": "脆弱(Prod.Shot03）",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 142292
+    },
+    {
+      "id": "netease-track:2139033926",
+      "neteaseTrackId": "2139033926",
+      "title": "可惜你不在(Prod.AYEYOUNG)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 134006
+    },
+    {
+      "id": "netease-track:2139033235",
+      "neteaseTrackId": "2139033235",
+      "title": "15(Prod.TurnItUpKaRon)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 192096
+    },
+    {
+      "id": "netease-track:2139033266",
+      "neteaseTrackId": "2139033266",
+      "title": "钱是我的家人(Prod.Rahkim)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 168350
+    },
+    {
+      "id": "netease-track:2139034000",
+      "neteaseTrackId": "2139034000",
+      "title": "憎(Prod.YOUNGBING)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 156619
+    },
+    {
+      "id": "netease-track:2139033286",
+      "neteaseTrackId": "2139033286",
+      "title": "雪钻(Prod.YOUNGBING)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "刀脚"
+      ],
+      "durationMs": 143673
+    },
+    {
+      "id": "netease-track:2139033296",
+      "neteaseTrackId": "2139033296",
+      "title": "钱专注(Prod.DeeMarc)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 218126
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=190000663",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "那小子真帅 SASIOVERLXRD",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

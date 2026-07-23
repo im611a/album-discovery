@@ -1,0 +1,85 @@
+{
+  "internalId": "album:385720805",
+  "id": "album:385720805",
+  "neteaseAlbumId": "385720805",
+  "slug": "netease-385720805",
+  "title": "三文语 下",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:33154502",
+      "neteaseArtistId": "33154502",
+      "name": "朝简"
+    }
+  ],
+  "releaseDate": "2026-07-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京窦唯音乐工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/385720805.webp",
+    "alt": "《三文语 下》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/385720805.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3402835320",
+      "neteaseTrackId": "3402835320",
+      "title": "风赋",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 598000
+    },
+    {
+      "id": "netease-track:3402835353",
+      "neteaseTrackId": "3402835353",
+      "title": "自祭文/五柳先生传",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 1590038
+    }
+  ],
+  "trackCount": 2,
+  "externalUrl": "https://music.163.com/#/album?id=385720805",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "三文语 下 窦唯 朝简",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

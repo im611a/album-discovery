@@ -1,0 +1,282 @@
+{
+  "internalId": "album:128015189",
+  "id": "album:128015189",
+  "neteaseAlbumId": "128015189",
+  "slug": "netease-128015189",
+  "title": "Goodkidstape 1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48165702",
+      "neteaseArtistId": "48165702",
+      "name": "A Few Good Kids Records"
+    },
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    },
+    {
+      "id": "netease-artist:12195296",
+      "neteaseArtistId": "12195296",
+      "name": "YOUNG13DBABY"
+    },
+    {
+      "id": "netease-artist:12022040",
+      "neteaseArtistId": "12022040",
+      "name": "FENDIGHEE RICCH"
+    },
+    {
+      "id": "netease-artist:33937972",
+      "neteaseArtistId": "33937972",
+      "name": "CashTrippy"
+    },
+    {
+      "id": "netease-artist:37343079",
+      "neteaseArtistId": "37343079",
+      "name": "YTH Chopie"
+    },
+    {
+      "id": "netease-artist:13911452",
+      "neteaseArtistId": "13911452",
+      "name": "ATM Hanson"
+    },
+    {
+      "id": "netease-artist:34402395",
+      "neteaseArtistId": "34402395",
+      "name": "Lil Ken"
+    }
+  ],
+  "releaseDate": "2021-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "A Few Good Kids Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/128015189.webp",
+    "alt": "《Goodkidstape 1》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/128015189.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1848204636",
+      "neteaseTrackId": "1848204636",
+      "title": "2 Seater 双门跑车",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "FENDIGHEE RICCH",
+        "YOUNG13DBABY",
+        "YTH Chopie",
+        "CashTrippy",
+        "ATM Hanson"
+      ],
+      "durationMs": 212024
+    },
+    {
+      "id": "netease-track:1848204639",
+      "neteaseTrackId": "1848204639",
+      "title": "A Few Bad Chicks 稀有“坏”女孩",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "马思唯",
+        "FENDIGHEE RICCH",
+        "YOUNG13DBABY",
+        "YTH Chopie",
+        "CashTrippy",
+        "ATM Hanson"
+      ],
+      "durationMs": 243934
+    },
+    {
+      "id": "netease-track:1848204633",
+      "neteaseTrackId": "1848204633",
+      "title": "Phoenix 凤凰",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "FENDIGHEE RICCH",
+        "YOUNG13DBABY",
+        "YTH Chopie",
+        "CashTrippy",
+        "ATM Hanson"
+      ],
+      "durationMs": 136074
+    },
+    {
+      "id": "netease-track:1848201252",
+      "neteaseTrackId": "1848201252",
+      "title": "Ain’t No Rumors 别听Ta说",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "CashTrippy",
+        "FENDIGHEE RICCH",
+        "ATM Hanson"
+      ],
+      "durationMs": 168597
+    },
+    {
+      "id": "netease-track:1848204634",
+      "neteaseTrackId": "1848204634",
+      "title": "Apollo Driller 阿波罗使者",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "FENDIGHEE RICCH",
+        "YOUNG13DBABY",
+        "ATM Hanson"
+      ],
+      "durationMs": 125152
+    },
+    {
+      "id": "netease-track:1848204637",
+      "neteaseTrackId": "1848204637",
+      "title": "Let's Go Eat 贪吃蛇",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "YOUNG13DBABY",
+        "YTH Chopie",
+        "CashTrippy",
+        "ATM Hanson"
+      ],
+      "durationMs": 182495
+    },
+    {
+      "id": "netease-track:1848204640",
+      "neteaseTrackId": "1848204640",
+      "title": "I’ll Be Fine 别担心我",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "马思唯",
+        "CashTrippy",
+        "FENDIGHEE RICCH"
+      ],
+      "durationMs": 248415
+    },
+    {
+      "id": "netease-track:1848204635",
+      "neteaseTrackId": "1848204635",
+      "title": "Confident 自信",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "马思唯",
+        "CashTrippy",
+        "YOUNG13DBABY",
+        "ATM Hanson"
+      ],
+      "durationMs": 190570
+    },
+    {
+      "id": "netease-track:1848201254",
+      "neteaseTrackId": "1848201254",
+      "title": "Southside Love 南部爱",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "FENDIGHEE RICCH",
+        "YOUNG13DBABY",
+        "YTH Chopie",
+        "CashTrippy",
+        "ATM Hanson"
+      ],
+      "durationMs": 221368
+    },
+    {
+      "id": "netease-track:1848204638",
+      "neteaseTrackId": "1848204638",
+      "title": "IDC 无所谓",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "Lil Ken",
+        "YOUNG13DBABY",
+        "YTH Chopie",
+        "ATM Hanson"
+      ],
+      "durationMs": 179246
+    },
+    {
+      "id": "netease-track:1848204641",
+      "neteaseTrackId": "1848204641",
+      "title": "Beijing Master 京城少爷",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "马思唯",
+        "RSZ"
+      ],
+      "durationMs": 227517
+    },
+    {
+      "id": "netease-track:1848204642",
+      "neteaseTrackId": "1848204642",
+      "title": "Best Friend (Remix) 好朋友",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "马思唯",
+        "YTH Chopie"
+      ],
+      "durationMs": 160000
+    },
+    {
+      "id": "netease-track:1848201253",
+      "neteaseTrackId": "1848201253",
+      "title": "Like Dis (Remix) 像这样",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "A Few Good Kids Records",
+        "马思唯",
+        "CashTrippy"
+      ],
+      "durationMs": 131305
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=128015189",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Goodkidstape 1 A Few Good Kids Records 马思唯 YOUNG13DBABY FENDIGHEE RICCH CashTrippy YTH Chopie ATM Hanson Lil Ken",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

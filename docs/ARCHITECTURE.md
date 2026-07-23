@@ -1,44 +1,41 @@
 # 现行架构
 
-## 数据流
+## 发布数据流
 
 ```text
-中文优先候选 + 固定网易云 albumId
-→ 串行、限频、可缓存的构建期刷新
-→ 网易云公开专辑详情 / 本地封面
-→ 规范化、离线 RYM 唯一匹配或人工核心流派与硬校验
-→ src/data/generated/catalog-index.json（列表）+ catalog.json（详情）
-→ src/catalog 查询与确定性推荐
+本地 JSON/CSV 审核种子
+→ 可恢复网易云构建期同步（缓存、检查点、限频、有限重试）
+→ 候选目录规范化和完整校验
+→ 可选离线 RYM 唯一复合匹配
+→ 原子发布轻量专辑索引、逐专辑详情和艺人索引
 → App Router 静态页面
 → 浏览器本机个人状态
 ```
 
-浏览器只读取随站点发布的本地快照。Provider 请求、原始缓存和请求日志不进入页面依赖。构建时为全部专辑生成静态详情路由，并通过 `output: "export"` 写入 `out/`。
+浏览器只读取随站点发布的本地快照。Provider 请求、缓存、检查点与失败日志不进入前端依赖。
 
-## 主要边界
+## 快照拆分
 
-- `scripts/catalog/**`：固定网易云身份、匿名构建期访问、规范化、封面下载、校验和报告。
-- `public/catalog/covers/**`：按 neteaseAlbumId 命名的本地封面。
-- `src/data/generated/**`：确定性的发布快照与统计。
-- `src/catalog/**`：发布模型、统一分类显示、搜索、发现查询、相关专辑和推荐评分。
-- `src/features/personal-state/**`：版本化本机状态、校验、目录 ID 对账、损坏恢复与 React 上下文。
-- `src/app/**`：静态页面结构和元数据。
-- `src/components/**`：客户端交互，只消费发布模型，不了解上游响应。
+- `catalog-index.json`：列表、搜索、发现和推荐使用的轻量专辑字段，不含曲目、公司、外链和来源对象；
+- `album-details/*.json`：每张专辑一个详情文件，只在对应静态详情构建时读取；
+- `artist-index.json`：艺人身份、专辑数量、类型统计、年份范围、常见核心流派和关联专辑；
+- `catalog.json`：维护与校验使用的完整稳定快照，不进入共享浏览器列表模块。
 
-## 发布模型
+319 张详情与 274 位艺人都在构建时生成静态路由。没有数据库。
 
-`PublishedAlbum` 同时保存内部稳定 ID 与 `neteaseAlbumId`。网易云负责专辑身份和目录字段。可靠匹配时，`coreGenres`、`relatedGenres`、`descriptors` 分别映射离线 RYM Primary Genres、Secondary Genres、Descriptors；未匹配时只允许人工确认的 `coreGenres`，其余两类必须为空。`contexts` 与 `editorial` 属于本地策展层。`sourceMarketChannels` 是发现记录，不是专辑固有地区字段。
+## 模块边界
 
-RYM 匹配是构建期纯函数，必须同时核对标题与别名、艺人、发行年份和发行类型，并要求唯一候选。输入仅来自 checked-in 离线快照；浏览器、构建和刷新均不访问 RYM 网站。发现页始终保留相关流派与氛围筛选控件，但选项只由实际发布值构造；空分类不会生成虚假选项，旧 URL 中的无效参数会安全忽略。
+- `scripts/catalog/**`：同步、缓存、规范化、校验、可选 RYM 增强、封面优化和原子发布；
+- `src/data/generated/**`：确定性发布快照；
+- `src/catalog/**`：轻量查询、搜索、分类显示和确定性推荐；
+- `src/features/personal-state/**`：版本化本机状态、迁移、目录 ID 对账和损坏恢复；
+- `src/components/**`：只消费发布模型，不了解上游响应；
+- `src/app/**`：静态路由、页面结构和元数据。
 
-## 推荐
+## 同步安全
 
-推荐引擎是纯 TypeScript 确定性函数。权重集中在 `RECOMMENDATION_WEIGHTS`，输入包括核心流派、相关流派、氛围特征、场景、年代、种子、想听、喜欢、近期浏览与显式反馈。想听作为弱正向种子且自身被排除，喜欢作为强正向种子且自身被排除，听过被排除，不适合同时形成排除与负向相似度信号。理由只来自真实得分贡献。
-
-## 本机状态
-
-`LocalUserStateV1` 使用固定 storage key。加载时验证结构、迁移可识别的旧状态、拒绝未来版本、过滤已离开目录的 ID，并统一喜欢与不适合冲突。损坏或存储不可用不会让页面崩溃。没有远程同步、账号或分析 SDK。
+`catalog:sync` 对种子去重并按固定批次顺序处理。原始响应优先使用本地缓存；resume 从检查点继续；失败记录结构化原因。候选验证失败或单项失败时不发布，因此稳定目录不会被半成品覆盖。网易云更新字段与 RYM 字段分开合并，避免清除已有可靠增强数据。
 
 ## 静态交付
 
-`pnpm build` 完成 Next.js 静态导出。`pnpm package:source` 在仓库根目录创建干净源码包；`pnpm package:static` 将 `out/` 根内容创建为仓库根目录的可部署静态包；`pnpm delivery:verify` 解包并检查首页、全部详情页、静态资源和禁止项。静态站点不需要 Next.js 开发服务器，深层路由使用目录式 `index.html`。
+Next.js 使用 `output: "export"`。列表图片读取 360px WebP 缩略图，详情读取最高 960px WebP；原始 JPG 不进入交付 ZIP。静态站点根目录包含构建标识，深层路由使用目录式 `index.html`。

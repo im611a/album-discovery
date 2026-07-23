@@ -1,0 +1,133 @@
+{
+  "internalId": "album:38200",
+  "id": "album:38200",
+  "neteaseAlbumId": "38200",
+  "slug": "netease-38200",
+  "title": "7 Objects in Another Infinite Space",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2007-04-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38200.webp",
+    "alt": "《7 Objects in Another Infinite Space》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38200.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:385385",
+      "neteaseTrackId": "385385",
+      "title": "缘",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 810973
+    },
+    {
+      "id": "netease-track:385386",
+      "neteaseTrackId": "385386",
+      "title": "Break the Cars",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 576440
+    },
+    {
+      "id": "netease-track:385387",
+      "neteaseTrackId": "385387",
+      "title": "甜井",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 151920
+    },
+    {
+      "id": "netease-track:385388",
+      "neteaseTrackId": "385388",
+      "title": "2005.1.26",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 299346
+    },
+    {
+      "id": "netease-track:385389",
+      "neteaseTrackId": "385389",
+      "title": "思乡病",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 608653
+    },
+    {
+      "id": "netease-track:385390",
+      "neteaseTrackId": "385390",
+      "title": "驿站",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 370106
+    },
+    {
+      "id": "netease-track:385391",
+      "neteaseTrackId": "385391",
+      "title": "No Dust at All",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 570333
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=38200",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "7 Objects in Another Infinite Space 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

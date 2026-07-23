@@ -1,0 +1,128 @@
+{
+  "internalId": "album:35021549",
+  "id": "album:35021549",
+  "neteaseAlbumId": "35021549",
+  "slug": "netease-35021549",
+  "title": "东海岸",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:865007",
+      "neteaseArtistId": "865007",
+      "name": "法老"
+    }
+  ],
+  "releaseDate": "2016-12-03",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35021549.webp",
+    "alt": "《东海岸》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35021549.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:444356622",
+      "neteaseTrackId": "444356622",
+      "title": "hardcore head to toe （Feat.畸形儿KKK）",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 240889
+    },
+    {
+      "id": "netease-track:444356626",
+      "neteaseTrackId": "444356626",
+      "title": "可爱颂remix （prod by yoken）",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "Yoken_Official"
+      ],
+      "durationMs": 184131
+    },
+    {
+      "id": "netease-track:444356629",
+      "neteaseTrackId": "444356629",
+      "title": "杜尔迦 （feat泠风）",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "泠风"
+      ],
+      "durationMs": 199475
+    },
+    {
+      "id": "netease-track:444356636",
+      "neteaseTrackId": "444356636",
+      "title": "思绪城市（hook by genius,remix乐天）",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "Genius",
+        "乐天"
+      ],
+      "durationMs": 206978
+    },
+    {
+      "id": "netease-track:444323756",
+      "neteaseTrackId": "444323756",
+      "title": "W.D.G.A.F （higher brother diss back）",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "DJshooter"
+      ],
+      "durationMs": 200259
+    },
+    {
+      "id": "netease-track:444323757",
+      "neteaseTrackId": "444323757",
+      "title": "我想 （正式版）feat.泠风",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "泠风"
+      ],
+      "durationMs": 253897
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=35021549",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "东海岸 法老",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

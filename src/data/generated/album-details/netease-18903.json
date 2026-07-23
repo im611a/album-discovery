@@ -1,0 +1,169 @@
+{
+  "internalId": "album:18903",
+  "id": "album:18903",
+  "neteaseAlbumId": "18903",
+  "slug": "netease-18903",
+  "title": "七里香",
+  "aliases": [
+    "Common Jasmine Orange"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2004-08-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18903.webp",
+    "alt": "《七里香》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18903.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186000",
+      "neteaseTrackId": "186000",
+      "title": "我的地盘",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 244640
+    },
+    {
+      "id": "netease-track:186001",
+      "neteaseTrackId": "186001",
+      "title": "七里香",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 299000
+    },
+    {
+      "id": "netease-track:186002",
+      "neteaseTrackId": "186002",
+      "title": "借口",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:186003",
+      "neteaseTrackId": "186003",
+      "title": "外婆",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "张欣瑜"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:186004",
+      "neteaseTrackId": "186004",
+      "title": "将军",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 204000
+    },
+    {
+      "id": "netease-track:186005",
+      "neteaseTrackId": "186005",
+      "title": "搁浅",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:186006",
+      "neteaseTrackId": "186006",
+      "title": "乱舞春秋",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 279000
+    },
+    {
+      "id": "netease-track:186007",
+      "neteaseTrackId": "186007",
+      "title": "困兽之斗",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:186008",
+      "neteaseTrackId": "186008",
+      "title": "园游会",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 255000
+    },
+    {
+      "id": "netease-track:186009",
+      "neteaseTrackId": "186009",
+      "title": "止战之殇",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 274000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18903",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "七里香 Common Jasmine Orange 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

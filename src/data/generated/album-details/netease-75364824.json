@@ -1,0 +1,163 @@
+{
+  "internalId": "album:75364824",
+  "id": "album:75364824",
+  "neteaseAlbumId": "75364824",
+  "slug": "netease-75364824",
+  "title": "丽江的春天",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    },
+    {
+      "id": "netease-artist:54504757",
+      "neteaseArtistId": "54504757",
+      "name": "笑傲江湖马戏乐团"
+    }
+  ],
+  "releaseDate": "2026-01-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京仙人球球文化有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/75364824.webp",
+    "alt": "《丽江的春天》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/75364824.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1472345197",
+      "neteaseTrackId": "1472345197",
+      "title": "丽江的春天",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 304390
+    },
+    {
+      "id": "netease-track:1430904333",
+      "neteaseTrackId": "1430904333",
+      "title": "最高处",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 340566
+    },
+    {
+      "id": "netease-track:1432447034",
+      "neteaseTrackId": "1432447034",
+      "title": "爱情的枪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 398000
+    },
+    {
+      "id": "netease-track:1896731981",
+      "neteaseTrackId": "1896731981",
+      "title": "吹牛",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 181011
+    },
+    {
+      "id": "netease-track:1453108062",
+      "neteaseTrackId": "1453108062",
+      "title": "最高处",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 182205
+    },
+    {
+      "id": "netease-track:1432364220",
+      "neteaseTrackId": "1432364220",
+      "title": "手风琴，小堡村，中国宋庄",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 198570
+    },
+    {
+      "id": "netease-track:1369453577",
+      "neteaseTrackId": "1369453577",
+      "title": "再见 可爱的小伙子",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 315989
+    },
+    {
+      "id": "netease-track:1478462531",
+      "neteaseTrackId": "1478462531",
+      "title": "隔壁老王",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 146500
+    },
+    {
+      "id": "netease-track:1373812311",
+      "neteaseTrackId": "1373812311",
+      "title": "天才计划",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 210613
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=75364824",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "丽江的春天 左小祖咒 笑傲江湖马戏乐团",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

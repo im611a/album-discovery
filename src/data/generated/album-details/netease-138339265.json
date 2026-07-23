@@ -1,0 +1,350 @@
+{
+  "internalId": "album:138339265",
+  "id": "album:138339265",
+  "neteaseAlbumId": "138339265",
+  "slug": "netease-138339265",
+  "title": "DIGI GHETTO",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:33693423",
+      "neteaseArtistId": "33693423",
+      "name": "DIGI GHETTO"
+    },
+    {
+      "id": "netease-artist:30704161",
+      "neteaseArtistId": "30704161",
+      "name": "mac ova seas"
+    },
+    {
+      "id": "netease-artist:12110173",
+      "neteaseArtistId": "12110173",
+      "name": "THOME"
+    },
+    {
+      "id": "netease-artist:12529648",
+      "neteaseArtistId": "12529648",
+      "name": "KIV"
+    },
+    {
+      "id": "netease-artist:12730273",
+      "neteaseArtistId": "12730273",
+      "name": "TOYOKI"
+    },
+    {
+      "id": "netease-artist:12198387",
+      "neteaseArtistId": "12198387",
+      "name": "艾志恒Asen"
+    },
+    {
+      "id": "netease-artist:14925064",
+      "neteaseArtistId": "14925064",
+      "name": "MULA SAKEE"
+    },
+    {
+      "id": "netease-artist:51088331",
+      "neteaseArtistId": "51088331",
+      "name": "付思遥"
+    },
+    {
+      "id": "netease-artist:33216986",
+      "neteaseArtistId": "33216986",
+      "name": "SETI"
+    }
+  ],
+  "releaseDate": "2022-01-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/138339265.webp",
+    "alt": "《DIGI GHETTO》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/138339265.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1907868691",
+      "neteaseTrackId": "1907868691",
+      "title": "地基街头",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "DIGI GHETTO",
+        "THOME",
+        "KIV",
+        "TOYOKI",
+        "艾志恒Asen",
+        "MULA SAKEE",
+        "mac ova seas",
+        "付思遥"
+      ],
+      "durationMs": 439403
+    },
+    {
+      "id": "netease-track:1909081625",
+      "neteaseTrackId": "1909081625",
+      "title": "东南西北",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "KIV",
+        "TOYOKI",
+        "THOME",
+        "mac ova seas",
+        "付思遥",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 266956
+    },
+    {
+      "id": "netease-track:1909536722",
+      "neteaseTrackId": "1909536722",
+      "title": "换血",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "MULA SAKEE",
+        "艾志恒Asen",
+        "THOME",
+        "付思遥",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 236086
+    },
+    {
+      "id": "netease-track:1909082622",
+      "neteaseTrackId": "1909082622",
+      "title": "芳草地",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "KIV",
+        "mac ova seas",
+        "THOME",
+        "MULA SAKEE",
+        "付思遥",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 262396
+    },
+    {
+      "id": "netease-track:1909081601",
+      "neteaseTrackId": "1909081601",
+      "title": "危险体验",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "TOYOKI",
+        "付思遥",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 139523
+    },
+    {
+      "id": "netease-track:1909081618",
+      "neteaseTrackId": "1909081618",
+      "title": "太古里",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "THOME",
+        "艾志恒Asen",
+        "MULA SAKEE",
+        "KIV",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 233142
+    },
+    {
+      "id": "netease-track:1909081616",
+      "neteaseTrackId": "1909081616",
+      "title": "成都一夜",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "mac ova seas",
+        "MULA SAKEE",
+        "艾志恒Asen",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 182026
+    },
+    {
+      "id": "netease-track:1909081614",
+      "neteaseTrackId": "1909081614",
+      "title": "操作",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "MULA SAKEE",
+        "艾志恒Asen",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 171076
+    },
+    {
+      "id": "netease-track:1909081612",
+      "neteaseTrackId": "1909081612",
+      "title": "一览众山小",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "TOYOKI",
+        "KIV",
+        "付思遥",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 146833
+    },
+    {
+      "id": "netease-track:1909081619",
+      "neteaseTrackId": "1909081619",
+      "title": "死神",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "THOME",
+        "艾志恒Asen",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 253384
+    },
+    {
+      "id": "netease-track:1909081615",
+      "neteaseTrackId": "1909081615",
+      "title": "我的世界",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "SETI",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 178168
+    },
+    {
+      "id": "netease-track:1909082617",
+      "neteaseTrackId": "1909082617",
+      "title": "独一VU二",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "THOME",
+        "TOYOKI",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 194999
+    },
+    {
+      "id": "netease-track:1909081610",
+      "neteaseTrackId": "1909081610",
+      "title": "世界尽头",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "TOYOKI",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 148124
+    },
+    {
+      "id": "netease-track:1909081613",
+      "neteaseTrackId": "1909081613",
+      "title": "欺负Freestyle",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "mac ova seas",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 153033
+    },
+    {
+      "id": "netease-track:1909082614",
+      "neteaseTrackId": "1909082614",
+      "title": "闪",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "MULA SAKEE",
+        "THOME",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 173142
+    },
+    {
+      "id": "netease-track:1909081603",
+      "neteaseTrackId": "1909081603",
+      "title": "子弹时间",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "THOME",
+        "KIV",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 140869
+    },
+    {
+      "id": "netease-track:1909082618",
+      "neteaseTrackId": "1909082618",
+      "title": "道不同不相为谋",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "MULA SAKEE",
+        "DIGI GHETTO"
+      ],
+      "durationMs": 195291
+    },
+    {
+      "id": "netease-track:1909488696",
+      "neteaseTrackId": "1909488696",
+      "title": "水泊梁山",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "mac ova seas",
+        "THOME",
+        "MULA SAKEE",
+        "艾志恒Asen",
+        "TOYOKI",
+        "KIV",
+        "付思遥"
+      ],
+      "durationMs": 208628
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=138339265",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "DIGI GHETTO DIGI GHETTO mac ova seas THOME KIV TOYOKI 艾志恒Asen MULA SAKEE 付思遥 SETI",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

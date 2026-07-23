@@ -13,7 +13,12 @@ if (listed.status !== 0) process.exit(listed.status ?? 1);
 const files = listed.stdout
   .split(/\r?\n/)
   .filter(Boolean)
+  .filter((file) => !/^public\/catalog\/covers\/\d+\.jpg$/i.test(file.replace(/\\/g, "/")))
   .filter((file) => existsSync(path.join(root, file)));
-const result = spawnSync("tar", ["-a", "-c", "-f", output, ...files], { cwd: root, stdio: "inherit" });
+const result = spawnSync("tar", ["-a", "-c", "-f", output, "-T", "-"], {
+  cwd: root,
+  input: `${files.join("\n")}\n`,
+  stdio: ["pipe", "inherit", "inherit"],
+});
 if (result.status !== 0) process.exit(result.status ?? 1);
 console.log(`Source archive created from ${files.length} repository files: ${output}`);

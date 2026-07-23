@@ -1,0 +1,166 @@
+{
+  "internalId": "album:2635059",
+  "id": "album:2635059",
+  "neteaseAlbumId": "2635059",
+  "slug": "netease-2635059",
+  "title": "北方的北方",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5345",
+      "neteaseArtistId": "5345",
+      "name": "万晓利"
+    }
+  ],
+  "releaseDate": "2009-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2635059.webp",
+    "alt": "《北方的北方》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2635059.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:27552645",
+      "neteaseTrackId": "27552645",
+      "title": "不要问星星有几颗",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 414315
+    },
+    {
+      "id": "netease-track:27552646",
+      "neteaseTrackId": "27552646",
+      "title": "除夕",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 279378
+    },
+    {
+      "id": "netease-track:27552647",
+      "neteaseTrackId": "27552647",
+      "title": "父亲",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 347681
+    },
+    {
+      "id": "netease-track:27552648",
+      "neteaseTrackId": "27552648",
+      "title": "听松鼠妈妈的话",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 529000
+    },
+    {
+      "id": "netease-track:27552649",
+      "neteaseTrackId": "27552649",
+      "title": "和解吧 姑娘",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 376269
+    },
+    {
+      "id": "netease-track:27552652",
+      "neteaseTrackId": "27552652",
+      "title": "水",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 527411
+    },
+    {
+      "id": "netease-track:27552651",
+      "neteaseTrackId": "27552651",
+      "title": "大坝上的奔跑",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 176539
+    },
+    {
+      "id": "netease-track:27552653",
+      "neteaseTrackId": "27552653",
+      "title": "回到森林的鸟",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 325343
+    },
+    {
+      "id": "netease-track:27552654",
+      "neteaseTrackId": "27552654",
+      "title": "北方的北方",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 372466
+    },
+    {
+      "id": "netease-track:1471080489",
+      "neteaseTrackId": "1471080489",
+      "title": "骄傲的小毛驴",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 422120
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=2635059",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "北方的北方 万晓利",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

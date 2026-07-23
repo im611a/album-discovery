@@ -1,0 +1,166 @@
+{
+  "internalId": "album:1761243",
+  "id": "album:1761243",
+  "neteaseAlbumId": "1761243",
+  "slug": "souvlaki",
+  "title": "Souvlaki",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "name": "Slowdive"
+    }
+  ],
+  "releaseDate": "1993-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1761243.webp",
+    "alt": "《Souvlaki》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1761243.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19204218",
+      "neteaseTrackId": "19204218",
+      "title": "Alison",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 230736
+    },
+    {
+      "id": "netease-track:19204219",
+      "neteaseTrackId": "19204219",
+      "title": "Machine Gun",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 266843
+    },
+    {
+      "id": "netease-track:19204220",
+      "neteaseTrackId": "19204220",
+      "title": "40 Days",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 195929
+    },
+    {
+      "id": "netease-track:19204221",
+      "neteaseTrackId": "19204221",
+      "title": "Sing",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 289386
+    },
+    {
+      "id": "netease-track:19204222",
+      "neteaseTrackId": "19204222",
+      "title": "Here She Comes",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 139505
+    },
+    {
+      "id": "netease-track:19204223",
+      "neteaseTrackId": "19204223",
+      "title": "Souvlaki Space Station",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 359066
+    },
+    {
+      "id": "netease-track:19204224",
+      "neteaseTrackId": "19204224",
+      "title": "When the Sun Hits",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 287648
+    },
+    {
+      "id": "netease-track:19204225",
+      "neteaseTrackId": "19204225",
+      "title": "Altogether",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 221193
+    },
+    {
+      "id": "netease-track:19204226",
+      "neteaseTrackId": "19204226",
+      "title": "Melon Yellow",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 233012
+    },
+    {
+      "id": "netease-track:19204227",
+      "neteaseTrackId": "19204227",
+      "title": "Dagger",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 215318
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1761243",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Souvlaki Slowdive",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

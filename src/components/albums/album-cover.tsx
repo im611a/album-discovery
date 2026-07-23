@@ -3,7 +3,8 @@ import type { PublishedAlbum } from "@/catalog/schema";
 
 export function AlbumCover({ album, size = "card" }: { album: Pick<PublishedAlbum, "cover" | "title" | "coreGenres" | "slug">; size?: "card" | "detail" }) {
   if (album.cover.kind === "local" && album.cover.src) {
-    return <Image className={`album-cover album-cover--${size}`} src={album.cover.src} alt={album.cover.alt} width={500} height={500} priority={size === "detail"} unoptimized />;
+    const source = size === "card" ? album.cover.thumbnailSrc ?? album.cover.src : album.cover.src;
+    return <Image className={`album-cover album-cover--${size}`} src={source} alt={album.cover.alt} width={size === "detail" ? 960 : 360} height={size === "detail" ? 960 : 360} priority={size === "detail"} loading={size === "card" ? "lazy" : undefined} unoptimized />;
   }
   const initials = album.title.replace(/[^\p{Letter}\p{Number}]/gu, "").slice(0, 2).toLocaleUpperCase("zh-CN") || "AD";
   return (

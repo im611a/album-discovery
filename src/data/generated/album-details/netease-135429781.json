@@ -1,0 +1,110 @@
+{
+  "internalId": "album:135429781",
+  "id": "album:135429781",
+  "neteaseAlbumId": "135429781",
+  "slug": "netease-135429781",
+  "title": "廟雨連珠",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13247",
+      "neteaseArtistId": "13247",
+      "name": "文雀"
+    }
+  ],
+  "releaseDate": "2018-09-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Beijing Modern Sky Culture Development Co.,Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/135429781.webp",
+    "alt": "《廟雨連珠》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/135429781.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1890690172",
+      "neteaseTrackId": "1890690172",
+      "title": "春分",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 406853
+    },
+    {
+      "id": "netease-track:1890689298",
+      "neteaseTrackId": "1890689298",
+      "title": "浮生若梦",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 467306
+    },
+    {
+      "id": "netease-track:1890690168",
+      "neteaseTrackId": "1890690168",
+      "title": "一个人的快乐",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 309802
+    },
+    {
+      "id": "netease-track:1890690169",
+      "neteaseTrackId": "1890690169",
+      "title": "我长话短说",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 375951
+    },
+    {
+      "id": "netease-track:1890690167",
+      "neteaseTrackId": "1890690167",
+      "title": "Double",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 268782
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=135429781",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "廟雨連珠 文雀",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

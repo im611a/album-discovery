@@ -1,0 +1,133 @@
+{
+  "internalId": "album:6309",
+  "id": "album:6309",
+  "neteaseAlbumId": "6309",
+  "slug": "netease-6309",
+  "title": "一无所有",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "1989-03-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6309.webp",
+    "alt": "《一无所有》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6309.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:63680",
+      "neteaseTrackId": "63680",
+      "title": "假行僧",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 297333
+    },
+    {
+      "id": "netease-track:63683",
+      "neteaseTrackId": "63683",
+      "title": "从头再来",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 312333
+    },
+    {
+      "id": "netease-track:63686",
+      "neteaseTrackId": "63686",
+      "title": "不再掩饰",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 321773
+    },
+    {
+      "id": "netease-track:63689",
+      "neteaseTrackId": "63689",
+      "title": "不是我不明白",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 311225
+    },
+    {
+      "id": "netease-track:63692",
+      "neteaseTrackId": "63692",
+      "title": "花房姑娘",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 289666
+    },
+    {
+      "id": "netease-track:63695",
+      "neteaseTrackId": "63695",
+      "title": "让我睡个好觉",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 236866
+    },
+    {
+      "id": "netease-track:63698",
+      "neteaseTrackId": "63698",
+      "title": "出走",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 328706
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=6309",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "一无所有 崔健",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

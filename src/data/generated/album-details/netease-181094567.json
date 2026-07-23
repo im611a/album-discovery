@@ -1,0 +1,144 @@
+{
+  "internalId": "album:181094567",
+  "id": "album:181094567",
+  "neteaseAlbumId": "181094567",
+  "slug": "netease-181094567",
+  "title": "飞狗",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "2021-08-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京东西音乐艺术制作有限责任公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/181094567.webp",
+    "alt": "《飞狗》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/181094567.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2108483786",
+      "neteaseTrackId": "2108483786",
+      "title": "飞狗",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 230040
+    },
+    {
+      "id": "netease-track:2108481947",
+      "neteaseTrackId": "2108481947",
+      "title": "时间的B面",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 281937
+    },
+    {
+      "id": "netease-track:2108481948",
+      "neteaseTrackId": "2108481948",
+      "title": "留守者",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 217826
+    },
+    {
+      "id": "netease-track:2108481949",
+      "neteaseTrackId": "2108481949",
+      "title": "末日海滩",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 325933
+    },
+    {
+      "id": "netease-track:2108483787",
+      "neteaseTrackId": "2108483787",
+      "title": "爱情量子定律",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 265746
+    },
+    {
+      "id": "netease-track:2108483788",
+      "neteaseTrackId": "2108483788",
+      "title": "兔子牛",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 234240
+    },
+    {
+      "id": "netease-track:2108481950",
+      "neteaseTrackId": "2108481950",
+      "title": "半边儿天",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 302853
+    },
+    {
+      "id": "netease-track:2108483789",
+      "neteaseTrackId": "2108483789",
+      "title": "继续",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 374800
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=181094567",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "飞狗 崔健",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

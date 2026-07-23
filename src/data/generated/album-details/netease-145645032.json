@@ -1,0 +1,264 @@
+{
+  "internalId": "album:145645032",
+  "id": "album:145645032",
+  "neteaseAlbumId": "145645032",
+  "slug": "netease-145645032",
+  "title": "十万小时",
+  "aliases": [
+    "保质期艺术家S2合辑企划"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:37658788",
+      "neteaseArtistId": "37658788",
+      "name": "保质期艺术家"
+    },
+    {
+      "id": "netease-artist:1046338",
+      "neteaseArtistId": "1046338",
+      "name": "火星电台"
+    },
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    },
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    },
+    {
+      "id": "netease-artist:804159",
+      "neteaseArtistId": "804159",
+      "name": "阿力普"
+    },
+    {
+      "id": "netease-artist:1081839",
+      "neteaseArtistId": "1081839",
+      "name": "Chinese Football"
+    },
+    {
+      "id": "netease-artist:187462",
+      "neteaseArtistId": "187462",
+      "name": "小老虎"
+    },
+    {
+      "id": "netease-artist:12083497",
+      "neteaseArtistId": "12083497",
+      "name": "PO8"
+    },
+    {
+      "id": "netease-artist:12291562",
+      "neteaseArtistId": "12291562",
+      "name": "Quinn葵因"
+    },
+    {
+      "id": "netease-artist:32176958",
+      "neteaseArtistId": "32176958",
+      "name": "宋柏纬"
+    },
+    {
+      "id": "netease-artist:34556422",
+      "neteaseArtistId": "34556422",
+      "name": "Tseng Kuo Hung"
+    },
+    {
+      "id": "netease-artist:12276200",
+      "neteaseArtistId": "12276200",
+      "name": "汉堡黄"
+    },
+    {
+      "id": "netease-artist:46617775",
+      "neteaseArtistId": "46617775",
+      "name": "LÜCY"
+    },
+    {
+      "id": "netease-artist:12919519",
+      "neteaseArtistId": "12919519",
+      "name": "Matt吕彦良"
+    },
+    {
+      "id": "netease-artist:10473",
+      "neteaseArtistId": "10473",
+      "name": "袁娅维TIA RAY"
+    }
+  ],
+  "releaseDate": "2022-07-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "保质期艺术家",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/145645032.webp",
+    "alt": "《十万小时》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/145645032.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1960133945",
+      "neteaseTrackId": "1960133945",
+      "title": "没有人会知道",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 194926
+    },
+    {
+      "id": "netease-track:1960135745",
+      "neteaseTrackId": "1960135745",
+      "title": "像一颗流星",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 268598
+    },
+    {
+      "id": "netease-track:1960133944",
+      "neteaseTrackId": "1960133944",
+      "title": "满满的焦虑",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "火星电台"
+      ],
+      "durationMs": 218661
+    },
+    {
+      "id": "netease-track:1951204036",
+      "neteaseTrackId": "1951204036",
+      "title": "浅逃",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 264000
+    },
+    {
+      "id": "netease-track:1951204022",
+      "neteaseTrackId": "1951204022",
+      "title": "中华美食家",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Chinese Football"
+      ],
+      "durationMs": 305555
+    },
+    {
+      "id": "netease-track:1951203175",
+      "neteaseTrackId": "1951203175",
+      "title": "天王星磨牙",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "小老虎",
+        "喜辰晨"
+      ],
+      "durationMs": 166153
+    },
+    {
+      "id": "netease-track:1942630835",
+      "neteaseTrackId": "1942630835",
+      "title": "i wish i didn't love you but i do",
+      "trackNumber": 1,
+      "discNumber": 3,
+      "artists": [
+        "PO8"
+      ],
+      "durationMs": 156800
+    },
+    {
+      "id": "netease-track:1940281894",
+      "neteaseTrackId": "1940281894",
+      "title": "真空",
+      "trackNumber": 2,
+      "discNumber": 3,
+      "artists": [
+        "Quinn葵因"
+      ],
+      "durationMs": 304000
+    },
+    {
+      "id": "netease-track:1942630861",
+      "neteaseTrackId": "1942630861",
+      "title": "景美",
+      "trackNumber": 3,
+      "discNumber": 3,
+      "artists": [
+        "宋柏纬",
+        "Tseng Kuo Hung",
+        "落日飞车"
+      ],
+      "durationMs": 215999
+    },
+    {
+      "id": "netease-track:1923210613",
+      "neteaseTrackId": "1923210613",
+      "title": "滥俗的歌",
+      "trackNumber": 1,
+      "discNumber": 4,
+      "artists": [
+        "汉堡黄"
+      ],
+      "durationMs": 275876
+    },
+    {
+      "id": "netease-track:1923215640",
+      "neteaseTrackId": "1923215640",
+      "title": "电线杆上的鸟",
+      "trackNumber": 2,
+      "discNumber": 4,
+      "artists": [
+        "LÜCY"
+      ],
+      "durationMs": 234311
+    },
+    {
+      "id": "netease-track:1933232289",
+      "neteaseTrackId": "1933232289",
+      "title": "slow ride",
+      "trackNumber": 3,
+      "discNumber": 4,
+      "artists": [
+        "Matt吕彦良",
+        "袁娅维TIA RAY"
+      ],
+      "durationMs": 191280
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=145645032",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "十万小时 保质期艺术家S2合辑企划 保质期艺术家 火星电台 木马Muma 左小祖咒 阿力普 Chinese Football 小老虎 PO8 Quinn葵因 宋柏纬 Tseng Kuo Hung 汉堡黄 LÜCY Matt吕彦良 袁娅维TIA RAY",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

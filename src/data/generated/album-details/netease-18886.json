@@ -1,0 +1,168 @@
+{
+  "internalId": "album:18886",
+  "id": "album:18886",
+  "neteaseAlbumId": "18886",
+  "slug": "netease-18886",
+  "title": "我很忙",
+  "aliases": [
+    "On The Run!"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2007-11-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18886.webp",
+    "alt": "《我很忙》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18886.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185807",
+      "neteaseTrackId": "185807",
+      "title": "牛仔很忙",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 168000
+    },
+    {
+      "id": "netease-track:185809",
+      "neteaseTrackId": "185809",
+      "title": "彩虹",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 263784
+    },
+    {
+      "id": "netease-track:185811",
+      "neteaseTrackId": "185811",
+      "title": "青花瓷",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:185813",
+      "neteaseTrackId": "185813",
+      "title": "阳光宅男",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:185815",
+      "neteaseTrackId": "185815",
+      "title": "蒲公英的约定",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 247199
+    },
+    {
+      "id": "netease-track:185817",
+      "neteaseTrackId": "185817",
+      "title": "无双",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 233518
+    },
+    {
+      "id": "netease-track:185818",
+      "neteaseTrackId": "185818",
+      "title": "我不配",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 288000
+    },
+    {
+      "id": "netease-track:185819",
+      "neteaseTrackId": "185819",
+      "title": "扯",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 210387
+    },
+    {
+      "id": "netease-track:185820",
+      "neteaseTrackId": "185820",
+      "title": "甜甜的",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 241973
+    },
+    {
+      "id": "netease-track:185821",
+      "neteaseTrackId": "185821",
+      "title": "最长的电影",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 235840
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18886",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "我很忙 On The Run! 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

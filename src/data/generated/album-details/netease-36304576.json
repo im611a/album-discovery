@@ -1,0 +1,166 @@
+{
+  "internalId": "album:36304576",
+  "id": "album:36304576",
+  "neteaseAlbumId": "36304576",
+  "slug": "netease-36304576",
+  "title": "C'mon in~",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2017-10-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/36304576.webp",
+    "alt": "《C'mon in~》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/36304576.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:509098886",
+      "neteaseTrackId": "509098886",
+      "title": "放",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 206000
+    },
+    {
+      "id": "netease-track:509098885",
+      "neteaseTrackId": "509098885",
+      "title": "收心操",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 173000
+    },
+    {
+      "id": "netease-track:509098887",
+      "neteaseTrackId": "509098887",
+      "title": "海胆",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 197000
+    },
+    {
+      "id": "netease-track:509098889",
+      "neteaseTrackId": "509098889",
+      "title": "谁来剪月光",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:509098884",
+      "neteaseTrackId": "509098884",
+      "title": "床上的黑洞",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 187000
+    },
+    {
+      "id": "netease-track:509098883",
+      "neteaseTrackId": "509098883",
+      "title": "右上角",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:509106722",
+      "neteaseTrackId": "509106722",
+      "title": "之外",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:509106724",
+      "neteaseTrackId": "509106724",
+      "title": "傅科摆",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:509106725",
+      "neteaseTrackId": "509106725",
+      "title": "零下几分钟",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 257000
+    },
+    {
+      "id": "netease-track:509098892",
+      "neteaseTrackId": "509098892",
+      "title": "披风",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 236000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=36304576",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "C'mon in~ 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

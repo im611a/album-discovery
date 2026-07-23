@@ -1,0 +1,199 @@
+{
+  "internalId": "album:133583254",
+  "id": "album:133583254",
+  "neteaseAlbumId": "133583254",
+  "slug": "netease-133583254",
+  "title": "涅槃",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2021-09-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/133583254.webp",
+    "alt": "《涅槃》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/133583254.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1880191797",
+      "neteaseTrackId": "1880191797",
+      "title": "羔羊与野狗",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 188746
+    },
+    {
+      "id": "netease-track:1880177078",
+      "neteaseTrackId": "1880177078",
+      "title": "算术",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 179664
+    },
+    {
+      "id": "netease-track:1880174623",
+      "neteaseTrackId": "1880174623",
+      "title": "你根本不想",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 192110
+    },
+    {
+      "id": "netease-track:1880176938",
+      "neteaseTrackId": "1880176938",
+      "title": "在吗",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 199327
+    },
+    {
+      "id": "netease-track:1880178629",
+      "neteaseTrackId": "1880178629",
+      "title": "贫穷艺术家",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 236047
+    },
+    {
+      "id": "netease-track:1880177077",
+      "neteaseTrackId": "1880177077",
+      "title": "想科本的傻瓜",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 203616
+    },
+    {
+      "id": "netease-track:1880176944",
+      "neteaseTrackId": "1880176944",
+      "title": "力量",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 234709
+    },
+    {
+      "id": "netease-track:1880177081",
+      "neteaseTrackId": "1880177081",
+      "title": "文艺青年",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 227862
+    },
+    {
+      "id": "netease-track:1880178815",
+      "neteaseTrackId": "1880178815",
+      "title": "我们不一样",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 251688
+    },
+    {
+      "id": "netease-track:1880177079",
+      "neteaseTrackId": "1880177079",
+      "title": "时代",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 206376
+    },
+    {
+      "id": "netease-track:1880177080",
+      "neteaseTrackId": "1880177080",
+      "title": "生活是条狗",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 227160
+    },
+    {
+      "id": "netease-track:1880178814",
+      "neteaseTrackId": "1880178814",
+      "title": "涅槃",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 183960
+    },
+    {
+      "id": "netease-track:1880177082",
+      "neteaseTrackId": "1880177082",
+      "title": "找猪",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 207107
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=133583254",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "涅槃 左小祖咒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

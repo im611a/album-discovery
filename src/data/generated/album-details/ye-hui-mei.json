@@ -1,0 +1,180 @@
+{
+  "internalId": "album:18905",
+  "id": "album:18905",
+  "neteaseAlbumId": "18905",
+  "slug": "ye-hui-mei",
+  "title": "叶惠美",
+  "aliases": [
+    "Yeh Hui–mei"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2003-07-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18905.webp",
+    "alt": "《叶惠美》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18905.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186014",
+      "neteaseTrackId": "186014",
+      "title": "以父之名",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 342000
+    },
+    {
+      "id": "netease-track:186015",
+      "neteaseTrackId": "186015",
+      "title": "懦夫",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "余妮"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:186016",
+      "neteaseTrackId": "186016",
+      "title": "晴天",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:186017",
+      "neteaseTrackId": "186017",
+      "title": "三年二班",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:186018",
+      "neteaseTrackId": "186018",
+      "title": "东风破",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 315018
+    },
+    {
+      "id": "netease-track:186019",
+      "neteaseTrackId": "186019",
+      "title": "你听得到",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 230000
+    },
+    {
+      "id": "netease-track:186020",
+      "neteaseTrackId": "186020",
+      "title": "同一种调调",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 231000
+    },
+    {
+      "id": "netease-track:186021",
+      "neteaseTrackId": "186021",
+      "title": "她的睫毛",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 232000
+    },
+    {
+      "id": "netease-track:186022",
+      "neteaseTrackId": "186022",
+      "title": "爱情悬崖",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:186023",
+      "neteaseTrackId": "186023",
+      "title": "梯田",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:186024",
+      "neteaseTrackId": "186024",
+      "title": "双刀",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 291000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18905",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "叶惠美 Yeh Hui–mei 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

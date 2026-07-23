@@ -1,0 +1,166 @@
+{
+  "internalId": "album:34780579",
+  "id": "album:34780579",
+  "neteaseAlbumId": "34780579",
+  "slug": "netease-34780579",
+  "title": "小梦大半",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2016-07-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "上海趣果",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34780579.webp",
+    "alt": "《小梦大半》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34780579.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:421563711",
+      "neteaseTrackId": "421563711",
+      "title": "芳草地",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 237146
+    },
+    {
+      "id": "netease-track:421563712",
+      "neteaseTrackId": "421563712",
+      "title": "怪不得",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 263146
+    },
+    {
+      "id": "netease-track:421423806",
+      "neteaseTrackId": "421423806",
+      "title": "小半",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 297240
+    },
+    {
+      "id": "netease-track:421563713",
+      "neteaseTrackId": "421563713",
+      "title": "桥豆麻袋",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 179933
+    },
+    {
+      "id": "netease-track:421563714",
+      "neteaseTrackId": "421563714",
+      "title": "任朝暮",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 213933
+    },
+    {
+      "id": "netease-track:421423807",
+      "neteaseTrackId": "421423807",
+      "title": "无生无",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 337440
+    },
+    {
+      "id": "netease-track:421563715",
+      "neteaseTrackId": "421563715",
+      "title": "大梦",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 301480
+    },
+    {
+      "id": "netease-track:421563717",
+      "neteaseTrackId": "421563717",
+      "title": "自渡",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 237040
+    },
+    {
+      "id": "netease-track:421423808",
+      "neteaseTrackId": "421423808",
+      "title": "虚拟",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 240626
+    },
+    {
+      "id": "netease-track:421563718",
+      "neteaseTrackId": "421563718",
+      "title": "睡吧",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 247853
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=34780579",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "小梦大半 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

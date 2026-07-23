@@ -1,0 +1,100 @@
+{
+  "internalId": "album:253221311",
+  "id": "album:253221311",
+  "neteaseAlbumId": "253221311",
+  "slug": "netease-253221311",
+  "title": "忘忧神丹",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    }
+  ],
+  "releaseDate": "2024-11-09",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "木马工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/253221311.webp",
+    "alt": "《忘忧神丹》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/253221311.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2644573908",
+      "neteaseTrackId": "2644573908",
+      "title": "忘忧神丹",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 270918
+    },
+    {
+      "id": "netease-track:2626803737",
+      "neteaseTrackId": "2626803737",
+      "title": "宝月光",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 231818
+    },
+    {
+      "id": "netease-track:2644576825",
+      "neteaseTrackId": "2644576825",
+      "title": "好时光",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:2631185652",
+      "neteaseTrackId": "2631185652",
+      "title": "不要再去担心那些问题",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 286071
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=253221311",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "忘忧神丹 木马Muma",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

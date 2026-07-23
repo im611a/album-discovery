@@ -1,0 +1,111 @@
+{
+  "internalId": "album:173685803",
+  "id": "album:173685803",
+  "neteaseAlbumId": "173685803",
+  "slug": "netease-173685803",
+  "title": "Gold　～また逢う日まで～ EP",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2023-09-12",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/173685803.webp",
+    "alt": "《Gold　～また逢う日まで～ EP》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/173685803.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2078110486",
+      "neteaseTrackId": "2078110486",
+      "title": "Gold　～また逢う日まで～",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 255953
+    },
+    {
+      "id": "netease-track:2078110487",
+      "neteaseTrackId": "2078110487",
+      "title": "Gold　～また逢う日まで～ (Instrumental)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 255907
+    },
+    {
+      "id": "netease-track:2078113421",
+      "neteaseTrackId": "2078113421",
+      "title": "Gold　～また逢う日まで～ (Taku's Twice Upon a Time Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 270837
+    },
+    {
+      "id": "netease-track:2078113422",
+      "neteaseTrackId": "2078113422",
+      "title": "Gold　～また逢う日まで～ (Taku's Twice Upon a Time Remix) (Instrumental)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 270698
+    },
+    {
+      "id": "netease-track:2078110488",
+      "neteaseTrackId": "2078110488",
+      "title": "Gold　～また逢う日まで～ (Taku's Twice Upon a Time Remix) (ALT Intro)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 269281
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=173685803",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Gold　～また逢う日まで～ EP 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

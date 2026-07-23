@@ -1,0 +1,110 @@
+{
+  "internalId": "album:364628733",
+  "id": "album:364628733",
+  "neteaseAlbumId": "364628733",
+  "slug": "netease-364628733",
+  "title": "两语",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13247",
+      "neteaseArtistId": "13247",
+      "name": "文雀"
+    }
+  ],
+  "releaseDate": "2026-03-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Beijing Modern Sky Culture Development Co.,Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/364628733.webp",
+    "alt": "《两语》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/364628733.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3355624536",
+      "neteaseTrackId": "3355624536",
+      "title": "神游夜话",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 376021
+    },
+    {
+      "id": "netease-track:3355625487",
+      "neteaseTrackId": "3355625487",
+      "title": "幻季",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 373077
+    },
+    {
+      "id": "netease-track:3355625488",
+      "neteaseTrackId": "3355625488",
+      "title": "银湾",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 457685
+    },
+    {
+      "id": "netease-track:3355625489",
+      "neteaseTrackId": "3355625489",
+      "title": "流",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 424106
+    },
+    {
+      "id": "netease-track:3355624538",
+      "neteaseTrackId": "3355624538",
+      "title": "天目山路",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 199498
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=364628733",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "两语 文雀",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

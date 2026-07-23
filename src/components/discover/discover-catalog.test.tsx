@@ -34,19 +34,18 @@ describe("DiscoverCatalog URL state", () => {
     expect(screen.getByLabelText("核心流派")).toHaveValue("");
     expect(screen.getByLabelText("相关流派")).toHaveValue("");
     expect(screen.getByLabelText("相关流派").querySelectorAll("option")).toHaveLength(1);
-    expect(screen.getByLabelText("氛围与特征")).toHaveValue("");
-    expect(screen.getByLabelText("氛围与特征").querySelectorAll("option")).toHaveLength(1);
-    fireEvent.click(screen.getByRole("button", { name: "清除筛选" }));
+    expect(screen.queryByLabelText("氛围与特征")).not.toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "清除全部" }));
     expect(push).toHaveBeenCalledWith("/discover", { scroll: false });
   });
 
   it("keeps optional RYM filters visible without inventing empty choices", () => {
     renderCatalog();
-    expect(screen.getByLabelText("相关流派")).toHaveDisplayValue("全部");
-    expect(screen.getByLabelText("氛围与特征")).toHaveDisplayValue("全部");
+    expect(screen.getByLabelText("相关流派")).toHaveDisplayValue("暂无已核验数据");
+    expect(screen.getByLabelText("相关流派")).toBeDisabled();
     expect(screen.getByLabelText("相关流派").querySelectorAll("option")).toHaveLength(1);
-    expect(screen.getByLabelText("氛围与特征").querySelectorAll("option")).toHaveLength(1);
-    expect(screen.getByLabelText("聆听场景（本站策展）")).toBeInTheDocument();
+    expect(screen.queryByLabelText("氛围与特征")).not.toBeInTheDocument();
+    expect(screen.getByLabelText("聆听场景")).toBeInTheDocument();
   });
 
   it("renders and submits only real optional taxonomy choices when data exists", () => {
@@ -55,8 +54,7 @@ describe("DiscoverCatalog URL state", () => {
       filterOptions={{
         coreGenres: ["pop"],
         relatedGenres: ["dream-pop"],
-        descriptors: ["lush"],
-        contexts: ["夜晚"],
+        contexts: ["night"],
         decades: ["2020s"],
       }}
       filters={{}}
@@ -64,12 +62,8 @@ describe("DiscoverCatalog URL state", () => {
       update={update}
     />);
     const related = screen.getByLabelText("相关流派");
-    const descriptors = screen.getByLabelText("氛围与特征");
     expect(related.querySelector('option[value="dream-pop"]')).toBeInTheDocument();
-    expect(descriptors.querySelector('option[value="lush"]')).toBeInTheDocument();
     fireEvent.change(related, { target: { value: "dream-pop" } });
-    fireEvent.change(descriptors, { target: { value: "lush" } });
     expect(update).toHaveBeenCalledWith("secondary", "dream-pop");
-    expect(update).toHaveBeenCalledWith("descriptor", "lush");
   });
 });

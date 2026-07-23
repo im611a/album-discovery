@@ -12,20 +12,19 @@ describe("catalog queries", () => {
     expect(searchAlbums("  ok   computer ")[0]?.slug).toBe("ok-computer");
   });
   it("combines only currently published filters and returns accurate results", () => {
-    const results = discoverAlbums({ coreGenre: "dream-pop", context: "夜晚" }, "release-newest");
+    const results = discoverAlbums({ coreGenre: "dream-pop", context: "night" }, "release-newest");
     expect(results.length).toBeGreaterThan(0);
-    expect(results.every((album) => album.coreGenres.includes("dream-pop") && album.contexts.includes("夜晚"))).toBe(true);
-    expect(buildDiscoverOptions()).toMatchObject({ relatedGenres: [], descriptors: [] });
-    expect(discoverAlbums({ relatedGenre: "legacy-related", descriptor: "legacy-descriptor" })).toEqual([]);
+    expect(results.every((album) => album.coreGenres.includes("dream-pop") && album.contexts.includes("night"))).toBe(true);
+    expect(buildDiscoverOptions()).toMatchObject({ relatedGenres: [] });
+    expect(discoverAlbums({ relatedGenre: "legacy-related" })).toEqual([]);
   });
   it("builds optional taxonomy choices only from values present on published albums", () => {
     const album = getAllAlbums()[0];
-    const enriched = { ...album, relatedGenres: ["dream-pop", "dream-pop"], descriptors: ["lush", "lush"] };
-    const other = { ...getAllAlbums()[1], relatedGenres: ["chamber-pop"], descriptors: ["melodic"] };
+    const enriched = { ...album, relatedGenres: ["dream-pop", "dream-pop"] };
+    const other = { ...getAllAlbums()[1], relatedGenres: ["chamber-pop"] };
     const options = buildDiscoverOptions([enriched, other]);
     expect(options.relatedGenres).toEqual(["chamber-pop", "dream-pop"]);
-    expect(options.descriptors).toEqual(["lush", "melodic"]);
-    expect(discoverAlbums({ relatedGenre: "dream-pop", descriptor: "lush" }, "title", [enriched, other])).toEqual([enriched]);
+    expect(discoverAlbums({ relatedGenre: "dream-pop" }, "title", [enriched, other])).toEqual([enriched]);
   });
   it("uses stable real identities for detail and related queries", () => {
     const album = getAlbumBySlug("ok-computer");

@@ -1,0 +1,133 @@
+{
+  "internalId": "album:38194",
+  "id": "album:38194",
+  "neteaseAlbumId": "38194",
+  "slug": "netease-38194",
+  "title": "L&R",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2010-04-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38194.webp",
+    "alt": "《L&R》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38194.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:385339",
+      "neteaseTrackId": "385339",
+      "title": "童篇",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 438560
+    },
+    {
+      "id": "netease-track:385341",
+      "neteaseTrackId": "385341",
+      "title": "近景",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 361013
+    },
+    {
+      "id": "netease-track:385343",
+      "neteaseTrackId": "385343",
+      "title": "焦虑抑制剂",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 530320
+    },
+    {
+      "id": "netease-track:385345",
+      "neteaseTrackId": "385345",
+      "title": "←M→",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 367840
+    },
+    {
+      "id": "netease-track:385347",
+      "neteaseTrackId": "385347",
+      "title": "悬在时间轴上",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 626000
+    },
+    {
+      "id": "netease-track:385349",
+      "neteaseTrackId": "385349",
+      "title": "合乐",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 596586
+    },
+    {
+      "id": "netease-track:385351",
+      "neteaseTrackId": "385351",
+      "title": "凡士林",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 356493
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=38194",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "L&R 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,202 @@
+{
+  "internalId": "album:266943938",
+  "id": "album:266943938",
+  "neteaseAlbumId": "266943938",
+  "slug": "netease-266943938",
+  "title": "太阳",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    },
+    {
+      "id": "netease-artist:54504757",
+      "neteaseArtistId": "54504757",
+      "name": "笑傲江湖马戏乐团"
+    }
+  ],
+  "releaseDate": "2025-06-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京仙人球球文化有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/266943938.webp",
+    "alt": "《太阳》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/266943938.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:566436451",
+      "neteaseTrackId": "566436451",
+      "title": "太阳",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 231176
+    },
+    {
+      "id": "netease-track:434550036",
+      "neteaseTrackId": "434550036",
+      "title": "阳光比较灿烂的日子",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 222249
+    },
+    {
+      "id": "netease-track:1340667871",
+      "neteaseTrackId": "1340667871",
+      "title": "哭吧，我最爱的人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 225000
+    },
+    {
+      "id": "netease-track:25702092",
+      "neteaseTrackId": "25702092",
+      "title": "算术",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 216610
+    },
+    {
+      "id": "netease-track:189832",
+      "neteaseTrackId": "189832",
+      "title": "夏日最后一枝玫瑰",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 188440
+    },
+    {
+      "id": "netease-track:25702088",
+      "neteaseTrackId": "25702088",
+      "title": "力量",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 250839
+    },
+    {
+      "id": "netease-track:1318894108",
+      "neteaseTrackId": "1318894108",
+      "title": "羔羊与野狗",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 195766
+    },
+    {
+      "id": "netease-track:27588239",
+      "neteaseTrackId": "27588239",
+      "title": "初恋在一座城池",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 139428
+    },
+    {
+      "id": "netease-track:1447055844",
+      "neteaseTrackId": "1447055844",
+      "title": "自娱自乐",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 243750
+    },
+    {
+      "id": "netease-track:2688086115",
+      "neteaseTrackId": "2688086115",
+      "title": "爱情的想",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 272666
+    },
+    {
+      "id": "netease-track:189776",
+      "neteaseTrackId": "189776",
+      "title": "小白兔看到了机器情人",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 219556
+    },
+    {
+      "id": "netease-track:514761032",
+      "neteaseTrackId": "514761032",
+      "title": "彩虹",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 235909
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=266943938",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "太阳 左小祖咒 笑傲江湖马戏乐团",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

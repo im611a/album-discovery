@@ -1,0 +1,199 @@
+{
+  "internalId": "album:6341",
+  "id": "album:6341",
+  "neteaseAlbumId": "6341",
+  "slug": "netease-6341",
+  "title": "？",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2011-11-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6341.webp",
+    "alt": "《？》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6341.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:64093",
+      "neteaseTrackId": "64093",
+      "title": "孤独患者",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 271226
+    },
+    {
+      "id": "netease-track:64097",
+      "neteaseTrackId": "64097",
+      "title": "哎呀咿呀",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 252000
+    },
+    {
+      "id": "netease-track:64101",
+      "neteaseTrackId": "64101",
+      "title": "看穿",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 223027
+    },
+    {
+      "id": "netease-track:64106",
+      "neteaseTrackId": "64106",
+      "title": "吟游诗人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 286696
+    },
+    {
+      "id": "netease-track:64111",
+      "neteaseTrackId": "64111",
+      "title": "张氏情歌",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 246781
+    },
+    {
+      "id": "netease-track:64116",
+      "neteaseTrackId": "64116",
+      "title": "Baby Song",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 198506
+    },
+    {
+      "id": "netease-track:64121",
+      "neteaseTrackId": "64121",
+      "title": "听一千遍后",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 319000
+    },
+    {
+      "id": "netease-track:64126",
+      "neteaseTrackId": "64126",
+      "title": "内疚",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 240349
+    },
+    {
+      "id": "netease-track:64131",
+      "neteaseTrackId": "64131",
+      "title": "还要不要走",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 353338
+    },
+    {
+      "id": "netease-track:64136",
+      "neteaseTrackId": "64136",
+      "title": "积木",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 257555
+    },
+    {
+      "id": "netease-track:64141",
+      "neteaseTrackId": "64141",
+      "title": "神奇化妆师",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:64146",
+      "neteaseTrackId": "64146",
+      "title": "Muffin Man",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 261201
+    },
+    {
+      "id": "netease-track:5418001",
+      "neteaseTrackId": "5418001",
+      "title": "那些让你死去活来的女孩",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 261000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=6341",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "？ 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

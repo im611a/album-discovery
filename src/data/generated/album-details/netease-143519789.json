@@ -1,0 +1,257 @@
+{
+  "internalId": "album:143519789",
+  "id": "album:143519789",
+  "neteaseAlbumId": "143519789",
+  "slug": "netease-143519789",
+  "title": "诗X歌",
+  "aliases": [
+    "网易音乐人·跨界文化实验合辑企划"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:12038239",
+      "neteaseArtistId": "12038239",
+      "name": "裘德"
+    },
+    {
+      "id": "netease-artist:51594319",
+      "neteaseArtistId": "51594319",
+      "name": "麦子"
+    },
+    {
+      "id": "netease-artist:37444918",
+      "neteaseArtistId": "37444918",
+      "name": "魔动闪霸"
+    },
+    {
+      "id": "netease-artist:51475646",
+      "neteaseArtistId": "51475646",
+      "name": "李佳芮Shary"
+    },
+    {
+      "id": "netease-artist:10582",
+      "neteaseArtistId": "10582",
+      "name": "朱婧汐Akini Jing"
+    },
+    {
+      "id": "netease-artist:51704552",
+      "neteaseArtistId": "51704552",
+      "name": "姜思达"
+    },
+    {
+      "id": "netease-artist:12084497",
+      "neteaseArtistId": "12084497",
+      "name": "宝石Gem"
+    },
+    {
+      "id": "netease-artist:51824214",
+      "neteaseArtistId": "51824214",
+      "name": "安森垚"
+    },
+    {
+      "id": "netease-artist:12126856",
+      "neteaseArtistId": "12126856",
+      "name": "白皮书乐队"
+    },
+    {
+      "id": "netease-artist:52058759",
+      "neteaseArtistId": "52058759",
+      "name": "史策"
+    },
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    },
+    {
+      "id": "netease-artist:52197336",
+      "neteaseArtistId": "52197336",
+      "name": "黄湘丽"
+    }
+  ],
+  "releaseDate": "2022-04-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/143519789.webp",
+    "alt": "《诗X歌》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/143519789.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1921562864",
+      "neteaseTrackId": "1921562864",
+      "title": "呼吸",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "裘德",
+        "麦子"
+      ],
+      "durationMs": 240125
+    },
+    {
+      "id": "netease-track:1923435535",
+      "neteaseTrackId": "1923435535",
+      "title": "三侠大霸",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "魔动闪霸",
+        "李佳芮Shary"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:1925205673",
+      "neteaseTrackId": "1925205673",
+      "title": "冲浪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing",
+        "姜思达"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:1927385912",
+      "neteaseTrackId": "1927385912",
+      "title": "东北喊麦风云",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宝石Gem",
+        "安森垚"
+      ],
+      "durationMs": 203913
+    },
+    {
+      "id": "netease-track:1932551825",
+      "neteaseTrackId": "1932551825",
+      "title": "你还是走了",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "白皮书乐队",
+        "史策"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:1936261912",
+      "neteaseTrackId": "1936261912",
+      "title": "危险游戏",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma",
+        "黄湘丽"
+      ],
+      "durationMs": 288233
+    },
+    {
+      "id": "netease-track:1938314117",
+      "neteaseTrackId": "1938314117",
+      "title": "呼吸（伴奏）",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "裘德",
+        "麦子"
+      ],
+      "durationMs": 240125
+    },
+    {
+      "id": "netease-track:1938314189",
+      "neteaseTrackId": "1938314189",
+      "title": "三侠大霸（伴奏）",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "魔动闪霸",
+        "李佳芮Shary"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:1938315043",
+      "neteaseTrackId": "1938315043",
+      "title": "冲浪（伴奏）",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing",
+        "姜思达"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:1938314265",
+      "neteaseTrackId": "1938314265",
+      "title": "东北喊麦风云（伴奏）",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宝石Gem",
+        "安森垚"
+      ],
+      "durationMs": 203913
+    },
+    {
+      "id": "netease-track:1938314281",
+      "neteaseTrackId": "1938314281",
+      "title": "你还是走了（伴奏）",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "白皮书乐队",
+        "史策"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:1938315172",
+      "neteaseTrackId": "1938315172",
+      "title": "危险游戏（伴奏）",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma",
+        "黄湘丽"
+      ],
+      "durationMs": 288264
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=143519789",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "诗X歌 网易音乐人·跨界文化实验合辑企划 裘德 麦子 魔动闪霸 李佳芮Shary 朱婧汐Akini Jing 姜思达 宝石Gem 安森垚 白皮书乐队 史策 木马Muma 黄湘丽",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

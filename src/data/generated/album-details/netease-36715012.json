@@ -1,0 +1,166 @@
+{
+  "internalId": "album:36715012",
+  "id": "album:36715012",
+  "neteaseAlbumId": "36715012",
+  "slug": "netease-36715012",
+  "title": "天秤之舟／牙齿，菠菜和豆腐与诗人，流浪汉和门徒",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5345",
+      "neteaseArtistId": "5345",
+      "name": "万晓利"
+    }
+  ],
+  "releaseDate": "2017-11-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/36715012.webp",
+    "alt": "《天秤之舟／牙齿，菠菜和豆腐与诗人，流浪汉和门徒》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/36715012.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:516653057",
+      "neteaseTrackId": "516653057",
+      "title": "却也是蜜茶",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 336971
+    },
+    {
+      "id": "netease-track:516657049",
+      "neteaseTrackId": "516657049",
+      "title": "魔鬼天使",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 433001
+    },
+    {
+      "id": "netease-track:513356887",
+      "neteaseTrackId": "513356887",
+      "title": "上村，57",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 247586
+    },
+    {
+      "id": "netease-track:481537120",
+      "neteaseTrackId": "481537120",
+      "title": "答案",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 307020
+    },
+    {
+      "id": "netease-track:476254256",
+      "neteaseTrackId": "476254256",
+      "title": "你，来替我做个梦",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 378782
+    },
+    {
+      "id": "netease-track:509106155",
+      "neteaseTrackId": "509106155",
+      "title": "痛，也不能",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 276315
+    },
+    {
+      "id": "netease-track:516657050",
+      "neteaseTrackId": "516657050",
+      "title": "等等，难道他需要一件快乐的外套",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 352158
+    },
+    {
+      "id": "netease-track:509726846",
+      "neteaseTrackId": "509726846",
+      "title": "小狗布鲁斯",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 353057
+    },
+    {
+      "id": "netease-track:516655059",
+      "neteaseTrackId": "516655059",
+      "title": "没有方向的方向",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 329016
+    },
+    {
+      "id": "netease-track:487587158",
+      "neteaseTrackId": "487587158",
+      "title": "库布齐",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 292144
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=36715012",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "天秤之舟／牙齿，菠菜和豆腐与诗人，流浪汉和门徒 万晓利",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

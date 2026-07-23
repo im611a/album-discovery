@@ -1,0 +1,199 @@
+{
+  "internalId": "album:1533976",
+  "id": "album:1533976",
+  "neteaseAlbumId": "1533976",
+  "slug": "untrue",
+  "title": "Untrue",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29389",
+      "neteaseArtistId": "29389",
+      "name": "Burial"
+    }
+  ],
+  "releaseDate": "2007-11-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1533976.webp",
+    "alt": "《Untrue》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1533976.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16640370",
+      "neteaseTrackId": "16640370",
+      "title": "Untitled",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 46213
+    },
+    {
+      "id": "netease-track:16640371",
+      "neteaseTrackId": "16640371",
+      "title": "Archangel",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 238426
+    },
+    {
+      "id": "netease-track:16640372",
+      "neteaseTrackId": "16640372",
+      "title": "Near Dark",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 234506
+    },
+    {
+      "id": "netease-track:16640373",
+      "neteaseTrackId": "16640373",
+      "title": "Ghost Hardware",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 293093
+    },
+    {
+      "id": "netease-track:16640374",
+      "neteaseTrackId": "16640374",
+      "title": "Endorphin",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 177333
+    },
+    {
+      "id": "netease-track:16640375",
+      "neteaseTrackId": "16640375",
+      "title": "Etched Headplate",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 359760
+    },
+    {
+      "id": "netease-track:16640376",
+      "neteaseTrackId": "16640376",
+      "title": "In McDonalds",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 127000
+    },
+    {
+      "id": "netease-track:16640377",
+      "neteaseTrackId": "16640377",
+      "title": "Untrue",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 376693
+    },
+    {
+      "id": "netease-track:16640378",
+      "neteaseTrackId": "16640378",
+      "title": "Shell Of Light",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 280533
+    },
+    {
+      "id": "netease-track:16640379",
+      "neteaseTrackId": "16640379",
+      "title": "Dog Shelter",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 179213
+    },
+    {
+      "id": "netease-track:16640380",
+      "neteaseTrackId": "16640380",
+      "title": "Homeless",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 320546
+    },
+    {
+      "id": "netease-track:16640381",
+      "neteaseTrackId": "16640381",
+      "title": "UK",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 100226
+    },
+    {
+      "id": "netease-track:16640382",
+      "neteaseTrackId": "16640382",
+      "title": "Raver",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 299826
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1533976",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Untrue Burial",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

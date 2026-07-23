@@ -1,0 +1,166 @@
+{
+  "internalId": "album:3115369",
+  "id": "album:3115369",
+  "neteaseAlbumId": "3115369",
+  "slug": "netease-3115369",
+  "title": "太阳看起来圆圆的",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5345",
+      "neteaseArtistId": "5345",
+      "name": "万晓利"
+    }
+  ],
+  "releaseDate": "2015-03-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/3115369.webp",
+    "alt": "《太阳看起来圆圆的》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/3115369.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:31246083",
+      "neteaseTrackId": "31246083",
+      "title": "操场",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:31246087",
+      "neteaseTrackId": "31246087",
+      "title": "初夏",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:31246092",
+      "neteaseTrackId": "31246092",
+      "title": "水城",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 299000
+    },
+    {
+      "id": "netease-track:31246091",
+      "neteaseTrackId": "31246091",
+      "title": "土豆",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 241000
+    },
+    {
+      "id": "netease-track:31246097",
+      "neteaseTrackId": "31246097",
+      "title": "老狗",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 407000
+    },
+    {
+      "id": "netease-track:31246093",
+      "neteaseTrackId": "31246093",
+      "title": "空对空",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:31246094",
+      "neteaseTrackId": "31246094",
+      "title": "夏末",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:31246100",
+      "neteaseTrackId": "31246100",
+      "title": "太阳看起来圆圆的",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 572000
+    },
+    {
+      "id": "netease-track:31246096",
+      "neteaseTrackId": "31246096",
+      "title": "孤独鸟",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:31246095",
+      "neteaseTrackId": "31246095",
+      "title": "丝绒蝴蝶",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万晓利"
+      ],
+      "durationMs": 281000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=3115369",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "太阳看起来圆圆的 万晓利",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,110 @@
+{
+  "internalId": "album:387010610",
+  "id": "album:387010610",
+  "neteaseAlbumId": "387010610",
+  "slug": "from-sand-to-wave",
+  "title": "从沙至浪",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:30588657",
+      "neteaseArtistId": "30588657",
+      "name": "Mikann耙耙柑"
+    },
+    {
+      "id": "netease-artist:12482079",
+      "neteaseArtistId": "12482079",
+      "name": "Knocker"
+    }
+  ],
+  "releaseDate": "2026-07-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Modern Sky Game House",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/387010610.webp",
+    "alt": "《从沙至浪》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/387010610.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3406561649",
+      "neteaseTrackId": "3406561649",
+      "title": "从 (Sanaa)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Mikann耙耙柑",
+        "Knocker"
+      ],
+      "durationMs": 232173
+    },
+    {
+      "id": "netease-track:3406563082",
+      "neteaseTrackId": "3406563082",
+      "title": "沙 (Old Days)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Mikann耙耙柑",
+        "Knocker"
+      ],
+      "durationMs": 150612
+    },
+    {
+      "id": "netease-track:3406561650",
+      "neteaseTrackId": "3406561650",
+      "title": "至 (Zuglel)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Mikann耙耙柑",
+        "Knocker"
+      ],
+      "durationMs": 160004
+    },
+    {
+      "id": "netease-track:3406561651",
+      "neteaseTrackId": "3406561651",
+      "title": "浪 (Ayalal)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Mikann耙耙柑",
+        "Knocker"
+      ],
+      "durationMs": 181290
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=387010610",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [
+    "ZH"
+  ],
+  "contexts": [
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "从沙至浪 Mikann耙耙柑 Knocker",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

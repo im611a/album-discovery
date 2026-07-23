@@ -1,0 +1,166 @@
+{
+  "internalId": "album:37199",
+  "id": "album:37199",
+  "neteaseAlbumId": "37199",
+  "slug": "the-most-wonderful-journey",
+  "title": "最美妙的旅行",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12711",
+      "neteaseArtistId": "12711",
+      "name": "声音玩具"
+    }
+  ],
+  "releaseDate": "2003-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "草台回声",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/37199.webp",
+    "alt": "《最美妙的旅行》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/37199.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:375907",
+      "neteaseTrackId": "375907",
+      "title": "星期天大街",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 456960
+    },
+    {
+      "id": "netease-track:375910",
+      "neteaseTrackId": "375910",
+      "title": "爱玲",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 441680
+    },
+    {
+      "id": "netease-track:375912",
+      "neteaseTrackId": "375912",
+      "title": "未来",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 467586
+    },
+    {
+      "id": "netease-track:375914",
+      "neteaseTrackId": "375914",
+      "title": "秘密的爱",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 375440
+    },
+    {
+      "id": "netease-track:375916",
+      "neteaseTrackId": "375916",
+      "title": "不朽",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 688040
+    },
+    {
+      "id": "netease-track:375919",
+      "neteaseTrackId": "375919",
+      "title": "完美的一天",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 183760
+    },
+    {
+      "id": "netease-track:375922",
+      "neteaseTrackId": "375922",
+      "title": "青春",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 391426
+    },
+    {
+      "id": "netease-track:375925",
+      "neteaseTrackId": "375925",
+      "title": "奇迹",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 417293
+    },
+    {
+      "id": "netease-track:375929",
+      "neteaseTrackId": "375929",
+      "title": "Sleeper",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 248626
+    },
+    {
+      "id": "netease-track:1469826239",
+      "neteaseTrackId": "1469826239",
+      "title": "伟大说谎者",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "声音玩具"
+      ],
+      "durationMs": 370093
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=37199",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "最美妙的旅行 声音玩具",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

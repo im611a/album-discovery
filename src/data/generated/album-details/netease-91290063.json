@@ -1,0 +1,184 @@
+{
+  "internalId": "album:91290063",
+  "id": "album:91290063",
+  "neteaseAlbumId": "91290063",
+  "slug": "netease-91290063",
+  "title": "以爱之名",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12785088",
+      "neteaseArtistId": "12785088",
+      "name": "网易音乐人"
+    },
+    {
+      "id": "netease-artist:11950",
+      "neteaseArtistId": "11950",
+      "name": "Joyside"
+    },
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    },
+    {
+      "id": "netease-artist:11364",
+      "neteaseArtistId": "11364",
+      "name": "Casino Demon"
+    },
+    {
+      "id": "netease-artist:1199032",
+      "neteaseArtistId": "1199032",
+      "name": "新学校合唱团"
+    },
+    {
+      "id": "netease-artist:13585",
+      "neteaseArtistId": "13585",
+      "name": "指人儿"
+    },
+    {
+      "id": "netease-artist:12898835",
+      "neteaseArtistId": "12898835",
+      "name": "咖喱3000"
+    },
+    {
+      "id": "netease-artist:31562251",
+      "neteaseArtistId": "31562251",
+      "name": "DIRTY MOON"
+    },
+    {
+      "id": "netease-artist:13030",
+      "neteaseArtistId": "13030",
+      "name": "糖果怪兽"
+    }
+  ],
+  "releaseDate": "2020-06-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "网易音乐人",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/91290063.webp",
+    "alt": "《以爱之名》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/91290063.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1449369129",
+      "neteaseTrackId": "1449369129",
+      "title": "If There Is A Tomorrow",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 234615
+    },
+    {
+      "id": "netease-track:1449639752",
+      "neteaseTrackId": "1449639752",
+      "title": "幻觉中的斑驳迷离",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "DIRTY MOON"
+      ],
+      "durationMs": 226800
+    },
+    {
+      "id": "netease-track:1451169612",
+      "neteaseTrackId": "1451169612",
+      "title": "晚霞",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "新学校合唱团"
+      ],
+      "durationMs": 184000
+    },
+    {
+      "id": "netease-track:1451760356",
+      "neteaseTrackId": "1451760356",
+      "title": "germanium love",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Casino Demon"
+      ],
+      "durationMs": 157000
+    },
+    {
+      "id": "netease-track:1453108080",
+      "neteaseTrackId": "1453108080",
+      "title": "永失所爱",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "指人儿"
+      ],
+      "durationMs": 208000
+    },
+    {
+      "id": "netease-track:1453702785",
+      "neteaseTrackId": "1453702785",
+      "title": "牠",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "咖喱3000"
+      ],
+      "durationMs": 216746
+    },
+    {
+      "id": "netease-track:1454212939",
+      "neteaseTrackId": "1454212939",
+      "title": "欢喜",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "糖果怪兽"
+      ],
+      "durationMs": 248823
+    },
+    {
+      "id": "netease-track:1454981346",
+      "neteaseTrackId": "1454981346",
+      "title": "远道而来的云",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 276479
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=91290063",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "以爱之名 网易音乐人 Joyside 木马Muma Casino Demon 新学校合唱团 指人儿 咖喱3000 DIRTY MOON 糖果怪兽",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

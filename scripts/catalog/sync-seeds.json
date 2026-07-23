@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "description": "Reviewed local NetEase album seeds. Existing IDs exercise idempotent sync without external requests.",
+  "albums": [
+    { "albumId": "287974232", "coreGenres": ["hip-hop"], "contexts": ["night", "solitude"] },
+    { "albumId": "286248593", "coreGenres": ["hip-hop"], "contexts": ["night"] },
+    { "albumId": "18915", "coreGenres": ["pop"], "contexts": ["commute", "relax"] },
+    { "albumId": "18905", "coreGenres": ["pop"], "contexts": ["commute", "night"] },
+    { "albumId": "15190", "coreGenres": ["pop"], "contexts": ["commute", "relax"] },
+    { "albumId": "15185", "coreGenres": ["pop"], "contexts": ["commute", "focus"] },
+    { "albumId": "29748", "coreGenres": ["experimental-pop"], "contexts": ["solitude", "night"] },
+    { "albumId": "29698", "coreGenres": ["pop"], "contexts": ["night", "solitude"] },
+    { "albumId": "6491", "coreGenres": ["pop"], "contexts": ["commute", "night"] },
+    { "albumId": "19038", "coreGenres": ["pop"], "contexts": ["night", "solitude"] }
+  ],
+  "artists": []
+}

@@ -1,0 +1,188 @@
+{
+  "internalId": "album:80620766",
+  "id": "album:80620766",
+  "neteaseAlbumId": "80620766",
+  "slug": "netease-80620766",
+  "title": "洄游",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2019-07-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京有此山文化傳媒有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/80620766.webp",
+    "alt": "《洄游》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/80620766.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1380260562",
+      "neteaseTrackId": "1380260562",
+      "title": "有雾来",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 356666
+    },
+    {
+      "id": "netease-track:1380260563",
+      "neteaseTrackId": "1380260563",
+      "title": "第七日",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 242933
+    },
+    {
+      "id": "netease-track:1380261056",
+      "neteaseTrackId": "1380261056",
+      "title": "山水人物",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 291348
+    },
+    {
+      "id": "netease-track:1380261057",
+      "neteaseTrackId": "1380261057",
+      "title": "蓝",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 172674
+    },
+    {
+      "id": "netease-track:1380261058",
+      "neteaseTrackId": "1380261058",
+      "title": "美丽海",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 239739
+    },
+    {
+      "id": "netease-track:1380260564",
+      "neteaseTrackId": "1380260564",
+      "title": "爱完不完",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 238245
+    },
+    {
+      "id": "netease-track:1380260565",
+      "neteaseTrackId": "1380260565",
+      "title": "飞白",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 254424
+    },
+    {
+      "id": "netease-track:1380261067",
+      "neteaseTrackId": "1380261067",
+      "title": "下世纪见",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 219768
+    },
+    {
+      "id": "netease-track:1380261068",
+      "neteaseTrackId": "1380261068",
+      "title": "超认真嬉戏",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 239964
+    },
+    {
+      "id": "netease-track:1380260574",
+      "neteaseTrackId": "1380260574",
+      "title": "素日之死",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 262781
+    },
+    {
+      "id": "netease-track:1380261069",
+      "neteaseTrackId": "1380261069",
+      "title": "群居生物",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 254858
+    },
+    {
+      "id": "netease-track:1380261070",
+      "neteaseTrackId": "1380261070",
+      "title": "泛灵",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 285503
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=80620766",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "洄游 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

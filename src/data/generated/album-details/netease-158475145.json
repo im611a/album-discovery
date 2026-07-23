@@ -1,0 +1,249 @@
+{
+  "internalId": "album:158475145",
+  "id": "album:158475145",
+  "neteaseAlbumId": "158475145",
+  "slug": "netease-158475145",
+  "title": "音乐肖像",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6461",
+      "neteaseArtistId": "6461",
+      "name": "周云蓬"
+    },
+    {
+      "id": "netease-artist:187462",
+      "neteaseArtistId": "187462",
+      "name": "小老虎"
+    },
+    {
+      "id": "netease-artist:973004",
+      "neteaseArtistId": "973004",
+      "name": "程璧"
+    },
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    },
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    },
+    {
+      "id": "netease-artist:55587128",
+      "neteaseArtistId": "55587128",
+      "name": "抗猫"
+    },
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    },
+    {
+      "id": "netease-artist:4592",
+      "neteaseArtistId": "4592",
+      "name": "马頔"
+    },
+    {
+      "id": "netease-artist:3682",
+      "neteaseArtistId": "3682",
+      "name": "老狼"
+    },
+    {
+      "id": "netease-artist:11728",
+      "neteaseArtistId": "11728",
+      "name": "发光曲线"
+    },
+    {
+      "id": "netease-artist:8376",
+      "neteaseArtistId": "8376",
+      "name": "罗思容"
+    },
+    {
+      "id": "netease-artist:13223",
+      "neteaseArtistId": "13223",
+      "name": "万能青年旅店"
+    },
+    {
+      "id": "netease-artist:938017",
+      "neteaseArtistId": "938017",
+      "name": "五条人"
+    }
+  ],
+  "releaseDate": "2023-05-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "银河方舟X安磐文化",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/158475145.webp",
+    "alt": "《音乐肖像》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/158475145.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2015614789",
+      "neteaseTrackId": "2015614789",
+      "title": "王刚",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 315720
+    },
+    {
+      "id": "netease-track:2015614790",
+      "neteaseTrackId": "2015614790",
+      "title": "谭谭面",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "小老虎"
+      ],
+      "durationMs": 259466
+    },
+    {
+      "id": "netease-track:2015614808",
+      "neteaseTrackId": "2015614808",
+      "title": "小素",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "程璧"
+      ],
+      "durationMs": 235733
+    },
+    {
+      "id": "netease-track:2015614828",
+      "neteaseTrackId": "2015614828",
+      "title": "侯师傅",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 318453
+    },
+    {
+      "id": "netease-track:2015614839",
+      "neteaseTrackId": "2015614839",
+      "title": "白亦初",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 264053
+    },
+    {
+      "id": "netease-track:2015614840",
+      "neteaseTrackId": "2015614840",
+      "title": "德旷",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "抗猫"
+      ],
+      "durationMs": 256786
+    },
+    {
+      "id": "netease-track:2015614842",
+      "neteaseTrackId": "2015614842",
+      "title": "落音",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 303200
+    },
+    {
+      "id": "netease-track:2015614860",
+      "neteaseTrackId": "2015614860",
+      "title": "王若姗",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "马頔"
+      ],
+      "durationMs": 362133
+    },
+    {
+      "id": "netease-track:2015614869",
+      "neteaseTrackId": "2015614869",
+      "title": "管艺",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "老狼",
+        "发光曲线"
+      ],
+      "durationMs": 362786
+    },
+    {
+      "id": "netease-track:2015614905",
+      "neteaseTrackId": "2015614905",
+      "title": "核桃",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 246746
+    },
+    {
+      "id": "netease-track:2015613998",
+      "neteaseTrackId": "2015613998",
+      "title": "张洲",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 263786
+    },
+    {
+      "id": "netease-track:2015614907",
+      "neteaseTrackId": "2015614907",
+      "title": "陈木莲",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "五条人"
+      ],
+      "durationMs": 231200
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=158475145",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "音乐肖像 周云蓬 小老虎 程璧 林一峰 陈粒 抗猫 万芳 马頔 老狼 发光曲线 罗思容 万能青年旅店 五条人",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

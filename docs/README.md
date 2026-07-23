@@ -5,6 +5,8 @@
 - [PRODUCT.md](./PRODUCT.md)：用户问题、产品承诺、主要旅程与已知限制。
 - [DATA_SOURCES.md](./DATA_SOURCES.md)：官方来源职责、刷新约束、归属与非依赖。
 - [ARCHITECTURE.md](./ARCHITECTURE.md)：实际存在的数据流、推荐、本机状态与静态交付。
+- [DESIGN_SYSTEM.md](./DESIGN_SYSTEM.md)：当前蓝黑视觉令牌、组件层级、响应式与无障碍约束。
+- [PRODUCT_PIPELINE_REDESIGN_AUDIT.md](./PRODUCT_PIPELINE_REDESIGN_AUDIT.md)：本次产品收敛、目录管线、数据统计、浏览器验收和最终质量证据。
 - [ALEKSI_CODEX_PLANNING_METHOD.md](./ALEKSI_CODEX_PLANNING_METHOD.md)：仓库保留的工程规划方法。
 - [ONE_SHOT_PRODUCT_DELIVERY_FINAL_AUDIT.md](./ONE_SHOT_PRODUCT_DELIVERY_FINAL_AUDIT.md)：一站式候选版的独立审计、修复闭环与最终质量证据。
 - [RYM_TAXONOMY_CORRECTION_AUDIT.md](./RYM_TAXONOMY_CORRECTION_AUDIT.md)：RYM taxonomy 来源边界、逐专辑匹配统计和抽样复核。

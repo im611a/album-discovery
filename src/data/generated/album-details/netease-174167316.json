@@ -1,0 +1,109 @@
+{
+  "internalId": "album:174167316",
+  "id": "album:174167316",
+  "neteaseAlbumId": "174167316",
+  "slug": "netease-174167316",
+  "title": "Crystalline",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29061",
+      "neteaseArtistId": "29061",
+      "name": "Alex Heffes"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2023-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Platoon",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/174167316.webp",
+    "alt": "《Crystalline》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/174167316.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2079936876",
+      "neteaseTrackId": "2079936876",
+      "title": "Celestine",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes",
+        "坂本龍一"
+      ],
+      "durationMs": 105312
+    },
+    {
+      "id": "netease-track:2079936877",
+      "neteaseTrackId": "2079936877",
+      "title": "Obsidian",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes",
+        "坂本龍一"
+      ],
+      "durationMs": 151034
+    },
+    {
+      "id": "netease-track:2079933556",
+      "neteaseTrackId": "2079933556",
+      "title": "Amethyst",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes",
+        "坂本龍一"
+      ],
+      "durationMs": 168983
+    },
+    {
+      "id": "netease-track:2079936878",
+      "neteaseTrackId": "2079936878",
+      "title": "After",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes",
+        "坂本龍一"
+      ],
+      "durationMs": 78545
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=174167316",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Crystalline Alex Heffes 坂本龍一",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

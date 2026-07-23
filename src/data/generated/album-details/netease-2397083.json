@@ -1,0 +1,204 @@
+{
+  "internalId": "album:2397083",
+  "id": "album:2397083",
+  "neteaseAlbumId": "2397083",
+  "slug": "netease-2397083",
+  "title": "再见你好吗",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "2013-06-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "种子音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2397083.webp",
+    "alt": "《再见你好吗》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2397083.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:26425114",
+      "neteaseTrackId": "26425114",
+      "title": "Hello",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 19373
+    },
+    {
+      "id": "netease-track:26210113",
+      "neteaseTrackId": "26210113",
+      "title": "勿忘我",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255133
+    },
+    {
+      "id": "netease-track:26145664",
+      "neteaseTrackId": "26145664",
+      "title": "一念之间",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 279626
+    },
+    {
+      "id": "netease-track:26425117",
+      "neteaseTrackId": "26425117",
+      "title": "逗阵兄弟",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆",
+        "卢广仲"
+      ],
+      "durationMs": 306360
+    },
+    {
+      "id": "netease-track:26425123",
+      "neteaseTrackId": "26425123",
+      "title": "真爱等一下",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆",
+        "蔡健雅"
+      ],
+      "durationMs": 286893
+    },
+    {
+      "id": "netease-track:26425118",
+      "neteaseTrackId": "26425118",
+      "title": "好好说再见",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆",
+        "关诗敏"
+      ],
+      "durationMs": 248586
+    },
+    {
+      "id": "netease-track:26425120",
+      "neteaseTrackId": "26425120",
+      "title": "上爱唱的歌",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 278680
+    },
+    {
+      "id": "netease-track:26425119",
+      "neteaseTrackId": "26425119",
+      "title": "那个女孩",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆",
+        "卢广仲"
+      ],
+      "durationMs": 267333
+    },
+    {
+      "id": "netease-track:26425116",
+      "neteaseTrackId": "26425116",
+      "title": "The Promise",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 270186
+    },
+    {
+      "id": "netease-track:26425122",
+      "neteaseTrackId": "26425122",
+      "title": "因为爱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 212280
+    },
+    {
+      "id": "netease-track:26425121",
+      "neteaseTrackId": "26425121",
+      "title": "小小的你",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 208333
+    },
+    {
+      "id": "netease-track:26425115",
+      "neteaseTrackId": "26425115",
+      "title": "All for Joy",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆",
+        "关诗敏"
+      ],
+      "durationMs": 258400
+    },
+    {
+      "id": "netease-track:26210112",
+      "neteaseTrackId": "26210112",
+      "title": "逗阵兄弟",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 335693
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=2397083",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "再见你好吗 陶喆",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

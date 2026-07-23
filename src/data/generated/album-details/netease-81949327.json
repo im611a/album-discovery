@@ -1,0 +1,155 @@
+{
+  "internalId": "album:81949327",
+  "id": "album:81949327",
+  "neteaseAlbumId": "81949327",
+  "slug": "netease-81949327",
+  "title": "浴室 (LP version)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12463331",
+      "neteaseArtistId": "12463331",
+      "name": "deca joins"
+    }
+  ],
+  "releaseDate": "2019-09-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/81949327.webp",
+    "alt": "《浴室 (LP version)》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/81949327.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1393397307",
+      "neteaseTrackId": "1393397307",
+      "title": "一去不回来 (LP version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 280990
+    },
+    {
+      "id": "netease-track:1393399283",
+      "neteaseTrackId": "1393399283",
+      "title": "快乐 (LP version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 211358
+    },
+    {
+      "id": "netease-track:1393397308",
+      "neteaseTrackId": "1393397308",
+      "title": "巫赌 (LP version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 208249
+    },
+    {
+      "id": "netease-track:1393399284",
+      "neteaseTrackId": "1393399284",
+      "title": "关渡口 (LP version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 281191
+    },
+    {
+      "id": "netease-track:1393397309",
+      "neteaseTrackId": "1393397309",
+      "title": "蓝色 (LP version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 212336
+    },
+    {
+      "id": "netease-track:1393399285",
+      "neteaseTrackId": "1393399285",
+      "title": "春天游泳(LP version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 275970
+    },
+    {
+      "id": "netease-track:1393399286",
+      "neteaseTrackId": "1393399286",
+      "title": "路 (LP version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 245144
+    },
+    {
+      "id": "netease-track:1393399287",
+      "neteaseTrackId": "1393399287",
+      "title": "浴室 (LP version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 255609
+    },
+    {
+      "id": "netease-track:1393397310",
+      "neteaseTrackId": "1393397310",
+      "title": "梦 (LP version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 246303
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=81949327",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "浴室 (LP version) deca joins",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

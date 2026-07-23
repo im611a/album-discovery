@@ -1,0 +1,111 @@
+{
+  "internalId": "album:38199",
+  "id": "album:38199",
+  "neteaseAlbumId": "38199",
+  "slug": "netease-38199",
+  "title": "0306",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2007-12-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Fox Tail",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38199.webp",
+    "alt": "《0306》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38199.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:385380",
+      "neteaseTrackId": "385380",
+      "title": "潮",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 1112000
+    },
+    {
+      "id": "netease-track:385381",
+      "neteaseTrackId": "385381",
+      "title": "小憩",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 440413
+    },
+    {
+      "id": "netease-track:385382",
+      "neteaseTrackId": "385382",
+      "title": "3",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 552373
+    },
+    {
+      "id": "netease-track:385383",
+      "neteaseTrackId": "385383",
+      "title": "Unfit",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 351120
+    },
+    {
+      "id": "netease-track:385384",
+      "neteaseTrackId": "385384",
+      "title": "Nomore film",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 386093
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=38199",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "0306 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

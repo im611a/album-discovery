@@ -1,0 +1,210 @@
+{
+  "internalId": "album:186212397",
+  "id": "album:186212397",
+  "neteaseAlbumId": "186212397",
+  "slug": "netease-186212397",
+  "title": "async - immersion 2023",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2024-02-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/186212397.webp",
+    "alt": "《async - immersion 2023》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/186212397.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2127233157",
+      "neteaseTrackId": "2127233157",
+      "title": "andata (immersion 2023)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 280218
+    },
+    {
+      "id": "netease-track:2127234001",
+      "neteaseTrackId": "2127234001",
+      "title": "disintegration (immersion 2023)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 348740
+    },
+    {
+      "id": "netease-track:2127234002",
+      "neteaseTrackId": "2127234002",
+      "title": "solari (immersion 2023)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 248058
+    },
+    {
+      "id": "netease-track:2127234003",
+      "neteaseTrackId": "2127234003",
+      "title": "ZURE (immersion 2023)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 322014
+    },
+    {
+      "id": "netease-track:2127234004",
+      "neteaseTrackId": "2127234004",
+      "title": "walker (immersion 2023)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 259552
+    },
+    {
+      "id": "netease-track:2127234005",
+      "neteaseTrackId": "2127234005",
+      "title": "stakra (immersion 2023)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 225581
+    },
+    {
+      "id": "netease-track:2127234006",
+      "neteaseTrackId": "2127234006",
+      "title": "ubi (immersion 2023)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 245458
+    },
+    {
+      "id": "netease-track:2127234008",
+      "neteaseTrackId": "2127234008",
+      "title": "fullmoon (immersion 2023)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 314491
+    },
+    {
+      "id": "netease-track:2127234010",
+      "neteaseTrackId": "2127234010",
+      "title": "async (immersion 2023)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 165976
+    },
+    {
+      "id": "netease-track:2127233158",
+      "neteaseTrackId": "2127233158",
+      "title": "tri (immersion 2023)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 207865
+    },
+    {
+      "id": "netease-track:2127234013",
+      "neteaseTrackId": "2127234013",
+      "title": "LIFE, LIFE (immersion 2023)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 261642
+    },
+    {
+      "id": "netease-track:2127234015",
+      "neteaseTrackId": "2127234015",
+      "title": "honj (immersion 2023)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 220427
+    },
+    {
+      "id": "netease-track:2127234016",
+      "neteaseTrackId": "2127234016",
+      "title": "ff (immersion 2023)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 319901
+    },
+    {
+      "id": "netease-track:2127233160",
+      "neteaseTrackId": "2127233160",
+      "title": "garden (immersion 2023)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 262965
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=186212397",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "async - immersion 2023 坂本龍一",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

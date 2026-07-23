@@ -1,0 +1,137 @@
+{
+  "internalId": "album:142279651",
+  "id": "album:142279651",
+  "neteaseAlbumId": "142279651",
+  "slug": "netease-142279651",
+  "title": "Trans-Aeon Express",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12802035",
+      "neteaseArtistId": "12802035",
+      "name": "33EMYBW"
+    },
+    {
+      "id": "netease-artist:12776881",
+      "neteaseArtistId": "12776881",
+      "name": "Gooooose"
+    }
+  ],
+  "releaseDate": "2022-03-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "SVBKVLT",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/142279651.webp",
+    "alt": "《Trans-Aeon Express》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/142279651.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1930874196",
+      "neteaseTrackId": "1930874196",
+      "title": "Selector",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Gooooose"
+      ],
+      "durationMs": 250175
+    },
+    {
+      "id": "netease-track:1930874197",
+      "neteaseTrackId": "1930874197",
+      "title": "Microcosmic",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 198767
+    },
+    {
+      "id": "netease-track:1930874198",
+      "neteaseTrackId": "1930874198",
+      "title": "From Stellar Maze To Infinity",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Gooooose"
+      ],
+      "durationMs": 380000
+    },
+    {
+      "id": "netease-track:1930874199",
+      "neteaseTrackId": "1930874199",
+      "title": "Marcocosmic",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 269374
+    },
+    {
+      "id": "netease-track:1930877874",
+      "neteaseTrackId": "1930877874",
+      "title": "TAE [album version]",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Gooooose"
+      ],
+      "durationMs": 340000
+    },
+    {
+      "id": "netease-track:1930874200",
+      "neteaseTrackId": "1930874200",
+      "title": "Dimensional Horizon",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 149896
+    },
+    {
+      "id": "netease-track:1930877875",
+      "neteaseTrackId": "1930877875",
+      "title": "Through",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Gooooose"
+      ],
+      "durationMs": 288000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=142279651",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Trans-Aeon Express 33EMYBW Gooooose",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

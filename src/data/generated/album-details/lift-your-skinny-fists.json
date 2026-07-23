@@ -1,0 +1,100 @@
+{
+  "internalId": "album:412971",
+  "id": "album:412971",
+  "neteaseAlbumId": "412971",
+  "slug": "lift-your-skinny-fists",
+  "title": "Lift Your Skinny Fists Like Antennas to Heaven",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:93191",
+      "neteaseArtistId": "93191",
+      "name": "Godspeed You! Black Emperor"
+    }
+  ],
+  "releaseDate": "2000-10-08",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/412971.webp",
+    "alt": "《Lift Your Skinny Fists Like Antennas to Heaven》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/412971.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4084027",
+      "neteaseTrackId": "4084027",
+      "title": "Storm",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 1352413
+    },
+    {
+      "id": "netease-track:4084032",
+      "neteaseTrackId": "4084032",
+      "title": "Static",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 1355946
+    },
+    {
+      "id": "netease-track:4084037",
+      "neteaseTrackId": "4084037",
+      "title": "Sleep",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 1397746
+    },
+    {
+      "id": "netease-track:4084042",
+      "neteaseTrackId": "4084042",
+      "title": "Like Antennas To Heaven…",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 1137586
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=412971",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Lift Your Skinny Fists Like Antennas to Heaven Godspeed You! Black Emperor",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

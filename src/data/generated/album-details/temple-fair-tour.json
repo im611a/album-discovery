@@ -1,0 +1,166 @@
+{
+  "internalId": "album:19213",
+  "id": "album:19213",
+  "neteaseAlbumId": "19213",
+  "slug": "temple-fair-tour",
+  "title": "庙会之旅",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "1999-12-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19213.webp",
+    "alt": "《庙会之旅》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/19213.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:190155",
+      "neteaseTrackId": "190155",
+      "title": "皮条客",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 224455
+    },
+    {
+      "id": "netease-track:190158",
+      "neteaseTrackId": "190158",
+      "title": "羞辱主义",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 336051
+    },
+    {
+      "id": "netease-track:1478884421",
+      "neteaseTrackId": "1478884421",
+      "title": "苦鬼",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 253809
+    },
+    {
+      "id": "netease-track:189566",
+      "neteaseTrackId": "189566",
+      "title": "冤枉",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 224074
+    },
+    {
+      "id": "netease-track:190166",
+      "neteaseTrackId": "190166",
+      "title": "祭日之星",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 206762
+    },
+    {
+      "id": "netease-track:190169",
+      "neteaseTrackId": "190169",
+      "title": "果皮箱",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 188142
+    },
+    {
+      "id": "netease-track:190172",
+      "neteaseTrackId": "190172",
+      "title": "家父",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 391559
+    },
+    {
+      "id": "netease-track:190176",
+      "neteaseTrackId": "190176",
+      "title": "除夕",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 337500
+    },
+    {
+      "id": "netease-track:190179",
+      "neteaseTrackId": "190179",
+      "title": "莫非",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 304988
+    },
+    {
+      "id": "netease-track:1496828563",
+      "neteaseTrackId": "1496828563",
+      "title": "再见 可爱的小伙子",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 249523
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19213",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "庙会之旅 左小祖咒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,283 @@
+{
+  "internalId": "album:89754896",
+  "id": "album:89754896",
+  "neteaseAlbumId": "89754896",
+  "slug": "netease-89754896",
+  "title": "PSYLIFE.25",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29303235",
+      "neteaseArtistId": "29303235",
+      "name": "PSY.P"
+    },
+    {
+      "id": "netease-artist:12002201",
+      "neteaseArtistId": "12002201",
+      "name": "Higher Brothers"
+    }
+  ],
+  "releaseDate": "2020-05-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "88rising Records LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/89754896.webp",
+    "alt": "《PSYLIFE.25》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/89754896.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1449822897",
+      "neteaseTrackId": "1449822897",
+      "title": "桐梓林 TongZiLin",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 167172
+    },
+    {
+      "id": "netease-track:1449822898",
+      "neteaseTrackId": "1449822898",
+      "title": "焦点 Focus (feat. Masiwei)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers",
+        "马思唯"
+      ],
+      "durationMs": 169090
+    },
+    {
+      "id": "netease-track:1449822899",
+      "neteaseTrackId": "1449822899",
+      "title": "丛林之王 King of the Jungle (feat. Melo)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers",
+        "Melo"
+      ],
+      "durationMs": 209361
+    },
+    {
+      "id": "netease-track:1449821001",
+      "neteaseTrackId": "1449821001",
+      "title": "潇洒 SOSA",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 130285
+    },
+    {
+      "id": "netease-track:1449822900",
+      "neteaseTrackId": "1449822900",
+      "title": "刘玉玲 Lucy Liu (feat. Bohan Phoenix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers",
+        "Bohan 冷博涵"
+      ],
+      "durationMs": 206400
+    },
+    {
+      "id": "netease-track:1449822901",
+      "neteaseTrackId": "1449822901",
+      "title": "追求 Go4",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 157714
+    },
+    {
+      "id": "netease-track:1449822902",
+      "neteaseTrackId": "1449822902",
+      "title": "HaHaHa Freestyle",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 113757
+    },
+    {
+      "id": "netease-track:1449822903",
+      "neteaseTrackId": "1449822903",
+      "title": "香奈儿 CHANEL",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 158540
+    },
+    {
+      "id": "netease-track:1449821002",
+      "neteaseTrackId": "1449821002",
+      "title": "信仰 Believe",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 132000
+    },
+    {
+      "id": "netease-track:1449821003",
+      "neteaseTrackId": "1449821003",
+      "title": "浮夸 Grandiose",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 177534
+    },
+    {
+      "id": "netease-track:1449822904",
+      "neteaseTrackId": "1449822904",
+      "title": "笑话 Joke (feat. KnowKnow & Melo)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers",
+        "KnowKnow",
+        "Melo"
+      ],
+      "durationMs": 109177
+    },
+    {
+      "id": "netease-track:1449822905",
+      "neteaseTrackId": "1449822905",
+      "title": "666",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 115955
+    },
+    {
+      "id": "netease-track:1449821004",
+      "neteaseTrackId": "1449821004",
+      "title": "谁 Who",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 213001
+    },
+    {
+      "id": "netease-track:1449822906",
+      "neteaseTrackId": "1449822906",
+      "title": "25 (Skit)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 92000
+    },
+    {
+      "id": "netease-track:1449821005",
+      "neteaseTrackId": "1449821005",
+      "title": "土味情话 Sweet nothings",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 178782
+    },
+    {
+      "id": "netease-track:1449821006",
+      "neteaseTrackId": "1449821006",
+      "title": "失去控制 Lose control (feat. KnowKnow)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers",
+        "KnowKnow"
+      ],
+      "durationMs": 183272
+    },
+    {
+      "id": "netease-track:1449822907",
+      "neteaseTrackId": "1449822907",
+      "title": "坏毛病 Bad Habits",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 183000
+    },
+    {
+      "id": "netease-track:1449821007",
+      "neteaseTrackId": "1449821007",
+      "title": "投降 Surrender",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "PSY.P",
+        "Higher Brothers"
+      ],
+      "durationMs": 178285
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=89754896",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "PSYLIFE.25 PSY.P Higher Brothers",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

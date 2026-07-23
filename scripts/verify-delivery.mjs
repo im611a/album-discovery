@@ -30,11 +30,16 @@ if (sourceEntries.some((entry) => forbidden.test(entry))) throw new Error("Sourc
 
 const siteEntries = entries(site);
 if (!siteEntries.includes("index.html")) throw new Error("Static archive does not have index.html at its root.");
+if (!siteEntries.includes("release-manifest.json")) throw new Error("Static archive does not have release-manifest.json at its root.");
 if (siteEntries.some((entry) => forbidden.test(entry))) throw new Error("Static archive contains a forbidden path.");
 if (siteEntries.some((entry) => /(^|\/)(package\.json|pnpm-lock\.yaml|src|scripts|docs)(\/|$)/.test(entry))) throw new Error("Static archive contains source-only files.");
 const catalog = JSON.parse(readFileSync(path.join(root, "src", "data", "generated", "catalog.json"), "utf8"));
 const albumPages = siteEntries.filter((entry) => /^albums\/[^/]+\/index\.html$/.test(entry));
+const artistPages = siteEntries.filter((entry) => /^artists\/[^/]+\/index\.html$/.test(entry));
 if (albumPages.length !== catalog.albums.length) throw new Error(`Expected ${catalog.albums.length} album pages in static archive, found ${albumPages.length}.`);
+const artists = JSON.parse(readFileSync(path.join(root, "src", "data", "generated", "artist-index.json"), "utf8"));
+if (artistPages.length !== artists.artists.length) throw new Error(`Expected ${artists.artists.length} artist pages in static archive, found ${artistPages.length}.`);
+if (siteEntries.some((entry) => /^catalog\/covers\/\d+\.jpg$/i.test(entry))) throw new Error("Static archive contains unoptimized original cover files.");
 if (!siteEntries.some((entry) => entry.startsWith("_next/static/"))) throw new Error("Static archive is missing Next.js assets.");
 
 const temporary = path.join(root, "artifacts", ".delivery-verify");

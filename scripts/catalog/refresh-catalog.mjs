@@ -1,8 +1,10 @@
-import { appendFile, mkdir, readFile, rename, stat, writeFile } from "node:fs/promises";
+import { appendFile, mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { NETEASE_CATALOG_SEEDS } from "./netease-seeds.mjs";
 import { MANUAL_CORE_TAXONOMY } from "./taxonomy.mjs";
+import { normalizeListeningScenes } from "./listening-scenes.mjs";
+import { publishCatalog } from "./publish-catalog.mjs";
 import { resolveRymTaxonomy, validateRymTaxonomySnapshot } from "./rym-taxonomy.mjs";
 import { validateCatalogData } from "./catalog-validation.mjs";
 
@@ -10,9 +12,6 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..")
 const cacheDir = path.join(root, ".cache", "catalog", "netease");
 const coverDir = path.join(root, "public", "catalog", "covers");
 const outputDir = path.join(root, "src", "data", "generated");
-const catalogPath = path.join(outputDir, "catalog.json");
-const catalogIndexPath = path.join(outputDir, "catalog-index.json");
-const manifestPath = path.join(outputDir, "catalog.manifest.json");
 const identitiesPath = path.join(root, "scripts", "catalog", "netease-identities.json");
 const rymTaxonomySnapshotPath = path.join(root, "scripts", "catalog", "rym-taxonomy-snapshot.json");
 const rymTaxonomyAuditPath = path.join(root, "reports", "catalog", "rym-taxonomy-audit.json");
@@ -300,8 +299,8 @@ function normalizeAlbum(seed, albumId, payload, cover, refreshedAt, rymRecords) 
     albumType: releaseType(album.type ?? album.subType),
     company: typeof album.company === "string" && album.company.trim() ? album.company.trim() : null,
     cover: cover.ok
-      ? { kind: "local", src: cover.src, alt: `《${album.name}》专辑封面`, reason: null }
-      : { kind: "fallback", src: null, alt: `《${album.name}》封面暂缺`, reason: cover.reason },
+      ? { kind: "local", src: cover.src, thumbnailSrc: null, alt: `《${album.name}》专辑封面`, reason: null }
+      : { kind: "fallback", src: null, thumbnailSrc: null, alt: `《${album.name}》封面暂缺`, reason: cover.reason },
     tracks,
     trackCount: Number.isFinite(Number(album.size ?? album.trackCount)) ? Number(album.size ?? album.trackCount) : tracks.length,
     externalUrl,
@@ -315,7 +314,7 @@ function normalizeAlbum(seed, albumId, payload, cover, refreshedAt, rymRecords) 
       error: null,
     },
     sourceMarketChannels: [...new Set(seed.sourceMarketChannels)],
-    contexts: [...new Set(seed.contexts)],
+    contexts: normalizeListeningScenes(seed.contexts),
     editorial,
   };
   if (!seed.coreGenres.length) {
@@ -342,7 +341,7 @@ function normalizeAlbum(seed, albumId, payload, cover, refreshedAt, rymRecords) 
     ...artists.map((artist) => artist.name),
   ].join(" ");
   return {
-    album: { ...baseAlbum, ...resolved.taxonomy, searchText },
+    album: { ...baseAlbum, ...resolved.taxonomy, ...resolved.rym, searchText },
     audit: resolved.audit,
     terms: resolved.terms,
   };
@@ -436,21 +435,6 @@ async function main() {
   };
   const validation = validateCatalogData(catalog, nextIdentities, rymSnapshot);
   if (!validation.ok) throw new Error(`Catalog validation failed:\n${validation.errors.join("\n")}`);
-  const temporaryCatalog = `${catalogPath}.tmp`;
-  const temporaryCatalogIndex = `${catalogIndexPath}.tmp`;
-  const temporaryManifest = `${manifestPath}.tmp`;
-  const indexAlbums = catalog.albums.map((album) => {
-    const summary = { ...album };
-    delete summary.tracks;
-    return summary;
-  });
-  const catalogIndex = {
-    ...catalog,
-    albums: indexAlbums,
-  };
-  await writeFile(temporaryCatalog, `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
-  await writeFile(temporaryCatalogIndex, `${JSON.stringify(catalogIndex, null, 2)}\n`, "utf8");
-  await writeFile(temporaryManifest, `${JSON.stringify(validation.summary, null, 2)}\n`, "utf8");
   await writeFile(identitiesPath, `${JSON.stringify(nextIdentities, null, 2)}\n`, "utf8");
   await writeFile(rymTaxonomyAuditPath, `${JSON.stringify({
     generatedAt: refreshedAt,
@@ -469,9 +453,7 @@ async function main() {
     rymAmbiguous: taxonomyAudits.filter((item) => item.status === "ambiguous").length,
     rejected: failures,
   }, null, 2)}\n`, "utf8");
-  await rename(temporaryCatalog, catalogPath);
-  await rename(temporaryCatalogIndex, catalogIndexPath);
-  await rename(temporaryManifest, manifestPath);
+  await publishCatalog(catalog);
   console.log(`Published ${albums.length} NetEase albums after ${requestCount} external requests.`);
 }
 

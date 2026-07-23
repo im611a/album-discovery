@@ -1,0 +1,181 @@
+{
+  "internalId": "album:13351",
+  "id": "album:13351",
+  "neteaseAlbumId": "13351",
+  "slug": "netease-13351",
+  "title": "丝绒公路",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:4478",
+      "neteaseArtistId": "4478",
+      "name": "木玛&Third Party"
+    },
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    }
+  ],
+  "releaseDate": "2007-09-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "星外星音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/13351.webp",
+    "alt": "《丝绒公路》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/13351.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:135011",
+      "neteaseTrackId": "135011",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 129506
+    },
+    {
+      "id": "netease-track:135012",
+      "neteaseTrackId": "135012",
+      "title": "天鹅绒",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 278160
+    },
+    {
+      "id": "netease-track:135013",
+      "neteaseTrackId": "135013",
+      "title": "她是黯淡星",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 324640
+    },
+    {
+      "id": "netease-track:135014",
+      "neteaseTrackId": "135014",
+      "title": "爱在流逝中",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 262746
+    },
+    {
+      "id": "netease-track:135015",
+      "neteaseTrackId": "135015",
+      "title": "你想跳支怎样的舞",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 168226
+    },
+    {
+      "id": "netease-track:135016",
+      "neteaseTrackId": "135016",
+      "title": "赞美之歌",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 262893
+    },
+    {
+      "id": "netease-track:135017",
+      "neteaseTrackId": "135017",
+      "title": "欲望号",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 341680
+    },
+    {
+      "id": "netease-track:135018",
+      "neteaseTrackId": "135018",
+      "title": "超现实预言",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 258040
+    },
+    {
+      "id": "netease-track:135019",
+      "neteaseTrackId": "135019",
+      "title": "The third party",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 327360
+    },
+    {
+      "id": "netease-track:135020",
+      "neteaseTrackId": "135020",
+      "title": "他真的在哭泣",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "木玛",
+        "木玛&Third Party"
+      ],
+      "durationMs": 340826
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=13351",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "丝绒公路 木玛&Third Party 木马Muma",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

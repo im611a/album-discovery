@@ -1,0 +1,234 @@
+{
+  "internalId": "album:15185",
+  "id": "album:15185",
+  "neteaseAlbumId": "15185",
+  "slug": "the-great-leap",
+  "title": "太平盛世",
+  "aliases": [
+    "The Great Leap"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "2005-01-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15185.webp",
+    "alt": "《太平盛世》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/15185.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:150427",
+      "neteaseTrackId": "150427",
+      "title": "鬼 - Overture",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 54226
+    },
+    {
+      "id": "netease-track:150428",
+      "neteaseTrackId": "150428",
+      "title": "鬼",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:150429",
+      "neteaseTrackId": "150429",
+      "title": "Catherine",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 210266
+    },
+    {
+      "id": "netease-track:150430",
+      "neteaseTrackId": "150430",
+      "title": "就是爱你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 261906
+    },
+    {
+      "id": "netease-track:150431",
+      "neteaseTrackId": "150431",
+      "title": "孙子兵法",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 234600
+    },
+    {
+      "id": "netease-track:150432",
+      "neteaseTrackId": "150432",
+      "title": "爱我还是他",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 292666
+    },
+    {
+      "id": "netease-track:150433",
+      "neteaseTrackId": "150433",
+      "title": "Susan 说",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 261826
+    },
+    {
+      "id": "netease-track:150434",
+      "neteaseTrackId": "150434",
+      "title": "无缘",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 256773
+    },
+    {
+      "id": "netease-track:150435",
+      "neteaseTrackId": "150435",
+      "title": "Sula 与 Lampa 的寓言",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 196400
+    },
+    {
+      "id": "netease-track:150436",
+      "neteaseTrackId": "150436",
+      "title": "2Night藏爱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 231466
+    },
+    {
+      "id": "netease-track:150437",
+      "neteaseTrackId": "150437",
+      "title": "她的歌",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 248666
+    },
+    {
+      "id": "netease-track:150438",
+      "neteaseTrackId": "150438",
+      "title": "爱是个什么东西",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 284200
+    },
+    {
+      "id": "netease-track:150439",
+      "neteaseTrackId": "150439",
+      "title": "祷告良辰歌",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 214308
+    },
+    {
+      "id": "netease-track:150440",
+      "neteaseTrackId": "150440",
+      "title": "鬼(Music鉴赏版)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:150441",
+      "neteaseTrackId": "150441",
+      "title": "爱我还是他(Music鉴赏版)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 292666
+    },
+    {
+      "id": "netease-track:150442",
+      "neteaseTrackId": "150442",
+      "title": "Susan 说(Music鉴赏版)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 257960
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=15185",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "太平盛世 The Great Leap 陶喆",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,102 @@
+{
+  "internalId": "album:75207317",
+  "id": "album:75207317",
+  "neteaseAlbumId": "75207317",
+  "slug": "netease-75207317",
+  "title": "Face My Fears",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2019-01-17",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/75207317.webp",
+    "alt": "《Face My Fears》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/75207317.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1340179483",
+      "neteaseTrackId": "1340179483",
+      "title": "Face My Fears (English Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "Skrillex"
+      ],
+      "durationMs": 222017
+    },
+    {
+      "id": "netease-track:1340179484",
+      "neteaseTrackId": "1340179484",
+      "title": "誓い",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 277757
+    },
+    {
+      "id": "netease-track:1340180481",
+      "neteaseTrackId": "1340180481",
+      "title": "Face My Fears (Japanese Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "Skrillex"
+      ],
+      "durationMs": 222075
+    },
+    {
+      "id": "netease-track:1331932032",
+      "neteaseTrackId": "1331932032",
+      "title": "Don't Think Twice",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 273856
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=75207317",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Face My Fears 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

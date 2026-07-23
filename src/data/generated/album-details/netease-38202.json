@@ -1,0 +1,155 @@
+{
+  "internalId": "album:38202",
+  "id": "album:38202",
+  "neteaseAlbumId": "38202",
+  "slug": "netease-38202",
+  "title": "二十八天失眠日记",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2003-07-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38202.webp",
+    "alt": "《二十八天失眠日记》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38202.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:385398",
+      "neteaseTrackId": "385398",
+      "title": "光",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 583413
+    },
+    {
+      "id": "netease-track:385400",
+      "neteaseTrackId": "385400",
+      "title": "垂死的岁末",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 468600
+    },
+    {
+      "id": "netease-track:385402",
+      "neteaseTrackId": "385402",
+      "title": "丰收",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 469200
+    },
+    {
+      "id": "netease-track:385404",
+      "neteaseTrackId": "385404",
+      "title": "奔丧",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 368026
+    },
+    {
+      "id": "netease-track:385406",
+      "neteaseTrackId": "385406",
+      "title": "报仇",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 309733
+    },
+    {
+      "id": "netease-track:385408",
+      "neteaseTrackId": "385408",
+      "title": "汉人",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 273320
+    },
+    {
+      "id": "netease-track:385410",
+      "neteaseTrackId": "385410",
+      "title": "辞行",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 349600
+    },
+    {
+      "id": "netease-track:385412",
+      "neteaseTrackId": "385412",
+      "title": "素食者",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 351493
+    },
+    {
+      "id": "netease-track:385414",
+      "neteaseTrackId": "385414",
+      "title": "A Song For Yu Wen",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 206720
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=38202",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "二十八天失眠日记 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

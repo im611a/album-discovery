@@ -1,4 +1,5 @@
 import { REQUIRED_NETEASE_SAMPLES } from "./netease-seeds.mjs";
+import { LISTENING_SCENES } from "./listening-scenes.mjs";
 import { resolveRymTaxonomy } from "./rym-taxonomy.mjs";
 
 const neteaseAlbumUrl = /^https:\/\/music\.163\.com\/#\/album\?id=(\d+)$/;
@@ -26,6 +27,7 @@ function duplicateValues(values) {
 
 export function validateCatalogData(catalog, identities = {}, rymSnapshot = { records: [] }) {
   const errors = [];
+  const listeningSceneKeys = new Set(LISTENING_SCENES.map(([key]) => key));
   if (catalog?.version !== 2) errors.push("Catalog version must be 2.");
   if (catalog?.source?.catalog !== "netease") errors.push("Catalog authority must be NetEase.");
   if (catalog?.source?.runtimeRequestsAllowed !== false) errors.push("Runtime provider requests must be disabled.");
@@ -73,7 +75,10 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
     if (!urlMatch || urlMatch[1] !== String(album.neteaseAlbumId)) errors.push(`${prefix}: external URL is not the matching NetEase album page.`);
     if (!isoTimestamp.test(String(album?.discoveredAt ?? "")) || !isoTimestamp.test(String(album?.updatedAt ?? ""))) errors.push(`${prefix}: discovery timestamps must be UTC ISO values.`);
     if (!["local", "fallback"].includes(album?.cover?.kind)) errors.push(`${prefix}: invalid cover kind.`);
-    if (album?.cover?.kind === "local" && !/^\/catalog\/covers\/\d+\.jpg$/.test(String(album.cover.src))) errors.push(`${prefix}: local cover path must use the NetEase album ID.`);
+    if (album?.cover?.kind === "local" && !/^\/catalog\/covers\/(?:detail\/\d+\.webp|\d+\.jpg)$/.test(String(album.cover.src))) errors.push(`${prefix}: local cover path must use the NetEase album ID.`);
+    if (album?.cover?.thumbnailSrc != null && !/^\/catalog\/covers\/(?:thumb\/\d+\.webp|\d+\.jpg)$/.test(String(album.cover.thumbnailSrc))) {
+      errors.push(`${prefix}: invalid local thumbnail path.`);
+    }
     if (album?.cover?.kind === "fallback" && album.cover.src !== null) errors.push(`${prefix}: fallback cover must not pretend to be a real image.`);
     if (!album?.coreGenres?.length) errors.push(`${prefix}: at least one reviewed core genre is required.`);
     if (album?.source?.catalog !== "netease" || album?.source?.error !== null || !isoTimestamp.test(String(album?.source?.fetchedAt ?? "")) || !album?.source?.parserVersion || !album?.source?.verificationMethod) {
@@ -83,7 +88,24 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
     for (const key of album?.coreGenres ?? []) if (!coreTaxonomyKeys.has(key)) errors.push(`${prefix}: unknown core genre ${key}.`);
     for (const key of album?.relatedGenres ?? []) if (!relatedTaxonomyKeys.has(key)) errors.push(`${prefix}: unknown related genre ${key}.`);
     for (const key of album?.descriptors ?? []) if (!descriptorKeys.has(key)) errors.push(`${prefix}: unknown descriptor ${key}.`);
-    const resolvedTaxonomy = resolveRymTaxonomy(album, album?.coreGenres ?? [], rymSnapshot?.records ?? []).taxonomy;
+    if (!Array.isArray(album?.contexts) || album.contexts.length > 3 || album.contexts.some((key) => !listeningSceneKeys.has(key))) {
+      errors.push(`${prefix}: listening scenes must contain at most three reviewed stable keys.`);
+    }
+    if (!["MATCHED", "NOT_FOUND", "AMBIGUOUS", "REJECTED", "UNVERIFIED_NO_DATA"].includes(album?.rymMatchStatus)) {
+      errors.push(`${prefix}: invalid RYM match status.`);
+    }
+    if (album?.rymRating != null && (!Number.isFinite(album.rymRating) || album.rymRating <= 0 || album.rymRating > 5)) {
+      errors.push(`${prefix}: invalid RYM rating.`);
+    }
+    if (album?.rymRatingCount != null && (!Number.isInteger(album.rymRatingCount) || album.rymRatingCount < 0)) {
+      errors.push(`${prefix}: invalid RYM rating count.`);
+    }
+    if (album?.rymRating == null && album?.rymRatingCount != null) errors.push(`${prefix}: RYM rating count cannot exist without a rating.`);
+    if (album?.rymMatchStatus !== "MATCHED" && [album?.rymRating, album?.rymRatingCount, album?.rymReference, album?.rymObservedAt].some((value) => value != null)) {
+      errors.push(`${prefix}: non-matched albums cannot publish RYM rating fields.`);
+    }
+    const resolved = resolveRymTaxonomy(album, album?.coreGenres ?? [], rymSnapshot?.records ?? []);
+    const resolvedTaxonomy = resolved.taxonomy;
     const publishedTaxonomy = {
       coreGenres: album?.coreGenres ?? [],
       relatedGenres: album?.relatedGenres ?? [],
@@ -91,6 +113,22 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
     };
     if (JSON.stringify(resolvedTaxonomy) !== JSON.stringify(publishedTaxonomy)) {
       errors.push(`${prefix}: published taxonomy does not match the unique offline RYM record or manual-core fallback.`);
+    }
+    const publishedRym = {
+      rymRating: album?.rymRating ?? null,
+      rymRatingCount: album?.rymRatingCount ?? null,
+      rymReference: album?.rymReference ?? null,
+      rymObservedAt: album?.rymObservedAt ?? null,
+    };
+    const resolvedRymValues = {
+      rymRating: resolved.rym.rymRating,
+      rymRatingCount: resolved.rym.rymRatingCount,
+      rymReference: resolved.rym.rymReference,
+      rymObservedAt: resolved.rym.rymObservedAt,
+    };
+    if (JSON.stringify(resolvedRymValues) !== JSON.stringify(publishedRym) ||
+      (resolved.rym.rymMatchStatus === "MATCHED" && album?.rymMatchStatus !== "MATCHED")) {
+      errors.push(`${prefix}: published RYM fields do not match the unique authorized offline record or unmatched fallback.`);
     }
     const forbiddenKeys = ["musicbrainzReleaseGroupId", "representativeReleaseId", "sourceSummary", "primaryGenres", "secondaryGenres", "externalLinks"];
     for (const key of forbiddenKeys) if (key in album) errors.push(`${prefix}: legacy production field ${key} is forbidden.`);
@@ -115,6 +153,8 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
     coreGenres: new Set(albums.flatMap((album) => album.coreGenres ?? [])).size,
     relatedGenres: new Set(albums.flatMap((album) => album.relatedGenres ?? [])).size,
     descriptors: new Set(albums.flatMap((album) => album.descriptors ?? [])).size,
+    listeningScenes: new Set(albums.flatMap((album) => album.contexts ?? [])).size,
+    rymRatedAlbums: albums.filter((album) => album.rymRating != null).length,
     multiChannelAlbums: albums.filter((album) => (album.sourceMarketChannels?.length ?? 0) > 1).length,
   };
   return { ok: errors.length === 0, errors, summary };

@@ -1,0 +1,189 @@
+{
+  "internalId": "album:83826760",
+  "id": "album:83826760",
+  "neteaseAlbumId": "83826760",
+  "slug": "air-plan",
+  "title": "AIR PLAN",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1203045",
+      "neteaseArtistId": "1203045",
+      "name": "艾热 AIR"
+    }
+  ],
+  "releaseDate": "2019-12-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "种梦音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/83826760.webp",
+    "alt": "《AIR PLAN》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/83826760.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1407594566",
+      "neteaseTrackId": "1407594566",
+      "title": "开始",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 170736
+    },
+    {
+      "id": "netease-track:1407594571",
+      "neteaseTrackId": "1407594571",
+      "title": "用音乐安慰你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 260364
+    },
+    {
+      "id": "netease-track:1407594562",
+      "neteaseTrackId": "1407594562",
+      "title": "蓝色星球",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR",
+        "Ziba"
+      ],
+      "durationMs": 125500
+    },
+    {
+      "id": "netease-track:1407590866",
+      "neteaseTrackId": "1407590866",
+      "title": "蚂蚁颂",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 177352
+    },
+    {
+      "id": "netease-track:1407594568",
+      "neteaseTrackId": "1407594568",
+      "title": "你要离开吗",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 204045
+    },
+    {
+      "id": "netease-track:1407594572",
+      "neteaseTrackId": "1407594572",
+      "title": "我没那么游刃有余",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 298385
+    },
+    {
+      "id": "netease-track:1407594569",
+      "neteaseTrackId": "1407594569",
+      "title": "雾",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 235147
+    },
+    {
+      "id": "netease-track:1407594589",
+      "neteaseTrackId": "1407594589",
+      "title": "故事",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 408832
+    },
+    {
+      "id": "netease-track:1407594570",
+      "neteaseTrackId": "1407594570",
+      "title": "疑惑",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 234264
+    },
+    {
+      "id": "netease-track:1407590868",
+      "neteaseTrackId": "1407590868",
+      "title": "失控",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 204264
+    },
+    {
+      "id": "netease-track:1407594567",
+      "neteaseTrackId": "1407594567",
+      "title": "亢奋",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 189000
+    },
+    {
+      "id": "netease-track:1407594563",
+      "neteaseTrackId": "1407594563",
+      "title": "结束",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 112704
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=83826760",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "AIR PLAN 艾热 AIR",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,133 @@
+{
+  "internalId": "album:94777507",
+  "id": "album:94777507",
+  "neteaseAlbumId": "94777507",
+  "slug": "netease-94777507",
+  "title": "某种武器",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2020-09-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/94777507.webp",
+    "alt": "《某种武器》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/94777507.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1476383559",
+      "neteaseTrackId": "1476383559",
+      "title": "无由颂",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 202519
+    },
+    {
+      "id": "netease-track:1476383561",
+      "neteaseTrackId": "1476383561",
+      "title": "错译噤",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 192690
+    },
+    {
+      "id": "netease-track:1476383549",
+      "neteaseTrackId": "1476383549",
+      "title": "蜿蜒风",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 239767
+    },
+    {
+      "id": "netease-track:1476383560",
+      "neteaseTrackId": "1476383560",
+      "title": "反折竹",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 205479
+    },
+    {
+      "id": "netease-track:1476385047",
+      "neteaseTrackId": "1476385047",
+      "title": "干涸流",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 267954
+    },
+    {
+      "id": "netease-track:1476383547",
+      "neteaseTrackId": "1476383547",
+      "title": "界行僧",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 232027
+    },
+    {
+      "id": "netease-track:1476383546",
+      "neteaseTrackId": "1476383546",
+      "title": "滞水荷",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 182983
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=94777507",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "某种武器 Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

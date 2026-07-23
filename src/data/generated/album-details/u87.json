@@ -1,0 +1,199 @@
+{
+  "internalId": "album:6491",
+  "id": "album:6491",
+  "neteaseAlbumId": "6491",
+  "slug": "u87",
+  "title": "U87",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2005-06-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6491.webp",
+    "alt": "《U87》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6491.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:66261",
+      "neteaseTrackId": "66261",
+      "title": "烂",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 256026
+    },
+    {
+      "id": "netease-track:66265",
+      "neteaseTrackId": "66265",
+      "title": "阿牛",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 202040
+    },
+    {
+      "id": "netease-track:66272",
+      "neteaseTrackId": "66272",
+      "title": "夕阳无限好",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 244784
+    },
+    {
+      "id": "netease-track:66277",
+      "neteaseTrackId": "66277",
+      "title": "16月6日 晴",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 223466
+    },
+    {
+      "id": "netease-track:66282",
+      "neteaseTrackId": "66282",
+      "title": "浮夸",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 283520
+    },
+    {
+      "id": "netease-track:66285",
+      "neteaseTrackId": "66285",
+      "title": "葡萄成熟时",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 279846
+    },
+    {
+      "id": "netease-track:66288",
+      "neteaseTrackId": "66288",
+      "title": "三个人的探戈",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 197320
+    },
+    {
+      "id": "netease-track:66291",
+      "neteaseTrackId": "66291",
+      "title": "不良嗜好",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 216613
+    },
+    {
+      "id": "netease-track:66297",
+      "neteaseTrackId": "66297",
+      "title": "怕死",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 253680
+    },
+    {
+      "id": "netease-track:66300",
+      "neteaseTrackId": "66300",
+      "title": "大个女",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 236533
+    },
+    {
+      "id": "netease-track:66302",
+      "neteaseTrackId": "66302",
+      "title": "新美人主义",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 215600
+    },
+    {
+      "id": "netease-track:66304",
+      "neteaseTrackId": "66304",
+      "title": "遇见了你",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 252786
+    },
+    {
+      "id": "netease-track:478736220",
+      "neteaseTrackId": "478736220",
+      "title": "夕阳无限好 (只是近黄昏) (Remix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 247710
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=6491",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "U87 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

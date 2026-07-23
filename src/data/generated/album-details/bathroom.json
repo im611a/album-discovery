@@ -1,0 +1,155 @@
+{
+  "internalId": "album:35590687",
+  "id": "album:35590687",
+  "neteaseAlbumId": "35590687",
+  "slug": "bathroom",
+  "title": "浴室",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12463331",
+      "neteaseArtistId": "12463331",
+      "name": "deca joins"
+    }
+  ],
+  "releaseDate": "2017-06-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35590687.webp",
+    "alt": "《浴室》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35590687.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:483242432",
+      "neteaseTrackId": "483242432",
+      "title": "一去不回來",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 286213
+    },
+    {
+      "id": "netease-track:483242434",
+      "neteaseTrackId": "483242434",
+      "title": "快乐",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 213439
+    },
+    {
+      "id": "netease-track:483378330",
+      "neteaseTrackId": "483378330",
+      "title": "巫堵",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 210115
+    },
+    {
+      "id": "netease-track:483378331",
+      "neteaseTrackId": "483378331",
+      "title": "关渡口",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 280529
+    },
+    {
+      "id": "netease-track:483242433",
+      "neteaseTrackId": "483242433",
+      "title": "蓝色",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 206797
+    },
+    {
+      "id": "netease-track:483378333",
+      "neteaseTrackId": "483378333",
+      "title": "春天游泳",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 277012
+    },
+    {
+      "id": "netease-track:483378332",
+      "neteaseTrackId": "483378332",
+      "title": "路",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 247371
+    },
+    {
+      "id": "netease-track:483378334",
+      "neteaseTrackId": "483378334",
+      "title": "浴室",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 259953
+    },
+    {
+      "id": "netease-track:483378335",
+      "neteaseTrackId": "483378335",
+      "title": "梦",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 245146
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=35590687",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "浴室 deca joins",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

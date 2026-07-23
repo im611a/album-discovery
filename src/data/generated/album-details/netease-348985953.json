@@ -1,0 +1,125 @@
+{
+  "internalId": "album:348985953",
+  "id": "album:348985953",
+  "neteaseAlbumId": "348985953",
+  "slug": "netease-348985953",
+  "title": "Mine or Yours",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2025-11-25",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/348985953.webp",
+    "alt": "《Mine or Yours》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/348985953.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3313795988",
+      "neteaseTrackId": "3313795988",
+      "title": "Mine or Yours",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 262385
+    },
+    {
+      "id": "netease-track:3313795742",
+      "neteaseTrackId": "3313795742",
+      "title": "Mine or Yours (Yaeji Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "Yaeji"
+      ],
+      "durationMs": 255651
+    },
+    {
+      "id": "netease-track:3313795743",
+      "neteaseTrackId": "3313795743",
+      "title": "Mine or Yours (The Blessed Madonna's GODSQUAD Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "The Blessed Madonna"
+      ],
+      "durationMs": 306387
+    },
+    {
+      "id": "netease-track:3313795744",
+      "neteaseTrackId": "3313795744",
+      "title": "Mine or Yours (Bella Boo Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "Bella Boo"
+      ],
+      "durationMs": 233592
+    },
+    {
+      "id": "netease-track:3313795989",
+      "neteaseTrackId": "3313795989",
+      "title": "Mine or Yours - From THE FIRST TAKE",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 262664
+    },
+    {
+      "id": "netease-track:3313795990",
+      "neteaseTrackId": "3313795990",
+      "title": "Mine or Yours (Instrumental)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 261619
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=348985953",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Mine or Yours 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,135 @@
+{
+  "internalId": "album:168418523",
+  "id": "album:168418523",
+  "neteaseAlbumId": "168418523",
+  "slug": "netease-168418523",
+  "title": "Monster (Original Motion Picture Soundtrack)",
+  "aliases": [
+    "日本电影《怪物》原声带"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2023-11-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/168418523.webp",
+    "alt": "《Monster (Original Motion Picture Soundtrack)》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/168418523.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2059136710",
+      "neteaseTrackId": "2059136710",
+      "title": "20220207",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 421442
+    },
+    {
+      "id": "netease-track:2059134366",
+      "neteaseTrackId": "2059134366",
+      "title": "Monster 1",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 236355
+    },
+    {
+      "id": "netease-track:2059136711",
+      "neteaseTrackId": "2059136711",
+      "title": "hwit",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 389413
+    },
+    {
+      "id": "netease-track:2059136712",
+      "neteaseTrackId": "2059136712",
+      "title": "Monster 2",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 175937
+    },
+    {
+      "id": "netease-track:2059134367",
+      "neteaseTrackId": "2059134367",
+      "title": "20220302",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 171518
+    },
+    {
+      "id": "netease-track:2059136713",
+      "neteaseTrackId": "2059136713",
+      "title": "hibari",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 542120
+    },
+    {
+      "id": "netease-track:2059134368",
+      "neteaseTrackId": "2059134368",
+      "title": "Aqua",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 273333
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=168418523",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Monster (Original Motion Picture Soundtrack) 日本电影《怪物》原声带 坂本龍一",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,146 @@
+{
+  "internalId": "album:281405720",
+  "id": "album:281405720",
+  "neteaseAlbumId": "281405720",
+  "slug": "netease-281405720",
+  "title": "山歌响起的地方",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    },
+    {
+      "id": "netease-artist:99626729",
+      "neteaseArtistId": "99626729",
+      "name": "徐子尧"
+    },
+    {
+      "id": "netease-artist:99794700",
+      "neteaseArtistId": "99794700",
+      "name": "周煜琦"
+    },
+    {
+      "id": "netease-artist:0",
+      "neteaseArtistId": "0",
+      "name": "张旖旎"
+    },
+    {
+      "id": "netease-artist:0",
+      "neteaseArtistId": "0",
+      "name": "奚晓天"
+    }
+  ],
+  "releaseDate": "2025-08-12",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/281405720.webp",
+    "alt": "《山歌响起的地方》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/281405720.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2735855959",
+      "neteaseTrackId": "2735855959",
+      "title": "秭归鸟",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎",
+        "徐子尧"
+      ],
+      "durationMs": 224664
+    },
+    {
+      "id": "netease-track:2737855389",
+      "neteaseTrackId": "2737855389",
+      "title": "圆满",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "徐子尧"
+      ],
+      "durationMs": 316260
+    },
+    {
+      "id": "netease-track:2740179027",
+      "neteaseTrackId": "2740179027",
+      "title": "龙船调",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周煜琦"
+      ],
+      "durationMs": 136718
+    },
+    {
+      "id": "netease-track:2744360990",
+      "neteaseTrackId": "2744360990",
+      "title": "谁不说俺家乡好",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周煜琦"
+      ],
+      "durationMs": 290084
+    },
+    {
+      "id": "netease-track:2746833578",
+      "neteaseTrackId": "2746833578",
+      "title": "珊瑚颂",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "徐子尧"
+      ],
+      "durationMs": 239119
+    },
+    {
+      "id": "netease-track:3360471537",
+      "neteaseTrackId": "3360471537",
+      "title": "鸿雁于飞",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎",
+        "徐子尧",
+        "张旖旎",
+        "奚晓天"
+      ],
+      "durationMs": 337384
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=281405720",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "山歌响起的地方 刀郎 徐子尧 周煜琦 张旖旎 奚晓天",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

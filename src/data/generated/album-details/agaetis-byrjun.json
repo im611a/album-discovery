@@ -1,0 +1,166 @@
+{
+  "internalId": "album:2029087",
+  "id": "album:2029087",
+  "neteaseAlbumId": "2029087",
+  "slug": "agaetis-byrjun",
+  "title": "Ágætis byrjun",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "1999-06-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2029087.webp",
+    "alt": "《Ágætis byrjun》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2029087.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:22063110",
+      "neteaseTrackId": "22063110",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 96240
+    },
+    {
+      "id": "netease-track:22063111",
+      "neteaseTrackId": "22063111",
+      "title": "Svefn-g-englar",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 606850
+    },
+    {
+      "id": "netease-track:22063112",
+      "neteaseTrackId": "22063112",
+      "title": "Starálfur",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 406573
+    },
+    {
+      "id": "netease-track:22063113",
+      "neteaseTrackId": "22063113",
+      "title": "Flugufrelsarinn",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 467933
+    },
+    {
+      "id": "netease-track:22063114",
+      "neteaseTrackId": "22063114",
+      "title": "Ný batterí",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 490706
+    },
+    {
+      "id": "netease-track:22063115",
+      "neteaseTrackId": "22063115",
+      "title": "Hjartað hamast (bamm bamm bamm)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 430200
+    },
+    {
+      "id": "netease-track:22063116",
+      "neteaseTrackId": "22063116",
+      "title": "Viðrar vel til loftárása",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 617746
+    },
+    {
+      "id": "netease-track:22063117",
+      "neteaseTrackId": "22063117",
+      "title": "Olsen olsen",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 482946
+    },
+    {
+      "id": "netease-track:22063118",
+      "neteaseTrackId": "22063118",
+      "title": "Ágætis byrjun",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 475906
+    },
+    {
+      "id": "netease-track:22063119",
+      "neteaseTrackId": "22063119",
+      "title": "Avalon",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 242400
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=2029087",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Ágætis byrjun Sigur Rós",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

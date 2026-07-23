@@ -1,0 +1,188 @@
+{
+  "internalId": "album:15190",
+  "id": "album:15190",
+  "neteaseAlbumId": "15190",
+  "slug": "black-tangerine",
+  "title": "黑色柳丁",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "2002-08-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15190.webp",
+    "alt": "《黑色柳丁》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/15190.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:150552",
+      "neteaseTrackId": "150552",
+      "title": "黑色柳丁",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255266
+    },
+    {
+      "id": "netease-track:150556",
+      "neteaseTrackId": "150556",
+      "title": "Dear God",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 329133
+    },
+    {
+      "id": "netease-track:150558",
+      "neteaseTrackId": "150558",
+      "title": "Angel",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 232400
+    },
+    {
+      "id": "netease-track:150560",
+      "neteaseTrackId": "150560",
+      "title": "讨厌红楼梦",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 242373
+    },
+    {
+      "id": "netease-track:150561",
+      "neteaseTrackId": "150561",
+      "title": "蝴蝶",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 283200
+    },
+    {
+      "id": "netease-track:150562",
+      "neteaseTrackId": "150562",
+      "title": "宫保鸡丁",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 234466
+    },
+    {
+      "id": "netease-track:150563",
+      "neteaseTrackId": "150563",
+      "title": "Melody",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:150564",
+      "neteaseTrackId": "150564",
+      "title": "月亮代表谁的心",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 204986
+    },
+    {
+      "id": "netease-track:150565",
+      "neteaseTrackId": "150565",
+      "title": "二十二",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 261906
+    },
+    {
+      "id": "netease-track:150566",
+      "neteaseTrackId": "150566",
+      "title": "My Anata",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 227373
+    },
+    {
+      "id": "netease-track:150568",
+      "neteaseTrackId": "150568",
+      "title": "摇篮曲",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 254693
+    },
+    {
+      "id": "netease-track:150570",
+      "neteaseTrackId": "150570",
+      "title": "Katrina",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 266546
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=15190",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "黑色柳丁 陶喆",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

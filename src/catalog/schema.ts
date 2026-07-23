@@ -1,6 +1,12 @@
 export type ReleaseDatePrecision = "year" | "month" | "day";
 export type ReleaseType = "album" | "ep" | "mixtape" | "soundtrack";
 export type SourceMarketChannel = "ALL" | "ZH" | "EA" | "JP" | "KR";
+export type RymMatchStatus =
+  | "MATCHED"
+  | "NOT_FOUND"
+  | "AMBIGUOUS"
+  | "REJECTED"
+  | "UNVERIFIED_NO_DATA";
 
 export interface PublishedArtist {
   id: string;
@@ -21,6 +27,7 @@ export interface PublishedTrack {
 export interface PublishedCover {
   kind: "local" | "fallback";
   src: string | null;
+  thumbnailSrc: string | null;
   alt: string;
   reason: string | null;
 }
@@ -55,8 +62,14 @@ export interface PublishedAlbum {
   sourceMarketChannels: SourceMarketChannel[];
   coreGenres: string[];
   relatedGenres: string[];
+  /** Retained only for snapshot compatibility. Never expose this field in product UI. */
   descriptors: string[];
   contexts: string[];
+  rymRating: number | null;
+  rymRatingCount: number | null;
+  rymReference: string | null;
+  rymObservedAt: string | null;
+  rymMatchStatus: RymMatchStatus;
   editorial: AlbumEditorial | null;
   searchText: string;
   source: {
@@ -68,7 +81,45 @@ export interface PublishedAlbum {
   };
 }
 
-export type PublishedAlbumSummary = Omit<PublishedAlbum, "tracks">;
+export interface PublishedAlbumSummary {
+  internalId: string;
+  id: string;
+  neteaseAlbumId: string;
+  slug: string;
+  title: string;
+  aliases: string[];
+  artists: PublishedArtist[];
+  releaseDate: string | null;
+  releaseDatePrecision: ReleaseDatePrecision | null;
+  releaseYear: number | null;
+  albumType: ReleaseType;
+  cover: PublishedCover;
+  thumbnailPath: string | null;
+  discoveredAt: string;
+  sourceMarketChannels: SourceMarketChannel[];
+  coreGenres: string[];
+  relatedGenres: string[];
+  contexts: string[];
+  rymRating: number | null;
+  rymRatingCount: number | null;
+  editorial: AlbumEditorial | null;
+  searchText: string;
+}
+
+export interface PublishedArtistIndex {
+  artistId: string;
+  neteaseArtistId: string;
+  slug: string;
+  name: string;
+  aliases: string[];
+  albumCount: number;
+  albumCountByType: Partial<Record<ReleaseType, number>>;
+  earliestYear: number | null;
+  latestYear: number | null;
+  commonCoreGenres: string[];
+  albumIds: string[];
+  previewCovers: string[];
+}
 
 export interface CatalogTaxonomy {
   key: string;
@@ -102,6 +153,12 @@ export interface PublishedCatalog {
 
 export interface PublishedCatalogIndex extends Omit<PublishedCatalog, "albums"> {
   albums: PublishedAlbumSummary[];
+}
+
+export interface PublishedArtistCatalog {
+  version: 1;
+  generatedAt: string;
+  artists: PublishedArtistIndex[];
 }
 
 export const RELEASE_TYPE_LABELS: Record<ReleaseType, string> = {

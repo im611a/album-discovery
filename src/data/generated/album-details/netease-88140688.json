@@ -1,0 +1,214 @@
+{
+  "internalId": "album:88140688",
+  "id": "album:88140688",
+  "neteaseAlbumId": "88140688",
+  "slug": "netease-88140688",
+  "title": "Old Master",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29304235",
+      "neteaseArtistId": "29304235",
+      "name": "Melo"
+    },
+    {
+      "id": "netease-artist:12002201",
+      "neteaseArtistId": "12002201",
+      "name": "Higher Brothers"
+    }
+  ],
+  "releaseDate": "2020-04-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "88rising Records LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/88140688.webp",
+    "alt": "《Old Master》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/88140688.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1441232902",
+      "neteaseTrackId": "1441232902",
+      "title": "Welcome To My World (feat. PSY.P)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers",
+        "PSY.P"
+      ],
+      "durationMs": 174814
+    },
+    {
+      "id": "netease-track:1441233662",
+      "neteaseTrackId": "1441233662",
+      "title": "Born Like This",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers"
+      ],
+      "durationMs": 173333
+    },
+    {
+      "id": "netease-track:1441233663",
+      "neteaseTrackId": "1441233663",
+      "title": "乡巴佬",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers"
+      ],
+      "durationMs": 159529
+    },
+    {
+      "id": "netease-track:1441232903",
+      "neteaseTrackId": "1441232903",
+      "title": "Talk Less and Feel More (feat. AUGUST 08, Barney Bones,& PSY.P)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers",
+        "AUGUST 08",
+        "Barney Bones",
+        "PSY.P"
+      ],
+      "durationMs": 224224
+    },
+    {
+      "id": "netease-track:1441232904",
+      "neteaseTrackId": "1441232904",
+      "title": "代理 (feat. KnowKnow)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers",
+        "KnowKnow"
+      ],
+      "durationMs": 132727
+    },
+    {
+      "id": "netease-track:1441232905",
+      "neteaseTrackId": "1441232905",
+      "title": "Yes Sir (feat. Lil Shin)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers",
+        "李尔新"
+      ],
+      "durationMs": 169600
+    },
+    {
+      "id": "netease-track:1441233664",
+      "neteaseTrackId": "1441233664",
+      "title": "三娃儿 (feat. Mengzi)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Mengzi",
+        "Higher Brothers"
+      ],
+      "durationMs": 175909
+    },
+    {
+      "id": "netease-track:1441233665",
+      "neteaseTrackId": "1441233665",
+      "title": "越位",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers"
+      ],
+      "durationMs": 149347
+    },
+    {
+      "id": "netease-track:1441233666",
+      "neteaseTrackId": "1441233666",
+      "title": "Old Fashion (feat. Masiwei)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers",
+        "马思唯"
+      ],
+      "durationMs": 168292
+    },
+    {
+      "id": "netease-track:1441233667",
+      "neteaseTrackId": "1441233667",
+      "title": "Remember (feat. PSY.P)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers",
+        "PSY.P"
+      ],
+      "durationMs": 175483
+    },
+    {
+      "id": "netease-track:1441232906",
+      "neteaseTrackId": "1441232906",
+      "title": "Wish You Were Here",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers"
+      ],
+      "durationMs": 180705
+    },
+    {
+      "id": "netease-track:1441233668",
+      "neteaseTrackId": "1441233668",
+      "title": "I Did",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Melo",
+        "Higher Brothers"
+      ],
+      "durationMs": 155172
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=88140688",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Old Master Melo Higher Brothers",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

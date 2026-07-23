@@ -1,0 +1,210 @@
+{
+  "internalId": "album:98339170",
+  "id": "album:98339170",
+  "neteaseAlbumId": "98339170",
+  "slug": "netease-98339170",
+  "title": "冰冷热带鱼",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:14117457",
+      "neteaseArtistId": "14117457",
+      "name": "SASIOVERLXRD"
+    },
+    {
+      "id": "netease-artist:13451886",
+      "neteaseArtistId": "13451886",
+      "name": "JinJiBeWater_隼"
+    }
+  ],
+  "releaseDate": "2020-11-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/98339170.webp",
+    "alt": "《冰冷热带鱼》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/98339170.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1495865235",
+      "neteaseTrackId": "1495865235",
+      "title": "Sin Cypher (Prod.Emkay)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "JinJiBeWater_隼",
+        "RICHNOMADIC"
+      ],
+      "durationMs": 150885
+    },
+    {
+      "id": "netease-track:1495888737",
+      "neteaseTrackId": "1495888737",
+      "title": "Pain Wit Da Beatz (Prod.AntChamberlain)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "RICHNOMADIC",
+        "JinJiBeWater_隼"
+      ],
+      "durationMs": 200000
+    },
+    {
+      "id": "netease-track:1495895843",
+      "neteaseTrackId": "1495895843",
+      "title": "Cash Money 2 (Prod.AntChamberlain)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "CashTrippy",
+        "RICHNOMADIC",
+        "JinJiBeWater_隼"
+      ],
+      "durationMs": 211054
+    },
+    {
+      "id": "netease-track:1495941782",
+      "neteaseTrackId": "1495941782",
+      "title": "YioWerr药娃儿 (Prod.Ant Chamberlain)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "JinJiBeWater_隼",
+        "RICHNOMADIC"
+      ],
+      "durationMs": 180400
+    },
+    {
+      "id": "netease-track:1495949919",
+      "neteaseTrackId": "1495949919",
+      "title": "Sin House (Prod.AntChamberlain)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "JinJiBeWater_隼",
+        "RICHNOMADIC"
+      ],
+      "durationMs": 219999
+    },
+    {
+      "id": "netease-track:1495957979",
+      "neteaseTrackId": "1495957979",
+      "title": "爱到底 (Prod.Andyr)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "JinJiBeWater_隼"
+      ],
+      "durationMs": 200075
+    },
+    {
+      "id": "netease-track:1495969252",
+      "neteaseTrackId": "1495969252",
+      "title": "盆满钵满 (Prod.Dmac)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "RICHNOMADIC"
+      ],
+      "durationMs": 156000
+    },
+    {
+      "id": "netease-track:1495984741",
+      "neteaseTrackId": "1495984741",
+      "title": "你要遭(Russia Freestyle)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "连麻Swimming",
+        "JinJiBeWater_隼"
+      ],
+      "durationMs": 193500
+    },
+    {
+      "id": "netease-track:1495985280",
+      "neteaseTrackId": "1495985280",
+      "title": "Sad Wit Da Street (Prod.Roy Chase)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 175999
+    },
+    {
+      "id": "netease-track:1495990919",
+      "neteaseTrackId": "1495990919",
+      "title": "A Youngin Die In Block (Prod.JIJ)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "小宝lil-Bae",
+        "RICHNOMADIC"
+      ],
+      "durationMs": 216441
+    },
+    {
+      "id": "netease-track:1495993577",
+      "neteaseTrackId": "1495993577",
+      "title": "No Wait (BigFatCat)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "RICHNOMADIC"
+      ],
+      "durationMs": 177125
+    },
+    {
+      "id": "netease-track:1495995560",
+      "neteaseTrackId": "1495995560",
+      "title": "མ་ཉམས་གོང་འཕེལ། (Prod.AntChamberlain)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "RICHNOMADIC"
+      ],
+      "durationMs": 179404
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=98339170",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "冰冷热带鱼 SASIOVERLXRD JinJiBeWater_隼",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

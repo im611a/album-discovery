@@ -1,0 +1,166 @@
+{
+  "internalId": "album:38206",
+  "id": "album:38206",
+  "neteaseAlbumId": "38206",
+  "slug": "netease-38206",
+  "title": "凌水河",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2000-08-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38206.webp",
+    "alt": "《凌水河》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38206.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:385437",
+      "neteaseTrackId": "385437",
+      "title": "雨",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 328000
+    },
+    {
+      "id": "netease-track:385439",
+      "neteaseTrackId": "385439",
+      "title": "属于记忆的部分",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 119092
+    },
+    {
+      "id": "netease-track:385441",
+      "neteaseTrackId": "385441",
+      "title": "我爱爱情",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 290000
+    },
+    {
+      "id": "netease-track:385443",
+      "neteaseTrackId": "385443",
+      "title": "1/2",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 216000
+    },
+    {
+      "id": "netease-track:385445",
+      "neteaseTrackId": "385445",
+      "title": "妈妈",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 358269
+    },
+    {
+      "id": "netease-track:385447",
+      "neteaseTrackId": "385447",
+      "title": "生我",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 344000
+    },
+    {
+      "id": "netease-track:385449",
+      "neteaseTrackId": "385449",
+      "title": "留给自己的",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 216000
+    },
+    {
+      "id": "netease-track:385451",
+      "neteaseTrackId": "385451",
+      "title": "春夏秋冬",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:385453",
+      "neteaseTrackId": "385453",
+      "title": "渔和网",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 124000
+    },
+    {
+      "id": "netease-track:385455",
+      "neteaseTrackId": "385455",
+      "title": "沿着来时的路......",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 187000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=38206",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "凌水河 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,156 @@
+{
+  "internalId": "album:34403098",
+  "id": "album:34403098",
+  "neteaseAlbumId": "34403098",
+  "slug": "netease-34403098",
+  "title": "光冻",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "2015-12-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34403098.webp",
+    "alt": "《光冻》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34403098.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:399342702",
+      "neteaseTrackId": "399342702",
+      "title": "光冻",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 453560
+    },
+    {
+      "id": "netease-track:399342703",
+      "neteaseTrackId": "399342703",
+      "title": "死不回头",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 249213
+    },
+    {
+      "id": "netease-track:399342704",
+      "neteaseTrackId": "399342704",
+      "title": "鱼鸟之恋",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "崔健",
+        "央吉玛"
+      ],
+      "durationMs": 378960
+    },
+    {
+      "id": "netease-track:399342705",
+      "neteaseTrackId": "399342705",
+      "title": "外面的妞",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 483866
+    },
+    {
+      "id": "netease-track:399343720",
+      "neteaseTrackId": "399343720",
+      "title": "酷瓜树",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 318813
+    },
+    {
+      "id": "netease-track:399342706",
+      "neteaseTrackId": "399342706",
+      "title": "金色早晨",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 308440
+    },
+    {
+      "id": "netease-track:399343721",
+      "neteaseTrackId": "399343721",
+      "title": "滚动的蛋",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 446720
+    },
+    {
+      "id": "netease-track:399342707",
+      "neteaseTrackId": "399342707",
+      "title": "浑水湖漫步",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 262066
+    },
+    {
+      "id": "netease-track:399343722",
+      "neteaseTrackId": "399343722",
+      "title": "阳光下的梦",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 298333
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=34403098",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "光冻 崔健",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

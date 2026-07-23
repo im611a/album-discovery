@@ -6,7 +6,7 @@ import { recommendAlbums } from "./recommendation";
 const baseState = () => ({
   ...createInitialUserState(),
   onboardingCompleted: true,
-  taste: { ...createInitialUserState().taste, genres: ["ambient"], contexts: ["工作"] },
+  taste: { ...createInitialUserState().taste, genres: ["ambient"], contexts: ["focus"] },
 });
 
 describe("recommendation state signals", () => {
@@ -18,11 +18,13 @@ describe("recommendation state signals", () => {
     expect(after.map((item) => item.album.id)).not.toEqual(before.map((item) => item.album.id));
   });
 
-  it("treats favorite and imported like as the same strong, self-excluding seed", () => {
+  it("treats collection, explicit like, and imported like as strong, self-excluding seeds", () => {
     const favorite = catalogAlbums.find((album) => album.slug === "kind-of-blue")!;
     const favoriteIds = recommendAlbums({ ...baseState(), favoriteAlbumIds: [favorite.id] }).map((item) => item.album.id);
+    const likedIds = recommendAlbums({ ...baseState(), likedAlbumIds: [favorite.id] }).map((item) => item.album.id);
     const importedLikeIds = recommendAlbums({ ...baseState(), recommendationFeedback: { [favorite.id]: "like" } }).map((item) => item.album.id);
     expect(favoriteIds).not.toContain(favorite.id);
+    expect(likedIds).not.toContain(favorite.id);
     expect(importedLikeIds).not.toContain(favorite.id);
   });
 

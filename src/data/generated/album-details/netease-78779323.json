@@ -1,0 +1,199 @@
+{
+  "internalId": "album:78779323",
+  "id": "album:78779323",
+  "neteaseAlbumId": "78779323",
+  "slug": "netease-78779323",
+  "title": "This Is The One",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2009-03-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/78779323.webp",
+    "alt": "《This Is The One》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/78779323.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1361336636",
+      "neteaseTrackId": "1361336636",
+      "title": "Come Back To Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 237946
+    },
+    {
+      "id": "netease-track:1361335443",
+      "neteaseTrackId": "1361335443",
+      "title": "Me Muero",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 205653
+    },
+    {
+      "id": "netease-track:1361336637",
+      "neteaseTrackId": "1361336637",
+      "title": "Merry Christmas Mr. Lawrence - FYI",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 229560
+    },
+    {
+      "id": "netease-track:1361335444",
+      "neteaseTrackId": "1361335444",
+      "title": "Apple And Cinnamon",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 278946
+    },
+    {
+      "id": "netease-track:1361336638",
+      "neteaseTrackId": "1361336638",
+      "title": "Taking My Money Back",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 192480
+    },
+    {
+      "id": "netease-track:1361336639",
+      "neteaseTrackId": "1361336639",
+      "title": "This One (Crying Like A Child)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 270240
+    },
+    {
+      "id": "netease-track:1361336640",
+      "neteaseTrackId": "1361336640",
+      "title": "Automatic Part II",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 180853
+    },
+    {
+      "id": "netease-track:1361336641",
+      "neteaseTrackId": "1361336641",
+      "title": "Dirty Desire",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 231480
+    },
+    {
+      "id": "netease-track:1361336642",
+      "neteaseTrackId": "1361336642",
+      "title": "Poppin'",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 211573
+    },
+    {
+      "id": "netease-track:1361336643",
+      "neteaseTrackId": "1361336643",
+      "title": "On And On",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 197506
+    },
+    {
+      "id": "netease-track:1361335445",
+      "neteaseTrackId": "1361335445",
+      "title": "Simple And Clean",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 301253
+    },
+    {
+      "id": "netease-track:1361336644",
+      "neteaseTrackId": "1361336644",
+      "title": "Sanctuary (Opening) (Bonus Track)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 265253
+    },
+    {
+      "id": "netease-track:1361335446",
+      "neteaseTrackId": "1361335446",
+      "title": "Sanctuary (Ending) (Bonus Track)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 358373
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=78779323",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "This Is The One 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

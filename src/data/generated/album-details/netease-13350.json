@@ -1,0 +1,181 @@
+{
+  "internalId": "album:13350",
+  "id": "album:13350",
+  "neteaseAlbumId": "13350",
+  "slug": "netease-13350",
+  "title": "进化",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:4478",
+      "neteaseArtistId": "4478",
+      "name": "木玛&Third Party"
+    },
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    }
+  ],
+  "releaseDate": "2011-12-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "星外星音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/13350.webp",
+    "alt": "《进化》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/13350.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:135001",
+      "neteaseTrackId": "135001",
+      "title": "进化",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 447900
+    },
+    {
+      "id": "netease-track:135003",
+      "neteaseTrackId": "135003",
+      "title": "纳迪",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 347370
+    },
+    {
+      "id": "netease-track:135002",
+      "neteaseTrackId": "135002",
+      "title": "空洞",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 378965
+    },
+    {
+      "id": "netease-track:135007",
+      "neteaseTrackId": "135007",
+      "title": "无可救药",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 275657
+    },
+    {
+      "id": "netease-track:135009",
+      "neteaseTrackId": "135009",
+      "title": "像一个漩涡",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 323784
+    },
+    {
+      "id": "netease-track:135010",
+      "neteaseTrackId": "135010",
+      "title": "守护",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 406212
+    },
+    {
+      "id": "netease-track:135004",
+      "neteaseTrackId": "135004",
+      "title": "黑色的奔驰舞",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 359386
+    },
+    {
+      "id": "netease-track:135005",
+      "neteaseTrackId": "135005",
+      "title": "弱冠之年",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 379248
+    },
+    {
+      "id": "netease-track:135008",
+      "neteaseTrackId": "135008",
+      "title": "当黎明温暖的风……",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 301178
+    },
+    {
+      "id": "netease-track:135006",
+      "neteaseTrackId": "135006",
+      "title": "彼岸",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "木玛&Third Party",
+        "木马Muma"
+      ],
+      "durationMs": 294066
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=13350",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "进化 木玛&Third Party 木马Muma",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

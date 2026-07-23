@@ -1,0 +1,197 @@
+{
+  "internalId": "album:246472651",
+  "id": "album:246472651",
+  "neteaseAlbumId": "246472651",
+  "slug": "netease-246472651",
+  "title": "第三次世界大战",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2024-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/246472651.webp",
+    "alt": "《第三次世界大战》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/246472651.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:433681904",
+      "neteaseTrackId": "433681904",
+      "title": "第三次世界大战",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 300000
+    },
+    {
+      "id": "netease-track:27588247",
+      "neteaseTrackId": "27588247",
+      "title": "海底捞",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 290881
+    },
+    {
+      "id": "netease-track:2622363190",
+      "neteaseTrackId": "2622363190",
+      "title": "光阴的事故",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "刘东明",
+        "低苦艾",
+        "黑撒",
+        "王娟",
+        "罗思容",
+        "喜曼朵曼",
+        "东方大戏楼",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 241561
+    },
+    {
+      "id": "netease-track:1466877781",
+      "neteaseTrackId": "1466877781",
+      "title": "狼烟四起",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 227840
+    },
+    {
+      "id": "netease-track:1369452911",
+      "neteaseTrackId": "1369452911",
+      "title": "今宵欢乐多",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 114461
+    },
+    {
+      "id": "netease-track:189798",
+      "neteaseTrackId": "189798",
+      "title": "辣子",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 126333
+    },
+    {
+      "id": "netease-track:1433084614",
+      "neteaseTrackId": "1433084614",
+      "title": "有时候",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 178604
+    },
+    {
+      "id": "netease-track:189551",
+      "neteaseTrackId": "189551",
+      "title": "情书",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 228264
+    },
+    {
+      "id": "netease-track:1432878020",
+      "neteaseTrackId": "1432878020",
+      "title": "俗",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 190054
+    },
+    {
+      "id": "netease-track:863515350",
+      "neteaseTrackId": "863515350",
+      "title": "光的深处",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 188636
+    },
+    {
+      "id": "netease-track:1369453574",
+      "neteaseTrackId": "1369453574",
+      "title": "济公",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 121025
+    },
+    {
+      "id": "netease-track:1823250069",
+      "neteaseTrackId": "1823250069",
+      "title": "等待太阳",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 175294
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=246472651",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "第三次世界大战 左小祖咒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

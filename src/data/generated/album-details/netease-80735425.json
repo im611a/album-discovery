@@ -1,0 +1,167 @@
+{
+  "internalId": "album:80735425",
+  "id": "album:80735425",
+  "neteaseAlbumId": "80735425",
+  "slug": "netease-80735425",
+  "title": "玩",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2018-07-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京有此山文化傳媒有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/80735425.webp",
+    "alt": "《玩》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/80735425.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1381609436",
+      "neteaseTrackId": "1381609436",
+      "title": "望穿",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 232431
+    },
+    {
+      "id": "netease-track:1381609437",
+      "neteaseTrackId": "1381609437",
+      "title": "有此山",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 316952
+    },
+    {
+      "id": "netease-track:1381609438",
+      "neteaseTrackId": "1381609438",
+      "title": "情景剧",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 233412
+    },
+    {
+      "id": "netease-track:1381605003",
+      "neteaseTrackId": "1381605003",
+      "title": "我们存在一刹那的喜欢",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 227892
+    },
+    {
+      "id": "netease-track:1381609439",
+      "neteaseTrackId": "1381609439",
+      "title": "空舞",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒",
+        "吴青峰"
+      ],
+      "durationMs": 280375
+    },
+    {
+      "id": "netease-track:1381605011",
+      "neteaseTrackId": "1381605011",
+      "title": "青原",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 326882
+    },
+    {
+      "id": "netease-track:1381605018",
+      "neteaseTrackId": "1381605018",
+      "title": "八节木",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 276442
+    },
+    {
+      "id": "netease-track:1381605020",
+      "neteaseTrackId": "1381605020",
+      "title": "独行侠",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 218537
+    },
+    {
+      "id": "netease-track:1381609450",
+      "neteaseTrackId": "1381609450",
+      "title": "浪味仙地",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 190266
+    },
+    {
+      "id": "netease-track:1381605021",
+      "neteaseTrackId": "1381605021",
+      "title": "啊",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 250877
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=80735425",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "玩 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

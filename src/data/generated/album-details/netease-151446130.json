@@ -1,0 +1,122 @@
+{
+  "internalId": "album:151446130",
+  "id": "album:151446130",
+  "neteaseAlbumId": "151446130",
+  "slug": "netease-151446130",
+  "title": "EasON AIR",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2022-09-12",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151446130.webp",
+    "alt": "《EasON AIR》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/151446130.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1980767138",
+      "neteaseTrackId": "1980767138",
+      "title": "冷雨 (Live at EasON AIR)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 228900
+    },
+    {
+      "id": "netease-track:1980767139",
+      "neteaseTrackId": "1980767139",
+      "title": "慢慢喜欢你 (Live at EasON AIR)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 259502
+    },
+    {
+      "id": "netease-track:1980767140",
+      "neteaseTrackId": "1980767140",
+      "title": "无底洞 (Live at EasON AIR)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 272873
+    },
+    {
+      "id": "netease-track:1980763342",
+      "neteaseTrackId": "1980763342",
+      "title": "你有自己一套 (Live at EasON AIR)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 219301
+    },
+    {
+      "id": "netease-track:1980767141",
+      "neteaseTrackId": "1980767141",
+      "title": "暂停．开始过 (Live at EasON AIR)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 307038
+    },
+    {
+      "id": "netease-track:1980767142",
+      "neteaseTrackId": "1980767142",
+      "title": "下周同样时间 (再见) (Live at EasON AIR)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 278177
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=151446130",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "EasON AIR 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,210 @@
+{
+  "internalId": "album:29698",
+  "id": "album:29698",
+  "neteaseAlbumId": "29698",
+  "slug": "fable",
+  "title": "寓言",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2000-10-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KC DIGITAL LIMITED",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29698.webp",
+    "alt": "《寓言》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/29698.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:299588",
+      "neteaseTrackId": "299588",
+      "title": "寒武纪",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 317066
+    },
+    {
+      "id": "netease-track:299589",
+      "neteaseTrackId": "299589",
+      "title": "新房客",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 312200
+    },
+    {
+      "id": "netease-track:299590",
+      "neteaseTrackId": "299590",
+      "title": "香奈儿",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 292666
+    },
+    {
+      "id": "netease-track:299592",
+      "neteaseTrackId": "299592",
+      "title": "阿修罗",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 297693
+    },
+    {
+      "id": "netease-track:299594",
+      "neteaseTrackId": "299594",
+      "title": "彼岸花",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 316706
+    },
+    {
+      "id": "netease-track:299596",
+      "neteaseTrackId": "299596",
+      "title": "如果你是假的",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 237693
+    },
+    {
+      "id": "netease-track:299598",
+      "neteaseTrackId": "299598",
+      "title": "不爱我的我不爱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 260840
+    },
+    {
+      "id": "netease-track:299599",
+      "neteaseTrackId": "299599",
+      "title": "你喜欢不如我喜欢",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 242533
+    },
+    {
+      "id": "netease-track:299600",
+      "neteaseTrackId": "299600",
+      "title": "再见萤火虫",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 308160
+    },
+    {
+      "id": "netease-track:299601",
+      "neteaseTrackId": "299601",
+      "title": "笑忘书",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 267933
+    },
+    {
+      "id": "netease-track:299602",
+      "neteaseTrackId": "299602",
+      "title": "萤火虫",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 309400
+    },
+    {
+      "id": "netease-track:299604",
+      "neteaseTrackId": "299604",
+      "title": "给自己的情书",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 267600
+    },
+    {
+      "id": "netease-track:299606",
+      "neteaseTrackId": "299606",
+      "title": "Eyes On Me (Almighty Radio Mix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 239200
+    },
+    {
+      "id": "netease-track:299608",
+      "neteaseTrackId": "299608",
+      "title": "香奈儿 (日本语版)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 329200
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=29698",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "寓言 王菲",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

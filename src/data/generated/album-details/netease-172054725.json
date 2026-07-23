@@ -1,0 +1,179 @@
+{
+  "internalId": "album:172054725",
+  "id": "album:172054725",
+  "neteaseAlbumId": "172054725",
+  "slug": "netease-172054725",
+  "title": "回到2000",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12788674",
+      "neteaseArtistId": "12788674",
+      "name": "KEY.L刘聪"
+    }
+  ],
+  "releaseDate": "2023-08-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172054725.webp",
+    "alt": "《回到2000》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/172054725.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2072614086",
+      "neteaseTrackId": "2072614086",
+      "title": "未来等你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 197250
+    },
+    {
+      "id": "netease-track:2072301451",
+      "neteaseTrackId": "2072301451",
+      "title": "夜雨",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪"
+      ],
+      "durationMs": 348000
+    },
+    {
+      "id": "netease-track:2072610413",
+      "neteaseTrackId": "2072610413",
+      "title": "随身听2000",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 209142
+    },
+    {
+      "id": "netease-track:1960903012",
+      "neteaseTrackId": "1960903012",
+      "title": "黑本子",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 195824
+    },
+    {
+      "id": "netease-track:2072614138",
+      "neteaseTrackId": "2072614138",
+      "title": "走出核工厂",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪"
+      ],
+      "durationMs": 216346
+    },
+    {
+      "id": "netease-track:2072614148",
+      "neteaseTrackId": "2072614148",
+      "title": "苦海",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "梁笑生AIRBUS130",
+        "c0de731"
+      ],
+      "durationMs": 190000
+    },
+    {
+      "id": "netease-track:2072614166",
+      "neteaseTrackId": "2072614166",
+      "title": "Homiez Only",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:2072610460",
+      "neteaseTrackId": "2072610460",
+      "title": "午夜心碎台北",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "功夫胖KUNGFU-PEN",
+        "MC HotDog 热狗",
+        "c0de731",
+        "Whle"
+      ],
+      "durationMs": 267860
+    },
+    {
+      "id": "netease-track:2072610467",
+      "neteaseTrackId": "2072610467",
+      "title": "一个人待会儿",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 188117
+    },
+    {
+      "id": "netease-track:2065905084",
+      "neteaseTrackId": "2065905084",
+      "title": "千禧年代",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "Bramble",
+        "c0de731"
+      ],
+      "durationMs": 279264
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=172054725",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "回到2000 KEY.L刘聪",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

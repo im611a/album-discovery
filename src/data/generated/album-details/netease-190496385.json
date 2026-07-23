@@ -1,0 +1,109 @@
+{
+  "internalId": "album:190496385",
+  "id": "album:190496385",
+  "neteaseAlbumId": "190496385",
+  "slug": "netease-190496385",
+  "title": "蔡邕集 上",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:33154502",
+      "neteaseArtistId": "33154502",
+      "name": "朝简"
+    }
+  ],
+  "releaseDate": "2024-03-29",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "北京窦唯音乐工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/190496385.webp",
+    "alt": "《蔡邕集 上》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/190496385.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2140427486",
+      "neteaseTrackId": "2140427486",
+      "title": "饮马长城窟行",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 468000
+    },
+    {
+      "id": "netease-track:2140427488",
+      "neteaseTrackId": "2140427488",
+      "title": "青衣赋 2023",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 722000
+    },
+    {
+      "id": "netease-track:2140427485",
+      "neteaseTrackId": "2140427485",
+      "title": "招隐士 器乐版",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 423052
+    },
+    {
+      "id": "netease-track:2140427487",
+      "neteaseTrackId": "2140427487",
+      "title": "答对元式诗",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 633402
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=190496385",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "蔡邕集 上 窦唯 朝简",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

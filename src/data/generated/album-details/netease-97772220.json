@@ -1,0 +1,307 @@
+{
+  "internalId": "album:97772220",
+  "id": "album:97772220",
+  "neteaseAlbumId": "97772220",
+  "slug": "netease-97772220",
+  "title": "不完美人生指南",
+  "aliases": [
+    "Imperfect Imperfections"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    },
+    {
+      "id": "netease-artist:1008034",
+      "neteaseArtistId": "1008034",
+      "name": "鬼卞"
+    },
+    {
+      "id": "netease-artist:1030001",
+      "neteaseArtistId": "1030001",
+      "name": "周深"
+    },
+    {
+      "id": "netease-artist:32453904",
+      "neteaseArtistId": "32453904",
+      "name": "王子zione"
+    },
+    {
+      "id": "netease-artist:7063",
+      "neteaseArtistId": "7063",
+      "name": "黄丽玲"
+    },
+    {
+      "id": "netease-artist:4670",
+      "neteaseArtistId": "4670",
+      "name": "倪子冈"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    },
+    {
+      "id": "netease-artist:991002",
+      "neteaseArtistId": "991002",
+      "name": "柯智棠"
+    },
+    {
+      "id": "netease-artist:12138269",
+      "neteaseArtistId": "12138269",
+      "name": "毛不易"
+    },
+    {
+      "id": "netease-artist:1049443",
+      "neteaseArtistId": "1049443",
+      "name": "祁紫檀"
+    },
+    {
+      "id": "netease-artist:9940",
+      "neteaseArtistId": "9940",
+      "name": "徐佳莹"
+    },
+    {
+      "id": "netease-artist:1053259",
+      "neteaseArtistId": "1053259",
+      "name": "HUSH"
+    },
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    },
+    {
+      "id": "netease-artist:956386",
+      "neteaseArtistId": "956386",
+      "name": "王源"
+    },
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    },
+    {
+      "id": "netease-artist:2987",
+      "neteaseArtistId": "2987",
+      "name": "郭一凡"
+    },
+    {
+      "id": "netease-artist:9609",
+      "neteaseArtistId": "9609",
+      "name": "魏如萱"
+    },
+    {
+      "id": "netease-artist:33772751",
+      "neteaseArtistId": "33772751",
+      "name": "许光汉"
+    },
+    {
+      "id": "netease-artist:1193259",
+      "neteaseArtistId": "1193259",
+      "name": "苏运莹"
+    },
+    {
+      "id": "netease-artist:7409",
+      "neteaseArtistId": "7409",
+      "name": "岑宁儿"
+    },
+    {
+      "id": "netease-artist:167006",
+      "neteaseArtistId": "167006",
+      "name": "艾怡良"
+    },
+    {
+      "id": "netease-artist:11976077",
+      "neteaseArtistId": "11976077",
+      "name": "Matzka玛斯卡"
+    },
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    },
+    {
+      "id": "netease-artist:12276375",
+      "neteaseArtistId": "12276375",
+      "name": "NINEONE#乃万"
+    }
+  ],
+  "releaseDate": "2020-11-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "十一音乐 × 网易云音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/97772220.webp",
+    "alt": "《不完美人生指南》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/97772220.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1492319397",
+      "neteaseTrackId": "1492319397",
+      "title": "完整的我",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞",
+        "鬼卞"
+      ],
+      "durationMs": 270800
+    },
+    {
+      "id": "netease-track:1492318633",
+      "neteaseTrackId": "1492318633",
+      "title": "资深庸才",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周深",
+        "王子zione"
+      ],
+      "durationMs": 245983
+    },
+    {
+      "id": "netease-track:1492319398",
+      "neteaseTrackId": "1492319398",
+      "title": "不屑完美",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲",
+        "倪子冈"
+      ],
+      "durationMs": 142759
+    },
+    {
+      "id": "netease-track:1492318635",
+      "neteaseTrackId": "1492318635",
+      "title": "每天的不理想",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "柯智棠"
+      ],
+      "durationMs": 277503
+    },
+    {
+      "id": "netease-track:1492319411",
+      "neteaseTrackId": "1492319411",
+      "title": "爱痕森林",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "毛不易",
+        "祁紫檀"
+      ],
+      "durationMs": 399231
+    },
+    {
+      "id": "netease-track:1492318652",
+      "neteaseTrackId": "1492318652",
+      "title": "进化",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹",
+        "HUSH"
+      ],
+      "durationMs": 260319
+    },
+    {
+      "id": "netease-track:1492319432",
+      "neteaseTrackId": "1492319432",
+      "title": "在哪里都很好",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅",
+        "王源"
+      ],
+      "durationMs": 233338
+    },
+    {
+      "id": "netease-track:1492319441",
+      "neteaseTrackId": "1492319441",
+      "title": "自洽",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "郭一凡"
+      ],
+      "durationMs": 268102
+    },
+    {
+      "id": "netease-track:1492319444",
+      "neteaseTrackId": "1492319444",
+      "title": "什么跟什么有什么关系",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱",
+        "许光汉"
+      ],
+      "durationMs": 227200
+    },
+    {
+      "id": "netease-track:1492318657",
+      "neteaseTrackId": "1492318657",
+      "title": "聊天室",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "苏运莹",
+        "岑宁儿",
+        "艾怡良"
+      ],
+      "durationMs": 210415
+    },
+    {
+      "id": "netease-track:1492318658",
+      "neteaseTrackId": "1492318658",
+      "title": "将错就对",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Matzka玛斯卡",
+        "马思唯",
+        "NINEONE#乃万"
+      ],
+      "durationMs": 203000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=97772220",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "不完美人生指南 Imperfect Imperfections 陈绮贞 鬼卞 周深 王子zione 黄丽玲 倪子冈 刘若英 柯智棠 毛不易 祁紫檀 徐佳莹 HUSH 蔡健雅 王源 莫文蔚 郭一凡 魏如萱 许光汉 苏运莹 岑宁儿 艾怡良 Matzka玛斯卡 马思唯 NINEONE#乃万",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

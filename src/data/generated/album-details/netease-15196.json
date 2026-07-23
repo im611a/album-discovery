@@ -1,0 +1,188 @@
+{
+  "internalId": "album:15196",
+  "id": "album:15196",
+  "neteaseAlbumId": "15196",
+  "slug": "netease-15196",
+  "title": "I'm OK",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "1999-12-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15196.webp",
+    "alt": "《I'm OK》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/15196.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:150615",
+      "neteaseTrackId": "150615",
+      "title": "Doxology",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 47426
+    },
+    {
+      "id": "netease-track:150617",
+      "neteaseTrackId": "150617",
+      "title": "找自己",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 304706
+    },
+    {
+      "id": "netease-track:150619",
+      "neteaseTrackId": "150619",
+      "title": "小镇姑娘",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 295666
+    },
+    {
+      "id": "netease-track:150621",
+      "neteaseTrackId": "150621",
+      "title": "夜来香",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 258760
+    },
+    {
+      "id": "netease-track:150623",
+      "neteaseTrackId": "150623",
+      "title": "普通朋友",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255133
+    },
+    {
+      "id": "netease-track:150625",
+      "neteaseTrackId": "150625",
+      "title": "I'm OK",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255733
+    },
+    {
+      "id": "netease-track:150627",
+      "neteaseTrackId": "150627",
+      "title": "说走就走",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 346506
+    },
+    {
+      "id": "netease-track:150629",
+      "neteaseTrackId": "150629",
+      "title": "多谢你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255626
+    },
+    {
+      "id": "netease-track:150631",
+      "neteaseTrackId": "150631",
+      "title": "马戏团",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 258573
+    },
+    {
+      "id": "netease-track:150633",
+      "neteaseTrackId": "150633",
+      "title": "天天",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255200
+    },
+    {
+      "id": "netease-track:150635",
+      "neteaseTrackId": "150635",
+      "title": "Angeline",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 297626
+    },
+    {
+      "id": "netease-track:150636",
+      "neteaseTrackId": "150636",
+      "title": "Amen",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 32426
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=15196",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "I'm OK 陶喆",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

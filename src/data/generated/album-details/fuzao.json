@@ -1,0 +1,176 @@
+{
+  "internalId": "album:29748",
+  "id": "album:29748",
+  "neteaseAlbumId": "29748",
+  "slug": "fuzao",
+  "title": "浮躁",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1996-06-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29748.webp",
+    "alt": "《浮躁》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/29748.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300146",
+      "neteaseTrackId": "300146",
+      "title": "无常",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 156666
+    },
+    {
+      "id": "netease-track:300148",
+      "neteaseTrackId": "300148",
+      "title": "浮躁",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 180106
+    },
+    {
+      "id": "netease-track:300150",
+      "neteaseTrackId": "300150",
+      "title": "想像",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 220093
+    },
+    {
+      "id": "netease-track:300152",
+      "neteaseTrackId": "300152",
+      "title": "分裂",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 243413
+    },
+    {
+      "id": "netease-track:300154",
+      "neteaseTrackId": "300154",
+      "title": "不安",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 133400
+    },
+    {
+      "id": "netease-track:300156",
+      "neteaseTrackId": "300156",
+      "title": "哪儿",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 241160
+    },
+    {
+      "id": "netease-track:300158",
+      "neteaseTrackId": "300158",
+      "title": "堕落",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 222173
+    },
+    {
+      "id": "netease-track:300160",
+      "neteaseTrackId": "300160",
+      "title": "扫兴",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 249533
+    },
+    {
+      "id": "netease-track:300162",
+      "neteaseTrackId": "300162",
+      "title": "末日",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 238333
+    },
+    {
+      "id": "netease-track:300163",
+      "neteaseTrackId": "300163",
+      "title": "野三坡",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 229893
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29748",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "night"
+  ],
+  "editorial": {
+    "summaryZh": "自由的人声与轻盈编曲让整张作品在流行结构之外保持跳脱。",
+    "whyListenZh": "适合按顺序进入，关注人声、节奏与留白之间不断变化的关系。",
+    "confidence": "curated",
+    "humanReviewed": true,
+    "bestFor": [
+      "solitude",
+      "night"
+    ],
+    "startWithTrackId": "netease-track:300146"
+  },
+  "coreGenres": [
+    "experimental-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "浮躁 王菲",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

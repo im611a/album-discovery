@@ -1,0 +1,287 @@
+{
+  "internalId": "album:243669480",
+  "id": "album:243669480",
+  "neteaseAlbumId": "243669480",
+  "slug": "netease-243669480",
+  "title": "Ryuichi Sakamoto | Opus",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2024-05-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/243669480.webp",
+    "alt": "《Ryuichi Sakamoto | Opus》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/243669480.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2612972703",
+      "neteaseTrackId": "2612972703",
+      "title": "Lack of Love",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 296761
+    },
+    {
+      "id": "netease-track:2612972704",
+      "neteaseTrackId": "2612972704",
+      "title": "BB（Bernardo Bertolucci）",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 128836
+    },
+    {
+      "id": "netease-track:2612971784",
+      "neteaseTrackId": "2612971784",
+      "title": "Andata",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 197977
+    },
+    {
+      "id": "netease-track:2612971785",
+      "neteaseTrackId": "2612971785",
+      "title": "Solitude",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 355000
+    },
+    {
+      "id": "netease-track:2612971786",
+      "neteaseTrackId": "2612971786",
+      "title": "for Johann",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 338596
+    },
+    {
+      "id": "netease-track:2612972705",
+      "neteaseTrackId": "2612972705",
+      "title": "Aubade 2020",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 220844
+    },
+    {
+      "id": "netease-track:2612972706",
+      "neteaseTrackId": "2612972706",
+      "title": "Ichimei-Small happiness",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 227114
+    },
+    {
+      "id": "netease-track:2612971787",
+      "neteaseTrackId": "2612971787",
+      "title": "Mizu no Naka no Bagatelle",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 223989
+    },
+    {
+      "id": "netease-track:2612971788",
+      "neteaseTrackId": "2612971788",
+      "title": "Bibo no Aozora",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 403913
+    },
+    {
+      "id": "netease-track:2612972707",
+      "neteaseTrackId": "2612972707",
+      "title": "Aqua",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 308305
+    },
+    {
+      "id": "netease-track:2612972708",
+      "neteaseTrackId": "2612972708",
+      "title": "Tong Poo",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 432413
+    },
+    {
+      "id": "netease-track:2612971789",
+      "neteaseTrackId": "2612971789",
+      "title": "The Wuthering Heights",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 305760
+    },
+    {
+      "id": "netease-track:2612972709",
+      "neteaseTrackId": "2612972709",
+      "title": "20220302 - sarabande",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 214673
+    },
+    {
+      "id": "netease-track:2612972710",
+      "neteaseTrackId": "2612972710",
+      "title": "The Sheltering Sky",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 373568
+    },
+    {
+      "id": "netease-track:2612971790",
+      "neteaseTrackId": "2612971790",
+      "title": "20180219(w/prepared piano)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 246625
+    },
+    {
+      "id": "netease-track:2612971791",
+      "neteaseTrackId": "2612971791",
+      "title": "The Last Emperor",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 394606
+    },
+    {
+      "id": "netease-track:2612971792",
+      "neteaseTrackId": "2612971792",
+      "title": "Trioon",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 373095
+    },
+    {
+      "id": "netease-track:2612971793",
+      "neteaseTrackId": "2612971793",
+      "title": "Happy End",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 262292
+    },
+    {
+      "id": "netease-track:2612972711",
+      "neteaseTrackId": "2612972711",
+      "title": "Merry Christmas Mr Lawrence",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 355667
+    },
+    {
+      "id": "netease-track:2612972712",
+      "neteaseTrackId": "2612972712",
+      "title": "Opus-ending",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 292206
+    },
+    {
+      "id": "netease-track:2612971794",
+      "neteaseTrackId": "2612971794",
+      "title": "Ryuichi Sakamoto | Opus",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 6120000
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=243669480",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Ryuichi Sakamoto | Opus 坂本龍一",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

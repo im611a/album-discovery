@@ -1,0 +1,166 @@
+{
+  "internalId": "album:180635491",
+  "id": "album:180635491",
+  "neteaseAlbumId": "180635491",
+  "slug": "netease-180635491",
+  "title": "执迷不悔",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2002-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/180635491.webp",
+    "alt": "《执迷不悔》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/180635491.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2106457208",
+      "neteaseTrackId": "2106457208",
+      "title": "红粉菲菲",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 294840
+    },
+    {
+      "id": "netease-track:2106460683",
+      "neteaseTrackId": "2106460683",
+      "title": "执迷不悔 (国语版)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 267826
+    },
+    {
+      "id": "netease-track:2106457210",
+      "neteaseTrackId": "2106457210",
+      "title": "可爱眼睛",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 291333
+    },
+    {
+      "id": "netease-track:2106460685",
+      "neteaseTrackId": "2106460685",
+      "title": "季候风",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 276173
+    },
+    {
+      "id": "netease-track:2106457211",
+      "neteaseTrackId": "2106457211",
+      "title": "不再儿嬉",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 361666
+    },
+    {
+      "id": "netease-track:2106457212",
+      "neteaseTrackId": "2106457212",
+      "title": "我永远珍惜你我",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 225000
+    },
+    {
+      "id": "netease-track:2106460686",
+      "neteaseTrackId": "2106460686",
+      "title": "情敌",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 287493
+    },
+    {
+      "id": "netease-track:2106460687",
+      "neteaseTrackId": "2106460687",
+      "title": "从明日开始",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 232666
+    },
+    {
+      "id": "netease-track:2106460688",
+      "neteaseTrackId": "2106460688",
+      "title": "夜半醉",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 258666
+    },
+    {
+      "id": "netease-track:2106457213",
+      "neteaseTrackId": "2106457213",
+      "title": "执迷不悔",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 273840
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=180635491",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "执迷不悔 王菲",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

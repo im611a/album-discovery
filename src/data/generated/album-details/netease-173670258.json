@@ -1,0 +1,180 @@
+{
+  "internalId": "album:173670258",
+  "id": "album:173670258",
+  "neteaseAlbumId": "173670258",
+  "slug": "netease-173670258",
+  "title": "我爱南京",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2023-11-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/173670258.webp",
+    "alt": "《我爱南京》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/173670258.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2078040056",
+      "neteaseTrackId": "2078040056",
+      "title": "乱世情人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:414670063",
+      "neteaseTrackId": "414670063",
+      "title": "再见无数",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 340050
+    },
+    {
+      "id": "netease-track:1444181396",
+      "neteaseTrackId": "1444181396",
+      "title": "我爱南京",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 347913
+    },
+    {
+      "id": "netease-track:2078040051",
+      "neteaseTrackId": "2078040051",
+      "title": "江浦街的汉庭酒店只有雨季",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 244586
+    },
+    {
+      "id": "netease-track:2078041984",
+      "neteaseTrackId": "2078041984",
+      "title": "南京一夜",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 234353
+    },
+    {
+      "id": "netease-track:2078040052",
+      "neteaseTrackId": "2078040052",
+      "title": "发抖",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "花粥"
+      ],
+      "durationMs": 222297
+    },
+    {
+      "id": "netease-track:2078041983",
+      "neteaseTrackId": "2078041983",
+      "title": "白鹭飞过大桥",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 118071
+    },
+    {
+      "id": "netease-track:2078040049",
+      "neteaseTrackId": "2078040049",
+      "title": "十里洋场",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 694564
+    },
+    {
+      "id": "netease-track:2078040055",
+      "neteaseTrackId": "2078040055",
+      "title": "2020年一个唱歌的老铁",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 183877
+    },
+    {
+      "id": "netease-track:2078041980",
+      "neteaseTrackId": "2078041980",
+      "title": "大桥下",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 224699
+    },
+    {
+      "id": "netease-track:1385929504",
+      "neteaseTrackId": "1385929504",
+      "title": "每天",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 211566
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=173670258",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "我爱南京 左小祖咒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

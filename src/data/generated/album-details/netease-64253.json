@@ -1,0 +1,111 @@
+{
+  "internalId": "album:64253",
+  "id": "album:64253",
+  "neteaseAlbumId": "64253",
+  "slug": "netease-64253",
+  "title": "Flavor Of Life",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2007-02-27",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64253.webp",
+    "alt": "《Flavor Of Life》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/64253.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666465",
+      "neteaseTrackId": "666465",
+      "title": "Flavor Of Life",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 287880
+    },
+    {
+      "id": "netease-track:666466",
+      "neteaseTrackId": "666466",
+      "title": "Flavor Of Life (Ballad Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 323779
+    },
+    {
+      "id": "netease-track:666467",
+      "neteaseTrackId": "666467",
+      "title": "Flavor Of Life (Karaoke)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 287068
+    },
+    {
+      "id": "netease-track:666469",
+      "neteaseTrackId": "666469",
+      "title": "Flavor Of Life (Ballad Version / Karaoke)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 323198
+    },
+    {
+      "id": "netease-track:666472",
+      "neteaseTrackId": "666472",
+      "title": "Flavor Of Life -Antidote Mix-",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 319320
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=64253",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Flavor Of Life 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

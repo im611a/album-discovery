@@ -1,0 +1,215 @@
+{
+  "internalId": "album:287788505",
+  "id": "album:287788505",
+  "neteaseAlbumId": "287788505",
+  "slug": "netease-287788505",
+  "title": "乐透人生GT：即刻入戏",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    }
+  ],
+  "releaseDate": "2025-10-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "StreetVoice/A Few Good Kids Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/287788505.webp",
+    "alt": "《乐透人生GT：即刻入戏》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/287788505.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2753713689",
+      "neteaseTrackId": "2753713689",
+      "title": "马师",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 130667
+    },
+    {
+      "id": "netease-track:2753713690",
+      "neteaseTrackId": "2753713690",
+      "title": "曼巴Flow",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 171835
+    },
+    {
+      "id": "netease-track:2753713692",
+      "neteaseTrackId": "2753713692",
+      "title": "娱公移山",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 175018
+    },
+    {
+      "id": "netease-track:2753713693",
+      "neteaseTrackId": "2753713693",
+      "title": "T0",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 144888
+    },
+    {
+      "id": "netease-track:2753714630",
+      "neteaseTrackId": "2753714630",
+      "title": "King Style",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "谢帝"
+      ],
+      "durationMs": 212441
+    },
+    {
+      "id": "netease-track:2753714631",
+      "neteaseTrackId": "2753714631",
+      "title": "Whatever",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 170806
+    },
+    {
+      "id": "netease-track:2753713694",
+      "neteaseTrackId": "2753713694",
+      "title": "Tell Dem Boys",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "Lil Gnar"
+      ],
+      "durationMs": 160000
+    },
+    {
+      "id": "netease-track:2753713696",
+      "neteaseTrackId": "2753713696",
+      "title": "爬山虎",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "MadeinTYO"
+      ],
+      "durationMs": 160536
+    },
+    {
+      "id": "netease-track:2753714633",
+      "neteaseTrackId": "2753714633",
+      "title": "Still On The Top",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "朴宰范"
+      ],
+      "durationMs": 216541
+    },
+    {
+      "id": "netease-track:2753714634",
+      "neteaseTrackId": "2753714634",
+      "title": "Hotel Lobby",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "艾志恒Asen"
+      ],
+      "durationMs": 200856
+    },
+    {
+      "id": "netease-track:2753714635",
+      "neteaseTrackId": "2753714635",
+      "title": "你说对了",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 120000
+    },
+    {
+      "id": "netease-track:2753714636",
+      "neteaseTrackId": "2753714636",
+      "title": "登录",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 156850
+    },
+    {
+      "id": "netease-track:2753714637",
+      "neteaseTrackId": "2753714637",
+      "title": "Gas Me Up",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 178604
+    },
+    {
+      "id": "netease-track:2753714638",
+      "neteaseTrackId": "2753714638",
+      "title": "钻石车子票子",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 195566
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=287788505",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "乐透人生GT：即刻入戏 马思唯",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

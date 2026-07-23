@@ -1,0 +1,182 @@
+{
+  "internalId": "album:34874364",
+  "id": "album:34874364",
+  "neteaseAlbumId": "34874364",
+  "slug": "netease-34874364",
+  "title": "Fantôme",
+  "aliases": [
+    "幻影"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2016-09-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34874364.webp",
+    "alt": "《Fantôme》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34874364.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:430208458",
+      "neteaseTrackId": "430208458",
+      "title": "道",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 216018
+    },
+    {
+      "id": "netease-track:430297309",
+      "neteaseTrackId": "430297309",
+      "title": "俺の彼女",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 304093
+    },
+    {
+      "id": "netease-track:430208483",
+      "neteaseTrackId": "430208483",
+      "title": "花束を君に",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 279626
+    },
+    {
+      "id": "netease-track:430297308",
+      "neteaseTrackId": "430297308",
+      "title": "二時間だけのバカンス",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "椎名林檎"
+      ],
+      "durationMs": 282199
+    },
+    {
+      "id": "netease-track:430208481",
+      "neteaseTrackId": "430208481",
+      "title": "人魚",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 256109
+    },
+    {
+      "id": "netease-track:430297310",
+      "neteaseTrackId": "430297310",
+      "title": "ともだち",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "小袋成彬"
+      ],
+      "durationMs": 262970
+    },
+    {
+      "id": "netease-track:430208484",
+      "neteaseTrackId": "430208484",
+      "title": "真夏の通り雨",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 340620
+    },
+    {
+      "id": "netease-track:430297311",
+      "neteaseTrackId": "430297311",
+      "title": "荒野の狼",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 274670
+    },
+    {
+      "id": "netease-track:430297312",
+      "neteaseTrackId": "430297312",
+      "title": "忘却",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル",
+        "KOHH"
+      ],
+      "durationMs": 305116
+    },
+    {
+      "id": "netease-track:430208482",
+      "neteaseTrackId": "430208482",
+      "title": "人生最高の日",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 190355
+    },
+    {
+      "id": "netease-track:430297313",
+      "neteaseTrackId": "430297313",
+      "title": "桜流し",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 280765
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=34874364",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Fantôme 幻影 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

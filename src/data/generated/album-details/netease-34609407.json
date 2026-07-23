@@ -1,0 +1,168 @@
+{
+  "internalId": "album:34609407",
+  "id": "album:34609407",
+  "neteaseAlbumId": "34609407",
+  "slug": "netease-34609407",
+  "title": "敷衍",
+  "aliases": [
+    "Be Perfunctory"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2015-11-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34609407.webp",
+    "alt": "《敷衍》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34609407.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:409872640",
+      "neteaseTrackId": "409872640",
+      "title": "敷衍",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261229
+    },
+    {
+      "id": "netease-track:409872641",
+      "neteaseTrackId": "409872641",
+      "title": "暗涌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261813
+    },
+    {
+      "id": "netease-track:409872642",
+      "neteaseTrackId": "409872642",
+      "title": "心惊胆战",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 258666
+    },
+    {
+      "id": "netease-track:409872643",
+      "neteaseTrackId": "409872643",
+      "title": "守护天使",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 222279
+    },
+    {
+      "id": "netease-track:409872644",
+      "neteaseTrackId": "409872644",
+      "title": "守时",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 256013
+    },
+    {
+      "id": "netease-track:409872645",
+      "neteaseTrackId": "409872645",
+      "title": "不得了",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 232973
+    },
+    {
+      "id": "netease-track:409872646",
+      "neteaseTrackId": "409872646",
+      "title": "玩具",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 180080
+    },
+    {
+      "id": "netease-track:409872647",
+      "neteaseTrackId": "409872647",
+      "title": "我信",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 288813
+    },
+    {
+      "id": "netease-track:409872648",
+      "neteaseTrackId": "409872648",
+      "title": "自便",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 298533
+    },
+    {
+      "id": "netease-track:409872649",
+      "neteaseTrackId": "409872649",
+      "title": "约定",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 265480
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=34609407",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "敷衍 Be Perfunctory 王菲",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

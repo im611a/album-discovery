@@ -1,0 +1,166 @@
+{
+  "internalId": "album:1577480",
+  "id": "album:1577480",
+  "neteaseAlbumId": "1577480",
+  "slug": "heaven-or-las-vegas",
+  "title": "Heaven or Las Vegas",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1990-09-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "4AD",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577480.webp",
+    "alt": "《Heaven or Las Vegas》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1577480.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17124788",
+      "neteaseTrackId": "17124788",
+      "title": "Cherry-coloured Funk",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 192466
+    },
+    {
+      "id": "netease-track:17124789",
+      "neteaseTrackId": "17124789",
+      "title": "Pitch the Baby",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 194080
+    },
+    {
+      "id": "netease-track:17124790",
+      "neteaseTrackId": "17124790",
+      "title": "Iceblink Luck",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 198666
+    },
+    {
+      "id": "netease-track:17124791",
+      "neteaseTrackId": "17124791",
+      "title": "Fifty-fifty Clown",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 190213
+    },
+    {
+      "id": "netease-track:17124792",
+      "neteaseTrackId": "17124792",
+      "title": "Heaven or Las Vegas",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 298400
+    },
+    {
+      "id": "netease-track:17124793",
+      "neteaseTrackId": "17124793",
+      "title": "I Wear Your Ring",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 209346
+    },
+    {
+      "id": "netease-track:17124794",
+      "neteaseTrackId": "17124794",
+      "title": "Fotzepolitic",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 210933
+    },
+    {
+      "id": "netease-track:17124795",
+      "neteaseTrackId": "17124795",
+      "title": "Wolf in the Breast",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 211200
+    },
+    {
+      "id": "netease-track:17124796",
+      "neteaseTrackId": "17124796",
+      "title": "Road, River and Rail",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 201146
+    },
+    {
+      "id": "netease-track:17124797",
+      "neteaseTrackId": "17124797",
+      "title": "Frou-frou Foxes in Midsummer Fires",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 338053
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1577480",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Heaven or Las Vegas Cocteau Twins",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

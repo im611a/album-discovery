@@ -10,7 +10,7 @@ describe("AlbumCover", () => {
   });
 
   it("renders an explicit local fallback without inventing an image URL", () => {
-    const album = { ...catalogAlbums[0], cover: { kind: "fallback" as const, src: null, alt: "封面暂缺", reason: "cover_download_failed" } };
+    const album = { ...catalogAlbums[0], cover: { kind: "fallback" as const, src: null, thumbnailSrc: null, alt: "封面暂缺", reason: "cover_download_failed" } };
     render(<AlbumCover album={album} />);
     expect(screen.getByRole("img", { name: "封面暂缺" })).toHaveClass("album-cover--fallback");
     expect(screen.queryByRole("img", { name: "封面暂缺" })?.tagName).toBe("DIV");

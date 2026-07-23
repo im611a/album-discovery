@@ -1,0 +1,177 @@
+{
+  "internalId": "album:242891438",
+  "id": "album:242891438",
+  "neteaseAlbumId": "242891438",
+  "slug": "netease-242891438",
+  "title": "别境",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "2024-07-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "bié Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/242891438.webp",
+    "alt": "《别境》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/242891438.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2610487259",
+      "neteaseTrackId": "2610487259",
+      "title": "春雷",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 310000
+    },
+    {
+      "id": "netease-track:2610487260",
+      "neteaseTrackId": "2610487260",
+      "title": "夏沐",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 310000
+    },
+    {
+      "id": "netease-track:2610486776",
+      "neteaseTrackId": "2610486776",
+      "title": "秋蝉",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 310000
+    },
+    {
+      "id": "netease-track:2610486777",
+      "neteaseTrackId": "2610486777",
+      "title": "冬风竹",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 310000
+    },
+    {
+      "id": "netease-track:2610487261",
+      "neteaseTrackId": "2610487261",
+      "title": "奇林",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 312084
+    },
+    {
+      "id": "netease-track:2610487262",
+      "neteaseTrackId": "2610487262",
+      "title": "灯植",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:2610487263",
+      "neteaseTrackId": "2610487263",
+      "title": "芒花",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 312573
+    },
+    {
+      "id": "netease-track:2610487264",
+      "neteaseTrackId": "2610487264",
+      "title": "石贝",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 321600
+    },
+    {
+      "id": "netease-track:2610486778",
+      "neteaseTrackId": "2610486778",
+      "title": "青竹",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 600000
+    },
+    {
+      "id": "netease-track:2610486779",
+      "neteaseTrackId": "2610486779",
+      "title": "裂生",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 315000
+    },
+    {
+      "id": "netease-track:2610487265",
+      "neteaseTrackId": "2610487265",
+      "title": "彼岸",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 1266000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=242891438",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "别境 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

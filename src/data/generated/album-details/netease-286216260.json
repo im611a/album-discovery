@@ -1,0 +1,155 @@
+{
+  "internalId": "album:286216260",
+  "id": "album:286216260",
+  "neteaseAlbumId": "286216260",
+  "slug": "netease-286216260",
+  "title": "贴近大地",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2025-09-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京有此山文化传媒有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/286216260.webp",
+    "alt": "《贴近大地》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/286216260.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2749424398",
+      "neteaseTrackId": "2749424398",
+      "title": "抱歉抱歉",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 230468
+    },
+    {
+      "id": "netease-track:2749425343",
+      "neteaseTrackId": "2749425343",
+      "title": "空空",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 224885
+    },
+    {
+      "id": "netease-track:2749424397",
+      "neteaseTrackId": "2749424397",
+      "title": "自然环境",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 244288
+    },
+    {
+      "id": "netease-track:2749425342",
+      "neteaseTrackId": "2749425342",
+      "title": "剧烈",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 237637
+    },
+    {
+      "id": "netease-track:2749425339",
+      "neteaseTrackId": "2749425339",
+      "title": "走失",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 257909
+    },
+    {
+      "id": "netease-track:2749425340",
+      "neteaseTrackId": "2749425340",
+      "title": "远游",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 199472
+    },
+    {
+      "id": "netease-track:2749424395",
+      "neteaseTrackId": "2749424395",
+      "title": "且慢",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 277701
+    },
+    {
+      "id": "netease-track:2749425341",
+      "neteaseTrackId": "2749425341",
+      "title": "清透",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 237354
+    },
+    {
+      "id": "netease-track:2749424396",
+      "neteaseTrackId": "2749424396",
+      "title": "拜拜",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 222912
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=286216260",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "贴近大地 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

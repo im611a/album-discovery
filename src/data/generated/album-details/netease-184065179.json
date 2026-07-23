@@ -1,0 +1,131 @@
+{
+  "internalId": "album:184065179",
+  "id": "album:184065179",
+  "neteaseAlbumId": "184065179",
+  "slug": "netease-184065179",
+  "title": "「呐声(Nation)」·民族融合音乐企划",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29865317",
+      "neteaseArtistId": "29865317",
+      "name": "斯丹曼簇"
+    },
+    {
+      "id": "netease-artist:30588657",
+      "neteaseArtistId": "30588657",
+      "name": "Mikann耙耙柑"
+    },
+    {
+      "id": "netease-artist:1203045",
+      "neteaseArtistId": "1203045",
+      "name": "艾热 AIR"
+    },
+    {
+      "id": "netease-artist:12143075",
+      "neteaseArtistId": "12143075",
+      "name": "葛西瓦"
+    },
+    {
+      "id": "netease-artist:896927",
+      "neteaseArtistId": "896927",
+      "name": "莫西子诗"
+    }
+  ],
+  "releaseDate": "2024-03-15",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184065179.webp",
+    "alt": "《「呐声(Nation)」·民族融合音乐企划》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/184065179.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2117873781",
+      "neteaseTrackId": "2117873781",
+      "title": "影子和孩子",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "斯丹曼簇"
+      ],
+      "durationMs": 225166
+    },
+    {
+      "id": "netease-track:2120488194",
+      "neteaseTrackId": "2120488194",
+      "title": "sanana(想念)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Mikann耙耙柑"
+      ],
+      "durationMs": 175184
+    },
+    {
+      "id": "netease-track:2120489853",
+      "neteaseTrackId": "2120489853",
+      "title": "走喂",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 204042
+    },
+    {
+      "id": "netease-track:2120480368",
+      "neteaseTrackId": "2120480368",
+      "title": "我们一直在这",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "葛西瓦"
+      ],
+      "durationMs": 154344
+    },
+    {
+      "id": "netease-track:2120492186",
+      "neteaseTrackId": "2120492186",
+      "title": "故乡的天空",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫西子诗"
+      ],
+      "durationMs": 292720
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=184065179",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "「呐声(Nation)」·民族融合音乐企划 斯丹曼簇 Mikann耙耙柑 艾热 AIR 葛西瓦 莫西子诗",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

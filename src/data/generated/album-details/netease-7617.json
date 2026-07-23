@@ -1,0 +1,177 @@
+{
+  "internalId": "album:7617",
+  "id": "album:7617",
+  "neteaseAlbumId": "7617",
+  "slug": "netease-7617",
+  "title": "丝路乐魂",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2002-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7617.webp",
+    "alt": "《丝路乐魂》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7617.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77569",
+      "neteaseTrackId": "77569",
+      "title": "我们的歌声",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 237600
+    },
+    {
+      "id": "netease-track:77557",
+      "neteaseTrackId": "77557",
+      "title": "拉克木卡姆片段",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 315960
+    },
+    {
+      "id": "netease-track:77551",
+      "neteaseTrackId": "77551",
+      "title": "怀念努吐不拉",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 221880
+    },
+    {
+      "id": "netease-track:77576",
+      "neteaseTrackId": "77576",
+      "title": "心曲",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 322920
+    },
+    {
+      "id": "netease-track:77566",
+      "neteaseTrackId": "77566",
+      "title": "塔娜瓦尔",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:77560",
+      "neteaseTrackId": "77560",
+      "title": "莱里古尔",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 153840
+    },
+    {
+      "id": "netease-track:77580",
+      "neteaseTrackId": "77580",
+      "title": "新疆好",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 187920
+    },
+    {
+      "id": "netease-track:77562",
+      "neteaseTrackId": "77562",
+      "title": "亲爱的妈妈",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 253320
+    },
+    {
+      "id": "netease-track:77564",
+      "neteaseTrackId": "77564",
+      "title": "沙信日克",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 180240
+    },
+    {
+      "id": "netease-track:77572",
+      "neteaseTrackId": "77572",
+      "title": "心灵之响",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:77554",
+      "neteaseTrackId": "77554",
+      "title": "解放的时代",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 296400
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=7617",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "丝路乐魂 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

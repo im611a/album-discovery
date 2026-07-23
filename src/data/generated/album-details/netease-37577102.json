@@ -1,0 +1,199 @@
+{
+  "internalId": "album:37577102",
+  "id": "album:37577102",
+  "neteaseAlbumId": "37577102",
+  "slug": "netease-37577102",
+  "title": "Socialism Core Value II",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2018-02-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/37577102.webp",
+    "alt": "《Socialism Core Value II》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/37577102.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:536623408",
+      "neteaseTrackId": "536623408",
+      "title": "中华民谣",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 162222
+    },
+    {
+      "id": "netease-track:536570426",
+      "neteaseTrackId": "536570426",
+      "title": "山里的汉子",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 188571
+    },
+    {
+      "id": "netease-track:536622375",
+      "neteaseTrackId": "536622375",
+      "title": "节日的欢乐",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 196721
+    },
+    {
+      "id": "netease-track:536624385",
+      "neteaseTrackId": "536624385",
+      "title": "新娘悲歌",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 232045
+    },
+    {
+      "id": "netease-track:536623409",
+      "neteaseTrackId": "536623409",
+      "title": "高高山上",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 155428
+    },
+    {
+      "id": "netease-track:536570427",
+      "neteaseTrackId": "536570427",
+      "title": "雁门",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 226956
+    },
+    {
+      "id": "netease-track:536622376",
+      "neteaseTrackId": "536622376",
+      "title": "将军下马",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 212210
+    },
+    {
+      "id": "netease-track:536624386",
+      "neteaseTrackId": "536624386",
+      "title": "尼日利亚",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 138240
+    },
+    {
+      "id": "netease-track:536570428",
+      "neteaseTrackId": "536570428",
+      "title": "荒城",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 217954
+    },
+    {
+      "id": "netease-track:536623410",
+      "neteaseTrackId": "536623410",
+      "title": "华严会",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 144953
+    },
+    {
+      "id": "netease-track:536622377",
+      "neteaseTrackId": "536622377",
+      "title": "河里洗澡",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 102127
+    },
+    {
+      "id": "netease-track:536570429",
+      "neteaseTrackId": "536570429",
+      "title": "祝福你(Instrumental)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 140000
+    },
+    {
+      "id": "netease-track:536624387",
+      "neteaseTrackId": "536624387",
+      "title": "春节序曲",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 234849
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=37577102",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Socialism Core Value II Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

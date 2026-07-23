@@ -1,0 +1,166 @@
+{
+  "internalId": "album:3184340",
+  "id": "album:3184340",
+  "neteaseAlbumId": "3184340",
+  "slug": "netease-3184340",
+  "title": "准备中",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2015-07-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/3184340.webp",
+    "alt": "《准备中》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/3184340.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:33111721",
+      "neteaseTrackId": "33111721",
+      "title": "老细我撇先",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 243000
+    },
+    {
+      "id": "netease-track:31426608",
+      "neteaseTrackId": "31426608",
+      "title": "无条件",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 228973
+    },
+    {
+      "id": "netease-track:33111723",
+      "neteaseTrackId": "33111723",
+      "title": "人生马拉松",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 284000
+    },
+    {
+      "id": "netease-track:33111724",
+      "neteaseTrackId": "33111724",
+      "title": "黑洞",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 221933
+    },
+    {
+      "id": "netease-track:33111725",
+      "neteaseTrackId": "33111725",
+      "title": "心烧",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:33111726",
+      "neteaseTrackId": "33111726",
+      "title": "喜欢一个人",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 274459
+    },
+    {
+      "id": "netease-track:33111727",
+      "neteaseTrackId": "33111727",
+      "title": "万圣节的一个传说",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:32719588",
+      "neteaseTrackId": "32719588",
+      "title": "起点‧终站",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 249840
+    },
+    {
+      "id": "netease-track:33111729",
+      "neteaseTrackId": "33111729",
+      "title": "一个灵魂的独白",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 303000
+    },
+    {
+      "id": "netease-track:33111730",
+      "neteaseTrackId": "33111730",
+      "title": "梦的可能",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 251000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=3184340",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "准备中 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

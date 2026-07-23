@@ -1,0 +1,149 @@
+{
+  "internalId": "album:3154731",
+  "id": "album:3154731",
+  "neteaseAlbumId": "3154731",
+  "slug": "netease-3154731",
+  "title": "黄俊郎的黑",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6090",
+      "neteaseArtistId": "6090",
+      "name": "杨瑞代"
+    },
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2013-12-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/3154731.webp",
+    "alt": "《黄俊郎的黑》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/3154731.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:32358369",
+      "neteaseTrackId": "32358369",
+      "title": "准备中",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 246490
+    },
+    {
+      "id": "netease-track:32358370",
+      "neteaseTrackId": "32358370",
+      "title": "天才之翼",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 109571
+    },
+    {
+      "id": "netease-track:32358371",
+      "neteaseTrackId": "32358371",
+      "title": "孤单",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 234124
+    },
+    {
+      "id": "netease-track:32358372",
+      "neteaseTrackId": "32358372",
+      "title": "美丽的消失",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 340036
+    },
+    {
+      "id": "netease-track:32358373",
+      "neteaseTrackId": "32358373",
+      "title": "过场",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 69500
+    },
+    {
+      "id": "netease-track:32358374",
+      "neteaseTrackId": "32358374",
+      "title": "热闹的宁静",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 225142
+    },
+    {
+      "id": "netease-track:32358375",
+      "neteaseTrackId": "32358375",
+      "title": "归途",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 204920
+    },
+    {
+      "id": "netease-track:32358376",
+      "neteaseTrackId": "32358376",
+      "title": "这所有的一切",
+      "trackNumber": 194,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 232427
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=3154731",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "黄俊郎的黑 杨瑞代 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

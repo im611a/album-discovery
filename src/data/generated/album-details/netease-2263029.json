@@ -1,0 +1,193 @@
+{
+  "internalId": "album:2263029",
+  "id": "album:2263029",
+  "neteaseAlbumId": "2263029",
+  "slug": "netease-2263029",
+  "title": "十二新作",
+  "aliases": [
+    "Opus 12"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2012-12-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2263029.webp",
+    "alt": "《十二新作》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2263029.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:25653001",
+      "neteaseTrackId": "25653001",
+      "title": "四季列车",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 159613
+    },
+    {
+      "id": "netease-track:25641370",
+      "neteaseTrackId": "25641370",
+      "title": "手语",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 288000
+    },
+    {
+      "id": "netease-track:25653002",
+      "neteaseTrackId": "25653002",
+      "title": "公公偏头痛",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 183000
+    },
+    {
+      "id": "netease-track:25641369",
+      "neteaseTrackId": "25641369",
+      "title": "明明就",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 260386
+    },
+    {
+      "id": "netease-track:25653003",
+      "neteaseTrackId": "25653003",
+      "title": "傻笑",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "袁咏琳"
+      ],
+      "durationMs": 289000
+    },
+    {
+      "id": "netease-track:25641371",
+      "neteaseTrackId": "25641371",
+      "title": "比较大的大提琴",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "梁心颐",
+        "杨瑞代"
+      ],
+      "durationMs": 252786
+    },
+    {
+      "id": "netease-track:25653004",
+      "neteaseTrackId": "25653004",
+      "title": "爱你没差",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:25641368",
+      "neteaseTrackId": "25641368",
+      "title": "红尘客栈",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 274066
+    },
+    {
+      "id": "netease-track:25641373",
+      "neteaseTrackId": "25641373",
+      "title": "梦想启动",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 205466
+    },
+    {
+      "id": "netease-track:25641372",
+      "neteaseTrackId": "25641372",
+      "title": "大笨钟",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 242840
+    },
+    {
+      "id": "netease-track:25641374",
+      "neteaseTrackId": "25641374",
+      "title": "哪里都是你",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 279040
+    },
+    {
+      "id": "netease-track:25653005",
+      "neteaseTrackId": "25653005",
+      "title": "乌克丽丽",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 175000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=2263029",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "十二新作 Opus 12 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,254 @@
+{
+  "internalId": "album:11522",
+  "id": "album:11522",
+  "neteaseAlbumId": "11522",
+  "slug": "netease-11522",
+  "title": "一年之初(电影音乐概念专辑)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "2006-09-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/11522.webp",
+    "alt": "《一年之初(电影音乐概念专辑)》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/11522.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:118500",
+      "neteaseTrackId": "118500",
+      "title": "小胖的幻想",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 159000
+    },
+    {
+      "id": "netease-track:118504",
+      "neteaseTrackId": "118504",
+      "title": "假",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 252000
+    },
+    {
+      "id": "netease-track:118506",
+      "neteaseTrackId": "118506",
+      "title": "收费站的女生",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 175000
+    },
+    {
+      "id": "netease-track:118508",
+      "neteaseTrackId": "118508",
+      "title": "公路隧道",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 82000
+    },
+    {
+      "id": "netease-track:118510",
+      "neteaseTrackId": "118510",
+      "title": "比命重要",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 243000
+    },
+    {
+      "id": "netease-track:118515",
+      "neteaseTrackId": "118515",
+      "title": "跨年倒数(天空微笑)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 205000
+    },
+    {
+      "id": "netease-track:118520",
+      "neteaseTrackId": "118520",
+      "title": "幻境",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 323000
+    },
+    {
+      "id": "netease-track:118525",
+      "neteaseTrackId": "118525",
+      "title": "生命线",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 94093
+    },
+    {
+      "id": "netease-track:118529",
+      "neteaseTrackId": "118529",
+      "title": "看带",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 165000
+    },
+    {
+      "id": "netease-track:118533",
+      "neteaseTrackId": "118533",
+      "title": "比命重要Ⅱ",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 79000
+    },
+    {
+      "id": "netease-track:118537",
+      "neteaseTrackId": "118537",
+      "title": "不想要的结局",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 414000
+    },
+    {
+      "id": "netease-track:118542",
+      "neteaseTrackId": "118542",
+      "title": "蝴蝶唱歌",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 178102
+    },
+    {
+      "id": "netease-track:118547",
+      "neteaseTrackId": "118547",
+      "title": "路不见了",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 311000
+    },
+    {
+      "id": "netease-track:118552",
+      "neteaseTrackId": "118552",
+      "title": "月球",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:118557",
+      "neteaseTrackId": "118557",
+      "title": "月球背面",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 130000
+    },
+    {
+      "id": "netease-track:118562",
+      "neteaseTrackId": "118562",
+      "title": "蝴蝶醒来",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 197000
+    },
+    {
+      "id": "netease-track:118567",
+      "neteaseTrackId": "118567",
+      "title": "快乐结局",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 270000
+    },
+    {
+      "id": "netease-track:118572",
+      "neteaseTrackId": "118572",
+      "title": "The End",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 119000
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=11522",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "一年之初(电影音乐概念专辑) 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

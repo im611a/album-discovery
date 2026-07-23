@@ -1,0 +1,148 @@
+{
+  "internalId": "album:6362",
+  "id": "album:6362",
+  "neteaseAlbumId": "6362",
+  "slug": "netease-6362",
+  "title": "Taste The Atmosphere",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2010-10-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6362.webp",
+    "alt": "《Taste The Atmosphere》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6362.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:64368",
+      "neteaseTrackId": "64368",
+      "title": "Welcome To The Future (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "萨顶顶"
+      ],
+      "durationMs": 209573
+    },
+    {
+      "id": "netease-track:64374",
+      "neteaseTrackId": "64374",
+      "title": "讲男讲女",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "露云娜"
+      ],
+      "durationMs": 284617
+    },
+    {
+      "id": "netease-track:64380",
+      "neteaseTrackId": "64380",
+      "title": "叶问风中转",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 367826
+    },
+    {
+      "id": "netease-track:64385",
+      "neteaseTrackId": "64385",
+      "title": "花花世界",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 271374
+    },
+    {
+      "id": "netease-track:64390",
+      "neteaseTrackId": "64390",
+      "title": "我杯茶",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "莫文蔚"
+      ],
+      "durationMs": 233840
+    },
+    {
+      "id": "netease-track:64394",
+      "neteaseTrackId": "64394",
+      "title": "超错",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 306578
+    },
+    {
+      "id": "netease-track:64399",
+      "neteaseTrackId": "64399",
+      "title": "叶问风中转(Demo version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 156214
+    },
+    {
+      "id": "netease-track:64403",
+      "neteaseTrackId": "64403",
+      "title": "讲男讲女(NG take)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "露云娜"
+      ],
+      "durationMs": 287317
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=6362",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Taste The Atmosphere 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

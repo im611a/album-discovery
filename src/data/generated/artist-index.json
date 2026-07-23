@@ -1,0 +1,6486 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-23T10:29:50.864Z",
+  "artists": [
+    {
+      "artistId": "netease-artist:12127888",
+      "neteaseArtistId": "12127888",
+      "slug": "artist-12127888",
+      "name": "$UN",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12453904",
+      "neteaseArtistId": "12453904",
+      "slug": "artist-12453904",
+      "name": "11李佳毅",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12802035",
+      "neteaseArtistId": "12802035",
+      "slug": "artist-12802035",
+      "name": "33EMYBW",
+      "aliases": [],
+      "albumCount": 5,
+      "albumCountByType": {
+        "album": 4,
+        "ep": 1
+      },
+      "earliestYear": 2018,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:84951503",
+        "album:175687954",
+        "album:142279651",
+        "album:78829425",
+        "album:73592714"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/84951503.webp",
+        "/catalog/covers/thumb/175687954.webp",
+        "/catalog/covers/thumb/142279651.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31511662",
+      "neteaseArtistId": "31511662",
+      "slug": "artist-31511662",
+      "name": "99 God",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:804159",
+      "neteaseArtistId": "804159",
+      "slug": "artist-804159",
+      "name": "阿力普",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1203045",
+      "neteaseArtistId": "1203045",
+      "slug": "artist-1203045",
+      "name": "艾热 AIR",
+      "aliases": [],
+      "albumCount": 8,
+      "albumCountByType": {
+        "album": 5,
+        "ep": 3
+      },
+      "earliestYear": 2018,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:83826760",
+        "album:386145067",
+        "album:359380756",
+        "album:184065179",
+        "album:152925972",
+        "album:152019682",
+        "album:132874562",
+        "album:74794477"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/83826760.webp",
+        "/catalog/covers/thumb/386145067.webp",
+        "/catalog/covers/thumb/359380756.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:167006",
+      "neteaseArtistId": "167006",
+      "slug": "artist-167006",
+      "name": "艾怡良",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12198387",
+      "neteaseArtistId": "12198387",
+      "slug": "artist-12198387",
+      "name": "艾志恒Asen",
+      "aliases": [],
+      "albumCount": 10,
+      "albumCountByType": {
+        "album": 9,
+        "ep": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:287974232",
+        "album:272136228",
+        "album:198470550",
+        "album:169119649",
+        "album:154372290",
+        "album:138339265",
+        "album:131027226",
+        "album:125195422",
+        "album:84600899",
+        "album:78321108"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/287974232.webp",
+        "/catalog/covers/thumb/272136228.webp",
+        "/catalog/covers/thumb/198470550.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12415043",
+      "neteaseArtistId": "12415043",
+      "slug": "artist-12415043",
+      "name": "安林瑶ROBIN",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:51824214",
+      "neteaseArtistId": "51824214",
+      "slug": "artist-51824214",
+      "name": "安森垚",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12126856",
+      "neteaseArtistId": "12126856",
+      "slug": "artist-12126856",
+      "name": "白皮书乐队",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:32712412",
+      "neteaseArtistId": "32712412",
+      "slug": "artist-32712412",
+      "name": "斑比Bambii",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "slug": "artist-15289",
+      "name": "坂本龍一",
+      "aliases": [],
+      "albumCount": 16,
+      "albumCountByType": {
+        "album": 12,
+        "ep": 4
+      },
+      "earliestYear": 2020,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:158396696",
+        "album:371556408",
+        "album:242818031",
+        "album:243669480",
+        "album:186212397",
+        "album:174167316",
+        "album:168418523",
+        "album:157491305",
+        "album:154899938",
+        "album:179592812",
+        "album:167516671",
+        "album:135236866",
+        "album:130859255",
+        "album:130243779",
+        "album:34887555",
+        "album:167913218"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158396696.webp",
+        "/catalog/covers/thumb/371556408.webp",
+        "/catalog/covers/thumb/242818031.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12084497",
+      "neteaseArtistId": "12084497",
+      "slug": "artist-12084497",
+      "name": "宝石Gem",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2022,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop",
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789",
+        "album:152925972"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp",
+        "/catalog/covers/thumb/152925972.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:37658788",
+      "neteaseArtistId": "37658788",
+      "slug": "artist-37658788",
+      "name": "保质期艺术家",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "slug": "artist-7214",
+      "name": "蔡健雅",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1161122",
+      "neteaseArtistId": "1161122",
+      "slug": "artist-1161122",
+      "name": "草东没有派对",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2016,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:162870766",
+        "album:34674226"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/162870766.webp",
+        "/catalog/covers/thumb/34674226.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7409",
+      "neteaseArtistId": "7409",
+      "slug": "artist-7409",
+      "name": "岑宁儿",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:33154502",
+      "neteaseArtistId": "33154502",
+      "slug": "artist-33154502",
+      "name": "朝简",
+      "aliases": [],
+      "albumCount": 10,
+      "albumCountByType": {
+        "album": 3,
+        "ep": 7
+      },
+      "earliestYear": 2023,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:385720805",
+        "album:251145843",
+        "album:247974960",
+        "album:241185443",
+        "album:198581148",
+        "album:196520307",
+        "album:190496385",
+        "album:182458672",
+        "album:180537331",
+        "album:169036446"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/385720805.webp",
+        "/catalog/covers/thumb/251145843.webp",
+        "/catalog/covers/thumb/247974960.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12789956",
+      "neteaseArtistId": "12789956",
+      "slug": "artist-12789956",
+      "name": "陈婧霏",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:178219441"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "slug": "artist-1007170",
+      "name": "陈粒",
+      "aliases": [],
+      "albumCount": 13,
+      "albumCountByType": {
+        "album": 11,
+        "ep": 2
+      },
+      "earliestYear": 2015,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:3098832",
+        "album:286216260",
+        "album:278013621",
+        "album:243132960",
+        "album:178219441",
+        "album:170279876",
+        "album:158475145",
+        "album:146548236",
+        "album:80620766",
+        "album:80735425",
+        "album:37831040",
+        "album:35834111",
+        "album:34780579"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/3098832.webp",
+        "/catalog/covers/thumb/286216260.webp",
+        "/catalog/covers/thumb/278013621.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "slug": "artist-7217",
+      "name": "陈绮贞",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:32893629",
+      "neteaseArtistId": "32893629",
+      "slug": "artist-32893629",
+      "name": "陈一豪Clear",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "slug": "artist-2116",
+      "name": "陈奕迅",
+      "aliases": [],
+      "albumCount": 13,
+      "albumCountByType": {
+        "album": 12,
+        "ep": 1
+      },
+      "earliestYear": 2005,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:6491",
+        "album:176456056",
+        "album:151446130",
+        "album:95509227",
+        "album:74268947",
+        "album:36304576",
+        "album:3184340",
+        "album:2801259",
+        "album:2518003",
+        "album:6335",
+        "album:6341",
+        "album:6355",
+        "album:6362"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/6491.webp",
+        "/catalog/covers/thumb/176456056.webp",
+        "/catalog/covers/thumb/151446130.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:973004",
+      "neteaseArtistId": "973004",
+      "slug": "artist-973004",
+      "name": "程璧",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "slug": "artist-2111",
+      "name": "崔健",
+      "aliases": [],
+      "albumCount": 12,
+      "albumCountByType": {
+        "album": 10,
+        "ep": 2
+      },
+      "earliestYear": 1984,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:6311",
+        "album:181094567",
+        "album:34403098",
+        "album:6294",
+        "album:147824459",
+        "album:6298",
+        "album:6301",
+        "album:6306",
+        "album:513850",
+        "album:6309",
+        "album:6313",
+        "album:6319"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/6311.webp",
+        "/catalog/covers/thumb/181094567.webp",
+        "/catalog/covers/thumb/34403098.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:188681",
+      "neteaseArtistId": "188681",
+      "slug": "artist-188681",
+      "name": "大鹏",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "slug": "artist-2517",
+      "name": "刀郎",
+      "aliases": [],
+      "albumCount": 16,
+      "albumCountByType": {
+        "album": 15,
+        "ep": 1
+      },
+      "earliestYear": 2002,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:169512732",
+        "album:281405720",
+        "album:123717462",
+        "album:98556924",
+        "album:96057587",
+        "album:7551",
+        "album:7562",
+        "album:7578",
+        "album:7581",
+        "album:7588",
+        "album:7597",
+        "album:7607",
+        "album:7611",
+        "album:7557",
+        "album:7614",
+        "album:7617"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/169512732.webp",
+        "/catalog/covers/thumb/281405720.webp",
+        "/catalog/covers/thumb/123717462.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12443",
+      "neteaseArtistId": "12443",
+      "slug": "artist-12443",
+      "name": "东方大戏楼",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:73982649"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/73982649.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "slug": "artist-2515",
+      "name": "窦唯",
+      "aliases": [],
+      "albumCount": 14,
+      "albumCountByType": {
+        "album": 7,
+        "ep": 7
+      },
+      "earliestYear": 1994,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "rock",
+        "electronic"
+      ],
+      "albumIds": [
+        "album:7600",
+        "album:7608",
+        "album:385720805",
+        "album:378961973",
+        "album:378959198",
+        "album:251145843",
+        "album:247974960",
+        "album:241185443",
+        "album:198581148",
+        "album:196520307",
+        "album:190496385",
+        "album:182458672",
+        "album:180537331",
+        "album:169036446"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/7600.webp",
+        "/catalog/covers/thumb/7608.webp",
+        "/catalog/covers/thumb/385720805.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11728",
+      "neteaseArtistId": "11728",
+      "slug": "artist-11728",
+      "name": "发光曲线",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:865007",
+      "neteaseArtistId": "865007",
+      "slug": "artist-865007",
+      "name": "法老",
+      "aliases": [],
+      "albumCount": 10,
+      "albumCountByType": {
+        "album": 7,
+        "ep": 3
+      },
+      "earliestYear": 2014,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97168319",
+        "album:153023757",
+        "album:149257265",
+        "album:124139046",
+        "album:81262294",
+        "album:78251277",
+        "album:73471599",
+        "album:35359276",
+        "album:35021549",
+        "album:3082267"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97168319.webp",
+        "/catalog/covers/thumb/153023757.webp",
+        "/catalog/covers/thumb/149257265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12203406",
+      "neteaseArtistId": "12203406",
+      "slug": "artist-12203406",
+      "name": "方文山",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2002,
+      "latestYear": 2002,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:18909"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/18909.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12039017",
+      "neteaseArtistId": "12039017",
+      "slug": "artist-12039017",
+      "name": "弗兰德斯坦",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:51088331",
+      "neteaseArtistId": "51088331",
+      "slug": "artist-51088331",
+      "name": "付思遥",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:138339265"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12676697",
+      "neteaseArtistId": "12676697",
+      "slug": "artist-12676697",
+      "name": "告五人",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:178219441"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12143075",
+      "neteaseArtistId": "12143075",
+      "slug": "artist-12143075",
+      "name": "葛西瓦",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:184065179"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/184065179.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12453329",
+      "neteaseArtistId": "12453329",
+      "slug": "artist-12453329",
+      "name": "功夫胖KUNGFU-PEN",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 1,
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:274706820",
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/274706820.webp",
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7785",
+      "neteaseArtistId": "7785",
+      "slug": "artist-7785",
+      "name": "龚琳娜",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:178219441"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1008034",
+      "neteaseArtistId": "1008034",
+      "slug": "artist-1008034",
+      "name": "鬼卞",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2987",
+      "neteaseArtistId": "2987",
+      "slug": "artist-2987",
+      "name": "郭一凡",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "slug": "artist-7891",
+      "name": "韩红",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12276200",
+      "neteaseArtistId": "12276200",
+      "slug": "artist-12276200",
+      "name": "汉堡黄",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:711683",
+      "neteaseArtistId": "711683",
+      "slug": "artist-711683",
+      "name": "好妹妹乐队",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:178219441"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3442",
+      "neteaseArtistId": "3442",
+      "slug": "artist-3442",
+      "name": "胡海泉",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:159830",
+      "neteaseArtistId": "159830",
+      "slug": "artist-159830",
+      "name": "環ROY",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2026,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:371556408"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/371556408.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7063",
+      "neteaseArtistId": "7063",
+      "slug": "artist-7063",
+      "name": "黄丽玲",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:52197336",
+      "neteaseArtistId": "52197336",
+      "slug": "artist-52197336",
+      "name": "黄湘丽",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7901",
+      "neteaseArtistId": "7901",
+      "slug": "artist-7901",
+      "name": "黄雅莉",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:14018235",
+      "neteaseArtistId": "14018235",
+      "slug": "artist-14018235",
+      "name": "黄之仪Kyra Zilver",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 1,
+        "ep": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046",
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp",
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12200652",
+      "neteaseArtistId": "12200652",
+      "slug": "artist-12200652",
+      "name": "活死人",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2019,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1046338",
+      "neteaseArtistId": "1046338",
+      "slug": "artist-1046338",
+      "name": "火星电台",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:51704552",
+      "neteaseArtistId": "51704552",
+      "slug": "artist-51704552",
+      "name": "姜思达",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12084229",
+      "neteaseArtistId": "12084229",
+      "slug": "artist-12084229",
+      "name": "焦迈奇",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:178219441"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:166014",
+      "neteaseArtistId": "166014",
+      "slug": "artist-166014",
+      "name": "金志文",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:15581",
+      "neteaseArtistId": "15581",
+      "slug": "artist-15581",
+      "name": "近藤等则",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:167913218"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/167913218.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12898835",
+      "neteaseArtistId": "12898835",
+      "slug": "artist-12898835",
+      "name": "咖喱3000",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:91290063"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:55587128",
+      "neteaseArtistId": "55587128",
+      "slug": "artist-55587128",
+      "name": "抗猫",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:991002",
+      "neteaseArtistId": "991002",
+      "slug": "artist-991002",
+      "name": "柯智棠",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:32743623",
+      "neteaseArtistId": "32743623",
+      "slug": "artist-32743623",
+      "name": "肯迪仔",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3682",
+      "neteaseArtistId": "3682",
+      "slug": "artist-3682",
+      "name": "老狼",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:36715641",
+      "neteaseArtistId": "36715641",
+      "slug": "artist-36715641",
+      "name": "哩哩",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152925972"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152925972.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:34319290",
+      "neteaseArtistId": "34319290",
+      "slug": "artist-34319290",
+      "name": "离合",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1199068",
+      "neteaseArtistId": "1199068",
+      "slug": "artist-1199068",
+      "name": "李大胡子 Sure",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:254547742"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/254547742.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:51475646",
+      "neteaseArtistId": "51475646",
+      "slug": "artist-51475646",
+      "name": "李佳芮Shary",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3689",
+      "neteaseArtistId": "3689",
+      "slug": "artist-3689",
+      "name": "李玖哲",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2025,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:272136228"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/272136228.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13059444",
+      "neteaseArtistId": "13059444",
+      "slug": "artist-13059444",
+      "name": "李俊毅",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12851112",
+      "neteaseArtistId": "12851112",
+      "slug": "artist-12851112",
+      "name": "李毅杰PISSY",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2019,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12294124",
+      "neteaseArtistId": "12294124",
+      "slug": "artist-12294124",
+      "name": "戾仁Lyrin",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2019,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12064019",
+      "neteaseArtistId": "12064019",
+      "slug": "artist-12064019",
+      "name": "连麻Swimming",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:131027226"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/131027226.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12468289",
+      "neteaseArtistId": "12468289",
+      "slug": "artist-12468289",
+      "name": "梁龙",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:73982649"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/73982649.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "slug": "artist-3726",
+      "name": "林强",
+      "aliases": [],
+      "albumCount": 12,
+      "albumCountByType": {
+        "album": 11,
+        "ep": 1
+      },
+      "earliestYear": 1990,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:11554",
+        "album:242891438",
+        "album:86858937",
+        "album:2999574",
+        "album:11516",
+        "album:11522",
+        "album:11527",
+        "album:11533",
+        "album:11544",
+        "album:11539",
+        "album:11558",
+        "album:11563"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/11554.webp",
+        "/catalog/covers/thumb/242891438.webp",
+        "/catalog/covers/thumb/86858937.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "slug": "artist-3687",
+      "name": "林一峰",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "slug": "artist-8326",
+      "name": "刘若英",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12157298",
+      "neteaseArtistId": "12157298",
+      "slug": "artist-12157298",
+      "name": "刘炫廷",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152019682"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152019682.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1172023",
+      "neteaseArtistId": "1172023",
+      "slug": "artist-1172023",
+      "name": "刘至佳",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152925972"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152925972.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:49092153",
+      "neteaseArtistId": "49092153",
+      "slug": "artist-49092153",
+      "name": "刘㔻",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:169930121"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/169930121.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1185047",
+      "neteaseArtistId": "1185047",
+      "slug": "artist-1185047",
+      "name": "龙崎",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2019,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12065015",
+      "neteaseArtistId": "12065015",
+      "slug": "artist-12065015",
+      "name": "隆历奇",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2019,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3793",
+      "neteaseArtistId": "3793",
+      "slug": "artist-3793",
+      "name": "陆虎",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12079066",
+      "neteaseArtistId": "12079066",
+      "slug": "artist-12079066",
+      "name": "陆政廷Lil Jet",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152925972"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152925972.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8376",
+      "neteaseArtistId": "8376",
+      "slug": "artist-8376",
+      "name": "罗思容",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11074",
+      "neteaseArtistId": "11074",
+      "slug": "artist-11074",
+      "name": "落日飛車 Sunset Rollercoaster",
+      "aliases": [],
+      "albumCount": 5,
+      "albumCountByType": {
+        "album": 5
+      },
+      "earliestYear": 2011,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "dream-pop"
+      ],
+      "albumIds": [
+        "album:37651016",
+        "album:280599716",
+        "album:241747140",
+        "album:97538689",
+        "album:33949"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/37651016.webp",
+        "/catalog/covers/thumb/280599716.webp",
+        "/catalog/covers/thumb/241747140.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12914544",
+      "neteaseArtistId": "12914544",
+      "slug": "artist-12914544",
+      "name": "马伯骞Victor Ma",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2025,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:272136228"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/272136228.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:4592",
+      "neteaseArtistId": "4592",
+      "slug": "artist-4592",
+      "name": "马頔",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "slug": "artist-1132392",
+      "name": "马思唯",
+      "aliases": [],
+      "albumCount": 17,
+      "albumCountByType": {
+        "album": 12,
+        "ep": 5
+      },
+      "earliestYear": 2013,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:122743105",
+        "album:272136228",
+        "album:169119649",
+        "album:363421958",
+        "album:85991061",
+        "album:287788505",
+        "album:265434773",
+        "album:163032152",
+        "album:156024225",
+        "album:147487646",
+        "album:145165772",
+        "album:141979381",
+        "album:128015189",
+        "album:97772220",
+        "album:92448901",
+        "album:75889321",
+        "album:169429796"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/122743105.webp",
+        "/catalog/covers/thumb/272136228.webp",
+        "/catalog/covers/thumb/169119649.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:51594319",
+      "neteaseArtistId": "51594319",
+      "slug": "artist-51594319",
+      "name": "麦子",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:188141",
+      "neteaseArtistId": "188141",
+      "slug": "artist-188141",
+      "name": "满舒克",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152925972"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152925972.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12138269",
+      "neteaseArtistId": "12138269",
+      "slug": "artist-12138269",
+      "name": "毛不易",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:649505",
+      "neteaseArtistId": "649505",
+      "slug": "artist-649505",
+      "name": "孟佳",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:37444918",
+      "neteaseArtistId": "37444918",
+      "slug": "artist-37444918",
+      "name": "魔动闪霸",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "slug": "artist-8926",
+      "name": "莫文蔚",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:896927",
+      "neteaseArtistId": "896927",
+      "slug": "artist-896927",
+      "name": "莫西子诗",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:184065179"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/184065179.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "slug": "artist-12064064",
+      "name": "木马Muma",
+      "aliases": [],
+      "albumCount": 9,
+      "albumCountByType": {
+        "album": 8,
+        "ep": 1
+      },
+      "earliestYear": 2002,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:36190",
+        "album:358021446",
+        "album:253221311",
+        "album:145645032",
+        "album:143519789",
+        "album:91290063",
+        "album:13350",
+        "album:13351",
+        "album:36194"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/36190.webp",
+        "/catalog/covers/thumb/358021446.webp",
+        "/catalog/covers/thumb/253221311.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:4478",
+      "neteaseArtistId": "4478",
+      "slug": "artist-4478",
+      "name": "木玛&Third Party",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2007,
+      "latestYear": 2011,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:13350",
+        "album:13351"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/13350.webp",
+        "/catalog/covers/thumb/13351.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12570417",
+      "neteaseArtistId": "12570417",
+      "slug": "artist-12570417",
+      "name": "那奇沃夫",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152925972"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152925972.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:4670",
+      "neteaseArtistId": "4670",
+      "slug": "artist-4670",
+      "name": "倪子冈",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1049443",
+      "neteaseArtistId": "1049443",
+      "slug": "artist-1049443",
+      "name": "祁紫檀",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12038239",
+      "neteaseArtistId": "12038239",
+      "slug": "artist-12038239",
+      "name": "裘德",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:122455",
+      "neteaseArtistId": "122455",
+      "slug": "artist-122455",
+      "name": "群星",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2017,
+      "latestYear": 2017,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:35359276"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35359276.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1198061",
+      "neteaseArtistId": "1198061",
+      "slug": "artist-1198061",
+      "name": "任丁一",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:254547742"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/254547742.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31561897",
+      "neteaseArtistId": "31561897",
+      "slug": "artist-31561897",
+      "name": "沙一汀EL",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12711",
+      "neteaseArtistId": "12711",
+      "slug": "artist-12711",
+      "name": "声音玩具",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 2003,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:37199",
+        "album:126677649",
+        "album:93738009"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/37199.webp",
+        "/catalog/covers/thumb/126677649.webp",
+        "/catalog/covers/thumb/93738009.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12605500",
+      "neteaseArtistId": "12605500",
+      "slug": "artist-12605500",
+      "name": "盛宇D-SHINE",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 1,
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:274706820",
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/274706820.webp",
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:52058759",
+      "neteaseArtistId": "52058759",
+      "slug": "artist-52058759",
+      "name": "史策",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9463",
+      "neteaseArtistId": "9463",
+      "slug": "artist-9463",
+      "name": "史依弘",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:198581148"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/198581148.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:29865317",
+      "neteaseArtistId": "29865317",
+      "slug": "artist-29865317",
+      "name": "斯丹曼簇",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:184065179"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/184065179.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:32176958",
+      "neteaseArtistId": "32176958",
+      "slug": "artist-32176958",
+      "name": "宋柏纬",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:4934",
+      "neteaseArtistId": "4934",
+      "slug": "artist-4934",
+      "name": "苏阳",
+      "aliases": [],
+      "albumCount": 5,
+      "albumCountByType": {
+        "album": 4,
+        "ep": 1
+      },
+      "earliestYear": 2006,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:14526",
+        "album:254995324",
+        "album:143078573",
+        "album:35695038",
+        "album:14524"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/14526.webp",
+        "/catalog/covers/thumb/254995324.webp",
+        "/catalog/covers/thumb/143078573.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1193259",
+      "neteaseArtistId": "1193259",
+      "slug": "artist-1193259",
+      "name": "苏运莹",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13030",
+      "neteaseArtistId": "13030",
+      "slug": "artist-13030",
+      "name": "糖果怪兽",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:91290063"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "slug": "artist-5196",
+      "name": "陶喆",
+      "aliases": [],
+      "albumCount": 8,
+      "albumCountByType": {
+        "album": 8
+      },
+      "earliestYear": 1997,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15190",
+        "album:15185",
+        "album:267786859",
+        "album:2397083",
+        "album:15181",
+        "album:15184",
+        "album:15196",
+        "album:15199"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15190.webp",
+        "/catalog/covers/thumb/15185.webp",
+        "/catalog/covers/thumb/267786859.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:789380",
+      "neteaseArtistId": "789380",
+      "slug": "artist-789380",
+      "name": "拖鞋OneFly",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2017,
+      "latestYear": 2017,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:35359276"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35359276.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "slug": "artist-9611",
+      "name": "万芳",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13223",
+      "neteaseArtistId": "13223",
+      "slug": "artist-13223",
+      "name": "万能青年旅店",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 2010,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "rock",
+        "folk"
+      ],
+      "albumIds": [
+        "album:38306",
+        "album:120605500",
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/38306.webp",
+        "/catalog/covers/thumb/120605500.webp",
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12001060",
+      "neteaseArtistId": "12001060",
+      "slug": "artist-12001060",
+      "name": "万妮达Vinida Weng",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152019682"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152019682.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13151028",
+      "neteaseArtistId": "13151028",
+      "slug": "artist-13151028",
+      "name": "万赛文",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5345",
+      "neteaseArtistId": "5345",
+      "slug": "artist-5345",
+      "name": "万晓利",
+      "aliases": [],
+      "albumCount": 5,
+      "albumCountByType": {
+        "album": 5
+      },
+      "earliestYear": 2002,
+      "latestYear": 2017,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:15686",
+        "album:36715012",
+        "album:3115369",
+        "album:2635059",
+        "album:15690"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15686.webp",
+        "/catalog/covers/thumb/36715012.webp",
+        "/catalog/covers/thumb/3115369.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "slug": "artist-9621",
+      "name": "王菲",
+      "aliases": [],
+      "albumCount": 7,
+      "albumCountByType": {
+        "album": 7
+      },
+      "earliestYear": 1996,
+      "latestYear": 2015,
+      "commonCoreGenres": [
+        "pop",
+        "experimental-pop"
+      ],
+      "albumIds": [
+        "album:29748",
+        "album:29698",
+        "album:34609407",
+        "album:29669",
+        "album:180635491",
+        "album:29692",
+        "album:29695"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/29748.webp",
+        "/catalog/covers/thumb/29698.webp",
+        "/catalog/covers/thumb/34609407.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9749",
+      "neteaseArtistId": "9749",
+      "slug": "artist-9749",
+      "name": "王虹",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1990,
+      "latestYear": 1990,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513850"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513850.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:30627660",
+      "neteaseArtistId": "30627660",
+      "slug": "artist-30627660",
+      "name": "王加一",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:178219441"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12236125",
+      "neteaseArtistId": "12236125",
+      "slug": "artist-12236125",
+      "name": "王以太",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "ep": 1,
+        "album": 2
+      },
+      "earliestYear": 2021,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:386145067",
+        "album:152925972",
+        "album:132874562"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/386145067.webp",
+        "/catalog/covers/thumb/152925972.webp",
+        "/catalog/covers/thumb/132874562.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:956386",
+      "neteaseArtistId": "956386",
+      "slug": "artist-956386",
+      "name": "王源",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop",
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227",
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:32453904",
+      "neteaseArtistId": "32453904",
+      "slug": "artist-32453904",
+      "name": "王子zione",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:27871957",
+      "neteaseArtistId": "27871957",
+      "slug": "artist-27871957",
+      "name": "王OK",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12785088",
+      "neteaseArtistId": "12785088",
+      "slug": "artist-12785088",
+      "name": "网易音乐人",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:91290063"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "slug": "artist-13188",
+      "name": "惘闻",
+      "aliases": [],
+      "albumCount": 12,
+      "albumCountByType": {
+        "album": 10,
+        "ep": 2
+      },
+      "earliestYear": 2000,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "post-rock"
+      ],
+      "albumIds": [
+        "album:38188",
+        "album:152929741",
+        "album:95839945",
+        "album:71612875",
+        "album:34611473",
+        "album:2519181",
+        "album:38194",
+        "album:38197",
+        "album:38199",
+        "album:38200",
+        "album:38202",
+        "album:38206"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/38188.webp",
+        "/catalog/covers/thumb/152929741.webp",
+        "/catalog/covers/thumb/95839945.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9609",
+      "neteaseArtistId": "9609",
+      "slug": "artist-9609",
+      "name": "魏如萱",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13247",
+      "neteaseArtistId": "13247",
+      "slug": "artist-13247",
+      "name": "文雀",
+      "aliases": [],
+      "albumCount": 8,
+      "albumCountByType": {
+        "ep": 8
+      },
+      "earliestYear": 2010,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "post-rock"
+      ],
+      "albumIds": [
+        "album:2646287",
+        "album:364628733",
+        "album:187459045",
+        "album:124898328",
+        "album:135429781",
+        "album:35903667",
+        "album:3141051",
+        "album:38350"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2646287.webp",
+        "/catalog/covers/thumb/364628733.webp",
+        "/catalog/covers/thumb/187459045.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:938017",
+      "neteaseArtistId": "938017",
+      "slug": "artist-938017",
+      "name": "五条人",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12488150",
+      "neteaseArtistId": "12488150",
+      "slug": "artist-12488150",
+      "name": "雾都L4WUDU",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1124093",
+      "neteaseArtistId": "1124093",
+      "slug": "artist-1124093",
+      "name": "西奥Sio",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:33423604",
+      "neteaseArtistId": "33423604",
+      "slug": "artist-33423604",
+      "name": "希阿荣博",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 2021,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:349192569",
+        "album:147760652",
+        "album:122481657"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/349192569.webp",
+        "/catalog/covers/thumb/147760652.webp",
+        "/catalog/covers/thumb/122481657.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:14712157",
+      "neteaseArtistId": "14712157",
+      "slug": "artist-14712157",
+      "name": "喜曼朵曼",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:122481657"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/122481657.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5768",
+      "neteaseArtistId": "5768",
+      "slug": "artist-5768",
+      "name": "萧敬腾",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12287129",
+      "neteaseArtistId": "12287129",
+      "slug": "artist-12287129",
+      "name": "小精灵",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2019,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:153023757",
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/153023757.webp",
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:187462",
+      "neteaseArtistId": "187462",
+      "slug": "artist-187462",
+      "name": "小老虎",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2022,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk",
+        "rock"
+      ],
+      "albumIds": [
+        "album:158475145",
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp",
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:54504757",
+      "neteaseArtistId": "54504757",
+      "slug": "artist-54504757",
+      "name": "笑傲江湖马戏乐团",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 2025,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:75364824",
+        "album:71723702",
+        "album:266943938"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/75364824.webp",
+        "/catalog/covers/thumb/71723702.webp",
+        "/catalog/covers/thumb/266943938.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:95011397",
+      "neteaseArtistId": "95011397",
+      "slug": "artist-95011397",
+      "name": "新鲜仔",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:254547742"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/254547742.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1199032",
+      "neteaseArtistId": "1199032",
+      "slug": "artist-1199032",
+      "name": "新学校合唱团",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:91290063"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9940",
+      "neteaseArtistId": "9940",
+      "slug": "artist-9940",
+      "name": "徐佳莹",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:99626729",
+      "neteaseArtistId": "99626729",
+      "slug": "artist-99626729",
+      "name": "徐子尧",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2025,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:281405720"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/281405720.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:33772751",
+      "neteaseArtistId": "33772751",
+      "slug": "artist-33772751",
+      "name": "许光汉",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5781",
+      "neteaseArtistId": "5781",
+      "slug": "artist-5781",
+      "name": "薛之谦",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13899303",
+      "neteaseArtistId": "13899303",
+      "slug": "artist-13899303",
+      "name": "杨和苏KeyNG",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2019,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6090",
+      "neteaseArtistId": "6090",
+      "slug": "artist-6090",
+      "name": "杨瑞代",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2013,
+      "latestYear": 2013,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:3154731"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/3154731.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:36109845",
+      "neteaseArtistId": "36109845",
+      "slug": "artist-36109845",
+      "name": "有三",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152019682"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152019682.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12798895",
+      "neteaseArtistId": "12798895",
+      "slug": "artist-12798895",
+      "name": "于贞",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "slug": "artist-18122",
+      "name": "宇多田ヒカル",
+      "aliases": [],
+      "albumCount": 16,
+      "albumCountByType": {
+        "album": 8,
+        "ep": 8
+      },
+      "earliestYear": 1999,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:2093862",
+        "album:348985953",
+        "album:191690469",
+        "album:173685803",
+        "album:138676183",
+        "album:123718729",
+        "album:75207317",
+        "album:72282189",
+        "album:34874364",
+        "album:3079226",
+        "album:78779323",
+        "album:64241",
+        "album:64236",
+        "album:64246",
+        "album:64250",
+        "album:64253"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2093862.webp",
+        "/catalog/covers/thumb/348985953.webp",
+        "/catalog/covers/thumb/191690469.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10473",
+      "neteaseArtistId": "10473",
+      "slug": "artist-10473",
+      "name": "袁娅维TIA RAY",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2021,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop",
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032",
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp",
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1205071",
+      "neteaseArtistId": "1205071",
+      "slug": "artist-1205071",
+      "name": "云别",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "slug": "artist-6457",
+      "name": "张国荣",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1996,
+      "latestYear": 1996,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:19038"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19038.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "slug": "artist-6472",
+      "name": "张杰",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "slug": "artist-10561",
+      "name": "张靓颖",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "slug": "artist-6454",
+      "name": "张信哲",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12072094",
+      "neteaseArtistId": "12072094",
+      "slug": "artist-12072094",
+      "name": "张颜齐",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:0",
+      "neteaseArtistId": "0",
+      "slug": "artist-0",
+      "name": "张旖旎",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2025,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:281405720"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/281405720.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6731",
+      "neteaseArtistId": "6731",
+      "slug": "artist-6731",
+      "name": "赵雷",
+      "aliases": [],
+      "albumCount": 4,
+      "albumCountByType": {
+        "album": 4
+      },
+      "earliestYear": 2011,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:3048030",
+        "album:150127127",
+        "album:35069014",
+        "album:20339"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/3048030.webp",
+        "/catalog/covers/thumb/150127127.webp",
+        "/catalog/covers/thumb/35069014.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6891",
+      "neteaseArtistId": "6891",
+      "slug": "artist-6891",
+      "name": "赵英俊",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:95509227"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/95509227.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:161394",
+      "neteaseArtistId": "161394",
+      "slug": "artist-161394",
+      "name": "鎮座DOPENESS",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2026,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:371556408"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/371556408.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12003155",
+      "neteaseArtistId": "12003155",
+      "slug": "artist-12003155",
+      "name": "直火帮 Straight Fire Gang",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13585",
+      "neteaseArtistId": "13585",
+      "slug": "artist-13585",
+      "name": "指人儿",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:91290063"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "slug": "artist-6452",
+      "name": "周杰伦",
+      "aliases": [],
+      "albumCount": 17,
+      "albumCountByType": {
+        "album": 16,
+        "ep": 1
+      },
+      "earliestYear": 2001,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:18915",
+        "album:18905",
+        "album:147779282",
+        "album:34720827",
+        "album:3084335",
+        "album:3154731",
+        "album:2263029",
+        "album:18869",
+        "album:18875",
+        "album:18877",
+        "album:18886",
+        "album:18893",
+        "album:18896",
+        "album:18903",
+        "album:18904",
+        "album:18907",
+        "album:18909"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/18915.webp",
+        "/catalog/covers/thumb/18905.webp",
+        "/catalog/covers/thumb/147779282.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1030001",
+      "neteaseArtistId": "1030001",
+      "slug": "artist-1030001",
+      "name": "周深",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:99794700",
+      "neteaseArtistId": "99794700",
+      "slug": "artist-99794700",
+      "name": "周煜琦",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2025,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:281405720"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/281405720.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6461",
+      "neteaseArtistId": "6461",
+      "slug": "artist-6461",
+      "name": "周云蓬",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:158475145"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10582",
+      "neteaseArtistId": "10582",
+      "slug": "artist-10582",
+      "name": "朱婧汐Akini Jing",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:143519789"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "slug": "artist-6467",
+      "name": "左小祖咒",
+      "aliases": [],
+      "albumCount": 14,
+      "albumCountByType": {
+        "album": 14
+      },
+      "earliestYear": 1999,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "experimental-rock",
+        "rock"
+      ],
+      "albumIds": [
+        "album:19213",
+        "album:145645032",
+        "album:75364824",
+        "album:71723702",
+        "album:349192569",
+        "album:266943938",
+        "album:246472651",
+        "album:254455787",
+        "album:173670258",
+        "album:147760652",
+        "album:83768670",
+        "album:133583254",
+        "album:122481657",
+        "album:73982649"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19213.webp",
+        "/catalog/covers/thumb/145645032.webp",
+        "/catalog/covers/thumb/75364824.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:48165702",
+      "neteaseArtistId": "48165702",
+      "slug": "artist-48165702",
+      "name": "A Few Good Kids Records",
+      "aliases": [],
+      "albumCount": 6,
+      "albumCountByType": {
+        "album": 5,
+        "ep": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:169119649",
+        "album:163032152",
+        "album:156024225",
+        "album:147487646",
+        "album:141979381",
+        "album:128015189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/169119649.webp",
+        "/catalog/covers/thumb/163032152.webp",
+        "/catalog/covers/thumb/156024225.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:36519554",
+      "neteaseArtistId": "36519554",
+      "slug": "artist-36519554",
+      "name": "AA",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:29061",
+      "neteaseArtistId": "29061",
+      "slug": "artist-29061",
+      "name": "Alex Heffes",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:174167316"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/174167316.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13911452",
+      "neteaseArtistId": "13911452",
+      "slug": "artist-13911452",
+      "name": "ATM Hanson",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "ep": 1,
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:272136228",
+        "album:128015189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/272136228.webp",
+        "/catalog/covers/thumb/128015189.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "slug": "artist-48436",
+      "name": "Beyoncé",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2013,
+      "latestYear": 2013,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:2732013"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2732013.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "slug": "artist-48581",
+      "name": "Bill Laswell",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:167913218"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/167913218.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11972054",
+      "neteaseArtistId": "11972054",
+      "slug": "artist-11972054",
+      "name": "Billie Eilish",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:195498828"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/195498828.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12059049",
+      "neteaseArtistId": "12059049",
+      "slug": "artist-12059049",
+      "name": "Bohan 冷博涵",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:92448901"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/92448901.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:783124",
+      "neteaseArtistId": "783124",
+      "slug": "artist-783124",
+      "name": "BTS (防弹少年团)",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:85783683"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/85783683.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:29389",
+      "neteaseArtistId": "29389",
+      "slug": "artist-29389",
+      "name": "Burial",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:1533976"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1533976.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12094558",
+      "neteaseArtistId": "12094558",
+      "slug": "artist-12094558",
+      "name": "Buzzy",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2019,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:30485",
+      "neteaseArtistId": "30485",
+      "slug": "artist-30485",
+      "name": "Carlos Alomar",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:167913218"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/167913218.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:33937972",
+      "neteaseArtistId": "33937972",
+      "slug": "artist-33937972",
+      "name": "CashTrippy",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:128015189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/128015189.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11364",
+      "neteaseArtistId": "11364",
+      "slug": "artist-11364",
+      "name": "Casino Demon",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:91290063"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1081839",
+      "neteaseArtistId": "1081839",
+      "slug": "artist-1081839",
+      "name": "Chinese Football",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "slug": "artist-89364",
+      "name": "Cocteau Twins",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1990,
+      "latestYear": 1990,
+      "commonCoreGenres": [
+        "dream-pop"
+      ],
+      "albumIds": [
+        "album:1577480"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1577480.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:50946",
+      "neteaseArtistId": "50946",
+      "slug": "artist-50946",
+      "name": "Coldcut",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:135236866"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/135236866.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:52791587",
+      "neteaseArtistId": "52791587",
+      "slug": "artist-52791587",
+      "name": "CVO",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:90513",
+      "neteaseArtistId": "90513",
+      "slug": "artist-90513",
+      "name": "Daft Punk",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2001,
+      "latestYear": 2001,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:1609277"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1609277.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12463331",
+      "neteaseArtistId": "12463331",
+      "slug": "artist-12463331",
+      "name": "deca joins",
+      "aliases": [],
+      "albumCount": 6,
+      "albumCountByType": {
+        "album": 4,
+        "ep": 2
+      },
+      "earliestYear": 2017,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "indie-rock"
+      ],
+      "albumIds": [
+        "album:35590687",
+        "album:364399405",
+        "album:178583700",
+        "album:120618796",
+        "album:81949327",
+        "album:73836078"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35590687.webp",
+        "/catalog/covers/thumb/364399405.webp",
+        "/catalog/covers/thumb/178583700.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:33693423",
+      "neteaseArtistId": "33693423",
+      "slug": "artist-33693423",
+      "name": "DIGI GHETTO",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:138339265"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31562251",
+      "neteaseArtistId": "31562251",
+      "slug": "artist-31562251",
+      "name": "DIRTY MOON",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:91290063"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:33072389",
+      "neteaseArtistId": "33072389",
+      "slug": "artist-33072389",
+      "name": "Dove鸽子",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2025,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:272136228"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/272136228.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:14713083",
+      "neteaseArtistId": "14713083",
+      "slug": "artist-14713083",
+      "name": "eason and the duo band",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2018,
+      "latestYear": 2018,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:74268947"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/74268947.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12022040",
+      "neteaseArtistId": "12022040",
+      "slug": "artist-12022040",
+      "name": "FENDIGHEE RICCH",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2021,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848",
+        "album:128015189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp",
+        "/catalog/covers/thumb/128015189.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "slug": "artist-56788",
+      "name": "Fleetwood Mac",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1977,
+      "latestYear": 1977,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:1637054"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1637054.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1211046",
+      "neteaseArtistId": "1211046",
+      "slug": "artist-1211046",
+      "name": "GAI周延",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2025,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:274706820"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/274706820.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12127362",
+      "neteaseArtistId": "12127362",
+      "slug": "artist-12127362",
+      "name": "GALI",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "ep": 2
+      },
+      "earliestYear": 2022,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:272136228",
+        "album:152019682"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/272136228.webp",
+        "/catalog/covers/thumb/152019682.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:93191",
+      "neteaseArtistId": "93191",
+      "slug": "artist-93191",
+      "name": "Godspeed You! Black Emperor",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2000,
+      "latestYear": 2000,
+      "commonCoreGenres": [
+        "post-rock"
+      ],
+      "albumIds": [
+        "album:412971"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/412971.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12776881",
+      "neteaseArtistId": "12776881",
+      "slug": "artist-12776881",
+      "name": "Gooooose",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:142279651"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/142279651.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12200029",
+      "neteaseArtistId": "12200029",
+      "slug": "artist-12200029",
+      "name": "HARIKIRI",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:92448901"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/92448901.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13174782",
+      "neteaseArtistId": "13174782",
+      "slug": "artist-13174782",
+      "name": "Hideo Yamaki",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:167913218"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/167913218.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12002201",
+      "neteaseArtistId": "12002201",
+      "slug": "artist-12002201",
+      "name": "Higher Brothers",
+      "aliases": [],
+      "albumCount": 8,
+      "albumCountByType": {
+        "album": 6,
+        "ep": 2
+      },
+      "earliestYear": 2016,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:35559140",
+        "album:363421958",
+        "album:89754896",
+        "album:88140688",
+        "album:85991061",
+        "album:84033640",
+        "album:75641178",
+        "album:34776010"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35559140.webp",
+        "/catalog/covers/thumb/363421958.webp",
+        "/catalog/covers/thumb/89754896.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "slug": "artist-94064",
+      "name": "Howie Lee",
+      "aliases": [],
+      "albumCount": 14,
+      "albumCountByType": {
+        "ep": 5,
+        "album": 9
+      },
+      "earliestYear": 2010,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:135678901",
+        "album:379890387",
+        "album:254547742",
+        "album:246016383",
+        "album:169930121",
+        "album:147946102",
+        "album:94777507",
+        "album:81727574",
+        "album:38273156",
+        "album:37577102",
+        "album:35353583",
+        "album:3428741",
+        "album:2917225",
+        "album:1678569"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/135678901.webp",
+        "/catalog/covers/thumb/379890387.webp",
+        "/catalog/covers/thumb/254547742.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1053259",
+      "neteaseArtistId": "1053259",
+      "slug": "artist-1053259",
+      "name": "HUSH",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1054167",
+      "neteaseArtistId": "1054167",
+      "slug": "artist-1054167",
+      "name": "hyukoh",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "dream-pop"
+      ],
+      "albumIds": [
+        "album:241747140"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/241747140.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13145283",
+      "neteaseArtistId": "13145283",
+      "slug": "artist-13145283",
+      "name": "ICE杨长青",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:160947",
+      "neteaseArtistId": "160947",
+      "slug": "artist-160947",
+      "name": "IU",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 1,
+        "ep": 1
+      },
+      "earliestYear": 2017,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35377328",
+        "album:272648305"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35377328.webp",
+        "/catalog/covers/thumb/272648305.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12087155",
+      "neteaseArtistId": "12087155",
+      "slug": "artist-12087155",
+      "name": "J.Mag",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:92448901"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/92448901.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12526342",
+      "neteaseArtistId": "12526342",
+      "slug": "artist-12526342",
+      "name": "James Heather",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:135236866"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/135236866.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12092433",
+      "neteaseArtistId": "12092433",
+      "slug": "artist-12092433",
+      "name": "JarStick",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2019,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848",
+        "album:81262294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp",
+        "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13451886",
+      "neteaseArtistId": "13451886",
+      "slug": "artist-13451886",
+      "name": "JinJiBeWater_隼",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:98339170"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/98339170.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12060069",
+      "neteaseArtistId": "12060069",
+      "slug": "artist-12060069",
+      "name": "Jio吉欧",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "slug": "artist-60926",
+      "name": "Joni Mitchell",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1971,
+      "latestYear": 1971,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:1724200"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1724200.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12002170",
+      "neteaseArtistId": "12002170",
+      "slug": "artist-12002170",
+      "name": "JORDAN 97",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11950",
+      "neteaseArtistId": "11950",
+      "slug": "artist-11950",
+      "name": "Joyside",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:91290063"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "slug": "artist-62898",
+      "name": "Kate Bush",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1985,
+      "latestYear": 1985,
+      "commonCoreGenres": [
+        "art-pop"
+      ],
+      "albumIds": [
+        "album:1742060"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1742060.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:37995",
+      "neteaseArtistId": "37995",
+      "slug": "artist-37995",
+      "name": "Kendrick Lamar",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2015,
+      "latestYear": 2015,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:3109151"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/3109151.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12788674",
+      "neteaseArtistId": "12788674",
+      "slug": "artist-12788674",
+      "name": "KEY.L刘聪",
+      "aliases": [],
+      "albumCount": 5,
+      "albumCountByType": {
+        "album": 4,
+        "ep": 1
+      },
+      "earliestYear": 2019,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:75017719",
+        "album:274706820",
+        "album:172054725",
+        "album:164464029",
+        "album:96057849"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/75017719.webp",
+        "/catalog/covers/thumb/274706820.webp",
+        "/catalog/covers/thumb/172054725.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12283069",
+      "neteaseArtistId": "12283069",
+      "slug": "artist-12283069",
+      "name": "Kingofemog",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12529648",
+      "neteaseArtistId": "12529648",
+      "slug": "artist-12529648",
+      "name": "KIV",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:138339265"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12482079",
+      "neteaseArtistId": "12482079",
+      "slug": "artist-12482079",
+      "name": "Knocker",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2026,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:387010610"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/387010610.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:27868624",
+      "neteaseArtistId": "27868624",
+      "slug": "artist-27868624",
+      "name": "KnowKnow",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "ep": 1,
+        "album": 2
+      },
+      "earliestYear": 2019,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:363421958",
+        "album:84033640",
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/363421958.webp",
+        "/catalog/covers/thumb/84033640.webp",
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31599197",
+      "neteaseArtistId": "31599197",
+      "slug": "artist-31599197",
+      "name": "Lama Zopa Rinpoche",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2001,
+      "latestYear": 2001,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:29695"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/29695.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12293217",
+      "neteaseArtistId": "12293217",
+      "slug": "artist-12293217",
+      "name": "LEGGO",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:34402395",
+      "neteaseArtistId": "34402395",
+      "slug": "artist-34402395",
+      "name": "Lil Ken",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:128015189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/128015189.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:46617775",
+      "neteaseArtistId": "46617775",
+      "slug": "artist-46617775",
+      "name": "LÜCY",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:30704161",
+      "neteaseArtistId": "30704161",
+      "slug": "artist-30704161",
+      "name": "mac ova seas",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:138339265"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:38940",
+      "neteaseArtistId": "38940",
+      "slug": "artist-38940",
+      "name": "Madlib",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:316551"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/316551.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:68199",
+      "neteaseArtistId": "68199",
+      "slug": "artist-68199",
+      "name": "Madvillain",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:316551"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/316551.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6309",
+      "neteaseArtistId": "6309",
+      "slug": "artist-6309",
+      "name": "Mai",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12051031",
+      "neteaseArtistId": "12051031",
+      "slug": "artist-12051031",
+      "name": "Maikon Flocka Flame",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12919519",
+      "neteaseArtistId": "12919519",
+      "slug": "artist-12919519",
+      "name": "Matt吕彦良",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11976077",
+      "neteaseArtistId": "11976077",
+      "slug": "artist-11976077",
+      "name": "Matzka玛斯卡",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:4479",
+      "neteaseArtistId": "4479",
+      "slug": "artist-4479",
+      "name": "MC HotDog 热狗",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:187903",
+      "neteaseArtistId": "187903",
+      "slug": "artist-187903",
+      "name": "Mc光光",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:29304235",
+      "neteaseArtistId": "29304235",
+      "slug": "artist-29304235",
+      "name": "Melo",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "ep": 1,
+        "album": 2
+      },
+      "earliestYear": 2020,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:363421958",
+        "album:88140688",
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/363421958.webp",
+        "/catalog/covers/thumb/88140688.webp",
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "slug": "artist-38851",
+      "name": "Metallica",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1986,
+      "latestYear": 1986,
+      "commonCoreGenres": [
+        "metal"
+      ],
+      "albumIds": [
+        "album:1956859"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1956859.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:38994",
+      "neteaseArtistId": "38994",
+      "slug": "artist-38994",
+      "name": "MF DOOM",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:316551"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/316551.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:30588657",
+      "neteaseArtistId": "30588657",
+      "slug": "artist-30588657",
+      "name": "Mikann耙耙柑",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "ep": 2
+      },
+      "earliestYear": 2024,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:387010610",
+        "album:184065179"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/387010610.webp",
+        "/catalog/covers/thumb/184065179.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "slug": "artist-38860",
+      "name": "Miles Davis",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1959,
+      "latestYear": 1959,
+      "commonCoreGenres": [
+        "jazz"
+      ],
+      "albumIds": [
+        "album:1969878"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1969878.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:54502443",
+      "neteaseArtistId": "54502443",
+      "slug": "artist-54502443",
+      "name": "Muda",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:14925064",
+      "neteaseArtistId": "14925064",
+      "slug": "artist-14925064",
+      "name": "MULA SAKEE",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:138339265"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1049168",
+      "neteaseArtistId": "1049168",
+      "slug": "artist-1049168",
+      "name": "MuSik I",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2017,
+      "latestYear": 2017,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:35359276"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35359276.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:96273",
+      "neteaseArtistId": "96273",
+      "slug": "artist-96273",
+      "name": "My Bloody Valentine",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1991,
+      "latestYear": 1991,
+      "commonCoreGenres": [
+        "dream-pop"
+      ],
+      "albumIds": [
+        "album:422052"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/422052.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12276375",
+      "neteaseArtistId": "12276375",
+      "slug": "artist-12276375",
+      "name": "NINEONE#乃万",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2020,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220",
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:36623116",
+      "neteaseArtistId": "36623116",
+      "slug": "artist-36623116",
+      "name": "NoLabelCrew",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31048722",
+      "neteaseArtistId": "31048722",
+      "slug": "artist-31048722",
+      "name": "Oliver Jiang",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12202125",
+      "neteaseArtistId": "12202125",
+      "slug": "artist-12202125",
+      "name": "pH-1",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:32097566",
+      "neteaseArtistId": "32097566",
+      "slug": "artist-32097566",
+      "name": "PIggy",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152925972"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152925972.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12083497",
+      "neteaseArtistId": "12083497",
+      "slug": "artist-12083497",
+      "name": "PO8",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2022,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop",
+        "rock"
+      ],
+      "albumIds": [
+        "album:163444848",
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp",
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:29303235",
+      "neteaseArtistId": "29303235",
+      "slug": "artist-29303235",
+      "name": "PSY.P",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "ep": 1,
+        "album": 1
+      },
+      "earliestYear": 2020,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:363421958",
+        "album:89754896"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/363421958.webp",
+        "/catalog/covers/thumb/89754896.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12291562",
+      "neteaseArtistId": "12291562",
+      "slug": "artist-12291562",
+      "name": "Quinn葵因",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "slug": "artist-99384",
+      "name": "Radiohead",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1997,
+      "latestYear": 1997,
+      "commonCoreGenres": [
+        "alternative-rock"
+      ],
+      "albumIds": [
+        "album:2060534"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2060534.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12319437",
+      "neteaseArtistId": "12319437",
+      "slug": "artist-12319437",
+      "name": "RANZER叶润泽",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:36161065",
+      "neteaseArtistId": "36161065",
+      "slug": "artist-36161065",
+      "name": "Sai Saing Maw",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:254547742"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/254547742.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:14117457",
+      "neteaseArtistId": "14117457",
+      "slug": "artist-14117457",
+      "name": "SASIOVERLXRD",
+      "aliases": [],
+      "albumCount": 6,
+      "albumCountByType": {
+        "album": 6
+      },
+      "earliestYear": 2020,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:286248593",
+        "album:190000663",
+        "album:163444848",
+        "album:164395759",
+        "album:139836920",
+        "album:98339170"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/286248593.webp",
+        "/catalog/covers/thumb/190000663.webp",
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:33216986",
+      "neteaseArtistId": "33216986",
+      "slug": "artist-33216986",
+      "name": "SETI",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:138339265"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "slug": "artist-99990",
+      "name": "Sigur Rós",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "post-rock"
+      ],
+      "albumIds": [
+        "album:2029087"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2029087.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12085585",
+      "neteaseArtistId": "12085585",
+      "slug": "artist-12085585",
+      "name": "SIMBA辛巴",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "slug": "artist-100003",
+      "name": "Slowdive",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1993,
+      "latestYear": 1993,
+      "commonCoreGenres": [
+        "dream-pop"
+      ],
+      "albumIds": [
+        "album:1761243"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1761243.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:942028",
+      "neteaseArtistId": "942028",
+      "slug": "artist-942028",
+      "name": "The fin.",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk"
+      ],
+      "albumIds": [
+        "album:178219441"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:56286666",
+      "neteaseArtistId": "56286666",
+      "slug": "artist-56286666",
+      "name": "The Wall Radio",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12110173",
+      "neteaseArtistId": "12110173",
+      "slug": "artist-12110173",
+      "name": "THOME",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "ep": 1,
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:272136228",
+        "album:138339265"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/272136228.webp",
+        "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1204010",
+      "neteaseArtistId": "1204010",
+      "slug": "artist-1204010",
+      "name": "TizzyT",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:152019682"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/152019682.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1043093",
+      "neteaseArtistId": "1043093",
+      "slug": "artist-1043093",
+      "name": "Toy王奕",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2017,
+      "latestYear": 2017,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:35359276"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35359276.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12730273",
+      "neteaseArtistId": "12730273",
+      "slug": "artist-12730273",
+      "name": "TOYOKI",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:138339265"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:34556422",
+      "neteaseArtistId": "34556422",
+      "slug": "artist-34556422",
+      "name": "Tseng Kuo Hung",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:145645032"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12634145",
+      "neteaseArtistId": "12634145",
+      "slug": "artist-12634145",
+      "name": "U-zhaan",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2026,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:371556408"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/371556408.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12328955",
+      "neteaseArtistId": "12328955",
+      "slug": "artist-12328955",
+      "name": "UDIGG",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:163444848"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12441210",
+      "neteaseArtistId": "12441210",
+      "slug": "artist-12441210",
+      "name": "Veegee徐若侨",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:145165772"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/145165772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:34978249",
+      "neteaseArtistId": "34978249",
+      "slug": "artist-34978249",
+      "name": "VISATTACKING",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12643557",
+      "neteaseArtistId": "12643557",
+      "slug": "artist-12643557",
+      "name": "Yamy郭颖",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:124139046"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1050364",
+      "neteaseArtistId": "1050364",
+      "slug": "artist-1050364",
+      "name": "Yee",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2023,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:164464029"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/164464029.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12195296",
+      "neteaseArtistId": "12195296",
+      "slug": "artist-12195296",
+      "name": "YOUNG13DBABY",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:128015189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/128015189.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:37343079",
+      "neteaseArtistId": "37343079",
+      "slug": "artist-37343079",
+      "name": "YTH Chopie",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2021,
+      "latestYear": 2021,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:128015189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/128015189.webp"
+      ]
+    }
+  ]
+}

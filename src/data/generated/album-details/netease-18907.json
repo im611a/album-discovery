@@ -1,0 +1,168 @@
+{
+  "internalId": "album:18907",
+  "id": "album:18907",
+  "neteaseAlbumId": "18907",
+  "slug": "netease-18907",
+  "title": "八度空间",
+  "aliases": [
+    "The Eight Dimensions"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2002-07-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18907.webp",
+    "alt": "《八度空间》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18907.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186045",
+      "neteaseTrackId": "186045",
+      "title": "半兽人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:186046",
+      "neteaseTrackId": "186046",
+      "title": "半岛铁盒",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 319400
+    },
+    {
+      "id": "netease-track:186047",
+      "neteaseTrackId": "186047",
+      "title": "暗号",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 271000
+    },
+    {
+      "id": "netease-track:186048",
+      "neteaseTrackId": "186048",
+      "title": "龙拳",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:186049",
+      "neteaseTrackId": "186049",
+      "title": "火车叨位去",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:186051",
+      "neteaseTrackId": "186051",
+      "title": "分裂",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:186053",
+      "neteaseTrackId": "186053",
+      "title": "爷爷泡的茶",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:186055",
+      "neteaseTrackId": "186055",
+      "title": "回到过去",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 233000
+    },
+    {
+      "id": "netease-track:186057",
+      "neteaseTrackId": "186057",
+      "title": "米兰的小铁匠",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 238654
+    },
+    {
+      "id": "netease-track:186059",
+      "neteaseTrackId": "186059",
+      "title": "最后的战役",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 251000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18907",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "八度空间 The Eight Dimensions 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

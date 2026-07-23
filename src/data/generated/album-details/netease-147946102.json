@@ -1,0 +1,386 @@
+{
+  "internalId": "album:147946102",
+  "id": "album:147946102",
+  "neteaseAlbumId": "147946102",
+  "slug": "netease-147946102",
+  "title": "师父SIFU原声音乐",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2022-07-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/147946102.webp",
+    "alt": "《师父SIFU原声音乐》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/147946102.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1963125545",
+      "neteaseTrackId": "1963125545",
+      "title": "Martial Mastery",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 157771
+    },
+    {
+      "id": "netease-track:1963126712",
+      "neteaseTrackId": "1963126712",
+      "title": "The Wuguan",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 66666
+    },
+    {
+      "id": "netease-track:1963125538",
+      "neteaseTrackId": "1963125538",
+      "title": "A Taste of Revenge",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 121062
+    },
+    {
+      "id": "netease-track:1963125527",
+      "neteaseTrackId": "1963125527",
+      "title": "Sifu's Death",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 133894
+    },
+    {
+      "id": "netease-track:1963125546",
+      "neteaseTrackId": "1963125546",
+      "title": "Enter the Gang Turf",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 174161
+    },
+    {
+      "id": "netease-track:1963125515",
+      "neteaseTrackId": "1963125515",
+      "title": "Collecting Debts",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 96000
+    },
+    {
+      "id": "netease-track:1963126745",
+      "neteaseTrackId": "1963126745",
+      "title": "Money in the Trashbags",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 158400
+    },
+    {
+      "id": "netease-track:1963126748",
+      "neteaseTrackId": "1963126748",
+      "title": "Twin Villains",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 163200
+    },
+    {
+      "id": "netease-track:1963125542",
+      "neteaseTrackId": "1963125542",
+      "title": "Smell of Drugs",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 146669
+    },
+    {
+      "id": "netease-track:1963125519",
+      "neteaseTrackId": "1963125519",
+      "title": "Isolated in Nature",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 115200
+    },
+    {
+      "id": "netease-track:1963125562",
+      "neteaseTrackId": "1963125562",
+      "title": "Crash the Dancefloor",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 323333
+    },
+    {
+      "id": "netease-track:1963125547",
+      "neteaseTrackId": "1963125547",
+      "title": "Clash in the Pit",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:1963125606",
+      "neteaseTrackId": "1963125606",
+      "title": "Blood is on Fire",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:1963126744",
+      "neteaseTrackId": "1963126744",
+      "title": "Flames of War",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 186666
+    },
+    {
+      "id": "netease-track:1963125548",
+      "neteaseTrackId": "1963125548",
+      "title": "Discovering Art (Part. 1)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 160762
+    },
+    {
+      "id": "netease-track:1963126751",
+      "neteaseTrackId": "1963126751",
+      "title": "Discovering Art (Part. 2)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 176000
+    },
+    {
+      "id": "netease-track:1963126747",
+      "neteaseTrackId": "1963126747",
+      "title": "Discovering Art (Part. 3)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 157495
+    },
+    {
+      "id": "netease-track:1963125517",
+      "neteaseTrackId": "1963125517",
+      "title": "Diving Massacre",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 98792
+    },
+    {
+      "id": "netease-track:1963126723",
+      "neteaseTrackId": "1963126723",
+      "title": "The Iceberg",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 100000
+    },
+    {
+      "id": "netease-track:1963125516",
+      "neteaseTrackId": "1963125516",
+      "title": "Haze",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 97361
+    },
+    {
+      "id": "netease-track:1963126746",
+      "neteaseTrackId": "1963126746",
+      "title": "Snow of Carnage",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 164000
+    },
+    {
+      "id": "netease-track:1963125541",
+      "neteaseTrackId": "1963125541",
+      "title": "Gold Pluck",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 144000
+    },
+    {
+      "id": "netease-track:1963125524",
+      "neteaseTrackId": "1963125524",
+      "title": "Surveillance",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 121654
+    },
+    {
+      "id": "netease-track:1963125504",
+      "neteaseTrackId": "1963125504",
+      "title": "The Flashkick",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 64376
+    },
+    {
+      "id": "netease-track:1963126721",
+      "neteaseTrackId": "1963126721",
+      "title": "The Drop",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 75713
+    },
+    {
+      "id": "netease-track:1963125549",
+      "neteaseTrackId": "1963125549",
+      "title": "Going Deep",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 196524
+    },
+    {
+      "id": "netease-track:1963125550",
+      "neteaseTrackId": "1963125550",
+      "title": "Lygophobia",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 219740
+    },
+    {
+      "id": "netease-track:1963126792",
+      "neteaseTrackId": "1963126792",
+      "title": "Day of Judgment",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 199164
+    },
+    {
+      "id": "netease-track:1963126762",
+      "neteaseTrackId": "1963126762",
+      "title": "Sanctuary",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 204523
+    },
+    {
+      "id": "netease-track:1963126788",
+      "neteaseTrackId": "1963126788",
+      "title": "Fearless",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 242526
+    }
+  ],
+  "trackCount": 30,
+  "externalUrl": "https://music.163.com/#/album?id=147946102",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "师父SIFU原声音乐 Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

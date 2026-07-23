@@ -1,0 +1,111 @@
+{
+  "internalId": "album:37831040",
+  "id": "album:37831040",
+  "neteaseAlbumId": "37831040",
+  "slug": "netease-37831040",
+  "title": "在常玉的房间里",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2018-03-05",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "趣果文化",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/37831040.webp",
+    "alt": "《在常玉的房间里》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/37831040.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:542667185",
+      "neteaseTrackId": "542667185",
+      "title": "餐桌上的日常",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 417428
+    },
+    {
+      "id": "netease-track:542697160",
+      "neteaseTrackId": "542697160",
+      "title": "看远方的阳台",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 396857
+    },
+    {
+      "id": "netease-track:542667186",
+      "neteaseTrackId": "542667186",
+      "title": "有屋檐的窗景",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 278571
+    },
+    {
+      "id": "netease-track:542691185",
+      "neteaseTrackId": "542691185",
+      "title": "未关的留声机",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 270666
+    },
+    {
+      "id": "netease-track:542691186",
+      "neteaseTrackId": "542691186",
+      "title": "木地板上的旅行",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 398666
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=37831040",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "在常玉的房间里 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

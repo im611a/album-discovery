@@ -1,0 +1,166 @@
+{
+  "internalId": "album:74794477",
+  "id": "album:74794477",
+  "neteaseAlbumId": "74794477",
+  "slug": "netease-74794477",
+  "title": "AIR·艾热",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1203045",
+      "neteaseArtistId": "1203045",
+      "name": "艾热 AIR"
+    }
+  ],
+  "releaseDate": "2018-12-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "种梦音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/74794477.webp",
+    "alt": "《AIR·艾热》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/74794477.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1333345612",
+      "neteaseTrackId": "1333345612",
+      "title": "小人物",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:1333345613",
+      "neteaseTrackId": "1333345613",
+      "title": "往昔",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 148666
+    },
+    {
+      "id": "netease-track:1333345614",
+      "neteaseTrackId": "1333345614",
+      "title": "巨人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 240689
+    },
+    {
+      "id": "netease-track:1333345615",
+      "neteaseTrackId": "1333345615",
+      "title": "都是小事儿",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 135000
+    },
+    {
+      "id": "netease-track:1333345616",
+      "neteaseTrackId": "1333345616",
+      "title": "WESTSIDE",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 131111
+    },
+    {
+      "id": "netease-track:1333345617",
+      "neteaseTrackId": "1333345617",
+      "title": "乌云中",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 245142
+    },
+    {
+      "id": "netease-track:1333345618",
+      "neteaseTrackId": "1333345618",
+      "title": "受够了",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 119500
+    },
+    {
+      "id": "netease-track:1333345619",
+      "neteaseTrackId": "1333345619",
+      "title": "星球坠落",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 233157
+    },
+    {
+      "id": "netease-track:1333345620",
+      "neteaseTrackId": "1333345620",
+      "title": "家走",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 140163
+    },
+    {
+      "id": "netease-track:1333345621",
+      "neteaseTrackId": "1333345621",
+      "title": "女孩",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 333750
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=74794477",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "AIR·艾热 艾热 AIR",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

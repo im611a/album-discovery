@@ -1,0 +1,188 @@
+{
+  "internalId": "album:7557",
+  "id": "album:7557",
+  "neteaseAlbumId": "7557",
+  "slug": "netease-7557",
+  "title": "西域记事",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2002-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7557.webp",
+    "alt": "《西域记事》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7557.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76943",
+      "neteaseTrackId": "76943",
+      "title": "陇上羊归塞草烟",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 194880
+    },
+    {
+      "id": "netease-track:76946",
+      "neteaseTrackId": "76946",
+      "title": "胡天八月",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 251280
+    },
+    {
+      "id": "netease-track:76949",
+      "neteaseTrackId": "76949",
+      "title": "阿伊夏姆",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 187200
+    },
+    {
+      "id": "netease-track:76952",
+      "neteaseTrackId": "76952",
+      "title": "西出楼兰",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 274800
+    },
+    {
+      "id": "netease-track:76955",
+      "neteaseTrackId": "76955",
+      "title": "阿图什民谣",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 239040
+    },
+    {
+      "id": "netease-track:76958",
+      "neteaseTrackId": "76958",
+      "title": "故园东望路漫漫",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 236880
+    },
+    {
+      "id": "netease-track:76959",
+      "neteaseTrackId": "76959",
+      "title": "穿艾德莱丝的姑娘",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 225000
+    },
+    {
+      "id": "netease-track:76960",
+      "neteaseTrackId": "76960",
+      "title": "貂锦胡尘",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 190800
+    },
+    {
+      "id": "netease-track:76961",
+      "neteaseTrackId": "76961",
+      "title": "九月交河鸟争飞",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 202680
+    },
+    {
+      "id": "netease-track:76964",
+      "neteaseTrackId": "76964",
+      "title": "往来丝绸道，不问胡笛声",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 304920
+    },
+    {
+      "id": "netease-track:76967",
+      "neteaseTrackId": "76967",
+      "title": "西域狼痕",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 245520
+    },
+    {
+      "id": "netease-track:76971",
+      "neteaseTrackId": "76971",
+      "title": "驿马西归",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 195600
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=7557",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "西域记事 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

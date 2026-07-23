@@ -1,0 +1,157 @@
+{
+  "internalId": "album:241747140",
+  "id": "album:241747140",
+  "neteaseAlbumId": "241747140",
+  "slug": "netease-241747140",
+  "title": "AAA",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1054167",
+      "neteaseArtistId": "1054167",
+      "name": "hyukoh"
+    },
+    {
+      "id": "netease-artist:11074",
+      "neteaseArtistId": "11074",
+      "name": "落日飞车"
+    }
+  ],
+  "releaseDate": "2024-07-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/241747140.webp",
+    "alt": "《AAA》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/241747140.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2606636359",
+      "neteaseTrackId": "2606636359",
+      "title": "Kite War",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "hyukoh",
+        "落日飞车"
+      ],
+      "durationMs": 356198
+    },
+    {
+      "id": "netease-track:2606636360",
+      "neteaseTrackId": "2606636360",
+      "title": "Y",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "hyukoh",
+        "落日飞车"
+      ],
+      "durationMs": 342553
+    },
+    {
+      "id": "netease-track:2606634626",
+      "neteaseTrackId": "2606634626",
+      "title": "Antenna",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "hyukoh",
+        "落日飞车"
+      ],
+      "durationMs": 204983
+    },
+    {
+      "id": "netease-track:2606634627",
+      "neteaseTrackId": "2606634627",
+      "title": "Glue",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "hyukoh",
+        "落日飞车"
+      ],
+      "durationMs": 260430
+    },
+    {
+      "id": "netease-track:2606634628",
+      "neteaseTrackId": "2606634628",
+      "title": "Young Man",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "hyukoh",
+        "落日飞车"
+      ],
+      "durationMs": 257286
+    },
+    {
+      "id": "netease-track:2606634629",
+      "neteaseTrackId": "2606634629",
+      "title": "Do Nothing",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "hyukoh",
+        "落日飞车"
+      ],
+      "durationMs": 226808
+    },
+    {
+      "id": "netease-track:2606634630",
+      "neteaseTrackId": "2606634630",
+      "title": "Aaaannnnteeeeennnaaaaaa",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "hyukoh",
+        "落日飞车"
+      ],
+      "durationMs": 410463
+    },
+    {
+      "id": "netease-track:2606636361",
+      "neteaseTrackId": "2606636361",
+      "title": "2F 年轻人",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "hyukoh",
+        "落日飞车"
+      ],
+      "durationMs": 308258
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=241747140",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "AAA hyukoh 落日飞车",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

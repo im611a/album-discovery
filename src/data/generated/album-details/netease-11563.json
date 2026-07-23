@@ -1,0 +1,166 @@
+{
+  "internalId": "album:11563",
+  "id": "album:11563",
+  "neteaseAlbumId": "11563",
+  "slug": "netease-11563",
+  "title": "向前走",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "1990-12-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/11563.webp",
+    "alt": "《向前走》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/11563.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:119000",
+      "neteaseTrackId": "119000",
+      "title": "平凡老百姓",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 306693
+    },
+    {
+      "id": "netease-track:119002",
+      "neteaseTrackId": "119002",
+      "title": "向前走",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 367000
+    },
+    {
+      "id": "netease-track:119009",
+      "neteaseTrackId": "119009",
+      "title": "未振未动",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 245840
+    },
+    {
+      "id": "netease-track:119010",
+      "neteaseTrackId": "119010",
+      "title": "给你的信",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 255651
+    },
+    {
+      "id": "netease-track:119011",
+      "neteaseTrackId": "119011",
+      "title": "梦中人",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 309000
+    },
+    {
+      "id": "netease-track:119016",
+      "neteaseTrackId": "119016",
+      "title": "黑轮伯仔",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 304693
+    },
+    {
+      "id": "netease-track:119020",
+      "neteaseTrackId": "119020",
+      "title": "天和地",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 278306
+    },
+    {
+      "id": "netease-track:119023",
+      "neteaseTrackId": "119023",
+      "title": "闪闪烁",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 282586
+    },
+    {
+      "id": "netease-track:119026",
+      "neteaseTrackId": "119026",
+      "title": "深山林内有狮",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 301740
+    },
+    {
+      "id": "netease-track:119029",
+      "neteaseTrackId": "119029",
+      "title": "这款的代志",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 261266
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=11563",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "向前走 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

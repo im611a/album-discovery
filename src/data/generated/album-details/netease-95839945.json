@@ -1,0 +1,144 @@
+{
+  "internalId": "album:95839945",
+  "id": "album:95839945",
+  "neteaseAlbumId": "95839945",
+  "slug": "netease-95839945",
+  "title": "十万个为什么",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2020-09-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/95839945.webp",
+    "alt": "《十万个为什么》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/95839945.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1481635359",
+      "neteaseTrackId": "1481635359",
+      "title": "锻高潭",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 410612
+    },
+    {
+      "id": "netease-track:1481636181",
+      "neteaseTrackId": "1481636181",
+      "title": "幽魂",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 522048
+    },
+    {
+      "id": "netease-track:1481636175",
+      "neteaseTrackId": "1481636175",
+      "title": "五五路",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 440500
+    },
+    {
+      "id": "netease-track:1479800523",
+      "neteaseTrackId": "1479800523",
+      "title": "假若明天来临",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 353248
+    },
+    {
+      "id": "netease-track:1481636182",
+      "neteaseTrackId": "1481636182",
+      "title": "流浪者之歌",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 553317
+    },
+    {
+      "id": "netease-track:1481636179",
+      "neteaseTrackId": "1481636179",
+      "title": "孤独的鸟",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 425118
+    },
+    {
+      "id": "netease-track:1481636180",
+      "neteaseTrackId": "1481636180",
+      "title": "敢问路在何方",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 538500
+    },
+    {
+      "id": "netease-track:1481635386",
+      "neteaseTrackId": "1481635386",
+      "title": "醉忘川",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 500000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=95839945",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "十万个为什么 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

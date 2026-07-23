@@ -1,0 +1,161 @@
+{
+  "internalId": "album:139836920",
+  "id": "album:139836920",
+  "neteaseAlbumId": "139836920",
+  "slug": "netease-139836920",
+  "title": "成嶋亮",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:14117457",
+      "neteaseArtistId": "14117457",
+      "name": "SASIOVERLXRD"
+    }
+  ],
+  "releaseDate": "2022-02-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/139836920.webp",
+    "alt": "《成嶋亮》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/139836920.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1917235258",
+      "neteaseTrackId": "1917235258",
+      "title": "Intro (Prod.YZ虎）",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 117336
+    },
+    {
+      "id": "netease-track:1917380040",
+      "neteaseTrackId": "1917380040",
+      "title": "Sin Cypher 2022 (Prod.Gibbo)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "RICHNOMADIC",
+        "连麻Swimming",
+        "JinJiBeWater_隼"
+      ],
+      "durationMs": 318936
+    },
+    {
+      "id": "netease-track:1918964614",
+      "neteaseTrackId": "1918964614",
+      "title": "少年深渊 (Prod.Kyon)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 185263
+    },
+    {
+      "id": "netease-track:1917402214",
+      "neteaseTrackId": "1917402214",
+      "title": "自虐 (Prod.Miguel.b)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 140312
+    },
+    {
+      "id": "netease-track:1917411376",
+      "neteaseTrackId": "1917411376",
+      "title": "玛奇玛 (Prod.muto)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 120353
+    },
+    {
+      "id": "netease-track:1917228079",
+      "neteaseTrackId": "1917228079",
+      "title": "Pain no more (Prod.Skyie)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 179154
+    },
+    {
+      "id": "netease-track:1918979108",
+      "neteaseTrackId": "1918979108",
+      "title": "Young thug (Prod.Skyie)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "RICHNOMADIC",
+        "JinJiBeWater_隼"
+      ],
+      "durationMs": 201803
+    },
+    {
+      "id": "netease-track:1917234176",
+      "neteaseTrackId": "1917234176",
+      "title": "囚鸟 (Prod.DrSlay)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "RICHNOMADIC",
+        "JinJiBeWater_隼"
+      ],
+      "durationMs": 191802
+    },
+    {
+      "id": "netease-track:1917234467",
+      "neteaseTrackId": "1917234467",
+      "title": "Outro (Prod.Muto)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD"
+      ],
+      "durationMs": 136961
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=139836920",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "成嶋亮 SASIOVERLXRD",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

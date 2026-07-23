@@ -24,7 +24,7 @@ describe("published NetEase catalog integrity", () => {
 
   it("gives every album a secure matching NetEase destination", () => {
     for (const album of catalogAlbums) {
-      expect(album.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
+      expect(getAlbumDetailBySlug(album.slug)?.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
     }
   });
 
@@ -41,7 +41,7 @@ describe("published NetEase catalog integrity", () => {
     expect(publishedCatalog.descriptorTaxonomy).toEqual([]);
     for (const album of catalogAlbums) {
       expect(album.relatedGenres).toEqual([]);
-      expect(album.descriptors).toEqual([]);
+      expect(album.rymRating).toBeNull();
     }
   });
 
@@ -64,15 +64,17 @@ describe("published NetEase catalog integrity", () => {
     const album = catalogAlbums.find((item) => item.neteaseAlbumId === albumId)!;
     expect(album.coreGenres).toEqual(["hip-hop"]);
     expect(album.relatedGenres).toEqual([]);
-    expect(album.descriptors).toEqual([]);
+    expect(album.rymRating).toBeNull();
   });
 
   it.each(catalogAlbums)("publishes $slug with complete NetEase-owned catalog fields", (album) => {
     expect(album.internalId).toBe(`album:${album.neteaseAlbumId}`);
     expect(album.title).not.toBe("");
     expect(album.artists.length).toBeGreaterThan(0);
-    expect(getAlbumDetailBySlug(album.slug)?.tracks).toHaveLength(album.trackCount);
-    expect(album.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
+    const detail = getAlbumDetailBySlug(album.slug);
+    expect(detail).not.toBeNull();
+    expect(detail!.tracks).toHaveLength(detail!.trackCount);
+    expect(detail?.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
     expect(album.cover.kind === "local" ? album.cover.src : album.cover.reason).toBeTruthy();
   });
 });

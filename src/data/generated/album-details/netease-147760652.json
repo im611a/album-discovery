@@ -1,0 +1,217 @@
+{
+  "internalId": "album:147760652",
+  "id": "album:147760652",
+  "neteaseAlbumId": "147760652",
+  "slug": "netease-147760652",
+  "title": "希阿荣博Ⅱ",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    },
+    {
+      "id": "netease-artist:33423604",
+      "neteaseArtistId": "33423604",
+      "name": "希阿荣博"
+    }
+  ],
+  "releaseDate": "2022-04-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/147760652.webp",
+    "alt": "《希阿荣博Ⅱ》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/147760652.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1962040978",
+      "neteaseTrackId": "1962040978",
+      "title": "狮吼咒",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 245454
+    },
+    {
+      "id": "netease-track:1962039557",
+      "neteaseTrackId": "1962039557",
+      "title": "顶礼咒",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 204507
+    },
+    {
+      "id": "netease-track:1962039550",
+      "neteaseTrackId": "1962039550",
+      "title": "佛成道时之降魔咒",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 194571
+    },
+    {
+      "id": "netease-track:1962040977",
+      "neteaseTrackId": "1962040977",
+      "title": "般若佛母",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 186885
+    },
+    {
+      "id": "netease-track:1962039539",
+      "neteaseTrackId": "1962039539",
+      "title": "药师佛",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 208800
+    },
+    {
+      "id": "netease-track:1962039538",
+      "neteaseTrackId": "1962039538",
+      "title": "长寿佛",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 177777
+    },
+    {
+      "id": "netease-track:1962040961",
+      "neteaseTrackId": "1962040961",
+      "title": "加倍咒",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 186198
+    },
+    {
+      "id": "netease-track:1962040986",
+      "neteaseTrackId": "1962040986",
+      "title": "清净戒律咒",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 191428
+    },
+    {
+      "id": "netease-track:1962040962",
+      "neteaseTrackId": "1962040962",
+      "title": "八圣吉祥颂",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 202759
+    },
+    {
+      "id": "netease-track:1962039567",
+      "neteaseTrackId": "1962039567",
+      "title": "字母咒",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 177541
+    },
+    {
+      "id": "netease-track:1962039576",
+      "neteaseTrackId": "1962039576",
+      "title": "智慧流星咒",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 226153
+    },
+    {
+      "id": "netease-track:1962039597",
+      "neteaseTrackId": "1962039597",
+      "title": "文殊语狮子",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 185919
+    },
+    {
+      "id": "netease-track:1962039521",
+      "neteaseTrackId": "1962039521",
+      "title": "吉祥与发愿偈",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 237457
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=147760652",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "希阿荣博Ⅱ 左小祖咒 希阿荣博",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

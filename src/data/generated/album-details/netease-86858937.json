@@ -1,0 +1,100 @@
+{
+  "internalId": "album:86858937",
+  "id": "album:86858937",
+  "neteaseAlbumId": "86858937",
+  "slug": "netease-86858937",
+  "title": "光明的路",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "2020-03-27",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/86858937.webp",
+    "alt": "《光明的路》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/86858937.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1434211722",
+      "neteaseTrackId": "1434211722",
+      "title": "单纯的人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 321986
+    },
+    {
+      "id": "netease-track:1434211723",
+      "neteaseTrackId": "1434211723",
+      "title": "无病吃的药",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 286373
+    },
+    {
+      "id": "netease-track:1434211724",
+      "neteaseTrackId": "1434211724",
+      "title": "飞上天",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 296493
+    },
+    {
+      "id": "netease-track:1434211725",
+      "neteaseTrackId": "1434211725",
+      "title": "光明的路",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 251320
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=86858937",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "光明的路 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

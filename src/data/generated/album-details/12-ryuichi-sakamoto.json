@@ -1,0 +1,188 @@
+{
+  "internalId": "album:158396696",
+  "id": "album:158396696",
+  "neteaseAlbumId": "158396696",
+  "slug": "12-ryuichi-sakamoto",
+  "title": "12",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2023-01-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/158396696.webp",
+    "alt": "《12》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/158396696.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2015301661",
+      "neteaseTrackId": "2015301661",
+      "title": "20210310",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 413547
+    },
+    {
+      "id": "netease-track:2015299022",
+      "neteaseTrackId": "2015299022",
+      "title": "20211130",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 322315
+    },
+    {
+      "id": "netease-track:2015301667",
+      "neteaseTrackId": "2015301667",
+      "title": "20211201",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 332393
+    },
+    {
+      "id": "netease-track:2015301678",
+      "neteaseTrackId": "2015301678",
+      "title": "20220123",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 520753
+    },
+    {
+      "id": "netease-track:2015299053",
+      "neteaseTrackId": "2015299053",
+      "title": "20220202",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 382618
+    },
+    {
+      "id": "netease-track:2015299070",
+      "neteaseTrackId": "2015299070",
+      "title": "20220207",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 422394
+    },
+    {
+      "id": "netease-track:2015299072",
+      "neteaseTrackId": "2015299072",
+      "title": "20220214",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 549848
+    },
+    {
+      "id": "netease-track:2015299074",
+      "neteaseTrackId": "2015299074",
+      "title": "20220302 - sarabande",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 190482
+    },
+    {
+      "id": "netease-track:2015299084",
+      "neteaseTrackId": "2015299084",
+      "title": "20220302",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 172338
+    },
+    {
+      "id": "netease-track:2015301725",
+      "neteaseTrackId": "2015301725",
+      "title": "20220307",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 151138
+    },
+    {
+      "id": "netease-track:2015301730",
+      "neteaseTrackId": "2015301730",
+      "title": "20220404",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 146425
+    },
+    {
+      "id": "netease-track:2015301740",
+      "neteaseTrackId": "2015301740",
+      "title": "20220304",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 68661
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=158396696",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "12 坂本龍一",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

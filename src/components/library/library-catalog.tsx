@@ -5,7 +5,7 @@ import { catalogAlbums } from "@/catalog/published-catalog";
 import { AlbumGrid } from "@/components/album-grid";
 import { usePersonalState } from "@/features/personal-state/personal-state-provider";
 
-const tabs = [["savedAlbumIds", "想听"], ["favoriteAlbumIds", "喜欢"], ["listenedAlbumIds", "听过"], ["dismissedAlbumIds", "不适合我"]] as const;
+const tabs = [["savedAlbumIds", "想听"], ["likedAlbumIds", "喜欢"], ["favoriteAlbumIds", "收藏"], ["listenedAlbumIds", "听过"], ["dismissedAlbumIds", "不适合我"]] as const;
 export function LibraryCatalog() {
   const { state, hydrated } = usePersonalState();
   const [tab, setTab] = useState<(typeof tabs)[number][0]>("savedAlbumIds");

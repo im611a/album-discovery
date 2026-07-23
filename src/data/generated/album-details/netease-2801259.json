@@ -1,0 +1,177 @@
+{
+  "internalId": "album:2801259",
+  "id": "album:2801259",
+  "neteaseAlbumId": "2801259",
+  "slug": "netease-2801259",
+  "title": "Rice & Shine",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2014-05-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2801259.webp",
+    "alt": "《Rice & Shine》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2801259.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:28481104",
+      "neteaseTrackId": "28481104",
+      "title": "娱乐天空",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 363856
+    },
+    {
+      "id": "netease-track:28481817",
+      "neteaseTrackId": "28481817",
+      "title": "四季圈",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 320613
+    },
+    {
+      "id": "netease-track:28465267",
+      "neteaseTrackId": "28465267",
+      "title": "愚人快乐",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 254120
+    },
+    {
+      "id": "netease-track:28563311",
+      "neteaseTrackId": "28563311",
+      "title": "不如承诺来的简单",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 313866
+    },
+    {
+      "id": "netease-track:28563312",
+      "neteaseTrackId": "28563312",
+      "title": "对面",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 289146
+    },
+    {
+      "id": "netease-track:28563313",
+      "neteaseTrackId": "28563313",
+      "title": "娱乐天空 (Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 424251
+    },
+    {
+      "id": "netease-track:28563315",
+      "neteaseTrackId": "28563315",
+      "title": "放弃治疗",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 256106
+    },
+    {
+      "id": "netease-track:28563314",
+      "neteaseTrackId": "28563314",
+      "title": "时光隧道",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 260200
+    },
+    {
+      "id": "netease-track:28481818",
+      "neteaseTrackId": "28481818",
+      "title": "可以了",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 291960
+    },
+    {
+      "id": "netease-track:28563317",
+      "neteaseTrackId": "28563317",
+      "title": "阴天快乐",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 260480
+    },
+    {
+      "id": "netease-track:28481103",
+      "neteaseTrackId": "28481103",
+      "title": "你给我听好",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 288382
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=2801259",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Rice & Shine 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

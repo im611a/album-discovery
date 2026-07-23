@@ -1,0 +1,155 @@
+{
+  "internalId": "album:243132960",
+  "id": "album:243132960",
+  "neteaseAlbumId": "243132960",
+  "slug": "netease-243132960",
+  "title": "乌有乡地图",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2024-07-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京有此山文化传媒有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/243132960.webp",
+    "alt": "《乌有乡地图》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/243132960.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2611207805",
+      "neteaseTrackId": "2611207805",
+      "title": "留下",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 246541
+    },
+    {
+      "id": "netease-track:2644516969",
+      "neteaseTrackId": "2644516969",
+      "title": "乱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 306918
+    },
+    {
+      "id": "netease-track:2644516970",
+      "neteaseTrackId": "2644516970",
+      "title": "戚夫人和司马迁",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 250939
+    },
+    {
+      "id": "netease-track:2644516971",
+      "neteaseTrackId": "2644516971",
+      "title": "天黑了",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 228218
+    },
+    {
+      "id": "netease-track:2644516060",
+      "neteaseTrackId": "2644516060",
+      "title": "在我的道路上",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 242626
+    },
+    {
+      "id": "netease-track:2644516061",
+      "neteaseTrackId": "2644516061",
+      "title": "寒山子",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 244504
+    },
+    {
+      "id": "netease-track:2644516972",
+      "neteaseTrackId": "2644516972",
+      "title": "冒着泡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 189025
+    },
+    {
+      "id": "netease-track:2644516973",
+      "neteaseTrackId": "2644516973",
+      "title": "海市蜃楼",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 218751
+    },
+    {
+      "id": "netease-track:2644516974",
+      "neteaseTrackId": "2644516974",
+      "title": "一粒",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 135395
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=243132960",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "乌有乡地图 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

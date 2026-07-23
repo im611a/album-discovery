@@ -1,0 +1,175 @@
+{
+  "internalId": "album:164464029",
+  "id": "album:164464029",
+  "neteaseAlbumId": "164464029",
+  "slug": "netease-164464029",
+  "title": "CSC 2023 CYPHER",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12788674",
+      "neteaseArtistId": "12788674",
+      "name": "KEY.L刘聪"
+    },
+    {
+      "id": "netease-artist:12039017",
+      "neteaseArtistId": "12039017",
+      "name": "弗兰德斯坦"
+    },
+    {
+      "id": "netease-artist:1205071",
+      "neteaseArtistId": "1205071",
+      "name": "云别"
+    },
+    {
+      "id": "netease-artist:1050364",
+      "neteaseArtistId": "1050364",
+      "name": "Yee"
+    },
+    {
+      "id": "netease-artist:12060069",
+      "neteaseArtistId": "12060069",
+      "name": "Jio吉欧"
+    },
+    {
+      "id": "netease-artist:1124093",
+      "neteaseArtistId": "1124093",
+      "name": "西奥Sio"
+    },
+    {
+      "id": "netease-artist:14018235",
+      "neteaseArtistId": "14018235",
+      "name": "黄之仪Kyra Zilver"
+    },
+    {
+      "id": "netease-artist:54502443",
+      "neteaseArtistId": "54502443",
+      "name": "Muda"
+    },
+    {
+      "id": "netease-artist:34978249",
+      "neteaseArtistId": "34978249",
+      "name": "VISATTACKING"
+    },
+    {
+      "id": "netease-artist:12319437",
+      "neteaseArtistId": "12319437",
+      "name": "RANZER叶润泽"
+    },
+    {
+      "id": "netease-artist:12605500",
+      "neteaseArtistId": "12605500",
+      "name": "盛宇D-SHINE"
+    },
+    {
+      "id": "netease-artist:32893629",
+      "neteaseArtistId": "32893629",
+      "name": "陈一豪Clear"
+    },
+    {
+      "id": "netease-artist:12453329",
+      "neteaseArtistId": "12453329",
+      "name": "功夫胖KUNGFU-PEN"
+    }
+  ],
+  "releaseDate": "2023-04-25",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/164464029.webp",
+    "alt": "《CSC 2023 CYPHER》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/164464029.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2042583512",
+      "neteaseTrackId": "2042583512",
+      "title": "CSC 2023 CYPHER PART 1 “DRILL”",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "弗兰德斯坦",
+        "云别",
+        "FIJIDAYTONA500",
+        "梁笑生AIRBUS130"
+      ],
+      "durationMs": 230136
+    },
+    {
+      "id": "netease-track:2042588397",
+      "neteaseTrackId": "2042588397",
+      "title": "CSC 2023 CYPHER PART 2 “TRAP”",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Yee",
+        "Jio吉欧",
+        "西奥Sio",
+        "梁笑生AIRBUS130"
+      ],
+      "durationMs": 223770
+    },
+    {
+      "id": "netease-track:2042588398",
+      "neteaseTrackId": "2042588398",
+      "title": "CSC 2023 CYPHER PART 3 “ALTERNATIVE”",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄之仪Kyra Zilver",
+        "Muda",
+        "VISATTACKING",
+        "RANZER叶润泽",
+        "FIJIDAYTONA500",
+        "c0de731"
+      ],
+      "durationMs": 223285
+    },
+    {
+      "id": "netease-track:2042583534",
+      "neteaseTrackId": "2042583534",
+      "title": "CSC 2023 CYPHER PART 4 “BOOMBAP”",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "盛宇D-SHINE",
+        "陈一豪Clear",
+        "功夫胖KUNGFU-PEN",
+        "THE-BETA"
+      ],
+      "durationMs": 198624
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=164464029",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "CSC 2023 CYPHER KEY.L刘聪 弗兰德斯坦 云别 Yee Jio吉欧 西奥Sio 黄之仪Kyra Zilver Muda VISATTACKING RANZER叶润泽 盛宇D-SHINE 陈一豪Clear 功夫胖KUNGFU-PEN",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

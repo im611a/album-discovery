@@ -1,0 +1,121 @@
+{
+  "internalId": "album:38350",
+  "id": "album:38350",
+  "neteaseAlbumId": "38350",
+  "slug": "netease-38350",
+  "title": "Sparrow First",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13247",
+      "neteaseArtistId": "13247",
+      "name": "文雀"
+    }
+  ],
+  "releaseDate": "2010-02-06",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38350.webp",
+    "alt": "《Sparrow First》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38350.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:387177",
+      "neteaseTrackId": "387177",
+      "title": "Marks On My Hand(Intro)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 172000
+    },
+    {
+      "id": "netease-track:387179",
+      "neteaseTrackId": "387179",
+      "title": "Now,Restarting,After 11 Mouth",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:387181",
+      "neteaseTrackId": "387181",
+      "title": "Double Treble",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 294000
+    },
+    {
+      "id": "netease-track:387183",
+      "neteaseTrackId": "387183",
+      "title": "Move Movie",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 329000
+    },
+    {
+      "id": "netease-track:387186",
+      "neteaseTrackId": "387186",
+      "title": "Rollercoaster Use For Rollerskate",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:387188",
+      "neteaseTrackId": "387188",
+      "title": "Outro",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 96000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=38350",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Sparrow First 文雀",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

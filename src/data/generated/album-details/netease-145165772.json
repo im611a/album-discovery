@@ -1,0 +1,295 @@
+{
+  "internalId": "album:145165772",
+  "id": "album:145165772",
+  "neteaseAlbumId": "145165772",
+  "slug": "netease-145165772",
+  "title": "平行世界",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:31561897",
+      "neteaseArtistId": "31561897",
+      "name": "沙一汀EL"
+    },
+    {
+      "id": "netease-artist:12798895",
+      "neteaseArtistId": "12798895",
+      "name": "于贞"
+    },
+    {
+      "id": "netease-artist:12072094",
+      "neteaseArtistId": "12072094",
+      "name": "张颜齐"
+    },
+    {
+      "id": "netease-artist:29304235",
+      "neteaseArtistId": "29304235",
+      "name": "Melo"
+    },
+    {
+      "id": "netease-artist:4479",
+      "neteaseArtistId": "4479",
+      "name": "MC HotDog 热狗"
+    },
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    },
+    {
+      "id": "netease-artist:27868624",
+      "neteaseArtistId": "27868624",
+      "name": "KnowKnow"
+    },
+    {
+      "id": "netease-artist:27871957",
+      "neteaseArtistId": "27871957",
+      "name": "王OK"
+    },
+    {
+      "id": "netease-artist:12441210",
+      "neteaseArtistId": "12441210",
+      "name": "Veegee徐若侨"
+    },
+    {
+      "id": "netease-artist:649505",
+      "neteaseArtistId": "649505",
+      "name": "孟佳"
+    },
+    {
+      "id": "netease-artist:13059444",
+      "neteaseArtistId": "13059444",
+      "name": "李俊毅"
+    }
+  ],
+  "releaseDate": "2022-05-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Hypersonic",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/145165772.webp",
+    "alt": "《平行世界》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/145165772.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1948399579",
+      "neteaseTrackId": "1948399579",
+      "title": "平行线",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "沙一汀EL"
+      ],
+      "durationMs": 182222
+    },
+    {
+      "id": "netease-track:1948399580",
+      "neteaseTrackId": "1948399580",
+      "title": "梦旅人",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "于贞"
+      ],
+      "durationMs": 223690
+    },
+    {
+      "id": "netease-track:1948399581",
+      "neteaseTrackId": "1948399581",
+      "title": "No Thanks",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张颜齐"
+      ],
+      "durationMs": 176202
+    },
+    {
+      "id": "netease-track:1948399582",
+      "neteaseTrackId": "1948399582",
+      "title": "Nah Baby",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Melo"
+      ],
+      "durationMs": 166274
+    },
+    {
+      "id": "netease-track:1948398621",
+      "neteaseTrackId": "1948398621",
+      "title": "Pull Up",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗",
+        "马思唯",
+        "KnowKnow"
+      ],
+      "durationMs": 222500
+    },
+    {
+      "id": "netease-track:1948398622",
+      "neteaseTrackId": "1948398622",
+      "title": "平行线 (Parallel Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王OK"
+      ],
+      "durationMs": 172040
+    },
+    {
+      "id": "netease-track:1948398623",
+      "neteaseTrackId": "1948398623",
+      "title": "Nah Baby (Parallel Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Veegee徐若侨"
+      ],
+      "durationMs": 166303
+    },
+    {
+      "id": "netease-track:1948398624",
+      "neteaseTrackId": "1948398624",
+      "title": "No Thanks (Parallel Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "孟佳"
+      ],
+      "durationMs": 165454
+    },
+    {
+      "id": "netease-track:1948399583",
+      "neteaseTrackId": "1948399583",
+      "title": "梦旅人 (Parallel Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "李俊毅"
+      ],
+      "durationMs": 171428
+    },
+    {
+      "id": "netease-track:1948399584",
+      "neteaseTrackId": "1948399584",
+      "title": "平行线 (伴奏)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "沙一汀EL"
+      ],
+      "durationMs": 182620
+    },
+    {
+      "id": "netease-track:1948399585",
+      "neteaseTrackId": "1948399585",
+      "title": "梦旅人 (伴奏)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "于贞"
+      ],
+      "durationMs": 223690
+    },
+    {
+      "id": "netease-track:1948399586",
+      "neteaseTrackId": "1948399586",
+      "title": "No Thanks (伴奏)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张颜齐"
+      ],
+      "durationMs": 176930
+    },
+    {
+      "id": "netease-track:1948399587",
+      "neteaseTrackId": "1948399587",
+      "title": "Nah Baby (伴奏)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Melo"
+      ],
+      "durationMs": 166870
+    },
+    {
+      "id": "netease-track:1948398625",
+      "neteaseTrackId": "1948398625",
+      "title": "平行线 (Parallel Version) (伴奏)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王OK"
+      ],
+      "durationMs": 168950
+    },
+    {
+      "id": "netease-track:1948399588",
+      "neteaseTrackId": "1948399588",
+      "title": "Nah Baby (Parallel Version) (伴奏)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Veegee徐若侨"
+      ],
+      "durationMs": 166800
+    },
+    {
+      "id": "netease-track:1948399589",
+      "neteaseTrackId": "1948399589",
+      "title": "No Thanks (Parallel Version) (伴奏)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "孟佳"
+      ],
+      "durationMs": 165454
+    },
+    {
+      "id": "netease-track:1948399590",
+      "neteaseTrackId": "1948399590",
+      "title": "梦旅人 (Parallel Version) (伴奏)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "李俊毅"
+      ],
+      "durationMs": 171428
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=145165772",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "平行世界 沙一汀EL 于贞 张颜齐 Melo MC HotDog 热狗 马思唯 KnowKnow 王OK Veegee徐若侨 孟佳 李俊毅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

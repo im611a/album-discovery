@@ -1,0 +1,180 @@
+{
+  "internalId": "album:18875",
+  "id": "album:18875",
+  "neteaseAlbumId": "18875",
+  "slug": "netease-18875",
+  "title": "跨时代",
+  "aliases": [
+    "The Era"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2010-05-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18875.webp",
+    "alt": "《跨时代》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18875.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185666",
+      "neteaseTrackId": "185666",
+      "title": "跨时代",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 194000
+    },
+    {
+      "id": "netease-track:185667",
+      "neteaseTrackId": "185667",
+      "title": "说了再见",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 282000
+    },
+    {
+      "id": "netease-track:185668",
+      "neteaseTrackId": "185668",
+      "title": "烟花易冷",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:185684",
+      "neteaseTrackId": "185684",
+      "title": "免费教学录影带",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 239080
+    },
+    {
+      "id": "netease-track:185670",
+      "neteaseTrackId": "185670",
+      "title": "好久不见",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 250453
+    },
+    {
+      "id": "netease-track:185672",
+      "neteaseTrackId": "185672",
+      "title": "雨下一整晚",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 256000
+    },
+    {
+      "id": "netease-track:185674",
+      "neteaseTrackId": "185674",
+      "title": "嘻哈空姐",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 168000
+    },
+    {
+      "id": "netease-track:185676",
+      "neteaseTrackId": "185676",
+      "title": "我落泪情绪零碎",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 257000
+    },
+    {
+      "id": "netease-track:185678",
+      "neteaseTrackId": "185678",
+      "title": "爱的飞行日记",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "杨瑞代"
+      ],
+      "durationMs": 255000
+    },
+    {
+      "id": "netease-track:185680",
+      "neteaseTrackId": "185680",
+      "title": "自导自演",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 255000
+    },
+    {
+      "id": "netease-track:185686",
+      "neteaseTrackId": "185686",
+      "title": "超人不会飞",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 300000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18875",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "跨时代 The Era 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

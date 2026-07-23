@@ -1,0 +1,136 @@
+{
+  "internalId": "album:363421958",
+  "id": "album:363421958",
+  "neteaseAlbumId": "363421958",
+  "slug": "netease-363421958",
+  "title": "最高",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12002201",
+      "neteaseArtistId": "12002201",
+      "name": "Higher Brothers"
+    },
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    },
+    {
+      "id": "netease-artist:27868624",
+      "neteaseArtistId": "27868624",
+      "name": "KnowKnow"
+    },
+    {
+      "id": "netease-artist:29303235",
+      "neteaseArtistId": "29303235",
+      "name": "PSY.P"
+    },
+    {
+      "id": "netease-artist:29304235",
+      "neteaseArtistId": "29304235",
+      "name": "Melo"
+    }
+  ],
+  "releaseDate": "2026-03-02",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "A Few Good Kids Records/MR.ENJOYDAMONEY/PSYLIFE Vision/Team Xie",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/363421958.webp",
+    "alt": "《最高》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/363421958.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3352826361",
+      "neteaseTrackId": "3352826361",
+      "title": "Highest",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "马思唯",
+        "KnowKnow",
+        "PSY.P",
+        "Melo"
+      ],
+      "durationMs": 190454
+    },
+    {
+      "id": "netease-track:3352826362",
+      "neteaseTrackId": "3352826362",
+      "title": "1 On 1",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "马思唯",
+        "KnowKnow",
+        "PSY.P",
+        "Melo"
+      ],
+      "durationMs": 223741
+    },
+    {
+      "id": "netease-track:3352825378",
+      "neteaseTrackId": "3352825378",
+      "title": "人先出来",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "马思唯",
+        "KnowKnow",
+        "PSY.P",
+        "Melo"
+      ],
+      "durationMs": 224160
+    },
+    {
+      "id": "netease-track:3352826363",
+      "neteaseTrackId": "3352826363",
+      "title": "How High Can We Reach",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "马思唯",
+        "KnowKnow",
+        "PSY.P",
+        "Melo"
+      ],
+      "durationMs": 225624
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=363421958",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "最高 Higher Brothers 马思唯 KnowKnow PSY.P Melo",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

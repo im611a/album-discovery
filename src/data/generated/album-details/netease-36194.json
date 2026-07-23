@@ -1,0 +1,133 @@
+{
+  "internalId": "album:36194",
+  "id": "album:36194",
+  "neteaseAlbumId": "36194",
+  "slug": "netease-36194",
+  "title": "Yellow Star",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    }
+  ],
+  "releaseDate": "2002-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beijing Modern Sky Culture Development Co.,Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/36194.webp",
+    "alt": "《Yellow Star》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/36194.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:365579",
+      "neteaseTrackId": "365579",
+      "title": "我失去了她",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 250733
+    },
+    {
+      "id": "netease-track:365581",
+      "neteaseTrackId": "365581",
+      "title": "爱得像蜜糖",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 287373
+    },
+    {
+      "id": "netease-track:365583",
+      "neteaseTrackId": "365583",
+      "title": "Yellow Star",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 203413
+    },
+    {
+      "id": "netease-track:365584",
+      "neteaseTrackId": "365584",
+      "title": "方南的丽美",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 426973
+    },
+    {
+      "id": "netease-track:365586",
+      "neteaseTrackId": "365586",
+      "title": "Feifei Run",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 239333
+    },
+    {
+      "id": "netease-track:365589",
+      "neteaseTrackId": "365589",
+      "title": "伟大的演奏家",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 236573
+    },
+    {
+      "id": "netease-track:2749044736",
+      "neteaseTrackId": "2749044736",
+      "title": "美丽的南方",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 433546
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=36194",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Yellow Star 木马Muma",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

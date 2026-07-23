@@ -1,0 +1,133 @@
+{
+  "internalId": "album:1678569",
+  "id": "album:1678569",
+  "neteaseAlbumId": "1678569",
+  "slug": "netease-1678569",
+  "title": "00110111 00100000 01000100 01100001 01111001 01110011",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2010-05-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1678569.webp",
+    "alt": "《00110111 00100000 01000100 01100001 01111001 01110011》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1678569.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18286068",
+      "neteaseTrackId": "18286068",
+      "title": "Get Started",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 286137
+    },
+    {
+      "id": "netease-track:18286069",
+      "neteaseTrackId": "18286069",
+      "title": "Cash and Money",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 267428
+    },
+    {
+      "id": "netease-track:18286070",
+      "neteaseTrackId": "18286070",
+      "title": "Three Pests",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 174857
+    },
+    {
+      "id": "netease-track:18286071",
+      "neteaseTrackId": "18286071",
+      "title": "F**k You",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 305454
+    },
+    {
+      "id": "netease-track:18286072",
+      "neteaseTrackId": "18286072",
+      "title": "Trash",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 287611
+    },
+    {
+      "id": "netease-track:18286073",
+      "neteaseTrackId": "18286073",
+      "title": "Where's the Btt?!",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 277299
+    },
+    {
+      "id": "netease-track:18286074",
+      "neteaseTrackId": "18286074",
+      "title": "Sound is the Future of Young Generation",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 188059
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1678569",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "00110111 00100000 01000100 01100001 01111001 01110011 Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

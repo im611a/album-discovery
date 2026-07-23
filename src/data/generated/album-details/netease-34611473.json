@@ -1,0 +1,133 @@
+{
+  "internalId": "album:34611473",
+  "id": "album:34611473",
+  "neteaseAlbumId": "34611473",
+  "slug": "netease-34611473",
+  "title": "岁月鸿沟",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2016-04-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34611473.webp",
+    "alt": "《岁月鸿沟》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34611473.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:409941363",
+      "neteaseTrackId": "409941363",
+      "title": "黄泉水",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 895712
+    },
+    {
+      "id": "netease-track:409931402",
+      "neteaseTrackId": "409931402",
+      "title": "红墙黑墙",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 487015
+    },
+    {
+      "id": "netease-track:409941364",
+      "neteaseTrackId": "409941364",
+      "title": "海洋之心",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 653767
+    },
+    {
+      "id": "netease-track:409941365",
+      "neteaseTrackId": "409941365",
+      "title": "少年宫",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 818802
+    },
+    {
+      "id": "netease-track:409931403",
+      "neteaseTrackId": "409931403",
+      "title": "21世纪不适症",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 540675
+    },
+    {
+      "id": "netease-track:409941366",
+      "neteaseTrackId": "409941366",
+      "title": "岁月鸿沟",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 872435
+    },
+    {
+      "id": "netease-track:409931404",
+      "neteaseTrackId": "409931404",
+      "title": "归零",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 139000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=34611473",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "岁月鸿沟 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,144 @@
+{
+  "internalId": "album:6306",
+  "id": "album:6306",
+  "neteaseAlbumId": "6306",
+  "slug": "netease-6306",
+  "title": "解决",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "1991-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "飞碟唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6306.webp",
+    "alt": "《解决》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6306.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:63654",
+      "neteaseTrackId": "63654",
+      "title": "解决",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 293960
+    },
+    {
+      "id": "netease-track:63656",
+      "neteaseTrackId": "63656",
+      "title": "这儿的空间",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 279333
+    },
+    {
+      "id": "netease-track:63660",
+      "neteaseTrackId": "63660",
+      "title": "寂寞就象一团烈火",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 290307
+    },
+    {
+      "id": "netease-track:63662",
+      "neteaseTrackId": "63662",
+      "title": "投机分子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 343160
+    },
+    {
+      "id": "netease-track:63664",
+      "neteaseTrackId": "63664",
+      "title": "快让我在这雪地上撒点儿野",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 462146
+    },
+    {
+      "id": "netease-track:63665",
+      "neteaseTrackId": "63665",
+      "title": "像一把刀子",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 189332
+    },
+    {
+      "id": "netease-track:63666",
+      "neteaseTrackId": "63666",
+      "title": "南泥湾",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 160332
+    },
+    {
+      "id": "netease-track:63667",
+      "neteaseTrackId": "63667",
+      "title": "从头再来 (Live)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 312973
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=6306",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "解决 崔健",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

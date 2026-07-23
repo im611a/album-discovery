@@ -1,0 +1,219 @@
+{
+  "internalId": "album:75641178",
+  "id": "album:75641178",
+  "neteaseAlbumId": "75641178",
+  "slug": "netease-75641178",
+  "title": "Five Stars",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12002201",
+      "neteaseArtistId": "12002201",
+      "name": "Higher Brothers"
+    }
+  ],
+  "releaseDate": "2019-02-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "88rising Records LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/75641178.webp",
+    "alt": "《Five Stars》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/75641178.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1347300592",
+      "neteaseTrackId": "1347300592",
+      "title": "16 Hours",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 172355
+    },
+    {
+      "id": "netease-track:1347300593",
+      "neteaseTrackId": "1347300593",
+      "title": "Open it Up",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 275862
+    },
+    {
+      "id": "netease-track:1347300594",
+      "neteaseTrackId": "1347300594",
+      "title": "Flexing So Hard",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 175384
+    },
+    {
+      "id": "netease-track:1347300595",
+      "neteaseTrackId": "1347300595",
+      "title": "One Punch Man",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "Ski Mask the Slump God",
+        "Denzel Curry"
+      ],
+      "durationMs": 200651
+    },
+    {
+      "id": "netease-track:1347300596",
+      "neteaseTrackId": "1347300596",
+      "title": "Do It Like Me",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "JID"
+      ],
+      "durationMs": 157714
+    },
+    {
+      "id": "netease-track:1347300597",
+      "neteaseTrackId": "1347300597",
+      "title": "Top",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "Soulja Boy"
+      ],
+      "durationMs": 234328
+    },
+    {
+      "id": "netease-track:1347297660",
+      "neteaseTrackId": "1347297660",
+      "title": "Sunshine",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 146086
+    },
+    {
+      "id": "netease-track:1347300598",
+      "neteaseTrackId": "1347300598",
+      "title": "We Talkin Bout",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "KOHH"
+      ],
+      "durationMs": 253023
+    },
+    {
+      "id": "netease-track:1347297661",
+      "neteaseTrackId": "1347297661",
+      "title": "恭喜发财",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 173684
+    },
+    {
+      "id": "netease-track:1347300599",
+      "neteaseTrackId": "1347300599",
+      "title": "Won't Believe",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "ScHoolboy Q"
+      ],
+      "durationMs": 214500
+    },
+    {
+      "id": "netease-track:1347297662",
+      "neteaseTrackId": "1347297662",
+      "title": "Need Me Now",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "Guapdad 4000"
+      ],
+      "durationMs": 249652
+    },
+    {
+      "id": "netease-track:1347297663",
+      "neteaseTrackId": "1347297663",
+      "title": "Diamond",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers"
+      ],
+      "durationMs": 192001
+    },
+    {
+      "id": "netease-track:1347297664",
+      "neteaseTrackId": "1347297664",
+      "title": "No More",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "NIKI"
+      ],
+      "durationMs": 229859
+    },
+    {
+      "id": "netease-track:1347297665",
+      "neteaseTrackId": "1347297665",
+      "title": "Zombie",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Higher Brothers",
+        "Rich Brian"
+      ],
+      "durationMs": 231418
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=75641178",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Five Stars Higher Brothers",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

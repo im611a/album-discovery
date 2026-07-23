@@ -1,0 +1,144 @@
+{
+  "internalId": "album:246016383",
+  "id": "album:246016383",
+  "neteaseAlbumId": "246016383",
+  "slug": "netease-246016383",
+  "title": "在卓玛吾萨岭",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2024-08-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/246016383.webp",
+    "alt": "《在卓玛吾萨岭》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/246016383.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2620904480",
+      "neteaseTrackId": "2620904480",
+      "title": "莲师心咒",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 220560
+    },
+    {
+      "id": "netease-track:2620902730",
+      "neteaseTrackId": "2620902730",
+      "title": "不动佛心咒",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 268973
+    },
+    {
+      "id": "netease-track:2620902723",
+      "neteaseTrackId": "2620902723",
+      "title": "文殊菩萨心咒",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 238600
+    },
+    {
+      "id": "netease-track:2620904485",
+      "neteaseTrackId": "2620904485",
+      "title": "长寿佛心咒",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 242920
+    },
+    {
+      "id": "netease-track:2620902729",
+      "neteaseTrackId": "2620902729",
+      "title": "金刚铠甲心咒",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 252259
+    },
+    {
+      "id": "netease-track:2620904486",
+      "neteaseTrackId": "2620904486",
+      "title": "百字明",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 222109
+    },
+    {
+      "id": "netease-track:2620902721",
+      "neteaseTrackId": "2620902721",
+      "title": "莲师七句祈请文",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 210946
+    },
+    {
+      "id": "netease-track:2620904488",
+      "neteaseTrackId": "2620904488",
+      "title": "六字真言",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 245280
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=246016383",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "在卓玛吾萨岭 Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

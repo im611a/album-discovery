@@ -1,0 +1,175 @@
+{
+  "internalId": "album:152925972",
+  "id": "album:152925972",
+  "neteaseAlbumId": "152925972",
+  "slug": "netease-152925972",
+  "title": "黑怕盲盒Vol.2心动系列",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12079066",
+      "neteaseArtistId": "12079066",
+      "name": "陆政廷Lil Jet"
+    },
+    {
+      "id": "netease-artist:188141",
+      "neteaseArtistId": "188141",
+      "name": "满舒克"
+    },
+    {
+      "id": "netease-artist:12570417",
+      "neteaseArtistId": "12570417",
+      "name": "那奇沃夫"
+    },
+    {
+      "id": "netease-artist:32097566",
+      "neteaseArtistId": "32097566",
+      "name": "PIggy"
+    },
+    {
+      "id": "netease-artist:12236125",
+      "neteaseArtistId": "12236125",
+      "name": "王以太"
+    },
+    {
+      "id": "netease-artist:1172023",
+      "neteaseArtistId": "1172023",
+      "name": "刘至佳"
+    },
+    {
+      "id": "netease-artist:12084497",
+      "neteaseArtistId": "12084497",
+      "name": "宝石Gem"
+    },
+    {
+      "id": "netease-artist:36715641",
+      "neteaseArtistId": "36715641",
+      "name": "哩哩"
+    },
+    {
+      "id": "netease-artist:1203045",
+      "neteaseArtistId": "1203045",
+      "name": "艾热 AIR"
+    }
+  ],
+  "releaseDate": "2023-01-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/152925972.webp",
+    "alt": "《黑怕盲盒Vol.2心动系列》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/152925972.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1995066290",
+      "neteaseTrackId": "1995066290",
+      "title": "猎人游戏",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "满舒克"
+      ],
+      "durationMs": 177087
+    },
+    {
+      "id": "netease-track:1987986734",
+      "neteaseTrackId": "1987986734",
+      "title": "谁会被吻 (天气说变冷就变冷)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陆政廷Lil Jet"
+      ],
+      "durationMs": 181255
+    },
+    {
+      "id": "netease-track:1995495094",
+      "neteaseTrackId": "1995495094",
+      "title": "艾丽",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "那奇沃夫"
+      ],
+      "durationMs": 137871
+    },
+    {
+      "id": "netease-track:1995495096",
+      "neteaseTrackId": "1995495096",
+      "title": "爱是？",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "PIggy"
+      ],
+      "durationMs": 194150
+    },
+    {
+      "id": "netease-track:1995495097",
+      "neteaseTrackId": "1995495097",
+      "title": "芳心",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王以太",
+        "刘至佳"
+      ],
+      "durationMs": 144172
+    },
+    {
+      "id": "netease-track:1995495104",
+      "neteaseTrackId": "1995495104",
+      "title": "执子之手",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宝石Gem",
+        "哩哩"
+      ],
+      "durationMs": 190958
+    },
+    {
+      "id": "netease-track:1995495110",
+      "neteaseTrackId": "1995495110",
+      "title": "热爱调频物语",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 240000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=152925972",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "黑怕盲盒Vol.2心动系列 陆政廷Lil Jet 满舒克 那奇沃夫 PIggy 王以太 刘至佳 宝石Gem 哩哩 艾热 AIR",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

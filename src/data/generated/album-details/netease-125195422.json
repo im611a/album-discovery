@@ -1,0 +1,173 @@
+{
+  "internalId": "album:125195422",
+  "id": "album:125195422",
+  "neteaseAlbumId": "125195422",
+  "slug": "netease-125195422",
+  "title": "Small Town Legend",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12198387",
+      "neteaseArtistId": "12198387",
+      "name": "艾志恒Asen"
+    }
+  ],
+  "releaseDate": "2021-04-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/125195422.webp",
+    "alt": "《Small Town Legend》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/125195422.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1832633290",
+      "neteaseTrackId": "1832633290",
+      "title": "Still Ace",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 121942
+    },
+    {
+      "id": "netease-track:1832633321",
+      "neteaseTrackId": "1832633321",
+      "title": "Legendary",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "GALI",
+        "JIMI天赐",
+        "Jumpouttamoon"
+      ],
+      "durationMs": 180225
+    },
+    {
+      "id": "netease-track:1832633298",
+      "neteaseTrackId": "1832633298",
+      "title": "MVP",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "THOME"
+      ],
+      "durationMs": 171826
+    },
+    {
+      "id": "netease-track:1832630615",
+      "neteaseTrackId": "1832630615",
+      "title": "No Patience",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 194937
+    },
+    {
+      "id": "netease-track:1832633339",
+      "neteaseTrackId": "1832633339",
+      "title": "焦虑",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "Maikon Flocka Flame"
+      ],
+      "durationMs": 197081
+    },
+    {
+      "id": "netease-track:1832630614",
+      "neteaseTrackId": "1832630614",
+      "title": "全民公敌",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "MULA SAKEE",
+        "THOME"
+      ],
+      "durationMs": 173442
+    },
+    {
+      "id": "netease-track:1832633316",
+      "neteaseTrackId": "1832633316",
+      "title": "DAY1",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 174375
+    },
+    {
+      "id": "netease-track:1832630622",
+      "neteaseTrackId": "1832630622",
+      "title": "Bando",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 148096
+    },
+    {
+      "id": "netease-track:1832630626",
+      "neteaseTrackId": "1832630626",
+      "title": "Maybe U",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 176798
+    },
+    {
+      "id": "netease-track:1832633340",
+      "neteaseTrackId": "1832633340",
+      "title": "Trust Issue",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 166961
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=125195422",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Small Town Legend 艾志恒Asen",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

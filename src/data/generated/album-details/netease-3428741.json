@@ -1,0 +1,201 @@
+{
+  "internalId": "album:3428741",
+  "id": "album:3428741",
+  "neteaseAlbumId": "3428741",
+  "slug": "netease-3428741",
+  "title": "木屮山出",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2015-12-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Alpha Pup",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/3428741.webp",
+    "alt": "《木屮山出》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/3428741.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:39227128",
+      "neteaseTrackId": "39227128",
+      "title": "门",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 296318
+    },
+    {
+      "id": "netease-track:39224147",
+      "neteaseTrackId": "39224147",
+      "title": "云灯",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 148853
+    },
+    {
+      "id": "netease-track:39224148",
+      "neteaseTrackId": "39224148",
+      "title": "扑焰蝇",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 136974
+    },
+    {
+      "id": "netease-track:39224149",
+      "neteaseTrackId": "39224149",
+      "title": "染",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 50320
+    },
+    {
+      "id": "netease-track:39227129",
+      "neteaseTrackId": "39227129",
+      "title": "看见山!",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 225735
+    },
+    {
+      "id": "netease-track:39227132",
+      "neteaseTrackId": "39227132",
+      "title": "无路",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 55969
+    },
+    {
+      "id": "netease-track:39224150",
+      "neteaseTrackId": "39224150",
+      "title": "莘卡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "Zhang Yang"
+      ],
+      "durationMs": 206210
+    },
+    {
+      "id": "netease-track:39224151",
+      "neteaseTrackId": "39224151",
+      "title": "向",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 186926
+    },
+    {
+      "id": "netease-track:39224152",
+      "neteaseTrackId": "39224152",
+      "title": "白川",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 87429
+    },
+    {
+      "id": "netease-track:39224153",
+      "neteaseTrackId": "39224153",
+      "title": "不知",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 247741
+    },
+    {
+      "id": "netease-track:39227133",
+      "neteaseTrackId": "39227133",
+      "title": "有人",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 82230
+    },
+    {
+      "id": "netease-track:39224154",
+      "neteaseTrackId": "39224154",
+      "title": "北海",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 211354
+    },
+    {
+      "id": "netease-track:39227134",
+      "neteaseTrackId": "39227134",
+      "title": "尚",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "Zhang Yang"
+      ],
+      "durationMs": 266346
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=3428741",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "木屮山出 Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,166 @@
+{
+  "internalId": "album:1724200",
+  "id": "album:1724200",
+  "neteaseAlbumId": "1724200",
+  "slug": "blue-joni-mitchell",
+  "title": "Blue",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1971-06-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724200.webp",
+    "alt": "《Blue》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1724200.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822213",
+      "neteaseTrackId": "18822213",
+      "title": "All I Want",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 214350
+    },
+    {
+      "id": "netease-track:18822215",
+      "neteaseTrackId": "18822215",
+      "title": "My Old Man",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 214826
+    },
+    {
+      "id": "netease-track:18822217",
+      "neteaseTrackId": "18822217",
+      "title": "Little Green",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 207670
+    },
+    {
+      "id": "netease-track:18822218",
+      "neteaseTrackId": "18822218",
+      "title": "Carey",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 182906
+    },
+    {
+      "id": "netease-track:18822220",
+      "neteaseTrackId": "18822220",
+      "title": "Blue",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 185380
+    },
+    {
+      "id": "netease-track:18822222",
+      "neteaseTrackId": "18822222",
+      "title": "California",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 230226
+    },
+    {
+      "id": "netease-track:18822223",
+      "neteaseTrackId": "18822223",
+      "title": "This Flight Tonight",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 172600
+    },
+    {
+      "id": "netease-track:18822225",
+      "neteaseTrackId": "18822225",
+      "title": "River",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 245040
+    },
+    {
+      "id": "netease-track:18822228",
+      "neteaseTrackId": "18822228",
+      "title": "A Case of You",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 263546
+    },
+    {
+      "id": "netease-track:18822230",
+      "neteaseTrackId": "18822230",
+      "title": "The Last Time I Saw Richard",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 255470
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1724200",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Blue Joni Mitchell",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

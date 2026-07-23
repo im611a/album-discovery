@@ -1,0 +1,223 @@
+{
+  "internalId": "album:15199",
+  "id": "album:15199",
+  "neteaseAlbumId": "15199",
+  "slug": "netease-15199",
+  "title": "David Tao",
+  "aliases": [
+    "陶喆同名专辑"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "1997-12-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15199.webp",
+    "alt": "《David Tao》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/15199.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:150649",
+      "neteaseTrackId": "150649",
+      "title": "Airport Take Off",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 10826
+    },
+    {
+      "id": "netease-track:150651",
+      "neteaseTrackId": "150651",
+      "title": "飞机场的10:30",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 280773
+    },
+    {
+      "id": "netease-track:150653",
+      "neteaseTrackId": "150653",
+      "title": "Airport Arrival",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 15866
+    },
+    {
+      "id": "netease-track:150654",
+      "neteaseTrackId": "150654",
+      "title": "爱，很简单",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 269560
+    },
+    {
+      "id": "netease-track:150656",
+      "neteaseTrackId": "150656",
+      "title": "沙滩",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 239626
+    },
+    {
+      "id": "netease-track:150658",
+      "neteaseTrackId": "150658",
+      "title": "十七岁",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 261640
+    },
+    {
+      "id": "netease-track:150660",
+      "neteaseTrackId": "150660",
+      "title": "望春风",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 178826
+    },
+    {
+      "id": "netease-track:1859065057",
+      "neteaseTrackId": "1859065057",
+      "title": "王八蛋",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 254466
+    },
+    {
+      "id": "netease-track:150665",
+      "neteaseTrackId": "150665",
+      "title": "是是非非",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 247906
+    },
+    {
+      "id": "netease-track:150667",
+      "neteaseTrackId": "150667",
+      "title": "流沙",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 242625
+    },
+    {
+      "id": "netease-track:150669",
+      "neteaseTrackId": "150669",
+      "title": "Take 6 Minus 3",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 16906
+    },
+    {
+      "id": "netease-track:150671",
+      "neteaseTrackId": "150671",
+      "title": "心乱飞",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 220493
+    },
+    {
+      "id": "netease-track:150674",
+      "neteaseTrackId": "150674",
+      "title": "再见以前先说再见",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 272400
+    },
+    {
+      "id": "netease-track:150677",
+      "neteaseTrackId": "150677",
+      "title": "沙滩 (钢琴版)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 233040
+    },
+    {
+      "id": "netease-track:150680",
+      "neteaseTrackId": "150680",
+      "title": "Answering Machine",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 295786
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=15199",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "David Tao 陶喆同名专辑 陶喆",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

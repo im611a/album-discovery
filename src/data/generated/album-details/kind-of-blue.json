@@ -1,0 +1,122 @@
+{
+  "internalId": "album:1969878",
+  "id": "album:1969878",
+  "neteaseAlbumId": "1969878",
+  "slug": "kind-of-blue",
+  "title": "Kind of Blue",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1959-08-16",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "JB Production",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969878.webp",
+    "alt": "《Kind of Blue》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1969878.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21329026",
+      "neteaseTrackId": "21329026",
+      "title": "So What",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 562991
+    },
+    {
+      "id": "netease-track:21329027",
+      "neteaseTrackId": "21329027",
+      "title": "Freddie Freeloader",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 586791
+    },
+    {
+      "id": "netease-track:21329028",
+      "neteaseTrackId": "21329028",
+      "title": "Blue in Green",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 339386
+    },
+    {
+      "id": "netease-track:21329029",
+      "neteaseTrackId": "21329029",
+      "title": "All Blues",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 695706
+    },
+    {
+      "id": "netease-track:21329030",
+      "neteaseTrackId": "21329030",
+      "title": "Flamenco Sketches",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 566133
+    },
+    {
+      "id": "netease-track:21329031",
+      "neteaseTrackId": "21329031",
+      "title": "Flamenco Sketches (Alternate Take)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 571706
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1969878",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "social",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Kind of Blue Miles Davis",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

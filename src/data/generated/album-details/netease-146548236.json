@@ -1,0 +1,166 @@
+{
+  "internalId": "album:146548236",
+  "id": "album:146548236",
+  "neteaseAlbumId": "146548236",
+  "slug": "netease-146548236",
+  "title": "悠长假期",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2021-08-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京有此山文化传媒有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/146548236.webp",
+    "alt": "《悠长假期》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/146548236.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1956152508",
+      "neteaseTrackId": "1956152508",
+      "title": "魔鬼辣",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 267171
+    },
+    {
+      "id": "netease-track:1956154171",
+      "neteaseTrackId": "1956154171",
+      "title": "玉人歌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 305357
+    },
+    {
+      "id": "netease-track:1956154172",
+      "neteaseTrackId": "1956154172",
+      "title": "早上好",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 224250
+    },
+    {
+      "id": "netease-track:1956152509",
+      "neteaseTrackId": "1956152509",
+      "title": "比如世界",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 288157
+    },
+    {
+      "id": "netease-track:1956152510",
+      "neteaseTrackId": "1956152510",
+      "title": "大裂缝",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 347534
+    },
+    {
+      "id": "netease-track:1956152511",
+      "neteaseTrackId": "1956152511",
+      "title": "巨雾",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 271957
+    },
+    {
+      "id": "netease-track:1956152512",
+      "neteaseTrackId": "1956152512",
+      "title": "游鱼",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 354815
+    },
+    {
+      "id": "netease-track:1956152513",
+      "neteaseTrackId": "1956152513",
+      "title": "实用音乐",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 267262
+    },
+    {
+      "id": "netease-track:1956152514",
+      "neteaseTrackId": "1956152514",
+      "title": "悠长假期",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 279814
+    },
+    {
+      "id": "netease-track:1956154173",
+      "neteaseTrackId": "1956154173",
+      "title": "雨燕",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 267288
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=146548236",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "悠长假期 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

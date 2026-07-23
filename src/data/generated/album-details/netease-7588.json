@@ -1,0 +1,189 @@
+{
+  "internalId": "album:7588",
+  "id": "album:7588",
+  "neteaseAlbumId": "7588",
+  "slug": "netease-7588",
+  "title": "披着羊皮的狼",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2006-04-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7588.webp",
+    "alt": "《披着羊皮的狼》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7588.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77211",
+      "neteaseTrackId": "77211",
+      "title": "披着羊皮的狼",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 448259
+    },
+    {
+      "id": "netease-track:77214",
+      "neteaseTrackId": "77214",
+      "title": "美丽的草原我的家",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 333040
+    },
+    {
+      "id": "netease-track:77218",
+      "neteaseTrackId": "77218",
+      "title": "雁南飞",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎",
+        "黄灿"
+      ],
+      "durationMs": 299693
+    },
+    {
+      "id": "netease-track:77221",
+      "neteaseTrackId": "77221",
+      "title": "吐鲁番的葡萄熟了",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 308240
+    },
+    {
+      "id": "netease-track:77224",
+      "neteaseTrackId": "77224",
+      "title": "怀念战友",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 305707
+    },
+    {
+      "id": "netease-track:77229",
+      "neteaseTrackId": "77229",
+      "title": "花儿为什么这样红",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 245094
+    },
+    {
+      "id": "netease-track:77233",
+      "neteaseTrackId": "77233",
+      "title": "祝酒歌",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 243546
+    },
+    {
+      "id": "netease-track:77237",
+      "neteaseTrackId": "77237",
+      "title": "驼铃",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 287616
+    },
+    {
+      "id": "netease-track:77240",
+      "neteaseTrackId": "77240",
+      "title": "新疆好",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 280466
+    },
+    {
+      "id": "netease-track:77244",
+      "neteaseTrackId": "77244",
+      "title": "阿瓦尔古丽",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 228146
+    },
+    {
+      "id": "netease-track:77250",
+      "neteaseTrackId": "77250",
+      "title": "敖包相会",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 269133
+    },
+    {
+      "id": "netease-track:77255",
+      "neteaseTrackId": "77255",
+      "title": "草原之夜",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 268533
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=7588",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "披着羊皮的狼 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

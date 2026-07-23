@@ -1,0 +1,191 @@
+{
+  "internalId": "album:175687954",
+  "id": "album:175687954",
+  "neteaseAlbumId": "175687954",
+  "slug": "netease-175687954",
+  "title": "Holes of Sinian",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12802035",
+      "neteaseArtistId": "12802035",
+      "name": "33EMYBW"
+    }
+  ],
+  "releaseDate": "2023-11-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/175687954.webp",
+    "alt": "《Holes of Sinian》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/175687954.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2085865486",
+      "neteaseTrackId": "2085865486",
+      "title": "Fieldia",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 204000
+    },
+    {
+      "id": "netease-track:2085865487",
+      "neteaseTrackId": "2085865487",
+      "title": "Holes of Time",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW",
+        "oxi peng"
+      ],
+      "durationMs": 338000
+    },
+    {
+      "id": "netease-track:2085865488",
+      "neteaseTrackId": "2085865488",
+      "title": "Drifting Nama",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 170000
+    },
+    {
+      "id": "netease-track:2085865489",
+      "neteaseTrackId": "2085865489",
+      "title": "Blood Child",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:2085866305",
+      "neteaseTrackId": "2085866305",
+      "title": "Discrepant Microbial Mats",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW",
+        "Forrest Gander"
+      ],
+      "durationMs": 236000
+    },
+    {
+      "id": "netease-track:2085865490",
+      "neteaseTrackId": "2085865490",
+      "title": "Ediacaran Ghost",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW",
+        "Marina Herlop"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:2085865491",
+      "neteaseTrackId": "2085865491",
+      "title": "Fractal1",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 124000
+    },
+    {
+      "id": "netease-track:2085866306",
+      "neteaseTrackId": "2085866306",
+      "title": "Inside-out",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:2085865492",
+      "neteaseTrackId": "2085865492",
+      "title": "Fractal2",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 266000
+    },
+    {
+      "id": "netease-track:2085866307",
+      "neteaseTrackId": "2085866307",
+      "title": "Conjuring",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 209375
+    },
+    {
+      "id": "netease-track:2085865493",
+      "neteaseTrackId": "2085865493",
+      "title": "Predator Chorus",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW",
+        "Batu"
+      ],
+      "durationMs": 141862
+    },
+    {
+      "id": "netease-track:2085866308",
+      "neteaseTrackId": "2085866308",
+      "title": "Arrival",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 292000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=175687954",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Holes of Sinian 33EMYBW",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

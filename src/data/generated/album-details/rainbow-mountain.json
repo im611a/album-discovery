@@ -1,0 +1,121 @@
+{
+  "internalId": "album:2646287",
+  "id": "album:2646287",
+  "neteaseAlbumId": "2646287",
+  "slug": "rainbow-mountain",
+  "title": "彩虹山",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13247",
+      "neteaseArtistId": "13247",
+      "name": "文雀"
+    }
+  ],
+  "releaseDate": "2012-09-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2646287.webp",
+    "alt": "《彩虹山》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2646287.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:27646210",
+      "neteaseTrackId": "27646210",
+      "title": "时间是富翁",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 306000
+    },
+    {
+      "id": "netease-track:27646211",
+      "neteaseTrackId": "27646211",
+      "title": "小姐姐",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 357000
+    },
+    {
+      "id": "netease-track:27646212",
+      "neteaseTrackId": "27646212",
+      "title": "寒心寺",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 374000
+    },
+    {
+      "id": "netease-track:27646213",
+      "neteaseTrackId": "27646213",
+      "title": "回不去了",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:27646214",
+      "neteaseTrackId": "27646214",
+      "title": "雨",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 291000
+    },
+    {
+      "id": "netease-track:27646215",
+      "neteaseTrackId": "27646215",
+      "title": "彩虹山",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "文雀"
+      ],
+      "durationMs": 479320
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=2646287",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "彩虹山 文雀",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

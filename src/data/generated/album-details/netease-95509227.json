@@ -1,0 +1,266 @@
+{
+  "internalId": "album:95509227",
+  "id": "album:95509227",
+  "neteaseAlbumId": "95509227",
+  "slug": "netease-95509227",
+  "title": "一首歌一个故事",
+  "aliases": [
+    "赵英俊某些作品重唱企划"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6891",
+      "neteaseArtistId": "6891",
+      "name": "赵英俊"
+    },
+    {
+      "id": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "name": "张靓颖"
+    },
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    },
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    },
+    {
+      "id": "netease-artist:3442",
+      "neteaseArtistId": "3442",
+      "name": "胡海泉"
+    },
+    {
+      "id": "netease-artist:956386",
+      "neteaseArtistId": "956386",
+      "name": "王源"
+    },
+    {
+      "id": "netease-artist:3793",
+      "neteaseArtistId": "3793",
+      "name": "陆虎"
+    },
+    {
+      "id": "netease-artist:5781",
+      "neteaseArtistId": "5781",
+      "name": "薛之谦"
+    },
+    {
+      "id": "netease-artist:7901",
+      "neteaseArtistId": "7901",
+      "name": "黄雅莉"
+    },
+    {
+      "id": "netease-artist:188681",
+      "neteaseArtistId": "188681",
+      "name": "大鹏"
+    },
+    {
+      "id": "netease-artist:5768",
+      "neteaseArtistId": "5768",
+      "name": "萧敬腾"
+    },
+    {
+      "id": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "name": "张杰"
+    },
+    {
+      "id": "netease-artist:166014",
+      "neteaseArtistId": "166014",
+      "name": "金志文"
+    },
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2020-09-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/95509227.webp",
+    "alt": "《一首歌一个故事》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/95509227.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1466595872",
+      "neteaseTrackId": "1466595872",
+      "title": "致我们终将逝去的青春 (2020重唱版)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 273795
+    },
+    {
+      "id": "netease-track:1468192805",
+      "neteaseTrackId": "1468192805",
+      "title": "世界上不存在的歌 (2020重唱版)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 233000
+    },
+    {
+      "id": "netease-track:1468998724",
+      "neteaseTrackId": "1468998724",
+      "title": "清风徐来 (2020重唱版)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291666
+    },
+    {
+      "id": "netease-track:1470154718",
+      "neteaseTrackId": "1470154718",
+      "title": "这就是命 (2020重唱版)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "胡海泉"
+      ],
+      "durationMs": 241935
+    },
+    {
+      "id": "netease-track:1470980639",
+      "neteaseTrackId": "1470980639",
+      "title": "像小强一样活着 (2020重唱版)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王源"
+      ],
+      "durationMs": 249839
+    },
+    {
+      "id": "netease-track:1471753707",
+      "neteaseTrackId": "1471753707",
+      "title": "我一定会回来的 (2020重唱版)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陆虎"
+      ],
+      "durationMs": 254684
+    },
+    {
+      "id": "netease-track:1472577555",
+      "neteaseTrackId": "1472577555",
+      "title": "守候 (2020重唱版)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 292059
+    },
+    {
+      "id": "netease-track:1473606327",
+      "neteaseTrackId": "1473606327",
+      "title": "天灵灵 (2020重唱版)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 228230
+    },
+    {
+      "id": "netease-track:1474389223",
+      "neteaseTrackId": "1474389223",
+      "title": "万万 (2020重唱版)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "大鹏"
+      ],
+      "durationMs": 258364
+    },
+    {
+      "id": "netease-track:1475561803",
+      "neteaseTrackId": "1475561803",
+      "title": "悟空传 (2020重唱版)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 250000
+    },
+    {
+      "id": "netease-track:1476206740",
+      "neteaseTrackId": "1476206740",
+      "title": "给妈咪 (2020重唱版)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 279784
+    },
+    {
+      "id": "netease-track:1477541068",
+      "neteaseTrackId": "1477541068",
+      "title": "塑料袋 (2020重唱版)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "金志文"
+      ],
+      "durationMs": 347096
+    },
+    {
+      "id": "netease-track:1478119336",
+      "neteaseTrackId": "1478119336",
+      "title": "方的言 (2020重唱版)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 296455
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=95509227",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "一首歌一个故事 赵英俊某些作品重唱企划 赵英俊 张靓颖 陈奕迅 张信哲 胡海泉 王源 陆虎 薛之谦 黄雅莉 大鹏 萧敬腾 张杰 金志文 韩红",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,156 @@
+{
+  "internalId": "album:2518003",
+  "id": "album:2518003",
+  "neteaseAlbumId": "2518003",
+  "slug": "netease-2518003",
+  "title": "The Key",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2013-07-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2518003.webp",
+    "alt": "《The Key》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2518003.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:26523013",
+      "neteaseTrackId": "26523013",
+      "title": "主旋律",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 293000
+    },
+    {
+      "id": "netease-track:27483201",
+      "neteaseTrackId": "27483201",
+      "title": "告别娑婆",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 260787
+    },
+    {
+      "id": "netease-track:27483204",
+      "neteaseTrackId": "27483204",
+      "title": "斯德哥尔摩情人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 252840
+    },
+    {
+      "id": "netease-track:27483202",
+      "neteaseTrackId": "27483202",
+      "title": "任我行",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 278640
+    },
+    {
+      "id": "netease-track:27483206",
+      "neteaseTrackId": "27483206",
+      "title": "远在咫尺",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 258530
+    },
+    {
+      "id": "netease-track:27483203",
+      "neteaseTrackId": "27483203",
+      "title": "失忆蝴蝶",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 237613
+    },
+    {
+      "id": "netease-track:27483199",
+      "neteaseTrackId": "27483199",
+      "title": "床头床尾",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 244947
+    },
+    {
+      "id": "netease-track:27483200",
+      "neteaseTrackId": "27483200",
+      "title": "阿猫阿狗",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 229053
+    },
+    {
+      "id": "netease-track:27483205",
+      "neteaseTrackId": "27483205",
+      "title": "同舟之情",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "张学友"
+      ],
+      "durationMs": 264057
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=2518003",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "The Key 陈奕迅",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

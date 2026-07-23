@@ -1,0 +1,157 @@
+{
+  "internalId": "album:97538689",
+  "id": "album:97538689",
+  "neteaseAlbumId": "97538689",
+  "slug": "netease-97538689",
+  "title": "Soft Storm",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11074",
+      "neteaseArtistId": "11074",
+      "name": "落日飞车"
+    }
+  ],
+  "releaseDate": "2020-10-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "夕阳音乐产业有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/97538689.webp",
+    "alt": "《Soft Storm》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/97538689.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1490960498",
+      "neteaseTrackId": "1490960498",
+      "title": "Soft Storm",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 141281
+    },
+    {
+      "id": "netease-track:1490961125",
+      "neteaseTrackId": "1490961125",
+      "title": "Overlove",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 237765
+    },
+    {
+      "id": "netease-track:1489877237",
+      "neteaseTrackId": "1489877237",
+      "title": "Under the Skin",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 227397
+    },
+    {
+      "id": "netease-track:1490961133",
+      "neteaseTrackId": "1490961133",
+      "title": "Passerby (feat. Michael Seyer)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车",
+        "Michael Seyer"
+      ],
+      "durationMs": 244678
+    },
+    {
+      "id": "netease-track:1490960522",
+      "neteaseTrackId": "1490960522",
+      "title": "Teahouse",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 194162
+    },
+    {
+      "id": "netease-track:1490960561",
+      "neteaseTrackId": "1490960561",
+      "title": "Overlove (Rehab)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 192828
+    },
+    {
+      "id": "netease-track:1490960623",
+      "neteaseTrackId": "1490960623",
+      "title": "Hyperfocus",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 387024
+    },
+    {
+      "id": "netease-track:1490961217",
+      "neteaseTrackId": "1490961217",
+      "title": "Midnight with Paul",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 63165
+    },
+    {
+      "id": "netease-track:1483521142",
+      "neteaseTrackId": "1483521142",
+      "title": "Candlelight (feat. OHHYUK)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车",
+        "吴赫"
+      ],
+      "durationMs": 197858
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=97538689",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Soft Storm 落日飞车",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

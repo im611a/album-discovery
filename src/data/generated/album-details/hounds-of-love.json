@@ -1,0 +1,188 @@
+{
+  "internalId": "album:1742060",
+  "id": "album:1742060",
+  "neteaseAlbumId": "1742060",
+  "slug": "hounds-of-love",
+  "title": "Hounds Of Love",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "1985-09-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fish People",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1742060.webp",
+    "alt": "《Hounds Of Love》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1742060.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19012449",
+      "neteaseTrackId": "19012449",
+      "title": "Running Up That Hill (A Deal With God)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 298933
+    },
+    {
+      "id": "netease-track:19012450",
+      "neteaseTrackId": "19012450",
+      "title": "Hounds Of Love",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 183266
+    },
+    {
+      "id": "netease-track:19012451",
+      "neteaseTrackId": "19012451",
+      "title": "The Big Sky (Special Single Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 278160
+    },
+    {
+      "id": "netease-track:19012452",
+      "neteaseTrackId": "19012452",
+      "title": "Mother Stands For Comfort",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 188400
+    },
+    {
+      "id": "netease-track:19012453",
+      "neteaseTrackId": "19012453",
+      "title": "Cloudbusting",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 310160
+    },
+    {
+      "id": "netease-track:19012454",
+      "neteaseTrackId": "19012454",
+      "title": "And Dream Of Sheep",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 165773
+    },
+    {
+      "id": "netease-track:19012455",
+      "neteaseTrackId": "19012455",
+      "title": "Under Ice",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 141800
+    },
+    {
+      "id": "netease-track:19012456",
+      "neteaseTrackId": "19012456",
+      "title": "Waking The Witch",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 258733
+    },
+    {
+      "id": "netease-track:19012457",
+      "neteaseTrackId": "19012457",
+      "title": "Watching You Without Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 247293
+    },
+    {
+      "id": "netease-track:19012458",
+      "neteaseTrackId": "19012458",
+      "title": "Jig Of Life",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 244306
+    },
+    {
+      "id": "netease-track:19012459",
+      "neteaseTrackId": "19012459",
+      "title": "Hello Earth",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 373093
+    },
+    {
+      "id": "netease-track:19012460",
+      "neteaseTrackId": "19012460",
+      "title": "The Morning Fog",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 157026
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1742060",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Hounds Of Love Kate Bush",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

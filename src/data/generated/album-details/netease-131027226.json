@@ -1,0 +1,179 @@
+{
+  "internalId": "album:131027226",
+  "id": "album:131027226",
+  "neteaseAlbumId": "131027226",
+  "slug": "netease-131027226",
+  "title": "CHUNGHWA",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12064019",
+      "neteaseArtistId": "12064019",
+      "name": "连麻Swimming"
+    },
+    {
+      "id": "netease-artist:12198387",
+      "neteaseArtistId": "12198387",
+      "name": "艾志恒Asen"
+    }
+  ],
+  "releaseDate": "2021-07-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/131027226.webp",
+    "alt": "《CHUNGHWA》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/131027226.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1870878817",
+      "neteaseTrackId": "1870878817",
+      "title": "还是阔以 (prod Oakerdidit)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming"
+      ],
+      "durationMs": 96000
+    },
+    {
+      "id": "netease-track:1870878816",
+      "neteaseTrackId": "1870878816",
+      "title": "三圣乡(prod Vickyferri)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming",
+        "SASI"
+      ],
+      "durationMs": 188375
+    },
+    {
+      "id": "netease-track:1864871516",
+      "neteaseTrackId": "1864871516",
+      "title": "自立巷 (prod RokitReady)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming",
+        "艾志恒Asen"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:1870878818",
+      "neteaseTrackId": "1870878818",
+      "title": "厚街(prod Vickyferri)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming",
+        "JinJiBeWater_隼",
+        "SASIOVERLXRD",
+        "RICHNOMADIC"
+      ],
+      "durationMs": 204674
+    },
+    {
+      "id": "netease-track:1870878819",
+      "neteaseTrackId": "1870878819",
+      "title": "县份说唱 (prod. Waterboy)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming",
+        "LilHowcy"
+      ],
+      "durationMs": 197288
+    },
+    {
+      "id": "netease-track:1870875924",
+      "neteaseTrackId": "1870875924",
+      "title": "冰河时代 (prod TriggaFZ)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming",
+        "JinJiBeWater_隼"
+      ],
+      "durationMs": 125480
+    },
+    {
+      "id": "netease-track:2078013213",
+      "neteaseTrackId": "2078013213",
+      "title": "小麻 (prod 黄河)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming"
+      ],
+      "durationMs": 132000
+    },
+    {
+      "id": "netease-track:1870875926",
+      "neteaseTrackId": "1870875926",
+      "title": "High Life (prod Timeline)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming",
+        "玄朗Truck"
+      ],
+      "durationMs": 211992
+    },
+    {
+      "id": "netease-track:1870875923",
+      "neteaseTrackId": "1870875923",
+      "title": "Why u do that shxt (prod HoodwithAnotha1)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming"
+      ],
+      "durationMs": 194742
+    },
+    {
+      "id": "netease-track:1870878814",
+      "neteaseTrackId": "1870878814",
+      "title": "Outro (prod 黄河)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "连麻Swimming"
+      ],
+      "durationMs": 79587
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=131027226",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "CHUNGHWA 连麻Swimming 艾志恒Asen",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

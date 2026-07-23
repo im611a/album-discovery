@@ -1,0 +1,133 @@
+{
+  "internalId": "album:182458672",
+  "id": "album:182458672",
+  "neteaseAlbumId": "182458672",
+  "slug": "netease-182458672",
+  "title": "李白集",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:33154502",
+      "neteaseArtistId": "33154502",
+      "name": "朝简"
+    }
+  ],
+  "releaseDate": "2024-01-05",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "北京窦唯音乐工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/182458672.webp",
+    "alt": "《李白集》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/182458672.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2114342031",
+      "neteaseTrackId": "2114342031",
+      "title": "梦游天姥吟留别",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 674181
+    },
+    {
+      "id": "netease-track:2114342017",
+      "neteaseTrackId": "2114342017",
+      "title": "行路难",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 521212
+    },
+    {
+      "id": "netease-track:2114341234",
+      "neteaseTrackId": "2114341234",
+      "title": "庐山谣寄卢侍御虚舟（器乐版）",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 222127
+    },
+    {
+      "id": "netease-track:2114342001",
+      "neteaseTrackId": "2114342001",
+      "title": "长歌行",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 406216
+    },
+    {
+      "id": "netease-track:2114342006",
+      "neteaseTrackId": "2114342006",
+      "title": "蜀道难",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 400000
+    },
+    {
+      "id": "netease-track:2114341970",
+      "neteaseTrackId": "2114341970",
+      "title": "春夜宴从弟桃花园记",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 233465
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=182458672",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "李白集 窦唯 朝简",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

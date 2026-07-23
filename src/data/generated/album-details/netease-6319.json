@@ -1,0 +1,188 @@
+{
+  "internalId": "album:6319",
+  "id": "album:6319",
+  "neteaseAlbumId": "6319",
+  "slug": "netease-6319",
+  "title": "七合板演唱专辑",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "1984-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6319.webp",
+    "alt": "《七合板演唱专辑》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6319.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:63805",
+      "neteaseTrackId": "63805",
+      "title": "《阿西门的街》插曲",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 83043
+    },
+    {
+      "id": "netease-track:63808",
+      "neteaseTrackId": "63808",
+      "title": "斯卡布罗的集市",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 204000
+    },
+    {
+      "id": "netease-track:63810",
+      "neteaseTrackId": "63810",
+      "title": "小毛驴",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 118204
+    },
+    {
+      "id": "netease-track:63813",
+      "neteaseTrackId": "63813",
+      "title": "水晶心",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:63816",
+      "neteaseTrackId": "63816",
+      "title": "痛苦",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 278778
+    },
+    {
+      "id": "netease-track:63819",
+      "neteaseTrackId": "63819",
+      "title": "去何方",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 354795
+    },
+    {
+      "id": "netease-track:63822",
+      "neteaseTrackId": "63822",
+      "title": "艰难行",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 381884
+    },
+    {
+      "id": "netease-track:63825",
+      "neteaseTrackId": "63825",
+      "title": "月亮河",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 143000
+    },
+    {
+      "id": "netease-track:63828",
+      "neteaseTrackId": "63828",
+      "title": "大地之子",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 114000
+    },
+    {
+      "id": "netease-track:63831",
+      "neteaseTrackId": "63831",
+      "title": "半个月亮爬上来",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 189231
+    },
+    {
+      "id": "netease-track:63834",
+      "neteaseTrackId": "63834",
+      "title": "什锦菜",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:63837",
+      "neteaseTrackId": "63837",
+      "title": "生活不能没有你",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "七合板乐队"
+      ],
+      "durationMs": 180000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=6319",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "七合板演唱专辑 崔健",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

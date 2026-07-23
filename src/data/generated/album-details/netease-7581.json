@@ -1,0 +1,177 @@
+{
+  "internalId": "album:7581",
+  "id": "album:7581",
+  "neteaseAlbumId": "7581",
+  "slug": "netease-7581",
+  "title": "谢谢你",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2006-04-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7581.webp",
+    "alt": "《谢谢你》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7581.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77134",
+      "neteaseTrackId": "77134",
+      "title": "谢谢你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 357080
+    },
+    {
+      "id": "netease-track:77138",
+      "neteaseTrackId": "77138",
+      "title": "大敦煌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 259493
+    },
+    {
+      "id": "netease-track:77143",
+      "neteaseTrackId": "77143",
+      "title": "为什么我泪水成行",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 283666
+    },
+    {
+      "id": "netease-track:77153",
+      "neteaseTrackId": "77153",
+      "title": "情人",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 196864
+    },
+    {
+      "id": "netease-track:77158",
+      "neteaseTrackId": "77158",
+      "title": "冲动的惩罚",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 470186
+    },
+    {
+      "id": "netease-track:77163",
+      "neteaseTrackId": "77163",
+      "title": "2002年的第一场雪",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 254867
+    },
+    {
+      "id": "netease-track:77167",
+      "neteaseTrackId": "77167",
+      "title": "艾里莆与赛乃姆",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 348013
+    },
+    {
+      "id": "netease-track:77171",
+      "neteaseTrackId": "77171",
+      "title": "雨中飘荡的回忆",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 253600
+    },
+    {
+      "id": "netease-track:77175",
+      "neteaseTrackId": "77175",
+      "title": "北方的天空下",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 265226
+    },
+    {
+      "id": "netease-track:77188",
+      "neteaseTrackId": "77188",
+      "title": "大眼睛 (Demo珍藏版)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 207440
+    },
+    {
+      "id": "netease-track:77192",
+      "neteaseTrackId": "77192",
+      "title": "喀什噶尔胡杨 (Demo珍藏版)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 367453
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=7581",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "谢谢你 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

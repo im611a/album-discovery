@@ -1,0 +1,178 @@
+{
+  "internalId": "album:143078573",
+  "id": "album:143078573",
+  "neteaseAlbumId": "143078573",
+  "slug": "netease-143078573",
+  "title": "春风-苏阳与大河唱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:4934",
+      "neteaseArtistId": "4934",
+      "name": "苏阳"
+    }
+  ],
+  "releaseDate": "2022-04-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京泽上文化发展有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/143078573.webp",
+    "alt": "《春风-苏阳与大河唱》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/143078573.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1935650395",
+      "neteaseTrackId": "1935650395",
+      "title": "流沙",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 291683
+    },
+    {
+      "id": "netease-track:1935650396",
+      "neteaseTrackId": "1935650396",
+      "title": "河水南流 (电影版)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 350145
+    },
+    {
+      "id": "netease-track:1935649480",
+      "neteaseTrackId": "1935649480",
+      "title": "毛毛细雨里捂蚂蚱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "苏阳",
+        "张佳乐"
+      ],
+      "durationMs": 220029
+    },
+    {
+      "id": "netease-track:1935650397",
+      "neteaseTrackId": "1935650397",
+      "title": "珍珠卷帘过闹市",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 210050
+    },
+    {
+      "id": "netease-track:1935650398",
+      "neteaseTrackId": "1935650398",
+      "title": "木灰",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 246125
+    },
+    {
+      "id": "netease-track:1935650399",
+      "neteaseTrackId": "1935650399",
+      "title": "安土",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 230948
+    },
+    {
+      "id": "netease-track:1935649481",
+      "neteaseTrackId": "1935649481",
+      "title": "二月",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 274494
+    },
+    {
+      "id": "netease-track:1935649482",
+      "neteaseTrackId": "1935649482",
+      "title": "春风",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 349178
+    },
+    {
+      "id": "netease-track:1935649483",
+      "neteaseTrackId": "1935649483",
+      "title": "贤良舞",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 182021
+    },
+    {
+      "id": "netease-track:1935649484",
+      "neteaseTrackId": "1935649484",
+      "title": "长在银川 (电影版)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 367438
+    },
+    {
+      "id": "netease-track:1935650400",
+      "neteaseTrackId": "1935650400",
+      "title": "河水南流 (同期版)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 363859
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=143078573",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "春风-苏阳与大河唱 苏阳",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

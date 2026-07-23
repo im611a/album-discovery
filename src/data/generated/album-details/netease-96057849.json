@@ -1,0 +1,201 @@
+{
+  "internalId": "album:96057849",
+  "id": "album:96057849",
+  "neteaseAlbumId": "96057849",
+  "slug": "netease-96057849",
+  "title": "街区故事",
+  "aliases": [
+    "Block Story"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:12788674",
+      "neteaseArtistId": "12788674",
+      "name": "KEY.L刘聪"
+    }
+  ],
+  "releaseDate": "2020-10-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/96057849.webp",
+    "alt": "《街区故事》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/96057849.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1482864937",
+      "neteaseTrackId": "1482864937",
+      "title": "序章",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "梁笑生AIRBUS130"
+      ],
+      "durationMs": 92093
+    },
+    {
+      "id": "netease-track:1482866140",
+      "neteaseTrackId": "1482866140",
+      "title": "街区故事",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "梁笑生AIRBUS130"
+      ],
+      "durationMs": 200930
+    },
+    {
+      "id": "netease-track:1383954630",
+      "neteaseTrackId": "1383954630",
+      "title": "Hey KONG",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 277333
+    },
+    {
+      "id": "netease-track:1482864955",
+      "neteaseTrackId": "1482864955",
+      "title": "家书",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪"
+      ],
+      "durationMs": 219130
+    },
+    {
+      "id": "netease-track:1453599920",
+      "neteaseTrackId": "1453599920",
+      "title": "272ANTI",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "梁笑生AIRBUS130",
+        "牧羊少年"
+      ],
+      "durationMs": 163555
+    },
+    {
+      "id": "netease-track:1395632515",
+      "neteaseTrackId": "1395632515",
+      "title": "MY BOO",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 233600
+    },
+    {
+      "id": "netease-track:1482864951",
+      "neteaseTrackId": "1482864951",
+      "title": "嗨佬",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 250439
+    },
+    {
+      "id": "netease-track:1430310822",
+      "neteaseTrackId": "1430310822",
+      "title": "没得",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 264500
+    },
+    {
+      "id": "netease-track:1405135261",
+      "neteaseTrackId": "1405135261",
+      "title": "没钥匙的锁",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 320000
+    },
+    {
+      "id": "netease-track:1482864950",
+      "neteaseTrackId": "1482864950",
+      "title": "Free me",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "THE-BETA"
+      ],
+      "durationMs": 245333
+    },
+    {
+      "id": "netease-track:1485362497",
+      "neteaseTrackId": "1485362497",
+      "title": "以邦之名",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "梁笑生AIRBUS130"
+      ],
+      "durationMs": 169523
+    },
+    {
+      "id": "netease-track:1482864953",
+      "neteaseTrackId": "1482864953",
+      "title": "Hey KONG",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪"
+      ],
+      "durationMs": 254698
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=96057849",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "街区故事 Block Story KEY.L刘聪",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

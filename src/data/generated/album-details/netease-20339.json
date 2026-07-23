@@ -1,0 +1,188 @@
+{
+  "internalId": "album:20339",
+  "id": "album:20339",
+  "neteaseAlbumId": "20339",
+  "slug": "netease-20339",
+  "title": "赵小雷",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6731",
+      "neteaseArtistId": "6731",
+      "name": "赵雷"
+    }
+  ],
+  "releaseDate": "2011-08-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华宇世博",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/20339.webp",
+    "alt": "《赵小雷》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/20339.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:202367",
+      "neteaseTrackId": "202367",
+      "title": "人家",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 323373
+    },
+    {
+      "id": "netease-track:202368",
+      "neteaseTrackId": "202368",
+      "title": "未给姐姐递出的信",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 310960
+    },
+    {
+      "id": "netease-track:202369",
+      "neteaseTrackId": "202369",
+      "title": "画",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 228133
+    },
+    {
+      "id": "netease-track:202370",
+      "neteaseTrackId": "202370",
+      "title": "不开的唇",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 231760
+    },
+    {
+      "id": "netease-track:202371",
+      "neteaseTrackId": "202371",
+      "title": "赵小雷",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 220173
+    },
+    {
+      "id": "netease-track:202373",
+      "neteaseTrackId": "202373",
+      "title": "南方姑娘",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 332640
+    },
+    {
+      "id": "netease-track:202374",
+      "neteaseTrackId": "202374",
+      "title": "Over",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 291360
+    },
+    {
+      "id": "netease-track:202375",
+      "neteaseTrackId": "202375",
+      "title": "开往北京的火车",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 267533
+    },
+    {
+      "id": "netease-track:202376",
+      "neteaseTrackId": "202376",
+      "title": "背影",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 352960
+    },
+    {
+      "id": "netease-track:202377",
+      "neteaseTrackId": "202377",
+      "title": "妈妈",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 344306
+    },
+    {
+      "id": "netease-track:433018042",
+      "neteaseTrackId": "433018042",
+      "title": "南方姑娘 (弹唱版)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 307548
+    },
+    {
+      "id": "netease-track:433018041",
+      "neteaseTrackId": "433018041",
+      "title": "民谣",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 159973
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=20339",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "赵小雷 赵雷",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,332 @@
+{
+  "internalId": "album:359380756",
+  "id": "album:359380756",
+  "neteaseAlbumId": "359380756",
+  "slug": "netease-359380756",
+  "title": "艾·思集",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1203045",
+      "neteaseArtistId": "1203045",
+      "name": "艾热 AIR"
+    }
+  ],
+  "releaseDate": "2025-12-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "种梦音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/359380756.webp",
+    "alt": "《艾·思集》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/359380756.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3342254016",
+      "neteaseTrackId": "3342254016",
+      "title": "引（Ready？）",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 58983
+    },
+    {
+      "id": "netease-track:3342254851",
+      "neteaseTrackId": "3342254851",
+      "title": "超级电脑（Super AI）",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 411680
+    },
+    {
+      "id": "netease-track:3342254844",
+      "neteaseTrackId": "3342254844",
+      "title": "在指尖跳伞（Finger roll）",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR",
+        "Flash Beats Bone"
+      ],
+      "durationMs": 295386
+    },
+    {
+      "id": "netease-track:3342254848",
+      "neteaseTrackId": "3342254848",
+      "title": "耶（Yeah）",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR",
+        "王以太"
+      ],
+      "durationMs": 233106
+    },
+    {
+      "id": "netease-track:3342254841",
+      "neteaseTrackId": "3342254841",
+      "title": "时空对讲机（Space-time walkie-talkie）",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 177773
+    },
+    {
+      "id": "netease-track:3342254013",
+      "neteaseTrackId": "3342254013",
+      "title": "不是今天（Not today）",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR",
+        "白路COIN"
+      ],
+      "durationMs": 255746
+    },
+    {
+      "id": "netease-track:3342254840",
+      "neteaseTrackId": "3342254840",
+      "title": "告诉我（Trouble maker）",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 194106
+    },
+    {
+      "id": "netease-track:3342254852",
+      "neteaseTrackId": "3342254852",
+      "title": "石头（Stone）",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 41228
+    },
+    {
+      "id": "netease-track:3342254845",
+      "neteaseTrackId": "3342254845",
+      "title": "水泥墙（The Wall）",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR",
+        "崔健"
+      ],
+      "durationMs": 290375
+    },
+    {
+      "id": "netease-track:3342254020",
+      "neteaseTrackId": "3342254020",
+      "title": "天破了个窟窿（Sky broken）",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 271933
+    },
+    {
+      "id": "netease-track:3342254842",
+      "neteaseTrackId": "3342254842",
+      "title": "留守者路过（Passing by the left-behind）",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 37721
+    },
+    {
+      "id": "netease-track:3342254839",
+      "neteaseTrackId": "3342254839",
+      "title": "月亮（Moon）",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 262306
+    },
+    {
+      "id": "netease-track:3342254017",
+      "neteaseTrackId": "3342254017",
+      "title": "洞穴里住着美人（Beauty in the cave）",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR",
+        "持修"
+      ],
+      "durationMs": 207920
+    },
+    {
+      "id": "netease-track:3342254853",
+      "neteaseTrackId": "3342254853",
+      "title": "流浪者（Wanderer）",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR",
+        "Realzat"
+      ],
+      "durationMs": 254142
+    },
+    {
+      "id": "netease-track:3342254846",
+      "neteaseTrackId": "3342254846",
+      "title": "天下无敌？（Invincible 1）",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 130032
+    },
+    {
+      "id": "netease-track:3342254021",
+      "neteaseTrackId": "3342254021",
+      "title": "天下无敌！（Invincible 2）",
+      "trackNumber": 16,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR",
+        "王以太",
+        "李佳隆"
+      ],
+      "durationMs": 252173
+    },
+    {
+      "id": "netease-track:3342254019",
+      "neteaseTrackId": "3342254019",
+      "title": "城市的嘴脸（City’s faces）",
+      "trackNumber": 17,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR",
+        "GALI"
+      ],
+      "durationMs": 230440
+    },
+    {
+      "id": "netease-track:3342254014",
+      "neteaseTrackId": "3342254014",
+      "title": "日出（Sunrise）",
+      "trackNumber": 18,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 41977
+    },
+    {
+      "id": "netease-track:3342254018",
+      "neteaseTrackId": "3342254018",
+      "title": "天际线（Skyline）",
+      "trackNumber": 19,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR",
+        "黄丽玲"
+      ],
+      "durationMs": 299826
+    },
+    {
+      "id": "netease-track:3342254022",
+      "neteaseTrackId": "3342254022",
+      "title": "暖色调（Warm tone）",
+      "trackNumber": 20,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 273986
+    },
+    {
+      "id": "netease-track:3342254847",
+      "neteaseTrackId": "3342254847",
+      "title": "真空地带（Vacuum zone）",
+      "trackNumber": 21,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR",
+        "Jony J",
+        "MOE.莫维蒂"
+      ],
+      "durationMs": 270626
+    },
+    {
+      "id": "netease-track:3342254850",
+      "neteaseTrackId": "3342254850",
+      "title": "正好我也没有多不同（Me too Demo Version）",
+      "trackNumber": 22,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 241600
+    },
+    {
+      "id": "netease-track:3342254843",
+      "neteaseTrackId": "3342254843",
+      "title": "尾声吗？（Next step coming soon）",
+      "trackNumber": 23,
+      "discNumber": 2,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 74666
+    },
+    {
+      "id": "netease-track:3342254015",
+      "neteaseTrackId": "3342254015",
+      "title": "我听闻过你看得见的一切（I heard what y’all see）",
+      "trackNumber": 24,
+      "discNumber": 3,
+      "artists": [
+        "艾热 AIR"
+      ],
+      "durationMs": 163093
+    }
+  ],
+  "trackCount": 24,
+  "externalUrl": "https://music.163.com/#/album?id=359380756",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "艾·思集 艾热 AIR",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,144 @@
+{
+  "internalId": "album:167516671",
+  "id": "album:167516671",
+  "neteaseAlbumId": "167516671",
+  "slug": "netease-167516671",
+  "title": "Love After Love",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2022-09-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/167516671.webp",
+    "alt": "《Love After Love》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/167516671.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2055244186",
+      "neteaseTrackId": "2055244186",
+      "title": "Qiao_gate_piano",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 129120
+    },
+    {
+      "id": "netease-track:2055245685",
+      "neteaseTrackId": "2055245685",
+      "title": "Qiao_gate_strings",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 188066
+    },
+    {
+      "id": "netease-track:2055244187",
+      "neteaseTrackId": "2055244187",
+      "title": "flashback strings",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 85720
+    },
+    {
+      "id": "netease-track:2055244188",
+      "neteaseTrackId": "2055244188",
+      "title": "light2 piano",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 139733
+    },
+    {
+      "id": "netease-track:2055245686",
+      "neteaseTrackId": "2055245686",
+      "title": "light2 strings",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 127573
+    },
+    {
+      "id": "netease-track:2055245687",
+      "neteaseTrackId": "2055245687",
+      "title": "theme piano",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 258560
+    },
+    {
+      "id": "netease-track:2055245688",
+      "neteaseTrackId": "2055245688",
+      "title": "thems strings",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 304133
+    },
+    {
+      "id": "netease-track:2055244189",
+      "neteaseTrackId": "2055244189",
+      "title": "yacht strings",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 111000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=167516671",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Love After Love 坂本龍一",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

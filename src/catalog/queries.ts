@@ -1,11 +1,10 @@
-import { catalogAlbums, catalogTaxonomy } from "./published-catalog";
+import { catalogAlbums, catalogTaxonomy, publishedArtists } from "./published-catalog";
 import type { PublishedAlbumSummary, ReleaseType, SourceMarketChannel } from "./schema";
 
-export type CatalogSort = "recently-added" | "release-newest" | "release-oldest" | "title";
+export type CatalogSort = "recently-added" | "release-newest" | "release-oldest" | "title" | "rym-rating-desc";
 export interface DiscoverFilters {
   coreGenre?: string | null;
   relatedGenre?: string | null;
-  descriptor?: string | null;
   context?: string | null;
   decade?: string | null;
   releaseType?: ReleaseType | null;
@@ -26,7 +25,21 @@ export const getMarketChannelAlbums = (channel: SourceMarketChannel) => catalogA
   .sort(compareReleaseNewest);
 
 export function normalizeSearchText(value: string) {
-  return value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, " ").trim().toLocaleLowerCase("zh-CN");
+  return value.normalize("NFKC").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").replace(/[\p{P}\p{S}\s]+/gu, " ").trim().toLocaleLowerCase("zh-CN");
+}
+
+export function searchArtists(query: string) {
+  const normalized = normalizeSearchText(query);
+  if (!normalized) return [];
+  const terms = normalized.split(" ");
+  return publishedArtists.filter((artist) => {
+    const haystack = normalizeSearchText([artist.name, ...artist.aliases].join(" "));
+    return terms.every((term) => haystack.includes(term));
+  }).sort((a, b) =>
+    Number(normalizeSearchText(b.name) === normalized) - Number(normalizeSearchText(a.name) === normalized) ||
+    b.albumCount - a.albumCount ||
+    a.name.localeCompare(b.name, "zh-CN"),
+  );
 }
 
 export function searchAlbums(query: string) {
@@ -61,7 +74,6 @@ export function discoverAlbums(
   const filtered = albums.filter((album) =>
     (!filters.coreGenre || album.coreGenres.includes(filters.coreGenre)) &&
     (!filters.relatedGenre || album.relatedGenres.includes(filters.relatedGenre)) &&
-    (!filters.descriptor || album.descriptors.includes(filters.descriptor)) &&
     (!filters.context || album.contexts.includes(filters.context)) &&
     (!filters.decade || album.releaseDate?.startsWith(filters.decade.slice(0, 3))) &&
     (!filters.releaseType || album.albumType === filters.releaseType) &&
@@ -71,6 +83,20 @@ export function discoverAlbums(
     if (sort === "release-newest") return compareReleaseNewest(a, b);
     if (sort === "release-oldest") return -compareReleaseNewest(a, b);
     if (sort === "title") return a.title.localeCompare(b.title, "zh-CN");
+    if (sort === "rym-rating-desc") {
+      const ratingPresence = Number(b.rymRating != null) - Number(a.rymRating != null);
+      if (ratingPresence) return ratingPresence;
+      if (a.rymRating != null && b.rymRating != null) {
+        const rating = b.rymRating - a.rymRating;
+        if (rating) return rating;
+        if (a.rymRatingCount != null && b.rymRatingCount != null && a.rymRatingCount !== b.rymRatingCount) {
+          return b.rymRatingCount - a.rymRatingCount;
+        }
+      }
+      return b.discoveredAt.localeCompare(a.discoveredAt) ||
+        a.title.localeCompare(b.title, "zh-CN") ||
+        a.internalId.localeCompare(b.internalId);
+    }
     return b.discoveredAt.localeCompare(a.discoveredAt) || a.title.localeCompare(b.title, "zh-CN");
   });
 }
@@ -83,7 +109,6 @@ export function getRelatedAlbums(album: PublishedAlbumSummary, limit = 6) {
       score:
         item.coreGenres.filter((value) => album.coreGenres.includes(value)).length * 5 +
         item.relatedGenres.filter((value) => album.relatedGenres.includes(value)).length * 3 +
-        item.descriptors.filter((value) => album.descriptors.includes(value)).length * 2 +
         item.contexts.filter((value) => album.contexts.includes(value)).length,
     }))
     .filter(({ score }) => score > 0)
@@ -97,8 +122,11 @@ export function buildDiscoverOptions(albums: PublishedAlbumSummary[] = catalogAl
   return {
     coreGenres: catalogTaxonomy.filter((item) => item.kind === "core" && albums.some((album) => album.coreGenres.includes(item.key))).map((item) => item.key),
     relatedGenres: unique(albums.flatMap((album) => album.relatedGenres)),
-    descriptors: unique(albums.flatMap((album) => album.descriptors)),
     contexts: unique(albums.flatMap((album) => album.contexts)),
     decades: unique(albums.map((album) => album.releaseDate ? `${Math.floor(Number(album.releaseDate.slice(0, 4)) / 10) * 10}s` : "").filter(Boolean)),
   };
 }
+
+export const getAlbumsForArtist = (artistId: string) =>
+  catalogAlbums.filter((album) => album.artists.some((artist) => artist.id === artistId))
+    .sort((a, b) => (b.releaseDate ?? "").localeCompare(a.releaseDate ?? "") || a.title.localeCompare(b.title, "zh-CN"));

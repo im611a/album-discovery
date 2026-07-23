@@ -1,0 +1,258 @@
+{
+  "internalId": "album:274706820",
+  "id": "album:274706820",
+  "neteaseAlbumId": "274706820",
+  "slug": "netease-274706820",
+  "title": "G-BLOCK Mixtape",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1211046",
+      "neteaseArtistId": "1211046",
+      "name": "GAI周延"
+    },
+    {
+      "id": "netease-artist:12605500",
+      "neteaseArtistId": "12605500",
+      "name": "盛宇D-SHINE"
+    },
+    {
+      "id": "netease-artist:12453329",
+      "neteaseArtistId": "12453329",
+      "name": "功夫胖KUNGFU-PEN"
+    },
+    {
+      "id": "netease-artist:12788674",
+      "neteaseArtistId": "12788674",
+      "name": "KEY.L刘聪"
+    }
+  ],
+  "releaseDate": "2025-06-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "种梦音乐(D.M.G)/萨谱音乐(SUP MUSIC)",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/274706820.webp",
+    "alt": "《G-BLOCK Mixtape》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/274706820.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2713976727",
+      "neteaseTrackId": "2713976727",
+      "title": "G-BLOCK INTRO",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "功夫胖KUNGFU-PEN",
+        "GAI周延",
+        "KEY.L刘聪"
+      ],
+      "durationMs": 195189
+    },
+    {
+      "id": "netease-track:2713976728",
+      "neteaseTrackId": "2713976728",
+      "title": "三个字",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "功夫胖KUNGFU-PEN",
+        "盛宇D-SHINE",
+        "GAI周延"
+      ],
+      "durationMs": 168757
+    },
+    {
+      "id": "netease-track:2713977622",
+      "neteaseTrackId": "2713977622",
+      "title": "人海",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "GAI周延",
+        "功夫胖KUNGFU-PEN",
+        "盛宇D-SHINE"
+      ],
+      "durationMs": 278698
+    },
+    {
+      "id": "netease-track:2713976729",
+      "neteaseTrackId": "2713976729",
+      "title": "仁义茶楼",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "GAI周延",
+        "功夫胖KUNGFU-PEN",
+        "盛宇D-SHINE",
+        "KEY.L刘聪"
+      ],
+      "durationMs": 229333
+    },
+    {
+      "id": "netease-track:2713976731",
+      "neteaseTrackId": "2713976731",
+      "title": "神仙",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "GAI周延",
+        "KEY.L刘聪"
+      ],
+      "durationMs": 205253
+    },
+    {
+      "id": "netease-track:2713976730",
+      "neteaseTrackId": "2713976730",
+      "title": "一夜",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "GAI周延"
+      ],
+      "durationMs": 204395
+    },
+    {
+      "id": "netease-track:2713976732",
+      "neteaseTrackId": "2713976732",
+      "title": "站台",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "GAI周延",
+        "功夫胖KUNGFU-PEN",
+        "KEY.L刘聪"
+      ],
+      "durationMs": 226145
+    },
+    {
+      "id": "netease-track:2713977623",
+      "neteaseTrackId": "2713977623",
+      "title": "浮萍",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "GAI周延",
+        "功夫胖KUNGFU-PEN",
+        "盛宇D-SHINE"
+      ],
+      "durationMs": 256086
+    },
+    {
+      "id": "netease-track:2713977624",
+      "neteaseTrackId": "2713977624",
+      "title": "如剑",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "GAI周延",
+        "功夫胖KUNGFU-PEN",
+        "盛宇D-SHINE"
+      ],
+      "durationMs": 249815
+    },
+    {
+      "id": "netease-track:2713977625",
+      "neteaseTrackId": "2713977625",
+      "title": "吊二两",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "功夫胖KUNGFU-PEN",
+        "GAI周延",
+        "KEY.L刘聪"
+      ],
+      "durationMs": 235644
+    },
+    {
+      "id": "netease-track:2713976733",
+      "neteaseTrackId": "2713976733",
+      "title": "无期",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "GAI周延",
+        "功夫胖KUNGFU-PEN",
+        "KEY.L刘聪",
+        "盛宇D-SHINE"
+      ],
+      "durationMs": 308046
+    },
+    {
+      "id": "netease-track:2713976734",
+      "neteaseTrackId": "2713976734",
+      "title": "愚人码头",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "功夫胖KUNGFU-PEN",
+        "GAI周延",
+        "盛宇D-SHINE"
+      ],
+      "durationMs": 296674
+    },
+    {
+      "id": "netease-track:2713976735",
+      "neteaseTrackId": "2713976735",
+      "title": "我们的歌",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "功夫胖KUNGFU-PEN",
+        "GAI周延",
+        "KEY.L刘聪",
+        "盛宇D-SHINE"
+      ],
+      "durationMs": 306945
+    },
+    {
+      "id": "netease-track:2713976736",
+      "neteaseTrackId": "2713976736",
+      "title": "G-BLOCK CYPHER",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "GAI周延",
+        "功夫胖KUNGFU-PEN",
+        "KEY.L刘聪",
+        "盛宇D-SHINE"
+      ],
+      "durationMs": 236511
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=274706820",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "G-BLOCK Mixtape GAI周延 盛宇D-SHINE 功夫胖KUNGFU-PEN KEY.L刘聪",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

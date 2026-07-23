@@ -8,7 +8,8 @@ describe("production delivery boundaries", () => {
   it("contains no fictional scores, production mocks, or MusicBrainz identity fields", () => {
     const serialized = JSON.stringify(publishedCatalog);
     expect(catalogAlbums.length).toBeGreaterThanOrEqual(300);
-    expect(serialized).not.toMatch(/rymRating|rymScore|fictional rating|mock album|musicbrainzReleaseGroupId|representativeReleaseId/i);
+    expect(serialized).not.toMatch(/rymScore|fictional rating|mock album|musicbrainzReleaseGroupId|representativeReleaseId/i);
+    expect(catalogAlbums.every((album) => album.rymRating === null && album.rymRatingCount === null)).toBe(true);
     expect(publishedCatalog.source).toMatchObject({ catalog: "netease", runtimeRequestsAllowed: false });
   });
   it("keeps track lists out of the shared browser catalog index", () => {
@@ -33,7 +34,7 @@ describe("production delivery boundaries", () => {
 
   it("keeps every published destination on the matching HTTPS NetEase album page", () => {
     for (const album of catalogAlbums) {
-      expect(album.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
+      expect(getAlbumDetailBySlug(album.slug)?.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
     }
   });
 

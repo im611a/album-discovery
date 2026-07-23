@@ -1,0 +1,166 @@
+{
+  "internalId": "album:358021446",
+  "id": "album:358021446",
+  "neteaseAlbumId": "358021446",
+  "slug": "netease-358021446",
+  "title": "危险游戏",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12064064",
+      "neteaseArtistId": "12064064",
+      "name": "木马Muma"
+    }
+  ],
+  "releaseDate": "2026-01-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/358021446.webp",
+    "alt": "《危险游戏》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/358021446.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3338537099",
+      "neteaseTrackId": "3338537099",
+      "title": "今夜不要说话",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 305625
+    },
+    {
+      "id": "netease-track:3338537126",
+      "neteaseTrackId": "3338537126",
+      "title": "果冻帝国",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 268228
+    },
+    {
+      "id": "netease-track:3338537138",
+      "neteaseTrackId": "3338537138",
+      "title": "危险游戏",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 275810
+    },
+    {
+      "id": "netease-track:3338537157",
+      "neteaseTrackId": "3338537157",
+      "title": "低处生活",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 331004
+    },
+    {
+      "id": "netease-track:3338537165",
+      "neteaseTrackId": "3338537165",
+      "title": "我失去了她",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 273365
+    },
+    {
+      "id": "netease-track:3338538087",
+      "neteaseTrackId": "3338538087",
+      "title": "没有声音的房间",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 369775
+    },
+    {
+      "id": "netease-track:3338538103",
+      "neteaseTrackId": "3338538103",
+      "title": "爱得像蜜糖",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 322158
+    },
+    {
+      "id": "netease-track:3338537200",
+      "neteaseTrackId": "3338537200",
+      "title": "她是黯淡星",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 294550
+    },
+    {
+      "id": "netease-track:3338538116",
+      "neteaseTrackId": "3338538116",
+      "title": "他真的在哭泣",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 437376
+    },
+    {
+      "id": "netease-track:3338538118",
+      "neteaseTrackId": "3338538118",
+      "title": "天空猪跳舞（自言自语版）",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "木马Muma"
+      ],
+      "durationMs": 366000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=358021446",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "危险游戏 木马Muma",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

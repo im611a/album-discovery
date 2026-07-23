@@ -1,0 +1,181 @@
+{
+  "internalId": "album:75889321",
+  "id": "album:75889321",
+  "neteaseAlbumId": "75889321",
+  "slug": "netease-75889321",
+  "title": "A Few Good Kids",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    }
+  ],
+  "releaseDate": "2019-03-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "更高兄弟",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/75889321.webp",
+    "alt": "《A Few Good Kids》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/75889321.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1352801247",
+      "neteaseTrackId": "1352801247",
+      "title": "I Really Mean It Freestyle (Prod By Just Blaze)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 136040
+    },
+    {
+      "id": "netease-track:1352800684",
+      "neteaseTrackId": "1352800684",
+      "title": "Ape (Prod. By Blasian Beats)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "FENDIGHEE RICCH"
+      ],
+      "durationMs": 141000
+    },
+    {
+      "id": "netease-track:1352801251",
+      "neteaseTrackId": "1352801251",
+      "title": "You Don’t Know (Prod By Snapz)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 149000
+    },
+    {
+      "id": "netease-track:1352801249",
+      "neteaseTrackId": "1352801249",
+      "title": "Overseas Freestyle (Prod. By Nilson Edgardo On Da Track)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "YOUNG13DBABY"
+      ],
+      "durationMs": 178500
+    },
+    {
+      "id": "netease-track:1352801250",
+      "neteaseTrackId": "1352801250",
+      "title": "Small Chainz (Prod. By Kino Beats)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 155839
+    },
+    {
+      "id": "netease-track:1352801248",
+      "neteaseTrackId": "1352801248",
+      "title": "我不再担心 (Prod. By Snapz)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 150500
+    },
+    {
+      "id": "netease-track:1352801256",
+      "neteaseTrackId": "1352801256",
+      "title": "赚更多 (Prod. By Lex Luger)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:1352800683",
+      "neteaseTrackId": "1352800683",
+      "title": "My Style (Prod. By Harikiri)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "TSP安琪"
+      ],
+      "durationMs": 129650
+    },
+    {
+      "id": "netease-track:1352800687",
+      "neteaseTrackId": "1352800687",
+      "title": "Blue (Prod. By Tantu)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 170500
+    },
+    {
+      "id": "netease-track:1352800686",
+      "neteaseTrackId": "1352800686",
+      "title": "Young Prince (Prod. By Masked Man)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "Rainbow"
+      ],
+      "durationMs": 172841
+    },
+    {
+      "id": "netease-track:1352800685",
+      "neteaseTrackId": "1352800685",
+      "title": "不爱你了 (Prod. By Snapz)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 141000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=75889321",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "A Few Good Kids 马思唯",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

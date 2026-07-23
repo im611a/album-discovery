@@ -1,0 +1,102 @@
+{
+  "internalId": "album:123718729",
+  "id": "album:123718729",
+  "neteaseAlbumId": "123718729",
+  "slug": "netease-123718729",
+  "title": "One Last Kiss",
+  "aliases": [
+    "最终一吻"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2021-03-08",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/123718729.webp",
+    "alt": "《One Last Kiss》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/123718729.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1824020871",
+      "neteaseTrackId": "1824020871",
+      "title": "One Last Kiss",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 252026
+    },
+    {
+      "id": "netease-track:1824020873",
+      "neteaseTrackId": "1824020873",
+      "title": "Beautiful World (Da Capo Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 358980
+    },
+    {
+      "id": "netease-track:1824018279",
+      "neteaseTrackId": "1824018279",
+      "title": "One Last Kiss (Instrumental)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 252026
+    },
+    {
+      "id": "netease-track:1824020879",
+      "neteaseTrackId": "1824020879",
+      "title": "Beautiful World (Da Capo Version [Instrumental])",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 357610
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=123718729",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "One Last Kiss 最终一吻 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

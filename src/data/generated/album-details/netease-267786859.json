@@ -1,0 +1,222 @@
+{
+  "internalId": "album:267786859",
+  "id": "album:267786859",
+  "neteaseAlbumId": "267786859",
+  "slug": "netease-267786859",
+  "title": "STUPID POP SONGS",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "2025-04-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "StreetVoice/偉大文化",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/267786859.webp",
+    "alt": "《STUPID POP SONGS》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/267786859.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2684112208",
+      "neteaseTrackId": "2684112208",
+      "title": "Stupid Pop Song",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 316968
+    },
+    {
+      "id": "netease-track:2690548915",
+      "neteaseTrackId": "2690548915",
+      "title": "Moonchild",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 256093
+    },
+    {
+      "id": "netease-track:2118469756",
+      "neteaseTrackId": "2118469756",
+      "title": "星心",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 274689
+    },
+    {
+      "id": "netease-track:2690549642",
+      "neteaseTrackId": "2690549642",
+      "title": "一点点",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 229225
+    },
+    {
+      "id": "netease-track:2690549665",
+      "neteaseTrackId": "2690549665",
+      "title": "路上",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 265496
+    },
+    {
+      "id": "netease-track:2690549667",
+      "neteaseTrackId": "2690549667",
+      "title": "半晴天",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 294773
+    },
+    {
+      "id": "netease-track:2072269041",
+      "neteaseTrackId": "2072269041",
+      "title": "活该",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 240506
+    },
+    {
+      "id": "netease-track:2690549670",
+      "neteaseTrackId": "2690549670",
+      "title": "In the Morning",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 212100
+    },
+    {
+      "id": "netease-track:2690549679",
+      "neteaseTrackId": "2690549679",
+      "title": "微尘",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 299614
+    },
+    {
+      "id": "netease-track:2690549685",
+      "neteaseTrackId": "2690549685",
+      "title": "千言万语",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 278056
+    },
+    {
+      "id": "netease-track:2690549697",
+      "neteaseTrackId": "2690549697",
+      "title": "Lonely is the Night",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆",
+        "黄丽玲"
+      ],
+      "durationMs": 279430
+    },
+    {
+      "id": "netease-track:2690549700",
+      "neteaseTrackId": "2690549700",
+      "title": "陪你",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 304743
+    },
+    {
+      "id": "netease-track:2690548987",
+      "neteaseTrackId": "2690548987",
+      "title": "让爱再继续",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 252669
+    },
+    {
+      "id": "netease-track:2061994177",
+      "neteaseTrackId": "2061994177",
+      "title": "全世界会唱的歌",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 281036
+    },
+    {
+      "id": "netease-track:2690549734",
+      "neteaseTrackId": "2690549734",
+      "title": "Do I Do I (reprise)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 51500
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=267786859",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "STUPID POP SONGS 陶喆",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

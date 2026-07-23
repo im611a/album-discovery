@@ -1,0 +1,166 @@
+{
+  "internalId": "album:195498828",
+  "id": "album:195498828",
+  "neteaseAlbumId": "195498828",
+  "slug": "hit-me-hard-and-soft",
+  "title": "HIT ME HARD AND SOFT",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11972054",
+      "neteaseArtistId": "11972054",
+      "name": "Billie Eilish"
+    }
+  ],
+  "releaseDate": "2024-05-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Darkroom/Interscope Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/195498828.webp",
+    "alt": "《HIT ME HARD AND SOFT》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/195498828.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2154850317",
+      "neteaseTrackId": "2154850317",
+      "title": "SKINNY",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 219733
+    },
+    {
+      "id": "netease-track:2154851100",
+      "neteaseTrackId": "2154851100",
+      "title": "LUNCH",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 179586
+    },
+    {
+      "id": "netease-track:2154850330",
+      "neteaseTrackId": "2154850330",
+      "title": "CHIHIRO",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 303440
+    },
+    {
+      "id": "netease-track:2154850334",
+      "neteaseTrackId": "2154850334",
+      "title": "BIRDS OF A FEATHER",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 210373
+    },
+    {
+      "id": "netease-track:2154851107",
+      "neteaseTrackId": "2154851107",
+      "title": "WILDFLOWER",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 261466
+    },
+    {
+      "id": "netease-track:2154851115",
+      "neteaseTrackId": "2154851115",
+      "title": "THE GREATEST",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 293840
+    },
+    {
+      "id": "netease-track:2154850369",
+      "neteaseTrackId": "2154850369",
+      "title": "L’AMOUR DE MA VIE",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 333986
+    },
+    {
+      "id": "netease-track:2154851128",
+      "neteaseTrackId": "2154851128",
+      "title": "THE DINER",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 186346
+    },
+    {
+      "id": "netease-track:2154851130",
+      "neteaseTrackId": "2154851130",
+      "title": "BITTERSUITE",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 298440
+    },
+    {
+      "id": "netease-track:2154851136",
+      "neteaseTrackId": "2154851136",
+      "title": "BLUE",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Billie Eilish"
+      ],
+      "durationMs": 343120
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=195498828",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "HIT ME HARD AND SOFT Billie Eilish",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

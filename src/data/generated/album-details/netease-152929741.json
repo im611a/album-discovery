@@ -1,0 +1,133 @@
+{
+  "internalId": "album:152929741",
+  "id": "album:152929741",
+  "neteaseAlbumId": "152929741",
+  "slug": "netease-152929741",
+  "title": "辛丑｜壬寅",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2022-10-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/152929741.webp",
+    "alt": "《辛丑｜壬寅》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/152929741.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1988041642",
+      "neteaseTrackId": "1988041642",
+      "title": "凿壁寻光",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 528698
+    },
+    {
+      "id": "netease-track:1988041632",
+      "neteaseTrackId": "1988041632",
+      "title": "消失的图书馆",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 290519
+    },
+    {
+      "id": "netease-track:1988041647",
+      "neteaseTrackId": "1988041647",
+      "title": "白加黑",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 563867
+    },
+    {
+      "id": "netease-track:1988041636",
+      "neteaseTrackId": "1988041636",
+      "title": "辛丑",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 380166
+    },
+    {
+      "id": "netease-track:1988041648",
+      "neteaseTrackId": "1988041648",
+      "title": "壬寅",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 392308
+    },
+    {
+      "id": "netease-track:1988041650",
+      "neteaseTrackId": "1988041650",
+      "title": "奥林匹克广场",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 510847
+    },
+    {
+      "id": "netease-track:1988041651",
+      "neteaseTrackId": "1988041651",
+      "title": "野火",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 455424
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=152929741",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "辛丑｜壬寅 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,122 @@
+{
+  "internalId": "album:35353583",
+  "id": "album:35353583",
+  "neteaseAlbumId": "35353583",
+  "slug": "netease-35353583",
+  "title": "Homeless无家",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2017-05-28",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35353583.webp",
+    "alt": "《Homeless无家》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35353583.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:471608769",
+      "neteaseTrackId": "471608769",
+      "title": "四海 Four Seas",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 276259
+    },
+    {
+      "id": "netease-track:480264239",
+      "neteaseTrackId": "480264239",
+      "title": "笛子 Dizi",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 225265
+    },
+    {
+      "id": "netease-track:480849069",
+      "neteaseTrackId": "480849069",
+      "title": "沙小 Sha Xiao",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 210461
+    },
+    {
+      "id": "netease-track:480847522",
+      "neteaseTrackId": "480847522",
+      "title": "废人的呢喃 A Junkie's Whispering",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 124563
+    },
+    {
+      "id": "netease-track:480847584",
+      "neteaseTrackId": "480847584",
+      "title": "慕士塔格 Muztagata",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 270222
+    },
+    {
+      "id": "netease-track:480847597",
+      "neteaseTrackId": "480847597",
+      "title": "无家 Homeless",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 140000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=35353583",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Homeless无家 Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

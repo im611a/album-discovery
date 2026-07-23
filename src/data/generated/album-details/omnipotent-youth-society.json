@@ -1,0 +1,144 @@
+{
+  "internalId": "album:38306",
+  "id": "album:38306",
+  "neteaseAlbumId": "38306",
+  "slug": "omnipotent-youth-society",
+  "title": "万能青年旅店 同名专辑",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13223",
+      "neteaseArtistId": "13223",
+      "name": "万能青年旅店"
+    }
+  ],
+  "releaseDate": "2010-11-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38306.webp",
+    "alt": "《万能青年旅店 同名专辑》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38306.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:386826",
+      "neteaseTrackId": "386826",
+      "title": "狗尿馆",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 116786
+    },
+    {
+      "id": "netease-track:386828",
+      "neteaseTrackId": "386828",
+      "title": "不万能的喜剧",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 334640
+    },
+    {
+      "id": "netease-track:386829",
+      "neteaseTrackId": "386829",
+      "title": "揪心的玩笑与漫长的白日梦",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 335426
+    },
+    {
+      "id": "netease-track:386830",
+      "neteaseTrackId": "386830",
+      "title": "大石碎胸口",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 423533
+    },
+    {
+      "id": "netease-track:386832",
+      "neteaseTrackId": "386832",
+      "title": "洋鸟消夏录",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 70773
+    },
+    {
+      "id": "netease-track:386835",
+      "neteaseTrackId": "386835",
+      "title": "秦皇岛",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 481346
+    },
+    {
+      "id": "netease-track:386837",
+      "neteaseTrackId": "386837",
+      "title": "十万嬉皮",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 284973
+    },
+    {
+      "id": "netease-track:386844",
+      "neteaseTrackId": "386844",
+      "title": "杀死那个石家庄人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万能青年旅店"
+      ],
+      "durationMs": 344253
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=38306",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "万能青年旅店 同名专辑 万能青年旅店",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

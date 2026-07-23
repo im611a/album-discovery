@@ -1,0 +1,192 @@
+{
+  "internalId": "album:3084335",
+  "id": "album:3084335",
+  "neteaseAlbumId": "3084335",
+  "slug": "netease-3084335",
+  "title": "哎呦，不错哦",
+  "aliases": [
+    "Aiyo, Not Bad"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2014-12-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/3084335.webp",
+    "alt": "《哎呦，不错哦》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/3084335.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:29822016",
+      "neteaseTrackId": "29822016",
+      "title": "阳明山",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 152000
+    },
+    {
+      "id": "netease-track:29822010",
+      "neteaseTrackId": "29822010",
+      "title": "窃爱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 204000
+    },
+    {
+      "id": "netease-track:29818120",
+      "neteaseTrackId": "29818120",
+      "title": "算什么男人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 289000
+    },
+    {
+      "id": "netease-track:29822015",
+      "neteaseTrackId": "29822015",
+      "title": "天涯过客",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 253200
+    },
+    {
+      "id": "netease-track:29822033",
+      "neteaseTrackId": "29822033",
+      "title": "怎么了",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "袁咏琳"
+      ],
+      "durationMs": 232075
+    },
+    {
+      "id": "netease-track:29822032",
+      "neteaseTrackId": "29822032",
+      "title": "一口气全念对",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 158000
+    },
+    {
+      "id": "netease-track:29822017",
+      "neteaseTrackId": "29822017",
+      "title": "我要夏天",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "杨瑞代"
+      ],
+      "durationMs": 219786
+    },
+    {
+      "id": "netease-track:29822018",
+      "neteaseTrackId": "29822018",
+      "title": "手写的从前",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 297000
+    },
+    {
+      "id": "netease-track:29818117",
+      "neteaseTrackId": "29818117",
+      "title": "鞋子特大号",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 221000
+    },
+    {
+      "id": "netease-track:29822013",
+      "neteaseTrackId": "29822013",
+      "title": "听爸爸的话",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:29822012",
+      "neteaseTrackId": "29822012",
+      "title": "美人鱼",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:29822014",
+      "neteaseTrackId": "29822014",
+      "title": "听见下雨的声音",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 279000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=3084335",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "哎呦，不错哦 Aiyo, Not Bad 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

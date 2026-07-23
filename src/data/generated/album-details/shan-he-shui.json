@@ -1,0 +1,177 @@
+{
+  "internalId": "album:7600",
+  "id": "album:7600",
+  "neteaseAlbumId": "7600",
+  "slug": "shan-he-shui",
+  "title": "山河水",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    }
+  ],
+  "releaseDate": "1998-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7600.webp",
+    "alt": "《山河水》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7600.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77335",
+      "neteaseTrackId": "77335",
+      "title": "山河水",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 225342
+    },
+    {
+      "id": "netease-track:77338",
+      "neteaseTrackId": "77338",
+      "title": "美丽的期待",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 258489
+    },
+    {
+      "id": "netease-track:77343",
+      "neteaseTrackId": "77343",
+      "title": "风景",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 212809
+    },
+    {
+      "id": "netease-track:77346",
+      "neteaseTrackId": "77346",
+      "title": "三月春天",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 299115
+    },
+    {
+      "id": "netease-track:77350",
+      "neteaseTrackId": "77350",
+      "title": "熔化",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 264382
+    },
+    {
+      "id": "netease-track:77354",
+      "neteaseTrackId": "77354",
+      "title": "哪儿的事儿",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 215249
+    },
+    {
+      "id": "netease-track:77358",
+      "neteaseTrackId": "77358",
+      "title": "拆",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 229382
+    },
+    {
+      "id": "netease-track:77363",
+      "neteaseTrackId": "77363",
+      "title": "消失的影像",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 212715
+    },
+    {
+      "id": "netease-track:77367",
+      "neteaseTrackId": "77367",
+      "title": "竹叶青",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 256556
+    },
+    {
+      "id": "netease-track:77370",
+      "neteaseTrackId": "77370",
+      "title": "出游",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 143475
+    },
+    {
+      "id": "netease-track:77373",
+      "neteaseTrackId": "77373",
+      "title": "晚霞",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 180182
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=7600",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "山河水 窦唯",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

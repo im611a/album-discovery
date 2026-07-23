@@ -76,6 +76,8 @@ describe("NetEase catalog validation", () => {
     album.coreGenres = ["verified-primary"];
     album.relatedGenres = ["verified-secondary"];
     album.descriptors = ["verified-descriptor"];
+    album.rymMatchStatus = "MATCHED";
+    album.rymReference = "manual-snapshot:acceptance";
     expect(validateCatalogData(changed, identities, snapshot).errors).toEqual([]);
 
     album.relatedGenres = ["invented-related"];

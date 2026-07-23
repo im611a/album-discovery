@@ -1,0 +1,170 @@
+{
+  "internalId": "album:18893",
+  "id": "album:18893",
+  "neteaseAlbumId": "18893",
+  "slug": "netease-18893",
+  "title": "依然范特西",
+  "aliases": [
+    "Still Fantasy"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2006-09-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18893.webp",
+    "alt": "《依然范特西》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18893.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185878",
+      "neteaseTrackId": "185878",
+      "title": "夜的第七章",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "潘儿"
+      ],
+      "durationMs": 228627
+    },
+    {
+      "id": "netease-track:185879",
+      "neteaseTrackId": "185879",
+      "title": "听妈妈的话",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:185880",
+      "neteaseTrackId": "185880",
+      "title": "千里之外",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "费玉清"
+      ],
+      "durationMs": 254373
+    },
+    {
+      "id": "netease-track:185882",
+      "neteaseTrackId": "185882",
+      "title": "本草纲目",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:185884",
+      "neteaseTrackId": "185884",
+      "title": "退后",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:185886",
+      "neteaseTrackId": "185886",
+      "title": "红模仿",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 185360
+    },
+    {
+      "id": "netease-track:185888",
+      "neteaseTrackId": "185888",
+      "title": "心雨",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 267426
+    },
+    {
+      "id": "netease-track:185890",
+      "neteaseTrackId": "185890",
+      "title": "白色风车",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 272586
+    },
+    {
+      "id": "netease-track:185892",
+      "neteaseTrackId": "185892",
+      "title": "迷迭香",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 251000
+    },
+    {
+      "id": "netease-track:185894",
+      "neteaseTrackId": "185894",
+      "title": "菊花台",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 293960
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18893",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "依然范特西 Still Fantasy 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

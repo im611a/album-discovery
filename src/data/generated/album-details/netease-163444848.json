@@ -1,0 +1,277 @@
+{
+  "internalId": "album:163444848",
+  "id": "album:163444848",
+  "neteaseAlbumId": "163444848",
+  "slug": "netease-163444848",
+  "title": "Great The Wall",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56286666",
+      "neteaseArtistId": "56286666",
+      "name": "The Wall Radio"
+    },
+    {
+      "id": "netease-artist:14117457",
+      "neteaseArtistId": "14117457",
+      "name": "SASIOVERLXRD"
+    },
+    {
+      "id": "netease-artist:12488150",
+      "neteaseArtistId": "12488150",
+      "name": "雾都L4WUDU"
+    },
+    {
+      "id": "netease-artist:31511662",
+      "neteaseArtistId": "31511662",
+      "name": "99 God"
+    },
+    {
+      "id": "netease-artist:32712412",
+      "neteaseArtistId": "32712412",
+      "name": "斑比Bambii"
+    },
+    {
+      "id": "netease-artist:12003155",
+      "neteaseArtistId": "12003155",
+      "name": "直火帮 Straight Fire Gang"
+    },
+    {
+      "id": "netease-artist:12022040",
+      "neteaseArtistId": "12022040",
+      "name": "FENDIGHEE RICCH"
+    },
+    {
+      "id": "netease-artist:12002170",
+      "neteaseArtistId": "12002170",
+      "name": "JORDAN 97"
+    },
+    {
+      "id": "netease-artist:12415043",
+      "neteaseArtistId": "12415043",
+      "name": "安林瑶ROBIN"
+    },
+    {
+      "id": "netease-artist:12083497",
+      "neteaseArtistId": "12083497",
+      "name": "PO8"
+    },
+    {
+      "id": "netease-artist:12453904",
+      "neteaseArtistId": "12453904",
+      "name": "11李佳毅"
+    },
+    {
+      "id": "netease-artist:12092433",
+      "neteaseArtistId": "12092433",
+      "name": "JarStick"
+    },
+    {
+      "id": "netease-artist:12051031",
+      "neteaseArtistId": "12051031",
+      "name": "Maikon Flocka Flame"
+    },
+    {
+      "id": "netease-artist:12328955",
+      "neteaseArtistId": "12328955",
+      "name": "UDIGG"
+    },
+    {
+      "id": "netease-artist:12085585",
+      "neteaseArtistId": "12085585",
+      "name": "SIMBA辛巴"
+    },
+    {
+      "id": "netease-artist:34319290",
+      "neteaseArtistId": "34319290",
+      "name": "离合"
+    },
+    {
+      "id": "netease-artist:52791587",
+      "neteaseArtistId": "52791587",
+      "name": "CVO"
+    },
+    {
+      "id": "netease-artist:12127888",
+      "neteaseArtistId": "12127888",
+      "name": "$UN"
+    },
+    {
+      "id": "netease-artist:12283069",
+      "neteaseArtistId": "12283069",
+      "name": "Kingofemog"
+    }
+  ],
+  "releaseDate": "2023-06-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/163444848.webp",
+    "alt": "《Great The Wall》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/163444848.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2045431554",
+      "neteaseTrackId": "2045431554",
+      "title": "SINGER/SINNER",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "PO8",
+        "11李佳毅"
+      ],
+      "durationMs": 171530
+    },
+    {
+      "id": "netease-track:2045432766",
+      "neteaseTrackId": "2045432766",
+      "title": "Typhoon台风",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "斑比Bambii"
+      ],
+      "durationMs": 160992
+    },
+    {
+      "id": "netease-track:2045432647",
+      "neteaseTrackId": "2045432647",
+      "title": "Typical Rapper",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "雾都L4WUDU"
+      ],
+      "durationMs": 145501
+    },
+    {
+      "id": "netease-track:2045432739",
+      "neteaseTrackId": "2045432739",
+      "title": "Swear To God（Prod. by 808Mafia）",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "99 God",
+        "斑比Bambii",
+        "808 Mafia"
+      ],
+      "durationMs": 170944
+    },
+    {
+      "id": "netease-track:2045432768",
+      "neteaseTrackId": "2045432768",
+      "title": "FLEX",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Maikon Flocka Flame"
+      ],
+      "durationMs": 102560
+    },
+    {
+      "id": "netease-track:2045431573",
+      "neteaseTrackId": "2045431573",
+      "title": "DRIP A LOT",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "UDIGG"
+      ],
+      "durationMs": 157504
+    },
+    {
+      "id": "netease-track:2038217027",
+      "neteaseTrackId": "2038217027",
+      "title": "ANYWAY（Prod. by 808Mafia）",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "SASIOVERLXRD",
+        "雾都L4WUDU",
+        "808 Mafia"
+      ],
+      "durationMs": 153546
+    },
+    {
+      "id": "netease-track:2045432776",
+      "neteaseTrackId": "2045432776",
+      "title": "Not Like Them",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "直火帮 Straight Fire Gang"
+      ],
+      "durationMs": 214741
+    },
+    {
+      "id": "netease-track:2045432772",
+      "neteaseTrackId": "2045432772",
+      "title": "Chaser",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "FENDIGHEE RICCH",
+        "JORDAN 97"
+      ],
+      "durationMs": 174784
+    },
+    {
+      "id": "netease-track:2045431579",
+      "neteaseTrackId": "2045431579",
+      "title": "玉门关",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "安林瑶ROBIN",
+        "SIMBA辛巴",
+        "JarStick"
+      ],
+      "durationMs": 201931
+    },
+    {
+      "id": "netease-track:2056951874",
+      "neteaseTrackId": "2056951874",
+      "title": "23",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "离合",
+        "CVO",
+        "$UN",
+        "Kingofemog"
+      ],
+      "durationMs": 245159
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=163444848",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Great The Wall The Wall Radio SASIOVERLXRD 雾都L4WUDU 99 God 斑比Bambii 直火帮 Straight Fire Gang FENDIGHEE RICCH JORDAN 97 安林瑶ROBIN PO8 11李佳毅 JarStick Maikon Flocka Flame UDIGG SIMBA辛巴 离合 CVO $UN Kingofemog",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

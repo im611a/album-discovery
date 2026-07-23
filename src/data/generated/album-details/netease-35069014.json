@@ -1,0 +1,166 @@
+{
+  "internalId": "album:35069014",
+  "id": "album:35069014",
+  "neteaseAlbumId": "35069014",
+  "slug": "netease-35069014",
+  "title": "无法长大",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6731",
+      "neteaseArtistId": "6731",
+      "name": "赵雷"
+    }
+  ],
+  "releaseDate": "2016-12-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京音之邦文化科技有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35069014.webp",
+    "alt": "《无法长大》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35069014.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:447926063",
+      "neteaseTrackId": "447926063",
+      "title": "朵",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 292010
+    },
+    {
+      "id": "netease-track:447925058",
+      "neteaseTrackId": "447925058",
+      "title": "玛丽",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 281984
+    },
+    {
+      "id": "netease-track:447925059",
+      "neteaseTrackId": "447925059",
+      "title": "阿刁",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 374120
+    },
+    {
+      "id": "netease-track:447926067",
+      "neteaseTrackId": "447926067",
+      "title": "鼓楼",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 281002
+    },
+    {
+      "id": "netease-track:447925063",
+      "neteaseTrackId": "447925063",
+      "title": "孤独",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 326997
+    },
+    {
+      "id": "netease-track:447926071",
+      "neteaseTrackId": "447926071",
+      "title": "成都",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 328020
+    },
+    {
+      "id": "netease-track:447926068",
+      "neteaseTrackId": "447926068",
+      "title": "窑上路",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 313429
+    },
+    {
+      "id": "netease-track:447925070",
+      "neteaseTrackId": "447925070",
+      "title": "无法长大",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 287870
+    },
+    {
+      "id": "netease-track:447925066",
+      "neteaseTrackId": "447925066",
+      "title": "八十年代的歌",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 271092
+    },
+    {
+      "id": "netease-track:447925067",
+      "neteaseTrackId": "447925067",
+      "title": "再见北京",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "赵雷"
+      ],
+      "durationMs": 356053
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=35069014",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "无法长大 赵雷",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

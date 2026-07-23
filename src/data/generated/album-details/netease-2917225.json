@@ -1,0 +1,101 @@
+{
+  "internalId": "album:2917225",
+  "id": "album:2917225",
+  "neteaseAlbumId": "2917225",
+  "slug": "netease-2917225",
+  "title": "Borderless Shadows",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2014-01-28",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Trapdoor Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2917225.webp",
+    "alt": "《Borderless Shadows》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2917225.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:28860851",
+      "neteaseTrackId": "28860851",
+      "title": "Leaving Beesands",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 250746
+    },
+    {
+      "id": "netease-track:28860852",
+      "neteaseTrackId": "28860852",
+      "title": "Yrmt",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "kaiju",
+        "Howie Lee"
+      ],
+      "durationMs": 264001
+    },
+    {
+      "id": "netease-track:28860853",
+      "neteaseTrackId": "28860853",
+      "title": "Fused Pagoda",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 259200
+    },
+    {
+      "id": "netease-track:28860855",
+      "neteaseTrackId": "28860855",
+      "title": "The Cream Song",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 210989
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=2917225",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Borderless Shadows Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

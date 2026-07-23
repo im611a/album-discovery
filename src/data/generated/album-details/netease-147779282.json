@@ -1,0 +1,191 @@
+{
+  "internalId": "album:147779282",
+  "id": "album:147779282",
+  "neteaseAlbumId": "147779282",
+  "slug": "netease-147779282",
+  "title": "最伟大的作品",
+  "aliases": [
+    "Greatest Works of Art"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2022-07-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/147779282.webp",
+    "alt": "《最伟大的作品》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/147779282.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1962165890",
+      "neteaseTrackId": "1962165890",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 29813
+    },
+    {
+      "id": "netease-track:1962165898",
+      "neteaseTrackId": "1962165898",
+      "title": "最伟大的作品",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 244046
+    },
+    {
+      "id": "netease-track:1962165922",
+      "neteaseTrackId": "1962165922",
+      "title": "还在流浪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 265848
+    },
+    {
+      "id": "netease-track:1962165963",
+      "neteaseTrackId": "1962165963",
+      "title": "说好不哭",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "五月天 阿信"
+      ],
+      "durationMs": 222333
+    },
+    {
+      "id": "netease-track:1962166818",
+      "neteaseTrackId": "1962166818",
+      "title": "红颜如霜",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 257136
+    },
+    {
+      "id": "netease-track:1962166010",
+      "neteaseTrackId": "1962166010",
+      "title": "不爱我就拉倒",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 245880
+    },
+    {
+      "id": "netease-track:1962166871",
+      "neteaseTrackId": "1962166871",
+      "title": "Mojito",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 185040
+    },
+    {
+      "id": "netease-track:1962166915",
+      "neteaseTrackId": "1962166915",
+      "title": "错过的烟火",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 257840
+    },
+    {
+      "id": "netease-track:1962166937",
+      "neteaseTrackId": "1962166937",
+      "title": "等你下课",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 270024
+    },
+    {
+      "id": "netease-track:1962166947",
+      "neteaseTrackId": "1962166947",
+      "title": "粉色海洋",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 186840
+    },
+    {
+      "id": "netease-track:1962166119",
+      "neteaseTrackId": "1962166119",
+      "title": "倒影",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 234264
+    },
+    {
+      "id": "netease-track:1962166152",
+      "neteaseTrackId": "1962166152",
+      "title": "我是如此相信",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 266424
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=147779282",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "最伟大的作品 Greatest Works of Art 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

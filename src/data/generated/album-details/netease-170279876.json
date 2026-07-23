@@ -1,0 +1,166 @@
+{
+  "internalId": "album:170279876",
+  "id": "album:170279876",
+  "neteaseAlbumId": "170279876",
+  "slug": "netease-170279876",
+  "title": "防沉迷",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2023-07-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京有此山文化传媒有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/170279876.webp",
+    "alt": "《防沉迷》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/170279876.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2066756882",
+      "neteaseTrackId": "2066756882",
+      "title": "无烟区",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 328451
+    },
+    {
+      "id": "netease-track:2066755272",
+      "neteaseTrackId": "2066755272",
+      "title": "飞松",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 261303
+    },
+    {
+      "id": "netease-track:2066756887",
+      "neteaseTrackId": "2066756887",
+      "title": "懒得",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 184388
+    },
+    {
+      "id": "netease-track:2066755285",
+      "neteaseTrackId": "2066755285",
+      "title": "知洲",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 216145
+    },
+    {
+      "id": "netease-track:2066755287",
+      "neteaseTrackId": "2066755287",
+      "title": "有则抱抱无则笑笑",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 224712
+    },
+    {
+      "id": "netease-track:2066755289",
+      "neteaseTrackId": "2066755289",
+      "title": "命中梦中无形无法",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 270091
+    },
+    {
+      "id": "netease-track:2066755290",
+      "neteaseTrackId": "2066755290",
+      "title": "U。U",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 278433
+    },
+    {
+      "id": "netease-track:2066755304",
+      "neteaseTrackId": "2066755304",
+      "title": "泥丸",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 229513
+    },
+    {
+      "id": "netease-track:2066756757",
+      "neteaseTrackId": "2066756757",
+      "title": "警告一次",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 217541
+    },
+    {
+      "id": "netease-track:2066755160",
+      "neteaseTrackId": "2066755160",
+      "title": "沉迷",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 368000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=170279876",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "防沉迷 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,193 @@
+{
+  "internalId": "album:254455787",
+  "id": "album:254455787",
+  "neteaseAlbumId": "254455787",
+  "slug": "netease-254455787",
+  "title": "第三次世界大战Ⅱ",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2024-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/254455787.webp",
+    "alt": "《第三次世界大战Ⅱ》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/254455787.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2648578472",
+      "neteaseTrackId": "2648578472",
+      "title": "第三次世界大战Ⅱ",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 163774
+    },
+    {
+      "id": "netease-track:27588244",
+      "neteaseTrackId": "27588244",
+      "title": "秘密农夫",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 168820
+    },
+    {
+      "id": "netease-track:27588237",
+      "neteaseTrackId": "27588237",
+      "title": "一无所知",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 193333
+    },
+    {
+      "id": "netease-track:1410603952",
+      "neteaseTrackId": "1410603952",
+      "title": "你才是一个好人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 199821
+    },
+    {
+      "id": "netease-track:1875362842",
+      "neteaseTrackId": "1875362842",
+      "title": "老李",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 190000
+    },
+    {
+      "id": "netease-track:1838453393",
+      "neteaseTrackId": "1838453393",
+      "title": "祝你万事兴",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "喜曼朵曼",
+        "左小祖咒"
+      ],
+      "durationMs": 173275
+    },
+    {
+      "id": "netease-track:2625746307",
+      "neteaseTrackId": "2625746307",
+      "title": "致敬马丁·路德金",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "东方大戏楼"
+      ],
+      "durationMs": 193888
+    },
+    {
+      "id": "netease-track:1435141219",
+      "neteaseTrackId": "1435141219",
+      "title": "你比恐怖分子还恐怖分子",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 215000
+    },
+    {
+      "id": "netease-track:1447055837",
+      "neteaseTrackId": "1447055837",
+      "title": "情人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 172444
+    },
+    {
+      "id": "netease-track:1483302311",
+      "neteaseTrackId": "1483302311",
+      "title": "第三次世界大战Ⅲ",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 161148
+    },
+    {
+      "id": "netease-track:1447055834",
+      "neteaseTrackId": "1447055834",
+      "title": "大圆满",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "希阿荣博",
+        "左小祖咒"
+      ],
+      "durationMs": 856811
+    },
+    {
+      "id": "netease-track:1364400160",
+      "neteaseTrackId": "1364400160",
+      "title": "祝您2026年新年快乐",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "曾轶可"
+      ],
+      "durationMs": 298422
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=254455787",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "第三次世界大战Ⅱ 左小祖咒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

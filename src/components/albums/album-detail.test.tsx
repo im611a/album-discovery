@@ -36,7 +36,7 @@ describe("AlbumDetail", () => {
     expect(screen.getByRole("link", { name: "嘻哈（Hip Hop）" })).toHaveAttribute("href", "/discover?genre=hip-hop");
   });
 
-  it("renders optional RYM taxonomy and its concise provenance only when values exist", () => {
+  it("renders optional RYM related taxonomy without exposing descriptors", () => {
     const album = {
       ...getAlbumDetailBySlug("wake-after-the-rain")!,
       relatedGenres: ["chamber-pop"],
@@ -45,7 +45,7 @@ describe("AlbumDetail", () => {
     render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
     expect(screen.getByRole("heading", { name: "相关流派" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "chamber-pop" })).toHaveAttribute("href", "/discover?secondary=chamber-pop");
-    expect(screen.getByRole("heading", { name: "氛围与特征" })).toBeInTheDocument();
-    expect(screen.getByText("相关流派与氛围特征来自人工核验的离线 RYM 分类快照。")).toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "氛围与特征" })).not.toBeInTheDocument();
+    expect(screen.getByText("相关流派来自人工核验的离线 RYM Secondary Genres。")).toBeInTheDocument();
   });
 });

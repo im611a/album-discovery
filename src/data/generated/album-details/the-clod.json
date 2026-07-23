@@ -1,0 +1,177 @@
+{
+  "internalId": "album:162870766",
+  "id": "album:162870766",
+  "neteaseAlbumId": "162870766",
+  "slug": "the-clod",
+  "title": "瓦合",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1161122",
+      "neteaseArtistId": "1161122",
+      "name": "草东没有派对"
+    }
+  ],
+  "releaseDate": "2023-05-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "草東沒有派對",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/162870766.webp",
+    "alt": "《瓦合》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/162870766.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2046562631",
+      "neteaseTrackId": "2046562631",
+      "title": "苦难精算师",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 245946
+    },
+    {
+      "id": "netease-track:2046562196",
+      "neteaseTrackId": "2046562196",
+      "title": "缸",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 186506
+    },
+    {
+      "id": "netease-track:2046562197",
+      "neteaseTrackId": "2046562197",
+      "title": "空",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 177653
+    },
+    {
+      "id": "netease-track:2046562632",
+      "neteaseTrackId": "2046562632",
+      "title": "人洞山",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 207719
+    },
+    {
+      "id": "netease-track:2046562198",
+      "neteaseTrackId": "2046562198",
+      "title": "孑",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 55321
+    },
+    {
+      "id": "netease-track:2046035293",
+      "neteaseTrackId": "2046035293",
+      "title": "白日梦",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 224626
+    },
+    {
+      "id": "netease-track:2035279723",
+      "neteaseTrackId": "2035279723",
+      "title": "床",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 232480
+    },
+    {
+      "id": "netease-track:2046562201",
+      "neteaseTrackId": "2046562201",
+      "title": "八",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 226666
+    },
+    {
+      "id": "netease-track:2046562202",
+      "neteaseTrackId": "2046562202",
+      "title": "老张",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 219120
+    },
+    {
+      "id": "netease-track:2046562633",
+      "neteaseTrackId": "2046562633",
+      "title": "芽",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 192226
+    },
+    {
+      "id": "netease-track:2035320743",
+      "neteaseTrackId": "2035320743",
+      "title": "但",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "草东没有派对"
+      ],
+      "durationMs": 142266
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=162870766",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "瓦合 草东没有派对",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

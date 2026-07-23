@@ -1,0 +1,188 @@
+{
+  "internalId": "album:7611",
+  "id": "album:7611",
+  "neteaseAlbumId": "7611",
+  "slug": "netease-7611",
+  "title": "西域情歌 摇滚篇",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2003-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7611.webp",
+    "alt": "《西域情歌 摇滚篇》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7611.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77483",
+      "neteaseTrackId": "77483",
+      "title": "吐鲁番的葡萄熟了",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 308240
+    },
+    {
+      "id": "netease-track:77485",
+      "neteaseTrackId": "77485",
+      "title": "怀念战友",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 305707
+    },
+    {
+      "id": "netease-track:77487",
+      "neteaseTrackId": "77487",
+      "title": "哪里来的骆驼队",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 197040
+    },
+    {
+      "id": "netease-track:77488",
+      "neteaseTrackId": "77488",
+      "title": "送我一朵玫瑰花",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄灿"
+      ],
+      "durationMs": 225600
+    },
+    {
+      "id": "netease-track:77490",
+      "neteaseTrackId": "77490",
+      "title": "花儿与少年",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄灿"
+      ],
+      "durationMs": 197587
+    },
+    {
+      "id": "netease-track:77492",
+      "neteaseTrackId": "77492",
+      "title": "沙枣花儿香",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 267600
+    },
+    {
+      "id": "netease-track:77494",
+      "neteaseTrackId": "77494",
+      "title": "虹彩妹妹",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 161520
+    },
+    {
+      "id": "netease-track:77497",
+      "neteaseTrackId": "77497",
+      "title": "康定情歌",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄灿"
+      ],
+      "durationMs": 225600
+    },
+    {
+      "id": "netease-track:77500",
+      "neteaseTrackId": "77500",
+      "title": "燕子",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄灿"
+      ],
+      "durationMs": 278053
+    },
+    {
+      "id": "netease-track:77503",
+      "neteaseTrackId": "77503",
+      "title": "花儿为什么这样红",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 245094
+    },
+    {
+      "id": "netease-track:77506",
+      "neteaseTrackId": "77506",
+      "title": "吉尔拉",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "胡斯曼"
+      ],
+      "durationMs": 232426
+    },
+    {
+      "id": "netease-track:77509",
+      "neteaseTrackId": "77509",
+      "title": "古莱莱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "古丽詹"
+      ],
+      "durationMs": 303666
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=7611",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "西域情歌 摇滚篇 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

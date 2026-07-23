@@ -1,0 +1,107 @@
+{
+  "internalId": "album:163032152",
+  "id": "album:163032152",
+  "neteaseAlbumId": "163032152",
+  "slug": "netease-163032152",
+  "title": "冠军情歌",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    },
+    {
+      "id": "netease-artist:48165702",
+      "neteaseArtistId": "48165702",
+      "name": "A Few Good Kids Records"
+    }
+  ],
+  "releaseDate": "2023-04-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "StreetVoice/A Few Good Kids Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/163032152.webp",
+    "alt": "《冠军情歌》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/163032152.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2036167451",
+      "neteaseTrackId": "2036167451",
+      "title": "深蓝色太平洋",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 213655
+    },
+    {
+      "id": "netease-track:2036167452",
+      "neteaseTrackId": "2036167452",
+      "title": "Shawty",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 173040
+    },
+    {
+      "id": "netease-track:2036171786",
+      "neteaseTrackId": "2036171786",
+      "title": "明天 (feat. 袁娅维TIA RAY)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "袁娅维TIA RAY"
+      ],
+      "durationMs": 239232
+    },
+    {
+      "id": "netease-track:2036171787",
+      "neteaseTrackId": "2036171787",
+      "title": "冠军情歌 (feat. 罗言)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "罗言"
+      ],
+      "durationMs": 219306
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=163032152",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "冠军情歌 马思唯 A Few Good Kids Records",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

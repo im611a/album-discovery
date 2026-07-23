@@ -1,0 +1,178 @@
+{
+  "internalId": "album:7597",
+  "id": "album:7597",
+  "neteaseAlbumId": "7597",
+  "slug": "netease-7597",
+  "title": "喀什噶尔胡杨",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2004-12-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7597.webp",
+    "alt": "《喀什噶尔胡杨》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/7597.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77324",
+      "neteaseTrackId": "77324",
+      "title": "喀什噶尔胡杨",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 375480
+    },
+    {
+      "id": "netease-track:77327",
+      "neteaseTrackId": "77327",
+      "title": "关于二道桥",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 286906
+    },
+    {
+      "id": "netease-track:77331",
+      "neteaseTrackId": "77331",
+      "title": "五一夜市的兄弟",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 253653
+    },
+    {
+      "id": "netease-track:77333",
+      "neteaseTrackId": "77333",
+      "title": "肖尔布拉克",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刀郎",
+        "黄灿"
+      ],
+      "durationMs": 273520
+    },
+    {
+      "id": "netease-track:77337",
+      "neteaseTrackId": "77337",
+      "title": "只有艾德莱斯能看见",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 342880
+    },
+    {
+      "id": "netease-track:77341",
+      "neteaseTrackId": "77341",
+      "title": "守候在凌晨两点的伤心秀吧",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 320080
+    },
+    {
+      "id": "netease-track:77344",
+      "neteaseTrackId": "77344",
+      "title": "大眼睛",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 254773
+    },
+    {
+      "id": "netease-track:77348",
+      "neteaseTrackId": "77348",
+      "title": "亚克西",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 262680
+    },
+    {
+      "id": "netease-track:77352",
+      "neteaseTrackId": "77352",
+      "title": "再见，乌鲁木齐",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 338160
+    },
+    {
+      "id": "netease-track:77356",
+      "neteaseTrackId": "77356",
+      "title": "打起手鼓唱起歌",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 277627
+    },
+    {
+      "id": "netease-track:77361",
+      "neteaseTrackId": "77361",
+      "title": "冰山上的雪莲",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 274973
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=7597",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "喀什噶尔胡杨 刀郎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

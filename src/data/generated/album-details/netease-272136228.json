@@ -1,0 +1,157 @@
+{
+  "internalId": "album:272136228",
+  "id": "album:272136228",
+  "neteaseAlbumId": "272136228",
+  "slug": "netease-272136228",
+  "title": "BEDROOM TAPE",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12914544",
+      "neteaseArtistId": "12914544",
+      "name": "马伯骞Victor Ma"
+    },
+    {
+      "id": "netease-artist:13911452",
+      "neteaseArtistId": "13911452",
+      "name": "ATM Hanson"
+    },
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    },
+    {
+      "id": "netease-artist:33072389",
+      "neteaseArtistId": "33072389",
+      "name": "Dove鸽子"
+    },
+    {
+      "id": "netease-artist:12127362",
+      "neteaseArtistId": "12127362",
+      "name": "GALI"
+    },
+    {
+      "id": "netease-artist:3689",
+      "neteaseArtistId": "3689",
+      "name": "李玖哲"
+    },
+    {
+      "id": "netease-artist:12110173",
+      "neteaseArtistId": "12110173",
+      "name": "THOME"
+    },
+    {
+      "id": "netease-artist:12198387",
+      "neteaseArtistId": "12198387",
+      "name": "艾志恒Asen"
+    }
+  ],
+  "releaseDate": "2025-05-20",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "哇唧唧哇娱乐（天津）有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/272136228.webp",
+    "alt": "《BEDROOM TAPE》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/272136228.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2705348963",
+      "neteaseTrackId": "2705348963",
+      "title": "PIPE DOWN",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "马伯骞Victor Ma",
+        "ATM Hanson",
+        "马思唯"
+      ],
+      "durationMs": 118378
+    },
+    {
+      "id": "netease-track:2705348964",
+      "neteaseTrackId": "2705348964",
+      "title": "MAKE A U",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "马伯骞Victor Ma",
+        "ATM Hanson",
+        "Dove鸽子"
+      ],
+      "durationMs": 144212
+    },
+    {
+      "id": "netease-track:2705348965",
+      "neteaseTrackId": "2705348965",
+      "title": "HOLY WATER",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "马伯骞Victor Ma",
+        "ATM Hanson",
+        "GALI",
+        "李玖哲"
+      ],
+      "durationMs": 227149
+    },
+    {
+      "id": "netease-track:2705348966",
+      "neteaseTrackId": "2705348966",
+      "title": "DOVERSTREET",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "马伯骞Victor Ma",
+        "ATM Hanson",
+        "THOME"
+      ],
+      "durationMs": 169510
+    },
+    {
+      "id": "netease-track:2705348967",
+      "neteaseTrackId": "2705348967",
+      "title": "YACHT",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "马伯骞Victor Ma",
+        "ATM Hanson",
+        "艾志恒Asen"
+      ],
+      "durationMs": 143919
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=272136228",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "BEDROOM TAPE 马伯骞Victor Ma ATM Hanson 马思唯 Dove鸽子 GALI 李玖哲 THOME 艾志恒Asen",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

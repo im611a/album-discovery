@@ -1,0 +1,188 @@
+{
+  "internalId": "album:2060534",
+  "id": "album:2060534",
+  "neteaseAlbumId": "2060534",
+  "slug": "ok-computer",
+  "title": "OK Computer",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "1997-05-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beggars Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2060534.webp",
+    "alt": "《OK Computer》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2060534.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:22497470",
+      "neteaseTrackId": "22497470",
+      "title": "Airbag",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 287950
+    },
+    {
+      "id": "netease-track:22497471",
+      "neteaseTrackId": "22497471",
+      "title": "Paranoid Android",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 387262
+    },
+    {
+      "id": "netease-track:22497472",
+      "neteaseTrackId": "22497472",
+      "title": "Subterranean Homesick Alien",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 267693
+    },
+    {
+      "id": "netease-track:22497473",
+      "neteaseTrackId": "22497473",
+      "title": "Exit Music (For a Film)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 267186
+    },
+    {
+      "id": "netease-track:22497474",
+      "neteaseTrackId": "22497474",
+      "title": "Let Down",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 299560
+    },
+    {
+      "id": "netease-track:22497475",
+      "neteaseTrackId": "22497475",
+      "title": "Karma Police",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 264066
+    },
+    {
+      "id": "netease-track:22497476",
+      "neteaseTrackId": "22497476",
+      "title": "Fitter Happier",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 117333
+    },
+    {
+      "id": "netease-track:22497477",
+      "neteaseTrackId": "22497477",
+      "title": "Electioneering",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 230626
+    },
+    {
+      "id": "netease-track:22497478",
+      "neteaseTrackId": "22497478",
+      "title": "Climbing Up the Walls",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 285200
+    },
+    {
+      "id": "netease-track:22497479",
+      "neteaseTrackId": "22497479",
+      "title": "No Surprises",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 229120
+    },
+    {
+      "id": "netease-track:22497480",
+      "neteaseTrackId": "22497480",
+      "title": "Lucky",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 258813
+    },
+    {
+      "id": "netease-track:22497481",
+      "neteaseTrackId": "22497481",
+      "title": "The Tourist",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 326533
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=2060534",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "OK Computer Radiohead",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

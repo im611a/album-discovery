@@ -1,0 +1,178 @@
+{
+  "internalId": "album:280599716",
+  "id": "album:280599716",
+  "neteaseAlbumId": "280599716",
+  "slug": "netease-280599716",
+  "title": "QUIT QUIETLY",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11074",
+      "neteaseArtistId": "11074",
+      "name": "落日飞车"
+    }
+  ],
+  "releaseDate": "2025-08-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/280599716.webp",
+    "alt": "《QUIT QUIETLY》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/280599716.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2733516587",
+      "neteaseTrackId": "2733516587",
+      "title": "Wind of Tomorrow",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 210150
+    },
+    {
+      "id": "netease-track:2733516588",
+      "neteaseTrackId": "2733516588",
+      "title": "Humor Tumor",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 254666
+    },
+    {
+      "id": "netease-track:2733516589",
+      "neteaseTrackId": "2733516589",
+      "title": "Believe U",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 226033
+    },
+    {
+      "id": "netease-track:2733516590",
+      "neteaseTrackId": "2733516590",
+      "title": "Mistakes",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 169600
+    },
+    {
+      "id": "netease-track:2733517399",
+      "neteaseTrackId": "2733517399",
+      "title": "Charon’s Gone",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 243466
+    },
+    {
+      "id": "netease-track:2733516592",
+      "neteaseTrackId": "2733516592",
+      "title": "Piccolo Amore",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 280566
+    },
+    {
+      "id": "netease-track:2733516593",
+      "neteaseTrackId": "2733516593",
+      "title": "Grow",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 192326
+    },
+    {
+      "id": "netease-track:2733517401",
+      "neteaseTrackId": "2733517401",
+      "title": "Everything I Have",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 285666
+    },
+    {
+      "id": "netease-track:2733516596",
+      "neteaseTrackId": "2733516596",
+      "title": "Satellite",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车",
+        "窦靖童"
+      ],
+      "durationMs": 208600
+    },
+    {
+      "id": "netease-track:2733516598",
+      "neteaseTrackId": "2733516598",
+      "title": "Bluebird",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 217222
+    },
+    {
+      "id": "netease-track:2733516599",
+      "neteaseTrackId": "2733516599",
+      "title": "Fading Out",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "落日飞车"
+      ],
+      "durationMs": 277333
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=280599716",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "QUIT QUIETLY 落日飞车",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

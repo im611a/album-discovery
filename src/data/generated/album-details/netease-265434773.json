@@ -1,0 +1,267 @@
+{
+  "internalId": "album:265434773",
+  "id": "album:265434773",
+  "neteaseAlbumId": "265434773",
+  "slug": "netease-265434773",
+  "title": "乐透人生",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1132392",
+      "neteaseArtistId": "1132392",
+      "name": "马思唯"
+    }
+  ],
+  "releaseDate": "2025-03-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "StreetVoice/A Few Good Kids Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/265434773.webp",
+    "alt": "《乐透人生》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/265434773.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2683306405",
+      "neteaseTrackId": "2683306405",
+      "title": "BSYMS",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 124897
+    },
+    {
+      "id": "netease-track:2683304743",
+      "neteaseTrackId": "2683304743",
+      "title": "Uh Uh Uh",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 199095
+    },
+    {
+      "id": "netease-track:2673105026",
+      "neteaseTrackId": "2673105026",
+      "title": "太成都",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 157396
+    },
+    {
+      "id": "netease-track:2683304744",
+      "neteaseTrackId": "2683304744",
+      "title": "Bad",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 140409
+    },
+    {
+      "id": "netease-track:2683304741",
+      "neteaseTrackId": "2683304741",
+      "title": "Passport",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "王洋EVIS"
+      ],
+      "durationMs": 197009
+    },
+    {
+      "id": "netease-track:2683304745",
+      "neteaseTrackId": "2683304745",
+      "title": "Rendez Vous",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 147881
+    },
+    {
+      "id": "netease-track:2683306407",
+      "neteaseTrackId": "2683306407",
+      "title": "Pop Music",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 167618
+    },
+    {
+      "id": "netease-track:2683304746",
+      "neteaseTrackId": "2683304746",
+      "title": "杨帅",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 137349
+    },
+    {
+      "id": "netease-track:2683306408",
+      "neteaseTrackId": "2683306408",
+      "title": "狮子王",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "弹壳Danko",
+        "王洋EVIS"
+      ],
+      "durationMs": 223965
+    },
+    {
+      "id": "netease-track:2683304747",
+      "neteaseTrackId": "2683304747",
+      "title": "黄色迷彩",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 233571
+    },
+    {
+      "id": "netease-track:2683304742",
+      "neteaseTrackId": "2683304742",
+      "title": "丝绸之路",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 138411
+    },
+    {
+      "id": "netease-track:2683304748",
+      "neteaseTrackId": "2683304748",
+      "title": "威尼斯人",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 165441
+    },
+    {
+      "id": "netease-track:2683306409",
+      "neteaseTrackId": "2683306409",
+      "title": "牛头马面",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "Melo"
+      ],
+      "durationMs": 196530
+    },
+    {
+      "id": "netease-track:2683306412",
+      "neteaseTrackId": "2683306412",
+      "title": "Switch Room",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "Saeku"
+      ],
+      "durationMs": 167801
+    },
+    {
+      "id": "netease-track:2683306410",
+      "neteaseTrackId": "2683306410",
+      "title": "有空有空",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "J. Sheon"
+      ],
+      "durationMs": 185303
+    },
+    {
+      "id": "netease-track:2683304749",
+      "neteaseTrackId": "2683304749",
+      "title": "House Music",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 206884
+    },
+    {
+      "id": "netease-track:2683306411",
+      "neteaseTrackId": "2683306411",
+      "title": "Ur Smile",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "马思唯"
+      ],
+      "durationMs": 171040
+    },
+    {
+      "id": "netease-track:2683306413",
+      "neteaseTrackId": "2683306413",
+      "title": "太成都 (Remix)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "马思唯",
+        "Sleepy Cat",
+        "Mengzi",
+        "Ty.",
+        "谢帝",
+        "邓典果DDG",
+        "PSY.P",
+        "Melo"
+      ],
+      "durationMs": 186790
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=265434773",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "exercise"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "乐透人生 马思唯",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

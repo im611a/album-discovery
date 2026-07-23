@@ -5,12 +5,12 @@ import { recommendAlbums } from "./recommendation";
 
 describe("recommendation engine", () => {
   it("is deterministic and emits reasons from actual contributions", () => {
-    const state = { ...createInitialUserState(), onboardingCompleted: true, taste: { ...createInitialUserState().taste, genres: ["ambient"], contexts: ["工作"] } };
+    const state = { ...createInitialUserState(), onboardingCompleted: true, taste: { ...createInitialUserState().taste, genres: ["ambient"], contexts: ["focus"] } };
     const first = recommendAlbums(state, 8);
     const second = recommendAlbums(state, 8);
     expect(first.map((item) => item.album.id)).toEqual(second.map((item) => item.album.id));
     expect(first.every((item) => item.reasons.length > 0)).toBe(true);
-    expect(first.some((item) => item.reasons.join(" ").includes("工作"))).toBe(true);
+    expect(first.some((item) => item.reasons.join(" ").includes("学习与专注"))).toBe(true);
   });
   it("excludes seeds, listened, dismissed and not-for-me records", () => {
     const [seed, listened, dismissed, disliked] = catalogAlbums.slice(0, 4);

@@ -1,0 +1,155 @@
+{
+  "internalId": "album:6298",
+  "id": "album:6298",
+  "neteaseAlbumId": "6298",
+  "slug": "netease-6298",
+  "title": "无能的力量",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "1998-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "东西音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6298.webp",
+    "alt": "《无能的力量》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/6298.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:63590",
+      "neteaseTrackId": "63590",
+      "title": "混子",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 346867
+    },
+    {
+      "id": "netease-track:63592",
+      "neteaseTrackId": "63592",
+      "title": "无能的力量",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 261745
+    },
+    {
+      "id": "netease-track:63594",
+      "neteaseTrackId": "63594",
+      "title": "九十年代",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 339586
+    },
+    {
+      "id": "netease-track:63596",
+      "neteaseTrackId": "63596",
+      "title": "笼中鸟儿",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 318626
+    },
+    {
+      "id": "netease-track:63598",
+      "neteaseTrackId": "63598",
+      "title": "缓冲",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 334865
+    },
+    {
+      "id": "netease-track:63600",
+      "neteaseTrackId": "63600",
+      "title": "新鲜摇滚Rock'n Roll",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 337666
+    },
+    {
+      "id": "netease-track:63601",
+      "neteaseTrackId": "63601",
+      "title": "另一个空间",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 495106
+    },
+    {
+      "id": "netease-track:63604",
+      "neteaseTrackId": "63604",
+      "title": "春节",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 307227
+    },
+    {
+      "id": "netease-track:63605",
+      "neteaseTrackId": "63605",
+      "title": "时代的晚上",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 373330
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=6298",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "无能的力量 崔健",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

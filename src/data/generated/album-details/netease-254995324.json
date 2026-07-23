@@ -1,0 +1,123 @@
+{
+  "internalId": "album:254995324",
+  "id": "album:254995324",
+  "neteaseAlbumId": "254995324",
+  "slug": "netease-254995324",
+  "title": "远路歌",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:4934",
+      "neteaseArtistId": "4934",
+      "name": "苏阳"
+    }
+  ],
+  "releaseDate": "2024-11-28",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/254995324.webp",
+    "alt": "《远路歌》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/254995324.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2650421041",
+      "neteaseTrackId": "2650421041",
+      "title": "月亮上长出的沙枣树",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 290900
+    },
+    {
+      "id": "netease-track:2650422046",
+      "neteaseTrackId": "2650422046",
+      "title": "三盏灯",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 306700
+    },
+    {
+      "id": "netease-track:2650421106",
+      "neteaseTrackId": "2650421106",
+      "title": "机器人人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 312250
+    },
+    {
+      "id": "netease-track:2650421109",
+      "neteaseTrackId": "2650421109",
+      "title": "远路歌",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "苏阳",
+        "张浅潜"
+      ],
+      "durationMs": 362714
+    },
+    {
+      "id": "netease-track:2650421116",
+      "neteaseTrackId": "2650421116",
+      "title": "少年",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 236518
+    },
+    {
+      "id": "netease-track:2650422103",
+      "neteaseTrackId": "2650422103",
+      "title": "远路歌（苏阳独唱版）",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "苏阳"
+      ],
+      "durationMs": 316554
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=254995324",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "远路歌 苏阳",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

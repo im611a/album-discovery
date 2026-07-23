@@ -1,0 +1,199 @@
+{
+  "internalId": "album:364399405",
+  "id": "album:364399405",
+  "neteaseAlbumId": "364399405",
+  "slug": "netease-364399405",
+  "title": "在这里停一下",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12463331",
+      "neteaseArtistId": "12463331",
+      "name": "deca joins"
+    }
+  ],
+  "releaseDate": "2026-03-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "发现梦想",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/364399405.webp",
+    "alt": "《在这里停一下》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/364399405.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3355118207",
+      "neteaseTrackId": "3355118207",
+      "title": "我不用问",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 238493
+    },
+    {
+      "id": "netease-track:3355118208",
+      "neteaseTrackId": "3355118208",
+      "title": "泥土",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 218500
+    },
+    {
+      "id": "netease-track:3355117698",
+      "neteaseTrackId": "3355117698",
+      "title": "喜相逢",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 250500
+    },
+    {
+      "id": "netease-track:3355117699",
+      "neteaseTrackId": "3355117699",
+      "title": "地图",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 278500
+    },
+    {
+      "id": "netease-track:3355118209",
+      "neteaseTrackId": "3355118209",
+      "title": "漫长的人生",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 223500
+    },
+    {
+      "id": "netease-track:3355117700",
+      "neteaseTrackId": "3355117700",
+      "title": "Gabi's Stove",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 38500
+    },
+    {
+      "id": "netease-track:3355117701",
+      "neteaseTrackId": "3355117701",
+      "title": "万有引力",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 257500
+    },
+    {
+      "id": "netease-track:3355118212",
+      "neteaseTrackId": "3355118212",
+      "title": "绝对的平衡",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 240100
+    },
+    {
+      "id": "netease-track:3355118213",
+      "neteaseTrackId": "3355118213",
+      "title": "失败的晚餐",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 207400
+    },
+    {
+      "id": "netease-track:3355117702",
+      "neteaseTrackId": "3355117702",
+      "title": "金龙隧道",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 63000
+    },
+    {
+      "id": "netease-track:3355118216",
+      "neteaseTrackId": "3355118216",
+      "title": "满月",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:3355117703",
+      "neteaseTrackId": "3355117703",
+      "title": "坐过站",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 307000
+    },
+    {
+      "id": "netease-track:3355118217",
+      "neteaseTrackId": "3355118217",
+      "title": "在这里停一下",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "deca joins"
+      ],
+      "durationMs": 290000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=364399405",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "在这里停一下 deca joins",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

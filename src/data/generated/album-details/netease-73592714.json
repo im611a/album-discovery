@@ -1,0 +1,176 @@
+{
+  "internalId": "album:73592714",
+  "id": "album:73592714",
+  "neteaseAlbumId": "73592714",
+  "slug": "netease-73592714",
+  "title": "Golem",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12802035",
+      "neteaseArtistId": "12802035",
+      "name": "33EMYBW"
+    }
+  ],
+  "releaseDate": "2018-10-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "SVBKVLT",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/73592714.webp",
+    "alt": "《Golem》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/73592714.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1312583050",
+      "neteaseTrackId": "1312583050",
+      "title": "Masudi",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 154940
+    },
+    {
+      "id": "netease-track:1312583051",
+      "neteaseTrackId": "1312583051",
+      "title": "Golem",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 208619
+    },
+    {
+      "id": "netease-track:1312582195",
+      "neteaseTrackId": "1312582195",
+      "title": "English",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 222075
+    },
+    {
+      "id": "netease-track:1312582196",
+      "neteaseTrackId": "1312582196",
+      "title": "Ship of Theseus",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 227272
+    },
+    {
+      "id": "netease-track:1312583052",
+      "neteaseTrackId": "1312583052",
+      "title": "Frankenstein",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 300386
+    },
+    {
+      "id": "netease-track:1312583053",
+      "neteaseTrackId": "1312583053",
+      "title": "Popop",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 167200
+    },
+    {
+      "id": "netease-track:1312582197",
+      "neteaseTrackId": "1312582197",
+      "title": "冬虫夏草",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 269454
+    },
+    {
+      "id": "netease-track:1312582198",
+      "neteaseTrackId": "1312582198",
+      "title": "Drum",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 194700
+    },
+    {
+      "id": "netease-track:1312582199",
+      "neteaseTrackId": "1312582199",
+      "title": "English (MIIIN Remix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 203164
+    },
+    {
+      "id": "netease-track:1312583054",
+      "neteaseTrackId": "1312583054",
+      "title": "Popop (Endgame Remix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 214924
+    },
+    {
+      "id": "netease-track:1312582200",
+      "neteaseTrackId": "1312582200",
+      "title": "Golem (Zutzut Remix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 228922
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=73592714",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Golem 33EMYBW",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

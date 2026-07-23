@@ -1,0 +1,195 @@
+{
+  "internalId": "album:153023757",
+  "id": "album:153023757",
+  "neteaseAlbumId": "153023757",
+  "slug": "netease-153023757",
+  "title": "健将mixtape",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:865007",
+      "neteaseArtistId": "865007",
+      "name": "法老"
+    },
+    {
+      "id": "netease-artist:12287129",
+      "neteaseArtistId": "12287129",
+      "name": "小精灵"
+    }
+  ],
+  "releaseDate": "2022-10-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "派嗨拜浪",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/153023757.webp",
+    "alt": "《健将mixtape》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/153023757.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1988565273",
+      "neteaseTrackId": "1988565273",
+      "title": "健将",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "小精灵"
+      ],
+      "durationMs": 160333
+    },
+    {
+      "id": "netease-track:1987851631",
+      "neteaseTrackId": "1987851631",
+      "title": "美丽心灵",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "小精灵",
+        "SHARK卫彬月"
+      ],
+      "durationMs": 220137
+    },
+    {
+      "id": "netease-track:1988564483",
+      "neteaseTrackId": "1988564483",
+      "title": "蛤蜊煎",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "小精灵"
+      ],
+      "durationMs": 189473
+    },
+    {
+      "id": "netease-track:1988565274",
+      "neteaseTrackId": "1988565274",
+      "title": "心跳回忆",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "小精灵"
+      ],
+      "durationMs": 150000
+    },
+    {
+      "id": "netease-track:1988564484",
+      "neteaseTrackId": "1988564484",
+      "title": "hate",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "小精灵",
+        "Genius"
+      ],
+      "durationMs": 187972
+    },
+    {
+      "id": "netease-track:1988564485",
+      "neteaseTrackId": "1988564485",
+      "title": "黑泡纠察队",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "DANNY K",
+        "龙崎"
+      ],
+      "durationMs": 252903
+    },
+    {
+      "id": "netease-track:1988564486",
+      "neteaseTrackId": "1988564486",
+      "title": "TASTE",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "泠风"
+      ],
+      "durationMs": 233653
+    },
+    {
+      "id": "netease-track:1988565276",
+      "neteaseTrackId": "1988565276",
+      "title": "我爱你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "MC脏脏"
+      ],
+      "durationMs": 221739
+    },
+    {
+      "id": "netease-track:1988564487",
+      "neteaseTrackId": "1988564487",
+      "title": "会魔法的老人",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "KKECHO"
+      ],
+      "durationMs": 170666
+    },
+    {
+      "id": "netease-track:1988302067",
+      "neteaseTrackId": "1988302067",
+      "title": "三十岁的无业游民",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "法老"
+      ],
+      "durationMs": 232173
+    },
+    {
+      "id": "netease-track:1988564488",
+      "neteaseTrackId": "1988564488",
+      "title": "88 riping",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "法老",
+        "小精灵",
+        "阿达娃",
+        "Buzzy"
+      ],
+      "durationMs": 253090
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=153023757",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "健将mixtape 法老 小精灵",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

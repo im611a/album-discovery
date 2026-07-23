@@ -1,0 +1,208 @@
+{
+  "internalId": "album:18909",
+  "id": "album:18909",
+  "neteaseAlbumId": "18909",
+  "slug": "netease-18909",
+  "title": "Partners 拍档",
+  "aliases": [
+    "周杰伦 方文山联手创作精选"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    },
+    {
+      "id": "netease-artist:12203406",
+      "neteaseArtistId": "12203406",
+      "name": "方文山"
+    }
+  ],
+  "releaseDate": "2002-04-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京亚歆时代网络科技有限责任公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18909.webp",
+    "alt": "《Partners 拍档》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18909.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186064",
+      "neteaseTrackId": "186064",
+      "title": "刀马旦",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "李玟"
+      ],
+      "durationMs": 192000
+    },
+    {
+      "id": "netease-track:186068",
+      "neteaseTrackId": "186068",
+      "title": "上海一九四三",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 196000
+    },
+    {
+      "id": "netease-track:186071",
+      "neteaseTrackId": "186071",
+      "title": "禁止悲伤",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "许茹芸"
+      ],
+      "durationMs": 329000
+    },
+    {
+      "id": "netease-track:186073",
+      "neteaseTrackId": "186073",
+      "title": "爱在西元前",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 234253
+    },
+    {
+      "id": "netease-track:186075",
+      "neteaseTrackId": "186075",
+      "title": "眼泪知道",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "温岚"
+      ],
+      "durationMs": 268000
+    },
+    {
+      "id": "netease-track:186077",
+      "neteaseTrackId": "186077",
+      "title": "夜空的精灵",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "古巨基"
+      ],
+      "durationMs": 250000
+    },
+    {
+      "id": "netease-track:186079",
+      "neteaseTrackId": "186079",
+      "title": "落雨声",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "江蕙"
+      ],
+      "durationMs": 300000
+    },
+    {
+      "id": "netease-track:186082",
+      "neteaseTrackId": "186082",
+      "title": "动心",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "温岚",
+        "林迈可"
+      ],
+      "durationMs": 289828
+    },
+    {
+      "id": "netease-track:186084",
+      "neteaseTrackId": "186084",
+      "title": "娘子",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 268000
+    },
+    {
+      "id": "netease-track:186086",
+      "neteaseTrackId": "186086",
+      "title": "电灯泡",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "康康"
+      ],
+      "durationMs": 236306
+    },
+    {
+      "id": "netease-track:186087",
+      "neteaseTrackId": "186087",
+      "title": "电灯泡 II",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "康康"
+      ],
+      "durationMs": 224893
+    },
+    {
+      "id": "netease-track:186091",
+      "neteaseTrackId": "186091",
+      "title": "胡同里有只猫",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "温岚"
+      ],
+      "durationMs": 284000
+    },
+    {
+      "id": "netease-track:186093",
+      "neteaseTrackId": "186093",
+      "title": "反方向的钟",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 257000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=18909",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Partners 拍档 周杰伦 方文山联手创作精选 周杰伦 方文山",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

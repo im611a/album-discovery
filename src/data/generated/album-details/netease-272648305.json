@@ -1,0 +1,124 @@
+{
+  "internalId": "album:272648305",
+  "id": "album:272648305",
+  "neteaseAlbumId": "272648305",
+  "slug": "netease-272648305",
+  "title": "꽃갈피 셋",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:160947",
+      "neteaseArtistId": "160947",
+      "name": "IU"
+    }
+  ],
+  "releaseDate": "2025-05-26",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Kakao Entertainment Corp.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/272648305.webp",
+    "alt": "《꽃갈피 셋》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/272648305.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2707034274",
+      "neteaseTrackId": "2707034274",
+      "title": "빨간 운동화",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 206026
+    },
+    {
+      "id": "netease-track:2707034280",
+      "neteaseTrackId": "2707034280",
+      "title": "Never Ending Story",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 224026
+    },
+    {
+      "id": "netease-track:2707033506",
+      "neteaseTrackId": "2707033506",
+      "title": "10월 4일",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 232026
+    },
+    {
+      "id": "netease-track:2707033507",
+      "neteaseTrackId": "2707033507",
+      "title": "Last Scene (Feat. 원슈타인)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "Wonstein"
+      ],
+      "durationMs": 243000
+    },
+    {
+      "id": "netease-track:2707034281",
+      "neteaseTrackId": "2707034281",
+      "title": "미인 (Feat. Balming Tiger)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "Balming Tiger"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:2707034282",
+      "neteaseTrackId": "2707034282",
+      "title": "네모의 꿈",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 201013
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=272648305",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "꽃갈피 셋 IU",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,177 @@
+{
+  "internalId": "album:19038",
+  "id": "album:19038",
+  "neteaseAlbumId": "19038",
+  "slug": "red-leslie",
+  "title": "红",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1996-11-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19038.webp",
+    "alt": "《红》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/19038.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187907",
+      "neteaseTrackId": "187907",
+      "title": "Prologue",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 15560
+    },
+    {
+      "id": "netease-track:187909",
+      "neteaseTrackId": "187909",
+      "title": "偷情",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 296983
+    },
+    {
+      "id": "netease-track:187912",
+      "neteaseTrackId": "187912",
+      "title": "有心人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268720
+    },
+    {
+      "id": "netease-track:187916",
+      "neteaseTrackId": "187916",
+      "title": "还有谁",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 204466
+    },
+    {
+      "id": "netease-track:187919",
+      "neteaseTrackId": "187919",
+      "title": "谈情说爱",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 233200
+    },
+    {
+      "id": "netease-track:187923",
+      "neteaseTrackId": "187923",
+      "title": "你我之间",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 249093
+    },
+    {
+      "id": "netease-track:187927",
+      "neteaseTrackId": "187927",
+      "title": "怨男",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 219266
+    },
+    {
+      "id": "netease-track:187931",
+      "neteaseTrackId": "187931",
+      "title": "怪你过份美丽",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 297466
+    },
+    {
+      "id": "netease-track:187935",
+      "neteaseTrackId": "187935",
+      "title": "不想拥抱我的人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 232040
+    },
+    {
+      "id": "netease-track:187939",
+      "neteaseTrackId": "187939",
+      "title": "意犹未尽",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 224106
+    },
+    {
+      "id": "netease-track:187943",
+      "neteaseTrackId": "187943",
+      "title": "红",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 285667
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=19038",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "红 张国荣",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,181 @@
+{
+  "internalId": "album:18877",
+  "id": "album:18877",
+  "neteaseAlbumId": "18877",
+  "slug": "netease-18877",
+  "title": "魔杰座",
+  "aliases": [
+    "Capricorn"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2008-10-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18877.webp",
+    "alt": "《魔杰座》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18877.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185692",
+      "neteaseTrackId": "185692",
+      "title": "龙战骑士",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 271107
+    },
+    {
+      "id": "netease-track:185694",
+      "neteaseTrackId": "185694",
+      "title": "给我一首歌的时间",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:185696",
+      "neteaseTrackId": "185696",
+      "title": "蛇舞",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "梁心颐"
+      ],
+      "durationMs": 174760
+    },
+    {
+      "id": "netease-track:185697",
+      "neteaseTrackId": "185697",
+      "title": "花海",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 264000
+    },
+    {
+      "id": "netease-track:185698",
+      "neteaseTrackId": "185698",
+      "title": "魔术先生",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:185699",
+      "neteaseTrackId": "185699",
+      "title": "说好的幸福呢",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 256720
+    },
+    {
+      "id": "netease-track:185701",
+      "neteaseTrackId": "185701",
+      "title": "兰亭序",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:185703",
+      "neteaseTrackId": "185703",
+      "title": "流浪诗人",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "杨瑞代"
+      ],
+      "durationMs": 169000
+    },
+    {
+      "id": "netease-track:185705",
+      "neteaseTrackId": "185705",
+      "title": "时光机",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 311000
+    },
+    {
+      "id": "netease-track:185707",
+      "neteaseTrackId": "185707",
+      "title": "乔克叔叔",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 256000
+    },
+    {
+      "id": "netease-track:185709",
+      "neteaseTrackId": "185709",
+      "title": "稻香",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 223453
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18877",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "魔杰座 Capricorn 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,121 @@
+{
+  "internalId": "album:78829425",
+  "id": "album:78829425",
+  "neteaseAlbumId": "78829425",
+  "slug": "netease-78829425",
+  "title": "DONG 2",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12802035",
+      "neteaseArtistId": "12802035",
+      "name": "33EMYBW"
+    }
+  ],
+  "releaseDate": "2019-04-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Beijing Modern Sky Culture Development Co.,Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/78829425.webp",
+    "alt": "《DONG 2》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/78829425.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1361987295",
+      "neteaseTrackId": "1361987295",
+      "title": "Happy Museum",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 326502
+    },
+    {
+      "id": "netease-track:1361987296",
+      "neteaseTrackId": "1361987296",
+      "title": "They came to the Farmland Party Last Night",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 220002
+    },
+    {
+      "id": "netease-track:1361988234",
+      "neteaseTrackId": "1361988234",
+      "title": "Herbal Gemini",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 292702
+    },
+    {
+      "id": "netease-track:1361987297",
+      "neteaseTrackId": "1361987297",
+      "title": "Silver Hill",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 183902
+    },
+    {
+      "id": "netease-track:1361988235",
+      "neteaseTrackId": "1361988235",
+      "title": "Day 3",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 252502
+    },
+    {
+      "id": "netease-track:1361987298",
+      "neteaseTrackId": "1361987298",
+      "title": "A Lighter Dream",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "33EMYBW"
+      ],
+      "durationMs": 186202
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=78829425",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "DONG 2 33EMYBW",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

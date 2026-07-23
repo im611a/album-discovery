@@ -1,0 +1,357 @@
+{
+  "internalId": "album:316551",
+  "id": "album:316551",
+  "neteaseAlbumId": "316551",
+  "slug": "madvillainy",
+  "title": "Madvillainy",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:68199",
+      "neteaseArtistId": "68199",
+      "name": "Madvillain"
+    },
+    {
+      "id": "netease-artist:38994",
+      "neteaseArtistId": "38994",
+      "name": "MF DOOM"
+    },
+    {
+      "id": "netease-artist:38940",
+      "neteaseArtistId": "38940",
+      "name": "Madlib"
+    }
+  ],
+  "releaseDate": "2004-03-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Stones Throw Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/316551.webp",
+    "alt": "《Madvillainy》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/316551.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3130667",
+      "neteaseTrackId": "3130667",
+      "title": "The Illest Villains",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 115360
+    },
+    {
+      "id": "netease-track:3130668",
+      "neteaseTrackId": "3130668",
+      "title": "Accordion",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 118853
+    },
+    {
+      "id": "netease-track:3130670",
+      "neteaseTrackId": "3130670",
+      "title": "Meat Grinder",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 131866
+    },
+    {
+      "id": "netease-track:3130672",
+      "neteaseTrackId": "3130672",
+      "title": "Bistro",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 67520
+    },
+    {
+      "id": "netease-track:3130674",
+      "neteaseTrackId": "3130674",
+      "title": "Raid",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib",
+        "MED"
+      ],
+      "durationMs": 150520
+    },
+    {
+      "id": "netease-track:3130676",
+      "neteaseTrackId": "3130676",
+      "title": "America's Most Blunted",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib",
+        "Quasimoto"
+      ],
+      "durationMs": 234040
+    },
+    {
+      "id": "netease-track:3130678",
+      "neteaseTrackId": "3130678",
+      "title": "Sickfit",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 81880
+    },
+    {
+      "id": "netease-track:3130680",
+      "neteaseTrackId": "3130680",
+      "title": "Rainbows",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 171840
+    },
+    {
+      "id": "netease-track:3130682",
+      "neteaseTrackId": "3130682",
+      "title": "Curls",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 95506
+    },
+    {
+      "id": "netease-track:3130684",
+      "neteaseTrackId": "3130684",
+      "title": "Do Not Fire!",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 52826
+    },
+    {
+      "id": "netease-track:3130686",
+      "neteaseTrackId": "3130686",
+      "title": "Money Folder",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 182800
+    },
+    {
+      "id": "netease-track:3130688",
+      "neteaseTrackId": "3130688",
+      "title": "Shadows of Tomorrow",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib",
+        "Quasimoto"
+      ],
+      "durationMs": 156186
+    },
+    {
+      "id": "netease-track:3130691",
+      "neteaseTrackId": "3130691",
+      "title": "Operation Lifesaver aka Mint Test",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 90133
+    },
+    {
+      "id": "netease-track:3130694",
+      "neteaseTrackId": "3130694",
+      "title": "Figaro",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 145706
+    },
+    {
+      "id": "netease-track:3130697",
+      "neteaseTrackId": "3130697",
+      "title": "Hardcore Hustle",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib",
+        "Wildchild"
+      ],
+      "durationMs": 81920
+    },
+    {
+      "id": "netease-track:3130700",
+      "neteaseTrackId": "3130700",
+      "title": "Strange Ways",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 111666
+    },
+    {
+      "id": "netease-track:3130703",
+      "neteaseTrackId": "3130703",
+      "title": "Fancy Clown",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib",
+        "Viktor Vaughn"
+      ],
+      "durationMs": 115826
+    },
+    {
+      "id": "netease-track:3130705",
+      "neteaseTrackId": "3130705",
+      "title": "Eye",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib",
+        "Stacy Epps"
+      ],
+      "durationMs": 117773
+    },
+    {
+      "id": "netease-track:3130707",
+      "neteaseTrackId": "3130707",
+      "title": "Supervillain Theme",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 52720
+    },
+    {
+      "id": "netease-track:3130709",
+      "neteaseTrackId": "3130709",
+      "title": "All Caps",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 130480
+    },
+    {
+      "id": "netease-track:3130712",
+      "neteaseTrackId": "3130712",
+      "title": "Great Day",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 136920
+    },
+    {
+      "id": "netease-track:3130715",
+      "neteaseTrackId": "3130715",
+      "title": "Rhinestone Cowboy",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Madvillain",
+        "MF DOOM",
+        "Madlib"
+      ],
+      "durationMs": 239826
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=316551",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Madvillainy Madvillain MF DOOM Madlib",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

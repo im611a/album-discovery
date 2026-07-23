@@ -1,0 +1,138 @@
+{
+  "internalId": "album:78321108",
+  "id": "album:78321108",
+  "neteaseAlbumId": "78321108",
+  "slug": "netease-78321108",
+  "title": "Nesa Tape",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12198387",
+      "neteaseArtistId": "12198387",
+      "name": "艾志恒Asen"
+    }
+  ],
+  "releaseDate": "2019-04-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/78321108.webp",
+    "alt": "《Nesa Tape》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/78321108.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1356846189",
+      "neteaseTrackId": "1356846189",
+      "title": "Save",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 110985
+    },
+    {
+      "id": "netease-track:1356846289",
+      "neteaseTrackId": "1356846289",
+      "title": "Like It",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 210043
+    },
+    {
+      "id": "netease-track:1356846472",
+      "neteaseTrackId": "1356846472",
+      "title": "Misery",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "stik"
+      ],
+      "durationMs": 113812
+    },
+    {
+      "id": "netease-track:1356846507",
+      "neteaseTrackId": "1356846507",
+      "title": "坠毁",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "THOME"
+      ],
+      "durationMs": 180855
+    },
+    {
+      "id": "netease-track:1356842901",
+      "neteaseTrackId": "1356842901",
+      "title": "Once Upon A Time Freestyle",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "BIG Shivy",
+        "XZTYWXZYTYXZ",
+        "李佳隆"
+      ],
+      "durationMs": 254591
+    },
+    {
+      "id": "netease-track:1356847007",
+      "neteaseTrackId": "1356847007",
+      "title": "Daily Heartbreak",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 129605
+    },
+    {
+      "id": "netease-track:1356867037",
+      "neteaseTrackId": "1356867037",
+      "title": "Know Me",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 102014
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=78321108",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Nesa Tape 艾志恒Asen",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

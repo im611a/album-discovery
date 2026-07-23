@@ -1,0 +1,145 @@
+{
+  "internalId": "album:169036446",
+  "id": "album:169036446",
+  "neteaseAlbumId": "169036446",
+  "slug": "netease-169036446",
+  "title": "贤文乐集之夏",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:33154502",
+      "neteaseArtistId": "33154502",
+      "name": "朝简"
+    }
+  ],
+  "releaseDate": "2023-07-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/169036446.webp",
+    "alt": "《贤文乐集之夏》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/169036446.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2061665491",
+      "neteaseTrackId": "2061665491",
+      "title": "爱莲说 陋室铭",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 510337
+    },
+    {
+      "id": "netease-track:2061665492",
+      "neteaseTrackId": "2061665492",
+      "title": "喜雨亭记",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 596571
+    },
+    {
+      "id": "netease-track:2061665493",
+      "neteaseTrackId": "2061665493",
+      "title": "出师表",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 660000
+    },
+    {
+      "id": "netease-track:2061665494",
+      "neteaseTrackId": "2061665494",
+      "title": "幽涧泉集",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 379534
+    },
+    {
+      "id": "netease-track:2061666458",
+      "neteaseTrackId": "2061666458",
+      "title": "桃花源记",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 714000
+    },
+    {
+      "id": "netease-track:2061666459",
+      "neteaseTrackId": "2061666459",
+      "title": "后出师表",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 660000
+    },
+    {
+      "id": "netease-track:2061666460",
+      "neteaseTrackId": "2061666460",
+      "title": "小园赋",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "朝简"
+      ],
+      "durationMs": 964363
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=169036446",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "贤文乐集之夏 窦唯 朝简",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

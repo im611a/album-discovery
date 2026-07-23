@@ -1,0 +1,133 @@
+{
+  "internalId": "album:35834111",
+  "id": "album:35834111",
+  "neteaseAlbumId": "35834111",
+  "slug": "netease-35834111",
+  "title": "陈粒\"在蓬莱\"in Blue Note Beijing",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2017-07-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京有此山文化傳媒有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35834111.webp",
+    "alt": "《陈粒\"在蓬莱\"in Blue Note Beijing》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35834111.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:493041448",
+      "neteaseTrackId": "493041448",
+      "title": "Shadow夜神仙 (Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 485213
+    },
+    {
+      "id": "netease-track:493042424",
+      "neteaseTrackId": "493042424",
+      "title": "Gold Unfold肿胀 (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 532320
+    },
+    {
+      "id": "netease-track:493041444",
+      "neteaseTrackId": "493041444",
+      "title": "Another Run 新一轮 (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 453426
+    },
+    {
+      "id": "netease-track:493042425",
+      "neteaseTrackId": "493042425",
+      "title": "Ocean Keeper海洋管理 (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 433240
+    },
+    {
+      "id": "netease-track:493041447",
+      "neteaseTrackId": "493041447",
+      "title": "Secret Door消息 (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 505880
+    },
+    {
+      "id": "netease-track:493041446",
+      "neteaseTrackId": "493041446",
+      "title": "Place of Empty有 (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 487306
+    },
+    {
+      "id": "netease-track:493042426",
+      "neteaseTrackId": "493042426",
+      "title": "蓬萊 (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 386986
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=35834111",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "陈粒\"在蓬莱\"in Blue Note Beijing 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

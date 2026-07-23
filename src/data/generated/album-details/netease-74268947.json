@@ -1,0 +1,241 @@
+{
+  "internalId": "album:74268947",
+  "id": "album:74268947",
+  "neteaseAlbumId": "74268947",
+  "slug": "netease-74268947",
+  "title": "L.O.V.E.",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    },
+    {
+      "id": "netease-artist:14713083",
+      "neteaseArtistId": "14713083",
+      "name": "eason and the duo band"
+    }
+  ],
+  "releaseDate": "2018-12-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/74268947.webp",
+    "alt": "《L.O.V.E.》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/74268947.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1323302905",
+      "neteaseTrackId": "1323302905",
+      "title": "8:15pm (Intro)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 16441
+    },
+    {
+      "id": "netease-track:1318630444",
+      "neteaseTrackId": "1318630444",
+      "title": "破坏王",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 259125
+    },
+    {
+      "id": "netease-track:1323301909",
+      "neteaseTrackId": "1323301909",
+      "title": "海里睡人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 257407
+    },
+    {
+      "id": "netease-track:574908698",
+      "neteaseTrackId": "574908698",
+      "title": "渐渐",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 277997
+    },
+    {
+      "id": "netease-track:1323303920",
+      "neteaseTrackId": "1323303920",
+      "title": "Devotion (Interlude)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 35573
+    },
+    {
+      "id": "netease-track:1323301910",
+      "neteaseTrackId": "1323301910",
+      "title": "敬烟",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 323601
+    },
+    {
+      "id": "netease-track:1323304978",
+      "neteaseTrackId": "1323304978",
+      "title": "蠢",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 185513
+    },
+    {
+      "id": "netease-track:1323302906",
+      "neteaseTrackId": "1323302906",
+      "title": "疯狂的朋友",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 236379
+    },
+    {
+      "id": "netease-track:1323304979",
+      "neteaseTrackId": "1323304979",
+      "title": "Unity (Interlude)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 32680
+    },
+    {
+      "id": "netease-track:1323301912",
+      "neteaseTrackId": "1323301912",
+      "title": "R U N",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 250728
+    },
+    {
+      "id": "netease-track:1323302907",
+      "neteaseTrackId": "1323302907",
+      "title": "龙舌兰",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 285284
+    },
+    {
+      "id": "netease-track:1323304980",
+      "neteaseTrackId": "1323304980",
+      "title": "我们万岁",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 236638
+    },
+    {
+      "id": "netease-track:1323304981",
+      "neteaseTrackId": "1323304981",
+      "title": "Originality  (Interlude)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 59705
+    },
+    {
+      "id": "netease-track:567447039",
+      "neteaseTrackId": "567447039",
+      "title": "与你常在",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 298218
+    },
+    {
+      "id": "netease-track:1300423074",
+      "neteaseTrackId": "1300423074",
+      "title": "可一可再",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "durationMs": 287573
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=74268947",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "L.O.V.E. 陈奕迅 eason and the duo band",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

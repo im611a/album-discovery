@@ -1,0 +1,144 @@
+{
+  "internalId": "album:38197",
+  "id": "album:38197",
+  "neteaseAlbumId": "38197",
+  "slug": "netease-38197",
+  "title": "IV",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2008-05-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38197.webp",
+    "alt": "《IV》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/38197.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:385360",
+      "neteaseTrackId": "385360",
+      "title": "污水塘",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 386000
+    },
+    {
+      "id": "netease-track:385363",
+      "neteaseTrackId": "385363",
+      "title": "龙西",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 249023
+    },
+    {
+      "id": "netease-track:385365",
+      "neteaseTrackId": "385365",
+      "title": "Rust Inside",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 512569
+    },
+    {
+      "id": "netease-track:385367",
+      "neteaseTrackId": "385367",
+      "title": "06M",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 387517
+    },
+    {
+      "id": "netease-track:385369",
+      "neteaseTrackId": "385369",
+      "title": "花满都 VS 川味子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 463595
+    },
+    {
+      "id": "netease-track:385372",
+      "neteaseTrackId": "385372",
+      "title": "抿嘴谣",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 459163
+    },
+    {
+      "id": "netease-track:385375",
+      "neteaseTrackId": "385375",
+      "title": "To the Mars",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 690510
+    },
+    {
+      "id": "netease-track:38679185",
+      "neteaseTrackId": "38679185",
+      "title": "污水塘 (Remix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 805132
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=38197",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "IV 惘闻",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

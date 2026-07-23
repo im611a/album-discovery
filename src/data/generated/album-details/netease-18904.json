@@ -1,0 +1,102 @@
+{
+  "internalId": "album:18904",
+  "id": "album:18904",
+  "neteaseAlbumId": "18904",
+  "slug": "netease-18904",
+  "title": "寻找周杰伦",
+  "aliases": [
+    "Hidden Track"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2003-11-10",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18904.webp",
+    "alt": "《寻找周杰伦》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/18904.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186010",
+      "neteaseTrackId": "186010",
+      "title": "轨迹",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 326000
+    },
+    {
+      "id": "netease-track:186011",
+      "neteaseTrackId": "186011",
+      "title": "断了的弦",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 297000
+    },
+    {
+      "id": "netease-track:186012",
+      "neteaseTrackId": "186012",
+      "title": "轨迹(伴奏)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 326000
+    },
+    {
+      "id": "netease-track:186013",
+      "neteaseTrackId": "186013",
+      "title": "断了的弦(伴奏)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 293000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=18904",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "寻找周杰伦 Hidden Track 周杰伦",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

@@ -1,0 +1,194 @@
+{
+  "internalId": "album:154372290",
+  "id": "album:154372290",
+  "neteaseAlbumId": "154372290",
+  "slug": "netease-154372290",
+  "title": "NESA",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12198387",
+      "neteaseArtistId": "12198387",
+      "name": "艾志恒Asen"
+    }
+  ],
+  "releaseDate": "2022-11-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "DIGI GHETTO",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/154372290.webp",
+    "alt": "《NESA》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/154372290.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1995339510",
+      "neteaseTrackId": "1995339510",
+      "title": "Going Down ft.刘牧洲",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "付思遥",
+        "Caroline堵琳",
+        "刘牧洲"
+      ],
+      "durationMs": 180996
+    },
+    {
+      "id": "netease-track:1995339511",
+      "neteaseTrackId": "1995339511",
+      "title": "说唱钱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "付思遥",
+        "李佳隆"
+      ],
+      "durationMs": 269588
+    },
+    {
+      "id": "netease-track:1995339652",
+      "neteaseTrackId": "1995339652",
+      "title": "New Gen (Skit)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "连麻Swimming"
+      ],
+      "durationMs": 49499
+    },
+    {
+      "id": "netease-track:1995339512",
+      "neteaseTrackId": "1995339512",
+      "title": "Back 2 Back",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "付思遥"
+      ],
+      "durationMs": 153886
+    },
+    {
+      "id": "netease-track:1964696171",
+      "neteaseTrackId": "1964696171",
+      "title": "土黑娃 ft.thomeboydontkill",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "THOME"
+      ],
+      "durationMs": 243555
+    },
+    {
+      "id": "netease-track:1995339653",
+      "neteaseTrackId": "1995339653",
+      "title": "What U Gon Do (你要如何)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen"
+      ],
+      "durationMs": 182857
+    },
+    {
+      "id": "netease-track:1995339654",
+      "neteaseTrackId": "1995339654",
+      "title": "Self Care Freestyle ft.谢帝",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "谢帝"
+      ],
+      "durationMs": 262843
+    },
+    {
+      "id": "netease-track:1995339655",
+      "neteaseTrackId": "1995339655",
+      "title": "给奶奶的信",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "付思遥"
+      ],
+      "durationMs": 197142
+    },
+    {
+      "id": "netease-track:1995339514",
+      "neteaseTrackId": "1995339514",
+      "title": "写不来情歌",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "付思遥"
+      ],
+      "durationMs": 148111
+    },
+    {
+      "id": "netease-track:1995339515",
+      "neteaseTrackId": "1995339515",
+      "title": "燕子",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "付思遥",
+        "DiESi"
+      ],
+      "durationMs": 209708
+    },
+    {
+      "id": "netease-track:1995339656",
+      "neteaseTrackId": "1995339656",
+      "title": "落幕",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "艾志恒Asen",
+        "付思遥",
+        "GALI",
+        "Caroline堵琳",
+        "NeeN"
+      ],
+      "durationMs": 215999
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=154372290",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "NESA 艾志恒Asen",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

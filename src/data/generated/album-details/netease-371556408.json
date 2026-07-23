@@ -1,0 +1,125 @@
+{
+  "internalId": "album:371556408",
+  "id": "album:371556408",
+  "neteaseAlbumId": "371556408",
+  "slug": "netease-371556408",
+  "title": "エナジー風呂",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12634145",
+      "neteaseArtistId": "12634145",
+      "name": "U-zhaan"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    },
+    {
+      "id": "netease-artist:159830",
+      "neteaseArtistId": "159830",
+      "name": "環ROY"
+    },
+    {
+      "id": "netease-artist:161394",
+      "neteaseArtistId": "161394",
+      "name": "鎮座DOPENESS"
+    }
+  ],
+  "releaseDate": "2026-04-25",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "(P)2026 KAB INC., AVEX MUSIC CREATIVE INC.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/371556408.webp",
+    "alt": "《エナジー風呂》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/371556408.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3371237207",
+      "neteaseTrackId": "3371237207",
+      "title": "エナジー風呂 / Remastered 2026",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "U-zhaan",
+        "坂本龍一",
+        "環ROY",
+        "鎮座DOPENESS"
+      ],
+      "durationMs": 297269
+    },
+    {
+      "id": "netease-track:3371237208",
+      "neteaseTrackId": "3371237208",
+      "title": "天然エナジー風呂",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "U-zhaan",
+        "坂本龍一",
+        "環ROY",
+        "鎮座DOPENESS"
+      ],
+      "durationMs": 247096
+    },
+    {
+      "id": "netease-track:3371237209",
+      "neteaseTrackId": "3371237209",
+      "title": "テクノポリス",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "U-zhaan",
+        "坂本龍一",
+        "環ROY",
+        "鎮座DOPENESS"
+      ],
+      "durationMs": 164968
+    },
+    {
+      "id": "netease-track:3371237210",
+      "neteaseTrackId": "3371237210",
+      "title": "energy flow - rework / Remastered 2026",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "U-zhaan",
+        "坂本龍一"
+      ],
+      "durationMs": 381765
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=371556408",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "エナジー風呂 U-zhaan 坂本龍一 環ROY 鎮座DOPENESS",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

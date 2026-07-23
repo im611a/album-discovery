@@ -10,6 +10,7 @@ describe("local state migration and reconciliation", () => {
     const migrated = parseLocalUserState({ favoriteAlbumIds: [id], savedAlbumIds: [], listenedAlbumIds: [], dismissedAlbumIds: [], recentAlbumIds: [], recommendationFeedback: {}, taste: createInitialUserState().taste }, ids);
     expect(migrated?.version).toBe(1);
     expect(migrated?.favoriteAlbumIds).toEqual([id]);
+    expect(migrated?.likedAlbumIds).toEqual([id]);
     expect(migrated?.recommendationFeedback[id]).toBe("like");
   });
 

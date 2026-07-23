@@ -1,0 +1,204 @@
+{
+  "internalId": "album:379890387",
+  "id": "album:379890387",
+  "neteaseAlbumId": "379890387",
+  "slug": "netease-379890387",
+  "title": "日露金生",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:94064",
+      "neteaseArtistId": "94064",
+      "name": "Howie Lee"
+    }
+  ],
+  "releaseDate": "2026-07-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/379890387.webp",
+    "alt": "《日露金生》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/379890387.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3389725102",
+      "neteaseTrackId": "3389725102",
+      "title": "回光",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 165500
+    },
+    {
+      "id": "netease-track:3389723576",
+      "neteaseTrackId": "3389723576",
+      "title": "未来现在技巧 (Feat. Yehaiyahan)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "YEHAIYAHAN"
+      ],
+      "durationMs": 225000
+    },
+    {
+      "id": "netease-track:3389724515",
+      "neteaseTrackId": "3389724515",
+      "title": "夜曲",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 147600
+    },
+    {
+      "id": "netease-track:3389725103",
+      "neteaseTrackId": "3389725103",
+      "title": "光阴偈",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 252800
+    },
+    {
+      "id": "netease-track:3389724516",
+      "neteaseTrackId": "3389724516",
+      "title": "黑目梦蝶 (Feat.Yehaiyahan)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "YEHAIYAHAN"
+      ],
+      "durationMs": 213600
+    },
+    {
+      "id": "netease-track:3389724517",
+      "neteaseTrackId": "3389724517",
+      "title": "入莲心曲",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 223090
+    },
+    {
+      "id": "netease-track:3389724518",
+      "neteaseTrackId": "3389724518",
+      "title": "分割太阳毡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 151000
+    },
+    {
+      "id": "netease-track:3389725104",
+      "neteaseTrackId": "3389725104",
+      "title": "沉睡在知识里",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 160153
+    },
+    {
+      "id": "netease-track:3389725105",
+      "neteaseTrackId": "3389725105",
+      "title": "魔鬼",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 242700
+    },
+    {
+      "id": "netease-track:3389724519",
+      "neteaseTrackId": "3389724519",
+      "title": "请注意 (Feat.郭采洁)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "郭采洁"
+      ],
+      "durationMs": 236333
+    },
+    {
+      "id": "netease-track:3389721541",
+      "neteaseTrackId": "3389721541",
+      "title": "小鹿跳 (Feat. 郭采洁)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "郭采洁"
+      ],
+      "durationMs": 245714
+    },
+    {
+      "id": "netease-track:3389724520",
+      "neteaseTrackId": "3389724520",
+      "title": "过去倒影在湖的气泡上",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee"
+      ],
+      "durationMs": 226500
+    },
+    {
+      "id": "netease-track:3389723752",
+      "neteaseTrackId": "3389723752",
+      "title": "穷尽的节奏感 (Feat. 朱婧汐)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Howie Lee",
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 181595
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=379890387",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "focus"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "日露金生 Howie Lee",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

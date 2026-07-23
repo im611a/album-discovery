@@ -1,0 +1,200 @@
+{
+  "internalId": "album:15181",
+  "id": "album:15181",
+  "neteaseAlbumId": "15181",
+  "slug": "netease-15181",
+  "title": "六九乐章",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "2009-08-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15181.webp",
+    "alt": "《六九乐章》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/15181.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:150387",
+      "neteaseTrackId": "150387",
+      "title": "愿主怜悯",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 91360
+    },
+    {
+      "id": "netease-track:150388",
+      "neteaseTrackId": "150388",
+      "title": "乱七∞糟",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 337240
+    },
+    {
+      "id": "netease-track:150389",
+      "neteaseTrackId": "150389",
+      "title": "暗恋",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 299200
+    },
+    {
+      "id": "netease-track:150390",
+      "neteaseTrackId": "150390",
+      "title": "Play",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆",
+        "郑可为"
+      ],
+      "durationMs": 219160
+    },
+    {
+      "id": "netease-track:150391",
+      "neteaseTrackId": "150391",
+      "title": "火鸟功",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 223800
+    },
+    {
+      "id": "netease-track:150392",
+      "neteaseTrackId": "150392",
+      "title": "雪豹",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 279373
+    },
+    {
+      "id": "netease-track:150393",
+      "neteaseTrackId": "150393",
+      "title": "关于陶喆",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 314000
+    },
+    {
+      "id": "netease-track:150394",
+      "neteaseTrackId": "150394",
+      "title": "我太傻",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 260906
+    },
+    {
+      "id": "netease-track:150395",
+      "neteaseTrackId": "150395",
+      "title": "请继续, 任性",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 199133
+    },
+    {
+      "id": "netease-track:150396",
+      "neteaseTrackId": "150396",
+      "title": "中国姑娘",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 274333
+    },
+    {
+      "id": "netease-track:150397",
+      "neteaseTrackId": "150397",
+      "title": "谁的奥斯卡?",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255600
+    },
+    {
+      "id": "netease-track:150398",
+      "neteaseTrackId": "150398",
+      "title": "应征爱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 223426
+    },
+    {
+      "id": "netease-track:150399",
+      "neteaseTrackId": "150399",
+      "title": "你的歌",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 268640
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=15181",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "六九乐章 陶喆",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

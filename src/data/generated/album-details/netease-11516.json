@@ -1,0 +1,232 @@
+{
+  "internalId": "album:11516",
+  "id": "album:11516",
+  "neteaseAlbumId": "11516",
+  "slug": "netease-11516",
+  "title": "贾樟柯电影音乐作品集",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "2007-06-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/11516.webp",
+    "alt": "《贾樟柯电影音乐作品集》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/11516.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:118403",
+      "neteaseTrackId": "118403",
+      "title": "THE WORLD OPEN",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 179890
+    },
+    {
+      "id": "netease-track:118408",
+      "neteaseTrackId": "118408",
+      "title": "SNOW VIEW",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 200000
+    },
+    {
+      "id": "netease-track:118413",
+      "neteaseTrackId": "118413",
+      "title": "长路漫漫 A LONG LONG ROAD",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 216000
+    },
+    {
+      "id": "netease-track:118418",
+      "neteaseTrackId": "118418",
+      "title": "青缪 GLOOMY",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 267718
+    },
+    {
+      "id": "netease-track:118422",
+      "neteaseTrackId": "118422",
+      "title": "长路 A LONG ROAD",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 260587
+    },
+    {
+      "id": "netease-track:118426",
+      "neteaseTrackId": "118426",
+      "title": "我们的十年 OUR 10 YEARS TIMES",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:118430",
+      "neteaseTrackId": "118430",
+      "title": "三峡好人开场 STILL LIFE OPENING",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 201600
+    },
+    {
+      "id": "netease-track:118435",
+      "neteaseTrackId": "118435",
+      "title": "滚滚长江 SURGING LONG RIVER",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 67293
+    },
+    {
+      "id": "netease-track:118440",
+      "neteaseTrackId": "118440",
+      "title": "静置 SILENCE",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 110000
+    },
+    {
+      "id": "netease-track:118445",
+      "neteaseTrackId": "118445",
+      "title": "东 TEA",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 67707
+    },
+    {
+      "id": "netease-track:118450",
+      "neteaseTrackId": "118450",
+      "title": "茶 TEA",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 109387
+    },
+    {
+      "id": "netease-track:118455",
+      "neteaseTrackId": "118455",
+      "title": "糖 SUGAR",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 47000
+    },
+    {
+      "id": "netease-track:118459",
+      "neteaseTrackId": "118459",
+      "title": "三峡好人片尾 STILL LIFE ENDING",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 262813
+    },
+    {
+      "id": "netease-track:118463",
+      "neteaseTrackId": "118463",
+      "title": "BROKEN TIME",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 288000
+    },
+    {
+      "id": "netease-track:118467",
+      "neteaseTrackId": "118467",
+      "title": "另一个十年 ANOTHER 10 YEARS",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 201273
+    },
+    {
+      "id": "netease-track:118471",
+      "neteaseTrackId": "118471",
+      "title": "东南 SOUTH-EAST",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 226000
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=11516",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "贾樟柯电影音乐作品集 林强",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

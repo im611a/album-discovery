@@ -1,0 +1,199 @@
+{
+  "internalId": "album:64241",
+  "id": "album:64241",
+  "neteaseAlbumId": "64241",
+  "slug": "netease-64241",
+  "title": "HEART STATION",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2008-03-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64241.webp",
+    "alt": "《HEART STATION》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/64241.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666386",
+      "neteaseTrackId": "666386",
+      "title": "Fight The Blues",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 250266
+    },
+    {
+      "id": "netease-track:666389",
+      "neteaseTrackId": "666389",
+      "title": "HEART STATION",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 276626
+    },
+    {
+      "id": "netease-track:666391",
+      "neteaseTrackId": "666391",
+      "title": "Beautiful World",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 317946
+    },
+    {
+      "id": "netease-track:666393",
+      "neteaseTrackId": "666393",
+      "title": "Flavor Of Life (Ballad Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 325346
+    },
+    {
+      "id": "netease-track:666395",
+      "neteaseTrackId": "666395",
+      "title": "Stay Gold",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 314693
+    },
+    {
+      "id": "netease-track:666397",
+      "neteaseTrackId": "666397",
+      "title": "Kiss & Cry",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 306280
+    },
+    {
+      "id": "netease-track:666401",
+      "neteaseTrackId": "666401",
+      "title": "Gentle Beast Interlude",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 73226
+    },
+    {
+      "id": "netease-track:666404",
+      "neteaseTrackId": "666404",
+      "title": "Celebrate",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 266946
+    },
+    {
+      "id": "netease-track:666406",
+      "neteaseTrackId": "666406",
+      "title": "Prisoner Of Love",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 286506
+    },
+    {
+      "id": "netease-track:666408",
+      "neteaseTrackId": "666408",
+      "title": "テイク5",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 222466
+    },
+    {
+      "id": "netease-track:666410",
+      "neteaseTrackId": "666410",
+      "title": "ぼくはくま",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 143240
+    },
+    {
+      "id": "netease-track:666412",
+      "neteaseTrackId": "666412",
+      "title": "虹色バス",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 350706
+    },
+    {
+      "id": "netease-track:666414",
+      "neteaseTrackId": "666414",
+      "title": "Flavor Of Life [Bonus Track]",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 287880
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=64241",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "HEART STATION 宇多田ヒカル",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

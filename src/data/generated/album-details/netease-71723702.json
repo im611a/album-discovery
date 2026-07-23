@@ -1,0 +1,186 @@
+{
+  "internalId": "album:71723702",
+  "id": "album:71723702",
+  "neteaseAlbumId": "71723702",
+  "slug": "netease-71723702",
+  "title": "世界上最难听的歌",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    },
+    {
+      "id": "netease-artist:54504757",
+      "neteaseArtistId": "54504757",
+      "name": "笑傲江湖马戏乐团"
+    }
+  ],
+  "releaseDate": "2026-01-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/71723702.webp",
+    "alt": "《世界上最难听的歌》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/71723702.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1407999594",
+      "neteaseTrackId": "1407999594",
+      "title": "早安北京",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 261666
+    },
+    {
+      "id": "netease-track:1435184156",
+      "neteaseTrackId": "1435184156",
+      "title": "爱情不在乎你怎么想",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 242544
+    },
+    {
+      "id": "netease-track:1875352260",
+      "neteaseTrackId": "1875352260",
+      "title": "瑟瑟",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 305108
+    },
+    {
+      "id": "netease-track:1430960533",
+      "neteaseTrackId": "1430960533",
+      "title": "苏鲁美朵",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 274986
+    },
+    {
+      "id": "netease-track:2635232681",
+      "neteaseTrackId": "2635232681",
+      "title": "喜剧之王",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 396141
+    },
+    {
+      "id": "netease-track:1915877337",
+      "neteaseTrackId": "1915877337",
+      "title": "爱情这狗东西",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 229123
+    },
+    {
+      "id": "netease-track:433681906",
+      "neteaseTrackId": "433681906",
+      "title": "能干的人总是极少数",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "喜曼朵曼",
+        "左小祖咒"
+      ],
+      "durationMs": 162895
+    },
+    {
+      "id": "netease-track:1875358832",
+      "neteaseTrackId": "1875358832",
+      "title": "太阳",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 231598
+    },
+    {
+      "id": "netease-track:1432447215",
+      "neteaseTrackId": "1432447215",
+      "title": "风月俏佳人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 237428
+    },
+    {
+      "id": "netease-track:1837266851",
+      "neteaseTrackId": "1837266851",
+      "title": "最荒唐",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 266130
+    },
+    {
+      "id": "netease-track:1379285098",
+      "neteaseTrackId": "1379285098",
+      "title": "佩奇",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "笑傲江湖马戏乐团"
+      ],
+      "durationMs": 276114
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=71723702",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "世界上最难听的歌 左小祖咒 笑傲江湖马戏乐团",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

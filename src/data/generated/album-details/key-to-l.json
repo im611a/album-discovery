@@ -1,0 +1,189 @@
+{
+  "internalId": "album:75017719",
+  "id": "album:75017719",
+  "neteaseAlbumId": "75017719",
+  "slug": "key-to-l",
+  "title": "KEY to L",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12788674",
+      "neteaseArtistId": "12788674",
+      "name": "KEY.L刘聪"
+    }
+  ],
+  "releaseDate": "2019-01-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/75017719.webp",
+    "alt": "《KEY to L》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/75017719.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1336856224",
+      "neteaseTrackId": "1336856224",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "牧羊少年"
+      ],
+      "durationMs": 74543
+    },
+    {
+      "id": "netease-track:1336856193",
+      "neteaseTrackId": "1336856193",
+      "title": "小黑屋",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "牧羊少年"
+      ],
+      "durationMs": 140487
+    },
+    {
+      "id": "netease-track:1331448190",
+      "neteaseTrackId": "1331448190",
+      "title": "离家出走",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "梁笑生AIRBUS130"
+      ],
+      "durationMs": 292173
+    },
+    {
+      "id": "netease-track:1333018503",
+      "neteaseTrackId": "1333018503",
+      "title": "黑色的梦",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "西奥Sio",
+        "THE-BETA"
+      ],
+      "durationMs": 266666
+    },
+    {
+      "id": "netease-track:1334473377",
+      "neteaseTrackId": "1334473377",
+      "title": "两个世界",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 187428
+    },
+    {
+      "id": "netease-track:1336856225",
+      "neteaseTrackId": "1336856225",
+      "title": "未婚妈妈",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "牧羊少年"
+      ],
+      "durationMs": 292173
+    },
+    {
+      "id": "netease-track:516857815",
+      "neteaseTrackId": "516857815",
+      "title": "二手摩托",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "梁笑生AIRBUS130"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:518511084",
+      "neteaseTrackId": "518511084",
+      "title": "Monica",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "THE-BETA"
+      ],
+      "durationMs": 287820
+    },
+    {
+      "id": "netease-track:1337032503",
+      "neteaseTrackId": "1337032503",
+      "title": "夜寞寂Kimoji",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 268540
+    },
+    {
+      "id": "netease-track:1329475622",
+      "neteaseTrackId": "1329475622",
+      "title": "Life's a movie",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "梁笑生AIRBUS130"
+      ],
+      "durationMs": 185635
+    },
+    {
+      "id": "netease-track:1336864187",
+      "neteaseTrackId": "1336864187",
+      "title": "KEY to L",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "KEY.L刘聪",
+        "c0de731"
+      ],
+      "durationMs": 180857
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=75017719",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "commute",
+    "night"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "KEY to L KEY.L刘聪",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

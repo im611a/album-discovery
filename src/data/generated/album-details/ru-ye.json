@@ -1,0 +1,221 @@
+{
+  "internalId": "album:3098832",
+  "id": "album:3098832",
+  "neteaseAlbumId": "3098832",
+  "slug": "ru-ye",
+  "title": "如也",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2015-02-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/3098832.webp",
+    "alt": "《如也》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/3098832.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:30431365",
+      "neteaseTrackId": "30431365",
+      "title": "不灭",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 233599
+    },
+    {
+      "id": "netease-track:30431374",
+      "neteaseTrackId": "30431374",
+      "title": "如也",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 209599
+    },
+    {
+      "id": "netease-track:30431366",
+      "neteaseTrackId": "30431366",
+      "title": "奇妙能力歌",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 253090
+    },
+    {
+      "id": "netease-track:30431375",
+      "neteaseTrackId": "30431375",
+      "title": "历历万乡",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 212307
+    },
+    {
+      "id": "netease-track:30431364",
+      "neteaseTrackId": "30431364",
+      "title": "光",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 141176
+    },
+    {
+      "id": "netease-track:30431378",
+      "neteaseTrackId": "30431378",
+      "title": "贪得",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 452541
+    },
+    {
+      "id": "netease-track:30431373",
+      "neteaseTrackId": "30431373",
+      "title": "七楼",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 189305
+    },
+    {
+      "id": "netease-track:30431376",
+      "neteaseTrackId": "30431376",
+      "title": "易燃易爆炸",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 200347
+    },
+    {
+      "id": "netease-track:30431377",
+      "neteaseTrackId": "30431377",
+      "title": "绝对占有 相对自由",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 336000
+    },
+    {
+      "id": "netease-track:30431369",
+      "neteaseTrackId": "30431369",
+      "title": "脱缰",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 267130
+    },
+    {
+      "id": "netease-track:30431367",
+      "neteaseTrackId": "30431367",
+      "title": "走马",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 235555
+    },
+    {
+      "id": "netease-track:30431368",
+      "neteaseTrackId": "30431368",
+      "title": "祝星",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 198000
+    },
+    {
+      "id": "netease-track:30431370",
+      "neteaseTrackId": "30431370",
+      "title": "正趣果上果",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 222315
+    },
+    {
+      "id": "netease-track:30431371",
+      "neteaseTrackId": "30431371",
+      "title": "20 times you",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 161239
+    },
+    {
+      "id": "netease-track:30431372",
+      "neteaseTrackId": "30431372",
+      "title": "五言",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 248470
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=3098832",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "如也 陈粒",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}

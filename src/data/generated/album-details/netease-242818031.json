@@ -1,0 +1,276 @@
+{
+  "internalId": "album:242818031",
+  "id": "album:242818031",
+  "neteaseAlbumId": "242818031",
+  "slug": "netease-242818031",
+  "title": "Opus",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2024-08-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/242818031.webp",
+    "alt": "《Opus》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/242818031.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2610263284",
+      "neteaseTrackId": "2610263284",
+      "title": "Lack of Love",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 293082
+    },
+    {
+      "id": "netease-track:2610262423",
+      "neteaseTrackId": "2610262423",
+      "title": "BB",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 134002
+    },
+    {
+      "id": "netease-track:2610263285",
+      "neteaseTrackId": "2610263285",
+      "title": "Andata",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 206889
+    },
+    {
+      "id": "netease-track:2610262424",
+      "neteaseTrackId": "2610262424",
+      "title": "Solitude",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 368756
+    },
+    {
+      "id": "netease-track:2610263286",
+      "neteaseTrackId": "2610263286",
+      "title": "for Jóhann",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 349204
+    },
+    {
+      "id": "netease-track:2610263287",
+      "neteaseTrackId": "2610263287",
+      "title": "Aubade 2020",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 224769
+    },
+    {
+      "id": "netease-track:2610263288",
+      "neteaseTrackId": "2610263288",
+      "title": "Ichimei - small happiness",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 233708
+    },
+    {
+      "id": "netease-track:2610262425",
+      "neteaseTrackId": "2610262425",
+      "title": "Mizu no Naka no Bagatelle",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 225651
+    },
+    {
+      "id": "netease-track:2610263289",
+      "neteaseTrackId": "2610263289",
+      "title": "Bibo no Aozora",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 358516
+    },
+    {
+      "id": "netease-track:2610263290",
+      "neteaseTrackId": "2610263290",
+      "title": "Aqua",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 312888
+    },
+    {
+      "id": "netease-track:2610262426",
+      "neteaseTrackId": "2610262426",
+      "title": "Tong Poo",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 362393
+    },
+    {
+      "id": "netease-track:2610263291",
+      "neteaseTrackId": "2610263291",
+      "title": "The Wuthering Heights",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 313864
+    },
+    {
+      "id": "netease-track:2610262427",
+      "neteaseTrackId": "2610262427",
+      "title": "20220302 - sarabande",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 224908
+    },
+    {
+      "id": "netease-track:2610263292",
+      "neteaseTrackId": "2610263292",
+      "title": "The Sheltering Sky",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 382455
+    },
+    {
+      "id": "netease-track:2610263293",
+      "neteaseTrackId": "2610263293",
+      "title": "20180219 (w/ prepared piano)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 212137
+    },
+    {
+      "id": "netease-track:2610262428",
+      "neteaseTrackId": "2610262428",
+      "title": "The Last Emperor",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 399894
+    },
+    {
+      "id": "netease-track:2610263294",
+      "neteaseTrackId": "2610263294",
+      "title": "Trioon",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 399568
+    },
+    {
+      "id": "netease-track:2610262429",
+      "neteaseTrackId": "2610262429",
+      "title": "Happy End",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 271882
+    },
+    {
+      "id": "netease-track:2610262430",
+      "neteaseTrackId": "2610262430",
+      "title": "Merry Christmas Mr. Lawrence",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 347533
+    },
+    {
+      "id": "netease-track:2610262431",
+      "neteaseTrackId": "2610262431",
+      "title": "Opus - ending",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 184180
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=242818031",
+  "discoveredAt": "2026-07-23T00:00:00.000Z",
+  "updatedAt": "2026-07-23T10:29:50.864Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-23T10:29:50.864Z",
+    "parserVersion": "netease-catalog-v3",
+    "verificationMethod": "curated_artist_album_directory",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [
+    "focus",
+    "solitude"
+  ],
+  "editorial": null,
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Opus 坂本龍一",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+}
