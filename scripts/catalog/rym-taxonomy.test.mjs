@@ -93,6 +93,26 @@ describe("offline RYM taxonomy resolution", () => {
     })).toEqual([]);
   });
 
+  it("rejects duplicate and overlapping taxonomy keys without inventing replacements", () => {
+    const snapshot = {
+      version: 1,
+      sourceDescription: "User-provided offline file",
+      importedAt: "2026-07-23T00:00:00.000Z",
+      records: [{
+        ...record,
+        primaryGenres: [record.primaryGenres[0], record.primaryGenres[0]],
+        secondaryGenres: [record.primaryGenres[0], record.secondaryGenres[0], record.secondaryGenres[0]],
+        descriptors: [record.descriptors[0], record.descriptors[0]],
+      }],
+    };
+    expect(validateRymTaxonomySnapshot(snapshot)).toEqual(expect.arrayContaining([
+      "records[0].primaryGenres contains duplicate key art-pop.",
+      "records[0].secondaryGenres contains duplicate key chamber-pop.",
+      "records[0].descriptors contains duplicate key lush.",
+      "records[0] repeats art-pop in primaryGenres and secondaryGenres.",
+    ]));
+  });
+
   it("uses bilingual labels only when a reliable Chinese label exists", () => {
     expect(formatTaxonomyLabel({ key: "art-pop", labelZh: "艺术流行", labelEn: "Art Pop" })).toBe("艺术流行（Art Pop）");
     expect(formatTaxonomyLabel({ key: "ambient-pop", labelZh: null, labelEn: "Ambient Pop" })).toBe("Ambient Pop");

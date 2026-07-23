@@ -26,12 +26,26 @@ describe("AlbumDetail", () => {
 
   it.each(["wake-after-the-rain", "super-mr-sun"])("hides unverified related genres and descriptors for %s", (slug) => {
     renderDetail(slug);
-    expect(screen.queryByRole("heading", { name: "延伸流派" })).not.toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "相关流派" })).not.toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "氛围与特征" })).not.toBeInTheDocument();
+    expect(screen.queryByText("相关流派与氛围特征来自人工核验的离线 RYM 分类快照。")).not.toBeInTheDocument();
   });
 
   it("keeps stable taxonomy keys in discover links while showing bilingual labels", () => {
     renderDetail("wake-after-the-rain");
     expect(screen.getByRole("link", { name: "嘻哈（Hip Hop）" })).toHaveAttribute("href", "/discover?genre=hip-hop");
+  });
+
+  it("renders optional RYM taxonomy and its concise provenance only when values exist", () => {
+    const album = {
+      ...getAlbumDetailBySlug("wake-after-the-rain")!,
+      relatedGenres: ["chamber-pop"],
+      descriptors: ["lush"],
+    };
+    render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
+    expect(screen.getByRole("heading", { name: "相关流派" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "chamber-pop" })).toHaveAttribute("href", "/discover?secondary=chamber-pop");
+    expect(screen.getByRole("heading", { name: "氛围与特征" })).toBeInTheDocument();
+    expect(screen.getByText("相关流派与氛围特征来自人工核验的离线 RYM 分类快照。")).toBeInTheDocument();
   });
 });

@@ -18,7 +18,7 @@ export default function Home() {
       <section className="catalog-section"><header className="section-heading"><div><p className="section-kicker">静态目录 · {catalogRefreshDate}</p><h2>最近收录</h2><p>表示加入本站快照的时间，不冒充实时发行榜。</p></div><Link href="/new-releases">查看全部</Link></header><AlbumGrid albums={getRecentlyAdded(6)} headingLevel={3} /></section>
       <section className="context-section"><header className="section-heading"><div><p className="section-kicker">稳定分类入口</p><h2>按核心流派发现</h2></div><Link href="/discover">全部筛选</Link></header><div className="context-links">{genreLinks.map((genre) => <Link key={genre} href={`/discover?genre=${encodeURIComponent(genre)}`}>{getTaxonomyLabel(genre)}<span aria-hidden="true">→</span></Link>)}</div></section>
       <section className="catalog-section"><header className="section-heading"><div><p className="section-kicker">不依赖外部请求</p><h2>随机发现</h2><p>从当前本地目录中换一个起点。</p></div></header><RandomDiscovery /></section>
-      <section className="product-note"><p className="section-kicker">我们做什么</p><h2>把选择解释清楚，再把聆听交给网易云音乐。</h2><p>专辑目录来自构建前生成的网易云本地快照；未匹配 RYM 的专辑只保留人工确认的核心流派，延伸流派和氛围特征仅发布可靠离线 RYM 匹配值。浏览过程不实时请求音乐平台，也不展示未经核验的平台统计。</p></section>
+      <section className="product-note"><p className="section-kicker">我们做什么</p><h2>把选择解释清楚，再把聆听交给网易云音乐。</h2><p>专辑目录来自构建前生成的网易云本地快照；未匹配 RYM 的专辑只保留人工确认的核心流派，相关流派和氛围特征仅发布可靠离线 RYM 匹配值。浏览过程不实时请求音乐平台，也不展示未经核验的平台统计。</p></section>
     </div>
   </main><SiteFooter /></div>;
 }

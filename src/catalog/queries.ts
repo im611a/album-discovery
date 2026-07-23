@@ -53,8 +53,12 @@ function compareReleaseNewest(a: PublishedAlbumSummary, b: PublishedAlbumSummary
   return releaseValue(b).localeCompare(releaseValue(a)) || a.title.localeCompare(b.title, "zh-CN");
 }
 
-export function discoverAlbums(filters: DiscoverFilters = {}, sort: CatalogSort = "recently-added") {
-  const filtered = catalogAlbums.filter((album) =>
+export function discoverAlbums(
+  filters: DiscoverFilters = {},
+  sort: CatalogSort = "recently-added",
+  albums: PublishedAlbumSummary[] = catalogAlbums,
+) {
+  const filtered = albums.filter((album) =>
     (!filters.coreGenre || album.coreGenres.includes(filters.coreGenre)) &&
     (!filters.relatedGenre || album.relatedGenres.includes(filters.relatedGenre)) &&
     (!filters.descriptor || album.descriptors.includes(filters.descriptor)) &&
@@ -88,13 +92,13 @@ export function getRelatedAlbums(album: PublishedAlbumSummary, limit = 6) {
     .map(({ item }) => item);
 }
 
-export function buildDiscoverOptions() {
+export function buildDiscoverOptions(albums: PublishedAlbumSummary[] = catalogAlbums) {
   const unique = (values: string[]) => [...new Set(values)].sort((a, b) => a.localeCompare(b, "zh-CN"));
   return {
-    coreGenres: catalogTaxonomy.filter((item) => item.kind === "core" && catalogAlbums.some((album) => album.coreGenres.includes(item.key))).map((item) => item.key),
-    relatedGenres: unique(catalogAlbums.flatMap((album) => album.relatedGenres)),
-    descriptors: unique(catalogAlbums.flatMap((album) => album.descriptors)),
-    contexts: unique(catalogAlbums.flatMap((album) => album.contexts)),
-    decades: unique(catalogAlbums.map((album) => album.releaseDate ? `${Math.floor(Number(album.releaseDate.slice(0, 4)) / 10) * 10}s` : "").filter(Boolean)),
+    coreGenres: catalogTaxonomy.filter((item) => item.kind === "core" && albums.some((album) => album.coreGenres.includes(item.key))).map((item) => item.key),
+    relatedGenres: unique(albums.flatMap((album) => album.relatedGenres)),
+    descriptors: unique(albums.flatMap((album) => album.descriptors)),
+    contexts: unique(albums.flatMap((album) => album.contexts)),
+    decades: unique(albums.map((album) => album.releaseDate ? `${Math.floor(Number(album.releaseDate.slice(0, 4)) / 10) * 10}s` : "").filter(Boolean)),
   };
 }

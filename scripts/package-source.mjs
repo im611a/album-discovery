@@ -1,11 +1,9 @@
-import { existsSync, mkdirSync, rmSync } from "node:fs";
+import { existsSync, rmSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
-const artifacts = path.join(root, "artifacts");
-mkdirSync(artifacts, { recursive: true });
-const output = path.join(artifacts, "album-discovery-source.zip");
+const output = path.join(root, "album-discovery-source.zip");
 rmSync(output, { force: true });
 
 const listed = spawnSync("git", ["ls-files", "--cached", "--others", "--exclude-standard"], { cwd: root, encoding: "utf8" });

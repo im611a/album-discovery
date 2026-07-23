@@ -29,11 +29,11 @@
 
 `PublishedAlbum` 同时保存内部稳定 ID 与 `neteaseAlbumId`。网易云负责专辑身份和目录字段。可靠匹配时，`coreGenres`、`relatedGenres`、`descriptors` 分别映射离线 RYM Primary Genres、Secondary Genres、Descriptors；未匹配时只允许人工确认的 `coreGenres`，其余两类必须为空。`contexts` 与 `editorial` 属于本地策展层。`sourceMarketChannels` 是发现记录，不是专辑固有地区字段。
 
-RYM 匹配是构建期纯函数，必须同时核对标题与别名、艺人、发行年份和发行类型，并要求唯一候选。输入仅来自 checked-in 离线快照；浏览器、构建和刷新均不访问 RYM 网站。发现页选项由实际发布值构造，因此空分类不生成筛选项，旧 URL 中的无效参数会安全忽略。
+RYM 匹配是构建期纯函数，必须同时核对标题与别名、艺人、发行年份和发行类型，并要求唯一候选。输入仅来自 checked-in 离线快照；浏览器、构建和刷新均不访问 RYM 网站。发现页始终保留相关流派与氛围筛选控件，但选项只由实际发布值构造；空分类不会生成虚假选项，旧 URL 中的无效参数会安全忽略。
 
 ## 推荐
 
-推荐引擎是纯 TypeScript 确定性函数。权重集中在 `RECOMMENDATION_WEIGHTS`，输入包括核心流派、延伸流派、氛围特征、场景、年代、种子、想听、喜欢、近期浏览与显式反馈。想听作为弱正向种子且自身被排除，喜欢作为强正向种子且自身被排除，听过被排除，不适合同时形成排除与负向相似度信号。理由只来自真实得分贡献。
+推荐引擎是纯 TypeScript 确定性函数。权重集中在 `RECOMMENDATION_WEIGHTS`，输入包括核心流派、相关流派、氛围特征、场景、年代、种子、想听、喜欢、近期浏览与显式反馈。想听作为弱正向种子且自身被排除，喜欢作为强正向种子且自身被排除，听过被排除，不适合同时形成排除与负向相似度信号。理由只来自真实得分贡献。
 
 ## 本机状态
 
@@ -41,4 +41,4 @@ RYM 匹配是构建期纯函数，必须同时核对标题与别名、艺人、�
 
 ## 静态交付
 
-`pnpm build` 完成 Next.js 静态导出。`pnpm package:source` 创建干净源码包；`pnpm package:static` 将 `out/` 根内容创建为可部署静态包；`pnpm delivery:verify` 解包并检查首页、全部详情页、静态资源和禁止项。静态站点不需要 Next.js 开发服务器，深层路由使用目录式 `index.html`。
+`pnpm build` 完成 Next.js 静态导出。`pnpm package:source` 在仓库根目录创建干净源码包；`pnpm package:static` 将 `out/` 根内容创建为仓库根目录的可部署静态包；`pnpm delivery:verify` 解包并检查首页、全部详情页、静态资源和禁止项。静态站点不需要 Next.js 开发服务器，深层路由使用目录式 `index.html`。

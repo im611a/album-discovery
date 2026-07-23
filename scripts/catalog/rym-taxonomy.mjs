@@ -45,6 +45,11 @@ function validTerms(terms) {
     );
 }
 
+function duplicateKeys(terms) {
+  const keys = terms.map((term) => term.key);
+  return [...new Set(keys.filter((key, index) => keys.indexOf(key) !== index))];
+}
+
 export function validateRymTaxonomySnapshot(snapshot) {
   const errors = [];
   if (snapshot?.version !== 1) errors.push("RYM taxonomy snapshot version must be 1.");
@@ -67,6 +72,15 @@ export function validateRymTaxonomySnapshot(snapshot) {
     if (!validTerms(record.primaryGenres)) errors.push(`${prefix}.primaryGenres is invalid.`);
     if (!validTerms(record.secondaryGenres)) errors.push(`${prefix}.secondaryGenres is invalid.`);
     if (!validTerms(record.descriptors)) errors.push(`${prefix}.descriptors is invalid.`);
+    if (validTerms(record.primaryGenres) && validTerms(record.secondaryGenres) && validTerms(record.descriptors)) {
+      for (const field of ["primaryGenres", "secondaryGenres", "descriptors"]) {
+        for (const key of duplicateKeys(record[field])) errors.push(`${prefix}.${field} contains duplicate key ${key}.`);
+      }
+      const primaryKeys = new Set(record.primaryGenres.map((term) => term.key));
+      for (const key of new Set(record.secondaryGenres.map((term) => term.key))) {
+        if (primaryKeys.has(key)) errors.push(`${prefix} repeats ${key} in primaryGenres and secondaryGenres.`);
+      }
+    }
   }
   return errors;
 }

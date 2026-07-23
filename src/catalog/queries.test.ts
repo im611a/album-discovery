@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildDiscoverOptions, discoverAlbums, getAlbumBySlug, getRelatedAlbums, normalizeSearchText, searchAlbums } from "./queries";
+import { buildDiscoverOptions, discoverAlbums, getAlbumBySlug, getAllAlbums, getRelatedAlbums, normalizeSearchText, searchAlbums } from "./queries";
 
 describe("catalog queries", () => {
   it("finds Chinese and Latin text across title, alias and artist", () => {
@@ -17,6 +17,15 @@ describe("catalog queries", () => {
     expect(results.every((album) => album.coreGenres.includes("dream-pop") && album.contexts.includes("夜晚"))).toBe(true);
     expect(buildDiscoverOptions()).toMatchObject({ relatedGenres: [], descriptors: [] });
     expect(discoverAlbums({ relatedGenre: "legacy-related", descriptor: "legacy-descriptor" })).toEqual([]);
+  });
+  it("builds optional taxonomy choices only from values present on published albums", () => {
+    const album = getAllAlbums()[0];
+    const enriched = { ...album, relatedGenres: ["dream-pop", "dream-pop"], descriptors: ["lush", "lush"] };
+    const other = { ...getAllAlbums()[1], relatedGenres: ["chamber-pop"], descriptors: ["melodic"] };
+    const options = buildDiscoverOptions([enriched, other]);
+    expect(options.relatedGenres).toEqual(["chamber-pop", "dream-pop"]);
+    expect(options.descriptors).toEqual(["lush", "melodic"]);
+    expect(discoverAlbums({ relatedGenre: "dream-pop", descriptor: "lush" }, "title", [enriched, other])).toEqual([enriched]);
   });
   it("uses stable real identities for detail and related queries", () => {
     const album = getAlbumBySlug("ok-computer");

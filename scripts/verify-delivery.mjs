@@ -3,9 +3,8 @@ import { spawnSync } from "node:child_process";
 import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
-const artifacts = path.join(root, "artifacts");
-const source = path.join(artifacts, "album-discovery-source.zip");
-const site = path.join(artifacts, "album-discovery-static-site.zip");
+const source = path.join(root, "album-discovery-source.zip");
+const site = path.join(root, "album-discovery-static-site.zip");
 const forbidden = /(^|\/)(\.git|node_modules|\.next|out|\.cache|\.pnpm-store|coverage)(\/|$)|(^|\/)\.env(?:\.|$)|cookie|token|secret/i;
 
 function entries(archive) {
@@ -30,7 +29,7 @@ const albumPages = siteEntries.filter((entry) => /^albums\/[^/]+\/index\.html$/.
 if (albumPages.length !== catalog.albums.length) throw new Error(`Expected ${catalog.albums.length} album pages in static archive, found ${albumPages.length}.`);
 if (!siteEntries.some((entry) => entry.startsWith("_next/static/"))) throw new Error("Static archive is missing Next.js assets.");
 
-const temporary = path.join(artifacts, ".delivery-verify");
+const temporary = path.join(root, "artifacts", ".delivery-verify");
 rmSync(temporary, { recursive: true, force: true });
 mkdirSync(temporary, { recursive: true });
 const extract = spawnSync("tar", ["-xf", site, "-C", temporary], { cwd: root, stdio: "inherit" });

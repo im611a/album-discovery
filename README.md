@@ -5,7 +5,7 @@
 ## 当前能力
 
 - 319 张以网易云 albumId 固定身份的真实专辑，中文音乐为目录核心；
-- 人工确认的核心流派，以及仅在可靠离线 RYM 匹配存在时发布的延伸流派与氛围特征；
+- 人工确认的核心流派，以及仅在可靠离线 RYM 匹配存在时发布的相关流派与氛围特征；
 - 首页、发现、为你推荐、最近收录、搜索、我的专辑、设置和静态专辑详情；
 - 确定性本机推荐，以及想听、喜欢、听过、不适合我的本地状态；
 - 所有专辑详情、封面、曲目与外部链接在构建前发布为本地快照；
@@ -50,8 +50,8 @@ pnpm delivery:verify
 pnpm serve:static
 ```
 
-- `artifacts/album-discovery-source.zip`：源码、测试、文档、固定身份和已发布快照。
-- `artifacts/album-discovery-static-site.zip`：可以直接部署的 `out/` 静态成品。
+- `album-discovery-source.zip`：源码、测试、文档、固定身份和已发布快照。
+- `album-discovery-static-site.zip`：可以直接部署的 `out/` 静态成品。
 
 两个压缩包均排除 Git、依赖、构建缓存、环境文件、Cookie、Token 和原始缓存响应。
 

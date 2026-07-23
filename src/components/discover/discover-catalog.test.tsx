@@ -32,9 +32,18 @@ describe("DiscoverCatalog URL state", () => {
     query = "genre=not-real&secondary=legacy-related&descriptor=legacy-descriptor";
     renderCatalog();
     expect(screen.getByLabelText("核心流派")).toHaveValue("");
-    expect(screen.queryByLabelText("延伸流派")).not.toBeInTheDocument();
-    expect(screen.queryByLabelText("氛围与特征")).not.toBeInTheDocument();
+    expect(screen.getByLabelText("相关流派")).toHaveValue("");
+    expect(screen.getByLabelText("相关流派").querySelectorAll("option")).toHaveLength(1);
+    expect(screen.getByLabelText("氛围与特征")).toHaveValue("");
+    expect(screen.getByLabelText("氛围与特征").querySelectorAll("option")).toHaveLength(1);
     fireEvent.click(screen.getByRole("button", { name: "清除筛选" }));
     expect(push).toHaveBeenCalledWith("/discover", { scroll: false });
+  });
+
+  it("keeps optional RYM filters visible without inventing empty choices", () => {
+    renderCatalog();
+    expect(screen.getByLabelText("相关流派")).toHaveTextContent("全部");
+    expect(screen.getByLabelText("氛围与特征")).toHaveTextContent("全部");
+    expect(screen.getByLabelText("聆听场景（本站策展）")).toBeInTheDocument();
   });
 });
