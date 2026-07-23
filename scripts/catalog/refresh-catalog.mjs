@@ -2,7 +2,8 @@ import { appendFile, mkdir, readFile, rename, stat, writeFile } from "node:fs/pr
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { NETEASE_CATALOG_SEEDS } from "./netease-seeds.mjs";
-import { CATALOG_TAXONOMY, descriptorTaxonomy } from "./taxonomy.mjs";
+import { MANUAL_CORE_TAXONOMY } from "./taxonomy.mjs";
+import { formatTaxonomyLabel, resolveRymTaxonomy, validateRymTaxonomySnapshot } from "./rym-taxonomy.mjs";
 import { validateCatalogData } from "./catalog-validation.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -12,13 +13,15 @@ const outputDir = path.join(root, "src", "data", "generated");
 const catalogPath = path.join(outputDir, "catalog.json");
 const manifestPath = path.join(outputDir, "catalog.manifest.json");
 const identitiesPath = path.join(root, "scripts", "catalog", "netease-identities.json");
+const rymTaxonomySnapshotPath = path.join(root, "scripts", "catalog", "rym-taxonomy-snapshot.json");
+const rymTaxonomyAuditPath = path.join(root, "reports", "catalog", "rym-taxonomy-audit.json");
+const refreshReportPath = path.join(root, "reports", "catalog", "refresh-report.json");
 const requestLogPath = path.join(cacheDir, "request-log.jsonl");
 const baseUrl = "https://music.163.com";
 const minimumGapMs = 2_000;
 const requestTimeoutMs = 20_000;
 const cacheEnabled = process.env.NETEASE_REFRESH_USE_CACHE !== "0";
-const taxonomyLabels = new Map(CATALOG_TAXONOMY.map((item) => [item.key, `${item.labelZh} ${item.labelEn}`]));
-const descriptorLabels = new Map(descriptorTaxonomy.map((item) => [item.key, item.label]));
+const manualCoreLabels = new Map(MANUAL_CORE_TAXONOMY.map((item) => [item.key, formatTaxonomyLabel(item)]));
 let lastRequestCompletedAt = 0;
 let requestCount = 0;
 
@@ -247,7 +250,7 @@ function parseDiscNumber(value) {
   return match ? Number(match[0]) : 1;
 }
 
-function normalizeAlbum(seed, albumId, payload, cover, refreshedAt) {
+function normalizeAlbum(seed, albumId, payload, cover, refreshedAt, rymRecords) {
   const album = payload?.album ?? {};
   const songs = asArray(payload?.songs ?? album?.songs);
   const artists = albumArtists(album)
@@ -280,21 +283,8 @@ function normalizeAlbum(seed, albumId, payload, cover, refreshedAt) {
     ...seed.guide,
     bestFor: seed.contexts,
     startWithTrackId: tracks[0]?.id ?? null,
-    descriptors: seed.descriptors,
   } : null;
-  const searchText = [
-    album.name,
-    ...aliases,
-    ...artists.map((artist) => artist.name),
-    ...seed.coreGenres,
-    ...seed.coreGenres.map((item) => taxonomyLabels.get(item) ?? item),
-    ...seed.relatedGenres,
-    ...seed.relatedGenres.map((item) => taxonomyLabels.get(item) ?? item),
-    ...seed.descriptors,
-    ...seed.descriptors.map((item) => descriptorLabels.get(item) ?? item),
-    ...seed.contexts,
-  ].join(" ");
-  return {
+  const baseAlbum = {
     internalId: `album:${albumId}`,
     id: `album:${albumId}`,
     neteaseAlbumId: albumId,
@@ -315,28 +305,60 @@ function normalizeAlbum(seed, albumId, payload, cover, refreshedAt) {
     discoveredAt: seed.sourceMarketChannels.length ? "2026-07-15T00:00:00.000Z" : "2026-07-23T00:00:00.000Z",
     updatedAt: refreshedAt,
     sourceMarketChannels: [...new Set(seed.sourceMarketChannels)],
-    coreGenres: [...new Set(seed.coreGenres)],
-    relatedGenres: [...new Set(seed.relatedGenres)],
-    descriptors: [...new Set(seed.descriptors)],
     contexts: [...new Set(seed.contexts)],
     editorial,
-    searchText,
+  };
+  const resolved = resolveRymTaxonomy(baseAlbum, seed.coreGenres, rymRecords);
+  const searchText = [
+    album.name,
+    ...aliases,
+    ...artists.map((artist) => artist.name),
+    ...resolved.taxonomy.coreGenres,
+    ...resolved.taxonomy.coreGenres.map((item) => manualCoreLabels.get(item) ?? item),
+    ...resolved.taxonomy.relatedGenres,
+    ...resolved.taxonomy.descriptors,
+    ...resolved.terms.primary.map(formatTaxonomyLabel),
+    ...resolved.terms.secondary.map(formatTaxonomyLabel),
+    ...resolved.terms.descriptors.map(formatTaxonomyLabel),
+    ...seed.contexts,
+  ].join(" ");
+  return {
+    album: { ...baseAlbum, ...resolved.taxonomy, searchText },
+    audit: resolved.audit,
+    terms: resolved.terms,
   };
 }
 
 async function main() {
-  await Promise.all([mkdir(cacheDir, { recursive: true }), mkdir(coverDir, { recursive: true }), mkdir(outputDir, { recursive: true })]);
+  await Promise.all([
+    mkdir(cacheDir, { recursive: true }),
+    mkdir(coverDir, { recursive: true }),
+    mkdir(outputDir, { recursive: true }),
+    mkdir(path.dirname(rymTaxonomyAuditPath), { recursive: true }),
+  ]);
   await writeFile(requestLogPath, "", "utf8");
   const previousIdentities = await readJson(identitiesPath, {});
+  const rymSnapshot = await readJson(rymTaxonomySnapshotPath, null);
+  const rymSnapshotErrors = validateRymTaxonomySnapshot(rymSnapshot);
+  if (rymSnapshotErrors.length) throw new Error(`Invalid offline RYM taxonomy snapshot:\n${rymSnapshotErrors.join("\n")}`);
   const nextIdentities = {};
   const refreshedAt = new Date().toISOString();
   const albums = [];
+  const taxonomyAudits = [];
+  const matchedPrimaryTerms = [];
+  const matchedSecondaryTerms = [];
+  const matchedDescriptorTerms = [];
   for (const seed of NETEASE_CATALOG_SEEDS) {
     const albumId = await resolveAlbumId(seed, previousIdentities);
     const payload = await readAlbumDetail(albumId);
     const album = payload?.album ?? {};
     const cover = await ensureCover(albumId, album.picUrl ?? album.coverUrl);
-    albums.push(normalizeAlbum(seed, albumId, payload, cover, refreshedAt));
+    const normalized = normalizeAlbum(seed, albumId, payload, cover, refreshedAt, rymSnapshot.records);
+    albums.push(normalized.album);
+    taxonomyAudits.push(normalized.audit);
+    matchedPrimaryTerms.push(...normalized.terms.primary);
+    matchedSecondaryTerms.push(...normalized.terms.secondary);
+    matchedDescriptorTerms.push(...normalized.terms.descriptors);
     nextIdentities[seed.slug] = {
       albumId,
       title: seed.query.title,
@@ -345,6 +367,21 @@ async function main() {
     };
     console.log(`[${albums.length}/${NETEASE_CATALOG_SEEDS.length}] ${albumId} ${album.name}`);
   }
+  const uniqueTerms = (terms) => [...new Map(terms.map((term) => [term.key, term])).values()];
+  const usedCoreKeys = new Set(albums.flatMap((album) => album.coreGenres));
+  const usedRelatedKeys = new Set(albums.flatMap((album) => album.relatedGenres));
+  const rymPrimary = uniqueTerms(matchedPrimaryTerms).map((term) => ({ ...term, kind: "core" }));
+  const rymPrimaryKeys = new Set(rymPrimary.map((term) => term.key));
+  const taxonomy = uniqueTerms([
+    ...MANUAL_CORE_TAXONOMY.filter((term) => usedCoreKeys.has(term.key)),
+    ...rymPrimary,
+    ...uniqueTerms(matchedSecondaryTerms)
+      .filter((term) => usedRelatedKeys.has(term.key) && !rymPrimaryKeys.has(term.key))
+      .map((term) => ({ ...term, kind: "related" })),
+  ]);
+  const descriptorTaxonomy = uniqueTerms(matchedDescriptorTerms)
+    .filter((term) => albums.some((item) => item.descriptors.includes(term.key)))
+    .map((term) => ({ ...term, kind: "descriptor" }));
   const catalog = {
     version: 2,
     refreshDate: refreshedAt.slice(0, 10),
@@ -353,18 +390,35 @@ async function main() {
       endpointFamily: "anonymous-public-album-metadata",
       generatedAt: refreshedAt,
       runtimeRequestsAllowed: false,
+      taxonomy: "rym-offline-or-manual-core",
     },
-    taxonomy: CATALOG_TAXONOMY,
+    taxonomy,
     descriptorTaxonomy,
     albums,
   };
-  const validation = validateCatalogData(catalog, nextIdentities);
+  const validation = validateCatalogData(catalog, nextIdentities, rymSnapshot);
   if (!validation.ok) throw new Error(`Catalog validation failed:\n${validation.errors.join("\n")}`);
   const temporaryCatalog = `${catalogPath}.tmp`;
   const temporaryManifest = `${manifestPath}.tmp`;
   await writeFile(temporaryCatalog, `${JSON.stringify(catalog, null, 2)}\n`, "utf8");
   await writeFile(temporaryManifest, `${JSON.stringify(validation.summary, null, 2)}\n`, "utf8");
   await writeFile(identitiesPath, `${JSON.stringify(nextIdentities, null, 2)}\n`, "utf8");
+  await writeFile(rymTaxonomyAuditPath, `${JSON.stringify({
+    generatedAt: refreshedAt,
+    sourceDescription: rymSnapshot.sourceDescription,
+    importedAt: rymSnapshot.importedAt,
+    matched: taxonomyAudits.filter((item) => item.status === "matched").length,
+    unmatched: taxonomyAudits.filter((item) => item.status === "unmatched").length,
+    ambiguous: taxonomyAudits.filter((item) => item.status === "ambiguous").length,
+    albums: taxonomyAudits,
+  }, null, 2)}\n`, "utf8");
+  await writeFile(refreshReportPath, `${JSON.stringify({
+    refreshDate: catalog.refreshDate,
+    ...validation.summary,
+    rymMatched: taxonomyAudits.filter((item) => item.status === "matched").length,
+    rymUnmatched: taxonomyAudits.filter((item) => item.status === "unmatched").length,
+    rymAmbiguous: taxonomyAudits.filter((item) => item.status === "ambiguous").length,
+  }, null, 2)}\n`, "utf8");
   await rename(temporaryCatalog, catalogPath);
   await rename(temporaryManifest, manifestPath);
   console.log(`Published ${albums.length} NetEase albums after ${requestCount} external requests.`);

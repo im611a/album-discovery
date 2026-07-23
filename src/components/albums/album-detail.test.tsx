@@ -24,9 +24,8 @@ describe("AlbumDetail", () => {
     expect(screen.queryByText(/MusicBrainz|Cover Art Archive/)).not.toBeInTheDocument();
   });
 
-  it("hides optional related genres and descriptors when absent", () => {
-    const source = catalogAlbums.find((item) => item.slug === "window-side-wish")!;
-    render(<PersonalStateProvider><AlbumDetail album={source} /></PersonalStateProvider>);
+  it.each(["wake-after-the-rain", "super-mr-sun"])("hides unverified related genres and descriptors for %s", (slug) => {
+    renderDetail(slug);
     expect(screen.queryByRole("heading", { name: "相关流派" })).not.toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "氛围与特征" })).not.toBeInTheDocument();
   });

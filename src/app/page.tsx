@@ -14,7 +14,7 @@ export default function Home() {
       <section className="catalog-section"><header className="section-heading"><div><p className="section-kicker">编辑入口</p><h2>从一张有导览的专辑开始</h2><p>每张都包含具体聆听提示、场景和经核验的外部去向。</p></div><Link href="/discover?guide=1">查看全部</Link></header><AlbumGrid albums={getEditorialPicks(6)} headingLevel={3} /></section>
       <section className="context-section"><header className="section-heading"><div><p className="section-kicker">此刻想怎么听</p><h2>按聆听场景发现</h2></div></header><div className="context-links">{contextLinks.map((context) => <Link key={context} href={`/discover?context=${encodeURIComponent(context)}`}>{context}<span aria-hidden="true">→</span></Link>)}</div></section>
       <section className="catalog-section"><header className="section-heading"><div><p className="section-kicker">静态目录 · {catalogRefreshDate}</p><h2>最近收录</h2><p>表示加入本站快照的时间，不冒充实时发行榜。</p></div><Link href="/new-releases">查看全部</Link></header><AlbumGrid albums={getRecentlyAdded(6)} headingLevel={3} /></section>
-      <section className="product-note"><p className="section-kicker">我们做什么</p><h2>把选择解释清楚，再把聆听交给网易云音乐。</h2><p>专辑目录来自构建前生成的网易云本地快照；核心流派、相关流派和氛围特征为本站策展层。浏览过程不实时请求音乐平台，也不展示未经核验的平台统计。</p></section>
+      <section className="product-note"><p className="section-kicker">我们做什么</p><h2>把选择解释清楚，再把聆听交给网易云音乐。</h2><p>专辑目录来自构建前生成的网易云本地快照；未匹配 RYM 的专辑只保留人工确认的核心流派，相关流派和氛围特征仅发布可靠离线 RYM 匹配值。浏览过程不实时请求音乐平台，也不展示未经核验的平台统计。</p></section>
     </div>
   </main><SiteFooter /></div>;
 }

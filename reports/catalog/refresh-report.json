@@ -1,12 +1,17 @@
 {
-  "refreshDate": "2026-07-18",
-  "requested": 120,
-  "published": 120,
-  "rejected": [],
-  "flagshipCount": 24,
-  "linkedFlagshipCount": 24,
-  "unlinkedFlagships": [],
-  "localCoverCount": 0,
-  "fallbackCoverCount": 120,
-  "taxonomyCount": 12
+  "refreshDate": "2026-07-23",
+  "albums": 68,
+  "uniqueNeteaseAlbumIds": 68,
+  "uniqueSlugs": 68,
+  "localCovers": 68,
+  "fallbackCovers": 0,
+  "albumsWithTracks": 68,
+  "albumsWithNeteaseLinks": 68,
+  "coreGenres": 15,
+  "relatedGenres": 0,
+  "descriptors": 0,
+  "multiChannelAlbums": 3,
+  "rymMatched": 0,
+  "rymUnmatched": 68,
+  "rymAmbiguous": 0
 }

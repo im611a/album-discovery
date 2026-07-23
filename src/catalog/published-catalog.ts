@@ -8,9 +8,11 @@ export const descriptorTaxonomy = publishedCatalog.descriptorTaxonomy;
 export const catalogRefreshDate = publishedCatalog.refreshDate;
 
 const taxonomyLabelMap = new Map(
-  catalogTaxonomy.map((item) => [item.key, `${item.labelZh}（${item.labelEn}）`]),
+  catalogTaxonomy.map((item) => [item.key, item.labelZh ? `${item.labelZh}（${item.labelEn}）` : item.labelEn]),
 );
-const descriptorLabelMap = new Map(descriptorTaxonomy.map((item) => [item.key, item.label]));
+const descriptorLabelMap = new Map(
+  descriptorTaxonomy.map((item) => [item.key, item.labelZh ? `${item.labelZh}（${item.labelEn}）` : item.labelEn]),
+);
 
 export function getTaxonomyLabel(value: string) {
   return taxonomyLabelMap.get(value) ?? value;

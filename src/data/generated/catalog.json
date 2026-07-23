@@ -4,8 +4,9 @@
   "source": {
     "catalog": "netease",
     "endpointFamily": "anonymous-public-album-metadata",
-    "generatedAt": "2026-07-23T08:15:23.348Z",
-    "runtimeRequestsAllowed": false
+    "generatedAt": "2026-07-23T09:19:18.513Z",
+    "runtimeRequestsAllowed": false,
+    "taxonomy": "rym-offline-or-manual-core"
   },
   "taxonomy": [
     {
@@ -97,462 +98,9 @@
       "labelZh": "金属",
       "labelEn": "Metal",
       "kind": "core"
-    },
-    {
-      "key": "alternative-rnb",
-      "labelZh": "另类 R&B",
-      "labelEn": "Alternative R&B",
-      "kind": "related"
-    },
-    {
-      "key": "experimental-hip-hop",
-      "labelZh": "实验嘻哈",
-      "labelEn": "Experimental Hip Hop",
-      "kind": "related"
-    },
-    {
-      "key": "alternative-hip-hop",
-      "labelZh": "另类嘻哈",
-      "labelEn": "Alternative Hip Hop",
-      "kind": "related"
-    },
-    {
-      "key": "alternative-pop",
-      "labelZh": "另类流行",
-      "labelEn": "Alternative Pop",
-      "kind": "related"
-    },
-    {
-      "key": "art-rock",
-      "labelZh": "艺术摇滚",
-      "labelEn": "Art Rock",
-      "kind": "related"
-    },
-    {
-      "key": "folk-rock",
-      "labelZh": "民谣摇滚",
-      "labelEn": "Folk Rock",
-      "kind": "related"
-    },
-    {
-      "key": "folk-pop",
-      "labelZh": "民谣流行",
-      "labelEn": "Folk Pop",
-      "kind": "related"
-    },
-    {
-      "key": "progressive-rock",
-      "labelZh": "前卫摇滚",
-      "labelEn": "Progressive Rock",
-      "kind": "related"
-    },
-    {
-      "key": "post-punk",
-      "labelZh": "后朋克",
-      "labelEn": "Post-Punk",
-      "kind": "related"
-    },
-    {
-      "key": "shoegaze",
-      "labelZh": "盯鞋",
-      "labelEn": "Shoegaze",
-      "kind": "related"
-    },
-    {
-      "key": "instrumental-rock",
-      "labelZh": "器乐摇滚",
-      "labelEn": "Instrumental Rock",
-      "kind": "related"
-    },
-    {
-      "key": "experimental-electronic",
-      "labelZh": "实验电子",
-      "labelEn": "Experimental Electronic",
-      "kind": "related"
-    },
-    {
-      "key": "singer-songwriter",
-      "labelZh": "唱作人",
-      "labelEn": "Singer-Songwriter",
-      "kind": "related"
-    },
-    {
-      "key": "indie-pop",
-      "labelZh": "独立流行",
-      "labelEn": "Indie Pop",
-      "kind": "related"
-    },
-    {
-      "key": "psychedelic-pop",
-      "labelZh": "迷幻流行",
-      "labelEn": "Psychedelic Pop",
-      "kind": "related"
-    },
-    {
-      "key": "trap",
-      "labelZh": "陷阱说唱",
-      "labelEn": "Trap",
-      "kind": "related"
-    },
-    {
-      "key": "jazz-rap",
-      "labelZh": "爵士说唱",
-      "labelEn": "Jazz Rap",
-      "kind": "related"
-    },
-    {
-      "key": "house",
-      "labelZh": "浩室",
-      "labelEn": "House",
-      "kind": "related"
-    },
-    {
-      "key": "synth-pop",
-      "labelZh": "合成器流行",
-      "labelEn": "Synth-Pop",
-      "kind": "related"
-    },
-    {
-      "key": "uk-garage",
-      "labelZh": "英国车库",
-      "labelEn": "UK Garage",
-      "kind": "related"
-    },
-    {
-      "key": "modern-classical",
-      "labelZh": "现代古典",
-      "labelEn": "Modern Classical",
-      "kind": "related"
-    },
-    {
-      "key": "modal-jazz",
-      "labelZh": "调式爵士",
-      "labelEn": "Modal Jazz",
-      "kind": "related"
-    },
-    {
-      "key": "spiritual-jazz",
-      "labelZh": "灵性爵士",
-      "labelEn": "Spiritual Jazz",
-      "kind": "related"
-    },
-    {
-      "key": "ethereal-wave",
-      "labelZh": "仙音浪潮",
-      "labelEn": "Ethereal Wave",
-      "kind": "related"
-    },
-    {
-      "key": "thrash-metal",
-      "labelZh": "激流金属",
-      "labelEn": "Thrash Metal",
-      "kind": "related"
-    },
-    {
-      "key": "soft-rock",
-      "labelZh": "软摇滚",
-      "labelEn": "Soft Rock",
-      "kind": "related"
-    },
-    {
-      "key": "pop-rock",
-      "labelZh": "流行摇滚",
-      "labelEn": "Pop Rock",
-      "kind": "related"
     }
   ],
-  "descriptorTaxonomy": [
-    {
-      "key": "abstract",
-      "label": "抽象（Abstract）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "acoustic",
-      "label": "原声（Acoustic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "airy",
-      "label": "轻盈（Airy）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "alienated",
-      "label": "疏离（Alienated）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "atmospheric",
-      "label": "氛围化（Atmospheric）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "bittersweet",
-      "label": "苦乐参半（Bittersweet）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "bright",
-      "label": "明亮（Bright）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "calm",
-      "label": "平静（Calm）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "cinematic",
-      "label": "电影感（Cinematic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "cohesive",
-      "label": "连贯（Cohesive）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "confident",
-      "label": "自信（Confident）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "dark",
-      "label": "幽暗（Dark）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "dense",
-      "label": "密集（Dense）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "digital",
-      "label": "数字感（Digital）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "direct",
-      "label": "直接（Direct）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "dramatic",
-      "label": "戏剧性（Dramatic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "dreamy",
-      "label": "梦幻（Dreamy）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "dynamic",
-      "label": "动态强（Dynamic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "earthy",
-      "label": "质朴（Earthy）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "energetic",
-      "label": "高能量（Energetic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "ethereal",
-      "label": "空灵（Ethereal）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "expansive",
-      "label": "辽阔（Expansive）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "explosive",
-      "label": "爆发力（Explosive）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "fast",
-      "label": "高速（Fast）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "futuristic",
-      "label": "未来感（Futuristic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "gradual",
-      "label": "渐进（Gradual）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "groovy",
-      "label": "律动（Groovy）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "hazy",
-      "label": "朦胧（Hazy）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "improvised",
-      "label": "即兴（Improvised）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "immersive",
-      "label": "沉浸（Immersive）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "intense",
-      "label": "强烈（Intense）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "intimate",
-      "label": "亲密（Intimate）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "introspective",
-      "label": "内省（Introspective）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "layered",
-      "label": "层次丰富（Layered）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "melodic",
-      "label": "旋律性（Melodic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "melancholic",
-      "label": "忧郁（Melancholic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "meditative",
-      "label": "冥想（Meditative）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "minimal",
-      "label": "极简（Minimal）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "narrative",
-      "label": "叙事性（Narrative）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "nocturnal",
-      "label": "夜行感（Nocturnal）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "nostalgic",
-      "label": "怀旧（Nostalgic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "playful",
-      "label": "俏皮（Playful）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "poetic",
-      "label": "诗意（Poetic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "polyrhythmic",
-      "label": "复合节奏（Polyrhythmic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "precise",
-      "label": "精密（Precise）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "raw",
-      "label": "粗粝（Raw）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "reflective",
-      "label": "沉思（Reflective）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "rhythmic",
-      "label": "节奏鲜明（Rhythmic）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "sample-based",
-      "label": "采样驱动（Sample-Based）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "satirical",
-      "label": "讽刺（Satirical）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "sensual",
-      "label": "感性（Sensual）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "spacious",
-      "label": "空间感（Spacious）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "tense",
-      "label": "紧张（Tense）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "textural",
-      "label": "音色导向（Textural）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "theatrical",
-      "label": "剧场感（Theatrical）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "traditional",
-      "label": "传统质感（Traditional）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "urban",
-      "label": "城市感（Urban）",
-      "kind": "descriptor"
-    },
-    {
-      "key": "warm",
-      "label": "温暖（Warm）",
-      "kind": "descriptor"
-    }
-  ],
+  "descriptorTaxonomy": [],
   "albums": [
     {
       "internalId": "album:287974232",
@@ -749,19 +297,8 @@
       "trackCount": 15,
       "externalUrl": "https://music.163.com/#/album?id=287974232",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb"
-      ],
-      "descriptors": [
-        "introspective",
-        "melodic",
-        "urban"
-      ],
       "contexts": [
         "夜晚",
         "独处"
@@ -775,14 +312,14 @@
           "夜晚",
           "独处"
         ],
-        "startWithTrackId": "netease-track:2754174745",
-        "descriptors": [
-          "introspective",
-          "melodic",
-          "urban"
-        ]
+        "startWithTrackId": "netease-track:2754174745"
       },
-      "searchText": "在雨后醒来 艾志恒Asen hip-hop 嘻哈 Hip Hop alternative-rnb 另类 R&B Alternative R&B introspective melodic urban 内省（Introspective） 旋律性（Melodic） 城市感（Urban） 夜晚 独处"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "在雨后醒来 艾志恒Asen hip-hop 嘻哈（Hip Hop） 夜晚 独处"
     },
     {
       "internalId": "album:286248593",
@@ -1000,19 +537,8 @@
       "trackCount": 17,
       "externalUrl": "https://music.163.com/#/album?id=286248593",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "experimental-hip-hop"
-      ],
-      "descriptors": [
-        "raw",
-        "playful",
-        "dense"
-      ],
       "contexts": [
         "夜晚",
         "反复聆听"
@@ -1026,14 +552,14 @@
           "夜晚",
           "反复聆听"
         ],
-        "startWithTrackId": "netease-track:2749524731",
-        "descriptors": [
-          "raw",
-          "playful",
-          "dense"
-        ]
+        "startWithTrackId": "netease-track:2749524731"
       },
-      "searchText": "超级孙先生 SASIOVERLXRD hip-hop 嘻哈 Hip Hop experimental-hip-hop 实验嘻哈 Experimental Hip Hop raw playful dense 粗粝（Raw） 俏皮（Playful） 密集（Dense） 夜晚 反复聆听"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "超级孙先生 SASIOVERLXRD hip-hop 嘻哈（Hip Hop） 夜晚 反复聆听"
     },
     {
       "internalId": "album:18915",
@@ -1176,20 +702,8 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=18915",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb",
-        "hip-hop"
-      ],
-      "descriptors": [
-        "melodic",
-        "nostalgic",
-        "layered"
-      ],
       "contexts": [
         "通勤",
         "周末"
@@ -1203,14 +717,14 @@
           "通勤",
           "周末"
         ],
-        "startWithTrackId": "netease-track:186114",
-        "descriptors": [
-          "melodic",
-          "nostalgic",
-          "layered"
-        ]
+        "startWithTrackId": "netease-track:186114"
       },
-      "searchText": "范特西 Fantasy 周杰伦 pop 流行 Pop alternative-rnb hip-hop 另类 R&B Alternative R&B 嘻哈 Hip Hop melodic nostalgic layered 旋律性（Melodic） 怀旧（Nostalgic） 层次丰富（Layered） 通勤 周末"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "范特西 Fantasy 周杰伦 pop 流行（Pop） 通勤 周末"
     },
     {
       "internalId": "album:18905",
@@ -1365,26 +879,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=18905",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb",
-        "hip-hop"
-      ],
-      "descriptors": [
-        "cinematic",
-        "melodic",
-        "dramatic"
-      ],
       "contexts": [
         "通勤",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "叶惠美 Yeh Hui–mei 周杰伦 pop 流行 Pop alternative-rnb hip-hop 另类 R&B Alternative R&B 嘻哈 Hip Hop cinematic melodic dramatic 电影感（Cinematic） 旋律性（Melodic） 戏剧性（Dramatic） 通勤 夜晚"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "叶惠美 Yeh Hui–mei 周杰伦 pop 流行（Pop） 通勤 夜晚"
     },
     {
       "internalId": "album:15190",
@@ -1547,26 +1054,19 @@
       "trackCount": 12,
       "externalUrl": "https://music.163.com/#/album?id=15190",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb",
-        "rock"
-      ],
-      "descriptors": [
-        "groovy",
-        "dramatic",
-        "urban"
-      ],
       "contexts": [
         "通勤",
         "周末"
       ],
       "editorial": null,
-      "searchText": "黑色柳丁 陶喆 pop 流行 Pop alternative-rnb rock 另类 R&B Alternative R&B 摇滚 Rock groovy dramatic urban 律动（Groovy） 戏剧性（Dramatic） 城市感（Urban） 通勤 周末"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "黑色柳丁 陶喆 pop 流行（Pop） 通勤 周末"
     },
     {
       "internalId": "album:15185",
@@ -1775,25 +1275,19 @@
       "trackCount": 16,
       "externalUrl": "https://music.163.com/#/album?id=15185",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb"
-      ],
-      "descriptors": [
-        "layered",
-        "groovy",
-        "reflective"
-      ],
       "contexts": [
         "通勤",
         "专注聆听"
       ],
       "editorial": null,
-      "searchText": "太平盛世 The Great Leap 陶喆 pop 流行 Pop alternative-rnb 另类 R&B Alternative R&B layered groovy reflective 层次丰富（Layered） 律动（Groovy） 沉思（Reflective） 通勤 专注聆听"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "太平盛世 The Great Leap 陶喆 pop 流行（Pop） 通勤 专注聆听"
     },
     {
       "internalId": "album:29748",
@@ -1934,20 +1428,8 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=29748",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "experimental-pop"
-      ],
-      "relatedGenres": [
-        "dream-pop",
-        "alternative-rock"
-      ],
-      "descriptors": [
-        "airy",
-        "playful",
-        "abstract"
-      ],
       "contexts": [
         "独处",
         "夜晚"
@@ -1961,14 +1443,14 @@
           "独处",
           "夜晚"
         ],
-        "startWithTrackId": "netease-track:300146",
-        "descriptors": [
-          "airy",
-          "playful",
-          "abstract"
-        ]
+        "startWithTrackId": "netease-track:300146"
       },
-      "searchText": "浮躁 王菲 experimental-pop 实验流行 Experimental Pop dream-pop alternative-rock 梦幻流行 Dream Pop 另类摇滚 Alternative Rock airy playful abstract 轻盈（Airy） 俏皮（Playful） 抽象（Abstract） 独处 夜晚"
+      "coreGenres": [
+        "experimental-pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "浮躁 王菲 experimental-pop 实验流行（Experimental Pop） 独处 夜晚"
     },
     {
       "internalId": "album:29698",
@@ -2153,26 +1635,19 @@
       "trackCount": 14,
       "externalUrl": "https://music.163.com/#/album?id=29698",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "dream-pop",
-        "experimental-pop"
-      ],
-      "descriptors": [
-        "ethereal",
-        "cinematic",
-        "introspective"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "寓言 王菲 pop 流行 Pop dream-pop experimental-pop 梦幻流行 Dream Pop 实验流行 Experimental Pop ethereal cinematic introspective 空灵（Ethereal） 电影感（Cinematic） 内省（Introspective） 夜晚 独处"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "寓言 王菲 pop 流行（Pop） 夜晚 独处"
     },
     {
       "internalId": "album:6491",
@@ -2346,25 +1821,19 @@
       "trackCount": 13,
       "externalUrl": "https://music.163.com/#/album?id=6491",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-rock"
-      ],
-      "descriptors": [
-        "melodic",
-        "urban",
-        "reflective"
-      ],
       "contexts": [
         "通勤",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "U87 陈奕迅 pop 流行 Pop alternative-rock 另类摇滚 Alternative Rock melodic urban reflective 旋律性（Melodic） 城市感（Urban） 沉思（Reflective） 通勤 夜晚"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "U87 陈奕迅 pop 流行（Pop） 通勤 夜晚"
     },
     {
       "internalId": "album:19038",
@@ -2516,26 +1985,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=19038",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "dream-pop",
-        "electronic"
-      ],
-      "descriptors": [
-        "sensual",
-        "dramatic",
-        "nocturnal"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "红 张国荣 pop 流行 Pop dream-pop electronic 梦幻流行 Dream Pop 电子 Electronic sensual dramatic nocturnal 感性（Sensual） 戏剧性（Dramatic） 夜行感（Nocturnal） 夜晚 独处"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "红 张国荣 pop 流行（Pop） 夜晚 独处"
     },
     {
       "internalId": "album:3098832",
@@ -2731,25 +2193,19 @@
       "trackCount": 15,
       "externalUrl": "https://music.163.com/#/album?id=3098832",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "folk"
-      ],
-      "relatedGenres": [
-        "singer-songwriter"
-      ],
-      "descriptors": [
-        "intimate",
-        "poetic",
-        "acoustic"
-      ],
       "contexts": [
         "独处",
         "清晨"
       ],
       "editorial": null,
-      "searchText": "如也 陈粒 folk 民谣 Folk singer-songwriter 唱作人 Singer-Songwriter intimate poetic acoustic 亲密（Intimate） 诗意（Poetic） 原声（Acoustic） 独处 清晨"
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "如也 陈粒 folk 民谣（Folk） 独处 清晨"
     },
     {
       "internalId": "album:7600",
@@ -2901,26 +2357,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=7600",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "electronic"
-      ],
-      "relatedGenres": [
-        "experimental-rock",
-        "ambient"
-      ],
-      "descriptors": [
-        "abstract",
-        "meditative",
-        "spacious"
-      ],
       "contexts": [
         "专注聆听",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "山河水 窦唯 electronic 电子 Electronic experimental-rock ambient 实验摇滚 Experimental Rock 氛围音乐 Ambient abstract meditative spacious 抽象（Abstract） 冥想（Meditative） 空间感（Spacious） 专注聆听 夜晚"
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "山河水 窦唯 electronic 电子（Electronic） 专注聆听 夜晚"
     },
     {
       "internalId": "album:7608",
@@ -3061,20 +2510,8 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=7608",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "alternative-rock",
-        "post-punk"
-      ],
-      "descriptors": [
-        "dark",
-        "tense",
-        "atmospheric"
-      ],
       "contexts": [
         "夜晚",
         "独处"
@@ -3088,14 +2525,14 @@
           "夜晚",
           "独处"
         ],
-        "startWithTrackId": "netease-track:77444",
-        "descriptors": [
-          "dark",
-          "tense",
-          "atmospheric"
-        ]
+        "startWithTrackId": "netease-track:77444"
       },
-      "searchText": "黑梦 窦唯 rock 摇滚 Rock alternative-rock post-punk 另类摇滚 Alternative Rock 后朋克 Post-Punk dark tense atmospheric 幽暗（Dark） 紧张（Tense） 氛围化（Atmospheric） 夜晚 独处"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "黑梦 窦唯 rock 摇滚（Rock） 夜晚 独处"
     },
     {
       "internalId": "album:6311",
@@ -3214,25 +2651,19 @@
       "trackCount": 8,
       "externalUrl": "https://music.163.com/#/album?id=6311",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "folk-rock"
-      ],
-      "descriptors": [
-        "raw",
-        "direct",
-        "rhythmic"
-      ],
       "contexts": [
         "通勤",
         "专注聆听"
       ],
       "editorial": null,
-      "searchText": "新长征路上的摇滚 崔健 rock 摇滚 Rock folk-rock 民谣摇滚 Folk Rock raw direct rhythmic 粗粝（Raw） 直接（Direct） 节奏鲜明（Rhythmic） 通勤 专注聆听"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "新长征路上的摇滚 崔健 rock 摇滚（Rock） 通勤 专注聆听"
     },
     {
       "internalId": "album:38306",
@@ -3351,26 +2782,19 @@
       "trackCount": 8,
       "externalUrl": "https://music.163.com/#/album?id=38306",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "indie-rock",
-        "art-rock"
-      ],
-      "descriptors": [
-        "narrative",
-        "dynamic",
-        "urban"
-      ],
       "contexts": [
         "专注聆听",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "万能青年旅店 同名专辑 万能青年旅店 rock 摇滚 Rock indie-rock art-rock 独立摇滚 Indie Rock 艺术摇滚 Art Rock narrative dynamic urban 叙事性（Narrative） 动态强（Dynamic） 城市感（Urban） 专注聆听 夜晚"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "万能青年旅店 同名专辑 万能青年旅店 rock 摇滚（Rock） 专注聆听 夜晚"
     },
     {
       "internalId": "album:120605500",
@@ -3500,20 +2924,8 @@
       "trackCount": 9,
       "externalUrl": "https://music.163.com/#/album?id=120605500",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "art-rock",
-        "progressive-rock"
-      ],
-      "descriptors": [
-        "narrative",
-        "cinematic",
-        "dynamic"
-      ],
       "contexts": [
         "专注聆听",
         "独处"
@@ -3527,14 +2939,14 @@
           "专注聆听",
           "独处"
         ],
-        "startWithTrackId": "netease-track:1805289472",
-        "descriptors": [
-          "narrative",
-          "cinematic",
-          "dynamic"
-        ]
+        "startWithTrackId": "netease-track:1805289472"
       },
-      "searchText": "冀西南林路行 万能青年旅店 rock 摇滚 Rock art-rock progressive-rock 艺术摇滚 Art Rock 前卫摇滚 Progressive Rock narrative cinematic dynamic 叙事性（Narrative） 电影感（Cinematic） 动态强（Dynamic） 专注聆听 独处"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "冀西南林路行 万能青年旅店 rock 摇滚（Rock） 专注聆听 独处"
     },
     {
       "internalId": "album:162870766",
@@ -3686,26 +3098,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=162870766",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "indie-rock",
-        "post-punk"
-      ],
-      "descriptors": [
-        "tense",
-        "raw",
-        "melancholic"
-      ],
       "contexts": [
         "夜晚",
         "通勤"
       ],
       "editorial": null,
-      "searchText": "瓦合 草东没有派对 rock 摇滚 Rock indie-rock post-punk 独立摇滚 Indie Rock 后朋克 Post-Punk tense raw melancholic 紧张（Tense） 粗粝（Raw） 忧郁（Melancholic） 夜晚 通勤"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "瓦合 草东没有派对 rock 摇滚（Rock） 夜晚 通勤"
     },
     {
       "internalId": "album:34674226",
@@ -3868,26 +3273,19 @@
       "trackCount": 12,
       "externalUrl": "https://music.163.com/#/album?id=34674226",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "indie-rock",
-        "post-punk"
-      ],
-      "descriptors": [
-        "raw",
-        "melancholic",
-        "explosive"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "丑奴儿 草东没有派对 rock 摇滚 Rock indie-rock post-punk 独立摇滚 Indie Rock 后朋克 Post-Punk raw melancholic explosive 粗粝（Raw） 忧郁（Melancholic） 爆发力（Explosive） 夜晚 独处"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "丑奴儿 草东没有派对 rock 摇滚（Rock） 夜晚 独处"
     },
     {
       "internalId": "album:37651016",
@@ -4017,26 +3415,19 @@
       "trackCount": 9,
       "externalUrl": "https://music.163.com/#/album?id=37651016",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "dream-pop"
-      ],
-      "relatedGenres": [
-        "indie-pop",
-        "psychedelic-pop"
-      ],
-      "descriptors": [
-        "dreamy",
-        "warm",
-        "groovy"
-      ],
       "contexts": [
         "夜晚",
         "放松"
       ],
       "editorial": null,
-      "searchText": "Cassa Nova 落日飛車 Sunset Rollercoaster dream-pop 梦幻流行 Dream Pop indie-pop psychedelic-pop 独立流行 Indie Pop 迷幻流行 Psychedelic Pop dreamy warm groovy 梦幻（Dreamy） 温暖（Warm） 律动（Groovy） 夜晚 放松"
+      "coreGenres": [
+        "dream-pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Cassa Nova 落日飛車 Sunset Rollercoaster dream-pop 梦幻流行（Dream Pop） 夜晚 放松"
     },
     {
       "internalId": "album:35590687",
@@ -4166,25 +3557,19 @@
       "trackCount": 9,
       "externalUrl": "https://music.163.com/#/album?id=35590687",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "indie-rock"
-      ],
-      "relatedGenres": [
-        "dream-pop"
-      ],
-      "descriptors": [
-        "intimate",
-        "hazy",
-        "melancholic"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "浴室 deca joins indie-rock 独立摇滚 Indie Rock dream-pop 梦幻流行 Dream Pop intimate hazy melancholic 亲密（Intimate） 朦胧（Hazy） 忧郁（Melancholic） 夜晚 独处"
+      "coreGenres": [
+        "indie-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "浴室 deca joins indie-rock 独立摇滚（Indie Rock） 夜晚 独处"
     },
     {
       "internalId": "album:38188",
@@ -4292,25 +3677,19 @@
       "trackCount": 7,
       "externalUrl": "https://music.163.com/#/album?id=38188",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "post-rock"
-      ],
-      "relatedGenres": [
-        "instrumental-rock"
-      ],
-      "descriptors": [
-        "cinematic",
-        "expansive",
-        "gradual"
-      ],
       "contexts": [
         "专注聆听",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "0.7 惘闻 post-rock 后摇滚 Post-Rock instrumental-rock 器乐摇滚 Instrumental Rock cinematic expansive gradual 电影感（Cinematic） 辽阔（Expansive） 渐进（Gradual） 专注聆听 夜晚"
+      "coreGenres": [
+        "post-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "0.7 惘闻 post-rock 后摇滚（Post-Rock） 专注聆听 夜晚"
     },
     {
       "internalId": "album:2646287",
@@ -4407,25 +3786,19 @@
       "trackCount": 6,
       "externalUrl": "https://music.163.com/#/album?id=2646287",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "post-rock"
-      ],
-      "relatedGenres": [
-        "instrumental-rock"
-      ],
-      "descriptors": [
-        "bright",
-        "expansive",
-        "gradual"
-      ],
       "contexts": [
         "工作",
         "专注聆听"
       ],
       "editorial": null,
-      "searchText": "彩虹山 文雀 post-rock 后摇滚 Post-Rock instrumental-rock 器乐摇滚 Instrumental Rock bright expansive gradual 明亮（Bright） 辽阔（Expansive） 渐进（Gradual） 工作 专注聆听"
+      "coreGenres": [
+        "post-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "彩虹山 文雀 post-rock 后摇滚（Post-Rock） 工作 专注聆听"
     },
     {
       "internalId": "album:37199",
@@ -4566,26 +3939,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=37199",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "indie-rock",
-        "art-rock"
-      ],
-      "descriptors": [
-        "poetic",
-        "dynamic",
-        "reflective"
-      ],
       "contexts": [
         "专注聆听",
         "通勤"
       ],
       "editorial": null,
-      "searchText": "最美妙的旅行 声音玩具 rock 摇滚 Rock indie-rock art-rock 独立摇滚 Indie Rock 艺术摇滚 Art Rock poetic dynamic reflective 诗意（Poetic） 动态强（Dynamic） 沉思（Reflective） 专注聆听 通勤"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "最美妙的旅行 声音玩具 rock 摇滚（Rock） 专注聆听 通勤"
     },
     {
       "internalId": "album:36190",
@@ -4726,26 +4092,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=36190",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "alternative-rock",
-        "post-punk"
-      ],
-      "descriptors": [
-        "dark",
-        "dramatic",
-        "urban"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "果冻帝国 木马Muma rock 摇滚 Rock alternative-rock post-punk 另类摇滚 Alternative Rock 后朋克 Post-Punk dark dramatic urban 幽暗（Dark） 戏剧性（Dramatic） 城市感（Urban） 夜晚 独处"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "果冻帝国 木马Muma rock 摇滚（Rock） 夜晚 独处"
     },
     {
       "internalId": "album:84951503",
@@ -4866,25 +4225,19 @@
       "trackCount": 8,
       "externalUrl": "https://music.163.com/#/album?id=84951503",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "electronic"
-      ],
-      "relatedGenres": [
-        "experimental-electronic"
-      ],
-      "descriptors": [
-        "polyrhythmic",
-        "abstract",
-        "futuristic"
-      ],
       "contexts": [
         "专注聆听",
         "工作"
       ],
       "editorial": null,
-      "searchText": "Arthropods 33EMYBW electronic 电子 Electronic experimental-electronic 实验电子 Experimental Electronic polyrhythmic abstract futuristic 复合节奏（Polyrhythmic） 抽象（Abstract） 未来感（Futuristic） 专注聆听 工作"
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Arthropods 33EMYBW electronic 电子（Electronic） 专注聆听 工作"
     },
     {
       "internalId": "album:135678901",
@@ -4970,26 +4323,19 @@
       "trackCount": 5,
       "externalUrl": "https://music.163.com/#/album?id=135678901",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "electronic"
-      ],
-      "relatedGenres": [
-        "experimental-electronic",
-        "ambient"
-      ],
-      "descriptors": [
-        "textural",
-        "futuristic",
-        "spacious"
-      ],
       "contexts": [
         "夜晚",
         "专注聆听"
       ],
       "editorial": null,
-      "searchText": "鸟岛(Remixes) Howie Lee electronic 电子 Electronic experimental-electronic ambient 实验电子 Experimental Electronic 氛围音乐 Ambient textural futuristic spacious 音色导向（Textural） 未来感（Futuristic） 空间感（Spacious） 夜晚 专注聆听"
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "鸟岛(Remixes) Howie Lee electronic 电子（Electronic） 夜晚 专注聆听"
     },
     {
       "internalId": "album:11554",
@@ -5142,25 +4488,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=11554",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "electronic"
-      ],
-      "relatedGenres": [
-        "experimental-pop"
-      ],
-      "descriptors": [
-        "digital",
-        "playful",
-        "urban"
-      ],
       "contexts": [
         "夜晚",
         "通勤"
       ],
       "editorial": null,
-      "searchText": "娱乐世界 林强 electronic 电子 Electronic experimental-pop 实验流行 Experimental Pop digital playful urban 数字感（Digital） 俏皮（Playful） 城市感（Urban） 夜晚 通勤"
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "娱乐世界 林强 electronic 电子（Electronic） 夜晚 通勤"
     },
     {
       "internalId": "album:19213",
@@ -5301,25 +4641,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=19213",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "experimental-rock"
-      ],
-      "relatedGenres": [
-        "art-rock"
-      ],
-      "descriptors": [
-        "theatrical",
-        "raw",
-        "satirical"
-      ],
       "contexts": [
         "专注聆听",
         "独处"
       ],
       "editorial": null,
-      "searchText": "庙会之旅 左小祖咒 experimental-rock 实验摇滚 Experimental Rock art-rock 艺术摇滚 Art Rock theatrical raw satirical 剧场感（Theatrical） 粗粝（Raw） 讽刺（Satirical） 专注聆听 独处"
+      "coreGenres": [
+        "experimental-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "庙会之旅 左小祖咒 experimental-rock 实验摇滚（Experimental Rock） 专注聆听 独处"
     },
     {
       "internalId": "album:3048030",
@@ -5460,25 +4794,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=3048030",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "folk"
-      ],
-      "relatedGenres": [
-        "singer-songwriter"
-      ],
-      "descriptors": [
-        "intimate",
-        "narrative",
-        "warm"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "吉姆餐厅 赵雷 folk 民谣 Folk singer-songwriter 唱作人 Singer-Songwriter intimate narrative warm 亲密（Intimate） 叙事性（Narrative） 温暖（Warm） 夜晚 独处"
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "吉姆餐厅 赵雷 folk 民谣（Folk） 夜晚 独处"
     },
     {
       "internalId": "album:15686",
@@ -5630,25 +4958,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=15686",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "folk"
-      ],
-      "relatedGenres": [
-        "singer-songwriter"
-      ],
-      "descriptors": [
-        "reflective",
-        "acoustic",
-        "narrative"
-      ],
       "contexts": [
         "独处",
         "清晨"
       ],
       "editorial": null,
-      "searchText": "这一切没有想象的那么糟 万晓利 folk 民谣 Folk singer-songwriter 唱作人 Singer-Songwriter reflective acoustic narrative 沉思（Reflective） 原声（Acoustic） 叙事性（Narrative） 独处 清晨"
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "这一切没有想象的那么糟 万晓利 folk 民谣（Folk） 独处 清晨"
     },
     {
       "internalId": "album:14526",
@@ -5789,25 +5111,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=14526",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "folk"
-      ],
-      "relatedGenres": [
-        "folk-rock"
-      ],
-      "descriptors": [
-        "earthy",
-        "narrative",
-        "rhythmic"
-      ],
       "contexts": [
         "通勤",
         "周末"
       ],
       "editorial": null,
-      "searchText": "贤良 苏阳 folk 民谣 Folk folk-rock 民谣摇滚 Folk Rock earthy narrative rhythmic 质朴（Earthy） 叙事性（Narrative） 节奏鲜明（Rhythmic） 通勤 周末"
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "贤良 苏阳 folk 民谣（Folk） 通勤 周末"
     },
     {
       "internalId": "album:35559140",
@@ -5967,25 +5283,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=35559140",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "trap"
-      ],
-      "descriptors": [
-        "energetic",
-        "urban",
-        "playful"
-      ],
       "contexts": [
         "通勤",
         "运动"
       ],
       "editorial": null,
-      "searchText": "Black Cab Higher Brothers hip-hop 嘻哈 Hip Hop trap 陷阱说唱 Trap energetic urban playful 高能量（Energetic） 城市感（Urban） 俏皮（Playful） 通勤 运动"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Black Cab Higher Brothers hip-hop 嘻哈（Hip Hop） 通勤 运动"
     },
     {
       "internalId": "album:122743105",
@@ -6184,25 +5494,19 @@
       "trackCount": 15,
       "externalUrl": "https://music.163.com/#/album?id=122743105",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "trap"
-      ],
-      "descriptors": [
-        "confident",
-        "melodic",
-        "urban"
-      ],
       "contexts": [
         "通勤",
         "运动"
       ],
       "editorial": null,
-      "searchText": "黑马 马思唯 hip-hop 嘻哈 Hip Hop trap 陷阱说唱 Trap confident melodic urban 自信（Confident） 旋律性（Melodic） 城市感（Urban） 通勤 运动"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "黑马 马思唯 hip-hop 嘻哈（Hip Hop） 通勤 运动"
     },
     {
       "internalId": "album:97168319",
@@ -6517,25 +5821,19 @@
       "trackCount": 23,
       "externalUrl": "https://music.163.com/#/album?id=97168319",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "alternative-hip-hop"
-      ],
-      "descriptors": [
-        "narrative",
-        "dense",
-        "cinematic"
-      ],
       "contexts": [
         "专注聆听",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "科幻小说 法老 hip-hop 嘻哈 Hip Hop alternative-hip-hop 另类嘻哈 Alternative Hip Hop narrative dense cinematic 叙事性（Narrative） 密集（Dense） 电影感（Cinematic） 专注聆听 夜晚"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "科幻小说 法老 hip-hop 嘻哈（Hip Hop） 专注聆听 夜晚"
     },
     {
       "internalId": "album:75017719",
@@ -6699,25 +5997,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=75017719",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "alternative-hip-hop"
-      ],
-      "descriptors": [
-        "reflective",
-        "urban",
-        "melodic"
-      ],
       "contexts": [
         "通勤",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "KEY to L KEY.L刘聪 hip-hop 嘻哈 Hip Hop alternative-hip-hop 另类嘻哈 Alternative Hip Hop reflective urban melodic 沉思（Reflective） 城市感（Urban） 旋律性（Melodic） 通勤 夜晚"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "KEY to L KEY.L刘聪 hip-hop 嘻哈（Hip Hop） 通勤 夜晚"
     },
     {
       "internalId": "album:83826760",
@@ -6881,25 +6173,19 @@
       "trackCount": 12,
       "externalUrl": "https://music.163.com/#/album?id=83826760",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb"
-      ],
-      "descriptors": [
-        "melodic",
-        "warm",
-        "groovy"
-      ],
       "contexts": [
         "通勤",
         "周末"
       ],
       "editorial": null,
-      "searchText": "AIR PLAN 艾热 AIR hip-hop 嘻哈 Hip Hop alternative-rnb 另类 R&B Alternative R&B melodic warm groovy 旋律性（Melodic） 温暖（Warm） 律动（Groovy） 通勤 周末"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "AIR PLAN 艾热 AIR hip-hop 嘻哈（Hip Hop） 通勤 周末"
     },
     {
       "internalId": "album:169512732",
@@ -7172,25 +6458,19 @@
       "trackCount": 22,
       "externalUrl": "https://music.163.com/#/album?id=169512732",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "folk"
-      ],
-      "relatedGenres": [
-        "folk-pop"
-      ],
-      "descriptors": [
-        "narrative",
-        "traditional",
-        "dramatic"
-      ],
       "contexts": [
         "专注聆听",
         "周末"
       ],
       "editorial": null,
-      "searchText": "山歌寥哉 刀郎 folk 民谣 Folk folk-pop 民谣流行 Folk Pop narrative traditional dramatic 叙事性（Narrative） 传统质感（Traditional） 戏剧性（Dramatic） 专注聆听 周末"
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "山歌寥哉 刀郎 folk 民谣（Folk） 专注聆听 周末"
     },
     {
       "internalId": "album:386884453",
@@ -7250,16 +6530,16 @@
       "trackCount": 2,
       "externalUrl": "https://music.163.com/#/album?id=386884453",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ALL",
         "ZH"
       ],
+      "contexts": [],
+      "editorial": null,
       "coreGenres": [],
       "relatedGenres": [],
       "descriptors": [],
-      "contexts": [],
-      "editorial": null,
       "searchText": "窗边盼望 吴宇深 小羊unicorn"
     },
     {
@@ -7335,16 +6615,16 @@
       "trackCount": 4,
       "externalUrl": "https://music.163.com/#/album?id=387217523",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ALL",
         "ZH"
       ],
+      "contexts": [],
+      "editorial": null,
       "coreGenres": [],
       "relatedGenres": [],
       "descriptors": [],
-      "contexts": [],
-      "editorial": null,
       "searchText": "吹吹山顶的风 巴扎黑"
     },
     {
@@ -7387,16 +6667,16 @@
       "trackCount": 1,
       "externalUrl": "https://music.163.com/#/album?id=386378826",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ALL",
         "ZH"
       ],
+      "contexts": [],
+      "editorial": null,
       "coreGenres": [],
       "relatedGenres": [],
       "descriptors": [],
-      "contexts": [],
-      "editorial": null,
       "searchText": "那一眼 王赛罕娜"
     },
     {
@@ -7439,15 +6719,15 @@
       "trackCount": 1,
       "externalUrl": "https://music.163.com/#/album?id=386877428",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ZH"
       ],
+      "contexts": [],
+      "editorial": null,
       "coreGenres": [],
       "relatedGenres": [],
       "descriptors": [],
-      "contexts": [],
-      "editorial": null,
       "searchText": "诗敬薄情人 云汐"
     },
     {
@@ -7578,15 +6858,15 @@
       "trackCount": 9,
       "externalUrl": "https://music.163.com/#/album?id=386849800",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ZH"
       ],
+      "contexts": [],
+      "editorial": null,
       "coreGenres": [],
       "relatedGenres": [],
       "descriptors": [],
-      "contexts": [],
-      "editorial": null,
       "searchText": "毕业生 GRADUATING FROM A CHAPTER OF LIFE 阿力普"
     },
     {
@@ -7640,15 +6920,15 @@
       "trackCount": 2,
       "externalUrl": "https://music.163.com/#/album?id=384653629",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ZH"
       ],
+      "contexts": [],
+      "editorial": null,
       "coreGenres": [],
       "relatedGenres": [],
       "descriptors": [],
-      "contexts": [],
-      "editorial": null,
       "searchText": "Topic 6: 拾 Decennium 体熊专科"
     },
     {
@@ -7691,24 +6971,20 @@
       "trackCount": 1,
       "externalUrl": "https://music.163.com/#/album?id=386632533",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ZH"
-      ],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "trap"
-      ],
-      "descriptors": [
-        "energetic"
       ],
       "contexts": [
         "运动"
       ],
       "editorial": null,
-      "searchText": "Upward Spiral (扶瑶直上) KKECHO hip-hop 嘻哈 Hip Hop trap 陷阱说唱 Trap energetic 高能量（Energetic） 运动"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Upward Spiral (扶瑶直上) KKECHO hip-hop 嘻哈（Hip Hop） 运动"
     },
     {
       "internalId": "album:387010610",
@@ -7792,24 +7068,20 @@
       "trackCount": 4,
       "externalUrl": "https://music.163.com/#/album?id=387010610",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ZH"
-      ],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "alternative-hip-hop"
-      ],
-      "descriptors": [
-        "urban"
       ],
       "contexts": [
         "通勤"
       ],
       "editorial": null,
-      "searchText": "从沙至浪 Mikann耙耙柑 Knocker hip-hop 嘻哈 Hip Hop alternative-hip-hop 另类嘻哈 Alternative Hip Hop urban 城市感（Urban） 通勤"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "从沙至浪 Mikann耙耙柑 Knocker hip-hop 嘻哈（Hip Hop） 通勤"
     },
     {
       "internalId": "album:386815599",
@@ -7851,24 +7123,20 @@
       "trackCount": 1,
       "externalUrl": "https://music.163.com/#/album?id=386815599",
       "discoveredAt": "2026-07-15T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [
         "ZH"
-      ],
-      "coreGenres": [
-        "electronic"
-      ],
-      "relatedGenres": [
-        "experimental-electronic"
-      ],
-      "descriptors": [
-        "futuristic"
       ],
       "contexts": [
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "Mysterious Path 拗拗 NeoNew electronic 电子 Electronic experimental-electronic 实验电子 Experimental Electronic futuristic 未来感（Futuristic） 夜晚"
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Mysterious Path 拗拗 NeoNew electronic 电子（Electronic） 夜晚"
     },
     {
       "internalId": "album:1637054",
@@ -8020,26 +7288,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=1637054",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "rock"
-      ],
-      "relatedGenres": [
-        "soft-rock",
-        "pop-rock"
-      ],
-      "descriptors": [
-        "melodic",
-        "warm",
-        "bittersweet"
-      ],
       "contexts": [
         "通勤",
         "周末"
       ],
       "editorial": null,
-      "searchText": "Rumours Fleetwood Mac rock 摇滚 Rock soft-rock pop-rock 软摇滚 Soft Rock 流行摇滚 Pop Rock melodic warm bittersweet 旋律性（Melodic） 温暖（Warm） 苦乐参半（Bittersweet） 通勤 周末"
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Rumours Fleetwood Mac rock 摇滚（Rock） 通勤 周末"
     },
     {
       "internalId": "album:1724200",
@@ -8180,25 +7441,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=1724200",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "folk"
-      ],
-      "relatedGenres": [
-        "singer-songwriter"
-      ],
-      "descriptors": [
-        "intimate",
-        "reflective",
-        "acoustic"
-      ],
       "contexts": [
         "独处",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "Blue Joni Mitchell folk 民谣 Folk singer-songwriter 唱作人 Singer-Songwriter intimate reflective acoustic 亲密（Intimate） 沉思（Reflective） 原声（Acoustic） 独处 夜晚"
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Blue Joni Mitchell folk 民谣（Folk） 独处 夜晚"
     },
     {
       "internalId": "album:2732013",
@@ -8388,25 +7643,19 @@
       "trackCount": 14,
       "externalUrl": "https://music.163.com/#/album?id=2732013",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb"
-      ],
-      "descriptors": [
-        "confident",
-        "sensual",
-        "cinematic"
-      ],
       "contexts": [
         "夜晚",
         "运动"
       ],
       "editorial": null,
-      "searchText": "BEYONCÉ Beyoncé pop 流行 Pop alternative-rnb 另类 R&B Alternative R&B confident sensual cinematic 自信（Confident） 感性（Sensual） 电影感（Cinematic） 夜晚 运动"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "BEYONCÉ Beyoncé pop 流行（Pop） 夜晚 运动"
     },
     {
       "internalId": "album:195498828",
@@ -8547,25 +7796,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=195498828",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-pop"
-      ],
-      "descriptors": [
-        "intimate",
-        "dynamic",
-        "dark"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "HIT ME HARD AND SOFT Billie Eilish pop 流行 Pop alternative-pop 另类流行 Alternative Pop intimate dynamic dark 亲密（Intimate） 动态强（Dynamic） 幽暗（Dark） 夜晚 独处"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "HIT ME HARD AND SOFT Billie Eilish pop 流行（Pop） 夜晚 独处"
     },
     {
       "internalId": "album:2093862",
@@ -8728,25 +7971,19 @@
       "trackCount": 12,
       "externalUrl": "https://music.163.com/#/album?id=2093862",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb"
-      ],
-      "descriptors": [
-        "melodic",
-        "intimate",
-        "nostalgic"
-      ],
       "contexts": [
         "夜晚",
         "通勤"
       ],
       "editorial": null,
-      "searchText": "First Love 宇多田ヒカル pop 流行 Pop alternative-rnb 另类 R&B Alternative R&B melodic intimate nostalgic 旋律性（Melodic） 亲密（Intimate） 怀旧（Nostalgic） 夜晚 通勤"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "First Love 宇多田ヒカル pop 流行（Pop） 夜晚 通勤"
     },
     {
       "internalId": "album:158396696",
@@ -8909,25 +8146,19 @@
       "trackCount": 12,
       "externalUrl": "https://music.163.com/#/album?id=158396696",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "ambient"
-      ],
-      "relatedGenres": [
-        "modern-classical"
-      ],
-      "descriptors": [
-        "meditative",
-        "minimal",
-        "intimate"
-      ],
       "contexts": [
         "专注聆听",
         "独处"
       ],
       "editorial": null,
-      "searchText": "12 坂本龍一 ambient 氛围音乐 Ambient modern-classical 现代古典 Modern Classical meditative minimal intimate 冥想（Meditative） 极简（Minimal） 亲密（Intimate） 专注聆听 独处"
+      "coreGenres": [
+        "ambient"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "12 坂本龍一 ambient 氛围音乐（Ambient） 专注聆听 独处"
     },
     {
       "internalId": "album:85783683",
@@ -9180,25 +8411,19 @@
       "trackCount": 20,
       "externalUrl": "https://music.163.com/#/album?id=85783683",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "hip-hop"
-      ],
-      "descriptors": [
-        "dramatic",
-        "energetic",
-        "melodic"
-      ],
       "contexts": [
         "运动",
         "通勤"
       ],
       "editorial": null,
-      "searchText": "MAP OF THE SOUL : 7 BTS (防弹少年团) pop 流行 Pop hip-hop 嘻哈 Hip Hop dramatic energetic melodic 戏剧性（Dramatic） 高能量（Energetic） 旋律性（Melodic） 运动 通勤"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "MAP OF THE SOUL : 7 BTS (防弹少年团) pop 流行（Pop） 运动 通勤"
     },
     {
       "internalId": "album:35377328",
@@ -9341,25 +8566,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=35377328",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "pop"
-      ],
-      "relatedGenres": [
-        "alternative-rnb"
-      ],
-      "descriptors": [
-        "warm",
-        "melodic",
-        "reflective"
-      ],
       "contexts": [
         "通勤",
         "周末"
       ],
       "editorial": null,
-      "searchText": "Palette IU pop 流行 Pop alternative-rnb 另类 R&B Alternative R&B warm melodic reflective 温暖（Warm） 旋律性（Melodic） 沉思（Reflective） 通勤 周末"
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Palette IU pop 流行（Pop） 通勤 周末"
     },
     {
       "internalId": "album:2060534",
@@ -9522,25 +8741,19 @@
       "trackCount": 12,
       "externalUrl": "https://music.163.com/#/album?id=2060534",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "alternative-rock"
-      ],
-      "relatedGenres": [
-        "art-rock"
-      ],
-      "descriptors": [
-        "alienated",
-        "cinematic",
-        "dynamic"
-      ],
       "contexts": [
         "专注聆听",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "OK Computer Radiohead alternative-rock 另类摇滚 Alternative Rock art-rock 艺术摇滚 Art Rock alienated cinematic dynamic 疏离（Alienated） 电影感（Cinematic） 动态强（Dynamic） 专注聆听 夜晚"
+      "coreGenres": [
+        "alternative-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "OK Computer Radiohead alternative-rock 另类摇滚（Alternative Rock） 专注聆听 夜晚"
     },
     {
       "internalId": "album:1742060",
@@ -9703,25 +8916,19 @@
       "trackCount": 12,
       "externalUrl": "https://music.163.com/#/album?id=1742060",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "art-pop"
-      ],
-      "relatedGenres": [
-        "experimental-pop"
-      ],
-      "descriptors": [
-        "cinematic",
-        "dramatic",
-        "layered"
-      ],
       "contexts": [
         "专注聆听",
         "夜晚"
       ],
       "editorial": null,
-      "searchText": "Hounds Of Love Kate Bush art-pop 艺术流行 Art Pop experimental-pop 实验流行 Experimental Pop cinematic dramatic layered 电影感（Cinematic） 戏剧性（Dramatic） 层次丰富（Layered） 专注聆听 夜晚"
+      "coreGenres": [
+        "art-pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Hounds Of Love Kate Bush art-pop 艺术流行（Art Pop） 专注聆听 夜晚"
     },
     {
       "internalId": "album:422052",
@@ -9873,25 +9080,19 @@
       "trackCount": 11,
       "externalUrl": "https://music.163.com/#/album?id=422052",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "dream-pop"
-      ],
-      "relatedGenres": [
-        "shoegaze"
-      ],
-      "descriptors": [
-        "hazy",
-        "dense",
-        "immersive"
-      ],
       "contexts": [
         "夜晚",
         "专注聆听"
       ],
       "editorial": null,
-      "searchText": "loveless My Bloody Valentine dream-pop 梦幻流行 Dream Pop shoegaze 盯鞋 Shoegaze hazy dense immersive 朦胧（Hazy） 密集（Dense） 沉浸（Immersive） 夜晚 专注聆听"
+      "coreGenres": [
+        "dream-pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "loveless My Bloody Valentine dream-pop 梦幻流行（Dream Pop） 夜晚 专注聆听"
     },
     {
       "internalId": "album:1761243",
@@ -10032,25 +9233,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=1761243",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "dream-pop"
-      ],
-      "relatedGenres": [
-        "shoegaze"
-      ],
-      "descriptors": [
-        "dreamy",
-        "melancholic",
-        "spacious"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "Souvlaki Slowdive dream-pop 梦幻流行 Dream Pop shoegaze 盯鞋 Shoegaze dreamy melancholic spacious 梦幻（Dreamy） 忧郁（Melancholic） 空间感（Spacious） 夜晚 独处"
+      "coreGenres": [
+        "dream-pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Souvlaki Slowdive dream-pop 梦幻流行（Dream Pop） 夜晚 独处"
     },
     {
       "internalId": "album:3109151",
@@ -10268,26 +9463,19 @@
       "trackCount": 16,
       "externalUrl": "https://music.163.com/#/album?id=3109151",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "experimental-hip-hop",
-        "jazz-rap"
-      ],
-      "descriptors": [
-        "narrative",
-        "dense",
-        "groovy"
-      ],
       "contexts": [
         "专注聆听",
         "阅读歌词"
       ],
       "editorial": null,
-      "searchText": "To Pimp a Butterfly Kendrick Lamar hip-hop 嘻哈 Hip Hop experimental-hip-hop jazz-rap 实验嘻哈 Experimental Hip Hop 爵士说唱 Jazz Rap narrative dense groovy 叙事性（Narrative） 密集（Dense） 律动（Groovy） 专注聆听 阅读歌词"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "To Pimp a Butterfly Kendrick Lamar hip-hop 嘻哈（Hip Hop） 专注聆听 阅读歌词"
     },
     {
       "internalId": "album:316551",
@@ -10620,25 +9808,19 @@
       "trackCount": 22,
       "externalUrl": "https://music.163.com/#/album?id=316551",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "hip-hop"
-      ],
-      "relatedGenres": [
-        "experimental-hip-hop"
-      ],
-      "descriptors": [
-        "playful",
-        "dense",
-        "sample-based"
-      ],
       "contexts": [
         "通勤",
         "反复聆听"
       ],
       "editorial": null,
-      "searchText": "Madvillainy Madvillain MF DOOM Madlib hip-hop 嘻哈 Hip Hop experimental-hip-hop 实验嘻哈 Experimental Hip Hop playful dense sample-based 俏皮（Playful） 密集（Dense） 采样驱动（Sample-Based） 通勤 反复聆听"
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Madvillainy Madvillain MF DOOM Madlib hip-hop 嘻哈（Hip Hop） 通勤 反复聆听"
     },
     {
       "internalId": "album:1609277",
@@ -10823,26 +10005,19 @@
       "trackCount": 14,
       "externalUrl": "https://music.163.com/#/album?id=1609277",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "electronic"
-      ],
-      "relatedGenres": [
-        "house",
-        "synth-pop"
-      ],
-      "descriptors": [
-        "bright",
-        "groovy",
-        "futuristic"
-      ],
       "contexts": [
         "运动",
         "通勤"
       ],
       "editorial": null,
-      "searchText": "Discovery Daft Punk electronic 电子 Electronic house synth-pop 浩室 House 合成器流行 Synth-Pop bright groovy futuristic 明亮（Bright） 律动（Groovy） 未来感（Futuristic） 运动 通勤"
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Discovery Daft Punk electronic 电子（Electronic） 运动 通勤"
     },
     {
       "internalId": "album:1533976",
@@ -11016,26 +10191,19 @@
       "trackCount": 13,
       "externalUrl": "https://music.163.com/#/album?id=1533976",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "electronic"
-      ],
-      "relatedGenres": [
-        "uk-garage",
-        "ambient"
-      ],
-      "descriptors": [
-        "nocturnal",
-        "spacious",
-        "melancholic"
-      ],
       "contexts": [
         "夜晚",
         "独处"
       ],
       "editorial": null,
-      "searchText": "Untrue Burial electronic 电子 Electronic uk-garage ambient 英国车库 UK Garage 氛围音乐 Ambient nocturnal spacious melancholic 夜行感（Nocturnal） 空间感（Spacious） 忧郁（Melancholic） 夜晚 独处"
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Untrue Burial electronic 电子（Electronic） 夜晚 独处"
     },
     {
       "internalId": "album:1969878",
@@ -11132,25 +10300,19 @@
       "trackCount": 6,
       "externalUrl": "https://music.163.com/#/album?id=1969878",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "jazz"
-      ],
-      "relatedGenres": [
-        "modal-jazz"
-      ],
-      "descriptors": [
-        "spacious",
-        "improvised",
-        "calm"
-      ],
       "contexts": [
         "晚餐",
         "专注聆听"
       ],
       "editorial": null,
-      "searchText": "Kind of Blue Miles Davis jazz 爵士 Jazz modal-jazz 调式爵士 Modal Jazz spacious improvised calm 空间感（Spacious） 即兴（Improvised） 平静（Calm） 晚餐 专注聆听"
+      "coreGenres": [
+        "jazz"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Kind of Blue Miles Davis jazz 爵士（Jazz） 晚餐 专注聆听"
     },
     {
       "internalId": "album:39491272",
@@ -11203,25 +10365,19 @@
       "trackCount": 2,
       "externalUrl": "https://music.163.com/#/album?id=39491272",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "jazz"
-      ],
-      "relatedGenres": [
-        "spiritual-jazz"
-      ],
-      "descriptors": [
-        "intense",
-        "meditative",
-        "cohesive"
-      ],
       "contexts": [
         "专注聆听",
         "独处"
       ],
       "editorial": null,
-      "searchText": "A Love Supreme John Coltrane jazz 爵士 Jazz spiritual-jazz 灵性爵士 Spiritual Jazz intense meditative cohesive 强烈（Intense） 冥想（Meditative） 连贯（Cohesive） 专注聆听 独处"
+      "coreGenres": [
+        "jazz"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "A Love Supreme John Coltrane jazz 爵士（Jazz） 专注聆听 独处"
     },
     {
       "internalId": "album:1577480",
@@ -11362,25 +10518,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=1577480",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "dream-pop"
-      ],
-      "relatedGenres": [
-        "ethereal-wave"
-      ],
-      "descriptors": [
-        "ethereal",
-        "bright",
-        "immersive"
-      ],
       "contexts": [
         "夜晚",
         "放松"
       ],
       "editorial": null,
-      "searchText": "Heaven or Las Vegas Cocteau Twins dream-pop 梦幻流行 Dream Pop ethereal-wave 仙音浪潮 Ethereal Wave ethereal bright immersive 空灵（Ethereal） 明亮（Bright） 沉浸（Immersive） 夜晚 放松"
+      "coreGenres": [
+        "dream-pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Heaven or Las Vegas Cocteau Twins dream-pop 梦幻流行（Dream Pop） 夜晚 放松"
     },
     {
       "internalId": "album:2029087",
@@ -11521,25 +10671,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=2029087",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "post-rock"
-      ],
-      "relatedGenres": [
-        "ambient"
-      ],
-      "descriptors": [
-        "expansive",
-        "gradual",
-        "bright"
-      ],
       "contexts": [
         "专注聆听",
         "放松"
       ],
       "editorial": null,
-      "searchText": "Ágætis byrjun Sigur Rós post-rock 后摇滚 Post-Rock ambient 氛围音乐 Ambient expansive gradual bright 辽阔（Expansive） 渐进（Gradual） 明亮（Bright） 专注聆听 放松"
+      "coreGenres": [
+        "post-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Ágætis byrjun Sigur Rós post-rock 后摇滚（Post-Rock） 专注聆听 放松"
     },
     {
       "internalId": "album:412971",
@@ -11614,25 +10758,19 @@
       "trackCount": 4,
       "externalUrl": "https://music.163.com/#/album?id=412971",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "post-rock"
-      ],
-      "relatedGenres": [
-        "experimental-rock"
-      ],
-      "descriptors": [
-        "cinematic",
-        "gradual",
-        "intense"
-      ],
       "contexts": [
         "专注聆听",
         "深夜"
       ],
       "editorial": null,
-      "searchText": "Lift Your Skinny Fists Like Antennas to Heaven Godspeed You! Black Emperor post-rock 后摇滚 Post-Rock experimental-rock 实验摇滚 Experimental Rock cinematic gradual intense 电影感（Cinematic） 渐进（Gradual） 强烈（Intense） 专注聆听 深夜"
+      "coreGenres": [
+        "post-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Lift Your Skinny Fists Like Antennas to Heaven Godspeed You! Black Emperor post-rock 后摇滚（Post-Rock） 专注聆听 深夜"
     },
     {
       "internalId": "album:1956859",
@@ -11773,25 +10911,19 @@
       "trackCount": 10,
       "externalUrl": "https://music.163.com/#/album?id=1956859",
       "discoveredAt": "2026-07-23T00:00:00.000Z",
-      "updatedAt": "2026-07-23T08:15:23.348Z",
+      "updatedAt": "2026-07-23T09:19:18.513Z",
       "sourceMarketChannels": [],
-      "coreGenres": [
-        "metal"
-      ],
-      "relatedGenres": [
-        "thrash-metal"
-      ],
-      "descriptors": [
-        "fast",
-        "precise",
-        "intense"
-      ],
       "contexts": [
         "运动",
         "专注聆听"
       ],
       "editorial": null,
-      "searchText": "Master Of Puppets Metallica metal 金属 Metal thrash-metal 激流金属 Thrash Metal fast precise intense 高速（Fast） 精密（Precise） 强烈（Intense） 运动 专注聆听"
+      "coreGenres": [
+        "metal"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Master Of Puppets Metallica metal 金属（Metal） 运动 专注聆听"
     }
   ]
 }

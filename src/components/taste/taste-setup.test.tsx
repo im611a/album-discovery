@@ -13,9 +13,14 @@ describe("TasteSetup", () => {
     const submit = await screen.findByRole("button", { name: "查看我的推荐" });
     expect(submit).toBeDisabled();
     fireEvent.click(screen.getByRole("button", { name: "艺术流行（Art Pop）" }));
-    fireEvent.click(screen.getByRole("button", { name: "朦胧（Hazy）" }));
+    fireEvent.click(screen.getByRole("button", { name: "梦幻流行（Dream Pop）" }));
     expect(submit).toBeEnabled(); fireEvent.click(submit);
     expect(push).toHaveBeenCalledWith("/for-you");
+  });
+  it("does not offer descriptor choices when no verified descriptors are published", async () => {
+    render(<PersonalStateProvider><TasteSetup /></PersonalStateProvider>);
+    await screen.findByRole("button", { name: "查看我的推荐" });
+    expect(screen.queryByRole("group", { name: "氛围与特征" })).not.toBeInTheDocument();
   });
   it("supports a useful skip path", async () => {
     render(<PersonalStateProvider><TasteSetup /></PersonalStateProvider>);

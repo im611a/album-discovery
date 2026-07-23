@@ -28,7 +28,7 @@ export function AlbumDetail({ album }: { album: PublishedAlbum }) {
     </header>
     <div className="album-detail__content">
       {album.coreGenres.length || album.relatedGenres.length || album.descriptors.length ? <section className="detail-card" aria-labelledby="signals-title">
-        <p className="section-kicker">站内策展分类</p>
+        <p className="section-kicker">分类依据</p>
         <h2 id="signals-title">流派与声音特征</h2>
         <div className="signal-groups">
           {album.coreGenres.length ? <div><h3>核心流派</h3>{album.coreGenres.map((item) => <Link key={item} href={`/discover?genre=${encodeURIComponent(item)}`}>{getTaxonomyLabel(item)}</Link>)}</div> : null}

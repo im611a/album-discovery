@@ -6,7 +6,7 @@
 中文优先候选 + 固定网易云 albumId
 → 串行、限频、可缓存的构建期刷新
 → 网易云公开专辑详情 / 本地封面
-→ 规范化、本站策展分类与硬校验
+→ 规范化、离线 RYM 唯一匹配或人工核心流派与硬校验
 → src/data/generated/catalog.json
 → src/catalog 查询与确定性推荐
 → App Router 静态页面
@@ -27,7 +27,9 @@
 
 ## 发布模型
 
-`PublishedAlbum` 同时保存内部稳定 ID 与 `neteaseAlbumId`。网易云负责专辑身份和目录字段；`coreGenres`、`relatedGenres`、`descriptors`、`contexts` 与 `editorial` 属于本地策展层。`sourceMarketChannels` 是发现记录，不是专辑固有地区字段。
+`PublishedAlbum` 同时保存内部稳定 ID 与 `neteaseAlbumId`。网易云负责专辑身份和目录字段。可靠匹配时，`coreGenres`、`relatedGenres`、`descriptors` 分别映射离线 RYM Primary Genres、Secondary Genres、Descriptors；未匹配时只允许人工确认的 `coreGenres`，其余两类必须为空。`contexts` 与 `editorial` 属于本地策展层。`sourceMarketChannels` 是发现记录，不是专辑固有地区字段。
+
+RYM 匹配是构建期纯函数，必须同时核对标题与别名、艺人、发行年份和发行类型，并要求唯一候选。输入仅来自 checked-in 离线快照；浏览器、构建和刷新均不访问 RYM 网站。发现页选项由实际发布值构造，因此空分类不生成筛选项，旧 URL 中的无效参数会安全忽略。
 
 ## 推荐
 

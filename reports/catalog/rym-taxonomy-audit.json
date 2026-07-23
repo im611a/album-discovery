@@ -1,0 +1,1173 @@
+{
+  "generatedAt": "2026-07-23T09:19:18.513Z",
+  "sourceDescription": "No authorized offline RYM taxonomy file or manually verified RYM record is currently published.",
+  "importedAt": null,
+  "matched": 0,
+  "unmatched": 68,
+  "ambiguous": 0,
+  "albums": [
+    {
+      "albumId": "287974232",
+      "slug": "wake-after-the-rain",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "在雨后醒来"
+        ],
+        "artists": [
+          "艾志恒Asen"
+        ],
+        "releaseYear": "2025",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "286248593",
+      "slug": "super-mr-sun",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "超级孙先生"
+        ],
+        "artists": [
+          "SASIOVERLXRD"
+        ],
+        "releaseYear": "2025",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "18915",
+      "slug": "fantasy-jay-chou",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "范特西",
+          "Fantasy"
+        ],
+        "artists": [
+          "周杰伦"
+        ],
+        "releaseYear": "2001",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "18905",
+      "slug": "ye-hui-mei",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "叶惠美",
+          "Yeh Hui–mei"
+        ],
+        "artists": [
+          "周杰伦"
+        ],
+        "releaseYear": "2003",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "15190",
+      "slug": "black-tangerine",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "黑色柳丁"
+        ],
+        "artists": [
+          "陶喆"
+        ],
+        "releaseYear": "2002",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "15185",
+      "slug": "the-great-leap",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "太平盛世",
+          "The Great Leap"
+        ],
+        "artists": [
+          "陶喆"
+        ],
+        "releaseYear": "2005",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "29748",
+      "slug": "fuzao",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "浮躁"
+        ],
+        "artists": [
+          "王菲"
+        ],
+        "releaseYear": "1996",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "29698",
+      "slug": "fable",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "寓言"
+        ],
+        "artists": [
+          "王菲"
+        ],
+        "releaseYear": "2000",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "6491",
+      "slug": "u87",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "U87"
+        ],
+        "artists": [
+          "陈奕迅"
+        ],
+        "releaseYear": "2005",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "19038",
+      "slug": "red-leslie",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "红"
+        ],
+        "artists": [
+          "张国荣"
+        ],
+        "releaseYear": "1996",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "3098832",
+      "slug": "ru-ye",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "如也"
+        ],
+        "artists": [
+          "陈粒"
+        ],
+        "releaseYear": "2015",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "7600",
+      "slug": "shan-he-shui",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "山河水"
+        ],
+        "artists": [
+          "窦唯"
+        ],
+        "releaseYear": "1998",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "7608",
+      "slug": "black-dream",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "黑梦"
+        ],
+        "artists": [
+          "窦唯"
+        ],
+        "releaseYear": "1994",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "6311",
+      "slug": "rock-n-roll-on-the-new-long-march",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "新长征路上的摇滚"
+        ],
+        "artists": [
+          "崔健"
+        ],
+        "releaseYear": "1989",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "38306",
+      "slug": "omnipotent-youth-society",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "万能青年旅店 同名专辑"
+        ],
+        "artists": [
+          "万能青年旅店"
+        ],
+        "releaseYear": "2010",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "120605500",
+      "slug": "inside-the-cable-temple",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "冀西南林路行"
+        ],
+        "artists": [
+          "万能青年旅店"
+        ],
+        "releaseYear": "2020",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "162870766",
+      "slug": "the-clod",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "瓦合"
+        ],
+        "artists": [
+          "草东没有派对"
+        ],
+        "releaseYear": "2023",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "34674226",
+      "slug": "the-servile",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "丑奴儿"
+        ],
+        "artists": [
+          "草东没有派对"
+        ],
+        "releaseYear": "2016",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "37651016",
+      "slug": "cassa-nova",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Cassa Nova"
+        ],
+        "artists": [
+          "落日飛車 Sunset Rollercoaster"
+        ],
+        "releaseYear": "2018",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "35590687",
+      "slug": "bathroom",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "浴室"
+        ],
+        "artists": [
+          "deca joins"
+        ],
+        "releaseYear": "2017",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "38188",
+      "slug": "zero-point-seven",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "0.7"
+        ],
+        "artists": [
+          "惘闻"
+        ],
+        "releaseYear": "2012",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "2646287",
+      "slug": "rainbow-mountain",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "彩虹山"
+        ],
+        "artists": [
+          "文雀"
+        ],
+        "releaseYear": "2012",
+        "releaseType": "ep"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "37199",
+      "slug": "the-most-wonderful-journey",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "最美妙的旅行"
+        ],
+        "artists": [
+          "声音玩具"
+        ],
+        "releaseYear": "2003",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "36190",
+      "slug": "jelly-empire",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "果冻帝国"
+        ],
+        "artists": [
+          "木马Muma"
+        ],
+        "releaseYear": "2004",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "84951503",
+      "slug": "arthropods",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Arthropods"
+        ],
+        "artists": [
+          "33EMYBW"
+        ],
+        "releaseYear": "2019",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "135678901",
+      "slug": "birdy-island-remixes",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "鸟岛(Remixes)"
+        ],
+        "artists": [
+          "Howie Lee"
+        ],
+        "releaseYear": "2021",
+        "releaseType": "ep"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "11554",
+      "slug": "entertainment-world",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "娱乐世界"
+        ],
+        "artists": [
+          "林强"
+        ],
+        "releaseYear": "1994",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "19213",
+      "slug": "temple-fair-tour",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "庙会之旅"
+        ],
+        "artists": [
+          "左小祖咒"
+        ],
+        "releaseYear": "1999",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "3048030",
+      "slug": "jims-restaurant",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "吉姆餐厅"
+        ],
+        "artists": [
+          "赵雷"
+        ],
+        "releaseYear": "2014",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "15686",
+      "slug": "everything-is-not-as-bad",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "这一切没有想象的那么糟"
+        ],
+        "artists": [
+          "万晓利"
+        ],
+        "releaseYear": "2006",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "14526",
+      "slug": "virtuous",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "贤良"
+        ],
+        "artists": [
+          "苏阳"
+        ],
+        "releaseYear": "2006",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "35559140",
+      "slug": "black-cab",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Black Cab"
+        ],
+        "artists": [
+          "Higher Brothers"
+        ],
+        "releaseYear": "2017",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "122743105",
+      "slug": "dark-horse",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "黑马"
+        ],
+        "artists": [
+          "马思唯"
+        ],
+        "releaseYear": "2021",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "97168319",
+      "slug": "science-fiction",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "科幻小说"
+        ],
+        "artists": [
+          "法老"
+        ],
+        "releaseYear": "2020",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "75017719",
+      "slug": "key-to-l",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "KEY to L"
+        ],
+        "artists": [
+          "KEY.L刘聪"
+        ],
+        "releaseYear": "2019",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "83826760",
+      "slug": "air-plan",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "AIR PLAN"
+        ],
+        "artists": [
+          "艾热 AIR"
+        ],
+        "releaseYear": "2019",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "169512732",
+      "slug": "song-of-the-mountain",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "山歌寥哉"
+        ],
+        "artists": [
+          "刀郎"
+        ],
+        "releaseYear": "2023",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "386884453",
+      "slug": "window-side-wish",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "窗边盼望"
+        ],
+        "artists": [
+          "吴宇深",
+          "小羊unicorn"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "single"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "387217523",
+      "slug": "wind-on-the-mountain",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "吹吹山顶的风"
+        ],
+        "artists": [
+          "巴扎黑"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "ep"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "386378826",
+      "slug": "that-glance",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "那一眼"
+        ],
+        "artists": [
+          "王赛罕娜"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "single"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "386877428",
+      "slug": "poem-to-the-heartless",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "诗敬薄情人"
+        ],
+        "artists": [
+          "云汐"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "single"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "386849800",
+      "slug": "graduating-from-a-chapter",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "毕业生 GRADUATING FROM A CHAPTER OF LIFE"
+        ],
+        "artists": [
+          "阿力普"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "384653629",
+      "slug": "topic-six-decennium",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Topic 6: 拾 Decennium"
+        ],
+        "artists": [
+          "体熊专科"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "ep"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "386632533",
+      "slug": "upward-spiral",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Upward Spiral (扶瑶直上)"
+        ],
+        "artists": [
+          "KKECHO"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "single"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "387010610",
+      "slug": "from-sand-to-wave",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "从沙至浪"
+        ],
+        "artists": [
+          "Mikann耙耙柑",
+          "Knocker"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "ep"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "386815599",
+      "slug": "mysterious-path",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Mysterious Path"
+        ],
+        "artists": [
+          "拗拗 NeoNew"
+        ],
+        "releaseYear": "2026",
+        "releaseType": "ep"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1637054",
+      "slug": "rumours",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Rumours"
+        ],
+        "artists": [
+          "Fleetwood Mac"
+        ],
+        "releaseYear": "1977",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1724200",
+      "slug": "blue-joni-mitchell",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Blue"
+        ],
+        "artists": [
+          "Joni Mitchell"
+        ],
+        "releaseYear": "1971",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "2732013",
+      "slug": "beyonce",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "BEYONCÉ"
+        ],
+        "artists": [
+          "Beyoncé"
+        ],
+        "releaseYear": "2013",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "195498828",
+      "slug": "hit-me-hard-and-soft",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "HIT ME HARD AND SOFT"
+        ],
+        "artists": [
+          "Billie Eilish"
+        ],
+        "releaseYear": "2024",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "2093862",
+      "slug": "first-love",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "First Love"
+        ],
+        "artists": [
+          "宇多田ヒカル"
+        ],
+        "releaseYear": "1999",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "158396696",
+      "slug": "12-ryuichi-sakamoto",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "12"
+        ],
+        "artists": [
+          "坂本龍一"
+        ],
+        "releaseYear": "2023",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "85783683",
+      "slug": "map-of-the-soul-7",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "MAP OF THE SOUL : 7"
+        ],
+        "artists": [
+          "BTS (防弹少年团)"
+        ],
+        "releaseYear": "2020",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "35377328",
+      "slug": "palette-iu",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Palette"
+        ],
+        "artists": [
+          "IU"
+        ],
+        "releaseYear": "2017",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "2060534",
+      "slug": "ok-computer",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "OK Computer"
+        ],
+        "artists": [
+          "Radiohead"
+        ],
+        "releaseYear": "1997",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1742060",
+      "slug": "hounds-of-love",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Hounds Of Love"
+        ],
+        "artists": [
+          "Kate Bush"
+        ],
+        "releaseYear": "1985",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "422052",
+      "slug": "loveless",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "loveless"
+        ],
+        "artists": [
+          "My Bloody Valentine"
+        ],
+        "releaseYear": "1991",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1761243",
+      "slug": "souvlaki",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Souvlaki"
+        ],
+        "artists": [
+          "Slowdive"
+        ],
+        "releaseYear": "1993",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "3109151",
+      "slug": "to-pimp-a-butterfly",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "To Pimp a Butterfly"
+        ],
+        "artists": [
+          "Kendrick Lamar"
+        ],
+        "releaseYear": "2015",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "316551",
+      "slug": "madvillainy",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Madvillainy"
+        ],
+        "artists": [
+          "Madvillain",
+          "MF DOOM",
+          "Madlib"
+        ],
+        "releaseYear": "2004",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1609277",
+      "slug": "discovery-daft-punk",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Discovery"
+        ],
+        "artists": [
+          "Daft Punk"
+        ],
+        "releaseYear": "2001",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1533976",
+      "slug": "untrue",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Untrue"
+        ],
+        "artists": [
+          "Burial"
+        ],
+        "releaseYear": "2007",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1969878",
+      "slug": "kind-of-blue",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Kind of Blue"
+        ],
+        "artists": [
+          "Miles Davis"
+        ],
+        "releaseYear": "1959",
+        "releaseType": "ep"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "39491272",
+      "slug": "a-love-supreme",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "A Love Supreme"
+        ],
+        "artists": [
+          "John Coltrane"
+        ],
+        "releaseYear": "2006",
+        "releaseType": "single"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1577480",
+      "slug": "heaven-or-las-vegas",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Heaven or Las Vegas"
+        ],
+        "artists": [
+          "Cocteau Twins"
+        ],
+        "releaseYear": "1990",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "2029087",
+      "slug": "agaetis-byrjun",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Ágætis byrjun"
+        ],
+        "artists": [
+          "Sigur Rós"
+        ],
+        "releaseYear": "1999",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "412971",
+      "slug": "lift-your-skinny-fists",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Lift Your Skinny Fists Like Antennas to Heaven"
+        ],
+        "artists": [
+          "Godspeed You! Black Emperor"
+        ],
+        "releaseYear": "2000",
+        "releaseType": "ep"
+      },
+      "candidateReferences": []
+    },
+    {
+      "albumId": "1956859",
+      "slug": "master-of-puppets",
+      "status": "unmatched",
+      "reason": "no_authorized_offline_record",
+      "evidence": {
+        "titleAndAliases": [
+          "Master Of Puppets"
+        ],
+        "artists": [
+          "Metallica"
+        ],
+        "releaseYear": "1986",
+        "releaseType": "album"
+      },
+      "candidateReferences": []
+    }
+  ]
+}

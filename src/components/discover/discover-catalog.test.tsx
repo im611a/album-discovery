@@ -29,9 +29,11 @@ describe("DiscoverCatalog URL state", () => {
   });
 
   it("ignores invalid filter values and can clear all URL state", () => {
-    query = "genre=not-real";
+    query = "genre=not-real&secondary=legacy-related&descriptor=legacy-descriptor";
     renderCatalog();
     expect(screen.getByLabelText("核心流派")).toHaveValue("");
+    expect(screen.queryByLabelText("相关流派")).not.toBeInTheDocument();
+    expect(screen.queryByLabelText("氛围与特征")).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "清除筛选" }));
     expect(push).toHaveBeenCalledWith("/discover", { scroll: false });
   });

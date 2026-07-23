@@ -1,4 +1,5 @@
 import { REQUIRED_NETEASE_SAMPLES } from "./netease-seeds.mjs";
+import { resolveRymTaxonomy } from "./rym-taxonomy.mjs";
 
 const neteaseAlbumUrl = /^https:\/\/music\.163\.com\/#\/album\?id=(\d+)$/;
 const isoTimestamp = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/;
@@ -23,11 +24,12 @@ function duplicateValues(values) {
   return [...duplicates];
 }
 
-export function validateCatalogData(catalog, identities = {}) {
+export function validateCatalogData(catalog, identities = {}, rymSnapshot = { records: [] }) {
   const errors = [];
   if (catalog?.version !== 2) errors.push("Catalog version must be 2.");
   if (catalog?.source?.catalog !== "netease") errors.push("Catalog authority must be NetEase.");
   if (catalog?.source?.runtimeRequestsAllowed !== false) errors.push("Runtime provider requests must be disabled.");
+  if (catalog?.source?.taxonomy !== "rym-offline-or-manual-core") errors.push("Catalog taxonomy source boundary is invalid.");
   if (!isoTimestamp.test(String(catalog?.source?.generatedAt ?? ""))) errors.push("Catalog generatedAt must be a UTC ISO timestamp.");
   if (!Array.isArray(catalog?.albums) || !catalog.albums.length) errors.push("Catalog must contain albums.");
   if (!Array.isArray(catalog?.taxonomy)) errors.push("Catalog taxonomy must be an array.");
@@ -37,12 +39,20 @@ export function validateCatalogData(catalog, identities = {}) {
   const slugs = albums.map((album) => album.slug);
   for (const duplicate of duplicateValues(ids)) errors.push(`Duplicate NetEase album ID: ${duplicate}`);
   for (const duplicate of duplicateValues(slugs)) errors.push(`Duplicate slug: ${duplicate}`);
-  const taxonomyKeys = new Set((catalog?.taxonomy ?? []).map((item) => item.key));
+  const coreTaxonomyKeys = new Set((catalog?.taxonomy ?? []).filter((item) => item.kind === "core").map((item) => item.key));
+  const relatedTaxonomyKeys = new Set((catalog?.taxonomy ?? []).filter((item) => item.kind === "related").map((item) => item.key));
   const descriptorKeys = new Set((catalog?.descriptorTaxonomy ?? []).map((item) => item.key));
+  for (const duplicate of duplicateValues((catalog?.taxonomy ?? []).map((item) => item.key))) errors.push(`Duplicate taxonomy key: ${duplicate}`);
+  for (const duplicate of duplicateValues((catalog?.descriptorTaxonomy ?? []).map((item) => item.key))) errors.push(`Duplicate descriptor key: ${duplicate}`);
   for (const item of catalog?.taxonomy ?? []) {
     if (!stableKey.test(String(item.key))) errors.push(`Invalid taxonomy key: ${item.key}`);
     if (!["core", "related"].includes(item.kind)) errors.push(`Invalid taxonomy kind for ${item.key}.`);
-    if (!item.labelZh || !item.labelEn) errors.push(`Taxonomy ${item.key} needs Chinese and English labels.`);
+    if (!item.labelEn || (item.labelZh != null && !String(item.labelZh).trim())) errors.push(`Taxonomy ${item.key} needs an English label and an optional non-empty Chinese label.`);
+  }
+  for (const item of catalog?.descriptorTaxonomy ?? []) {
+    if (!stableKey.test(String(item.key))) errors.push(`Invalid descriptor key: ${item.key}`);
+    if (item.kind !== "descriptor") errors.push(`Invalid descriptor kind for ${item.key}.`);
+    if (!item.labelEn || (item.labelZh != null && !String(item.labelZh).trim())) errors.push(`Descriptor ${item.key} needs an English label and an optional non-empty Chinese label.`);
   }
   for (const album of albums) {
     const prefix = album?.slug ?? album?.neteaseAlbumId ?? "unknown";
@@ -63,9 +73,18 @@ export function validateCatalogData(catalog, identities = {}) {
     if (album?.cover?.kind === "local" && !/^\/catalog\/covers\/\d+\.jpg$/.test(String(album.cover.src))) errors.push(`${prefix}: local cover path must use the NetEase album ID.`);
     if (album?.cover?.kind === "fallback" && album.cover.src !== null) errors.push(`${prefix}: fallback cover must not pretend to be a real image.`);
     for (const channel of album?.sourceMarketChannels ?? []) if (!["ALL", "ZH", "EA", "JP", "KR"].includes(channel)) errors.push(`${prefix}: invalid market channel ${channel}.`);
-    for (const key of album?.coreGenres ?? []) if (!taxonomyKeys.has(key)) errors.push(`${prefix}: unknown core genre ${key}.`);
-    for (const key of album?.relatedGenres ?? []) if (!taxonomyKeys.has(key)) errors.push(`${prefix}: unknown related genre ${key}.`);
+    for (const key of album?.coreGenres ?? []) if (!coreTaxonomyKeys.has(key)) errors.push(`${prefix}: unknown core genre ${key}.`);
+    for (const key of album?.relatedGenres ?? []) if (!relatedTaxonomyKeys.has(key)) errors.push(`${prefix}: unknown related genre ${key}.`);
     for (const key of album?.descriptors ?? []) if (!descriptorKeys.has(key)) errors.push(`${prefix}: unknown descriptor ${key}.`);
+    const resolvedTaxonomy = resolveRymTaxonomy(album, album?.coreGenres ?? [], rymSnapshot?.records ?? []).taxonomy;
+    const publishedTaxonomy = {
+      coreGenres: album?.coreGenres ?? [],
+      relatedGenres: album?.relatedGenres ?? [],
+      descriptors: album?.descriptors ?? [],
+    };
+    if (JSON.stringify(resolvedTaxonomy) !== JSON.stringify(publishedTaxonomy)) {
+      errors.push(`${prefix}: published taxonomy does not match the unique offline RYM record or manual-core fallback.`);
+    }
     const forbiddenKeys = ["musicbrainzReleaseGroupId", "representativeReleaseId", "sourceSummary", "primaryGenres", "secondaryGenres", "externalLinks"];
     for (const key of forbiddenKeys) if (key in album) errors.push(`${prefix}: legacy production field ${key} is forbidden.`);
     const fixed = identities[album.slug];

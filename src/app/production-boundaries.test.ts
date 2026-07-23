@@ -16,6 +16,15 @@ describe("production delivery boundaries", () => {
     for (const file of files) expect(readFileSync(resolve(file), "utf8")).not.toMatch(/\bfetch\s*\(|XMLHttpRequest|WebSocket|EventSource/);
   });
 
+  it("does not generate RYM secondary genres or descriptors from NetEase or editorial seeds", () => {
+    const seeds = readFileSync(resolve("scripts/catalog/netease-seeds.mjs"), "utf8");
+    const refresh = readFileSync(resolve("scripts/catalog/refresh-catalog.mjs"), "utf8");
+    const rymResolver = readFileSync(resolve("scripts/catalog/rym-taxonomy.mjs"), "utf8");
+    expect(seeds).not.toMatch(/relatedGenres|descriptors/);
+    expect(refresh).not.toMatch(/seed\.relatedGenres|seed\.descriptors/);
+    expect(rymResolver).not.toMatch(/\bfetch\s*\(|XMLHttpRequest|WebSocket|EventSource|rateyourmusic\.com/i);
+  });
+
   it("keeps every published destination on the matching HTTPS NetEase album page", () => {
     for (const album of catalogAlbums) {
       expect(album.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);

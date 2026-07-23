@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { discoverAlbums, getAlbumBySlug, getRelatedAlbums, normalizeSearchText, searchAlbums } from "./queries";
+import { buildDiscoverOptions, discoverAlbums, getAlbumBySlug, getRelatedAlbums, normalizeSearchText, searchAlbums } from "./queries";
 
 describe("catalog queries", () => {
   it("finds Chinese and Latin text across title, artist, genre, descriptor and context", () => {
@@ -12,10 +12,12 @@ describe("catalog queries", () => {
     expect(normalizeSearchText("  ÁGÆTIS   BYRJUN ")).toBe("agætis byrjun");
     expect(searchAlbums("  ok   computer ")[0]?.slug).toBe("ok-computer");
   });
-  it("combines real filters and returns accurate results", () => {
-    const results = discoverAlbums({ coreGenre: "dream-pop", descriptor: "hazy" }, "release-newest");
+  it("combines only currently published filters and returns accurate results", () => {
+    const results = discoverAlbums({ coreGenre: "dream-pop", context: "夜晚" }, "release-newest");
     expect(results.length).toBeGreaterThan(0);
-    expect(results.every((album) => album.coreGenres.includes("dream-pop") && album.descriptors.includes("hazy"))).toBe(true);
+    expect(results.every((album) => album.coreGenres.includes("dream-pop") && album.contexts.includes("夜晚"))).toBe(true);
+    expect(buildDiscoverOptions()).toMatchObject({ relatedGenres: [], descriptors: [] });
+    expect(discoverAlbums({ relatedGenre: "legacy-related", descriptor: "legacy-descriptor" })).toEqual([]);
   });
   it("uses stable real identities for detail and related queries", () => {
     const album = getAlbumBySlug("ok-computer");

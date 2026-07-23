@@ -16,7 +16,7 @@ function entries(archive) {
 }
 
 const sourceEntries = entries(source);
-for (const required of ["package.json", "pnpm-lock.yaml", "README.md", "src/data/generated/catalog.json", "scripts/catalog/netease-identities.json"]) {
+for (const required of ["package.json", "pnpm-lock.yaml", "README.md", "src/data/generated/catalog.json", "scripts/catalog/netease-identities.json", "scripts/catalog/rym-taxonomy-snapshot.json", "reports/catalog/rym-taxonomy-audit.json"]) {
   if (!sourceEntries.includes(required)) throw new Error(`Source archive is missing ${required}`);
 }
 if (sourceEntries.some((entry) => forbidden.test(entry))) throw new Error("Source archive contains a forbidden path.");

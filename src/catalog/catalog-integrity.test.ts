@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { catalogAlbums, catalogTaxonomy } from "./published-catalog";
+import rymAudit from "../../reports/catalog/rym-taxonomy-audit.json";
+import { catalogAlbums, catalogTaxonomy, publishedCatalog } from "./published-catalog";
 
 describe("published NetEase catalog integrity", () => {
   it("meets the Chinese-first catalog delivery floor", () => {
@@ -33,6 +34,38 @@ describe("published NetEase catalog integrity", () => {
       expect(album).not.toHaveProperty("region");
       expect(album).not.toHaveProperty("language");
     }
+  });
+
+  it("publishes no inferred RYM secondary genres or descriptors without an offline snapshot", () => {
+    expect(publishedCatalog.source.taxonomy).toBe("rym-offline-or-manual-core");
+    expect(catalogTaxonomy.some((item) => item.kind === "related")).toBe(false);
+    expect(publishedCatalog.descriptorTaxonomy).toEqual([]);
+    for (const album of catalogAlbums) {
+      expect(album.relatedGenres).toEqual([]);
+      expect(album.descriptors).toEqual([]);
+    }
+  });
+
+  it("records composite RYM match evidence for every album without inventing a match", () => {
+    expect(rymAudit).toMatchObject({ matched: 0, unmatched: catalogAlbums.length, ambiguous: 0 });
+    expect(rymAudit.albums).toHaveLength(catalogAlbums.length);
+    for (const item of rymAudit.albums) {
+      expect(item).toMatchObject({
+        status: "unmatched",
+        reason: "no_authorized_offline_record",
+        candidateReferences: [],
+      });
+      expect(item.evidence.titleAndAliases.length).toBeGreaterThan(0);
+      expect(item.evidence.artists.length).toBeGreaterThan(0);
+      expect(item.evidence.releaseType).toBeTruthy();
+    }
+  });
+
+  it.each(["287974232", "286248593"])("keeps required album %s on manual core taxonomy only", (albumId) => {
+    const album = catalogAlbums.find((item) => item.neteaseAlbumId === albumId)!;
+    expect(album.coreGenres).toEqual(["hip-hop"]);
+    expect(album.relatedGenres).toEqual([]);
+    expect(album.descriptors).toEqual([]);
   });
 
   it.each(catalogAlbums)("publishes $slug with complete NetEase-owned catalog fields", (album) => {

@@ -16,12 +16,12 @@ describe("recommendation explanations", () => {
   });
 
   it("only states favorite similarity when a favorite actually contributes", () => {
-    const seed = catalogAlbums.find((album) => album.slug === "hounds-of-love")!;
+    const seed = catalogAlbums.find((album) => album.slug === "fantasy-jay-chou")!;
     const state = { ...createInitialUserState(), onboardingCompleted: true, favoriteAlbumIds: [seed.id] };
     const explained = recommendAlbums(state).filter((item) => item.reasons.some((reason) => reason.includes("已喜欢")));
     expect(explained.length).toBeGreaterThan(0);
     for (const item of explained) {
-      expect(item.album.coreGenres.some((value) => seed.coreGenres.includes(value)) || item.album.relatedGenres.some((value) => seed.relatedGenres.includes(value)) || item.album.descriptors.some((value) => seed.descriptors.includes(value))).toBe(true);
+      expect(item.album.coreGenres.some((value) => seed.coreGenres.includes(value))).toBe(true);
     }
   });
 

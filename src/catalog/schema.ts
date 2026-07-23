@@ -32,7 +32,6 @@ export interface AlbumEditorial {
   startWithTrackId: string | null;
   confidence: "curated" | "metadata_based";
   humanReviewed: boolean;
-  descriptors: string[];
 }
 
 export interface PublishedAlbum {
@@ -64,14 +63,15 @@ export interface PublishedAlbum {
 
 export interface CatalogTaxonomy {
   key: string;
-  labelZh: string;
+  labelZh: string | null;
   labelEn: string;
   kind: "core" | "related";
 }
 
 export interface DescriptorTaxonomy {
   key: string;
-  label: string;
+  labelZh: string | null;
+  labelEn: string;
   kind: "descriptor";
 }
 
@@ -83,6 +83,7 @@ export interface PublishedCatalog {
     endpointFamily: string;
     generatedAt: string;
     runtimeRequestsAllowed: false;
+    taxonomy: "rym-offline-or-manual-core";
   };
   taxonomy: CatalogTaxonomy[];
   descriptorTaxonomy: DescriptorTaxonomy[];
