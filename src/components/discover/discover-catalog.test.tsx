@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
-import { DiscoverCatalog } from "./discover-catalog";
+import { DiscoverCatalog, DiscoverFilterFields } from "./discover-catalog";
 
 const push = vi.fn();
 let query = "";
@@ -42,8 +42,34 @@ describe("DiscoverCatalog URL state", () => {
 
   it("keeps optional RYM filters visible without inventing empty choices", () => {
     renderCatalog();
-    expect(screen.getByLabelText("相关流派")).toHaveTextContent("全部");
-    expect(screen.getByLabelText("氛围与特征")).toHaveTextContent("全部");
+    expect(screen.getByLabelText("相关流派")).toHaveDisplayValue("全部");
+    expect(screen.getByLabelText("氛围与特征")).toHaveDisplayValue("全部");
+    expect(screen.getByLabelText("相关流派").querySelectorAll("option")).toHaveLength(1);
+    expect(screen.getByLabelText("氛围与特征").querySelectorAll("option")).toHaveLength(1);
     expect(screen.getByLabelText("聆听场景（本站策展）")).toBeInTheDocument();
+  });
+
+  it("renders and submits only real optional taxonomy choices when data exists", () => {
+    const update = vi.fn();
+    render(<DiscoverFilterFields
+      filterOptions={{
+        coreGenres: ["pop"],
+        relatedGenres: ["dream-pop"],
+        descriptors: ["lush"],
+        contexts: ["夜晚"],
+        decades: ["2020s"],
+      }}
+      filters={{}}
+      sort="recently-added"
+      update={update}
+    />);
+    const related = screen.getByLabelText("相关流派");
+    const descriptors = screen.getByLabelText("氛围与特征");
+    expect(related.querySelector('option[value="dream-pop"]')).toBeInTheDocument();
+    expect(descriptors.querySelector('option[value="lush"]')).toBeInTheDocument();
+    fireEvent.change(related, { target: { value: "dream-pop" } });
+    fireEvent.change(descriptors, { target: { value: "lush" } });
+    expect(update).toHaveBeenCalledWith("secondary", "dream-pop");
+    expect(update).toHaveBeenCalledWith("descriptor", "lush");
   });
 });

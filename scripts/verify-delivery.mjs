@@ -5,7 +5,15 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const source = path.join(root, "album-discovery-source.zip");
 const site = path.join(root, "album-discovery-static-site.zip");
+const legacyArchives = [
+  path.join(root, "artifacts", "album-discovery-source.zip"),
+  path.join(root, "artifacts", "album-discovery-static-site.zip"),
+];
 const forbidden = /(^|\/)(\.git|node_modules|\.next|out|\.cache|\.pnpm-store|coverage)(\/|$)|(^|\/)\.env(?:\.|$)|cookie|token|secret/i;
+
+if (legacyArchives.some(existsSync)) {
+  throw new Error("Stale legacy delivery archives remain under artifacts; regenerate both root delivery archives.");
+}
 
 function entries(archive) {
   if (!existsSync(archive)) throw new Error(`Missing archive: ${archive}`);

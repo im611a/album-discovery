@@ -106,6 +106,21 @@ Secondary Genres 和 Descriptors 使用不同字段、不同筛选参数和不�
 - 控制台无错误，运行时外部请求为 0；
 - 深层详情页及 Next 静态 RSC 文本均可由普通本地 HTTP 服务直接访问。
 
+修复后再次通过普通静态 HTTP 服务打开 `/discover/`，浏览器实际读取到 7 个可见
+下拉框：核心流派、相关流派、氛围与特征、聆听场景（本站策展）、年代、发行类型
+和排序。相关流派与氛围下拉框的显示值均为“全部”，且各自只有 1 个真实选项。
+
+### 交付包一致性修复
+
+人工复验发现 `artifacts/` 下仍残留 2026-07-23 生成的旧源码包和静态包。旧源码包
+中的发现页确实按 `options.relatedGenres.length` 与 `options.descriptors.length`
+条件隐藏控件；它不是仓库根目录的新交付包，但路径并存造成了错误验收。
+
+当前打包脚本会删除这两个旧位置的同名包，交付验证也会在旧包仍存在时失败。唯一
+有效成品路径固定为仓库根目录的 `album-discovery-source.zip` 与
+`album-discovery-static-site.zip`。发现页筛选字段现在由独立组件固定渲染，不再
+由 taxonomy 选项数量决定控件是否存在。
+
 ## 自动质量门
 
 | 检查 | 结果 |
@@ -113,7 +128,7 @@ Secondary Genres 和 Descriptors 使用不同字段、不同筛选参数和不�
 | `pnpm catalog:validate` | PASS：319 张、319 个唯一 ID/slug、319 个本地封面/曲目/网易云链接 |
 | `pnpm lint` | PASS |
 | `pnpm typecheck` | PASS |
-| `pnpm test` | PASS：32 个测试文件、773 个用例 |
+| `pnpm test` | PASS：32 个测试文件、774 个用例 |
 | `pnpm build` | PASS：331 个静态页面，含 319 个专辑详情路由 |
 | `git diff --check` | PASS（仅 Git 的 LF/CRLF 提示，无空白错误） |
 
