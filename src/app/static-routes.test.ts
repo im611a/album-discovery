@@ -7,7 +7,7 @@ describe("static route contract", () => {
   it("generates exactly one detail parameter for every unique published slug", async () => {
     const { generateStaticParams } = await import("./albums/[slug]/page");
     const params = generateStaticParams();
-    expect(params.length).toBeGreaterThanOrEqual(60);
+    expect(params.length).toBe(319);
     expect(new Set(params.map((item) => item.slug)).size).toBe(params.length);
   });
 

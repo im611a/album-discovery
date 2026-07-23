@@ -1,7 +1,7 @@
-import catalogJson from "@/data/generated/catalog.json";
-import type { PublishedCatalog } from "./schema";
+import catalogJson from "@/data/generated/catalog-index.json";
+import type { PublishedCatalogIndex } from "./schema";
 
-export const publishedCatalog = catalogJson as PublishedCatalog;
+export const publishedCatalog = catalogJson as PublishedCatalogIndex;
 export const catalogAlbums = publishedCatalog.albums;
 export const catalogTaxonomy = publishedCatalog.taxonomy;
 export const descriptorTaxonomy = publishedCatalog.descriptorTaxonomy;

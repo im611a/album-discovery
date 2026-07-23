@@ -1,4 +1,4 @@
-import type { PublishedAlbum } from "@/catalog/schema";
+import type { PublishedAlbumSummary } from "@/catalog/schema";
 
 export interface TasteProfile {
   genres: string[];
@@ -75,6 +75,6 @@ export function parseLocalUserState(value: unknown, albumIds: Set<string>): Loca
   };
 }
 
-export function stateHasAlbum(state: LocalUserStateV1, album: PublishedAlbum, key: "favoriteAlbumIds" | "savedAlbumIds" | "listenedAlbumIds" | "dismissedAlbumIds") {
+export function stateHasAlbum(state: LocalUserStateV1, album: PublishedAlbumSummary, key: "favoriteAlbumIds" | "savedAlbumIds" | "listenedAlbumIds" | "dismissedAlbumIds") {
   return state[key].includes(album.id);
 }

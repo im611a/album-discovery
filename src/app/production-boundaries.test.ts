@@ -2,13 +2,19 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import { catalogAlbums, publishedCatalog } from "@/catalog/published-catalog";
+import { getAlbumDetailBySlug } from "@/catalog/published-album-details";
 
 describe("production delivery boundaries", () => {
   it("contains no fictional scores, production mocks, or MusicBrainz identity fields", () => {
     const serialized = JSON.stringify(publishedCatalog);
-    expect(catalogAlbums.length).toBeGreaterThanOrEqual(60);
+    expect(catalogAlbums.length).toBeGreaterThanOrEqual(300);
     expect(serialized).not.toMatch(/rymRating|rymScore|fictional rating|mock album|musicbrainzReleaseGroupId|representativeReleaseId/i);
     expect(publishedCatalog.source).toMatchObject({ catalog: "netease", runtimeRequestsAllowed: false });
+  });
+  it("keeps track lists out of the shared browser catalog index", () => {
+    expect(catalogAlbums.length).toBe(319);
+    expect(catalogAlbums.every((album) => !("tracks" in album))).toBe(true);
+    expect(getAlbumDetailBySlug("wake-after-the-rain")?.tracks.length).toBeGreaterThan(0);
   });
 
   it("does not perform runtime provider network requests", () => {

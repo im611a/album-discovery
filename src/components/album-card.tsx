@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getTaxonomyLabel } from "@/catalog/published-catalog";
-import { RELEASE_TYPE_LABELS, type PublishedAlbum } from "@/catalog/schema";
+import { RELEASE_TYPE_LABELS, type PublishedAlbumSummary } from "@/catalog/schema";
 import { AlbumActions } from "./album-actions";
 import { AlbumCover } from "./albums/album-cover";
 
@@ -12,7 +12,7 @@ function Highlighted({ text, query }: { text: string; query?: string }) {
   return <>{parts.map((part, index) => part.toLocaleLowerCase("zh-CN") === trimmed.toLocaleLowerCase("zh-CN") ? <mark key={`${part}-${index}`}>{part}</mark> : part)}</>;
 }
 
-export function AlbumCard({ album, reason, actions = "compact", highlight, headingLevel = 2 }: { album: PublishedAlbum; reason?: string | null; actions?: "compact" | "full"; highlight?: string; headingLevel?: 2 | 3 }) {
+export function AlbumCard({ album, reason, actions = "compact", highlight, headingLevel = 2 }: { album: PublishedAlbumSummary; reason?: string | null; actions?: "compact" | "full"; highlight?: string; headingLevel?: 2 | 3 }) {
   const Heading = headingLevel === 2 ? "h2" : "h3";
   return (
     <article className="album-card">

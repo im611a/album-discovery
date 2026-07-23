@@ -1,3 +1,6 @@
+import expandedCatalog from "./netease-expanded-seeds.json" with { type: "json" };
+import identities from "./netease-identities.json" with { type: "json" };
+
 const seed = (
   slug,
   artist,
@@ -7,6 +10,8 @@ const seed = (
   albumId = null,
   sourceMarketChannels = [],
   guide = null,
+  discoveredAt = "2026-07-23T00:00:00.000Z",
+  verification = null,
 ) => ({
   slug,
   query: { artist, title },
@@ -15,6 +20,8 @@ const seed = (
   contexts,
   sourceMarketChannels,
   guide,
+  discoveredAt,
+  verification,
 });
 
 const guide = (summaryZh, whyListenZh) => ({
@@ -24,7 +31,7 @@ const guide = (summaryZh, whyListenZh) => ({
   humanReviewed: true,
 });
 
-export const NETEASE_CATALOG_SEEDS = [
+export const BASE_NETEASE_CATALOG_SEEDS = [
   seed("wake-after-the-rain", "艾志恒Asen", "在雨后醒来", ["hip-hop"], ["夜晚","独处"], "287974232", [], guide("旋律说唱与内省叙事贯穿整张作品，情绪从雨后的迟疑逐渐转向清醒。", "适合在夜晚按曲序完整聆听，留意旋律、人声层次与叙事推进。")),
   seed("super-mr-sun", "SASIOVERLXRD", "超级孙先生", ["hip-hop"], ["夜晚","反复聆听"], "286248593", [], guide("锋利的语言、跳脱结构与地下说唱质感组成一张个性鲜明的长篇作品。", "适合关注押韵、采样与段落切换，在重复聆听中发现细节。")),
   seed("fantasy-jay-chou", "周杰伦", "范特西", ["pop"], ["通勤","周末"], "18915", [], guide("R&B、说唱与华语旋律在多样编曲中保持统一。", "从熟悉旋律进入，留意节拍、人声层次和曲目之间的风格切换。")),
@@ -94,6 +101,40 @@ export const NETEASE_CATALOG_SEEDS = [
   seed("lift-your-skinny-fists", "Godspeed You! Black Emperor", "Lift Your Skinny Fists Like Antennas to Heaven", ["post-rock"], ["专注聆听","深夜"]),
   seed("master-of-puppets", "Metallica", "Master of Puppets", ["metal"], ["运动","专注聆听"]),
 ];
+
+const excludedBaseAlbumIds = new Set(["386632533", "39491272"]);
+const publishableBaseSeeds = BASE_NETEASE_CATALOG_SEEDS.filter((item) =>
+  item.coreGenres.length > 0 && !excludedBaseAlbumIds.has(String(item.albumId ?? identities[item.slug]?.albumId)),
+);
+const existingAlbumIds = new Set(
+  publishableBaseSeeds
+    .map((item) => item.albumId ?? identities[item.slug]?.albumId)
+    .filter(Boolean)
+    .map(String),
+);
+const expandedSeeds = expandedCatalog.records
+  .filter((item) => !existingAlbumIds.has(String(item.albumId)))
+  .slice(0, 260)
+  .map((item) => seed(
+    item.slug,
+    item.artistName,
+    item.albumTitle,
+    item.coreGenres,
+    item.contexts,
+    item.albumId,
+    [],
+    null,
+    item.discoveredAt,
+    {
+      method: item.verificationMethod,
+      artistId: item.artistId,
+      expectedReleaseYear: item.expectedReleaseYear,
+      expectedAlbumType: item.expectedAlbumType,
+      expectedTrackCount: item.expectedTrackCount,
+    },
+  ));
+
+export const NETEASE_CATALOG_SEEDS = [...publishableBaseSeeds, ...expandedSeeds];
 
 export const REQUIRED_NETEASE_SAMPLES = [
   {

@@ -1,5 +1,5 @@
 import { catalogAlbums, catalogTaxonomy } from "./published-catalog";
-import type { PublishedAlbum, ReleaseType, SourceMarketChannel } from "./schema";
+import type { PublishedAlbumSummary, ReleaseType, SourceMarketChannel } from "./schema";
 
 export type CatalogSort = "recently-added" | "release-newest" | "release-oldest" | "title";
 export interface DiscoverFilters {
@@ -45,11 +45,11 @@ export function searchAlbums(query: string) {
   });
 }
 
-function releaseValue(album: PublishedAlbum) {
+function releaseValue(album: PublishedAlbumSummary) {
   return album.releaseDate ?? "0000";
 }
 
-function compareReleaseNewest(a: PublishedAlbum, b: PublishedAlbum) {
+function compareReleaseNewest(a: PublishedAlbumSummary, b: PublishedAlbumSummary) {
   return releaseValue(b).localeCompare(releaseValue(a)) || a.title.localeCompare(b.title, "zh-CN");
 }
 
@@ -71,7 +71,7 @@ export function discoverAlbums(filters: DiscoverFilters = {}, sort: CatalogSort 
   });
 }
 
-export function getRelatedAlbums(album: PublishedAlbum, limit = 6) {
+export function getRelatedAlbums(album: PublishedAlbumSummary, limit = 6) {
   return catalogAlbums
     .filter((item) => item.id !== album.id)
     .map((item) => ({

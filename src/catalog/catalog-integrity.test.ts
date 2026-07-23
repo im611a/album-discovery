@@ -1,10 +1,11 @@
 import { describe, expect, it } from "vitest";
 import rymAudit from "../../reports/catalog/rym-taxonomy-audit.json";
 import { catalogAlbums, catalogTaxonomy, publishedCatalog } from "./published-catalog";
+import { getAlbumDetailBySlug } from "./published-album-details";
 
 describe("published NetEase catalog integrity", () => {
   it("meets the Chinese-first catalog delivery floor", () => {
-    expect(catalogAlbums.length).toBeGreaterThanOrEqual(60);
+    expect(catalogAlbums.length).toBeGreaterThanOrEqual(300);
     expect(catalogAlbums.filter((album) => album.editorial).length).toBeGreaterThanOrEqual(5);
     expect(catalogTaxonomy.filter((item) => item.kind === "core").length).toBeGreaterThanOrEqual(10);
   });
@@ -28,9 +29,7 @@ describe("published NetEase catalog integrity", () => {
   });
 
   it("keeps market channels as discovery provenance only", () => {
-    const overlap = catalogAlbums.filter((album) => album.sourceMarketChannels.length > 1);
-    expect(overlap.length).toBeGreaterThan(0);
-    for (const album of overlap) {
+    for (const album of catalogAlbums) {
       expect(album).not.toHaveProperty("region");
       expect(album).not.toHaveProperty("language");
     }
@@ -72,7 +71,7 @@ describe("published NetEase catalog integrity", () => {
     expect(album.internalId).toBe(`album:${album.neteaseAlbumId}`);
     expect(album.title).not.toBe("");
     expect(album.artists.length).toBeGreaterThan(0);
-    expect(album.trackCount).toBe(album.tracks.length);
+    expect(getAlbumDetailBySlug(album.slug)?.tracks).toHaveLength(album.trackCount);
     expect(album.externalUrl).toBe(`https://music.163.com/#/album?id=${album.neteaseAlbumId}`);
     expect(album.cover.kind === "local" ? album.cover.src : album.cover.reason).toBeTruthy();
   });

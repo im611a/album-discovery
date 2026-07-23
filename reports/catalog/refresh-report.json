@@ -1,17 +1,29 @@
 {
   "refreshDate": "2026-07-23",
-  "albums": 68,
-  "uniqueNeteaseAlbumIds": 68,
-  "uniqueSlugs": 68,
-  "localCovers": 68,
+  "albums": 319,
+  "uniqueNeteaseAlbumIds": 319,
+  "uniqueSlugs": 319,
+  "localCovers": 319,
   "fallbackCovers": 0,
-  "albumsWithTracks": 68,
-  "albumsWithNeteaseLinks": 68,
+  "albumsWithTracks": 319,
+  "albumsWithNeteaseLinks": 319,
   "coreGenres": 15,
   "relatedGenres": 0,
   "descriptors": 0,
-  "multiChannelAlbums": 3,
+  "multiChannelAlbums": 0,
   "rymMatched": 0,
-  "rymUnmatched": 68,
-  "rymAmbiguous": 0
+  "rymUnmatched": 319,
+  "rymAmbiguous": 0,
+  "rejected": [
+    {
+      "slug": "mysterious-path",
+      "albumId": "386815599",
+      "errorCategory": "Unsupported catalog release for mysterious-path: ep / 1 tracks."
+    },
+    {
+      "slug": "a-love-supreme",
+      "albumId": null,
+      "errorCategory": "Unsupported catalog release for a-love-supreme: single / 2 tracks."
+    }
+  ]
 }

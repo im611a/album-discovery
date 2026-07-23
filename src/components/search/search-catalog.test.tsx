@@ -11,7 +11,7 @@ describe("SearchCatalog", () => {
   beforeEach(() => { query = ""; push.mockClear(); localStorage.clear(); });
   it("shows an initial state without a query", () => {
     render(<PersonalStateProvider><SearchCatalog /></PersonalStateProvider>);
-    expect(screen.getByText("从一个名字或感觉开始")).toBeInTheDocument();
+    expect(screen.getByText("从一个名字开始")).toBeInTheDocument();
   });
   it("submits through a semantic form with encoded URLSearchParams", () => {
     render(<PersonalStateProvider><SearchCatalog /></PersonalStateProvider>);

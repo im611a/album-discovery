@@ -1,0 +1,290 @@
+{
+  "generatedAt": "2026-07-23T10:13:08.087Z",
+  "endpoint": "/api/artist/albums/:artistId",
+  "requestCount": 0,
+  "artists": [
+    {
+      "artistId": "12198387",
+      "artistName": "艾志恒Asen",
+      "pagesRead": 1,
+      "accepted": 9
+    },
+    {
+      "artistId": "14117457",
+      "artistName": "SASIOVERLXRD",
+      "pagesRead": 1,
+      "accepted": 5
+    },
+    {
+      "artistId": "6452",
+      "artistName": "周杰伦",
+      "pagesRead": 1,
+      "accepted": 15
+    },
+    {
+      "artistId": "5196",
+      "artistName": "陶喆",
+      "pagesRead": 1,
+      "accepted": 6
+    },
+    {
+      "artistId": "9621",
+      "artistName": "王菲",
+      "pagesRead": 2,
+      "accepted": 5
+    },
+    {
+      "artistId": "2116",
+      "artistName": "陈奕迅",
+      "pagesRead": 2,
+      "accepted": 12
+    },
+    {
+      "artistId": "6457",
+      "artistName": "张国荣",
+      "pagesRead": 0,
+      "accepted": 0
+    },
+    {
+      "artistId": "1007170",
+      "artistName": "陈粒",
+      "pagesRead": 2,
+      "accepted": 12
+    },
+    {
+      "artistId": "2515",
+      "artistName": "窦唯",
+      "pagesRead": 3,
+      "accepted": 12
+    },
+    {
+      "artistId": "2111",
+      "artistName": "崔健",
+      "pagesRead": 1,
+      "accepted": 11
+    },
+    {
+      "artistId": "13223",
+      "artistName": "万能青年旅店",
+      "pagesRead": 1,
+      "accepted": 0
+    },
+    {
+      "artistId": "1161122",
+      "artistName": "草东没有派对",
+      "pagesRead": 1,
+      "accepted": 0
+    },
+    {
+      "artistId": "11074",
+      "artistName": "落日飛車 Sunset Rollercoaster",
+      "pagesRead": 1,
+      "accepted": 4
+    },
+    {
+      "artistId": "12463331",
+      "artistName": "deca joins",
+      "pagesRead": 1,
+      "accepted": 5
+    },
+    {
+      "artistId": "13188",
+      "artistName": "惘闻",
+      "pagesRead": 1,
+      "accepted": 11
+    },
+    {
+      "artistId": "13247",
+      "artistName": "文雀",
+      "pagesRead": 1,
+      "accepted": 7
+    },
+    {
+      "artistId": "12711",
+      "artistName": "声音玩具",
+      "pagesRead": 1,
+      "accepted": 2
+    },
+    {
+      "artistId": "12064064",
+      "artistName": "木马Muma",
+      "pagesRead": 1,
+      "accepted": 8
+    },
+    {
+      "artistId": "12802035",
+      "artistName": "33EMYBW",
+      "pagesRead": 1,
+      "accepted": 4
+    },
+    {
+      "artistId": "94064",
+      "artistName": "Howie Lee",
+      "pagesRead": 2,
+      "accepted": 13
+    },
+    {
+      "artistId": "3726",
+      "artistName": "林强",
+      "pagesRead": 1,
+      "accepted": 11
+    },
+    {
+      "artistId": "6467",
+      "artistName": "左小祖咒",
+      "pagesRead": 1,
+      "accepted": 12
+    },
+    {
+      "artistId": "6731",
+      "artistName": "赵雷",
+      "pagesRead": 1,
+      "accepted": 3
+    },
+    {
+      "artistId": "5345",
+      "artistName": "万晓利",
+      "pagesRead": 1,
+      "accepted": 4
+    },
+    {
+      "artistId": "4934",
+      "artistName": "苏阳",
+      "pagesRead": 1,
+      "accepted": 4
+    },
+    {
+      "artistId": "12002201",
+      "artistName": "Higher Brothers",
+      "pagesRead": 1,
+      "accepted": 7
+    },
+    {
+      "artistId": "1132392",
+      "artistName": "马思唯",
+      "pagesRead": 2,
+      "accepted": 12
+    },
+    {
+      "artistId": "865007",
+      "artistName": "法老",
+      "pagesRead": 2,
+      "accepted": 9
+    },
+    {
+      "artistId": "12788674",
+      "artistName": "KEY.L刘聪",
+      "pagesRead": 2,
+      "accepted": 4
+    },
+    {
+      "artistId": "1203045",
+      "artistName": "艾热 AIR",
+      "pagesRead": 2,
+      "accepted": 7
+    },
+    {
+      "artistId": "2517",
+      "artistName": "刀郎",
+      "pagesRead": 1,
+      "accepted": 15
+    },
+    {
+      "artistId": "18122",
+      "artistName": "宇多田ヒカル",
+      "pagesRead": 2,
+      "accepted": 15
+    },
+    {
+      "artistId": "15289",
+      "artistName": "坂本龍一",
+      "pagesRead": 1,
+      "accepted": 15
+    },
+    {
+      "artistId": "160947",
+      "artistName": "IU",
+      "pagesRead": 1,
+      "accepted": 15
+    },
+    {
+      "artistId": "99384",
+      "artistName": "Radiohead",
+      "pagesRead": 2,
+      "accepted": 15
+    },
+    {
+      "artistId": "62898",
+      "artistName": "Kate Bush",
+      "pagesRead": 2,
+      "accepted": 15
+    },
+    {
+      "artistId": "96273",
+      "artistName": "My Bloody Valentine",
+      "pagesRead": 1,
+      "accepted": 12
+    },
+    {
+      "artistId": "100003",
+      "artistName": "Slowdive",
+      "pagesRead": 1,
+      "accepted": 12
+    },
+    {
+      "artistId": "37995",
+      "artistName": "Kendrick Lamar",
+      "pagesRead": 2,
+      "accepted": 15
+    },
+    {
+      "artistId": "90513",
+      "artistName": "Daft Punk",
+      "pagesRead": 2,
+      "accepted": 15
+    },
+    {
+      "artistId": "38860",
+      "artistName": "Miles Davis",
+      "pagesRead": 1,
+      "accepted": 15
+    },
+    {
+      "artistId": "35356",
+      "artistName": "John Coltrane",
+      "pagesRead": 1,
+      "accepted": 15
+    },
+    {
+      "artistId": "89364",
+      "artistName": "Cocteau Twins",
+      "pagesRead": 1,
+      "accepted": 15
+    },
+    {
+      "artistId": "99990",
+      "artistName": "Sigur Rós",
+      "pagesRead": 1,
+      "accepted": 15
+    },
+    {
+      "artistId": "38851",
+      "artistName": "Metallica",
+      "pagesRead": 3,
+      "accepted": 15
+    }
+  ],
+  "acceptedCandidates": 433,
+  "existingCatalogSeeds": 68,
+  "projectedCatalogSize": 501,
+  "rejectedCounts": {
+    "compilation_or_reissue": 120,
+    "single": 1006,
+    "remix_or_instrumental": 19,
+    "live": 116,
+    "unreviewed_soundtrack": 15,
+    "duplicate_release_identity": 10,
+    "too_few_tracks": 7
+  },
+  "errors": []
+}

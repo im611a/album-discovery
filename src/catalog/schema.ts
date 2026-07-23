@@ -1,5 +1,5 @@
 export type ReleaseDatePrecision = "year" | "month" | "day";
-export type ReleaseType = "album" | "ep" | "single" | "mixtape" | "soundtrack" | "live" | "compilation" | "other";
+export type ReleaseType = "album" | "ep" | "mixtape" | "soundtrack";
 export type SourceMarketChannel = "ALL" | "ZH" | "EA" | "JP" | "KR";
 
 export interface PublishedArtist {
@@ -59,7 +59,16 @@ export interface PublishedAlbum {
   contexts: string[];
   editorial: AlbumEditorial | null;
   searchText: string;
+  source: {
+    catalog: "netease";
+    fetchedAt: string;
+    parserVersion: string;
+    verificationMethod: string;
+    error: null;
+  };
 }
+
+export type PublishedAlbumSummary = Omit<PublishedAlbum, "tracks">;
 
 export interface CatalogTaxonomy {
   key: string;
@@ -82,6 +91,7 @@ export interface PublishedCatalog {
     catalog: "netease";
     endpointFamily: string;
     generatedAt: string;
+    parserVersion: string;
     runtimeRequestsAllowed: false;
     taxonomy: "rym-offline-or-manual-core";
   };
@@ -90,15 +100,15 @@ export interface PublishedCatalog {
   albums: PublishedAlbum[];
 }
 
+export interface PublishedCatalogIndex extends Omit<PublishedCatalog, "albums"> {
+  albums: PublishedAlbumSummary[];
+}
+
 export const RELEASE_TYPE_LABELS: Record<ReleaseType, string> = {
   album: "专辑",
   ep: "EP",
-  single: "单曲",
   mixtape: "Mixtape",
   soundtrack: "原声专辑",
-  live: "现场专辑",
-  compilation: "精选集",
-  other: "其他",
 };
 
 export function formatPartialDate(value: string | null, precision: ReleaseDatePrecision | null) {

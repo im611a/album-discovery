@@ -1,9 +1,9 @@
 "use client";
 
-import type { PublishedAlbum } from "@/catalog/schema";
+import type { PublishedAlbumSummary } from "@/catalog/schema";
 import { usePersonalState } from "@/features/personal-state/personal-state-provider";
 
-export function AlbumActions({ album, compact = false }: { album: PublishedAlbum; compact?: boolean }) {
+export function AlbumActions({ album, compact = false }: { album: PublishedAlbumSummary; compact?: boolean }) {
   const { state, hydrated, toggleAlbum, setFeedback } = usePersonalState();
   const favorite = state.favoriteAlbumIds.includes(album.id);
   const saved = state.savedAlbumIds.includes(album.id);

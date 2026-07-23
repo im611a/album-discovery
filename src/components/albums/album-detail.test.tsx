@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
-import { catalogAlbums } from "@/catalog/published-catalog";
+import { getAlbumDetailBySlug } from "@/catalog/published-album-details";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
 import { AlbumDetail } from "./album-detail";
 
-const renderDetail = (slug: string) => render(<PersonalStateProvider><AlbumDetail album={catalogAlbums.find((album) => album.slug === slug)!} /></PersonalStateProvider>);
+const renderDetail = (slug: string) => render(<PersonalStateProvider><AlbumDetail album={getAlbumDetailBySlug(slug)!} /></PersonalStateProvider>);
 
 describe("AlbumDetail", () => {
   it("shows NetEase metadata, local actions, taxonomy, tracks and the single secure outbound destination", async () => {
@@ -26,7 +26,7 @@ describe("AlbumDetail", () => {
 
   it.each(["wake-after-the-rain", "super-mr-sun"])("hides unverified related genres and descriptors for %s", (slug) => {
     renderDetail(slug);
-    expect(screen.queryByRole("heading", { name: "相关流派" })).not.toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "延伸流派" })).not.toBeInTheDocument();
     expect(screen.queryByRole("heading", { name: "氛围与特征" })).not.toBeInTheDocument();
   });
 

@@ -4,8 +4,8 @@
 
 ## 当前能力
 
-- 68 张以网易云 albumId 固定身份的真实专辑，中文音乐为目录核心；
-- 人工确认的核心流派，以及仅在可靠离线 RYM 匹配存在时发布的相关流派与氛围特征；
+- 319 张以网易云 albumId 固定身份的真实专辑，中文音乐为目录核心；
+- 人工确认的核心流派，以及仅在可靠离线 RYM 匹配存在时发布的延伸流派与氛围特征；
 - 首页、发现、为你推荐、最近收录、搜索、我的专辑、设置和静态专辑详情；
 - 确定性本机推荐，以及想听、喜欢、听过、不适合我的本地状态；
 - 所有专辑详情、封面、曲目与外部链接在构建前发布为本地快照；
@@ -39,7 +39,7 @@ pnpm catalog:validate
 
 刷新只在构建维护阶段运行，使用 Node.js 自带 `fetch` 串行访问已验证的网易云匿名公开专辑元数据路径。它不使用账号、Cookie、Token、浏览器数据、代理、验证码处理或访问限制绕过。请求间隔至少两秒，遇到 401、403、429、验证码或风控信号立即停止。
 
-专辑身份固定在 `scripts/catalog/netease-identities.json`。首次发现缺失身份时使用专辑与艺人组合搜索；固定后直接按 albumId 读取详情。规范化快照发布到 `src/data/generated/catalog.json`，封面保存到 `public/catalog/covers/`，缓存与必要请求日志只保存在被 Git 忽略的 `.cache/catalog/`。
+专辑身份固定在 `scripts/catalog/netease-identities.json`。固定后直接按 albumId 读取详情；扩展候选只从明确的艺人 ID 专辑目录产生，并复核标题、艺人 ID、发行年份、类型和曲目数。规范化详情快照与轻量列表索引发布到 `src/data/generated/`，封面保存到 `public/catalog/covers/`，缓存与必要请求日志只保存在被 Git 忽略的 `.cache/catalog/`。
 
 ## 静态交付
 

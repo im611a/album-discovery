@@ -23,6 +23,7 @@ export function AlbumDetail({ album }: { album: PublishedAlbum }) {
           <div><dt>曲目</dt><dd>{album.trackCount} 首{totalDuration ? ` · 约 ${Math.round(totalDuration / 60000)} 分钟` : ""}</dd></div>
         </dl>
         <a className="button button--primary netease-album-link" href={album.externalUrl} target="_blank" rel="noopener noreferrer">在网易云音乐中查看 ↗</a>
+        <p className="source-note">专辑与曲目信息来自网易云音乐离线目录快照。</p>
         <AlbumDetailActions album={album} />
       </div>
     </header>
@@ -32,7 +33,7 @@ export function AlbumDetail({ album }: { album: PublishedAlbum }) {
         <h2 id="signals-title">流派与声音特征</h2>
         <div className="signal-groups">
           {album.coreGenres.length ? <div><h3>核心流派</h3>{album.coreGenres.map((item) => <Link key={item} href={`/discover?genre=${encodeURIComponent(item)}`}>{getTaxonomyLabel(item)}</Link>)}</div> : null}
-          {album.relatedGenres.length ? <div><h3>相关流派</h3>{album.relatedGenres.map((item) => <Link key={item} href={`/discover?secondary=${encodeURIComponent(item)}`}>{getTaxonomyLabel(item)}</Link>)}</div> : null}
+          {album.relatedGenres.length ? <div><h3>延伸流派</h3>{album.relatedGenres.map((item) => <Link key={item} href={`/discover?secondary=${encodeURIComponent(item)}`}>{getTaxonomyLabel(item)}</Link>)}</div> : null}
           {album.descriptors.length ? <div><h3>氛围与特征</h3>{album.descriptors.map((item) => <Link key={item} href={`/discover?descriptor=${encodeURIComponent(item)}`}>{getDescriptorLabel(item)}</Link>)}</div> : null}
         </div>
       </section> : null}

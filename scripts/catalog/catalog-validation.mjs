@@ -35,10 +35,13 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
   if (!Array.isArray(catalog?.taxonomy)) errors.push("Catalog taxonomy must be an array.");
   if (!Array.isArray(catalog?.descriptorTaxonomy)) errors.push("Descriptor taxonomy must be an array.");
   const albums = Array.isArray(catalog?.albums) ? catalog.albums : [];
+  if (albums.length < 300) errors.push(`Catalog must contain at least 300 validated albums; received ${albums.length}.`);
   const ids = albums.map((album) => album.neteaseAlbumId);
   const slugs = albums.map((album) => album.slug);
   for (const duplicate of duplicateValues(ids)) errors.push(`Duplicate NetEase album ID: ${duplicate}`);
   for (const duplicate of duplicateValues(slugs)) errors.push(`Duplicate slug: ${duplicate}`);
+  const semanticIdentities = albums.map((album) => `${album.artists?.[0]?.neteaseArtistId ?? ""}:${normalizeName(album.title)}:${album.releaseDate?.slice(0, 4) ?? ""}`);
+  for (const duplicate of duplicateValues(semanticIdentities)) errors.push(`Duplicate artist/title/year identity: ${duplicate}`);
   const coreTaxonomyKeys = new Set((catalog?.taxonomy ?? []).filter((item) => item.kind === "core").map((item) => item.key));
   const relatedTaxonomyKeys = new Set((catalog?.taxonomy ?? []).filter((item) => item.kind === "related").map((item) => item.key));
   const descriptorKeys = new Set((catalog?.descriptorTaxonomy ?? []).map((item) => item.key));
@@ -62,16 +65,20 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
     if (!album?.title || !Array.isArray(album?.artists) || !album.artists.length) errors.push(`${prefix}: title and artists are required.`);
     if (album?.releaseDate && !validCalendarDate(album.releaseDate)) errors.push(`${prefix}: invalid release date.`);
     if (album?.releaseDate && album?.releaseDatePrecision !== ({ 4: "year", 7: "month", 10: "day" })[album.releaseDate.length]) errors.push(`${prefix}: release date precision mismatch.`);
-    if (!["album", "ep", "single", "mixtape", "soundtrack", "live", "compilation", "other"].includes(album?.albumType)) errors.push(`${prefix}: invalid album type.`);
-    if (!Number.isInteger(album?.trackCount) || album.trackCount < 0) errors.push(`${prefix}: invalid track count.`);
+    if (!["album", "ep", "mixtape", "soundtrack"].includes(album?.albumType)) errors.push(`${prefix}: invalid album type.`);
+    if (!Number.isInteger(album?.trackCount) || album.trackCount < 2) errors.push(`${prefix}: invalid track count.`);
     if (!Array.isArray(album?.tracks)) errors.push(`${prefix}: tracks must be an array.`);
-    if (album?.tracks?.length && album.trackCount !== album.tracks.length) errors.push(`${prefix}: track count does not match the published track list.`);
+    if (album.trackCount !== album?.tracks?.length) errors.push(`${prefix}: track count does not match the published track list.`);
     const urlMatch = String(album?.externalUrl ?? "").match(neteaseAlbumUrl);
     if (!urlMatch || urlMatch[1] !== String(album.neteaseAlbumId)) errors.push(`${prefix}: external URL is not the matching NetEase album page.`);
     if (!isoTimestamp.test(String(album?.discoveredAt ?? "")) || !isoTimestamp.test(String(album?.updatedAt ?? ""))) errors.push(`${prefix}: discovery timestamps must be UTC ISO values.`);
     if (!["local", "fallback"].includes(album?.cover?.kind)) errors.push(`${prefix}: invalid cover kind.`);
     if (album?.cover?.kind === "local" && !/^\/catalog\/covers\/\d+\.jpg$/.test(String(album.cover.src))) errors.push(`${prefix}: local cover path must use the NetEase album ID.`);
     if (album?.cover?.kind === "fallback" && album.cover.src !== null) errors.push(`${prefix}: fallback cover must not pretend to be a real image.`);
+    if (!album?.coreGenres?.length) errors.push(`${prefix}: at least one reviewed core genre is required.`);
+    if (album?.source?.catalog !== "netease" || album?.source?.error !== null || !isoTimestamp.test(String(album?.source?.fetchedAt ?? "")) || !album?.source?.parserVersion || !album?.source?.verificationMethod) {
+      errors.push(`${prefix}: incomplete NetEase source provenance.`);
+    }
     for (const channel of album?.sourceMarketChannels ?? []) if (!["ALL", "ZH", "EA", "JP", "KR"].includes(channel)) errors.push(`${prefix}: invalid market channel ${channel}.`);
     for (const key of album?.coreGenres ?? []) if (!coreTaxonomyKeys.has(key)) errors.push(`${prefix}: unknown core genre ${key}.`);
     for (const key of album?.relatedGenres ?? []) if (!relatedTaxonomyKeys.has(key)) errors.push(`${prefix}: unknown related genre ${key}.`);

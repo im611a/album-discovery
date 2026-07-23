@@ -5,7 +5,7 @@ import { recommendAlbums, RECOMMENDATION_WEIGHTS } from "./recommendation";
 
 describe("recommendation explanations", () => {
   it("keeps every scoring weight in the exported central table", () => {
-    expect(Object.keys(RECOMMENDATION_WEIGHTS).sort()).toEqual(["coldStart", "context", "coreGenre", "descriptor", "editorial", "era", "exploration", "favoriteSimilarity", "negativeSimilarity", "relatedGenre", "savedSimilarity"].sort());
+    expect(Object.keys(RECOMMENDATION_WEIGHTS).sort()).toEqual(["coldStart", "context", "coreGenre", "descriptor", "editorial", "era", "exploration", "favoriteSimilarity", "lessViewedEra", "negativeSimilarity", "relatedGenre", "savedSimilarity"].sort());
   });
 
   it("uses the Chinese taxonomy label instead of leaking an internal genre key", () => {

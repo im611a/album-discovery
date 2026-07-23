@@ -1,6 +1,6 @@
 import type { LocalUserStateV1, TasteProfile } from "@/features/personal-state/schema";
 import { catalogAlbums, getTaxonomyLabel } from "./published-catalog";
-import type { PublishedAlbum } from "./schema";
+import type { PublishedAlbumSummary } from "./schema";
 
 export const RECOMMENDATION_WEIGHTS = {
   coreGenre: 5,
@@ -14,11 +14,12 @@ export const RECOMMENDATION_WEIGHTS = {
   era: 1.5,
   editorial: 1,
   exploration: 1.5,
+  lessViewedEra: 1,
 } as const;
-export interface Recommendation { album: PublishedAlbum; score: number; reasons: string[]; lane: "familiar" | "adjacent" }
+export interface Recommendation { album: PublishedAlbumSummary; score: number; reasons: string[]; lane: "familiar" | "adjacent" }
 
 const overlap = (a: string[], b: string[]) => a.filter((value) => b.includes(value));
-const eraFor = (album: PublishedAlbum) => album.releaseDate ? `${Math.floor(Number(album.releaseDate.slice(0, 4)) / 10) * 10}s` : null;
+const eraFor = (album: PublishedAlbumSummary) => album.releaseDate ? `${Math.floor(Number(album.releaseDate.slice(0, 4)) / 10) * 10}s` : null;
 
 function derivedTaste(state: LocalUserStateV1): TasteProfile {
   const positiveIds = new Set([...state.favoriteAlbumIds, ...state.taste.seedAlbumIds, ...Object.entries(state.recommendationFeedback).filter(([, value]) => value === "like").map(([id]) => id)]);
@@ -38,6 +39,7 @@ export function recommendAlbums(state: LocalUserStateV1, limit = 18): Recommenda
   const negativeIds = new Set([...state.dismissedAlbumIds, ...Object.entries(state.recommendationFeedback).filter(([, value]) => value === "not_for_me").map(([id]) => id)]);
   const likedIds = Object.entries(state.recommendationFeedback).filter(([, value]) => value === "like").map(([id]) => id);
   const negativeSeeds = catalogAlbums.filter((album) => negativeIds.has(album.id));
+  const recentlyViewedEras = new Set(catalogAlbums.filter((album) => state.recentAlbumIds.includes(album.id)).map(eraFor).filter(Boolean));
   const excluded = new Set([...taste.seedAlbumIds, ...state.favoriteAlbumIds, ...likedIds, ...state.savedAlbumIds, ...state.listenedAlbumIds, ...negativeIds]);
   const scored = catalogAlbums.filter((album) => !excluded.has(album.id)).map((album) => {
     const genreMatches = overlap(album.coreGenres, taste.genres);
@@ -46,7 +48,7 @@ export function recommendAlbums(state: LocalUserStateV1, limit = 18): Recommenda
     const contextMatches = overlap(album.contexts, taste.contexts);
     const era = eraFor(album);
     const eraMatch = era && taste.eras.includes(era);
-    const similarity = (seed: PublishedAlbum) =>
+    const similarity = (seed: PublishedAlbumSummary) =>
       overlap(album.coreGenres, seed.coreGenres).length +
       overlap(album.relatedGenres, seed.relatedGenres).length +
       overlap(album.descriptors, seed.descriptors).length;
@@ -56,6 +58,7 @@ export function recommendAlbums(state: LocalUserStateV1, limit = 18): Recommenda
     const isAdjacent = genreMatches.length === 0 && (descriptorMatches.length > 0 || contextMatches.length > 0);
     const exploration = taste.exploration === "exploratory" && isAdjacent ? RECOMMENDATION_WEIGHTS.exploration : taste.exploration === "familiar" && genreMatches.length ? 0.5 : 0;
     const coldStart = state.onboardingCompleted ? 0 : RECOMMENDATION_WEIGHTS.coldStart;
+    const lessViewedEra = era && recentlyViewedEras.size > 0 && !recentlyViewedEras.has(era) ? RECOMMENDATION_WEIGHTS.lessViewedEra : 0;
     const score = genreMatches.length * RECOMMENDATION_WEIGHTS.coreGenre +
       relatedMatches.length * RECOMMENDATION_WEIGHTS.relatedGenre +
       descriptorMatches.length * RECOMMENDATION_WEIGHTS.descriptor +
@@ -66,6 +69,7 @@ export function recommendAlbums(state: LocalUserStateV1, limit = 18): Recommenda
       (eraMatch ? RECOMMENDATION_WEIGHTS.era : 0) +
       (album.editorial ? RECOMMENDATION_WEIGHTS.editorial : 0) +
       exploration +
+      lessViewedEra +
       coldStart;
     const reasons = [];
     if (genreMatches.length) reasons.push(`与你选择的${genreMatches.slice(0, 2).map(getTaxonomyLabel).join("、")}方向重合。`);
@@ -75,6 +79,7 @@ export function recommendAlbums(state: LocalUserStateV1, limit = 18): Recommenda
     if (favoriteSimilarity > 0) reasons.push("与已喜欢专辑的类型或质感有明确重合。");
     else if (savedSimilarity > 0) reasons.push("与想听清单中的专辑保留了一部分共同信号。");
     if (!genreMatches.length && (descriptorMatches.length || contextMatches.length)) reasons.push("这是一次有控制的相邻类型拓展。");
+    if (lessViewedEra) reasons.push("来自你近期较少浏览的年代。");
     if (!reasons.length && album.editorial) reasons.push(album.editorial.whyListenZh);
     if (!reasons.length && coldStart) reasons.push("在尚无偏好时提供一个不同类型的冷启动选择。");
     return { album, score, reasons: reasons.slice(0, 3), lane: isAdjacent ? "adjacent" as const : "familiar" as const };

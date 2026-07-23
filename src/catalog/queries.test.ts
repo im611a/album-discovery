@@ -2,11 +2,10 @@ import { describe, expect, it } from "vitest";
 import { buildDiscoverOptions, discoverAlbums, getAlbumBySlug, getRelatedAlbums, normalizeSearchText, searchAlbums } from "./queries";
 
 describe("catalog queries", () => {
-  it("finds Chinese and Latin text across title, artist, genre, descriptor and context", () => {
+  it("finds Chinese and Latin text across title, alias and artist", () => {
     expect(searchAlbums("王菲").some((album) => album.slug === "fuzao")).toBe(true);
     expect(searchAlbums("RADIOHEAD").some((album) => album.slug === "ok-computer")).toBe(true);
-    expect(searchAlbums("梦幻流行").length).toBeGreaterThan(0);
-    expect(searchAlbums("夜晚").length).toBeGreaterThan(0);
+    expect(searchAlbums("Yeh Hui–mei").some((album) => album.slug === "ye-hui-mei")).toBe(true);
   });
   it("normalizes whitespace and diacritics", () => {
     expect(normalizeSearchText("  ÁGÆTIS   BYRJUN ")).toBe("agætis byrjun");

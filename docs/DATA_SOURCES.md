@@ -9,7 +9,7 @@
 | 封面 | 网易云公开封面地址，构建期下载到本地 |
 | 外部聆听入口 | 按 neteaseAlbumId 构造并校验的网易云专辑页 |
 | 核心流派 | 可靠匹配时使用 RYM Primary Genres；未匹配时只保留人工确认值 |
-| 相关流派 | 仅使用可靠匹配的离线 RYM Secondary Genres |
+| 延伸流派 | 仅使用可靠匹配的离线 RYM Secondary Genres |
 | 氛围与特征 | 仅使用可靠匹配的离线 RYM Descriptors |
 | 场景、中文导览 | 本地策展层 |
 | 市场频道 membership | 网易云新发行列表的发现上下文 |
@@ -21,6 +21,7 @@ MusicBrainz ID 不是目录必填字段，也不参与当前生产目录生成�
 刷新只使用 0.15A/0.15B 已验证的公开元数据路径：
 
 - `POST /api/search/get`：首次固定缺失 albumId；
+- `GET /api/artist/albums/:artistId`：只用于人工维护艺人 ID 的候选发现；
 - `GET /api/v1/album/:id`：专辑详情和曲目；
 - `POST /api/album/new`：仅在维护市场频道发现记录时使用。
 
@@ -30,7 +31,7 @@ MusicBrainz ID 不是目录必填字段，也不参与当前生产目录生成�
 
 ## 固定身份与发布
 
-`scripts/catalog/netease-seeds.mjs` 定义中文优先的候选、本站分类与可选导览。`scripts/catalog/netease-identities.json` 固定 slug、艺人、标题和网易云 albumId。固定后，标题搜索不能自动覆盖身份。
+`scripts/catalog/netease-curated-artists.mjs` 定义人工选择的艺人 ID、核心流派和最大候选数；`discover-artist-albums.mjs` 生成可复核的固定候选。`scripts/catalog/netease-seeds.mjs` 合并中文优先的基础候选、扩展候选、本站分类与可选导览。`scripts/catalog/netease-identities.json` 固定 slug、艺人、标题和网易云 albumId，固定后搜索不能自动覆盖身份。
 
 `pnpm catalog:refresh`：
 
@@ -39,17 +40,17 @@ MusicBrainz ID 不是目录必填字段，也不参与当前生产目录生成�
 3. 按 albumId 获取详情和曲目；
 4. 下载公开封面到 `public/catalog/covers/`；
 5. 规范化专辑、艺人、日期、公司、曲目、网易云链接和发现频道；
-6. 用标题与别名、艺人、发行年份和发行类型对离线 RYM 记录执行唯一复合匹配；未匹配或多候选时只保留人工核心流派并清空相关流派与 Descriptors；
+6. 用标题与别名、艺人、发行年份和发行类型对离线 RYM 记录执行唯一复合匹配；未匹配或多候选时只保留人工核心流派并清空延伸流派与 Descriptors；
 7. 执行唯一性、字段所有权、日期、链接、封面和必选样本校验；
 8. 仅在全部校验通过时原子发布本地快照。
 
-原始缓存位于被忽略的 `.cache/catalog/`，不会进入源码包或静态成品。前端只读取 checked-in 的 `src/data/generated/catalog.json`。
+原始缓存位于被忽略的 `.cache/catalog/`，不会进入源码包或静态成品。列表、搜索和推荐读取不含曲目表的 `catalog-index.json`；详情静态生成单独读取 `catalog.json`，避免所有页面加载完整曲目数据。
 
 ## RYM taxonomy 边界
 
 `scripts/catalog/rym-taxonomy-snapshot.json` 是唯一允许进入发布流程的离线 RYM taxonomy 输入。每条记录必须同时提供可核验的标题或别名、艺人、发行年份、发行类型和来源引用。只有唯一匹配才发布三类有序字段；零候选和多候选都不得猜测。
 
-当前没有获准的 RYM 文件或人工核验记录，因此 68 张专辑均标记为未匹配，`relatedGenres` 和 `descriptors` 均为空。逐专辑匹配依据记录在 `reports/catalog/rym-taxonomy-audit.json`。该流程不登录、不抓取、不浏览 RYM，也不根据网易云或编辑元数据生成 fallback。
+当前没有获准的 RYM 文件或人工核验记录，因此 319 张专辑均标记为未匹配，`relatedGenres` 和 `descriptors` 均为空。逐专辑匹配依据记录在 `reports/catalog/rym-taxonomy-audit.json`。该流程不登录、不抓取、不浏览 RYM，也不根据网易云或编辑元数据生成 fallback。
 
 ## 封面与缺失状态
 
