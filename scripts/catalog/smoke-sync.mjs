@@ -9,7 +9,7 @@ const catalogPath = path.join(root, "src/data/generated/catalog.json");
 const catalogText = await readFile(catalogPath, "utf8");
 const catalog = JSON.parse(catalogText);
 const catalogSha256 = createHash("sha256").update(catalogText).digest("hex");
-const albums = catalog.albums.slice(0, 10);
+const albums = catalog.albums.slice(0, 5);
 const artists = [...new Map(catalog.albums.flatMap((album) => album.artists).map((artist) => [artist.neteaseArtistId, artist])).values()].slice(0, 3);
 const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 await mkdir(cacheRoot, { recursive: true });
@@ -37,8 +37,13 @@ async function request(kind, id, url, validate) {
       }
       const payload = await response.json();
       const valid = validate(payload);
+      const message = JSON.stringify(payload ?? {}).toLocaleLowerCase("en-US");
+      const platformVerification = !valid && (
+        Number(payload?.code) === -460 || message.includes("verify") || message.includes("captcha") ||
+        message.includes("验证") || message.includes("风控")
+      );
       if (valid) await writeFile(cacheFile, `${JSON.stringify(payload)}\n`, "utf8");
-      return { ...result, ok: valid, error: valid ? null : "unexpected_public_shape" };
+      return { ...result, ok: valid, error: valid ? null : platformVerification ? "PLATFORM_VERIFICATION_REQUIRED" : "unexpected_public_shape" };
     } catch (error) {
       if (attempt === 1) {
         await delay(2_000);

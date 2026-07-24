@@ -73,6 +73,9 @@ export async function runCatalogSync({
     updated: 0,
     failed: 0,
     cacheHits: 0,
+    networkErrors: 0,
+    platformVerificationRequired: 0,
+    rejected: 0,
     batches: 0,
     published: false,
   };
@@ -115,6 +118,9 @@ export async function runCatalogSync({
         };
         failures.push(failure);
         summary.failed += 1;
+        if (failure.category === "PLATFORM_VERIFICATION_REQUIRED") summary.platformVerificationRequired += 1;
+        else if (failure.category === "NETWORK_ERROR" || failure.category.startsWith("http_")) summary.networkErrors += 1;
+        else summary.rejected += 1;
         await onFailure(failure);
       }
     }
@@ -141,5 +147,6 @@ export async function runCatalogSync({
     await publishCatalog(candidate);
     summary.published = true;
   }
+  summary.status = failures.length ? "PARTIAL" : "SUCCEEDED";
   return { candidate, failures, summary, checkpoint: { processedAlbumIds: [...processed] } };
 }

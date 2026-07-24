@@ -83,4 +83,12 @@ describe("DiscoverCatalog URL state", () => {
     fireEvent.change(related, { target: { value: "dream-pop" } });
     expect(update).toHaveBeenCalledWith("secondary", "dream-pop");
   });
+
+  it("renders only the first 48 results and resets page when a filter changes", () => {
+    query = "page=2";
+    const { container } = renderCatalog();
+    expect(container.querySelectorAll(".album-card")).toHaveLength(48);
+    fireEvent.change(screen.getByLabelText("核心流派"), { target: { value: "pop" } });
+    expect(push).toHaveBeenCalledWith("/discover?genre=pop", { scroll: false });
+  });
 });

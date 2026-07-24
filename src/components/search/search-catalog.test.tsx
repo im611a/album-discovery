@@ -5,10 +5,11 @@ import { SearchCatalog } from "./search-catalog";
 
 const push = vi.fn();
 let query = "";
-vi.mock("next/navigation", () => ({ useRouter: () => ({ push }), useSearchParams: () => new URLSearchParams(query ? { q: query } : {}) }));
+let page = "";
+vi.mock("next/navigation", () => ({ useRouter: () => ({ push }), useSearchParams: () => new URLSearchParams({ ...(query ? { q: query } : {}), ...(page ? { page } : {}) }) }));
 
 describe("SearchCatalog", () => {
-  beforeEach(() => { query = ""; push.mockClear(); localStorage.clear(); });
+  beforeEach(() => { query = ""; page = ""; push.mockClear(); localStorage.clear(); });
   it("shows an initial state without a query", () => {
     render(<PersonalStateProvider><SearchCatalog /></PersonalStateProvider>);
     expect(screen.getByText("从一个名字开始")).toBeInTheDocument();
@@ -24,5 +25,13 @@ describe("SearchCatalog", () => {
     const { container } = render(<PersonalStateProvider><SearchCatalog /></PersonalStateProvider>);
     expect(screen.getByText(/找到/)).toBeInTheDocument();
     expect(container.querySelector("mark")?.textContent).toBe("王菲");
+  });
+  it("resets pagination when a new query is submitted", () => {
+    query = "专辑";
+    page = "2";
+    render(<PersonalStateProvider><SearchCatalog /></PersonalStateProvider>);
+    fireEvent.change(screen.getByLabelText("搜索专辑目录"), { target: { value: "王菲" } });
+    fireEvent.submit(screen.getByRole("search"));
+    expect(push).toHaveBeenCalledWith("/search?q=%E7%8E%8B%E8%8F%B2", { scroll: false });
   });
 });

@@ -21,7 +21,7 @@ export function AlbumDetail({ album, sameArtistAlbums = [] }: { album: Published
         {album.aliases.length ? <p className="album-detail__aliases">别名：{album.aliases.join("、")}</p> : null}
         <p className="album-detail__artists">{album.artists.map((artist, index) => <span key={artist.id}>{index ? "、" : ""}<Link href={`/artists/artist-${artist.neteaseArtistId}`}>{artist.name}</Link></span>)}</p>
         <dl className="album-meta">
-          <div><dt>发行</dt><dd>{formatPartialDate(album.releaseDate, album.releaseDatePrecision)}</dd></div>
+          <div><dt>发行</dt><dd>{album.releaseDate ? <Link href={`/decades/${Math.floor(Number(album.releaseDate.slice(0, 4)) / 10) * 10}s`}>{formatPartialDate(album.releaseDate, album.releaseDatePrecision)}</Link> : formatPartialDate(album.releaseDate, album.releaseDatePrecision)}</dd></div>
           <div><dt>类型</dt><dd>{RELEASE_TYPE_LABELS[album.albumType]}</dd></div>
           {album.company ? <div><dt>发行公司</dt><dd>{album.company}</dd></div> : null}
           <div><dt>曲目</dt><dd>{album.trackCount} 首{totalDuration ? ` · 约 ${Math.round(totalDuration / 60000)} 分钟` : ""}</dd></div>
@@ -44,16 +44,16 @@ export function AlbumDetail({ album, sameArtistAlbums = [] }: { album: Published
         <p className="section-kicker">分类依据</p>
         <h2 id="signals-title">流派</h2>
         <div className="signal-groups">
-          {album.coreGenres.length ? <div><h3>核心流派</h3>{album.coreGenres.map((item) => <Link key={item} href={`/discover?genre=${encodeURIComponent(item)}`}>{getTaxonomyLabel(item)}</Link>)}</div> : null}
-          {album.relatedGenres.length ? <div><h3>相关流派</h3>{album.relatedGenres.map((item) => <Link key={item} href={`/discover?secondary=${encodeURIComponent(item)}`}>{getTaxonomyLabel(item)}</Link>)}</div> : null}
+          {album.coreGenres.length ? <div><h3>核心流派</h3>{album.coreGenres.map((item) => <Link key={item} href={`/genres/core/${item}`}>{getTaxonomyLabel(item)}</Link>)}</div> : null}
+          {album.relatedGenres.length ? <div><h3>相关流派</h3>{album.relatedGenres.map((item) => <Link key={item} href={`/genres/related/${item}`}>{getTaxonomyLabel(item)}</Link>)}</div> : null}
         </div>
         {album.relatedGenres.length ? <p className="source-note">相关流派来自人工核验的离线 RYM Secondary Genres。</p> : null}
       </section> : null}
-      {album.contexts.length ? <section className="detail-card detail-card--scenes" aria-labelledby="scenes-title"><p className="section-kicker">本站策展维度</p><h2 id="scenes-title">聆听场景</h2><div className="signal-groups"><div>{album.contexts.map((item) => <Link key={item} href={`/discover?context=${encodeURIComponent(item)}`}>{getListeningSceneLabel(item)}</Link>)}</div></div></section> : null}
+      {album.contexts.length ? <section className="detail-card detail-card--scenes" aria-labelledby="scenes-title"><p className="section-kicker">本站策展维度</p><h2 id="scenes-title">聆听场景</h2><div className="signal-groups"><div>{album.contexts.map((item) => <Link key={item} href={`/scenes/${item}`}>{getListeningSceneLabel(item)}</Link>)}</div></div></section> : null}
       {album.editorial ? <section className="detail-card detail-card--guide" aria-labelledby="guide-title"><p className="section-kicker">聆听导览</p><h2 id="guide-title">为什么值得完整听</h2><p>{album.editorial.summaryZh}</p><p>{album.editorial.whyListenZh}</p></section> : null}
       <section className="detail-card detail-card--tracks" aria-labelledby="tracks-title"><p className="section-kicker">网易云专辑曲序</p><h2 id="tracks-title">曲目表</h2><TrackList tracks={album.tracks} /></section>
-      <ContinueExploring albumId={album.id} />
       {sameArtistAlbums.length ? <section className="related-section" aria-labelledby="same-artist-title"><p className="section-kicker">继续浏览</p><h2 id="same-artist-title">同艺人其他专辑</h2><AlbumGrid albums={sameArtistAlbums.slice(0, 6)} headingLevel={3} /></section> : null}
+      <ContinueExploring albumId={album.id} />
     </div>
   </article>;
 }

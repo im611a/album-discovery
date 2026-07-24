@@ -6,6 +6,8 @@ import { buildDiscoverOptions, discoverAlbums, type CatalogSort, type DiscoverFi
 import { catalogAlbums, getTaxonomyLabel } from "@/catalog/published-catalog";
 import { getListeningSceneLabel } from "@/catalog/listening-scenes";
 import { RELEASE_TYPE_LABELS, type ReleaseType } from "@/catalog/schema";
+import { CATALOG_PAGE_SIZE, paginate } from "@/catalog/pagination";
+import { CatalogPagination } from "@/components/catalog-pagination";
 
 const options = buildDiscoverOptions();
 const sorts: Array<[CatalogSort, string]> = [["recently-added", "最近收录"], ["release-newest", "发行日期：新到旧"], ["release-oldest", "发行日期：旧到新"], ["title", "标题"], ["rym-rating-desc", "RYM 评分：由高到低"]];
@@ -46,7 +48,8 @@ export function DiscoverCatalog() {
   const requestedSort = params.get("sort");
   const sort = (sorts.some(([value]) => value === requestedSort) && (requestedSort !== "rym-rating-desc" || hasRymRatings) ? requestedSort : "recently-added") as CatalogSort;
   const results = discoverAlbums(filters, sort);
-  function update(key: string, value: string | boolean) { const next = new URLSearchParams(params.toString()); if (!value) next.delete(key); else next.set(key, value === true ? "1" : String(value)); router.push(next.size ? `/discover?${next}` : "/discover", { scroll: false }); }
+  const page = paginate(results, params.get("page"), CATALOG_PAGE_SIZE);
+  function update(key: string, value: string | boolean) { const next = new URLSearchParams(params.toString()); next.delete("page"); if (!value) next.delete(key); else next.set(key, value === true ? "1" : String(value)); router.push(next.size ? `/discover?${next}` : "/discover", { scroll: false }); }
   const active = [
     filters.coreGenre ? ["genre", getTaxonomyLabel(filters.coreGenre)] : null,
     filters.relatedGenre ? ["secondary", getTaxonomyLabel(filters.relatedGenre)] : null,
@@ -58,7 +61,8 @@ export function DiscoverCatalog() {
   return <>
     <details className="filter-panel"><summary>筛选与排序 <span>{active.length} 项</span></summary><DiscoverFilterFields filterOptions={options} filters={filters} sort={sort} update={update} /></details>
     {active.length ? <div className="active-filters" aria-label="当前筛选">{active.map(([key, label]) => <button key={key} type="button" onClick={() => update(key, "")}>{label}<span aria-hidden="true">×</span><span className="visually-hidden">移除此筛选</span></button>)}</div> : null}
-    <div className="results-bar"><p aria-live="polite">找到 <strong>{results.length}</strong> 张专辑</p>{params.size ? <button type="button" onClick={() => router.push("/discover", { scroll: false })}>清除全部</button> : null}</div>
-    {results.length ? <AlbumGrid albums={results} /> : <div className="empty-state"><h2>当前条件下没有专辑</h2><p>试着减少一个筛选条件，或清除全部筛选。</p></div>}
+    <div className="results-bar"><p aria-live="polite">找到 <strong>{results.length}</strong> 张专辑 · 当前显示 {page.items.length} 张</p>{params.size ? <button type="button" onClick={() => router.push("/discover", { scroll: false })}>清除全部</button> : null}</div>
+    {results.length ? <AlbumGrid albums={page.items} /> : <div className="empty-state"><h2>当前条件下没有专辑</h2><p>试着减少一个筛选条件，或清除全部筛选。</p></div>}
+    <CatalogPagination page={page.page} pageCount={page.pageCount} pathname="/discover" />
   </>;
 }

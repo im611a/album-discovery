@@ -22,10 +22,12 @@
     "catalog:check-links": "node scripts/catalog/check-links.mjs",
     "catalog:report": "node scripts/catalog/report-catalog.mjs",
     "catalog:audit:artists": "node scripts/catalog/audit-artists.mjs",
+    "catalog:benchmark": "node scripts/catalog/benchmark-catalog.mjs",
     "catalog:smoke:netease": "node scripts/catalog/smoke-sync.mjs",
     "package:source": "node scripts/package-source.mjs",
     "package:static": "node scripts/package-static.mjs",
     "delivery:verify": "node scripts/verify-delivery.mjs",
+    "release:prepare": "node scripts/release-prepare.mjs",
     "serve:static": "node scripts/serve-static.mjs",
     "quality": "pnpm catalog:validate && pnpm lint && pnpm typecheck && pnpm test && pnpm build"
   },

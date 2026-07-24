@@ -24,6 +24,8 @@ pnpm lint
 pnpm typecheck
 pnpm test
 pnpm build
+pnpm catalog:benchmark -- --count 10000
+pnpm release:prepare
 ```
 
 ## 可恢复目录同步
@@ -34,6 +36,8 @@ pnpm build
 pnpm catalog:sync -- --dry-run --limit 10
 pnpm catalog:sync -- --resume
 pnpm catalog:sync -- --seed ./path/to/seeds.csv --limit 50
+pnpm catalog:sync -- --offline --dry-run --limit 10
+pnpm catalog:sync -- --verify-cache
 ```
 
 同步任务固定批次处理，使用至少两秒请求间隔、有限重试、原始响应缓存、失败日志和检查点。候选目录只有在完整验证通过后才原子发布；重复 ID 被去重，已有可靠 RYM 字段不会被网易云同步清除。缓存和检查点位于被忽略的 `.cache/catalog/`。
@@ -54,6 +58,8 @@ pnpm catalog:rym:report
 ## 探索路径
 
 `/explore/` 提供流派、年代、聆听场景、艺人接力和可分享 seed 的随机探索。专辑详情后的“继续探索”使用确定性的本地相似算法，只依据核心流派、可靠相关流派、年代、本站场景和发行类型；不会使用 RYM 评分、热度、AI 或运行时 Provider。
+
+`/genres/`、`/scenes/`、`/decades/` 提供可分享的静态专题。发现页和专题每页 48 张，搜索每页 40 张；筛选和排序先作用于完整轻量索引，再分页。当前 319 张目录使用单一轻量索引和带 SHA-256 的 manifest，超过约 2,000 张时应按真实测量评估静态 JSON 分片。
 
 ## 封面与发布
 

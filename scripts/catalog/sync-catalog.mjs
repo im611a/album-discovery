@@ -3,6 +3,7 @@ import { execFile } from "node:child_process";
 import path from "node:path";
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 import { validateCatalogData } from "./catalog-validation.mjs";
 import { normalizeListeningScenes } from "./listening-scenes.mjs";
 import { publishCatalog } from "./publish-catalog.mjs";
@@ -33,13 +34,15 @@ const readJson = async (file, fallback = null) => {
   }
 };
 
-function parseArguments(argv) {
-  const options = { dryRun: false, resume: false, limit: Infinity, seed: defaultSeedsPath };
+export function parseArguments(argv) {
+  const options = { dryRun: false, resume: false, offline: false, verifyCache: false, limit: Infinity, seed: defaultSeedsPath };
   for (let index = 0; index < argv.length; index += 1) {
     const value = argv[index];
     if (value === "--") continue;
     if (value === "--dry-run") options.dryRun = true;
     else if (value === "--resume") options.resume = true;
+    else if (value === "--offline") options.offline = true;
+    else if (value === "--verify-cache") options.verifyCache = true;
     else if (value === "--limit") options.limit = Number(argv[++index]);
     else if (value === "--seed") options.seed = path.resolve(argv[++index]);
     else throw new Error(`Unknown catalog sync option: ${value}`);
@@ -48,6 +51,39 @@ function parseArguments(argv) {
     throw new Error("--limit must be a positive integer.");
   }
   return options;
+}
+
+const digestPayload = (payload) => createHash("sha256").update(JSON.stringify(payload)).digest("hex");
+export function createCacheRecord(payload, fetchedAt = new Date().toISOString()) {
+  return { fetchedAt, sha256: digestPayload(payload), payload };
+}
+export function validateCacheRecord(record, file = "cache") {
+  if (!record || typeof record !== "object" || !record.payload || typeof record.fetchedAt !== "string" || typeof record.sha256 !== "string") {
+    const error = new Error(`Cache record is missing metadata: ${file}`);
+    error.code = "CACHE_CORRUPT";
+    throw error;
+  }
+  if (digestPayload(record.payload) !== record.sha256) {
+    const error = new Error(`Cache hash mismatch: ${file}`);
+    error.code = "CACHE_CORRUPT";
+    throw error;
+  }
+  return record.payload;
+}
+async function readCache(file) {
+  const record = await readJson(file);
+  return record ? { payload: validateCacheRecord(record, file), fetchedAt: record.fetchedAt } : null;
+}
+async function writeCache(file, payload) {
+  const record = createCacheRecord(payload);
+  await writeFile(file, `${JSON.stringify(record)}\n`, "utf8");
+}
+export function isPlatformVerification(payload) {
+  const message = JSON.stringify(payload ?? {}).toLocaleLowerCase("en-US");
+  return Boolean(payload && !payload.album && (
+    message.includes("verify") || message.includes("verification") || message.includes("captcha") ||
+    message.includes("验证") || message.includes("风控") || Number(payload.code) === -460
+  ));
 }
 
 function parseCsv(text) {
@@ -110,10 +146,18 @@ async function requestJson(albumId) {
       }
       if (!response.ok) throw new Error(`NetEase album request failed with HTTP ${response.status}.`);
       const payload = await response.json();
+      if (isPlatformVerification(payload)) {
+        const error = new Error("NetEase requires platform verification; the response was not parsed as album data.");
+        error.code = "PLATFORM_VERIFICATION_REQUIRED";
+        throw error;
+      }
       if (!payload?.album) throw new Error("NetEase response does not contain an album.");
       return payload;
     } catch (error) {
-      if (error?.code || attempt === 1) throw error;
+      if (error?.code || attempt === 1) {
+        if (!error?.code) error.code = "NETWORK_ERROR";
+        throw error;
+      }
       await sleep(1_000 * (2 ** attempt));
     }
   }
@@ -142,16 +186,22 @@ async function requestArtistAlbums(artistId) {
   throw new Error("NetEase artist discovery exhausted its retry limit.");
 }
 
-async function expandArtistSeeds(input) {
+async function expandArtistSeeds(input, options) {
   const albums = [...input.albums];
   for (const seed of input.artists) {
     const artistId = String(seed?.artistId ?? "").trim();
     if (!/^\d+$/.test(artistId)) continue;
     const file = path.join(rawCache, `artist-${artistId}.json`);
-    let payload = await readJson(file);
+    const cached = await readCache(file);
+    let payload = cached?.payload;
+    if (!payload && options.offline) {
+      const error = new Error(`Offline cache miss for artist ${artistId}.`);
+      error.code = "OFFLINE_CACHE_MISS";
+      throw error;
+    }
     if (!payload) {
       payload = await requestArtistAlbums(artistId);
-      await writeFile(file, `${JSON.stringify(payload)}\n`, "utf8");
+      await writeCache(file, payload);
     }
     for (const album of (payload.hotAlbums ?? payload.albums ?? []).slice(0, Number(seed.maxAlbums ?? 10))) {
       if (album?.id == null) continue;
@@ -324,6 +374,14 @@ function normalizePayload(seed, payload, fetchedAt, coverAvailable) {
 async function main() {
   const options = parseArguments(process.argv.slice(2));
   await Promise.all([mkdir(rawCache, { recursive: true }), mkdir(cacheRoot, { recursive: true })]);
+  if (options.verifyCache) {
+    const { readdir } = await import("node:fs/promises");
+    const files = (await readdir(rawCache, { withFileTypes: true })).filter((entry) => entry.isFile() && entry.name.endsWith(".json"));
+    let valid = 0;
+    for (const entry of files) { await readCache(path.join(rawCache, entry.name)); valid += 1; }
+    console.log(JSON.stringify({ status: "SUCCEEDED", mode: "VERIFY_CACHE", checked: files.length, valid, catalogModified: false }, null, 2));
+    return;
+  }
   const [stableCatalog, identities, rymSnapshot, seedInput, checkpoint] = await Promise.all([
     readJson(catalogPath),
     readJson(identitiesPath, {}),
@@ -331,7 +389,7 @@ async function main() {
     loadSeeds(options.seed),
     readJson(checkpointPath, { processedAlbumIds: [] }),
   ]);
-  const seeds = await expandArtistSeeds(seedInput);
+  const seeds = await expandArtistSeeds(seedInput, options);
   const result = await runCatalogSync({
     seeds,
     stableCatalog,
@@ -341,11 +399,17 @@ async function main() {
     checkpoint,
     fetchAlbum: async (seed) => {
       const file = path.join(rawCache, `album-${seed.albumId}.json`);
-      let payload = await readJson(file);
-      const cacheHit = Boolean(payload);
+      const cached = await readCache(file);
+      let payload = cached?.payload;
+      const cacheHit = Boolean(cached);
+      if (!payload && options.offline) {
+        const error = new Error(`Offline cache miss for album ${seed.albumId}.`);
+        error.code = "OFFLINE_CACHE_MISS";
+        throw error;
+      }
       if (!payload) {
         payload = await requestJson(seed.albumId);
-        await writeFile(file, `${JSON.stringify(payload)}\n`, "utf8");
+        await writeCache(file, payload);
       }
       let coverAvailable = false;
       try {
@@ -372,4 +436,4 @@ async function main() {
   if (result.failures.length) process.exitCode = 2;
 }
 
-await main();
+if (process.argv[1] === fileURLToPath(import.meta.url)) await main();

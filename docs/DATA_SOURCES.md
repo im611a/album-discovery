@@ -17,13 +17,17 @@
 
 ## 网易云同步
 
-`pnpm catalog:sync` 接受 JSON 或 CSV 的专辑 ID、艺人 ID或审核候选。命令支持 `--dry-run`、`--resume`、`--limit` 和 `--seed`。
+`pnpm catalog:sync` 接受 JSON 或 CSV 的专辑 ID、艺人 ID或审核候选。命令支持 `--dry-run`、`--resume`、`--limit`、`--seed`、`--offline` 和 `--verify-cache`。
 
 同步仅在维护阶段访问 `music.163.com` 的公开专辑与艺人元数据路径；封面只接受 HTTPS 的 `music.126.net` 静态资源。任务不使用登录、Cookie、Token、Authorization、浏览器数据、代理、播放地址或访问限制绕过。401、403、429、验证码与风控信号立即停止对应请求。
 
 请求至少间隔两秒，单项最多重试一次；原始响应、检查点、摘要与失败日志位于 `.cache/catalog/sync/`。候选目录完整验证后才原子替换稳定快照。
 
+缓存记录包含获取时间和内容 SHA-256，哈希不匹配时拒绝使用。`--offline` 在缓存缺失时返回结构化失败且绝不联网；`--verify-cache` 只校验缓存并报告数量，不写目录。平台验证统一标记 `PLATFORM_VERIFICATION_REQUIRED`，不按专辑解析，也不循环重试。
+
 2026-07-24 的匿名小规模冒烟结果为 `PARTIAL`：3 个艺人元数据请求通过；10 个专辑请求虽然返回 HTTP 200，但响应为平台验证形态，不能按公开专辑结构解析。任务未使用登录、Cookie、Token 或 Authorization，也未修改稳定目录；异常响应未保留在缓存。该结果不能证明当前专辑详情路径适合稳定在线同步，详见 `reports/catalog/netease-online-smoke.json`。
+
+专题发布阶段按新上限再次执行且仅执行一次冒烟：5 个专辑网络请求中 3 个明确识别为 `PLATFORM_VERIFICATION_REQUIRED`，2 个为非预期公开形态；3 个艺人检查命中既有可靠缓存并通过。稳定目录哈希保持不变。该 `PARTIAL` 结果继续支持“只把在线同步视为受平台状态影响的维护能力”，不支持扩大采集或绕过验证。
 
 ## 离线 RYM 增强
 

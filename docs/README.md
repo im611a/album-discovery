@@ -14,5 +14,9 @@
 - [RYM_ENRICHMENT_AUDIT.md](./RYM_ENRICHMENT_AUDIT.md)：离线输入候选、采用来源、匹配统计与数据边界。
 - [ARTIST_IDENTITY_AUDIT.md](./ARTIST_IDENTITY_AUDIT.md)：274 位艺人的身份、slug、成员关系与冲突审计。
 - [EXPLORATION_SYSTEM.md](./EXPLORATION_SYSTEM.md)：相似专辑权重、解释、多样性和可分享 URL 契约。
+- [TOPIC_HUBS.md](./TOPIC_HUBS.md)：流派、场景、年代专题路由与分页契约。
+- [CATALOG_SCALABILITY_AUDIT.md](./CATALOG_SCALABILITY_AUDIT.md)：319、1k、10k、50k 规模测量与静态架构限制。
+- [RELEASE_PIPELINE.md](./RELEASE_PIPELINE.md)：单命令发布、失败保护、manifest 与本地验收。
+- [TOPIC_HUBS_SCALABILITY_RELEASE_AUDIT.md](./TOPIC_HUBS_SCALABILITY_RELEASE_AUDIT.md)：本次专题与规模化交付证据。
 
 阶段计划、实验报告和旧产品决策均为历史记录，统一放在 [archive](./archive/README.md)，不再代表当前产品行为。网易云 0.15A/0.15B 原始实验仍保存在 `experiments/netease-catalog-spike/`，现行产品结论以本目录中的产品、数据来源和架构文档为准。

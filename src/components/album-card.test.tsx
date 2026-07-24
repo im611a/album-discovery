@@ -25,5 +25,7 @@ describe("AlbumCard", () => {
     expect(group).toHaveTextContent("嘻哈（Hip Hop）");
     expect(group).toHaveTextContent("流行（Pop）");
     expect(group).not.toHaveTextContent("摇滚（Rock）");
+    expect(screen.getByRole("link", { name: "浏览嘻哈（Hip Hop）专题" })).toHaveAttribute("href", "/genres/core/hip-hop");
+    expect(screen.getByRole("link", { name: "浏览流行（Pop）专题" })).toHaveAttribute("href", "/genres/core/pop");
   });
 });

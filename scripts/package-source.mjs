@@ -3,10 +3,11 @@ import { spawnSync } from "node:child_process";
 import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
-const output = path.join(root, "album-discovery-source.zip");
+const outputArgument = process.argv.indexOf("--output");
+const output = outputArgument >= 0 ? path.resolve(process.argv[outputArgument + 1]) : path.join(root, "album-discovery-source.zip");
 const legacyOutput = path.join(root, "artifacts", "album-discovery-source.zip");
 rmSync(output, { force: true });
-rmSync(legacyOutput, { force: true });
+if (outputArgument < 0) rmSync(legacyOutput, { force: true });
 
 const listed = spawnSync("git", ["ls-files", "--cached", "--others", "--exclude-standard"], { cwd: root, encoding: "utf8" });
 if (listed.status !== 0) process.exit(listed.status ?? 1);

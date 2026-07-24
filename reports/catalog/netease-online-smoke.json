@@ -1,15 +1,15 @@
 {
-  "completedAt": "2026-07-24T07:17:58.108Z",
+  "completedAt": "2026-07-24T08:49:39.334Z",
   "status": "PARTIAL",
   "domain": "music.163.com",
   "anonymous": true,
   "cookieUsed": false,
   "tokenUsed": false,
   "authorizationUsed": false,
-  "requestedCount": 13,
-  "cacheHitCount": 0,
+  "requestedCount": 5,
+  "cacheHitCount": 3,
   "passedCount": 3,
-  "failedCount": 10,
+  "failedCount": 5,
   "stableCatalogUnchanged": true,
   "checks": [
     {
@@ -18,8 +18,8 @@
       "cacheHit": false,
       "status": 200,
       "ok": false,
-      "durationMs": 170,
-      "error": "unexpected_public_shape"
+      "durationMs": 146,
+      "error": "PLATFORM_VERIFICATION_REQUIRED"
     },
     {
       "kind": "album",
@@ -27,7 +27,7 @@
       "cacheHit": false,
       "status": 200,
       "ok": false,
-      "durationMs": 66,
+      "durationMs": 88,
       "error": "unexpected_public_shape"
     },
     {
@@ -36,7 +36,7 @@
       "cacheHit": false,
       "status": 200,
       "ok": false,
-      "durationMs": 65,
+      "durationMs": 82,
       "error": "unexpected_public_shape"
     },
     {
@@ -45,8 +45,8 @@
       "cacheHit": false,
       "status": 200,
       "ok": false,
-      "durationMs": 205,
-      "error": "unexpected_public_shape"
+      "durationMs": 53,
+      "error": "PLATFORM_VERIFICATION_REQUIRED"
     },
     {
       "kind": "album",
@@ -54,79 +54,31 @@
       "cacheHit": false,
       "status": 200,
       "ok": false,
-      "durationMs": 64,
-      "error": "unexpected_public_shape"
-    },
-    {
-      "kind": "album",
-      "id": "15185",
-      "cacheHit": false,
-      "status": 200,
-      "ok": false,
-      "durationMs": 63,
-      "error": "unexpected_public_shape"
-    },
-    {
-      "kind": "album",
-      "id": "29748",
-      "cacheHit": false,
-      "status": 200,
-      "ok": false,
-      "durationMs": 65,
-      "error": "unexpected_public_shape"
-    },
-    {
-      "kind": "album",
-      "id": "29698",
-      "cacheHit": false,
-      "status": 200,
-      "ok": false,
-      "durationMs": 62,
-      "error": "unexpected_public_shape"
-    },
-    {
-      "kind": "album",
-      "id": "6491",
-      "cacheHit": false,
-      "status": 200,
-      "ok": false,
-      "durationMs": 85,
-      "error": "unexpected_public_shape"
-    },
-    {
-      "kind": "album",
-      "id": "19038",
-      "cacheHit": false,
-      "status": 200,
-      "ok": false,
-      "durationMs": 65,
-      "error": "unexpected_public_shape"
+      "durationMs": 56,
+      "error": "PLATFORM_VERIFICATION_REQUIRED"
     },
     {
       "kind": "artist",
       "id": "12198387",
-      "cacheHit": false,
+      "cacheHit": true,
       "status": 200,
       "ok": true,
-      "durationMs": 82,
       "error": null
     },
     {
       "kind": "artist",
       "id": "14117457",
-      "cacheHit": false,
+      "cacheHit": true,
       "status": 200,
       "ok": true,
-      "durationMs": 83,
       "error": null
     },
     {
       "kind": "artist",
       "id": "6452",
-      "cacheHit": false,
+      "cacheHit": true,
       "status": 200,
       "ok": true,
-      "durationMs": 81,
       "error": null
     }
   ]

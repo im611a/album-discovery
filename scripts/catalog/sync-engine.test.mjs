@@ -73,6 +73,15 @@ describe("catalog sync engine", () => {
     expect(deps.publishCatalog).not.toHaveBeenCalled();
   });
 
+  it("classifies platform verification without publishing or retrying in the engine", async () => {
+    const error = Object.assign(new Error("verification"), { code: "PLATFORM_VERIFICATION_REQUIRED" });
+    const deps = dependencies({ fetchAlbum: vi.fn(async () => { throw error; }) });
+    const result = await runCatalogSync({ seeds: [{ albumId: "2" }], stableCatalog: catalog([album("1")]), ...deps });
+    expect(deps.fetchAlbum).toHaveBeenCalledOnce();
+    expect(result.summary).toMatchObject({ status: "PARTIAL", platformVerificationRequired: 1, failed: 1, published: false });
+    expect(result.failures[0].category).toBe("PLATFORM_VERIFICATION_REQUIRED");
+  });
+
   it("does not publish a validation failure", async () => {
     const deps = dependencies({ validateCatalog: vi.fn(async () => ({ ok: false, errors: ["bad candidate"] })) });
     await expect(runCatalogSync({ seeds: [{ albumId: "2" }], stableCatalog: catalog(), ...deps })).rejects.toThrow("bad candidate");

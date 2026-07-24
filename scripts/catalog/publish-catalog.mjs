@@ -1,6 +1,7 @@
 import { access, mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 import { normalizeListeningScenes } from "./listening-scenes.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
@@ -148,7 +149,20 @@ export async function buildPublication(catalog) {
 async function writePublicationDirectory(directory, publication) {
   await mkdir(path.join(directory, "album-details"), { recursive: true });
   await writeFile(path.join(directory, "catalog.json"), `${JSON.stringify(publication.catalog, null, 2)}\n`, "utf8");
-  await writeFile(path.join(directory, "catalog-index.json"), `${JSON.stringify(publication.index, null, 2)}\n`, "utf8");
+  const indexText = `${JSON.stringify(publication.index, null, 2)}\n`;
+  await writeFile(path.join(directory, "catalog-index.json"), indexText, "utf8");
+  await writeFile(path.join(directory, "catalog-index.manifest.json"), `${JSON.stringify({
+    version: 1,
+    catalogCount: publication.index.albums.length,
+    shardCount: 1,
+    shards: [{
+      path: "catalog-index.json",
+      count: publication.index.albums.length,
+      bytes: Buffer.byteLength(indexText),
+      sha256: createHash("sha256").update(indexText).digest("hex"),
+    }],
+    upgradeThreshold: 2000,
+  }, null, 2)}\n`, "utf8");
   await writeFile(path.join(directory, "artist-index.json"), `${JSON.stringify(publication.artistIndex, null, 2)}\n`, "utf8");
   for (const album of publication.catalog.albums) {
     await writeFile(path.join(directory, "album-details", `${album.slug}.json`), `${JSON.stringify(album, null, 2)}\n`, "utf8");
@@ -160,6 +174,8 @@ async function writePublicationDirectory(directory, publication) {
     ratedAlbums: publication.catalog.albums.filter((album) => album.rymRating != null).length,
     relatedGenreAlbums: publication.catalog.albums.filter((album) => album.relatedGenres.length > 0).length,
     explorationVersion: 1,
+    topicHubVersion: 1,
+    catalogIndexVersion: 1,
     generatedAt: publication.catalog.source.generatedAt,
     runtimeRequestsAllowed: false,
   };

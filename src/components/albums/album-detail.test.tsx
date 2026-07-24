@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 import { getAlbumDetailBySlug } from "@/catalog/published-album-details";
+import { getAlbumBySlug } from "@/catalog/queries";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
 import { AlbumDetail } from "./album-detail";
 
@@ -33,7 +34,7 @@ describe("AlbumDetail", () => {
 
   it("keeps stable taxonomy keys in discover links while showing bilingual labels", () => {
     renderDetail("wake-after-the-rain");
-    expect(screen.getByRole("link", { name: "嘻哈（Hip Hop）" })).toHaveAttribute("href", "/discover?genre=hip-hop");
+    expect(screen.getByRole("link", { name: "嘻哈（Hip Hop）" })).toHaveAttribute("href", "/genres/core/hip-hop");
   });
 
   it("renders optional RYM related taxonomy without exposing descriptors", () => {
@@ -44,8 +45,21 @@ describe("AlbumDetail", () => {
     };
     render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
     expect(screen.getByRole("heading", { name: "相关流派" })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "chamber-pop" })).toHaveAttribute("href", "/discover?secondary=chamber-pop");
+    expect(screen.getByRole("link", { name: "chamber-pop" })).toHaveAttribute("href", "/genres/related/chamber-pop");
     expect(screen.queryByRole("heading", { name: "氛围与特征" })).not.toBeInTheDocument();
     expect(screen.getByText("相关流派来自人工核验的离线 RYM Secondary Genres。")).toBeInTheDocument();
+  });
+
+  it("places same-artist albums before continue exploring in semantic DOM order", () => {
+    const album = getAlbumDetailBySlug("wake-after-the-rain")!;
+    const sameArtist = { ...getAlbumBySlug("super-mr-sun")!, id: "album:other", slug: "other-album", title: "同艺人作品" };
+    const { container } = render(<PersonalStateProvider><AlbumDetail album={album} sameArtistAlbums={[sameArtist]} /></PersonalStateProvider>);
+    const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
+    expect(headings.indexOf("同艺人其他专辑")).toBeLessThan(headings.indexOf("继续探索"));
+  });
+
+  it("does not render an empty same-artist section", () => {
+    renderDetail("wake-after-the-rain");
+    expect(screen.queryByRole("heading", { name: "同艺人其他专辑" })).not.toBeInTheDocument();
   });
 });
