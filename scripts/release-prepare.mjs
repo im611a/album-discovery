@@ -17,7 +17,10 @@ const started = Date.now();
 
 function run(command, args) {
   return new Promise((resolve, reject) => {
-    const child = spawn(command, args, { cwd: root, stdio: "inherit", shell: process.platform === "win32" });
+    const windowsPnpm = process.platform === "win32" && command === "pnpm";
+    const executable = windowsPnpm ? process.env.ComSpec ?? "cmd.exe" : command;
+    const commandArguments = windowsPnpm ? ["/d", "/s", "/c", "pnpm", ...args] : args;
+    const child = spawn(executable, commandArguments, { cwd: root, stdio: "inherit", shell: false });
     child.on("exit", (code) => code === 0 ? resolve() : reject(new Error(`${command} ${args.join(" ")} exited with ${code}`)));
     child.on("error", reject);
   });
@@ -25,7 +28,10 @@ function run(command, args) {
 async function capture(command, args) {
   return new Promise((resolve, reject) => {
     let output = "";
-    const child = spawn(command, args, { cwd: root, shell: process.platform === "win32" });
+    const windowsPnpm = process.platform === "win32" && command === "pnpm";
+    const executable = windowsPnpm ? process.env.ComSpec ?? "cmd.exe" : command;
+    const commandArguments = windowsPnpm ? ["/d", "/s", "/c", "pnpm", ...args] : args;
+    const child = spawn(executable, commandArguments, { cwd: root, shell: false });
     child.stdout.on("data", (data) => { output += data; });
     child.on("exit", (code) => code === 0 ? resolve(output.trim()) : reject(new Error(`${command} failed`)));
   });
