@@ -78,6 +78,7 @@ try {
     ["pnpm", ["typecheck"]],
     ["pnpm", ["test"]],
     ["pnpm", ["build"]],
+    ["pnpm", ["test:static-links"]],
   ]) await run(command, args);
   await verifyStaticHttp();
   for (const [command, args] of [

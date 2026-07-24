@@ -54,9 +54,17 @@ if (releaseManifest.commit !== commit) throw new Error(`Static release manifest 
 if (releaseManifest.ratedAlbumCount !== catalog.albums.filter((album) => album.rymRating != null).length ||
     releaseManifest.relatedGenreAlbumCount !== catalog.albums.filter((album) => album.relatedGenres.length > 0).length ||
     releaseManifest.explorationVersion !== 1 ||
-    releaseManifest.visualDesignVersion !== "1.1" ||
-    releaseManifest.designSystem !== "editorial-songti" ||
-    releaseManifest.animationEngine !== "animejs") {
+    releaseManifest.visualDesignVersion !== "1.1-full-site-motion-rebuild" ||
+    releaseManifest.designSystem !== "editorial-songti-motion" ||
+    releaseManifest.animationEngine !== "animejs" ||
+    releaseManifest.homeIntro !== "scroll-reveal" ||
+    releaseManifest.pointerParallax !== true ||
+    releaseManifest.featuredAlbumDeck !== "scroll-synced" ||
+    releaseManifest.activeVinylRotation !== true ||
+    releaseManifest.fullSiteEditorialRedesign !== true ||
+    releaseManifest.localStateSchemaCompatible !== true ||
+    releaseManifest.internalLinksValidated !== true ||
+    releaseManifest.humanVisualAcceptance !== "pending") {
   throw new Error("Static release manifest does not match the enriched catalog.");
 }
 

@@ -31,7 +31,7 @@ test("editorial home preserves navigation, real links and all nine sections", as
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/?visualTest=1");
   await expect(page.getByRole("heading", { level: 1, name: "专辑发现" })).toBeVisible();
-  await expect(page.locator(".editorial-canvas .editorial-album-object")).toHaveCount(9);
+  await expect(page.locator(".home-gallery .editorial-album-object")).toHaveCount(9);
   await expect(page.getByRole("heading", { name: /三张专辑/ })).toBeVisible();
   await expect(page.getByRole("heading", { name: /一位创作者/ })).toBeVisible();
   await expect(page.getByRole("heading", { name: /十五条进入目录/ })).toBeVisible();
@@ -47,7 +47,7 @@ test("editorial home preserves navigation, real links and all nine sections", as
 
 test("discover, search and deep detail routes retain their URL contracts", async ({ page }) => {
   const runtime = watchRuntime(page);
-  await page.goto("/discover/?visualTest=1");
+  await page.goto("/discover/");
   await page.locator("details.filter-panel").evaluate((element: HTMLDetailsElement) => { element.open = true; });
   await page.getByLabel("核心流派", { exact: true }).selectOption("pop");
   await expect(page).toHaveURL(/genre=pop/);

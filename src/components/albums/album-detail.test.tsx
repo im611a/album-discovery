@@ -13,7 +13,7 @@ describe("AlbumDetail", () => {
     expect(screen.getByRole("heading", { level: 1, name: "在雨后醒来" })).toBeInTheDocument();
     expect((await screen.findAllByRole("button", { name: "想听" })).length).toBeGreaterThan(0);
     expect(screen.getByRole("heading", { name: "曲目表" })).toBeInTheDocument();
-    const link = screen.getByRole("link", { name: "在网易云音乐中查看 ↗" });
+    const link = screen.getByRole("link", { name: /网易云音乐.*查看专辑与曲目信息/ });
     expect(link).toHaveAttribute("href", "https://music.163.com/#/album?id=287974232");
     expect(link).toHaveAttribute("target", "_blank");
     expect(link).toHaveAttribute("rel", "noopener noreferrer");
@@ -56,6 +56,19 @@ describe("AlbumDetail", () => {
     const { container } = render(<PersonalStateProvider><AlbumDetail album={album} sameArtistAlbums={[sameArtist]} /></PersonalStateProvider>);
     const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
     expect(headings.indexOf("同艺人其他专辑")).toBeLessThan(headings.indexOf("继续探索"));
+  });
+
+  it("places the track archive before ratings, taxonomy and listening scenes", () => {
+    const album = {
+      ...getAlbumDetailBySlug("wake-after-the-rain")!,
+      rymRating: 4.1,
+      rymRatingCount: 1200,
+    };
+    const { container } = render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
+    const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
+    expect(headings.indexOf("曲目表")).toBeLessThan(headings.indexOf("RYM 社区评分"));
+    expect(headings.indexOf("曲目表")).toBeLessThan(headings.indexOf("流派"));
+    expect(headings.indexOf("曲目表")).toBeLessThan(headings.indexOf("聆听场景"));
   });
 
   it("does not render an empty same-artist section", () => {

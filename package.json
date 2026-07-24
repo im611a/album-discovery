@@ -14,6 +14,7 @@
     "test:e2e:all": "node scripts/run-playwright.mjs tests/e2e/product.spec.ts",
     "test:visual": "node scripts/run-playwright.mjs tests/e2e/visual-regression.spec.ts --project=chromium",
     "test:visual:update": "node scripts/run-playwright.mjs tests/e2e/visual-regression.spec.ts --project=chromium --update-snapshots",
+    "test:static-links": "node scripts/validate-static-site.mjs",
     "catalog:refresh": "node scripts/catalog/refresh-catalog.mjs",
     "catalog:sync": "node scripts/catalog/sync-catalog.mjs",
     "catalog:publish": "node scripts/catalog/publish-catalog.mjs",

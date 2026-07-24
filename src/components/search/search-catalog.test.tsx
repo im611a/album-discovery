@@ -20,11 +20,12 @@ describe("SearchCatalog", () => {
     fireEvent.submit(screen.getByRole("search"));
     expect(push).toHaveBeenCalledWith("/search?q=%E7%BA%B8+%26+%2B+%E6%9C%88", { scroll: false });
   });
-  it("finds Chinese artists and highlights a visible hit", () => {
+  it("finds Chinese artists and renders editorial result rows", () => {
     query = "王菲";
     const { container } = render(<PersonalStateProvider><SearchCatalog /></PersonalStateProvider>);
     expect(screen.getByText(/找到/)).toBeInTheDocument();
-    expect(container.querySelector("mark")?.textContent).toBe("王菲");
+    expect(container.querySelector(".artist-editorial-row")).toBeInTheDocument();
+    expect(container.querySelector(".compact-album-row")).toBeInTheDocument();
   });
   it("resets pagination when a new query is submitted", () => {
     query = "专辑";

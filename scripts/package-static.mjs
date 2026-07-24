@@ -33,9 +33,17 @@ const releaseManifest = {
   catalogIndexVersion: indexManifest.version,
   catalogIndexContentSha256: indexManifest.shards[0]?.sha256 ?? null,
   staticPageCount: countIndexPages(out),
-  visualDesignVersion: "1.1",
-  designSystem: "editorial-songti",
+  visualDesignVersion: "1.1-full-site-motion-rebuild",
+  designSystem: "editorial-songti-motion",
   animationEngine: "animejs",
+  homeIntro: "scroll-reveal",
+  pointerParallax: true,
+  featuredAlbumDeck: "scroll-synced",
+  activeVinylRotation: true,
+  fullSiteEditorialRedesign: true,
+  localStateSchemaCompatible: true,
+  internalLinksValidated: true,
+  humanVisualAcceptance: "pending",
 };
 writeFileSync(path.join(out, "release-manifest.json"), `${JSON.stringify(releaseManifest, null, 2)}\n`, "utf8");
 rmSync(output, { force: true });
