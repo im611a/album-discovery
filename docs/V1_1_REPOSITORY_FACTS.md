@@ -1,64 +1,56 @@
-# V1.1 仓库事实
+# V1.1 全站编辑动效重建仓库事实
 
 状态：VERIFIED  
-基线：`feat/v1.1-visual-redesign` / `fbb989147ea7f05a38d5b5570ce130c41a996d68`
+实现基线：`feat/v1.1-visual-redesign` / `f8747632c11c5c9b076ed3d086d723b7dfb247a7`
+工作分支：`fix/v1.1-full-site-editorial-motion-rebuild`
+
+## Git 与封存
+
+- main 仍为 `1573ebac30ea84d438570fe7f85626cdf98f7ff3`。
+- `v1.0.0-local` 解引用后仍指向 `fbb989147ea7f05a38d5b5570ce130c41a996d68`。
+- V1 外部封存位于 `D:\Projects\album-discovery-releases\v1.0.0-local`。
+- 既有 stash 为 `backup: legacy v0.2 plan before 0.2P`，本任务不操作。
 
 ## 工程与依赖
 
 | 事实 | 证据 |
 |---|---|
-| Next.js 16.2.10，静态导出、目录式路由、非优化图片 | `package.json`、`next.config.ts` |
-| React / React DOM 19.2.4 | `package.json` |
-| TypeScript strict 与 `@/* → src/*` | `tsconfig.json` |
-| Tailwind CSS 4 通过 `@import "tailwindcss"`；主要样式集中在单一全局文件 | `postcss.config.mjs`、`src/app/globals.css` |
-| 当前没有 Anime.js 依赖 | `package.json`、`pnpm-lock.yaml` |
-| 当前没有 Playwright 配置或 E2E；锁文件命中只是 Vitest/Next 的可选依赖元数据 | `package.json`、`pnpm-lock.yaml`、仓库文件搜索 |
-| 当前 36 个 `src/**` Vitest 文件，完整测试还包括脚本测试 | `src/**/*.test.*`、`scripts/**/*.test.mjs` |
+| Next.js 16.2.10、React 19.2.4、静态导出、目录式路由 | `package.json`、`next.config.ts` |
+| Anime.js 4.5.0 是唯一运行时动画引擎 | `package.json`、`pnpm-lock.yaml` |
+| Playwright 1.61.1 已配置 Chromium、Firefox、WebKit | `package.json`、`playwright.config.ts` |
+| 根布局为 Server Component | `src/app/layout.tsx` |
+| Tailwind 4 入口与主要手写样式集中在全局文件 | `postcss.config.mjs`、`src/app/globals.css` |
+| 没有 Motion、Framer Motion、GSAP、Three 或 WebGL 依赖 | `package.json`、锁文件搜索 |
 
-## 现有 UI 与复用点
+## 重建后的事实
 
-- 全局 Header、移动菜单、Esc 关闭和当前路由状态：
-  `src/components/site-header.tsx`。
-- 唯一标准专辑展示、独立艺人/流派链接和本机操作：
-  `src/components/album-card.tsx`、`src/components/album-actions.tsx`。
-- 封面本地资源与 fallback：`src/components/albums/album-cover.tsx`。
-- 六列到两列目录网格：`src/components/album-grid.tsx`。
-- 详情、曲目、同艺人和继续探索：
-  `src/components/albums/album-detail.tsx`，现有 DOM 顺序正确。
-- 发现筛选与 URL 状态：`src/components/discover/discover-catalog.tsx`。
-- 搜索与 URL 状态：`src/components/search/search-catalog.tsx`。
-- 统一分页：`src/components/catalog-pagination.tsx`、
-  `src/catalog/pagination.ts`；目录 48、搜索 40。
-- 本机状态、迁移和损坏恢复：
-  `src/features/personal-state/personal-state-provider.tsx`、
-  `src/features/personal-state/schema.ts`。
+- `EditorialMotion` 提供可逆滚动揭示、按需单 RAF 指针深度、共享 Deck `activeIndex`、
+  活动黑胶、隐藏页签状态和内部导航返回位置恢复。
+- 普通桌面模式首帧封面数为 0；reduced-motion、无 JavaScript 和视觉测试模式输出安全静态流。
+- 九个封面的色组、尺度、深度、指针强度、角度、层级和重叠许可由
+  `src/config/editorial-home.ts` 统一管理。
+- `RouteMotion` 是放在 Server Root Layout 内的局部客户端岛，只对 B/C 页面做有限进入。
+- Playwright 已增加运动、三视口五指针几何、30 场景双视口页面矩阵、连续录像和静态视觉证据。
+- 静态导出新增全 HTML 内部链接和本地资源扫描，发布清单包含 V1.1 重建状态与
+  `humanVisualAcceptance: "pending"`。
 
-## 数据和路由
+## 稳定复用点
 
-- 首页、搜索、发现、推荐只消费轻量索引：
-  `src/catalog/published-catalog.ts`、`src/data/generated/catalog-index.json`。
-- 单专辑详情独立读取：
-  `src/catalog/published-album-details.ts`、
-  `src/data/generated/album-details/*.json`。
-- 当前目录：319 张专辑、274 位艺人、13 张有 RYM 评分、11 张有相关流派、
-  15 个核心流派、7 个聆听场景、6 份编辑导览。
-- 页面入口实际位于 `src/app/**/page.tsx`；专题静态参数由
-  `src/catalog/topics.ts` 生成，未建立第二套路由系统。
+- 全局导航、移动菜单和 Esc：`src/components/site-header.tsx`。
+- 封面与缺图：`src/components/albums/album-cover.tsx`。
+- 目录卡片、操作和网格：`src/components/album-card.tsx`、`album-actions.tsx`、`album-grid.tsx`。
+- 首页配置与编辑组件：`src/config/editorial-home.ts`、`src/components/editorial/**`。
+- 详情、艺人、筛选、搜索、专题、推荐和本机状态均已有稳定组件；本任务只改变视觉表达和局部动效边界。
+- 静态链接、打包与发布脚本位于 `scripts/**`，不建立第二套交付系统。
 
-## 发布
+## 数据与静态规模
 
-- `pnpm release:prepare` 要求干净提交，依次运行目录校验、lint、
-  typecheck、test、build、静态 HTTP、双 ZIP 和交付验证：
-  `scripts/release-prepare.mjs`。
-- 源码与静态包规则：
-  `scripts/package-source.mjs`、`scripts/package-static.mjs`、
-  `scripts/verify-delivery.mjs`。
-- V1 静态首页基线：11 个 `_next` 请求，相关 JS 1,055,756 字节、
-  CSS 32,199 字节、7 个首页图片元素；静态 ZIP 49,209,979 字节。
+- 319 张专辑、274 位艺人、13 张有 RYM 评分、11 张有相关流派、15 个核心流派、24 个相关流派、7 个聆听场景。
+- 现有 build 生成 661 个目录式静态页面；详情和艺人路由在构建期生成。
+- 正式页面只消费本地快照和本地 WebP，不向音乐 Provider 发起运行时请求。
 
-## 事实调查后的实现边界
+## 性能比较基线
 
-V1.1 复用上述目录、查询、状态、分页、详情和发布能力。允许新增首页版位配置、
-编辑展示层、有限 Anime.js 客户端边界和 Playwright 测试，但不复制目录数据，
-不重写业务算法。
-
+`f874763` 首页静态 HTML 关联 11 个 JavaScript 资源（1,092,502 字节）、1 个 CSS
+资源（46,083 字节）和 33 个图片元素。重建必须解释增长，禁止视频、WebGL、远程字体、
+远程图片和第二动画引擎。

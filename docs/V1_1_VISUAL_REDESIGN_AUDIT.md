@@ -1,43 +1,58 @@
-# V1.1 视觉重设计审计
+# V1.1 全站编辑动效重建审计
 
-状态：VERIFIED
+状态：`READY_FOR_HUMAN_REVIEW`
+人工视觉验收：`pending`
 
-## 已验证
+## 事实与边界
 
-- 正式目录保持 319 张专辑、274 位艺人、15 个核心流派、24 个相关流派、
-  7 个聆听场景、13 张带 RYM 评分、11 张带相关流派；
-- 首页 9 个配置对象与 fallback 均为确定性，正式数据未改写；
-- 首页、发现、搜索、详情、艺人、专题、个人、设置、关于和 404 通过 Chromium
-  静态路由冒烟；
-- Chromium 4 个产品 E2E 与 11 个视觉基准通过；WebKit 产品冒烟通过；
-- Firefox 151 浏览器已下载，但当前 Windows 环境启动时报
-  `RenderCompositorSWGL failed mapping default framebuffer`，属于浏览器运行环境限制，
-  不是本站 console 或页面错误；
-- Vitest 当前 48 个文件、849 个用例通过；
-- 没有 React Bits、Aceternity UI 或 Uiverse 运行时代码。
-- 首页静态 HTML 关联 11 个 JS 资源（1,092,502 字节）和 1 个 CSS 资源
-  （46,083 字节），含 33 个图片元素；V1 基线分别是 1,055,756 字节、
-  32,199 字节和 7 个图片元素。增长来自 Anime.js 客户端边界、编辑首页结构与
-  响应式规则，没有 WebGL、视频、远程字体或持续动画。
-- `test.skip` 的唯一命中是视觉基准明确只由 Chromium 持有；产品 E2E 没有
-  skip、todo 或 only。目录中的 “coming soon” 命中是正式曲目标题，不是占位功能。
+- 起始提交：`f8747632c11c5c9b076ed3d086d723b7dfb247a7`。
+- 工作分支：`fix/v1.1-full-site-editorial-motion-rebuild`。
+- 目录保持 319 张专辑、274 位艺人、13 张 RYM 评分专辑、11 张相关流派专辑、
+  15 个核心流派、24 个相关流派、7 个实际有数据的聆听场景。
+- 正式目录、推荐算法、本机状态 schema、同步数据、main、stash、现有标签和 V1 封存未改。
+- 新增运行时依赖 0；Anime.js 4.5.0 仍是唯一动画引擎。
 
-## 最终质量与交付
+## 需求处理结果
 
-- `pnpm quality` 第二遍通过：目录校验、lint、typecheck、48 个 Vitest 文件、
-  849 个用例和静态 build 全部成功；
-- Chromium 产品 E2E 4/4、视觉基准 11/11；WebKit 产品 E2E 4/4；
-- `release:prepare` 在干净功能提交 `c4dac59` 上通过静态 HTTP、源码包、静态包、
-  解压和清单校验；
-- manifest：319 张专辑、274 位艺人、13 张评分、11 张相关流派、661 个目录式
-  静态页面，`visualDesignVersion: "1.1"`、`designSystem: "editorial-songti"`、
-  `animationEngine: "animejs"`；
-- 该次源码包 37,695,433 字节，静态包 49,602,972 字节；V1 静态包基线
-  49,209,979 字节，增加 392,993 字节（约 0.8%）；
-- V1 标签仍指向 `fbb9891`，main、stash 和
-  `D:\Projects\album-discovery-releases\v1.0.0-local` 未修改。
+- 首页：普通桌面初始 0 张封面，滚动揭示可逆；五个指针位置产生不同深度位移；
+  单 RAF 稳定后停止；三章 Deck 共用 activeIndex；活动黑胶旋转。
+- 降级：无 JavaScript、reduced-motion、粗指针和视觉测试模式均有完整静态内容。
+- 全站：发现、搜索、艺人、专辑、探索、推荐、最近收录、我的专辑、专题、设置、
+  关于、404、Header 和 Footer 已纳入 A/B/C/D 页面原型。
+- 艺人索引默认每人一张缩略封面；艺人详情使用 2–5 张真实作品封面。
+- 搜索使用 `CompactAlbumRow` 与 `ArtistEditorialRow`；404 提供首页、发现、搜索。
+- 静态扫描发现并修复首页“驾车”零数据场景的损坏链接；最终只渲染实际存在的 7 个场景。
 
-## 审计结论
+## 自动证据
 
-Blocker 0，Major 0。Firefox headless 启动限制记为 Minor 环境限制；未执行的
-Firefox 产品冒烟必须在可用图形环境中补跑，不影响已验证的静态产品和交付包。
+- Vitest：49 个文件、860 个用例。
+- Chromium：产品、11 个视觉基准、6 个运动、3 个几何、30 个页面矩阵和 3 个证据任务。
+- 页面矩阵：30 个场景 × 桌面/手机，共 60 张全页证据；唯一 h1、无横向溢出和 console
+  审计通过。
+- 几何：1280×800、1440×900、1920×1080，每个视口 5 个指针位置；所有
+  `allowOverlap: false` 封面交集面积为 0。
+- WebKit：关键产品路径、滚动揭示、Deck、reduced-motion 和无 JavaScript 通过。
+- Firefox：本机图形启动阶段再次超时，记为环境 `PARTIAL`，没有伪报通过。
+- 真实浏览器 UI 200% 缩放无法由当前自动化可靠设置，记为 `PARTIAL`。
+
+## 证据位置
+
+- 本站连续录像、关键帧和页面截图：
+  `.local-data/v1.1-full-site-acceptance/`
+- 参考站有限观察：
+  `.local-data/design-reference/meinhardtaxer-motion-atlas/`
+- 正式视觉基准：
+  `tests/e2e/__screenshots__/chromium/`
+
+参考观察只保存截图和非敏感几何/console 事实，没有保存对方 HTML、CSS、JavaScript、
+字体、图片、Cookie 或品牌资源。
+
+## 发布边界
+
+`release-manifest.json` 必须记录 `1.1-full-site-motion-rebuild`、
+`editorial-songti-motion`、滚动揭示、指针深度、滚动 Deck、活动黑胶、状态兼容、
+内部链接已验证，以及 `humanVisualAcceptance: "pending"`。
+
+最终判定：Blocker 0，Major 0。Firefox 与真实 200% 缩放是明确 Minor/PARTIAL；
+它们不改变 Chromium、WebKit、静态构建和交付包的已验证事实。当前版本可以交给用户
+进行人工视觉验收，但 Codex 不宣称用户已接受。

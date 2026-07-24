@@ -1,65 +1,62 @@
-# V1.1 蓝黑编辑档案设计系统
+# V1.1 全站编辑动效设计系统
 
-## 原则
+状态：`READY_FOR_HUMAN_REVIEW`。这表示工程证据已齐备，仍不等于用户人工验收通过。
 
-专辑封面是主要视觉，文字负责建立编辑层级。界面使用安静的深海军蓝背景、
-低对比冷蓝灰边框和克制冷蓝强调，以音乐杂志和专辑档案馆为方向，不模仿播放器、
-后台或电商。
+## 方向与 Token
 
-## Token
+专辑发现是一册蓝黑色的中文音乐档案：真实封面承担情绪，系统宋体承担编辑层级，
+线条、留白与尺度差建立空间。唯一主题为深色；不使用远程字体、远程图片、霓虹、
+玻璃拟态或播放器外观。
 
-全局变量位于 `src/app/globals.css`：
+全局 Token 位于 `src/app/globals.css`。背景、表面、线条、主次文字、强调色、状态色、
+安全边距、内容宽度和章节间距都通过 CSS 变量管理。正文使用
+`"Songti SC", "STSong", "SimSun", "NSimSun", serif`，数字使用等宽数字特性。
 
-- 背景：`--page-background`、`--elevated-background`、`--card-background`、`--card-hover`、`--input-background`；
-- 结构：`--border`、`--border-strong`；
-- 文字：`--text-primary`、`--text-secondary`、`--text-muted`；
-- 状态：`--accent`、`--accent-hover`、`--focus-ring`、`--warning`、`--destructive`、`--success`。
+## 页面原型
 
-深色是唯一正式主题。不使用纯黑铺满页面或纯白大背景。
+| 原型 | 页面 | 视觉与动效 |
+|---|---|---|
+| immersive-gallery | 首页 | A 级：静默开场、原生滚动揭示、单 RAF 指针深度、三章 Deck、活动黑胶 |
+| editorial-tool | 发现、搜索、探索、推荐、最近收录、我的专辑 | C 级：规则表单、行列档案、有限首屏进入 |
+| artist-archive | 艺人索引 | C 级：每位艺人默认仅一张缩略封面 |
+| artist-profile | 艺人详情 | B 级：2–5 张真实代表封面组合与作品目录 |
+| album-essay | 专辑详情 | B 级：封面、身份、曲目、分类与编辑说明按证据层级排列 |
+| topic-hub | 流派、场景、年代 | 索引 C 级、详情 B 级 |
+| utility-minimal | 设置、关于、404 | D 级：静态优先，只有必要反馈 |
 
-## 排版与间距
+根布局仍是 Server Component。`RouteMotion` 和 `EditorialMotion` 是局部客户端岛；
+搜索、筛选、移动菜单与本地状态继续使用原有客户端边界，没有把完整目录详情传入浏览器。
 
-全站使用 `"Songti SC", "STSong", "SimSun", "NSimSun",
-"Noto Serif CJK SC", serif`，不下载网络字体。表单控件继承字体，正文基准
-16px，数字使用 tabular nums。统一内容宽度为 1240px；层级主要依靠字号、位置、
-字距、分隔线和负空间，不依赖合成粗体。
+## 首页运动契约
 
-## 编辑首页
+- 普通桌面模式初始封面数为 0；滚动揭示可逆。
+- 九个版位由 `src/config/editorial-home.ts` 管理：色组、尺度、深度、初始角度、
+  进入方向、最大宽度和是否允许重叠均显式配置。
+- 指针只在桌面精细指针环境工作，使用一个按需 `requestAnimationFrame`；稳定后停止。
+- Deck 的编号、标题、封面和黑胶共享 `activeIndex`；非活动黑胶不旋转。
+- `document.hidden`、`prefers-reduced-motion`、无 JavaScript 和 `?visualTest=1`
+  都有明确静态降级。
+- 不劫持滚轮，不建立自定义滚动容器，不持续修改布局属性。
 
-- `src/config/editorial-home.ts` 集中保存 12 列桌面版位、尺寸和可见性；
-- 桌面有 large、medium、small 三级封面，位置不使用随机数；
-- 平板减少对象并重新分配行高；360–390px 使用独立双列流，首屏至少露出两张封面；
-- 后续依次是精选专辑、艺人档案、流派索引、年代、场景、本机发现和最近收录；
-- 工具页继续使用规则网格、表单与分页，不被强行改造成自由画布。
+## 共享组件
 
-## 组件
+- `AlbumCover` 是所有封面唯一渲染入口。
+- `AlbumCard` / `AlbumGrid` 服务发现与专题网格。
+- `CompactAlbumRow` 服务搜索专辑结果等高信息密度场景。
+- `ArtistCard` 服务艺人档案，每位艺人默认最多一张代表封面。
+- `ArtistEditorialRow` 服务搜索艺人结果。
+- `SiteHeader`、`SiteFooter`、分页、筛选、本机状态操作和分类标签继续全站复用。
 
-- AlbumCard：1:1 封面、两行标题、独立艺人链接、低权重元数据与可选 RYM 分数；
-- 探索卡片：复用 AlbumCard，并在卡片外提供一条来自实际得分贡献的简短原因，不显示相似度百分比；
-- ArtistCard：本地封面预览、名称、收录数量和少量常见核心流派；
-- 按钮：primary、secondary、quiet、danger 四种语义；
-- 表单：深色输入背景、明确标签、可见 focus 和诚实 disabled 说明；
-- Header：桌面紧凑导航，移动端菜单支持键盘、Esc 和路由关闭；
-- 空状态：简短原因与单一下一步，不使用大型插画。
+## 响应式与可访问性
 
-## 响应式
-
-- 360–390px：专辑通常两列，筛选默认折叠，菜单紧凑；
-- 768px：三至四列；
-- 1024–1440px：五至六列；
-- 详情在小屏自然堆叠，曲目名可换行，时长保持右对齐。
-- 探索路径控制区在手机端单列，结果沿用两至六列专辑网格；详情后的继续探索不挤压首屏。
-- 专题索引在手机端使用紧凑单列入口、平板两列、桌面三列；专题详情沿用现有 AlbumCard 与筛选控件。
-- 分页在手机端保持上一页、进度和下一页三个清晰触控目标，不使用无限滚动。
-
-## 动效与可访问性
-
-CSS 过渡限于 hover、focus、按钮、菜单和筛选展开。首页进入和区块 reveal 由
-Anime.js 4.5.0 的 `createScope`、`animate`、`stagger` 实现，卸载时
-`scope.revert()`；IntersectionObserver 只触发一次，不存在循环或持续 RAF。
-`prefers-reduced-motion` 和 `?visualTest=1` 会跳过运行时动画且内容保持可见。
-页面保留 skip link、唯一 h1、语义化表单、清晰 focus、可读 disabled 说明和明确外链文案。
+- 360–390：自然单列/双列流，不复用桌面绝对坐标。
+- 768–1024：收敛封面数量与列宽，保持工具操作效率。
+- 1280–1920：首页使用受配置约束的沉浸舞台；工具页保持规则阅读。
+- 每页一个 `h1`，保留 skip link、landmark、可见 focus、语义表单与明确外链。
+- 未进入可视阶段的首页封面退出 Tab 顺序；持有焦点时不会被突然隐藏。
+- `prefers-reduced-motion` 下关闭滚动同步、视差与黑胶动画，内容按 DOM 顺序完整可达。
 
 ## 禁止模式
 
-不使用霓虹赛博、重度玻璃拟态、大面积发光、自动轮播、3D 卡片、跟随鼠标、连续背景动画、播放器仿制或大量飞入动画。
+第二动画引擎、永久 RAF、WebGL、粒子、滚动劫持、无限轮播、自动播放、远程视觉资源、
+把工具页改成自由画布，以及为视觉方便复制正式目录数据，均不属于本系统。

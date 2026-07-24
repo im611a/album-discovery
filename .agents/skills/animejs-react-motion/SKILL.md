@@ -19,11 +19,17 @@ description: 按仓库实际 Anime.js 版本在 React 中实现有作用域、�
 1. 从 `package.json`、锁文件、包内类型声明和官方文档确认版本与 API。
 2. React 动效使用 `createScope({ root })`，并在 effect 清理函数中调用
    `scope.revert()`。
-3. 动画只修改 opacity 和 transform，保持内容在动画失败时仍可见。
+3. 动画只修改 opacity 和 transform，保持内容在动画失败时仍可见；初始隐藏只能在
+   JavaScript 已声明 motion-ready 后启用。
 4. 进入动画由 IntersectionObserver 有限触发；观察器在卸载时断开。
 5. `prefers-reduced-motion: reduce` 或 `data-motion="reduced"` 时跳过动画。
 6. `data-visual-test="true"` 时立即呈现最终状态，保证截图稳定。
-7. 禁止永久 loop、无意义 requestAnimationFrame 和第二动画引擎。
+7. 指针视差只允许一个按需 `requestAnimationFrame`；应用最新指针状态后停止，
+   不得在静止时持续调度。
+8. sticky/scroll 同步状态必须可逆，并由单一进度或 activeIndex 驱动相关标题、序号、
+   封面和装饰对象。
+9. 页面隐藏、非活动条目或 reduced-motion 时必须暂停旋转；恢复时只恢复活动对象。
+10. 禁止永久 loop、无意义 requestAnimationFrame 和第二动画引擎。
 
 ## 安全边界
 
@@ -33,5 +39,4 @@ description: 按仓库实际 Anime.js 版本在 React 中实现有作用域、�
 ## 输出
 
 - 报告版本、官方 API 来源、作用域、清理路径和 reduced-motion 行为。
-- 测试必须验证清理、静态可见回退和没有永久 RAF/loop。
-
+- 测试必须验证清理、静态可见回退、滚动反向、单 RAF 停止、隐藏页签和没有永久 loop。

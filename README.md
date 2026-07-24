@@ -2,6 +2,10 @@
 
 面向中文用户的静态专辑发现网站。它把真实网易云专辑目录、本站策展分类、可解释推荐、艺人路径和只保存在浏览器中的个人专辑状态连成一条无需账号的使用路径。
 
+当前 V1.1 候选采用蓝黑宋体编辑档案系统：首页以原生滚动逐步揭示真实封面，
+桌面使用按需指针深度和三章重点专辑 Deck；发现、搜索、艺人、详情与专题使用各自
+克制的页面原型。当前状态为 `READY_FOR_HUMAN_REVIEW`，不表示用户已经验收。
+
 ## 当前能力
 
 - 319 张以网易云 albumId 固定身份的真实专辑和 274 位艺人；
@@ -24,6 +28,7 @@ pnpm lint
 pnpm typecheck
 pnpm test
 pnpm build
+pnpm test:static-links
 pnpm catalog:benchmark -- --count 10000
 pnpm release:prepare
 ```
