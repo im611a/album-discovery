@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { SITE_NAME } from "@/lib/site";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
+import { RouteMotion } from "@/components/editorial/route-motion";
 
 import "./globals.css";
 
@@ -19,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body><PersonalStateProvider>{children}</PersonalStateProvider></body>
+      <body><RouteMotion /><PersonalStateProvider>{children}</PersonalStateProvider></body>
     </html>
   );
 }
