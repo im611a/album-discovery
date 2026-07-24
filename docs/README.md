@@ -18,5 +18,13 @@
 - [CATALOG_SCALABILITY_AUDIT.md](./CATALOG_SCALABILITY_AUDIT.md)：319、1k、10k、50k 规模测量与静态架构限制。
 - [RELEASE_PIPELINE.md](./RELEASE_PIPELINE.md)：单命令发布、失败保护、manifest 与本地验收。
 - [TOPIC_HUBS_SCALABILITY_RELEASE_AUDIT.md](./TOPIC_HUBS_SCALABILITY_RELEASE_AUDIT.md)：本次专题与规模化交付证据。
+- [V1_1_REPOSITORY_FACTS.md](./V1_1_REPOSITORY_FACTS.md)：V1.1 开始前的真实仓库、依赖与发布事实。
+- [V1_1_IMPLEMENTATION_CONTRACT.md](./V1_1_IMPLEMENTATION_CONTRACT.md)：V1.1 锁定边界、阶段门和验收契约。
+- [V1_1_DESIGN_DECISIONS.md](./V1_1_DESIGN_DECISIONS.md)：编辑画廊视觉的 LOCKED、DERIVED、OPTIONAL 与 REJECTED 决策。
+- [V1_1_VISUAL_REFERENCE_AUDIT.md](./V1_1_VISUAL_REFERENCE_AUDIT.md)：公开参考页面的合规只读观察。
+- [V1_1_INTERNAL_VISUAL_GATE.md](./V1_1_INTERNAL_VISUAL_GATE.md)：代表页面和六个视口的内部视觉门证据。
+- [V1_1_VISUAL_DIRECTION.md](./V1_1_VISUAL_DIRECTION.md)：V1.1 视觉方向、版式和动效使用规则。
+- [V1_1_VISUAL_REDESIGN_AUDIT.md](./V1_1_VISUAL_REDESIGN_AUDIT.md)：最终质量、浏览器、性能和交付审计。
+- [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)：本版本实际依赖与候选 UI 项目的许可边界。
 
 阶段计划、实验报告和旧产品决策均为历史记录，统一放在 [archive](./archive/README.md)，不再代表当前产品行为。网易云 0.15A/0.15B 原始实验仍保存在 `experiments/netease-catalog-spike/`，现行产品结论以本目录中的产品、数据来源和架构文档为准。

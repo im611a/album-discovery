@@ -15,6 +15,9 @@ node_modules/
 coverage/
 .nyc_output/
 *.lcov
+test-results/
+playwright-report/
+.local-data/playwright-results/
 
 # next.js
 .next/

@@ -9,7 +9,10 @@ describe("SiteHeader accessibility", () => {
     render(<SiteHeader />);
     expect(screen.getByRole("link", { name: "跳到主要内容" })).toHaveAttribute("href", "#main-content");
     expect(screen.getByRole("navigation", { name: "主导航" })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "发现" })).toHaveAttribute("aria-current", "page");
+    expect(screen.getByRole("link", { name: "目录" })).toHaveAttribute("aria-current", "page");
+    expect(screen.getByText("发现")).toBeInTheDocument();
+    expect(screen.getByText("个人")).toBeInTheDocument();
+    expect(screen.getByText("档案")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "设置" })).toHaveAttribute("href", "/settings");
     expect(screen.getByRole("button", { name: "打开菜单" })).toHaveAttribute("aria-expanded", "false");
   });

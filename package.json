@@ -10,6 +10,10 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:e2e": "node scripts/run-playwright.mjs tests/e2e/product.spec.ts --project=chromium",
+    "test:e2e:all": "node scripts/run-playwright.mjs tests/e2e/product.spec.ts",
+    "test:visual": "node scripts/run-playwright.mjs tests/e2e/visual-regression.spec.ts --project=chromium",
+    "test:visual:update": "node scripts/run-playwright.mjs tests/e2e/visual-regression.spec.ts --project=chromium --update-snapshots",
     "catalog:refresh": "node scripts/catalog/refresh-catalog.mjs",
     "catalog:sync": "node scripts/catalog/sync-catalog.mjs",
     "catalog:publish": "node scripts/catalog/publish-catalog.mjs",
@@ -32,6 +36,7 @@
     "quality": "pnpm catalog:validate && pnpm lint && pnpm typecheck && pnpm test && pnpm build"
   },
   "dependencies": {
+    "animejs": "4.5.0",
     "clsx": "^2.1.1",
     "next": "16.2.10",
     "react": "19.2.4",
@@ -39,6 +44,7 @@
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
+    "@playwright/test": "1.61.1",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",

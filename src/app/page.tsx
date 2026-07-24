@@ -1,25 +1,50 @@
 import Link from "next/link";
-import { AlbumGrid } from "@/components/album-grid";
-import { HomeRecommendations } from "@/components/home/home-recommendations";
-import { RandomDiscovery } from "@/components/home/random-discovery";
+import { EditorialAlbumObject } from "@/components/editorial/editorial-album-object";
+import { EditorialMotion } from "@/components/editorial/editorial-motion";
+import {
+  ArtistFeature,
+  DecadeTimeline,
+  FeaturedAlbumSequence,
+  GenreIndex,
+  ListeningScenes,
+  PersonalDiscovery,
+  RecentCollection,
+} from "@/components/editorial/editorial-home-sections";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { TasteSetup } from "@/components/taste/taste-setup";
-import { catalogAlbums, catalogRefreshDate, getTaxonomyLabel } from "@/catalog/published-catalog";
-import { buildDiscoverOptions, getRecentlyAdded } from "@/catalog/queries";
-
-const genreLinks = buildDiscoverOptions().coreGenres.slice(0, 8);
+import { catalogAlbums } from "@/catalog/published-catalog";
+import {
+  FEATURED_ALBUM_SLUGS,
+  resolveConfiguredAlbums,
+  resolveEditorialAlbums,
+} from "@/config/editorial-home";
 
 export default function Home() {
+  const editorialAlbums = resolveEditorialAlbums(catalogAlbums);
+  const featuredAlbums = resolveConfiguredAlbums(catalogAlbums, FEATURED_ALBUM_SLUGS);
   return <div className="site-shell"><SiteHeader /><main id="main-content">
-    <section className="hero page-container"><p className="eyebrow">完整专辑，不是无限滑动</p><h1>找到下一张值得从头听到尾的专辑。</h1><p className="hero__lead">从中文音乐出发，用不到一分钟表达口味，获得有具体理由的专辑推荐；想听、喜欢、收藏和听过记录只留在本机。</p><div className="hero__actions"><Link className="button button--primary" href="/for-you">开始推荐</Link><Link className="button button--secondary" href="/discover">浏览 {catalogAlbums.length} 张专辑</Link></div><dl className="hero__facts"><div><dt>{catalogAlbums.length}</dt><dd>张网易云目录专辑</dd></div><div><dt>{catalogAlbums.filter((album) => album.editorial).length}</dt><dd>份中文导览</dd></div><div><dt>0</dt><dd>个必需账号</dd></div></dl></section>
-    <div className="page-container home-flow"><TasteSetup embedded />
-      <section className="catalog-section"><header className="section-heading"><div><p className="section-kicker">本机计算 · 可解释</p><h2>为你推荐</h2><p>只根据你主动选择和保存的状态计算，不使用未经核验的平台统计。</p></div><Link href="/for-you">查看全部</Link></header><HomeRecommendations /></section>
-      <section className="catalog-section"><header className="section-heading"><div><p className="section-kicker">静态目录 · {catalogRefreshDate}</p><h2>最近收录</h2><p>表示加入本站快照的时间，不冒充实时发行榜。</p></div><Link href="/new-releases">查看全部</Link></header><AlbumGrid albums={getRecentlyAdded(6)} headingLevel={3} /></section>
-      <section className="context-section"><header className="section-heading"><div><p className="section-kicker">稳定分类入口</p><h2>按核心流派发现</h2></div><Link href="/genres">全部专题</Link></header><div className="context-links">{genreLinks.map((genre) => <Link key={genre} href={`/genres/core/${genre}`}>{getTaxonomyLabel(genre)}<span aria-hidden="true">→</span></Link>)}</div></section>
-      <section className="exploration-promo"><div><p className="section-kicker">换一种浏览方式</p><h2>沿着专辑之间的真实联系继续走。</h2><p>按流派、年代、聆听场景或艺人接力探索，也可以分享一个稳定随机种子。</p></div><div className="exploration-promo__links"><Link href="/explore?mode=genre">流派漫游</Link><Link href="/explore?mode=decade">年代穿梭</Link><Link href="/explore?mode=scene">聆听场景</Link><Link href="/explore?mode=random&seed=12345">随机一张</Link></div></section>
-      <section className="catalog-section"><header className="section-heading"><div><p className="section-kicker">不依赖外部请求</p><h2>随机发现</h2><p>从当前本地目录中换一个起点。</p></div></header><RandomDiscovery /></section>
-      <section className="product-note"><p className="section-kicker">我们做什么</p><h2>把选择解释清楚，再把聆听交给网易云音乐。</h2><p>专辑目录来自构建前生成的网易云本地快照；未匹配 RYM 的专辑只保留人工确认的核心流派，相关流派与社区评分仅发布可靠离线 RYM 匹配值。浏览过程不实时请求音乐平台，也不展示未经核验的平台统计。</p><p><Link href="/artists">浏览艺人目录 →</Link>　<Link href="/explore">进入探索路径 →</Link></p></section>
-    </div>
+    <EditorialMotion className="editorial-home">
+      <section className="editorial-canvas" aria-labelledby="editorial-home-title">
+        <div className="editorial-canvas__masthead" data-motion-opening>
+          <p>Album Discovery Archive</p>
+          <h1 id="editorial-home-title">专辑发现</h1>
+          <p>从真实专辑、流派与聆听线索出发，找到下一张值得完整听完的作品。</p>
+          <div><Link href="/discover">浏览 {catalogAlbums.length} 张专辑 →</Link><Link href="/for-you">查看本机推荐 →</Link></div>
+        </div>
+        <div className="editorial-canvas__grid">
+          {editorialAlbums.map(({ album, slot }) => <EditorialAlbumObject key={slot.slot} album={album} slot={slot} opening />)}
+        </div>
+        <p className="editorial-canvas__scroll" aria-hidden="true">向下浏览 / Scroll</p>
+      </section>
+      <div className="editorial-home__flow page-container">
+        <FeaturedAlbumSequence albums={featuredAlbums} />
+        <ArtistFeature />
+        <GenreIndex />
+        <DecadeTimeline />
+        <ListeningScenes />
+        <PersonalDiscovery />
+        <RecentCollection />
+      </div>
+    </EditorialMotion>
   </main><SiteFooter /></div>;
 }

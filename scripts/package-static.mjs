@@ -33,6 +33,9 @@ const releaseManifest = {
   catalogIndexVersion: indexManifest.version,
   catalogIndexContentSha256: indexManifest.shards[0]?.sha256 ?? null,
   staticPageCount: countIndexPages(out),
+  visualDesignVersion: "1.1",
+  designSystem: "editorial-songti",
+  animationEngine: "animejs",
 };
 writeFileSync(path.join(out, "release-manifest.json"), `${JSON.stringify(releaseManifest, null, 2)}\n`, "utf8");
 rmSync(output, { force: true });

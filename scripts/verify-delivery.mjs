@@ -37,6 +37,7 @@ if (!siteEntries.includes("explore/index.html")) throw new Error("Static archive
 for (const required of ["genres/index.html", "scenes/index.html", "decades/index.html"]) {
   if (!siteEntries.includes(required)) throw new Error(`Static archive does not include ${required}.`);
 }
+if (!siteEntries.includes("about/index.html")) throw new Error("Static archive does not include /about/.");
 if (siteEntries.some((entry) => forbidden.test(entry))) throw new Error("Static archive contains a forbidden path.");
 if (siteEntries.some((entry) => /(^|\/)(package\.json|pnpm-lock\.yaml|src|scripts|docs)(\/|$)/.test(entry))) throw new Error("Static archive contains source-only files.");
 const catalog = JSON.parse(readFileSync(path.join(root, "src", "data", "generated", "catalog.json"), "utf8"));
@@ -52,7 +53,10 @@ const commit = spawnSync("git", ["rev-parse", "--short", "HEAD"], { cwd: root, e
 if (releaseManifest.commit !== commit) throw new Error(`Static release manifest commit ${releaseManifest.commit} does not match HEAD ${commit}.`);
 if (releaseManifest.ratedAlbumCount !== catalog.albums.filter((album) => album.rymRating != null).length ||
     releaseManifest.relatedGenreAlbumCount !== catalog.albums.filter((album) => album.relatedGenres.length > 0).length ||
-    releaseManifest.explorationVersion !== 1) {
+    releaseManifest.explorationVersion !== 1 ||
+    releaseManifest.visualDesignVersion !== "1.1" ||
+    releaseManifest.designSystem !== "editorial-songti" ||
+    releaseManifest.animationEngine !== "animejs") {
   throw new Error("Static release manifest does not match the enriched catalog.");
 }
 

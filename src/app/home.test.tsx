@@ -6,15 +6,16 @@ import Home from "./page";
 vi.mock("next/navigation", () => ({ usePathname: () => "/", useRouter: () => ({ push: vi.fn() }) }));
 
 describe("home product promise", () => {
-  it("explains the core action and renders six real guided albums without unsupported promises", () => {
-    render(<PersonalStateProvider><Home /></PersonalStateProvider>);
-    expect(screen.getByRole("heading", { level: 1, name: /下一张值得/ })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "开始推荐" })).toHaveAttribute("href", "/for-you");
-    expect(screen.getAllByRole("link", { name: /专辑导览/ })).toHaveLength(7);
-    expect(screen.getByRole("heading", { level: 2, name: "为你推荐" })).toBeInTheDocument();
+  it("explains the core action and renders the evidence-driven editorial sequence", () => {
+    const { container } = render(<PersonalStateProvider><Home /></PersonalStateProvider>);
+    expect(screen.getByRole("heading", { level: 1, name: "专辑发现" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "查看本机推荐 →" })).toHaveAttribute("href", "/for-you");
+    expect(container.querySelectorAll(".editorial-canvas .editorial-album-object")).toHaveLength(9);
+    expect(screen.getByRole("heading", { level: 2, name: /三张专辑/ })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 2, name: /一位创作者/ })).toBeInTheDocument();
     expect(screen.getByRole("heading", { level: 2, name: "最近收录" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { level: 2, name: "按核心流派发现" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { level: 2, name: "随机发现" })).toBeInTheDocument();
-    expect(document.body.textContent).not.toMatch(/热度|RYM 评分|别名搜索|coming soon/i);
+    expect(screen.getByRole("heading", { level: 2, name: /十五条进入目录/ })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 3, name: /没有预设的起点/ })).toBeInTheDocument();
+    expect(document.body.textContent).not.toMatch(/热度|别名搜索|coming soon/i);
   });
 });

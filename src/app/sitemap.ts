@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 
 const base = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = ["", "/discover", "/explore", "/genres", "/scenes", "/decades", "/for-you", "/new-releases", "/artists", "/library", "/search", "/settings"];
+  const routes = ["", "/discover", "/explore", "/genres", "/scenes", "/decades", "/for-you", "/new-releases", "/artists", "/library", "/search", "/settings", "/about"];
   const topicRoutes = [
     ...getTopicSummaries("core").map((topic) => `/genres/core/${topic.slug}`),
     ...getTopicSummaries("related").map((topic) => `/genres/related/${topic.slug}`),

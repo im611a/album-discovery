@@ -36,6 +36,12 @@
 - `src/features/personal-state/**`：版本化本机状态、迁移、目录 ID 对账和损坏恢复；
 - `src/components/**`：只消费发布模型，不了解上游响应；
 - `src/app/**`：静态路由、页面结构和元数据。
+- `src/config/editorial-home.ts`：只保存首页版位和目录 slug，不复制专辑数据；
+- `src/components/editorial/**`：复用封面、专辑状态和发布模型的编辑型展示；
+- `tests/e2e/**`：对静态 `out` 执行 Playwright 功能与本站视觉基准，不访问音乐 Provider。
+
+运行时动画只有 Anime.js 4.5.0。动画作用域位于首页客户端边界，业务查询、推荐、
+筛选和发布数据仍是纯本地模块；禁用或加载失败时不影响内容可见性。
 
 ## 同步安全
 

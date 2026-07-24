@@ -59,7 +59,7 @@ async function verifyStaticHttp() {
       }
     }
     if (!ready) throw new Error("Static HTTP server did not become ready.");
-    for (const route of ["/", "/discover/", "/explore/", "/genres/", "/genres/core/pop/", "/scenes/night/", "/decades/2000s/", "/albums/ok-computer/"]) {
+    for (const route of ["/", "/discover/", "/explore/", "/genres/", "/genres/core/pop/", "/scenes/night/", "/decades/2000s/", "/about/", "/albums/ok-computer/"]) {
       const response = await fetch(`http://127.0.0.1:${port}${route}`);
       if (!response.ok) throw new Error(`Static HTTP verification failed for ${route}: ${response.status}`);
     }
