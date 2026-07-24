@@ -12,21 +12,31 @@ import { RELEASE_TYPE_LABELS, type PublishedAlbumSummary } from "@/catalog/schem
 import { FEATURED_ARTIST_SLUGS } from "@/config/editorial-home";
 
 export function FeaturedAlbumSequence({ albums }: { albums: PublishedAlbumSummary[] }) {
-  return <section className="editorial-sequence" aria-labelledby="featured-sequence-title" data-motion-reveal>
-    <header className="editorial-section-heading">
+  return <section className="featured-deck" aria-labelledby="featured-sequence-title" data-motion-deck>
+    <header className="editorial-section-heading featured-deck__heading">
       <p>/01–03</p>
       <div><p className="section-kicker">重点专辑</p><h2 id="featured-sequence-title">三张专辑，三种完整聆听的入口。</h2></div>
     </header>
-    <div className="editorial-sequence__list">
-      {albums.map((album, index) => <article className="featured-album" key={album.id}>
-        <p className="featured-album__number">/{String(index + 1).padStart(2, "0")}</p>
-        <Link className="featured-album__cover" href={`/albums/${album.slug}`}><AlbumCover album={album} /></Link>
-        <div className="featured-album__copy">
+    <div className="featured-deck__stage">
+      <div className="featured-deck__ledger" aria-hidden="true">
+        {albums.map((_, index) => <span key={index}>/{String(index + 1).padStart(2, "0")}</span>)}
+      </div>
+      {albums.map((album, index) => <article className="featured-deck__item" key={album.id} data-motion-deck-item data-active={index === 0 ? "true" : "false"}>
+        <p className="featured-deck__number">/{String(index + 1).padStart(2, "0")}</p>
+        <Link className="featured-deck__cover" href={`/albums/${album.slug}`} aria-label={`查看《${album.title}》`}>
+          <AlbumCover album={album} />
+        </Link>
+        <div className="featured-deck__vinyl" aria-hidden="true">
+          <AlbumCover album={album} />
+          <span />
+        </div>
+        <div className="featured-deck__copy">
+          <p className="section-kicker">完整聆听 / {String(index + 1).padStart(2, "0")}</p>
           <h3><Link href={`/albums/${album.slug}`}>{album.title}</Link></h3>
           <p>{album.artists.map((artist) => artist.name).join("、")}</p>
           <p>{album.releaseYear ?? "发行日期暂缺"} · {RELEASE_TYPE_LABELS[album.albumType]}</p>
           <div>{album.coreGenres.map((genre) => <Link key={genre} href={`/genres/core/${genre}`}>{getTaxonomyLabel(genre)}</Link>)}</div>
-          {album.rymRating != null ? <p>RYM {album.rymRating.toFixed(2)}</p> : null}
+          {album.rymRating != null ? <p>RYM 社区评分 {album.rymRating.toFixed(2)}</p> : null}
         </div>
       </article>)}
     </div>
@@ -89,7 +99,7 @@ export function ListeningScenes() {
   const counts = new Map(getTopicSummaries("scene").map((topic) => [topic.key, topic.count]));
   return <section className="listening-scenes-section" aria-labelledby="scene-title" data-motion-reveal>
     <header className="editorial-section-heading"><p>/07</p><div><p className="section-kicker">本站策展</p><h2 id="scene-title">从此刻的聆听需要出发。</h2></div></header>
-    <div className="scene-editorial-grid">{LISTENING_SCENES.map(([key]) => <Link href={`/scenes/${key}`} key={key}><span>{getListeningSceneLabel(key)}</span><small>{counts.get(key) ?? 0} 张</small></Link>)}</div>
+    <div className="scene-editorial-grid">{LISTENING_SCENES.filter(([key]) => (counts.get(key) ?? 0) > 0).map(([key]) => <Link href={`/scenes/${key}`} key={key}><span>{getListeningSceneLabel(key)}</span><small>{counts.get(key)} 张</small></Link>)}</div>
   </section>;
 }
 
@@ -109,4 +119,3 @@ export function RecentCollection() {
     <div className="compact-album-list">{albums.map((album, index) => <CompactAlbumRow key={album.id} album={album} index={index} />)}</div>
   </section>;
 }
-

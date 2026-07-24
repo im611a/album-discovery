@@ -22,19 +22,35 @@ import {
 export default function Home() {
   const editorialAlbums = resolveEditorialAlbums(catalogAlbums);
   const featuredAlbums = resolveConfiguredAlbums(catalogAlbums, FEATURED_ALBUM_SLUGS);
+  const years = catalogAlbums.flatMap((album) => album.releaseYear == null ? [] : [album.releaseYear]);
+  const yearRange = years.length ? `${Math.min(...years)}—${Math.max(...years)}` : "发行年份持续整理";
   return <div className="site-shell"><SiteHeader /><main id="main-content">
     <EditorialMotion className="editorial-home">
-      <section className="editorial-canvas" aria-labelledby="editorial-home-title">
-        <div className="editorial-canvas__masthead" data-motion-opening>
-          <p>Album Discovery Archive</p>
-          <h1 id="editorial-home-title">专辑发现</h1>
-          <p>从真实专辑、流派与聆听线索出发，找到下一张值得完整听完的作品。</p>
-          <div><Link href="/discover">浏览 {catalogAlbums.length} 张专辑 →</Link><Link href="/for-you">查看本机推荐 →</Link></div>
+      <section className="home-gallery" aria-labelledby="editorial-home-title" data-motion-gallery>
+        <div className="home-gallery__stage">
+          <div className="home-gallery__clip">
+            <div className="home-gallery__masthead" data-motion-opening-copy>
+              <p>Album Discovery Archive</p>
+              <h1 id="editorial-home-title">专辑发现</h1>
+              <p>从真实专辑、流派与聆听线索出发。</p>
+            </div>
+            <div className="home-gallery__mark" aria-hidden="true">
+              <span />
+              <span />
+              <span />
+              <span />
+            </div>
+            <div className="home-gallery__grid">
+              {editorialAlbums.map(({ album, slot }) => <EditorialAlbumObject key={slot.slot} album={album} slot={slot} opening />)}
+            </div>
+            <div className="home-gallery__ledger" data-motion-opening-copy>
+              <p>{catalogAlbums.length} 张真实专辑</p>
+              <p>{yearRange}</p>
+              <Link href="/discover">进入目录 ↗</Link>
+            </div>
+            <p className="home-gallery__scroll" aria-hidden="true">Scroll / 向下浏览</p>
+          </div>
         </div>
-        <div className="editorial-canvas__grid">
-          {editorialAlbums.map(({ album, slot }) => <EditorialAlbumObject key={slot.slot} album={album} slot={slot} opening />)}
-        </div>
-        <p className="editorial-canvas__scroll" aria-hidden="true">向下浏览 / Scroll</p>
       </section>
       <div className="editorial-home__flow page-container">
         <FeaturedAlbumSequence albums={featuredAlbums} />

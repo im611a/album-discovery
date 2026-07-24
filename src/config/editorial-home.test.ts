@@ -12,6 +12,9 @@ describe("editorial home configuration", () => {
     expect(EDITORIAL_ALBUM_SLOTS.every((slot) => slot.gridColumn.includes("span"))).toBe(true);
     expect(EDITORIAL_ALBUM_SLOTS.every((slot) => slot.gridRow.includes("span"))).toBe(true);
     expect(new Set(EDITORIAL_ALBUM_SLOTS.map((slot) => slot.slot)).size).toBe(9);
+    expect(EDITORIAL_ALBUM_SLOTS.every((slot) => slot.pointerStrength > 0 && slot.depth > 0)).toBe(true);
+    expect(EDITORIAL_ALBUM_SLOTS.every((slot) => slot.allowOverlap === false)).toBe(true);
+    expect(new Set(EDITORIAL_ALBUM_SLOTS.map((slot) => slot.chapter))).toEqual(new Set(["cool", "warm"]));
   });
 
   it("resolves configured albums to real unique catalog entries", () => {
