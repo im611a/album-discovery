@@ -8,7 +8,7 @@
 | B：代表页面和内部视觉门 | VERIFIED |
 | C：全站扩展 | VERIFIED |
 | D：浏览器、可访问性与性能回归 | VERIFIED |
-| E：静态交付与最终审计 | NOT_STARTED |
+| E：静态交付与最终审计 | VERIFIED |
 
 只使用 `NOT_STARTED`、`IN_PROGRESS`、`VERIFIED`、`BLOCKED`。
 
