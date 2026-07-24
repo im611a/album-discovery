@@ -177,12 +177,16 @@
   "coreGenres": [
     "art-pop"
   ],
-  "relatedGenres": [],
+  "relatedGenres": [
+    "synthpop",
+    "baroque-pop"
+  ],
   "descriptors": [],
   "searchText": "Hounds Of Love Kate Bush",
-  "rymRating": null,
-  "rymRatingCount": null,
-  "rymReference": null,
-  "rymObservedAt": null,
-  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+  "rymRating": 4.15,
+  "rymRatingCount": 24370,
+  "rymReference": "kaggle:tobennao/rym-top-5000:row:103",
+  "rymObservedAt": "2026-07-24T07:12:45.520Z",
+  "rymMatchStatus": "MATCHED_EXACT",
+  "rymInputSourceId": "kaggle:tobennao/rym-top-5000"
 }

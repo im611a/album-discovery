@@ -54,6 +54,7 @@ artifacts/
 *.tokens
 *.token.json
 local-data/
+.local-data/
 .tmp/
 tmp/
 .temp/

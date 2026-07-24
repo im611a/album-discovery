@@ -1,86 +1,190 @@
 import { createHash } from "node:crypto";
+import { createReadStream } from "node:fs";
 import { readFile } from "node:fs/promises";
-import { resolveRymTaxonomy, validateRymTaxonomySnapshot } from "./rym-taxonomy.mjs";
+import { normalizeRymInputRow, readRymInputRows } from "./rym-input.mjs";
+import { isMatchedRymStatus, matchAlbumToRym, normalizeIdentityText, stableGenreKey } from "./rym-matcher.mjs";
 
 export const RYM_MATCH_STATUSES = new Set([
-  "MATCHED",
+  "MATCHED_EXACT",
+  "MATCHED_ALIAS",
+  "MATCHED_STRONG",
   "NOT_FOUND",
   "AMBIGUOUS",
   "REJECTED",
   "UNVERIFIED_NO_DATA",
 ]);
-const RYM_IMPORTABLE_FIELDS = new Set([
-  "rymRating",
-  "rymRatingCount",
-  "rymReference",
-  "rymObservedAt",
-  "primaryGenres",
-  "secondaryGenres",
-]);
 
-export function validateRymDatasetEnvelope(input) {
+const terms = (values) => [...new Set(values)].map((labelEn) => ({
+  key: stableGenreKey(labelEn),
+  labelZh: null,
+  labelEn,
+})).filter((term) => term.key && term.labelEn);
+
+export async function sha256File(file) {
+  const hash = createHash("sha256");
+  for await (const chunk of createReadStream(file)) hash.update(chunk);
+  return hash.digest("hex");
+}
+
+export async function collectRelevantRymRows(file, catalog, inputSourceId, onProgress = () => {}) {
+  const titleKeys = new Set(catalog.albums.flatMap((album) => [album.title, ...album.aliases]).map(normalizeIdentityText));
+  const rows = [];
+  let read = 0;
+  let rejectedInputRows = 0;
+  for await (const raw of readRymInputRows(file)) {
+    read += 1;
+    const row = normalizeRymInputRow(raw, read, inputSourceId);
+    if (!row.title || !row.artist || !row.releaseYear) {
+      rejectedInputRows += 1;
+    } else if (titleKeys.has(normalizeIdentityText(row.title))) {
+      rows.push(row);
+    }
+    if (read % 10_000 === 0) onProgress({ read, relevant: rows.length, rejectedInputRows });
+  }
+  return { read, rows, rejectedInputRows };
+}
+
+function validateMatchedCandidate(candidate) {
   const errors = [];
-  if (input?.version !== 2) errors.push("RYM enrichment input version must be 2.");
-  if (!input?.dataset || typeof input.dataset !== "object") errors.push("dataset metadata is required.");
-  for (const key of ["name", "source", "acquiredAt", "licenseBasis"]) {
-    if (typeof input?.dataset?.[key] !== "string" || !input.dataset[key].trim()) errors.push(`dataset.${key} is required.`);
+  if (candidate.rating != null && (!Number.isFinite(candidate.rating) || candidate.rating <= 0 || candidate.rating > 5)) {
+    errors.push("invalid_rating");
   }
-  if (!Array.isArray(input?.dataset?.importedFields) || !input.dataset.importedFields.length) errors.push("dataset.importedFields is required.");
-  else for (const field of input.dataset.importedFields) {
-    if (!RYM_IMPORTABLE_FIELDS.has(field)) errors.push(`dataset.importedFields contains unsupported field ${field}.`);
+  if (candidate.ratingCount != null && (!Number.isInteger(candidate.ratingCount) || candidate.ratingCount < 0)) {
+    errors.push("invalid_rating_count");
   }
-  if (!Array.isArray(input?.records)) errors.push("records must be an array.");
-  for (const [index, record] of (input?.records ?? []).entries()) {
-    if (!RYM_MATCH_STATUSES.has(record?.matchStatus)) errors.push(`records[${index}].matchStatus is invalid.`);
-    if (Array.isArray(record?.descriptors) && record.descriptors.length) errors.push(`records[${index}].descriptors is unsupported in the current product contract.`);
-    if (record?.matchStatus !== "MATCHED" && ["rymRating", "rymRatingCount", "rymObservedAt", "sourceReference", "primaryGenres", "secondaryGenres", "descriptors"].some((key) => {
-      const value = record?.[key];
-      return value != null && (!Array.isArray(value) || value.length > 0);
-    })) errors.push(`records[${index}] cannot publish RYM fields unless matchStatus is MATCHED.`);
-  }
+  if (candidate.rating == null && candidate.ratingCount != null) errors.push("rating_count_without_rating");
   return errors;
 }
 
-export function enrichCatalogWithRym(catalog, input, importedAt = new Date().toISOString()) {
-  const envelopeErrors = validateRymDatasetEnvelope(input);
-  if (envelopeErrors.length) return { ok: false, errors: envelopeErrors };
-  const matchedRecords = input.records.filter((record) => record.matchStatus === "MATCHED");
-  const snapshot = {
-    version: 2,
-    sourceDescription: `${input.dataset.name}: ${input.dataset.source}`,
-    importedAt: matchedRecords.length ? importedAt : null,
-    records: matchedRecords,
-  };
-  const snapshotErrors = validateRymTaxonomySnapshot(snapshot);
-  if (snapshotErrors.length) return { ok: false, errors: snapshotErrors };
-  const statuses = new Map(input.records.map((record) => [String(record.neteaseAlbumId ?? ""), record.matchStatus]));
-  let matched = 0;
-  const albums = catalog.albums.map((album) => {
-    const resolved = resolveRymTaxonomy(album, album.coreGenres, snapshot.records);
-    if (resolved.rym.rymMatchStatus === "MATCHED") matched += 1;
-    const explicitStatus = statuses.get(album.neteaseAlbumId);
-    const rym = resolved.rym.rymMatchStatus === "MATCHED"
-      ? resolved.rym
-      : {
-          ...resolved.rym,
-          rymMatchStatus: explicitStatus && explicitStatus !== "MATCHED" && RYM_MATCH_STATUSES.has(explicitStatus)
-            ? explicitStatus
-            : "UNVERIFIED_NO_DATA",
-        };
-    return { ...album, ...resolved.taxonomy, ...rym };
+export function buildRymEnrichment(catalog, relevantRows, {
+  inputSourceId,
+  inputSha256,
+  observedAt,
+  limit = null,
+} = {}) {
+  const albums = limit == null ? catalog.albums : catalog.albums.slice(0, limit);
+  const titleIndex = new Map();
+  for (const row of relevantRows) {
+    const key = normalizeIdentityText(row.title);
+    titleIndex.set(key, [...(titleIndex.get(key) ?? []), row]);
+  }
+  const results = [];
+  const matchedRecords = [];
+  const relatedTerms = new Map();
+  for (const album of albums) {
+    const titleKeys = [...new Set([album.title, ...album.aliases].map(normalizeIdentityText))];
+    const candidates = titleKeys.flatMap((key) => titleIndex.get(key) ?? []);
+    const match = matchAlbumToRym(album, candidates);
+    let status = match.status;
+    let reason = match.reason;
+    let candidate = match.candidate ?? null;
+    let validationErrors = [];
+    if (isMatchedRymStatus(status)) {
+      validationErrors = validateMatchedCandidate(candidate);
+      if (validationErrors.length) {
+        status = "REJECTED";
+        reason = validationErrors.join(",");
+        candidate = null;
+      }
+    }
+    const record = {
+      neteaseAlbumId: album.neteaseAlbumId,
+      slug: album.slug,
+      status,
+      reason,
+      inputRow: candidate?.rowNumber ?? null,
+      sourceReference: candidate?.reference ?? null,
+    };
+    results.push(record);
+    if (isMatchedRymStatus(status) && candidate) {
+      const secondaryGenres = terms(candidate.secondaryGenres);
+      secondaryGenres.forEach((term) => relatedTerms.set(term.key, { ...term, kind: "related" }));
+      matchedRecords.push({
+        neteaseAlbumId: album.neteaseAlbumId,
+        matchStatus: status,
+        inputSourceId,
+        sourceReference: candidate.reference,
+        titles: [candidate.title],
+        artists: [candidate.artist],
+        releaseYear: candidate.releaseYear,
+        releaseType: candidate.releaseType ?? album.albumType,
+        primaryGenres: terms(candidate.primaryGenres),
+        secondaryGenres,
+        descriptors: [],
+        rymRating: candidate.rating,
+        rymRatingCount: candidate.ratingCount,
+        rymObservedAt: observedAt,
+      });
+    }
+  }
+  const matchedById = new Map(matchedRecords.map((record) => [record.neteaseAlbumId, record]));
+  const statusById = new Map(results.map((record) => [record.neteaseAlbumId, record.status]));
+  const enrichedAlbums = catalog.albums.map((album) => {
+    const matched = matchedById.get(album.neteaseAlbumId);
+    if (!matched) {
+      return {
+        ...album,
+        relatedGenres: [],
+        descriptors: [],
+        rymRating: null,
+        rymRatingCount: null,
+        rymReference: null,
+        rymObservedAt: null,
+        rymInputSourceId: null,
+        rymMatchStatus: statusById.get(album.neteaseAlbumId) ?? "UNVERIFIED_NO_DATA",
+      };
+    }
+    return {
+      ...album,
+      relatedGenres: matched.secondaryGenres.map((term) => term.key),
+      descriptors: [],
+      rymRating: matched.rymRating,
+      rymRatingCount: matched.rymRatingCount,
+      rymReference: matched.sourceReference,
+      rymObservedAt: matched.rymObservedAt,
+      rymInputSourceId: matched.inputSourceId,
+      rymMatchStatus: matched.matchStatus,
+    };
   });
+  const existingTaxonomy = [...catalog.taxonomy];
+  const existingTaxonomyKeys = new Set(existingTaxonomy.map((item) => item.key));
+  const enrichedCatalog = {
+    ...catalog,
+    taxonomy: [...existingTaxonomy, ...[...relatedTerms.values()].filter((item) => !existingTaxonomyKeys.has(item.key))],
+    descriptorTaxonomy: [],
+    albums: enrichedAlbums,
+  };
+  const counts = Object.fromEntries([...RYM_MATCH_STATUSES].map((status) => [status, results.filter((item) => item.status === status).length]));
   return {
-    ok: true,
-    catalog: { ...catalog, albums },
-    snapshot,
+    catalog: enrichedCatalog,
+    snapshot: {
+      version: 3,
+      sourceDescription: inputSourceId,
+      inputSha256,
+      importedAt: observedAt,
+      records: matchedRecords,
+    },
+    results,
     summary: {
-      inputRecords: input.records.length,
-      matched,
-      unmatched: catalog.albums.length - matched,
+      totalAlbums: catalog.albums.length,
+      ...counts,
+      ratedAlbumCount: enrichedAlbums.filter((album) => album.rymRating != null).length,
+      ratingCountAlbumCount: enrichedAlbums.filter((album) => album.rymRatingCount != null).length,
+      relatedGenreAlbumCount: enrichedAlbums.filter((album) => album.relatedGenres.length).length,
+      relatedGenreTermCount: enrichedAlbums.reduce((total, album) => total + album.relatedGenres.length, 0),
+      uniqueRelatedGenreCount: relatedTerms.size,
+      coreGenreAdjustmentCount: 0,
+      inputSourceId,
+      inputSha256,
+      observedAt,
     },
   };
 }
 
-export async function sha256File(file) {
-  return createHash("sha256").update(await readFile(file)).digest("hex");
+export async function loadCheckpoint(file) {
+  try {
+    return JSON.parse(await readFile(file, "utf8"));
+  } catch {
+    return null;
+  }
 }

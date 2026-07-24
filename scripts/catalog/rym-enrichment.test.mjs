@@ -1,91 +1,62 @@
 import { describe, expect, it } from "vitest";
-import { enrichCatalogWithRym, validateRymDatasetEnvelope } from "./rym-enrichment.mjs";
+import { buildRymEnrichment } from "./rym-enrichment.mjs";
 
-const baseAlbum = {
-  neteaseAlbumId: "1",
-  title: "Example",
-  aliases: ["Example Alias"],
-  artists: [{ name: "Artist" }],
-  releaseDate: "2020-01-01",
-  albumType: "album",
-  coreGenres: ["pop"],
+const album = {
+  internalId: "album:1", id: "album:1", neteaseAlbumId: "1", slug: "example",
+  title: "Example", aliases: ["示例"], artists: [{ id: "artist:2", neteaseArtistId: "2", name: "Artist" }],
+  releaseDate: "2020-01-01", albumType: "album", coreGenres: ["pop"], relatedGenres: [], descriptors: [],
+  rymRating: null, rymRatingCount: null, rymReference: null, rymObservedAt: null, rymInputSourceId: null,
+  rymMatchStatus: "UNVERIFIED_NO_DATA",
 };
-const dataset = (record) => ({
-  version: 2,
-  dataset: {
-    name: "Synthetic contract fixture",
-    source: "local test fixture",
-    acquiredAt: "2026-01-01",
-    licenseBasis: "test-only synthetic data",
-    importedFields: ["rymRating", "rymRatingCount", "primaryGenres", "secondaryGenres"],
-  },
-  records: [record],
-});
-const matched = {
-  neteaseAlbumId: "1",
-  matchStatus: "MATCHED",
-  sourceReference: "offline:test:1",
-  titles: ["Example"],
-  artists: ["Artist"],
-  releaseYear: "2020",
-  releaseType: "album",
-  primaryGenres: [{ key: "art-pop", labelZh: "艺术流行", labelEn: "Art Pop" }],
-  secondaryGenres: [{ key: "dream-pop", labelZh: "梦幻流行", labelEn: "Dream Pop" }],
-  descriptors: [],
-  rymRating: 3.82,
-  rymRatingCount: 1842,
-  rymObservedAt: "2026-01-01T00:00:00.000Z",
+const catalog = {
+  taxonomy: [{ key: "pop", labelZh: "流行", labelEn: "Pop", kind: "core" }],
+  descriptorTaxonomy: [],
+  albums: [album],
 };
+const row = {
+  rowNumber: 1, title: "Example", artist: "Artist", releaseYear: "2020", releaseType: "album",
+  rating: 3.82, ratingCount: 1842, primaryGenres: ["Pop"], secondaryGenres: ["Dream Pop"],
+  descriptors: ["lush"], reference: "offline:row:1",
+};
+const options = { inputSourceId: "fixture", inputSha256: "abc", observedAt: "2026-01-01T00:00:00.000Z" };
 
-describe("optional offline RYM enrichment", () => {
-  it("imports a reliable matched rating and independent taxonomy fields", () => {
-    const result = enrichCatalogWithRym({ albums: [baseAlbum] }, dataset(matched), "2026-01-02T00:00:00.000Z");
-    expect(result.ok).toBe(true);
-    expect(result.catalog.albums[0]).toMatchObject({ rymRating: 3.82, rymRatingCount: 1842, coreGenres: ["art-pop"], relatedGenres: ["dream-pop"], rymMatchStatus: "MATCHED" });
-  });
-
-  it("keeps absent ratings as null while allowing verified genres", () => {
-    const result = enrichCatalogWithRym({ albums: [baseAlbum] }, dataset({ ...matched, rymRating: null, rymRatingCount: null, rymObservedAt: null }));
-    expect(result.ok).toBe(true);
-    expect(result.catalog.albums[0].rymRating).toBeNull();
-    expect(result.catalog.albums[0].relatedGenres).toEqual(["dream-pop"]);
-  });
-
-  it("rejects rating counts without a rating", () => {
-    const result = enrichCatalogWithRym({ albums: [baseAlbum] }, dataset({ ...matched, rymRating: null }));
-    expect(result.ok).toBe(false);
-    expect(result.errors.join(" ")).toContain("rymRatingCount");
-  });
-
-  it("rejects descriptor import declarations because descriptors are not a product field", () => {
-    const input = dataset(matched);
-    input.dataset.importedFields.push("descriptors");
-    expect(validateRymDatasetEnvelope(input).join(" ")).toContain("unsupported field descriptors");
-  });
-
-  it("rejects descriptor values from otherwise matched records", () => {
-    const input = dataset({ ...matched, descriptors: [{ key: "lush", labelZh: null, labelEn: "lush" }] });
-    expect(validateRymDatasetEnvelope(input).join(" ")).toContain("descriptors is unsupported");
-  });
-
-  it("rejects non-matched records that attempt to publish RYM fields", () => {
-    const input = dataset({ ...matched, matchStatus: "AMBIGUOUS" });
-    expect(validateRymDatasetEnvelope(input).join(" ")).toContain("cannot publish");
-  });
-
-  it("rejects non-matched descriptors and observation timestamps", () => {
-    const input = dataset({
-      neteaseAlbumId: "1",
-      matchStatus: "NOT_FOUND",
-      descriptors: [{ key: "lush", labelZh: null, labelEn: "lush" }],
-      rymObservedAt: "2026-01-01T00:00:00.000Z",
+describe("bulk RYM enrichment", () => {
+  it("publishes exact ratings and Secondary Genres without descriptors or core replacement", () => {
+    const result = buildRymEnrichment(catalog, [row], options);
+    expect(result.catalog.albums[0]).toMatchObject({
+      rymRating: 3.82,
+      rymRatingCount: 1842,
+      rymMatchStatus: "MATCHED_EXACT",
+      rymInputSourceId: "fixture",
+      coreGenres: ["pop"],
+      relatedGenres: ["dream-pop"],
+      descriptors: [],
     });
-    expect(validateRymDatasetEnvelope(input).join(" ")).toContain("cannot publish");
+    expect(result.summary).toMatchObject({ MATCHED_EXACT: 1, ratedAlbumCount: 1, relatedGenreAlbumCount: 1, coreGenreAdjustmentCount: 0 });
   });
 
-  it("does not match on title alone when the artist differs", () => {
-    const result = enrichCatalogWithRym({ albums: [baseAlbum] }, dataset({ ...matched, artists: ["Different Artist"] }));
-    expect(result.ok).toBe(true);
-    expect(result.catalog.albums[0]).toMatchObject({ rymRating: null, relatedGenres: [], rymMatchStatus: "UNVERIFIED_NO_DATA" });
+  it("allows related genres when rating values are absent", () => {
+    const result = buildRymEnrichment(catalog, [{ ...row, rating: null, ratingCount: null }], options);
+    expect(result.catalog.albums[0]).toMatchObject({ rymRating: null, relatedGenres: ["dream-pop"], rymMatchStatus: "MATCHED_EXACT" });
+  });
+
+  it("rejects invalid ratings and rating counts", () => {
+    for (const changed of [{ rating: 0 }, { rating: 5.1 }, { ratingCount: -1 }, { ratingCount: 1.5 }]) {
+      const result = buildRymEnrichment(catalog, [{ ...row, ...changed }], options);
+      expect(result.catalog.albums[0].rymMatchStatus).toBe("REJECTED");
+      expect(result.catalog.albums[0].rymRating).toBeNull();
+    }
+  });
+
+  it("is idempotent for the same input", () => {
+    const once = buildRymEnrichment(catalog, [row], options);
+    const twice = buildRymEnrichment(once.catalog, [row], options);
+    expect(twice.catalog).toEqual(once.catalog);
+  });
+
+  it("keeps ambiguous records empty", () => {
+    const duplicate = { ...row, rowNumber: 2, reference: "offline:row:2" };
+    const result = buildRymEnrichment(catalog, [row, duplicate], options);
+    expect(result.catalog.albums[0]).toMatchObject({ rymRating: null, relatedGenres: [], rymMatchStatus: "AMBIGUOUS" });
   });
 });

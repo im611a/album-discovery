@@ -45,7 +45,7 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
   const semanticIdentities = albums.map((album) => `${album.artists?.[0]?.neteaseArtistId ?? ""}:${normalizeName(album.title)}:${album.releaseDate?.slice(0, 4) ?? ""}`);
   for (const duplicate of duplicateValues(semanticIdentities)) errors.push(`Duplicate artist/title/year identity: ${duplicate}`);
   const coreTaxonomyKeys = new Set((catalog?.taxonomy ?? []).filter((item) => item.kind === "core").map((item) => item.key));
-  const relatedTaxonomyKeys = new Set((catalog?.taxonomy ?? []).filter((item) => item.kind === "related").map((item) => item.key));
+  const relatedTaxonomyKeys = new Set((catalog?.taxonomy ?? []).map((item) => item.key));
   const descriptorKeys = new Set((catalog?.descriptorTaxonomy ?? []).map((item) => item.key));
   for (const duplicate of duplicateValues((catalog?.taxonomy ?? []).map((item) => item.key))) errors.push(`Duplicate taxonomy key: ${duplicate}`);
   for (const duplicate of duplicateValues((catalog?.descriptorTaxonomy ?? []).map((item) => item.key))) errors.push(`Duplicate descriptor key: ${duplicate}`);
@@ -91,7 +91,8 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
     if (!Array.isArray(album?.contexts) || album.contexts.length > 3 || album.contexts.some((key) => !listeningSceneKeys.has(key))) {
       errors.push(`${prefix}: listening scenes must contain at most three reviewed stable keys.`);
     }
-    if (!["MATCHED", "NOT_FOUND", "AMBIGUOUS", "REJECTED", "UNVERIFIED_NO_DATA"].includes(album?.rymMatchStatus)) {
+    const matchedRymStatuses = ["MATCHED", "MATCHED_EXACT", "MATCHED_ALIAS", "MATCHED_STRONG"];
+    if (![...matchedRymStatuses, "NOT_FOUND", "AMBIGUOUS", "REJECTED", "UNVERIFIED_NO_DATA"].includes(album?.rymMatchStatus)) {
       errors.push(`${prefix}: invalid RYM match status.`);
     }
     if (album?.rymRating != null && (!Number.isFinite(album.rymRating) || album.rymRating <= 0 || album.rymRating > 5)) {
@@ -101,7 +102,7 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
       errors.push(`${prefix}: invalid RYM rating count.`);
     }
     if (album?.rymRating == null && album?.rymRatingCount != null) errors.push(`${prefix}: RYM rating count cannot exist without a rating.`);
-    if (album?.rymMatchStatus !== "MATCHED" && [album?.rymRating, album?.rymRatingCount, album?.rymReference, album?.rymObservedAt].some((value) => value != null)) {
+    if (!matchedRymStatuses.includes(album?.rymMatchStatus) && [album?.rymRating, album?.rymRatingCount, album?.rymReference, album?.rymObservedAt, album?.rymInputSourceId].some((value) => value != null)) {
       errors.push(`${prefix}: non-matched albums cannot publish RYM rating fields.`);
     }
     const resolved = resolveRymTaxonomy(album, album?.coreGenres ?? [], rymSnapshot?.records ?? []);
@@ -119,15 +120,17 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
       rymRatingCount: album?.rymRatingCount ?? null,
       rymReference: album?.rymReference ?? null,
       rymObservedAt: album?.rymObservedAt ?? null,
+      rymInputSourceId: album?.rymInputSourceId ?? null,
     };
     const resolvedRymValues = {
       rymRating: resolved.rym.rymRating,
       rymRatingCount: resolved.rym.rymRatingCount,
       rymReference: resolved.rym.rymReference,
       rymObservedAt: resolved.rym.rymObservedAt,
+      rymInputSourceId: resolved.rym.rymInputSourceId ?? null,
     };
     if (JSON.stringify(resolvedRymValues) !== JSON.stringify(publishedRym) ||
-      (resolved.rym.rymMatchStatus === "MATCHED" && album?.rymMatchStatus !== "MATCHED")) {
+      (matchedRymStatuses.includes(resolved.rym.rymMatchStatus) && album?.rymMatchStatus !== resolved.rym.rymMatchStatus)) {
       errors.push(`${prefix}: published RYM fields do not match the unique authorized offline record or unmatched fallback.`);
     }
     const forbiddenKeys = ["musicbrainzReleaseGroupId", "representativeReleaseId", "sourceSummary", "primaryGenres", "secondaryGenres", "externalLinks"];

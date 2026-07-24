@@ -307,6 +307,7 @@ function normalizePayload(seed, payload, fetchedAt, coverAvailable) {
     rymRatingCount: null,
     rymReference: null,
     rymObservedAt: null,
+    rymInputSourceId: null,
     rymMatchStatus: "UNVERIFIED_NO_DATA",
     editorial: null,
     searchText: [title, ...aliases, ...artists.map((artist) => artist.name)].join(" "),

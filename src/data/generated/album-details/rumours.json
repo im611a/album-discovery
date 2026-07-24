@@ -166,12 +166,16 @@
   "coreGenres": [
     "rock"
   ],
-  "relatedGenres": [],
+  "relatedGenres": [
+    "folk-pop",
+    "country-pop"
+  ],
   "descriptors": [],
   "searchText": "Rumours Fleetwood Mac",
-  "rymRating": null,
-  "rymRatingCount": null,
-  "rymReference": null,
-  "rymObservedAt": null,
-  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+  "rymRating": 4,
+  "rymRatingCount": 21715,
+  "rymReference": "kaggle:tobennao/rym-top-5000:row:137",
+  "rymObservedAt": "2026-07-24T07:12:45.520Z",
+  "rymMatchStatus": "MATCHED_EXACT",
+  "rymInputSourceId": "kaggle:tobennao/rym-top-5000"
 }

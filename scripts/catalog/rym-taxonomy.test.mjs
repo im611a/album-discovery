@@ -52,13 +52,13 @@ describe("offline RYM taxonomy resolution", () => {
     expect(resolveRymTaxonomy(collaboration, ["manual-core"], [{ ...record, artists: ["Collaborator", "Artist"] }]).audit.status).toBe("matched");
   });
 
-  it("keeps RYM source order for a unique composite match", () => {
+  it("keeps manual core genres and only publishes verified RYM secondary genres", () => {
     const result = resolveRymTaxonomy(album, ["manual-core"], [record]);
     expect(result.audit.status).toBe("matched");
     expect(result.taxonomy).toEqual({
-      coreGenres: ["art-pop", "ambient-pop"],
+      coreGenres: ["manual-core"],
       relatedGenres: ["chamber-pop"],
-      descriptors: ["lush", "melodic"],
+      descriptors: [],
     });
   });
 

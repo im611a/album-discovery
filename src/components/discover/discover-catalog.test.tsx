@@ -33,19 +33,36 @@ describe("DiscoverCatalog URL state", () => {
     renderCatalog();
     expect(screen.getByLabelText("核心流派")).toHaveValue("");
     expect(screen.getByLabelText("相关流派")).toHaveValue("");
-    expect(screen.getByLabelText("相关流派").querySelectorAll("option")).toHaveLength(1);
+    expect(screen.getByLabelText("相关流派").querySelectorAll("option").length).toBeGreaterThan(1);
     expect(screen.queryByLabelText("氛围与特征")).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "清除全部" }));
     expect(push).toHaveBeenCalledWith("/discover", { scroll: false });
   });
 
-  it("keeps optional RYM filters visible without inventing empty choices", () => {
+  it("shows only verified related genres from the published snapshot", () => {
     renderCatalog();
+    expect(screen.getByLabelText("相关流派")).toHaveDisplayValue("全部");
+    expect(screen.getByLabelText("相关流派")).toBeEnabled();
+    expect(screen.getByLabelText("相关流派").querySelectorAll("option").length).toBeGreaterThan(1);
+    expect(screen.queryByLabelText("氛围与特征")).not.toBeInTheDocument();
+    expect(screen.getByLabelText("聆听场景")).toBeInTheDocument();
+  });
+
+  it("keeps the related genre control honest when a catalog has no verified choices", () => {
+    render(<DiscoverFilterFields
+      filterOptions={{
+        coreGenres: ["pop"],
+        relatedGenres: [],
+        contexts: ["night"],
+        decades: ["2020s"],
+      }}
+      filters={{}}
+      sort="recently-added"
+      update={vi.fn()}
+    />);
     expect(screen.getByLabelText("相关流派")).toHaveDisplayValue("暂无已核验数据");
     expect(screen.getByLabelText("相关流派")).toBeDisabled();
     expect(screen.getByLabelText("相关流派").querySelectorAll("option")).toHaveLength(1);
-    expect(screen.queryByLabelText("氛围与特征")).not.toBeInTheDocument();
-    expect(screen.getByLabelText("聆听场景")).toBeInTheDocument();
   });
 
   it("renders and submits only real optional taxonomy choices when data exists", () => {

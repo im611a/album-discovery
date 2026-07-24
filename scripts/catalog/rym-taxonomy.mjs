@@ -52,7 +52,7 @@ function duplicateKeys(terms) {
 
 export function validateRymTaxonomySnapshot(snapshot) {
   const errors = [];
-  if (![1, 2].includes(snapshot?.version)) errors.push("RYM taxonomy snapshot version must be 1 or 2.");
+  if (![1, 2, 3].includes(snapshot?.version)) errors.push("RYM taxonomy snapshot version must be 1, 2 or 3.");
   if (!Array.isArray(snapshot?.records)) errors.push("RYM taxonomy snapshot records must be an array.");
   if (typeof snapshot?.sourceDescription !== "string" || !snapshot.sourceDescription.trim()) {
     errors.push("RYM taxonomy snapshot sourceDescription is required.");
@@ -102,7 +102,10 @@ export function validateRymTaxonomySnapshot(snapshot) {
 }
 
 export function resolveRymTaxonomy(album, manualCoreGenres, records) {
-  const candidates = records.filter((record) => matchesRymIdentity(album, record));
+  const candidates = records.filter((record) =>
+    record.neteaseAlbumId
+      ? String(record.neteaseAlbumId) === String(album.neteaseAlbumId)
+      : matchesRymIdentity(album, record));
   const evidence = {
     titleAndAliases: [album.title, ...album.aliases],
     artists: album.artists.map((artist) => artist.name),
@@ -137,9 +140,9 @@ export function resolveRymTaxonomy(album, manualCoreGenres, records) {
   const [record] = candidates;
   return {
     taxonomy: {
-      coreGenres: record.primaryGenres.map((term) => term.key),
+      coreGenres: [...manualCoreGenres],
       relatedGenres: record.secondaryGenres.map((term) => term.key),
-      descriptors: record.descriptors.map((term) => term.key),
+      descriptors: [],
     },
     terms: {
       primary: record.primaryGenres,
@@ -151,7 +154,8 @@ export function resolveRymTaxonomy(album, manualCoreGenres, records) {
       rymRatingCount: record.rymRating == null ? null : record.rymRatingCount ?? null,
       rymReference: record.sourceReference,
       rymObservedAt: record.rymObservedAt ?? null,
-      rymMatchStatus: "MATCHED",
+      rymInputSourceId: record.inputSourceId ?? null,
+      rymMatchStatus: record.matchStatus ?? "MATCHED",
     },
     audit: {
       albumId: album.neteaseAlbumId,

@@ -9,7 +9,14 @@ describe("production delivery boundaries", () => {
     const serialized = JSON.stringify(publishedCatalog);
     expect(catalogAlbums.length).toBeGreaterThanOrEqual(300);
     expect(serialized).not.toMatch(/rymScore|fictional rating|mock album|musicbrainzReleaseGroupId|representativeReleaseId/i);
-    expect(catalogAlbums.every((album) => album.rymRating === null && album.rymRatingCount === null)).toBe(true);
+    const ratedAlbums = catalogAlbums.filter((album) => album.rymRating !== null);
+    expect(ratedAlbums).toHaveLength(13);
+    expect(ratedAlbums.every((album) =>
+      typeof album.rymRating === "number" &&
+      album.rymRating > 0 &&
+      album.rymRating <= 5 &&
+      Number.isInteger(album.rymRatingCount),
+    )).toBe(true);
     expect(publishedCatalog.source).toMatchObject({ catalog: "netease", runtimeRequestsAllowed: false });
   });
   it("keeps track lists out of the shared browser catalog index", () => {

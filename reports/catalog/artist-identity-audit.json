@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-07-24T07:17:17.108Z",
+  "beforeArtistCount": 274,
+  "afterArtistCount": 274,
+  "automaticMergeCount": 0,
+  "duplicateArtistIdCount": 0,
+  "duplicateSlugCount": 0,
+  "conflictingArtistIdCount": 0,
+  "invalidArtistCount": 0,
+  "retainedSameNameDifferentArtistCount": 0,
+  "membershipErrorCount": 0,
+  "duplicateArtistIds": [],
+  "duplicateSlugs": [],
+  "sameNormalizedNameDifferentIds": [],
+  "invalidArtists": [],
+  "membershipErrors": [],
+  "rules": [
+    "同一网易云 artistId 只能生成一个 artist-{id} slug。",
+    "仅名称相似不会自动合并不同 artistId。",
+    "合作艺人由网易云结构化 artists 数组决定，不拆分名称字符串。",
+    "曲目客串艺人不会进入专辑主艺人索引。"
+  ]
+}

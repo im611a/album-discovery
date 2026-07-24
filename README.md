@@ -5,8 +5,8 @@
 ## 当前能力
 
 - 319 张以网易云 albumId 固定身份的真实专辑和 274 位艺人；
-- 核心流派、可选的可靠 RYM 相关流派，以及独立的本站聆听场景；
-- 首页、发现、为你推荐、最近收录、搜索、艺人、我的专辑、设置和静态详情；
+- 核心流派、13 张专辑的离线 RYM 评分增强、11 张专辑的可靠 RYM 相关流派，以及独立的本站聆听场景；
+- 首页、发现、探索路径、为你推荐、最近收录、搜索、艺人、我的专辑、设置和静态详情；
 - 确定性本机推荐，以及想听、喜欢、收藏、听过、不适合我的本地状态；
 - 轻量列表索引、逐专辑详情文件、独立艺人索引和本地 WebP 封面；
 - 完整 Next.js 静态导出，不要求运行 Next.js 服务器。
@@ -43,11 +43,17 @@ pnpm catalog:sync -- --seed ./path/to/seeds.csv --limit 50
 ## 可选 RYM 离线增强
 
 ```text
-pnpm catalog:enrich:rym -- --input ./path/to/authorized-offline-dataset.json --dry-run
-pnpm catalog:enrich:rym -- --input ./path/to/authorized-offline-dataset.json
+pnpm catalog:rym:inspect -- --input ./path/to/offline-dataset.csv --source-id local:dataset
+pnpm catalog:rym:enrich -- --input ./path/to/offline-dataset.csv --source-id local:dataset --dry-run
+pnpm catalog:rym:enrich -- --input ./path/to/offline-dataset.csv --source-id local:dataset
+pnpm catalog:rym:report
 ```
 
-只有标题或别名、完整艺人、年份和发行类型形成唯一复合匹配时，才发布 RYM 社区评分、评分人数、Primary Genres 和 Secondary Genres。没有合法离线文件时不运行该命令，评分保持 `null`，相关流派保持空数组；目录、构建和推荐仍正常工作。该流程不访问 RYM 网站。
+导入器支持 CSV、TSV、JSON 和 JSONL，并提供 dry-run、limit、检查点与 resume。只有标题或别名、完整艺人、年份和发行类型形成可靠唯一匹配时，才发布 RYM 社区评分、评分人数和 Secondary Genres；Primary Genres 只作核心流派审计，Descriptors 不进入产品。原始输入位于被忽略的 `.local-data/`，不进入 Git 或交付包。该流程不访问 RYM 网站。
+
+## 探索路径
+
+`/explore/` 提供流派、年代、聆听场景、艺人接力和可分享 seed 的随机探索。专辑详情后的“继续探索”使用确定性的本地相似算法，只依据核心流派、可靠相关流派、年代、本站场景和发行类型；不会使用 RYM 评分、热度、AI 或运行时 Provider。
 
 ## 封面与发布
 

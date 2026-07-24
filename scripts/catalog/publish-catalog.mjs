@@ -26,7 +26,7 @@ const artistSlug = (artist) => `artist-${artist.neteaseArtistId}`;
 function withCurrentContracts(album, thumbnailSrc) {
   const contexts = normalizeListeningScenes(album.contexts);
   const rymMatchStatus = album.rymMatchStatus ?? "UNVERIFIED_NO_DATA";
-  const matched = rymMatchStatus === "MATCHED";
+  const matched = ["MATCHED", "MATCHED_EXACT", "MATCHED_ALIAS", "MATCHED_STRONG"].includes(rymMatchStatus);
   return {
     ...album,
     cover: {
@@ -43,6 +43,7 @@ function withCurrentContracts(album, thumbnailSrc) {
       : null,
     rymReference: matched && typeof album.rymReference === "string" ? album.rymReference : null,
     rymObservedAt: matched && typeof album.rymObservedAt === "string" ? album.rymObservedAt : null,
+    rymInputSourceId: matched && typeof album.rymInputSourceId === "string" ? album.rymInputSourceId : null,
     rymMatchStatus,
   };
 }
@@ -156,6 +157,9 @@ async function writePublicationDirectory(directory, publication) {
     albums: publication.catalog.albums.length,
     artists: publication.artistIndex.artists.length,
     details: publication.catalog.albums.length,
+    ratedAlbums: publication.catalog.albums.filter((album) => album.rymRating != null).length,
+    relatedGenreAlbums: publication.catalog.albums.filter((album) => album.relatedGenres.length > 0).length,
+    explorationVersion: 1,
     generatedAt: publication.catalog.source.generatedAt,
     runtimeRequestsAllowed: false,
   };

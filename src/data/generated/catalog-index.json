@@ -99,6 +99,132 @@
       "labelZh": "金属",
       "labelEn": "Metal",
       "kind": "core"
+    },
+    {
+      "key": "folk-pop",
+      "labelZh": null,
+      "labelEn": "Folk Pop",
+      "kind": "related"
+    },
+    {
+      "key": "country-pop",
+      "labelZh": null,
+      "labelEn": "Country Pop",
+      "kind": "related"
+    },
+    {
+      "key": "electropop",
+      "labelZh": null,
+      "labelEn": "Electropop",
+      "kind": "related"
+    },
+    {
+      "key": "alternative-r-and-b",
+      "labelZh": null,
+      "labelEn": "Alternative R&B",
+      "kind": "related"
+    },
+    {
+      "key": "pop-rap",
+      "labelZh": null,
+      "labelEn": "Pop Rap",
+      "kind": "related"
+    },
+    {
+      "key": "synthpop",
+      "labelZh": null,
+      "labelEn": "Synthpop",
+      "kind": "related"
+    },
+    {
+      "key": "baroque-pop",
+      "labelZh": null,
+      "labelEn": "Baroque Pop",
+      "kind": "related"
+    },
+    {
+      "key": "neo-psychedelia",
+      "labelZh": null,
+      "labelEn": "Neo-Psychedelia",
+      "kind": "related"
+    },
+    {
+      "key": "space-rock-revival",
+      "labelZh": null,
+      "labelEn": "Space Rock Revival",
+      "kind": "related"
+    },
+    {
+      "key": "political-hip-hop",
+      "labelZh": null,
+      "labelEn": "Political Hip Hop",
+      "kind": "related"
+    },
+    {
+      "key": "neo-soul",
+      "labelZh": null,
+      "labelEn": "Neo-Soul",
+      "kind": "related"
+    },
+    {
+      "key": "funk",
+      "labelZh": null,
+      "labelEn": "Funk",
+      "kind": "related"
+    },
+    {
+      "key": "poetry",
+      "labelZh": null,
+      "labelEn": "Poetry",
+      "kind": "related"
+    },
+    {
+      "key": "experimental-hip-hop",
+      "labelZh": null,
+      "labelEn": "Experimental Hip Hop",
+      "kind": "related"
+    },
+    {
+      "key": "electro-disco",
+      "labelZh": null,
+      "labelEn": "Electro-Disco",
+      "kind": "related"
+    },
+    {
+      "key": "dance-pop",
+      "labelZh": null,
+      "labelEn": "Dance-Pop",
+      "kind": "related"
+    },
+    {
+      "key": "funky-house",
+      "labelZh": null,
+      "labelEn": "Funky House",
+      "kind": "related"
+    },
+    {
+      "key": "synth-funk",
+      "labelZh": null,
+      "labelEn": "Synth Funk",
+      "kind": "related"
+    },
+    {
+      "key": "2-step",
+      "labelZh": null,
+      "labelEn": "2-Step",
+      "kind": "related"
+    },
+    {
+      "key": "ethereal-wave",
+      "labelZh": null,
+      "labelEn": "Ethereal Wave",
+      "kind": "related"
+    },
+    {
+      "key": "shoegaze",
+      "labelZh": null,
+      "labelEn": "Shoegaze",
+      "kind": "related"
     }
   ],
   "descriptorTaxonomy": [],
@@ -1760,13 +1886,16 @@
       "coreGenres": [
         "rock"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "folk-pop",
+        "country-pop"
+      ],
       "contexts": [
         "commute",
         "relax"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4,
+      "rymRatingCount": 21715,
       "editorial": null,
       "searchText": "Rumours Fleetwood Mac"
     },
@@ -1801,13 +1930,15 @@
       "coreGenres": [
         "folk"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "folk-pop"
+      ],
       "contexts": [
         "solitude",
         "night"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.03,
+      "rymRatingCount": 15941,
       "editorial": null,
       "searchText": "Blue Joni Mitchell"
     },
@@ -1842,13 +1973,18 @@
       "coreGenres": [
         "pop"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "electropop",
+        "alternative-r-and-b",
+        "pop-rap",
+        "art-pop"
+      ],
       "contexts": [
         "night",
         "exercise"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 3.38,
+      "rymRatingCount": 5201,
       "editorial": null,
       "searchText": "BEYONCÉ Beyoncé"
     },
@@ -2093,8 +2229,8 @@
         "focus",
         "night"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.24,
+      "rymRatingCount": 74027,
       "editorial": null,
       "searchText": "OK Computer Radiohead"
     },
@@ -2129,13 +2265,16 @@
       "coreGenres": [
         "art-pop"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "synthpop",
+        "baroque-pop"
+      ],
       "contexts": [
         "focus",
         "night"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.15,
+      "rymRatingCount": 24370,
       "editorial": null,
       "searchText": "Hounds Of Love Kate Bush"
     },
@@ -2170,13 +2309,16 @@
       "coreGenres": [
         "dream-pop"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "dream-pop",
+        "neo-psychedelia"
+      ],
       "contexts": [
         "night",
         "focus"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.24,
+      "rymRatingCount": 53174,
       "editorial": null,
       "searchText": "loveless My Bloody Valentine"
     },
@@ -2211,13 +2353,16 @@
       "coreGenres": [
         "dream-pop"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "space-rock-revival",
+        "neo-psychedelia"
+      ],
       "contexts": [
         "night",
         "solitude"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.1,
+      "rymRatingCount": 30706,
       "editorial": null,
       "searchText": "Souvlaki Slowdive"
     },
@@ -2252,12 +2397,18 @@
       "coreGenres": [
         "hip-hop"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "political-hip-hop",
+        "neo-soul",
+        "funk",
+        "poetry",
+        "experimental-hip-hop"
+      ],
       "contexts": [
         "focus"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.3,
+      "rymRatingCount": 47821,
       "editorial": null,
       "searchText": "To Pimp a Butterfly Kendrick Lamar"
     },
@@ -2342,13 +2493,18 @@
       "coreGenres": [
         "electronic"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "electro-disco",
+        "dance-pop",
+        "funky-house",
+        "synth-funk"
+      ],
       "contexts": [
         "exercise",
         "commute"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 3.97,
+      "rymRatingCount": 27951,
       "editorial": null,
       "searchText": "Discovery Daft Punk"
     },
@@ -2383,13 +2539,16 @@
       "coreGenres": [
         "electronic"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "2-step",
+        "ambient"
+      ],
       "contexts": [
         "night",
         "solitude"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 3.95,
+      "rymRatingCount": 22398,
       "editorial": null,
       "searchText": "Untrue Burial"
     },
@@ -2465,13 +2624,16 @@
       "coreGenres": [
         "dream-pop"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "ethereal-wave",
+        "shoegaze"
+      ],
       "contexts": [
         "night",
         "relax"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.09,
+      "rymRatingCount": 24284,
       "editorial": null,
       "searchText": "Heaven or Las Vegas Cocteau Twins"
     },
@@ -2506,13 +2668,16 @@
       "coreGenres": [
         "post-rock"
       ],
-      "relatedGenres": [],
+      "relatedGenres": [
+        "dream-pop",
+        "ambient"
+      ],
       "contexts": [
         "focus",
         "relax"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.04,
+      "rymRatingCount": 27797,
       "editorial": null,
       "searchText": "Ágætis byrjun Sigur Rós"
     },
@@ -2593,8 +2758,8 @@
         "exercise",
         "focus"
       ],
-      "rymRating": null,
-      "rymRatingCount": null,
+      "rymRating": 4.01,
+      "rymRatingCount": 32027,
       "editorial": null,
       "searchText": "Master Of Puppets Metallica"
     },

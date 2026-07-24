@@ -199,12 +199,18 @@
   "coreGenres": [
     "electronic"
   ],
-  "relatedGenres": [],
+  "relatedGenres": [
+    "electro-disco",
+    "dance-pop",
+    "funky-house",
+    "synth-funk"
+  ],
   "descriptors": [],
   "searchText": "Discovery Daft Punk",
-  "rymRating": null,
-  "rymRatingCount": null,
-  "rymReference": null,
-  "rymObservedAt": null,
-  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+  "rymRating": 3.97,
+  "rymRatingCount": 27951,
+  "rymReference": "kaggle:tobennao/rym-top-5000:row:79",
+  "rymObservedAt": "2026-07-24T07:12:45.520Z",
+  "rymMatchStatus": "MATCHED_EXACT",
+  "rymInputSourceId": "kaggle:tobennao/rym-top-5000"
 }

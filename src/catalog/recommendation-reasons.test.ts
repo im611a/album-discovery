@@ -5,7 +5,7 @@ import { recommendAlbums, RECOMMENDATION_WEIGHTS } from "./recommendation";
 
 describe("recommendation explanations", () => {
   it("keeps every scoring weight in the exported central table", () => {
-    expect(Object.keys(RECOMMENDATION_WEIGHTS).sort()).toEqual(["coldStart", "context", "coreGenre", "editorial", "era", "exploration", "favoriteSimilarity", "lessViewedEra", "negativeSimilarity", "relatedGenre", "savedSimilarity"].sort());
+    expect(Object.keys(RECOMMENDATION_WEIGHTS).sort()).toEqual(["coldStart", "context", "coreGenre", "editorial", "era", "exploration", "favoriteSimilarity", "lessViewedEra", "negativeSimilarity", "savedSimilarity"].sort());
   });
 
   it("uses the Chinese taxonomy label instead of leaking an internal genre key", () => {
@@ -22,7 +22,6 @@ describe("recommendation explanations", () => {
     expect(explained.length).toBeGreaterThan(0);
     for (const item of explained) {
       expect(item.album.coreGenres.some((value) => seed.coreGenres.includes(value)) ||
-        item.album.relatedGenres.some((value) => seed.relatedGenres.includes(value)) ||
         item.album.contexts.some((value) => seed.contexts.includes(value))).toBe(true);
     }
   });

@@ -15,7 +15,7 @@ describe("catalog queries", () => {
     const results = discoverAlbums({ coreGenre: "dream-pop", context: "night" }, "release-newest");
     expect(results.length).toBeGreaterThan(0);
     expect(results.every((album) => album.coreGenres.includes("dream-pop") && album.contexts.includes("night"))).toBe(true);
-    expect(buildDiscoverOptions()).toMatchObject({ relatedGenres: [] });
+    expect(buildDiscoverOptions().relatedGenres.length).toBeGreaterThan(0);
     expect(discoverAlbums({ relatedGenre: "legacy-related" })).toEqual([]);
   });
   it("builds optional taxonomy choices only from values present on published albums", () => {

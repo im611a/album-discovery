@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import rymAudit from "../../reports/catalog/rym-taxonomy-audit.json";
+import rymEnrichmentSummary from "../../data/rym/enrichment-summary.json";
 import { catalogAlbums, catalogTaxonomy, publishedCatalog } from "./published-catalog";
 import { getAlbumDetailBySlug } from "./published-album-details";
 
@@ -35,29 +35,37 @@ describe("published NetEase catalog integrity", () => {
     }
   });
 
-  it("publishes no inferred RYM secondary genres or descriptors without an offline snapshot", () => {
+  it("publishes only traceable offline RYM ratings and secondary genres", () => {
     expect(publishedCatalog.source.taxonomy).toBe("rym-offline-or-manual-core");
-    expect(catalogTaxonomy.some((item) => item.kind === "related")).toBe(false);
+    expect(catalogTaxonomy.some((item) => item.kind === "related")).toBe(true);
     expect(publishedCatalog.descriptorTaxonomy).toEqual([]);
+    expect(catalogAlbums.filter((album) => album.rymRating !== null)).toHaveLength(13);
+    expect(catalogAlbums.filter((album) => album.relatedGenres.length > 0)).toHaveLength(11);
     for (const album of catalogAlbums) {
-      expect(album.relatedGenres).toEqual([]);
-      expect(album.rymRating).toBeNull();
+      if (album.rymRating !== null || album.relatedGenres.length > 0) {
+        const detail = getAlbumDetailBySlug(album.slug)!;
+        expect(detail.rymMatchStatus).toMatch(/^MATCHED_/);
+        expect(detail.rymReference).toBeTruthy();
+        expect(detail.rymInputSourceId).toBe("kaggle:tobennao/rym-top-5000");
+      }
     }
   });
 
-  it("records composite RYM match evidence for every album without inventing a match", () => {
-    expect(rymAudit).toMatchObject({ matched: 0, unmatched: catalogAlbums.length, ambiguous: 0 });
-    expect(rymAudit.albums).toHaveLength(catalogAlbums.length);
-    for (const item of rymAudit.albums) {
-      expect(item).toMatchObject({
-        status: "unmatched",
-        reason: "no_authorized_offline_record",
-        candidateReferences: [],
-      });
-      expect(item.evidence.titleAndAliases.length).toBeGreaterThan(0);
-      expect(item.evidence.artists.length).toBeGreaterThan(0);
-      expect(item.evidence.releaseType).toBeTruthy();
-    }
+  it("records the completed offline enrichment without inventing unresolved matches", () => {
+    expect(rymEnrichmentSummary).toMatchObject({
+      totalAlbums: catalogAlbums.length,
+      MATCHED_EXACT: 13,
+      MATCHED_ALIAS: 0,
+      MATCHED_STRONG: 0,
+      NOT_FOUND: 305,
+      AMBIGUOUS: 0,
+      REJECTED: 1,
+      ratedAlbumCount: 13,
+      relatedGenreAlbumCount: 11,
+      inputSourceId: "kaggle:tobennao/rym-top-5000",
+      rawInputPublished: false,
+    });
+    expect(rymEnrichmentSummary.results).toHaveLength(catalogAlbums.length);
   });
 
   it.each(["287974232", "286248593"])("keeps required album %s on manual core taxonomy only", (albumId) => {

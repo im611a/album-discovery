@@ -5,7 +5,6 @@ import type { PublishedAlbumSummary } from "./schema";
 
 export const RECOMMENDATION_WEIGHTS = {
   coreGenre: 5,
-  relatedGenre: 2,
   context: 3,
   favoriteSimilarity: 4,
   savedSimilarity: 1.5,
@@ -42,23 +41,20 @@ export function recommendAlbums(state: LocalUserStateV1, limit = 18): Recommenda
   const excluded = new Set([...taste.seedAlbumIds, ...state.likedAlbumIds, ...state.favoriteAlbumIds, ...likedIds, ...state.savedAlbumIds, ...state.listenedAlbumIds, ...negativeIds]);
   const scored = catalogAlbums.filter((album) => !excluded.has(album.id)).map((album) => {
     const genreMatches = overlap(album.coreGenres, taste.genres);
-    const relatedMatches = overlap(album.relatedGenres, taste.genres);
     const contextMatches = overlap(album.contexts, taste.contexts);
     const era = eraFor(album);
     const eraMatch = era && taste.eras.includes(era);
     const similarity = (seed: PublishedAlbumSummary) =>
       overlap(album.coreGenres, seed.coreGenres).length +
-      overlap(album.relatedGenres, seed.relatedGenres).length +
       overlap(album.contexts, seed.contexts).length;
     const favoriteSimilarity = favoriteSeeds.reduce((best, seed) => Math.max(best, similarity(seed)), 0);
     const savedSimilarity = savedSeeds.reduce((best, seed) => Math.max(best, similarity(seed)), 0);
     const negativeSimilarity = negativeSeeds.reduce((worst, seed) => Math.max(worst, similarity(seed)), 0);
-    const isAdjacent = genreMatches.length === 0 && (relatedMatches.length > 0 || contextMatches.length > 0);
+    const isAdjacent = genreMatches.length === 0 && contextMatches.length > 0;
     const exploration = taste.exploration === "exploratory" && isAdjacent ? RECOMMENDATION_WEIGHTS.exploration : taste.exploration === "familiar" && genreMatches.length ? 0.5 : 0;
     const coldStart = state.onboardingCompleted ? 0 : RECOMMENDATION_WEIGHTS.coldStart;
     const lessViewedEra = era && recentlyViewedEras.size > 0 && !recentlyViewedEras.has(era) ? RECOMMENDATION_WEIGHTS.lessViewedEra : 0;
     const score = genreMatches.length * RECOMMENDATION_WEIGHTS.coreGenre +
-      relatedMatches.length * RECOMMENDATION_WEIGHTS.relatedGenre +
       contextMatches.length * RECOMMENDATION_WEIGHTS.context +
       favoriteSimilarity * RECOMMENDATION_WEIGHTS.favoriteSimilarity +
       savedSimilarity * RECOMMENDATION_WEIGHTS.savedSimilarity +
@@ -70,11 +66,10 @@ export function recommendAlbums(state: LocalUserStateV1, limit = 18): Recommenda
       coldStart;
     const reasons = [];
     if (genreMatches.length) reasons.push(`与你选择的${genreMatches.slice(0, 2).map(getTaxonomyLabel).join("、")}方向重合。`);
-    else if (relatedMatches.length) reasons.push(`与你偏好的${relatedMatches.slice(0, 2).map(getTaxonomyLabel).join("、")}保留关联。`);
     if (contextMatches.length) reasons.push(`适合${contextMatches.slice(0, 2).map(getListeningSceneLabel).join("、")}的完整聆听。`);
     if (favoriteSimilarity > 0) reasons.push("与已喜欢或收藏专辑的流派或聆听场景有明确重合。");
     else if (savedSimilarity > 0) reasons.push("与想听清单中的专辑保留了一部分共同信号。");
-    if (!genreMatches.length && (relatedMatches.length || contextMatches.length)) reasons.push("这是一次有控制的相邻类型拓展。");
+    if (!genreMatches.length && contextMatches.length) reasons.push("这是一次有控制的相邻类型拓展。");
     if (lessViewedEra) reasons.push("来自你近期较少浏览的年代。");
     if (!reasons.length && album.editorial) reasons.push(album.editorial.whyListenZh);
     if (!reasons.length && coldStart) reasons.push("在尚无偏好时提供一个不同类型的冷启动选择。");

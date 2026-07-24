@@ -1,6 +1,542 @@
 {
-  "version": 1,
-  "sourceDescription": "No authorized offline RYM taxonomy file or manually verified RYM record is currently published.",
-  "importedAt": null,
-  "records": []
+  "version": 3,
+  "sourceDescription": "kaggle:tobennao/rym-top-5000",
+  "inputSha256": "272cc798cb1d1058048500485d1668855d9a251bb19fef9e52beaae81a8ec6b7",
+  "importedAt": "2026-07-24T07:12:45.520Z",
+  "records": [
+    {
+      "neteaseAlbumId": "1637054",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:137",
+      "titles": [
+        "Rumours"
+      ],
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "releaseYear": "1977",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "pop-rock",
+          "labelZh": null,
+          "labelEn": "Pop Rock"
+        },
+        {
+          "key": "soft-rock",
+          "labelZh": null,
+          "labelEn": "Soft Rock"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "folk-pop",
+          "labelZh": null,
+          "labelEn": "Folk Pop"
+        },
+        {
+          "key": "country-pop",
+          "labelZh": null,
+          "labelEn": "Country Pop"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 4,
+      "rymRatingCount": 21715,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "1724200",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:297",
+      "titles": [
+        "Blue"
+      ],
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "releaseYear": "1971",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "singer-songwriter",
+          "labelZh": null,
+          "labelEn": "Singer-Songwriter"
+        },
+        {
+          "key": "contemporary-folk",
+          "labelZh": null,
+          "labelEn": "Contemporary Folk"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "folk-pop",
+          "labelZh": null,
+          "labelEn": "Folk Pop"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 4.03,
+      "rymRatingCount": 15941,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "2732013",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:1807",
+      "titles": [
+        "Beyoncé"
+      ],
+      "artists": [
+        "Beyoncé"
+      ],
+      "releaseYear": "2013",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "contemporary-r-and-b",
+          "labelZh": null,
+          "labelEn": "Contemporary R&B"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "electropop",
+          "labelZh": null,
+          "labelEn": "Electropop"
+        },
+        {
+          "key": "alternative-r-and-b",
+          "labelZh": null,
+          "labelEn": "Alternative R&B"
+        },
+        {
+          "key": "pop-rap",
+          "labelZh": null,
+          "labelEn": "Pop Rap"
+        },
+        {
+          "key": "art-pop",
+          "labelZh": null,
+          "labelEn": "Art Pop"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 3.38,
+      "rymRatingCount": 5201,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "2060534",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:1",
+      "titles": [
+        "OK Computer"
+      ],
+      "artists": [
+        "Radiohead"
+      ],
+      "releaseYear": "1997",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "alternative-rock",
+          "labelZh": null,
+          "labelEn": "Alternative Rock"
+        },
+        {
+          "key": "art-rock",
+          "labelZh": null,
+          "labelEn": "Art Rock"
+        }
+      ],
+      "secondaryGenres": [],
+      "descriptors": [],
+      "rymRating": 4.24,
+      "rymRatingCount": 74027,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "1742060",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:103",
+      "titles": [
+        "Hounds of Love"
+      ],
+      "artists": [
+        "Kate Bush"
+      ],
+      "releaseYear": "1985",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "art-pop",
+          "labelZh": null,
+          "labelEn": "Art Pop"
+        },
+        {
+          "key": "progressive-pop",
+          "labelZh": null,
+          "labelEn": "Progressive Pop"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "synthpop",
+          "labelZh": null,
+          "labelEn": "Synthpop"
+        },
+        {
+          "key": "baroque-pop",
+          "labelZh": null,
+          "labelEn": "Baroque Pop"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 4.15,
+      "rymRatingCount": 24370,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "422052",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:4",
+      "titles": [
+        "Loveless"
+      ],
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "releaseYear": "1991",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "shoegaze",
+          "labelZh": null,
+          "labelEn": "Shoegaze"
+        },
+        {
+          "key": "noise-pop",
+          "labelZh": null,
+          "labelEn": "Noise Pop"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "dream-pop",
+          "labelZh": null,
+          "labelEn": "Dream Pop"
+        },
+        {
+          "key": "neo-psychedelia",
+          "labelZh": null,
+          "labelEn": "Neo-Psychedelia"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 4.24,
+      "rymRatingCount": 53174,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "1761243",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:59",
+      "titles": [
+        "Souvlaki"
+      ],
+      "artists": [
+        "Slowdive"
+      ],
+      "releaseYear": "1993",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "dream-pop",
+          "labelZh": null,
+          "labelEn": "Dream Pop"
+        },
+        {
+          "key": "shoegaze",
+          "labelZh": null,
+          "labelEn": "Shoegaze"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "space-rock-revival",
+          "labelZh": null,
+          "labelEn": "Space Rock Revival"
+        },
+        {
+          "key": "neo-psychedelia",
+          "labelZh": null,
+          "labelEn": "Neo-Psychedelia"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 4.1,
+      "rymRatingCount": 30706,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "3109151",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:10",
+      "titles": [
+        "To Pimp a Butterfly"
+      ],
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "releaseYear": "2015",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "conscious-hip-hop",
+          "labelZh": null,
+          "labelEn": "Conscious Hip Hop"
+        },
+        {
+          "key": "west-coast-hip-hop",
+          "labelZh": null,
+          "labelEn": "West Coast Hip Hop"
+        },
+        {
+          "key": "jazz-rap",
+          "labelZh": null,
+          "labelEn": "Jazz Rap"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "political-hip-hop",
+          "labelZh": null,
+          "labelEn": "Political Hip Hop"
+        },
+        {
+          "key": "neo-soul",
+          "labelZh": null,
+          "labelEn": "Neo-Soul"
+        },
+        {
+          "key": "funk",
+          "labelZh": null,
+          "labelEn": "Funk"
+        },
+        {
+          "key": "poetry",
+          "labelZh": null,
+          "labelEn": "Poetry"
+        },
+        {
+          "key": "experimental-hip-hop",
+          "labelZh": null,
+          "labelEn": "Experimental Hip Hop"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 4.3,
+      "rymRatingCount": 47821,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "1609277",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:79",
+      "titles": [
+        "Discovery"
+      ],
+      "artists": [
+        "Daft Punk"
+      ],
+      "releaseYear": "2001",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "french-house",
+          "labelZh": null,
+          "labelEn": "French House"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "electro-disco",
+          "labelZh": null,
+          "labelEn": "Electro-Disco"
+        },
+        {
+          "key": "dance-pop",
+          "labelZh": null,
+          "labelEn": "Dance-Pop"
+        },
+        {
+          "key": "funky-house",
+          "labelZh": null,
+          "labelEn": "Funky House"
+        },
+        {
+          "key": "synth-funk",
+          "labelZh": null,
+          "labelEn": "Synth Funk"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 3.97,
+      "rymRatingCount": 27951,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "1533976",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:131",
+      "titles": [
+        "Untrue"
+      ],
+      "artists": [
+        "Burial"
+      ],
+      "releaseYear": "2007",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "future-garage",
+          "labelZh": null,
+          "labelEn": "Future Garage"
+        },
+        {
+          "key": "dubstep",
+          "labelZh": null,
+          "labelEn": "Dubstep"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "2-step",
+          "labelZh": null,
+          "labelEn": "2-Step"
+        },
+        {
+          "key": "ambient",
+          "labelZh": null,
+          "labelEn": "Ambient"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 3.95,
+      "rymRatingCount": 22398,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "1577480",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:104",
+      "titles": [
+        "Heaven or Las Vegas"
+      ],
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "releaseYear": "1990",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "dream-pop",
+          "labelZh": null,
+          "labelEn": "Dream Pop"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "ethereal-wave",
+          "labelZh": null,
+          "labelEn": "Ethereal Wave"
+        },
+        {
+          "key": "shoegaze",
+          "labelZh": null,
+          "labelEn": "Shoegaze"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 4.09,
+      "rymRatingCount": 24284,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "2029087",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:81",
+      "titles": [
+        "Ágætis byrjun"
+      ],
+      "artists": [
+        "Sigur Rós"
+      ],
+      "releaseYear": "1999",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "post-rock",
+          "labelZh": null,
+          "labelEn": "Post-Rock"
+        }
+      ],
+      "secondaryGenres": [
+        {
+          "key": "dream-pop",
+          "labelZh": null,
+          "labelEn": "Dream Pop"
+        },
+        {
+          "key": "ambient",
+          "labelZh": null,
+          "labelEn": "Ambient"
+        }
+      ],
+      "descriptors": [],
+      "rymRating": 4.04,
+      "rymRatingCount": 27797,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    },
+    {
+      "neteaseAlbumId": "1956859",
+      "matchStatus": "MATCHED_EXACT",
+      "inputSourceId": "kaggle:tobennao/rym-top-5000",
+      "sourceReference": "kaggle:tobennao/rym-top-5000:row:50",
+      "titles": [
+        "Master of Puppets"
+      ],
+      "artists": [
+        "Metallica"
+      ],
+      "releaseYear": "1986",
+      "releaseType": "album",
+      "primaryGenres": [
+        {
+          "key": "thrash-metal",
+          "labelZh": null,
+          "labelEn": "Thrash Metal"
+        }
+      ],
+      "secondaryGenres": [],
+      "descriptors": [],
+      "rymRating": 4.01,
+      "rymRatingCount": 32027,
+      "rymObservedAt": "2026-07-24T07:12:45.520Z"
+    }
+  ]
 }

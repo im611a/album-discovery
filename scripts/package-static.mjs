@@ -21,6 +21,9 @@ const releaseManifest = {
   builtAt: new Date().toISOString(),
   catalogCount: catalog.albums.length,
   artistCount: artists.artists.length,
+  ratedAlbumCount: catalog.albums.filter((album) => album.rymRating != null).length,
+  relatedGenreAlbumCount: catalog.albums.filter((album) => album.relatedGenres.length > 0).length,
+  explorationVersion: 1,
   staticPageCount: countIndexPages(out),
 };
 writeFileSync(path.join(out, "release-manifest.json"), `${JSON.stringify(releaseManifest, null, 2)}\n`, "utf8");

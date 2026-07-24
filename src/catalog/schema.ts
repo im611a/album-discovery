@@ -3,6 +3,9 @@ export type ReleaseType = "album" | "ep" | "mixtape" | "soundtrack";
 export type SourceMarketChannel = "ALL" | "ZH" | "EA" | "JP" | "KR";
 export type RymMatchStatus =
   | "MATCHED"
+  | "MATCHED_EXACT"
+  | "MATCHED_ALIAS"
+  | "MATCHED_STRONG"
   | "NOT_FOUND"
   | "AMBIGUOUS"
   | "REJECTED"
@@ -69,6 +72,7 @@ export interface PublishedAlbum {
   rymRatingCount: number | null;
   rymReference: string | null;
   rymObservedAt: string | null;
+  rymInputSourceId: string | null;
   rymMatchStatus: RymMatchStatus;
   editorial: AlbumEditorial | null;
   searchText: string;

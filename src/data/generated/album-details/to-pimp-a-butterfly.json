@@ -231,12 +231,19 @@
   "coreGenres": [
     "hip-hop"
   ],
-  "relatedGenres": [],
+  "relatedGenres": [
+    "political-hip-hop",
+    "neo-soul",
+    "funk",
+    "poetry",
+    "experimental-hip-hop"
+  ],
   "descriptors": [],
   "searchText": "To Pimp a Butterfly Kendrick Lamar",
-  "rymRating": null,
-  "rymRatingCount": null,
-  "rymReference": null,
-  "rymObservedAt": null,
-  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+  "rymRating": 4.3,
+  "rymRatingCount": 47821,
+  "rymReference": "kaggle:tobennao/rym-top-5000:row:10",
+  "rymObservedAt": "2026-07-24T07:12:45.520Z",
+  "rymMatchStatus": "MATCHED_EXACT",
+  "rymInputSourceId": "kaggle:tobennao/rym-top-5000"
 }

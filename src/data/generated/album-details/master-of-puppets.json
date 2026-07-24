@@ -158,9 +158,10 @@
   "relatedGenres": [],
   "descriptors": [],
   "searchText": "Master Of Puppets Metallica",
-  "rymRating": null,
-  "rymRatingCount": null,
-  "rymReference": null,
-  "rymObservedAt": null,
-  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+  "rymRating": 4.01,
+  "rymRatingCount": 32027,
+  "rymReference": "kaggle:tobennao/rym-top-5000:row:50",
+  "rymObservedAt": "2026-07-24T07:12:45.520Z",
+  "rymMatchStatus": "MATCHED_EXACT",
+  "rymInputSourceId": "kaggle:tobennao/rym-top-5000"
 }

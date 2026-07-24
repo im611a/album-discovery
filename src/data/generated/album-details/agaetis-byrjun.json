@@ -155,12 +155,16 @@
   "coreGenres": [
     "post-rock"
   ],
-  "relatedGenres": [],
+  "relatedGenres": [
+    "dream-pop",
+    "ambient"
+  ],
   "descriptors": [],
   "searchText": "Ágætis byrjun Sigur Rós",
-  "rymRating": null,
-  "rymRatingCount": null,
-  "rymReference": null,
-  "rymObservedAt": null,
-  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+  "rymRating": 4.04,
+  "rymRatingCount": 27797,
+  "rymReference": "kaggle:tobennao/rym-top-5000:row:81",
+  "rymObservedAt": "2026-07-24T07:12:45.520Z",
+  "rymMatchStatus": "MATCHED_EXACT",
+  "rymInputSourceId": "kaggle:tobennao/rym-top-5000"
 }

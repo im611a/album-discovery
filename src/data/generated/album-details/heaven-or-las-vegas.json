@@ -155,12 +155,16 @@
   "coreGenres": [
     "dream-pop"
   ],
-  "relatedGenres": [],
+  "relatedGenres": [
+    "ethereal-wave",
+    "shoegaze"
+  ],
   "descriptors": [],
   "searchText": "Heaven or Las Vegas Cocteau Twins",
-  "rymRating": null,
-  "rymRatingCount": null,
-  "rymReference": null,
-  "rymObservedAt": null,
-  "rymMatchStatus": "UNVERIFIED_NO_DATA"
+  "rymRating": 4.09,
+  "rymRatingCount": 24284,
+  "rymReference": "kaggle:tobennao/rym-top-5000:row:104",
+  "rymObservedAt": "2026-07-24T07:12:45.520Z",
+  "rymMatchStatus": "MATCHED_EXACT",
+  "rymInputSourceId": "kaggle:tobennao/rym-top-5000"
 }

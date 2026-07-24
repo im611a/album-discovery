@@ -11,7 +11,11 @@ describe("discover combinations and sorting", () => {
     const decade = `${Math.floor(Number(album.releaseDate!.slice(0, 4)) / 10) * 10}s`;
     const results = discoverAlbums({ coreGenre: album.coreGenres[0], context: album.contexts[0], decade, releaseType: album.albumType, editorialOnly: true });
     expect(results.map((item) => item.id)).toContain(album.id);
-    expect(buildDiscoverOptions().relatedGenres).toEqual([]);
+    const relatedGenres = buildDiscoverOptions().relatedGenres;
+    expect(relatedGenres.length).toBeGreaterThan(0);
+    for (const relatedGenre of relatedGenres) {
+      expect(discoverAlbums({ relatedGenre }).length).toBeGreaterThan(0);
+    }
   });
   it.each(["release-newest", "release-oldest", "title", "recently-added"] as const)("returns a deterministic %s order", (sort) => expect(discoverAlbums({}, sort).map((album) => album.id)).toEqual(discoverAlbums({}, sort).map((album) => album.id)));
   it("sorts newest and oldest in opposite date directions", () => {

@@ -3,6 +3,7 @@ const RYM_FIELDS = [
   "rymRatingCount",
   "rymReference",
   "rymObservedAt",
+  "rymInputSourceId",
   "rymMatchStatus",
   "relatedGenres",
   "descriptors",

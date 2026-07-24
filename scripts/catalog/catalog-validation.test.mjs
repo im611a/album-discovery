@@ -56,28 +56,27 @@ describe("NetEase catalog validation", () => {
     const changed = clone();
     const album = changed.albums[0];
     const snapshot = {
-      version: 1,
-      records: [{
+      ...structuredClone(rymSnapshot),
+      records: [...structuredClone(rymSnapshot.records), {
         sourceReference: "manual-snapshot:acceptance",
+        inputSourceId: "manual-snapshot:test",
+        matchStatus: "MATCHED_EXACT",
+        neteaseAlbumId: album.neteaseAlbumId,
         titles: [album.title],
         artists: album.artists.map((artist) => artist.name),
         releaseYear: album.releaseDate.slice(0, 4),
         releaseType: album.albumType,
         primaryGenres: [{ key: "verified-primary", labelZh: null, labelEn: "Verified Primary" }],
         secondaryGenres: [{ key: "verified-secondary", labelZh: null, labelEn: "Verified Secondary" }],
-        descriptors: [{ key: "verified-descriptor", labelZh: null, labelEn: "verified descriptor" }],
+        descriptors: [],
       }],
     };
-    changed.taxonomy.push(
-      { key: "verified-primary", labelZh: null, labelEn: "Verified Primary", kind: "core" },
-      { key: "verified-secondary", labelZh: null, labelEn: "Verified Secondary", kind: "related" },
-    );
-    changed.descriptorTaxonomy.push({ key: "verified-descriptor", labelZh: null, labelEn: "verified descriptor", kind: "descriptor" });
-    album.coreGenres = ["verified-primary"];
+    changed.taxonomy.push({ key: "verified-secondary", labelZh: null, labelEn: "Verified Secondary", kind: "related" });
     album.relatedGenres = ["verified-secondary"];
-    album.descriptors = ["verified-descriptor"];
-    album.rymMatchStatus = "MATCHED";
+    album.descriptors = [];
+    album.rymMatchStatus = "MATCHED_EXACT";
     album.rymReference = "manual-snapshot:acceptance";
+    album.rymInputSourceId = "manual-snapshot:test";
     expect(validateCatalogData(changed, identities, snapshot).errors).toEqual([]);
 
     album.relatedGenres = ["invented-related"];
