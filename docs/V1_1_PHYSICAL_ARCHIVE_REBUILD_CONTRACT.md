@@ -1,6 +1,6 @@
 # V1.1 实体唱片档案重建契约
 
-状态：`IN_PROGRESS`
+状态：`WAITING_FOR_STATIC_ART_DIRECTION_REVIEW`
 
 - 起点：`791865e2807c3e804730ccdfe8825b0b8df0d2c9`
 - 工作分支：`fix/v1.1-physical-archive-rebuild`
@@ -32,6 +32,22 @@ Release Manifest、标签和发布均保持 `NOT_STARTED`。
 
 本轮先完成静态终态。正常动态模式、滚动唤醒、槽位推出、三专辑连续交换和盒体
 动画属于阶段 C，未经人工批准不实现。
+
+## 阶段 B 静态交付
+
+- 完整首页已经从开场覆盖至 Footer，并分别建立桌面与移动端构图；
+- 六张真实封套被安置于固定收藏槽，槽壁、导轨、柜体和唱盘底座在无动画时仍成立；
+- 三个稳定重点状态均同时包含 previous / active / next，中央包装包含封套、书脊、
+  背面、内袋、黑胶和曲目纸；
+- 代表专辑详情使用实体唱片档案构图，并按本地状态、网易云入口、RYM、分类、
+  聆听场景、曲目、同艺人作品和继续探索的顺序展开；
+- 代表艺人详情使用作品收藏架；发现页使用档案筛选台，并保留原 URL、分页、
+  筛选和排序契约；
+- 其他正式页面通过共享 Header、Footer、宋体、蓝黑环境、页面标题、表单、
+  分页和内容表面获得 `PARTIAL / FIRST_PASS_VISUAL_CONTINUITY`。
+
+证据保存在 `.local-data/v1.1-physical-archive/static-art-proof/`，该目录不会进入
+正式站点或发布包。
 
 ## 失败视觉复用边界
 

@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body><RouteMotion /><PersonalStateProvider>{children}</PersonalStateProvider></body>
+      <body className="pa-site"><RouteMotion /><PersonalStateProvider>{children}</PersonalStateProvider></body>
     </html>
   );
 }

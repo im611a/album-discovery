@@ -58,7 +58,7 @@ describe("AlbumDetail", () => {
     expect(headings.indexOf("同艺人其他专辑")).toBeLessThan(headings.indexOf("继续探索"));
   });
 
-  it("places the track archive before ratings, taxonomy and listening scenes", () => {
+  it("keeps the approved archive order from rating and taxonomy through tracks", () => {
     const album = {
       ...getAlbumDetailBySlug("wake-after-the-rain")!,
       rymRating: 4.1,
@@ -66,9 +66,16 @@ describe("AlbumDetail", () => {
     };
     const { container } = render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
     const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
-    expect(headings.indexOf("曲目表")).toBeLessThan(headings.indexOf("RYM 社区评分"));
-    expect(headings.indexOf("曲目表")).toBeLessThan(headings.indexOf("流派"));
-    expect(headings.indexOf("曲目表")).toBeLessThan(headings.indexOf("聆听场景"));
+    expect(headings.indexOf("RYM 社区评分")).toBeLessThan(headings.indexOf("流派"));
+    expect(headings.indexOf("流派")).toBeLessThan(headings.indexOf("聆听场景"));
+    expect(headings.indexOf("聆听场景")).toBeLessThan(headings.indexOf("曲目表"));
+  });
+
+  it("renders the cover as a physical archive object without changing album actions", async () => {
+    const { container } = render(<PersonalStateProvider><AlbumDetail album={getAlbumDetailBySlug("wake-after-the-rain")!} /></PersonalStateProvider>);
+    expect(container.querySelector(".pa-album-file__object .album-cover")).toBeInTheDocument();
+    expect(container.querySelector(".pa-album-file__vinyl")).toBeInTheDocument();
+    expect((await screen.findAllByRole("button", { name: "想听" })).length).toBeGreaterThan(0);
   });
 
   it("does not render an empty same-artist section", () => {
