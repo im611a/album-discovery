@@ -15,11 +15,15 @@ describe("AlbumActions", () => {
     fireEvent.click(save);
     expect(await screen.findByRole("button", { name: "已想听" })).toHaveAttribute("aria-pressed", "true");
   });
-  it("keeps compact cards focused on three primary actions", async () => {
-    render(<PersonalStateProvider><AlbumActions album={catalogAlbums[0]} compact /></PersonalStateProvider>);
+  it("keeps all states inside a collapsed compact menu", async () => {
+    const { container } = render(<PersonalStateProvider><AlbumActions album={catalogAlbums[0]} compact /></PersonalStateProvider>);
     await screen.findByRole("button", { name: "想听" });
+    const menu = container.querySelector("details");
+    expect(menu).not.toHaveAttribute("open");
+    expect(screen.getByText("本机状态")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "收藏" })).toBeInTheDocument();
-    expect(screen.queryByRole("button", { name: "听过" })).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "听过" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "不适合我" })).toBeInTheDocument();
   });
   it("keeps the explicit like feedback state synchronized", async () => {
     render(<PersonalStateProvider><AlbumActions album={catalogAlbums[0]} /></PersonalStateProvider>);
