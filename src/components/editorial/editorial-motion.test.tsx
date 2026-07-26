@@ -1,4 +1,5 @@
 import { render } from "@testing-library/react";
+import Link from "next/link";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   EditorialMotion,
@@ -74,7 +75,7 @@ describe("EditorialMotion", () => {
     const { container } = render(
       <EditorialMotion>
         <section data-motion-deck>
-          <article data-motion-deck-item><a href="/albums/example">专辑</a></article>
+          <article data-motion-deck-item><Link href="/albums/example">专辑</Link></article>
         </section>
       </EditorialMotion>,
     );
