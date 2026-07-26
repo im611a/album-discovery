@@ -1,13 +1,9 @@
 import type { CSSProperties } from "react";
 import Link from "next/link";
 import { AlbumCover } from "@/components/albums/album-cover";
-import {
-  formatPartialDate,
-  RELEASE_TYPE_LABELS,
-  type PublishedAlbum,
-  type PublishedAlbumSummary,
-} from "@/catalog/schema";
+import type { PublishedAlbum, PublishedAlbumSummary } from "@/catalog/schema";
 import type { PhysicalArchiveSlot } from "@/config/editorial-home";
+import { RecordPackage } from "./record-package";
 
 type CabinetStyle = CSSProperties & {
   "--slot-size": string;
@@ -45,29 +41,32 @@ export function QuietArchiveOpening() {
         <span className="pa-quiet-device__horizon" />
       </div>
       <RecordConsole />
-      <p className="pa-quiet-device__caption">
-        <span>ARCHIVE DEVICE · STATE 00</span>
-        <strong>先留下装置，再让唱片进入视野。</strong>
-      </p>
     </div>
   );
 }
 
-export function ArchiveAwakeningStructure() {
+export function ArchiveAwakeningStructure({
+  albums,
+}: {
+  albums: { album: PublishedAlbumSummary; slot: PhysicalArchiveSlot }[];
+}) {
   return (
-    <section className="pa-awakening" data-home-state="awakening" aria-labelledby="archive-awakening-title">
-      <header>
-        <p>STATE 01 · 收藏结构</p>
-        <h2 id="archive-awakening-title">墙面、导轨与开口先组成一座空的收藏柜。</h2>
-        <span>这一段只建立容纳唱片的实体关系；还没有任何专辑封面。</span>
+    <section className="pa-archive-axis" data-home-state="awakening" aria-labelledby="archive-awakening-title">
+      <header className="pa-archive-axis__heading">
+        <span>实体收藏轴线</span>
+        <h2 id="archive-awakening-title">从空置装置，到一柜可以翻阅的唱片。</h2>
+        <p>沿着同一座柜体向下，导轨、槽位与唱片依次进入视野。</p>
       </header>
-      <div className="pa-awakening__structure" aria-hidden="true">
+      <div className="pa-archive-axis__device" data-motion-gallery>
+        <div className="pa-awakening__structure" aria-hidden="true">
         <span className="pa-awakening__wall pa-awakening__wall--left" />
         <span className="pa-awakening__wall pa-awakening__wall--right" />
         <span className="pa-awakening__rail pa-awakening__rail--top" />
         <span className="pa-awakening__rail pa-awakening__rail--bottom" />
         <span className="pa-awakening__opening" />
         <span className="pa-awakening__drawer" />
+        </div>
+        <RingCabinet albums={albums} />
       </div>
     </section>
   );
@@ -93,6 +92,7 @@ export function RingCabinet({
           data-position={slot.position}
           data-mobile-visible={slot.mobileVisible}
           data-album-cover
+          data-motion-gallery-item
           key={slot.slot}
           style={{
             "--slot-size": `${slot.baseSize}px`,
@@ -108,23 +108,17 @@ export function RingCabinet({
             href={`/albums/${album.slug}`}
             aria-label={`查看《${album.title}》专辑详情`}
           >
-            <span className="pa-cabinet-slot__spine" aria-hidden="true">{slot.slot}</span>
+            <span className="pa-cabinet-slot__spine" aria-hidden="true">{album.title}</span>
             <AlbumCover album={album} />
             <span className="pa-cabinet-slot__paper-edge" aria-hidden="true" />
           </Link>
           <span className="pa-cabinet-slot__lip" aria-hidden="true" />
-          <p><span>{slot.slot}</span><strong>{album.title}</strong></p>
+          <p><strong>{album.title}</strong></p>
         </article>
       ))}
       <RecordConsole />
     </div>
   );
-}
-
-function durationLabel(durationMs: number | null) {
-  if (durationMs == null) return "";
-  const seconds = Math.round(durationMs / 1000);
-  return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
 }
 
 export function PhysicalAlbumPackage({
@@ -144,89 +138,37 @@ export function PhysicalAlbumPackage({
       data-featured-role={position}
       data-active={active}
       data-album-cover
+      data-motion-deck-item
     >
-      <div className="pa-package__shadow" aria-hidden="true" />
-      <div className="pa-package__vinyl" aria-hidden="true">
-        <span className="pa-package__grooves" />
-        <span className="pa-package__label"><small>ALBUM DISCOVERY</small><strong>{album.title}</strong><i /></span>
-      </div>
-      <div className="pa-package__inner" aria-hidden="true">
-        <span>{album.trackCount} TRACKS</span>
-      </div>
-      <div className="pa-package__jacket">
-        <span className="pa-package__spine" aria-hidden="true">
-          {album.title} · {album.artists.map((artist) => artist.name).join("、")}
-        </span>
-        <Link className="pa-package__front" href={`/albums/${album.slug}`}>
-          <AlbumCover album={album} size="detail" />
-          <span className="pa-package__gloss" aria-hidden="true" />
-        </Link>
-        {active ? (
-          <div className="pa-package__back" aria-hidden="true">
-            <strong>{album.title}</strong>
-            <ol>
-              {album.tracks.slice(0, 5).map((track) => (
-                <li key={track.id}>
-                  <span>{String(track.trackNumber).padStart(2, "0")} {track.title}</span>
-                  <time>{durationLabel(track.durationMs)}</time>
-                </li>
-              ))}
-            </ol>
-          </div>
-        ) : null}
-      </div>
-      {active ? (
-        <div className="pa-package__sheet" aria-hidden="true">
-          <small>ARCHIVE EDITION</small>
-          <strong>{album.neteaseAlbumId}</strong>
-          <span>
-            {formatPartialDate(album.releaseDate, album.releaseDatePrecision)}
-            {" · "}
-            {RELEASE_TYPE_LABELS[album.albumType]}
-          </span>
-        </div>
-      ) : null}
+      <RecordPackage album={album} expanded={active} />
       <p className="pa-package__side-label">
-        <span>{position === "previous" ? "PREVIOUS" : position === "next" ? "NEXT" : "ACTIVE"}</span>
         <strong>{album.title}</strong>
+        <span>{album.artists.map((artist) => artist.name).join("、")}</span>
       </p>
     </article>
   );
 }
 
 export function ThreeAlbumStage({ albums }: { albums: PublishedAlbum[] }) {
+  if (albums.length < 3) return null;
+  const [previous, active, next] = albums;
+
   return (
     <section className="pa-featured" aria-labelledby="featured-sequence-title">
       <header className="pa-section-heading">
-        <p>/01–03</p>
+        <p>三张唱片</p>
         <div>
           <span>重点专辑展台</span>
-          <h2 id="featured-sequence-title">三张唱片，三次完整展开。</h2>
-          <p>每一幕保留前一张与下一张的实体位置；中央包装使用真实封面、曲目和发行字段。</p>
+          <h2 id="featured-sequence-title">一座展台，同时保留前后关系。</h2>
+          <p>中央唱片打开为完整包装；前一张与后一张始终留在同一条收藏轴线上。</p>
         </div>
       </header>
-      <div className="pa-featured__scenes">
-        {albums.map((album, index) => {
-          const previous = albums[(index + albums.length - 1) % albums.length];
-          const next = albums[(index + 1) % albums.length];
-          return (
-            <section className="pa-featured-scene" key={album.id} aria-labelledby={`featured-${index + 1}`}>
-              <header>
-                <span>/{String(index + 1).padStart(2, "0")}</span>
-                <div>
-                  <small>完整聆听</small>
-                  <h3 id={`featured-${index + 1}`}><Link href={`/albums/${album.slug}`}>{album.title}</Link></h3>
-                  <p>{album.artists.map((artist) => artist.name).join("、")} · {album.releaseDate?.slice(0, 4) ?? "日期暂缺"}</p>
-                </div>
-              </header>
-              <div className="pa-featured-scene__stage">
-                <PhysicalAlbumPackage album={previous} position="previous" />
-                <PhysicalAlbumPackage album={album} active position="active" />
-                <PhysicalAlbumPackage album={next} position="next" />
-              </div>
-            </section>
-          );
-        })}
+      <div className="pa-featured-scene" data-motion-deck>
+        <div className="pa-featured-scene__stage">
+          <PhysicalAlbumPackage album={previous} position="previous" />
+          <PhysicalAlbumPackage album={active} active position="active" />
+          <PhysicalAlbumPackage album={next} position="next" />
+        </div>
       </div>
     </section>
   );

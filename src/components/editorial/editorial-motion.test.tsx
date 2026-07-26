@@ -69,4 +69,15 @@ describe("EditorialMotion", () => {
     );
     expect(container.querySelector("button")).toHaveAttribute("tabindex", "-1");
   });
+
+  it("keeps an offscreen record stage out of the tab order", () => {
+    const { container } = render(
+      <EditorialMotion>
+        <section data-motion-deck>
+          <article data-motion-deck-item><a href="/albums/example">专辑</a></article>
+        </section>
+      </EditorialMotion>,
+    );
+    expect(container.querySelector("a")).toHaveAttribute("tabindex", "-1");
+  });
 });

@@ -2,9 +2,9 @@ import Link from "next/link";
 import {
   ArchiveAwakeningStructure,
   QuietArchiveOpening,
-  RingCabinet,
   ThreeAlbumStage,
 } from "@/components/editorial/physical-archive-home";
+import { EditorialMotion } from "@/components/editorial/editorial-motion";
 import {
   ArtistFeature,
   DecadeTimeline,
@@ -32,11 +32,11 @@ export default function Home() {
   const yearRange = years.length ? `${Math.min(...years)}—${Math.max(...years)}` : "发行年份持续整理";
 
   return (
-    <div className="site-shell pa-site">
+    <EditorialMotion className="site-shell pa-site">
       <SiteHeader />
       <main id="main-content">
         <section className="pa-opening" aria-labelledby="pa-home-title" data-static-archive-opening>
-          <header className="pa-opening__title">
+          <header className="pa-opening__title" data-motion-opening-copy>
             <p>Album Discovery</p>
             <h1 id="pa-home-title">专辑发现</h1>
             <span>从真实唱片、流派与聆听线索出发。</span>
@@ -50,18 +50,7 @@ export default function Home() {
         </section>
 
         <div className="pa-home-flow page-container">
-          <ArchiveAwakeningStructure />
-          <section className="pa-full-cabinet" aria-labelledby="full-cabinet-title">
-            <header className="pa-section-heading">
-              <p>STATE 02</p>
-              <div>
-                <span>完整收藏柜</span>
-                <h2 id="full-cabinet-title">六个固定槽位，让唱片真正进入结构。</h2>
-                <p>封套被侧壁、前唇与柜体包围；每张唱片仍可聚焦并进入对应档案。</p>
-              </div>
-            </header>
-            <RingCabinet albums={cabinetAlbums} />
-          </section>
+          <ArchiveAwakeningStructure albums={cabinetAlbums} />
           <ThreeAlbumStage albums={featuredAlbums} />
           <ArtistFeature />
           <GenreIndex />
@@ -72,6 +61,6 @@ export default function Home() {
         </div>
       </main>
       <SiteFooter />
-    </div>
+    </EditorialMotion>
   );
 }

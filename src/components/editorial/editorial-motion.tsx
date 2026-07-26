@@ -110,9 +110,8 @@ export function EditorialMotion({ children, className }: { children: ReactNode; 
 
       if (deck) {
         const bounds = deck.getBoundingClientRect();
-        element.dataset.deckVisible = bounds.bottom > 0 && bounds.top < window.innerHeight
-          ? "true"
-          : "false";
+        const deckVisible = bounds.bottom > 0 && bounds.top < window.innerHeight;
+        element.dataset.deckVisible = deckVisible ? "true" : "false";
         const progress = getScrollProgress(
           window.scrollY,
           window.scrollY + bounds.top,
@@ -125,7 +124,7 @@ export function EditorialMotion({ children, className }: { children: ReactNode; 
         deckItems.forEach((item, index) => {
           const active = index === activeIndex;
           item.dataset.active = active ? "true" : "false";
-          setInteractiveState(item, active);
+          setInteractiveState(item, deckVisible && active);
         });
       }
     };

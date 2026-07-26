@@ -51,7 +51,7 @@ export function ArtistFeature() {
         id="artist-feature-title"
       />
       <div className="pa-artist-archive__drawers">
-        {artists.map((artist, index) => {
+        {artists.map((artist) => {
           const albums = artist.albumIds.flatMap((id) => {
             const album = catalogAlbums.find((item) => item.id === id);
             return album ? [album] : [];
@@ -63,7 +63,6 @@ export function ArtistFeature() {
           return (
             <article className="pa-artist-drawer" key={artist.artistId}>
               <div className="pa-artist-drawer__handle" aria-hidden="true"><span /></div>
-              <p className="pa-artist-drawer__number">A-{String(index + 1).padStart(2, "0")}</p>
               <div className="pa-artist-drawer__identity">
                 <h3><Link href={`/artists/${artist.slug}`}>{artist.name}</Link></h3>
                 <p>{artist.albumCount} 张收录专辑{typeSummary ? ` · ${typeSummary}` : ""}</p>
