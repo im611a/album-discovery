@@ -1104,6 +1104,193 @@ a[target="_blank"]:hover {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
 
+/* Reference-driven discover prototype: Radix Dialog supplies focus and
+   keyboard mechanics; catalog filters and URL state remain project-owned. */
+.pa-discover-filter__trigger {
+  width: 100%;
+  min-height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 34px 0 16px;
+  border: 1px solid rgb(112 148 174 / 34%);
+  border-inline: 0;
+  padding: 16px 2px;
+  color: var(--text-primary);
+  background: transparent;
+  text-align: left;
+}
+
+.pa-discover-filter__trigger span {
+  font: 400 clamp(1.7rem, 3vw, 3.4rem)/1 "Songti SC", "STSong", "SimSun", serif;
+}
+
+.pa-discover-filter__trigger small {
+  color: var(--text-secondary);
+  font-size: .76rem;
+}
+
+.pa-discover-filter__overlay {
+  position: fixed;
+  z-index: 80;
+  inset: 0;
+  background: rgb(1 6 11 / 76%);
+  backdrop-filter: blur(6px);
+}
+
+.pa-discover-filter__content {
+  position: fixed;
+  z-index: 81;
+  top: 50%;
+  left: 50%;
+  width: min(1120px, calc(100vw - 48px));
+  max-height: min(84svh, 760px);
+  overflow-y: auto;
+  border: 1px solid rgb(126 160 185 / 38%);
+  padding: clamp(24px, 4vw, 54px);
+  color: var(--text-primary);
+  background:
+    linear-gradient(120deg, rgb(20 43 60 / 94%), rgb(3 11 19 / 99%) 58%),
+    var(--background);
+  box-shadow: 0 38px 100px rgb(0 0 0 / 68%);
+  transform: translate(-50%, -50%);
+}
+
+.pa-discover-filter__header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  border-bottom: 1px solid rgb(118 151 175 / 26%);
+  padding-bottom: 24px;
+}
+
+.pa-discover-filter__header p {
+  margin: 0 0 8px;
+  color: var(--text-muted);
+  font-size: .7rem;
+  letter-spacing: .14em;
+}
+
+.pa-discover-filter__header h2 {
+  margin: 0;
+  font: 400 clamp(2.4rem, 5vw, 5.4rem)/.94 "Songti SC", "STSong", "SimSun", serif;
+}
+
+.pa-discover-filter__description {
+  max-width: 40rem;
+  margin: 12px 0 0;
+  color: var(--text-secondary);
+}
+
+.pa-discover-filter__close,
+.pa-discover-filter__done {
+  min-height: 44px;
+  border: 1px solid rgb(130 164 188 / 42%);
+  padding: 9px 16px;
+  color: var(--text-primary);
+  background: rgb(16 38 54 / 75%);
+}
+
+.pa-discover-filter__body .filter-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px 18px;
+  padding: 34px 0;
+}
+
+.pa-discover-filter__body .filter-grid label {
+  min-width: 0;
+}
+
+.pa-discover-filter__done {
+  display: block;
+  margin-left: auto;
+}
+
+.pa-discover-filter__overlay[data-state="open"],
+.pa-discover-filter__content[data-state="open"] {
+  animation: pa-dialog-enter .18s ease-out;
+}
+
+@keyframes pa-dialog-enter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 760px) {
+  .pa-discover-filter__trigger {
+    min-height: 64px;
+    margin-top: 22px;
+  }
+
+  .pa-discover-filter__trigger span {
+    font-size: 1.65rem;
+  }
+
+  .pa-discover-filter__trigger small {
+    max-width: 14ch;
+    text-align: right;
+  }
+
+  .pa-discover-filter__content {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-height: 88svh;
+    border-inline: 0;
+    border-bottom: 0;
+    border-radius: 22px 22px 0 0;
+    padding: 22px 18px max(24px, env(safe-area-inset-bottom));
+    transform: none;
+  }
+
+  .pa-discover-filter__content::before {
+    content: "";
+    display: block;
+    width: 46px;
+    height: 4px;
+    margin: -9px auto 16px;
+    border-radius: 4px;
+    background: rgb(159 188 209 / 46%);
+  }
+
+  .pa-discover-filter__header {
+    gap: 12px;
+    padding-bottom: 18px;
+  }
+
+  .pa-discover-filter__header h2 {
+    font-size: 2.45rem;
+  }
+
+  .pa-discover-filter__description {
+    font-size: .82rem;
+  }
+
+  .pa-discover-filter__body .filter-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 22px 0;
+  }
+
+  .pa-discover-filter__body select {
+    min-height: 48px;
+  }
+
+  .pa-discover-filter__done {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pa-discover-filter__overlay,
+  .pa-discover-filter__content {
+    animation: none !important;
+  }
+}
+
 /* V1.1 physical archive static art direction. Complex motion is intentionally
    absent until the static direction receives human approval. */
 .pa-site {

@@ -1,6 +1,8 @@
 "use client";
 
+import * as Dialog from "@radix-ui/react-dialog";
 import { useRouter, useSearchParams } from "next/navigation";
+import type { ReactNode } from "react";
 import { AlbumGrid } from "@/components/album-grid";
 import { buildDiscoverOptions, discoverAlbums, type CatalogSort, type DiscoverFilters } from "@/catalog/queries";
 import { catalogAlbums, getTaxonomyLabel } from "@/catalog/published-catalog";
@@ -15,6 +17,48 @@ const releaseTypes = Object.entries(RELEASE_TYPE_LABELS) as Array<[ReleaseType, 
 const hasRymRatings = catalogAlbums.some((album) => album.rymRating != null);
 type DiscoverOptions = ReturnType<typeof buildDiscoverOptions>;
 type UpdateFilter = (key: string, value: string | boolean) => void;
+
+function DiscoverFilterDialog({
+  activeCount,
+  sortLabel,
+  children,
+}: {
+  activeCount: number;
+  sortLabel: string;
+  children: ReactNode;
+}) {
+  return (
+    <Dialog.Root>
+      <Dialog.Trigger asChild>
+        <button className="pa-discover-filter__trigger" type="button">
+          <span>筛选馆藏</span>
+          <small>{activeCount} 项已选 · {sortLabel}</small>
+        </button>
+      </Dialog.Trigger>
+      <Dialog.Portal>
+        <Dialog.Overlay className="pa-discover-filter__overlay" />
+        <Dialog.Content className="pa-discover-filter__content">
+          <header className="pa-discover-filter__header">
+            <div>
+              <p>馆藏索引</p>
+              <Dialog.Title>筛选与排序</Dialog.Title>
+              <Dialog.Description className="pa-discover-filter__description">
+                选择真实存在于本地目录的分类；变更会同步到当前网址。
+              </Dialog.Description>
+            </div>
+            <Dialog.Close className="pa-discover-filter__close" aria-label="关闭筛选面板">
+              关闭
+            </Dialog.Close>
+          </header>
+          <div className="pa-discover-filter__body">
+            {children}
+          </div>
+          <Dialog.Close className="pa-discover-filter__done">查看当前结果</Dialog.Close>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog.Root>
+  );
+}
 
 export function DiscoverFilterFields({
   filterOptions,
@@ -58,8 +102,11 @@ export function DiscoverCatalog() {
     filters.releaseType ? ["type", RELEASE_TYPE_LABELS[filters.releaseType]] : null,
     filters.editorialOnly ? ["guide", "有完整导览"] : null,
   ].filter(Boolean) as string[][];
+  const sortLabel = sorts.find(([value]) => value === sort)?.[1] ?? "最近收录";
   return <>
-    <details className="filter-panel pa-filter-desk"><summary><span className="pa-filter-desk__label">筛选与排序</span><span>{active.length} 项已选</span></summary><DiscoverFilterFields filterOptions={options} filters={filters} sort={sort} update={update} /></details>
+    <DiscoverFilterDialog activeCount={active.length} sortLabel={sortLabel}>
+      <DiscoverFilterFields filterOptions={options} filters={filters} sort={sort} update={update} />
+    </DiscoverFilterDialog>
     {active.length ? <div className="active-filters" aria-label="当前筛选">{active.map(([key, label]) => <button key={key} type="button" onClick={() => update(key, "")}>{label}<span aria-hidden="true">×</span><span className="visually-hidden">移除此筛选</span></button>)}</div> : null}
     <div className="results-bar"><p aria-live="polite">找到 <strong>{results.length}</strong> 张专辑 · 当前显示 {page.items.length} 张</p>{params.size ? <button type="button" onClick={() => router.push("/discover", { scroll: false })}>清除全部</button> : null}</div>
     {results.length ? <AlbumGrid albums={page.items} /> : <div className="empty-state"><h2>当前条件下没有专辑</h2><p>试着减少一个筛选条件，或清除全部筛选。</p></div>}
