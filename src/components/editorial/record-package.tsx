@@ -16,10 +16,12 @@ export function RecordPackage({
   album,
   expanded = false,
   detailHref = `/albums/${album.slug}`,
+  linkFront = true,
 }: {
   album: PublishedAlbum;
   expanded?: boolean;
   detailHref?: string;
+  linkFront?: boolean;
 }) {
   const artistNames = album.artists.map((artist) => artist.name).join("、");
 
@@ -66,14 +68,21 @@ export function RecordPackage({
             </ol>
           </div>
         </div>
-        <Link
-          className="record-package__front"
-          href={detailHref}
-          aria-label={`查看《${album.title}》专辑详情`}
-        >
-          <AlbumCover album={album} size="detail" />
-          <span className="record-package__gloss" aria-hidden="true" />
-        </Link>
+        {linkFront ? (
+          <Link
+            className="record-package__front"
+            href={detailHref}
+            aria-label={`查看《${album.title}》专辑详情`}
+          >
+            <AlbumCover album={album} size="detail" />
+            <span className="record-package__gloss" aria-hidden="true" />
+          </Link>
+        ) : (
+          <div className="record-package__front">
+            <AlbumCover album={album} size="detail" />
+            <span className="record-package__gloss" aria-hidden="true" />
+          </div>
+        )}
       </div>
     </div>
   );

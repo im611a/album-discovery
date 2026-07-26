@@ -56,6 +56,8 @@ describe("AlbumDetail", () => {
     const { container } = render(<PersonalStateProvider><AlbumDetail album={album} sameArtistAlbums={[sameArtist]} /></PersonalStateProvider>);
     const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
     expect(headings.indexOf("同艺人其他专辑")).toBeLessThan(headings.indexOf("继续探索"));
+    expect(container.querySelector(".pa-same-artist-shelf")).toBeInTheDocument();
+    expect(container.querySelector(".pa-same-artist-shelf .album-grid")).not.toBeInTheDocument();
   });
 
   it("keeps the approved archive order from rating and taxonomy through tracks", () => {
@@ -73,9 +75,19 @@ describe("AlbumDetail", () => {
 
   it("renders the cover as a physical archive object without changing album actions", async () => {
     const { container } = render(<PersonalStateProvider><AlbumDetail album={getAlbumDetailBySlug("wake-after-the-rain")!} /></PersonalStateProvider>);
-    expect(container.querySelector(".pa-album-file__object .album-cover")).toBeInTheDocument();
-    expect(container.querySelector(".pa-album-file__vinyl")).toBeInTheDocument();
+    expect(container.querySelector(".pa-album-file__object [data-record-package]")).toBeInTheDocument();
+    expect(container.querySelector(".pa-album-file__object .record-package__inner-sleeve")).toBeInTheDocument();
+    expect(container.querySelector(".pa-album-file__object .record-package__vinyl")).toBeInTheDocument();
+    expect(container.querySelector(".pa-album-file__object .record-package__track-sheet")).toBeInTheDocument();
     expect((await screen.findAllByRole("button", { name: "想听" })).length).toBeGreaterThan(0);
+  });
+
+  it("renders continue exploring as relationship paths with real reasons", () => {
+    const { container } = renderDetail("wake-after-the-rain");
+    const paths = container.querySelectorAll(".pa-relation-paths__item");
+    expect(paths.length).toBeGreaterThan(0);
+    expect(container.querySelector(".continue-exploring .album-grid")).not.toBeInTheDocument();
+    expect(container.querySelector(".pa-relation-paths__line strong")?.textContent).toMatch(/共享(核心|相关)流派/);
   });
 
   it("does not render an empty same-artist section", () => {

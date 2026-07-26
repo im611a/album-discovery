@@ -1104,6 +1104,177 @@ a[target="_blank"]:hover {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
 }
 
+/* Reference-driven album detail prototype. */
+.pa-album-file__object > .record-package {
+  position: relative;
+  width: min(100%, 620px);
+  min-height: clamp(420px, 43vw, 650px);
+}
+
+.pa-album-file__object > .record-package .record-package__object {
+  inset: 6% 18% 8% 2%;
+}
+
+.pa-same-artist-shelf {
+  position: relative;
+  display: flex;
+  align-items: end;
+  min-height: 310px;
+  overflow: hidden;
+  border: 1px solid rgb(112 145 169 / 28%);
+  border-bottom-width: 18px;
+  padding: 34px 30px 14px;
+  background:
+    linear-gradient(180deg, transparent 72%, rgb(24 48 65 / 72%)),
+    rgb(3 11 18 / 76%);
+}
+
+.pa-same-artist-shelf__record {
+  position: relative;
+  display: grid;
+  width: min(20%, 190px);
+  min-width: 120px;
+  margin-left: -2.5%;
+  border-left: 9px solid #172837;
+  padding-bottom: 8px;
+  color: var(--text-primary);
+  background: #07121d;
+  box-shadow: 12px 20px 34px rgb(0 0 0 / 48%);
+  transform: translateY(var(--shelf-lift, 0)) rotate(var(--shelf-tilt, 0));
+}
+
+.pa-same-artist-shelf__record:first-child { margin-left: 0; }
+.pa-same-artist-shelf__record:nth-child(2n) { --shelf-lift: -18px; --shelf-tilt: 1deg; }
+.pa-same-artist-shelf__record:nth-child(3n) { --shelf-lift: -7px; --shelf-tilt: -1deg; }
+.pa-same-artist-shelf__record .album-cover { width: 100%; }
+.pa-same-artist-shelf__record > span:not(.pa-same-artist-shelf__spine),
+.pa-same-artist-shelf__record > strong {
+  padding-inline: 9px;
+}
+.pa-same-artist-shelf__record > span:not(.pa-same-artist-shelf__spine) {
+  margin-top: 8px;
+  color: var(--text-muted);
+  font-size: .66rem;
+}
+.pa-same-artist-shelf__record > strong {
+  overflow: hidden;
+  font-size: .84rem;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pa-same-artist-shelf__spine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -9px;
+  width: 9px;
+  overflow: hidden;
+  color: transparent;
+  writing-mode: vertical-rl;
+}
+
+.pa-relation-paths {
+  display: grid;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.pa-relation-paths__item {
+  display: grid;
+  grid-template-columns: 42px minmax(140px, .75fr) minmax(260px, 1.25fr);
+  gap: 18px;
+  align-items: center;
+  min-height: 126px;
+  border-block: 1px solid rgb(112 148 173 / 22%);
+  padding: 12px 0;
+}
+
+.pa-relation-paths__origin {
+  color: var(--text-muted);
+  font-size: .68rem;
+}
+
+.pa-relation-paths__line {
+  position: relative;
+  display: grid;
+  gap: 9px;
+  color: var(--text-secondary);
+}
+
+.pa-relation-paths__line i {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, #7397b2, transparent);
+}
+
+.pa-relation-paths__line i::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: 0;
+  width: 7px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #8fb1c9;
+}
+
+.pa-relation-paths__line strong {
+  font-size: .72rem;
+  font-weight: 400;
+}
+
+.pa-relation-paths__target {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+}
+
+.pa-relation-paths__target .album-cover { width: 92px; }
+.pa-relation-paths__target > span { display: grid; gap: 4px; }
+.pa-relation-paths__target strong {
+  font: 400 clamp(1.25rem, 2.2vw, 2rem)/1.05 "Songti SC", "STSong", "SimSun", serif;
+}
+.pa-relation-paths__target small { color: var(--text-secondary); }
+
+@media (max-width: 760px) {
+  .pa-album-file__object > .record-package {
+    min-height: min(112vw, 450px);
+  }
+
+  .pa-same-artist-shelf {
+    min-height: 240px;
+    overflow-x: auto;
+    padding-inline: 18px;
+  }
+
+  .pa-same-artist-shelf__record {
+    width: 42%;
+    min-width: 132px;
+  }
+
+  .pa-relation-paths__item {
+    grid-template-columns: 28px 1fr;
+    gap: 10px 12px;
+  }
+
+  .pa-relation-paths__line {
+    grid-column: 2;
+  }
+
+  .pa-relation-paths__target {
+    grid-column: 2;
+    grid-template-columns: 74px minmax(0, 1fr);
+  }
+
+  .pa-relation-paths__target .album-cover {
+    width: 74px;
+  }
+}
+
 /* Reference-driven discover prototype: Radix Dialog supplies focus and
    keyboard mechanics; catalog filters and URL state remain project-owned. */
 .pa-discover-filter__trigger {
