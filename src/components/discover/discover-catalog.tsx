@@ -59,7 +59,7 @@ export function DiscoverCatalog() {
     filters.editorialOnly ? ["guide", "有完整导览"] : null,
   ].filter(Boolean) as string[][];
   return <>
-    <details className="filter-panel pa-filter-desk" open><summary><span className="pa-filter-desk__label">筛选与排序</span><span>{active.length} 项已选</span></summary><DiscoverFilterFields filterOptions={options} filters={filters} sort={sort} update={update} /></details>
+    <details className="filter-panel pa-filter-desk"><summary><span className="pa-filter-desk__label">筛选与排序</span><span>{active.length} 项已选</span></summary><DiscoverFilterFields filterOptions={options} filters={filters} sort={sort} update={update} /></details>
     {active.length ? <div className="active-filters" aria-label="当前筛选">{active.map(([key, label]) => <button key={key} type="button" onClick={() => update(key, "")}>{label}<span aria-hidden="true">×</span><span className="visually-hidden">移除此筛选</span></button>)}</div> : null}
     <div className="results-bar"><p aria-live="polite">找到 <strong>{results.length}</strong> 张专辑 · 当前显示 {page.items.length} 张</p>{params.size ? <button type="button" onClick={() => router.push("/discover", { scroll: false })}>清除全部</button> : null}</div>
     {results.length ? <AlbumGrid albums={page.items} /> : <div className="empty-state"><h2>当前条件下没有专辑</h2><p>试着减少一个筛选条件，或清除全部筛选。</p></div>}

@@ -36,13 +36,50 @@ export function RecordConsole() {
   );
 }
 
+export function QuietArchiveOpening() {
+  return (
+    <div className="pa-quiet-device" data-home-state="quiet">
+      <div className="pa-quiet-device__field" aria-hidden="true">
+        <span className="pa-quiet-device__wall pa-quiet-device__wall--left" />
+        <span className="pa-quiet-device__wall pa-quiet-device__wall--right" />
+        <span className="pa-quiet-device__horizon" />
+      </div>
+      <RecordConsole />
+      <p className="pa-quiet-device__caption">
+        <span>ARCHIVE DEVICE · STATE 00</span>
+        <strong>先留下装置，再让唱片进入视野。</strong>
+      </p>
+    </div>
+  );
+}
+
+export function ArchiveAwakeningStructure() {
+  return (
+    <section className="pa-awakening" data-home-state="awakening" aria-labelledby="archive-awakening-title">
+      <header>
+        <p>STATE 01 · 收藏结构</p>
+        <h2 id="archive-awakening-title">墙面、导轨与开口先组成一座空的收藏柜。</h2>
+        <span>这一段只建立容纳唱片的实体关系；还没有任何专辑封面。</span>
+      </header>
+      <div className="pa-awakening__structure" aria-hidden="true">
+        <span className="pa-awakening__wall pa-awakening__wall--left" />
+        <span className="pa-awakening__wall pa-awakening__wall--right" />
+        <span className="pa-awakening__rail pa-awakening__rail--top" />
+        <span className="pa-awakening__rail pa-awakening__rail--bottom" />
+        <span className="pa-awakening__opening" />
+        <span className="pa-awakening__drawer" />
+      </div>
+    </section>
+  );
+}
+
 export function RingCabinet({
   albums,
 }: {
   albums: { album: PublishedAlbumSummary; slot: PhysicalArchiveSlot }[];
 }) {
   return (
-    <div className="pa-cabinet" data-ring-cabinet>
+    <div className="pa-cabinet" data-ring-cabinet data-home-state="cabinet">
       <div className="pa-cabinet__body" aria-hidden="true">
         <span className="pa-cabinet__outer-edge" />
         <span className="pa-cabinet__inner-edge" />
@@ -100,7 +137,14 @@ export function PhysicalAlbumPackage({
   position: "previous" | "active" | "next";
 }) {
   return (
-    <article className="pa-package" data-position={position} data-active={active} data-album-cover>
+    <article
+      className="pa-package"
+      data-position={position}
+      data-featured-album
+      data-featured-role={position}
+      data-active={active}
+      data-album-cover
+    >
       <div className="pa-package__shadow" aria-hidden="true" />
       <div className="pa-package__vinyl" aria-hidden="true">
         <span className="pa-package__grooves" />

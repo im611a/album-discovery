@@ -50,7 +50,7 @@ export function ExploreCatalog() {
     router.push(`/explore?${next}`, { scroll: false });
   }
 
-  return <div className="explore-catalog">
+  return <div className="explore-catalog pa-relation-path" data-explore-mode={mode}>
     <nav className="explore-modes" aria-label="探索模式">
       {MODES.map(([value, label]) => <Link key={value} href={value === "random" ? "/explore?mode=random&seed=12345" : `/explore?mode=${value}`} aria-current={mode === value ? "page" : undefined}>{label}</Link>)}
     </nav>
@@ -66,6 +66,7 @@ export function ExploreCatalog() {
       <button className="button button--secondary" type="button" onClick={() => setSelection("random", String(Date.now()))}>换一个种子</button>
       <p>相同种子始终得到同一张专辑；不感兴趣状态只在本机参与排除，不写入 URL。</p>
     </div>}
+    <div className="pa-relation-path__line" aria-hidden="true"><span>种子</span><i /><span>关系</span><i /><span>下一张</span></div>
     <div className="results-bar"><p aria-live="polite">{mode === "random" ? (randomAlbum ? "1 张稳定随机结果" : "当前没有可用结果") : `${results.length} 张专辑`}</p></div>
     {mode === "random"
       ? randomAlbum ? <AlbumGrid albums={[randomAlbum]} reasons={randomReasons} /> : <div className="empty-state"><h2>当前没有可探索专辑</h2></div>
