@@ -4,7 +4,7 @@ import { SiteHeader } from "@/components/site-header";
 import { catalogAlbums, publishedArtists } from "@/catalog/published-catalog";
 
 export default function AboutPage() {
-  return <div className="site-shell"><SiteHeader /><main className="page-main page-container" id="main-content">
+  return <div className="site-shell"><SiteHeader /><main className="page-main page-container pa-reading-page" id="main-content">
     <header className="page-intro"><p className="eyebrow">Album Discovery Archive</p><h1>关于本站</h1><p>这是一个面向中文读者的静态专辑档案与发现工具：用真实目录、可说明的分类和本机偏好，帮助你找到下一张值得完整聆听的专辑。</p></header>
     <div className="about-editorial">
       <section><p className="section-kicker">目录</p><h2>{catalogAlbums.length} 张专辑，{publishedArtists.length} 位艺人</h2><p>页面只读取随网站发布的本地快照，不会在浏览时请求音乐数据服务。缺失的评分或分类保持缺失，不用推测值补齐。</p></section>
