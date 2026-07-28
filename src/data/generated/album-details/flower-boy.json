@@ -1,0 +1,219 @@
+{
+  "internalId": "album:35745181",
+  "id": "album:35745181",
+  "neteaseAlbumId": "35745181",
+  "slug": "flower-boy",
+  "title": "Flower Boy",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:44708",
+      "neteaseArtistId": "44708",
+      "name": "Tyler, The Creator"
+    }
+  ],
+  "releaseDate": "2017-07-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35745181.webp",
+    "alt": "《Flower Boy》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/35745181.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:491943376",
+      "neteaseTrackId": "491943376",
+      "title": "Foreword",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Rex Orange County"
+      ],
+      "durationMs": 194118
+    },
+    {
+      "id": "netease-track:491955347",
+      "neteaseTrackId": "491955347",
+      "title": "Where This Flower Blooms",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Frank Ocean"
+      ],
+      "durationMs": 194977
+    },
+    {
+      "id": "netease-track:491943378",
+      "neteaseTrackId": "491943378",
+      "title": "Sometimes...",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 36205
+    },
+    {
+      "id": "netease-track:491943377",
+      "neteaseTrackId": "491943377",
+      "title": "See You Again",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Kali Uchis"
+      ],
+      "durationMs": 180442
+    },
+    {
+      "id": "netease-track:491955346",
+      "neteaseTrackId": "491955346",
+      "title": "Who Dat Boy",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "A$AP Rocky"
+      ],
+      "durationMs": 205148
+    },
+    {
+      "id": "netease-track:491943374",
+      "neteaseTrackId": "491943374",
+      "title": "Pothole",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Jaden"
+      ],
+      "durationMs": 237052
+    },
+    {
+      "id": "netease-track:491943375",
+      "neteaseTrackId": "491943375",
+      "title": "Garden Shed",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Estelle"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:489997736",
+      "neteaseTrackId": "489997736",
+      "title": "Boredom",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Anna of the North",
+        "Rex Orange County"
+      ],
+      "durationMs": 320783
+    },
+    {
+      "id": "netease-track:491943373",
+      "neteaseTrackId": "491943373",
+      "title": "I Ain't Got Time!",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 206332
+    },
+    {
+      "id": "netease-track:491943372",
+      "neteaseTrackId": "491943372",
+      "title": "911 / Mr. Lonely",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Frank Ocean",
+        "Steve Lacy"
+      ],
+      "durationMs": 255721
+    },
+    {
+      "id": "netease-track:491943371",
+      "neteaseTrackId": "491943371",
+      "title": "Droppin' Seeds",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Lil Wayne"
+      ],
+      "durationMs": 60046
+    },
+    {
+      "id": "netease-track:491955344",
+      "neteaseTrackId": "491955344",
+      "title": "November",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 225410
+    },
+    {
+      "id": "netease-track:491943370",
+      "neteaseTrackId": "491943370",
+      "title": "Glitter",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 224954
+    },
+    {
+      "id": "netease-track:491955343",
+      "neteaseTrackId": "491955343",
+      "title": "Enjoy Right Now, Today",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 235450
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=35745181",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:55:02.198Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Flower Boy Tyler, The Creator",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

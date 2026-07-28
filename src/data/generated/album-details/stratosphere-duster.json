@@ -1,0 +1,241 @@
+{
+  "internalId": "album:246863",
+  "id": "album:246863",
+  "neteaseAlbumId": "246863",
+  "slug": "stratosphere-duster",
+  "title": "Stratosphere",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:53566",
+      "neteaseArtistId": "53566",
+      "name": "Duster"
+    }
+  ],
+  "releaseDate": "1998-02-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Numero Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/246863.webp",
+    "alt": "《Stratosphere》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/246863.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2451040",
+      "neteaseTrackId": "2451040",
+      "title": "Moon Age",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 66266
+    },
+    {
+      "id": "netease-track:2451043",
+      "neteaseTrackId": "2451043",
+      "title": "Heading for the Door",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 188173
+    },
+    {
+      "id": "netease-track:2451046",
+      "neteaseTrackId": "2451046",
+      "title": "Gold Dust",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 125933
+    },
+    {
+      "id": "netease-track:2451050",
+      "neteaseTrackId": "2451050",
+      "title": "Topical Solution",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 300893
+    },
+    {
+      "id": "netease-track:2451052",
+      "neteaseTrackId": "2451052",
+      "title": "Docking the Pod",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 110640
+    },
+    {
+      "id": "netease-track:2451055",
+      "neteaseTrackId": "2451055",
+      "title": "The Landing",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 163160
+    },
+    {
+      "id": "netease-track:2451058",
+      "neteaseTrackId": "2451058",
+      "title": "Echo, Bravo",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 272040
+    },
+    {
+      "id": "netease-track:2451063",
+      "neteaseTrackId": "2451063",
+      "title": "Constellations",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 223259
+    },
+    {
+      "id": "netease-track:2451066",
+      "neteaseTrackId": "2451066",
+      "title": "The Queen of Hearts",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 259426
+    },
+    {
+      "id": "netease-track:2451070",
+      "neteaseTrackId": "2451070",
+      "title": "Two Way Radio",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 19400
+    },
+    {
+      "id": "netease-track:2451074",
+      "neteaseTrackId": "2451074",
+      "title": "Inside Out",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 141040
+    },
+    {
+      "id": "netease-track:2451078",
+      "neteaseTrackId": "2451078",
+      "title": "Stratosphere",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 417533
+    },
+    {
+      "id": "netease-track:2451082",
+      "neteaseTrackId": "2451082",
+      "title": "Reed to Hillsborough",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 240800
+    },
+    {
+      "id": "netease-track:2451085",
+      "neteaseTrackId": "2451085",
+      "title": "Shadows of Planes",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 110133
+    },
+    {
+      "id": "netease-track:2451089",
+      "neteaseTrackId": "2451089",
+      "title": "Earth Moon Transit",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 263493
+    },
+    {
+      "id": "netease-track:2451093",
+      "neteaseTrackId": "2451093",
+      "title": "The Twins / Romantica",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 222933
+    },
+    {
+      "id": "netease-track:2451098",
+      "neteaseTrackId": "2451098",
+      "title": "Sideria",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 107600
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=246863",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:53:35.412Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Stratosphere Duster",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

@@ -1,0 +1,153 @@
+{
+  "internalId": "album:88561267",
+  "id": "album:88561267",
+  "neteaseAlbumId": "88561267",
+  "slug": "american-football-1999",
+  "title": "American Football",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:85804",
+      "neteaseArtistId": "85804",
+      "name": "American Football"
+    }
+  ],
+  "releaseDate": "1999-09-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/88561267.webp",
+    "alt": "《American Football》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/88561267.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1443541165",
+      "neteaseTrackId": "1443541165",
+      "title": "Never Meant",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 268333
+    },
+    {
+      "id": "netease-track:1443541166",
+      "neteaseTrackId": "1443541166",
+      "title": "The Summer Ends",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 286040
+    },
+    {
+      "id": "netease-track:1443540318",
+      "neteaseTrackId": "1443540318",
+      "title": "Honestly?",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 370506
+    },
+    {
+      "id": "netease-track:1443540319",
+      "neteaseTrackId": "1443540319",
+      "title": "For Sure",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 196120
+    },
+    {
+      "id": "netease-track:1443541167",
+      "neteaseTrackId": "1443541167",
+      "title": "You Know I Should Be Leaving Soon",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 223066
+    },
+    {
+      "id": "netease-track:1443541168",
+      "neteaseTrackId": "1443541168",
+      "title": "But the Regrets Are Killing Me",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 234773
+    },
+    {
+      "id": "netease-track:1443540320",
+      "neteaseTrackId": "1443540320",
+      "title": "I'll See You When We're Both Not So Emotional",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 222333
+    },
+    {
+      "id": "netease-track:1443540321",
+      "neteaseTrackId": "1443540321",
+      "title": "Stay Home",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 490466
+    },
+    {
+      "id": "netease-track:1443541169",
+      "neteaseTrackId": "1443541169",
+      "title": "The One With The Wurlitzer",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "American Football"
+      ],
+      "durationMs": 163053
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=88561267",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:55:24.004Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "American Football",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

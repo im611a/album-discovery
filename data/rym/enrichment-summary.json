@@ -1,12 +1,12 @@
 {
-  "totalAlbums": 319,
+  "totalAlbums": 345,
   "MATCHED_EXACT": 13,
   "MATCHED_ALIAS": 0,
   "MATCHED_STRONG": 0,
   "NOT_FOUND": 305,
   "AMBIGUOUS": 0,
   "REJECTED": 1,
-  "UNVERIFIED_NO_DATA": 0,
+  "UNVERIFIED_NO_DATA": 26,
   "ratedAlbumCount": 13,
   "ratingCountAlbumCount": 13,
   "relatedGenreAlbumCount": 11,
@@ -15,7 +15,7 @@
   "coreGenreAdjustmentCount": 0,
   "inputSourceId": "kaggle:tobennao/rym-top-5000",
   "inputSha256": "272cc798cb1d1058048500485d1668855d9a251bb19fef9e52beaae81a8ec6b7",
-  "observedAt": "2026-07-24T07:12:45.520Z",
+  "observedAt": "2026-07-24T07:12:45.52Z",
   "inputRows": 5000,
   "relevantInputRows": 30,
   "rejectedInputRows": 0,
@@ -2574,6 +2574,214 @@
       "slug": "netease-272648305",
       "status": "NOT_FOUND",
       "reason": "no_title_artist_candidate",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "245618979",
+      "slug": "imaginal-disk",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "2085451",
+      "slug": "netease-2085451",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "349573",
+      "slug": "velocity-design-comfort",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "2091688",
+      "slug": "netease-2091688",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "245434399",
+      "slug": "netease-245434399",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "274136454",
+      "slug": "getting-killed",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "1757603",
+      "slug": "ladies-and-gentlemen-we-are-floating-in-space",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "7547",
+      "slug": "netease-7547",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "1681844",
+      "slug": "dummy-portishead",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "3056906",
+      "slug": "pinata-freddie-gibbs-madlib",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "61643",
+      "slug": "netease-61643",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "246863",
+      "slug": "stratosphere-duster",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "73643239",
+      "slug": "the-college-dropout",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "34818182",
+      "slug": "blonde-frank-ocean",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "1515056",
+      "slug": "aaliyah",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "34840135",
+      "slug": "atrocity-exhibition",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "364550023",
+      "slug": "half-blood-bloodluxe",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "1506337",
+      "slug": "midnight-marauders",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "29704",
+      "slug": "netease-29704",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "2046781",
+      "slug": "the-velvet-rope",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "1974794",
+      "slug": "1999-prince",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "35745181",
+      "slug": "flower-boy",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "2298031",
+      "slug": "netease-2298031",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "88561267",
+      "slug": "american-football-1999",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "34726168",
+      "slug": "masterpiece-big-thief",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
+      "inputRow": null,
+      "sourceReference": null
+    },
+    {
+      "neteaseAlbumId": "155679106",
+      "slug": "hypochondriac-brakence",
+      "status": "UNVERIFIED_NO_DATA",
+      "reason": "no_authorized_offline_record",
       "inputRow": null,
       "sourceReference": null
     }

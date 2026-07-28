@@ -1,0 +1,142 @@
+{
+  "internalId": "album:2298031",
+  "id": "album:2298031",
+  "neteaseAlbumId": "2298031",
+  "slug": "netease-2298031",
+  "title": "恋人へ",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:20287",
+      "neteaseArtistId": "20287",
+      "name": "Lamp"
+    }
+  ],
+  "releaseDate": "2004-02-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Botanical House",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2298031.webp",
+    "alt": "《恋人へ》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2298031.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:25723361",
+      "neteaseTrackId": "25723361",
+      "title": "恋人へ",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 75053
+    },
+    {
+      "id": "netease-track:25723359",
+      "neteaseTrackId": "25723359",
+      "title": "ひろがるなみだ",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 274200
+    },
+    {
+      "id": "netease-track:25723363",
+      "neteaseTrackId": "25723363",
+      "title": "最終列車は25時",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 263840
+    },
+    {
+      "id": "netease-track:25723365",
+      "neteaseTrackId": "25723365",
+      "title": "日曜日のお別れ",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 306986
+    },
+    {
+      "id": "netease-track:25723360",
+      "neteaseTrackId": "25723360",
+      "title": "明日になれば僕は",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 231906
+    },
+    {
+      "id": "netease-track:25723366",
+      "neteaseTrackId": "25723366",
+      "title": "雨のメッセージ",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 326546
+    },
+    {
+      "id": "netease-track:25723362",
+      "neteaseTrackId": "25723362",
+      "title": "愛の言葉",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 226200
+    },
+    {
+      "id": "netease-track:25723364",
+      "neteaseTrackId": "25723364",
+      "title": "恋は月の蔭に",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 309720
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=2298031",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:55:08.889Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "恋人へ Lamp",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

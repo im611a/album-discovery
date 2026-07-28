@@ -20,7 +20,7 @@ describe("production delivery boundaries", () => {
     expect(publishedCatalog.source).toMatchObject({ catalog: "netease", runtimeRequestsAllowed: false });
   });
   it("keeps track lists out of the shared browser catalog index", () => {
-    expect(catalogAlbums.length).toBe(319);
+    expect(catalogAlbums.length).toBe(345);
     expect(catalogAlbums.every((album) => !("tracks" in album))).toBe(true);
     expect(getAlbumDetailBySlug("wake-after-the-rain")?.tracks.length).toBeGreaterThan(0);
   });

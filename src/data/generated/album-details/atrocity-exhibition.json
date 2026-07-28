@@ -1,0 +1,225 @@
+{
+  "internalId": "album:34840135",
+  "id": "album:34840135",
+  "neteaseAlbumId": "34840135",
+  "slug": "atrocity-exhibition",
+  "title": "Atrocity Exhibition",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:32654",
+      "neteaseArtistId": "32654",
+      "name": "Danny Brown"
+    }
+  ],
+  "releaseDate": "2016-09-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Warp Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34840135.webp",
+    "alt": "《Atrocity Exhibition》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34840135.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:432506834",
+      "neteaseTrackId": "432506834",
+      "title": "Downward Spiral",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 172302
+    },
+    {
+      "id": "netease-track:432509793",
+      "neteaseTrackId": "432509793",
+      "title": "Tell Me What I Don't Know",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 151979
+    },
+    {
+      "id": "netease-track:432506835",
+      "neteaseTrackId": "432506835",
+      "title": "Rolling Stone (feat. Petite Noir)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown",
+        "Petite Noir"
+      ],
+      "durationMs": 227981
+    },
+    {
+      "id": "netease-track:431534364",
+      "neteaseTrackId": "431534364",
+      "title": "Really Doe (feat. Kendrick Lamar & Ab-Soul & Earl Sweatshirt)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown",
+        "Kendrick Lamar",
+        "Ab-Soul",
+        "Earl Sweatshirt"
+      ],
+      "durationMs": 319433
+    },
+    {
+      "id": "netease-track:432509794",
+      "neteaseTrackId": "432509794",
+      "title": "Lost",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 127255
+    },
+    {
+      "id": "netease-track:432506836",
+      "neteaseTrackId": "432506836",
+      "title": "Ain't it Funny",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 177025
+    },
+    {
+      "id": "netease-track:432509795",
+      "neteaseTrackId": "432509795",
+      "title": "Golddust",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 144118
+    },
+    {
+      "id": "netease-track:432506837",
+      "neteaseTrackId": "432506837",
+      "title": "White Lines",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 143729
+    },
+    {
+      "id": "netease-track:426850441",
+      "neteaseTrackId": "426850441",
+      "title": "Pneumonia",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 219883
+    },
+    {
+      "id": "netease-track:432509796",
+      "neteaseTrackId": "432509796",
+      "title": "Dance In The Water",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 157930
+    },
+    {
+      "id": "netease-track:432506838",
+      "neteaseTrackId": "432506838",
+      "title": "From The Ground (feat. Kelela)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown",
+        "Kelela"
+      ],
+      "durationMs": 138991
+    },
+    {
+      "id": "netease-track:426850448",
+      "neteaseTrackId": "426850448",
+      "title": "When It Rain",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 195966
+    },
+    {
+      "id": "netease-track:432509797",
+      "neteaseTrackId": "432509797",
+      "title": "Today",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 187679
+    },
+    {
+      "id": "netease-track:432506839",
+      "neteaseTrackId": "432506839",
+      "title": "Get Hi (feat. B-Real)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown",
+        "B-Real"
+      ],
+      "durationMs": 213477
+    },
+    {
+      "id": "netease-track:432509798",
+      "neteaseTrackId": "432509798",
+      "title": "Hell For It",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Danny Brown"
+      ],
+      "durationMs": 229776
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=34840135",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:54:13.667Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Atrocity Exhibition Danny Brown",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

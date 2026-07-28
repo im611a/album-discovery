@@ -1,0 +1,186 @@
+{
+  "internalId": "album:349573",
+  "id": "album:349573",
+  "neteaseAlbumId": "349573",
+  "slug": "velocity-design-comfort",
+  "title": "Velocity: Design: Comfort.",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:75252",
+      "neteaseArtistId": "75252",
+      "name": "Sweet Trip"
+    }
+  ],
+  "releaseDate": "2003",
+  "releaseDatePrecision": "year",
+  "albumType": "album",
+  "company": "Darla Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/349573.webp",
+    "alt": "《Velocity: Design: Comfort.》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/349573.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3451295",
+      "neteaseTrackId": "3451295",
+      "title": "Tekka",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 188893
+    },
+    {
+      "id": "netease-track:3451298",
+      "neteaseTrackId": "3451298",
+      "title": "Dsco",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 191133
+    },
+    {
+      "id": "netease-track:3451300",
+      "neteaseTrackId": "3451300",
+      "title": "Velocity",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 514933
+    },
+    {
+      "id": "netease-track:3451302",
+      "neteaseTrackId": "3451302",
+      "title": "Fruitcake and Cookies",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 478640
+    },
+    {
+      "id": "netease-track:3451304",
+      "neteaseTrackId": "3451304",
+      "title": "Sept",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 506293
+    },
+    {
+      "id": "netease-track:3451306",
+      "neteaseTrackId": "3451306",
+      "title": "Pro: Lov: Ad",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 346306
+    },
+    {
+      "id": "netease-track:3451308",
+      "neteaseTrackId": "3451308",
+      "title": "Design: 1",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 212266
+    },
+    {
+      "id": "netease-track:3451311",
+      "neteaseTrackId": "3451311",
+      "title": "International",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 622893
+    },
+    {
+      "id": "netease-track:3451313",
+      "neteaseTrackId": "3451313",
+      "title": "Dedicated",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 350733
+    },
+    {
+      "id": "netease-track:3451316",
+      "neteaseTrackId": "3451316",
+      "title": "Chocolate Matter",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 243706
+    },
+    {
+      "id": "netease-track:3451320",
+      "neteaseTrackId": "3451320",
+      "title": "To All the Dancers of the World, A Round Form of Fantasy",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 378600
+    },
+    {
+      "id": "netease-track:3451324",
+      "neteaseTrackId": "3451324",
+      "title": "Design: 2: 3",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 377626
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=349573",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:52:15.262Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Velocity: Design: Comfort. Sweet Trip",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

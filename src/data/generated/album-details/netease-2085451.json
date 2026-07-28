@@ -1,0 +1,175 @@
+{
+  "internalId": "album:2085451",
+  "id": "album:2085451",
+  "neteaseAlbumId": "2085451",
+  "slug": "netease-2085451",
+  "title": "加爾基 精液 栗ノ花",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:17635",
+      "neteaseArtistId": "17635",
+      "name": "椎名林檎"
+    }
+  ],
+  "releaseDate": "2003-02-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2085451.webp",
+    "alt": "《加爾基 精液 栗ノ花》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2085451.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:22719311",
+      "neteaseTrackId": "22719311",
+      "title": "宗教",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 307896
+    },
+    {
+      "id": "netease-track:22719310",
+      "neteaseTrackId": "22719310",
+      "title": "ドツペルゲンガー",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 226208
+    },
+    {
+      "id": "netease-track:22719316",
+      "neteaseTrackId": "22719316",
+      "title": "迷彩",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 224769
+    },
+    {
+      "id": "netease-track:22719312",
+      "neteaseTrackId": "22719312",
+      "title": "おだいじに",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 181394
+    },
+    {
+      "id": "netease-track:22719314",
+      "neteaseTrackId": "22719314",
+      "title": "やっつけ仕事",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 309104
+    },
+    {
+      "id": "netease-track:22719313",
+      "neteaseTrackId": "22719313",
+      "title": "茎",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 231084
+    },
+    {
+      "id": "netease-track:22719319",
+      "neteaseTrackId": "22719319",
+      "title": "とりこし苦労",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 173476
+    },
+    {
+      "id": "netease-track:22719315",
+      "neteaseTrackId": "22719315",
+      "title": "おこのみで",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 368361
+    },
+    {
+      "id": "netease-track:22719318",
+      "neteaseTrackId": "22719318",
+      "title": "意識",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 210837
+    },
+    {
+      "id": "netease-track:22719317",
+      "neteaseTrackId": "22719317",
+      "title": "ポルターガイスト",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 226905
+    },
+    {
+      "id": "netease-track:22719320",
+      "neteaseTrackId": "22719320",
+      "title": "葬列",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 312354
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=2085451",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:57:03.830Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "加爾基 精液 栗ノ花 椎名林檎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:274136454",
+  "id": "album:274136454",
+  "neteaseAlbumId": "274136454",
+  "slug": "getting-killed",
+  "title": "Getting Killed",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:597925",
+      "neteaseArtistId": "597925",
+      "name": "Geese"
+    }
+  ],
+  "releaseDate": "2025-09-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Partisan / Play It Again Sam",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/274136454.webp",
+    "alt": "《Getting Killed》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/274136454.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2711930762",
+      "neteaseTrackId": "2711930762",
+      "title": "Trinidad",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 224824
+    },
+    {
+      "id": "netease-track:2711930763",
+      "neteaseTrackId": "2711930763",
+      "title": "Cobra",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 185152
+    },
+    {
+      "id": "netease-track:2711935285",
+      "neteaseTrackId": "2711935285",
+      "title": "Husbands",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 248229
+    },
+    {
+      "id": "netease-track:2711930764",
+      "neteaseTrackId": "2711930764",
+      "title": "Getting Killed",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 284532
+    },
+    {
+      "id": "netease-track:2711935286",
+      "neteaseTrackId": "2711935286",
+      "title": "Islands of Men",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 354139
+    },
+    {
+      "id": "netease-track:2711930765",
+      "neteaseTrackId": "2711930765",
+      "title": "100 Horses",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 226355
+    },
+    {
+      "id": "netease-track:2711935287",
+      "neteaseTrackId": "2711935287",
+      "title": "Half Real",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 202201
+    },
+    {
+      "id": "netease-track:2711935288",
+      "neteaseTrackId": "2711935288",
+      "title": "Au Pays du Cocaine",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 210945
+    },
+    {
+      "id": "netease-track:2711935289",
+      "neteaseTrackId": "2711935289",
+      "title": "Bow Down",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 208287
+    },
+    {
+      "id": "netease-track:2711930766",
+      "neteaseTrackId": "2711930766",
+      "title": "Taxes",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 197661
+    },
+    {
+      "id": "netease-track:2711930767",
+      "neteaseTrackId": "2711930767",
+      "title": "Long Island City Here I Come",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Geese"
+      ],
+      "durationMs": 397019
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=274136454",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:52:52.008Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Getting Killed Geese",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

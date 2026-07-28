@@ -1,0 +1,298 @@
+{
+  "internalId": "album:73643239",
+  "id": "album:73643239",
+  "neteaseAlbumId": "73643239",
+  "slug": "the-college-dropout",
+  "title": "The College Dropout",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2004-02-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Roc-A-Fella",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/73643239.webp",
+    "alt": "《The College Dropout》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/73643239.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1313045901",
+      "neteaseTrackId": "1313045901",
+      "title": "Intro (Kanye West/The College Dropout)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 19202
+    },
+    {
+      "id": "netease-track:1313045902",
+      "neteaseTrackId": "1313045902",
+      "title": "We Don't Care",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 239931
+    },
+    {
+      "id": "netease-track:1313045903",
+      "neteaseTrackId": "1313045903",
+      "title": "Graduation Day",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 81757
+    },
+    {
+      "id": "netease-track:1313046226",
+      "neteaseTrackId": "1313046226",
+      "title": "All Falls Down",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Syleena Johnson"
+      ],
+      "durationMs": 223701
+    },
+    {
+      "id": "netease-track:1313045904",
+      "neteaseTrackId": "1313045904",
+      "title": "I'll Fly Away",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 69706
+    },
+    {
+      "id": "netease-track:1313045905",
+      "neteaseTrackId": "1313045905",
+      "title": "Spaceship",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "GLC",
+        "Consequence"
+      ],
+      "durationMs": 324289
+    },
+    {
+      "id": "netease-track:1313046227",
+      "neteaseTrackId": "1313046227",
+      "title": "Jesus Walks",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 193793
+    },
+    {
+      "id": "netease-track:1313045906",
+      "neteaseTrackId": "1313045906",
+      "title": "Never Let Me Down (Album Version (Edited))",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "JAY-Z",
+        "J. Ivy"
+      ],
+      "durationMs": 324498
+    },
+    {
+      "id": "netease-track:1313045907",
+      "neteaseTrackId": "1313045907",
+      "title": "Get Em High",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Talib Kweli",
+        "Common"
+      ],
+      "durationMs": 289552
+    },
+    {
+      "id": "netease-track:1313045908",
+      "neteaseTrackId": "1313045908",
+      "title": "Workout Plan",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 46230
+    },
+    {
+      "id": "netease-track:1313045909",
+      "neteaseTrackId": "1313045909",
+      "title": "The New Workout Plan",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 322850
+    },
+    {
+      "id": "netease-track:1313046228",
+      "neteaseTrackId": "1313046228",
+      "title": "Slow Jamz",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Twista",
+        "Kanye West",
+        "Jamie Foxx"
+      ],
+      "durationMs": 316116
+    },
+    {
+      "id": "netease-track:1313046229",
+      "neteaseTrackId": "1313046229",
+      "title": "Breathe In Breathe Out",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Ludacris"
+      ],
+      "durationMs": 247013
+    },
+    {
+      "id": "netease-track:1313046230",
+      "neteaseTrackId": "1313046230",
+      "title": "School Spirit Skit 1",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 78715
+    },
+    {
+      "id": "netease-track:1313045910",
+      "neteaseTrackId": "1313045910",
+      "title": "School Spirit",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 182439
+    },
+    {
+      "id": "netease-track:1313046231",
+      "neteaseTrackId": "1313046231",
+      "title": "School Spirit Skit 2",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 43583
+    },
+    {
+      "id": "netease-track:1313045911",
+      "neteaseTrackId": "1313045911",
+      "title": "Lil Jimmy Skit",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 53707
+    },
+    {
+      "id": "netease-track:1313045912",
+      "neteaseTrackId": "1313045912",
+      "title": "Two Words",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Mos Def",
+        "Freeway",
+        "The Boys Choir Of Harlem"
+      ],
+      "durationMs": 266263
+    },
+    {
+      "id": "netease-track:1313046232",
+      "neteaseTrackId": "1313046232",
+      "title": "Through The Wire",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 221286
+    },
+    {
+      "id": "netease-track:1313045913",
+      "neteaseTrackId": "1313045913",
+      "title": "Family Business",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 278941
+    },
+    {
+      "id": "netease-track:1313045914",
+      "neteaseTrackId": "1313045914",
+      "title": "Last Call",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 761010
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=73643239",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:53:42.129Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "The College Dropout Kanye West",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

@@ -1,0 +1,197 @@
+{
+  "internalId": "album:155679106",
+  "id": "album:155679106",
+  "neteaseAlbumId": "155679106",
+  "slug": "hypochondriac-brakence",
+  "title": "hypochondriac",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:31328598",
+      "neteaseArtistId": "31328598",
+      "name": "brakence"
+    }
+  ],
+  "releaseDate": "2022-12-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/155679106.webp",
+    "alt": "《hypochondriac》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/155679106.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2002612883",
+      "neteaseTrackId": "2002612883",
+      "title": "bugging!",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 196742
+    },
+    {
+      "id": "netease-track:2002613701",
+      "neteaseTrackId": "2002613701",
+      "title": "caffeine",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 198414
+    },
+    {
+      "id": "netease-track:2002612884",
+      "neteaseTrackId": "2002612884",
+      "title": "venus fly trap",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 295845
+    },
+    {
+      "id": "netease-track:2002612885",
+      "neteaseTrackId": "2002612885",
+      "title": "teeth",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 272300
+    },
+    {
+      "id": "netease-track:2002613702",
+      "neteaseTrackId": "2002613702",
+      "title": "intellectual greed",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 210024
+    },
+    {
+      "id": "netease-track:2002613703",
+      "neteaseTrackId": "2002613703",
+      "title": "5g",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 209769
+    },
+    {
+      "id": "netease-track:2002612886",
+      "neteaseTrackId": "2002612886",
+      "title": "preparation exercise no. 7 (trembling)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 222563
+    },
+    {
+      "id": "netease-track:2002613704",
+      "neteaseTrackId": "2002613704",
+      "title": "cbd",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 161332
+    },
+    {
+      "id": "netease-track:2002612887",
+      "neteaseTrackId": "2002612887",
+      "title": "stung",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 335505
+    },
+    {
+      "id": "netease-track:2002612888",
+      "neteaseTrackId": "2002612888",
+      "title": "argyle",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 165256
+    },
+    {
+      "id": "netease-track:2002613705",
+      "neteaseTrackId": "2002613705",
+      "title": "deepfake",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 330698
+    },
+    {
+      "id": "netease-track:2002613706",
+      "neteaseTrackId": "2002613706",
+      "title": "introvert",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 374607
+    },
+    {
+      "id": "netease-track:2002612890",
+      "neteaseTrackId": "2002612890",
+      "title": "hypochondriac",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "brakence"
+      ],
+      "durationMs": 162957
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=155679106",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:55:37.326Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "hypochondriac brakence",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

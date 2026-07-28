@@ -1,0 +1,122 @@
+{
+  "internalId": "album:2091688",
+  "id": "album:2091688",
+  "neteaseAlbumId": "2091688",
+  "slug": "netease-2091688",
+  "title": "ワールドイズユアーズ",
+  "aliases": [
+    "World Is Yours"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:20532",
+      "neteaseArtistId": "20532",
+      "name": "MASS OF THE FERMENTING DREGS"
+    }
+  ],
+  "releaseDate": "2009-01-21",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "UNIVERSAL MUSIC ARTISTS LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2091688.webp",
+    "alt": "《ワールドイズユアーズ》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2091688.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:22769456",
+      "neteaseTrackId": "22769456",
+      "title": "このスピードの先へ",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MASS OF THE FERMENTING DREGS"
+      ],
+      "durationMs": 204721
+    },
+    {
+      "id": "netease-track:22769455",
+      "neteaseTrackId": "22769455",
+      "title": "青い、濃い、橙色の日",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "MASS OF THE FERMENTING DREGS"
+      ],
+      "durationMs": 282173
+    },
+    {
+      "id": "netease-track:22769459",
+      "neteaseTrackId": "22769459",
+      "title": "かくいうもの",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "MASS OF THE FERMENTING DREGS"
+      ],
+      "durationMs": 243320
+    },
+    {
+      "id": "netease-track:22769460",
+      "neteaseTrackId": "22769460",
+      "title": "She is inside, He is outside",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "MASS OF THE FERMENTING DREGS"
+      ],
+      "durationMs": 173960
+    },
+    {
+      "id": "netease-track:22769457",
+      "neteaseTrackId": "22769457",
+      "title": "なんなん",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MASS OF THE FERMENTING DREGS"
+      ],
+      "durationMs": 219350
+    },
+    {
+      "id": "netease-track:22769458",
+      "neteaseTrackId": "22769458",
+      "title": "ワールドイズユアーズ",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "MASS OF THE FERMENTING DREGS"
+      ],
+      "durationMs": 211386
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=2091688",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:52:38.531Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "ワールドイズユアーズ World Is Yours MASS OF THE FERMENTING DREGS",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

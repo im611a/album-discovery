@@ -1,0 +1,223 @@
+{
+  "internalId": "album:1506337",
+  "id": "album:1506337",
+  "neteaseAlbumId": "1506337",
+  "slug": "midnight-marauders",
+  "title": "Midnight Marauders",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:27648",
+      "neteaseArtistId": "27648",
+      "name": "A Tribe Called Quest"
+    }
+  ],
+  "releaseDate": "1993-11-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1506337.webp",
+    "alt": "《Midnight Marauders》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1506337.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16330805",
+      "neteaseTrackId": "16330805",
+      "title": "Midnight Marauders Tour Guide",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 45395
+    },
+    {
+      "id": "netease-track:16330806",
+      "neteaseTrackId": "16330806",
+      "title": "Steve Biko (Stir It Up)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 191587
+    },
+    {
+      "id": "netease-track:16330807",
+      "neteaseTrackId": "16330807",
+      "title": "Award Tour",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest",
+        "Trugoy, The Dove"
+      ],
+      "durationMs": 226510
+    },
+    {
+      "id": "netease-track:16330808",
+      "neteaseTrackId": "16330808",
+      "title": "8 Million Stories",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 260945
+    },
+    {
+      "id": "netease-track:16330809",
+      "neteaseTrackId": "16330809",
+      "title": "Sucka Nigga",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 245133
+    },
+    {
+      "id": "netease-track:16330810",
+      "neteaseTrackId": "16330810",
+      "title": "Midnight",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest",
+        "Raphael Wiggins"
+      ],
+      "durationMs": 265079
+    },
+    {
+      "id": "netease-track:16330811",
+      "neteaseTrackId": "16330811",
+      "title": "We Can Get Down",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 259181
+    },
+    {
+      "id": "netease-track:16330812",
+      "neteaseTrackId": "16330812",
+      "title": "Electric Relaxation",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 243855
+    },
+    {
+      "id": "netease-track:16330813",
+      "neteaseTrackId": "16330813",
+      "title": "Clap Your Hands",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 196556
+    },
+    {
+      "id": "netease-track:16330814",
+      "neteaseTrackId": "16330814",
+      "title": "Oh My God",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest",
+        "Busta Rhymes"
+      ],
+      "durationMs": 208909
+    },
+    {
+      "id": "netease-track:16330815",
+      "neteaseTrackId": "16330815",
+      "title": "Keep It Rollin'",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest",
+        "Large Professor"
+      ],
+      "durationMs": 186131
+    },
+    {
+      "id": "netease-track:16330816",
+      "neteaseTrackId": "16330816",
+      "title": "The Chase, Part II",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 242439
+    },
+    {
+      "id": "netease-track:16330817",
+      "neteaseTrackId": "16330817",
+      "title": "Lyrics to Go",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 249080
+    },
+    {
+      "id": "netease-track:16330818",
+      "neteaseTrackId": "16330818",
+      "title": "God Lives Through",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 255605
+    },
+    {
+      "id": "netease-track:16330819",
+      "neteaseTrackId": "16330819",
+      "title": "Hot ***",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 165000
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1506337",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:54:27.113Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Midnight Marauders A Tribe Called Quest",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

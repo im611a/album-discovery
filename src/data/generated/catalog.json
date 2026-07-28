@@ -57436,6 +57436,5479 @@
       "rymObservedAt": null,
       "rymMatchStatus": "NOT_FOUND",
       "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:245618979",
+      "id": "album:245618979",
+      "neteaseAlbumId": "245618979",
+      "slug": "imaginal-disk",
+      "title": "Imaginal Disk",
+      "aliases": [
+        "幻想光碟"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:12603779",
+          "neteaseArtistId": "12603779",
+          "name": "Magdalena Bay"
+        }
+      ],
+      "releaseDate": "2024-08-23",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Mom+Pop",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/245618979.webp",
+        "alt": "《Imaginal Disk》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/245618979.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:2619307807",
+          "neteaseTrackId": "2619307807",
+          "title": "She Looked Like Me!",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 193186
+        },
+        {
+          "id": "netease-track:2619307808",
+          "neteaseTrackId": "2619307808",
+          "title": "Killing Time",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 233546
+        },
+        {
+          "id": "netease-track:2619308684",
+          "neteaseTrackId": "2619308684",
+          "title": "True Blue Interlude",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 109226
+        },
+        {
+          "id": "netease-track:2619308685",
+          "neteaseTrackId": "2619308685",
+          "title": "Image",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 212866
+        },
+        {
+          "id": "netease-track:2619307809",
+          "neteaseTrackId": "2619307809",
+          "title": "Death & Romance",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 314733
+        },
+        {
+          "id": "netease-track:2619308686",
+          "neteaseTrackId": "2619308686",
+          "title": "Fear, Sex",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 152053
+        },
+        {
+          "id": "netease-track:2619307810",
+          "neteaseTrackId": "2619307810",
+          "title": "Vampire in the Corner",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 202440
+        },
+        {
+          "id": "netease-track:2619308687",
+          "neteaseTrackId": "2619308687",
+          "title": "Watching T.V.",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 245413
+        },
+        {
+          "id": "netease-track:2619307811",
+          "neteaseTrackId": "2619307811",
+          "title": "Tunnel Vision",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 305520
+        },
+        {
+          "id": "netease-track:2619308688",
+          "neteaseTrackId": "2619308688",
+          "title": "Love Is Everywhere",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 194413
+        },
+        {
+          "id": "netease-track:2619307812",
+          "neteaseTrackId": "2619307812",
+          "title": "Feeling DiskInserted?",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 58600
+        },
+        {
+          "id": "netease-track:2619308689",
+          "neteaseTrackId": "2619308689",
+          "title": "That's My Floor",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 209800
+        },
+        {
+          "id": "netease-track:2619307813",
+          "neteaseTrackId": "2619307813",
+          "title": "Cry for Me",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 307266
+        },
+        {
+          "id": "netease-track:2619307814",
+          "neteaseTrackId": "2619307814",
+          "title": "Angel on a Satellite",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 243426
+        },
+        {
+          "id": "netease-track:2619307815",
+          "neteaseTrackId": "2619307815",
+          "title": "The Ballad of Matt & Mica",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "Magdalena Bay"
+          ],
+          "durationMs": 240000
+        }
+      ],
+      "trackCount": 15,
+      "externalUrl": "https://music.163.com/#/album?id=245618979",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:52:06.283Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Imaginal Disk 幻想光碟 Magdalena Bay",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:2085451",
+      "id": "album:2085451",
+      "neteaseAlbumId": "2085451",
+      "slug": "netease-2085451",
+      "title": "加爾基 精液 栗ノ花",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:17635",
+          "neteaseArtistId": "17635",
+          "name": "椎名林檎"
+        }
+      ],
+      "releaseDate": "2003-02-23",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": null,
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2085451.webp",
+        "alt": "《加爾基 精液 栗ノ花》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/2085451.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:22719311",
+          "neteaseTrackId": "22719311",
+          "title": "宗教",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 307896
+        },
+        {
+          "id": "netease-track:22719310",
+          "neteaseTrackId": "22719310",
+          "title": "ドツペルゲンガー",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 226208
+        },
+        {
+          "id": "netease-track:22719316",
+          "neteaseTrackId": "22719316",
+          "title": "迷彩",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 224769
+        },
+        {
+          "id": "netease-track:22719312",
+          "neteaseTrackId": "22719312",
+          "title": "おだいじに",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 181394
+        },
+        {
+          "id": "netease-track:22719314",
+          "neteaseTrackId": "22719314",
+          "title": "やっつけ仕事",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 309104
+        },
+        {
+          "id": "netease-track:22719313",
+          "neteaseTrackId": "22719313",
+          "title": "茎",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 231084
+        },
+        {
+          "id": "netease-track:22719319",
+          "neteaseTrackId": "22719319",
+          "title": "とりこし苦労",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 173476
+        },
+        {
+          "id": "netease-track:22719315",
+          "neteaseTrackId": "22719315",
+          "title": "おこのみで",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 368361
+        },
+        {
+          "id": "netease-track:22719318",
+          "neteaseTrackId": "22719318",
+          "title": "意識",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 210837
+        },
+        {
+          "id": "netease-track:22719317",
+          "neteaseTrackId": "22719317",
+          "title": "ポルターガイスト",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 226905
+        },
+        {
+          "id": "netease-track:22719320",
+          "neteaseTrackId": "22719320",
+          "title": "葬列",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 312354
+        }
+      ],
+      "trackCount": 11,
+      "externalUrl": "https://music.163.com/#/album?id=2085451",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:57:03.830Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "alternative-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "加爾基 精液 栗ノ花 椎名林檎",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:349573",
+      "id": "album:349573",
+      "neteaseAlbumId": "349573",
+      "slug": "velocity-design-comfort",
+      "title": "Velocity: Design: Comfort.",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:75252",
+          "neteaseArtistId": "75252",
+          "name": "Sweet Trip"
+        }
+      ],
+      "releaseDate": "2003",
+      "releaseDatePrecision": "year",
+      "albumType": "album",
+      "company": "Darla Records",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/349573.webp",
+        "alt": "《Velocity: Design: Comfort.》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/349573.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:3451295",
+          "neteaseTrackId": "3451295",
+          "title": "Tekka",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 188893
+        },
+        {
+          "id": "netease-track:3451298",
+          "neteaseTrackId": "3451298",
+          "title": "Dsco",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 191133
+        },
+        {
+          "id": "netease-track:3451300",
+          "neteaseTrackId": "3451300",
+          "title": "Velocity",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 514933
+        },
+        {
+          "id": "netease-track:3451302",
+          "neteaseTrackId": "3451302",
+          "title": "Fruitcake and Cookies",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 478640
+        },
+        {
+          "id": "netease-track:3451304",
+          "neteaseTrackId": "3451304",
+          "title": "Sept",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 506293
+        },
+        {
+          "id": "netease-track:3451306",
+          "neteaseTrackId": "3451306",
+          "title": "Pro: Lov: Ad",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 346306
+        },
+        {
+          "id": "netease-track:3451308",
+          "neteaseTrackId": "3451308",
+          "title": "Design: 1",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 212266
+        },
+        {
+          "id": "netease-track:3451311",
+          "neteaseTrackId": "3451311",
+          "title": "International",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 622893
+        },
+        {
+          "id": "netease-track:3451313",
+          "neteaseTrackId": "3451313",
+          "title": "Dedicated",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 350733
+        },
+        {
+          "id": "netease-track:3451316",
+          "neteaseTrackId": "3451316",
+          "title": "Chocolate Matter",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 243706
+        },
+        {
+          "id": "netease-track:3451320",
+          "neteaseTrackId": "3451320",
+          "title": "To All the Dancers of the World, A Round Form of Fantasy",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 378600
+        },
+        {
+          "id": "netease-track:3451324",
+          "neteaseTrackId": "3451324",
+          "title": "Design: 2: 3",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Sweet Trip"
+          ],
+          "durationMs": 377626
+        }
+      ],
+      "trackCount": 12,
+      "externalUrl": "https://music.163.com/#/album?id=349573",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:52:15.262Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Velocity: Design: Comfort. Sweet Trip",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:2091688",
+      "id": "album:2091688",
+      "neteaseAlbumId": "2091688",
+      "slug": "netease-2091688",
+      "title": "ワールドイズユアーズ",
+      "aliases": [
+        "World Is Yours"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:20532",
+          "neteaseArtistId": "20532",
+          "name": "MASS OF THE FERMENTING DREGS"
+        }
+      ],
+      "releaseDate": "2009-01-21",
+      "releaseDatePrecision": "day",
+      "albumType": "ep",
+      "company": "UNIVERSAL MUSIC ARTISTS LLC",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2091688.webp",
+        "alt": "《ワールドイズユアーズ》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/2091688.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:22769456",
+          "neteaseTrackId": "22769456",
+          "title": "このスピードの先へ",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "MASS OF THE FERMENTING DREGS"
+          ],
+          "durationMs": 204721
+        },
+        {
+          "id": "netease-track:22769455",
+          "neteaseTrackId": "22769455",
+          "title": "青い、濃い、橙色の日",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "MASS OF THE FERMENTING DREGS"
+          ],
+          "durationMs": 282173
+        },
+        {
+          "id": "netease-track:22769459",
+          "neteaseTrackId": "22769459",
+          "title": "かくいうもの",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "MASS OF THE FERMENTING DREGS"
+          ],
+          "durationMs": 243320
+        },
+        {
+          "id": "netease-track:22769460",
+          "neteaseTrackId": "22769460",
+          "title": "She is inside, He is outside",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "MASS OF THE FERMENTING DREGS"
+          ],
+          "durationMs": 173960
+        },
+        {
+          "id": "netease-track:22769457",
+          "neteaseTrackId": "22769457",
+          "title": "なんなん",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "MASS OF THE FERMENTING DREGS"
+          ],
+          "durationMs": 219350
+        },
+        {
+          "id": "netease-track:22769458",
+          "neteaseTrackId": "22769458",
+          "title": "ワールドイズユアーズ",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "MASS OF THE FERMENTING DREGS"
+          ],
+          "durationMs": 211386
+        }
+      ],
+      "trackCount": 6,
+      "externalUrl": "https://music.163.com/#/album?id=2091688",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:52:38.531Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "indie-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "ワールドイズユアーズ World Is Yours MASS OF THE FERMENTING DREGS",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:245434399",
+      "id": "album:245434399",
+      "neteaseAlbumId": "245434399",
+      "slug": "netease-245434399",
+      "title": "八方来财",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:31055231",
+          "neteaseArtistId": "31055231",
+          "name": "揽佬SKAI ISYOURGOD"
+        }
+      ],
+      "releaseDate": "2024-08-20",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "秀动发行",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/245434399.webp",
+        "alt": "《八方来财》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/245434399.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:2618710186",
+          "neteaseTrackId": "2618710186",
+          "title": "八方来财",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 173037
+        },
+        {
+          "id": "netease-track:2618708589",
+          "neteaseTrackId": "2618708589",
+          "title": "香车豪宅",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 171156
+        },
+        {
+          "id": "netease-track:2618710187",
+          "neteaseTrackId": "2618710187",
+          "title": "念慈菴",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 139440
+        },
+        {
+          "id": "netease-track:2618708590",
+          "neteaseTrackId": "2618708590",
+          "title": "六爻",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 178094
+        },
+        {
+          "id": "netease-track:2618710188",
+          "neteaseTrackId": "2618710188",
+          "title": "大展鸿图",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD",
+            "AR刘夫阳"
+          ],
+          "durationMs": 212727
+        },
+        {
+          "id": "netease-track:2618710189",
+          "neteaseTrackId": "2618710189",
+          "title": "因果",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 151111
+        },
+        {
+          "id": "netease-track:2618708591",
+          "neteaseTrackId": "2618708591",
+          "title": "鹤立鸡群",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD",
+            "FAC-D12"
+          ],
+          "durationMs": 199237
+        },
+        {
+          "id": "netease-track:2618710190",
+          "neteaseTrackId": "2618710190",
+          "title": "善恶终有报",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD",
+            "步步高先生",
+            "阿牛",
+            "Player J"
+          ],
+          "durationMs": 192177
+        },
+        {
+          "id": "netease-track:2618708592",
+          "neteaseTrackId": "2618708592",
+          "title": "文化沙漠种绿植",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 218053
+        },
+        {
+          "id": "netease-track:2618708593",
+          "neteaseTrackId": "2618708593",
+          "title": "姚记",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 138360
+        },
+        {
+          "id": "netease-track:2618710191",
+          "neteaseTrackId": "2618710191",
+          "title": "加油卡",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD",
+            "刀脚"
+          ],
+          "durationMs": 177611
+        },
+        {
+          "id": "netease-track:2618710192",
+          "neteaseTrackId": "2618710192",
+          "title": "戒色",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 174644
+        },
+        {
+          "id": "netease-track:2618710193",
+          "neteaseTrackId": "2618710193",
+          "title": "卡拉OK",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 170622
+        },
+        {
+          "id": "netease-track:2618708594",
+          "neteaseTrackId": "2618708594",
+          "title": "焦点访谈",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 145172
+        },
+        {
+          "id": "netease-track:2618710195",
+          "neteaseTrackId": "2618710195",
+          "title": "低俗散文",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD",
+            "Katastic卡老师"
+          ],
+          "durationMs": 145965
+        },
+        {
+          "id": "netease-track:2618710196",
+          "neteaseTrackId": "2618710196",
+          "title": "为了部落，为了文化",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 152977
+        },
+        {
+          "id": "netease-track:2618710197",
+          "neteaseTrackId": "2618710197",
+          "title": "绿化带",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 147768
+        },
+        {
+          "id": "netease-track:2618708595",
+          "neteaseTrackId": "2618708595",
+          "title": "社会天使轮",
+          "trackNumber": 18,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 177383
+        },
+        {
+          "id": "netease-track:2618708596",
+          "neteaseTrackId": "2618708596",
+          "title": "ALL IN",
+          "trackNumber": 19,
+          "discNumber": 1,
+          "artists": [
+            "揽佬SKAI ISYOURGOD"
+          ],
+          "durationMs": 215582
+        }
+      ],
+      "trackCount": 19,
+      "externalUrl": "https://music.163.com/#/album?id=245434399",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:52:45.224Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "八方来财 揽佬SKAI ISYOURGOD",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:274136454",
+      "id": "album:274136454",
+      "neteaseAlbumId": "274136454",
+      "slug": "getting-killed",
+      "title": "Getting Killed",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:597925",
+          "neteaseArtistId": "597925",
+          "name": "Geese"
+        }
+      ],
+      "releaseDate": "2025-09-26",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Partisan / Play It Again Sam",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/274136454.webp",
+        "alt": "《Getting Killed》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/274136454.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:2711930762",
+          "neteaseTrackId": "2711930762",
+          "title": "Trinidad",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 224824
+        },
+        {
+          "id": "netease-track:2711930763",
+          "neteaseTrackId": "2711930763",
+          "title": "Cobra",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 185152
+        },
+        {
+          "id": "netease-track:2711935285",
+          "neteaseTrackId": "2711935285",
+          "title": "Husbands",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 248229
+        },
+        {
+          "id": "netease-track:2711930764",
+          "neteaseTrackId": "2711930764",
+          "title": "Getting Killed",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 284532
+        },
+        {
+          "id": "netease-track:2711935286",
+          "neteaseTrackId": "2711935286",
+          "title": "Islands of Men",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 354139
+        },
+        {
+          "id": "netease-track:2711930765",
+          "neteaseTrackId": "2711930765",
+          "title": "100 Horses",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 226355
+        },
+        {
+          "id": "netease-track:2711935287",
+          "neteaseTrackId": "2711935287",
+          "title": "Half Real",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 202201
+        },
+        {
+          "id": "netease-track:2711935288",
+          "neteaseTrackId": "2711935288",
+          "title": "Au Pays du Cocaine",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 210945
+        },
+        {
+          "id": "netease-track:2711935289",
+          "neteaseTrackId": "2711935289",
+          "title": "Bow Down",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 208287
+        },
+        {
+          "id": "netease-track:2711930766",
+          "neteaseTrackId": "2711930766",
+          "title": "Taxes",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 197661
+        },
+        {
+          "id": "netease-track:2711930767",
+          "neteaseTrackId": "2711930767",
+          "title": "Long Island City Here I Come",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Geese"
+          ],
+          "durationMs": 397019
+        }
+      ],
+      "trackCount": 11,
+      "externalUrl": "https://music.163.com/#/album?id=274136454",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:52:52.008Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "indie-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Getting Killed Geese",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:1757603",
+      "id": "album:1757603",
+      "neteaseAlbumId": "1757603",
+      "slug": "ladies-and-gentlemen-we-are-floating-in-space",
+      "title": "Ladies and Gentlemen We Are Floating in Space",
+      "aliases": [
+        "Ladies and gentlemen we are floating in space"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:74643",
+          "neteaseArtistId": "74643",
+          "name": "Spiritualized"
+        }
+      ],
+      "releaseDate": "1997-05-07",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Fat Possum Records under exclusive license from Sony Music Enterainment Limited",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/1757603.webp",
+        "alt": "《Ladies and Gentlemen We Are Floating in Space》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/1757603.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:19169294",
+          "neteaseTrackId": "19169294",
+          "title": "Ladies and gentlemen we are floating in space",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 234053
+        },
+        {
+          "id": "netease-track:19169295",
+          "neteaseTrackId": "19169295",
+          "title": "Come Together",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 280608
+        },
+        {
+          "id": "netease-track:19169296",
+          "neteaseTrackId": "19169296",
+          "title": "I Think I'm in Love",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 490104
+        },
+        {
+          "id": "netease-track:19169297",
+          "neteaseTrackId": "19169297",
+          "title": "All of My Thoughts",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 276840
+        },
+        {
+          "id": "netease-track:19169298",
+          "neteaseTrackId": "19169298",
+          "title": "Stay with Me",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 308166
+        },
+        {
+          "id": "netease-track:19169299",
+          "neteaseTrackId": "19169299",
+          "title": "Electricity",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 226037
+        },
+        {
+          "id": "netease-track:19169300",
+          "neteaseTrackId": "19169300",
+          "title": "Home of the Brave",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 142942
+        },
+        {
+          "id": "netease-track:19169301",
+          "neteaseTrackId": "19169301",
+          "title": "The Individual",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 255085
+        },
+        {
+          "id": "netease-track:19169302",
+          "neteaseTrackId": "19169302",
+          "title": "Broken Heart",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 398306
+        },
+        {
+          "id": "netease-track:19169303",
+          "neteaseTrackId": "19169303",
+          "title": "No God Only Religion",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 261666
+        },
+        {
+          "id": "netease-track:19169304",
+          "neteaseTrackId": "19169304",
+          "title": "Cool Waves",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 306072
+        },
+        {
+          "id": "netease-track:19169305",
+          "neteaseTrackId": "19169305",
+          "title": "Cop Shoot Cop...",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Spiritualized"
+          ],
+          "durationMs": 1033900
+        }
+      ],
+      "trackCount": 12,
+      "externalUrl": "https://music.163.com/#/album?id=1757603",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:52:59.046Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Ladies and Gentlemen We Are Floating in Space Ladies and gentlemen we are floating in space Spiritualized",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:7547",
+      "id": "album:7547",
+      "neteaseAlbumId": "7547",
+      "slug": "netease-7547",
+      "title": "收敛水",
+      "aliases": [
+        "收斂水"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:2514",
+          "neteaseArtistId": "2514",
+          "name": "蛋堡"
+        }
+      ],
+      "releaseDate": "2009-07-05",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "颜社企业有限公司",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/7547.webp",
+        "alt": "《收敛水》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/7547.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:76873",
+          "neteaseTrackId": "76873",
+          "title": "关键字: Intro",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 114026
+        },
+        {
+          "id": "netease-track:76875",
+          "neteaseTrackId": "76875",
+          "title": "Hit the Rhyme",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 300840
+        },
+        {
+          "id": "netease-track:76877",
+          "neteaseTrackId": "76877",
+          "title": "嘶! Bamboo Holla",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 201960
+        },
+        {
+          "id": "netease-track:76879",
+          "neteaseTrackId": "76879",
+          "title": "乡愁",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 272120
+        },
+        {
+          "id": "netease-track:76881",
+          "neteaseTrackId": "76881",
+          "title": "关于小熊",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 316920
+        },
+        {
+          "id": "netease-track:76883",
+          "neteaseTrackId": "76883",
+          "title": "给你一个吻",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 99040
+        },
+        {
+          "id": "netease-track:76885",
+          "neteaseTrackId": "76885",
+          "title": "遇见",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 233053
+        },
+        {
+          "id": "netease-track:76888",
+          "neteaseTrackId": "76888",
+          "title": "Start It Underground",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 279933
+        },
+        {
+          "id": "netease-track:76891",
+          "neteaseTrackId": "76891",
+          "title": "金赌兰",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 271053
+        },
+        {
+          "id": "netease-track:76894",
+          "neteaseTrackId": "76894",
+          "title": "烟雾弥漫: 软嘴唇 (Remix)",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 240360
+        },
+        {
+          "id": "netease-track:76897",
+          "neteaseTrackId": "76897",
+          "title": "热水澡",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 181600
+        },
+        {
+          "id": "netease-track:76899",
+          "neteaseTrackId": "76899",
+          "title": "收敛水",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 237320
+        },
+        {
+          "id": "netease-track:76901",
+          "neteaseTrackId": "76901",
+          "title": "SL Beat-137 (Outro)",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 84773
+        },
+        {
+          "id": "netease-track:76904",
+          "neteaseTrackId": "76904",
+          "title": "烟雾弥漫 (Bonus Track)",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "蛋堡"
+          ],
+          "durationMs": 244320
+        }
+      ],
+      "trackCount": 14,
+      "externalUrl": "https://music.163.com/#/album?id=7547",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:57:10.417Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "收敛水 收斂水 蛋堡",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:1681844",
+      "id": "album:1681844",
+      "neteaseAlbumId": "1681844",
+      "slug": "dummy-portishead",
+      "title": "Dummy",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:98538",
+          "neteaseArtistId": "98538",
+          "name": "Portishead"
+        }
+      ],
+      "releaseDate": "1994-08-22",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Polydor Associated Labels",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/1681844.webp",
+        "alt": "《Dummy》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/1681844.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:18326488",
+          "neteaseTrackId": "18326488",
+          "title": "Mysterons",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 305240
+        },
+        {
+          "id": "netease-track:18326489",
+          "neteaseTrackId": "18326489",
+          "title": "Sour Times",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 252266
+        },
+        {
+          "id": "netease-track:18326490",
+          "neteaseTrackId": "18326490",
+          "title": "Strangers",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 237600
+        },
+        {
+          "id": "netease-track:18326491",
+          "neteaseTrackId": "18326491",
+          "title": "It Could Be Sweet",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 257160
+        },
+        {
+          "id": "netease-track:18326492",
+          "neteaseTrackId": "18326492",
+          "title": "Wandering Star",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 293200
+        },
+        {
+          "id": "netease-track:18326493",
+          "neteaseTrackId": "18326493",
+          "title": "It's A Fire",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 226200
+        },
+        {
+          "id": "netease-track:18326494",
+          "neteaseTrackId": "18326494",
+          "title": "Numb",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 234974
+        },
+        {
+          "id": "netease-track:18326495",
+          "neteaseTrackId": "18326495",
+          "title": "Roads",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 303973
+        },
+        {
+          "id": "netease-track:18326496",
+          "neteaseTrackId": "18326496",
+          "title": "Pedestal",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 220450
+        },
+        {
+          "id": "netease-track:18326497",
+          "neteaseTrackId": "18326497",
+          "title": "Biscuit",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 302600
+        },
+        {
+          "id": "netease-track:18326498",
+          "neteaseTrackId": "18326498",
+          "title": "Glory Box",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Portishead"
+          ],
+          "durationMs": 308626
+        }
+      ],
+      "trackCount": 11,
+      "externalUrl": "https://music.163.com/#/album?id=1681844",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:53:19.559Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Dummy Portishead",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:3056906",
+      "id": "album:3056906",
+      "neteaseAlbumId": "3056906",
+      "slug": "pinata-freddie-gibbs-madlib",
+      "title": "Piñata",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:38940",
+          "neteaseArtistId": "38940",
+          "name": "Madlib"
+        },
+        {
+          "id": "netease-artist:195965",
+          "neteaseArtistId": "195965",
+          "name": "Freddie Gibbs"
+        }
+      ],
+      "releaseDate": "2014-03-18",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Madlib Invazion",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/3056906.webp",
+        "alt": "《Piñata》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/3056906.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:29759890",
+          "neteaseTrackId": "29759890",
+          "title": "Supplier",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 48535
+        },
+        {
+          "id": "netease-track:29759891",
+          "neteaseTrackId": "29759891",
+          "title": "Scarface",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 126902
+        },
+        {
+          "id": "netease-track:29759892",
+          "neteaseTrackId": "29759892",
+          "title": "Deeper",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 199105
+        },
+        {
+          "id": "netease-track:29759893",
+          "neteaseTrackId": "29759893",
+          "title": "High",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs",
+            "Danny Brown"
+          ],
+          "durationMs": 177684
+        },
+        {
+          "id": "netease-track:29759894",
+          "neteaseTrackId": "29759894",
+          "title": "Harold's",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 169142
+        },
+        {
+          "id": "netease-track:29759895",
+          "neteaseTrackId": "29759895",
+          "title": "Bomb",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs",
+            "Raekwon"
+          ],
+          "durationMs": 223791
+        },
+        {
+          "id": "netease-track:29759896",
+          "neteaseTrackId": "29759896",
+          "title": "**********",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 211226
+        },
+        {
+          "id": "netease-track:29759897",
+          "neteaseTrackId": "29759897",
+          "title": "Thuggin'",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 226560
+        },
+        {
+          "id": "netease-track:29759898",
+          "neteaseTrackId": "29759898",
+          "title": "Real",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 214726
+        },
+        {
+          "id": "netease-track:29759899",
+          "neteaseTrackId": "29759899",
+          "title": "Uno",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 167262
+        },
+        {
+          "id": "netease-track:29759900",
+          "neteaseTrackId": "29759900",
+          "title": "Robes",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs",
+            "Domo Genesis",
+            "Earl Sweatshirt"
+          ],
+          "durationMs": 304587
+        },
+        {
+          "id": "netease-track:29759901",
+          "neteaseTrackId": "29759901",
+          "title": "Broken",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs",
+            "Scarface"
+          ],
+          "durationMs": 248450
+        },
+        {
+          "id": "netease-track:29759902",
+          "neteaseTrackId": "29759902",
+          "title": "Lakers",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs",
+            "Ab-Soul",
+            "Polyester the Saint"
+          ],
+          "durationMs": 270506
+        },
+        {
+          "id": "netease-track:29759903",
+          "neteaseTrackId": "29759903",
+          "title": "Knicks",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs"
+          ],
+          "durationMs": 219960
+        },
+        {
+          "id": "netease-track:29759904",
+          "neteaseTrackId": "29759904",
+          "title": "Shame",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs",
+            "BJ The Chicago Kid"
+          ],
+          "durationMs": 183353
+        },
+        {
+          "id": "netease-track:29759905",
+          "neteaseTrackId": "29759905",
+          "title": "Watts",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs",
+            "Big Time Watts"
+          ],
+          "durationMs": 115560
+        },
+        {
+          "id": "netease-track:29759906",
+          "neteaseTrackId": "29759906",
+          "title": "Piñata",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "Madlib",
+            "Freddie Gibbs",
+            "Domo Genesis",
+            "G-Wiz",
+            "Casey Veggies",
+            "Sulaiman",
+            "Meechy Darko",
+            "Mac Miller"
+          ],
+          "durationMs": 513750
+        }
+      ],
+      "trackCount": 17,
+      "externalUrl": "https://music.163.com/#/album?id=3056906",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:57:16.977Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Piñata Madlib Freddie Gibbs",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:61643",
+      "id": "album:61643",
+      "neteaseAlbumId": "61643",
+      "slug": "netease-61643",
+      "title": "無罪モラトリアム",
+      "aliases": [
+        "无罪偿还"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:17635",
+          "neteaseArtistId": "17635",
+          "name": "椎名林檎"
+        }
+      ],
+      "releaseDate": "1999-02-24",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Universal Music LLC",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/61643.webp",
+        "alt": "《無罪モラトリアム》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/61643.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:642766",
+          "neteaseTrackId": "642766",
+          "title": "正しい街",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 232667
+        },
+        {
+          "id": "netease-track:642771",
+          "neteaseTrackId": "642771",
+          "title": "歌舞伎町の女王",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 173466
+        },
+        {
+          "id": "netease-track:642776",
+          "neteaseTrackId": "642776",
+          "title": "丸ノ内サディスティック",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 235773
+        },
+        {
+          "id": "netease-track:642782",
+          "neteaseTrackId": "642782",
+          "title": "幸福論 (悦楽編)",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 177864
+        },
+        {
+          "id": "netease-track:642786",
+          "neteaseTrackId": "642786",
+          "title": "茜さす 帰路照らされど…",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 247248
+        },
+        {
+          "id": "netease-track:642790",
+          "neteaseTrackId": "642790",
+          "title": "シドと白昼夢",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 243467
+        },
+        {
+          "id": "netease-track:642794",
+          "neteaseTrackId": "642794",
+          "title": "積木遊び",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 203708
+        },
+        {
+          "id": "netease-track:642798",
+          "neteaseTrackId": "642798",
+          "title": "ここでキスして。",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 258995
+        },
+        {
+          "id": "netease-track:642801",
+          "neteaseTrackId": "642801",
+          "title": "同じ夜",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 218058
+        },
+        {
+          "id": "netease-track:642806",
+          "neteaseTrackId": "642806",
+          "title": "警告",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 245504
+        },
+        {
+          "id": "netease-track:642810",
+          "neteaseTrackId": "642810",
+          "title": "モルヒネ",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "椎名林檎"
+          ],
+          "durationMs": 221820
+        }
+      ],
+      "trackCount": 11,
+      "externalUrl": "https://music.163.com/#/album?id=61643",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:53:28.608Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "無罪モラトリアム 无罪偿还 椎名林檎",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:246863",
+      "id": "album:246863",
+      "neteaseAlbumId": "246863",
+      "slug": "stratosphere-duster",
+      "title": "Stratosphere",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:53566",
+          "neteaseArtistId": "53566",
+          "name": "Duster"
+        }
+      ],
+      "releaseDate": "1998-02-24",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Numero Group",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/246863.webp",
+        "alt": "《Stratosphere》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/246863.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:2451040",
+          "neteaseTrackId": "2451040",
+          "title": "Moon Age",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 66266
+        },
+        {
+          "id": "netease-track:2451043",
+          "neteaseTrackId": "2451043",
+          "title": "Heading for the Door",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 188173
+        },
+        {
+          "id": "netease-track:2451046",
+          "neteaseTrackId": "2451046",
+          "title": "Gold Dust",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 125933
+        },
+        {
+          "id": "netease-track:2451050",
+          "neteaseTrackId": "2451050",
+          "title": "Topical Solution",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 300893
+        },
+        {
+          "id": "netease-track:2451052",
+          "neteaseTrackId": "2451052",
+          "title": "Docking the Pod",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 110640
+        },
+        {
+          "id": "netease-track:2451055",
+          "neteaseTrackId": "2451055",
+          "title": "The Landing",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 163160
+        },
+        {
+          "id": "netease-track:2451058",
+          "neteaseTrackId": "2451058",
+          "title": "Echo, Bravo",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 272040
+        },
+        {
+          "id": "netease-track:2451063",
+          "neteaseTrackId": "2451063",
+          "title": "Constellations",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 223259
+        },
+        {
+          "id": "netease-track:2451066",
+          "neteaseTrackId": "2451066",
+          "title": "The Queen of Hearts",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 259426
+        },
+        {
+          "id": "netease-track:2451070",
+          "neteaseTrackId": "2451070",
+          "title": "Two Way Radio",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 19400
+        },
+        {
+          "id": "netease-track:2451074",
+          "neteaseTrackId": "2451074",
+          "title": "Inside Out",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 141040
+        },
+        {
+          "id": "netease-track:2451078",
+          "neteaseTrackId": "2451078",
+          "title": "Stratosphere",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 417533
+        },
+        {
+          "id": "netease-track:2451082",
+          "neteaseTrackId": "2451082",
+          "title": "Reed to Hillsborough",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 240800
+        },
+        {
+          "id": "netease-track:2451085",
+          "neteaseTrackId": "2451085",
+          "title": "Shadows of Planes",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 110133
+        },
+        {
+          "id": "netease-track:2451089",
+          "neteaseTrackId": "2451089",
+          "title": "Earth Moon Transit",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 263493
+        },
+        {
+          "id": "netease-track:2451093",
+          "neteaseTrackId": "2451093",
+          "title": "The Twins / Romantica",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 222933
+        },
+        {
+          "id": "netease-track:2451098",
+          "neteaseTrackId": "2451098",
+          "title": "Sideria",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "Duster"
+          ],
+          "durationMs": 107600
+        }
+      ],
+      "trackCount": 17,
+      "externalUrl": "https://music.163.com/#/album?id=246863",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:53:35.412Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "indie-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Stratosphere Duster",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:73643239",
+      "id": "album:73643239",
+      "neteaseAlbumId": "73643239",
+      "slug": "the-college-dropout",
+      "title": "The College Dropout",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:37520",
+          "neteaseArtistId": "37520",
+          "name": "Kanye West"
+        }
+      ],
+      "releaseDate": "2004-02-09",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Roc-A-Fella",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/73643239.webp",
+        "alt": "《The College Dropout》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/73643239.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:1313045901",
+          "neteaseTrackId": "1313045901",
+          "title": "Intro (Kanye West/The College Dropout)",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 19202
+        },
+        {
+          "id": "netease-track:1313045902",
+          "neteaseTrackId": "1313045902",
+          "title": "We Don't Care",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 239931
+        },
+        {
+          "id": "netease-track:1313045903",
+          "neteaseTrackId": "1313045903",
+          "title": "Graduation Day",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 81757
+        },
+        {
+          "id": "netease-track:1313046226",
+          "neteaseTrackId": "1313046226",
+          "title": "All Falls Down",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West",
+            "Syleena Johnson"
+          ],
+          "durationMs": 223701
+        },
+        {
+          "id": "netease-track:1313045904",
+          "neteaseTrackId": "1313045904",
+          "title": "I'll Fly Away",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 69706
+        },
+        {
+          "id": "netease-track:1313045905",
+          "neteaseTrackId": "1313045905",
+          "title": "Spaceship",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West",
+            "GLC",
+            "Consequence"
+          ],
+          "durationMs": 324289
+        },
+        {
+          "id": "netease-track:1313046227",
+          "neteaseTrackId": "1313046227",
+          "title": "Jesus Walks",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 193793
+        },
+        {
+          "id": "netease-track:1313045906",
+          "neteaseTrackId": "1313045906",
+          "title": "Never Let Me Down (Album Version (Edited))",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West",
+            "JAY-Z",
+            "J. Ivy"
+          ],
+          "durationMs": 324498
+        },
+        {
+          "id": "netease-track:1313045907",
+          "neteaseTrackId": "1313045907",
+          "title": "Get Em High",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West",
+            "Talib Kweli",
+            "Common"
+          ],
+          "durationMs": 289552
+        },
+        {
+          "id": "netease-track:1313045908",
+          "neteaseTrackId": "1313045908",
+          "title": "Workout Plan",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 46230
+        },
+        {
+          "id": "netease-track:1313045909",
+          "neteaseTrackId": "1313045909",
+          "title": "The New Workout Plan",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 322850
+        },
+        {
+          "id": "netease-track:1313046228",
+          "neteaseTrackId": "1313046228",
+          "title": "Slow Jamz",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Twista",
+            "Kanye West",
+            "Jamie Foxx"
+          ],
+          "durationMs": 316116
+        },
+        {
+          "id": "netease-track:1313046229",
+          "neteaseTrackId": "1313046229",
+          "title": "Breathe In Breathe Out",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West",
+            "Ludacris"
+          ],
+          "durationMs": 247013
+        },
+        {
+          "id": "netease-track:1313046230",
+          "neteaseTrackId": "1313046230",
+          "title": "School Spirit Skit 1",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 78715
+        },
+        {
+          "id": "netease-track:1313045910",
+          "neteaseTrackId": "1313045910",
+          "title": "School Spirit",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 182439
+        },
+        {
+          "id": "netease-track:1313046231",
+          "neteaseTrackId": "1313046231",
+          "title": "School Spirit Skit 2",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 43583
+        },
+        {
+          "id": "netease-track:1313045911",
+          "neteaseTrackId": "1313045911",
+          "title": "Lil Jimmy Skit",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 53707
+        },
+        {
+          "id": "netease-track:1313045912",
+          "neteaseTrackId": "1313045912",
+          "title": "Two Words",
+          "trackNumber": 18,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West",
+            "Mos Def",
+            "Freeway",
+            "The Boys Choir Of Harlem"
+          ],
+          "durationMs": 266263
+        },
+        {
+          "id": "netease-track:1313046232",
+          "neteaseTrackId": "1313046232",
+          "title": "Through The Wire",
+          "trackNumber": 19,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 221286
+        },
+        {
+          "id": "netease-track:1313045913",
+          "neteaseTrackId": "1313045913",
+          "title": "Family Business",
+          "trackNumber": 20,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 278941
+        },
+        {
+          "id": "netease-track:1313045914",
+          "neteaseTrackId": "1313045914",
+          "title": "Last Call",
+          "trackNumber": 21,
+          "discNumber": 1,
+          "artists": [
+            "Kanye West"
+          ],
+          "durationMs": 761010
+        }
+      ],
+      "trackCount": 21,
+      "externalUrl": "https://music.163.com/#/album?id=73643239",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:53:42.129Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "The College Dropout Kanye West",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:34818182",
+      "id": "album:34818182",
+      "neteaseAlbumId": "34818182",
+      "slug": "blonde-frank-ocean",
+      "title": "Blonde",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:33727",
+          "neteaseArtistId": "33727",
+          "name": "Frank Ocean"
+        }
+      ],
+      "releaseDate": "2016-08-20",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Boys Don't Cry",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/34818182.webp",
+        "alt": "《Blonde》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/34818182.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:426194881",
+          "neteaseTrackId": "426194881",
+          "title": "Nikes",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 314075
+        },
+        {
+          "id": "netease-track:426194882",
+          "neteaseTrackId": "426194882",
+          "title": "Ivy",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 249191
+        },
+        {
+          "id": "netease-track:426194883",
+          "neteaseTrackId": "426194883",
+          "title": "Pink + White",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 184516
+        },
+        {
+          "id": "netease-track:426194884",
+          "neteaseTrackId": "426194884",
+          "title": "Be Yourself",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 86943
+        },
+        {
+          "id": "netease-track:426194885",
+          "neteaseTrackId": "426194885",
+          "title": "Solo",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 257380
+        },
+        {
+          "id": "netease-track:426194886",
+          "neteaseTrackId": "426194886",
+          "title": "Skyline To",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 184600
+        },
+        {
+          "id": "netease-track:426194887",
+          "neteaseTrackId": "426194887",
+          "title": "Self Control",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 249667
+        },
+        {
+          "id": "netease-track:426194888",
+          "neteaseTrackId": "426194888",
+          "title": "Good Guy",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 66786
+        },
+        {
+          "id": "netease-track:426194889",
+          "neteaseTrackId": "426194889",
+          "title": "Nights",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 307151
+        },
+        {
+          "id": "netease-track:426194890",
+          "neteaseTrackId": "426194890",
+          "title": "Solo (Reprise)",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 78742
+        },
+        {
+          "id": "netease-track:426194891",
+          "neteaseTrackId": "426194891",
+          "title": "Pretty Sweet",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 158478
+        },
+        {
+          "id": "netease-track:426194892",
+          "neteaseTrackId": "426194892",
+          "title": "Facebook Story",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 68588
+        },
+        {
+          "id": "netease-track:426194893",
+          "neteaseTrackId": "426194893",
+          "title": "Close to You",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 85754
+        },
+        {
+          "id": "netease-track:426194894",
+          "neteaseTrackId": "426194894",
+          "title": "White Ferrari",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 248807
+        },
+        {
+          "id": "netease-track:426194895",
+          "neteaseTrackId": "426194895",
+          "title": "Seigfried",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 334570
+        },
+        {
+          "id": "netease-track:426194896",
+          "neteaseTrackId": "426194896",
+          "title": "Godspeed",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 177922
+        },
+        {
+          "id": "netease-track:426194897",
+          "neteaseTrackId": "426194897",
+          "title": "Futura Free",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "Frank Ocean"
+          ],
+          "durationMs": 564165
+        }
+      ],
+      "trackCount": 17,
+      "externalUrl": "https://music.163.com/#/album?id=34818182",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:53:59.994Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "art-pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Blonde Frank Ocean",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:1515056",
+      "id": "album:1515056",
+      "neteaseAlbumId": "1515056",
+      "slug": "aaliyah",
+      "title": "Aaliyah",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:46520",
+          "neteaseArtistId": "46520",
+          "name": "Aaliyah"
+        }
+      ],
+      "releaseDate": "2001-07-16",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "华纳音乐",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/1515056.webp",
+        "alt": "《Aaliyah》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/1515056.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:16431571",
+          "neteaseTrackId": "16431571",
+          "title": "We Need A Resolution (feat. Timbaland)",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah",
+            "Timbaland"
+          ],
+          "durationMs": 242826
+        },
+        {
+          "id": "netease-track:16431572",
+          "neteaseTrackId": "16431572",
+          "title": "Loose Rap (feat. Static Major)",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah",
+            "Static Major"
+          ],
+          "durationMs": 229800
+        },
+        {
+          "id": "netease-track:16431573",
+          "neteaseTrackId": "16431573",
+          "title": "Rock The Boat",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 274733
+        },
+        {
+          "id": "netease-track:16431574",
+          "neteaseTrackId": "16431574",
+          "title": "More Than A Woman",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 229866
+        },
+        {
+          "id": "netease-track:16431575",
+          "neteaseTrackId": "16431575",
+          "title": "Never No More",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 238266
+        },
+        {
+          "id": "netease-track:16431576",
+          "neteaseTrackId": "16431576",
+          "title": "I Care 4 U",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 273840
+        },
+        {
+          "id": "netease-track:16431577",
+          "neteaseTrackId": "16431577",
+          "title": "Extra Smooth",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 234600
+        },
+        {
+          "id": "netease-track:16431578",
+          "neteaseTrackId": "16431578",
+          "title": "Read Between The Lines",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 260560
+        },
+        {
+          "id": "netease-track:16431579",
+          "neteaseTrackId": "16431579",
+          "title": "U Got Nerve",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 222706
+        },
+        {
+          "id": "netease-track:16431580",
+          "neteaseTrackId": "16431580",
+          "title": "I Refuse",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 357026
+        },
+        {
+          "id": "netease-track:16431581",
+          "neteaseTrackId": "16431581",
+          "title": "It's Whatever",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 248373
+        },
+        {
+          "id": "netease-track:16431582",
+          "neteaseTrackId": "16431582",
+          "title": "I Can Be",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 179293
+        },
+        {
+          "id": "netease-track:16431583",
+          "neteaseTrackId": "16431583",
+          "title": "Those Were The Days",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 204106
+        },
+        {
+          "id": "netease-track:16431584",
+          "neteaseTrackId": "16431584",
+          "title": "What If",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 259960
+        },
+        {
+          "id": "netease-track:16431585",
+          "neteaseTrackId": "16431585",
+          "title": "Try Again",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "Aaliyah"
+          ],
+          "durationMs": 284640
+        }
+      ],
+      "trackCount": 15,
+      "externalUrl": "https://music.163.com/#/album?id=1515056",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:54:06.899Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Aaliyah",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:34840135",
+      "id": "album:34840135",
+      "neteaseAlbumId": "34840135",
+      "slug": "atrocity-exhibition",
+      "title": "Atrocity Exhibition",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:32654",
+          "neteaseArtistId": "32654",
+          "name": "Danny Brown"
+        }
+      ],
+      "releaseDate": "2016-09-30",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Warp Records",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/34840135.webp",
+        "alt": "《Atrocity Exhibition》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/34840135.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:432506834",
+          "neteaseTrackId": "432506834",
+          "title": "Downward Spiral",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 172302
+        },
+        {
+          "id": "netease-track:432509793",
+          "neteaseTrackId": "432509793",
+          "title": "Tell Me What I Don't Know",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 151979
+        },
+        {
+          "id": "netease-track:432506835",
+          "neteaseTrackId": "432506835",
+          "title": "Rolling Stone (feat. Petite Noir)",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown",
+            "Petite Noir"
+          ],
+          "durationMs": 227981
+        },
+        {
+          "id": "netease-track:431534364",
+          "neteaseTrackId": "431534364",
+          "title": "Really Doe (feat. Kendrick Lamar & Ab-Soul & Earl Sweatshirt)",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown",
+            "Kendrick Lamar",
+            "Ab-Soul",
+            "Earl Sweatshirt"
+          ],
+          "durationMs": 319433
+        },
+        {
+          "id": "netease-track:432509794",
+          "neteaseTrackId": "432509794",
+          "title": "Lost",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 127255
+        },
+        {
+          "id": "netease-track:432506836",
+          "neteaseTrackId": "432506836",
+          "title": "Ain't it Funny",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 177025
+        },
+        {
+          "id": "netease-track:432509795",
+          "neteaseTrackId": "432509795",
+          "title": "Golddust",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 144118
+        },
+        {
+          "id": "netease-track:432506837",
+          "neteaseTrackId": "432506837",
+          "title": "White Lines",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 143729
+        },
+        {
+          "id": "netease-track:426850441",
+          "neteaseTrackId": "426850441",
+          "title": "Pneumonia",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 219883
+        },
+        {
+          "id": "netease-track:432509796",
+          "neteaseTrackId": "432509796",
+          "title": "Dance In The Water",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 157930
+        },
+        {
+          "id": "netease-track:432506838",
+          "neteaseTrackId": "432506838",
+          "title": "From The Ground (feat. Kelela)",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown",
+            "Kelela"
+          ],
+          "durationMs": 138991
+        },
+        {
+          "id": "netease-track:426850448",
+          "neteaseTrackId": "426850448",
+          "title": "When It Rain",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 195966
+        },
+        {
+          "id": "netease-track:432509797",
+          "neteaseTrackId": "432509797",
+          "title": "Today",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 187679
+        },
+        {
+          "id": "netease-track:432506839",
+          "neteaseTrackId": "432506839",
+          "title": "Get Hi (feat. B-Real)",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown",
+            "B-Real"
+          ],
+          "durationMs": 213477
+        },
+        {
+          "id": "netease-track:432509798",
+          "neteaseTrackId": "432509798",
+          "title": "Hell For It",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "Danny Brown"
+          ],
+          "durationMs": 229776
+        }
+      ],
+      "trackCount": 15,
+      "externalUrl": "https://music.163.com/#/album?id=34840135",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:54:13.667Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Atrocity Exhibition Danny Brown",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:364550023",
+      "id": "album:364550023",
+      "neteaseAlbumId": "364550023",
+      "slug": "half-blood-bloodluxe",
+      "title": "Half Blood (BloodLuxe)",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:49612680",
+          "neteaseArtistId": "49612680",
+          "name": "slayr"
+        }
+      ],
+      "releaseDate": "2026-03-06",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "索尼音乐",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/364550023.webp",
+        "alt": "《Half Blood (BloodLuxe)》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/364550023.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:3355458564",
+          "neteaseTrackId": "3355458564",
+          "title": "Brain Fog",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 145423
+        },
+        {
+          "id": "netease-track:3355459547",
+          "neteaseTrackId": "3355459547",
+          "title": "Hard Knock",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 162037
+        },
+        {
+          "id": "netease-track:3355458565",
+          "neteaseTrackId": "3355458565",
+          "title": "Flashout Freestyle",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 174315
+        },
+        {
+          "id": "netease-track:3355459548",
+          "neteaseTrackId": "3355459548",
+          "title": "Daytona",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "slayr",
+            "Lucy Bedroque"
+          ],
+          "durationMs": 164414
+        },
+        {
+          "id": "netease-track:3355458566",
+          "neteaseTrackId": "3355458566",
+          "title": "Toxic",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 269923
+        },
+        {
+          "id": "netease-track:3355459549",
+          "neteaseTrackId": "3355459549",
+          "title": "Eyesight",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 145319
+        },
+        {
+          "id": "netease-track:3355459550",
+          "neteaseTrackId": "3355459550",
+          "title": "Brand New",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 115513
+        },
+        {
+          "id": "netease-track:3355458567",
+          "neteaseTrackId": "3355458567",
+          "title": "Racks",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 158563
+        },
+        {
+          "id": "netease-track:3355459551",
+          "neteaseTrackId": "3355459551",
+          "title": "Paint a Picture",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 139702
+        },
+        {
+          "id": "netease-track:3355458568",
+          "neteaseTrackId": "3355458568",
+          "title": "Died But Came Back",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 138814
+        },
+        {
+          "id": "netease-track:3355459552",
+          "neteaseTrackId": "3355459552",
+          "title": "Love Blur",
+          "trackNumber": 1,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 166635
+        },
+        {
+          "id": "netease-track:3355459553",
+          "neteaseTrackId": "3355459553",
+          "title": "Demigod",
+          "trackNumber": 2,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 167732
+        },
+        {
+          "id": "netease-track:3355458569",
+          "neteaseTrackId": "3355458569",
+          "title": "Sloppy Joe",
+          "trackNumber": 3,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 146755
+        },
+        {
+          "id": "netease-track:3355459554",
+          "neteaseTrackId": "3355459554",
+          "title": "Never Go Down",
+          "trackNumber": 4,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 120241
+        },
+        {
+          "id": "netease-track:3355459555",
+          "neteaseTrackId": "3355459555",
+          "title": "Wipe Yo Nose",
+          "trackNumber": 5,
+          "discNumber": 2,
+          "artists": [
+            "slayr",
+            "ezcodylee"
+          ],
+          "durationMs": 188577
+        },
+        {
+          "id": "netease-track:3355459556",
+          "neteaseTrackId": "3355459556",
+          "title": "24/7",
+          "trackNumber": 6,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 126302
+        },
+        {
+          "id": "netease-track:3355458570",
+          "neteaseTrackId": "3355458570",
+          "title": "Phone (Interlude)",
+          "trackNumber": 7,
+          "discNumber": 2,
+          "artists": [
+            "slayr",
+            "TJayy"
+          ],
+          "durationMs": 128078
+        },
+        {
+          "id": "netease-track:3355459557",
+          "neteaseTrackId": "3355459557",
+          "title": "Holding",
+          "trackNumber": 8,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 153730
+        },
+        {
+          "id": "netease-track:3355458571",
+          "neteaseTrackId": "3355458571",
+          "title": "Death By MP3",
+          "trackNumber": 9,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 155376
+        },
+        {
+          "id": "netease-track:3355458572",
+          "neteaseTrackId": "3355458572",
+          "title": "The Sky",
+          "trackNumber": 10,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 219219
+        },
+        {
+          "id": "netease-track:3355458573",
+          "neteaseTrackId": "3355458573",
+          "title": "Set In Stone",
+          "trackNumber": 11,
+          "discNumber": 2,
+          "artists": [
+            "slayr"
+          ],
+          "durationMs": 124003
+        }
+      ],
+      "trackCount": 21,
+      "externalUrl": "https://music.163.com/#/album?id=364550023",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:54:20.327Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Half Blood (BloodLuxe) slayr",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:1506337",
+      "id": "album:1506337",
+      "neteaseAlbumId": "1506337",
+      "slug": "midnight-marauders",
+      "title": "Midnight Marauders",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:27648",
+          "neteaseArtistId": "27648",
+          "name": "A Tribe Called Quest"
+        }
+      ],
+      "releaseDate": "1993-11-09",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "索尼音乐",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/1506337.webp",
+        "alt": "《Midnight Marauders》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/1506337.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:16330805",
+          "neteaseTrackId": "16330805",
+          "title": "Midnight Marauders Tour Guide",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 45395
+        },
+        {
+          "id": "netease-track:16330806",
+          "neteaseTrackId": "16330806",
+          "title": "Steve Biko (Stir It Up)",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 191587
+        },
+        {
+          "id": "netease-track:16330807",
+          "neteaseTrackId": "16330807",
+          "title": "Award Tour",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest",
+            "Trugoy, The Dove"
+          ],
+          "durationMs": 226510
+        },
+        {
+          "id": "netease-track:16330808",
+          "neteaseTrackId": "16330808",
+          "title": "8 Million Stories",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 260945
+        },
+        {
+          "id": "netease-track:16330809",
+          "neteaseTrackId": "16330809",
+          "title": "Sucka Nigga",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 245133
+        },
+        {
+          "id": "netease-track:16330810",
+          "neteaseTrackId": "16330810",
+          "title": "Midnight",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest",
+            "Raphael Wiggins"
+          ],
+          "durationMs": 265079
+        },
+        {
+          "id": "netease-track:16330811",
+          "neteaseTrackId": "16330811",
+          "title": "We Can Get Down",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 259181
+        },
+        {
+          "id": "netease-track:16330812",
+          "neteaseTrackId": "16330812",
+          "title": "Electric Relaxation",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 243855
+        },
+        {
+          "id": "netease-track:16330813",
+          "neteaseTrackId": "16330813",
+          "title": "Clap Your Hands",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 196556
+        },
+        {
+          "id": "netease-track:16330814",
+          "neteaseTrackId": "16330814",
+          "title": "Oh My God",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest",
+            "Busta Rhymes"
+          ],
+          "durationMs": 208909
+        },
+        {
+          "id": "netease-track:16330815",
+          "neteaseTrackId": "16330815",
+          "title": "Keep It Rollin'",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest",
+            "Large Professor"
+          ],
+          "durationMs": 186131
+        },
+        {
+          "id": "netease-track:16330816",
+          "neteaseTrackId": "16330816",
+          "title": "The Chase, Part II",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 242439
+        },
+        {
+          "id": "netease-track:16330817",
+          "neteaseTrackId": "16330817",
+          "title": "Lyrics to Go",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 249080
+        },
+        {
+          "id": "netease-track:16330818",
+          "neteaseTrackId": "16330818",
+          "title": "God Lives Through",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 255605
+        },
+        {
+          "id": "netease-track:16330819",
+          "neteaseTrackId": "16330819",
+          "title": "Hot ***",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "A Tribe Called Quest"
+          ],
+          "durationMs": 165000
+        }
+      ],
+      "trackCount": 15,
+      "externalUrl": "https://music.163.com/#/album?id=1506337",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:54:27.113Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Midnight Marauders A Tribe Called Quest",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:29704",
+      "id": "album:29704",
+      "neteaseAlbumId": "29704",
+      "slug": "netease-29704",
+      "title": "只爱陌生人",
+      "aliases": [
+        "只愛陌生人"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:9621",
+          "neteaseArtistId": "9621",
+          "name": "王菲"
+        }
+      ],
+      "releaseDate": "1999-09-09",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "KC DIGITAL LIMITED",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/29704.webp",
+        "alt": "《只爱陌生人》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/29704.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:299640",
+          "neteaseTrackId": "299640",
+          "title": "开到荼蘼",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 313400
+        },
+        {
+          "id": "netease-track:299642",
+          "neteaseTrackId": "299642",
+          "title": "当时的月亮",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 231626
+        },
+        {
+          "id": "netease-track:299644",
+          "neteaseTrackId": "299644",
+          "title": "催眠",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 266573
+        },
+        {
+          "id": "netease-track:299647",
+          "neteaseTrackId": "299647",
+          "title": "只爱陌生人",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 221866
+        },
+        {
+          "id": "netease-track:299650",
+          "neteaseTrackId": "299650",
+          "title": "百年孤寂",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 317426
+        },
+        {
+          "id": "netease-track:299652",
+          "neteaseTrackId": "299652",
+          "title": "蝴蝶",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 237000
+        },
+        {
+          "id": "netease-track:299654",
+          "neteaseTrackId": "299654",
+          "title": "过眼云烟",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 246373
+        },
+        {
+          "id": "netease-track:299656",
+          "neteaseTrackId": "299656",
+          "title": "哔一声之后",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 254133
+        },
+        {
+          "id": "netease-track:299658",
+          "neteaseTrackId": "299658",
+          "title": "推翻",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 263360
+        },
+        {
+          "id": "netease-track:299660",
+          "neteaseTrackId": "299660",
+          "title": "精彩",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 286840
+        },
+        {
+          "id": "netease-track:299662",
+          "neteaseTrackId": "299662",
+          "title": "守望麦田",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 318626
+        },
+        {
+          "id": "netease-track:299664",
+          "neteaseTrackId": "299664",
+          "title": "邮差",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "王菲"
+          ],
+          "durationMs": 260600
+        }
+      ],
+      "trackCount": 12,
+      "externalUrl": "https://music.163.com/#/album?id=29704",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:54:41.945Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "只爱陌生人 只愛陌生人 王菲",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:2046781",
+      "id": "album:2046781",
+      "neteaseAlbumId": "2046781",
+      "slug": "the-velvet-rope",
+      "title": "The Velvet Rope",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:35350",
+          "neteaseArtistId": "35350",
+          "name": "Janet Jackson"
+        }
+      ],
+      "releaseDate": "1997-10-04",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Virgin Records",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2046781.webp",
+        "alt": "《The Velvet Rope》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/2046781.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:22284107",
+          "neteaseTrackId": "22284107",
+          "title": "Interlude - Twisted Elegance",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 42466
+        },
+        {
+          "id": "netease-track:22284108",
+          "neteaseTrackId": "22284108",
+          "title": "Velvet Rope",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson",
+            "Vanessa-Mae"
+          ],
+          "durationMs": 295866
+        },
+        {
+          "id": "netease-track:22284109",
+          "neteaseTrackId": "22284109",
+          "title": "You",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 282666
+        },
+        {
+          "id": "netease-track:22284110",
+          "neteaseTrackId": "22284110",
+          "title": "Got 'Til It's Gone",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson",
+            "Q-Tip",
+            "Joni Mitchell"
+          ],
+          "durationMs": 241760
+        },
+        {
+          "id": "netease-track:22284111",
+          "neteaseTrackId": "22284111",
+          "title": "Interlude - Speaker Phone",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 54133
+        },
+        {
+          "id": "netease-track:22284112",
+          "neteaseTrackId": "22284112",
+          "title": "My Need",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 224066
+        },
+        {
+          "id": "netease-track:22284113",
+          "neteaseTrackId": "22284113",
+          "title": "Interlude - Fasten Your Seatbelts",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 19106
+        },
+        {
+          "id": "netease-track:22284114",
+          "neteaseTrackId": "22284114",
+          "title": "Go Deep",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 282026
+        },
+        {
+          "id": "netease-track:22284115",
+          "neteaseTrackId": "22284115",
+          "title": "Free Xone",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 297066
+        },
+        {
+          "id": "netease-track:22284116",
+          "neteaseTrackId": "22284116",
+          "title": "Interlude - Memory",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 4706
+        },
+        {
+          "id": "netease-track:22284117",
+          "neteaseTrackId": "22284117",
+          "title": "Together Again",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 301200
+        },
+        {
+          "id": "netease-track:22284118",
+          "neteaseTrackId": "22284118",
+          "title": "Interlude - Online",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 19360
+        },
+        {
+          "id": "netease-track:22284119",
+          "neteaseTrackId": "22284119",
+          "title": "Empty",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 272733
+        },
+        {
+          "id": "netease-track:22284120",
+          "neteaseTrackId": "22284120",
+          "title": "Interlude - Full",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 12866
+        },
+        {
+          "id": "netease-track:22284121",
+          "neteaseTrackId": "22284121",
+          "title": "What About",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 264266
+        },
+        {
+          "id": "netease-track:22284122",
+          "neteaseTrackId": "22284122",
+          "title": "Every Time",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 257106
+        },
+        {
+          "id": "netease-track:22284123",
+          "neteaseTrackId": "22284123",
+          "title": "Tonight's The Night",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 307666
+        },
+        {
+          "id": "netease-track:22284124",
+          "neteaseTrackId": "22284124",
+          "title": "I Get Lonely",
+          "trackNumber": 18,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 317560
+        },
+        {
+          "id": "netease-track:22284125",
+          "neteaseTrackId": "22284125",
+          "title": "Rope Burn",
+          "trackNumber": 19,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 255800
+        },
+        {
+          "id": "netease-track:22284126",
+          "neteaseTrackId": "22284126",
+          "title": "Anything",
+          "trackNumber": 20,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 294840
+        },
+        {
+          "id": "netease-track:22284127",
+          "neteaseTrackId": "22284127",
+          "title": "Interlude - Sad",
+          "trackNumber": 21,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 10866
+        },
+        {
+          "id": "netease-track:22284128",
+          "neteaseTrackId": "22284128",
+          "title": "Special",
+          "trackNumber": 22,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 202034
+        },
+        {
+          "id": "netease-track:1987483630",
+          "neteaseTrackId": "1987483630",
+          "title": "Can't Be Stopped",
+          "trackNumber": 23,
+          "discNumber": 1,
+          "artists": [
+            "Janet Jackson"
+          ],
+          "durationMs": 253990
+        }
+      ],
+      "trackCount": 23,
+      "externalUrl": "https://music.163.com/#/album?id=2046781",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:54:48.719Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "art-pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "The Velvet Rope Janet Jackson",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:1974794",
+      "id": "album:1974794",
+      "neteaseAlbumId": "1974794",
+      "slug": "1999-prince",
+      "title": "1999",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:41142",
+          "neteaseArtistId": "41142",
+          "name": "Prince"
+        }
+      ],
+      "releaseDate": "1982-10-27",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "华纳音乐",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/1974794.webp",
+        "alt": "《1999》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/1974794.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:21393218",
+          "neteaseTrackId": "21393218",
+          "title": "1999",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 379266
+        },
+        {
+          "id": "netease-track:21393219",
+          "neteaseTrackId": "21393219",
+          "title": "Little Red Corvette",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 303613
+        },
+        {
+          "id": "netease-track:21393220",
+          "neteaseTrackId": "21393220",
+          "title": "Delirious",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 240800
+        },
+        {
+          "id": "netease-track:21393221",
+          "neteaseTrackId": "21393221",
+          "title": "Let's Pretend We're Married",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 441586
+        },
+        {
+          "id": "netease-track:21393222",
+          "neteaseTrackId": "21393222",
+          "title": "D.M.S.R.",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 497413
+        },
+        {
+          "id": "netease-track:21393223",
+          "neteaseTrackId": "21393223",
+          "title": "Automatic",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 568106
+        },
+        {
+          "id": "netease-track:21393224",
+          "neteaseTrackId": "21393224",
+          "title": "Something in the Water (Does Not Compute)",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 242813
+        },
+        {
+          "id": "netease-track:21393225",
+          "neteaseTrackId": "21393225",
+          "title": "Free",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 308440
+        },
+        {
+          "id": "netease-track:21393227",
+          "neteaseTrackId": "21393227",
+          "title": "All the Critics Love U in New York",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 359133
+        },
+        {
+          "id": "netease-track:21393228",
+          "neteaseTrackId": "21393228",
+          "title": "International Lover",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Prince"
+          ],
+          "durationMs": 397880
+        }
+      ],
+      "trackCount": 10,
+      "externalUrl": "https://music.163.com/#/album?id=1974794",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:54:55.529Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "1999 Prince",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:35745181",
+      "id": "album:35745181",
+      "neteaseAlbumId": "35745181",
+      "slug": "flower-boy",
+      "title": "Flower Boy",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:44708",
+          "neteaseArtistId": "44708",
+          "name": "Tyler, The Creator"
+        }
+      ],
+      "releaseDate": "2017-07-21",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "索尼音乐",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/35745181.webp",
+        "alt": "《Flower Boy》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/35745181.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:491943376",
+          "neteaseTrackId": "491943376",
+          "title": "Foreword",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "Rex Orange County"
+          ],
+          "durationMs": 194118
+        },
+        {
+          "id": "netease-track:491955347",
+          "neteaseTrackId": "491955347",
+          "title": "Where This Flower Blooms",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "Frank Ocean"
+          ],
+          "durationMs": 194977
+        },
+        {
+          "id": "netease-track:491943378",
+          "neteaseTrackId": "491943378",
+          "title": "Sometimes...",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator"
+          ],
+          "durationMs": 36205
+        },
+        {
+          "id": "netease-track:491943377",
+          "neteaseTrackId": "491943377",
+          "title": "See You Again",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "Kali Uchis"
+          ],
+          "durationMs": 180442
+        },
+        {
+          "id": "netease-track:491955346",
+          "neteaseTrackId": "491955346",
+          "title": "Who Dat Boy",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "A$AP Rocky"
+          ],
+          "durationMs": 205148
+        },
+        {
+          "id": "netease-track:491943374",
+          "neteaseTrackId": "491943374",
+          "title": "Pothole",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "Jaden"
+          ],
+          "durationMs": 237052
+        },
+        {
+          "id": "netease-track:491943375",
+          "neteaseTrackId": "491943375",
+          "title": "Garden Shed",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "Estelle"
+          ],
+          "durationMs": 224000
+        },
+        {
+          "id": "netease-track:489997736",
+          "neteaseTrackId": "489997736",
+          "title": "Boredom",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "Anna of the North",
+            "Rex Orange County"
+          ],
+          "durationMs": 320783
+        },
+        {
+          "id": "netease-track:491943373",
+          "neteaseTrackId": "491943373",
+          "title": "I Ain't Got Time!",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator"
+          ],
+          "durationMs": 206332
+        },
+        {
+          "id": "netease-track:491943372",
+          "neteaseTrackId": "491943372",
+          "title": "911 / Mr. Lonely",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "Frank Ocean",
+            "Steve Lacy"
+          ],
+          "durationMs": 255721
+        },
+        {
+          "id": "netease-track:491943371",
+          "neteaseTrackId": "491943371",
+          "title": "Droppin' Seeds",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator",
+            "Lil Wayne"
+          ],
+          "durationMs": 60046
+        },
+        {
+          "id": "netease-track:491955344",
+          "neteaseTrackId": "491955344",
+          "title": "November",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator"
+          ],
+          "durationMs": 225410
+        },
+        {
+          "id": "netease-track:491943370",
+          "neteaseTrackId": "491943370",
+          "title": "Glitter",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator"
+          ],
+          "durationMs": 224954
+        },
+        {
+          "id": "netease-track:491955343",
+          "neteaseTrackId": "491955343",
+          "title": "Enjoy Right Now, Today",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Tyler, The Creator"
+          ],
+          "durationMs": 235450
+        }
+      ],
+      "trackCount": 14,
+      "externalUrl": "https://music.163.com/#/album?id=35745181",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:55:02.198Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "hip-hop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Flower Boy Tyler, The Creator",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:2298031",
+      "id": "album:2298031",
+      "neteaseAlbumId": "2298031",
+      "slug": "netease-2298031",
+      "title": "恋人へ",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:20287",
+          "neteaseArtistId": "20287",
+          "name": "Lamp"
+        }
+      ],
+      "releaseDate": "2004-02-11",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Botanical House",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2298031.webp",
+        "alt": "《恋人へ》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/2298031.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:25723361",
+          "neteaseTrackId": "25723361",
+          "title": "恋人へ",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Lamp"
+          ],
+          "durationMs": 75053
+        },
+        {
+          "id": "netease-track:25723359",
+          "neteaseTrackId": "25723359",
+          "title": "ひろがるなみだ",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Lamp"
+          ],
+          "durationMs": 274200
+        },
+        {
+          "id": "netease-track:25723363",
+          "neteaseTrackId": "25723363",
+          "title": "最終列車は25時",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Lamp"
+          ],
+          "durationMs": 263840
+        },
+        {
+          "id": "netease-track:25723365",
+          "neteaseTrackId": "25723365",
+          "title": "日曜日のお別れ",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Lamp"
+          ],
+          "durationMs": 306986
+        },
+        {
+          "id": "netease-track:25723360",
+          "neteaseTrackId": "25723360",
+          "title": "明日になれば僕は",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Lamp"
+          ],
+          "durationMs": 231906
+        },
+        {
+          "id": "netease-track:25723366",
+          "neteaseTrackId": "25723366",
+          "title": "雨のメッセージ",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Lamp"
+          ],
+          "durationMs": 326546
+        },
+        {
+          "id": "netease-track:25723362",
+          "neteaseTrackId": "25723362",
+          "title": "愛の言葉",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Lamp"
+          ],
+          "durationMs": 226200
+        },
+        {
+          "id": "netease-track:25723364",
+          "neteaseTrackId": "25723364",
+          "title": "恋は月の蔭に",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Lamp"
+          ],
+          "durationMs": 309720
+        }
+      ],
+      "trackCount": 8,
+      "externalUrl": "https://music.163.com/#/album?id=2298031",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:55:08.889Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "恋人へ Lamp",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:88561267",
+      "id": "album:88561267",
+      "neteaseAlbumId": "88561267",
+      "slug": "american-football-1999",
+      "title": "American Football",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:85804",
+          "neteaseArtistId": "85804",
+          "name": "American Football"
+        }
+      ],
+      "releaseDate": "1999-09-14",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "华纳音乐",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/88561267.webp",
+        "alt": "《American Football》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/88561267.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:1443541165",
+          "neteaseTrackId": "1443541165",
+          "title": "Never Meant",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 268333
+        },
+        {
+          "id": "netease-track:1443541166",
+          "neteaseTrackId": "1443541166",
+          "title": "The Summer Ends",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 286040
+        },
+        {
+          "id": "netease-track:1443540318",
+          "neteaseTrackId": "1443540318",
+          "title": "Honestly?",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 370506
+        },
+        {
+          "id": "netease-track:1443540319",
+          "neteaseTrackId": "1443540319",
+          "title": "For Sure",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 196120
+        },
+        {
+          "id": "netease-track:1443541167",
+          "neteaseTrackId": "1443541167",
+          "title": "You Know I Should Be Leaving Soon",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 223066
+        },
+        {
+          "id": "netease-track:1443541168",
+          "neteaseTrackId": "1443541168",
+          "title": "But the Regrets Are Killing Me",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 234773
+        },
+        {
+          "id": "netease-track:1443540320",
+          "neteaseTrackId": "1443540320",
+          "title": "I'll See You When We're Both Not So Emotional",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 222333
+        },
+        {
+          "id": "netease-track:1443540321",
+          "neteaseTrackId": "1443540321",
+          "title": "Stay Home",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 490466
+        },
+        {
+          "id": "netease-track:1443541169",
+          "neteaseTrackId": "1443541169",
+          "title": "The One With The Wurlitzer",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "American Football"
+          ],
+          "durationMs": 163053
+        }
+      ],
+      "trackCount": 9,
+      "externalUrl": "https://music.163.com/#/album?id=88561267",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:55:24.004Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "indie-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "American Football",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:34726168",
+      "id": "album:34726168",
+      "neteaseAlbumId": "34726168",
+      "slug": "masterpiece-big-thief",
+      "title": "Masterpiece",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:12007356",
+          "neteaseArtistId": "12007356",
+          "name": "Big Thief"
+        }
+      ],
+      "releaseDate": "2016-05-27",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "4AD",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/34726168.webp",
+        "alt": "《Masterpiece》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/34726168.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:415786176",
+          "neteaseTrackId": "415786176",
+          "title": "Little Arrow",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 118185
+        },
+        {
+          "id": "netease-track:415786177",
+          "neteaseTrackId": "415786177",
+          "title": "Masterpiece",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 230586
+        },
+        {
+          "id": "netease-track:415786178",
+          "neteaseTrackId": "415786178",
+          "title": "Vegas",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 139256
+        },
+        {
+          "id": "netease-track:415786179",
+          "neteaseTrackId": "415786179",
+          "title": "Real Love",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 257385
+        },
+        {
+          "id": "netease-track:415786180",
+          "neteaseTrackId": "415786180",
+          "title": "Interstate",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 204243
+        },
+        {
+          "id": "netease-track:415786181",
+          "neteaseTrackId": "415786181",
+          "title": "Lorraine",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 113494
+        },
+        {
+          "id": "netease-track:415786182",
+          "neteaseTrackId": "415786182",
+          "title": "Paul",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 183894
+        },
+        {
+          "id": "netease-track:415786183",
+          "neteaseTrackId": "415786183",
+          "title": "Humans",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 203139
+        },
+        {
+          "id": "netease-track:415786184",
+          "neteaseTrackId": "415786184",
+          "title": "Velvet Ring",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 155938
+        },
+        {
+          "id": "netease-track:415786185",
+          "neteaseTrackId": "415786185",
+          "title": "Animals",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 179454
+        },
+        {
+          "id": "netease-track:415786186",
+          "neteaseTrackId": "415786186",
+          "title": "Randy",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 189326
+        },
+        {
+          "id": "netease-track:415786187",
+          "neteaseTrackId": "415786187",
+          "title": "Parallels",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "Big Thief"
+          ],
+          "durationMs": 263109
+        }
+      ],
+      "trackCount": 12,
+      "externalUrl": "https://music.163.com/#/album?id=34726168",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:55:30.641Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "indie-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "Masterpiece Big Thief",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:155679106",
+      "id": "album:155679106",
+      "neteaseAlbumId": "155679106",
+      "slug": "hypochondriac-brakence",
+      "title": "hypochondriac",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:31328598",
+          "neteaseArtistId": "31328598",
+          "name": "brakence"
+        }
+      ],
+      "releaseDate": "2022-12-01",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "索尼音乐",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/155679106.webp",
+        "alt": "《hypochondriac》专辑封面",
+        "reason": null,
+        "thumbnailSrc": "/catalog/covers/thumb/155679106.webp"
+      },
+      "tracks": [
+        {
+          "id": "netease-track:2002612883",
+          "neteaseTrackId": "2002612883",
+          "title": "bugging!",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 196742
+        },
+        {
+          "id": "netease-track:2002613701",
+          "neteaseTrackId": "2002613701",
+          "title": "caffeine",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 198414
+        },
+        {
+          "id": "netease-track:2002612884",
+          "neteaseTrackId": "2002612884",
+          "title": "venus fly trap",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 295845
+        },
+        {
+          "id": "netease-track:2002612885",
+          "neteaseTrackId": "2002612885",
+          "title": "teeth",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 272300
+        },
+        {
+          "id": "netease-track:2002613702",
+          "neteaseTrackId": "2002613702",
+          "title": "intellectual greed",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 210024
+        },
+        {
+          "id": "netease-track:2002613703",
+          "neteaseTrackId": "2002613703",
+          "title": "5g",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 209769
+        },
+        {
+          "id": "netease-track:2002612886",
+          "neteaseTrackId": "2002612886",
+          "title": "preparation exercise no. 7 (trembling)",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 222563
+        },
+        {
+          "id": "netease-track:2002613704",
+          "neteaseTrackId": "2002613704",
+          "title": "cbd",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 161332
+        },
+        {
+          "id": "netease-track:2002612887",
+          "neteaseTrackId": "2002612887",
+          "title": "stung",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 335505
+        },
+        {
+          "id": "netease-track:2002612888",
+          "neteaseTrackId": "2002612888",
+          "title": "argyle",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 165256
+        },
+        {
+          "id": "netease-track:2002613705",
+          "neteaseTrackId": "2002613705",
+          "title": "deepfake",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 330698
+        },
+        {
+          "id": "netease-track:2002613706",
+          "neteaseTrackId": "2002613706",
+          "title": "introvert",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 374607
+        },
+        {
+          "id": "netease-track:2002612890",
+          "neteaseTrackId": "2002612890",
+          "title": "hypochondriac",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "brakence"
+          ],
+          "durationMs": 162957
+        }
+      ],
+      "trackCount": 13,
+      "externalUrl": "https://music.163.com/#/album?id=155679106",
+      "discoveredAt": "2026-07-28T14:08:18.260Z",
+      "updatedAt": "2026-07-28T14:08:18.260Z",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-07-28T13:55:37.326Z",
+        "parserVersion": "netease-catalog-expansion-0.8",
+        "verificationMethod": "fixed_album_identity",
+        "error": null
+      },
+      "sourceMarketChannels": [],
+      "contexts": [],
+      "editorial": null,
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "searchText": "hypochondriac brakence",
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "rymInputSourceId": null
     }
   ]
 }

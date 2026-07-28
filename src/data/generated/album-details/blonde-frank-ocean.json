@@ -1,0 +1,241 @@
+{
+  "internalId": "album:34818182",
+  "id": "album:34818182",
+  "neteaseAlbumId": "34818182",
+  "slug": "blonde-frank-ocean",
+  "title": "Blonde",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:33727",
+      "neteaseArtistId": "33727",
+      "name": "Frank Ocean"
+    }
+  ],
+  "releaseDate": "2016-08-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Boys Don't Cry",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34818182.webp",
+    "alt": "《Blonde》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34818182.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:426194881",
+      "neteaseTrackId": "426194881",
+      "title": "Nikes",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 314075
+    },
+    {
+      "id": "netease-track:426194882",
+      "neteaseTrackId": "426194882",
+      "title": "Ivy",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 249191
+    },
+    {
+      "id": "netease-track:426194883",
+      "neteaseTrackId": "426194883",
+      "title": "Pink + White",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 184516
+    },
+    {
+      "id": "netease-track:426194884",
+      "neteaseTrackId": "426194884",
+      "title": "Be Yourself",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 86943
+    },
+    {
+      "id": "netease-track:426194885",
+      "neteaseTrackId": "426194885",
+      "title": "Solo",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 257380
+    },
+    {
+      "id": "netease-track:426194886",
+      "neteaseTrackId": "426194886",
+      "title": "Skyline To",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 184600
+    },
+    {
+      "id": "netease-track:426194887",
+      "neteaseTrackId": "426194887",
+      "title": "Self Control",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 249667
+    },
+    {
+      "id": "netease-track:426194888",
+      "neteaseTrackId": "426194888",
+      "title": "Good Guy",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 66786
+    },
+    {
+      "id": "netease-track:426194889",
+      "neteaseTrackId": "426194889",
+      "title": "Nights",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 307151
+    },
+    {
+      "id": "netease-track:426194890",
+      "neteaseTrackId": "426194890",
+      "title": "Solo (Reprise)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 78742
+    },
+    {
+      "id": "netease-track:426194891",
+      "neteaseTrackId": "426194891",
+      "title": "Pretty Sweet",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 158478
+    },
+    {
+      "id": "netease-track:426194892",
+      "neteaseTrackId": "426194892",
+      "title": "Facebook Story",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 68588
+    },
+    {
+      "id": "netease-track:426194893",
+      "neteaseTrackId": "426194893",
+      "title": "Close to You",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 85754
+    },
+    {
+      "id": "netease-track:426194894",
+      "neteaseTrackId": "426194894",
+      "title": "White Ferrari",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 248807
+    },
+    {
+      "id": "netease-track:426194895",
+      "neteaseTrackId": "426194895",
+      "title": "Seigfried",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 334570
+    },
+    {
+      "id": "netease-track:426194896",
+      "neteaseTrackId": "426194896",
+      "title": "Godspeed",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 177922
+    },
+    {
+      "id": "netease-track:426194897",
+      "neteaseTrackId": "426194897",
+      "title": "Futura Free",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 564165
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=34818182",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:53:59.994Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Blonde Frank Ocean",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

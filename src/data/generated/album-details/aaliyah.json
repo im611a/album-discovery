@@ -1,0 +1,221 @@
+{
+  "internalId": "album:1515056",
+  "id": "album:1515056",
+  "neteaseAlbumId": "1515056",
+  "slug": "aaliyah",
+  "title": "Aaliyah",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:46520",
+      "neteaseArtistId": "46520",
+      "name": "Aaliyah"
+    }
+  ],
+  "releaseDate": "2001-07-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1515056.webp",
+    "alt": "《Aaliyah》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1515056.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16431571",
+      "neteaseTrackId": "16431571",
+      "title": "We Need A Resolution (feat. Timbaland)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah",
+        "Timbaland"
+      ],
+      "durationMs": 242826
+    },
+    {
+      "id": "netease-track:16431572",
+      "neteaseTrackId": "16431572",
+      "title": "Loose Rap (feat. Static Major)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah",
+        "Static Major"
+      ],
+      "durationMs": 229800
+    },
+    {
+      "id": "netease-track:16431573",
+      "neteaseTrackId": "16431573",
+      "title": "Rock The Boat",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 274733
+    },
+    {
+      "id": "netease-track:16431574",
+      "neteaseTrackId": "16431574",
+      "title": "More Than A Woman",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 229866
+    },
+    {
+      "id": "netease-track:16431575",
+      "neteaseTrackId": "16431575",
+      "title": "Never No More",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 238266
+    },
+    {
+      "id": "netease-track:16431576",
+      "neteaseTrackId": "16431576",
+      "title": "I Care 4 U",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 273840
+    },
+    {
+      "id": "netease-track:16431577",
+      "neteaseTrackId": "16431577",
+      "title": "Extra Smooth",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 234600
+    },
+    {
+      "id": "netease-track:16431578",
+      "neteaseTrackId": "16431578",
+      "title": "Read Between The Lines",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 260560
+    },
+    {
+      "id": "netease-track:16431579",
+      "neteaseTrackId": "16431579",
+      "title": "U Got Nerve",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 222706
+    },
+    {
+      "id": "netease-track:16431580",
+      "neteaseTrackId": "16431580",
+      "title": "I Refuse",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 357026
+    },
+    {
+      "id": "netease-track:16431581",
+      "neteaseTrackId": "16431581",
+      "title": "It's Whatever",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 248373
+    },
+    {
+      "id": "netease-track:16431582",
+      "neteaseTrackId": "16431582",
+      "title": "I Can Be",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 179293
+    },
+    {
+      "id": "netease-track:16431583",
+      "neteaseTrackId": "16431583",
+      "title": "Those Were The Days",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 204106
+    },
+    {
+      "id": "netease-track:16431584",
+      "neteaseTrackId": "16431584",
+      "title": "What If",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 259960
+    },
+    {
+      "id": "netease-track:16431585",
+      "neteaseTrackId": "16431585",
+      "title": "Try Again",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 284640
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1515056",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:54:06.899Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Aaliyah",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

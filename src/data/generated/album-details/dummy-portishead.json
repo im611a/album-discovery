@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1681844",
+  "id": "album:1681844",
+  "neteaseAlbumId": "1681844",
+  "slug": "dummy-portishead",
+  "title": "Dummy",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:98538",
+      "neteaseArtistId": "98538",
+      "name": "Portishead"
+    }
+  ],
+  "releaseDate": "1994-08-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Polydor Associated Labels",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1681844.webp",
+    "alt": "《Dummy》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1681844.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18326488",
+      "neteaseTrackId": "18326488",
+      "title": "Mysterons",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 305240
+    },
+    {
+      "id": "netease-track:18326489",
+      "neteaseTrackId": "18326489",
+      "title": "Sour Times",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 252266
+    },
+    {
+      "id": "netease-track:18326490",
+      "neteaseTrackId": "18326490",
+      "title": "Strangers",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 237600
+    },
+    {
+      "id": "netease-track:18326491",
+      "neteaseTrackId": "18326491",
+      "title": "It Could Be Sweet",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 257160
+    },
+    {
+      "id": "netease-track:18326492",
+      "neteaseTrackId": "18326492",
+      "title": "Wandering Star",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 293200
+    },
+    {
+      "id": "netease-track:18326493",
+      "neteaseTrackId": "18326493",
+      "title": "It's A Fire",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 226200
+    },
+    {
+      "id": "netease-track:18326494",
+      "neteaseTrackId": "18326494",
+      "title": "Numb",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 234974
+    },
+    {
+      "id": "netease-track:18326495",
+      "neteaseTrackId": "18326495",
+      "title": "Roads",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 303973
+    },
+    {
+      "id": "netease-track:18326496",
+      "neteaseTrackId": "18326496",
+      "title": "Pedestal",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 220450
+    },
+    {
+      "id": "netease-track:18326497",
+      "neteaseTrackId": "18326497",
+      "title": "Biscuit",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 302600
+    },
+    {
+      "id": "netease-track:18326498",
+      "neteaseTrackId": "18326498",
+      "title": "Glory Box",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 308626
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1681844",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:53:19.559Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Dummy Portishead",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

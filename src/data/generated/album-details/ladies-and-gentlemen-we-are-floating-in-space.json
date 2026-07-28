@@ -1,0 +1,188 @@
+{
+  "internalId": "album:1757603",
+  "id": "album:1757603",
+  "neteaseAlbumId": "1757603",
+  "slug": "ladies-and-gentlemen-we-are-floating-in-space",
+  "title": "Ladies and Gentlemen We Are Floating in Space",
+  "aliases": [
+    "Ladies and gentlemen we are floating in space"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "1997-05-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fat Possum Records under exclusive license from Sony Music Enterainment Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1757603.webp",
+    "alt": "《Ladies and Gentlemen We Are Floating in Space》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/1757603.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19169294",
+      "neteaseTrackId": "19169294",
+      "title": "Ladies and gentlemen we are floating in space",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 234053
+    },
+    {
+      "id": "netease-track:19169295",
+      "neteaseTrackId": "19169295",
+      "title": "Come Together",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 280608
+    },
+    {
+      "id": "netease-track:19169296",
+      "neteaseTrackId": "19169296",
+      "title": "I Think I'm in Love",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 490104
+    },
+    {
+      "id": "netease-track:19169297",
+      "neteaseTrackId": "19169297",
+      "title": "All of My Thoughts",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 276840
+    },
+    {
+      "id": "netease-track:19169298",
+      "neteaseTrackId": "19169298",
+      "title": "Stay with Me",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 308166
+    },
+    {
+      "id": "netease-track:19169299",
+      "neteaseTrackId": "19169299",
+      "title": "Electricity",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 226037
+    },
+    {
+      "id": "netease-track:19169300",
+      "neteaseTrackId": "19169300",
+      "title": "Home of the Brave",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 142942
+    },
+    {
+      "id": "netease-track:19169301",
+      "neteaseTrackId": "19169301",
+      "title": "The Individual",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 255085
+    },
+    {
+      "id": "netease-track:19169302",
+      "neteaseTrackId": "19169302",
+      "title": "Broken Heart",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 398306
+    },
+    {
+      "id": "netease-track:19169303",
+      "neteaseTrackId": "19169303",
+      "title": "No God Only Religion",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 261666
+    },
+    {
+      "id": "netease-track:19169304",
+      "neteaseTrackId": "19169304",
+      "title": "Cool Waves",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 306072
+    },
+    {
+      "id": "netease-track:19169305",
+      "neteaseTrackId": "19169305",
+      "title": "Cop Shoot Cop...",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 1033900
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1757603",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:52:59.046Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Ladies and Gentlemen We Are Floating in Space Ladies and gentlemen we are floating in space Spiritualized",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

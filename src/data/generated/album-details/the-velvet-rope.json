@@ -1,0 +1,310 @@
+{
+  "internalId": "album:2046781",
+  "id": "album:2046781",
+  "neteaseAlbumId": "2046781",
+  "slug": "the-velvet-rope",
+  "title": "The Velvet Rope",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1997-10-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2046781.webp",
+    "alt": "《The Velvet Rope》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/2046781.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:22284107",
+      "neteaseTrackId": "22284107",
+      "title": "Interlude - Twisted Elegance",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 42466
+    },
+    {
+      "id": "netease-track:22284108",
+      "neteaseTrackId": "22284108",
+      "title": "Velvet Rope",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Vanessa-Mae"
+      ],
+      "durationMs": 295866
+    },
+    {
+      "id": "netease-track:22284109",
+      "neteaseTrackId": "22284109",
+      "title": "You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 282666
+    },
+    {
+      "id": "netease-track:22284110",
+      "neteaseTrackId": "22284110",
+      "title": "Got 'Til It's Gone",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Q-Tip",
+        "Joni Mitchell"
+      ],
+      "durationMs": 241760
+    },
+    {
+      "id": "netease-track:22284111",
+      "neteaseTrackId": "22284111",
+      "title": "Interlude - Speaker Phone",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 54133
+    },
+    {
+      "id": "netease-track:22284112",
+      "neteaseTrackId": "22284112",
+      "title": "My Need",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 224066
+    },
+    {
+      "id": "netease-track:22284113",
+      "neteaseTrackId": "22284113",
+      "title": "Interlude - Fasten Your Seatbelts",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 19106
+    },
+    {
+      "id": "netease-track:22284114",
+      "neteaseTrackId": "22284114",
+      "title": "Go Deep",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 282026
+    },
+    {
+      "id": "netease-track:22284115",
+      "neteaseTrackId": "22284115",
+      "title": "Free Xone",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 297066
+    },
+    {
+      "id": "netease-track:22284116",
+      "neteaseTrackId": "22284116",
+      "title": "Interlude - Memory",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 4706
+    },
+    {
+      "id": "netease-track:22284117",
+      "neteaseTrackId": "22284117",
+      "title": "Together Again",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 301200
+    },
+    {
+      "id": "netease-track:22284118",
+      "neteaseTrackId": "22284118",
+      "title": "Interlude - Online",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 19360
+    },
+    {
+      "id": "netease-track:22284119",
+      "neteaseTrackId": "22284119",
+      "title": "Empty",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 272733
+    },
+    {
+      "id": "netease-track:22284120",
+      "neteaseTrackId": "22284120",
+      "title": "Interlude - Full",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 12866
+    },
+    {
+      "id": "netease-track:22284121",
+      "neteaseTrackId": "22284121",
+      "title": "What About",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 264266
+    },
+    {
+      "id": "netease-track:22284122",
+      "neteaseTrackId": "22284122",
+      "title": "Every Time",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 257106
+    },
+    {
+      "id": "netease-track:22284123",
+      "neteaseTrackId": "22284123",
+      "title": "Tonight's The Night",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 307666
+    },
+    {
+      "id": "netease-track:22284124",
+      "neteaseTrackId": "22284124",
+      "title": "I Get Lonely",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 317560
+    },
+    {
+      "id": "netease-track:22284125",
+      "neteaseTrackId": "22284125",
+      "title": "Rope Burn",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 255800
+    },
+    {
+      "id": "netease-track:22284126",
+      "neteaseTrackId": "22284126",
+      "title": "Anything",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 294840
+    },
+    {
+      "id": "netease-track:22284127",
+      "neteaseTrackId": "22284127",
+      "title": "Interlude - Sad",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 10866
+    },
+    {
+      "id": "netease-track:22284128",
+      "neteaseTrackId": "22284128",
+      "title": "Special",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 202034
+    },
+    {
+      "id": "netease-track:1987483630",
+      "neteaseTrackId": "1987483630",
+      "title": "Can't Be Stopped",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 253990
+    }
+  ],
+  "trackCount": 23,
+  "externalUrl": "https://music.163.com/#/album?id=2046781",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:54:48.719Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "The Velvet Rope Janet Jackson",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

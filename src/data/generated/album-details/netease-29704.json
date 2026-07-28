@@ -1,0 +1,188 @@
+{
+  "internalId": "album:29704",
+  "id": "album:29704",
+  "neteaseAlbumId": "29704",
+  "slug": "netease-29704",
+  "title": "只爱陌生人",
+  "aliases": [
+    "只愛陌生人"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1999-09-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KC DIGITAL LIMITED",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29704.webp",
+    "alt": "《只爱陌生人》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/29704.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:299640",
+      "neteaseTrackId": "299640",
+      "title": "开到荼蘼",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 313400
+    },
+    {
+      "id": "netease-track:299642",
+      "neteaseTrackId": "299642",
+      "title": "当时的月亮",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 231626
+    },
+    {
+      "id": "netease-track:299644",
+      "neteaseTrackId": "299644",
+      "title": "催眠",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266573
+    },
+    {
+      "id": "netease-track:299647",
+      "neteaseTrackId": "299647",
+      "title": "只爱陌生人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 221866
+    },
+    {
+      "id": "netease-track:299650",
+      "neteaseTrackId": "299650",
+      "title": "百年孤寂",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 317426
+    },
+    {
+      "id": "netease-track:299652",
+      "neteaseTrackId": "299652",
+      "title": "蝴蝶",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 237000
+    },
+    {
+      "id": "netease-track:299654",
+      "neteaseTrackId": "299654",
+      "title": "过眼云烟",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 246373
+    },
+    {
+      "id": "netease-track:299656",
+      "neteaseTrackId": "299656",
+      "title": "哔一声之后",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 254133
+    },
+    {
+      "id": "netease-track:299658",
+      "neteaseTrackId": "299658",
+      "title": "推翻",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 263360
+    },
+    {
+      "id": "netease-track:299660",
+      "neteaseTrackId": "299660",
+      "title": "精彩",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 286840
+    },
+    {
+      "id": "netease-track:299662",
+      "neteaseTrackId": "299662",
+      "title": "守望麦田",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 318626
+    },
+    {
+      "id": "netease-track:299664",
+      "neteaseTrackId": "299664",
+      "title": "邮差",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 260600
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=29704",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:54:41.945Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "只爱陌生人 只愛陌生人 王菲",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

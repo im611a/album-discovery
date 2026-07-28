@@ -1,0 +1,186 @@
+{
+  "internalId": "album:34726168",
+  "id": "album:34726168",
+  "neteaseAlbumId": "34726168",
+  "slug": "masterpiece-big-thief",
+  "title": "Masterpiece",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12007356",
+      "neteaseArtistId": "12007356",
+      "name": "Big Thief"
+    }
+  ],
+  "releaseDate": "2016-05-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "4AD",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34726168.webp",
+    "alt": "《Masterpiece》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/34726168.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:415786176",
+      "neteaseTrackId": "415786176",
+      "title": "Little Arrow",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 118185
+    },
+    {
+      "id": "netease-track:415786177",
+      "neteaseTrackId": "415786177",
+      "title": "Masterpiece",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 230586
+    },
+    {
+      "id": "netease-track:415786178",
+      "neteaseTrackId": "415786178",
+      "title": "Vegas",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 139256
+    },
+    {
+      "id": "netease-track:415786179",
+      "neteaseTrackId": "415786179",
+      "title": "Real Love",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 257385
+    },
+    {
+      "id": "netease-track:415786180",
+      "neteaseTrackId": "415786180",
+      "title": "Interstate",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 204243
+    },
+    {
+      "id": "netease-track:415786181",
+      "neteaseTrackId": "415786181",
+      "title": "Lorraine",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 113494
+    },
+    {
+      "id": "netease-track:415786182",
+      "neteaseTrackId": "415786182",
+      "title": "Paul",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 183894
+    },
+    {
+      "id": "netease-track:415786183",
+      "neteaseTrackId": "415786183",
+      "title": "Humans",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 203139
+    },
+    {
+      "id": "netease-track:415786184",
+      "neteaseTrackId": "415786184",
+      "title": "Velvet Ring",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 155938
+    },
+    {
+      "id": "netease-track:415786185",
+      "neteaseTrackId": "415786185",
+      "title": "Animals",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 179454
+    },
+    {
+      "id": "netease-track:415786186",
+      "neteaseTrackId": "415786186",
+      "title": "Randy",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 189326
+    },
+    {
+      "id": "netease-track:415786187",
+      "neteaseTrackId": "415786187",
+      "title": "Parallels",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Big Thief"
+      ],
+      "durationMs": 263109
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=34726168",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:55:30.641Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Masterpiece Big Thief",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

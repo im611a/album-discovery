@@ -1,10 +1,12 @@
 {
-  "albums": 319,
-  "artists": 274,
-  "details": 319,
+  "albums": 345,
+  "artists": 298,
+  "details": 345,
   "ratedAlbums": 13,
   "relatedGenreAlbums": 11,
   "explorationVersion": 1,
+  "topicHubVersion": 1,
+  "catalogIndexVersion": 1,
   "generatedAt": "2026-07-23T10:29:50.864Z",
   "runtimeRequestsAllowed": false
 }

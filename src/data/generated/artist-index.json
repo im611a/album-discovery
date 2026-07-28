@@ -705,6 +705,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:2514",
+      "neteaseArtistId": "2514",
+      "slug": "artist-2514",
+      "name": "蛋堡",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2009,
+      "latestYear": 2009,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:7547"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/7547.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:2517",
       "neteaseArtistId": "2517",
       "slug": "artist-2517",
@@ -1481,6 +1503,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31055231",
+      "neteaseArtistId": "31055231",
+      "slug": "artist-31055231",
+      "name": "揽佬SKAI ISYOURGOD",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:245434399"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/245434399.webp"
       ]
     },
     {
@@ -2851,9 +2895,9 @@
       "slug": "artist-9621",
       "name": "王菲",
       "aliases": [],
-      "albumCount": 7,
+      "albumCount": 8,
       "albumCountByType": {
-        "album": 7
+        "album": 8
       },
       "earliestYear": 1996,
       "latestYear": 2015,
@@ -2868,7 +2912,8 @@
         "album:29669",
         "album:180635491",
         "album:29692",
-        "album:29695"
+        "album:29695",
+        "album:29704"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/29748.webp",
@@ -4022,6 +4067,31 @@
       ]
     },
     {
+      "artistId": "netease-artist:17635",
+      "neteaseArtistId": "17635",
+      "slug": "artist-17635",
+      "name": "椎名林檎",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1999,
+      "latestYear": 2003,
+      "commonCoreGenres": [
+        "alternative-rock",
+        "rock"
+      ],
+      "albumIds": [
+        "album:2085451",
+        "album:61643"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2085451.webp",
+        "/catalog/covers/thumb/61643.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:6467",
       "neteaseArtistId": "6467",
       "slug": "artist-6467",
@@ -4090,6 +4160,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:27648",
+      "neteaseArtistId": "27648",
+      "slug": "artist-27648",
+      "name": "A Tribe Called Quest",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1993,
+      "latestYear": 1993,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:1506337"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1506337.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:36519554",
       "neteaseArtistId": "36519554",
       "slug": "artist-36519554",
@@ -4112,6 +4204,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:46520",
+      "neteaseArtistId": "46520",
+      "slug": "artist-46520",
+      "name": "Aaliyah",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2001,
+      "latestYear": 2001,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:1515056"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1515056.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:29061",
       "neteaseArtistId": "29061",
       "slug": "artist-29061",
@@ -4131,6 +4245,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/174167316.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:85804",
+      "neteaseArtistId": "85804",
+      "slug": "artist-85804",
+      "name": "American Football",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "indie-rock"
+      ],
+      "albumIds": [
+        "album:88561267"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/88561267.webp"
       ]
     },
     {
@@ -4178,6 +4314,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/2732013.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12007356",
+      "neteaseArtistId": "12007356",
+      "slug": "artist-12007356",
+      "name": "Big Thief",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2016,
+      "latestYear": 2016,
+      "commonCoreGenres": [
+        "indie-rock"
+      ],
+      "albumIds": [
+        "album:34726168"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/34726168.webp"
       ]
     },
     {
@@ -4244,6 +4402,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/92448901.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31328598",
+      "neteaseArtistId": "31328598",
+      "slug": "artist-31328598",
+      "name": "brakence",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2022,
+      "latestYear": 2022,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:155679106"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/155679106.webp"
       ]
     },
     {
@@ -4489,6 +4669,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:32654",
+      "neteaseArtistId": "32654",
+      "slug": "artist-32654",
+      "name": "Danny Brown",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2016,
+      "latestYear": 2016,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:34840135"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/34840135.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:12463331",
       "neteaseArtistId": "12463331",
       "slug": "artist-12463331",
@@ -4585,6 +4787,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:53566",
+      "neteaseArtistId": "53566",
+      "slug": "artist-53566",
+      "name": "Duster",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "indie-rock"
+      ],
+      "albumIds": [
+        "album:246863"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/246863.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:14713083",
       "neteaseArtistId": "14713083",
       "slug": "artist-14713083",
@@ -4653,6 +4877,50 @@
       ]
     },
     {
+      "artistId": "netease-artist:33727",
+      "neteaseArtistId": "33727",
+      "slug": "artist-33727",
+      "name": "Frank Ocean",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2016,
+      "latestYear": 2016,
+      "commonCoreGenres": [
+        "art-pop"
+      ],
+      "albumIds": [
+        "album:34818182"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/34818182.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:195965",
+      "neteaseArtistId": "195965",
+      "slug": "artist-195965",
+      "name": "Freddie Gibbs",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2014,
+      "latestYear": 2014,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:3056906"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/3056906.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:1211046",
       "neteaseArtistId": "1211046",
       "slug": "artist-1211046",
@@ -4696,6 +4964,28 @@
       "previewCovers": [
         "/catalog/covers/thumb/272136228.webp",
         "/catalog/covers/thumb/152019682.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:597925",
+      "neteaseArtistId": "597925",
+      "slug": "artist-597925",
+      "name": "Geese",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2025,
+      "latestYear": 2025,
+      "commonCoreGenres": [
+        "indie-rock"
+      ],
+      "albumIds": [
+        "album:274136454"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/274136454.webp"
       ]
     },
     {
@@ -4992,6 +5282,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "slug": "artist-35350",
+      "name": "Janet Jackson",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1997,
+      "latestYear": 1997,
+      "commonCoreGenres": [
+        "art-pop"
+      ],
+      "albumIds": [
+        "album:2046781"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2046781.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:12092433",
       "neteaseArtistId": "12092433",
       "slug": "artist-12092433",
@@ -5123,6 +5435,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/91290063.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "slug": "artist-37520",
+      "name": "Kanye West",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:73643239"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/73643239.webp"
       ]
     },
     {
@@ -5314,6 +5648,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:20287",
+      "neteaseArtistId": "20287",
+      "slug": "artist-20287",
+      "name": "Lamp",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:2298031"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2298031.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:12293217",
       "neteaseArtistId": "12293217",
       "slug": "artist-12293217",
@@ -5407,20 +5763,22 @@
       "slug": "artist-38940",
       "name": "Madlib",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
       "earliestYear": 2004,
-      "latestYear": 2004,
+      "latestYear": 2014,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:316551"
+        "album:316551",
+        "album:3056906"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/316551.webp"
+        "/catalog/covers/thumb/316551.webp",
+        "/catalog/covers/thumb/3056906.webp"
       ]
     },
     {
@@ -5443,6 +5801,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/316551.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12603779",
+      "neteaseArtistId": "12603779",
+      "slug": "artist-12603779",
+      "name": "Magdalena Bay",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2024,
+      "latestYear": 2024,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:245618979"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/245618979.webp"
       ]
     },
     {
@@ -5487,6 +5867,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:20532",
+      "neteaseArtistId": "20532",
+      "slug": "artist-20532",
+      "name": "MASS OF THE FERMENTING DREGS",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2009,
+      "latestYear": 2009,
+      "commonCoreGenres": [
+        "indie-rock"
+      ],
+      "albumIds": [
+        "album:2091688"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/2091688.webp"
       ]
     },
     {
@@ -5920,6 +6322,50 @@
       ]
     },
     {
+      "artistId": "netease-artist:98538",
+      "neteaseArtistId": "98538",
+      "slug": "artist-98538",
+      "name": "Portishead",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1994,
+      "latestYear": 1994,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:1681844"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1681844.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "slug": "artist-41142",
+      "name": "Prince",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1982,
+      "latestYear": 1982,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:1974794"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1974794.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:29303235",
       "neteaseArtistId": "29303235",
       "slug": "artist-29303235",
@@ -6128,6 +6574,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:49612680",
+      "neteaseArtistId": "49612680",
+      "slug": "artist-49612680",
+      "name": "slayr",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2026,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:364550023"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/364550023.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:100003",
       "neteaseArtistId": "100003",
       "slug": "artist-100003",
@@ -6147,6 +6615,50 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/1761243.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "slug": "artist-74643",
+      "name": "Spiritualized",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1997,
+      "latestYear": 1997,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:1757603"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1757603.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:75252",
+      "neteaseArtistId": "75252",
+      "slug": "artist-75252",
+      "name": "Sweet Trip",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2003,
+      "latestYear": 2003,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:349573"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/349573.webp"
       ]
     },
     {
@@ -6304,6 +6816,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/145645032.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:44708",
+      "neteaseArtistId": "44708",
+      "slug": "artist-44708",
+      "name": "Tyler, The Creator",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2017,
+      "latestYear": 2017,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:35745181"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35745181.webp"
       ]
     },
     {

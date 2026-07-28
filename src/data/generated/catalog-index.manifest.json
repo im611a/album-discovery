@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "catalogCount": 319,
+  "catalogCount": 345,
   "shardCount": 1,
   "shards": [
     {
       "path": "catalog-index.json",
-      "count": 319,
-      "bytes": 413140,
-      "sha256": "8ab5c4dfdb8938536df40c03a10d05785b2268e42426e460d63f12d0b362a62c"
+      "count": 345,
+      "bytes": 442435,
+      "sha256": "1f789b5e40a510d42ce80445f5a4694941257c7414e56134948e1c1ab56d5121"
     }
   ],
   "upgradeThreshold": 2000

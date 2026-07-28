@@ -1,0 +1,177 @@
+{
+  "internalId": "album:61643",
+  "id": "album:61643",
+  "neteaseAlbumId": "61643",
+  "slug": "netease-61643",
+  "title": "無罪モラトリアム",
+  "aliases": [
+    "无罪偿还"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:17635",
+      "neteaseArtistId": "17635",
+      "name": "椎名林檎"
+    }
+  ],
+  "releaseDate": "1999-02-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/61643.webp",
+    "alt": "《無罪モラトリアム》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/61643.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:642766",
+      "neteaseTrackId": "642766",
+      "title": "正しい街",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 232667
+    },
+    {
+      "id": "netease-track:642771",
+      "neteaseTrackId": "642771",
+      "title": "歌舞伎町の女王",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 173466
+    },
+    {
+      "id": "netease-track:642776",
+      "neteaseTrackId": "642776",
+      "title": "丸ノ内サディスティック",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 235773
+    },
+    {
+      "id": "netease-track:642782",
+      "neteaseTrackId": "642782",
+      "title": "幸福論 (悦楽編)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 177864
+    },
+    {
+      "id": "netease-track:642786",
+      "neteaseTrackId": "642786",
+      "title": "茜さす 帰路照らされど…",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 247248
+    },
+    {
+      "id": "netease-track:642790",
+      "neteaseTrackId": "642790",
+      "title": "シドと白昼夢",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 243467
+    },
+    {
+      "id": "netease-track:642794",
+      "neteaseTrackId": "642794",
+      "title": "積木遊び",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 203708
+    },
+    {
+      "id": "netease-track:642798",
+      "neteaseTrackId": "642798",
+      "title": "ここでキスして。",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 258995
+    },
+    {
+      "id": "netease-track:642801",
+      "neteaseTrackId": "642801",
+      "title": "同じ夜",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 218058
+    },
+    {
+      "id": "netease-track:642806",
+      "neteaseTrackId": "642806",
+      "title": "警告",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 245504
+    },
+    {
+      "id": "netease-track:642810",
+      "neteaseTrackId": "642810",
+      "title": "モルヒネ",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 221820
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=61643",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:53:28.608Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "無罪モラトリアム 无罪偿还 椎名林檎",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}

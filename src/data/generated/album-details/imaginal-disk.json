@@ -1,0 +1,221 @@
+{
+  "internalId": "album:245618979",
+  "id": "album:245618979",
+  "neteaseAlbumId": "245618979",
+  "slug": "imaginal-disk",
+  "title": "Imaginal Disk",
+  "aliases": [
+    "幻想光碟"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:12603779",
+      "neteaseArtistId": "12603779",
+      "name": "Magdalena Bay"
+    }
+  ],
+  "releaseDate": "2024-08-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Mom+Pop",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/245618979.webp",
+    "alt": "《Imaginal Disk》专辑封面",
+    "reason": null,
+    "thumbnailSrc": "/catalog/covers/thumb/245618979.webp"
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2619307807",
+      "neteaseTrackId": "2619307807",
+      "title": "She Looked Like Me!",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 193186
+    },
+    {
+      "id": "netease-track:2619307808",
+      "neteaseTrackId": "2619307808",
+      "title": "Killing Time",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 233546
+    },
+    {
+      "id": "netease-track:2619308684",
+      "neteaseTrackId": "2619308684",
+      "title": "True Blue Interlude",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 109226
+    },
+    {
+      "id": "netease-track:2619308685",
+      "neteaseTrackId": "2619308685",
+      "title": "Image",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 212866
+    },
+    {
+      "id": "netease-track:2619307809",
+      "neteaseTrackId": "2619307809",
+      "title": "Death & Romance",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 314733
+    },
+    {
+      "id": "netease-track:2619308686",
+      "neteaseTrackId": "2619308686",
+      "title": "Fear, Sex",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 152053
+    },
+    {
+      "id": "netease-track:2619307810",
+      "neteaseTrackId": "2619307810",
+      "title": "Vampire in the Corner",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 202440
+    },
+    {
+      "id": "netease-track:2619308687",
+      "neteaseTrackId": "2619308687",
+      "title": "Watching T.V.",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 245413
+    },
+    {
+      "id": "netease-track:2619307811",
+      "neteaseTrackId": "2619307811",
+      "title": "Tunnel Vision",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 305520
+    },
+    {
+      "id": "netease-track:2619308688",
+      "neteaseTrackId": "2619308688",
+      "title": "Love Is Everywhere",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 194413
+    },
+    {
+      "id": "netease-track:2619307812",
+      "neteaseTrackId": "2619307812",
+      "title": "Feeling DiskInserted?",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 58600
+    },
+    {
+      "id": "netease-track:2619308689",
+      "neteaseTrackId": "2619308689",
+      "title": "That's My Floor",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 209800
+    },
+    {
+      "id": "netease-track:2619307813",
+      "neteaseTrackId": "2619307813",
+      "title": "Cry for Me",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 307266
+    },
+    {
+      "id": "netease-track:2619307814",
+      "neteaseTrackId": "2619307814",
+      "title": "Angel on a Satellite",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 243426
+    },
+    {
+      "id": "netease-track:2619307815",
+      "neteaseTrackId": "2619307815",
+      "title": "The Ballad of Matt & Mica",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Magdalena Bay"
+      ],
+      "durationMs": 240000
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=245618979",
+  "discoveredAt": "2026-07-28T14:08:18.260Z",
+  "updatedAt": "2026-07-28T14:08:18.260Z",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-07-28T13:52:06.283Z",
+    "parserVersion": "netease-catalog-expansion-0.8",
+    "verificationMethod": "fixed_album_identity",
+    "error": null
+  },
+  "sourceMarketChannels": [],
+  "contexts": [],
+  "editorial": null,
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "searchText": "Imaginal Disk 幻想光碟 Magdalena Bay",
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "rymInputSourceId": null
+}
