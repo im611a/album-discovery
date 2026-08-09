@@ -19,13 +19,13 @@ export function RecommendationCatalog() {
   const neighborCandidates = familiar.slice(1, 3);
   const remainingFamiliar = familiar.slice(3);
   return <>
-    <section className="taste-bar" aria-labelledby="taste-summary-title"><div><p className="section-kicker">你的口味</p><h2 id="taste-summary-title">{state.taste.genres.length ? state.taste.genres.map(getTaxonomyLabel).join("、") : "开放探索"}</h2><p>{state.taste.contexts.length ? `常见场景：${state.taste.contexts.map(getListeningSceneLabel).join("、")}` : "暂未选择固定场景"} · 反馈只保存在本机</p></div><Link className="button button--secondary" href="/settings#taste">编辑口味</Link></section>
+    <section className="taste-bar r12-taste-strip" aria-labelledby="taste-summary-title"><div><p className="section-kicker">当前口味信号</p><h2 id="taste-summary-title">{state.taste.genres.length ? state.taste.genres.map(getTaxonomyLabel).join("、") : "开放探索"}</h2><p>{state.taste.contexts.length ? `场景：${state.taste.contexts.map(getListeningSceneLabel).join("、")}` : "暂未选择固定场景"} · 反馈只保存在本机</p></div><Link className="button button--secondary" href="/settings#taste">调整信号</Link></section>
     {recommendations.length ? <>
-      {mainCandidate ? <section className="pa-candidate-stage" aria-labelledby="familiar-title">
-        <header className="section-heading"><div><p className="section-kicker">与你当前偏好重合</p><h2 id="familiar-title">本次主候选</h2></div></header>
-        <div className="pa-candidate-stage__layout">
-          <div className="pa-candidate-stage__main"><AlbumCard album={mainCandidate.album} reason={mainCandidate.reasons.join(" ")} headingLevel={3} /></div>
-          <aside className="pa-candidate-stage__neighbors" aria-label="相邻候选">{neighborCandidates.map((item, index) => <div key={item.album.id} data-neighbor={index ? "next" : "previous"}><span>{index ? "NEXT" : "ALSO"}</span><AlbumCard album={item.album} reason={item.reasons.join(" ")} headingLevel={3} /></div>)}</aside>
+      {mainCandidate ? <section className="pa-candidate-stage r12-recommendation-lead" aria-labelledby="familiar-title">
+        <header className="section-heading"><div><p className="section-kicker">与你当前偏好重合</p><h2 id="familiar-title">首先听这张</h2></div><p>理由直接来自当前目录与本机反馈</p></header>
+        <div className="pa-candidate-stage__layout r12-recommendation-lead__layout">
+          <div className="pa-candidate-stage__main r12-recommendation-lead__main"><AlbumCard album={mainCandidate.album} reason={mainCandidate.reasons.join(" ")} headingLevel={3} /></div>
+          <aside className="pa-candidate-stage__neighbors r12-recommendation-lead__alternates" aria-label="相邻候选"><p className="section-kicker">相邻方向</p>{neighborCandidates.map((item, index) => <div key={item.album.id} data-neighbor={index ? "next" : "previous"}><span>{index ? "NEXT" : "ALSO"}</span><AlbumCard album={item.album} reason={item.reasons.join(" ")} headingLevel={3} /></div>)}</aside>
         </div>
       </section> : null}
       {remainingFamiliar.length ? <section className="catalog-section pa-candidate-ledger" aria-labelledby="more-familiar-title"><header className="section-heading"><div><p className="section-kicker">同一方向的其他候选</p><h2 id="more-familiar-title">继续翻阅</h2></div></header><div className="recommendation-grid">{remainingFamiliar.map((item) => <AlbumCard key={item.album.id} album={item.album} reason={item.reasons.join(" ")} headingLevel={3} />)}</div></section> : null}

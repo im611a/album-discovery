@@ -42,11 +42,11 @@ export function searchArtists(query: string) {
   );
 }
 
-export function searchAlbums(query: string) {
+export function searchAlbumCollection(query: string, albums: PublishedAlbumSummary[] = catalogAlbums) {
   const normalized = normalizeSearchText(query);
   if (!normalized) return [];
   const terms = normalized.split(" ");
-  return catalogAlbums.filter((album) => {
+  return albums.filter((album) => {
     const haystack = normalizeSearchText(album.searchText);
     return terms.every((term) => haystack.includes(term));
   }).sort((a, b) => {
@@ -56,6 +56,10 @@ export function searchAlbums(query: string) {
       Number(bTitle.startsWith(normalized)) - Number(aTitle.startsWith(normalized)) ||
       compareReleaseNewest(a, b);
   });
+}
+
+export function searchAlbums(query: string) {
+  return searchAlbumCollection(query, catalogAlbums);
 }
 
 function releaseValue(album: PublishedAlbumSummary) {

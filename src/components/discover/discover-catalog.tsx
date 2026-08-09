@@ -1,115 +1,99 @@
 "use client";
 
-import * as Dialog from "@radix-ui/react-dialog";
+import { type FormEvent, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import type { ReactNode } from "react";
 import { AlbumGrid } from "@/components/album-grid";
-import { buildDiscoverOptions, discoverAlbums, type CatalogSort, type DiscoverFilters } from "@/catalog/queries";
+import { CatalogPagination } from "@/components/catalog-pagination";
+import { Button, Checkbox, FilterGroup, SearchInput, Select } from "@/components/control-primitives";
+import { EmptyState } from "@/components/site-primitives";
+import { usePersonalState } from "@/features/personal-state/personal-state-provider";
+import { buildCatalogViewModel, parseCatalogQuery, serializeCatalogQuery, type CatalogQueryState, type CatalogUserStatus } from "@/catalog/catalog-view-model";
+import { buildDiscoverOptions, type CatalogSort, type DiscoverFilters } from "@/catalog/queries";
 import { catalogAlbums, getTaxonomyLabel } from "@/catalog/published-catalog";
 import { getListeningSceneLabel } from "@/catalog/listening-scenes";
 import { RELEASE_TYPE_LABELS, type ReleaseType } from "@/catalog/schema";
 import { CATALOG_PAGE_SIZE, paginate } from "@/catalog/pagination";
-import { CatalogPagination } from "@/components/catalog-pagination";
 
-const options = buildDiscoverOptions();
-const sorts: Array<[CatalogSort, string]> = [["recently-added", "最近收录"], ["release-newest", "发行日期：新到旧"], ["release-oldest", "发行日期：旧到新"], ["title", "标题"], ["rym-rating-desc", "RYM 评分：由高到低"]];
+const options = buildDiscoverOptions(catalogAlbums);
+const sorts: Array<[CatalogSort, string]> = [["recently-added", "最近收录"], ["release-newest", "发行时间：新到旧"], ["release-oldest", "发行时间：旧到新"], ["title", "标题"], ["rym-rating-desc", "RYM 评分：由高到低"]];
 const releaseTypes = Object.entries(RELEASE_TYPE_LABELS) as Array<[ReleaseType, string]>;
+const statuses: Array<[CatalogUserStatus, string]> = [["liked", "喜欢"], ["favorite", "收藏"], ["saved", "想听"], ["listened", "听过"], ["dismissed", "不适合"]];
 const hasRymRatings = catalogAlbums.some((album) => album.rymRating != null);
-type DiscoverOptions = ReturnType<typeof buildDiscoverOptions>;
-type UpdateFilter = (key: string, value: string | boolean) => void;
 
-function DiscoverFilterDialog({
-  activeCount,
-  sortLabel,
-  children,
-}: {
-  activeCount: number;
-  sortLabel: string;
-  children: ReactNode;
-}) {
-  return (
-    <Dialog.Root>
-      <Dialog.Trigger asChild>
-        <button className="pa-discover-filter__trigger" type="button">
-          <span>筛选馆藏</span>
-          <small>{activeCount} 项已选 · {sortLabel}</small>
-        </button>
-      </Dialog.Trigger>
-      <Dialog.Portal>
-        <Dialog.Overlay className="pa-discover-filter__overlay" />
-        <Dialog.Content className="pa-discover-filter__content">
-          <header className="pa-discover-filter__header">
-            <div>
-              <p>馆藏索引</p>
-              <Dialog.Title>筛选与排序</Dialog.Title>
-              <Dialog.Description className="pa-discover-filter__description">
-                选择真实存在于本地目录的分类；变更会同步到当前网址。
-              </Dialog.Description>
-            </div>
-            <Dialog.Close className="pa-discover-filter__close" aria-label="关闭筛选面板">
-              关闭
-            </Dialog.Close>
-          </header>
-          <div className="pa-discover-filter__body">
-            {children}
-          </div>
-          <Dialog.Close className="pa-discover-filter__done">查看当前结果</Dialog.Close>
-        </Dialog.Content>
-      </Dialog.Portal>
-    </Dialog.Root>
-  );
+type FilterKey = keyof DiscoverFilters;
+
+function CatalogSearchForm({ initialQuery, onSubmit }: { initialQuery: string; onSubmit: (value: string) => void }) {
+  const [draft, setDraft] = useState(initialQuery);
+  function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    onSubmit(draft.trim());
+  }
+  return <form className="catalog-search-form" role="search" onSubmit={submit}><label htmlFor="catalog-query">搜索专辑或艺人</label><div><SearchInput id="catalog-query" value={draft} onChange={(event) => setDraft(event.target.value)} /><Button className="button--primary" type="submit">搜索</Button></div></form>;
 }
 
-export function DiscoverFilterFields({
-  filterOptions,
-  filters,
-  sort,
-  update,
-}: {
-  filterOptions: DiscoverOptions;
-  filters: DiscoverFilters;
-  sort: CatalogSort;
-  update: UpdateFilter;
-}) {
-  return <div className="filter-grid">
-    <label>核心流派<select aria-label="核心流派" value={filters.coreGenre ?? ""} onChange={(event) => update("genre", event.target.value)}><option value="">全部</option>{filterOptions.coreGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</select></label>
-    <label>相关流派<select aria-label="相关流派" aria-describedby={!filterOptions.relatedGenres.length ? "related-genre-unavailable" : undefined} disabled={!filterOptions.relatedGenres.length} value={filters.relatedGenre ?? ""} onChange={(event) => update("secondary", event.target.value)}>{filterOptions.relatedGenres.length ? <option value="">全部</option> : <option value="">暂无已核验数据</option>}{filterOptions.relatedGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</select>{!filterOptions.relatedGenres.length ? <small id="related-genre-unavailable">导入可靠 RYM Secondary Genres 后自动启用。</small> : null}</label>
-    <label>聆听场景 <span className="field-provenance">本站策展维度</span><select aria-label="聆听场景" value={filters.context ?? ""} onChange={(event) => update("context", event.target.value)}><option value="">全部</option>{filterOptions.contexts.map((value) => <option key={value} value={value}>{getListeningSceneLabel(value)}</option>)}</select></label>
-    <label>年代<select aria-label="年代" value={filters.decade ?? ""} onChange={(event) => update("decade", event.target.value)}><option value="">全部</option>{filterOptions.decades.map((value) => <option key={value} value={value}>{value.replace("s", " 年代")}</option>)}</select></label>
-    <label>发行类型<select aria-label="发行类型" value={filters.releaseType ?? ""} onChange={(event) => update("type", event.target.value)}><option value="">全部</option>{releaseTypes.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
-    <label>排序<select aria-label="排序" value={sort} onChange={(event) => update("sort", event.target.value)}>{sorts.map(([value, label]) => <option key={value} value={value} disabled={value === "rym-rating-desc" && !hasRymRatings}>{value === "rym-rating-desc" && !hasRymRatings ? "RYM 评分：暂无已核验评分" : label}</option>)}</select>{!hasRymRatings ? <small>导入首条可靠评分后自动启用。</small> : null}</label>
-    <label className="checkbox-label"><input type="checkbox" checked={Boolean(filters.editorialOnly)} onChange={(event) => update("guide", event.target.checked)} />只看有完整导览</label>
-  </div>;
+export function DiscoverFilterFields({ query, updateFilter, updateStatus, updateSort }: { query: CatalogQueryState; updateFilter: (key: FilterKey, value: string | boolean) => void; updateStatus: (value: string) => void; updateSort: (value: CatalogSort) => void }) {
+  const filters = query.filters;
+  return <>
+  <div className="filter-grid filter-grid--primary" aria-label="主要目录筛选">
+    <FilterGroup label="核心流派"><Select aria-label="核心流派" value={filters.coreGenre ?? ""} onChange={(event) => updateFilter("coreGenre", event.target.value)}><option value="">全部</option>{options.coreGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</Select></FilterGroup>
+    <FilterGroup label="排序"><Select aria-label="排序" value={query.sort} onChange={(event) => updateSort(event.target.value as CatalogSort)}>{sorts.map(([value, label]) => <option key={value} value={value} disabled={value === "rym-rating-desc" && !hasRymRatings}>{label}</option>)}</Select></FilterGroup>
+  </div>
+  <details className="catalog-advanced-filters">
+    <summary><span>高级筛选</span><small>相关流派、场景、年代、类型与本机状态</small></summary>
+    <div className="filter-grid filter-grid--advanced" aria-label="高级目录筛选">
+    <FilterGroup label="相关流派"><Select aria-label="相关流派" value={filters.relatedGenre ?? ""} onChange={(event) => updateFilter("relatedGenre", event.target.value)}><option value="">全部</option>{options.relatedGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</Select></FilterGroup>
+    <FilterGroup label="聆听场景" hint=" · 本站策展维度"><Select aria-label="聆听场景" value={filters.context ?? ""} onChange={(event) => updateFilter("context", event.target.value)}><option value="">全部</option>{options.contexts.map((value) => <option key={value} value={value}>{getListeningSceneLabel(value)}</option>)}</Select></FilterGroup>
+    <FilterGroup label="年代"><Select aria-label="年代" value={filters.decade ?? ""} onChange={(event) => updateFilter("decade", event.target.value)}><option value="">全部</option>{options.decades.map((value) => <option key={value} value={value}>{value.replace("s", " 年代")}</option>)}</Select></FilterGroup>
+    <FilterGroup label="发行类型"><Select aria-label="发行类型" value={filters.releaseType ?? ""} onChange={(event) => updateFilter("releaseType", event.target.value)}><option value="">全部</option>{releaseTypes.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
+    <FilterGroup label="本机状态"><Select aria-label="本机状态" value={query.userStatus ?? ""} onChange={(event) => updateStatus(event.target.value)}><option value="">全部</option>{statuses.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
+    <label className="checkbox-label"><Checkbox checked={Boolean(filters.editorialOnly)} onChange={(event) => updateFilter("editorialOnly", event.target.checked)} />只看有完整导览</label>
+    </div>
+  </details>
+  </>;
 }
 
 export function DiscoverCatalog() {
   const router = useRouter();
   const params = useSearchParams();
-  const getValid = (key: string, values: string[]) => values.includes(params.get(key) ?? "") ? params.get(key) : null;
-  const filters: DiscoverFilters = {
-    coreGenre: getValid("genre", options.coreGenres), relatedGenre: getValid("secondary", options.relatedGenres), context: getValid("context", options.contexts), decade: getValid("decade", options.decades), releaseType: getValid("type", releaseTypes.map(([value]) => value)) as ReleaseType | null, editorialOnly: params.get("guide") === "1",
-  };
-  const requestedSort = params.get("sort");
-  const sort = (sorts.some(([value]) => value === requestedSort) && (requestedSort !== "rym-rating-desc" || hasRymRatings) ? requestedSort : "recently-added") as CatalogSort;
-  const results = discoverAlbums(filters, sort);
-  const page = paginate(results, params.get("page"), CATALOG_PAGE_SIZE);
-  function update(key: string, value: string | boolean) { const next = new URLSearchParams(params.toString()); next.delete("page"); if (!value) next.delete(key); else next.set(key, value === true ? "1" : String(value)); router.push(next.size ? `/discover?${next}` : "/discover", { scroll: false }); }
-  const active = [
-    filters.coreGenre ? ["genre", getTaxonomyLabel(filters.coreGenre)] : null,
-    filters.relatedGenre ? ["secondary", getTaxonomyLabel(filters.relatedGenre)] : null,
-    filters.context ? ["context", getListeningSceneLabel(filters.context)] : null,
-    filters.decade ? ["decade", filters.decade.replace("s", " 年代")] : null,
-    filters.releaseType ? ["type", RELEASE_TYPE_LABELS[filters.releaseType]] : null,
-    filters.editorialOnly ? ["guide", "有完整导览"] : null,
-  ].filter(Boolean) as string[][];
-  const sortLabel = sorts.find(([value]) => value === sort)?.[1] ?? "最近收录";
+  const { state, hydrated } = usePersonalState();
+  const query = parseCatalogQuery(params, catalogAlbums);
+  const model = buildCatalogViewModel({ albums: catalogAlbums, query, userState: hydrated ? state : null });
+  const page = paginate(model.albums, params.get("page"), CATALOG_PAGE_SIZE);
+
+  function navigate(next: CatalogQueryState, requestedPage?: number) {
+    const nextParams = new URLSearchParams(serializeCatalogQuery(next));
+    if (requestedPage && requestedPage > 1) nextParams.set("page", String(requestedPage));
+    router.push(nextParams.size ? `/discover?${nextParams}` : "/discover", { scroll: false });
+  }
+  function updateFilter(key: FilterKey, value: string | boolean) {
+    navigate({ ...query, filters: { ...query.filters, [key]: typeof value === "boolean" ? value : value || null } });
+  }
+  const activeFilters = [
+    query.query ? { key: "query", label: `搜索：${query.query}`, clear: () => navigate({ ...query, query: "" }) } : null,
+    query.filters.coreGenre ? { key: "core", label: `核心流派：${getTaxonomyLabel(query.filters.coreGenre)}`, clear: () => updateFilter("coreGenre", "") } : null,
+    query.filters.relatedGenre ? { key: "related", label: `相关流派：${getTaxonomyLabel(query.filters.relatedGenre)}`, clear: () => updateFilter("relatedGenre", "") } : null,
+    query.filters.context ? { key: "scene", label: `聆听场景：${getListeningSceneLabel(query.filters.context)}`, clear: () => updateFilter("context", "") } : null,
+    query.filters.decade ? { key: "decade", label: `年代：${query.filters.decade.replace("s", " 年代")}`, clear: () => updateFilter("decade", "") } : null,
+    query.filters.releaseType ? { key: "type", label: `发行类型：${RELEASE_TYPE_LABELS[query.filters.releaseType]}`, clear: () => updateFilter("releaseType", "") } : null,
+    query.filters.editorialOnly ? { key: "editorial", label: "有完整导览", clear: () => updateFilter("editorialOnly", false) } : null,
+    query.userStatus ? { key: "status", label: `本机状态：${statuses.find(([value]) => value === query.userStatus)?.[1]}`, clear: () => navigate({ ...query, userStatus: null }) } : null,
+  ].filter((item): item is { key: string; label: string; clear: () => void } => Boolean(item));
+  const activeCount = Object.values(query.filters).filter(Boolean).length + Number(Boolean(query.userStatus)) + Number(Boolean(query.query));
   return <>
-    <DiscoverFilterDialog activeCount={active.length} sortLabel={sortLabel}>
-      <DiscoverFilterFields filterOptions={options} filters={filters} sort={sort} update={update} />
-    </DiscoverFilterDialog>
-    {active.length ? <div className="active-filters" aria-label="当前筛选">{active.map(([key, label]) => <button key={key} type="button" onClick={() => update(key, "")}>{label}<span aria-hidden="true">×</span><span className="visually-hidden">移除此筛选</span></button>)}</div> : null}
-    <div className="results-bar"><p aria-live="polite">找到 <strong>{results.length}</strong> 张专辑 · 当前显示 {page.items.length} 张</p>{params.size ? <button type="button" onClick={() => router.push("/discover", { scroll: false })}>清除全部</button> : null}</div>
-    {results.length ? <AlbumGrid albums={page.items} /> : <div className="empty-state"><h2>当前条件下没有专辑</h2><p>试着减少一个筛选条件，或清除全部筛选。</p></div>}
+    <section className="r12-catalog-toolbar" aria-labelledby="catalog-tools-title">
+      <div className="r12-catalog-toolbar__status">
+        <div><p className="section-kicker">浏览结果</p><h2 id="catalog-tools-title">{model.resultCount} 张专辑</h2></div>
+        <p aria-live="polite">第 {page.page} / {page.pageCount} 页 · 当前显示 {page.items.length} 张</p>
+        {params.size ? <button type="button" onClick={() => router.push("/discover", { scroll: false })}>清除全部</button> : null}
+      </div>
+      <div className="r12-catalog-toolbar__primary">
+        <CatalogSearchForm key={query.query} initialQuery={query.query} onSubmit={(value) => navigate({ ...query, query: value })} />
+        <DiscoverFilterFields query={query} updateFilter={updateFilter} updateStatus={(value) => navigate({ ...query, userStatus: value ? value as CatalogUserStatus : null })} updateSort={(value) => navigate({ ...query, sort: value })} />
+      </div>
+      <p className="r12-catalog-toolbar__note">{activeCount ? `${activeCount} 项条件已启用；网址会保存当前浏览状态。` : "筛选属于浏览工具，不会改变目录数据。"}</p>
+    </section>
+    {activeFilters.length ? <div className="active-filters" aria-label="当前筛选">{activeFilters.map((item) => <button key={item.key} type="button" onClick={item.clear}>{item.label}<span aria-hidden="true">×</span></button>)}</div> : null}
+    {model.empty ? <EmptyState title="当前条件下没有专辑">{model.emptyMessage}</EmptyState> : <AlbumGrid albums={page.items} className="r12-catalog-grid" />}
     <CatalogPagination page={page.page} pageCount={page.pageCount} pathname="/discover" />
   </>;
 }

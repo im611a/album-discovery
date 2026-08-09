@@ -1,8 +1,7 @@
 import { Suspense } from "react";
 import { ArtistDirectory } from "@/components/artists/artist-directory";
-import { SiteFooter } from "@/components/site-footer";
-import { SiteHeader } from "@/components/site-header";
+import { PageHeader, SiteShell } from "@/components/site-primitives";
 
 export default function ArtistsPage() {
-  return <div className="site-shell"><SiteHeader /><main className="page-main page-container pa-artist-index" id="main-content"><header className="page-intro pa-artist-index__intro"><p className="eyebrow">目录中的创作者</p><h1>艺人</h1><p>按名称或本站收录专辑数量浏览艺人。这里不展示虚构简介、照片、热度或排名。</p></header><Suspense fallback={<p className="status-message">正在准备艺人索引…</p>}><ArtistDirectory /></Suspense></main><SiteFooter /></div>;
+  return <SiteShell mainClassName="pa-artist-index r12-artist-directory"><PageHeader eyebrow="298 位创作者的作品索引" title="艺人档案" className="pa-artist-index__intro r12-page-intro--compact">按名称或本站收录专辑数量快速定位艺人；不展示虚构简介、照片、热度或排名。</PageHeader><Suspense fallback={<p className="status-message">正在准备艺人索引…</p>}><ArtistDirectory /></Suspense></SiteShell>;
 }

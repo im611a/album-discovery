@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
+import { getAlbumDetailViewModel } from "@/catalog/album-detail-view-model";
 import { getAlbumDetailBySlug } from "@/catalog/published-album-details";
 import { getAlbumBySlug } from "@/catalog/queries";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
@@ -50,17 +51,17 @@ describe("AlbumDetail", () => {
     expect(screen.getByText("相关流派来自人工核验的离线 RYM Secondary Genres。")).toBeInTheDocument();
   });
 
-  it("places same-artist albums before continue exploring in semantic DOM order", () => {
+  it("places same-artist albums before recommendations in semantic DOM order", () => {
     const album = getAlbumDetailBySlug("wake-after-the-rain")!;
     const sameArtist = { ...getAlbumBySlug("super-mr-sun")!, id: "album:other", slug: "other-album", title: "同艺人作品" };
     const { container } = render(<PersonalStateProvider><AlbumDetail album={album} sameArtistAlbums={[sameArtist]} /></PersonalStateProvider>);
     const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
-    expect(headings.indexOf("同艺人其他专辑")).toBeLessThan(headings.indexOf("继续探索"));
+    expect(headings.indexOf("同艺人其他专辑")).toBeLessThan(headings.indexOf("推荐专辑"));
     expect(container.querySelector(".pa-same-artist-shelf")).toBeInTheDocument();
     expect(container.querySelector(".pa-same-artist-shelf .album-grid")).not.toBeInTheDocument();
   });
 
-  it("keeps the approved archive order from rating and taxonomy through tracks", () => {
+  it("keeps the object-first reading order from taxonomy and verified rating through editorial and tracks", () => {
     const album = {
       ...getAlbumDetailBySlug("wake-after-the-rain")!,
       rymRating: 4.1,
@@ -68,26 +69,25 @@ describe("AlbumDetail", () => {
     };
     const { container } = render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
     const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
-    expect(headings.indexOf("RYM 社区评分")).toBeLessThan(headings.indexOf("流派"));
     expect(headings.indexOf("流派")).toBeLessThan(headings.indexOf("聆听场景"));
-    expect(headings.indexOf("聆听场景")).toBeLessThan(headings.indexOf("曲目表"));
+    expect(headings.indexOf("聆听场景")).toBeLessThan(headings.indexOf("RYM 社区评分"));
+    expect(headings.indexOf("RYM 社区评分")).toBeLessThan(headings.indexOf("为什么值得完整听"));
+    expect(headings.indexOf("为什么值得完整听")).toBeLessThan(headings.indexOf("曲目表"));
   });
 
-  it("renders the cover as a physical archive object without changing album actions", async () => {
+  it("renders one undistorted album cover as the hero object without decorative package layers", async () => {
     const { container } = render(<PersonalStateProvider><AlbumDetail album={getAlbumDetailBySlug("wake-after-the-rain")!} /></PersonalStateProvider>);
-    expect(container.querySelector(".pa-album-file__object [data-record-package]")).toBeInTheDocument();
-    expect(container.querySelector(".pa-album-file__object .record-package__inner-sleeve")).toBeInTheDocument();
-    expect(container.querySelector(".pa-album-file__object .record-package__vinyl")).toBeInTheDocument();
-    expect(container.querySelector(".pa-album-file__object .record-package__track-sheet")).toBeInTheDocument();
+    expect(container.querySelector(".pa-album-file__object .album-cover")).toBeInTheDocument();
+    expect(container.querySelector(".pa-album-file__object [data-record-package]")).not.toBeInTheDocument();
+    expect(container.querySelector(".pa-album-file__object .record-package__vinyl")).not.toBeInTheDocument();
     expect((await screen.findAllByRole("button", { name: "想听" })).length).toBeGreaterThan(0);
   });
 
-  it("renders continue exploring as relationship paths with real reasons", () => {
-    const { container } = renderDetail("wake-after-the-rain");
-    const paths = container.querySelectorAll(".pa-relation-paths__item");
-    expect(paths.length).toBeGreaterThan(0);
-    expect(container.querySelector(".continue-exploring .album-grid")).not.toBeInTheDocument();
-    expect(container.querySelector(".pa-relation-paths__line strong")?.textContent).toMatch(/共享(核心|相关)流派/);
+  it("renders the view-model recommendation IDs in their existing order", () => {
+    const viewModel = getAlbumDetailViewModel("wake-after-the-rain")!;
+    const { container } = render(<PersonalStateProvider><AlbumDetail viewModel={viewModel} /></PersonalStateProvider>);
+    const hrefs = [...container.querySelectorAll<HTMLAnchorElement>(".pa-album-recommendations .album-card__overlay-link")].map((link) => link.getAttribute("href"));
+    expect(hrefs).toEqual(viewModel.recommendations.map((album) => `/albums/${album.slug}`));
   });
 
   it("does not render an empty same-artist section", () => {
