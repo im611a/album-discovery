@@ -3,7 +3,6 @@ import { createInitialUserState } from "@/features/personal-state/schema";
 import { buildAlbumDetailViewModel, getAlbumDetailStaticParams, getAlbumDetailViewModel } from "./album-detail-view-model";
 import { getAlbumDetailBySlug } from "./published-album-details";
 import { catalogAlbums } from "./published-catalog";
-import { getRelatedAlbums } from "./queries";
 
 describe("album detail foundation", () => {
   it("adapts all 345 static details with unique IDs and slugs", () => {
@@ -64,8 +63,8 @@ describe("album detail foundation", () => {
     }]);
   });
 
-  it("reuses the current recommendation result and personal-state schema", () => {
-    const summary = catalogAlbums.find((item) => getRelatedAlbums(item).length) ?? catalogAlbums[0];
+  it("keeps R13 discovery independent from the personal-state schema", () => {
+    const summary = catalogAlbums[0];
     const detail = getAlbumDetailBySlug(summary.slug)!;
     const state = {
       ...createInitialUserState(),
@@ -73,8 +72,17 @@ describe("album detail foundation", () => {
       savedAlbumIds: [detail.id],
     };
     const view = buildAlbumDetailViewModel(detail, state);
-    expect(view.recommendations).toEqual(getRelatedAlbums(summary));
+    expect(view.discovery).toEqual(buildAlbumDetailViewModel(detail).discovery);
+    expect(view.discovery.primary).not.toBeNull();
     expect(view.userStatus).toMatchObject({ liked: true, saved: true, dismissed: false });
+  });
+
+  it("keeps the serialized per-album discovery presentation below 12 KiB", () => {
+    const largest = catalogAlbums.reduce((maximum, summary) => {
+      const detail = getAlbumDetailBySlug(summary.slug)!;
+      return Math.max(maximum, Buffer.byteLength(JSON.stringify(buildAlbumDetailViewModel(detail).discovery)));
+    }, 0);
+    expect(largest).toBeLessThanOrEqual(12 * 1024);
   });
 
   it("preserves Chinese, Japanese and special line-separator titles as data", () => {

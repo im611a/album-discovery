@@ -1,7 +1,14 @@
 import Image from "next/image";
-import type { PublishedAlbum } from "@/catalog/schema";
+import type { PublishedCover } from "@/catalog/schema";
 
-export function AlbumCover({ album, size = "card" }: { album: Pick<PublishedAlbum, "cover" | "title" | "coreGenres" | "slug">; size?: "card" | "detail" }) {
+type AlbumCoverTarget = {
+  readonly cover: PublishedCover;
+  readonly title: string;
+  readonly coreGenres: readonly string[];
+  readonly slug: string;
+};
+
+export function AlbumCover({ album, size = "card" }: { album: AlbumCoverTarget; size?: "card" | "detail" }) {
   if (album.cover.kind === "local" && album.cover.src) {
     const source = size === "card" ? album.cover.thumbnailSrc ?? album.cover.src : album.cover.src;
     return <Image className={`album-cover album-cover--${size}`} src={source} alt={album.cover.alt} width={size === "detail" ? 960 : 360} height={size === "detail" ? 960 : 360} priority={size === "detail"} loading={size === "card" ? "lazy" : undefined} unoptimized />;

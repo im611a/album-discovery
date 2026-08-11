@@ -1,7 +1,7 @@
 import type { LocalUserStateV1 } from "@/features/personal-state/schema";
+import { buildAlbumDiscoveryPresentation } from "./discovery/presentation";
 import { getAlbumDetailBySlug } from "./published-album-details";
 import { catalogAlbums } from "./published-catalog";
-import { getRelatedAlbums } from "./queries";
 import type { PublishedAlbum } from "./schema";
 
 export interface AlbumDetailViewModel {
@@ -22,7 +22,7 @@ export interface AlbumDetailViewModel {
     label: "网易云音乐";
     href: string;
   }>;
-  recommendations: ReturnType<typeof getRelatedAlbums>;
+  discovery: NonNullable<ReturnType<typeof buildAlbumDiscoveryPresentation>>;
   userStatus: {
     liked: boolean;
     favorite: boolean;
@@ -52,6 +52,10 @@ export function buildAlbumDetailViewModel(
     throw new Error(`专辑详情与目录索引不一致：${album.id}`);
   }
   const neteaseUrl = canonicalNeteaseAlbumUrl(album.externalUrl);
+  const discovery = buildAlbumDiscoveryPresentation(summary.id);
+  if (!discovery) {
+    throw new Error(`专辑缺少可验证的继续发现路径：${album.id}`);
+  }
   const ids = {
     liked: new Set(userState?.likedAlbumIds ?? []),
     favorite: new Set(userState?.favoriteAlbumIds ?? []),
@@ -75,7 +79,7 @@ export function buildAlbumDetailViewModel(
     externalLinks: neteaseUrl
       ? [{ platform: "netease", label: "网易云音乐", href: neteaseUrl }]
       : [],
-    recommendations: getRelatedAlbums(summary),
+    discovery,
     userStatus: {
       liked: ids.liked.has(album.id),
       favorite: ids.favorite.has(album.id),

@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { AlbumCover } from "@/components/albums/album-cover";
+import { ArtistDiscovery } from "@/components/discovery/artist-discovery";
+import { EntityDiscoveryView } from "@/components/discovery/entity-discovery-view";
 import { SiteShell } from "@/components/site-primitives";
+import { buildArtistDiscoveryPresentation } from "@/catalog/discovery/artist-topic-presentation";
 import { getAlbumsForArtist } from "@/catalog/queries";
 import { getArtistBySlug, getTaxonomyLabel, publishedArtists } from "@/catalog/published-catalog";
 import { RELEASE_TYPE_LABELS } from "@/catalog/schema";
@@ -19,6 +23,8 @@ export default async function ArtistPage({ params }: { params: Promise<{ slug: s
   const artist = getArtistBySlug((await params).slug);
   if (!artist) notFound();
   const albums = getAlbumsForArtist(artist.artistId);
+  const discoveryPresentation = buildArtistDiscoveryPresentation(artist.artistId);
+  if (!discoveryPresentation) throw new Error(`Missing discovery presentation for artist ${artist.artistId}.`);
   const typeSummary = Object.entries(artist.albumCountByType).map(([type, count]) => `${RELEASE_TYPE_LABELS[type as keyof typeof RELEASE_TYPE_LABELS]} ${count}`).join(" · ");
   const representativeAlbums = albums.slice(0, 3);
   const chronology = albums.reduce<Array<{ year: string; albums: typeof albums }>>((groups, album) => {
@@ -35,5 +41,8 @@ export default async function ArtistPage({ params }: { params: Promise<{ slug: s
     <section className="catalog-section pa-artist-catalog r12-discography" aria-labelledby="artist-albums-title"><header className="section-heading"><div><p className="section-kicker">DISCOGRAPHY / CHRONOLOGY</p><h2 id="artist-albums-title">作品年表</h2></div><p>{albums.length} 件作品 · 新到旧</p></header>
       <div className="r12-discography__timeline">{chronology.map((group) => <section key={group.year} className="r12-discography__year" aria-labelledby={`artist-year-${group.year}`}><h3 id={`artist-year-${group.year}`}>{group.year}</h3><div>{group.albums.map((album) => <article key={album.id} className="r12-discography__release"><Link href={`/albums/${album.slug}`} className="r12-discography__cover"><AlbumCover album={album} /></Link><div><h4><Link href={`/albums/${album.slug}`}>{album.title}</Link></h4><p>{RELEASE_TYPE_LABELS[album.albumType]}{album.releaseDate ? ` · ${album.releaseDate}` : " · 发行日期暂缺"}</p>{album.coreGenres.length ? <p>{album.coreGenres.slice(0, 3).map(getTaxonomyLabel).join(" · ")}</p> : null}</div></article>)}</div></section>)}</div>
     </section>
+    <Suspense fallback={<EntityDiscoveryView presentation={discoveryPresentation} />}>
+      <ArtistDiscovery artistId={artist.artistId} canonicalPresentation={discoveryPresentation} />
+    </Suspense>
   </SiteShell>;
 }

@@ -15,9 +15,11 @@ describe("R12 reference-driven structural transformation", () => {
 
   it("uses one flat detail cover and numbered object-file sections", () => {
     const detail = source("src/components/albums/album-detail.tsx");
+    const discovery = source("src/components/discovery/album-discovery-view.tsx");
+    const structure = `${detail}\n${discovery}`;
     expect(detail).toContain('<AlbumCover album={album} size="detail" />');
     for (const number of ["01", "02", "03", "04", "05A", "05B", "06"]) {
-      expect(detail).toContain(number);
+      expect(structure).toContain(number);
     }
     expect(detail).not.toContain("pa-same-artist-shelf__spine");
     expect(detail).not.toContain("RecordPackage");

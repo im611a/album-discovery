@@ -23,29 +23,52 @@ vi.mock("@/features/personal-state/personal-state-provider", () => ({
 describe("ExploreCatalog", () => {
   beforeEach(() => { push.mockClear(); query = "mode=genre"; });
 
-  it("renders all five exploration modes and real results", () => {
-    render(<ExploreCatalog />);
+  it("renders all five exploration modes and one explainable relation authority", () => {
+    const { container } = render(<ExploreCatalog />);
     for (const label of ["流派漫游", "年代穿梭", "聆听场景", "艺人接力", "随机一张"]) expect(screen.getByRole("link", { name: label })).toBeInTheDocument();
-    expect(screen.getAllByRole("article").length).toBeGreaterThan(0);
+    expect(screen.getByRole("region", { name: "沿一条真实关系进入" })).toBeInTheDocument();
+    expect(container.querySelector('[data-explore-authority="relation"]')).toBeInTheDocument();
+    expect(container.querySelectorAll(".r13-explore-entry__primary")).toHaveLength(1);
+    expect(container.querySelector(".album-grid")).not.toBeInTheDocument();
   });
 
   it("writes a stable URL when the selection changes", () => {
     render(<ExploreCatalog />);
     fireEvent.change(screen.getByRole("combobox"), { target: { value: screen.getByRole("combobox").querySelectorAll("option")[1]?.value } });
-    expect(push).toHaveBeenCalledWith(expect.stringMatching(/^\/explore\?mode=genre&value=/), { scroll: false });
+    expect(push).toHaveBeenCalledWith(expect.stringMatching(/^\/explore\?mode=genre&value=.+&kind=core$/), { scroll: false });
   });
 
-  it("restores random mode from URL and exposes its seed", () => {
+  it("restores random mode from URL and structurally labels it as serendipity", () => {
     query = "mode=random&seed=shared-42";
-    render(<ExploreCatalog />);
+    const { container } = render(<ExploreCatalog />);
     expect(screen.getByDisplayValue("shared-42")).toBeInTheDocument();
-    expect(screen.getByText(/1 张稳定随机结果/)).toBeInTheDocument();
+    expect(screen.getByRole("region", { name: "偶然进入一张作品" })).toBeInTheDocument();
+    expect(container.querySelector('[data-explore-authority="serendipity"]')).toBeInTheDocument();
+    expect(container.querySelector('[data-explore-source-kind]')).not.toBeInTheDocument();
+    expect(screen.getByText(/这不是相似关系、推荐结论或热度排序/)).toBeInTheDocument();
   });
 
   it("falls back safely for invalid parameters", () => {
     query = "mode=invalid&value=missing";
-    render(<ExploreCatalog />);
+    const { container } = render(<ExploreCatalog />);
     expect(screen.getByRole("link", { name: "流派漫游" })).toHaveAttribute("aria-current", "page");
-    expect(screen.getAllByRole("article").length).toBeGreaterThan(0);
+    expect(container.querySelector('[data-explore-authority="relation"]')).toBeInTheDocument();
+  });
+
+  it("preserves secondary-genre identity in the Explore URL", () => {
+    render(<ExploreCatalog />);
+    const select = screen.getByRole("combobox");
+    const related = [...select.querySelectorAll("option")].find((option) => option.value.startsWith("related:"))!;
+    fireEvent.change(select, { target: { value: related.value } });
+    expect(push).toHaveBeenCalledWith(
+      expect.stringMatching(/^\/explore\?mode=genre&value=.+&kind=related$/),
+      { scroll: false },
+    );
+  });
+
+  it("keeps relation output independent from local dismissal state", () => {
+    const { container } = render(<ExploreCatalog />);
+    expect(container.querySelector('[data-explore-authority="relation"]')).toBeInTheDocument();
+    expect(screen.getByText(/不使用热度、个人偏好或随机数/)).toBeInTheDocument();
   });
 });
