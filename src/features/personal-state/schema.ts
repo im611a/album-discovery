@@ -24,6 +24,8 @@ export interface LocalUserStateV1 {
 }
 
 export const EMPTY_TASTE: TasteProfile = { genres: [], descriptors: [], contexts: [], eras: [], seedAlbumIds: [], exploration: "balanced" };
+export const MAX_LOCAL_TASTE_VALUES = 64;
+export const MAX_LOCAL_RECENT_ALBUMS = 20;
 export const createInitialUserState = (): LocalUserStateV1 => ({ version: 1, taste: EMPTY_TASTE, likedAlbumIds: [], favoriteAlbumIds: [], savedAlbumIds: [], listenedAlbumIds: [], dismissedAlbumIds: [], recommendationFeedback: {}, recentAlbumIds: [], onboardingCompleted: false, updatedAt: new Date(0).toISOString() });
 
 const strings = (value: unknown) => Array.isArray(value) && value.every((item) => typeof item === "string");
@@ -64,8 +66,19 @@ export function parseLocalUserState(value: unknown, albumIds: Set<string>): Loca
   if (!strings(input.favoriteAlbumIds) || (input.likedAlbumIds !== undefined && !strings(input.likedAlbumIds)) || !strings(input.savedAlbumIds) || !strings(input.listenedAlbumIds) || !strings(input.dismissedAlbumIds) || !strings(input.recentAlbumIds)) return null;
   const feedback = input.recommendationFeedback;
   if (!feedback || typeof feedback !== "object" || Object.values(feedback).some((item) => item !== "like" && item !== "not_for_me")) return null;
-  const reconcile = (items: string[] = []) => [...new Set(items.filter((id) => albumIds.has(id)))];
-  const recommendationFeedback = Object.fromEntries(Object.entries(feedback).filter(([id]) => albumIds.has(id))) as Record<string, "like" | "not_for_me">;
+  const boundedUnique = (items: string[], limit: number) => {
+    const output: string[] = [];
+    const seen = new Set<string>();
+    for (const item of items) {
+      if (seen.has(item)) continue;
+      seen.add(item);
+      output.push(item);
+      if (output.length === limit) break;
+    }
+    return output;
+  };
+  const reconcile = (items: string[] = [], limit = albumIds.size) => boundedUnique(items.filter((id) => albumIds.has(id)), limit);
+  const recommendationFeedback = Object.fromEntries(Object.entries(feedback).filter(([id]) => albumIds.has(id)).slice(0, albumIds.size)) as Record<string, "like" | "not_for_me">;
   const favorites = reconcile(input.favoriteAlbumIds);
   const legacyLikes = input.likedAlbumIds === undefined ? favorites : reconcile(input.likedAlbumIds);
   const dismissed = reconcile(input.dismissedAlbumIds);
@@ -76,13 +89,13 @@ export function parseLocalUserState(value: unknown, albumIds: Set<string>): Loca
   const likedIds = new Set(Object.entries(recommendationFeedback).filter(([, item]) => item === "like").map(([id]) => id));
   return {
     version: 1,
-    taste: { genres: [...new Set(taste.genres)], descriptors: [...new Set(taste.descriptors.map((item) => legacyDescriptorKeys[item] ?? item))], contexts: [...new Set(taste.contexts.map((item) => item in legacyContextKeys ? legacyContextKeys[item] : item).filter((item): item is string => Boolean(item)))], eras: [...new Set(taste.eras)], seedAlbumIds: reconcile(taste.seedAlbumIds), exploration: taste.exploration as TasteProfile["exploration"] },
+    taste: { genres: boundedUnique(taste.genres, MAX_LOCAL_TASTE_VALUES), descriptors: boundedUnique(taste.descriptors.map((item) => legacyDescriptorKeys[item] ?? item), MAX_LOCAL_TASTE_VALUES), contexts: boundedUnique(taste.contexts.map((item) => item in legacyContextKeys ? legacyContextKeys[item] : item).filter((item): item is string => Boolean(item)), MAX_LOCAL_TASTE_VALUES), eras: boundedUnique(taste.eras, MAX_LOCAL_TASTE_VALUES), seedAlbumIds: reconcile(taste.seedAlbumIds), exploration: taste.exploration as TasteProfile["exploration"] },
     likedAlbumIds: [...likedIds].filter((id) => !notForMeIds.has(id)),
     favoriteAlbumIds: favorites.filter((id) => !notForMeIds.has(id)),
     savedAlbumIds: reconcile(input.savedAlbumIds).filter((id) => !notForMeIds.has(id)),
     listenedAlbumIds: reconcile(input.listenedAlbumIds),
     dismissedAlbumIds: [...notForMeIds].filter((id) => !likedIds.has(id)),
-    recentAlbumIds: reconcile(input.recentAlbumIds).slice(0, 20),
+    recentAlbumIds: reconcile(input.recentAlbumIds, MAX_LOCAL_RECENT_ALBUMS),
     recommendationFeedback,
     onboardingCompleted: Boolean(input.onboardingCompleted),
     updatedAt: typeof input.updatedAt === "string" ? input.updatedAt : new Date(0).toISOString(),

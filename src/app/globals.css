@@ -1803,7 +1803,7 @@ a[target="_blank"]:hover {
 }
 .r13-explore-authority {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 24px;
   border-block: 1px solid var(--r12-rule);
 }
@@ -1830,6 +1830,10 @@ a[target="_blank"]:hover {
 }
 .pa-explore .explore-control select,
 .pa-explore .explore-control input { border-radius: 0; background: rgb(255 255 255 / 2%); }
+.pa-explore .explore-control--random { grid-template-columns: minmax(0, 1fr) auto; align-items: center; }
+.explore-control__serendipity-copy { display: grid; gap: 5px; max-width: 64ch; }
+.explore-control__serendipity-copy strong { color: var(--r12-paper); font-weight: 500; }
+.pa-explore .explore-control--random .button { justify-self: end; white-space: nowrap; }
 .pa-explore .pa-relation-path__line { margin-top: 26px; }
 .r13-explore-entry {
   margin-top: clamp(34px, 5vw, 64px);
@@ -1946,6 +1950,8 @@ a[target="_blank"]:hover {
   .r13-explore-entry__primary { grid-template-columns: minmax(180px, 260px) minmax(0, 1fr); }
   .r13-explore-authority { grid-template-columns: 1fr; }
   .r13-explore-authority p + p { padding-left: 0; border-left: 0; border-top: 1px solid var(--r12-rule); }
+  .pa-explore .explore-control--random { grid-template-columns: 1fr; }
+  .pa-explore .explore-control--random .button { justify-self: start; }
 }
 
 @media (max-width: 600px) {
@@ -1965,6 +1971,55 @@ a[target="_blank"]:hover {
   .pa-discover-filter__content {
     animation: none !important;
   }
+}
+
+/* R14 explainable personal journey: one visual language across product surfaces. */
+.r14-personal-journey { margin-block: clamp(64px, 9vw, 128px); padding-block: clamp(28px, 5vw, 56px); border-block: 1px solid var(--line-strong); }
+.r14-personal-journey__header { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr); align-items: end; gap: 28px; margin-bottom: 30px; }
+.r14-personal-journey__header h2, .r14-for-you-setup > h2 { margin: 0; max-width: 16ch; font-size: clamp(1.8rem, 4vw, 3.8rem); font-weight: 400; line-height: 1.04; letter-spacing: -.04em; text-wrap: balance; }
+.r14-personal-journey__header > p, .r14-for-you-setup > p { max-width: 48ch; margin: 0; color: var(--muted); }
+.r14-personal-journey__layout { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(300px, .7fr); align-items: start; gap: clamp(28px, 4.5vw, 64px); }
+.r14-personal-journey__support { display: grid; align-content: start; gap: clamp(22px, 2.4vw, 34px); }
+.r14-journey-card { min-width: 0; display: grid; grid-template-columns: minmax(92px, 30%) minmax(0, 1fr); gap: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
+.r14-journey-card[data-emphasis="primary"] { grid-template-columns: minmax(220px, 48%) minmax(0, 1fr); padding-top: 0; border-top: 0; }
+.r14-journey-card__cover { display: block; align-self: start; }
+.r14-journey-card__copy { min-width: 0; }
+.r14-journey-card__authority { margin: 0 0 8px; color: var(--text-muted); font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; }
+.r14-journey-card[data-provenance="PERSONAL"] .r14-journey-card__authority { color: var(--accent-strong); }
+.r14-journey-card h3 { margin: 0; font-size: clamp(1rem, 2vw, 1.7rem); font-weight: 400; line-height: 1.12; }
+.r14-journey-card__artist, .r14-journey-card__lens, .r14-journey-card__explanation { margin: 7px 0 0; color: var(--muted); font-size: .82rem; line-height: 1.55; }
+.r14-journey-card__lens { color: var(--text); }
+.r14-journey-card__continue { display: inline-block; margin-top: 16px; padding-bottom: 3px; border-bottom: 1px solid currentColor; font-size: .78rem; }
+.r14-journey-card .album-actions--compact { margin: 18px 0 0; border-top: 0; border-bottom: 1px solid color-mix(in srgb, var(--line) 72%, transparent); opacity: .62; transition: opacity .16s ease; }
+.r14-journey-card .album-actions--compact:focus-within, .r14-journey-card .album-actions--compact[open] { opacity: 1; }
+.r14-journey-card .album-actions--compact > summary { min-height: 32px; justify-content: flex-start; gap: 10px; color: var(--muted); font-size: .68rem; letter-spacing: .06em; }
+.r14-journey-card .album-actions--compact > summary small { margin-left: auto; font-size: .62rem; }
+.r14-journey-card .album-actions--compact > summary::after { font-size: .9rem; }
+.r14-personal-journey__empty { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 24px; padding: 26px 0; border-top: 1px solid var(--line); color: var(--muted); }
+.r14-personal-journey__empty > p { max-width: 54ch; margin: 0; }
+.r14-personal-journey__empty nav { display: flex; flex-wrap: wrap; justify-content: end; gap: 10px 18px; }
+.r14-personal-journey__empty a { color: var(--text); border-bottom: 1px solid var(--line-strong); }
+.r14-personal-journey--neutral { min-height: 180px; display: grid; place-items: center; color: var(--muted); }
+.r14-for-you-setup { margin-top: 72px; padding-top: 38px; border-top: 1px solid var(--line); }
+.r14-for-you-setup > p { margin-top: 14px; }
+.r12-album-object .r14-personal-journey { grid-column: 1 / -1; }
+.ad-home .r14-home-journey { position: relative; z-index: 12; width: min(calc(100% - (2 * var(--ad-pad))), 1540px); margin: 0 auto; padding-block: clamp(72px, 10vw, 150px); border-color: rgb(217 217 217 / 24%); background: #000; color: #d9d9d9; }
+.ad-home .r14-home-journey .section-kicker, .ad-home .r14-home-journey .r14-journey-card__authority { color: rgb(217 217 217 / 58%); }
+.ad-home .r14-home-journey .r14-personal-journey__header > p, .ad-home .r14-home-journey .r14-journey-card__artist, .ad-home .r14-home-journey .r14-journey-card__explanation, .ad-home .r14-home-journey.r14-personal-journey--neutral { color: rgb(217 217 217 / 64%); }
+.ad-home .r14-home-journey .r14-journey-card { border-color: rgb(217 217 217 / 22%); }
+
+@media (max-width: 768px) {
+  .r14-personal-journey__header, .r14-personal-journey__layout, .r14-personal-journey__empty { grid-template-columns: 1fr; }
+  .r14-journey-card[data-emphasis="primary"] { grid-template-columns: 1fr; }
+  .r14-personal-journey__support { gap: 26px; margin-top: 10px; }
+  .r14-journey-card { grid-template-columns: 88px minmax(0, 1fr); gap: 14px; }
+  .r14-journey-card[data-emphasis="primary"] { gap: 20px; }
+  .r14-journey-card .album-actions--compact { margin-top: 14px; }
+  .r14-personal-journey__empty nav { justify-content: start; }
+}
+
+@media (min-width: 1600px) {
+  .r14-personal-journey__support { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; }
 }
 
 /* Recommendation onboarding belongs to the same neutral archive system. */

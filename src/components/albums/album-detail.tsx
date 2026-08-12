@@ -11,6 +11,8 @@ import { formatPartialDate, RELEASE_TYPE_LABELS, type PublishedAlbum, type Publi
 import { AlbumCover } from "./album-cover";
 import { AlbumDetailActions } from "./album-detail-actions";
 import { TrackList } from "./track-list";
+import { PersonalJourneySurface } from "@/components/personalization/personal-journey-surface";
+import { getAlbumRelationFallbackIds, getRelationEligibleAlbumIds } from "@/catalog/personalization";
 
 function SameArtistShelf({ albums }: { albums: PublishedAlbumSummary[] }) {
   return (
@@ -97,6 +99,20 @@ export function AlbumDetail({ album: suppliedAlbum, viewModel, sameArtistAlbums 
       {album.editorial ? <section className="detail-card detail-card--guide" aria-labelledby="guide-title"><DetailSectionHeading number="03" kicker="聆听导览" title="为什么值得完整听" id="guide-title" /><p>{album.editorial.summaryZh}</p><p>{album.editorial.whyListenZh}</p></section> : null}
       <section className="detail-card detail-card--tracks" aria-labelledby="tracks-title"><DetailSectionHeading number="04" kicker="网易云专辑曲序" title="曲目表" id="tracks-title" /><TrackList tracks={album.tracks} albumArtists={album.artists.map((artist) => artist.name)} /></section>
       {sameArtistAlbums.length ? <section className="related-section" aria-labelledby="same-artist-title"><DetailSectionHeading number="05A" kicker="同一创作者" title="同艺人其他专辑" id="same-artist-title" /><SameArtistShelf albums={sameArtistAlbums} /></section> : null}
+      <Suspense fallback={<section className="r14-personal-journey r14-personal-journey--neutral" aria-busy="true"><p>正在读取当前设备上的个人线索…</p></section>}>
+        <PersonalJourneySurface
+          context="ALBUM"
+          source="album"
+          eyebrow="PERSONAL PATH / 与目录关系分开"
+          title="从这张作品与本机线索继续"
+          className="r14-album-journey"
+          currentAlbumSlug={album.slug}
+          currentAlbumIds={[album.id]}
+          eligibleAlbumIds={getRelationEligibleAlbumIds([album.id])}
+          relationFallbackAlbumIds={getAlbumRelationFallbackIds(album.id)}
+          limit={6}
+        />
+      </Suspense>
       <Suspense fallback={<AlbumDiscoveryView presentation={resolvedViewModel.discovery} />}>
         <AlbumDiscovery
           sourceAlbumId={album.id}

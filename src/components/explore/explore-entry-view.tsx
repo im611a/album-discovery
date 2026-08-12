@@ -86,23 +86,23 @@ function RandomEntryView({ presentation }: { presentation: ExploreRandomPresenta
     >
       <header className="r13-explore-entry__heading">
         <div>
-          <p className="section-kicker">SERENDIPITY / 稳定随机入口</p>
+          <p className="section-kicker">SERENDIPITY / 馆藏偶然入口</p>
           <h2 id="explore-random-result-title">偶然进入一张作品</h2>
         </div>
-        <p>固定种子只负责从馆藏中选择入口。这不是相似关系、推荐结论或热度排序。</p>
+        <p>当前链接只负责保留这次馆藏入口。这不是相似关系、推荐结论或热度排序。</p>
       </header>
       <Link
         className="r13-explore-entry__primary r13-explore-entry__primary--random"
         href={presentation.href}
-        aria-label={`随机进入《${presentation.target.title}》；固定种子 ${presentation.seed} 不表示作品关系`}
+        aria-label={`偶然进入《${presentation.target.title}》；这不表示作品关系或个人偏好`}
       >
         <span className="r13-explore-entry__primary-cover"><AlbumCover album={presentation.target} /></span>
         <span className="r13-explore-entry__primary-copy">
           <span className="r13-explore-entry__position">偶然入口 · 非关系结果</span>
-          <span className="r13-explore-entry__lens">分享种子 {presentation.seed}</span>
+          <span className="r13-explore-entry__lens">本次偶然入口</span>
           <h3>{presentation.target.title}</h3>
           <TargetMeta option={{ target: presentation.target }} />
-          <span className="r13-explore-entry__reason">同一个种子与同一组本机排除状态会得到同一张专辑；这里不声称它与任何作品相似或相关。</span>
+          <span className="r13-explore-entry__reason">这次选择可以随当前链接再次打开；这里不声称它与任何作品相似、相关或符合个人偏好。</span>
           <span className="r13-explore-entry__action">偶然进入这张专辑 <span aria-hidden="true">→</span></span>
         </span>
       </Link>

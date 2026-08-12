@@ -45,11 +45,11 @@ describe("R12 reference-driven structural transformation", () => {
     expect(topic).not.toContain('href="/explore"');
   });
 
-  it("keeps recommendation calculation intact while changing only presentation", () => {
+  it("routes the recommendation surface through the R14 evidence-backed presentation", () => {
     const recommendation = source("src/components/recommendations/recommendation-catalog.tsx");
-    expect(recommendation).toContain("const recommendations = recommendAlbums(state)");
-    expect(recommendation).toContain("r12-recommendation-lead");
-    expect(recommendation).toContain("mainCandidate.reasons.join");
+    expect(recommendation).toContain("PersonalJourneySurface");
+    expect(recommendation).toContain('context="FOR_YOU"');
+    expect(recommendation).toContain("!state.onboardingCompleted");
   });
 
   it("defines the neutral ink system and responsive catalog densities", () => {

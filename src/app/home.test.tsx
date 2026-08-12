@@ -3,14 +3,16 @@ import { join } from "node:path";
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import Home from "./page";
+import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
 
 vi.mock("@/components/homepage-production/runtime/mount-runtime.js", () => ({
   mountHomepageRuntime: vi.fn(() => vi.fn()),
 }));
 
 describe("production homepage shell", () => {
+  const renderHome = () => render(<PersonalStateProvider><Home /></PersonalStateProvider>);
   it("renders one route-aware interface, 24 gallery albums, and one six-album stage", () => {
-    const { container } = render(<Home />);
+    const { container } = renderHome();
     expect(screen.getByRole("heading", { level: 1, name: "专辑发现" })).toBeInTheDocument();
     expect(screen.getByRole("navigation", { name: "主要导航" })).toBeInTheDocument();
     expect(container.querySelectorAll("[data-gallery-index]")).toHaveLength(24);
@@ -22,7 +24,7 @@ describe("production homepage shell", () => {
   });
 
   it("uses real routes and album detail links", () => {
-    render(<Home />);
+    renderHome();
     expect(screen.getByRole("link", { name: "目录" })).toHaveAttribute("href", "/discover");
     expect(screen.getByRole("link", { name: "推荐" })).toHaveAttribute("href", "/for-you");
     expect(screen.getAllByRole("link", { name: /查看《.+》专辑详情/ })).toHaveLength(24);

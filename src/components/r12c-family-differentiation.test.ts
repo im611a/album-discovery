@@ -31,7 +31,7 @@ describe("R12-C family-specific openings", () => {
   });
 
   it("preserves the existing recommendation, search, and settings behavior contracts", () => {
-    expect(source("src/components/recommendations/recommendation-catalog.tsx")).toContain("recommendAlbums(state)");
+    expect(source("src/components/recommendations/recommendation-catalog.tsx")).toContain('context="FOR_YOU"');
     expect(source("src/components/search/search-catalog.tsx")).toContain("new URLSearchParams()");
     const settings = source("src/components/settings/settings-panel.tsx");
     for (const behavior of ["exportJson", "importJson", "window.confirm", "reset()", "TasteSetup"]) expect(settings).toContain(behavior);

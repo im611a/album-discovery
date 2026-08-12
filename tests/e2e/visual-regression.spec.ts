@@ -1,9 +1,9 @@
 import { expect, test } from "@playwright/test";
+import { settleVisual } from "./helpers/settled-visual";
 
 async function settle(page: import("@playwright/test").Page) {
-  await page.waitForLoadState("networkidle");
+  await settleVisual(page, { route: new URL(page.url()).pathname, readySelector: "main" });
   await page.evaluate(() => window.scrollTo(0, 0));
-  await page.waitForTimeout(350);
 }
 
 test.describe("V1.1 visual baselines", () => {

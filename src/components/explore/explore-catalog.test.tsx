@@ -41,11 +41,22 @@ describe("ExploreCatalog", () => {
   it("restores random mode from URL and structurally labels it as serendipity", () => {
     query = "mode=random&seed=shared-42";
     const { container } = render(<ExploreCatalog />);
-    expect(screen.getByDisplayValue("shared-42")).toBeInTheDocument();
+    expect(screen.queryByDisplayValue("shared-42")).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "再随机一张" })).toBeInTheDocument();
     expect(screen.getByRole("region", { name: "偶然进入一张作品" })).toBeInTheDocument();
     expect(container.querySelector('[data-explore-authority="serendipity"]')).toBeInTheDocument();
     expect(container.querySelector('[data-explore-source-kind]')).not.toBeInTheDocument();
     expect(screen.getByText(/这不是相似关系、推荐结论或热度排序/)).toBeInTheDocument();
+    expect(container).not.toHaveTextContent("shared-42");
+  });
+
+  it("keeps deterministic seed state in the URL while removing it from ordinary presentation", () => {
+    query = "mode=random&seed=shared-42";
+    const { container } = render(<ExploreCatalog />);
+    fireEvent.click(screen.getByRole("button", { name: "再随机一张" }));
+    expect(push).toHaveBeenCalledWith(expect.stringMatching(/^\/explore\?mode=random&seed=\d+$/), { scroll: false });
+    expect(container.querySelector('[data-explore-authority="serendipity"]')).toBeInTheDocument();
+    expect(container.querySelector('section[data-explore-authority="relation"]')).not.toBeInTheDocument();
   });
 
   it("falls back safely for invalid parameters", () => {
