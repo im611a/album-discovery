@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { AlbumGrid } from "@/components/album-grid";
 import { CatalogPagination } from "@/components/catalog-pagination";
@@ -9,6 +8,7 @@ import { CATALOG_PAGE_SIZE, paginate } from "@/catalog/pagination";
 import { deterministicTopicAlbum, filterTopicAlbums, type TopicKind } from "@/catalog/topics";
 import { getTaxonomyLabel } from "@/catalog/published-catalog";
 import { RELEASE_TYPE_LABELS, type PublishedAlbumSummary, type ReleaseType } from "@/catalog/schema";
+import { ReturnContextLink } from "@/components/navigation/return-journey";
 
 const sorts: Array<[CatalogSort, string]> = [
   ["recently-added", "最近收录"],
@@ -45,7 +45,7 @@ export function TopicCatalog({ albums, kind, topicKey, pathname }: { albums: Pub
       <label>发行类型<select value={releaseType ?? ""} onChange={(event) => update("type", event.target.value)}><option value="">全部</option>{Object.entries(RELEASE_TYPE_LABELS).map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
       <label>排序<select value={sort} onChange={(event) => update("sort", event.target.value)}>{sorts.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</select></label>
     </div>
-    <div className="results-bar"><p>找到 <strong>{filtered.length}</strong> 张专辑 · 当前显示 {slice.items.length} 张</p>{random ? <Link href={`/albums/${random.slug}`}>随机发现一张</Link> : null}</div>
+    <div className="results-bar"><p>找到 <strong>{filtered.length}</strong> 张专辑 · 当前显示 {slice.items.length} 张</p>{random ? <ReturnContextLink href={`/albums/${random.slug}`}>随机发现一张</ReturnContextLink> : null}</div>
     {slice.items.length ? <AlbumGrid albums={slice.items} /> : <div className="empty-state"><h2>当前条件下没有专辑</h2><p>尝试清除一个筛选条件。</p></div>}
     <CatalogPagination page={slice.page} pageCount={slice.pageCount} pathname={pathname} />
   </>;

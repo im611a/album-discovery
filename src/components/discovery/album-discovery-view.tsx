@@ -1,6 +1,6 @@
-import Link from "next/link";
 import type { AlbumDiscoveryPresentation } from "@/catalog/discovery/presentation";
 import { AlbumCover } from "@/components/albums/album-cover";
+import { ReturnContextLink } from "@/components/navigation/return-journey";
 
 function DiscoveryMeta({ option }: { option: AlbumDiscoveryPresentation["alternates"][number] }) {
   return (
@@ -39,7 +39,7 @@ export function AlbumDiscoveryView({ presentation }: { presentation: AlbumDiscov
                 ? <>起点：{presentation.path.entryLabel}</>
                 : <>沿当前目录线索继续</>}
           </p>
-          <Link href={presentation.path.resetHref}>从本专辑重新开始</Link>
+          <ReturnContextLink href={presentation.path.resetHref}>从本专辑重新开始</ReturnContextLink>
         </nav>
       ) : null}
 
@@ -47,7 +47,7 @@ export function AlbumDiscoveryView({ presentation }: { presentation: AlbumDiscov
         下面的去向只使用本地目录中可说明的创作者、流派、年代与聆听场景关系；首选与备选顺序由同一发现引擎生成。
       </p>
 
-      <Link
+      <ReturnContextLink
         className="r13-discovery__primary"
         href={primary.href}
         aria-label={`继续发现《${primary.target.title}》：${primary.explanation}`}
@@ -63,7 +63,7 @@ export function AlbumDiscoveryView({ presentation }: { presentation: AlbumDiscov
           <span className="r13-discovery__reason">{primary.explanation}</span>
           <span className="r13-discovery__action">继续到这张专辑 <span aria-hidden="true">→</span></span>
         </span>
-      </Link>
+      </ReturnContextLink>
 
       {presentation.alternates.length ? (
         <div className="r13-discovery__alternates" aria-label="其他可说明的发现去向">
@@ -71,7 +71,7 @@ export function AlbumDiscoveryView({ presentation }: { presentation: AlbumDiscov
           <ol>
             {presentation.alternates.map((option, index) => (
               <li key={option.target.id}>
-                <Link
+                <ReturnContextLink
                   href={option.href}
                   aria-label={`备选 ${index + 1}：《${option.target.title}》；${option.explanation}`}
                 >
@@ -87,7 +87,7 @@ export function AlbumDiscoveryView({ presentation }: { presentation: AlbumDiscov
                     <DiscoveryMeta option={option} />
                     <span className="r13-discovery__reason">{option.explanation}</span>
                   </span>
-                </Link>
+                </ReturnContextLink>
               </li>
             ))}
           </ol>

@@ -1,10 +1,10 @@
-import Link from "next/link";
 import type {
   ArtistDiscoveryPresentation,
   EntityDiscoveryOption,
   TopicDiscoveryPresentation,
 } from "@/catalog/discovery/artist-topic-presentation";
 import { AlbumCover } from "@/components/albums/album-cover";
+import { ReturnContextLink } from "@/components/navigation/return-journey";
 
 type EntityDiscoveryPresentation = ArtistDiscoveryPresentation | TopicDiscoveryPresentation;
 
@@ -76,13 +76,13 @@ export function EntityDiscoveryView({
                 ? <>起点：{presentation.path.entryLabel}</>
                 : <>沿当前目录线索继续</>}
           </p>
-          <Link href={presentation.path.resetHref}>从本页重新开始</Link>
+          <ReturnContextLink href={presentation.path.resetHref}>从本页重新开始</ReturnContextLink>
         </nav>
       ) : null}
 
       <p className="r13-entity-discovery__intro">{copy.intro}</p>
 
-      <Link
+      <ReturnContextLink
         className="r13-entity-discovery__primary"
         href={presentation.primary.href}
         aria-label={`${copy.action}《${presentation.primary.target.title}》：${presentation.primary.explanation}`}
@@ -98,7 +98,7 @@ export function EntityDiscoveryView({
           <span className="r13-entity-discovery__reason">{presentation.primary.explanation}</span>
           <span className="r13-entity-discovery__action">{copy.action} <span aria-hidden="true">→</span></span>
         </span>
-      </Link>
+      </ReturnContextLink>
 
       {presentation.alternates.length ? (
         <div className="r13-entity-discovery__alternates" aria-label="其他可说明的发现去向">
@@ -106,7 +106,7 @@ export function EntityDiscoveryView({
           <ol>
             {presentation.alternates.map((option, index) => (
               <li key={option.target.id}>
-                <Link
+                <ReturnContextLink
                   href={option.href}
                   aria-label={`备选 ${index + 1}：《${option.target.title}》；${option.explanation}`}
                 >
@@ -122,7 +122,7 @@ export function EntityDiscoveryView({
                     <OptionMeta option={option} />
                     <span className="r13-entity-discovery__reason">{option.explanation}</span>
                   </span>
-                </Link>
+                </ReturnContextLink>
               </li>
             ))}
           </ol>

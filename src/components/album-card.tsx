@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { getTaxonomyLabel } from "@/catalog/published-catalog";
 import { RELEASE_TYPE_LABELS, type PublishedAlbumSummary } from "@/catalog/schema";
 import { AlbumActions } from "./album-actions";
 import { AlbumCover } from "./albums/album-cover";
+import { ReturnContextLink } from "./navigation/return-journey";
 
 function Highlighted({ text, query }: { text: string; query?: string }) {
   const trimmed = query?.trim();
@@ -16,15 +16,15 @@ export function AlbumCard({ album, reason, actions = "compact", highlight, headi
   const Heading = headingLevel === 2 ? "h2" : "h3";
   return (
     <article className="album-card">
-      <Link className="album-card__overlay-link" href={`/albums/${album.slug}`} aria-label={`查看《${album.title}》专辑导览`} />
+      <ReturnContextLink className="album-card__overlay-link" href={`/albums/${album.slug}`} aria-label={`查看《${album.title}》专辑导览`} />
       <div className="album-card__link">
         <AlbumCover album={album} />
         <div className="album-card__body">
           <Heading className="album-card__title"><Highlighted text={album.title} query={highlight} /></Heading>
-          <p className="album-card__artist">{album.artists.map((artist, index) => <span key={`${artist.id}-${index}`}>{index ? "、" : ""}<Link href={`/artists/artist-${artist.neteaseArtistId}`}><Highlighted text={artist.name} query={highlight} /></Link></span>)}</p>
+          <p className="album-card__artist">{album.artists.map((artist, index) => <span key={`${artist.id}-${index}`}>{index ? "、" : ""}<ReturnContextLink href={`/artists/artist-${artist.neteaseArtistId}`}><Highlighted text={artist.name} query={highlight} /></ReturnContextLink></span>)}</p>
           <p className="album-card__meta">{album.releaseDate?.slice(0, 4) ?? "日期暂缺"} · {RELEASE_TYPE_LABELS[album.albumType]}</p>
           {album.rymRating != null ? <p className="album-card__rating">RYM {album.rymRating.toFixed(2)}</p> : null}
-          {album.coreGenres.length ? <div className="album-card__genres" aria-label="专辑核心流派">{album.coreGenres.slice(0, 2).map((genre) => <Link key={genre} href={`/genres/core/${genre}`} aria-label={`浏览${getTaxonomyLabel(genre)}专题`}>{getTaxonomyLabel(genre)}</Link>)}</div> : null}
+          {album.coreGenres.length ? <div className="album-card__genres" aria-label="专辑核心流派">{album.coreGenres.slice(0, 2).map((genre) => <ReturnContextLink key={genre} href={`/genres/core/${genre}`} aria-label={`浏览${getTaxonomyLabel(genre)}专题`}>{getTaxonomyLabel(genre)}</ReturnContextLink>)}</div> : null}
           {reason ? <p className="album-card__reason">{reason}</p> : album.editorial ? <p className="album-card__reason">{album.editorial.summaryZh}</p> : null}
         </div>
       </div>

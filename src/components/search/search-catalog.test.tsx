@@ -26,6 +26,8 @@ describe("SearchCatalog", () => {
     expect(screen.getByText(/找到/)).toBeInTheDocument();
     expect(container.querySelector(".artist-editorial-row")).toBeInTheDocument();
     expect(container.querySelector(".compact-album-row")).toBeInTheDocument();
+    expect(container.querySelector<HTMLAnchorElement>(".artist-editorial-row__action")?.href).toContain("sfrom=search");
+    expect(container.querySelector<HTMLAnchorElement>(".compact-album-row__cover")?.href).toContain("sq=%E7%8E%8B%E8%8F%B2");
   });
   it("resets pagination when a new query is submitted", () => {
     query = "专辑";

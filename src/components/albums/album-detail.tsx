@@ -1,5 +1,4 @@
 import { Suspense } from "react";
-import Link from "next/link";
 import { buildAlbumDetailViewModel, type AlbumDetailViewModel } from "@/catalog/album-detail-view-model";
 import { Breadcrumb, ExternalLink } from "@/components/control-primitives";
 import { AlbumDiscovery } from "@/components/discovery/album-discovery";
@@ -13,12 +12,13 @@ import { AlbumDetailActions } from "./album-detail-actions";
 import { TrackList } from "./track-list";
 import { PersonalJourneySurface } from "@/components/personalization/personal-journey-surface";
 import { getAlbumRelationFallbackIds, getRelationEligibleAlbumIds } from "@/catalog/personalization";
+import { ReturnContextLink, ReturnJourneyAffordance } from "@/components/navigation/return-journey";
 
 function SameArtistShelf({ albums }: { albums: PublishedAlbumSummary[] }) {
   return (
     <div className="pa-same-artist-shelf r12-related-works">
       {albums.slice(0, 6).map((item) => (
-        <Link
+        <ReturnContextLink
           className="pa-same-artist-shelf__record"
           href={`/albums/${item.slug}`}
           key={item.id}
@@ -27,7 +27,7 @@ function SameArtistShelf({ albums }: { albums: PublishedAlbumSummary[] }) {
           <AlbumCover album={item} />
           <span>{item.releaseYear ?? "日期暂缺"} · {RELEASE_TYPE_LABELS[item.albumType]}</span>
           <strong>{item.title}</strong>
-        </Link>
+        </ReturnContextLink>
       ))}
     </div>
   );
@@ -54,6 +54,7 @@ export function AlbumDetail({ album: suppliedAlbum, viewModel, sameArtistAlbums 
   const neteaseLink = resolvedViewModel.externalLinks[0] ?? null;
   return <article className="album-detail pa-album-file r12-album-object">
     <Breadcrumb items={[{ label: "发现", href: "/discover" }, { label: album.title }]} />
+    <ReturnJourneyAffordance />
     <header className="album-detail__hero pa-album-file__hero">
       <div className="pa-album-file__object">
         <AlbumCover album={album} size="detail" />
