@@ -2,10 +2,9 @@ import path from "node:path";
 import { mkdir } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import { expect, test, type Page } from "@playwright/test";
+import { resolveRegressionEvidenceRoot } from "./helpers/evidence-output";
 
-const evidenceRoot = path.resolve(
-  ".local-data/r13-product-evolution/r13-3c-album-discovery/screenshots",
-);
+const evidenceRoot = resolveRegressionEvidenceRoot({ phase: "r13-3c", environmentValue: process.env.R13_3C_EVIDENCE_ROOT });
 const forbiddenRuntimeHost = /musicbrainz|coverartarchive|music\.163|rateyourmusic/i;
 
 function watchRuntime(page: Page) {

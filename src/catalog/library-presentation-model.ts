@@ -1,4 +1,5 @@
 import { RELEASE_TYPE_LABELS, type PublishedAlbumSummary } from "./schema";
+import { appendNavigationOrigin } from "./navigation-origin";
 import {
   buildLibraryAlbumHref,
   serializeLibraryQuery,
@@ -270,7 +271,12 @@ function card(
     title: entry.album.title,
     artists: Object.freeze(entry.album.artists.map((artist) => Object.freeze({
       name: artist.name,
-      href: `/artists/artist-${artist.neteaseArtistId}`,
+      href: appendNavigationOrigin(`/artists/artist-${artist.neteaseArtistId}`, {
+        kind: "LIBRARY",
+        view: query.view,
+        query: query.query,
+        sort: query.sort,
+      }),
     }))),
     artistDisplay,
     releaseYearLabel: entry.album.releaseYear == null ? "发行年份暂缺" : String(entry.album.releaseYear),

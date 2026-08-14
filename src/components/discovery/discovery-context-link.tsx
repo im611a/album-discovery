@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { Suspense, useMemo, type ReactNode } from "react";
 import { useSearchParams } from "next/navigation";
-import { buildDiscoveryEntityHref } from "@/catalog/discovery/artist-topic-presentation";
-import { appendNavigationOrigin } from "@/catalog/navigation-origin";
+import { buildCrossProductEntityHref } from "@/catalog/contextual-navigation";
+import { catalogAlbums } from "@/catalog/published-catalog";
 
 interface DiscoveryContextLinkProps {
   readonly href: string;
@@ -24,7 +24,12 @@ function ContextLink({
   const searchParams = useSearchParams();
   const query = searchParams.toString();
   const contextualHref = useMemo(
-    () => appendNavigationOrigin(buildDiscoveryEntityHref(href, currentAlbumSlug, query), query),
+    () => buildCrossProductEntityHref({
+      pathname: href,
+      currentAlbumSlug,
+      searchParams: query,
+      catalog: catalogAlbums,
+    }),
     [currentAlbumSlug, href, query],
   );
   return <Link href={contextualHref} className={className} aria-label={ariaLabel}>{children}</Link>;

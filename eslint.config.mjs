@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Repository-local evidence, validation clones, and reversible dependency recovery.
+    ".local-data/**",
+    ".tmp/**",
+    "node_modules.r16-partial-recovery-backup/**",
   ]),
 ]);
 

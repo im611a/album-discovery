@@ -5,10 +5,11 @@ import path from "node:path";
 import { expect, test, type Page } from "@playwright/test";
 import { catalogAlbums } from "@/catalog/published-catalog";
 import { settleVisual } from "./helpers/settled-visual";
+import { resolveRegressionEvidenceRoot } from "./helpers/evidence-output";
 
 const STORAGE_KEY = "album-discovery:user-state:v1";
 const repoRoot = path.resolve(process.env.R15_REPO_ROOT ?? ".");
-const evidenceRoot = path.resolve(process.env.R15_2G_EVIDENCE_ROOT ?? path.join(repoRoot, ".local-data/r15-product-evolution/r15-2g-return-journey"));
+const evidenceRoot = resolveRegressionEvidenceRoot({ phase: "r15-2g", environmentValue: process.env.R15_2G_EVIDENCE_ROOT, repoRoot });
 const screenshotRoot = path.join(evidenceRoot, "screenshots");
 const frozen2cRoot = path.join(repoRoot, ".local-data/r15-product-evolution/r15-2c-visible-library");
 const sha256 = (value: Buffer | string) => createHash("sha256").update(value).digest("hex");

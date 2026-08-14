@@ -1,10 +1,9 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { expect, test, type Page } from "@playwright/test";
+import { resolveRegressionEvidenceRoot } from "./helpers/evidence-output";
 
-const evidenceRoot = path.resolve(
-  ".local-data/r13-product-evolution/r13-3f-final-acceptance",
-);
+const evidenceRoot = resolveRegressionEvidenceRoot({ phase: "r13-3f", environmentValue: process.env.R13_3F_EVIDENCE_ROOT });
 const screenshotRoot = path.join(evidenceRoot, "screenshots");
 const forbiddenRuntimeHost = /musicbrainz|coverartarchive|music\.163|rateyourmusic|spotify|apple|last\.fm|discogs/i;
 

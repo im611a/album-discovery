@@ -112,7 +112,7 @@ describe("R15-2B Library presentation information architecture", () => {
     const item = model(stateWith({ savedAlbumIds: [ids[0]] }), "view=saved").primaryCollection.entries[0];
     expect(item.href).toBe(`/albums/${albums[0].slug}?lfrom=library&lview=saved`);
     expect(item.href).not.toMatch(/q=|pfrom|ptrail|album%3A/);
-    expect(item.artists.every((artist) => artist.href.startsWith("/artists/artist-"))).toBe(true);
+    expect(item.artists.every((artist) => artist.href.startsWith("/artists/artist-") && artist.href.includes("lfrom=library") && artist.href.includes("lview=saved"))).toBe(true);
   });
 
   it("uses separate dismissed-review semantics without positive affinity copy", () => {

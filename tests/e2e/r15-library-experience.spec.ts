@@ -8,9 +8,10 @@ import { buildLibraryPresentationFixtures } from "@/catalog/library-presentation
 import { catalogAlbums } from "@/catalog/published-catalog";
 
 import { settleVisual } from "./helpers/settled-visual";
+import { resolveRegressionEvidenceRoot } from "./helpers/evidence-output";
 
 const STORAGE_KEY = "album-discovery:user-state:v1";
-const outputRoot = path.resolve(process.env.R15_2C_EVIDENCE_ROOT ?? ".local-data/r15-product-evolution/r15-2c-visible-library");
+const outputRoot = resolveRegressionEvidenceRoot({ phase: "r15-2c", environmentValue: process.env.R15_2C_EVIDENCE_ROOT });
 const screenshotRoot = path.join(outputRoot, "screenshots");
 const fixtures = new Map(buildLibraryPresentationFixtures(catalogAlbums).map((fixture) => [fixture.name, fixture]));
 const sha256 = (value: Buffer | string) => createHash("sha256").update(value).digest("hex");

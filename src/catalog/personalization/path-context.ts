@@ -10,6 +10,7 @@ export interface PersonalJourneyUrlContext {
 
 const MAX_URL_TRAIL = 4;
 const MAX_RAW_LENGTH = 512;
+export const MAX_PERSONAL_CONTEXT_URL_LENGTH = 768;
 
 function newestUnique(values: readonly string[]) {
   const seen = new Set<string>();
@@ -34,6 +35,34 @@ export function parsePersonalJourneyUrlContext(input: string | URLSearchParams, 
       ? newestUnique(rawTrail.split("~").filter((slug) => slugs.has(slug)))
       : []),
   });
+}
+
+export function appendPersonalJourneyUrlContext({
+  href,
+  searchParams = "",
+  currentAlbumSlug,
+  catalog,
+}: {
+  href: string;
+  searchParams?: string | URLSearchParams;
+  currentAlbumSlug?: string;
+  catalog: readonly PublishedAlbumSummary[];
+}) {
+  const incoming = parsePersonalJourneyUrlContext(searchParams, catalog);
+  if (!incoming.source) return href;
+  const [fragmentless, fragment = ""] = href.split("#", 2);
+  const [pathname, query = ""] = fragmentless.split("?", 2);
+  const params = new URLSearchParams(query);
+  params.delete("pfrom");
+  params.delete("ptrail");
+  params.set("pfrom", incoming.source);
+  const validCurrent = currentAlbumSlug && catalog.some((album) => album.slug === currentAlbumSlug)
+    ? currentAlbumSlug
+    : null;
+  const trail = newestUnique([...incoming.trailAlbumSlugs, ...(validCurrent ? [validCurrent] : [])]);
+  if (trail.length) params.set("ptrail", trail.join("~"));
+  const result = `${pathname}${params.size ? `?${params}` : ""}${fragment ? `#${fragment}` : ""}`;
+  return result.length <= MAX_PERSONAL_CONTEXT_URL_LENGTH ? result : href;
 }
 
 export function buildPersonalJourneyAlbumHref({
