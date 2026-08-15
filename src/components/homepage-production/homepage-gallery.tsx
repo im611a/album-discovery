@@ -30,7 +30,7 @@ export function HomepageGallery({ albums }: { albums: readonly HomepageAlbum[] }
             <div className="ad-poster__frame">
               <div className="ad-poster__par">
                 <div className="ad-poster__pointer">
-                  <Link href={`/albums/${album.slug}`} aria-label={`查看《${album.title}》专辑详情`}>
+                  <Link href={`/albums/${album.slug}/?pfrom=home`} aria-label={`查看《${album.title}》专辑详情`}>
                     {/* A native image preserves the verified runtime geometry and static-export behavior. */}
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={album.cover} alt={`${album.title} — ${album.artists.join("、")}`} loading="eager" />

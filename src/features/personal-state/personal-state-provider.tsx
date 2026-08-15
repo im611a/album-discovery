@@ -83,7 +83,14 @@ export function PersonalStateProvider({ children }: { children: React.ReactNode 
     };
   }), [update]);
   const saveTaste = useCallback((taste: TasteProfile, completed = true) => update((current) => ({ ...current, taste, onboardingCompleted: completed })), [update]);
-  const recordRecent = useCallback((albumId: string) => update((current) => ({ ...current, recentAlbumIds: [albumId, ...current.recentAlbumIds.filter((id) => id !== albumId)].slice(0, 20) })), [update]);
+  const recordRecent = useCallback((albumId: string) => setState((current) => {
+    if (!ids.has(albumId) || current.recentAlbumIds[0] === albumId) return current;
+    return {
+      ...current,
+      recentAlbumIds: [albumId, ...current.recentAlbumIds.filter((id) => id !== albumId)].slice(0, 20),
+      updatedAt: new Date().toISOString(),
+    };
+  }), []);
   const reset = useCallback(() => setState({ ...createInitialUserState(), updatedAt: new Date().toISOString() }), []);
   const exportJson = useCallback(() => JSON.stringify(state, null, 2), [state]);
   const importJson = useCallback((value: string) => {

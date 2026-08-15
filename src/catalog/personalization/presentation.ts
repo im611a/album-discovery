@@ -78,7 +78,7 @@ function optionFor(candidate: PersonalCandidate, input: BuildPersonalJourneyPres
   const copy = evidence ? evidenceCopy(evidence) : { lens: "相关路径", explanation: "沿当前作品的可说明关系继续；这不是个人偏好结论。" };
   return Object.freeze({
     album: candidate.album,
-    href: buildPersonalJourneyAlbumHref({ targetSlug: candidate.album.slug, source: input.source, currentAlbumSlug: input.currentAlbumSlug, searchParams: input.searchParams, catalog: catalogAlbums }),
+    href: buildPersonalJourneyAlbumHref({ targetSlug: candidate.album.slug, source: input.source, originArtistSlug: input.originArtistSlug, currentAlbumSlug: input.currentAlbumSlug, searchParams: input.searchParams, catalog: catalogAlbums }),
     provenance: candidate.provenance,
     lens: copy.lens,
     explanationKey: evidence ? `personal.${evidence.family.toLowerCase()}` : "relation.fallback",
@@ -94,6 +94,7 @@ export interface BuildPersonalJourneyPresentationInput {
   readonly limit?: number;
   readonly searchParams?: string | URLSearchParams;
   readonly currentAlbumSlug?: string;
+  readonly originArtistSlug?: string;
   readonly currentAlbumIds?: readonly string[];
   readonly eligibleAlbumIds?: readonly string[];
   readonly excludedAlbumIds?: readonly string[];

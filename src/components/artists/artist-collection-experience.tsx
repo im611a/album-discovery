@@ -15,23 +15,25 @@ import { AlbumActions } from "../album-actions";
 
 type ArtistAlbumLinkProps = Omit<ComponentProps<typeof Link>, "href"> & {
   readonly albumSlug: string;
+  readonly originArtistSlug?: string;
   readonly children?: ReactNode;
 };
 
-function ContextualArtistAlbumLink({ albumSlug, ...props }: ArtistAlbumLinkProps) {
+function ContextualArtistAlbumLink({ albumSlug, originArtistSlug, ...props }: ArtistAlbumLinkProps) {
   const searchParams = useSearchParams();
   const query = searchParams?.toString() ?? "";
   const href = useMemo(() => buildArtistCollectionAlbumHref({
     targetSlug: albumSlug,
+    originArtistSlug,
     searchParams: query,
     catalog: catalogAlbums,
-  }) ?? `/albums/${albumSlug}`, [albumSlug, query]);
+  }) ?? `/albums/${albumSlug}`, [albumSlug, originArtistSlug, query]);
   return <Link href={href} {...props} />;
 }
 
-export function ArtistCollectionAlbumLink({ albumSlug, ...props }: ArtistAlbumLinkProps) {
+export function ArtistCollectionAlbumLink({ albumSlug, originArtistSlug, ...props }: ArtistAlbumLinkProps) {
   return <Suspense fallback={<Link href={`/albums/${albumSlug}`} {...props} />}>
-    <ContextualArtistAlbumLink albumSlug={albumSlug} {...props} />
+    <ContextualArtistAlbumLink albumSlug={albumSlug} originArtistSlug={originArtistSlug} {...props} />
   </Suspense>;
 }
 

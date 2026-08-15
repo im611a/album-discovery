@@ -179,7 +179,7 @@ export async function mountStage(root, items) {
       current = selected;
       title.textContent = `${items[current].artists.join("、")} – ${items[current].title}`;
       title.dataset.albumId = items[current].albumId;
-      title.href = `/albums/${items[current].slug}`;
+      title.href = `/albums/${items[current].slug}/?pfrom=home`;
       number.textContent = items[current].displayNumber || `/${String(current + 1).padStart(2, "0")}`;
       dirty = true;
     }

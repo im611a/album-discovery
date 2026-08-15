@@ -37,6 +37,13 @@ function expectRuntimeClean(runtime: ReturnType<typeof watchRuntime>) {
   expect(runtime.forbiddenRequests).toEqual([]);
 }
 
+function isHomeAlbumTarget(value: string | null) {
+  const target = new URL(value ?? "", "http://local");
+  return /^\/albums\/[^/]+\/$/.test(target.pathname)
+    && target.searchParams.get("pfrom") === "home"
+    && [...target.searchParams.keys()].length === 1;
+}
+
 async function expectNoHorizontalOverflow(page: Page) {
   const measurement = await page.evaluate(() => ({
     scrollWidth: document.documentElement.scrollWidth,
@@ -74,7 +81,7 @@ test("reference-driven home preserves Stage progression, vinyl lifecycle, naviga
     links.map((link) => link.getAttribute("href")),
   );
   expect(galleryHrefs).toHaveLength(24);
-  expect(galleryHrefs.every((href) => /^\/albums\/[^/]+\/$/.test(href ?? ""))).toBe(true);
+  expect(galleryHrefs.every(isHomeAlbumTarget)).toBe(true);
 
   const navigation = page.getByRole("navigation", { name: "主要导航" });
   await expect(navigation.getByRole("link", { name: "目录" })).toHaveAttribute("href", /^\/discover\/?$/);
@@ -95,9 +102,9 @@ test("reference-driven home preserves Stage progression, vinyl lifecycle, naviga
   await expect(canvas).toHaveAttribute("data-vinyl-owner-index", "1");
   await expect(page.locator("#homepageStageNumber")).toHaveText("/02");
   const href = await page.locator("#homepageStageTitle").getAttribute("href");
-  expect(href).toMatch(/^\/albums\/[^/]+\/?$/);
+  expect(isHomeAlbumTarget(href)).toBe(true);
   await page.locator("#homepageStageTitle").click();
-  await expect(page).toHaveURL(/\/albums\/[^/]+\/$/);
+  await expect(page).toHaveURL(/\/albums\/[^/]+\/\?pfrom=home$/);
   await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
   expectRuntimeClean(runtime);
 });

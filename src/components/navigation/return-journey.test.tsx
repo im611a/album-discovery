@@ -23,4 +23,13 @@ describe("R15 return journey UI", () => {
     rerender(<ReturnJourneyAffordance />);
     expect(screen.queryByRole("link", { name: /返回/ })).not.toBeInTheDocument();
   });
+
+  it("renders truthful Home, Explore and Artist returns from existing provenance", () => {
+    query = "pfrom=home";
+    const { rerender } = render(<ReturnJourneyAffordance />);
+    expect(screen.getByRole("link", { name: /返回首页/ })).toHaveAttribute("href", "/");
+    query = "entry=explore";
+    rerender(<ReturnJourneyAffordance />);
+    expect(screen.getByRole("link", { name: /返回探索/ })).toHaveAttribute("href", "/explore");
+  });
 });

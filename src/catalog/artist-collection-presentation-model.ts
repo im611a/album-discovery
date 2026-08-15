@@ -73,8 +73,8 @@ export interface ArtistCollectionPresentationModel {
   readonly responsive: typeof ARTIST_COLLECTION_RESPONSIVE_CONTRACT;
 }
 
-function work(entry: ArtistCollectionAlbumEntry, searchParams: string | URLSearchParams, catalog: readonly PublishedAlbumSummary[]): ArtistCollectionWorkPresentation {
-  const href = buildArtistCollectionAlbumHref({ targetSlug: entry.slug, searchParams, catalog });
+function work(entry: ArtistCollectionAlbumEntry, artistSlug: string, searchParams: string | URLSearchParams, catalog: readonly PublishedAlbumSummary[]): ArtistCollectionWorkPresentation {
+  const href = buildArtistCollectionAlbumHref({ targetSlug: entry.slug, originArtistSlug: artistSlug, searchParams, catalog });
   if (!href) throw new Error(`Unresolved Artist collection presentation target: ${entry.albumId}`);
   const status = STATUS_COPY[entry.primaryStatus];
   const creditLabel = entry.credit.kind === "SHARED_CREDIT"
@@ -120,7 +120,7 @@ export function buildArtistCollectionPresentationModel({
   catalog: readonly PublishedAlbumSummary[];
   searchParams?: string | URLSearchParams;
 }): ArtistCollectionPresentationModel {
-  const presentations = new Map(projection.publishedAlbums.map((entry) => [entry.albumId, work(entry, searchParams, catalog)] as const));
+  const presentations = new Map(projection.publishedAlbums.map((entry) => [entry.albumId, work(entry, projection.artist.slug, searchParams, catalog)] as const));
   const select = (entries: readonly ArtistCollectionAlbumEntry[]) => Object.freeze(entries.map((entry) => {
     const item = presentations.get(entry.albumId);
     if (!item) throw new Error(`Missing Artist collection work presentation: ${entry.albumId}`);

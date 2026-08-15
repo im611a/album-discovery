@@ -3,6 +3,7 @@ import { publishedDiscoveryIndex } from "./discovery/published-index";
 import { appendNavigationOrigin, parseNavigationOrigin } from "./navigation-origin";
 import { parsePersonalJourneyUrlContext } from "./personalization/path-context";
 import type { PublishedAlbumSummary } from "./schema";
+import { appendArtistReturnContext } from "./artist-return-context";
 
 export interface ArtistCollectionNavigationAuthority {
   readonly returnOrigin: ReturnType<typeof parseNavigationOrigin>["kind"];
@@ -14,10 +15,12 @@ export interface ArtistCollectionNavigationAuthority {
 
 export function buildArtistCollectionAlbumHref({
   targetSlug,
+  originArtistSlug,
   searchParams = "",
   catalog,
 }: {
   targetSlug: string;
+  originArtistSlug?: string;
   searchParams?: string | URLSearchParams;
   catalog: readonly PublishedAlbumSummary[];
 }) {
@@ -28,7 +31,7 @@ export function buildArtistCollectionAlbumHref({
   if (personal.source) params.set("pfrom", personal.source);
   if (personal.trailAlbumSlugs.length) params.set("ptrail", personal.trailAlbumSlugs.join("~"));
   const base = `/albums/${targetSlug}${params.size ? `?${params}` : ""}`;
-  return appendNavigationOrigin(base, parseNavigationOrigin(input));
+  return appendArtistReturnContext(appendNavigationOrigin(base, parseNavigationOrigin(input)), originArtistSlug);
 }
 
 export function inspectArtistCollectionNavigationAuthority(

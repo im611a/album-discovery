@@ -10,7 +10,7 @@ export function HomepageStage({ albums }: { albums: readonly HomepageStageAlbum[
         <Link
           id="homepageStageTitle"
           className="ad-stage__title"
-          href={`/albums/${first.slug}`}
+          href={`/albums/${first.slug}/?pfrom=home`}
           data-album-id={first.albumId}
         >
           {first.artists.join("、")} – {first.title}

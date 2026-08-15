@@ -85,4 +85,18 @@ describe("PersonalStateProvider", () => {
     expect(invalidResult).toEqual({ ok: false, message: "无法解析 JSON 文件。" });
     expect(result.current.state.savedAlbumIds).toContain(albumId);
   });
+  it("records a meaningful album view once and moves repeated visits without duplicates", async () => {
+    const first = catalogAlbums[0].id;
+    const second = catalogAlbums[1].id;
+    const { result } = renderHook(() => usePersonalState(), { wrapper: StateWrapper });
+    await waitFor(() => expect(result.current.hydrated).toBe(true));
+    act(() => result.current.recordRecent(first));
+    const firstUpdatedAt = result.current.state.updatedAt;
+    act(() => result.current.recordRecent(first));
+    expect(result.current.state.recentAlbumIds).toEqual([first]);
+    expect(result.current.state.updatedAt).toBe(firstUpdatedAt);
+    act(() => result.current.recordRecent(second));
+    act(() => result.current.recordRecent(first));
+    expect(result.current.state.recentAlbumIds).toEqual([first, second]);
+  });
 });

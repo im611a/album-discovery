@@ -6,7 +6,9 @@ import { AlbumActions } from "@/components/album-actions";
 import { usePersonalState } from "@/features/personal-state/personal-state-provider";
 
 export function AlbumDetailActions({ album }: { album: PublishedAlbum }) {
-  const { recordRecent } = usePersonalState();
-  useEffect(() => recordRecent(album.id), [album.id, recordRecent]);
+  const { hydrated, recordRecent } = usePersonalState();
+  useEffect(() => {
+    if (hydrated) recordRecent(album.id);
+  }, [album.id, hydrated, recordRecent]);
   return <AlbumActions album={album} />;
 }

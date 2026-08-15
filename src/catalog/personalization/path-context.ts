@@ -1,4 +1,5 @@
 import type { PublishedAlbumSummary } from "../schema";
+import { appendArtistReturnContext } from "../artist-return-context";
 
 export const PERSONAL_JOURNEY_SOURCES = ["home", "for-you", "album", "artist", "explore"] as const;
 export type PersonalJourneySource = (typeof PERSONAL_JOURNEY_SOURCES)[number];
@@ -68,12 +69,14 @@ export function appendPersonalJourneyUrlContext({
 export function buildPersonalJourneyAlbumHref({
   targetSlug,
   source,
+  originArtistSlug,
   currentAlbumSlug,
   searchParams = "",
   catalog,
 }: {
   targetSlug: string;
   source: PersonalJourneySource;
+  originArtistSlug?: string;
   currentAlbumSlug?: string;
   searchParams?: string | URLSearchParams;
   catalog: readonly PublishedAlbumSummary[];
@@ -89,5 +92,6 @@ export function buildPersonalJourneyAlbumHref({
   params.set("pfrom", source);
   if (trail.length) params.set("ptrail", trail.join("~"));
   const query = params.toString();
-  return query ? `/albums/${targetSlug}?${query}` : `/albums/${targetSlug}/`;
+  const href = query ? `/albums/${targetSlug}?${query}` : `/albums/${targetSlug}/`;
+  return appendArtistReturnContext(href, originArtistSlug);
 }
