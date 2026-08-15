@@ -1,6 +1,4 @@
-import { createReadStream } from "node:fs";
-import { readFile } from "node:fs/promises";
-import path from "node:path";
+import { cleanStructuredHeader, readStructuredRows } from "./structured-input.mjs";
 
 const FIELD_ALIASES = {
   title: ["title", "album", "album_name", "release", "release_name", "albumtitle"],
@@ -15,11 +13,7 @@ const FIELD_ALIASES = {
   reference: ["rym_url", "rym_reference", "url", "link", "links"],
 };
 
-const cleanHeader = (value) => String(value ?? "")
-  .replace(/^\uFEFF/, "")
-  .trim()
-  .toLocaleLowerCase("en")
-  .replace(/[\s-]+/g, "_");
+const cleanHeader = cleanStructuredHeader;
 
 function mappedValue(row, aliases) {
   for (const alias of aliases) {
@@ -95,85 +89,8 @@ export function normalizeRymInputRow(input, rowNumber, inputSourceId) {
   };
 }
 
-async function* delimitedRows(file, delimiter) {
-  const stream = createReadStream(file, { encoding: "utf8", highWaterMark: 64 * 1024 });
-  let row = [];
-  let cell = "";
-  let quoted = false;
-  let headers = null;
-  let firstCharacter = true;
-  const emit = () => {
-    row.push(cell);
-    cell = "";
-    const values = row;
-    row = [];
-    if (!headers) {
-      headers = values.map(cleanHeader);
-      return null;
-    }
-    return Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ""]));
-  };
-  for await (const chunkValue of stream) {
-    const chunk = firstCharacter ? chunkValue.replace(/^\uFEFF/, "") : chunkValue;
-    firstCharacter = false;
-    for (let index = 0; index < chunk.length; index += 1) {
-      const character = chunk[index];
-      if (quoted) {
-        if (character === '"' && chunk[index + 1] === '"') {
-          cell += '"';
-          index += 1;
-        } else if (character === '"') {
-          quoted = false;
-        } else {
-          cell += character;
-        }
-      } else if (character === '"') {
-        quoted = true;
-      } else if (character === delimiter) {
-        row.push(cell);
-        cell = "";
-      } else if (character === "\n") {
-        const record = emit();
-        if (record) yield record;
-      } else if (character !== "\r") {
-        cell += character;
-      }
-    }
-  }
-  if (quoted) throw new Error("Delimited input ended inside a quoted field.");
-  if (cell || row.length) {
-    const record = emit();
-    if (record) yield record;
-  }
-}
-
-async function* jsonArrayRows(file) {
-  const text = (await readFile(file, "utf8")).replace(/^\uFEFF/, "");
-  const parsed = JSON.parse(text);
-  const rows = Array.isArray(parsed) ? parsed : parsed.records;
-  if (!Array.isArray(rows)) throw new Error("JSON input must be an array or an object with a records array.");
-  for (const row of rows) yield row;
-}
-
-async function* jsonLinesRows(file) {
-  const stream = createReadStream(file, { encoding: "utf8" });
-  let buffer = "";
-  for await (const chunk of stream) {
-    buffer += chunk;
-    const lines = buffer.split(/\r?\n/);
-    buffer = lines.pop() ?? "";
-    for (const line of lines) if (line.trim()) yield JSON.parse(line.replace(/^\uFEFF/, ""));
-  }
-  if (buffer.trim()) yield JSON.parse(buffer.replace(/^\uFEFF/, ""));
-}
-
 export async function* readRymInputRows(file) {
-  const extension = path.extname(file).toLocaleLowerCase("en");
-  if (extension === ".csv") yield* delimitedRows(file, ",");
-  else if (extension === ".tsv") yield* delimitedRows(file, "\t");
-  else if (extension === ".jsonl" || extension === ".ndjson") yield* jsonLinesRows(file);
-  else if (extension === ".json") yield* jsonArrayRows(file);
-  else throw new Error(`Unsupported RYM input format: ${extension || "(none)"}.`);
+  yield* readStructuredRows(file);
 }
 
 export async function inspectRymInput(file, inputSourceId, sampleLimit = 3) {

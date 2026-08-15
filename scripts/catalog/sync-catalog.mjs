@@ -284,13 +284,13 @@ async function ensureOptimizedCovers(albumId) {
   }
 }
 
-function safeSlug(value, albumId) {
+export function safeSlug(value, albumId) {
   const slug = String(value ?? "").normalize("NFKD").toLocaleLowerCase("en-US")
     .replace(/[^\p{Letter}\p{Number}]+/gu, "-").replace(/^-|-$/g, "");
   return slug && /^[a-z0-9-]+$/.test(slug) ? slug : `netease-album-${albumId}`;
 }
 
-function normalizePayload(seed, payload, fetchedAt, coverAvailable) {
+export function normalizePayload(seed, payload, fetchedAt, coverAvailable) {
   const source = payload.album;
   const songs = Array.isArray(payload.songs) ? payload.songs : Array.isArray(source.songs) ? source.songs : [];
   if (songs.length < 2) {

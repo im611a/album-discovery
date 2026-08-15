@@ -7,6 +7,7 @@ import { normalizeListeningScenes } from "./listening-scenes.mjs";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const defaultInput = path.join(root, "src", "data", "generated", "catalog.json");
 const defaultOutput = path.join(root, "src", "data", "generated");
+const defaultCoverRoot = path.join(root, "public", "catalog", "covers");
 
 const hasFile = async (file) => {
   try {
@@ -121,11 +122,11 @@ function buildArtistIndex(albums, generatedAt) {
   };
 }
 
-export async function buildPublication(catalog) {
+export async function buildPublication(catalog, { coverRoot = defaultCoverRoot } = {}) {
   const albums = [];
   for (const album of catalog.albums) {
-    const thumbnailFile = path.join(root, "public", "catalog", "covers", "thumb", `${album.neteaseAlbumId}.webp`);
-    const detailFile = path.join(root, "public", "catalog", "covers", "detail", `${album.neteaseAlbumId}.webp`);
+    const thumbnailFile = path.join(coverRoot, "thumb", `${album.neteaseAlbumId}.webp`);
+    const detailFile = path.join(coverRoot, "detail", `${album.neteaseAlbumId}.webp`);
     const thumbnailSrc = await hasFile(thumbnailFile)
       ? `/catalog/covers/thumb/${album.neteaseAlbumId}.webp`
       : album.cover?.src ?? null;
@@ -182,8 +183,8 @@ async function writePublicationDirectory(directory, publication) {
   await writeFile(path.join(directory, "catalog.manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
 }
 
-export async function publishCatalog(catalog, outputDirectory = defaultOutput) {
-  const publication = await buildPublication(catalog);
+export async function publishCatalog(catalog, outputDirectory = defaultOutput, options = {}) {
+  const publication = await buildPublication(catalog, options);
   const parent = path.dirname(outputDirectory);
   const next = path.join(parent, `.generated-next-${process.pid}-${Date.now()}`);
   const previous = path.join(parent, `.generated-previous-${process.pid}-${Date.now()}`);
