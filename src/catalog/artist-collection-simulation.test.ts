@@ -69,7 +69,7 @@ describe("R16 deterministic all-Artist collection simulation", () => {
       }
     }
     console.info("R16_ARTIST_COLLECTION_SIMULATION", JSON.stringify({ scenarios: 20_000, artists: publishedArtists.length, projections, ...failures }));
-    expect(projections).toBe(5_960_000);
+    expect(projections).toBe(20_000 * publishedArtists.length);
     expect(failures).toEqual({
       exceptions: 0,
       invalidTargets: 0,

@@ -1,0 +1,299 @@
+{
+  "internalId": "album:15189",
+  "id": "album:15189",
+  "neteaseAlbumId": "15189",
+  "slug": "netease-album-15189",
+  "title": "Ultrasound 乐之路 1997-2003",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "2003-08-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15189.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/15189.webp",
+    "alt": "《Ultrasound 乐之路 1997-2003》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:150502",
+      "neteaseTrackId": "150502",
+      "title": "今天没回家",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 235693
+    },
+    {
+      "id": "netease-track:150506",
+      "neteaseTrackId": "150506",
+      "title": "普通朋友",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255000
+    },
+    {
+      "id": "netease-track:150508",
+      "neteaseTrackId": "150508",
+      "title": "小镇姑娘",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 295666
+    },
+    {
+      "id": "netease-track:150510",
+      "neteaseTrackId": "150510",
+      "title": "沙滩",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 240933
+    },
+    {
+      "id": "netease-track:150512",
+      "neteaseTrackId": "150512",
+      "title": "飞机场的10:30",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 295000
+    },
+    {
+      "id": "netease-track:150514",
+      "neteaseTrackId": "150514",
+      "title": "My Anata",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 227373
+    },
+    {
+      "id": "netease-track:150516",
+      "neteaseTrackId": "150516",
+      "title": "我喜欢",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 217706
+    },
+    {
+      "id": "netease-track:150518",
+      "neteaseTrackId": "150518",
+      "title": "天天",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255600
+    },
+    {
+      "id": "netease-track:150520",
+      "neteaseTrackId": "150520",
+      "title": "Melody",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 269026
+    },
+    {
+      "id": "netease-track:150522",
+      "neteaseTrackId": "150522",
+      "title": "找自己",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 305306
+    },
+    {
+      "id": "netease-track:150524",
+      "neteaseTrackId": "150524",
+      "title": "寂寞的季节",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 215826
+    },
+    {
+      "id": "netease-track:150526",
+      "neteaseTrackId": "150526",
+      "title": "黑色柳丁",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 256906
+    },
+    {
+      "id": "netease-track:150528",
+      "neteaseTrackId": "150528",
+      "title": "爱，很简单",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 269493
+    },
+    {
+      "id": "netease-track:150530",
+      "neteaseTrackId": "150530",
+      "title": "Runaway",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 255706
+    },
+    {
+      "id": "netease-track:150532",
+      "neteaseTrackId": "150532",
+      "title": "天天(Revised 2003 Version)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 272800
+    },
+    {
+      "id": "netease-track:150534",
+      "neteaseTrackId": "150534",
+      "title": "飞机场的10:30(Original Demo)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 313533
+    },
+    {
+      "id": "netease-track:150536",
+      "neteaseTrackId": "150536",
+      "title": "黑色柳丁(Original Voice Recorder Ideas)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 193733
+    },
+    {
+      "id": "netease-track:150538",
+      "neteaseTrackId": "150538",
+      "title": "沙滩(Acappella Version)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 230760
+    },
+    {
+      "id": "netease-track:150540",
+      "neteaseTrackId": "150540",
+      "title": "我喜欢(Ballad Version)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 189666
+    },
+    {
+      "id": "netease-track:150542",
+      "neteaseTrackId": "150542",
+      "title": "沙滩(Guitar Version)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 231373
+    },
+    {
+      "id": "netease-track:150544",
+      "neteaseTrackId": "150544",
+      "title": "普通朋友(Rehearsal With Bruce Watson)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 288826
+    },
+    {
+      "id": "netease-track:150546",
+      "neteaseTrackId": "150546",
+      "title": "爱，很简单(Original 1993 English Demo)/心乱飞(Rehearsal)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 467640
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=15189",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ultrasound 乐之路 1997-2003 陶喆",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

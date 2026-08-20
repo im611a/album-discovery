@@ -25,22 +25,22 @@ afterEach(() => {
 describe("R13 discovery relation/index foundation", () => {
   it("derives the projected real-catalog entity and membership counts", () => {
     expect(publishedDiscoveryIndex.stats).toEqual({
-      entityCount: 696,
-      membershipEdgeCount: 1_949,
+      entityCount: 710,
+      membershipEdgeCount: 2_007,
       nodeCountByType: {
-        ALBUM: 345,
-        ARTIST: 298,
+        ALBUM: 357,
+        ARTIST: 300,
         PRIMARY_GENRE: 15,
         SECONDARY_GENRE: 24,
         ERA: 7,
         LISTENING_CONTEXT: 7,
       },
       membershipCountByType: {
-        ALBUM_ARTIST: 615,
-        ALBUM_PRIMARY_GENRE: 345,
+        ALBUM_ARTIST: 627,
+        ALBUM_PRIMARY_GENRE: 357,
         ALBUM_SECONDARY_GENRE: 28,
-        ALBUM_ERA: 345,
-        ALBUM_LISTENING_CONTEXT: 616,
+        ALBUM_ERA: 357,
+        ALBUM_LISTENING_CONTEXT: 638,
       },
     });
   });

@@ -25,8 +25,8 @@ describe("R13-3D non-visible artist discovery foundation", () => {
       artist.artistId,
     ));
 
-    expect(results).toHaveLength(298);
-    expect(results.filter((result) => result.artistShape === "MULTI_WORK")).toHaveLength(60);
+    expect(results).toHaveLength(300);
+    expect(results.filter((result) => result.artistShape === "MULTI_WORK")).toHaveLength(62);
     expect(results.filter((result) => result.artistShape === "SINGLE_WORK")).toHaveLength(238);
 
     for (const [index, artist] of publishedArtists.entries()) {

@@ -207,9 +207,9 @@ describe("R15-2B Library presentation information architecture", () => {
 });
 
 describe("R15-2B deterministic real-catalog presentation fixtures", () => {
-  it("builds all required density and semantic fixtures from the real 345-album catalog", () => {
+  it("builds all required density and semantic fixtures from the real 357-album catalog", () => {
     const fixtures = buildLibraryPresentationFixtures(albums);
-    expect(albums).toHaveLength(345);
+    expect(albums).toHaveLength(357);
     expect(fixtures.map((fixture) => fixture.name)).toEqual(LIBRARY_PRESENTATION_FIXTURE_NAMES);
     expect(fixtures).toHaveLength(16);
     expect(LIBRARY_PRESENTATION_GOLDEN_CASES).toHaveLength(12);

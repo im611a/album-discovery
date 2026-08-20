@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "refreshDate": "2026-07-23",
+  "refreshDate": "2026-08-18",
   "source": {
     "catalog": "netease",
     "endpointFamily": "anonymous-public-album-metadata",
-    "generatedAt": "2026-07-23T10:29:50.864Z",
+    "generatedAt": "2026-08-18T00:00:00.000Z",
     "parserVersion": "netease-catalog-v3",
     "runtimeRequestsAllowed": false,
     "taxonomy": "rym-offline-or-manual-core"
@@ -62909,6 +62909,2863 @@
       "rymObservedAt": null,
       "rymMatchStatus": "UNVERIFIED_NO_DATA",
       "rymInputSourceId": null
+    },
+    {
+      "internalId": "album:11548",
+      "id": "album:11548",
+      "neteaseAlbumId": "11548",
+      "slug": "netease-album-11548",
+      "title": "2001向前走 十年经典",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:3726",
+          "neteaseArtistId": "3726",
+          "name": "林强"
+        }
+      ],
+      "releaseDate": "2001-01-15",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "滚石唱片",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/11548.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/11548.webp",
+        "alt": "《2001向前走 十年经典》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:118828",
+          "neteaseTrackId": "118828",
+          "title": "向前走",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 365551
+        },
+        {
+          "id": "netease-track:118832",
+          "neteaseTrackId": "118832",
+          "title": "爱情研究院",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 257000
+        },
+        {
+          "id": "netease-track:118836",
+          "neteaseTrackId": "118836",
+          "title": "春风少年兄",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 239026
+        },
+        {
+          "id": "netease-track:118840",
+          "neteaseTrackId": "118840",
+          "title": "你真正上厉害",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 262106
+        },
+        {
+          "id": "netease-track:118843",
+          "neteaseTrackId": "118843",
+          "title": "台北孤儿",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "林强",
+            "李宗盛"
+          ],
+          "durationMs": 264413
+        },
+        {
+          "id": "netease-track:118846",
+          "neteaseTrackId": "118846",
+          "title": "无声的所在",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "林强",
+            "侯孝贤"
+          ],
+          "durationMs": 249560
+        },
+        {
+          "id": "netease-track:118849",
+          "neteaseTrackId": "118849",
+          "title": "风在吹",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 229668
+        },
+        {
+          "id": "netease-track:118855",
+          "neteaseTrackId": "118855",
+          "title": "自我毁灭",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 311320
+        },
+        {
+          "id": "netease-track:118863",
+          "neteaseTrackId": "118863",
+          "title": "暗藏",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 128000
+        },
+        {
+          "id": "netease-track:118868",
+          "neteaseTrackId": "118868",
+          "title": "查某人",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 306131
+        },
+        {
+          "id": "netease-track:118872",
+          "neteaseTrackId": "118872",
+          "title": "幸福进行曲",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 253986
+        },
+        {
+          "id": "netease-track:118875",
+          "neteaseTrackId": "118875",
+          "title": "光明的路",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 251320
+        },
+        {
+          "id": "netease-track:118878",
+          "neteaseTrackId": "118878",
+          "title": "向前走(2001 Remix)",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "林强"
+          ],
+          "durationMs": 375200
+        }
+      ],
+      "trackCount": 13,
+      "externalUrl": "https://music.163.com/#/album?id=11548",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "night",
+        "commute"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "2001向前走 十年经典 林强",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:15180",
+      "id": "album:15180",
+      "neteaseAlbumId": "15180",
+      "slug": "netease-album-15180",
+      "title": "暗恋 电影原声带",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:5196",
+          "neteaseArtistId": "5196",
+          "name": "陶喆"
+        }
+      ],
+      "releaseDate": "2009-10-29",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": null,
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/15180.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/15180.webp",
+        "alt": "《暗恋 电影原声带》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:150377",
+          "neteaseTrackId": "150377",
+          "title": "暗恋(DT的暗恋)",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 263000
+        },
+        {
+          "id": "netease-track:150378",
+          "neteaseTrackId": "150378",
+          "title": "Play(吸引)",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 218000
+        },
+        {
+          "id": "netease-track:150379",
+          "neteaseTrackId": "150379",
+          "title": "暗恋(想念)",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 152000
+        },
+        {
+          "id": "netease-track:150380",
+          "neteaseTrackId": "150380",
+          "title": "暗恋(着迷)",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 217000
+        },
+        {
+          "id": "netease-track:150381",
+          "neteaseTrackId": "150381",
+          "title": "火鸟功(Superhero)",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 97000
+        },
+        {
+          "id": "netease-track:150382",
+          "neteaseTrackId": "150382",
+          "title": "暗恋(原本的你)",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 288000
+        },
+        {
+          "id": "netease-track:150383",
+          "neteaseTrackId": "150383",
+          "title": "暗恋(DT的异想世界)",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 184000
+        },
+        {
+          "id": "netease-track:150384",
+          "neteaseTrackId": "150384",
+          "title": "暗恋(少了3个数字的电话号码)",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 196000
+        },
+        {
+          "id": "netease-track:150385",
+          "neteaseTrackId": "150385",
+          "title": "Play(邂逅)",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 200000
+        },
+        {
+          "id": "netease-track:150386",
+          "neteaseTrackId": "150386",
+          "title": "Play(夜色)",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 294000
+        }
+      ],
+      "trackCount": 10,
+      "externalUrl": "https://music.163.com/#/album?id=15180",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "暗恋 电影原声带 陶喆",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:15189",
+      "id": "album:15189",
+      "neteaseAlbumId": "15189",
+      "slug": "netease-album-15189",
+      "title": "Ultrasound 乐之路 1997-2003",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:5196",
+          "neteaseArtistId": "5196",
+          "name": "陶喆"
+        }
+      ],
+      "releaseDate": "2003-08-07",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "华纳音乐",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/15189.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/15189.webp",
+        "alt": "《Ultrasound 乐之路 1997-2003》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:150502",
+          "neteaseTrackId": "150502",
+          "title": "今天没回家",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 235693
+        },
+        {
+          "id": "netease-track:150506",
+          "neteaseTrackId": "150506",
+          "title": "普通朋友",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 255000
+        },
+        {
+          "id": "netease-track:150508",
+          "neteaseTrackId": "150508",
+          "title": "小镇姑娘",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 295666
+        },
+        {
+          "id": "netease-track:150510",
+          "neteaseTrackId": "150510",
+          "title": "沙滩",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 240933
+        },
+        {
+          "id": "netease-track:150512",
+          "neteaseTrackId": "150512",
+          "title": "飞机场的10:30",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 295000
+        },
+        {
+          "id": "netease-track:150514",
+          "neteaseTrackId": "150514",
+          "title": "My Anata",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 227373
+        },
+        {
+          "id": "netease-track:150516",
+          "neteaseTrackId": "150516",
+          "title": "我喜欢",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 217706
+        },
+        {
+          "id": "netease-track:150518",
+          "neteaseTrackId": "150518",
+          "title": "天天",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 255600
+        },
+        {
+          "id": "netease-track:150520",
+          "neteaseTrackId": "150520",
+          "title": "Melody",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 269026
+        },
+        {
+          "id": "netease-track:150522",
+          "neteaseTrackId": "150522",
+          "title": "找自己",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 305306
+        },
+        {
+          "id": "netease-track:150524",
+          "neteaseTrackId": "150524",
+          "title": "寂寞的季节",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 215826
+        },
+        {
+          "id": "netease-track:150526",
+          "neteaseTrackId": "150526",
+          "title": "黑色柳丁",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 256906
+        },
+        {
+          "id": "netease-track:150528",
+          "neteaseTrackId": "150528",
+          "title": "爱，很简单",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 269493
+        },
+        {
+          "id": "netease-track:150530",
+          "neteaseTrackId": "150530",
+          "title": "Runaway",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 255706
+        },
+        {
+          "id": "netease-track:150532",
+          "neteaseTrackId": "150532",
+          "title": "天天(Revised 2003 Version)",
+          "trackNumber": 1,
+          "discNumber": 2,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 272800
+        },
+        {
+          "id": "netease-track:150534",
+          "neteaseTrackId": "150534",
+          "title": "飞机场的10:30(Original Demo)",
+          "trackNumber": 2,
+          "discNumber": 2,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 313533
+        },
+        {
+          "id": "netease-track:150536",
+          "neteaseTrackId": "150536",
+          "title": "黑色柳丁(Original Voice Recorder Ideas)",
+          "trackNumber": 3,
+          "discNumber": 2,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 193733
+        },
+        {
+          "id": "netease-track:150538",
+          "neteaseTrackId": "150538",
+          "title": "沙滩(Acappella Version)",
+          "trackNumber": 4,
+          "discNumber": 2,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 230760
+        },
+        {
+          "id": "netease-track:150540",
+          "neteaseTrackId": "150540",
+          "title": "我喜欢(Ballad Version)",
+          "trackNumber": 5,
+          "discNumber": 2,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 189666
+        },
+        {
+          "id": "netease-track:150542",
+          "neteaseTrackId": "150542",
+          "title": "沙滩(Guitar Version)",
+          "trackNumber": 6,
+          "discNumber": 2,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 231373
+        },
+        {
+          "id": "netease-track:150544",
+          "neteaseTrackId": "150544",
+          "title": "普通朋友(Rehearsal With Bruce Watson)",
+          "trackNumber": 7,
+          "discNumber": 2,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 288826
+        },
+        {
+          "id": "netease-track:150546",
+          "neteaseTrackId": "150546",
+          "title": "爱，很简单(Original 1993 English Demo)/心乱飞(Rehearsal)",
+          "trackNumber": 8,
+          "discNumber": 2,
+          "artists": [
+            "陶喆"
+          ],
+          "durationMs": 467640
+        }
+      ],
+      "trackCount": 22,
+      "externalUrl": "https://music.163.com/#/album?id=15189",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "Ultrasound 乐之路 1997-2003 陶喆",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:18888",
+      "id": "album:18888",
+      "neteaseAlbumId": "18888",
+      "slug": "netease-album-18888",
+      "title": "不能说的秘密 电影原声带",
+      "aliases": [
+        "Secret"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:6452",
+          "neteaseArtistId": "6452",
+          "name": "周杰伦"
+        }
+      ],
+      "releaseDate": "2007-08-12",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": null,
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/18888.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/18888.webp",
+        "alt": "《不能说的秘密 电影原声带》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:185827",
+          "neteaseTrackId": "185827",
+          "title": "Opening",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "Terdsak Janpan",
+            "周杰伦"
+          ],
+          "durationMs": 148000
+        },
+        {
+          "id": "netease-track:185829",
+          "neteaseTrackId": "185829",
+          "title": "脚踏车",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 139586
+        },
+        {
+          "id": "netease-track:185831",
+          "neteaseTrackId": "185831",
+          "title": "早操",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 96106
+        },
+        {
+          "id": "netease-track:185833",
+          "neteaseTrackId": "185833",
+          "title": "淡水海边",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 63706
+        },
+        {
+          "id": "netease-track:185835",
+          "neteaseTrackId": "185835",
+          "title": "斗琴",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦",
+            "詹宇豪"
+          ],
+          "durationMs": 134546
+        },
+        {
+          "id": "netease-track:185837",
+          "neteaseTrackId": "185837",
+          "title": "湘伦小雨四手联弹",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 38840
+        },
+        {
+          "id": "netease-track:185838",
+          "neteaseTrackId": "185838",
+          "title": "Ride With Me",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "Terdsak Janpan"
+          ],
+          "durationMs": 88000
+        },
+        {
+          "id": "netease-track:185839",
+          "neteaseTrackId": "185839",
+          "title": "父与子",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 137920
+        },
+        {
+          "id": "netease-track:185840",
+          "neteaseTrackId": "185840",
+          "title": "情人的眼泪",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "姚苏蓉"
+          ],
+          "durationMs": 359000
+        },
+        {
+          "id": "netease-track:185842",
+          "neteaseTrackId": "185842",
+          "title": "First Kiss",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 91173
+        },
+        {
+          "id": "netease-track:185844",
+          "neteaseTrackId": "185844",
+          "title": "女孩别为我哭泣",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "黄俊郎"
+          ],
+          "durationMs": 79640
+        },
+        {
+          "id": "netease-track:185846",
+          "neteaseTrackId": "185846",
+          "title": "晴天娃娃",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "江语晨"
+          ],
+          "durationMs": 149026
+        },
+        {
+          "id": "netease-track:185848",
+          "neteaseTrackId": "185848",
+          "title": "阿郎与阿宝",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 140000
+        },
+        {
+          "id": "netease-track:185850",
+          "neteaseTrackId": "185850",
+          "title": "与父共舞",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "Terdsak Janpan",
+            "周杰伦"
+          ],
+          "durationMs": 85000
+        },
+        {
+          "id": "netease-track:185852",
+          "neteaseTrackId": "185852",
+          "title": "路小雨",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 99000
+        },
+        {
+          "id": "netease-track:185854",
+          "neteaseTrackId": "185854",
+          "title": "The Swan",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 152586
+        },
+        {
+          "id": "netease-track:185855",
+          "neteaseTrackId": "185855",
+          "title": "Flash Back",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "Terdsak Janpan",
+            "周杰伦"
+          ],
+          "durationMs": 198000
+        },
+        {
+          "id": "netease-track:185856",
+          "neteaseTrackId": "185856",
+          "title": "Secret (慢板)",
+          "trackNumber": 18,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 67933
+        },
+        {
+          "id": "netease-track:185857",
+          "neteaseTrackId": "185857",
+          "title": "Angel",
+          "trackNumber": 19,
+          "discNumber": 1,
+          "artists": [
+            "Terdsak Janpan",
+            "周杰伦"
+          ],
+          "durationMs": 113000
+        },
+        {
+          "id": "netease-track:185859",
+          "neteaseTrackId": "185859",
+          "title": "小雨写立可白Ⅰ",
+          "trackNumber": 20,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 75000
+        },
+        {
+          "id": "netease-track:185861",
+          "neteaseTrackId": "185861",
+          "title": "小雨写立可白Ⅱ",
+          "trackNumber": 21,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 100000
+        },
+        {
+          "id": "netease-track:185863",
+          "neteaseTrackId": "185863",
+          "title": "Secret (加长快板)",
+          "trackNumber": 22,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 85306
+        },
+        {
+          "id": "netease-track:185865",
+          "neteaseTrackId": "185865",
+          "title": "琴房",
+          "trackNumber": 23,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 101000
+        },
+        {
+          "id": "netease-track:185867",
+          "neteaseTrackId": "185867",
+          "title": "Ending",
+          "trackNumber": 24,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 85000
+        },
+        {
+          "id": "netease-track:185868",
+          "neteaseTrackId": "185868",
+          "title": "不能说的秘密",
+          "trackNumber": 25,
+          "discNumber": 1,
+          "artists": [
+            "周杰伦"
+          ],
+          "durationMs": 296533
+        }
+      ],
+      "trackCount": 25,
+      "externalUrl": "https://music.163.com/#/album?id=18888",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "不能说的秘密 电影原声带 Secret 周杰伦",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:2374026",
+      "id": "album:2374026",
+      "neteaseAlbumId": "2374026",
+      "slug": "miss-you-much-leslie",
+      "title": "Miss You Much, Leslie",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:6457",
+          "neteaseArtistId": "6457",
+          "name": "张国荣"
+        }
+      ],
+      "releaseDate": "2013-03-24",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Universal Music Ltd.",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2374026.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/2374026.webp",
+        "alt": "《Miss You Much, Leslie》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:26075317",
+          "neteaseTrackId": "26075317",
+          "title": "Thank You",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 273800
+        },
+        {
+          "id": "netease-track:26075375",
+          "neteaseTrackId": "26075375",
+          "title": "The Dance Song",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 27306
+        },
+        {
+          "id": "netease-track:26075346",
+          "neteaseTrackId": "26075346",
+          "title": "无心睡眠",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 188866
+        },
+        {
+          "id": "netease-track:26075359",
+          "neteaseTrackId": "26075359",
+          "title": "A Secret Producer",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 18253
+        },
+        {
+          "id": "netease-track:26075325",
+          "neteaseTrackId": "26075325",
+          "title": "共同渡过",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 262586
+        },
+        {
+          "id": "netease-track:26075364",
+          "neteaseTrackId": "26075364",
+          "title": "Covers In Low Profile",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 31386
+        },
+        {
+          "id": "netease-track:26075338",
+          "neteaseTrackId": "26075338",
+          "title": "情难自控",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 252786
+        },
+        {
+          "id": "netease-track:26075360",
+          "neteaseTrackId": "26075360",
+          "title": "Aggressive In A Good Way",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 40480
+        },
+        {
+          "id": "netease-track:26075326",
+          "neteaseTrackId": "26075326",
+          "title": "够了",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 229960
+        },
+        {
+          "id": "netease-track:26075337",
+          "neteaseTrackId": "26075337",
+          "title": "倩女幽魂",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 214746
+        },
+        {
+          "id": "netease-track:31446095",
+          "neteaseTrackId": "31446095",
+          "title": "I Didn't Mean To Turn You On",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 23013
+        },
+        {
+          "id": "netease-track:26075330",
+          "neteaseTrackId": "26075330",
+          "title": "拒绝再玩",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 213333
+        },
+        {
+          "id": "netease-track:26075376",
+          "neteaseTrackId": "26075376",
+          "title": "To Learn & To Grow Up",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 51080
+        },
+        {
+          "id": "netease-track:26075339",
+          "neteaseTrackId": "26075339",
+          "title": "热辣辣",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 201520
+        },
+        {
+          "id": "netease-track:26075362",
+          "neteaseTrackId": "26075362",
+          "title": "Becoming A True Artiste",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 42973
+        },
+        {
+          "id": "netease-track:26075347",
+          "neteaseTrackId": "26075347",
+          "title": "想你",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 294893
+        },
+        {
+          "id": "netease-track:31446061",
+          "neteaseTrackId": "31446061",
+          "title": "His Shoot With Russian Hat",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 33386
+        },
+        {
+          "id": "netease-track:31446062",
+          "neteaseTrackId": "31446062",
+          "title": "雪中情",
+          "trackNumber": 18,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 240586
+        },
+        {
+          "id": "netease-track:31446063",
+          "neteaseTrackId": "31446063",
+          "title": "Down to Earth",
+          "trackNumber": 19,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 44120
+        },
+        {
+          "id": "netease-track:31446064",
+          "neteaseTrackId": "31446064",
+          "title": "贴身",
+          "trackNumber": 20,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 195840
+        },
+        {
+          "id": "netease-track:31446065",
+          "neteaseTrackId": "31446065",
+          "title": "Serve The Best & Become The Best",
+          "trackNumber": 21,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 53680
+        },
+        {
+          "id": "netease-track:31446066",
+          "neteaseTrackId": "31446066",
+          "title": "无需要太多",
+          "trackNumber": 22,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 264960
+        },
+        {
+          "id": "netease-track:31446067",
+          "neteaseTrackId": "31446067",
+          "title": "He Did Insist",
+          "trackNumber": 23,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 117346
+        },
+        {
+          "id": "netease-track:31446068",
+          "neteaseTrackId": "31446068",
+          "title": "Hot Summer",
+          "trackNumber": 24,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 235560
+        },
+        {
+          "id": "netease-track:31446069",
+          "neteaseTrackId": "31446069",
+          "title": "沉默是金",
+          "trackNumber": 25,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 247386
+        },
+        {
+          "id": "netease-track:31446070",
+          "neteaseTrackId": "31446070",
+          "title": "胭脂扣 (88 Live)",
+          "trackNumber": 26,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 149400
+        },
+        {
+          "id": "netease-track:31446071",
+          "neteaseTrackId": "31446071",
+          "title": "Matured",
+          "trackNumber": 27,
+          "discNumber": 1,
+          "artists": [
+            "陈少宝"
+          ],
+          "durationMs": 57773
+        },
+        {
+          "id": "netease-track:31446072",
+          "neteaseTrackId": "31446072",
+          "title": "侧面",
+          "trackNumber": 28,
+          "discNumber": 1,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 224040
+        },
+        {
+          "id": "netease-track:31446006",
+          "neteaseTrackId": "31446006",
+          "title": "暴风一族",
+          "trackNumber": 1,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 207360
+        },
+        {
+          "id": "netease-track:26075350",
+          "neteaseTrackId": "26075350",
+          "title": "由零开始",
+          "trackNumber": 3,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 246546
+        },
+        {
+          "id": "netease-track:26075342",
+          "neteaseTrackId": "26075342",
+          "title": "似水流年",
+          "trackNumber": 5,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 255720
+        },
+        {
+          "id": "netease-track:26075323",
+          "neteaseTrackId": "26075323",
+          "title": "滴汗",
+          "trackNumber": 7,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 289053
+        },
+        {
+          "id": "netease-track:26075324",
+          "neteaseTrackId": "26075324",
+          "title": "风再起时",
+          "trackNumber": 8,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 268386
+        },
+        {
+          "id": "netease-track:26075316",
+          "neteaseTrackId": "26075316",
+          "title": "Miss You Much",
+          "trackNumber": 9,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 226360
+        },
+        {
+          "id": "netease-track:26075328",
+          "neteaseTrackId": "26075328",
+          "title": "寂寞夜晚",
+          "trackNumber": 10,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 265266
+        },
+        {
+          "id": "netease-track:26075315",
+          "neteaseTrackId": "26075315",
+          "title": "Dreaming",
+          "trackNumber": 11,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 290346
+        },
+        {
+          "id": "netease-track:26075336",
+          "neteaseTrackId": "26075336",
+          "title": "千千阕歌 (90 Live)(live版)",
+          "trackNumber": 12,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 278600
+        },
+        {
+          "id": "netease-track:26075318",
+          "neteaseTrackId": "26075318",
+          "title": "The Way We Were (90 Live)(live版)",
+          "trackNumber": 13,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 205000
+        },
+        {
+          "id": "netease-track:26075327",
+          "neteaseTrackId": "26075327",
+          "title": "幻影/雾之恋",
+          "trackNumber": 15,
+          "discNumber": 2,
+          "artists": [
+            "张国荣",
+            "谭咏麟"
+          ],
+          "durationMs": 306720
+        },
+        {
+          "id": "netease-track:26075341",
+          "neteaseTrackId": "26075341",
+          "title": "左右手",
+          "trackNumber": 17,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 255973
+        },
+        {
+          "id": "netease-track:26075334",
+          "neteaseTrackId": "26075334",
+          "title": "陪你倒数",
+          "trackNumber": 19,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 263400
+        },
+        {
+          "id": "netease-track:26075348",
+          "neteaseTrackId": "26075348",
+          "title": "小明星",
+          "trackNumber": 20,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 190573
+        },
+        {
+          "id": "netease-track:26075321",
+          "neteaseTrackId": "26075321",
+          "title": "春夏秋冬",
+          "trackNumber": 21,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 247386
+        },
+        {
+          "id": "netease-track:26075331",
+          "neteaseTrackId": "26075331",
+          "title": "路过蜻蜓",
+          "trackNumber": 23,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 231946
+        },
+        {
+          "id": "netease-track:26075354",
+          "neteaseTrackId": "26075354",
+          "title": "枕头",
+          "trackNumber": 24,
+          "discNumber": 2,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 254866
+        },
+        {
+          "id": "netease-track:26075343",
+          "neteaseTrackId": "26075343",
+          "title": "我",
+          "trackNumber": 2,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 220000
+        },
+        {
+          "id": "netease-track:26075322",
+          "neteaseTrackId": "26075322",
+          "title": "大热",
+          "trackNumber": 4,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 216200
+        },
+        {
+          "id": "netease-track:26075332",
+          "neteaseTrackId": "26075332",
+          "title": "没有爱",
+          "trackNumber": 5,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 247346
+        },
+        {
+          "id": "netease-track:26075344",
+          "neteaseTrackId": "26075344",
+          "title": "我的心里没有他 (00 Live)(live版)",
+          "trackNumber": 7,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 143746
+        },
+        {
+          "id": "netease-track:26075340",
+          "neteaseTrackId": "26075340",
+          "title": "热情的沙漠 (00 Live)(live版)",
+          "trackNumber": 8,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 182773
+        },
+        {
+          "id": "netease-track:26075355",
+          "neteaseTrackId": "26075355",
+          "title": "至少还有你 (00 Live)(live版)",
+          "trackNumber": 9,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 266706
+        },
+        {
+          "id": "netease-track:26075319",
+          "neteaseTrackId": "26075319",
+          "title": "Tonight And Forever",
+          "trackNumber": 10,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 258666
+        },
+        {
+          "id": "netease-track:26075333",
+          "neteaseTrackId": "26075333",
+          "title": "梦到内河",
+          "trackNumber": 12,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 227693
+        },
+        {
+          "id": "netease-track:26075329",
+          "neteaseTrackId": "26075329",
+          "title": "洁身自爱",
+          "trackNumber": 13,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 265306
+        },
+        {
+          "id": "netease-track:26075352",
+          "neteaseTrackId": "26075352",
+          "title": "月亮代表我的心",
+          "trackNumber": 14,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 246680
+        },
+        {
+          "id": "netease-track:26075320",
+          "neteaseTrackId": "26075320",
+          "title": "玻璃之情",
+          "trackNumber": 20,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 280866
+        },
+        {
+          "id": "netease-track:26075411",
+          "neteaseTrackId": "26075411",
+          "title": "红蝴蝶",
+          "trackNumber": 22,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 201053
+        },
+        {
+          "id": "netease-track:26075335",
+          "neteaseTrackId": "26075335",
+          "title": "千娇百美",
+          "trackNumber": 24,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 279240
+        },
+        {
+          "id": "netease-track:26075351",
+          "neteaseTrackId": "26075351",
+          "title": "冤家",
+          "trackNumber": 26,
+          "discNumber": 3,
+          "artists": [
+            "张国荣"
+          ],
+          "durationMs": 223026
+        }
+      ],
+      "trackCount": 59,
+      "externalUrl": "https://music.163.com/#/album?id=2374026",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "night",
+        "solitude"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "Miss You Much, Leslie 张国荣",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:2406003",
+      "id": "album:2406003",
+      "neteaseAlbumId": "2406003",
+      "slug": "netease-album-2406003",
+      "title": "崔健1986-1996",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:2111",
+          "neteaseArtistId": "2111",
+          "name": "崔健"
+        }
+      ],
+      "releaseDate": "1995-12-31",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "京文",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2406003.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/2406003.webp",
+        "alt": "《崔健1986-1996》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:26172028",
+          "neteaseTrackId": "26172028",
+          "title": "解决",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 311267
+        },
+        {
+          "id": "netease-track:26172017",
+          "neteaseTrackId": "26172017",
+          "title": "飞了",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 333133
+        },
+        {
+          "id": "netease-track:26172022",
+          "neteaseTrackId": "26172022",
+          "title": "假行僧",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 273706
+        },
+        {
+          "id": "netease-track:26172024",
+          "neteaseTrackId": "26172024",
+          "title": "从头再来",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 312600
+        },
+        {
+          "id": "netease-track:26172027",
+          "neteaseTrackId": "26172027",
+          "title": "这儿的空间",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 314494
+        },
+        {
+          "id": "netease-track:26172025",
+          "neteaseTrackId": "26172025",
+          "title": "出走",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 329266
+        },
+        {
+          "id": "netease-track:26172019",
+          "neteaseTrackId": "26172019",
+          "title": "花房姑娘",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 288334
+        },
+        {
+          "id": "netease-track:26172021",
+          "neteaseTrackId": "26172021",
+          "title": "不是我不明白",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 366466
+        },
+        {
+          "id": "netease-track:26172016",
+          "neteaseTrackId": "26172016",
+          "title": "快让我在雪地上撒点野",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 459866
+        },
+        {
+          "id": "netease-track:26172018",
+          "neteaseTrackId": "26172018",
+          "title": "宽容",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 487520
+        },
+        {
+          "id": "netease-track:26172023",
+          "neteaseTrackId": "26172023",
+          "title": "新长征路上的摇滚",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "崔健"
+          ],
+          "durationMs": 287053
+        }
+      ],
+      "trackCount": 11,
+      "externalUrl": "https://music.163.com/#/album?id=2406003",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "commute",
+        "focus"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "崔健1986-1996 崔健",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:2732291",
+      "id": "album:2732291",
+      "neteaseAlbumId": "2732291",
+      "slug": "modern-times-epilogue",
+      "title": "Modern Times - Epilogue",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:160947",
+          "neteaseArtistId": "160947",
+          "name": "IU"
+        }
+      ],
+      "releaseDate": "2013-12-19",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Kakao Entertainment Corp.",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2732291.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/2732291.webp",
+        "alt": "《Modern Times - Epilogue》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:28126835",
+          "neteaseTrackId": "28126835",
+          "title": "금요일에 만나요",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "IU",
+            "张利贞"
+          ],
+          "durationMs": 217089
+        },
+        {
+          "id": "netease-track:28126836",
+          "neteaseTrackId": "28126836",
+          "title": "크레파스 (드라마 `예쁜 남자` 삽입곡)",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 193811
+        },
+        {
+          "id": "netease-track:28126837",
+          "neteaseTrackId": "28126837",
+          "title": "을의 연애",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "IU",
+            "朴朱元"
+          ],
+          "durationMs": 191305
+        },
+        {
+          "id": "netease-track:28126838",
+          "neteaseTrackId": "28126838",
+          "title": "누구나 비밀은 있다",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "IU",
+            "佳仁"
+          ],
+          "durationMs": 229360
+        },
+        {
+          "id": "netease-track:28126839",
+          "neteaseTrackId": "28126839",
+          "title": "입술 사이 (50cm)",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 170716
+        },
+        {
+          "id": "netease-track:28126840",
+          "neteaseTrackId": "28126840",
+          "title": "분홍신",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 254191
+        },
+        {
+          "id": "netease-track:28126841",
+          "neteaseTrackId": "28126841",
+          "title": "Modern Times",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 205500
+        },
+        {
+          "id": "netease-track:28126843",
+          "neteaseTrackId": "28126843",
+          "title": "싫은 날",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 232710
+        },
+        {
+          "id": "netease-track:28126847",
+          "neteaseTrackId": "28126847",
+          "title": "Obliviate",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 190173
+        },
+        {
+          "id": "netease-track:28126851",
+          "neteaseTrackId": "28126851",
+          "title": "아이야 나랑 걷자",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "IU",
+            "崔白虎"
+          ],
+          "durationMs": 299999
+        },
+        {
+          "id": "netease-track:28126854",
+          "neteaseTrackId": "28126854",
+          "title": "Havana",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 249054
+        },
+        {
+          "id": "netease-track:28126859",
+          "neteaseTrackId": "28126859",
+          "title": "우울시계",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "IU",
+            "钟铉"
+          ],
+          "durationMs": 168083
+        },
+        {
+          "id": "netease-track:28126861",
+          "neteaseTrackId": "28126861",
+          "title": "한낮의 꿈",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "IU",
+            "杨熙恩"
+          ],
+          "durationMs": 220738
+        },
+        {
+          "id": "netease-track:28126862",
+          "neteaseTrackId": "28126862",
+          "title": "기다려",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 150877
+        },
+        {
+          "id": "netease-track:28126863",
+          "neteaseTrackId": "28126863",
+          "title": "(Bonus Track) Voice Mail (Korean Ver.)",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 246102
+        }
+      ],
+      "trackCount": 15,
+      "externalUrl": "https://music.163.com/#/album?id=2732291",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "Modern Times - Epilogue IU",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:2840006",
+      "id": "album:2840006",
+      "neteaseAlbumId": "2840006",
+      "slug": "netease-album-2840006",
+      "title": "꽃갈피",
+      "aliases": [
+        "花书签"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:160947",
+          "neteaseArtistId": "160947",
+          "name": "IU"
+        }
+      ],
+      "releaseDate": "2014-05-15",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "Kakao Entertainment Corp.",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2840006.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/2840006.webp",
+        "alt": "《꽃갈피》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:28557032",
+          "neteaseTrackId": "28557032",
+          "title": "나의 옛날이야기",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 215000
+        },
+        {
+          "id": "netease-track:28557033",
+          "neteaseTrackId": "28557033",
+          "title": "꽃",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 181000
+        },
+        {
+          "id": "netease-track:28557034",
+          "neteaseTrackId": "28557034",
+          "title": "삐에로는 우릴 보고 웃지",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 235000
+        },
+        {
+          "id": "netease-track:28557035",
+          "neteaseTrackId": "28557035",
+          "title": "사랑이 지나가면",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 242000
+        },
+        {
+          "id": "netease-track:28557036",
+          "neteaseTrackId": "28557036",
+          "title": "너의 의미",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "IU",
+            "金昌万"
+          ],
+          "durationMs": 197000
+        },
+        {
+          "id": "netease-track:28557037",
+          "neteaseTrackId": "28557037",
+          "title": "여름밤의 꿈",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 238000
+        },
+        {
+          "id": "netease-track:28557038",
+          "neteaseTrackId": "28557038",
+          "title": "꿍따리 샤바라",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "IU",
+            "酷龙"
+          ],
+          "durationMs": 228000
+        },
+        {
+          "id": "netease-track:34228576",
+          "neteaseTrackId": "34228576",
+          "title": "어허야 둥기둥기 (黑胶版)",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "IU"
+          ],
+          "durationMs": 150312
+        }
+      ],
+      "trackCount": 8,
+      "externalUrl": "https://music.163.com/#/album?id=2840006",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "꽃갈피 花书签 IU",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:286217101",
+      "id": "album:286217101",
+      "neteaseAlbumId": "286217101",
+      "slug": "netease-album-286217101",
+      "title": "十年自选",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:1007170",
+          "neteaseArtistId": "1007170",
+          "name": "陈粒"
+        }
+      ],
+      "releaseDate": "2025-09-24",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": "北京有此山文化传媒有限公司",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/286217101.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/286217101.webp",
+        "alt": "《十年自选》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:2749429518",
+          "neteaseTrackId": "2749429518",
+          "title": "种种",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 190611
+        },
+        {
+          "id": "netease-track:2749430425",
+          "neteaseTrackId": "2749430425",
+          "title": "如也",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 219481
+        },
+        {
+          "id": "netease-track:2749430420",
+          "neteaseTrackId": "2749430420",
+          "title": "性空山",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 231184
+        },
+        {
+          "id": "netease-track:2749429521",
+          "neteaseTrackId": "2749429521",
+          "title": "历历万乡",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 284017
+        },
+        {
+          "id": "netease-track:2749429519",
+          "neteaseTrackId": "2749429519",
+          "title": "五言",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 325931
+        },
+        {
+          "id": "netease-track:2749430424",
+          "neteaseTrackId": "2749430424",
+          "title": "绝对占有 相对自由",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 289667
+        },
+        {
+          "id": "netease-track:2749430417",
+          "neteaseTrackId": "2749430417",
+          "title": "走马",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 281255
+        },
+        {
+          "id": "netease-track:2749430422",
+          "neteaseTrackId": "2749430422",
+          "title": "易燃易爆炸",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 201600
+        },
+        {
+          "id": "netease-track:2749430423",
+          "neteaseTrackId": "2749430423",
+          "title": "难解风情",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 297973
+        },
+        {
+          "id": "netease-track:2749429520",
+          "neteaseTrackId": "2749429520",
+          "title": "不妙",
+          "trackNumber": 10,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 212939
+        },
+        {
+          "id": "netease-track:2749430416",
+          "neteaseTrackId": "2749430416",
+          "title": "怪情歌",
+          "trackNumber": 11,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 213388
+        },
+        {
+          "id": "netease-track:2749430418",
+          "neteaseTrackId": "2749430418",
+          "title": "奇妙能力歌",
+          "trackNumber": 12,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 245264
+        },
+        {
+          "id": "netease-track:2749429523",
+          "neteaseTrackId": "2749429523",
+          "title": "庆祝",
+          "trackNumber": 13,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 228748
+        },
+        {
+          "id": "netease-track:2749429522",
+          "neteaseTrackId": "2749429522",
+          "title": "无穷",
+          "trackNumber": 14,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 276216
+        },
+        {
+          "id": "netease-track:2749429525",
+          "neteaseTrackId": "2749429525",
+          "title": "无尽",
+          "trackNumber": 15,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 324550
+        },
+        {
+          "id": "netease-track:2749430419",
+          "neteaseTrackId": "2749430419",
+          "title": "妙龄童",
+          "trackNumber": 16,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 243129
+        },
+        {
+          "id": "netease-track:2749429524",
+          "neteaseTrackId": "2749429524",
+          "title": "不灭",
+          "trackNumber": 17,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 215585
+        },
+        {
+          "id": "netease-track:2749430421",
+          "neteaseTrackId": "2749430421",
+          "title": "光",
+          "trackNumber": 18,
+          "discNumber": 1,
+          "artists": [
+            "陈粒"
+          ],
+          "durationMs": 209407
+        }
+      ],
+      "trackCount": 18,
+      "externalUrl": "https://music.163.com/#/album?id=286217101",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "solitude",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "十年自选 陈粒",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:384653629",
+      "id": "album:384653629",
+      "neteaseAlbumId": "384653629",
+      "slug": "netease-album-384653629",
+      "title": "Topic 6: 拾 Decennium",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:32587260",
+          "neteaseArtistId": "32587260",
+          "name": "体熊专科"
+        }
+      ],
+      "releaseDate": "2026-07-14",
+      "releaseDatePrecision": "day",
+      "albumType": "ep",
+      "company": "StreetVoice/不利自己有限公司",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/384653629.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/384653629.webp",
+        "alt": "《Topic 6: 拾 Decennium》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:3400275038",
+          "neteaseTrackId": "3400275038",
+          "title": "This Is My Path to Fury",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "体熊专科"
+          ],
+          "durationMs": 361804
+        },
+        {
+          "id": "netease-track:3400273683",
+          "neteaseTrackId": "3400273683",
+          "title": "LOVE!! generation",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "体熊专科"
+          ],
+          "durationMs": 243975
+        }
+      ],
+      "trackCount": 2,
+      "externalUrl": "https://music.163.com/#/album?id=384653629",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "post-rock"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "focus",
+        "night"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "Topic 6: 拾 Decennium 体熊专科",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:386849800",
+      "id": "album:386849800",
+      "neteaseAlbumId": "386849800",
+      "slug": "netease-album-386849800",
+      "title": "毕业生 GRADUATING FROM A CHAPTER OF LIFE",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:804159",
+          "neteaseArtistId": "804159",
+          "name": "阿力普"
+        }
+      ],
+      "releaseDate": "2026-07-14",
+      "releaseDatePrecision": "day",
+      "albumType": "album",
+      "company": null,
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/386849800.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/386849800.webp",
+        "alt": "《毕业生 GRADUATING FROM A CHAPTER OF LIFE》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:3406233862",
+          "neteaseTrackId": "3406233862",
+          "title": "序 Opening",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 44000
+        },
+        {
+          "id": "netease-track:3406232618",
+          "neteaseTrackId": "3406232618",
+          "title": "没有救生圈的夜晚 A Night Without a Lifebuoy",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 256500
+        },
+        {
+          "id": "netease-track:3406234024",
+          "neteaseTrackId": "3406234024",
+          "title": "年轻的爱情 Young Love",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 206000
+        },
+        {
+          "id": "netease-track:3406232754",
+          "neteaseTrackId": "3406232754",
+          "title": "导演 Director",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 261363
+        },
+        {
+          "id": "netease-track:3406234066",
+          "neteaseTrackId": "3406234066",
+          "title": "插曲 Interlude",
+          "trackNumber": 5,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 109780
+        },
+        {
+          "id": "netease-track:3406234806",
+          "neteaseTrackId": "3406234806",
+          "title": "等风来的人 Waiting for the Wind",
+          "trackNumber": 6,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 238499
+        },
+        {
+          "id": "netease-track:3406234826",
+          "neteaseTrackId": "3406234826",
+          "title": "水墨沼泽 Ink Marsh",
+          "trackNumber": 7,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 222000
+        },
+        {
+          "id": "netease-track:3406234131",
+          "neteaseTrackId": "3406234131",
+          "title": "塔里木 Tarim",
+          "trackNumber": 8,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 257943
+        },
+        {
+          "id": "netease-track:3406234871",
+          "neteaseTrackId": "3406234871",
+          "title": "剧终 The End",
+          "trackNumber": 9,
+          "discNumber": 1,
+          "artists": [
+            "阿力普"
+          ],
+          "durationMs": 85743
+        }
+      ],
+      "trackCount": 9,
+      "externalUrl": "https://music.163.com/#/album?id=386849800",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [
+        "night",
+        "solitude"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "毕业生 GRADUATING FROM A CHAPTER OF LIFE 阿力普",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
+    },
+    {
+      "internalId": "album:387217523",
+      "id": "album:387217523",
+      "neteaseAlbumId": "387217523",
+      "slug": "netease-album-387217523",
+      "title": "吹吹山顶的风",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:29810609",
+          "neteaseArtistId": "29810609",
+          "name": "巴扎黑"
+        }
+      ],
+      "releaseDate": "2026-07-14",
+      "releaseDatePrecision": "day",
+      "albumType": "ep",
+      "company": "一尺音符",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/387217523.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/387217523.webp",
+        "alt": "《吹吹山顶的风》专辑封面",
+        "reason": null
+      },
+      "tracks": [
+        {
+          "id": "netease-track:3407003863",
+          "neteaseTrackId": "3407003863",
+          "title": "吹吹山顶的风",
+          "trackNumber": 1,
+          "discNumber": 1,
+          "artists": [
+            "巴扎黑"
+          ],
+          "durationMs": 179905
+        },
+        {
+          "id": "netease-track:3407003864",
+          "neteaseTrackId": "3407003864",
+          "title": "吹吹山顶的风（伴奏）",
+          "trackNumber": 2,
+          "discNumber": 1,
+          "artists": [
+            "巴扎黑"
+          ],
+          "durationMs": 179905
+        },
+        {
+          "id": "netease-track:3407003865",
+          "neteaseTrackId": "3407003865",
+          "title": "吹吹山顶的风(DJAX1n版)",
+          "trackNumber": 3,
+          "discNumber": 1,
+          "artists": [
+            "巴扎黑"
+          ],
+          "durationMs": 147096
+        },
+        {
+          "id": "netease-track:3407003866",
+          "neteaseTrackId": "3407003866",
+          "title": "吹吹山顶的风(DJAX1n版伴奏)",
+          "trackNumber": 4,
+          "discNumber": 1,
+          "artists": [
+            "巴扎黑"
+          ],
+          "durationMs": 147096
+        }
+      ],
+      "trackCount": 4,
+      "externalUrl": "https://music.163.com/#/album?id=387217523",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "updatedAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "descriptors": [],
+      "contexts": [],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "rymReference": null,
+      "rymObservedAt": null,
+      "rymInputSourceId": null,
+      "rymMatchStatus": "UNVERIFIED_NO_DATA",
+      "editorial": null,
+      "searchText": "吹吹山顶的风 巴扎黑",
+      "source": {
+        "catalog": "netease",
+        "fetchedAt": "2026-08-18T00:00:00.000Z",
+        "parserVersion": "netease-sync-v1",
+        "verificationMethod": "reviewed_local_seed",
+        "error": null
+      }
     }
   ]
 }

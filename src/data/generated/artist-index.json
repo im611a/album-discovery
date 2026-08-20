@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T10:29:50.864Z",
+  "generatedAt": "2026-08-18T00:00:00.000Z",
   "artists": [
     {
       "artistId": "netease-artist:12127888",
@@ -103,20 +103,23 @@
       "slug": "artist-804159",
       "name": "阿力普",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
       "earliestYear": 2022,
-      "latestYear": 2022,
+      "latestYear": 2026,
       "commonCoreGenres": [
+        "folk",
         "rock"
       ],
       "albumIds": [
-        "album:145645032"
+        "album:145645032",
+        "album:386849800"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/145645032.webp"
+        "/catalog/covers/thumb/145645032.webp",
+        "/catalog/covers/thumb/386849800.webp"
       ]
     },
     {
@@ -249,6 +252,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/143519789.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:29810609",
+      "neteaseArtistId": "29810609",
+      "slug": "artist-29810609",
+      "name": "巴扎黑",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2026,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:387217523"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/387217523.webp"
       ]
     },
     {
@@ -512,9 +537,9 @@
       "slug": "artist-1007170",
       "name": "陈粒",
       "aliases": [],
-      "albumCount": 13,
+      "albumCount": 14,
       "albumCountByType": {
-        "album": 11,
+        "album": 12,
         "ep": 2
       },
       "earliestYear": 2015,
@@ -535,7 +560,8 @@
         "album:80735425",
         "album:37831040",
         "album:35834111",
-        "album:34780579"
+        "album:34780579",
+        "album:286217101"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/3098832.webp",
@@ -652,9 +678,9 @@
       "slug": "artist-2111",
       "name": "崔健",
       "aliases": [],
-      "albumCount": 12,
+      "albumCount": 13,
       "albumCountByType": {
-        "album": 10,
+        "album": 11,
         "ep": 2
       },
       "earliestYear": 1984,
@@ -674,7 +700,8 @@
         "album:513850",
         "album:6309",
         "album:6313",
-        "album:6319"
+        "album:6319",
+        "album:2406003"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/6311.webp",
@@ -1775,9 +1802,9 @@
       "slug": "artist-3726",
       "name": "林强",
       "aliases": [],
-      "albumCount": 12,
+      "albumCount": 13,
       "albumCountByType": {
-        "album": 11,
+        "album": 12,
         "ep": 1
       },
       "earliestYear": 1990,
@@ -1797,7 +1824,8 @@
         "album:11544",
         "album:11539",
         "album:11558",
-        "album:11563"
+        "album:11563",
+        "album:11548"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/11554.webp",
@@ -2721,9 +2749,9 @@
       "slug": "artist-5196",
       "name": "陶喆",
       "aliases": [],
-      "albumCount": 8,
+      "albumCount": 10,
       "albumCountByType": {
-        "album": 8
+        "album": 10
       },
       "earliestYear": 1997,
       "latestYear": 2025,
@@ -2738,12 +2766,36 @@
         "album:15181",
         "album:15184",
         "album:15196",
-        "album:15199"
+        "album:15199",
+        "album:15180",
+        "album:15189"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/15190.webp",
         "/catalog/covers/thumb/15185.webp",
         "/catalog/covers/thumb/267786859.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:32587260",
+      "neteaseArtistId": "32587260",
+      "slug": "artist-32587260",
+      "name": "体熊专科",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2026,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "post-rock"
+      ],
+      "albumIds": [
+        "album:384653629"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/384653629.webp"
       ]
     },
     {
@@ -3696,20 +3748,22 @@
       "slug": "artist-6457",
       "name": "张国荣",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
       "earliestYear": 1996,
-      "latestYear": 1996,
+      "latestYear": 2013,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:19038"
+        "album:19038",
+        "album:2374026"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/19038.webp"
+        "/catalog/covers/thumb/19038.webp",
+        "/catalog/covers/thumb/2374026.webp"
       ]
     },
     {
@@ -3943,9 +3997,9 @@
       "slug": "artist-6452",
       "name": "周杰伦",
       "aliases": [],
-      "albumCount": 17,
+      "albumCount": 18,
       "albumCountByType": {
-        "album": 16,
+        "album": 17,
         "ep": 1
       },
       "earliestYear": 2001,
@@ -3970,7 +4024,8 @@
         "album:18903",
         "album:18904",
         "album:18907",
-        "album:18909"
+        "album:18909",
+        "album:18888"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/18915.webp",
@@ -5218,23 +5273,26 @@
       "slug": "artist-160947",
       "name": "IU",
       "aliases": [],
-      "albumCount": 2,
+      "albumCount": 4,
       "albumCountByType": {
-        "album": 1,
+        "album": 3,
         "ep": 1
       },
-      "earliestYear": 2017,
+      "earliestYear": 2013,
       "latestYear": 2025,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
         "album:35377328",
-        "album:272648305"
+        "album:272648305",
+        "album:2732291",
+        "album:2840006"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/35377328.webp",
-        "/catalog/covers/thumb/272648305.webp"
+        "/catalog/covers/thumb/272648305.webp",
+        "/catalog/covers/thumb/2732291.webp"
       ]
     },
     {

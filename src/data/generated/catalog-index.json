@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "refreshDate": "2026-07-23",
+  "refreshDate": "2026-08-18",
   "source": {
     "catalog": "netease",
     "endpointFamily": "anonymous-public-album-metadata",
-    "generatedAt": "2026-07-23T10:29:50.864Z",
+    "generatedAt": "2026-08-18T00:00:00.000Z",
     "parserVersion": "netease-catalog-v3",
     "runtimeRequestsAllowed": false,
     "taxonomy": "rym-offline-or-manual-core"
@@ -15819,6 +15819,499 @@
       "rymRatingCount": null,
       "editorial": null,
       "searchText": "hypochondriac brakence"
+    },
+    {
+      "internalId": "album:11548",
+      "id": "album:11548",
+      "neteaseAlbumId": "11548",
+      "slug": "netease-album-11548",
+      "title": "2001向前走 十年经典",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:3726",
+          "neteaseArtistId": "3726",
+          "name": "林强"
+        }
+      ],
+      "releaseDate": "2001-01-15",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2001,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/11548.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/11548.webp",
+        "alt": "《2001向前走 十年经典》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/11548.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "electronic"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "night",
+        "commute"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "2001向前走 十年经典 林强"
+    },
+    {
+      "internalId": "album:15180",
+      "id": "album:15180",
+      "neteaseAlbumId": "15180",
+      "slug": "netease-album-15180",
+      "title": "暗恋 电影原声带",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:5196",
+          "neteaseArtistId": "5196",
+          "name": "陶喆"
+        }
+      ],
+      "releaseDate": "2009-10-29",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2009,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/15180.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/15180.webp",
+        "alt": "《暗恋 电影原声带》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/15180.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "暗恋 电影原声带 陶喆"
+    },
+    {
+      "internalId": "album:15189",
+      "id": "album:15189",
+      "neteaseAlbumId": "15189",
+      "slug": "netease-album-15189",
+      "title": "Ultrasound 乐之路 1997-2003",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:5196",
+          "neteaseArtistId": "5196",
+          "name": "陶喆"
+        }
+      ],
+      "releaseDate": "2003-08-07",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2003,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/15189.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/15189.webp",
+        "alt": "《Ultrasound 乐之路 1997-2003》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/15189.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "Ultrasound 乐之路 1997-2003 陶喆"
+    },
+    {
+      "internalId": "album:18888",
+      "id": "album:18888",
+      "neteaseAlbumId": "18888",
+      "slug": "netease-album-18888",
+      "title": "不能说的秘密 电影原声带",
+      "aliases": [
+        "Secret"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:6452",
+          "neteaseArtistId": "6452",
+          "name": "周杰伦"
+        }
+      ],
+      "releaseDate": "2007-08-12",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2007,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/18888.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/18888.webp",
+        "alt": "《不能说的秘密 电影原声带》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/18888.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "不能说的秘密 电影原声带 Secret 周杰伦"
+    },
+    {
+      "internalId": "album:2374026",
+      "id": "album:2374026",
+      "neteaseAlbumId": "2374026",
+      "slug": "miss-you-much-leslie",
+      "title": "Miss You Much, Leslie",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:6457",
+          "neteaseArtistId": "6457",
+          "name": "张国荣"
+        }
+      ],
+      "releaseDate": "2013-03-24",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2013,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2374026.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/2374026.webp",
+        "alt": "《Miss You Much, Leslie》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/2374026.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "night",
+        "solitude"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "Miss You Much, Leslie 张国荣"
+    },
+    {
+      "internalId": "album:2406003",
+      "id": "album:2406003",
+      "neteaseAlbumId": "2406003",
+      "slug": "netease-album-2406003",
+      "title": "崔健1986-1996",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:2111",
+          "neteaseArtistId": "2111",
+          "name": "崔健"
+        }
+      ],
+      "releaseDate": "1995-12-31",
+      "releaseDatePrecision": "day",
+      "releaseYear": 1995,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2406003.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/2406003.webp",
+        "alt": "《崔健1986-1996》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/2406003.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "rock"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "commute",
+        "focus"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "崔健1986-1996 崔健"
+    },
+    {
+      "internalId": "album:2732291",
+      "id": "album:2732291",
+      "neteaseAlbumId": "2732291",
+      "slug": "modern-times-epilogue",
+      "title": "Modern Times - Epilogue",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:160947",
+          "neteaseArtistId": "160947",
+          "name": "IU"
+        }
+      ],
+      "releaseDate": "2013-12-19",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2013,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2732291.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/2732291.webp",
+        "alt": "《Modern Times - Epilogue》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/2732291.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "Modern Times - Epilogue IU"
+    },
+    {
+      "internalId": "album:2840006",
+      "id": "album:2840006",
+      "neteaseAlbumId": "2840006",
+      "slug": "netease-album-2840006",
+      "title": "꽃갈피",
+      "aliases": [
+        "花书签"
+      ],
+      "artists": [
+        {
+          "id": "netease-artist:160947",
+          "neteaseArtistId": "160947",
+          "name": "IU"
+        }
+      ],
+      "releaseDate": "2014-05-15",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2014,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/2840006.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/2840006.webp",
+        "alt": "《꽃갈피》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/2840006.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "commute",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "꽃갈피 花书签 IU"
+    },
+    {
+      "internalId": "album:286217101",
+      "id": "album:286217101",
+      "neteaseAlbumId": "286217101",
+      "slug": "netease-album-286217101",
+      "title": "十年自选",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:1007170",
+          "neteaseArtistId": "1007170",
+          "name": "陈粒"
+        }
+      ],
+      "releaseDate": "2025-09-24",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2025,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/286217101.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/286217101.webp",
+        "alt": "《十年自选》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/286217101.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "solitude",
+        "relax"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "十年自选 陈粒"
+    },
+    {
+      "internalId": "album:384653629",
+      "id": "album:384653629",
+      "neteaseAlbumId": "384653629",
+      "slug": "netease-album-384653629",
+      "title": "Topic 6: 拾 Decennium",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:32587260",
+          "neteaseArtistId": "32587260",
+          "name": "体熊专科"
+        }
+      ],
+      "releaseDate": "2026-07-14",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2026,
+      "albumType": "ep",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/384653629.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/384653629.webp",
+        "alt": "《Topic 6: 拾 Decennium》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/384653629.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "post-rock"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "focus",
+        "night"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "Topic 6: 拾 Decennium 体熊专科"
+    },
+    {
+      "internalId": "album:386849800",
+      "id": "album:386849800",
+      "neteaseAlbumId": "386849800",
+      "slug": "netease-album-386849800",
+      "title": "毕业生 GRADUATING FROM A CHAPTER OF LIFE",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:804159",
+          "neteaseArtistId": "804159",
+          "name": "阿力普"
+        }
+      ],
+      "releaseDate": "2026-07-14",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2026,
+      "albumType": "album",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/386849800.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/386849800.webp",
+        "alt": "《毕业生 GRADUATING FROM A CHAPTER OF LIFE》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/386849800.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "folk"
+      ],
+      "relatedGenres": [],
+      "contexts": [
+        "night",
+        "solitude"
+      ],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "毕业生 GRADUATING FROM A CHAPTER OF LIFE 阿力普"
+    },
+    {
+      "internalId": "album:387217523",
+      "id": "album:387217523",
+      "neteaseAlbumId": "387217523",
+      "slug": "netease-album-387217523",
+      "title": "吹吹山顶的风",
+      "aliases": [],
+      "artists": [
+        {
+          "id": "netease-artist:29810609",
+          "neteaseArtistId": "29810609",
+          "name": "巴扎黑"
+        }
+      ],
+      "releaseDate": "2026-07-14",
+      "releaseDatePrecision": "day",
+      "releaseYear": 2026,
+      "albumType": "ep",
+      "cover": {
+        "kind": "local",
+        "src": "/catalog/covers/detail/387217523.webp",
+        "thumbnailSrc": "/catalog/covers/thumb/387217523.webp",
+        "alt": "《吹吹山顶的风》专辑封面",
+        "reason": null
+      },
+      "thumbnailPath": "/catalog/covers/thumb/387217523.webp",
+      "discoveredAt": "2026-08-18T00:00:00.000Z",
+      "sourceMarketChannels": [],
+      "coreGenres": [
+        "pop"
+      ],
+      "relatedGenres": [],
+      "contexts": [],
+      "rymRating": null,
+      "rymRatingCount": null,
+      "editorial": null,
+      "searchText": "吹吹山顶的风 巴扎黑"
     }
   ]
 }

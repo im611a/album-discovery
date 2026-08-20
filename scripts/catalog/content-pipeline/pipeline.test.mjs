@@ -42,11 +42,23 @@ describe("Content Pipeline dry-run integration", () => {
     const before = await sha256File(catalogPath);
     const firstRoot = await makeBatch();
     const first = await runDryRun({ batchRoot: firstRoot });
+    const baseline = JSON.parse(await readFile(catalogPath, "utf8"));
+    const candidate = JSON.parse(await readFile(path.join(firstRoot, "candidate", "generated", "catalog.json"), "utf8"));
     expect(first.report.records.map((record) => ({ id: record.albumId, disposition: record.disposition, findings: record.findings.map((item) => item.code) }))).toEqual([
       { id: "990001", disposition: "READY", findings: [] },
       { id: "990002", disposition: "READY", findings: [] },
     ]);
     expect(first.plan.records.map((record) => record.slug)).toEqual(["synthetic-pipeline-collision-990001", "synthetic-pipeline-collision-990002"]);
+    expect(candidate.albums.slice(0, baseline.albums.length)).toEqual(baseline.albums);
+    expect(first.plan.candidate.verification).toMatchObject({
+      declaredTouchedAlbumIds: ["990001", "990002"],
+      untouchedBaselineAlbums: baseline.albums.length,
+      untouchedBaselineDrift: [],
+    });
+    expect(candidate.albums.slice(-2).map((album) => album.cover)).toEqual([
+      expect.objectContaining({ src: "/catalog/covers/detail/990001.webp", thumbnailSrc: "/catalog/covers/thumb/990001.webp" }),
+      expect.objectContaining({ src: "/catalog/covers/detail/990002.webp", thumbnailSrc: "/catalog/covers/thumb/990002.webp" }),
+    ]);
     const repeated = await runDryRun({ batchRoot: firstRoot });
     expect(repeated.plan).toEqual(first.plan);
     expect(repeated.report.resultFingerprint).toBe(first.report.resultFingerprint);

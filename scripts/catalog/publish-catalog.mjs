@@ -122,9 +122,14 @@ function buildArtistIndex(albums, generatedAt) {
   };
 }
 
-export async function buildPublication(catalog, { coverRoot = defaultCoverRoot } = {}) {
+export async function buildPublication(catalog, { coverRoot = defaultCoverRoot, touchedAlbumIds = null } = {}) {
+  const touched = touchedAlbumIds == null ? null : new Set([...touchedAlbumIds].map(String));
   const albums = [];
   for (const album of catalog.albums) {
+    if (touched && !touched.has(String(album.neteaseAlbumId))) {
+      albums.push(album);
+      continue;
+    }
     const thumbnailFile = path.join(coverRoot, "thumb", `${album.neteaseAlbumId}.webp`);
     const detailFile = path.join(coverRoot, "detail", `${album.neteaseAlbumId}.webp`);
     const thumbnailSrc = await hasFile(thumbnailFile)

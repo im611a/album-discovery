@@ -1,0 +1,79 @@
+{
+  "internalId": "album:384653629",
+  "id": "album:384653629",
+  "neteaseAlbumId": "384653629",
+  "slug": "netease-album-384653629",
+  "title": "Topic 6: 拾 Decennium",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:32587260",
+      "neteaseArtistId": "32587260",
+      "name": "体熊专科"
+    }
+  ],
+  "releaseDate": "2026-07-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "StreetVoice/不利自己有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/384653629.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/384653629.webp",
+    "alt": "《Topic 6: 拾 Decennium》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3400275038",
+      "neteaseTrackId": "3400275038",
+      "title": "This Is My Path to Fury",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "体熊专科"
+      ],
+      "durationMs": 361804
+    },
+    {
+      "id": "netease-track:3400273683",
+      "neteaseTrackId": "3400273683",
+      "title": "LOVE!! generation",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "体熊专科"
+      ],
+      "durationMs": 243975
+    }
+  ],
+  "trackCount": 2,
+  "externalUrl": "https://music.163.com/#/album?id=384653629",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "focus",
+    "night"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Topic 6: 拾 Decennium 体熊专科",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -97,11 +97,11 @@ describe("R16-2E cross-product navigation stress", () => {
 describe("R16-2F canonical Album and local-state stress", () => {
   it("audits the entire real Artist/Album graph and every shared-credit identity", () => {
     expect(auditArtistAlbumGraph(publishedArtists, catalogAlbums)).toEqual({
-      artistCount: 298,
-      albumCount: 345,
+      artistCount: 300,
+      albumCount: 357,
       singleWorkArtists: 238,
-      multiWorkArtists: 60,
-      artistAlbumMemberships: 615,
+      multiWorkArtists: 62,
+      artistAlbumMemberships: 627,
       invalidArtistReferences: 0,
       invalidAlbumReferences: 0,
       unresolvedAlbumReferences: 0,
@@ -175,7 +175,7 @@ describe("R16-2F canonical Album and local-state stress", () => {
       }
     }
     console.info("R16_2F_STATE_STRESS", JSON.stringify({ generatedStates: 100_000, deterministicReplays: 100_000, artists: publishedArtists.length, projections, ...failures }));
-    expect(projections).toBe(29_800_000);
+    expect(projections).toBe(100_000 * publishedArtists.length);
     expect(failures).toEqual({
       invalidTarget: 0,
       unresolvedTarget: 0,

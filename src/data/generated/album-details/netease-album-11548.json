@@ -1,0 +1,202 @@
+{
+  "internalId": "album:11548",
+  "id": "album:11548",
+  "neteaseAlbumId": "11548",
+  "slug": "netease-album-11548",
+  "title": "2001向前走 十年经典",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3726",
+      "neteaseArtistId": "3726",
+      "name": "林强"
+    }
+  ],
+  "releaseDate": "2001-01-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/11548.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/11548.webp",
+    "alt": "《2001向前走 十年经典》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:118828",
+      "neteaseTrackId": "118828",
+      "title": "向前走",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 365551
+    },
+    {
+      "id": "netease-track:118832",
+      "neteaseTrackId": "118832",
+      "title": "爱情研究院",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 257000
+    },
+    {
+      "id": "netease-track:118836",
+      "neteaseTrackId": "118836",
+      "title": "春风少年兄",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 239026
+    },
+    {
+      "id": "netease-track:118840",
+      "neteaseTrackId": "118840",
+      "title": "你真正上厉害",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 262106
+    },
+    {
+      "id": "netease-track:118843",
+      "neteaseTrackId": "118843",
+      "title": "台北孤儿",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林强",
+        "李宗盛"
+      ],
+      "durationMs": 264413
+    },
+    {
+      "id": "netease-track:118846",
+      "neteaseTrackId": "118846",
+      "title": "无声的所在",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林强",
+        "侯孝贤"
+      ],
+      "durationMs": 249560
+    },
+    {
+      "id": "netease-track:118849",
+      "neteaseTrackId": "118849",
+      "title": "风在吹",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 229668
+    },
+    {
+      "id": "netease-track:118855",
+      "neteaseTrackId": "118855",
+      "title": "自我毁灭",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 311320
+    },
+    {
+      "id": "netease-track:118863",
+      "neteaseTrackId": "118863",
+      "title": "暗藏",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 128000
+    },
+    {
+      "id": "netease-track:118868",
+      "neteaseTrackId": "118868",
+      "title": "查某人",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 306131
+    },
+    {
+      "id": "netease-track:118872",
+      "neteaseTrackId": "118872",
+      "title": "幸福进行曲",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 253986
+    },
+    {
+      "id": "netease-track:118875",
+      "neteaseTrackId": "118875",
+      "title": "光明的路",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 251320
+    },
+    {
+      "id": "netease-track:118878",
+      "neteaseTrackId": "118878",
+      "title": "向前走(2001 Remix)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "林强"
+      ],
+      "durationMs": 375200
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=11548",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "night",
+    "commute"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "2001向前走 十年经典 林强",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "internalId": "album:2840006",
+  "id": "album:2840006",
+  "neteaseAlbumId": "2840006",
+  "slug": "netease-album-2840006",
+  "title": "꽃갈피",
+  "aliases": [
+    "花书签"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:160947",
+      "neteaseArtistId": "160947",
+      "name": "IU"
+    }
+  ],
+  "releaseDate": "2014-05-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Kakao Entertainment Corp.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2840006.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/2840006.webp",
+    "alt": "《꽃갈피》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:28557032",
+      "neteaseTrackId": "28557032",
+      "title": "나의 옛날이야기",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 215000
+    },
+    {
+      "id": "netease-track:28557033",
+      "neteaseTrackId": "28557033",
+      "title": "꽃",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 181000
+    },
+    {
+      "id": "netease-track:28557034",
+      "neteaseTrackId": "28557034",
+      "title": "삐에로는 우릴 보고 웃지",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:28557035",
+      "neteaseTrackId": "28557035",
+      "title": "사랑이 지나가면",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:28557036",
+      "neteaseTrackId": "28557036",
+      "title": "너의 의미",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "金昌万"
+      ],
+      "durationMs": 197000
+    },
+    {
+      "id": "netease-track:28557037",
+      "neteaseTrackId": "28557037",
+      "title": "여름밤의 꿈",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 238000
+    },
+    {
+      "id": "netease-track:28557038",
+      "neteaseTrackId": "28557038",
+      "title": "꿍따리 샤바라",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "酷龙"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:34228576",
+      "neteaseTrackId": "34228576",
+      "title": "어허야 둥기둥기 (黑胶版)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 150312
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=2840006",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "꽃갈피 花书签 IU",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

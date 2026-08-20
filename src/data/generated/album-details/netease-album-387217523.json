@@ -1,0 +1,98 @@
+{
+  "internalId": "album:387217523",
+  "id": "album:387217523",
+  "neteaseAlbumId": "387217523",
+  "slug": "netease-album-387217523",
+  "title": "吹吹山顶的风",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29810609",
+      "neteaseArtistId": "29810609",
+      "name": "巴扎黑"
+    }
+  ],
+  "releaseDate": "2026-07-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "一尺音符",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/387217523.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/387217523.webp",
+    "alt": "《吹吹山顶的风》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3407003863",
+      "neteaseTrackId": "3407003863",
+      "title": "吹吹山顶的风",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "巴扎黑"
+      ],
+      "durationMs": 179905
+    },
+    {
+      "id": "netease-track:3407003864",
+      "neteaseTrackId": "3407003864",
+      "title": "吹吹山顶的风（伴奏）",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "巴扎黑"
+      ],
+      "durationMs": 179905
+    },
+    {
+      "id": "netease-track:3407003865",
+      "neteaseTrackId": "3407003865",
+      "title": "吹吹山顶的风(DJAX1n版)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "巴扎黑"
+      ],
+      "durationMs": 147096
+    },
+    {
+      "id": "netease-track:3407003866",
+      "neteaseTrackId": "3407003866",
+      "title": "吹吹山顶的风(DJAX1n版伴奏)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "巴扎黑"
+      ],
+      "durationMs": 147096
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=387217523",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "吹吹山顶的风 巴扎黑",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

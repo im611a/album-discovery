@@ -8,11 +8,11 @@ describe("R13-3D real-catalog visible activation audit", () => {
   it("covers every authorized Artist and Topic with valid deterministic evidence", () => {
     const audit = auditVisibleArtistTopicCatalog();
     expect(audit.artists).toMatchObject({
-      evaluated: 298,
-      multiWork: 60,
+      evaluated: 300,
+      multiWork: 62,
       singleWork: 238,
-      validContinuations: 298,
-      multiWorkPreservingChronology: 60,
+      validContinuations: 300,
+      multiWorkPreservingChronology: 62,
       singleWorkTruthfulEscapes: 238,
       withoutContinuation: 0,
       invalidDestinations: 0,

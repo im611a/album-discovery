@@ -4,13 +4,13 @@ import { catalogAlbums } from "./published-catalog";
 import { buildCatalogViewModel, parseCatalogQuery, serializeCatalogQuery } from "./catalog-view-model";
 
 describe("catalog view model foundation", () => {
-  it("accepts all 345 published albums and preserves stable identity", () => {
-    expect(catalogAlbums).toHaveLength(345);
+  it("accepts all 357 published albums and preserves stable identity", () => {
+    expect(catalogAlbums).toHaveLength(357);
     const query = parseCatalogQuery("", catalogAlbums);
     const view = buildCatalogViewModel({ albums: catalogAlbums, query });
-    expect(view.resultCount).toBe(345);
-    expect(new Set(view.albums.map((album) => album.id)).size).toBe(345);
-    expect(new Set(view.albums.map((album) => album.slug)).size).toBe(345);
+    expect(view.resultCount).toBe(357);
+    expect(new Set(view.albums.map((album) => album.id)).size).toBe(357);
+    expect(new Set(view.albums.map((album) => album.slug)).size).toBe(357);
   });
 
   it("combines search, primary genre, secondary genre, scene, decade and release type", () => {

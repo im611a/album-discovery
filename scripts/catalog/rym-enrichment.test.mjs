@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildRymEnrichment } from "./rym-enrichment.mjs";
+import { buildRymEnrichment, reconcileRymSummaryWithCatalog } from "./rym-enrichment.mjs";
 
 const album = {
   internalId: "album:1", id: "album:1", neteaseAlbumId: "1", slug: "example",
@@ -58,5 +58,28 @@ describe("bulk RYM enrichment", () => {
     const duplicate = { ...row, rowNumber: 2, reference: "offline:row:2" };
     const result = buildRymEnrichment(catalog, [row, duplicate], options);
     expect(result.catalog.albums[0]).toMatchObject({ rymRating: null, relatedGenres: [], rymMatchStatus: "AMBIGUOUS" });
+  });
+
+  it("reconciles new current-catalog Albums only as truthful UNVERIFIED_NO_DATA results", () => {
+    const existing = buildRymEnrichment(catalog, [row], options);
+    const addedAlbum = { ...structuredClone(album), internalId: "album:3", id: "album:3", neteaseAlbumId: "3", slug: "added" };
+    const priorSummary = { ...existing.summary, results: existing.results };
+    const reconciled = reconcileRymSummaryWithCatalog(priorSummary, { ...catalog, albums: [existing.catalog.albums[0], addedAlbum] });
+    expect(reconciled.added).toEqual([{
+      neteaseAlbumId: "3",
+      slug: "added",
+      status: "UNVERIFIED_NO_DATA",
+      reason: "no_authorized_offline_record",
+      inputRow: null,
+      sourceReference: null,
+    }]);
+    expect(reconciled.summary).toMatchObject({ totalAlbums: 2, MATCHED_EXACT: 1, UNVERIFIED_NO_DATA: 1, ratedAlbumCount: 1 });
+    expect(reconciled.summary.results[0]).toEqual(priorSummary.results[0]);
+  });
+
+  it("refuses to invent a reconciliation decision for an enriched Album missing from the report", () => {
+    const priorSummary = { ...buildRymEnrichment(catalog, [], options).summary, results: [] };
+    const changed = { ...structuredClone(album), rymMatchStatus: "MATCHED_EXACT", rymRating: 4 };
+    expect(() => reconcileRymSummaryWithCatalog(priorSummary, { ...catalog, albums: [changed] })).toThrow("requires an authorized RYM enrichment decision");
   });
 });

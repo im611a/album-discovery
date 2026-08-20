@@ -1,0 +1,339 @@
+{
+  "internalId": "album:18888",
+  "id": "album:18888",
+  "neteaseAlbumId": "18888",
+  "slug": "netease-album-18888",
+  "title": "不能说的秘密 电影原声带",
+  "aliases": [
+    "Secret"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2007-08-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18888.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18888.webp",
+    "alt": "《不能说的秘密 电影原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185827",
+      "neteaseTrackId": "185827",
+      "title": "Opening",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Terdsak Janpan",
+        "周杰伦"
+      ],
+      "durationMs": 148000
+    },
+    {
+      "id": "netease-track:185829",
+      "neteaseTrackId": "185829",
+      "title": "脚踏车",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 139586
+    },
+    {
+      "id": "netease-track:185831",
+      "neteaseTrackId": "185831",
+      "title": "早操",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 96106
+    },
+    {
+      "id": "netease-track:185833",
+      "neteaseTrackId": "185833",
+      "title": "淡水海边",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 63706
+    },
+    {
+      "id": "netease-track:185835",
+      "neteaseTrackId": "185835",
+      "title": "斗琴",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "詹宇豪"
+      ],
+      "durationMs": 134546
+    },
+    {
+      "id": "netease-track:185837",
+      "neteaseTrackId": "185837",
+      "title": "湘伦小雨四手联弹",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 38840
+    },
+    {
+      "id": "netease-track:185838",
+      "neteaseTrackId": "185838",
+      "title": "Ride With Me",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Terdsak Janpan"
+      ],
+      "durationMs": 88000
+    },
+    {
+      "id": "netease-track:185839",
+      "neteaseTrackId": "185839",
+      "title": "父与子",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 137920
+    },
+    {
+      "id": "netease-track:185840",
+      "neteaseTrackId": "185840",
+      "title": "情人的眼泪",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "姚苏蓉"
+      ],
+      "durationMs": 359000
+    },
+    {
+      "id": "netease-track:185842",
+      "neteaseTrackId": "185842",
+      "title": "First Kiss",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 91173
+    },
+    {
+      "id": "netease-track:185844",
+      "neteaseTrackId": "185844",
+      "title": "女孩别为我哭泣",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "黄俊郎"
+      ],
+      "durationMs": 79640
+    },
+    {
+      "id": "netease-track:185846",
+      "neteaseTrackId": "185846",
+      "title": "晴天娃娃",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "江语晨"
+      ],
+      "durationMs": 149026
+    },
+    {
+      "id": "netease-track:185848",
+      "neteaseTrackId": "185848",
+      "title": "阿郎与阿宝",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 140000
+    },
+    {
+      "id": "netease-track:185850",
+      "neteaseTrackId": "185850",
+      "title": "与父共舞",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Terdsak Janpan",
+        "周杰伦"
+      ],
+      "durationMs": 85000
+    },
+    {
+      "id": "netease-track:185852",
+      "neteaseTrackId": "185852",
+      "title": "路小雨",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 99000
+    },
+    {
+      "id": "netease-track:185854",
+      "neteaseTrackId": "185854",
+      "title": "The Swan",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 152586
+    },
+    {
+      "id": "netease-track:185855",
+      "neteaseTrackId": "185855",
+      "title": "Flash Back",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Terdsak Janpan",
+        "周杰伦"
+      ],
+      "durationMs": 198000
+    },
+    {
+      "id": "netease-track:185856",
+      "neteaseTrackId": "185856",
+      "title": "Secret (慢板)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 67933
+    },
+    {
+      "id": "netease-track:185857",
+      "neteaseTrackId": "185857",
+      "title": "Angel",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Terdsak Janpan",
+        "周杰伦"
+      ],
+      "durationMs": 113000
+    },
+    {
+      "id": "netease-track:185859",
+      "neteaseTrackId": "185859",
+      "title": "小雨写立可白Ⅰ",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 75000
+    },
+    {
+      "id": "netease-track:185861",
+      "neteaseTrackId": "185861",
+      "title": "小雨写立可白Ⅱ",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 100000
+    },
+    {
+      "id": "netease-track:185863",
+      "neteaseTrackId": "185863",
+      "title": "Secret (加长快板)",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 85306
+    },
+    {
+      "id": "netease-track:185865",
+      "neteaseTrackId": "185865",
+      "title": "琴房",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 101000
+    },
+    {
+      "id": "netease-track:185867",
+      "neteaseTrackId": "185867",
+      "title": "Ending",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 85000
+    },
+    {
+      "id": "netease-track:185868",
+      "neteaseTrackId": "185868",
+      "title": "不能说的秘密",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 296533
+    }
+  ],
+  "trackCount": 25,
+  "externalUrl": "https://music.163.com/#/album?id=18888",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "不能说的秘密 电影原声带 Secret 周杰伦",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

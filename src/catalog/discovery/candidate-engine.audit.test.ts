@@ -258,8 +258,8 @@ describe("R13 real-catalog discovery audit", () => {
     };
 
     expect(audit).toMatchObject({
-      albumsEvaluated: 345,
-      albumsWithCandidates: 345,
+      albumsEvaluated: 357,
+      albumsWithCandidates: 357,
       albumsWithNoContinuation: 0,
       immediateReversalPossibilities: 0,
       duplicatePrimaryTargets: 0,

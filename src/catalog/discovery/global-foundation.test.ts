@@ -38,7 +38,7 @@ describe("R13-3F global discovery quality foundation", () => {
 
   it("keeps every selected graph target resolvable and reports catalog reachability honestly", () => {
     const audit = auditDiscoveryReachability(publishedDiscoveryIndex, catalogAlbums);
-    expect(audit.catalogAlbumCount).toBe(345);
+    expect(audit.catalogAlbumCount).toBe(357);
     expect(audit.isolatedAlbums).toEqual([]);
     expect(audit.isolatedArtists).toEqual([]);
     expect(audit.weakComponentCount).toBeGreaterThanOrEqual(1);

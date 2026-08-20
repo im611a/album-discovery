@@ -1,0 +1,228 @@
+{
+  "internalId": "album:2732291",
+  "id": "album:2732291",
+  "neteaseAlbumId": "2732291",
+  "slug": "modern-times-epilogue",
+  "title": "Modern Times - Epilogue",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:160947",
+      "neteaseArtistId": "160947",
+      "name": "IU"
+    }
+  ],
+  "releaseDate": "2013-12-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Kakao Entertainment Corp.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2732291.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/2732291.webp",
+    "alt": "《Modern Times - Epilogue》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:28126835",
+      "neteaseTrackId": "28126835",
+      "title": "금요일에 만나요",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "张利贞"
+      ],
+      "durationMs": 217089
+    },
+    {
+      "id": "netease-track:28126836",
+      "neteaseTrackId": "28126836",
+      "title": "크레파스 (드라마 `예쁜 남자` 삽입곡)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 193811
+    },
+    {
+      "id": "netease-track:28126837",
+      "neteaseTrackId": "28126837",
+      "title": "을의 연애",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "朴朱元"
+      ],
+      "durationMs": 191305
+    },
+    {
+      "id": "netease-track:28126838",
+      "neteaseTrackId": "28126838",
+      "title": "누구나 비밀은 있다",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "佳仁"
+      ],
+      "durationMs": 229360
+    },
+    {
+      "id": "netease-track:28126839",
+      "neteaseTrackId": "28126839",
+      "title": "입술 사이 (50cm)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 170716
+    },
+    {
+      "id": "netease-track:28126840",
+      "neteaseTrackId": "28126840",
+      "title": "분홍신",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 254191
+    },
+    {
+      "id": "netease-track:28126841",
+      "neteaseTrackId": "28126841",
+      "title": "Modern Times",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 205500
+    },
+    {
+      "id": "netease-track:28126843",
+      "neteaseTrackId": "28126843",
+      "title": "싫은 날",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 232710
+    },
+    {
+      "id": "netease-track:28126847",
+      "neteaseTrackId": "28126847",
+      "title": "Obliviate",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 190173
+    },
+    {
+      "id": "netease-track:28126851",
+      "neteaseTrackId": "28126851",
+      "title": "아이야 나랑 걷자",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "崔白虎"
+      ],
+      "durationMs": 299999
+    },
+    {
+      "id": "netease-track:28126854",
+      "neteaseTrackId": "28126854",
+      "title": "Havana",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 249054
+    },
+    {
+      "id": "netease-track:28126859",
+      "neteaseTrackId": "28126859",
+      "title": "우울시계",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "钟铉"
+      ],
+      "durationMs": 168083
+    },
+    {
+      "id": "netease-track:28126861",
+      "neteaseTrackId": "28126861",
+      "title": "한낮의 꿈",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "杨熙恩"
+      ],
+      "durationMs": 220738
+    },
+    {
+      "id": "netease-track:28126862",
+      "neteaseTrackId": "28126862",
+      "title": "기다려",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 150877
+    },
+    {
+      "id": "netease-track:28126863",
+      "neteaseTrackId": "28126863",
+      "title": "(Bonus Track) Voice Mail (Korean Ver.)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 246102
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=2732291",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Modern Times - Epilogue IU",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

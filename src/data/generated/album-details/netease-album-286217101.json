@@ -1,0 +1,255 @@
+{
+  "internalId": "album:286217101",
+  "id": "album:286217101",
+  "neteaseAlbumId": "286217101",
+  "slug": "netease-album-286217101",
+  "title": "十年自选",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1007170",
+      "neteaseArtistId": "1007170",
+      "name": "陈粒"
+    }
+  ],
+  "releaseDate": "2025-09-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京有此山文化传媒有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/286217101.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/286217101.webp",
+    "alt": "《十年自选》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2749429518",
+      "neteaseTrackId": "2749429518",
+      "title": "种种",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 190611
+    },
+    {
+      "id": "netease-track:2749430425",
+      "neteaseTrackId": "2749430425",
+      "title": "如也",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 219481
+    },
+    {
+      "id": "netease-track:2749430420",
+      "neteaseTrackId": "2749430420",
+      "title": "性空山",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 231184
+    },
+    {
+      "id": "netease-track:2749429521",
+      "neteaseTrackId": "2749429521",
+      "title": "历历万乡",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 284017
+    },
+    {
+      "id": "netease-track:2749429519",
+      "neteaseTrackId": "2749429519",
+      "title": "五言",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 325931
+    },
+    {
+      "id": "netease-track:2749430424",
+      "neteaseTrackId": "2749430424",
+      "title": "绝对占有 相对自由",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 289667
+    },
+    {
+      "id": "netease-track:2749430417",
+      "neteaseTrackId": "2749430417",
+      "title": "走马",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 281255
+    },
+    {
+      "id": "netease-track:2749430422",
+      "neteaseTrackId": "2749430422",
+      "title": "易燃易爆炸",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 201600
+    },
+    {
+      "id": "netease-track:2749430423",
+      "neteaseTrackId": "2749430423",
+      "title": "难解风情",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 297973
+    },
+    {
+      "id": "netease-track:2749429520",
+      "neteaseTrackId": "2749429520",
+      "title": "不妙",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 212939
+    },
+    {
+      "id": "netease-track:2749430416",
+      "neteaseTrackId": "2749430416",
+      "title": "怪情歌",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 213388
+    },
+    {
+      "id": "netease-track:2749430418",
+      "neteaseTrackId": "2749430418",
+      "title": "奇妙能力歌",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 245264
+    },
+    {
+      "id": "netease-track:2749429523",
+      "neteaseTrackId": "2749429523",
+      "title": "庆祝",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 228748
+    },
+    {
+      "id": "netease-track:2749429522",
+      "neteaseTrackId": "2749429522",
+      "title": "无穷",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 276216
+    },
+    {
+      "id": "netease-track:2749429525",
+      "neteaseTrackId": "2749429525",
+      "title": "无尽",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 324550
+    },
+    {
+      "id": "netease-track:2749430419",
+      "neteaseTrackId": "2749430419",
+      "title": "妙龄童",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 243129
+    },
+    {
+      "id": "netease-track:2749429524",
+      "neteaseTrackId": "2749429524",
+      "title": "不灭",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 215585
+    },
+    {
+      "id": "netease-track:2749430421",
+      "neteaseTrackId": "2749430421",
+      "title": "光",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "陈粒"
+      ],
+      "durationMs": 209407
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=286217101",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "solitude",
+    "relax"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "十年自选 陈粒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

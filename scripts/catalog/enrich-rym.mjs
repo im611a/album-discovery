@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { validateCatalogData } from "./catalog-validation.mjs";
 import { publishCatalog } from "./publish-catalog.mjs";
 import { inspectRymInput } from "./rym-input.mjs";
-import { buildRymEnrichment, collectRelevantRymRows, loadCheckpoint, sha256File } from "./rym-enrichment.mjs";
+import { buildRymEnrichment, collectRelevantRymRows, loadCheckpoint, reconcileRymSummaryWithCatalog, sha256File } from "./rym-enrichment.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const catalogPath = path.join(root, "src", "data", "generated", "catalog.json");
@@ -18,7 +18,7 @@ const checkpointPath = path.join(cacheRoot, "checkpoint.json");
 function parseArguments(argv) {
   const options = { command: "enrich", input: null, dryRun: false, resume: false, limit: null, sourceId: null };
   const args = [...argv];
-  if (["inspect", "enrich", "report"].includes(args[0])) options.command = args.shift();
+  if (["inspect", "enrich", "report", "reconcile"].includes(args[0])) options.command = args.shift();
   for (let index = 0; index < args.length; index += 1) {
     if (args[index] === "--input") options.input = path.resolve(args[++index]);
     else if (args[index] === "--dry-run") options.dryRun = true;
@@ -28,7 +28,7 @@ function parseArguments(argv) {
     else if (args[index] === "--") continue;
     else throw new Error(`Unknown RYM enrichment option: ${args[index]}`);
   }
-  if (options.command !== "report" && !options.input) throw new Error("--input is required.");
+  if (!["report", "reconcile"].includes(options.command) && !options.input) throw new Error("--input is required.");
   if (options.limit != null && (!Number.isInteger(options.limit) || options.limit < 1)) throw new Error("--limit must be a positive integer.");
   return options;
 }
@@ -36,6 +36,23 @@ function parseArguments(argv) {
 const options = parseArguments(process.argv.slice(2));
 if (options.command === "report") {
   console.log(await readFile(summaryPath, "utf8"));
+  process.exit(0);
+}
+if (options.command === "reconcile") {
+  const [catalog, summary] = await Promise.all([
+    readFile(catalogPath, "utf8").then(JSON.parse),
+    readFile(summaryPath, "utf8").then(JSON.parse),
+  ]);
+  const reconciled = reconcileRymSummaryWithCatalog(summary, catalog);
+  const temporarySummary = `${summaryPath}.tmp`;
+  await writeFile(temporarySummary, `${JSON.stringify(reconciled.summary, null, 2)}\n`, "utf8");
+  await rename(temporarySummary, summaryPath);
+  console.log(JSON.stringify({
+    status: "RECONCILED",
+    totalAlbums: reconciled.summary.totalAlbums,
+    added: reconciled.added.map(({ neteaseAlbumId, slug, status }) => ({ neteaseAlbumId, slug, status })),
+    sourceInputSha256: reconciled.summary.inputSha256,
+  }, null, 2));
   process.exit(0);
 }
 const inputSha256 = await sha256File(options.input);

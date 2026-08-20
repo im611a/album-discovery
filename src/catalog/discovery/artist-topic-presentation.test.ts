@@ -14,12 +14,12 @@ import { publishedDiscoveryIndex } from "./published-index";
 const topicKinds: TopicKind[] = ["core", "related", "decade", "scene"];
 
 describe("R13-3D visible Artist presentation", () => {
-  it("adapts all 298 artists without changing engine authority", () => {
+  it("adapts all 300 artists without changing engine authority", () => {
     const presentations = publishedArtists.map((artist) =>
       buildArtistDiscoveryPresentation(artist.artistId));
-    expect(presentations).toHaveLength(298);
+    expect(presentations).toHaveLength(300);
     expect(presentations.every(Boolean)).toBe(true);
-    expect(presentations.filter((item) => item?.source.shape === "MULTI_WORK")).toHaveLength(60);
+    expect(presentations.filter((item) => item?.source.shape === "MULTI_WORK")).toHaveLength(62);
     expect(presentations.filter((item) => item?.source.shape === "SINGLE_WORK")).toHaveLength(238);
     for (const presentation of presentations) {
       const targetIds = [

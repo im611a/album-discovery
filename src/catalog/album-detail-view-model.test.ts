@@ -5,13 +5,13 @@ import { getAlbumDetailBySlug } from "./published-album-details";
 import { catalogAlbums } from "./published-catalog";
 
 describe("album detail foundation", () => {
-  it("adapts all 345 static details with unique IDs and slugs", () => {
+  it("adapts all 357 static details with unique IDs and slugs", () => {
     const params = getAlbumDetailStaticParams();
     const details = params.map(({ slug }) => getAlbumDetailViewModel(slug));
-    expect(params).toHaveLength(345);
+    expect(params).toHaveLength(357);
     expect(details.every(Boolean)).toBe(true);
-    expect(new Set(details.map((item) => item?.album.id)).size).toBe(345);
-    expect(new Set(params.map((item) => item.slug)).size).toBe(345);
+    expect(new Set(details.map((item) => item?.album.id)).size).toBe(357);
+    expect(new Set(params.map((item) => item.slug)).size).toBe(357);
   });
 
   it("hides null RYM ratings and never turns UNVERIFIED_NO_DATA into zero", () => {
@@ -23,11 +23,11 @@ describe("album detail foundation", () => {
     expect(view.rating.value).not.toBe(0);
   });
 
-  it("preserves the 26 newly added UNVERIFIED_NO_DATA records as unavailable", () => {
+  it("preserves all 38 UNVERIFIED_NO_DATA records as unavailable", () => {
     const unverified = catalogAlbums
       .map((item) => getAlbumDetailBySlug(item.slug))
       .filter((item) => item?.rymMatchStatus === "UNVERIFIED_NO_DATA");
-    expect(unverified).toHaveLength(26);
+    expect(unverified).toHaveLength(38);
     expect(unverified.every((item) => {
       const rating = buildAlbumDetailViewModel(item!).rating;
       return !rating.visible && rating.value === null;

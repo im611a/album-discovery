@@ -35,11 +35,12 @@ async function directoryFingerprint(directory) {
   return { entries, fingerprint: fingerprint(entries) };
 }
 
-async function verifyCandidatePublication(directory, candidate) {
-  const [manifest, indexManifest, artistIndex] = await Promise.all([
+async function verifyCandidatePublication(directory, candidate, baselineCatalog, touchedAlbumIds) {
+  const [manifest, indexManifest, artistIndex, publishedCatalog] = await Promise.all([
     readJson(path.join(directory, "catalog.manifest.json")),
     readJson(path.join(directory, "catalog-index.manifest.json")),
     readJson(path.join(directory, "artist-index.json")),
+    readJson(path.join(directory, "catalog.json")),
   ]);
   const details = (await readdir(path.join(directory, "album-details"))).filter((name) => name.endsWith(".json"));
   const indexPath = path.join(directory, "catalog-index.json");
@@ -50,7 +51,24 @@ async function verifyCandidatePublication(directory, candidate) {
   if (manifest.artists !== artistIndex.artists?.length) errors.push("artist index count mismatch");
   if (new Set(candidate.albums.map((album) => album.slug)).size !== candidate.albums.length) errors.push("candidate static Album route collision");
   if (new Set(artistIndex.artists.map((artist) => artist.slug)).size !== artistIndex.artists.length) errors.push("candidate static Artist route collision");
-  return { ok: errors.length === 0, errors, albums: manifest.albums, artists: manifest.artists, details: details.length, indexSha256: await sha256File(indexPath) };
+  const touched = new Set(touchedAlbumIds.map(String));
+  const publishedById = new Map(publishedCatalog.albums.map((album) => [String(album.neteaseAlbumId), album]));
+  const untouchedBaselineDrift = baselineCatalog.albums
+    .filter((album) => !touched.has(String(album.neteaseAlbumId)))
+    .filter((album) => JSON.stringify(publishedById.get(String(album.neteaseAlbumId))) !== JSON.stringify(album))
+    .map((album) => String(album.neteaseAlbumId));
+  if (untouchedBaselineDrift.length) errors.push(`untouched baseline Album drift: ${untouchedBaselineDrift.join(", ")}`);
+  return {
+    ok: errors.length === 0,
+    errors,
+    albums: manifest.albums,
+    artists: manifest.artists,
+    details: details.length,
+    indexSha256: await sha256File(indexPath),
+    declaredTouchedAlbumIds: [...touched].sort((a, b) => a.localeCompare(b, "en-US", { numeric: true })),
+    untouchedBaselineAlbums: baselineCatalog.albums.length - [...touched].filter((albumId) => baselineCatalog.albums.some((album) => String(album.neteaseAlbumId) === albumId)).length,
+    untouchedBaselineDrift,
+  };
 }
 
 function safeWorkspace(batchRoot, target) {
@@ -200,8 +218,9 @@ export async function runDryRun({
     }
   }
   const candidateGenerated = path.join(candidateRoot, "generated");
-  await publishCatalog(candidate, candidateGenerated, { coverRoot: path.join(candidateRoot, "assets", "covers") });
-  const candidateVerification = await verifyCandidatePublication(candidateGenerated, candidate);
+  const touchedAlbumIds = records.filter((record) => record.disposition === DISPOSITION.READY).map((record) => record.albumId);
+  await publishCatalog(candidate, candidateGenerated, { coverRoot: path.join(candidateRoot, "assets", "covers"), touchedAlbumIds });
+  const candidateVerification = await verifyCandidatePublication(candidateGenerated, candidate, catalog, touchedAlbumIds);
   if (!candidateVerification.ok) throw new Error(`Candidate publication verification failed: ${candidateVerification.errors.join("; ")}`);
   const candidateFiles = await directoryFingerprint(candidateRoot);
   metrics.candidateGenerationMs = elapsed(started);

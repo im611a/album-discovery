@@ -1,0 +1,167 @@
+{
+  "internalId": "album:15180",
+  "id": "album:15180",
+  "neteaseAlbumId": "15180",
+  "slug": "netease-album-15180",
+  "title": "暗恋 电影原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5196",
+      "neteaseArtistId": "5196",
+      "name": "陶喆"
+    }
+  ],
+  "releaseDate": "2009-10-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15180.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/15180.webp",
+    "alt": "《暗恋 电影原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:150377",
+      "neteaseTrackId": "150377",
+      "title": "暗恋(DT的暗恋)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:150378",
+      "neteaseTrackId": "150378",
+      "title": "Play(吸引)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:150379",
+      "neteaseTrackId": "150379",
+      "title": "暗恋(想念)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 152000
+    },
+    {
+      "id": "netease-track:150380",
+      "neteaseTrackId": "150380",
+      "title": "暗恋(着迷)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 217000
+    },
+    {
+      "id": "netease-track:150381",
+      "neteaseTrackId": "150381",
+      "title": "火鸟功(Superhero)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 97000
+    },
+    {
+      "id": "netease-track:150382",
+      "neteaseTrackId": "150382",
+      "title": "暗恋(原本的你)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 288000
+    },
+    {
+      "id": "netease-track:150383",
+      "neteaseTrackId": "150383",
+      "title": "暗恋(DT的异想世界)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 184000
+    },
+    {
+      "id": "netease-track:150384",
+      "neteaseTrackId": "150384",
+      "title": "暗恋(少了3个数字的电话号码)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 196000
+    },
+    {
+      "id": "netease-track:150385",
+      "neteaseTrackId": "150385",
+      "title": "Play(邂逅)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 200000
+    },
+    {
+      "id": "netease-track:150386",
+      "neteaseTrackId": "150386",
+      "title": "Play(夜色)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陶喆"
+      ],
+      "durationMs": 294000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=15180",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "commute",
+    "relax"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "暗恋 电影原声带 陶喆",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

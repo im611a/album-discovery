@@ -1,0 +1,178 @@
+{
+  "internalId": "album:2406003",
+  "id": "album:2406003",
+  "neteaseAlbumId": "2406003",
+  "slug": "netease-album-2406003",
+  "title": "崔健1986-1996",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "1995-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "京文",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/2406003.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/2406003.webp",
+    "alt": "《崔健1986-1996》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:26172028",
+      "neteaseTrackId": "26172028",
+      "title": "解决",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 311267
+    },
+    {
+      "id": "netease-track:26172017",
+      "neteaseTrackId": "26172017",
+      "title": "飞了",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 333133
+    },
+    {
+      "id": "netease-track:26172022",
+      "neteaseTrackId": "26172022",
+      "title": "假行僧",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 273706
+    },
+    {
+      "id": "netease-track:26172024",
+      "neteaseTrackId": "26172024",
+      "title": "从头再来",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 312600
+    },
+    {
+      "id": "netease-track:26172027",
+      "neteaseTrackId": "26172027",
+      "title": "这儿的空间",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 314494
+    },
+    {
+      "id": "netease-track:26172025",
+      "neteaseTrackId": "26172025",
+      "title": "出走",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 329266
+    },
+    {
+      "id": "netease-track:26172019",
+      "neteaseTrackId": "26172019",
+      "title": "花房姑娘",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 288334
+    },
+    {
+      "id": "netease-track:26172021",
+      "neteaseTrackId": "26172021",
+      "title": "不是我不明白",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 366466
+    },
+    {
+      "id": "netease-track:26172016",
+      "neteaseTrackId": "26172016",
+      "title": "快让我在雪地上撒点野",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 459866
+    },
+    {
+      "id": "netease-track:26172018",
+      "neteaseTrackId": "26172018",
+      "title": "宽容",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 487520
+    },
+    {
+      "id": "netease-track:26172023",
+      "neteaseTrackId": "26172023",
+      "title": "新长征路上的摇滚",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 287053
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=2406003",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "commute",
+    "focus"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "崔健1986-1996 崔健",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

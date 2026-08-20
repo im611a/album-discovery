@@ -9,15 +9,15 @@ import {
 import { getTopicSummaries } from "../topics";
 
 describe("R13-3E visible Explore presentation", () => {
-  it("maps all 351 visible relation choices to deterministic valid entries", () => {
+  it("maps all 353 visible relation choices to deterministic valid entries", () => {
     const choices = ["genre", "decade", "scene", "artist"].flatMap((mode) =>
       getExploreRelationChoices(mode as "genre" | "decade" | "scene" | "artist"));
-    expect(choices).toHaveLength(351);
+    expect(choices).toHaveLength(353);
     expect(choices.filter((choice) => choice.source.kind === "PRIMARY_GENRE")).toHaveLength(15);
     expect(choices.filter((choice) => choice.source.kind === "SECONDARY_GENRE")).toHaveLength(24);
     expect(choices.filter((choice) => choice.source.kind === "ERA")).toHaveLength(7);
     expect(choices.filter((choice) => choice.source.kind === "LISTENING_CONTEXT")).toHaveLength(7);
-    expect(choices.filter((choice) => choice.source.kind === "ARTIST")).toHaveLength(298);
+    expect(choices.filter((choice) => choice.source.kind === "ARTIST")).toHaveLength(300);
     for (const choice of choices) {
       const presentation = buildExploreRelationPresentation(choice);
       expect(presentation).not.toBeNull();

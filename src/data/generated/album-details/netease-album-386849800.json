@@ -1,0 +1,156 @@
+{
+  "internalId": "album:386849800",
+  "id": "album:386849800",
+  "neteaseAlbumId": "386849800",
+  "slug": "netease-album-386849800",
+  "title": "毕业生 GRADUATING FROM A CHAPTER OF LIFE",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:804159",
+      "neteaseArtistId": "804159",
+      "name": "阿力普"
+    }
+  ],
+  "releaseDate": "2026-07-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/386849800.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/386849800.webp",
+    "alt": "《毕业生 GRADUATING FROM A CHAPTER OF LIFE》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3406233862",
+      "neteaseTrackId": "3406233862",
+      "title": "序 Opening",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 44000
+    },
+    {
+      "id": "netease-track:3406232618",
+      "neteaseTrackId": "3406232618",
+      "title": "没有救生圈的夜晚 A Night Without a Lifebuoy",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 256500
+    },
+    {
+      "id": "netease-track:3406234024",
+      "neteaseTrackId": "3406234024",
+      "title": "年轻的爱情 Young Love",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 206000
+    },
+    {
+      "id": "netease-track:3406232754",
+      "neteaseTrackId": "3406232754",
+      "title": "导演 Director",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 261363
+    },
+    {
+      "id": "netease-track:3406234066",
+      "neteaseTrackId": "3406234066",
+      "title": "插曲 Interlude",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 109780
+    },
+    {
+      "id": "netease-track:3406234806",
+      "neteaseTrackId": "3406234806",
+      "title": "等风来的人 Waiting for the Wind",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 238499
+    },
+    {
+      "id": "netease-track:3406234826",
+      "neteaseTrackId": "3406234826",
+      "title": "水墨沼泽 Ink Marsh",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:3406234131",
+      "neteaseTrackId": "3406234131",
+      "title": "塔里木 Tarim",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 257943
+    },
+    {
+      "id": "netease-track:3406234871",
+      "neteaseTrackId": "3406234871",
+      "title": "剧终 The End",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "阿力普"
+      ],
+      "durationMs": 85743
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=386849800",
+  "discoveredAt": "2026-08-18T00:00:00.000Z",
+  "updatedAt": "2026-08-18T00:00:00.000Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [
+    "night",
+    "solitude"
+  ],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "毕业生 GRADUATING FROM A CHAPTER OF LIFE 阿力普",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-18T00:00:00.000Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

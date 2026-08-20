@@ -18,12 +18,12 @@
 ## 快照拆分
 
 - `catalog-index.json`：列表、搜索、发现和推荐使用的轻量专辑字段，不含曲目、公司、外链和来源对象；
-- `catalog-index.manifest.json`：记录轻量索引版本、数量、字节数与 SHA-256；319 张规模保持一个分片，超过升级阈值后可按相同契约拆分；
+- `catalog-index.manifest.json`：记录轻量索引版本、数量、字节数与 SHA-256；357 张规模保持一个分片，超过升级阈值后可按相同契约拆分；
 - `album-details/*.json`：每张专辑一个详情文件，只在对应静态详情构建时读取；
 - `artist-index.json`：艺人身份、专辑数量、类型统计、年份范围、常见核心流派和关联专辑；
 - `catalog.json`：维护与校验使用的完整稳定快照，不进入共享浏览器列表模块。
 
-319 张详情与 274 位艺人都在构建时生成静态路由。没有数据库。
+357 张详情与 300 位艺人都在构建时生成静态路由。没有数据库。
 
 专题页在构建期从轻量索引预计算真实 key、数量、常见核心流派和最多四张封面预览。详情、发现、搜索和专题不会加载其他专辑的曲目文件。纯静态逐专辑与逐艺人页面仍会随目录线性增长；数万条目录需要重新评估详情路由部署方式。
 
@@ -48,6 +48,10 @@
 `catalog:sync` 对种子去重并按固定批次顺序处理。原始响应优先使用本地缓存；resume 从检查点继续；失败记录结构化原因。候选验证失败或单项失败时不发布，因此稳定目录不会被半成品覆盖。网易云更新字段与 RYM 字段分开合并，避免清除已有可靠增强数据。
 
 RYM 导入器流式读取 CSV/TSV/JSONL，并支持 JSON、BOM、dry-run、limit、检查点和 resume。导入先写候选快照并执行完整目录校验，成功后再原子发布。原始研究数据只存在于被忽略的 `.local-data/rym/`。
+
+候选发布使用显式 Album write-set。仅 write-set 内的新建或获准更新记录可以根据候选资产目录重新解析封面路径；不在 write-set 内的稳定基线 Album 必须保持完整语义等价，不能因为候选目录只包含本批资产而触发封面回退、字段重算或其他隐式改写。候选验证会逐一比较所有未触及基线 Album，并在出现任何漂移时拒绝该候选。
+
+Content Pipeline 的 production promotion 是离线单写者事务，不与开发服务器、构建或静态发布并发。prepare 阶段把候选 write-set 复制到批次内的 transaction shadow/ready 区，记录 production BEFORE、候选 AFTER、精确目标路径和同卷假设，并以同步临时文件加原子替换更新 journal。promote 在第一次 production mutation 前重新验证全部 BEFORE fingerprint；随后仅使用同卷原子 rename 执行逐路径可逆替换。多路径期间 journal 的 `PROMOTING` 不是可发布状态，只有所有路径与候选一致且后置验证通过后的 `COMMITTED` 才是下游可见提交边界。普通异常回滚到 BEFORE；进程中断由 `recoverTransaction` 根据 durable progress、backup、destination 和 candidate shadow 的 hash 确定性回滚。任何无法由 journal 解释的状态都会 fail closed，且 promotion 不移动或改写 canonical candidate。
 
 ## 静态交付
 

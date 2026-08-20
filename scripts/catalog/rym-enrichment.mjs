@@ -188,3 +188,50 @@ export async function loadCheckpoint(file) {
     return null;
   }
 }
+
+export function reconcileRymSummaryWithCatalog(summary, catalog) {
+  if (!Array.isArray(summary?.results) || !Array.isArray(catalog?.albums)) throw new Error("RYM summary reconciliation requires summary results and catalog albums.");
+  const albumsById = new Map(catalog.albums.map((album) => [album.neteaseAlbumId, album]));
+  const resultsById = new Map();
+  for (const result of summary.results) {
+    if (resultsById.has(result.neteaseAlbumId)) throw new Error(`Duplicate RYM summary result: ${result.neteaseAlbumId}.`);
+    const album = albumsById.get(result.neteaseAlbumId);
+    if (!album) throw new Error(`RYM summary references an Album outside the current catalog: ${result.neteaseAlbumId}.`);
+    if (album.rymMatchStatus !== result.status) throw new Error(`RYM summary status drift for ${result.neteaseAlbumId}: ${result.status} !== ${album.rymMatchStatus}.`);
+    resultsById.set(result.neteaseAlbumId, result);
+  }
+  const added = [];
+  for (const album of catalog.albums) {
+    if (resultsById.has(album.neteaseAlbumId)) continue;
+    if (album.rymMatchStatus !== "UNVERIFIED_NO_DATA" || album.rymRating != null || album.rymRatingCount != null || album.rymReference != null || album.rymInputSourceId != null || album.relatedGenres.length || album.descriptors.length) {
+      throw new Error(`New catalog Album requires an authorized RYM enrichment decision: ${album.neteaseAlbumId}.`);
+    }
+    const result = {
+      neteaseAlbumId: album.neteaseAlbumId,
+      slug: album.slug,
+      status: "UNVERIFIED_NO_DATA",
+      reason: "no_authorized_offline_record",
+      inputRow: null,
+      sourceReference: null,
+    };
+    resultsById.set(album.neteaseAlbumId, result);
+    added.push(result);
+  }
+  const results = catalog.albums.map((album) => resultsById.get(album.neteaseAlbumId));
+  const counts = Object.fromEntries([...RYM_MATCH_STATUSES].map((status) => [status, results.filter((item) => item.status === status).length]));
+  const relatedTerms = new Set(catalog.albums.flatMap((album) => album.relatedGenres));
+  return {
+    summary: {
+      ...summary,
+      totalAlbums: catalog.albums.length,
+      ...counts,
+      ratedAlbumCount: catalog.albums.filter((album) => album.rymRating != null).length,
+      ratingCountAlbumCount: catalog.albums.filter((album) => album.rymRatingCount != null).length,
+      relatedGenreAlbumCount: catalog.albums.filter((album) => album.relatedGenres.length).length,
+      relatedGenreTermCount: catalog.albums.reduce((total, album) => total + album.relatedGenres.length, 0),
+      uniqueRelatedGenreCount: relatedTerms.size,
+      results,
+    },
+    added,
+  };
+}
