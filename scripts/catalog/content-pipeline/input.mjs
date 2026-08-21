@@ -25,6 +25,10 @@ export function normalizeInputRow(raw, rowNumber) {
   if (refreshRaw && !trueValues.has(refreshRaw) && !["false", "0", "no"].includes(refreshRaw)) {
     findings.push(finding(SEVERITY.ERROR, "INVALID_REFRESH", "refresh must be a boolean value.", "Use true or false."));
   }
+  const manualVerifiedRaw = String(raw.manual_verified ?? "").trim().toLocaleLowerCase("en-US");
+  if (manualVerifiedRaw && !trueValues.has(manualVerifiedRaw) && !["false", "0", "no"].includes(manualVerifiedRaw)) {
+    findings.push(finding(SEVERITY.ERROR, "INVALID_MANUAL_VERIFIED", "manual_verified must be a boolean value.", "Use true or false."));
+  }
   return {
     rowNumber,
     albumId,
@@ -37,6 +41,7 @@ export function normalizeInputRow(raw, rowNumber) {
     discoveredAt,
     slugOverride: String(raw.slug_override ?? "").trim() || null,
     refresh: trueValues.has(refreshRaw),
+    manualVerified: trueValues.has(manualVerifiedRaw),
     findings,
   };
 }

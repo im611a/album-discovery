@@ -53,6 +53,12 @@ RYM 导入器流式读取 CSV/TSV/JSONL，并支持 JSON、BOM、dry-run、limit
 
 Content Pipeline 的 production promotion 是离线单写者事务，不与开发服务器、构建或静态发布并发。prepare 阶段把候选 write-set 复制到批次内的 transaction shadow/ready 区，记录 production BEFORE、候选 AFTER、精确目标路径和同卷假设，并以同步临时文件加原子替换更新 journal。promote 在第一次 production mutation 前重新验证全部 BEFORE fingerprint；随后仅使用同卷原子 rename 执行逐路径可逆替换。多路径期间 journal 的 `PROMOTING` 不是可发布状态，只有所有路径与候选一致且后置验证通过后的 `COMMITTED` 才是下游可见提交边界。普通异常回滚到 BEFORE；进程中断由 `recoverTransaction` 根据 durable progress、backup、destination 和 candidate shadow 的 hash 确定性回滚。任何无法由 journal 解释的状态都会 fail closed，且 promotion 不移动或改写 canonical candidate。
 
+## Bulk Operator V1
+
+正式运维入口是 `album-import.ps1 → scripts/catalog/content-pipeline/operator.mjs → Content Pipeline V1 core`。PowerShell 是无业务逻辑的参数/退出码转发层；Operator 只负责 command routing、workspace lifecycle、locks、human authorization gates 和结果 envelope，不复制 parser、normalizer、validator、publisher 或 transaction/recovery engine。
+
+只有显式 `acquire` command 可以产生外部 HTTP GET，并只按输入中的 NetEase Album ID 写入 `.local-data/content-pipeline-v1/CONTENT-BATCH-*`。doctor、dry-run、status、review、prepare、promote、recover 都是 offline。Review overlay 只允许绑定 batch + input SHA 的既有 `NEEDS_REVIEW` code，不能覆盖 ERROR/FATAL/source defect。Prepare 只生成 PREPARED journal；promote 必须同时匹配 exact transaction ID 与 candidate fingerprint。Per-batch lock 防止 workspace 双写，production global lock 序列化 prepare/promote/recover；non-terminal journal 优先进入 recovery，不能靠删 stale lock 绕过。
+
 ## 静态交付
 
 Next.js 使用 `output: "export"`。列表图片读取 360px WebP 缩略图，详情读取最高 960px WebP；原始 JPG 不进入交付 ZIP。静态站点根目录包含构建标识，深层路由使用目录式 `index.html`。

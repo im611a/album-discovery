@@ -10,6 +10,7 @@ import { allocateDeterministicSlugs } from "./identity.mjs";
 import { readBatchInput } from "./input.mjs";
 import { loadLocalPayload } from "./payload.mjs";
 import { buildMachineReport, humanReport } from "./report.mjs";
+import { applyReviewDecisions, loadReviewDecisions } from "./review.mjs";
 import { fingerprint, sha256File, stableJson } from "./utils.mjs";
 import { knownFrozenArtistDebt, validateProposedAlbum } from "./validation.mjs";
 
@@ -22,7 +23,7 @@ async function readJson(file) {
   return JSON.parse(await readFile(file, "utf8"));
 }
 
-async function directoryFingerprint(directory) {
+export async function directoryFingerprint(directory) {
   const entries = [];
   async function visit(current) {
     for (const entry of (await readdir(current, { withFileTypes: true })).sort((a, b) => a.name.localeCompare(b.name))) {
@@ -103,7 +104,12 @@ export async function runDryRun({
   }));
   const metrics = {};
   let started = now();
-  const [catalog, identities, rymSnapshot, rows] = await Promise.all([readJson(catalogPath), readJson(identitiesPath), readJson(rymSnapshotPath), readBatchInput(inputPath)]);
+  const [catalog, identities, rymSnapshot, rows, inputSha256] = await Promise.all([readJson(catalogPath), readJson(identitiesPath), readJson(rymSnapshotPath), readBatchInput(inputPath), sha256File(inputPath)]);
+  const review = await loadReviewDecisions(path.join(resolvedBatchRoot, "review", "review-decisions.json"), {
+    batchId: config.id,
+    inputSha256,
+    albumIds: rows.map((row) => row.albumId),
+  });
   metrics.parseAndLoadMs = elapsed(started);
   const baseline = { catalogSha256: await sha256File(catalogPath), catalogFingerprint: fingerprint(catalog), albums: catalog.albums.length };
   const frozenDebt = knownFrozenArtistDebt(catalog);
@@ -177,9 +183,12 @@ export async function runDryRun({
   }
   const slugPlans = allocateDeterministicSlugs(working.filter((item) => item.album && item.duplicate.state !== DUPLICATE_STATE.EXACT_DUPLICATE).map((item) => ({ albumId: item.row.albumId, title: item.album.title, slugOverride: item.row.slugOverride })), catalog);
   const slugById = new Map(slugPlans.map((item) => [item.albumId, item]));
+  const appliedReviewDecisions = new Set();
   const records = working.map((item) => {
     const slug = slugById.get(item.row.albumId);
-    const findings = [...item.findings, ...(slug?.findings ?? [])];
+    const reviewed = applyReviewDecisions([...item.findings, ...(slug?.findings ?? [])], item.row.albumId, review);
+    for (const key of reviewed.applied) appliedReviewDecisions.add(key);
+    const findings = reviewed.findings;
     if (item.album && slug) item.album.slug = slug.slug;
     const disposition = dispositionFromFindings(findings, item.duplicate.state);
     return {
@@ -202,6 +211,10 @@ export async function runDryRun({
       album: item.album,
     };
   }).sort((a, b) => a.albumId.localeCompare(b.albumId, "en-US", { numeric: true }) || a.rowNumber - b.rowNumber);
+  if (review) {
+    const unused = review.decisions.filter((decision) => !appliedReviewDecisions.has(`${decision.albumId}:${decision.code}`));
+    if (unused.length) throw Object.assign(new Error(`REVIEW_DECISION_NOT_APPLICABLE: ${unused.map((item) => `${item.albumId}/${item.code}`).join(", ")}`), { code: "REVIEW_DECISION_NOT_APPLICABLE" });
+  }
   const readyAlbums = records.filter((record) => record.disposition === DISPOSITION.READY).map((record) => record.album);
   const candidate = {
     ...catalog,
@@ -233,14 +246,16 @@ export async function runDryRun({
     selectionRequiredForPromotion: true,
     records: records.map((record) => ({ albumId: record.albumId, disposition: record.disposition, slug: record.proposed?.slug ?? null, duplicate: record.duplicate.state, destinationAssets: record.assets ? [record.assets.thumbnail.relativePath, record.assets.detail.relativePath] : [], findings: record.findings.map((item) => ({ level: item.level, code: item.code })) })),
     candidate: { albums: candidate.albums.length, generatedDirectory: "candidate/generated", assetDirectory: "candidate/assets/covers", fingerprint: candidateFiles.fingerprint, files: candidateFiles.entries.length, verification: candidateVerification },
+    review: review ? { schema: review.schema, fingerprint: review.fingerprint, decisions: review.decisions.length, applied: appliedReviewDecisions.size } : { schema: null, fingerprint: null, decisions: 0, applied: 0 },
   };
   const report = buildMachineReport({
     batch: { id: config.id, discoveredAt: fixedTimestamp, pipelineVersion: PIPELINE_VERSION },
     baseline,
-    input: { path: path.relative(resolvedBatchRoot, inputPath).replaceAll("\\", "/"), sha256: await sha256File(inputPath), rows: rows.length },
+    input: { path: path.relative(resolvedBatchRoot, inputPath).replaceAll("\\", "/"), sha256: inputSha256, rows: rows.length },
     records,
     candidate: plan.candidate,
     frozenDebt,
+    review: plan.review,
   });
   await Promise.all([
     writeFile(path.join(normalizedRoot, "normalized.json"), stableJson(normalized), "utf8"),
@@ -258,6 +273,6 @@ export async function createBatchWorkspace(batchRoot, { id, discoveredAt, input 
   await writeFile(path.join(root, "batch.json"), stableJson({ id, discoveredAt, input }), { encoding: "utf8", flag: "wx" });
   const inputPath = path.join(root, input);
   await mkdir(path.dirname(inputPath), { recursive: true });
-  await writeFile(inputPath, "album_id,expected_title,expected_artists,core_genres,contexts,cover_file,source_reference,discovered_at,slug_override,refresh\n", { encoding: "utf8", flag: "wx" });
+  await writeFile(inputPath, "album_id,expected_title,expected_artists,core_genres,contexts,cover_file,source_reference,discovered_at,manual_verified,slug_override,refresh\n", { encoding: "utf8", flag: "wx" });
   return root;
 }

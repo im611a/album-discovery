@@ -1,7 +1,7 @@
 import { DISPOSITION, PIPELINE_VERSION } from "./contracts.mjs";
 import { fingerprint } from "./utils.mjs";
 
-export function buildMachineReport({ batch, baseline, input, records, candidate, frozenDebt }) {
+export function buildMachineReport({ batch, baseline, input, records, candidate, frozenDebt, review }) {
   const counts = Object.fromEntries(Object.values(DISPOSITION).map((value) => [value, records.filter((record) => record.disposition === value).length]));
   const report = {
     schema: `${PIPELINE_VERSION}/dry-run-report/v1`,
@@ -10,6 +10,7 @@ export function buildMachineReport({ batch, baseline, input, records, candidate,
     baseline,
     input,
     frozenDebt,
+    review,
     counts: { rowsTotal: records.length, ...counts },
     records: records.map((record) => ({
       row: record.rowNumber,

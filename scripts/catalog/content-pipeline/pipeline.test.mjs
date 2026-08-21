@@ -62,6 +62,10 @@ describe("Content Pipeline dry-run integration", () => {
     const repeated = await runDryRun({ batchRoot: firstRoot });
     expect(repeated.plan).toEqual(first.plan);
     expect(repeated.report.resultFingerprint).toBe(first.report.resultFingerprint);
+    const repeatedAgain = await runDryRun({ batchRoot: firstRoot });
+    expect(repeatedAgain.plan).toEqual(first.plan);
+    expect(repeatedAgain.report.resultFingerprint).toBe(first.report.resultFingerprint);
+    expect(repeatedAgain.plan.records.map((record) => record.destinationAssets)).toEqual(first.plan.records.map((record) => record.destinationAssets));
     const shuffledRoot = await makeBatch(["990002", "990001"]);
     const shuffled = await runDryRun({ batchRoot: shuffledRoot });
     expect(shuffled.plan).toEqual(first.plan);

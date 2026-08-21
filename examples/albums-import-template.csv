@@ -1,0 +1,2 @@
+album_id,expected_title,expected_artists,core_genres,contexts,cover_file,source_reference,discovered_at,manual_verified,slug_override,refresh
+REPLACE_WITH_NETEASE_ALBUM_ID,REPLACE_WITH_REVIEWED_TITLE,REPLACE_WITH_REVIEWED_ARTIST,REPLACE_WITH_ALLOWED_GENRE,optional-context,,,,false,,false
