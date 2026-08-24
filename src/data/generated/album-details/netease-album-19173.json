@@ -1,0 +1,189 @@
+{
+  "internalId": "album:19173",
+  "id": "album:19173",
+  "neteaseAlbumId": "19173",
+  "slug": "netease-album-19173",
+  "title": "庙会之旅Ⅱ",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2011-09-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19173.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19173.webp",
+    "alt": "《庙会之旅Ⅱ》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189558",
+      "neteaseTrackId": "189558",
+      "title": "吹牛",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 224494
+    },
+    {
+      "id": "netease-track:189666",
+      "neteaseTrackId": "189666",
+      "title": "姑娘 我偷到神的钱包",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 326538
+    },
+    {
+      "id": "netease-track:1478028488",
+      "neteaseTrackId": "1478028488",
+      "title": "爱情的枪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 383223
+    },
+    {
+      "id": "netease-track:189672",
+      "neteaseTrackId": "189672",
+      "title": "英雄的亲戚",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 266473
+    },
+    {
+      "id": "netease-track:189674",
+      "neteaseTrackId": "189674",
+      "title": "咖啡时光",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 225336
+    },
+    {
+      "id": "netease-track:189676",
+      "neteaseTrackId": "189676",
+      "title": "你在夏天还没离开我",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "李思琳"
+      ],
+      "durationMs": 234615
+    },
+    {
+      "id": "netease-track:1318877139",
+      "neteaseTrackId": "1318877139",
+      "title": "A Walk in the Park",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cowboy Junkies",
+        "左小祖咒"
+      ],
+      "durationMs": 287212
+    },
+    {
+      "id": "netease-track:1484031566",
+      "neteaseTrackId": "1484031566",
+      "title": "苦鬼",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 335012
+    },
+    {
+      "id": "netease-track:1432849568",
+      "neteaseTrackId": "1432849568",
+      "title": "我的儿子叫钱云会",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 157817
+    },
+    {
+      "id": "netease-track:1882121677",
+      "neteaseTrackId": "1882121677",
+      "title": "丁字裤",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 281737
+    },
+    {
+      "id": "netease-track:189692",
+      "neteaseTrackId": "189692",
+      "title": "最高处",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 323013
+    },
+    {
+      "id": "netease-track:1915878837",
+      "neteaseTrackId": "1915878837",
+      "title": "再见 可爱的小伙子",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 335279
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=19173",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "庙会之旅Ⅱ 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

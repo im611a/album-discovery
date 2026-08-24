@@ -1,0 +1,164 @@
+{
+  "internalId": "album:24037",
+  "id": "album:24037",
+  "neteaseAlbumId": "24037",
+  "slug": "netease-album-24037",
+  "title": "雅莉不怕",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7901",
+      "neteaseArtistId": "7901",
+      "name": "黄雅莉"
+    }
+  ],
+  "releaseDate": "2009-06-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "福茂唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/24037.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/24037.webp",
+    "alt": "《雅莉不怕》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:239667",
+      "neteaseTrackId": "239667",
+      "title": "恋爱绝句选",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 219200
+    },
+    {
+      "id": "netease-track:239668",
+      "neteaseTrackId": "239668",
+      "title": "懵懂",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 213413
+    },
+    {
+      "id": "netease-track:239670",
+      "neteaseTrackId": "239670",
+      "title": "相爱的人都等在这地方",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 257973
+    },
+    {
+      "id": "netease-track:239671",
+      "neteaseTrackId": "239671",
+      "title": "不一定快乐",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 234906
+    },
+    {
+      "id": "netease-track:239672",
+      "neteaseTrackId": "239672",
+      "title": "歌词里的他",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 223333
+    },
+    {
+      "id": "netease-track:239673",
+      "neteaseTrackId": "239673",
+      "title": "我还能飞翔",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 225933
+    },
+    {
+      "id": "netease-track:239675",
+      "neteaseTrackId": "239675",
+      "title": "明天的你和我",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 238920
+    },
+    {
+      "id": "netease-track:239677",
+      "neteaseTrackId": "239677",
+      "title": "爱光临",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 278426
+    },
+    {
+      "id": "netease-track:239678",
+      "neteaseTrackId": "239678",
+      "title": "火星爱月亮",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 221786
+    },
+    {
+      "id": "netease-track:239679",
+      "neteaseTrackId": "239679",
+      "title": "临床实验",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 219226
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=24037",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "雅莉不怕 黄雅莉",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

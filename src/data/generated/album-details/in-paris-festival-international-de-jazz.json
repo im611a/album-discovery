@@ -1,0 +1,175 @@
+{
+  "internalId": "album:172579",
+  "id": "album:172579",
+  "neteaseAlbumId": "172579",
+  "slug": "in-paris-festival-international-de-jazz",
+  "title": "In Paris Festival International De Jazz",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1949-05-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172579.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172579.webp",
+    "alt": "《In Paris Festival International De Jazz》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1702342",
+      "neteaseTrackId": "1702342",
+      "title": "Rifftide (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 274181
+    },
+    {
+      "id": "netease-track:1702347",
+      "neteaseTrackId": "1702347",
+      "title": "Good Bait (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 347718
+    },
+    {
+      "id": "netease-track:1702352",
+      "neteaseTrackId": "1702352",
+      "title": "Don't Blame Me (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 259173
+    },
+    {
+      "id": "netease-track:1702357",
+      "neteaseTrackId": "1702357",
+      "title": "Lady Bird (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 306280
+    },
+    {
+      "id": "netease-track:1702362",
+      "neteaseTrackId": "1702362",
+      "title": "'Wah' 'Hoo' (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 334146
+    },
+    {
+      "id": "netease-track:1702366",
+      "neteaseTrackId": "1702366",
+      "title": "Allen's Alley (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 261250
+    },
+    {
+      "id": "netease-track:1702370",
+      "neteaseTrackId": "1702370",
+      "title": "Embraceable You (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 237934
+    },
+    {
+      "id": "netease-track:1702374",
+      "neteaseTrackId": "1702374",
+      "title": "Ornithology (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 231154
+    },
+    {
+      "id": "netease-track:1702378",
+      "neteaseTrackId": "1702378",
+      "title": "All The Things You Are (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 260573
+    },
+    {
+      "id": "netease-track:1702381",
+      "neteaseTrackId": "1702381",
+      "title": "Lover Man (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 192841
+    },
+    {
+      "id": "netease-track:1702384",
+      "neteaseTrackId": "1702384",
+      "title": "The Squirrel (Live at Festival International de Jazz, Paris, France - May 1949)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 239000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=172579",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "In Paris Festival International De Jazz Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

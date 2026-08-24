@@ -1,0 +1,152 @@
+{
+  "internalId": "album:47720",
+  "id": "album:47720",
+  "neteaseAlbumId": "47720",
+  "slug": "zero-landmine",
+  "title": "ZERO LANDMINE",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2001-04-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47720.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47720.webp",
+    "alt": "《ZERO LANDMINE》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:499931",
+      "neteaseTrackId": "499931",
+      "title": "ZERO LANDMINE",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "N.M.L",
+        "坂本龍一",
+        "UA",
+        "大貫妙子",
+        "桜井和寿",
+        "佐野元春",
+        "SUGIZO",
+        "高橋幸宏",
+        "GLAY",
+        "Chara",
+        "DJ Krush",
+        "東京少年少女合唱隊",
+        "DREAMS COME TRUE",
+        "藤原真理",
+        "細野晴臣",
+        "ヤマタカ EYE",
+        "伶楽舎",
+        "Arto Lindsay",
+        "Brian Eno",
+        "崔钟秀",
+        "Cyndi Lauper",
+        "David Sylvian",
+        "Jadranka",
+        "Jaques Morelenbaum",
+        "金德洙",
+        "Kraftwerk",
+        "Lee Jun-Woo",
+        "Sonaali Rathod",
+        "Steve Jansen",
+        "Talvin Singh",
+        "Sultan Khan",
+        "Waldemar Bastos",
+        "Yun Seo-Kyong"
+      ],
+      "durationMs": 1107121
+    },
+    {
+      "id": "netease-track:499936",
+      "neteaseTrackId": "499936",
+      "title": "ZERO LANDMINE(Piano+Vocal version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 286000
+    },
+    {
+      "id": "netease-track:499941",
+      "neteaseTrackId": "499941",
+      "title": "ZERO LANDMINE(Piano+Cello version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 328000
+    },
+    {
+      "id": "netease-track:499947",
+      "neteaseTrackId": "499947",
+      "title": "ZERO LANDMINE(Short version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 299000
+    },
+    {
+      "id": "netease-track:499953",
+      "neteaseTrackId": "499953",
+      "title": "ZERO LANDMINE(Piano version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 322000
+    },
+    {
+      "id": "netease-track:499957",
+      "neteaseTrackId": "499957",
+      "title": "ZERO LANDMINE(THE TRACK)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 299000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=47720",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "ZERO LANDMINE 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

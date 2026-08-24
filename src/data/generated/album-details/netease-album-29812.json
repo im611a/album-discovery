@@ -1,0 +1,165 @@
+{
+  "internalId": "album:29812",
+  "id": "album:29812",
+  "neteaseAlbumId": "29812",
+  "slug": "netease-album-29812",
+  "title": "分手",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1986-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29812.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29812.webp",
+    "alt": "《分手》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300854",
+      "neteaseTrackId": "300854",
+      "title": "说说笑笑",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 218279
+    },
+    {
+      "id": "netease-track:300857",
+      "neteaseTrackId": "300857",
+      "title": "童年的故乡",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 188000
+    },
+    {
+      "id": "netease-track:300860",
+      "neteaseTrackId": "300860",
+      "title": "分手",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 318015
+    },
+    {
+      "id": "netease-track:300862",
+      "neteaseTrackId": "300862",
+      "title": "小小月芽走过来",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 118413
+    },
+    {
+      "id": "netease-track:300864",
+      "neteaseTrackId": "300864",
+      "title": "妈妈的歌",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 234553
+    },
+    {
+      "id": "netease-track:300865",
+      "neteaseTrackId": "300865",
+      "title": "舞会皇后",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 224183
+    },
+    {
+      "id": "netease-track:300866",
+      "neteaseTrackId": "300866",
+      "title": "手牵手",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 222960
+    },
+    {
+      "id": "netease-track:300868",
+      "neteaseTrackId": "300868",
+      "title": "妈妈的怀抱",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 205040
+    },
+    {
+      "id": "netease-track:300870",
+      "neteaseTrackId": "300870",
+      "title": "你的影像",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 208248
+    },
+    {
+      "id": "netease-track:300872",
+      "neteaseTrackId": "300872",
+      "title": "南海姑娘",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 245000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29812",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "分手 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

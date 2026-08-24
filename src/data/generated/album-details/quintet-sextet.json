@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1970261",
+  "id": "album:1970261",
+  "neteaseAlbumId": "1970261",
+  "slug": "quintet-sextet",
+  "title": "Quintet/Sextet",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1999-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "CoolNote",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970261.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970261.webp",
+    "alt": "《Quintet/Sextet》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21335398",
+      "neteaseTrackId": "21335398",
+      "title": "Dr Jackle",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 530467
+    },
+    {
+      "id": "netease-track:21335399",
+      "neteaseTrackId": "21335399",
+      "title": "Bitty Ditty",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 396463
+    },
+    {
+      "id": "netease-track:21335400",
+      "neteaseTrackId": "21335400",
+      "title": "Minor March",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 493543
+    },
+    {
+      "id": "netease-track:21335401",
+      "neteaseTrackId": "21335401",
+      "title": "Changes",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 429364
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1970261",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Quintet/Sextet Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

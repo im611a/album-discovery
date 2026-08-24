@@ -1,0 +1,244 @@
+{
+  "internalId": "album:184303",
+  "id": "album:184303",
+  "neteaseAlbumId": "184303",
+  "slug": "music-from-graffiti-bridge",
+  "title": "Music from Graffiti Bridge",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "1990-08-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184303.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184303.webp",
+    "alt": "《Music from Graffiti Bridge》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1824252",
+      "neteaseTrackId": "1824252",
+      "title": "Can't Stop This Feeling I Got",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 264266
+    },
+    {
+      "id": "netease-track:1824257",
+      "neteaseTrackId": "1824257",
+      "title": "New Power Generation",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 219506
+    },
+    {
+      "id": "netease-track:1824262",
+      "neteaseTrackId": "1824262",
+      "title": "Release It",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "The Time"
+      ],
+      "durationMs": 234293
+    },
+    {
+      "id": "netease-track:1824266",
+      "neteaseTrackId": "1824266",
+      "title": "The Question of U",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 239600
+    },
+    {
+      "id": "netease-track:1824270",
+      "neteaseTrackId": "1824270",
+      "title": "Elephants & Flowers",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 234333
+    },
+    {
+      "id": "netease-track:1824273",
+      "neteaseTrackId": "1824273",
+      "title": "Round and Round",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "Tevin Campbell"
+      ],
+      "durationMs": 235773
+    },
+    {
+      "id": "netease-track:1824276",
+      "neteaseTrackId": "1824276",
+      "title": "We Can Funk",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "George Clinton",
+        "Prince"
+      ],
+      "durationMs": 328360
+    },
+    {
+      "id": "netease-track:1824277",
+      "neteaseTrackId": "1824277",
+      "title": "Joy in Repetition",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 293600
+    },
+    {
+      "id": "netease-track:1824280",
+      "neteaseTrackId": "1824280",
+      "title": "Love Machine",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "The Time"
+      ],
+      "durationMs": 214666
+    },
+    {
+      "id": "netease-track:1824283",
+      "neteaseTrackId": "1824283",
+      "title": "Tick, Tick, Bang",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 211266
+    },
+    {
+      "id": "netease-track:1824285",
+      "neteaseTrackId": "1824285",
+      "title": "Shake",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "The Time"
+      ],
+      "durationMs": 241066
+    },
+    {
+      "id": "netease-track:1824288",
+      "neteaseTrackId": "1824288",
+      "title": "Thieves in the Temple",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 200680
+    },
+    {
+      "id": "netease-track:1824291",
+      "neteaseTrackId": "1824291",
+      "title": "The Latest Fashion",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "The Time"
+      ],
+      "durationMs": 242666
+    },
+    {
+      "id": "netease-track:1824294",
+      "neteaseTrackId": "1824294",
+      "title": "Melody Cool",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 219640
+    },
+    {
+      "id": "netease-track:1824297",
+      "neteaseTrackId": "1824297",
+      "title": "Still Would Stand All Time",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 323733
+    },
+    {
+      "id": "netease-track:1824300",
+      "neteaseTrackId": "1824300",
+      "title": "Graffiti Bridge",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 231893
+    },
+    {
+      "id": "netease-track:1824303",
+      "neteaseTrackId": "1824303",
+      "title": "New Power Generation (Pt.II)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 177720
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=184303",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Music from Graffiti Bridge Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

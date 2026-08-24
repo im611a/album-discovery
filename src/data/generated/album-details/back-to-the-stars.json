@@ -1,0 +1,175 @@
+{
+  "internalId": "album:10788",
+  "id": "album:10788",
+  "neteaseAlbumId": "10788",
+  "slug": "back-to-the-stars",
+  "title": "Back to the Stars",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2010-04-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10788.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10788.webp",
+    "alt": "《Back to the Stars》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108721",
+      "neteaseTrackId": "108721",
+      "title": "Chasing Sunsets",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 176746
+    },
+    {
+      "id": "netease-track:108725",
+      "neteaseTrackId": "108725",
+      "title": "The Last Goodbye",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 14800
+    },
+    {
+      "id": "netease-track:108728",
+      "neteaseTrackId": "108728",
+      "title": "Trust",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 184800
+    },
+    {
+      "id": "netease-track:108731",
+      "neteaseTrackId": "108731",
+      "title": "Ghosts",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 211520
+    },
+    {
+      "id": "netease-track:108734",
+      "neteaseTrackId": "108734",
+      "title": "Thanks for Setting Me Free",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 159253
+    },
+    {
+      "id": "netease-track:108738",
+      "neteaseTrackId": "108738",
+      "title": "Falling Stars",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 36066
+    },
+    {
+      "id": "netease-track:108742",
+      "neteaseTrackId": "108742",
+      "title": "Just a Little Longer",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 233840
+    },
+    {
+      "id": "netease-track:108746",
+      "neteaseTrackId": "108746",
+      "title": "After the Pain",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 167000
+    },
+    {
+      "id": "netease-track:108750",
+      "neteaseTrackId": "108750",
+      "title": "When He Sings",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 209040
+    },
+    {
+      "id": "netease-track:108754",
+      "neteaseTrackId": "108754",
+      "title": "From Turkey , with Love",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 65503
+    },
+    {
+      "id": "netease-track:108758",
+      "neteaseTrackId": "108758",
+      "title": "Light Up Your Dreams",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 114680
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=10788",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Back to the Stars 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

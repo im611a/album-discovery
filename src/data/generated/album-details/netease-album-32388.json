@@ -1,0 +1,131 @@
+{
+  "internalId": "album:32388",
+  "id": "album:32388",
+  "neteaseAlbumId": "32388",
+  "slug": "netease-album-32388",
+  "title": "Jane.爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "name": "张靓颖"
+    }
+  ],
+  "releaseDate": "2006-01-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/32388.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/32388.webp",
+    "alt": "《Jane.爱》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:327294",
+      "neteaseTrackId": "327294",
+      "title": "光芒",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 270675
+    },
+    {
+      "id": "netease-track:327297",
+      "neteaseTrackId": "327297",
+      "title": "To Be Loved",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 271209
+    },
+    {
+      "id": "netease-track:327299",
+      "neteaseTrackId": "327299",
+      "title": "逆时针",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 226394
+    },
+    {
+      "id": "netease-track:327301",
+      "neteaseTrackId": "327301",
+      "title": "光芒(伴奏)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 273586
+    },
+    {
+      "id": "netease-track:327303",
+      "neteaseTrackId": "327303",
+      "title": "To Be Loved(伴奏)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 272733
+    },
+    {
+      "id": "netease-track:327306",
+      "neteaseTrackId": "327306",
+      "title": "逆时针(伴奏)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 227800
+    },
+    {
+      "id": "netease-track:327309",
+      "neteaseTrackId": "327309",
+      "title": "梦想",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 237080
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=32388",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Jane.爱 张靓颖",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -59,6 +59,7 @@ function watchRuntime(page: Page): Runtime {
 
 async function installState(page: Page, payload: unknown) {
   await page.goto("/");
+  await expect(page.locator(".r14-personal-journey[data-personal-status]")).toBeVisible();
   await page.evaluate(({ key, value }) => localStorage.setItem(key, JSON.stringify(value)), { key: STORAGE_KEY, value: payload });
 }
 
@@ -150,15 +151,16 @@ test.describe("R16-2C visible Artist collection", () => {
     const album = catalogAlbums.find((candidate) => candidate.id === albumId)!;
     await installState(page, state());
     await settleArtist(page, routeFor(dense));
-    const row = page.locator(".r12-discography__release").filter({ has: page.locator(`a[href^="/albums/${album.slug}"]`) }).first();
+    const row = page.locator(".r12-discography__release").filter({ has: page.getByRole("link", { name: album.title, exact: true }) }).first();
     await row.getByText("本机状态").click();
     await row.getByRole("button", { name: "想听" }).click();
     await expect(page.locator("[data-metric=saved] dd")).toHaveText("1 张");
     await row.getByRole("button", { name: "收藏" }).click();
     await expect(page.locator("[data-metric=favorite] dd")).toHaveText("1 张");
+    await expect.poll(() => page.evaluate((key) => localStorage.getItem(key) ?? "", STORAGE_KEY)).toContain(albumId);
     await page.reload(); await settleVisual(page, { route: new URL(page.url()).pathname, readySelector: ".r16-artist-collection" });
     await expect(page.locator(`[data-album-id="${albumId}"][data-state=favorite]`)).toBeVisible();
-    const reloaded = page.locator(".r12-discography__release").filter({ has: page.locator(`a[href^="/albums/${album.slug}"]`) }).first();
+    const reloaded = page.locator(".r12-discography__release").filter({ has: page.getByRole("link", { name: album.title, exact: true }) }).first();
     await reloaded.getByText("本机状态").click();
     await reloaded.getByRole("button", { name: "听过" }).click();
     await expect(page.locator("[data-metric=listened] dd")).toHaveText("1 张");
@@ -175,7 +177,7 @@ test.describe("R16-2C visible Artist collection", () => {
     await installState(page, state({ favoriteAlbumIds: dense.albumIds.slice(0, 2) }));
     const query = "lfrom=library&lview=favorite&entry=explore&trail=wake-after-the-rain&via=SHARED_ARTIST&pfrom=for-you";
     await settleArtist(page, routeFor(dense, query));
-    await expect(page.locator("[data-navigation-origin=library]")).toBeVisible();
+    await expect(page.locator("[data-navigation-origin=library_collection]")).toBeVisible();
     if (await page.locator(".r16-artist-collection__index a").count() === 0) {
       const row = page.locator(".r12-discography__release").first();
       await row.getByText("本机状态").click();
@@ -185,11 +187,11 @@ test.describe("R16-2C visible Artist collection", () => {
     const href = await work.getAttribute("href");
     expect(href).toContain("lfrom=library"); expect(href).toContain("entry=explore"); expect(href).toContain("pfrom=for-you");
     await work.click();
-    await expect(page.locator("[data-navigation-origin=library]")).toBeVisible();
+    await expect(page.locator("[data-navigation-origin=artist_discography]")).toBeVisible();
     await page.goBack();
     await expect(page.locator(".r16-artist-collection")).toBeVisible();
     await page.goto(routeFor(dense, "sfrom=search&sq=test"));
-    await expect(page.locator("[data-navigation-origin=search]")).toBeVisible();
+    await expect(page.locator("[data-navigation-origin=search_result]")).toBeVisible();
     await page.goto(routeFor(dense));
     await expect(page.locator(".r15-return-journey")).toHaveCount(0);
     expect(runtime).toEqual({ console: [], page: [], http: [], server: [], external: [] });
@@ -200,7 +202,7 @@ test.describe("R16-2C visible Artist collection", () => {
     await page.setViewportSize({ width: 390, height: 844 });
     await installState(page, state());
     await settleArtist(page, routeFor(sharedArtists[0]!));
-    const sharedRow = page.locator(".r12-discography__release").filter({ has: page.locator(`a[href^="/albums/${sharedAlbum.slug}"]`) }).first();
+    const sharedRow = page.locator(".r12-discography__release").filter({ has: page.getByRole("link", { name: sharedAlbum.title, exact: true }) }).first();
     await sharedRow.getByText("本机状态").click();
     await sharedRow.getByRole("button", { name: "收藏" }).click();
     await settleArtist(page, routeFor(sharedArtists[1]!));

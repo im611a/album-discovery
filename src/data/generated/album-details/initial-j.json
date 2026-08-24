@@ -1,0 +1,189 @@
+{
+  "internalId": "album:18898",
+  "id": "album:18898",
+  "neteaseAlbumId": "18898",
+  "slug": "initial-j",
+  "title": "Initial J",
+  "aliases": [
+    "Jay Chou Greatest Hits + Original Theme Songs from\"INITIAL D THE MOVIE\""
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2005-08-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18898.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18898.webp",
+    "alt": "《Initial J》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185929",
+      "neteaseTrackId": "185929",
+      "title": "可爱女人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 238000
+    },
+    {
+      "id": "netease-track:185930",
+      "neteaseTrackId": "185930",
+      "title": "黑色幽默",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 283000
+    },
+    {
+      "id": "netease-track:185931",
+      "neteaseTrackId": "185931",
+      "title": "忍者",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 159000
+    },
+    {
+      "id": "netease-track:185932",
+      "neteaseTrackId": "185932",
+      "title": "双截棍",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 201000
+    },
+    {
+      "id": "netease-track:185934",
+      "neteaseTrackId": "185934",
+      "title": "最后的战役",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 251000
+    },
+    {
+      "id": "netease-track:185936",
+      "neteaseTrackId": "185936",
+      "title": "以父之名",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 342000
+    },
+    {
+      "id": "netease-track:185938",
+      "neteaseTrackId": "185938",
+      "title": "东风破",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 315000
+    },
+    {
+      "id": "netease-track:185940",
+      "neteaseTrackId": "185940",
+      "title": "双刀",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 293000
+    },
+    {
+      "id": "netease-track:185942",
+      "neteaseTrackId": "185942",
+      "title": "七里香",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 298000
+    },
+    {
+      "id": "netease-track:185944",
+      "neteaseTrackId": "185944",
+      "title": "外婆",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦",
+        "张欣瑜"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:185946",
+      "neteaseTrackId": "185946",
+      "title": "飘移",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:185948",
+      "neteaseTrackId": "185948",
+      "title": "一路向北",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 297000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=18898",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Initial J Jay Chou Greatest Hits + Original Theme Songs from\"INITIAL D THE MOVIE\" 周杰伦",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

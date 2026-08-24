@@ -1,0 +1,132 @@
+{
+  "internalId": "album:1970636",
+  "id": "album:1970636",
+  "neteaseAlbumId": "1970636",
+  "slug": "e-s-p",
+  "title": "E.S.P.",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1965-08-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970636.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970636.webp",
+    "alt": "《E.S.P.》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341468",
+      "neteaseTrackId": "21341468",
+      "title": "E.S.P.",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 330466
+    },
+    {
+      "id": "netease-track:21341469",
+      "neteaseTrackId": "21341469",
+      "title": "Eighty-One",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 377370
+    },
+    {
+      "id": "netease-track:21341470",
+      "neteaseTrackId": "21341470",
+      "title": "Little One",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Herbie Hancock"
+      ],
+      "durationMs": 446171
+    },
+    {
+      "id": "netease-track:21341471",
+      "neteaseTrackId": "21341471",
+      "title": "R.J.",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 243066
+    },
+    {
+      "id": "netease-track:21341472",
+      "neteaseTrackId": "21341472",
+      "title": "Agitation",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 468601
+    },
+    {
+      "id": "netease-track:21341473",
+      "neteaseTrackId": "21341473",
+      "title": "Iris",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 515668
+    },
+    {
+      "id": "netease-track:21341474",
+      "neteaseTrackId": "21341474",
+      "title": "Mood",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 529414
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1970636",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "E.S.P. Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "internalId": "album:7558",
+  "id": "album:7558",
+  "neteaseAlbumId": "7558",
+  "slug": "35651",
+  "title": "35651",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:187214",
+      "neteaseArtistId": "187214",
+      "name": "不一定"
+    }
+  ],
+  "releaseDate": "2007-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7558.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7558.webp",
+    "alt": "《35651》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76963",
+      "neteaseTrackId": "76963",
+      "title": "文智涌:小号/窦唯:键盘/鼓/凯硕:人声",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 161080
+    },
+    {
+      "id": "netease-track:76966",
+      "neteaseTrackId": "76966",
+      "title": "窦唯:键盘/鼓/文智涌:低音管",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 78419
+    },
+    {
+      "id": "netease-track:76969",
+      "neteaseTrackId": "76969",
+      "title": "窦唯:钢琴/凯硕:鼓/文智涌:磬/铃",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:76972",
+      "neteaseTrackId": "76972",
+      "title": "小宝:人声/文智涌:钢琴",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 198760
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=7558",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic",
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "35651 窦唯 不一定",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

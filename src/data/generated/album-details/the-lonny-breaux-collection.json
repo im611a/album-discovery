@@ -1,0 +1,759 @@
+{
+  "internalId": "album:140966",
+  "id": "album:140966",
+  "neteaseAlbumId": "140966",
+  "slug": "the-lonny-breaux-collection",
+  "title": "The Lonny Breaux Collection",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:33727",
+      "neteaseArtistId": "33727",
+      "name": "Frank Ocean"
+    }
+  ],
+  "releaseDate": "2011-04-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/140966.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/140966.webp",
+    "alt": "《The Lonny Breaux Collection》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1371973",
+      "neteaseTrackId": "1371973",
+      "title": "Acura Integurl",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 117106
+    },
+    {
+      "id": "netease-track:1371976",
+      "neteaseTrackId": "1371976",
+      "title": "Bedtime Story",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:1371978",
+      "neteaseTrackId": "1371978",
+      "title": "Blasted (Prod. Midi Mafia)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 237191
+    },
+    {
+      "id": "netease-track:1371980",
+      "neteaseTrackId": "1371980",
+      "title": "Bricks And Steel [Prod. Underdogs]",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 247222
+    },
+    {
+      "id": "netease-track:1371983",
+      "neteaseTrackId": "1371983",
+      "title": "Broken Pieces [Prod. Clyde & Harry]",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 77061
+    },
+    {
+      "id": "netease-track:1371986",
+      "neteaseTrackId": "1371986",
+      "title": "Can't Be The Last Time [Prod. Gil & Vince]",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 254249
+    },
+    {
+      "id": "netease-track:1371990",
+      "neteaseTrackId": "1371990",
+      "title": "Day Away [Prod. Brain Kennedy]",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 212035
+    },
+    {
+      "id": "netease-track:1371993",
+      "neteaseTrackId": "1371993",
+      "title": "Denim (Prod. Brian Kennedy)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 262791
+    },
+    {
+      "id": "netease-track:1371996",
+      "neteaseTrackId": "1371996",
+      "title": "Done (Prod. Midi Mafia)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 204538
+    },
+    {
+      "id": "netease-track:1371999",
+      "neteaseTrackId": "1371999",
+      "title": "Dying for Your Love feat. Lonny Breaux",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:1372001",
+      "neteaseTrackId": "1372001",
+      "title": "Flight [Prod. By J.R. Hutson]",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:1372006",
+      "neteaseTrackId": "1372006",
+      "title": "Focus [Prod. Soundz]",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 185000
+    },
+    {
+      "id": "netease-track:1372009",
+      "neteaseTrackId": "1372009",
+      "title": "Follow [Prod. Underdogs]",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 207098
+    },
+    {
+      "id": "netease-track:1372011",
+      "neteaseTrackId": "1372011",
+      "title": "Go Up [Prod. J.R Hutson]",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:1372014",
+      "neteaseTrackId": "1372014",
+      "title": "Got The Keys (Prod. Midi Mafia)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:1372016",
+      "neteaseTrackId": "1372016",
+      "title": "Greedy Love [Prod. Midi Mafia]",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:1372020",
+      "neteaseTrackId": "1372020",
+      "title": "Hardest Thing (Prod. Midi Mafia)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:1372024",
+      "neteaseTrackId": "1372024",
+      "title": "Holly Baby",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:1372028",
+      "neteaseTrackId": "1372028",
+      "title": "I Need Love [Prod. The Cartel]",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:1372031",
+      "neteaseTrackId": "1372031",
+      "title": "If I'm In Love [Prod. Midi Mafia]",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 145000
+    },
+    {
+      "id": "netease-track:1372033",
+      "neteaseTrackId": "1372033",
+      "title": "J.O.B [Prod. Syience]",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 181000
+    },
+    {
+      "id": "netease-track:1372035",
+      "neteaseTrackId": "1372035",
+      "title": "James Fauntleroy - Dying for Your Love ft. Lonny Breaux (The Cartel)",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:1372037",
+      "neteaseTrackId": "1372037",
+      "title": "Kamikaze [Prod. Underdogs]",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:1372039",
+      "neteaseTrackId": "1372039",
+      "title": "Know Better (Prod. Brian Kennedy)",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 198000
+    },
+    {
+      "id": "netease-track:1372041",
+      "neteaseTrackId": "1372041",
+      "title": "Lights [Prod. Midi Mafia]",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:1372043",
+      "neteaseTrackId": "1372043",
+      "title": "Lonny (New Mix)",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:1372046",
+      "neteaseTrackId": "1372046",
+      "title": "Lost Angel (No 2nd Verse)",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:1372049",
+      "neteaseTrackId": "1372049",
+      "title": "Lost Angel [Prod. Brian Kennedy]",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:1372052",
+      "neteaseTrackId": "1372052",
+      "title": "Love On My Piano",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 193000
+    },
+    {
+      "id": "netease-track:1372055",
+      "neteaseTrackId": "1372055",
+      "title": "Miss You So (Prod. by Midi Mafia)",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 264103
+    },
+    {
+      "id": "netease-track:1372058",
+      "neteaseTrackId": "1372058",
+      "title": "No Bonnie [Prod. Midi Mafia]",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:1372060",
+      "neteaseTrackId": "1372060",
+      "title": "No Love",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 172000
+    },
+    {
+      "id": "netease-track:1372062",
+      "neteaseTrackId": "1372062",
+      "title": "Non-Stop [Prod. J.R. Rotem]",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 217000
+    },
+    {
+      "id": "netease-track:1372063",
+      "neteaseTrackId": "1372063",
+      "title": "Ohh In Love [Prod. Midi Mafia]",
+      "trackNumber": 34,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:1372065",
+      "neteaseTrackId": "1372065",
+      "title": "Old Terror [Prod. Midi Mafia]",
+      "trackNumber": 35,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 204000
+    },
+    {
+      "id": "netease-track:1372067",
+      "neteaseTrackId": "1372067",
+      "title": "One Look [Prod. Midi Mafia]",
+      "trackNumber": 36,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:1372069",
+      "neteaseTrackId": "1372069",
+      "title": "Open Air",
+      "trackNumber": 37,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 215170
+    },
+    {
+      "id": "netease-track:1372071",
+      "neteaseTrackId": "1372071",
+      "title": "Overload [Prod. Midi Mafia]",
+      "trackNumber": 38,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 231000
+    },
+    {
+      "id": "netease-track:1372074",
+      "neteaseTrackId": "1372074",
+      "title": "Private Show [Prod. J.R. Rotem]",
+      "trackNumber": 39,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:1372077",
+      "neteaseTrackId": "1372077",
+      "title": "Quickly (Prod. Midi Mafia)",
+      "trackNumber": 40,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 229000
+    },
+    {
+      "id": "netease-track:1372079",
+      "neteaseTrackId": "1372079",
+      "title": "Read The Stars (Prod. Midi Mafia)",
+      "trackNumber": 41,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:1372082",
+      "neteaseTrackId": "1372082",
+      "title": "Ready",
+      "trackNumber": 42,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:1372086",
+      "neteaseTrackId": "1372086",
+      "title": "Real [Prod. Underdogs]",
+      "trackNumber": 43,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 234000
+    },
+    {
+      "id": "netease-track:1372089",
+      "neteaseTrackId": "1372089",
+      "title": "Rewind That",
+      "trackNumber": 44,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 221000
+    },
+    {
+      "id": "netease-track:1372094",
+      "neteaseTrackId": "1372094",
+      "title": "Richest Man In The Room [Prod. Midi Mafia]",
+      "trackNumber": 45,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 227082
+    },
+    {
+      "id": "netease-track:1372099",
+      "neteaseTrackId": "1372099",
+      "title": "Rocket Love (Prod. by Midi Mafia)",
+      "trackNumber": 46,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:1372103",
+      "neteaseTrackId": "1372103",
+      "title": "Scared Of Beautiful (Prod. Midi Mafia)",
+      "trackNumber": 47,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 246000
+    },
+    {
+      "id": "netease-track:1372106",
+      "neteaseTrackId": "1372106",
+      "title": "She Won't Say Hello [Prod. Underdogs]",
+      "trackNumber": 48,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 196649
+    },
+    {
+      "id": "netease-track:1372109",
+      "neteaseTrackId": "1372109",
+      "title": "Simply (Prod. by Midi Mafia)",
+      "trackNumber": 49,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 228989
+    },
+    {
+      "id": "netease-track:1372111",
+      "neteaseTrackId": "1372111",
+      "title": "So Comfortable Feat. Lonny Breaux [Prod. Underdogs]",
+      "trackNumber": 50,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 212924
+    },
+    {
+      "id": "netease-track:1372113",
+      "neteaseTrackId": "1372113",
+      "title": "So Fresh",
+      "trackNumber": 51,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 93000
+    },
+    {
+      "id": "netease-track:1372116",
+      "neteaseTrackId": "1372116",
+      "title": "Standing Still [Prod. Midi Mafia]",
+      "trackNumber": 52,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:1372119",
+      "neteaseTrackId": "1372119",
+      "title": "Stay If You Go [Prod. Brian Kennedy]",
+      "trackNumber": 53,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:1372123",
+      "neteaseTrackId": "1372123",
+      "title": "Sucka For Love [Prod. Mansur]",
+      "trackNumber": 54,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 195031
+    },
+    {
+      "id": "netease-track:1372127",
+      "neteaseTrackId": "1372127",
+      "title": "Sucker For Love",
+      "trackNumber": 55,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 186044
+    },
+    {
+      "id": "netease-track:1372129",
+      "neteaseTrackId": "1372129",
+      "title": "Surprise Ending feat. Lonny Breaux",
+      "trackNumber": 56,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean",
+        "Brandy"
+      ],
+      "durationMs": 218566
+    },
+    {
+      "id": "netease-track:1372131",
+      "neteaseTrackId": "1372131",
+      "title": "Taste (Prod. Midi Mafia)",
+      "trackNumber": 57,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 206000
+    },
+    {
+      "id": "netease-track:1372133",
+      "neteaseTrackId": "1372133",
+      "title": "The City [Prod. Tim & Bob]",
+      "trackNumber": 58,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:1372136",
+      "neteaseTrackId": "1372136",
+      "title": "Time Machine [Prod. Midi Mafia]",
+      "trackNumber": 59,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 208000
+    },
+    {
+      "id": "netease-track:1372137",
+      "neteaseTrackId": "1372137",
+      "title": "Together [Prod. Brian Kennedy]",
+      "trackNumber": 60,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 269087
+    },
+    {
+      "id": "netease-track:1372140",
+      "neteaseTrackId": "1372140",
+      "title": "Tonight",
+      "trackNumber": 61,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 163000
+    },
+    {
+      "id": "netease-track:1372143",
+      "neteaseTrackId": "1372143",
+      "title": "Truce (Prod. by The Runners)",
+      "trackNumber": 62,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:1372147",
+      "neteaseTrackId": "1372147",
+      "title": "Wake Up [Prod. Underdogs]",
+      "trackNumber": 63,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 219088
+    },
+    {
+      "id": "netease-track:1372148",
+      "neteaseTrackId": "1372148",
+      "title": "When I'm Done (Prod. Midi Mafia)",
+      "trackNumber": 64,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 204000
+    }
+  ],
+  "trackCount": 64,
+  "externalUrl": "https://music.163.com/#/album?id=140966",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Lonny Breaux Collection Frank Ocean",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

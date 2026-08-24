@@ -1,0 +1,296 @@
+{
+  "internalId": "album:23708",
+  "id": "album:23708",
+  "neteaseAlbumId": "23708",
+  "slug": "netease-album-23708",
+  "title": "走西口",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7785",
+      "neteaseArtistId": "7785",
+      "name": "龚琳娜"
+    }
+  ],
+  "releaseDate": "2007-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "中国唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23708.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23708.webp",
+    "alt": "《走西口》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:236635",
+      "neteaseTrackId": "236635",
+      "title": "桃花红 杏花白(山西民歌)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 136640
+    },
+    {
+      "id": "netease-track:236638",
+      "neteaseTrackId": "236638",
+      "title": "走西口(陕北民歌)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 212146
+    },
+    {
+      "id": "netease-track:236641",
+      "neteaseTrackId": "236641",
+      "title": "五更月(甘肃民歌)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 250066
+    },
+    {
+      "id": "netease-track:236643",
+      "neteaseTrackId": "236643",
+      "title": "茉莉花(江苏民歌)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 163213
+    },
+    {
+      "id": "netease-track:236644",
+      "neteaseTrackId": "236644",
+      "title": "螃蟹歌(贵州儿歌)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 86120
+    },
+    {
+      "id": "netease-track:236647",
+      "neteaseTrackId": "236647",
+      "title": "盘歌(贵州儿歌)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 186426
+    },
+    {
+      "id": "netease-track:236648",
+      "neteaseTrackId": "236648",
+      "title": "细细辣子(贵州儿歌)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 141773
+    },
+    {
+      "id": "netease-track:236650",
+      "neteaseTrackId": "236650",
+      "title": "白鸽赶场(贵州儿歌)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 91093
+    },
+    {
+      "id": "netease-track:236652",
+      "neteaseTrackId": "236652",
+      "title": "杨柳青(山西民歌)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 180800
+    },
+    {
+      "id": "netease-track:236654",
+      "neteaseTrackId": "236654",
+      "title": "丢丢铜(福建民歌)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 136346
+    },
+    {
+      "id": "netease-track:236655",
+      "neteaseTrackId": "236655",
+      "title": "茉莉花(河北民歌)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 360160
+    },
+    {
+      "id": "netease-track:236656",
+      "neteaseTrackId": "236656",
+      "title": "绣荷包(山西民歌)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 183586
+    },
+    {
+      "id": "netease-track:236658",
+      "neteaseTrackId": "236658",
+      "title": "放风筝(河北民歌)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 240813
+    },
+    {
+      "id": "netease-track:236659",
+      "neteaseTrackId": "236659",
+      "title": "好花红(贵州民歌)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 199960
+    },
+    {
+      "id": "netease-track:236663",
+      "neteaseTrackId": "236663",
+      "title": "小表妹",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 201853
+    },
+    {
+      "id": "netease-track:236666",
+      "neteaseTrackId": "236666",
+      "title": "上去高山望平川(甘肃民歌)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 101613
+    },
+    {
+      "id": "netease-track:236669",
+      "neteaseTrackId": "236669",
+      "title": "尕老汉(甘肃民歌)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 86933
+    },
+    {
+      "id": "netease-track:236672",
+      "neteaseTrackId": "236672",
+      "title": "黄河船夫曲(陕北民歌)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 191080
+    },
+    {
+      "id": "netease-track:236675",
+      "neteaseTrackId": "236675",
+      "title": "五哥放羊(陕北民歌)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 254986
+    },
+    {
+      "id": "netease-track:236678",
+      "neteaseTrackId": "236678",
+      "title": "包愣调(山东民歌)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 127213
+    },
+    {
+      "id": "netease-track:236681",
+      "neteaseTrackId": "236681",
+      "title": "凤阳花鼓(安徽民歌)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 170826
+    },
+    {
+      "id": "netease-track:236683",
+      "neteaseTrackId": "236683",
+      "title": "花非花",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 217480
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=23708",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "走西口 龚琳娜",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

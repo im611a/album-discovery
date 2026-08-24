@@ -1,0 +1,164 @@
+{
+  "internalId": "album:29619",
+  "id": "album:29619",
+  "neteaseAlbumId": "29619",
+  "slug": "netease-album-29619",
+  "title": "真情",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1992-11-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29619.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29619.webp",
+    "alt": "《真情》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298540",
+      "neteaseTrackId": "298540",
+      "title": "我记得你眼里的依恋",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:298543",
+      "neteaseTrackId": "298543",
+      "title": "习惯寂寞",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 243066
+    },
+    {
+      "id": "netease-track:298545",
+      "neteaseTrackId": "298545",
+      "title": "猜心",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 293198
+    },
+    {
+      "id": "netease-track:298546",
+      "neteaseTrackId": "298546",
+      "title": "桂花酿",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 320737
+    },
+    {
+      "id": "netease-track:298549",
+      "neteaseTrackId": "298549",
+      "title": "思念",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 335063
+    },
+    {
+      "id": "netease-track:298551",
+      "neteaseTrackId": "298551",
+      "title": "我愿意",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 224722
+    },
+    {
+      "id": "netease-track:298553",
+      "neteaseTrackId": "298553",
+      "title": "信赖",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 230736
+    },
+    {
+      "id": "netease-track:298555",
+      "neteaseTrackId": "298555",
+      "title": "把阳光都给你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 329173
+    },
+    {
+      "id": "netease-track:298557",
+      "neteaseTrackId": "298557",
+      "title": "结束伤心的话题",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 346720
+    },
+    {
+      "id": "netease-track:298560",
+      "neteaseTrackId": "298560",
+      "title": "清晨的梦",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 290333
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29619",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "真情 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

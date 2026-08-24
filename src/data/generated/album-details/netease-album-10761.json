@@ -1,0 +1,386 @@
+{
+  "internalId": "album:10761",
+  "id": "album:10761",
+  "neteaseAlbumId": "10761",
+  "slug": "netease-album-10761",
+  "title": "家课",
+  "aliases": [
+    "Homework"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2012-03-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10761.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10761.webp",
+    "alt": "《家课》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108345",
+      "neteaseTrackId": "108345",
+      "title": "雪糕车",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 322200
+    },
+    {
+      "id": "netease-track:108349",
+      "neteaseTrackId": "108349",
+      "title": "离开是为了回来",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 237333
+    },
+    {
+      "id": "netease-track:108353",
+      "neteaseTrackId": "108353",
+      "title": "游子意",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 228053
+    },
+    {
+      "id": "netease-track:108357",
+      "neteaseTrackId": "108357",
+      "title": "涂城记",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 195053
+    },
+    {
+      "id": "netease-track:108360",
+      "neteaseTrackId": "108360",
+      "title": "简单不简单",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 273186
+    },
+    {
+      "id": "netease-track:108372",
+      "neteaseTrackId": "108372",
+      "title": "青草地 溪水旁(自游Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 161346
+    },
+    {
+      "id": "netease-track:108376",
+      "neteaseTrackId": "108376",
+      "title": "刚点起烟车就来($1500 Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 225860
+    },
+    {
+      "id": "netease-track:108381",
+      "neteaseTrackId": "108381",
+      "title": "一支烟的时间",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:108385",
+      "neteaseTrackId": "108385",
+      "title": "未完舞曲(Cantata Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 328866
+    },
+    {
+      "id": "netease-track:108389",
+      "neteaseTrackId": "108389",
+      "title": "花月楼(樱花诀 2012)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 205333
+    },
+    {
+      "id": "netease-track:108395",
+      "neteaseTrackId": "108395",
+      "title": "今天应该更高兴(Confession Version)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 250333
+    },
+    {
+      "id": "netease-track:108405",
+      "neteaseTrackId": "108405",
+      "title": "The Best is Yet to Come",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 170332
+    },
+    {
+      "id": "netease-track:108409",
+      "neteaseTrackId": "108409",
+      "title": "维多利亚",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 208533
+    },
+    {
+      "id": "netease-track:108413",
+      "neteaseTrackId": "108413",
+      "title": "红河村",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 299080
+    },
+    {
+      "id": "netease-track:108416",
+      "neteaseTrackId": "108416",
+      "title": "活下来(Keep Rolling Version)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 269906
+    },
+    {
+      "id": "netease-track:108419",
+      "neteaseTrackId": "108419",
+      "title": "思路",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 207200
+    },
+    {
+      "id": "netease-track:108423",
+      "neteaseTrackId": "108423",
+      "title": "好天气",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 265053
+    },
+    {
+      "id": "netease-track:108426",
+      "neteaseTrackId": "108426",
+      "title": "CL411(Take Flight Version)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 251093
+    },
+    {
+      "id": "netease-track:108430",
+      "neteaseTrackId": "108430",
+      "title": "Just a Little Longer",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 233840
+    },
+    {
+      "id": "netease-track:108434",
+      "neteaseTrackId": "108434",
+      "title": "重回布拉格",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 226986
+    },
+    {
+      "id": "netease-track:108438",
+      "neteaseTrackId": "108438",
+      "title": "时间河(Delta Version)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 183666
+    },
+    {
+      "id": "netease-track:108442",
+      "neteaseTrackId": "108442",
+      "title": "烟圈和肥皂泡",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 212506
+    },
+    {
+      "id": "netease-track:108447",
+      "neteaseTrackId": "108447",
+      "title": "19",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 186826
+    },
+    {
+      "id": "netease-track:108451",
+      "neteaseTrackId": "108451",
+      "title": "给最开心的人",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 240466
+    },
+    {
+      "id": "netease-track:108455",
+      "neteaseTrackId": "108455",
+      "title": "向着阳光",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 217066
+    },
+    {
+      "id": "netease-track:108460",
+      "neteaseTrackId": "108460",
+      "title": "In Love Again",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 195066
+    },
+    {
+      "id": "netease-track:108465",
+      "neteaseTrackId": "108465",
+      "title": "冷热之间",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 186893
+    },
+    {
+      "id": "netease-track:108472",
+      "neteaseTrackId": "108472",
+      "title": "回到花开的那天",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 270546
+    },
+    {
+      "id": "netease-track:108477",
+      "neteaseTrackId": "108477",
+      "title": "一峰一人一结他",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 320480
+    },
+    {
+      "id": "netease-track:108481",
+      "neteaseTrackId": "108481",
+      "title": "清水",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 290533
+    }
+  ],
+  "trackCount": 30,
+  "externalUrl": "https://music.163.com/#/album?id=10761",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "家课 Homework 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

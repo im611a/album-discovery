@@ -1,0 +1,178 @@
+{
+  "internalId": "album:1970272",
+  "id": "album:1970272",
+  "neteaseAlbumId": "1970272",
+  "slug": "music-from-siesta",
+  "title": "Music From Siesta",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    },
+    {
+      "id": "netease-artist:38893",
+      "neteaseArtistId": "38893",
+      "name": "Marcus Miller"
+    }
+  ],
+  "releaseDate": "1969-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970272.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970272.webp",
+    "alt": "《Music From Siesta》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21335671",
+      "neteaseTrackId": "21335671",
+      "title": "Lost in Madrid, Pt. I",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 108733
+    },
+    {
+      "id": "netease-track:21335672",
+      "neteaseTrackId": "21335672",
+      "title": "Siesta / Kitt's Kiss / Lost in Madrid, Pt. II",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 414760
+    },
+    {
+      "id": "netease-track:21335673",
+      "neteaseTrackId": "21335673",
+      "title": "Theme for Augustine / Wind / Seduction / Kiss",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 393600
+    },
+    {
+      "id": "netease-track:21335674",
+      "neteaseTrackId": "21335674",
+      "title": "Submission",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 152040
+    },
+    {
+      "id": "netease-track:21335675",
+      "neteaseTrackId": "21335675",
+      "title": "Lost in Madrid, Pt. III",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 49866
+    },
+    {
+      "id": "netease-track:21335676",
+      "neteaseTrackId": "21335676",
+      "title": "Conchita / Lament",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 404000
+    },
+    {
+      "id": "netease-track:21335677",
+      "neteaseTrackId": "21335677",
+      "title": "Lost in Madrid, Pt. IV / Rat Dance / The Call",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 101693
+    },
+    {
+      "id": "netease-track:21335678",
+      "neteaseTrackId": "21335678",
+      "title": "Claire / Lost in Madrid, Pt. V",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 273600
+    },
+    {
+      "id": "netease-track:21335679",
+      "neteaseTrackId": "21335679",
+      "title": "Afterglow",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Marcus Miller"
+      ],
+      "durationMs": 101106
+    },
+    {
+      "id": "netease-track:21335680",
+      "neteaseTrackId": "21335680",
+      "title": "Los Feliz",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Marcus Miller"
+      ],
+      "durationMs": 275226
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1970272",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Music From Siesta Miles Davis Marcus Miller",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

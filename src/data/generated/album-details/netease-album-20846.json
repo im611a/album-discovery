@@ -1,0 +1,164 @@
+{
+  "internalId": "album:20846",
+  "id": "album:20846",
+  "neteaseAlbumId": "20846",
+  "slug": "netease-album-20846",
+  "title": "失恋无罪",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7063",
+      "neteaseArtistId": "7063",
+      "name": "黄丽玲"
+    }
+  ],
+  "releaseDate": "2006-02-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "爱贝克思",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/20846.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/20846.webp",
+    "alt": "《失恋无罪》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:205449",
+      "neteaseTrackId": "205449",
+      "title": "失恋无罪",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 246693
+    },
+    {
+      "id": "netease-track:205450",
+      "neteaseTrackId": "205450",
+      "title": "Ah Ah",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 198026
+    },
+    {
+      "id": "netease-track:205451",
+      "neteaseTrackId": "205451",
+      "title": "我还是不懂",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 248600
+    },
+    {
+      "id": "netease-track:205452",
+      "neteaseTrackId": "205452",
+      "title": "四季",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 291973
+    },
+    {
+      "id": "netease-track:205453",
+      "neteaseTrackId": "205453",
+      "title": "新的自我",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 206293
+    },
+    {
+      "id": "netease-track:205454",
+      "neteaseTrackId": "205454",
+      "title": "假娃娃",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 221986
+    },
+    {
+      "id": "netease-track:205455",
+      "neteaseTrackId": "205455",
+      "title": "位置",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 322989
+    },
+    {
+      "id": "netease-track:205456",
+      "neteaseTrackId": "205456",
+      "title": "回家",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 324160
+    },
+    {
+      "id": "netease-track:205457",
+      "neteaseTrackId": "205457",
+      "title": "Run Back To Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 260626
+    },
+    {
+      "id": "netease-track:205458",
+      "neteaseTrackId": "205458",
+      "title": "Beautiful",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 240453
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=20846",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "失恋无罪 黄丽玲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

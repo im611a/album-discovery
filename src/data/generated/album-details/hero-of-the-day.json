@@ -1,0 +1,120 @@
+{
+  "internalId": "album:172198",
+  "id": "album:172198",
+  "neteaseAlbumId": "172198",
+  "slug": "hero-of-the-day",
+  "title": "Hero of the Day",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1996-09-08",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Elektra Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172198.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172198.webp",
+    "alt": "《Hero of the Day》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1697514",
+      "neteaseTrackId": "1697514",
+      "title": "Hero of the Day",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 261893
+    },
+    {
+      "id": "netease-track:1697519",
+      "neteaseTrackId": "1697519",
+      "title": "Hero Of The Day (Mouldy)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 323000
+    },
+    {
+      "id": "netease-track:1697523",
+      "neteaseTrackId": "1697523",
+      "title": "Hero of the Day (Outta B Sides Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 394000
+    },
+    {
+      "id": "netease-track:1697528",
+      "neteaseTrackId": "1697528",
+      "title": "Stone Dead Forever",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 292048
+    },
+    {
+      "id": "netease-track:1697534",
+      "neteaseTrackId": "1697534",
+      "title": "Damage Case",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 220306
+    },
+    {
+      "id": "netease-track:1697539",
+      "neteaseTrackId": "1697539",
+      "title": "Too Late Too Late",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 192062
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=172198",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Hero of the Day Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

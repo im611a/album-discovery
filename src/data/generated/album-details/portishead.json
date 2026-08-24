@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1681848",
+  "id": "album:1681848",
+  "neteaseAlbumId": "1681848",
+  "slug": "portishead",
+  "title": "Portishead",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:98538",
+      "neteaseArtistId": "98538",
+      "name": "Portishead"
+    }
+  ],
+  "releaseDate": "1997-09-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Island Mercury",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1681848.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1681848.webp",
+    "alt": "《Portishead》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18326532",
+      "neteaseTrackId": "18326532",
+      "title": "Cowboys",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 278825
+    },
+    {
+      "id": "netease-track:18326533",
+      "neteaseTrackId": "18326533",
+      "title": "All Mine",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 240640
+    },
+    {
+      "id": "netease-track:18326534",
+      "neteaseTrackId": "18326534",
+      "title": "Undenied",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 260026
+    },
+    {
+      "id": "netease-track:18326535",
+      "neteaseTrackId": "18326535",
+      "title": "Half Day Closing",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 227950
+    },
+    {
+      "id": "netease-track:18326536",
+      "neteaseTrackId": "18326536",
+      "title": "Over",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 237466
+    },
+    {
+      "id": "netease-track:18326537",
+      "neteaseTrackId": "18326537",
+      "title": "Humming",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 362393
+    },
+    {
+      "id": "netease-track:18326538",
+      "neteaseTrackId": "18326538",
+      "title": "Mourning Air",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 252226
+    },
+    {
+      "id": "netease-track:18326539",
+      "neteaseTrackId": "18326539",
+      "title": "Seven Months",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 257436
+    },
+    {
+      "id": "netease-track:18326540",
+      "neteaseTrackId": "18326540",
+      "title": "Only You",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 299630
+    },
+    {
+      "id": "netease-track:18326541",
+      "neteaseTrackId": "18326541",
+      "title": "Elysium",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 354708
+    },
+    {
+      "id": "netease-track:18326542",
+      "neteaseTrackId": "18326542",
+      "title": "Western Eyes",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 239333
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1681848",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Portishead Portishead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

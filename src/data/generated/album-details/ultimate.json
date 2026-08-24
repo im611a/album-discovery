@@ -1,0 +1,386 @@
+{
+  "internalId": "album:19057",
+  "id": "album:19057",
+  "neteaseAlbumId": "19057",
+  "slug": "ultimate",
+  "title": "Ultimate",
+  "aliases": [
+    "张国荣经典金曲精选"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1992-05-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "新艺宝",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19057.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19057.webp",
+    "alt": "《Ultimate》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188150",
+      "neteaseTrackId": "188150",
+      "title": "拒绝再玩",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 214466
+    },
+    {
+      "id": "netease-track:188154",
+      "neteaseTrackId": "188154",
+      "title": "无形锁扣",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 265253
+    },
+    {
+      "id": "netease-track:188158",
+      "neteaseTrackId": "188158",
+      "title": "无心睡眠",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 192680
+    },
+    {
+      "id": "netease-track:188162",
+      "neteaseTrackId": "188162",
+      "title": "共同渡过",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 266200
+    },
+    {
+      "id": "netease-track:188165",
+      "neteaseTrackId": "188165",
+      "title": "够了",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 232827
+    },
+    {
+      "id": "netease-track:188168",
+      "neteaseTrackId": "188168",
+      "title": "情难自控",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 256905
+    },
+    {
+      "id": "netease-track:188171",
+      "neteaseTrackId": "188171",
+      "title": "爱的凶手",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 235800
+    },
+    {
+      "id": "netease-track:188175",
+      "neteaseTrackId": "188175",
+      "title": "倩女幽魂",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217773
+    },
+    {
+      "id": "netease-track:188178",
+      "neteaseTrackId": "188178",
+      "title": "热辣辣",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 202933
+    },
+    {
+      "id": "netease-track:188181",
+      "neteaseTrackId": "188181",
+      "title": "奔向未来日子",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 270186
+    },
+    {
+      "id": "netease-track:188184",
+      "neteaseTrackId": "188184",
+      "title": "Hot Summer",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 237960
+    },
+    {
+      "id": "netease-track:188188",
+      "neteaseTrackId": "188188",
+      "title": "想你",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 299080
+    },
+    {
+      "id": "netease-track:188192",
+      "neteaseTrackId": "188192",
+      "title": "贴身",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 198200
+    },
+    {
+      "id": "netease-track:188196",
+      "neteaseTrackId": "188196",
+      "title": "最爱",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 311373
+    },
+    {
+      "id": "netease-track:188200",
+      "neteaseTrackId": "188200",
+      "title": "烈火灯蛾",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 259667
+    },
+    {
+      "id": "netease-track:188204",
+      "neteaseTrackId": "188204",
+      "title": "沉默是金",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248964
+    },
+    {
+      "id": "netease-track:188208",
+      "neteaseTrackId": "188208",
+      "title": "继续跳舞",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 273906
+    },
+    {
+      "id": "netease-track:188211",
+      "neteaseTrackId": "188211",
+      "title": "Dreaming",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 292266
+    },
+    {
+      "id": "netease-track:188214",
+      "neteaseTrackId": "188214",
+      "title": "侧面",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 225533
+    },
+    {
+      "id": "netease-track:188217",
+      "neteaseTrackId": "188217",
+      "title": "由零开始",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 251066
+    },
+    {
+      "id": "netease-track:188220",
+      "neteaseTrackId": "188220",
+      "title": "偏心",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 226826
+    },
+    {
+      "id": "netease-track:188222",
+      "neteaseTrackId": "188222",
+      "title": "别话",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247493
+    },
+    {
+      "id": "netease-track:188224",
+      "neteaseTrackId": "188224",
+      "title": "暴风一族",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 207493
+    },
+    {
+      "id": "netease-track:188226",
+      "neteaseTrackId": "188226",
+      "title": "风再起时",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 270800
+    },
+    {
+      "id": "netease-track:188229",
+      "neteaseTrackId": "188229",
+      "title": "Miss You Much",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 226720
+    },
+    {
+      "id": "netease-track:188232",
+      "neteaseTrackId": "188232",
+      "title": "寂寞夜晚",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 266000
+    },
+    {
+      "id": "netease-track:188235",
+      "neteaseTrackId": "188235",
+      "title": "Why？！",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248667
+    },
+    {
+      "id": "netease-track:188237",
+      "neteaseTrackId": "188237",
+      "title": "Forever爱你",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 259400
+    },
+    {
+      "id": "netease-track:188240",
+      "neteaseTrackId": "188240",
+      "title": "未来之歌",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 354000
+    },
+    {
+      "id": "netease-track:188242",
+      "neteaseTrackId": "188242",
+      "title": "无需要太多",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268026
+    }
+  ],
+  "trackCount": 30,
+  "externalUrl": "https://music.163.com/#/album?id=19057",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ultimate 张国荣经典金曲精选 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

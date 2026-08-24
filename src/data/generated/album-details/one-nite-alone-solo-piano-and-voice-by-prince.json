@@ -1,0 +1,164 @@
+{
+  "internalId": "album:184208",
+  "id": "album:184208",
+  "neteaseAlbumId": "184208",
+  "slug": "one-nite-alone-solo-piano-and-voice-by-prince",
+  "title": "One Nite Alone... (Solo Piano and Voice by Prince)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "2002-05-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184208.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184208.webp",
+    "alt": "《One Nite Alone... (Solo Piano and Voice by Prince)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1822729",
+      "neteaseTrackId": "1822729",
+      "title": "One Nite Alone...",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 218012
+    },
+    {
+      "id": "netease-track:1822732",
+      "neteaseTrackId": "1822732",
+      "title": "U're Gonna C Me",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 316813
+    },
+    {
+      "id": "netease-track:1822735",
+      "neteaseTrackId": "1822735",
+      "title": "Here On Earth",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 203035
+    },
+    {
+      "id": "netease-track:1822737",
+      "neteaseTrackId": "1822737",
+      "title": "A Case of U",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 219683
+    },
+    {
+      "id": "netease-track:1822741",
+      "neteaseTrackId": "1822741",
+      "title": "Have a Heart",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 124667
+    },
+    {
+      "id": "netease-track:1822744",
+      "neteaseTrackId": "1822744",
+      "title": "Objects In the Mirror",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 207330
+    },
+    {
+      "id": "netease-track:1822747",
+      "neteaseTrackId": "1822747",
+      "title": "Avalanche",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 264568
+    },
+    {
+      "id": "netease-track:1822751",
+      "neteaseTrackId": "1822751",
+      "title": "Pearls B4 the Swine",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 181278
+    },
+    {
+      "id": "netease-track:1822755",
+      "neteaseTrackId": "1822755",
+      "title": "Young and Beautiful",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 164722
+    },
+    {
+      "id": "netease-track:1822759",
+      "neteaseTrackId": "1822759",
+      "title": "Arboretum",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 138971
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=184208",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "One Nite Alone... (Solo Piano and Voice by Prince) Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

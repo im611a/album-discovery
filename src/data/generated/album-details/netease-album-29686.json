@@ -1,0 +1,319 @@
+{
+  "internalId": "album:29686",
+  "id": "album:29686",
+  "neteaseAlbumId": "29686",
+  "slug": "netease-album-29686",
+  "title": "你王菲所以我王菲",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2002-03-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29686.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29686.webp",
+    "alt": "《你王菲所以我王菲》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:299392",
+      "neteaseTrackId": "299392",
+      "title": "怀念",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 201066
+    },
+    {
+      "id": "netease-track:299397",
+      "neteaseTrackId": "299397",
+      "title": "你快乐(所以我快乐)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 260266
+    },
+    {
+      "id": "netease-track:299402",
+      "neteaseTrackId": "299402",
+      "title": "麻醉",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 243360
+    },
+    {
+      "id": "netease-track:299407",
+      "neteaseTrackId": "299407",
+      "title": "我也不想这样",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 296573
+    },
+    {
+      "id": "netease-track:299412",
+      "neteaseTrackId": "299412",
+      "title": "闷",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 252600
+    },
+    {
+      "id": "netease-track:299417",
+      "neteaseTrackId": "299417",
+      "title": "人间",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 286906
+    },
+    {
+      "id": "netease-track:299422",
+      "neteaseTrackId": "299422",
+      "title": "脸",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 214400
+    },
+    {
+      "id": "netease-track:299427",
+      "neteaseTrackId": "299427",
+      "title": "开到荼蘼",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 313400
+    },
+    {
+      "id": "netease-track:299430",
+      "neteaseTrackId": "299430",
+      "title": "只爱陌生人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 221866
+    },
+    {
+      "id": "netease-track:299432",
+      "neteaseTrackId": "299432",
+      "title": "当时的月亮",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 231640
+    },
+    {
+      "id": "netease-track:299433",
+      "neteaseTrackId": "299433",
+      "title": "香奈儿",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 294493
+    },
+    {
+      "id": "netease-track:299435",
+      "neteaseTrackId": "299435",
+      "title": "阿修罗",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 299840
+    },
+    {
+      "id": "netease-track:299437",
+      "neteaseTrackId": "299437",
+      "title": "如果你是假的",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 238840
+    },
+    {
+      "id": "netease-track:299439",
+      "neteaseTrackId": "299439",
+      "title": "你喜欢不如我喜欢",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 242066
+    },
+    {
+      "id": "netease-track:299442",
+      "neteaseTrackId": "299442",
+      "title": "精彩",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 287226
+    },
+    {
+      "id": "netease-track:299445",
+      "neteaseTrackId": "299445",
+      "title": "流年",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 272200
+    },
+    {
+      "id": "netease-track:299448",
+      "neteaseTrackId": "299448",
+      "title": "偿还",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 257640
+    },
+    {
+      "id": "netease-track:299451",
+      "neteaseTrackId": "299451",
+      "title": "原谅自己",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 220160
+    },
+    {
+      "id": "netease-track:299454",
+      "neteaseTrackId": "299454",
+      "title": "守望麦田",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 320840
+    },
+    {
+      "id": "netease-track:299457",
+      "neteaseTrackId": "299457",
+      "title": "萤火虫",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 311440
+    },
+    {
+      "id": "netease-track:299460",
+      "neteaseTrackId": "299460",
+      "title": "邮差",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 258333
+    },
+    {
+      "id": "netease-track:299463",
+      "neteaseTrackId": "299463",
+      "title": "给自己的情书",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 267826
+    },
+    {
+      "id": "netease-track:299466",
+      "neteaseTrackId": "299466",
+      "title": "迷魂记",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 245800
+    },
+    {
+      "id": "netease-track:299468",
+      "neteaseTrackId": "299468",
+      "title": "色盲",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 192106
+    }
+  ],
+  "trackCount": 24,
+  "externalUrl": "https://music.163.com/#/album?id=29686",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "你王菲所以我王菲 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

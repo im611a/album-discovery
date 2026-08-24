@@ -1,0 +1,307 @@
+{
+  "internalId": "album:1969751",
+  "id": "album:1969751",
+  "neteaseAlbumId": "1969751",
+  "slug": "stockholm-1960-complete",
+  "title": "Stockholm 1960 Complete",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2012-07-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Dragon Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969751.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969751.webp",
+    "alt": "《Stockholm 1960 Complete》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21327115",
+      "neteaseTrackId": "21327115",
+      "title": "So what",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 919093
+    },
+    {
+      "id": "netease-track:21327116",
+      "neteaseTrackId": "21327116",
+      "title": "On green Dolphin Street",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 819533
+    },
+    {
+      "id": "netease-track:21327117",
+      "neteaseTrackId": "21327117",
+      "title": "All blues/The theme",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1031866
+    },
+    {
+      "id": "netease-track:21327118",
+      "neteaseTrackId": "21327118",
+      "title": "Coltrane interview",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 374440
+    },
+    {
+      "id": "netease-track:21327119",
+      "neteaseTrackId": "21327119",
+      "title": "So what",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 648666
+    },
+    {
+      "id": "netease-track:21327120",
+      "neteaseTrackId": "21327120",
+      "title": "Fran-Dance",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 447626
+    },
+    {
+      "id": "netease-track:21327121",
+      "neteaseTrackId": "21327121",
+      "title": "Walkin'/The theme",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1041200
+    },
+    {
+      "id": "netease-track:21327122",
+      "neteaseTrackId": "21327122",
+      "title": "Walkin'",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 800133
+    },
+    {
+      "id": "netease-track:21327123",
+      "neteaseTrackId": "21327123",
+      "title": "Autumn leaves",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 811600
+    },
+    {
+      "id": "netease-track:21327124",
+      "neteaseTrackId": "21327124",
+      "title": "So what",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 670893
+    },
+    {
+      "id": "netease-track:21327125",
+      "neteaseTrackId": "21327125",
+      "title": "Round midnight/The theme",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 434933
+    },
+    {
+      "id": "netease-track:21327126",
+      "neteaseTrackId": "21327126",
+      "title": "June night",
+      "trackNumber": 1,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 640960
+    },
+    {
+      "id": "netease-track:21327127",
+      "neteaseTrackId": "21327127",
+      "title": "Stardust",
+      "trackNumber": 2,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 258266
+    },
+    {
+      "id": "netease-track:21327128",
+      "neteaseTrackId": "21327128",
+      "title": "On green Dolphin Street",
+      "trackNumber": 3,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 823666
+    },
+    {
+      "id": "netease-track:21327129",
+      "neteaseTrackId": "21327129",
+      "title": "All blues/The theme",
+      "trackNumber": 4,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 879600
+    },
+    {
+      "id": "netease-track:21327130",
+      "neteaseTrackId": "21327130",
+      "title": "All of you",
+      "trackNumber": 5,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 937533
+    },
+    {
+      "id": "netease-track:21327131",
+      "neteaseTrackId": "21327131",
+      "title": "Walkin'",
+      "trackNumber": 1,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 877800
+    },
+    {
+      "id": "netease-track:21327132",
+      "neteaseTrackId": "21327132",
+      "title": "Autumn leaves/The theme",
+      "trackNumber": 2,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 890133
+    },
+    {
+      "id": "netease-track:21327133",
+      "neteaseTrackId": "21327133",
+      "title": "Softly as in a morning sunrise",
+      "trackNumber": 3,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 497666
+    },
+    {
+      "id": "netease-track:21327134",
+      "neteaseTrackId": "21327134",
+      "title": "Makin' whopee",
+      "trackNumber": 4,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 475600
+    },
+    {
+      "id": "netease-track:21327135",
+      "neteaseTrackId": "21327135",
+      "title": "Lover man",
+      "trackNumber": 5,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 257560
+    },
+    {
+      "id": "netease-track:21327136",
+      "neteaseTrackId": "21327136",
+      "title": "If i were a bell",
+      "trackNumber": 6,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 673066
+    },
+    {
+      "id": "netease-track:21327137",
+      "neteaseTrackId": "21327137",
+      "title": "No blues/The theme",
+      "trackNumber": 7,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 848506
+    }
+  ],
+  "trackCount": 23,
+  "externalUrl": "https://music.163.com/#/album?id=1969751",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Stockholm 1960 Complete Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

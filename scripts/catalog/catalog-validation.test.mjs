@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import catalog from "../../src/data/generated/catalog.json" with { type: "json" };
 import identities from "./netease-identities.json" with { type: "json" };
 import rymSnapshot from "./rym-taxonomy-snapshot.json" with { type: "json" };
-import { validateCatalogData } from "./catalog-validation.mjs";
+import { semanticAlbumIdentity, validateCatalogData } from "./catalog-validation.mjs";
 
 const clone = () => structuredClone(catalog);
 
@@ -18,6 +18,20 @@ describe("NetEase catalog validation", () => {
     const changed = clone();
     changed.albums[1].neteaseAlbumId = changed.albums[0].neteaseAlbumId;
     expect(validateCatalogData(changed, identities, rymSnapshot).errors).toContain(`Duplicate NetEase album ID: ${changed.albums[0].neteaseAlbumId}`);
+  });
+
+  it("uses one canonical artist/title/year identity for strict uniqueness validation", () => {
+    const changed = clone();
+    const duplicate = structuredClone(changed.albums[0]);
+    duplicate.neteaseAlbumId = "999999991";
+    duplicate.id = `album:${duplicate.neteaseAlbumId}`;
+    duplicate.internalId = duplicate.id;
+    duplicate.slug = `${duplicate.slug}-identity-collision`;
+    duplicate.externalUrl = `https://music.163.com/#/album?id=${duplicate.neteaseAlbumId}`;
+    changed.albums.push(duplicate);
+    const identityKey = semanticAlbumIdentity(duplicate);
+    expect(identityKey).toBe(semanticAlbumIdentity(changed.albums[0]));
+    expect(validateCatalogData(changed, identities, rymSnapshot).errors).toContain(`Duplicate artist/title/year identity: ${identityKey}`);
   });
 
   it("rejects an outbound URL that does not match its album ID", () => {

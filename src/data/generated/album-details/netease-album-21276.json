@@ -1,0 +1,186 @@
+{
+  "internalId": "album:21276",
+  "id": "album:21276",
+  "neteaseAlbumId": "21276",
+  "slug": "netease-album-21276",
+  "title": "陌生人",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2003-06-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21276.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21276.webp",
+    "alt": "《陌生人》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209105",
+      "neteaseTrackId": "209105",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 40400
+    },
+    {
+      "id": "netease-track:209108",
+      "neteaseTrackId": "209108",
+      "title": "无底洞",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 242693
+    },
+    {
+      "id": "netease-track:209111",
+      "neteaseTrackId": "209111",
+      "title": "夜盲症",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 228893
+    },
+    {
+      "id": "netease-track:209114",
+      "neteaseTrackId": "209114",
+      "title": "精彩",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 231266
+    },
+    {
+      "id": "netease-track:209119",
+      "neteaseTrackId": "209119",
+      "title": "失乐园",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 258266
+    },
+    {
+      "id": "netease-track:209121",
+      "neteaseTrackId": "209121",
+      "title": "陌生人",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 234120
+    },
+    {
+      "id": "netease-track:209124",
+      "neteaseTrackId": "209124",
+      "title": "沙滩",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 292599
+    },
+    {
+      "id": "netease-track:209127",
+      "neteaseTrackId": "209127",
+      "title": "你说",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 188533
+    },
+    {
+      "id": "netease-track:209134",
+      "neteaseTrackId": "209134",
+      "title": "下一站",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 225893
+    },
+    {
+      "id": "netease-track:209136",
+      "neteaseTrackId": "209136",
+      "title": "有问题",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 210866
+    },
+    {
+      "id": "netease-track:209139",
+      "neteaseTrackId": "209139",
+      "title": "爱情的路",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 291773
+    },
+    {
+      "id": "netease-track:209141",
+      "neteaseTrackId": "209141",
+      "title": "忘了",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 311266
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=21276",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "陌生人 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

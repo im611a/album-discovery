@@ -1,0 +1,98 @@
+{
+  "internalId": "album:422074",
+  "id": "album:422074",
+  "neteaseAlbumId": "422074",
+  "slug": "sunny-sundae-smile",
+  "title": "Sunny Sundae Smile",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:96273",
+      "neteaseArtistId": "96273",
+      "name": "My Bloody Valentine"
+    }
+  ],
+  "releaseDate": "1987-10-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/422074.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/422074.webp",
+    "alt": "《Sunny Sundae Smile》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4174298",
+      "neteaseTrackId": "4174298",
+      "title": "Sunny Sundae Smile",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 143000
+    },
+    {
+      "id": "netease-track:4174300",
+      "neteaseTrackId": "4174300",
+      "title": "Paint A Rainbow",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 132000
+    },
+    {
+      "id": "netease-track:4174304",
+      "neteaseTrackId": "4174304",
+      "title": "Kiss The Eclipse",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 146000
+    },
+    {
+      "id": "netease-track:4174306",
+      "neteaseTrackId": "4174306",
+      "title": "Sylvie's Head",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 108000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=422074",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sunny Sundae Smile My Bloody Valentine",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

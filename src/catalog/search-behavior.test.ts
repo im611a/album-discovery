@@ -22,7 +22,7 @@ describe("local search behavior", () => {
     expect(searchAlbums("unverified-alias-that-is-not-published")).toEqual([]);
   });
   it("does not search taxonomy or listening-context fields", () => {
-    expect(searchAlbums("ambient")).toEqual([]);
+    expect(searchAlbums("post-rock")).toEqual([]);
     expect(searchAlbums("夜晚")).toEqual([]);
   });
 });

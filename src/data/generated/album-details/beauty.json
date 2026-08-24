@@ -1,0 +1,186 @@
+{
+  "internalId": "album:47848",
+  "id": "album:47848",
+  "neteaseAlbumId": "47848",
+  "slug": "beauty",
+  "title": "Beauty",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1989-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47848.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47848.webp",
+    "alt": "《Beauty》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:502375",
+      "neteaseTrackId": "502375",
+      "title": "You Do Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 305733
+    },
+    {
+      "id": "netease-track:502378",
+      "neteaseTrackId": "502378",
+      "title": "Calling From Tokyo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 266266
+    },
+    {
+      "id": "netease-track:502381",
+      "neteaseTrackId": "502381",
+      "title": "A Rose",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 312819
+    },
+    {
+      "id": "netease-track:502384",
+      "neteaseTrackId": "502384",
+      "title": "Asadoya Yunta",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 276526
+    },
+    {
+      "id": "netease-track:502389",
+      "neteaseTrackId": "502389",
+      "title": "Futique",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 248866
+    },
+    {
+      "id": "netease-track:502393",
+      "neteaseTrackId": "502393",
+      "title": "Amore",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 294200
+    },
+    {
+      "id": "netease-track:502397",
+      "neteaseTrackId": "502397",
+      "title": "We Love You",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 286333
+    },
+    {
+      "id": "netease-track:502401",
+      "neteaseTrackId": "502401",
+      "title": "Diabaram",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 253266
+    },
+    {
+      "id": "netease-track:502406",
+      "neteaseTrackId": "502406",
+      "title": "A Pile Of Time",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 334333
+    },
+    {
+      "id": "netease-track:502411",
+      "neteaseTrackId": "502411",
+      "title": "Romance",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 332600
+    },
+    {
+      "id": "netease-track:502416",
+      "neteaseTrackId": "502416",
+      "title": "Chinsagu No Hana",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 447666
+    },
+    {
+      "id": "netease-track:1328773135",
+      "neteaseTrackId": "1328773135",
+      "title": "You Do Me",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 239866
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=47848",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Beauty 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

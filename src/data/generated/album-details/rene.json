@@ -1,0 +1,233 @@
+{
+  "internalId": "album:25393",
+  "id": "album:25393",
+  "neteaseAlbumId": "25393",
+  "slug": "rene",
+  "title": "Rene",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2008-02-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25393.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25393.webp",
+    "alt": "《Rene》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254170",
+      "neteaseTrackId": "254170",
+      "title": "飞",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 16000
+    },
+    {
+      "id": "netease-track:254173",
+      "neteaseTrackId": "254173",
+      "title": "分开旅行",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄立行"
+      ],
+      "durationMs": 248627
+    },
+    {
+      "id": "netease-track:254175",
+      "neteaseTrackId": "254175",
+      "title": "很爱很爱你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 284547
+    },
+    {
+      "id": "netease-track:254177",
+      "neteaseTrackId": "254177",
+      "title": "飞行中的思念",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 299133
+    },
+    {
+      "id": "netease-track:254179",
+      "neteaseTrackId": "254179",
+      "title": "光",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 237933
+    },
+    {
+      "id": "netease-track:254181",
+      "neteaseTrackId": "254181",
+      "title": "我的失败与伟大",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 213627
+    },
+    {
+      "id": "netease-track:254183",
+      "neteaseTrackId": "254183",
+      "title": "一辈子的孤单",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 272266
+    },
+    {
+      "id": "netease-track:254185",
+      "neteaseTrackId": "254185",
+      "title": "原来你也在这里",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 220534
+    },
+    {
+      "id": "netease-track:254188",
+      "neteaseTrackId": "254188",
+      "title": "蝴蝶",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 260800
+    },
+    {
+      "id": "netease-track:254190",
+      "neteaseTrackId": "254190",
+      "title": "知道不知道",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 222560
+    },
+    {
+      "id": "netease-track:254192",
+      "neteaseTrackId": "254192",
+      "title": "一次幸福的机会",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 235600
+    },
+    {
+      "id": "netease-track:254194",
+      "neteaseTrackId": "254194",
+      "title": "听 是谁在唱歌",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄韵玲"
+      ],
+      "durationMs": 225160
+    },
+    {
+      "id": "netease-track:254196",
+      "neteaseTrackId": "254196",
+      "title": "听说",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 243000
+    },
+    {
+      "id": "netease-track:254199",
+      "neteaseTrackId": "254199",
+      "title": "24楼",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "杨坤"
+      ],
+      "durationMs": 266213
+    },
+    {
+      "id": "netease-track:254201",
+      "neteaseTrackId": "254201",
+      "title": "为爱痴狂",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 304866
+    },
+    {
+      "id": "netease-track:254202",
+      "neteaseTrackId": "254202",
+      "title": "黄昏以后 天亮以前",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 287827
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=25393",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Rene 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

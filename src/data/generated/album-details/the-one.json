@@ -1,0 +1,296 @@
+{
+  "internalId": "album:32381",
+  "id": "album:32381",
+  "neteaseAlbumId": "32381",
+  "slug": "the-one",
+  "title": "The One",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "name": "张靓颖"
+    }
+  ],
+  "releaseDate": "2006-10-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/32381.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/32381.webp",
+    "alt": "《The One》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:327214",
+      "neteaseTrackId": "327214",
+      "title": "身体语言",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 255293
+    },
+    {
+      "id": "netease-track:327216",
+      "neteaseTrackId": "327216",
+      "title": "这该死的爱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 297000
+    },
+    {
+      "id": "netease-track:327221",
+      "neteaseTrackId": "327221",
+      "title": "Take it like a man",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 228866
+    },
+    {
+      "id": "netease-track:327225",
+      "neteaseTrackId": "327225",
+      "title": "如果爱下去",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 242333
+    },
+    {
+      "id": "netease-track:327228",
+      "neteaseTrackId": "327228",
+      "title": "Can't take it back",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 192626
+    },
+    {
+      "id": "netease-track:327230",
+      "neteaseTrackId": "327230",
+      "title": "个人秘密",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 250813
+    },
+    {
+      "id": "netease-track:327233",
+      "neteaseTrackId": "327233",
+      "title": "想你,零点零一分",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 251533
+    },
+    {
+      "id": "netease-track:327236",
+      "neteaseTrackId": "327236",
+      "title": "木脑壳",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 227960
+    },
+    {
+      "id": "netease-track:327240",
+      "neteaseTrackId": "327240",
+      "title": "Girl of your dreams",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 235466
+    },
+    {
+      "id": "netease-track:327243",
+      "neteaseTrackId": "327243",
+      "title": "Midnight, Goodnight",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 267906
+    },
+    {
+      "id": "netease-track:458412885",
+      "neteaseTrackId": "458412885",
+      "title": "身体语言 (伴奏)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 256146
+    },
+    {
+      "id": "netease-track:458412876",
+      "neteaseTrackId": "458412876",
+      "title": "这该死的爱 (伴奏)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 299346
+    },
+    {
+      "id": "netease-track:458412879",
+      "neteaseTrackId": "458412879",
+      "title": "Take It Like A Man (伴奏)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 230480
+    },
+    {
+      "id": "netease-track:458412884",
+      "neteaseTrackId": "458412884",
+      "title": "如果爱下去 (伴奏)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 244520
+    },
+    {
+      "id": "netease-track:458412878",
+      "neteaseTrackId": "458412878",
+      "title": "Can't take it back (伴奏)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 194266
+    },
+    {
+      "id": "netease-track:458412880",
+      "neteaseTrackId": "458412880",
+      "title": "Heart (伴奏)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 233599
+    },
+    {
+      "id": "netease-track:458412877",
+      "neteaseTrackId": "458412877",
+      "title": "木脑壳 (伴奏)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 229720
+    },
+    {
+      "id": "netease-track:458412882",
+      "neteaseTrackId": "458412882",
+      "title": "Girl of your dreams (伴奏)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 237226
+    },
+    {
+      "id": "netease-track:458412883",
+      "neteaseTrackId": "458412883",
+      "title": "Dream (伴奏)",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 244506
+    },
+    {
+      "id": "netease-track:458412874",
+      "neteaseTrackId": "458412874",
+      "title": "BANG BANG SHOW RUFF JANE Z (伴奏)",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 250409
+    },
+    {
+      "id": "netease-track:458412875",
+      "neteaseTrackId": "458412875",
+      "title": "依赖 (伴奏)",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 222869
+    },
+    {
+      "id": "netease-track:458412881",
+      "neteaseTrackId": "458412881",
+      "title": "美丽与勇敢 (伴奏)",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 222920
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=32381",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The One 张靓颖",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

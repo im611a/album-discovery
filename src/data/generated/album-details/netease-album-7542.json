@@ -1,0 +1,175 @@
+{
+  "internalId": "album:7542",
+  "id": "album:7542",
+  "neteaseAlbumId": "7542",
+  "slug": "netease-album-7542",
+  "title": "月光",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2514",
+      "neteaseArtistId": "2514",
+      "name": "蛋堡"
+    }
+  ],
+  "releaseDate": "2010-10-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "颜社企业有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7542.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7542.webp",
+    "alt": "《月光》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76832",
+      "neteaseTrackId": "76832",
+      "title": "We Got Jazz",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 251958
+    },
+    {
+      "id": "netease-track:76833",
+      "neteaseTrackId": "76833",
+      "title": "经典!",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 235797
+    },
+    {
+      "id": "netease-track:76834",
+      "neteaseTrackId": "76834",
+      "title": "I Want You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 246408
+    },
+    {
+      "id": "netease-track:76835",
+      "neteaseTrackId": "76835",
+      "title": "钻牙者",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 227879
+    },
+    {
+      "id": "netease-track:76836",
+      "neteaseTrackId": "76836",
+      "title": "她和时间跳华尔兹",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 381873
+    },
+    {
+      "id": "netease-track:76837",
+      "neteaseTrackId": "76837",
+      "title": "过程",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 288320
+    },
+    {
+      "id": "netease-track:76838",
+      "neteaseTrackId": "76838",
+      "title": "月光下",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 262546
+    },
+    {
+      "id": "netease-track:76839",
+      "neteaseTrackId": "76839",
+      "title": "夜间漫游",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 261269
+    },
+    {
+      "id": "netease-track:76840",
+      "neteaseTrackId": "76840",
+      "title": "经典 ! (Blu-Swing remix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 240928
+    },
+    {
+      "id": "netease-track:76841",
+      "neteaseTrackId": "76841",
+      "title": "过程 (14? remix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 268769
+    },
+    {
+      "id": "netease-track:76842",
+      "neteaseTrackId": "76842",
+      "title": "过程 (Shin-Ski’s Still In Progress remix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 284977
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=7542",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "月光 蛋堡",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

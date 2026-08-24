@@ -1,0 +1,175 @@
+{
+  "internalId": "album:260864",
+  "id": "album:260864",
+  "neteaseAlbumId": "260864",
+  "slug": "heroes-are-hard-to-find",
+  "title": "Heroes Are Hard to Find",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1974-09-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260864.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260864.webp",
+    "alt": "《Heroes Are Hard to Find》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2590049",
+      "neteaseTrackId": "2590049",
+      "title": "Heroes Are Hard to Find",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 215600
+    },
+    {
+      "id": "netease-track:2590053",
+      "neteaseTrackId": "2590053",
+      "title": "Coming Home",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 234773
+    },
+    {
+      "id": "netease-track:2590057",
+      "neteaseTrackId": "2590057",
+      "title": "Angel",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 234560
+    },
+    {
+      "id": "netease-track:2590061",
+      "neteaseTrackId": "2590061",
+      "title": "Bermuda Triangle",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 248240
+    },
+    {
+      "id": "netease-track:2590065",
+      "neteaseTrackId": "2590065",
+      "title": "Come a Little Bit Closer",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 288093
+    },
+    {
+      "id": "netease-track:2590069",
+      "neteaseTrackId": "2590069",
+      "title": "She's Changing Me",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 179840
+    },
+    {
+      "id": "netease-track:2590074",
+      "neteaseTrackId": "2590074",
+      "title": "Bad Loser",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 205666
+    },
+    {
+      "id": "netease-track:2590079",
+      "neteaseTrackId": "2590079",
+      "title": "Silver Heels",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 207693
+    },
+    {
+      "id": "netease-track:2590084",
+      "neteaseTrackId": "2590084",
+      "title": "Prove Your Love",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 238440
+    },
+    {
+      "id": "netease-track:2590089",
+      "neteaseTrackId": "2590089",
+      "title": "Born Enchanter",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 174893
+    },
+    {
+      "id": "netease-track:2590095",
+      "neteaseTrackId": "2590095",
+      "title": "Safe Harbour",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 150866
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=260864",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Heroes Are Hard to Find Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

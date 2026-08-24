@@ -1,0 +1,252 @@
+{
+  "internalId": "album:1757599",
+  "id": "album:1757599",
+  "neteaseAlbumId": "1757599",
+  "slug": "songs-in-a-e",
+  "title": "Songs in A&E",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "2008-05-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fat Possum",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1757599.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1757599.webp",
+    "alt": "《Songs in A&E》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19169207",
+      "neteaseTrackId": "19169207",
+      "title": "Harmony 1 (Mellotron)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 24093
+    },
+    {
+      "id": "netease-track:19169208",
+      "neteaseTrackId": "19169208",
+      "title": "Sweet Talk",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 244854
+    },
+    {
+      "id": "netease-track:19169209",
+      "neteaseTrackId": "19169209",
+      "title": "Death Take Your Fiddle",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 191982
+    },
+    {
+      "id": "netease-track:19169210",
+      "neteaseTrackId": "19169210",
+      "title": "I Gotta Fire",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 146819
+    },
+    {
+      "id": "netease-track:19169211",
+      "neteaseTrackId": "19169211",
+      "title": "Soul On Fire",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 246224
+    },
+    {
+      "id": "netease-track:19169212",
+      "neteaseTrackId": "19169212",
+      "title": "Harmony 2 (Piano)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 42506
+    },
+    {
+      "id": "netease-track:19169213",
+      "neteaseTrackId": "19169213",
+      "title": "Sitting On Fire",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 278160
+    },
+    {
+      "id": "netease-track:19169214",
+      "neteaseTrackId": "19169214",
+      "title": "Yeah Yeah",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 148120
+    },
+    {
+      "id": "netease-track:19169215",
+      "neteaseTrackId": "19169215",
+      "title": "You Lie You Cheat",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 184203
+    },
+    {
+      "id": "netease-track:19169216",
+      "neteaseTrackId": "19169216",
+      "title": "Harmony 3 (Voice)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 18120
+    },
+    {
+      "id": "netease-track:19169217",
+      "neteaseTrackId": "19169217",
+      "title": "Baby I'm Just A Fool",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 427316
+    },
+    {
+      "id": "netease-track:19169218",
+      "neteaseTrackId": "19169218",
+      "title": "Don't Hold Me Close",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 188253
+    },
+    {
+      "id": "netease-track:19169219",
+      "neteaseTrackId": "19169219",
+      "title": "Harmony 4 (The Old Man...)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 92840
+    },
+    {
+      "id": "netease-track:19169220",
+      "neteaseTrackId": "19169220",
+      "title": "The Waves Crash In",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 248917
+    },
+    {
+      "id": "netease-track:19169221",
+      "neteaseTrackId": "19169221",
+      "title": "Harmony 5 (Accordion)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 63761
+    },
+    {
+      "id": "netease-track:19169222",
+      "neteaseTrackId": "19169222",
+      "title": "Borrowed Your Gun",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 215852
+    },
+    {
+      "id": "netease-track:19169223",
+      "neteaseTrackId": "19169223",
+      "title": "Harmony 6 (Glockenspiel)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 50973
+    },
+    {
+      "id": "netease-track:19169224",
+      "neteaseTrackId": "19169224",
+      "title": "Goodnight Goodnight",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 278093
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=1757599",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Songs in A&E Spiritualized",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

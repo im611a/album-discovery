@@ -1,0 +1,120 @@
+{
+  "internalId": "album:172512",
+  "id": "album:172512",
+  "neteaseAlbumId": "172512",
+  "slug": "we-want-miles-live",
+  "title": "We Want Miles [live]",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1982-05-11",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172512.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172512.webp",
+    "alt": "《We Want Miles [live]》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1701522",
+      "neteaseTrackId": "1701522",
+      "title": "Jean-Pierre",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 639000
+    },
+    {
+      "id": "netease-track:1701528",
+      "neteaseTrackId": "1701528",
+      "title": "Back Seat Betty",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 492332
+    },
+    {
+      "id": "netease-track:1701534",
+      "neteaseTrackId": "1701534",
+      "title": "Fast Track",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 912962
+    },
+    {
+      "id": "netease-track:1701540",
+      "neteaseTrackId": "1701540",
+      "title": "Jean-Pierre",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 639000
+    },
+    {
+      "id": "netease-track:1701544",
+      "neteaseTrackId": "1701544",
+      "title": "My Man's Gone Now",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1216000
+    },
+    {
+      "id": "netease-track:1701548",
+      "neteaseTrackId": "1701548",
+      "title": "Kix",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1115324
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=172512",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "We Want Miles [live] Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

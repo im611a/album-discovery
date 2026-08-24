@@ -1,0 +1,205 @@
+{
+  "internalId": "album:1738266",
+  "id": "album:1738266",
+  "neteaseAlbumId": "1738266",
+  "slug": "graduation-uk-edition",
+  "title": "Graduation (UK Edition)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2007-09-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1738266.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1738266.webp",
+    "alt": "《Graduation (UK Edition)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18969152",
+      "neteaseTrackId": "18969152",
+      "title": "Good Morning",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 195200
+    },
+    {
+      "id": "netease-track:18969153",
+      "neteaseTrackId": "18969153",
+      "title": "Champion",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 167506
+    },
+    {
+      "id": "netease-track:18969154",
+      "neteaseTrackId": "18969154",
+      "title": "Stronger",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Daft Punk"
+      ],
+      "durationMs": 311946
+    },
+    {
+      "id": "netease-track:18969155",
+      "neteaseTrackId": "18969155",
+      "title": "I Wonder",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 243426
+    },
+    {
+      "id": "netease-track:18969156",
+      "neteaseTrackId": "18969156",
+      "title": "Good Life",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "T-Pain"
+      ],
+      "durationMs": 207052
+    },
+    {
+      "id": "netease-track:18969157",
+      "neteaseTrackId": "18969157",
+      "title": "Can't Tell Me Nothing",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 271507
+    },
+    {
+      "id": "netease-track:18969158",
+      "neteaseTrackId": "18969158",
+      "title": "Barry Bonds",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Lil Wayne"
+      ],
+      "durationMs": 204333
+    },
+    {
+      "id": "netease-track:18969159",
+      "neteaseTrackId": "18969159",
+      "title": "Drunk and Hot Girls",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Mos Def"
+      ],
+      "durationMs": 313226
+    },
+    {
+      "id": "netease-track:18969160",
+      "neteaseTrackId": "18969160",
+      "title": "Flashing Lights",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Dwele",
+        "Connie Mitchell"
+      ],
+      "durationMs": 237506
+    },
+    {
+      "id": "netease-track:18969161",
+      "neteaseTrackId": "18969161",
+      "title": "Everything I Am",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "DJ Premier"
+      ],
+      "durationMs": 227773
+    },
+    {
+      "id": "netease-track:18969162",
+      "neteaseTrackId": "18969162",
+      "title": "The Glory",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 212826
+    },
+    {
+      "id": "netease-track:18969163",
+      "neteaseTrackId": "18969163",
+      "title": "Homecoming",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Chris Martin"
+      ],
+      "durationMs": 203546
+    },
+    {
+      "id": "netease-track:18969164",
+      "neteaseTrackId": "18969164",
+      "title": "Big Brother",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 587853
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1738266",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Graduation (UK Edition) Kanye West",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

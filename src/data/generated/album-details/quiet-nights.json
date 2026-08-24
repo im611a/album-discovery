@@ -1,0 +1,145 @@
+{
+  "internalId": "album:1970631",
+  "id": "album:1970631",
+  "neteaseAlbumId": "1970631",
+  "slug": "quiet-nights",
+  "title": "Quiet Nights",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1963-12-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970631.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970631.webp",
+    "alt": "《Quiet Nights》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341420",
+      "neteaseTrackId": "21341420",
+      "title": "Song No. 2 (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 101120
+    },
+    {
+      "id": "netease-track:21341421",
+      "neteaseTrackId": "21341421",
+      "title": "Once Upon a Summertime",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 206000
+    },
+    {
+      "id": "netease-track:21341422",
+      "neteaseTrackId": "21341422",
+      "title": "Aos Pes Da Cruz",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 260109
+    },
+    {
+      "id": "netease-track:21341423",
+      "neteaseTrackId": "21341423",
+      "title": "Song No. 1 (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 277681
+    },
+    {
+      "id": "netease-track:21341424",
+      "neteaseTrackId": "21341424",
+      "title": "Wait Till You See Her (Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 246758
+    },
+    {
+      "id": "netease-track:21341425",
+      "neteaseTrackId": "21341425",
+      "title": "Corcovado",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 165146
+    },
+    {
+      "id": "netease-track:21341426",
+      "neteaseTrackId": "21341426",
+      "title": "Summer Night (Album Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 366419
+    },
+    {
+      "id": "netease-track:21341427",
+      "neteaseTrackId": "21341427",
+      "title": "The Time Of The Barracudas (Album Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 765570
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1970631",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Quiet Nights Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "internalId": "album:23700",
+  "id": "album:23700",
+  "neteaseAlbumId": "23700",
+  "slug": "netease-album-23700",
+  "title": "夜雪",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7785",
+      "neteaseArtistId": "7785",
+      "name": "龚琳娜"
+    }
+  ],
+  "releaseDate": "2010-03-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "龚锣国际",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23700.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23700.webp",
+    "alt": "《夜雪》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:236551",
+      "neteaseTrackId": "236551",
+      "title": "草",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 197173
+    },
+    {
+      "id": "netease-track:236553",
+      "neteaseTrackId": "236553",
+      "title": "白云泉",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 99160
+    },
+    {
+      "id": "netease-track:236555",
+      "neteaseTrackId": "236555",
+      "title": "夜雪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 223920
+    },
+    {
+      "id": "netease-track:236557",
+      "neteaseTrackId": "236557",
+      "title": "花非花",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 220506
+    },
+    {
+      "id": "netease-track:236560",
+      "neteaseTrackId": "236560",
+      "title": "一钵沙蒿",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 272133
+    },
+    {
+      "id": "netease-track:236563",
+      "neteaseTrackId": "236563",
+      "title": "忐忑",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 243453
+    },
+    {
+      "id": "netease-track:236566",
+      "neteaseTrackId": "236566",
+      "title": "庭院深深",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 318186
+    },
+    {
+      "id": "netease-track:236569",
+      "neteaseTrackId": "236569",
+      "title": "悲情欲望",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 341466
+    },
+    {
+      "id": "netease-track:236572",
+      "neteaseTrackId": "236572",
+      "title": "阳光少女",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 254933
+    },
+    {
+      "id": "netease-track:236575",
+      "neteaseTrackId": "236575",
+      "title": "静夜思",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 263693
+    },
+    {
+      "id": "netease-track:236578",
+      "neteaseTrackId": "236578",
+      "title": "将近酒",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 246520
+    },
+    {
+      "id": "netease-track:236580",
+      "neteaseTrackId": "236580",
+      "title": "希望",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 338600
+    },
+    {
+      "id": "netease-track:236582",
+      "neteaseTrackId": "236582",
+      "title": "琉璃光",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 294213
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=23700",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "夜雪 龚琳娜",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

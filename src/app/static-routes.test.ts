@@ -27,7 +27,7 @@ describe("static route contract", () => {
     expect(core).toHaveLength(15);
     expect(related).toHaveLength(24);
     expect(scenes).toHaveLength(7);
-    expect(decades).toHaveLength(7);
+    expect(decades).toHaveLength(9);
     expect(new Set([...core, ...related, ...scenes, ...decades].map((item) => item.slug)).size).toBeGreaterThan(0);
   });
 

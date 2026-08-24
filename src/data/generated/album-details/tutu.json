@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1970424",
+  "id": "album:1970424",
+  "neteaseAlbumId": "1970424",
+  "slug": "tutu",
+  "title": "Tutu",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1986-08-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970424.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970424.webp",
+    "alt": "《Tutu》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21338039",
+      "neteaseTrackId": "21338039",
+      "title": "Tutu",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 316666
+    },
+    {
+      "id": "netease-track:21338040",
+      "neteaseTrackId": "21338040",
+      "title": "Tomaas",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 335533
+    },
+    {
+      "id": "netease-track:21338041",
+      "neteaseTrackId": "21338041",
+      "title": "Portia",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 380133
+    },
+    {
+      "id": "netease-track:21338042",
+      "neteaseTrackId": "21338042",
+      "title": "Splatch",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 283706
+    },
+    {
+      "id": "netease-track:21338043",
+      "neteaseTrackId": "21338043",
+      "title": "Backyard Ritual",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 289026
+    },
+    {
+      "id": "netease-track:21338044",
+      "neteaseTrackId": "21338044",
+      "title": "Perfect Way",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 274640
+    },
+    {
+      "id": "netease-track:21338045",
+      "neteaseTrackId": "21338045",
+      "title": "Don't Lose Your Mind",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 349333
+    },
+    {
+      "id": "netease-track:21338046",
+      "neteaseTrackId": "21338046",
+      "title": "Full Nelson",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 307000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1970424",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Tutu Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "internalId": "album:172076",
+  "id": "album:172076",
+  "neteaseAlbumId": "172076",
+  "slug": "live-at-grimey-s",
+  "title": "Live at Grimey's",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2010-11-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Phantasm Imports",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172076.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172076.webp",
+    "alt": "《Live at Grimey's》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1695831",
+      "neteaseTrackId": "1695831",
+      "title": "No Remorse",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 294000
+    },
+    {
+      "id": "netease-track:1695832",
+      "neteaseTrackId": "1695832",
+      "title": "Fuel",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 268000
+    },
+    {
+      "id": "netease-track:1695833",
+      "neteaseTrackId": "1695833",
+      "title": "Harvester of Sorrow",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 378000
+    },
+    {
+      "id": "netease-track:1695834",
+      "neteaseTrackId": "1695834",
+      "title": "Welcome Home (Sanitarium)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 449000
+    },
+    {
+      "id": "netease-track:1695835",
+      "neteaseTrackId": "1695835",
+      "title": "For Whom the Bell Tolls",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 592000
+    },
+    {
+      "id": "netease-track:1695836",
+      "neteaseTrackId": "1695836",
+      "title": "Master of Puppets",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 525000
+    },
+    {
+      "id": "netease-track:1695837",
+      "neteaseTrackId": "1695837",
+      "title": "Sad but True",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 352000
+    },
+    {
+      "id": "netease-track:1695838",
+      "neteaseTrackId": "1695838",
+      "title": "Motorbreath",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 193000
+    },
+    {
+      "id": "netease-track:1695839",
+      "neteaseTrackId": "1695839",
+      "title": "Seek & Destroy",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 471170
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=172076",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live at Grimey's Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:6479",
+  "id": "album:6479",
+  "neteaseAlbumId": "6479",
+  "slug": "netease-album-6479",
+  "title": "怎么样",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2005-11-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6479.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6479.webp",
+    "alt": "《怎么样》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:66131",
+      "neteaseTrackId": "66131",
+      "title": "不能再等待",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 209880
+    },
+    {
+      "id": "netease-track:66136",
+      "neteaseTrackId": "66136",
+      "title": "对不起,谢谢",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 261840
+    },
+    {
+      "id": "netease-track:66140",
+      "neteaseTrackId": "66140",
+      "title": "Hippie",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 292022
+    },
+    {
+      "id": "netease-track:66144",
+      "neteaseTrackId": "66144",
+      "title": "不然你要我怎么样",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 292960
+    },
+    {
+      "id": "netease-track:66148",
+      "neteaseTrackId": "66148",
+      "title": "不睡",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 272680
+    },
+    {
+      "id": "netease-track:66151",
+      "neteaseTrackId": "66151",
+      "title": "一夜销魂",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 259040
+    },
+    {
+      "id": "netease-track:66155",
+      "neteaseTrackId": "66155",
+      "title": "浮城",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 223880
+    },
+    {
+      "id": "netease-track:66159",
+      "neteaseTrackId": "66159",
+      "title": "早开的长途班",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 225426
+    },
+    {
+      "id": "netease-track:66162",
+      "neteaseTrackId": "66162",
+      "title": "听听",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 165720
+    },
+    {
+      "id": "netease-track:66166",
+      "neteaseTrackId": "66166",
+      "title": "人神斗",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 281586
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6479",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "怎么样 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

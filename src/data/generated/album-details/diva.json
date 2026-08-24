@@ -1,0 +1,120 @@
+{
+  "internalId": "album:220714",
+  "id": "album:220714",
+  "neteaseAlbumId": "220714",
+  "slug": "diva",
+  "title": "Diva",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2009-01-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220714.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220714.webp",
+    "alt": "《Diva》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188214",
+      "neteaseTrackId": "2188214",
+      "title": "Diva (Red Top Vocal Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 395000
+    },
+    {
+      "id": "netease-track:2188217",
+      "neteaseTrackId": "2188217",
+      "title": "Diva (Karmatronic Vocal Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 305922
+    },
+    {
+      "id": "netease-track:2188220",
+      "neteaseTrackId": "2188220",
+      "title": "Diva (Escape & Tony Coluccio Vocal Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 405000
+    },
+    {
+      "id": "netease-track:2188223",
+      "neteaseTrackId": "2188223",
+      "title": "Diva (Maurice Joshua Mojo Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 413000
+    },
+    {
+      "id": "netease-track:2188225",
+      "neteaseTrackId": "2188225",
+      "title": "Diva (Gomi & Rasjek Vocal Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 447000
+    },
+    {
+      "id": "netease-track:2188227",
+      "neteaseTrackId": "2188227",
+      "title": "Diva (DJ Jeff Barringer vs. Fingaz Vocal Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 453000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=220714",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Diva Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

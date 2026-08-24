@@ -1,0 +1,164 @@
+{
+  "internalId": "album:184190",
+  "id": "album:184190",
+  "neteaseAlbumId": "184190",
+  "slug": "the-slaughterhouse-trax-from-the-npg-music-club-volume-2",
+  "title": "The Slaughterhouse (Trax from the NPG Music Club Volume 2)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "2004-03-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184190.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184190.webp",
+    "alt": "《The Slaughterhouse (Trax from the NPG Music Club Volume 2)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1822514",
+      "neteaseTrackId": "1822514",
+      "title": "Silicon",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 255210
+    },
+    {
+      "id": "netease-track:1822516",
+      "neteaseTrackId": "1822516",
+      "title": "S&M Groove",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 307896
+    },
+    {
+      "id": "netease-track:1822518",
+      "neteaseTrackId": "1822518",
+      "title": "Y Should Eye Do That When Eye Can Do This?",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 271278
+    },
+    {
+      "id": "netease-track:1822520",
+      "neteaseTrackId": "1822520",
+      "title": "Golden Parachute",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 335621
+    },
+    {
+      "id": "netease-track:1822523",
+      "neteaseTrackId": "1822523",
+      "title": "Hypnoparadise",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 363252
+    },
+    {
+      "id": "netease-track:1822525",
+      "neteaseTrackId": "1822525",
+      "title": "Props'N'Pounds",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 276015
+    },
+    {
+      "id": "netease-track:1822527",
+      "neteaseTrackId": "1822527",
+      "title": "Northside",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 391488
+    },
+    {
+      "id": "netease-track:1822529",
+      "neteaseTrackId": "1822529",
+      "title": "Peace",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 331789
+    },
+    {
+      "id": "netease-track:1822531",
+      "neteaseTrackId": "1822531",
+      "title": "2045: Radical Man",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 394878
+    },
+    {
+      "id": "netease-track:1822534",
+      "neteaseTrackId": "1822534",
+      "title": "The Daisy Chain",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 372030
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=184190",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Slaughterhouse (Trax from the NPG Music Club Volume 2) Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

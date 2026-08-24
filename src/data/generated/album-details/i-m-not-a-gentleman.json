@@ -1,0 +1,176 @@
+{
+  "internalId": "album:18006",
+  "id": "album:18006",
+  "neteaseAlbumId": "18006",
+  "slug": "i-m-not-a-gentleman",
+  "title": "I'm Not A Gentleman",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6090",
+      "neteaseArtistId": "6090",
+      "name": "杨瑞代"
+    }
+  ],
+  "releaseDate": "2012-06-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18006.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18006.webp",
+    "alt": "《I'm Not A Gentleman》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:177980",
+      "neteaseTrackId": "177980",
+      "title": "照相机",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 233227
+    },
+    {
+      "id": "netease-track:177983",
+      "neteaseTrackId": "177983",
+      "title": "Someday You'll See",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 198348
+    },
+    {
+      "id": "netease-track:177984",
+      "neteaseTrackId": "177984",
+      "title": "剥削爱情",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 180333
+    },
+    {
+      "id": "netease-track:177986",
+      "neteaseTrackId": "177986",
+      "title": "Shall We Dance",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 177280
+    },
+    {
+      "id": "netease-track:177988",
+      "neteaseTrackId": "177988",
+      "title": "黑色静态",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代",
+        "梁心颐"
+      ],
+      "durationMs": 230867
+    },
+    {
+      "id": "netease-track:177989",
+      "neteaseTrackId": "177989",
+      "title": "I'm Not a Gentleman",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 242200
+    },
+    {
+      "id": "netease-track:177990",
+      "neteaseTrackId": "177990",
+      "title": "出包超人",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 184800
+    },
+    {
+      "id": "netease-track:177991",
+      "neteaseTrackId": "177991",
+      "title": "真实的勇气",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 239826
+    },
+    {
+      "id": "netease-track:177993",
+      "neteaseTrackId": "177993",
+      "title": "嘟嘟声",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 203040
+    },
+    {
+      "id": "netease-track:177995",
+      "neteaseTrackId": "177995",
+      "title": "谢谢，byebye",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 267651
+    },
+    {
+      "id": "netease-track:177997",
+      "neteaseTrackId": "177997",
+      "title": "遇见优雅",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 111306
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18006",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "I'm Not A Gentleman 杨瑞代",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

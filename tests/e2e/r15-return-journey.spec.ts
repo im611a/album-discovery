@@ -104,8 +104,10 @@ test("R15-2D Library origin survives Album, relation continuation, mutation and 
   const q = primary.title.slice(0, 12);
   await page.goto(`/library/?view=saved&q=${encodeURIComponent(q)}&sort=title`);
   await expect(page.locator("[data-library-ready=true]")).toBeVisible();
-  await page.locator("[data-library-album] .r15-library-record__cover").first().click();
-  await expect(page.locator("[data-navigation-origin=library]")).toBeVisible();
+  const libraryAlbumLink = page.locator("[data-library-album] .r15-library-record__cover").first();
+  await expect(libraryAlbumLink).toHaveAttribute("href", /lfrom=library/);
+  await libraryAlbumLink.click();
+  await expect(page.locator("[data-navigation-origin=library_collection]")).toBeVisible();
   expect(page.url()).toContain("lfrom=library");
   expect(page.url()).toContain("lq=");
   const returnHref = await page.getByRole("link", { name: /返回我的专辑/ }).getAttribute("href");
@@ -113,7 +115,7 @@ test("R15-2D Library origin survives Album, relation continuation, mutation and 
   expect(returnHref).toContain("sort=title");
   await page.getByRole("button", { name: /已想听|想听/ }).first().click();
   await page.locator(".r13-discovery__primary").click();
-  await expect(page.locator("[data-navigation-origin=library]")).toBeVisible();
+  await expect(page.locator("[data-navigation-origin=library_collection]")).toBeVisible();
   expect(page.url()).toContain("lfrom=library");
   await page.getByRole("link", { name: /返回我的专辑/ }).click();
   await expect(page.locator("[data-library-ready=true]")).toBeVisible();
@@ -126,13 +128,13 @@ test("R15-2E Search origin survives Album, Artist and discovery while direct rou
   const albumLink = page.locator(".compact-album-row__cover").first();
   await expect(albumLink).toHaveAttribute("href", /sfrom=search/);
   await albumLink.click();
-  await expect(page.locator("[data-navigation-origin=search]")).toBeVisible();
+  await expect(page.locator("[data-navigation-origin=search_result]")).toBeVisible();
   await page.locator(".r13-discovery__primary").click();
-  await expect(page.locator("[data-navigation-origin=search]")).toBeVisible();
+  await expect(page.locator("[data-navigation-origin=search_result]")).toBeVisible();
   await page.getByRole("link", { name: /返回搜索结果/ }).click();
   await expect(page.getByRole("search")).toBeVisible();
   await page.goto(`/artists/artist-${searchAlbum.artists[0]!.neteaseArtistId}?sfrom=search&sq=${encodeURIComponent("王菲")}`);
-  await expect(page.locator("[data-navigation-origin=search]")).toBeVisible();
+  await expect(page.locator("[data-navigation-origin=search_result]")).toBeVisible();
   await page.goto(`/albums/${primary.slug}/`);
   await expect(page.locator(".r15-return-journey")).toHaveCount(0);
 });

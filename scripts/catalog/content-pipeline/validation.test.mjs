@@ -43,6 +43,12 @@ describe("Content Pipeline proposed Album validation", () => {
     expect(codes).toEqual(expect.arrayContaining(["INVALID_TRACK_ID", "DUPLICATE_TRACK_ID", "DUPLICATE_TRACK_POSITION", "INVALID_TRACK_DURATION"]));
   });
 
+  it("keeps an incomplete multi-track list blocked", async () => {
+    const album = proposed({ tracks: proposed().tracks.slice(0, 1) });
+    const result = validateProposedAlbum({ row: row(), album, catalog: await stableCatalogPromise });
+    expect(result.findings).toContainEqual(expect.objectContaining({ level: "ERROR", code: "INVALID_TRACK_LIST" }));
+  });
+
   it("requires review for assertion disagreement and slug override/refresh policy", async () => {
     const result = validateProposedAlbum({ row: row({ expectedTitle: "Wrong", expectedArtists: ["Wrong"], refresh: true }), album: proposed(), catalog: await stableCatalogPromise });
     expect(result.findings.map((item) => item.code)).toEqual(expect.arrayContaining(["TITLE_ASSERTION_MISMATCH", "ARTIST_ASSERTION_MISMATCH", "REFRESH_REVIEW_REQUIRED"]));

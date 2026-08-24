@@ -1,0 +1,615 @@
+{
+  "internalId": "album:1969737",
+  "id": "album:1969737",
+  "neteaseAlbumId": "1969737",
+  "slug": "essential-miles",
+  "title": "Essential Miles",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2012-07-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Proper Box",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969737.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969737.webp",
+    "alt": "《Essential Miles》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21326877",
+      "neteaseTrackId": "21326877",
+      "title": "Walkin'",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 807160
+    },
+    {
+      "id": "netease-track:21326878",
+      "neteaseTrackId": "21326878",
+      "title": "Oleo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 314708
+    },
+    {
+      "id": "netease-track:21326879",
+      "neteaseTrackId": "21326879",
+      "title": "Bags' Groove (Take 1)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 676214
+    },
+    {
+      "id": "netease-track:21326880",
+      "neteaseTrackId": "21326880",
+      "title": "Ah-Leu-Cha",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351693
+    },
+    {
+      "id": "netease-track:21326881",
+      "neteaseTrackId": "21326881",
+      "title": "Budo",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 255960
+    },
+    {
+      "id": "netease-track:21326882",
+      "neteaseTrackId": "21326882",
+      "title": "Stablemates",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 320573
+    },
+    {
+      "id": "netease-track:21326883",
+      "neteaseTrackId": "21326883",
+      "title": "Four",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 434991
+    },
+    {
+      "id": "netease-track:21326884",
+      "neteaseTrackId": "21326884",
+      "title": "It Never Entered My Mind",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 321000
+    },
+    {
+      "id": "netease-track:21326885",
+      "neteaseTrackId": "21326885",
+      "title": "All Of You",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 423453
+    },
+    {
+      "id": "netease-track:21326886",
+      "neteaseTrackId": "21326886",
+      "title": "Round About Midnight",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 358200
+    },
+    {
+      "id": "netease-track:21326887",
+      "neteaseTrackId": "21326887",
+      "title": "My Funny Valentine",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 362000
+    },
+    {
+      "id": "netease-track:21326888",
+      "neteaseTrackId": "21326888",
+      "title": "Springsville",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 207333
+    },
+    {
+      "id": "netease-track:21326889",
+      "neteaseTrackId": "21326889",
+      "title": "The Maids Of Cadiz",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 239560
+    },
+    {
+      "id": "netease-track:21326890",
+      "neteaseTrackId": "21326890",
+      "title": "The Duke",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 208770
+    },
+    {
+      "id": "netease-track:21326891",
+      "neteaseTrackId": "21326891",
+      "title": "My Ship",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 267601
+    },
+    {
+      "id": "netease-track:21326892",
+      "neteaseTrackId": "21326892",
+      "title": "Miles Ahead",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 211000
+    },
+    {
+      "id": "netease-track:21326893",
+      "neteaseTrackId": "21326893",
+      "title": "Blues For Pablo",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 319520
+    },
+    {
+      "id": "netease-track:21326894",
+      "neteaseTrackId": "21326894",
+      "title": "New Rhumba",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 277000
+    },
+    {
+      "id": "netease-track:21326895",
+      "neteaseTrackId": "21326895",
+      "title": "The Meaning Of The Blues",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 170000
+    },
+    {
+      "id": "netease-track:21326896",
+      "neteaseTrackId": "21326896",
+      "title": "Lament",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 137773
+    },
+    {
+      "id": "netease-track:21326897",
+      "neteaseTrackId": "21326897",
+      "title": "I Don't Wanna Be Kissed By Anyone But You",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 187000
+    },
+    {
+      "id": "netease-track:21326898",
+      "neteaseTrackId": "21326898",
+      "title": "Two Bass Hit",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 307961
+    },
+    {
+      "id": "netease-track:21326899",
+      "neteaseTrackId": "21326899",
+      "title": "Straight No Chaser",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 640066
+    },
+    {
+      "id": "netease-track:21326900",
+      "neteaseTrackId": "21326900",
+      "title": "Milestones",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 340064
+    },
+    {
+      "id": "netease-track:21326901",
+      "neteaseTrackId": "21326901",
+      "title": "Dr. Jackle",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 349933
+    },
+    {
+      "id": "netease-track:21326902",
+      "neteaseTrackId": "21326902",
+      "title": "Sid's Ahead",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 782133
+    },
+    {
+      "id": "netease-track:21326903",
+      "neteaseTrackId": "21326903",
+      "title": "On Green Dolphin Street",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 585115
+    },
+    {
+      "id": "netease-track:21326904",
+      "neteaseTrackId": "21326904",
+      "title": "Fran-Dance",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 349906
+    },
+    {
+      "id": "netease-track:21326905",
+      "neteaseTrackId": "21326905",
+      "title": "The Buzzard Song",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 246616
+    },
+    {
+      "id": "netease-track:21326906",
+      "neteaseTrackId": "21326906",
+      "title": "Bess, You Is My Woman Now",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 312560
+    },
+    {
+      "id": "netease-track:21326907",
+      "neteaseTrackId": "21326907",
+      "title": "Gone",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 215988
+    },
+    {
+      "id": "netease-track:21326908",
+      "neteaseTrackId": "21326908",
+      "title": "Gone, Gone, Gone",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 121733
+    },
+    {
+      "id": "netease-track:21326909",
+      "neteaseTrackId": "21326909",
+      "title": "Summertime",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 198600
+    },
+    {
+      "id": "netease-track:21326910",
+      "neteaseTrackId": "21326910",
+      "title": "Bess, Oh Where's My Bess",
+      "trackNumber": 34,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 266869
+    },
+    {
+      "id": "netease-track:21326911",
+      "neteaseTrackId": "21326911",
+      "title": "Prayer (Oh Doctor Jesus)",
+      "trackNumber": 35,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 279720
+    },
+    {
+      "id": "netease-track:21326912",
+      "neteaseTrackId": "21326912",
+      "title": "Fisherman, Strawberry And Devil Crab",
+      "trackNumber": 36,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 250533
+    },
+    {
+      "id": "netease-track:21326913",
+      "neteaseTrackId": "21326913",
+      "title": "My Man's Gone Now",
+      "trackNumber": 37,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 372209
+    },
+    {
+      "id": "netease-track:21326914",
+      "neteaseTrackId": "21326914",
+      "title": "It Ain't Necessarily So",
+      "trackNumber": 38,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 262050
+    },
+    {
+      "id": "netease-track:21326915",
+      "neteaseTrackId": "21326915",
+      "title": "Here Come De Honeyman",
+      "trackNumber": 39,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 80640
+    },
+    {
+      "id": "netease-track:21326916",
+      "neteaseTrackId": "21326916",
+      "title": "I Loves You Porgy",
+      "trackNumber": 40,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 220306
+    },
+    {
+      "id": "netease-track:21326917",
+      "neteaseTrackId": "21326917",
+      "title": "There's A Boat That's Leaving Soon For New York",
+      "trackNumber": 41,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 206466
+    },
+    {
+      "id": "netease-track:21326918",
+      "neteaseTrackId": "21326918",
+      "title": "All Blues",
+      "trackNumber": 42,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 694035
+    },
+    {
+      "id": "netease-track:21326919",
+      "neteaseTrackId": "21326919",
+      "title": "So What",
+      "trackNumber": 43,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 565000
+    },
+    {
+      "id": "netease-track:21326920",
+      "neteaseTrackId": "21326920",
+      "title": "Freddie Freeloader",
+      "trackNumber": 44,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 589066
+    },
+    {
+      "id": "netease-track:21326921",
+      "neteaseTrackId": "21326921",
+      "title": "Blue In Green",
+      "trackNumber": 45,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 334986
+    },
+    {
+      "id": "netease-track:21326922",
+      "neteaseTrackId": "21326922",
+      "title": "Flamenco Sketches",
+      "trackNumber": 46,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 559291
+    },
+    {
+      "id": "netease-track:21326923",
+      "neteaseTrackId": "21326923",
+      "title": "Concierto De Aranjuez",
+      "trackNumber": 47,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 981825
+    },
+    {
+      "id": "netease-track:21326924",
+      "neteaseTrackId": "21326924",
+      "title": "Will O' The Wisp",
+      "trackNumber": 48,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 229133
+    },
+    {
+      "id": "netease-track:21326925",
+      "neteaseTrackId": "21326925",
+      "title": "The Pan Piper",
+      "trackNumber": 49,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 234893
+    },
+    {
+      "id": "netease-track:21326926",
+      "neteaseTrackId": "21326926",
+      "title": "Saeta",
+      "trackNumber": 50,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 308400
+    },
+    {
+      "id": "netease-track:21326927",
+      "neteaseTrackId": "21326927",
+      "title": "Solea",
+      "trackNumber": 51,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 740666
+    }
+  ],
+  "trackCount": 51,
+  "externalUrl": "https://music.163.com/#/album?id=1969737",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Essential Miles Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

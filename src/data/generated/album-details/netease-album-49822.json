@@ -1,0 +1,197 @@
+{
+  "internalId": "album:49822",
+  "id": "album:49822",
+  "neteaseAlbumId": "49822",
+  "slug": "netease-album-49822",
+  "title": "あっちとこっち",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:159830",
+      "neteaseArtistId": "159830",
+      "name": "環ROY"
+    }
+  ],
+  "releaseDate": "2011-05-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "POPGROUP Recordings",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/49822.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/49822.webp",
+    "alt": "《あっちとこっち》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:528599",
+      "neteaseTrackId": "528599",
+      "title": "ハッピーバースデー",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 262840
+    },
+    {
+      "id": "netease-track:528600",
+      "neteaseTrackId": "528600",
+      "title": "街並み",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 212853
+    },
+    {
+      "id": "netease-track:528601",
+      "neteaseTrackId": "528601",
+      "title": "蒼い日",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 231333
+    },
+    {
+      "id": "netease-track:528603",
+      "neteaseTrackId": "528603",
+      "title": "Ms.Solitude",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 220720
+    },
+    {
+      "id": "netease-track:528604",
+      "neteaseTrackId": "528604",
+      "title": "自分RHYTHEM",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 203680
+    },
+    {
+      "id": "netease-track:528605",
+      "neteaseTrackId": "528605",
+      "title": "みえないモノ",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 240706
+    },
+    {
+      "id": "netease-track:528606",
+      "neteaseTrackId": "528606",
+      "title": "準備してる",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 182240
+    },
+    {
+      "id": "netease-track:528608",
+      "neteaseTrackId": "528608",
+      "title": "フルメタルラッパー",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 201466
+    },
+    {
+      "id": "netease-track:528610",
+      "neteaseTrackId": "528610",
+      "title": "伝",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 221626
+    },
+    {
+      "id": "netease-track:528611",
+      "neteaseTrackId": "528611",
+      "title": "きっと一緒",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 203426
+    },
+    {
+      "id": "netease-track:528612",
+      "neteaseTrackId": "528612",
+      "title": "You are…",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 196480
+    },
+    {
+      "id": "netease-track:528613",
+      "neteaseTrackId": "528613",
+      "title": "GOD ONLY KNOWS",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 197240
+    },
+    {
+      "id": "netease-track:528615",
+      "neteaseTrackId": "528615",
+      "title": "あるがままで笑える",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "環ROY"
+      ],
+      "durationMs": 217226
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=49822",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "あっちとこっち 環ROY",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

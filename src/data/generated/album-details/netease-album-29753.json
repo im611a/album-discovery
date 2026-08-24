@@ -1,0 +1,209 @@
+{
+  "internalId": "album:29753",
+  "id": "album:29753",
+  "neteaseAlbumId": "29753",
+  "slug": "netease-album-29753",
+  "title": "菲靡靡之音",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1995-07-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29753.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29753.webp",
+    "alt": "《菲靡靡之音》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300214",
+      "neteaseTrackId": "300214",
+      "title": "雪中莲",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 207826
+    },
+    {
+      "id": "netease-track:300215",
+      "neteaseTrackId": "300215",
+      "title": "你在我心中",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 264000
+    },
+    {
+      "id": "netease-track:300216",
+      "neteaseTrackId": "300216",
+      "title": "但愿人长久",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 260173
+    },
+    {
+      "id": "netease-track:300218",
+      "neteaseTrackId": "300218",
+      "title": "君心我心",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 240160
+    },
+    {
+      "id": "netease-track:300220",
+      "neteaseTrackId": "300220",
+      "title": "初恋的地方",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 216506
+    },
+    {
+      "id": "netease-track:300222",
+      "neteaseTrackId": "300222",
+      "title": "南海姑娘",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 188160
+    },
+    {
+      "id": "netease-track:300224",
+      "neteaseTrackId": "300224",
+      "title": "假如我是真的",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 179333
+    },
+    {
+      "id": "netease-track:300226",
+      "neteaseTrackId": "300226",
+      "title": "翠湖寒",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 221840
+    },
+    {
+      "id": "netease-track:300228",
+      "neteaseTrackId": "300228",
+      "title": "黄昏里",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 197493
+    },
+    {
+      "id": "netease-track:300230",
+      "neteaseTrackId": "300230",
+      "title": "奈何",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 227506
+    },
+    {
+      "id": "netease-track:300232",
+      "neteaseTrackId": "300232",
+      "title": "一个小心愿",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 219160
+    },
+    {
+      "id": "netease-track:300234",
+      "neteaseTrackId": "300234",
+      "title": "又见炊烟",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 218333
+    },
+    {
+      "id": "netease-track:300236",
+      "neteaseTrackId": "300236",
+      "title": "原乡情浓",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 194666
+    },
+    {
+      "id": "netease-track:300238",
+      "neteaseTrackId": "300238",
+      "title": "千言万语(Live)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 185800
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=29753",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "菲靡靡之音 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

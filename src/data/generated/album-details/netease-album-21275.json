@@ -1,0 +1,175 @@
+{
+  "internalId": "album:21275",
+  "id": "album:21275",
+  "neteaseAlbumId": "21275",
+  "slug": "netease-album-21275",
+  "title": "太阳",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "2009-01-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21275.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21275.webp",
+    "alt": "《太阳》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209106",
+      "neteaseTrackId": "209106",
+      "title": "手的预言",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 96107
+    },
+    {
+      "id": "netease-track:209109",
+      "neteaseTrackId": "209109",
+      "title": "狂恋",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 240693
+    },
+    {
+      "id": "netease-track:209112",
+      "neteaseTrackId": "209112",
+      "title": "太阳",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 273573
+    },
+    {
+      "id": "netease-track:209115",
+      "neteaseTrackId": "209115",
+      "title": "鱼",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 300187
+    },
+    {
+      "id": "netease-track:209118",
+      "neteaseTrackId": "209118",
+      "title": "距离",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 193907
+    },
+    {
+      "id": "netease-track:209123",
+      "neteaseTrackId": "209123",
+      "title": "倔强爱情的胜利",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 181293
+    },
+    {
+      "id": "netease-track:209126",
+      "neteaseTrackId": "209126",
+      "title": "失败者的飞翔",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 242800
+    },
+    {
+      "id": "netease-track:209129",
+      "neteaseTrackId": "209129",
+      "title": "下个星期去英国",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 153147
+    },
+    {
+      "id": "netease-track:209133",
+      "neteaseTrackId": "209133",
+      "title": "另一种平静",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 247520
+    },
+    {
+      "id": "netease-track:209137",
+      "neteaseTrackId": "209137",
+      "title": "烟火",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 345640
+    },
+    {
+      "id": "netease-track:209140",
+      "neteaseTrackId": "209140",
+      "title": "一首歌,让你带回去",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 316160
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=21275",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "太阳 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "internalId": "album:36554",
+  "id": "album:36554",
+  "neteaseAlbumId": "36554",
+  "slug": "netease-album-36554",
+  "title": "走失的主人",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:12443",
+      "neteaseArtistId": "12443",
+      "name": "东方大戏楼"
+    }
+  ],
+  "releaseDate": "1998-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/36554.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/36554.webp",
+    "alt": "《走失的主人》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:369054",
+      "neteaseTrackId": "369054",
+      "title": "走失的主人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "东方大戏楼"
+      ],
+      "durationMs": 304000
+    },
+    {
+      "id": "netease-track:369058",
+      "neteaseTrackId": "369058",
+      "title": "正宗",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "东方大戏楼"
+      ],
+      "durationMs": 254853
+    },
+    {
+      "id": "netease-track:369061",
+      "neteaseTrackId": "369061",
+      "title": "长安",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "东方大戏楼"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:369064",
+      "neteaseTrackId": "369064",
+      "title": "阿丝玛",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "东方大戏楼"
+      ],
+      "durationMs": 287000
+    },
+    {
+      "id": "netease-track:369066",
+      "neteaseTrackId": "369066",
+      "title": "让我再见一次大夫",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "东方大戏楼"
+      ],
+      "durationMs": 372000
+    },
+    {
+      "id": "netease-track:369071",
+      "neteaseTrackId": "369071",
+      "title": "勋章之梦",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "东方大戏楼"
+      ],
+      "durationMs": 258977
+    },
+    {
+      "id": "netease-track:369073",
+      "neteaseTrackId": "369073",
+      "title": "六枝花",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "东方大戏楼"
+      ],
+      "durationMs": 293172
+    },
+    {
+      "id": "netease-track:369075",
+      "neteaseTrackId": "369075",
+      "title": "媚笑阳台",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "东方大戏楼"
+      ],
+      "durationMs": 360000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=36554",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "走失的主人 东方大戏楼",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

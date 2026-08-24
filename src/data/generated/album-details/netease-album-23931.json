@@ -1,0 +1,219 @@
+{
+  "internalId": "album:23931",
+  "id": "album:23931",
+  "neteaseAlbumId": "23931",
+  "slug": "netease-album-23931",
+  "title": "擦肩而过",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2009-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23931.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23931.webp",
+    "alt": "《擦肩而过》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238708",
+      "neteaseTrackId": "238708",
+      "title": "天路",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 262906
+    },
+    {
+      "id": "netease-track:238710",
+      "neteaseTrackId": "238710",
+      "title": "青藏高原",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 204506
+    },
+    {
+      "id": "netease-track:238712",
+      "neteaseTrackId": "238712",
+      "title": "天亮了",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 222266
+    },
+    {
+      "id": "netease-track:238714",
+      "neteaseTrackId": "238714",
+      "title": "家乡",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 234986
+    },
+    {
+      "id": "netease-track:238716",
+      "neteaseTrackId": "238716",
+      "title": "擦肩而过",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 240013
+    },
+    {
+      "id": "netease-track:238718",
+      "neteaseTrackId": "238718",
+      "title": "我的祖国",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 329720
+    },
+    {
+      "id": "netease-track:238720",
+      "neteaseTrackId": "238720",
+      "title": "风雨中的美丽",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 262680
+    },
+    {
+      "id": "netease-track:238722",
+      "neteaseTrackId": "238722",
+      "title": "格桑花开",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 284626
+    },
+    {
+      "id": "netease-track:238724",
+      "neteaseTrackId": "238724",
+      "title": "翻身农奴把歌唱",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 328000
+    },
+    {
+      "id": "netease-track:238726",
+      "neteaseTrackId": "238726",
+      "title": "北京的金山上",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 245587
+    },
+    {
+      "id": "netease-track:238728",
+      "neteaseTrackId": "238728",
+      "title": "那片海",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 268653
+    },
+    {
+      "id": "netease-track:238730",
+      "neteaseTrackId": "238730",
+      "title": "醒了",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 213386
+    },
+    {
+      "id": "netease-track:238732",
+      "neteaseTrackId": "238732",
+      "title": "归来",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 252507
+    },
+    {
+      "id": "netease-track:238734",
+      "neteaseTrackId": "238734",
+      "title": "我爱祖国的蓝天",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 204386
+    },
+    {
+      "id": "netease-track:238736",
+      "neteaseTrackId": "238736",
+      "title": "感动",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 307946
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=23931",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "擦肩而过 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

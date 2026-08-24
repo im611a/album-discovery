@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1970584",
+  "id": "album:1970584",
+  "neteaseAlbumId": "1970584",
+  "slug": "filles-de-kilimanjaro",
+  "title": "Filles De Kilimanjaro",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1969-02-04",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970584.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970584.webp",
+    "alt": "《Filles De Kilimanjaro》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21340707",
+      "neteaseTrackId": "21340707",
+      "title": "Frelon Brun",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 340659
+    },
+    {
+      "id": "netease-track:21340708",
+      "neteaseTrackId": "21340708",
+      "title": "Tout De Suite",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 846831
+    },
+    {
+      "id": "netease-track:21340709",
+      "neteaseTrackId": "21340709",
+      "title": "Petits Machins (Little Stuff)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 488153
+    },
+    {
+      "id": "netease-track:21340710",
+      "neteaseTrackId": "21340710",
+      "title": "Filles De Kilimanjaro",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 723371
+    },
+    {
+      "id": "netease-track:21340711",
+      "neteaseTrackId": "21340711",
+      "title": "Mademoiselle Mabry",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 994255
+    },
+    {
+      "id": "netease-track:21340712",
+      "neteaseTrackId": "21340712",
+      "title": "Tout De Suite (Alternate Take)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 877574
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970584",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Filles De Kilimanjaro Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

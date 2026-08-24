@@ -4,7 +4,8 @@ import os from "node:os";
 import path from "node:path";
 import { promisify } from "node:util";
 import { afterEach, describe, expect, it } from "vitest";
-import { createBatchWorkspace, runDryRun } from "./pipeline.mjs";
+import { applyReviewOverlayToRecords, createBatchWorkspace, isolateCandidateIdentityConflicts, runDryRun } from "./pipeline.mjs";
+import { REVIEW_SCHEMA, validateReviewDecisionArtifact } from "./review.mjs";
 import { sha256File, stableJson } from "./utils.mjs";
 
 const run = promisify(execFile);
@@ -37,6 +38,89 @@ async function makeBatch(order = ["990001", "990002"]) {
 }
 
 describe("Content Pipeline dry-run integration", () => {
+  it("isolates production-to-candidate and candidate-to-candidate identity conflicts without poisoning clean rows", () => {
+    const album = (albumId, artistId, title, releaseDate) => ({ neteaseAlbumId: albumId, artists: [{ neteaseArtistId: artistId }], title, releaseDate });
+    const record = (rowNumber, value) => ({
+      rowNumber,
+      albumId: value.neteaseAlbumId,
+      album: value,
+      disposition: "READY",
+      findings: [],
+      duplicate: { state: "DISTINCT" },
+    });
+    const cleanRecords = Array.from({ length: 100 }, (_, index) => record(index + 1, album(String(10_000 + index), String(20_000 + index), `Independent ${index}`, "2022-01-01")));
+    const records = [...cleanRecords,
+      record(101, album("101", "10", "Production Match", "2020-08-01")),
+      record(102, album("102", "20", "Candidate Match", "2021-01-01")),
+      record(103, album("103", "20", "Candidate Match", "2021-12-31")),
+    ];
+    const conflicts = isolateCandidateIdentityConflicts(records, [album("1", "10", "Production Match", "2020-02-02")]);
+    expect(conflicts).toEqual([
+      expect.objectContaining({ identityKey: "10:productionmatch:2020", conflictScope: "PRODUCTION_TO_CANDIDATE" }),
+      expect.objectContaining({ identityKey: "20:candidatematch:2021", conflictScope: "CANDIDATE_TO_CANDIDATE" }),
+    ]);
+    expect(records.filter((item) => item.disposition === "NEEDS_REVIEW").map((item) => ({ id: item.albumId, codes: item.findings.map((finding) => finding.code) }))).toEqual([
+      { id: "101", codes: ["CANDIDATE_IDENTITY_CONFLICT"] },
+      { id: "102", codes: ["CANDIDATE_IDENTITY_CONFLICT"] },
+      { id: "103", codes: ["CANDIDATE_IDENTITY_CONFLICT"] },
+    ]);
+    expect(records.filter((item) => item.disposition === "READY")).toHaveLength(100);
+    expect(records.filter((item) => item.disposition === "READY").every((item) => item.findings.length === 0)).toBe(true);
+    expect(records.filter((item) => item.disposition === "READY").map((item) => item.albumId)).not.toEqual(expect.arrayContaining(["101", "102", "103"]));
+    expect(records.flatMap((item) => item.findings).some((finding) => finding.level === "FATAL")).toBe(false);
+    const replayRecords = structuredClone([...cleanRecords,
+      record(101, album("101", "10", "Production Match", "2020-08-01")),
+      record(102, album("102", "20", "Candidate Match", "2021-01-01")),
+      record(103, album("103", "20", "Candidate Match", "2021-12-31")),
+    ]);
+    expect(isolateCandidateIdentityConflicts(replayRecords, [album("1", "10", "Production Match", "2020-02-02")])).toEqual(conflicts);
+  });
+
+  it("resolves production and candidate identity conflicts only through an explicit valid selection", () => {
+    const album = (albumId, artistId, title, releaseDate) => ({ neteaseAlbumId: albumId, artists: [{ neteaseArtistId: artistId }], title, releaseDate });
+    const record = (rowNumber, value) => ({ rowNumber, albumId: value.neteaseAlbumId, album: value, disposition: "READY", findings: [], duplicate: { state: "DISTINCT" } });
+    const production = [album("1", "10", "Production Match", "2020-02-02")];
+    const makeRecords = () => [
+      record(1, album("101", "10", "Production Match", "2020-08-01")),
+      record(2, album("102", "20", "Candidate Match", "2021-01-01")),
+      record(3, album("103", "20", "Candidate Match", "2021-12-31")),
+      record(4, album("104", "30", "Independent", "2022-01-01")),
+    ];
+    const context = { batchId: "CONTENT-BATCH-20260815-001", inputSha256: "a".repeat(64), albumIds: ["101", "102", "103", "104"] };
+    const records = makeRecords();
+    isolateCandidateIdentityConflicts(records, production);
+    const selected = validateReviewDecisionArtifact({ schema: REVIEW_SCHEMA, batchId: context.batchId, inputSha256: context.inputSha256, decisions: [
+      { albumId: "101", code: "CANDIDATE_IDENTITY_CONFLICT", decision: "REJECT" },
+      { albumId: "102", code: "CANDIDATE_IDENTITY_CONFLICT", decision: "REJECT" },
+      { albumId: "103", code: "CANDIDATE_IDENTITY_CONFLICT", decision: "ACCEPT" },
+    ] }, context);
+    expect(applyReviewOverlayToRecords(records, selected, production).hardConflicts).toEqual([]);
+    expect(records.map((item) => [item.albumId, item.disposition])).toEqual([["101", "REJECTED_BY_REVIEW"], ["102", "REJECTED_BY_REVIEW"], ["103", "READY"], ["104", "READY"]]);
+    expect(records[0].findings[0]).toMatchObject({ code: "HUMAN_REVIEW_REJECTED", originalFinding: { code: "CANDIDATE_IDENTITY_CONFLICT" } });
+
+    const invalidSelection = makeRecords();
+    isolateCandidateIdentityConflicts(invalidSelection, production);
+    const acceptedAll = validateReviewDecisionArtifact({ schema: REVIEW_SCHEMA, batchId: context.batchId, inputSha256: context.inputSha256, decisions: [
+      { albumId: "101", code: "CANDIDATE_IDENTITY_CONFLICT", decision: "ACCEPT" },
+      { albumId: "102", code: "CANDIDATE_IDENTITY_CONFLICT", decision: "ACCEPT" },
+      { albumId: "103", code: "CANDIDATE_IDENTITY_CONFLICT", decision: "ACCEPT" },
+    ] }, context);
+    expect(applyReviewOverlayToRecords(invalidSelection, acceptedAll, production).hardConflicts).toHaveLength(2);
+    expect(invalidSelection.slice(0, 3).every((item) => item.disposition === "FATAL" && item.findings.some((finding) => finding.code === "CANDIDATE_IDENTITY_CONFLICT_UNRESOLVED"))).toBe(true);
+    expect(invalidSelection[3].disposition).toBe("READY");
+  });
+
+  it("quarantines only whitelisted deterministic row errors and leaves unknown errors blocking", () => {
+    const records = [
+      { rowNumber: 1, albumId: "201", album: null, disposition: "ERROR", findings: [{ level: "ERROR", code: "invalid_track_list", message: "No complete track list." }], duplicate: { state: "DISTINCT" } },
+      { rowNumber: 2, albumId: "202", album: null, disposition: "ERROR", findings: [{ level: "ERROR", code: "UNKNOWN_ERROR", message: "Unknown." }], duplicate: { state: "DISTINCT" } },
+    ];
+    const overlay = validateReviewDecisionArtifact({ schema: REVIEW_SCHEMA, batchId: "CONTENT-BATCH-20260815-001", inputSha256: "a".repeat(64), decisions: [], quarantines: [{ albumId: "201", code: "invalid_track_list", decision: "QUARANTINE" }] }, { batchId: "CONTENT-BATCH-20260815-001", inputSha256: "a".repeat(64), albumIds: ["201", "202"] });
+    applyReviewOverlayToRecords(records, overlay, []);
+    expect(records[0]).toMatchObject({ disposition: "QUARANTINED", findings: [{ code: "QUARANTINED_INVALID_SOURCE_DATA", originalFinding: { code: "invalid_track_list", message: "No complete track list." } }] });
+    expect(records[1]).toMatchObject({ disposition: "ERROR", findings: [{ code: "UNKNOWN_ERROR" }] });
+  });
+
   it("is replayable, order-independent and production-mutation-free", async () => {
     const catalogPath = path.resolve("src/data/generated/catalog.json");
     const before = await sha256File(catalogPath);
@@ -71,5 +155,5 @@ describe("Content Pipeline dry-run integration", () => {
     expect(shuffled.plan).toEqual(first.plan);
     expect(await sha256File(catalogPath)).toBe(before);
     await expect(readFile(path.resolve("public/catalog/covers/detail/990001.webp"))).rejects.toMatchObject({ code: "ENOENT" });
-  }, 60_000);
+  }, 120_000);
 });

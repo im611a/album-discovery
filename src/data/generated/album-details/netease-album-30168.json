@@ -1,0 +1,164 @@
+{
+  "internalId": "album:30168",
+  "id": "album:30168",
+  "neteaseAlbumId": "30168",
+  "slug": "netease-album-30168",
+  "title": "风采依然",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9749",
+      "neteaseArtistId": "9749",
+      "name": "王虹"
+    }
+  ],
+  "releaseDate": "1989-12-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/30168.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/30168.webp",
+    "alt": "《风采依然》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:304614",
+      "neteaseTrackId": "304614",
+      "title": "一曲难忘",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 271893
+    },
+    {
+      "id": "netease-track:304615",
+      "neteaseTrackId": "304615",
+      "title": "期待",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 299240
+    },
+    {
+      "id": "netease-track:304616",
+      "neteaseTrackId": "304616",
+      "title": "浓情厚爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 318533
+    },
+    {
+      "id": "netease-track:304617",
+      "neteaseTrackId": "304617",
+      "title": "依得喂无所谓",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 254226
+    },
+    {
+      "id": "netease-track:304618",
+      "neteaseTrackId": "304618",
+      "title": "间奏(足本...)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 147000
+    },
+    {
+      "id": "netease-track:304619",
+      "neteaseTrackId": "304619",
+      "title": "红旗袍",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 300373
+    },
+    {
+      "id": "netease-track:304620",
+      "neteaseTrackId": "304620",
+      "title": "戏妇",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 128560
+    },
+    {
+      "id": "netease-track:304621",
+      "neteaseTrackId": "304621",
+      "title": "女儿身",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 256773
+    },
+    {
+      "id": "netease-track:304622",
+      "neteaseTrackId": "304622",
+      "title": "一个人在途上",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 314933
+    },
+    {
+      "id": "netease-track:304623",
+      "neteaseTrackId": "304623",
+      "title": "间奏...之后...",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 78066
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=30168",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "风采依然 王虹",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

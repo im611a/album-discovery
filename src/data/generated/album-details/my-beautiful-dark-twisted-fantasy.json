@@ -1,0 +1,228 @@
+{
+  "internalId": "album:1738270",
+  "id": "album:1738270",
+  "neteaseAlbumId": "1738270",
+  "slug": "my-beautiful-dark-twisted-fantasy",
+  "title": "My Beautiful Dark Twisted Fantasy",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2010-11-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Roc-A-Fella",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1738270.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1738270.webp",
+    "alt": "《My Beautiful Dark Twisted Fantasy》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18969202",
+      "neteaseTrackId": "18969202",
+      "title": "Dark Fantasy",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 280986
+    },
+    {
+      "id": "netease-track:18969203",
+      "neteaseTrackId": "18969203",
+      "title": "Gorgeous",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Kid Cudi",
+        "Raekwon"
+      ],
+      "durationMs": 357653
+    },
+    {
+      "id": "netease-track:18969204",
+      "neteaseTrackId": "18969204",
+      "title": "POWER",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 292093
+    },
+    {
+      "id": "netease-track:18969205",
+      "neteaseTrackId": "18969205",
+      "title": "All Of The Lights (Interlude)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 62253
+    },
+    {
+      "id": "netease-track:18969206",
+      "neteaseTrackId": "18969206",
+      "title": "All Of The Lights",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Rihanna",
+        "Kid Cudi",
+        "Fergie"
+      ],
+      "durationMs": 299676
+    },
+    {
+      "id": "netease-track:18969207",
+      "neteaseTrackId": "18969207",
+      "title": "Monster",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Bon Iver",
+        "JAŸ-Z",
+        "Nicki Minaj",
+        "Rick Ross"
+      ],
+      "durationMs": 378893
+    },
+    {
+      "id": "netease-track:18969208",
+      "neteaseTrackId": "18969208",
+      "title": "So Appalled",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "JAŸ-Z",
+        "Pusha T",
+        "CyHi The Prynce",
+        "Swizz Beatz",
+        "RZA"
+      ],
+      "durationMs": 398173
+    },
+    {
+      "id": "netease-track:18969209",
+      "neteaseTrackId": "18969209",
+      "title": "Devil In A New Dress",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Rick Ross"
+      ],
+      "durationMs": 352466
+    },
+    {
+      "id": "netease-track:18969210",
+      "neteaseTrackId": "18969210",
+      "title": "Runaway",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Pusha T"
+      ],
+      "durationMs": 548200
+    },
+    {
+      "id": "netease-track:18969211",
+      "neteaseTrackId": "18969211",
+      "title": "Hell Of A Life",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 327786
+    },
+    {
+      "id": "netease-track:18969212",
+      "neteaseTrackId": "18969212",
+      "title": "Blame Game",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "John Legend"
+      ],
+      "durationMs": 469866
+    },
+    {
+      "id": "netease-track:18969213",
+      "neteaseTrackId": "18969213",
+      "title": "Lost In The World",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Bon Iver"
+      ],
+      "durationMs": 256586
+    },
+    {
+      "id": "netease-track:18969214",
+      "neteaseTrackId": "18969214",
+      "title": "Who Will Survive In America",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 98200
+    },
+    {
+      "id": "netease-track:30148425",
+      "neteaseTrackId": "30148425",
+      "title": "See Me Now",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Beyoncé",
+        "Big Sean"
+      ],
+      "durationMs": 363830
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=1738270",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "My Beautiful Dark Twisted Fantasy Kanye West",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

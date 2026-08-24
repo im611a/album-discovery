@@ -1,0 +1,186 @@
+{
+  "internalId": "album:29584",
+  "id": "album:29584",
+  "neteaseAlbumId": "29584",
+  "slug": "netease-album-29584",
+  "title": "不换",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1999-05-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29584.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29584.webp",
+    "alt": "《不换》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298051",
+      "neteaseTrackId": "298051",
+      "title": "从前",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 306015
+    },
+    {
+      "id": "netease-track:298055",
+      "neteaseTrackId": "298055",
+      "title": "如你所愿",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 303466
+    },
+    {
+      "id": "netease-track:298058",
+      "neteaseTrackId": "298058",
+      "title": "女人鞋 Ⅰ",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 259426
+    },
+    {
+      "id": "netease-track:298060",
+      "neteaseTrackId": "298060",
+      "title": "不换",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 271133
+    },
+    {
+      "id": "netease-track:298063",
+      "neteaseTrackId": "298063",
+      "title": "这样也好",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 241185
+    },
+    {
+      "id": "netease-track:298068",
+      "neteaseTrackId": "298068",
+      "title": "分手旅行",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 199668
+    },
+    {
+      "id": "netease-track:298073",
+      "neteaseTrackId": "298073",
+      "title": "心安",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 259088
+    },
+    {
+      "id": "netease-track:298078",
+      "neteaseTrackId": "298078",
+      "title": "渴望",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 301325
+    },
+    {
+      "id": "netease-track:298083",
+      "neteaseTrackId": "298083",
+      "title": "我的天空",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 190868
+    },
+    {
+      "id": "netease-track:298088",
+      "neteaseTrackId": "298088",
+      "title": "女人鞋 Ⅱ",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 240256
+    },
+    {
+      "id": "netease-track:298093",
+      "neteaseTrackId": "298093",
+      "title": "不懂",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 247756
+    },
+    {
+      "id": "netease-track:298097",
+      "neteaseTrackId": "298097",
+      "title": "需要",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 329026
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=29584",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "不换 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

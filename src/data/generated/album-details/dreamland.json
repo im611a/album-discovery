@@ -1,0 +1,208 @@
+{
+  "internalId": "album:1724164",
+  "id": "album:1724164",
+  "neteaseAlbumId": "1724164",
+  "slug": "dreamland",
+  "title": "Dreamland",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "2004-09-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724164.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724164.webp",
+    "alt": "《Dreamland》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18821712",
+      "neteaseTrackId": "18821712",
+      "title": "Free Man in Paris",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 183716
+    },
+    {
+      "id": "netease-track:18821714",
+      "neteaseTrackId": "18821714",
+      "title": "In France They Kiss on Main Street",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 199866
+    },
+    {
+      "id": "netease-track:18821716",
+      "neteaseTrackId": "18821716",
+      "title": "Dreamland",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 278826
+    },
+    {
+      "id": "netease-track:18821718",
+      "neteaseTrackId": "18821718",
+      "title": "The Jungle Line",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 264400
+    },
+    {
+      "id": "netease-track:18821720",
+      "neteaseTrackId": "18821720",
+      "title": "Furry Sings the Blues",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 306240
+    },
+    {
+      "id": "netease-track:18821722",
+      "neteaseTrackId": "18821722",
+      "title": "You Turn Me on I'm a Radio",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 159946
+    },
+    {
+      "id": "netease-track:18821724",
+      "neteaseTrackId": "18821724",
+      "title": "Carey (Remastered)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 184573
+    },
+    {
+      "id": "netease-track:18821726",
+      "neteaseTrackId": "18821726",
+      "title": "Big Yellow Taxi (Remastered)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 137213
+    },
+    {
+      "id": "netease-track:18821728",
+      "neteaseTrackId": "18821728",
+      "title": "California (Remastered)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 231826
+    },
+    {
+      "id": "netease-track:18821730",
+      "neteaseTrackId": "18821730",
+      "title": "Help Me",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 204186
+    },
+    {
+      "id": "netease-track:18821732",
+      "neteaseTrackId": "18821732",
+      "title": "Amelia",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 406000
+    },
+    {
+      "id": "netease-track:18821733",
+      "neteaseTrackId": "18821733",
+      "title": "For the Roses",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 449960
+    },
+    {
+      "id": "netease-track:18821735",
+      "neteaseTrackId": "18821735",
+      "title": "Both Sides Now (Remastered)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 346733
+    },
+    {
+      "id": "netease-track:18821737",
+      "neteaseTrackId": "18821737",
+      "title": "The Circle Game (Remastered)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 291733
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=1724164",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dreamland Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

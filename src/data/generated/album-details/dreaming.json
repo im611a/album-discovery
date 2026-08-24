@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19084",
+  "id": "album:19084",
+  "neteaseAlbumId": "19084",
+  "slug": "dreaming",
+  "title": "Dreaming",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1990-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19084.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19084.webp",
+    "alt": "《Dreaming》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188513",
+      "neteaseTrackId": "188513",
+      "title": "Dreaming",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 339360
+    },
+    {
+      "id": "netease-track:188517",
+      "neteaseTrackId": "188517",
+      "title": "Miss You Much",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 228786
+    },
+    {
+      "id": "netease-track:188521",
+      "neteaseTrackId": "188521",
+      "title": "想你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 299080
+    },
+    {
+      "id": "netease-track:188525",
+      "neteaseTrackId": "188525",
+      "title": "侧面",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 225533
+    },
+    {
+      "id": "netease-track:188529",
+      "neteaseTrackId": "188529",
+      "title": "共同渡过",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 266200
+    },
+    {
+      "id": "netease-track:188533",
+      "neteaseTrackId": "188533",
+      "title": "无心睡眠",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 192680
+    },
+    {
+      "id": "netease-track:188536",
+      "neteaseTrackId": "188536",
+      "title": "风再起时",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 270800
+    },
+    {
+      "id": "netease-track:188539",
+      "neteaseTrackId": "188539",
+      "title": "暴风一族",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 207893
+    },
+    {
+      "id": "netease-track:188542",
+      "neteaseTrackId": "188542",
+      "title": "无需要太多",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 265093
+    },
+    {
+      "id": "netease-track:188544",
+      "neteaseTrackId": "188544",
+      "title": "拒绝再玩",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 216720
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19084",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dreaming 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

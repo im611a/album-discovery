@@ -1,0 +1,164 @@
+{
+  "internalId": "album:432437",
+  "id": "album:432437",
+  "neteaseAlbumId": "432437",
+  "slug": "1999-06-12-icelandic-opera-house-reykjavi-k-iceland",
+  "title": "1999-06-12: Icelandic Opera House, Reykjavík, Iceland",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "2005-08-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432437.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432437.webp",
+    "alt": "《1999-06-12: Icelandic Opera House, Reykjavík, Iceland》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4278855",
+      "neteaseTrackId": "4278855",
+      "title": "Von",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 768000
+    },
+    {
+      "id": "netease-track:4278859",
+      "neteaseTrackId": "4278859",
+      "title": "Syndir Guðs",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 342000
+    },
+    {
+      "id": "netease-track:4278863",
+      "neteaseTrackId": "4278863",
+      "title": "Flugufrelsarinn",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 536000
+    },
+    {
+      "id": "netease-track:4278868",
+      "neteaseTrackId": "4278868",
+      "title": "Olsen Olsen",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 365000
+    },
+    {
+      "id": "netease-track:4278872",
+      "neteaseTrackId": "4278872",
+      "title": "Ágætis Byrjun",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 476000
+    },
+    {
+      "id": "netease-track:4278875",
+      "neteaseTrackId": "4278875",
+      "title": "Viðrar Vel Til Loftárása",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 512000
+    },
+    {
+      "id": "netease-track:4278878",
+      "neteaseTrackId": "4278878",
+      "title": "Svefn-g-Englar",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 535000
+    },
+    {
+      "id": "netease-track:4278882",
+      "neteaseTrackId": "4278882",
+      "title": "Ný Batterí",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 408000
+    },
+    {
+      "id": "netease-track:4278886",
+      "neteaseTrackId": "4278886",
+      "title": "Nýja Lagið",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 556000
+    },
+    {
+      "id": "netease-track:4278889",
+      "neteaseTrackId": "4278889",
+      "title": "Hafssól",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 870000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=432437",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "1999-06-12: Icelandic Opera House, Reykjavík, Iceland Sigur Rós",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

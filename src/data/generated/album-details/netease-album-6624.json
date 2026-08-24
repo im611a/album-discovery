@@ -1,0 +1,164 @@
+{
+  "internalId": "album:6624",
+  "id": "album:6624",
+  "neteaseAlbumId": "6624",
+  "slug": "netease-album-6624",
+  "title": "一滴眼泪",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "1997-01-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "广州万中无二音乐文化有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6624.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6624.webp",
+    "alt": "《一滴眼泪》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67848",
+      "neteaseTrackId": "67848",
+      "title": "一滴眼泪",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 320106
+    },
+    {
+      "id": "netease-track:67852",
+      "neteaseTrackId": "67852",
+      "title": "拜访",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 270373
+    },
+    {
+      "id": "netease-track:67857",
+      "neteaseTrackId": "67857",
+      "title": "爱到疯",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 241280
+    },
+    {
+      "id": "netease-track:67862",
+      "neteaseTrackId": "67862",
+      "title": "永远都天明",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 252333
+    },
+    {
+      "id": "netease-track:67866",
+      "neteaseTrackId": "67866",
+      "title": "情深怎么办",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 278306
+    },
+    {
+      "id": "netease-track:67870",
+      "neteaseTrackId": "67870",
+      "title": "我怎么可以哭",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 287600
+    },
+    {
+      "id": "netease-track:67873",
+      "neteaseTrackId": "67873",
+      "title": "学会爱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 221133
+    },
+    {
+      "id": "netease-track:67877",
+      "neteaseTrackId": "67877",
+      "title": "Style",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 245573
+    },
+    {
+      "id": "netease-track:67881",
+      "neteaseTrackId": "67881",
+      "title": "二个人的夜晚",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 294400
+    },
+    {
+      "id": "netease-track:67885",
+      "neteaseTrackId": "67885",
+      "title": "感情约",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 304693
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6624",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "一滴眼泪 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

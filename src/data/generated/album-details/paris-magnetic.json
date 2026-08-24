@@ -1,0 +1,274 @@
+{
+  "internalId": "album:172108",
+  "id": "album:172108",
+  "neteaseAlbumId": "172108",
+  "slug": "paris-magnetic",
+  "title": "Paris Magnetic",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2009-11-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172108.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172108.webp",
+    "alt": "《Paris Magnetic》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1696199",
+      "neteaseTrackId": "1696199",
+      "title": "That Was Just Your Life",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 430000
+    },
+    {
+      "id": "netease-track:1696203",
+      "neteaseTrackId": "1696203",
+      "title": "The End Of The Line",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 474000
+    },
+    {
+      "id": "netease-track:1696209",
+      "neteaseTrackId": "1696209",
+      "title": "The Four Horsemen",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 316000
+    },
+    {
+      "id": "netease-track:1696213",
+      "neteaseTrackId": "1696213",
+      "title": "Holier Than Thou",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 234000
+    },
+    {
+      "id": "netease-track:1696218",
+      "neteaseTrackId": "1696218",
+      "title": "One",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 527000
+    },
+    {
+      "id": "netease-track:1696224",
+      "neteaseTrackId": "1696224",
+      "title": "Broken, Beat & Scarred",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 398000
+    },
+    {
+      "id": "netease-track:1696229",
+      "neteaseTrackId": "1696229",
+      "title": "My Apocalypse",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 344000
+    },
+    {
+      "id": "netease-track:1696233",
+      "neteaseTrackId": "1696233",
+      "title": "Sad But True",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 359000
+    },
+    {
+      "id": "netease-track:1696236",
+      "neteaseTrackId": "1696236",
+      "title": "Bleeding Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 497000
+    },
+    {
+      "id": "netease-track:1696239",
+      "neteaseTrackId": "1696239",
+      "title": "All Nightmare Long",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 466000
+    },
+    {
+      "id": "netease-track:1696242",
+      "neteaseTrackId": "1696242",
+      "title": "Kirk Solo #1",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 94000
+    },
+    {
+      "id": "netease-track:1696245",
+      "neteaseTrackId": "1696245",
+      "title": "The Day That Never Comes",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 498000
+    },
+    {
+      "id": "netease-track:1696248",
+      "neteaseTrackId": "1696248",
+      "title": "Master Of Puppets",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 476000
+    },
+    {
+      "id": "netease-track:1696253",
+      "neteaseTrackId": "1696253",
+      "title": "Fight Fire with Fire",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 287000
+    },
+    {
+      "id": "netease-track:1696258",
+      "neteaseTrackId": "1696258",
+      "title": "Kirk Solo #2",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 79000
+    },
+    {
+      "id": "netease-track:1696263",
+      "neteaseTrackId": "1696263",
+      "title": "Nothing Else Matters",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 362000
+    },
+    {
+      "id": "netease-track:1696268",
+      "neteaseTrackId": "1696268",
+      "title": "Enter Sandman",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 403000
+    },
+    {
+      "id": "netease-track:1696273",
+      "neteaseTrackId": "1696273",
+      "title": "Motorcycle Man",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 378000
+    },
+    {
+      "id": "netease-track:1696278",
+      "neteaseTrackId": "1696278",
+      "title": "Hit The Lights",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 369000
+    },
+    {
+      "id": "netease-track:1696283",
+      "neteaseTrackId": "1696283",
+      "title": "Seek And Destroy",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 525000
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=172108",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Paris Magnetic Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

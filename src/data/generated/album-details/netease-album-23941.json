@@ -1,0 +1,164 @@
+{
+  "internalId": "album:23941",
+  "id": "album:23941",
+  "neteaseAlbumId": "23941",
+  "slug": "netease-album-23941",
+  "title": "歌唱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2002-11-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "京文唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23941.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23941.webp",
+    "alt": "《歌唱》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238837",
+      "neteaseTrackId": "238837",
+      "title": "浪拉山情",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 280853
+    },
+    {
+      "id": "netease-track:238838",
+      "neteaseTrackId": "238838",
+      "title": "来吧",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 257186
+    },
+    {
+      "id": "netease-track:238839",
+      "neteaseTrackId": "238839",
+      "title": "这样的女人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 241546
+    },
+    {
+      "id": "netease-track:238840",
+      "neteaseTrackId": "238840",
+      "title": "月亮",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 274440
+    },
+    {
+      "id": "netease-track:238841",
+      "neteaseTrackId": "238841",
+      "title": "一走了之",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 310480
+    },
+    {
+      "id": "netease-track:238842",
+      "neteaseTrackId": "238842",
+      "title": "茶马古道",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 290400
+    },
+    {
+      "id": "netease-track:238843",
+      "neteaseTrackId": "238843",
+      "title": "蓝",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 289333
+    },
+    {
+      "id": "netease-track:238844",
+      "neteaseTrackId": "238844",
+      "title": "天涯(藏)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 235386
+    },
+    {
+      "id": "netease-track:238845",
+      "neteaseTrackId": "238845",
+      "title": "在何方",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 264480
+    },
+    {
+      "id": "netease-track:238846",
+      "neteaseTrackId": "238846",
+      "title": "歌唱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 322466
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=23941",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "歌唱 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

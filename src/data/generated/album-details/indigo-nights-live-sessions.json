@@ -1,0 +1,219 @@
+{
+  "internalId": "album:184162",
+  "id": "album:184162",
+  "neteaseAlbumId": "184162",
+  "slug": "indigo-nights-live-sessions",
+  "title": "Indigo Nights / Live Sessions",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "2008-09-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184162.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184162.webp",
+    "alt": "《Indigo Nights / Live Sessions》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1822203",
+      "neteaseTrackId": "1822203",
+      "title": "3121 (Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 464120
+    },
+    {
+      "id": "netease-track:1822208",
+      "neteaseTrackId": "1822208",
+      "title": "Girls & Boys (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 245109
+    },
+    {
+      "id": "netease-track:1822212",
+      "neteaseTrackId": "1822212",
+      "title": "The Song of the Heart (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 99543
+    },
+    {
+      "id": "netease-track:1822216",
+      "neteaseTrackId": "1822216",
+      "title": "Delirious (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 120842
+    },
+    {
+      "id": "netease-track:1822219",
+      "neteaseTrackId": "1822219",
+      "title": "Just Like U (Monologue) (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 169157
+    },
+    {
+      "id": "netease-track:1822222",
+      "neteaseTrackId": "1822222",
+      "title": "Satisfied (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 378996
+    },
+    {
+      "id": "netease-track:1822225",
+      "neteaseTrackId": "1822225",
+      "title": "Beggin' Woman Blues (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 402726
+    },
+    {
+      "id": "netease-track:1822229",
+      "neteaseTrackId": "1822229",
+      "title": "Rock Steady (Live)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 396852
+    },
+    {
+      "id": "netease-track:1822232",
+      "neteaseTrackId": "1822232",
+      "title": "Whole Lotta Love (Live)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 281820
+    },
+    {
+      "id": "netease-track:1822235",
+      "neteaseTrackId": "1822235",
+      "title": "Alphabet St. (Live)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 368918
+    },
+    {
+      "id": "netease-track:1822238",
+      "neteaseTrackId": "1822238",
+      "title": "Indigo Nights (Live)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 220728
+    },
+    {
+      "id": "netease-track:1822241",
+      "neteaseTrackId": "1822241",
+      "title": "Misty Blue (Live)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 265430
+    },
+    {
+      "id": "netease-track:1822245",
+      "neteaseTrackId": "1822245",
+      "title": "Baby Love (Live)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 233769
+    },
+    {
+      "id": "netease-track:1822249",
+      "neteaseTrackId": "1822249",
+      "title": "The One (Live)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 547874
+    },
+    {
+      "id": "netease-track:1822253",
+      "neteaseTrackId": "1822253",
+      "title": "All the Critics Love U In London (Live)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 425227
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=184162",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Indigo Nights / Live Sessions Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

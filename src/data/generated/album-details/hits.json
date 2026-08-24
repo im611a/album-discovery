@@ -1,0 +1,219 @@
+{
+  "internalId": "album:1724177",
+  "id": "album:1724177",
+  "neteaseAlbumId": "1724177",
+  "slug": "hits",
+  "title": "Hits",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1996-10-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724177.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724177.webp",
+    "alt": "《Hits》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18821877",
+      "neteaseTrackId": "18821877",
+      "title": "Urge for Going",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 308013
+    },
+    {
+      "id": "netease-track:18821879",
+      "neteaseTrackId": "18821879",
+      "title": "Chelsea Morning",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 151600
+    },
+    {
+      "id": "netease-track:18821881",
+      "neteaseTrackId": "18821881",
+      "title": "Big Yellow Taxi",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 134800
+    },
+    {
+      "id": "netease-track:18821883",
+      "neteaseTrackId": "18821883",
+      "title": "Woodstock",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 326933
+    },
+    {
+      "id": "netease-track:18821885",
+      "neteaseTrackId": "18821885",
+      "title": "The Circle Game",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 292600
+    },
+    {
+      "id": "netease-track:18821887",
+      "neteaseTrackId": "18821887",
+      "title": "Carey",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 182906
+    },
+    {
+      "id": "netease-track:18821889",
+      "neteaseTrackId": "18821889",
+      "title": "California",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 230226
+    },
+    {
+      "id": "netease-track:18821891",
+      "neteaseTrackId": "18821891",
+      "title": "You Turn Me On, I'm a Radio",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 159946
+    },
+    {
+      "id": "netease-track:18821893",
+      "neteaseTrackId": "18821893",
+      "title": "Raised on Robbery",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 187773
+    },
+    {
+      "id": "netease-track:18821895",
+      "neteaseTrackId": "18821895",
+      "title": "Help Me",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 204186
+    },
+    {
+      "id": "netease-track:18821897",
+      "neteaseTrackId": "18821897",
+      "title": "Free Man in Paris",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 183653
+    },
+    {
+      "id": "netease-track:18821899",
+      "neteaseTrackId": "18821899",
+      "title": "River",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 245040
+    },
+    {
+      "id": "netease-track:18821901",
+      "neteaseTrackId": "18821901",
+      "title": "Chinese Cafe / Unchained Melody",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 318973
+    },
+    {
+      "id": "netease-track:18821903",
+      "neteaseTrackId": "18821903",
+      "title": "Come In From the Cold",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 448666
+    },
+    {
+      "id": "netease-track:18821905",
+      "neteaseTrackId": "18821905",
+      "title": "Both Sides Now",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 273573
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1724177",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Hits Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

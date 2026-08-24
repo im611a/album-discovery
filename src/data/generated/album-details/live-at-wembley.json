@@ -1,0 +1,120 @@
+{
+  "internalId": "album:220795",
+  "id": "album:220795",
+  "neteaseAlbumId": "220795",
+  "slug": "live-at-wembley",
+  "title": "Live at Wembley",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2004-04-25",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220795.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220795.webp",
+    "alt": "《Live at Wembley》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2189204",
+      "neteaseTrackId": "2189204",
+      "title": "Wishing on a Star",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:2189209",
+      "neteaseTrackId": "2189209",
+      "title": "What's It Gonna Be",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 217000
+    },
+    {
+      "id": "netease-track:2189213",
+      "neteaseTrackId": "2189213",
+      "title": "My First Time",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:2189218",
+      "neteaseTrackId": "2189218",
+      "title": "Krazy in Luv (Maurice's Nu Soul Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 388000
+    },
+    {
+      "id": "netease-track:2189223",
+      "neteaseTrackId": "2189223",
+      "title": "Baby Boy (Junior's World Mixshow)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 399000
+    },
+    {
+      "id": "netease-track:2189229",
+      "neteaseTrackId": "2189229",
+      "title": "Naughty Girl (Calderone Quayle Club Mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 578000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=220795",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live at Wembley Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

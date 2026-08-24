@@ -1,0 +1,109 @@
+{
+  "internalId": "album:172696",
+  "id": "album:172696",
+  "neteaseAlbumId": "172696",
+  "slug": "immortal-concerts-konserthuset-stockholm-march-22-1960",
+  "title": "Immortal Concerts: Konserthuset, Stockholm, March 22, 1960",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1960-03-21",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172696.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172696.webp",
+    "alt": "《Immortal Concerts: Konserthuset, Stockholm, March 22, 1960》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1703413",
+      "neteaseTrackId": "1703413",
+      "title": "So What",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 924186
+    },
+    {
+      "id": "netease-track:1703417",
+      "neteaseTrackId": "1703417",
+      "title": "Fran-Dance",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 450666
+    },
+    {
+      "id": "netease-track:1703420",
+      "neteaseTrackId": "1703420",
+      "title": "All Blues/The Theme",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1049000
+    },
+    {
+      "id": "netease-track:1703423",
+      "neteaseTrackId": "1703423",
+      "title": "On Green Dolphin Street",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 815000
+    },
+    {
+      "id": "netease-track:1703426",
+      "neteaseTrackId": "1703426",
+      "title": "Walkin' [The Theme]",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1043408
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=172696",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Immortal Concerts: Konserthuset, Stockholm, March 22, 1960 Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "internalId": "album:172126",
+  "id": "album:172126",
+  "neteaseAlbumId": "172126",
+  "slug": "broken-beat-scarred-part-1-2",
+  "title": "Broken, Beat & Scarred(Part. 1&2)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2008-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Metallica",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172126.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172126.webp",
+    "alt": "《Broken, Beat & Scarred(Part. 1&2)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1696550",
+      "neteaseTrackId": "1696550",
+      "title": "Broken, Beat & Scarred",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 385520
+    },
+    {
+      "id": "netease-track:1696554",
+      "neteaseTrackId": "1696554",
+      "title": "Broken, Beat & Scarred (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 446933
+    },
+    {
+      "id": "netease-track:1696557",
+      "neteaseTrackId": "1696557",
+      "title": "End Of The Line (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 472528
+    },
+    {
+      "id": "netease-track:1696560",
+      "neteaseTrackId": "1696560",
+      "title": "Broken, Beat & Scarred",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 382293
+    },
+    {
+      "id": "netease-track:1696563",
+      "neteaseTrackId": "1696563",
+      "title": "Stone Cold Crazy (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 204538
+    },
+    {
+      "id": "netease-track:1696567",
+      "neteaseTrackId": "1696567",
+      "title": "Of Wolf And Man (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 292440
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=172126",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Broken, Beat & Scarred(Part. 1&2) Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

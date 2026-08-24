@@ -1,0 +1,131 @@
+{
+  "internalId": "album:6452",
+  "id": "album:6452",
+  "neteaseAlbumId": "6452",
+  "slug": "life-continues",
+  "title": "Life Continues…",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2006-02-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6452.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6452.webp",
+    "alt": "《Life Continues…》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:22201056",
+      "neteaseTrackId": "22201056",
+      "title": "低调",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 229826
+    },
+    {
+      "id": "netease-track:65798",
+      "neteaseTrackId": "65798",
+      "title": "人车志",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 249746
+    },
+    {
+      "id": "netease-track:65800",
+      "neteaseTrackId": "65800",
+      "title": "最佳损友",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 233560
+    },
+    {
+      "id": "netease-track:22201057",
+      "neteaseTrackId": "22201057",
+      "title": "暴殄天物",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 210666
+    },
+    {
+      "id": "netease-track:65802",
+      "neteaseTrackId": "65802",
+      "title": "落花流水",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 240303
+    },
+    {
+      "id": "netease-track:65804",
+      "neteaseTrackId": "65804",
+      "title": "大得太快",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 149440
+    },
+    {
+      "id": "netease-track:65806",
+      "neteaseTrackId": "65806",
+      "title": "想听",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 207173
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=6452",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Life Continues… 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

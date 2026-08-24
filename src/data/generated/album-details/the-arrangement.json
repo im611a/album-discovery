@@ -1,0 +1,142 @@
+{
+  "internalId": "album:47886",
+  "id": "album:47886",
+  "neteaseAlbumId": "47886",
+  "slug": "the-arrangement",
+  "title": "The Arrangement",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1981-07-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47886.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47886.webp",
+    "alt": "《The Arrangement》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:503044",
+      "neteaseTrackId": "503044",
+      "title": "The Left Bank",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 263035
+    },
+    {
+      "id": "netease-track:503049",
+      "neteaseTrackId": "503049",
+      "title": "The Arrangement",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 291108
+    },
+    {
+      "id": "netease-track:503053",
+      "neteaseTrackId": "503053",
+      "title": "Just About Enough",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:503057",
+      "neteaseTrackId": "503057",
+      "title": "Once In A Lifetime",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 302834
+    },
+    {
+      "id": "netease-track:503062",
+      "neteaseTrackId": "503062",
+      "title": "War Head",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:503068",
+      "neteaseTrackId": "503068",
+      "title": "Lexington Queen",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 293000
+    },
+    {
+      "id": "netease-track:503073",
+      "neteaseTrackId": "503073",
+      "title": "Front Line",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 302000
+    },
+    {
+      "id": "netease-track:503078",
+      "neteaseTrackId": "503078",
+      "title": "Happy End",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 277603
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=47886",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Arrangement 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

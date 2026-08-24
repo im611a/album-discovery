@@ -1,0 +1,164 @@
+{
+  "internalId": "album:23932",
+  "id": "album:23932",
+  "neteaseAlbumId": "23932",
+  "slug": "netease-album-23932",
+  "title": "听我的声音",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2009-09-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "央金玛国际文化传媒(北京)有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23932.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23932.webp",
+    "alt": "《听我的声音》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238738",
+      "neteaseTrackId": "238738",
+      "title": "喜玛拉雅",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 369162
+    },
+    {
+      "id": "netease-track:238740",
+      "neteaseTrackId": "238740",
+      "title": "听我的声音",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 294336
+    },
+    {
+      "id": "netease-track:238742",
+      "neteaseTrackId": "238742",
+      "title": "擦肩而过",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 240013
+    },
+    {
+      "id": "netease-track:238744",
+      "neteaseTrackId": "238744",
+      "title": "文成公主",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 304560
+    },
+    {
+      "id": "netease-track:238746",
+      "neteaseTrackId": "238746",
+      "title": "一次一次",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 245893
+    },
+    {
+      "id": "netease-track:238748",
+      "neteaseTrackId": "238748",
+      "title": "那些日子",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 268106
+    },
+    {
+      "id": "netease-track:238750",
+      "neteaseTrackId": "238750",
+      "title": "海神",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 195040
+    },
+    {
+      "id": "netease-track:238752",
+      "neteaseTrackId": "238752",
+      "title": "太阳至爱",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 234693
+    },
+    {
+      "id": "netease-track:238754",
+      "neteaseTrackId": "238754",
+      "title": "归来",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 252506
+    },
+    {
+      "id": "netease-track:238756",
+      "neteaseTrackId": "238756",
+      "title": "炼爱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 248800
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=23932",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "听我的声音 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

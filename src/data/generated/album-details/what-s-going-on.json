@@ -1,0 +1,219 @@
+{
+  "internalId": "album:6451",
+  "id": "album:6451",
+  "neteaseAlbumId": "6451",
+  "slug": "what-s-going-on",
+  "title": "What's Going On…?",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2006-11-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6451.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6451.webp",
+    "alt": "《What's Going On…?》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:65758",
+      "neteaseTrackId": "65758",
+      "title": "裙下之臣",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 262292
+    },
+    {
+      "id": "netease-track:65759",
+      "neteaseTrackId": "65759",
+      "title": "最后的嬉皮士",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 212480
+    },
+    {
+      "id": "netease-track:65761",
+      "neteaseTrackId": "65761",
+      "title": "白玫瑰",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 240233
+    },
+    {
+      "id": "netease-track:65763",
+      "neteaseTrackId": "65763",
+      "title": "黑择明",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 274529
+    },
+    {
+      "id": "netease-track:65766",
+      "neteaseTrackId": "65766",
+      "title": "富士山下",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 258902
+    },
+    {
+      "id": "netease-track:65769",
+      "neteaseTrackId": "65769",
+      "title": "不如不见",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 249013
+    },
+    {
+      "id": "netease-track:65772",
+      "neteaseTrackId": "65772",
+      "title": "心深伤透",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 248013
+    },
+    {
+      "id": "netease-track:65775",
+      "neteaseTrackId": "65775",
+      "title": "解药",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 252075
+    },
+    {
+      "id": "netease-track:22198009",
+      "neteaseTrackId": "22198009",
+      "title": "天公地道",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 242893
+    },
+    {
+      "id": "netease-track:65778",
+      "neteaseTrackId": "65778",
+      "title": "粤语残片",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 276306
+    },
+    {
+      "id": "netease-track:33255169",
+      "neteaseTrackId": "33255169",
+      "title": "裙下之臣 (Live)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 257023
+    },
+    {
+      "id": "netease-track:33255170",
+      "neteaseTrackId": "33255170",
+      "title": "解药 (Live)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 246743
+    },
+    {
+      "id": "netease-track:33255171",
+      "neteaseTrackId": "33255171",
+      "title": "白玫瑰 (Live)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 239036
+    },
+    {
+      "id": "netease-track:33255172",
+      "neteaseTrackId": "33255172",
+      "title": "最后的嬉皮士 (Live)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 221410
+    },
+    {
+      "id": "netease-track:33255173",
+      "neteaseTrackId": "33255173",
+      "title": "富士山下 (Live)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 292120
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=6451",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "What's Going On…? 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

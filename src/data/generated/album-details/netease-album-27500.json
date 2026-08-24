@@ -1,0 +1,175 @@
+{
+  "internalId": "album:27500",
+  "id": "album:27500",
+  "neteaseAlbumId": "27500",
+  "slug": "netease-album-27500",
+  "title": "回蔚",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2009-06-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "数字发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27500.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27500.webp",
+    "alt": "《回蔚》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:276898",
+      "neteaseTrackId": "276898",
+      "title": "打起手鼓唱起歌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 245412
+    },
+    {
+      "id": "netease-track:276900",
+      "neteaseTrackId": "276900",
+      "title": "青山在",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 269520
+    },
+    {
+      "id": "netease-track:276902",
+      "neteaseTrackId": "276902",
+      "title": "在那遥远的地方",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 224613
+    },
+    {
+      "id": "netease-track:276904",
+      "neteaseTrackId": "276904",
+      "title": "外面的世界",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 273786
+    },
+    {
+      "id": "netease-track:276907",
+      "neteaseTrackId": "276907",
+      "title": "月圆花好",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 212560
+    },
+    {
+      "id": "netease-track:276910",
+      "neteaseTrackId": "276910",
+      "title": "风从哪里来",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 229466
+    },
+    {
+      "id": "netease-track:276913",
+      "neteaseTrackId": "276913",
+      "title": "半个月亮爬上来",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 275212
+    },
+    {
+      "id": "netease-track:276916",
+      "neteaseTrackId": "276916",
+      "title": "溜溜的情歌",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 238146
+    },
+    {
+      "id": "netease-track:276918",
+      "neteaseTrackId": "276918",
+      "title": "茉莉花",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 227385
+    },
+    {
+      "id": "netease-track:276920",
+      "neteaseTrackId": "276920",
+      "title": "红",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 223560
+    },
+    {
+      "id": "netease-track:276924",
+      "neteaseTrackId": "276924",
+      "title": "密流(remix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 316604
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=27500",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "回蔚 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1724198",
+  "id": "album:1724198",
+  "neteaseAlbumId": "1724198",
+  "slug": "for-the-roses",
+  "title": "For The Roses",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1972-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724198.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724198.webp",
+    "alt": "《For The Roses》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822190",
+      "neteaseTrackId": "18822190",
+      "title": "Banquet",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 184049
+    },
+    {
+      "id": "netease-track:18822191",
+      "neteaseTrackId": "18822191",
+      "title": "Cold Blue Steel And Sweet Fire",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 257108
+    },
+    {
+      "id": "netease-track:18822193",
+      "neteaseTrackId": "18822193",
+      "title": "Barangrill",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 172059
+    },
+    {
+      "id": "netease-track:18822195",
+      "neteaseTrackId": "18822195",
+      "title": "Lesson In Survival",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 191332
+    },
+    {
+      "id": "netease-track:18822196",
+      "neteaseTrackId": "18822196",
+      "title": "Let The Wind Carry Me",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 235944
+    },
+    {
+      "id": "netease-track:18822198",
+      "neteaseTrackId": "18822198",
+      "title": "For The Roses",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 223293
+    },
+    {
+      "id": "netease-track:18822199",
+      "neteaseTrackId": "18822199",
+      "title": "See You Sometime",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 176819
+    },
+    {
+      "id": "netease-track:18822201",
+      "neteaseTrackId": "18822201",
+      "title": "Electricity",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 181626
+    },
+    {
+      "id": "netease-track:18822203",
+      "neteaseTrackId": "18822203",
+      "title": "You Turn Me On I'm A Radio",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 159946
+    },
+    {
+      "id": "netease-track:18822205",
+      "neteaseTrackId": "18822205",
+      "title": "Blonde In The Bleachers",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 162377
+    },
+    {
+      "id": "netease-track:18822207",
+      "neteaseTrackId": "18822207",
+      "title": "Woman Of Heart And Mind",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 158824
+    },
+    {
+      "id": "netease-track:18822209",
+      "neteaseTrackId": "18822209",
+      "title": "Judgement Of The Moon And Stars (Ludwig's Tune)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 331338
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1724198",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "For The Roses Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

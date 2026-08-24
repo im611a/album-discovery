@@ -1,0 +1,187 @@
+{
+  "internalId": "album:18008",
+  "id": "album:18008",
+  "neteaseAlbumId": "18008",
+  "slug": "netease-album-18008",
+  "title": "给你的情书",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6090",
+      "neteaseArtistId": "6090",
+      "name": "杨瑞代"
+    }
+  ],
+  "releaseDate": "2009-10-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18008.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18008.webp",
+    "alt": "《给你的情书》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:178002",
+      "neteaseTrackId": "178002",
+      "title": "哈瓦那",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 202330
+    },
+    {
+      "id": "netease-track:178004",
+      "neteaseTrackId": "178004",
+      "title": "I Don’t Care",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 255626
+    },
+    {
+      "id": "netease-track:178006",
+      "neteaseTrackId": "178006",
+      "title": "Good Time",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 216916
+    },
+    {
+      "id": "netease-track:178008",
+      "neteaseTrackId": "178008",
+      "title": "月光",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代",
+        "周杰伦"
+      ],
+      "durationMs": 237160
+    },
+    {
+      "id": "netease-track:178011",
+      "neteaseTrackId": "178011",
+      "title": "恋爱",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 210943
+    },
+    {
+      "id": "netease-track:178015",
+      "neteaseTrackId": "178015",
+      "title": "Oh Why",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 199503
+    },
+    {
+      "id": "netease-track:178018",
+      "neteaseTrackId": "178018",
+      "title": "牵强",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 231809
+    },
+    {
+      "id": "netease-track:178021",
+      "neteaseTrackId": "178021",
+      "title": "If I",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 196903
+    },
+    {
+      "id": "netease-track:178024",
+      "neteaseTrackId": "178024",
+      "title": "瘦够了",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 178636
+    },
+    {
+      "id": "netease-track:178027",
+      "neteaseTrackId": "178027",
+      "title": "A Broken Spirit",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 226903
+    },
+    {
+      "id": "netease-track:178030",
+      "neteaseTrackId": "178030",
+      "title": "爱是最幸福的悲伤",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 119223
+    },
+    {
+      "id": "netease-track:178033",
+      "neteaseTrackId": "178033",
+      "title": "南回线",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "杨瑞代"
+      ],
+      "durationMs": 198280
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=18008",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "给你的情书 杨瑞代",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

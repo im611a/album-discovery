@@ -1,0 +1,186 @@
+{
+  "internalId": "album:29555",
+  "id": "album:29555",
+  "neteaseAlbumId": "29555",
+  "slug": "netease-album-29555",
+  "title": "优雅的刺猬",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9609",
+      "neteaseArtistId": "9609",
+      "name": "魏如萱"
+    }
+  ],
+  "releaseDate": "2010-05-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "銀翼文創",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29555.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29555.webp",
+    "alt": "《优雅的刺猬》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297759",
+      "neteaseTrackId": "297759",
+      "title": "麋人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 268051
+    },
+    {
+      "id": "netease-track:297761",
+      "neteaseTrackId": "297761",
+      "title": "困在",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 267000
+    },
+    {
+      "id": "netease-track:297763",
+      "neteaseTrackId": "297763",
+      "title": "我不是数学家",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 180026
+    },
+    {
+      "id": "netease-track:297765",
+      "neteaseTrackId": "297765",
+      "title": "没有关系",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 217060
+    },
+    {
+      "id": "netease-track:297767",
+      "neteaseTrackId": "297767",
+      "title": "外星人爱我",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 186013
+    },
+    {
+      "id": "netease-track:297769",
+      "neteaseTrackId": "297769",
+      "title": "一刀两刃",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 265055
+    },
+    {
+      "id": "netease-track:297771",
+      "neteaseTrackId": "297771",
+      "title": "问号",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 207013
+    },
+    {
+      "id": "netease-track:297773",
+      "neteaseTrackId": "297773",
+      "title": "你是不会当树吗",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 317520
+    },
+    {
+      "id": "netease-track:297774",
+      "neteaseTrackId": "297774",
+      "title": "局部的人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 283507
+    },
+    {
+      "id": "netease-track:297775",
+      "neteaseTrackId": "297775",
+      "title": "优雅的刺猬",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 75070
+    },
+    {
+      "id": "netease-track:297776",
+      "neteaseTrackId": "297776",
+      "title": "一颗灰尘",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 300048
+    },
+    {
+      "id": "netease-track:297777",
+      "neteaseTrackId": "297777",
+      "title": "我爸的笔 (Bonus Track)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 233000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=29555",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "优雅的刺猬 魏如萱",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

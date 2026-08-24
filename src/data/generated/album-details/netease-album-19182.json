@@ -1,0 +1,176 @@
+{
+  "internalId": "album:19182",
+  "id": "album:19182",
+  "neteaseAlbumId": "19182",
+  "slug": "netease-album-19182",
+  "title": "左小祖咒电影原声配乐No.1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2008-05-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19182.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19182.webp",
+    "alt": "《左小祖咒电影原声配乐No.1》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1343218018",
+      "neteaseTrackId": "1343218018",
+      "title": "5.12 遇难学生名录",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 212727
+    },
+    {
+      "id": "netease-track:189795",
+      "neteaseTrackId": "189795",
+      "title": "于是我又想起了你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 183000
+    },
+    {
+      "id": "netease-track:189787",
+      "neteaseTrackId": "189787",
+      "title": "苦鬼",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 333328
+    },
+    {
+      "id": "netease-track:1432425027",
+      "neteaseTrackId": "1432425027",
+      "title": "港湾边的咖啡馆",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 158356
+    },
+    {
+      "id": "netease-track:189783",
+      "neteaseTrackId": "189783",
+      "title": "再见 可爱的小伙子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 316539
+    },
+    {
+      "id": "netease-track:189772",
+      "neteaseTrackId": "189772",
+      "title": "瓜子",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 249529
+    },
+    {
+      "id": "netease-track:189791",
+      "neteaseTrackId": "189791",
+      "title": "不得要领",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 174750
+    },
+    {
+      "id": "netease-track:1431002026",
+      "neteaseTrackId": "1431002026",
+      "title": "看见樱桃树",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 190638
+    },
+    {
+      "id": "netease-track:526464847",
+      "neteaseTrackId": "526464847",
+      "title": "5.12遇难学生名录",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 254069
+    },
+    {
+      "id": "netease-track:1432426830",
+      "neteaseTrackId": "1432426830",
+      "title": "星空下的思念",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 153000
+    },
+    {
+      "id": "netease-track:1835597764",
+      "neteaseTrackId": "1835597764",
+      "title": "苦鬼",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 211090
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=19182",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "左小祖咒电影原声配乐No.1 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

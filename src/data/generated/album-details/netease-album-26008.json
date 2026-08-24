@@ -1,0 +1,177 @@
+{
+  "internalId": "album:26008",
+  "id": "album:26008",
+  "neteaseAlbumId": "26008",
+  "slug": "netease-album-26008",
+  "title": "揽花去",
+  "aliases": [
+    "The Flowers Beckon"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:8376",
+      "neteaseArtistId": "8376",
+      "name": "罗思容"
+    }
+  ],
+  "releaseDate": "2011-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/26008.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/26008.webp",
+    "alt": "《揽花去》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:261531",
+      "neteaseTrackId": "261531",
+      "title": "摇摇摇",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 296100
+    },
+    {
+      "id": "netease-track:261534",
+      "neteaseTrackId": "261534",
+      "title": "细人仔与鸟仔",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 306596
+    },
+    {
+      "id": "netease-track:261537",
+      "neteaseTrackId": "261537",
+      "title": "揽花去",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 300141
+    },
+    {
+      "id": "netease-track:261545",
+      "neteaseTrackId": "261545",
+      "title": "浪荡子",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 298840
+    },
+    {
+      "id": "netease-track:261547",
+      "neteaseTrackId": "261547",
+      "title": "食茶",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 336039
+    },
+    {
+      "id": "netease-track:261549",
+      "neteaseTrackId": "261549",
+      "title": "一眨目",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 313515
+    },
+    {
+      "id": "netease-track:261551",
+      "neteaseTrackId": "261551",
+      "title": "心肝子遽遽睡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 303670
+    },
+    {
+      "id": "netease-track:261553",
+      "neteaseTrackId": "261553",
+      "title": "飞出笼去",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 412572
+    },
+    {
+      "id": "netease-track:261555",
+      "neteaseTrackId": "261555",
+      "title": "望毋得",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 258066
+    },
+    {
+      "id": "netease-track:261559",
+      "neteaseTrackId": "261559",
+      "title": "イ厓尽想爱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 272000
+    },
+    {
+      "id": "netease-track:261563",
+      "neteaseTrackId": "261563",
+      "title": "山歌歌",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "罗思容"
+      ],
+      "durationMs": 305597
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=26008",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "揽花去 The Flowers Beckon 罗思容",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

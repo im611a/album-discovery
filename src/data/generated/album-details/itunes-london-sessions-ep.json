@@ -1,0 +1,109 @@
+{
+  "internalId": "album:1757616",
+  "id": "album:1757616",
+  "neteaseAlbumId": "1757616",
+  "slug": "itunes-london-sessions-ep",
+  "title": "iTunes London Sessions EP",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "2008-03-10",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1757616.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1757616.webp",
+    "alt": "《iTunes London Sessions EP》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19169426",
+      "neteaseTrackId": "19169426",
+      "title": "Sitting On Fire (Live at iTunes Festival March 2008)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 239986
+    },
+    {
+      "id": "netease-track:19169427",
+      "neteaseTrackId": "19169427",
+      "title": "Lord Let It Rain On Me (Live at iTunes Festival March 2008)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:19169428",
+      "neteaseTrackId": "19169428",
+      "title": "True Love Will Find You In The End (Live at iTunes Festival March 2008)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:19169429",
+      "neteaseTrackId": "19169429",
+      "title": "Death Take Your Fiddle (Live at iTunes Festival March 2008)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 202840
+    },
+    {
+      "id": "netease-track:19169430",
+      "neteaseTrackId": "19169430",
+      "title": "Walking WIth Jesus (Live at iTunes Festival March 2008)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 277000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=1757616",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "iTunes London Sessions EP Spiritualized",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

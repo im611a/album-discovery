@@ -1,0 +1,153 @@
+{
+  "internalId": "album:61614",
+  "id": "album:61614",
+  "neteaseAlbumId": "61614",
+  "slug": "netease-album-61614",
+  "title": "発育ステータス“御起立ジャポン”",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:17635",
+      "neteaseArtistId": "17635",
+      "name": "椎名林檎"
+    }
+  ],
+  "releaseDate": "2000-12-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/61614.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/61614.webp",
+    "alt": "《発育ステータス“御起立ジャポン”》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:642527",
+      "neteaseTrackId": "642527",
+      "title": "発芽",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 172000
+    },
+    {
+      "id": "netease-track:642533",
+      "neteaseTrackId": "642533",
+      "title": "悪い苗 良い萠",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:642538",
+      "neteaseTrackId": "642538",
+      "title": "害虫駆除",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 186000
+    },
+    {
+      "id": "netease-track:642542",
+      "neteaseTrackId": "642542",
+      "title": "たかいたかい",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 156000
+    },
+    {
+      "id": "netease-track:642546",
+      "neteaseTrackId": "642546",
+      "title": "生え抜き",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 148000
+    },
+    {
+      "id": "netease-track:642551",
+      "neteaseTrackId": "642551",
+      "title": "咲かせてみて",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 264000
+    },
+    {
+      "id": "netease-track:642556",
+      "neteaseTrackId": "642556",
+      "title": "今夜だふ",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 122000
+    },
+    {
+      "id": "netease-track:642562",
+      "neteaseTrackId": "642562",
+      "title": "雌花 故 雄花",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:642567",
+      "neteaseTrackId": "642567",
+      "title": "光合成",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 229000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=61614",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "発育ステータス“御起立ジャポン” 椎名林檎",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

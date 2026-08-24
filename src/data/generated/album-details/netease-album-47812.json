@@ -1,0 +1,263 @@
+{
+  "internalId": "album:47812",
+  "id": "album:47812",
+  "neteaseAlbumId": "47812",
+  "slug": "netease-album-47812",
+  "title": "戦场のメリー・クリスマス",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1983-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47812.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47812.webp",
+    "alt": "《戦场のメリー・クリスマス》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:501479",
+      "neteaseTrackId": "501479",
+      "title": "メリー・クリスマス・Mr.ローレンス",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 277213
+    },
+    {
+      "id": "netease-track:501483",
+      "neteaseTrackId": "501483",
+      "title": "バタヴィア",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 78800
+    },
+    {
+      "id": "netease-track:501487",
+      "neteaseTrackId": "501487",
+      "title": "ジャミネイション",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 108906
+    },
+    {
+      "id": "netease-track:501491",
+      "neteaseTrackId": "501491",
+      "title": "ア・ハートリー・ブレックファスト",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 83600
+    },
+    {
+      "id": "netease-track:501495",
+      "neteaseTrackId": "501495",
+      "title": "ビフォー・ウォー",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 135000
+    },
+    {
+      "id": "netease-track:501498",
+      "neteaseTrackId": "501498",
+      "title": "ザ・シド・アンド・ザ・ソワー",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 302400
+    },
+    {
+      "id": "netease-track:501501",
+      "neteaseTrackId": "501501",
+      "title": "ア・ブリーフ・エンカウンター",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 143000
+    },
+    {
+      "id": "netease-track:501504",
+      "neteaseTrackId": "501504",
+      "title": "ライド・ライド・ライド",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 64706
+    },
+    {
+      "id": "netease-track:501507",
+      "neteaseTrackId": "501507",
+      "title": "ザ・ファイト",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 95106
+    },
+    {
+      "id": "netease-track:501510",
+      "neteaseTrackId": "501510",
+      "title": "ファーザー・クリスマス",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 128800
+    },
+    {
+      "id": "netease-track:501513",
+      "neteaseTrackId": "501513",
+      "title": "ディスミスド!",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 10000
+    },
+    {
+      "id": "netease-track:501516",
+      "neteaseTrackId": "501516",
+      "title": "アッセンブリー",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 137560
+    },
+    {
+      "id": "netease-track:501520",
+      "neteaseTrackId": "501520",
+      "title": "ビヨンド・リーズン",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 120560
+    },
+    {
+      "id": "netease-track:501524",
+      "neteaseTrackId": "501524",
+      "title": "ソーイング・ザ・シード",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 115000
+    },
+    {
+      "id": "netease-track:501528",
+      "neteaseTrackId": "501528",
+      "title": "23rd.サーム",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 119906
+    },
+    {
+      "id": "netease-track:501531",
+      "neteaseTrackId": "501531",
+      "title": "ラスト・レグレッツ",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 106506
+    },
+    {
+      "id": "netease-track:501533",
+      "neteaseTrackId": "501533",
+      "title": "ライド・ライド・ライド(リプライズ)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 66000
+    },
+    {
+      "id": "netease-track:501535",
+      "neteaseTrackId": "501535",
+      "title": "ザ・シード",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 64506
+    },
+    {
+      "id": "netease-track:501537",
+      "neteaseTrackId": "501537",
+      "title": "フォービドゥン・カラーズ",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 290533
+    }
+  ],
+  "trackCount": 19,
+  "externalUrl": "https://music.163.com/#/album?id=47812",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "戦场のメリー・クリスマス 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

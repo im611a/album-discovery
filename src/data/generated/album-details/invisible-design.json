@@ -1,0 +1,131 @@
+{
+  "internalId": "album:1540817",
+  "id": "album:1540817",
+  "neteaseAlbumId": "1540817",
+  "slug": "invisible-design",
+  "title": "Invisible Design",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1999-03-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Tzadik",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540817.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540817.webp",
+    "alt": "《Invisible Design》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16715027",
+      "neteaseTrackId": "16715027",
+      "title": "Black Aether",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 259666
+    },
+    {
+      "id": "netease-track:16715028",
+      "neteaseTrackId": "16715028",
+      "title": "Commander Guevara",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 424266
+    },
+    {
+      "id": "netease-track:16715029",
+      "neteaseTrackId": "16715029",
+      "title": "Oceans Of Borrowed Money",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 311200
+    },
+    {
+      "id": "netease-track:16715030",
+      "neteaseTrackId": "16715030",
+      "title": "Aisha",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 342706
+    },
+    {
+      "id": "netease-track:16715031",
+      "neteaseTrackId": "16715031",
+      "title": "Night Air & Low Frequency",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 556293
+    },
+    {
+      "id": "netease-track:16715032",
+      "neteaseTrackId": "16715032",
+      "title": "White Arc Spiral",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 338373
+    },
+    {
+      "id": "netease-track:16715033",
+      "neteaseTrackId": "16715033",
+      "title": "Aghora",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 587026
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1540817",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Invisible Design Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

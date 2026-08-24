@@ -1,0 +1,155 @@
+{
+  "internalId": "album:1970388",
+  "id": "album:1970388",
+  "neteaseAlbumId": "1970388",
+  "slug": "doo-bop",
+  "title": "Doo-Bop",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1992-06-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970388.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970388.webp",
+    "alt": "《Doo-Bop》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21337543",
+      "neteaseTrackId": "21337543",
+      "title": "Mystery",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 236200
+    },
+    {
+      "id": "netease-track:21337544",
+      "neteaseTrackId": "21337544",
+      "title": "The Doo-Bop Song",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 302266
+    },
+    {
+      "id": "netease-track:21337545",
+      "neteaseTrackId": "21337545",
+      "title": "Chocolate Chip",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 281240
+    },
+    {
+      "id": "netease-track:21337546",
+      "neteaseTrackId": "21337546",
+      "title": "High Speed Chase",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 280760
+    },
+    {
+      "id": "netease-track:21337547",
+      "neteaseTrackId": "21337547",
+      "title": "Blow",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Easy Mo Bee"
+      ],
+      "durationMs": 307040
+    },
+    {
+      "id": "netease-track:21337548",
+      "neteaseTrackId": "21337548",
+      "title": "Sonya",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 332173
+    },
+    {
+      "id": "netease-track:21337549",
+      "neteaseTrackId": "21337549",
+      "title": "Fantasy",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Easy Mo Bee"
+      ],
+      "durationMs": 278960
+    },
+    {
+      "id": "netease-track:21337550",
+      "neteaseTrackId": "21337550",
+      "title": "Duke Booty",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 296000
+    },
+    {
+      "id": "netease-track:21337551",
+      "neteaseTrackId": "21337551",
+      "title": "Mystery (Reprise)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 86693
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1970388",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Doo-Bop Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "internalId": "album:172254",
+  "id": "album:172254",
+  "neteaseAlbumId": "172254",
+  "slug": "the-5-98-e-p-garage-days-re-revisited",
+  "title": "The $5.98 E.P.: Garage Days Re-Revisited",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1987-08-20",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Elektra",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172254.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172254.webp",
+    "alt": "《The $5.98 E.P.: Garage Days Re-Revisited》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1698319",
+      "neteaseTrackId": "1698319",
+      "title": "Helpless",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 399255
+    },
+    {
+      "id": "netease-track:1698323",
+      "neteaseTrackId": "1698323",
+      "title": "The Small Hours",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 402355
+    },
+    {
+      "id": "netease-track:1698327",
+      "neteaseTrackId": "1698327",
+      "title": "The Wait",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 295334
+    },
+    {
+      "id": "netease-track:1698332",
+      "neteaseTrackId": "1698332",
+      "title": "Crash Course in Brain Surgery",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 190432
+    },
+    {
+      "id": "netease-track:1698338",
+      "neteaseTrackId": "1698338",
+      "title": "Last Caress / Green Hell",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 209800
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=172254",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The $5.98 E.P.: Garage Days Re-Revisited Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

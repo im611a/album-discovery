@@ -1,0 +1,146 @@
+{
+  "internalId": "album:220757",
+  "id": "album:220757",
+  "neteaseAlbumId": "220757",
+  "slug": "irreemplazable",
+  "title": "Irreemplazable",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2007-09-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220757.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220757.webp",
+    "alt": "《Irreemplazable》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188698",
+      "neteaseTrackId": "2188698",
+      "title": "Amor Gitano",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Alejandro Fernández"
+      ],
+      "durationMs": 228484
+    },
+    {
+      "id": "netease-track:2188703",
+      "neteaseTrackId": "2188703",
+      "title": "Listen (Oye) (Spanish Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 221200
+    },
+    {
+      "id": "netease-track:2188708",
+      "neteaseTrackId": "2188708",
+      "title": "Irreplaceable (Irreemplazable) (Spanish version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 227666
+    },
+    {
+      "id": "netease-track:2188713",
+      "neteaseTrackId": "2188713",
+      "title": "Beautiful Liar (Bello Embustero) (Spanish Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 200875
+    },
+    {
+      "id": "netease-track:2188719",
+      "neteaseTrackId": "2188719",
+      "title": "Beautiful Liar (Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Shakira"
+      ],
+      "durationMs": 180535
+    },
+    {
+      "id": "netease-track:2188726",
+      "neteaseTrackId": "2188726",
+      "title": "Beautiful Liar (Spanglish Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 199482
+    },
+    {
+      "id": "netease-track:2188731",
+      "neteaseTrackId": "2188731",
+      "title": "Irreplaceable (Irreemplazable) (Nortena Remix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 230608
+    },
+    {
+      "id": "netease-track:2188735",
+      "neteaseTrackId": "2188735",
+      "title": "Get Me Bodied (Timbaland Remix featuring Voltio)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Julio Voltio",
+        "Beyoncé",
+        "Timbaland"
+      ],
+      "durationMs": 374561
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=220757",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Irreemplazable Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

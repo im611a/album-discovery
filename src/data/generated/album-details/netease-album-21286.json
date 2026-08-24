@@ -1,0 +1,175 @@
+{
+  "internalId": "album:21286",
+  "id": "album:21286",
+  "neteaseAlbumId": "21286",
+  "slug": "netease-album-21286",
+  "title": "华丽的冒险",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "2005-09-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21286.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21286.webp",
+    "alt": "《华丽的冒险》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209228",
+      "neteaseTrackId": "209228",
+      "title": "旅行的意义",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 257973
+    },
+    {
+      "id": "netease-track:209230",
+      "neteaseTrackId": "209230",
+      "title": "腐朽",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 247133
+    },
+    {
+      "id": "netease-track:209232",
+      "neteaseTrackId": "209232",
+      "title": "Sentimental Kills",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 308280
+    },
+    {
+      "id": "netease-track:209235",
+      "neteaseTrackId": "209235",
+      "title": "华丽的冒险",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 330893
+    },
+    {
+      "id": "netease-track:209238",
+      "neteaseTrackId": "209238",
+      "title": "太多",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 233013
+    },
+    {
+      "id": "netease-track:209243",
+      "neteaseTrackId": "209243",
+      "title": "花的姿态",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 283253
+    },
+    {
+      "id": "netease-track:209245",
+      "neteaseTrackId": "209245",
+      "title": "Self",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 306866
+    },
+    {
+      "id": "netease-track:209248",
+      "neteaseTrackId": "209248",
+      "title": "80%完美的日子",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 277453
+    },
+    {
+      "id": "netease-track:209251",
+      "neteaseTrackId": "209251",
+      "title": "表面的和平",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:209254",
+      "neteaseTrackId": "209254",
+      "title": "静静的生活",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 216373
+    },
+    {
+      "id": "netease-track:209257",
+      "neteaseTrackId": "209257",
+      "title": "最初的起点",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 165306
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=21286",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "华丽的冒险 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

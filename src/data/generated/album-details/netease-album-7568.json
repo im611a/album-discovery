@@ -1,0 +1,120 @@
+{
+  "internalId": "album:7568",
+  "id": "album:7568",
+  "neteaseAlbumId": "7568",
+  "slug": "netease-album-7568",
+  "title": "与郎共舞Remix",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2517",
+      "neteaseArtistId": "2517",
+      "name": "刀郎"
+    }
+  ],
+  "releaseDate": "2007-06-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "旭润音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7568.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7568.webp",
+    "alt": "《与郎共舞Remix》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77004",
+      "neteaseTrackId": "77004",
+      "title": "冲动的惩罚(Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 514400
+    },
+    {
+      "id": "netease-track:77007",
+      "neteaseTrackId": "77007",
+      "title": "2002年的第一场雪(Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 469400
+    },
+    {
+      "id": "netease-track:77010",
+      "neteaseTrackId": "77010",
+      "title": "艾里莆与赛乃姆(Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 473280
+    },
+    {
+      "id": "netease-track:77013",
+      "neteaseTrackId": "77013",
+      "title": "新疆好(Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 507000
+    },
+    {
+      "id": "netease-track:77017",
+      "neteaseTrackId": "77017",
+      "title": "新阿瓦尔古丽(Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 499800
+    },
+    {
+      "id": "netease-track:77021",
+      "neteaseTrackId": "77021",
+      "title": "情人(Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刀郎"
+      ],
+      "durationMs": 490786
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=7568",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "与郎共舞Remix 刀郎",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

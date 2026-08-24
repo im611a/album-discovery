@@ -1,0 +1,204 @@
+{
+  "internalId": "album:7554",
+  "id": "album:7554",
+  "neteaseAlbumId": "7554",
+  "slug": "netease-album-7554",
+  "title": "松阿珠阿吉",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:187214",
+      "neteaseArtistId": "187214",
+      "name": "不一定"
+    }
+  ],
+  "releaseDate": "2007-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7554.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7554.webp",
+    "alt": "《松阿珠阿吉》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76930",
+      "neteaseTrackId": "76930",
+      "title": "凯硕:鼓/文智涌:磬、铃、古琴/齐钢:笛/窦唯:钢琴",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 316000
+    },
+    {
+      "id": "netease-track:76931",
+      "neteaseTrackId": "76931",
+      "title": "文智涌:笛/凯硕:人声/窦唯:鼓/齐钢:键盘",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 244786
+    },
+    {
+      "id": "netease-track:76932",
+      "neteaseTrackId": "76932",
+      "title": "文智涌:笛/窦唯:鼓/凯硕:磬、铃",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 180000
+    },
+    {
+      "id": "netease-track:76935",
+      "neteaseTrackId": "76935",
+      "title": "凯硕:鼓/窦唯:钢琴/文智涌:埙",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 128000
+    },
+    {
+      "id": "netease-track:76937",
+      "neteaseTrackId": "76937",
+      "title": "窦唯:鼓/凯丽:古琴/文智涌:磬、铃/齐钢:笛",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 208120
+    },
+    {
+      "id": "netease-track:76939",
+      "neteaseTrackId": "76939",
+      "title": "窦唯:古琴/文智涌:钢琴/凯硕:萧、鼓",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 131000
+    },
+    {
+      "id": "netease-track:76941",
+      "neteaseTrackId": "76941",
+      "title": "凯硕:胡笳/窦唯:鼓、镲、笛/文智涌:磬、铃",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 213760
+    },
+    {
+      "id": "netease-track:76944",
+      "neteaseTrackId": "76944",
+      "title": "文智涌:笛、钢琴/窦唯:古琴/凯硕:萧",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 424400
+    },
+    {
+      "id": "netease-track:76947",
+      "neteaseTrackId": "76947",
+      "title": "文智涌:小号/窦唯:鼓、键盘、钢琴/凯硕:磬、铃、人声",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 355667
+    },
+    {
+      "id": "netease-track:76950",
+      "neteaseTrackId": "76950",
+      "title": "窦唯:鼓、文智涌:笛/小宝:人声/齐钢:键盘",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 270920
+    },
+    {
+      "id": "netease-track:76953",
+      "neteaseTrackId": "76953",
+      "title": "窦唯:鼓、键盘/凯硕:萧/文智涌:埙",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 236000
+    },
+    {
+      "id": "netease-track:76956",
+      "neteaseTrackId": "76956",
+      "title": "窦唯:鼓、钢琴/凯硕:萧/文智涌:磬、铃",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 189880
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=7554",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic",
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "松阿珠阿吉 窦唯 不一定",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

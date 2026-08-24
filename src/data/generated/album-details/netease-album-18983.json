@@ -1,0 +1,410 @@
+{
+  "internalId": "album:18983",
+  "id": "album:18983",
+  "neteaseAlbumId": "18983",
+  "slug": "netease-album-18983",
+  "title": "挚爱1995-2003",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "2003-05-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18983.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18983.webp",
+    "alt": "《挚爱1995-2003》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187111",
+      "neteaseTrackId": "187111",
+      "title": "月亮代表我的心",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 240333
+    },
+    {
+      "id": "netease-track:187115",
+      "neteaseTrackId": "187115",
+      "title": "当爱已成往事",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 301666
+    },
+    {
+      "id": "netease-track:187119",
+      "neteaseTrackId": "187119",
+      "title": "真相",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 278840
+    },
+    {
+      "id": "netease-track:187123",
+      "neteaseTrackId": "187123",
+      "title": "被爱",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 299607
+    },
+    {
+      "id": "netease-track:187126",
+      "neteaseTrackId": "187126",
+      "title": "深情相拥",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "辛晓琪"
+      ],
+      "durationMs": 213933
+    },
+    {
+      "id": "netease-track:187129",
+      "neteaseTrackId": "187129",
+      "title": "Love Like Magic",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 259181
+    },
+    {
+      "id": "netease-track:187133",
+      "neteaseTrackId": "187133",
+      "title": "当真就好",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "陈淑桦"
+      ],
+      "durationMs": 325547
+    },
+    {
+      "id": "netease-track:187138",
+      "neteaseTrackId": "187138",
+      "title": "作伴",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 256692
+    },
+    {
+      "id": "netease-track:187142",
+      "neteaseTrackId": "187142",
+      "title": "谈恋爱",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 221666
+    },
+    {
+      "id": "netease-track:187146",
+      "neteaseTrackId": "187146",
+      "title": "取暖",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 254600
+    },
+    {
+      "id": "netease-track:187149",
+      "neteaseTrackId": "187149",
+      "title": "Everybody",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 238560
+    },
+    {
+      "id": "netease-track:187152",
+      "neteaseTrackId": "187152",
+      "title": "My God",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247153
+    },
+    {
+      "id": "netease-track:187156",
+      "neteaseTrackId": "187156",
+      "title": "何去何从之阿飞正传",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 196208
+    },
+    {
+      "id": "netease-track:187159",
+      "neteaseTrackId": "187159",
+      "title": "夜半歌声",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:187163",
+      "neteaseTrackId": "187163",
+      "title": "一辈子失去了你",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 260716
+    },
+    {
+      "id": "netease-track:187167",
+      "neteaseTrackId": "187167",
+      "title": "Boulevard Of Broken Dreams",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 215066
+    },
+    {
+      "id": "netease-track:187170",
+      "neteaseTrackId": "187170",
+      "title": "风继续吹",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 324545
+    },
+    {
+      "id": "netease-track:187208",
+      "neteaseTrackId": "187208",
+      "title": "From Now On",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "林忆莲"
+      ],
+      "durationMs": 247213
+    },
+    {
+      "id": "netease-track:187233",
+      "neteaseTrackId": "187233",
+      "title": "マシュマロ",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 257369
+    },
+    {
+      "id": "netease-track:187174",
+      "neteaseTrackId": "187174",
+      "title": "追",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 323085
+    },
+    {
+      "id": "netease-track:187178",
+      "neteaseTrackId": "187178",
+      "title": "今生今世",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:187183",
+      "neteaseTrackId": "187183",
+      "title": "红",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 286333
+    },
+    {
+      "id": "netease-track:187188",
+      "neteaseTrackId": "187188",
+      "title": "偷情",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 296983
+    },
+    {
+      "id": "netease-track:187193",
+      "neteaseTrackId": "187193",
+      "title": "A Thousand Dreams Of You",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 210266
+    },
+    {
+      "id": "netease-track:187198",
+      "neteaseTrackId": "187198",
+      "title": "有心人",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 269049
+    },
+    {
+      "id": "netease-track:187203",
+      "neteaseTrackId": "187203",
+      "title": "这些年来",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 298960
+    },
+    {
+      "id": "netease-track:187213",
+      "neteaseTrackId": "187213",
+      "title": "怨男",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 219784
+    },
+    {
+      "id": "netease-track:187216",
+      "neteaseTrackId": "187216",
+      "title": "怪你过份美丽",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 298560
+    },
+    {
+      "id": "netease-track:187219",
+      "neteaseTrackId": "187219",
+      "title": "红颜白发",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 204591
+    },
+    {
+      "id": "netease-track:187222",
+      "neteaseTrackId": "187222",
+      "title": "眉来眼去",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "辛晓琪",
+        "张国荣"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:187225",
+      "neteaseTrackId": "187225",
+      "title": "Twist & Shout",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 160190
+    },
+    {
+      "id": "netease-track:187229",
+      "neteaseTrackId": "187229",
+      "title": "谈情说爱",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 234840
+    }
+  ],
+  "trackCount": 32,
+  "externalUrl": "https://music.163.com/#/album?id=18983",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "挚爱1995-2003 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

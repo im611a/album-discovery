@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1969696",
+  "id": "album:1969696",
+  "neteaseAlbumId": "1969696",
+  "slug": "steamin-with-the-miles-davis-quintet",
+  "title": "Steamin' With The Miles Davis Quintet",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2012-01-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "SINETONE AMR",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969696.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969696.webp",
+    "alt": "《Steamin' With The Miles Davis Quintet》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21326340",
+      "neteaseTrackId": "21326340",
+      "title": "The Surrey with the Fringe on Top",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 544153
+    },
+    {
+      "id": "netease-track:21326341",
+      "neteaseTrackId": "21326341",
+      "title": "Salt Peanuts",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 370106
+    },
+    {
+      "id": "netease-track:21326342",
+      "neteaseTrackId": "21326342",
+      "title": "Something I Dreamed Last Night",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 373330
+    },
+    {
+      "id": "netease-track:21326343",
+      "neteaseTrackId": "21326343",
+      "title": "Diane",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 473521
+    },
+    {
+      "id": "netease-track:21326344",
+      "neteaseTrackId": "21326344",
+      "title": "Well You Needn't",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 383033
+    },
+    {
+      "id": "netease-track:21326345",
+      "neteaseTrackId": "21326345",
+      "title": "When I Fall in Love",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 264000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1969696",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Steamin' With The Miles Davis Quintet Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

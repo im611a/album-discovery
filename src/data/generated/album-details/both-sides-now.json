@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1724206",
+  "id": "album:1724206",
+  "neteaseAlbumId": "1724206",
+  "slug": "both-sides-now",
+  "title": "Both Sides Now",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "2000-01-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724206.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724206.webp",
+    "alt": "《Both Sides Now》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822270",
+      "neteaseTrackId": "18822270",
+      "title": "You're My Thrill",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 232440
+    },
+    {
+      "id": "netease-track:18822272",
+      "neteaseTrackId": "18822272",
+      "title": "At Last",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 268068
+    },
+    {
+      "id": "netease-track:18822274",
+      "neteaseTrackId": "18822274",
+      "title": "Comes Love",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 269440
+    },
+    {
+      "id": "netease-track:18822276",
+      "neteaseTrackId": "18822276",
+      "title": "You've Changed",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 300904
+    },
+    {
+      "id": "netease-track:18822278",
+      "neteaseTrackId": "18822278",
+      "title": "Answer Me, My Love",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 203572
+    },
+    {
+      "id": "netease-track:18822280",
+      "neteaseTrackId": "18822280",
+      "title": "A Case of You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 352826
+    },
+    {
+      "id": "netease-track:18822282",
+      "neteaseTrackId": "18822282",
+      "title": "Don't Go to Strangers",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 251010
+    },
+    {
+      "id": "netease-track:18822284",
+      "neteaseTrackId": "18822284",
+      "title": "Sometimes I'm Happy",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 238341
+    },
+    {
+      "id": "netease-track:18822286",
+      "neteaseTrackId": "18822286",
+      "title": "Don't Worry 'Bout Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 229825
+    },
+    {
+      "id": "netease-track:18822288",
+      "neteaseTrackId": "18822288",
+      "title": "Stormy Weather",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 187062
+    },
+    {
+      "id": "netease-track:18822290",
+      "neteaseTrackId": "18822290",
+      "title": "I Wish I Were in Love Again",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 216267
+    },
+    {
+      "id": "netease-track:18822292",
+      "neteaseTrackId": "18822292",
+      "title": "Both Sides Now",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 345400
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1724206",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Both Sides Now Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

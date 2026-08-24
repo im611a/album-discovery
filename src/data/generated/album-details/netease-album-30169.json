@@ -1,0 +1,153 @@
+{
+  "internalId": "album:30169",
+  "id": "album:30169",
+  "neteaseAlbumId": "30169",
+  "slug": "netease-album-30169",
+  "title": "中国虹虹",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9749",
+      "neteaseArtistId": "9749",
+      "name": "王虹"
+    }
+  ],
+  "releaseDate": "1986-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "中国东方歌舞剧团",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/30169.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/30169.webp",
+    "alt": "《中国虹虹》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:304624",
+      "neteaseTrackId": "304624",
+      "title": "噜喂噜喂",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 197694
+    },
+    {
+      "id": "netease-track:304625",
+      "neteaseTrackId": "304625",
+      "title": "今天下雨",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 221753
+    },
+    {
+      "id": "netease-track:304626",
+      "neteaseTrackId": "304626",
+      "title": "你的火柴",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 252000
+    },
+    {
+      "id": "netease-track:304627",
+      "neteaseTrackId": "304627",
+      "title": "cha cha cha",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 205479
+    },
+    {
+      "id": "netease-track:304628",
+      "neteaseTrackId": "304628",
+      "title": "快乐的人",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 217808
+    },
+    {
+      "id": "netease-track:304629",
+      "neteaseTrackId": "304629",
+      "title": "不知第几回",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:304630",
+      "neteaseTrackId": "304630",
+      "title": "三年",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 205000
+    },
+    {
+      "id": "netease-track:304631",
+      "neteaseTrackId": "304631",
+      "title": "繁华世界",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:304632",
+      "neteaseTrackId": "304632",
+      "title": "保持自己",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 215000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=30169",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "中国虹虹 王虹",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

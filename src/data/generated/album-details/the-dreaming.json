@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1742049",
+  "id": "album:1742049",
+  "neteaseAlbumId": "1742049",
+  "slug": "the-dreaming",
+  "title": "The Dreaming",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "1982-09-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1742049.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1742049.webp",
+    "alt": "《The Dreaming》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19012336",
+      "neteaseTrackId": "19012336",
+      "title": "Sat In Your Lap",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 209333
+    },
+    {
+      "id": "netease-track:19012337",
+      "neteaseTrackId": "19012337",
+      "title": "There Goes A Tenner",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 205173
+    },
+    {
+      "id": "netease-track:19012338",
+      "neteaseTrackId": "19012338",
+      "title": "Pull Out The Pin",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 326693
+    },
+    {
+      "id": "netease-track:19012339",
+      "neteaseTrackId": "19012339",
+      "title": "Suspended In Gaffa",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 235106
+    },
+    {
+      "id": "netease-track:19012340",
+      "neteaseTrackId": "19012340",
+      "title": "Leave It Open",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 200360
+    },
+    {
+      "id": "netease-track:19012341",
+      "neteaseTrackId": "19012341",
+      "title": "The Dreaming",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 253933
+    },
+    {
+      "id": "netease-track:19012342",
+      "neteaseTrackId": "19012342",
+      "title": "Night Of The Swallow",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 323400
+    },
+    {
+      "id": "netease-track:19012343",
+      "neteaseTrackId": "19012343",
+      "title": "All The Love",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 269740
+    },
+    {
+      "id": "netease-track:19012344",
+      "neteaseTrackId": "19012344",
+      "title": "Houdini",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 229506
+    },
+    {
+      "id": "netease-track:19012345",
+      "neteaseTrackId": "19012345",
+      "title": "Get Out Of My House",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 325293
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1742049",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Dreaming Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

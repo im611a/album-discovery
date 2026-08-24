@@ -1,0 +1,308 @@
+{
+  "internalId": "album:1706201",
+  "id": "album:1706201",
+  "neteaseAlbumId": "1706201",
+  "slug": "damita-jo",
+  "title": "Damita Jo",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "2004-03-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706201.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706201.webp",
+    "alt": "《Damita Jo》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18587965",
+      "neteaseTrackId": "18587965",
+      "title": "Looking For Love (Interlude)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 89266
+    },
+    {
+      "id": "netease-track:18587966",
+      "neteaseTrackId": "18587966",
+      "title": "Damita Jo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 165651
+    },
+    {
+      "id": "netease-track:18587967",
+      "neteaseTrackId": "18587967",
+      "title": "Sexhibition",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 147818
+    },
+    {
+      "id": "netease-track:18587968",
+      "neteaseTrackId": "18587968",
+      "title": "Strawberry Bounce",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 190937
+    },
+    {
+      "id": "netease-track:18587969",
+      "neteaseTrackId": "18587969",
+      "title": "My Baby",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Kanye West"
+      ],
+      "durationMs": 257996
+    },
+    {
+      "id": "netease-track:18587970",
+      "neteaseTrackId": "18587970",
+      "title": "The Islands (Interlude)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 39427
+    },
+    {
+      "id": "netease-track:18587971",
+      "neteaseTrackId": "18587971",
+      "title": "Spending Time With You",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 254328
+    },
+    {
+      "id": "netease-track:18587972",
+      "neteaseTrackId": "18587972",
+      "title": "Magic Hour (Interlude)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 23133
+    },
+    {
+      "id": "netease-track:18587973",
+      "neteaseTrackId": "18587973",
+      "title": "Island Life",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 233453
+    },
+    {
+      "id": "netease-track:18587974",
+      "neteaseTrackId": "18587974",
+      "title": "All Nite (Don't Stop)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 206193
+    },
+    {
+      "id": "netease-track:18587975",
+      "neteaseTrackId": "18587975",
+      "title": "R&B Junkie",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 190880
+    },
+    {
+      "id": "netease-track:18587976",
+      "neteaseTrackId": "18587976",
+      "title": "I Want You",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 252773
+    },
+    {
+      "id": "netease-track:18587977",
+      "neteaseTrackId": "18587977",
+      "title": "Like You Don't Love Me (Edited)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 219660
+    },
+    {
+      "id": "netease-track:18587978",
+      "neteaseTrackId": "18587978",
+      "title": "Thinkin' Bout My Ex",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 263825
+    },
+    {
+      "id": "netease-track:18587979",
+      "neteaseTrackId": "18587979",
+      "title": "Warmth",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 224066
+    },
+    {
+      "id": "netease-track:18587980",
+      "neteaseTrackId": "18587980",
+      "title": "Moist",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 294946
+    },
+    {
+      "id": "netease-track:18587981",
+      "neteaseTrackId": "18587981",
+      "title": "It All Comes Down To Love (Interlude)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 38013
+    },
+    {
+      "id": "netease-track:18587982",
+      "neteaseTrackId": "18587982",
+      "title": "Truly",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 238773
+    },
+    {
+      "id": "netease-track:18587983",
+      "neteaseTrackId": "18587983",
+      "title": "The One (Interlude)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 61746
+    },
+    {
+      "id": "netease-track:1294680621",
+      "neteaseTrackId": "1294680621",
+      "title": "SloLove (Edited)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 224072
+    },
+    {
+      "id": "netease-track:18587984",
+      "neteaseTrackId": "18587984",
+      "title": "SloLove",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:18587985",
+      "neteaseTrackId": "18587985",
+      "title": "Country (Interlude)",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 30560
+    },
+    {
+      "id": "netease-track:18587986",
+      "neteaseTrackId": "18587986",
+      "title": "Just A Little While",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 253106
+    }
+  ],
+  "trackCount": 23,
+  "externalUrl": "https://music.163.com/#/album?id=1706201",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Damita Jo Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

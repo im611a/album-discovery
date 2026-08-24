@@ -8,9 +8,10 @@ import { catalogAlbums, publishedArtists } from "@/catalog/published-catalog";
 import { createInitialUserState } from "@/features/personal-state/schema";
 
 import { settleVisual } from "./helpers/settled-visual";
+import { resolveRegressionEvidenceRoot } from "./helpers/evidence-output";
 
 const STORAGE_KEY = "album-discovery:user-state:v1";
-const evidenceRoot = path.resolve(".local-data/r16-product-evolution/r16-2g-extended-requalification");
+const evidenceRoot = resolveRegressionEvidenceRoot({ phase: "r16-2g", environmentValue: process.env.R16_2G_EVIDENCE_ROOT });
 const screenshotRoot = path.join(evidenceRoot, "screenshots");
 const sha256 = (value: Buffer | string) => createHash("sha256").update(value).digest("hex");
 const dense = [...publishedArtists].sort((a, b) => b.albumCount - a.albumCount)[0]!;
@@ -189,16 +190,16 @@ test.describe("R16-2G extended visual and interaction requalification", () => {
     const albumLink = page.locator(".r16-artist-collection__index a").first();
     await expect(albumLink).toBeVisible();
     await albumLink.click();
-    await expect(page.locator("[data-navigation-origin=library]")).toBeVisible();
+    await expect(page.locator("[data-navigation-origin=artist_discography]")).toBeVisible();
     await page.goBack();
     await expect(page.locator(".r16-artist-collection")).toBeVisible();
     await page.goForward();
-    await expect(page.locator("[data-navigation-origin=library]")).toBeVisible();
+    await expect(page.locator("[data-navigation-origin=artist_discography]")).toBeVisible();
     await page.goBack();
     await page.reload();
     await expect(page.locator(".r16-artist-collection")).toBeVisible();
     await page.goto(routeFor(sharedArtists[0]!));
-    const sharedLink = page.locator(`a[href^="/albums/${sharedAlbum.slug}"]`).first();
+    const sharedLink = page.getByRole("link", { name: sharedAlbum.title, exact: true }).first();
     await expect(sharedLink).toBeVisible();
     await sharedLink.click();
     await expect(page.locator("main")).toBeVisible();

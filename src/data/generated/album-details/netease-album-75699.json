@@ -1,0 +1,142 @@
+{
+  "internalId": "album:75699",
+  "id": "album:75699",
+  "neteaseAlbumId": "75699",
+  "slug": "netease-album-75699",
+  "title": "木洩陽通りにて",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:20287",
+      "neteaseArtistId": "20287",
+      "name": "Lamp"
+    }
+  ],
+  "releaseDate": "2005-05-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "MOTEL BLEU",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/75699.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/75699.webp",
+    "alt": "《木洩陽通りにて》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:769612",
+      "neteaseTrackId": "769612",
+      "title": "今夜も君にテレフォンコール",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 299520
+    },
+    {
+      "id": "netease-track:769613",
+      "neteaseTrackId": "769613",
+      "title": "木洩陽の季節",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 258573
+    },
+    {
+      "id": "netease-track:769614",
+      "neteaseTrackId": "769614",
+      "title": "抱きよせたい",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 246773
+    },
+    {
+      "id": "netease-track:769615",
+      "neteaseTrackId": "769615",
+      "title": "紙魚だらけの唄",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 206546
+    },
+    {
+      "id": "netease-track:769616",
+      "neteaseTrackId": "769616",
+      "title": "君を待つ間に",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 304173
+    },
+    {
+      "id": "netease-track:769617",
+      "neteaseTrackId": "769617",
+      "title": "夜風",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 341800
+    },
+    {
+      "id": "netease-track:769618",
+      "neteaseTrackId": "769618",
+      "title": "冷たい夜の光",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 335893
+    },
+    {
+      "id": "netease-track:769619",
+      "neteaseTrackId": "769619",
+      "title": "春ノ空",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 296946
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=75699",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "木洩陽通りにて Lamp",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "internalId": "album:260870",
+  "id": "album:260870",
+  "neteaseAlbumId": "260870",
+  "slug": "mystery-to-me",
+  "title": "Mystery to Me",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1973-10-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260870.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260870.webp",
+    "alt": "《Mystery to Me》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2590116",
+      "neteaseTrackId": "2590116",
+      "title": "Emerald Eyes",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 214973
+    },
+    {
+      "id": "netease-track:2590121",
+      "neteaseTrackId": "2590121",
+      "title": "Believe Me",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 251026
+    },
+    {
+      "id": "netease-track:2590127",
+      "neteaseTrackId": "2590127",
+      "title": "Just Crazy Love",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 206973
+    },
+    {
+      "id": "netease-track:2590130",
+      "neteaseTrackId": "2590130",
+      "title": "Hypnotized",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 289200
+    },
+    {
+      "id": "netease-track:2590133",
+      "neteaseTrackId": "2590133",
+      "title": "Forever",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 247600
+    },
+    {
+      "id": "netease-track:2590136",
+      "neteaseTrackId": "2590136",
+      "title": "Keep on Going",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 244493
+    },
+    {
+      "id": "netease-track:2590139",
+      "neteaseTrackId": "2590139",
+      "title": "The City",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 216640
+    },
+    {
+      "id": "netease-track:2590144",
+      "neteaseTrackId": "2590144",
+      "title": "Miles Away",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 229760
+    },
+    {
+      "id": "netease-track:2590147",
+      "neteaseTrackId": "2590147",
+      "title": "Somebody",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 304026
+    },
+    {
+      "id": "netease-track:2590151",
+      "neteaseTrackId": "2590151",
+      "title": "The Way I Feel",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 162977
+    },
+    {
+      "id": "netease-track:2590155",
+      "neteaseTrackId": "2590155",
+      "title": "For Your Love (2018 Remaster)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 226840
+    },
+    {
+      "id": "netease-track:2590160",
+      "neteaseTrackId": "2590160",
+      "title": "Why",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 295626
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=260870",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Mystery to Me Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

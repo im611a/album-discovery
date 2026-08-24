@@ -1,0 +1,604 @@
+{
+  "internalId": "album:260797",
+  "id": "album:260797",
+  "neteaseAlbumId": "260797",
+  "slug": "the-blues-years",
+  "title": "The Blues Years",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1991-03-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Castle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260797.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260797.webp",
+    "alt": "《The Blues Years》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2589202",
+      "neteaseTrackId": "2589202",
+      "title": "My Heart Beat Like A Hammer",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 177748
+    },
+    {
+      "id": "netease-track:2589206",
+      "neteaseTrackId": "2589206",
+      "title": "Merry Go Round",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 246000
+    },
+    {
+      "id": "netease-track:2589210",
+      "neteaseTrackId": "2589210",
+      "title": "Long Grey Mare",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 133259
+    },
+    {
+      "id": "netease-track:2589214",
+      "neteaseTrackId": "2589214",
+      "title": "Hell Hound On My Trail",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 119025
+    },
+    {
+      "id": "netease-track:2589218",
+      "neteaseTrackId": "2589218",
+      "title": "Shake Your Money Maker",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 177493
+    },
+    {
+      "id": "netease-track:2589222",
+      "neteaseTrackId": "2589222",
+      "title": "Looking For Somebody",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 170480
+    },
+    {
+      "id": "netease-track:2589227",
+      "neteaseTrackId": "2589227",
+      "title": "No Place To Go",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 200840
+    },
+    {
+      "id": "netease-track:2589231",
+      "neteaseTrackId": "2589231",
+      "title": "My Baby's Good To Me",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 170826
+    },
+    {
+      "id": "netease-track:2589234",
+      "neteaseTrackId": "2589234",
+      "title": "I Loved Another Woman",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 177000
+    },
+    {
+      "id": "netease-track:2589237",
+      "neteaseTrackId": "2589237",
+      "title": "Cold Black Night",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:2589241",
+      "neteaseTrackId": "2589241",
+      "title": "The World Keep On Turning",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 148027
+    },
+    {
+      "id": "netease-track:2589246",
+      "neteaseTrackId": "2589246",
+      "title": "Got To Move",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:2589251",
+      "neteaseTrackId": "2589251",
+      "title": "Stop Messin' Around",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 139000
+    },
+    {
+      "id": "netease-track:2589256",
+      "neteaseTrackId": "2589256",
+      "title": "Coming Home",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 158000
+    },
+    {
+      "id": "netease-track:2589261",
+      "neteaseTrackId": "2589261",
+      "title": "Rollin' Man",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 172000
+    },
+    {
+      "id": "netease-track:2589266",
+      "neteaseTrackId": "2589266",
+      "title": "Dust My Broom",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 171000
+    },
+    {
+      "id": "netease-track:2589269",
+      "neteaseTrackId": "2589269",
+      "title": "Love That Burns",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 304160
+    },
+    {
+      "id": "netease-track:2589272",
+      "neteaseTrackId": "2589272",
+      "title": "Doctor Brown",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:2589275",
+      "neteaseTrackId": "2589275",
+      "title": "Need Your Love Tonight",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 208560
+    },
+    {
+      "id": "netease-track:2589278",
+      "neteaseTrackId": "2589278",
+      "title": "If You Be My Baby",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 233133
+    },
+    {
+      "id": "netease-track:2589284",
+      "neteaseTrackId": "2589284",
+      "title": "Evenin' Boogie",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 162000
+    },
+    {
+      "id": "netease-track:2589288",
+      "neteaseTrackId": "2589288",
+      "title": "Lazy Poker Blues",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 154000
+    },
+    {
+      "id": "netease-track:2589292",
+      "neteaseTrackId": "2589292",
+      "title": "I've Lost My Baby",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 257840
+    },
+    {
+      "id": "netease-track:2589296",
+      "neteaseTrackId": "2589296",
+      "title": "Trying So Hard To Forget",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 286000
+    },
+    {
+      "id": "netease-track:2589299",
+      "neteaseTrackId": "2589299",
+      "title": "I Believe My Time Ain't Long",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 174000
+    },
+    {
+      "id": "netease-track:2589302",
+      "neteaseTrackId": "2589302",
+      "title": "Ramblin' Pony",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 159000
+    },
+    {
+      "id": "netease-track:2589305",
+      "neteaseTrackId": "2589305",
+      "title": "Black Magic Woman",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 170898
+    },
+    {
+      "id": "netease-track:2589308",
+      "neteaseTrackId": "2589308",
+      "title": "The Sun Is Shining",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 192000
+    },
+    {
+      "id": "netease-track:2589312",
+      "neteaseTrackId": "2589312",
+      "title": "Need Your Love So Bad",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 231000
+    },
+    {
+      "id": "netease-track:2589316",
+      "neteaseTrackId": "2589316",
+      "title": "Albatross",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 185806
+    },
+    {
+      "id": "netease-track:2589319",
+      "neteaseTrackId": "2589319",
+      "title": "Jigsaw Puzzle BLues",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 93000
+    },
+    {
+      "id": "netease-track:2589322",
+      "neteaseTrackId": "2589322",
+      "title": "Man Of The World",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 170000
+    },
+    {
+      "id": "netease-track:2589325",
+      "neteaseTrackId": "2589325",
+      "title": "Someone'e Gonna Get Their Head Kicked In Tonite",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 164000
+    },
+    {
+      "id": "netease-track:2589328",
+      "neteaseTrackId": "2589328",
+      "title": "Watch Out",
+      "trackNumber": 34,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:2589331",
+      "neteaseTrackId": "2589331",
+      "title": "Worried Dream",
+      "trackNumber": 35,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 321000
+    },
+    {
+      "id": "netease-track:2589334",
+      "neteaseTrackId": "2589334",
+      "title": "Fleetwood Mac",
+      "trackNumber": 36,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 236000
+    },
+    {
+      "id": "netease-track:2589337",
+      "neteaseTrackId": "2589337",
+      "title": "First Train Home",
+      "trackNumber": 37,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 245643
+    },
+    {
+      "id": "netease-track:2589340",
+      "neteaseTrackId": "2589340",
+      "title": "Drifting",
+      "trackNumber": 38,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:2589343",
+      "neteaseTrackId": "2589343",
+      "title": "Mean Old Fireman",
+      "trackNumber": 39,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:2589345",
+      "neteaseTrackId": "2589345",
+      "title": "Allow Me One More Show",
+      "trackNumber": 40,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 179000
+    },
+    {
+      "id": "netease-track:2589347",
+      "neteaseTrackId": "2589347",
+      "title": "Just The Blues",
+      "trackNumber": 41,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 337176
+    },
+    {
+      "id": "netease-track:2589349",
+      "neteaseTrackId": "2589349",
+      "title": "The Big Boat",
+      "trackNumber": 42,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 156014
+    },
+    {
+      "id": "netease-track:2589352",
+      "neteaseTrackId": "2589352",
+      "title": "I'd Rather Go Blind",
+      "trackNumber": 43,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 193000
+    },
+    {
+      "id": "netease-track:2589355",
+      "neteaseTrackId": "2589355",
+      "title": "Watch Out",
+      "trackNumber": 44,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:2589358",
+      "neteaseTrackId": "2589358",
+      "title": "Homework",
+      "trackNumber": 45,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 200000
+    },
+    {
+      "id": "netease-track:2589360",
+      "neteaseTrackId": "2589360",
+      "title": "I Can't Hold Out",
+      "trackNumber": 46,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 206030
+    },
+    {
+      "id": "netease-track:2589362",
+      "neteaseTrackId": "2589362",
+      "title": "Like It This Way",
+      "trackNumber": 47,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 229000
+    },
+    {
+      "id": "netease-track:2589364",
+      "neteaseTrackId": "2589364",
+      "title": "Last Night",
+      "trackNumber": 48,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 296000
+    },
+    {
+      "id": "netease-track:2589365",
+      "neteaseTrackId": "2589365",
+      "title": "I'm Worried",
+      "trackNumber": 49,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 204000
+    },
+    {
+      "id": "netease-track:2589367",
+      "neteaseTrackId": "2589367",
+      "title": "Words In A Tangle",
+      "trackNumber": 50,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 298000
+    }
+  ],
+  "trackCount": 50,
+  "externalUrl": "https://music.163.com/#/album?id=260797",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Blues Years Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

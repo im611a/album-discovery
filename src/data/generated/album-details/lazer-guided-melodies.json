@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1757611",
+  "id": "album:1757611",
+  "neteaseAlbumId": "1757611",
+  "slug": "lazer-guided-melodies",
+  "title": "Lazer Guided Melodies",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "1992-03-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fat Possum",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1757611.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1757611.webp",
+    "alt": "《Lazer Guided Melodies》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19169408",
+      "neteaseTrackId": "19169408",
+      "title": "You Know It's True",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 219026
+    },
+    {
+      "id": "netease-track:19169409",
+      "neteaseTrackId": "19169409",
+      "title": "If I Were with Her Now",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 344066
+    },
+    {
+      "id": "netease-track:19169410",
+      "neteaseTrackId": "19169410",
+      "title": "I Want You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 226706
+    },
+    {
+      "id": "netease-track:19169411",
+      "neteaseTrackId": "19169411",
+      "title": "Run",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 232333
+    },
+    {
+      "id": "netease-track:19169412",
+      "neteaseTrackId": "19169412",
+      "title": "Smiles",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 134533
+    },
+    {
+      "id": "netease-track:19169413",
+      "neteaseTrackId": "19169413",
+      "title": "Step into the Breeze",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 165360
+    },
+    {
+      "id": "netease-track:19169414",
+      "neteaseTrackId": "19169414",
+      "title": "Symphony Space",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 352800
+    },
+    {
+      "id": "netease-track:19169415",
+      "neteaseTrackId": "19169415",
+      "title": "Take Your Time",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 412933
+    },
+    {
+      "id": "netease-track:19169416",
+      "neteaseTrackId": "19169416",
+      "title": "Shine a Light",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 434906
+    },
+    {
+      "id": "netease-track:19169417",
+      "neteaseTrackId": "19169417",
+      "title": "Angel Sigh",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 346775
+    },
+    {
+      "id": "netease-track:19169418",
+      "neteaseTrackId": "19169418",
+      "title": "Sway",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 414226
+    },
+    {
+      "id": "netease-track:19169419",
+      "neteaseTrackId": "19169419",
+      "title": "200 Bars",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 375906
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1757611",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Lazer Guided Melodies Spiritualized",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

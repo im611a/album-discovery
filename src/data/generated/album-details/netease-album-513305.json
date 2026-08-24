@@ -1,0 +1,113 @@
+{
+  "internalId": "album:513305",
+  "id": "album:513305",
+  "neteaseAlbumId": "513305",
+  "slug": "netease-album-513305",
+  "title": "少女标本",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9954",
+      "neteaseArtistId": "9954",
+      "name": "徐怀钰"
+    },
+    {
+      "id": "netease-artist:8348",
+      "neteaseArtistId": "8348",
+      "name": "李心洁"
+    },
+    {
+      "id": "netease-artist:9619",
+      "neteaseArtistId": "9619",
+      "name": "吴佩慈"
+    },
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "1998-09-27",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/513305.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/513305.webp",
+    "alt": "《少女标本》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5275761",
+      "neteaseTrackId": "5275761",
+      "title": "DUB-I-DUB",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "徐怀钰"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:5275762",
+      "neteaseTrackId": "5275762",
+      "title": "闪着泪光的决定",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "吴佩慈"
+      ],
+      "durationMs": 275880
+    },
+    {
+      "id": "netease-track:5275763",
+      "neteaseTrackId": "5275763",
+      "title": "自由",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "李心洁"
+      ],
+      "durationMs": 259800
+    },
+    {
+      "id": "netease-track:5275764",
+      "neteaseTrackId": "5275764",
+      "title": "让我想一想",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 229026
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=513305",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "少女标本 徐怀钰 李心洁 吴佩慈 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

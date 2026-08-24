@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1540825",
+  "id": "album:1540825",
+  "neteaseAlbumId": "1540825",
+  "slug": "aftermathematics",
+  "title": "Aftermathematics",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2002-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540825.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540825.webp",
+    "alt": "《Aftermathematics》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16715100",
+      "neteaseTrackId": "16715100",
+      "title": "4D",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 307906
+    },
+    {
+      "id": "netease-track:16715101",
+      "neteaseTrackId": "16715101",
+      "title": "Cut Virus",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 350173
+    },
+    {
+      "id": "netease-track:16715102",
+      "neteaseTrackId": "16715102",
+      "title": "Scratch Code",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 353733
+    },
+    {
+      "id": "netease-track:16715103",
+      "neteaseTrackId": "16715103",
+      "title": "Ghost Dub",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 286400
+    },
+    {
+      "id": "netease-track:16715104",
+      "neteaseTrackId": "16715104",
+      "title": "Subcut",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 369613
+    },
+    {
+      "id": "netease-track:16715105",
+      "neteaseTrackId": "16715105",
+      "title": "Black Dust",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 373146
+    },
+    {
+      "id": "netease-track:16715106",
+      "neteaseTrackId": "16715106",
+      "title": "Lo-Tek",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 333720
+    },
+    {
+      "id": "netease-track:16715107",
+      "neteaseTrackId": "16715107",
+      "title": "Phase Draft",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 352786
+    },
+    {
+      "id": "netease-track:16715108",
+      "neteaseTrackId": "16715108",
+      "title": "Posthuman",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 270866
+    },
+    {
+      "id": "netease-track:16715109",
+      "neteaseTrackId": "16715109",
+      "title": "Dark Black",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 344466
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1540825",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Aftermathematics Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

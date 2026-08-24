@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19107",
+  "id": "album:19107",
+  "neteaseAlbumId": "19107",
+  "slug": "netease-album-19107",
+  "title": "拒绝再玩",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1988-03-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19107.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19107.webp",
+    "alt": "《拒绝再玩》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188824",
+      "neteaseTrackId": "188824",
+      "title": "拒绝再玩",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 210453
+    },
+    {
+      "id": "netease-track:188828",
+      "neteaseTrackId": "188828",
+      "title": "共同渡过",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 262706
+    },
+    {
+      "id": "netease-track:188831",
+      "neteaseTrackId": "188831",
+      "title": "无心睡眠",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 189453
+    },
+    {
+      "id": "netease-track:188834",
+      "neteaseTrackId": "188834",
+      "title": "失散的影子",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 352373
+    },
+    {
+      "id": "netease-track:188837",
+      "neteaseTrackId": "188837",
+      "title": "到未来日子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268360
+    },
+    {
+      "id": "netease-track:188840",
+      "neteaseTrackId": "188840",
+      "title": "为你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 290893
+    },
+    {
+      "id": "netease-track:188842",
+      "neteaseTrackId": "188842",
+      "title": "野火",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 233000
+    },
+    {
+      "id": "netease-track:188844",
+      "neteaseTrackId": "188844",
+      "title": "惊梦",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 308053
+    },
+    {
+      "id": "netease-track:188846",
+      "neteaseTrackId": "188846",
+      "title": "找一个地方",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 251400
+    },
+    {
+      "id": "netease-track:188848",
+      "neteaseTrackId": "188848",
+      "title": "倩女幽魂",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 214493
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19107",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "拒绝再玩 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

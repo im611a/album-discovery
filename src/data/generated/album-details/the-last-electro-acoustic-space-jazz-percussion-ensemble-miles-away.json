@@ -1,0 +1,164 @@
+{
+  "internalId": "album:173567",
+  "id": "album:173567",
+  "neteaseAlbumId": "173567",
+  "slug": "the-last-electro-acoustic-space-jazz-percussion-ensemble-miles-away",
+  "title": "The Last Electro-Acoustic Space Jazz & Percussion Ensemble  – Miles Away",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38940",
+      "neteaseArtistId": "38940",
+      "name": "Madlib"
+    }
+  ],
+  "releaseDate": "2010-02-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/173567.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/173567.webp",
+    "alt": "《The Last Electro-Acoustic Space Jazz & Percussion Ensemble  – Miles Away》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1713847",
+      "neteaseTrackId": "1713847",
+      "title": "Derf (For Derf Reklaw)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 487573
+    },
+    {
+      "id": "netease-track:1713852",
+      "neteaseTrackId": "1713852",
+      "title": "One For The Monica Lingas Band",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 388000
+    },
+    {
+      "id": "netease-track:1713857",
+      "neteaseTrackId": "1713857",
+      "title": "Horace (For Horace Tapscott)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 310000
+    },
+    {
+      "id": "netease-track:1713861",
+      "neteaseTrackId": "1713861",
+      "title": "Waltz For Woody (For Woody Shaw)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 237213
+    },
+    {
+      "id": "netease-track:1713863",
+      "neteaseTrackId": "1713863",
+      "title": "Shades Of Phil (For Phil Ranelin)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 306493
+    },
+    {
+      "id": "netease-track:1713865",
+      "neteaseTrackId": "1713865",
+      "title": "Black Renaissance (For Harry Whitaker)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 362986
+    },
+    {
+      "id": "netease-track:1713867",
+      "neteaseTrackId": "1713867",
+      "title": "Tones For Larry Young",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 315252
+    },
+    {
+      "id": "netease-track:1713869",
+      "neteaseTrackId": "1713869",
+      "title": "Mystic Voyage (For Roy Ayers)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 265613
+    },
+    {
+      "id": "netease-track:1713877",
+      "neteaseTrackId": "1713877",
+      "title": "Two Stories For Dwight",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 354586
+    },
+    {
+      "id": "netease-track:1713880",
+      "neteaseTrackId": "1713880",
+      "title": "The Trane & The Pharoah",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 563906
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=173567",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Last Electro-Acoustic Space Jazz & Percussion Ensemble  – Miles Away Madlib",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -15,7 +15,7 @@ export function CompactAlbumRow({ album, index, albumHref, artistHref }: {
     <Link className="compact-album-row__cover" href={resolvedAlbumHref} aria-label={`查看《${album.title}》专辑详情`}><AlbumCover album={album} /></Link>
     <div className="compact-album-row__identity">
       <h3><Link href={resolvedAlbumHref}>{album.title}</Link></h3>
-      <p>{album.artists.map((artist, artistIndex) => { const slug = `artist-${artist.neteaseArtistId}`; return <span key={artist.id}>{artistIndex ? "、" : ""}<Link href={artistHref?.(slug) ?? `/artists/${slug}`}>{artist.name}</Link></span>; })}</p>
+      <p>{album.artists.map((artist, artistIndex) => { const slug = `artist-${artist.neteaseArtistId}`; return <span key={`${artist.id}:${artist.name}:${artistIndex}`}>{artistIndex ? "、" : ""}<Link href={artistHref?.(slug) ?? `/artists/${slug}`}>{artist.name}</Link></span>; })}</p>
     </div>
     <p className="compact-album-row__meta">{album.releaseYear ?? "日期暂缺"} · {RELEASE_TYPE_LABELS[album.albumType]}</p>
     {album.rymRating != null ? <p className="compact-album-row__rating">RYM {album.rymRating.toFixed(2)}</p> : null}

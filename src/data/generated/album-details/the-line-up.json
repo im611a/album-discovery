@@ -1,0 +1,164 @@
+{
+  "internalId": "album:6559",
+  "id": "album:6559",
+  "neteaseAlbumId": "6559",
+  "slug": "the-line-up",
+  "title": "The Line-Up",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2002-07-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "英皇唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6559.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6559.webp",
+    "alt": "《The Line-Up》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:66997",
+      "neteaseTrackId": "66997",
+      "title": "心里有鬼",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 229635
+    },
+    {
+      "id": "netease-track:66999",
+      "neteaseTrackId": "66999",
+      "title": "我有我爱你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 178019
+    },
+    {
+      "id": "netease-track:67001",
+      "neteaseTrackId": "67001",
+      "title": "明年今日",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 206117
+    },
+    {
+      "id": "netease-track:67005",
+      "neteaseTrackId": "67005",
+      "title": "人来人往",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 234769
+    },
+    {
+      "id": "netease-track:67009",
+      "neteaseTrackId": "67009",
+      "title": "季军",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 218605
+    },
+    {
+      "id": "netease-track:67012",
+      "neteaseTrackId": "67012",
+      "title": "随意门",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 246633
+    },
+    {
+      "id": "netease-track:67014",
+      "neteaseTrackId": "67014",
+      "title": "1874",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 230190
+    },
+    {
+      "id": "netease-track:67015",
+      "neteaseTrackId": "67015",
+      "title": "防不胜防",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 265017
+    },
+    {
+      "id": "netease-track:67018",
+      "neteaseTrackId": "67018",
+      "title": "两名男子街头相遇",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 225334
+    },
+    {
+      "id": "netease-track:67021",
+      "neteaseTrackId": "67021",
+      "title": "黑面",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 342164
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6559",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Line-Up 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18977",
+  "id": "album:18977",
+  "neteaseAlbumId": "18977",
+  "slug": "netease-album-18977",
+  "title": "宽容",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1995-09-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18977.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18977.webp",
+    "alt": "《宽容》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186970",
+      "neteaseTrackId": "186970",
+      "title": "不要对他说",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 292060
+    },
+    {
+      "id": "netease-track:186973",
+      "neteaseTrackId": "186973",
+      "title": "宽容",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 316666
+    },
+    {
+      "id": "netease-track:186976",
+      "neteaseTrackId": "186976",
+      "title": "只有你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 272614
+    },
+    {
+      "id": "netease-track:186979",
+      "neteaseTrackId": "186979",
+      "title": "不回首",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 322200
+    },
+    {
+      "id": "netease-track:186983",
+      "neteaseTrackId": "186983",
+      "title": "爱会看见",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 277134
+    },
+    {
+      "id": "netease-track:187000",
+      "neteaseTrackId": "187000",
+      "title": "过火",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 302333
+    },
+    {
+      "id": "netease-track:187003",
+      "neteaseTrackId": "187003",
+      "title": "忘情忘爱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 337200
+    },
+    {
+      "id": "netease-track:187006",
+      "neteaseTrackId": "187006",
+      "title": "假装有你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 275760
+    },
+    {
+      "id": "netease-track:187011",
+      "neteaseTrackId": "187011",
+      "title": "日出之前请将悲伤终结",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 305529
+    },
+    {
+      "id": "netease-track:187015",
+      "neteaseTrackId": "187015",
+      "title": "真爱一生",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 267506
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18977",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "宽容 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:6584",
+  "id": "album:6584",
+  "neteaseAlbumId": "6584",
+  "slug": "netease-album-6584",
+  "title": "反正是我",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2001-07-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "英皇唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6584.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6584.webp",
+    "alt": "《反正是我》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67338",
+      "neteaseTrackId": "67338",
+      "title": "Because You're Good To Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 218533
+    },
+    {
+      "id": "netease-track:67343",
+      "neteaseTrackId": "67343",
+      "title": "低等动物",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 259884
+    },
+    {
+      "id": "netease-track:67348",
+      "neteaseTrackId": "67348",
+      "title": "不如这样",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 281853
+    },
+    {
+      "id": "netease-track:67354",
+      "neteaseTrackId": "67354",
+      "title": "爱是怀疑",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 269866
+    },
+    {
+      "id": "netease-track:67361",
+      "neteaseTrackId": "67361",
+      "title": "我也不会那样做",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 267560
+    },
+    {
+      "id": "netease-track:67364",
+      "neteaseTrackId": "67364",
+      "title": "K歌之王",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 218066
+    },
+    {
+      "id": "netease-track:67370",
+      "neteaseTrackId": "67370",
+      "title": "没有你",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 267000
+    },
+    {
+      "id": "netease-track:67377",
+      "neteaseTrackId": "67377",
+      "title": "冤家",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 255360
+    },
+    {
+      "id": "netease-track:67381",
+      "neteaseTrackId": "67381",
+      "title": "全世界失眠",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 250626
+    },
+    {
+      "id": "netease-track:67387",
+      "neteaseTrackId": "67387",
+      "title": "Good Times",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 504733
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6584",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "反正是我 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

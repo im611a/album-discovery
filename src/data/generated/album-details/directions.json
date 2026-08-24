@@ -1,0 +1,186 @@
+{
+  "internalId": "album:172433",
+  "id": "album:172433",
+  "neteaseAlbumId": "172433",
+  "slug": "directions",
+  "title": "Directions",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1981-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172433.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172433.webp",
+    "alt": "《Directions》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1700563",
+      "neteaseTrackId": "1700563",
+      "title": "Song of Our Country",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 202524
+    },
+    {
+      "id": "netease-track:1700565",
+      "neteaseTrackId": "1700565",
+      "title": "'Round Midnight",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 459546
+    },
+    {
+      "id": "netease-track:1700567",
+      "neteaseTrackId": "1700567",
+      "title": "So Near, So Far",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 313608
+    },
+    {
+      "id": "netease-track:1700571",
+      "neteaseTrackId": "1700571",
+      "title": "Limbo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 330135
+    },
+    {
+      "id": "netease-track:1700575",
+      "neteaseTrackId": "1700575",
+      "title": "Water on the Pond",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 420768
+    },
+    {
+      "id": "netease-track:1700579",
+      "neteaseTrackId": "1700579",
+      "title": "Fun",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 247902
+    },
+    {
+      "id": "netease-track:1700583",
+      "neteaseTrackId": "1700583",
+      "title": "Directions I",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 406720
+    },
+    {
+      "id": "netease-track:1700586",
+      "neteaseTrackId": "1700586",
+      "title": "Directions II",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 289506
+    },
+    {
+      "id": "netease-track:1700589",
+      "neteaseTrackId": "1700589",
+      "title": "Ascent",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 878785
+    },
+    {
+      "id": "netease-track:1700592",
+      "neteaseTrackId": "1700592",
+      "title": "Duran",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 656079
+    },
+    {
+      "id": "netease-track:1700596",
+      "neteaseTrackId": "1700596",
+      "title": "Konda",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 845810
+    },
+    {
+      "id": "netease-track:1700600",
+      "neteaseTrackId": "1700600",
+      "title": "Willie Nelson",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 620042
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=172433",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Directions Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

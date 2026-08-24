@@ -1,0 +1,186 @@
+{
+  "internalId": "album:260920",
+  "id": "album:260920",
+  "neteaseAlbumId": "260920",
+  "slug": "peter-green-s-fleetwood-mac",
+  "title": "Peter Green's Fleetwood Mac",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1968-02-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260920.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260920.webp",
+    "alt": "《Peter Green's Fleetwood Mac》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2590690",
+      "neteaseTrackId": "2590690",
+      "title": "My Heart Beat Like A Hammer",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 177679
+    },
+    {
+      "id": "netease-track:2590692",
+      "neteaseTrackId": "2590692",
+      "title": "Merry Go Round",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 245133
+    },
+    {
+      "id": "netease-track:2590694",
+      "neteaseTrackId": "2590694",
+      "title": "Long Grey Mare",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 133770
+    },
+    {
+      "id": "netease-track:2590696",
+      "neteaseTrackId": "2590696",
+      "title": "Hellhound On My Trail",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 119025
+    },
+    {
+      "id": "netease-track:2590698",
+      "neteaseTrackId": "2590698",
+      "title": "Shake Your Moneymaker",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 175194
+    },
+    {
+      "id": "netease-track:2590700",
+      "neteaseTrackId": "2590700",
+      "title": "Looking For Somebody",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 170480
+    },
+    {
+      "id": "netease-track:2590702",
+      "neteaseTrackId": "2590702",
+      "title": "No Place To Go",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 200899
+    },
+    {
+      "id": "netease-track:2590705",
+      "neteaseTrackId": "2590705",
+      "title": "My Baby's Good To Me",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 170225
+    },
+    {
+      "id": "netease-track:2590708",
+      "neteaseTrackId": "2590708",
+      "title": "I Loved Another Woman",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 175171
+    },
+    {
+      "id": "netease-track:2590711",
+      "neteaseTrackId": "2590711",
+      "title": "Cold Black Night",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 195813
+    },
+    {
+      "id": "netease-track:2590714",
+      "neteaseTrackId": "2590714",
+      "title": "The World Keep On Turning",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 149095
+    },
+    {
+      "id": "netease-track:2590717",
+      "neteaseTrackId": "2590717",
+      "title": "Got To Move",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 199389
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=260920",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Peter Green's Fleetwood Mac Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

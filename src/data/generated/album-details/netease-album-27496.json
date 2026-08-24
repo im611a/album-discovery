@@ -1,0 +1,197 @@
+{
+  "internalId": "album:27496",
+  "id": "album:27496",
+  "neteaseAlbumId": "27496",
+  "slug": "netease-album-27496",
+  "title": "宝贝",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2010-08-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27496.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27496.webp",
+    "alt": "《宝贝》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:276863",
+      "neteaseTrackId": "276863",
+      "title": "宝贝",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 238226
+    },
+    {
+      "id": "netease-track:276865",
+      "neteaseTrackId": "276865",
+      "title": "艾美丽爱美丽",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 252400
+    },
+    {
+      "id": "netease-track:276867",
+      "neteaseTrackId": "276867",
+      "title": "耳朵要解渴",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 204026
+    },
+    {
+      "id": "netease-track:276869",
+      "neteaseTrackId": "276869",
+      "title": "洗澡时唱的歌",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 235240
+    },
+    {
+      "id": "netease-track:276871",
+      "neteaseTrackId": "276871",
+      "title": "独一无二",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 225000
+    },
+    {
+      "id": "netease-track:276872",
+      "neteaseTrackId": "276872",
+      "title": "完美孤独",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 294373
+    },
+    {
+      "id": "netease-track:276873",
+      "neteaseTrackId": "276873",
+      "title": "没有围墙的世界",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 249413
+    },
+    {
+      "id": "netease-track:276874",
+      "neteaseTrackId": "276874",
+      "title": "饮食男女",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 214714
+    },
+    {
+      "id": "netease-track:276876",
+      "neteaseTrackId": "276876",
+      "title": "执子之手",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 258346
+    },
+    {
+      "id": "netease-track:276878",
+      "neteaseTrackId": "276878",
+      "title": "Good Bye",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 287505
+    },
+    {
+      "id": "netease-track:276880",
+      "neteaseTrackId": "276880",
+      "title": "淘宝(粤)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 209400
+    },
+    {
+      "id": "netease-track:276882",
+      "neteaseTrackId": "276882",
+      "title": "太多太多(粤)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 240226
+    },
+    {
+      "id": "netease-track:276884",
+      "neteaseTrackId": "276884",
+      "title": "洗澡歌(粤)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 234360
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=27496",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "宝贝 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

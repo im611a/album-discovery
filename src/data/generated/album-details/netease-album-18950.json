@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18950",
+  "id": "album:18950",
+  "neteaseAlbumId": "18950",
+  "slug": "netease-album-18950",
+  "title": "直觉",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1997-12-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18950.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18950.webp",
+    "alt": "《直觉》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186614",
+      "neteaseTrackId": "186614",
+      "title": "信",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 304771
+    },
+    {
+      "id": "netease-track:186615",
+      "neteaseTrackId": "186615",
+      "title": "我相信",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 307253
+    },
+    {
+      "id": "netease-track:186616",
+      "neteaseTrackId": "186616",
+      "title": "爱的证据",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 242783
+    },
+    {
+      "id": "netease-track:186617",
+      "neteaseTrackId": "186617",
+      "title": "很快",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 281235
+    },
+    {
+      "id": "netease-track:186621",
+      "neteaseTrackId": "186621",
+      "title": "绝不再失去你",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 275018
+    },
+    {
+      "id": "netease-track:186625",
+      "neteaseTrackId": "186625",
+      "title": "直觉",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 331000
+    },
+    {
+      "id": "netease-track:186629",
+      "neteaseTrackId": "186629",
+      "title": "雨后",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 310623
+    },
+    {
+      "id": "netease-track:186633",
+      "neteaseTrackId": "186633",
+      "title": "男人说法",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 222616
+    },
+    {
+      "id": "netease-track:186636",
+      "neteaseTrackId": "186636",
+      "title": "两个小孩子",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 279615
+    },
+    {
+      "id": "netease-track:186639",
+      "neteaseTrackId": "186639",
+      "title": "心情卡片",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 279336
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18950",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "直觉 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

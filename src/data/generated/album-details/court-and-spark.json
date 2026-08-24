@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1724169",
+  "id": "album:1724169",
+  "neteaseAlbumId": "1724169",
+  "slug": "court-and-spark",
+  "title": "Court and Spark",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1974-01-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724169.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724169.webp",
+    "alt": "《Court and Spark》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18821784",
+      "neteaseTrackId": "18821784",
+      "title": "Court and Spark",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 166160
+    },
+    {
+      "id": "netease-track:18821786",
+      "neteaseTrackId": "18821786",
+      "title": "Help Me",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 204186
+    },
+    {
+      "id": "netease-track:18821788",
+      "neteaseTrackId": "18821788",
+      "title": "Free Man in Paris",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 183716
+    },
+    {
+      "id": "netease-track:18821790",
+      "neteaseTrackId": "18821790",
+      "title": "People's Parties",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 135400
+    },
+    {
+      "id": "netease-track:18821792",
+      "neteaseTrackId": "18821792",
+      "title": "The Same Situation",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 177333
+    },
+    {
+      "id": "netease-track:18821794",
+      "neteaseTrackId": "18821794",
+      "title": "Car on a Hill",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 182200
+    },
+    {
+      "id": "netease-track:18821795",
+      "neteaseTrackId": "18821795",
+      "title": "Down to You",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 338733
+    },
+    {
+      "id": "netease-track:18821796",
+      "neteaseTrackId": "18821796",
+      "title": "Just Like This Train",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 264466
+    },
+    {
+      "id": "netease-track:18821798",
+      "neteaseTrackId": "18821798",
+      "title": "Raised on Robbery",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 187773
+    },
+    {
+      "id": "netease-track:18821800",
+      "neteaseTrackId": "18821800",
+      "title": "Trouble Child",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 240093
+    },
+    {
+      "id": "netease-track:18821802",
+      "neteaseTrackId": "18821802",
+      "title": "Twisted",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 141333
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1724169",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Court and Spark Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

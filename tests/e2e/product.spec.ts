@@ -115,7 +115,7 @@ test("discover, search, detail navigation and local state retain their current c
   await page.goto("/discover/");
   await page.getByLabel("核心流派", { exact: true }).selectOption("pop");
   await expect(page).toHaveURL(/core=pop/);
-  await expect(page.locator("#catalog-tools-title")).toHaveText("78 张专辑");
+  await expect(page.locator("#catalog-tools-title")).toHaveText("433 张专辑");
   const filteredUrl = page.url();
   const albumLink = page.locator('.album-card a[href^="/albums/"]').first();
   await albumLink.click();

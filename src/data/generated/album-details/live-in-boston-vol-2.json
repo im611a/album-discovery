@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1637038",
+  "id": "album:1637038",
+  "neteaseAlbumId": "1637038",
+  "slug": "live-in-boston-vol-2",
+  "title": "Live in Boston, Vol. 2",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1985-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637038.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637038.webp",
+    "alt": "《Live in Boston, Vol. 2》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17785893",
+      "neteaseTrackId": "17785893",
+      "title": "Stranger Blues (Live in Boston)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 237760
+    },
+    {
+      "id": "netease-track:17785894",
+      "neteaseTrackId": "17785894",
+      "title": "Red Hot Mama (Live in Boston)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 250453
+    },
+    {
+      "id": "netease-track:17785895",
+      "neteaseTrackId": "17785895",
+      "title": "Teenage Darling (Live in Boston)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 256120
+    },
+    {
+      "id": "netease-track:17785896",
+      "neteaseTrackId": "17785896",
+      "title": "Keep A-Knocking (Live in Boston)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 314520
+    },
+    {
+      "id": "netease-track:17785897",
+      "neteaseTrackId": "17785897",
+      "title": "Jenny Jenny (Live in Boston)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 650480
+    },
+    {
+      "id": "netease-track:17785898",
+      "neteaseTrackId": "17785898",
+      "title": "Sandy Mary (Live in Boston)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Peter Green"
+      ],
+      "durationMs": 364000
+    },
+    {
+      "id": "netease-track:17785899",
+      "neteaseTrackId": "17785899",
+      "title": "Loving Kind (Live in Boston)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 177000
+    },
+    {
+      "id": "netease-track:17785900",
+      "neteaseTrackId": "17785900",
+      "title": "Madison Blues (Live in Boston)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 289000
+    },
+    {
+      "id": "netease-track:17785901",
+      "neteaseTrackId": "17785901",
+      "title": "Got to Move (Live in Boston)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 236000
+    },
+    {
+      "id": "netease-track:17785902",
+      "neteaseTrackId": "17785902",
+      "title": "Oh Baby (Live in Boston)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 266000
+    },
+    {
+      "id": "netease-track:17785903",
+      "neteaseTrackId": "17785903",
+      "title": "Great Balls of Fire (Live in Boston)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:17785904",
+      "neteaseTrackId": "17785904",
+      "title": "Tutti Frutti (Live in Boston)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 405000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1637038",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live in Boston, Vol. 2 Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

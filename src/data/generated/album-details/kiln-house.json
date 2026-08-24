@@ -1,0 +1,164 @@
+{
+  "internalId": "album:260887",
+  "id": "album:260887",
+  "neteaseAlbumId": "260887",
+  "slug": "kiln-house",
+  "title": "Kiln House",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1970-09-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260887.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260887.webp",
+    "alt": "《Kiln House》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2590312",
+      "neteaseTrackId": "2590312",
+      "title": "This Is The Rock",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 170000
+    },
+    {
+      "id": "netease-track:2590315",
+      "neteaseTrackId": "2590315",
+      "title": "Station Man",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 351933
+    },
+    {
+      "id": "netease-track:2590318",
+      "neteaseTrackId": "2590318",
+      "title": "Blood on the Floor",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 167340
+    },
+    {
+      "id": "netease-track:2590320",
+      "neteaseTrackId": "2590320",
+      "title": "Hi Ho Silver",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 186413
+    },
+    {
+      "id": "netease-track:2590324",
+      "neteaseTrackId": "2590324",
+      "title": "Jewel Eyed Judy (2018 Remaster)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 199373
+    },
+    {
+      "id": "netease-track:2590326",
+      "neteaseTrackId": "2590326",
+      "title": "Buddy's Song",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 132666
+    },
+    {
+      "id": "netease-track:2590330",
+      "neteaseTrackId": "2590330",
+      "title": "Earl Gray",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 244826
+    },
+    {
+      "id": "netease-track:2590334",
+      "neteaseTrackId": "2590334",
+      "title": "One Together",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 207733
+    },
+    {
+      "id": "netease-track:2590338",
+      "neteaseTrackId": "2590338",
+      "title": "Tell Me All the Things You Do",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 255306
+    },
+    {
+      "id": "netease-track:2590342",
+      "neteaseTrackId": "2590342",
+      "title": "Mission Bell",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 153266
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=260887",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Kiln House Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

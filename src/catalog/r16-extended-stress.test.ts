@@ -91,17 +91,17 @@ describe("R16-2E cross-product navigation stress", () => {
       avoidableShortLoop: 0,
       urlGrowthViolation: 0,
     });
-  }, 180_000);
+  }, 600_000);
 });
 
 describe("R16-2F canonical Album and local-state stress", () => {
   it("audits the entire real Artist/Album graph and every shared-credit identity", () => {
     expect(auditArtistAlbumGraph(publishedArtists, catalogAlbums)).toEqual({
-      artistCount: 300,
-      albumCount: 357,
-      singleWorkArtists: 238,
-      multiWorkArtists: 62,
-      artistAlbumMemberships: 627,
+      artistCount: 453,
+      albumCount: 1_330,
+      singleWorkArtists: 297,
+      multiWorkArtists: 156,
+      artistAlbumMemberships: 1_794,
       invalidArtistReferences: 0,
       invalidAlbumReferences: 0,
       unresolvedAlbumReferences: 0,
@@ -190,7 +190,7 @@ describe("R16-2F canonical Album and local-state stress", () => {
       unexpectedEmptyProjection: 0,
       stateDivergence: 0,
     });
-  }, 1_200_000);
+  }, 4_200_000);
 
   it("reconciles 100,000 canonical mutation transitions without retaining stale Artist state", () => {
     const random = generator(0x16f6);
@@ -216,5 +216,5 @@ describe("R16-2F canonical Album and local-state stress", () => {
     console.info("R16_2F_MUTATION_STRESS", JSON.stringify({ transitions, ...failures }));
     expect(transitions).toBe(100_000);
     expect(failures).toEqual({ staleProjection: 0, sharedStateDivergence: 0, chronologyMutation: 0 });
-  }, 300_000);
+  }, 600_000);
 });

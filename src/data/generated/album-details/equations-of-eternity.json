@@ -1,0 +1,153 @@
+{
+  "internalId": "album:222299",
+  "id": "album:222299",
+  "neteaseAlbumId": "222299",
+  "slug": "equations-of-eternity",
+  "title": "Equations of Eternity",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1970-01-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222299.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222299.webp",
+    "alt": "《Equations of Eternity》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2206288",
+      "neteaseTrackId": "2206288",
+      "title": "The Collector",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 408000
+    },
+    {
+      "id": "netease-track:2206291",
+      "neteaseTrackId": "2206291",
+      "title": "Eons Geography",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 351000
+    },
+    {
+      "id": "netease-track:2206294",
+      "neteaseTrackId": "2206294",
+      "title": "5th Element",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 335000
+    },
+    {
+      "id": "netease-track:2206297",
+      "neteaseTrackId": "2206297",
+      "title": "Loa",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 391000
+    },
+    {
+      "id": "netease-track:2206299",
+      "neteaseTrackId": "2206299",
+      "title": "Stream",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 352000
+    },
+    {
+      "id": "netease-track:2206301",
+      "neteaseTrackId": "2206301",
+      "title": "Shadow Sewer",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 463000
+    },
+    {
+      "id": "netease-track:2206302",
+      "neteaseTrackId": "2206302",
+      "title": "Fifty Gates",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:2206304",
+      "neteaseTrackId": "2206304",
+      "title": "Descent",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 347000
+    },
+    {
+      "id": "netease-track:2206306",
+      "neteaseTrackId": "2206306",
+      "title": "Slow Bleed",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 352000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=222299",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Equations of Eternity Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

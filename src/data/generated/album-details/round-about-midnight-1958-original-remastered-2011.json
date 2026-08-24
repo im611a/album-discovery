@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1969964",
+  "id": "album:1969964",
+  "neteaseAlbumId": "1969964",
+  "slug": "round-about-midnight-1958-original-remastered-2011",
+  "title": "Round About Midnight 1958 (Original Remastered 2011)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2011-11-03",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969964.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969964.webp",
+    "alt": "《Round About Midnight 1958 (Original Remastered 2011)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21330457",
+      "neteaseTrackId": "21330457",
+      "title": "Round Midnight",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 357000
+    },
+    {
+      "id": "netease-track:21330458",
+      "neteaseTrackId": "21330458",
+      "title": "Ah-Leu-Cha",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 355000
+    },
+    {
+      "id": "netease-track:21330459",
+      "neteaseTrackId": "21330459",
+      "title": "Al of You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 425000
+    },
+    {
+      "id": "netease-track:21330460",
+      "neteaseTrackId": "21330460",
+      "title": "Bye Bye Blackbird",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 479000
+    },
+    {
+      "id": "netease-track:21330461",
+      "neteaseTrackId": "21330461",
+      "title": "Tadd's Delight",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 271000
+    },
+    {
+      "id": "netease-track:21330462",
+      "neteaseTrackId": "21330462",
+      "title": "Dear Old Stockholm",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 475000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1969964",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Round About Midnight 1958 (Original Remastered 2011) Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

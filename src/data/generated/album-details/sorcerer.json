@@ -1,0 +1,154 @@
+{
+  "internalId": "album:1970582",
+  "id": "album:1970582",
+  "neteaseAlbumId": "1970582",
+  "slug": "sorcerer",
+  "title": "Sorcerer",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2002-10-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970582.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970582.webp",
+    "alt": "《Sorcerer》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21340692",
+      "neteaseTrackId": "21340692",
+      "title": "Prince of Darkness",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 389333
+    },
+    {
+      "id": "netease-track:21340693",
+      "neteaseTrackId": "21340693",
+      "title": "Pee Wee",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 286511
+    },
+    {
+      "id": "netease-track:21340694",
+      "neteaseTrackId": "21340694",
+      "title": "Masqualero",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 531000
+    },
+    {
+      "id": "netease-track:21340695",
+      "neteaseTrackId": "21340695",
+      "title": "The Sorcerer (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 312533
+    },
+    {
+      "id": "netease-track:21340696",
+      "neteaseTrackId": "21340696",
+      "title": "Limbo (Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 433632
+    },
+    {
+      "id": "netease-track:21340697",
+      "neteaseTrackId": "21340697",
+      "title": "Vonetta",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 333090
+    },
+    {
+      "id": "netease-track:21340698",
+      "neteaseTrackId": "21340698",
+      "title": "Nothing Like You (master)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 117818
+    },
+    {
+      "id": "netease-track:21340699",
+      "neteaseTrackId": "21340699",
+      "title": "Masqualero (alternate take) (alternate take)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 426493
+    },
+    {
+      "id": "netease-track:21340700",
+      "neteaseTrackId": "21340700",
+      "title": "Limbo (alternate version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 328440
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1970582",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sorcerer Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

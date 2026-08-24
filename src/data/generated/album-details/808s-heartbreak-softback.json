@@ -1,0 +1,179 @@
+{
+  "internalId": "album:1738268",
+  "id": "album:1738268",
+  "neteaseAlbumId": "1738268",
+  "slug": "808s-heartbreak-softback",
+  "title": "808s & Heartbreak (Softback)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2008-11-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1738268.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1738268.webp",
+    "alt": "《808s & Heartbreak (Softback)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18969178",
+      "neteaseTrackId": "18969178",
+      "title": "Say You Will",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 377600
+    },
+    {
+      "id": "netease-track:18969179",
+      "neteaseTrackId": "18969179",
+      "title": "Welcome To Heartbreak",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Kid Cudi"
+      ],
+      "durationMs": 263360
+    },
+    {
+      "id": "netease-track:18969180",
+      "neteaseTrackId": "18969180",
+      "title": "Heartless",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 211069
+    },
+    {
+      "id": "netease-track:18969181",
+      "neteaseTrackId": "18969181",
+      "title": "Amazing",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Jeezy"
+      ],
+      "durationMs": 238333
+    },
+    {
+      "id": "netease-track:18969182",
+      "neteaseTrackId": "18969182",
+      "title": "Love Lockdown",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 271952
+    },
+    {
+      "id": "netease-track:18969183",
+      "neteaseTrackId": "18969183",
+      "title": "Paranoid",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Mr Hudson"
+      ],
+      "durationMs": 277906
+    },
+    {
+      "id": "netease-track:18969185",
+      "neteaseTrackId": "18969185",
+      "title": "Street Lights",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 189906
+    },
+    {
+      "id": "netease-track:18969186",
+      "neteaseTrackId": "18969186",
+      "title": "Bad News",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 238773
+    },
+    {
+      "id": "netease-track:18969187",
+      "neteaseTrackId": "18969187",
+      "title": "See You In My Nightmares",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Lil Wayne"
+      ],
+      "durationMs": 258253
+    },
+    {
+      "id": "netease-track:18969188",
+      "neteaseTrackId": "18969188",
+      "title": "Coldest Winter",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 164420
+    },
+    {
+      "id": "netease-track:18969189",
+      "neteaseTrackId": "18969189",
+      "title": "Pinocchio Story (Freestyle Live From Singapore)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 361650
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1738268",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "808s & Heartbreak (Softback) Kanye West",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

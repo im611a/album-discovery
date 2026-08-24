@@ -1,0 +1,296 @@
+{
+  "internalId": "album:23955",
+  "id": "album:23955",
+  "neteaseAlbumId": "23955",
+  "slug": "netease-album-23955",
+  "title": "候鸟e人 电视原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7893",
+      "neteaseArtistId": "7893",
+      "name": "黄韵玲"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    },
+    {
+      "id": "netease-artist:6083",
+      "neteaseArtistId": "6083",
+      "name": "余宪忠"
+    }
+  ],
+  "releaseDate": "2004-04-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23955.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23955.webp",
+    "alt": "《候鸟e人 电视原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238964",
+      "neteaseTrackId": "238964",
+      "title": "听！是谁在唱歌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲",
+        "刘若英"
+      ],
+      "durationMs": 224747
+    },
+    {
+      "id": "netease-track:238965",
+      "neteaseTrackId": "238965",
+      "title": "大地(序曲)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 165000
+    },
+    {
+      "id": "netease-track:238966",
+      "neteaseTrackId": "238966",
+      "title": "鼓励",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 128287
+    },
+    {
+      "id": "netease-track:238967",
+      "neteaseTrackId": "238967",
+      "title": "Happy Bird",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 159000
+    },
+    {
+      "id": "netease-track:238968",
+      "neteaseTrackId": "238968",
+      "title": "黑面琵鹭",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 125000
+    },
+    {
+      "id": "netease-track:238970",
+      "neteaseTrackId": "238970",
+      "title": "爱情(绍韩与湘子之歌)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 123000
+    },
+    {
+      "id": "netease-track:238971",
+      "neteaseTrackId": "238971",
+      "title": "起飞与降落",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "余宪忠"
+      ],
+      "durationMs": 236342
+    },
+    {
+      "id": "netease-track:238972",
+      "neteaseTrackId": "238972",
+      "title": "仰慕(丁与小汪之歌)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 88000
+    },
+    {
+      "id": "netease-track:238973",
+      "neteaseTrackId": "238973",
+      "title": "青春(友谊之歌)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 158197
+    },
+    {
+      "id": "netease-track:238974",
+      "neteaseTrackId": "238974",
+      "title": "听！是谁在唱歌(伴奏)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 143000
+    },
+    {
+      "id": "netease-track:238976",
+      "neteaseTrackId": "238976",
+      "title": "破茧(绍韩与小青之歌)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 145000
+    },
+    {
+      "id": "netease-track:238978",
+      "neteaseTrackId": "238978",
+      "title": "信",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 91000
+    },
+    {
+      "id": "netease-track:238980",
+      "neteaseTrackId": "238980",
+      "title": "时间",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 154000
+    },
+    {
+      "id": "netease-track:238982",
+      "neteaseTrackId": "238982",
+      "title": "兄妹",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 153000
+    },
+    {
+      "id": "netease-track:238984",
+      "neteaseTrackId": "238984",
+      "title": "回忆",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:238986",
+      "neteaseTrackId": "238986",
+      "title": "夜",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 137000
+    },
+    {
+      "id": "netease-track:238988",
+      "neteaseTrackId": "238988",
+      "title": "父亲",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 135000
+    },
+    {
+      "id": "netease-track:238990",
+      "neteaseTrackId": "238990",
+      "title": "温暖",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 150000
+    },
+    {
+      "id": "netease-track:238992",
+      "neteaseTrackId": "238992",
+      "title": "相遇",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 152000
+    },
+    {
+      "id": "netease-track:238994",
+      "neteaseTrackId": "238994",
+      "title": "听！是谁在唱歌(吉他演奏版)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 148000
+    },
+    {
+      "id": "netease-track:238996",
+      "neteaseTrackId": "238996",
+      "title": "起飞与降落(伴奏)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 165000
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=23955",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "候鸟e人 电视原声带 黄韵玲 刘若英 余宪忠",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

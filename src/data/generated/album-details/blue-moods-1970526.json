@@ -1,0 +1,189 @@
+{
+  "internalId": "album:1970526",
+  "id": "album:1970526",
+  "neteaseAlbumId": "1970526",
+  "slug": "blue-moods-1970526",
+  "title": "Blue Moods",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2006-05-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970526.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970526.webp",
+    "alt": "《Blue Moods》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339684",
+      "neteaseTrackId": "21339684",
+      "title": "Time After Time",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 336000
+    },
+    {
+      "id": "netease-track:21339685",
+      "neteaseTrackId": "21339685",
+      "title": "Summertime (From 'Porgy & Bess') (master)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 198600
+    },
+    {
+      "id": "netease-track:21339686",
+      "neteaseTrackId": "21339686",
+      "title": "Circle",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Herbie Hancock"
+      ],
+      "durationMs": 353000
+    },
+    {
+      "id": "netease-track:21339687",
+      "neteaseTrackId": "21339687",
+      "title": "My Ship",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 268493
+    },
+    {
+      "id": "netease-track:21339688",
+      "neteaseTrackId": "21339688",
+      "title": "Old Folks",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 317280
+    },
+    {
+      "id": "netease-track:21339689",
+      "neteaseTrackId": "21339689",
+      "title": "Blue In Green",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 332538
+    },
+    {
+      "id": "netease-track:21339690",
+      "neteaseTrackId": "21339690",
+      "title": "'Round Midnight",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 358200
+    },
+    {
+      "id": "netease-track:21339691",
+      "neteaseTrackId": "21339691",
+      "title": "Fran-Dance (Put Your Little Foot Right Out) (Digital Remix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351000
+    },
+    {
+      "id": "netease-track:21339692",
+      "neteaseTrackId": "21339692",
+      "title": "Flamenco Sketches",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 567000
+    },
+    {
+      "id": "netease-track:21339693",
+      "neteaseTrackId": "21339693",
+      "title": "Drad Dog",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 290733
+    },
+    {
+      "id": "netease-track:21339694",
+      "neteaseTrackId": "21339694",
+      "title": "Sweet Pea",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 481266
+    },
+    {
+      "id": "netease-track:21339695",
+      "neteaseTrackId": "21339695",
+      "title": "Summer Night",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 362866
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1970526",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Blue Moods Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

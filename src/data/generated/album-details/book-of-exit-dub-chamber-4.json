@@ -1,0 +1,120 @@
+{
+  "internalId": "album:222216",
+  "id": "album:222216",
+  "neteaseAlbumId": "222216",
+  "slug": "book-of-exit-dub-chamber-4",
+  "title": "Book of Exit: Dub Chamber 4",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1970-01-01",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222216.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222216.webp",
+    "alt": "《Book of Exit: Dub Chamber 4》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205506",
+      "neteaseTrackId": "2205506",
+      "title": "Ethiopa",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 374000
+    },
+    {
+      "id": "netease-track:2205507",
+      "neteaseTrackId": "2205507",
+      "title": "The Lower Ground",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 455666
+    },
+    {
+      "id": "netease-track:2205508",
+      "neteaseTrackId": "2205508",
+      "title": "Shashamani",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 450840
+    },
+    {
+      "id": "netease-track:2205509",
+      "neteaseTrackId": "2205509",
+      "title": "Bati",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 469000
+    },
+    {
+      "id": "netease-track:2205510",
+      "neteaseTrackId": "2205510",
+      "title": "Land of Look Behind",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 406866
+    },
+    {
+      "id": "netease-track:2205511",
+      "neteaseTrackId": "2205511",
+      "title": "Jerusalem",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 750866
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=222216",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Book of Exit: Dub Chamber 4 Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "internalId": "album:13361",
+  "id": "album:13361",
+  "neteaseAlbumId": "13361",
+  "slug": "wake-up",
+  "title": "Wake Up",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:4479",
+      "neteaseArtistId": "4479",
+      "name": "MC HotDog 热狗"
+    }
+  ],
+  "releaseDate": "2006-01-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/13361.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/13361.webp",
+    "alt": "《Wake Up》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:135093",
+      "neteaseTrackId": "135093",
+      "title": "Intro(Wake Up)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 43932
+    },
+    {
+      "id": "netease-track:135097",
+      "neteaseTrackId": "135097",
+      "title": "志玲姊姊来找我",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 69265
+    },
+    {
+      "id": "netease-track:135099",
+      "neteaseTrackId": "135099",
+      "title": "毋忘在莒",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 20688
+    },
+    {
+      "id": "netease-track:135100",
+      "neteaseTrackId": "135100",
+      "title": "马祖小夜曲",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 241951
+    },
+    {
+      "id": "netease-track:135101",
+      "neteaseTrackId": "135101",
+      "title": "哑色小狗(Introducing)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 31834
+    },
+    {
+      "id": "netease-track:135102",
+      "neteaseTrackId": "135102",
+      "title": "2006冠军情歌",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 207121
+    },
+    {
+      "id": "netease-track:135103",
+      "neteaseTrackId": "135103",
+      "title": "Tiger Style",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 57330
+    },
+    {
+      "id": "netease-track:135104",
+      "neteaseTrackId": "135104",
+      "title": "母老虎",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 263012
+    },
+    {
+      "id": "netease-track:135107",
+      "neteaseTrackId": "135107",
+      "title": "烦死人",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 253399
+    },
+    {
+      "id": "netease-track:135108",
+      "neteaseTrackId": "135108",
+      "title": "我的生活Ⅱ",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 252212
+    },
+    {
+      "id": "netease-track:135109",
+      "neteaseTrackId": "135109",
+      "title": "Outro",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 34351
+    },
+    {
+      "id": "netease-track:135110",
+      "neteaseTrackId": "135110",
+      "title": "安可",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 249051
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=13361",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Wake Up MC HotDog 热狗",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

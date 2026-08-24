@@ -1,0 +1,208 @@
+{
+  "internalId": "album:1970157",
+  "id": "album:1970157",
+  "neteaseAlbumId": "1970157",
+  "slug": "miles-ahead",
+  "title": "Miles Ahead",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1993-06-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970157.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970157.webp",
+    "alt": "《Miles Ahead》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21334036",
+      "neteaseTrackId": "21334036",
+      "title": "Springsville",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 207626
+    },
+    {
+      "id": "netease-track:21334037",
+      "neteaseTrackId": "21334037",
+      "title": "The Maids of Cadiz",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 233499
+    },
+    {
+      "id": "netease-track:21334038",
+      "neteaseTrackId": "21334038",
+      "title": "The Duke",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 214613
+    },
+    {
+      "id": "netease-track:21334039",
+      "neteaseTrackId": "21334039",
+      "title": "My Ship",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 267981
+    },
+    {
+      "id": "netease-track:21334040",
+      "neteaseTrackId": "21334040",
+      "title": "Miles Ahead",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 208748
+    },
+    {
+      "id": "netease-track:21334041",
+      "neteaseTrackId": "21334041",
+      "title": "Blues for Pablo",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 317950
+    },
+    {
+      "id": "netease-track:21334042",
+      "neteaseTrackId": "21334042",
+      "title": "New Rhumba",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 277440
+    },
+    {
+      "id": "netease-track:21334043",
+      "neteaseTrackId": "21334043",
+      "title": "The Meaning Of The Blues",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 168426
+    },
+    {
+      "id": "netease-track:21334044",
+      "neteaseTrackId": "21334044",
+      "title": "Lament",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 137787
+    },
+    {
+      "id": "netease-track:21334045",
+      "neteaseTrackId": "21334045",
+      "title": "I Don't Wanna Be Kissed (By Anyone But You)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 182517
+    },
+    {
+      "id": "netease-track:21334046",
+      "neteaseTrackId": "21334046",
+      "title": "Springsville (Remake Take 7)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 193697
+    },
+    {
+      "id": "netease-track:21334047",
+      "neteaseTrackId": "21334047",
+      "title": "Blues for Pablo (Take 1)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 212200
+    },
+    {
+      "id": "netease-track:21334048",
+      "neteaseTrackId": "21334048",
+      "title": "Medley: The Meaning of the Blues / Lament (Rehearsal)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 309960
+    },
+    {
+      "id": "netease-track:21334049",
+      "neteaseTrackId": "21334049",
+      "title": "I Don't Wanna Be Kissed (By Anyone But You)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 191712
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=1970157",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Ahead Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

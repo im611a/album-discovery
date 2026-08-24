@@ -1,0 +1,165 @@
+{
+  "internalId": "album:18996",
+  "id": "album:18996",
+  "neteaseAlbumId": "18996",
+  "slug": "netease-album-18996",
+  "title": "等待",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1994-06-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "巨石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18996.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18996.webp",
+    "alt": "《等待》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187280",
+      "neteaseTrackId": "187280",
+      "title": "别怕我伤心",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291827
+    },
+    {
+      "id": "netease-track:187284",
+      "neteaseTrackId": "187284",
+      "title": "有一点动心",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "刘嘉玲"
+      ],
+      "durationMs": 231840
+    },
+    {
+      "id": "netease-track:187288",
+      "neteaseTrackId": "187288",
+      "title": "我最爱的女人",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 323426
+    },
+    {
+      "id": "netease-track:187291",
+      "neteaseTrackId": "187291",
+      "title": "依依不舍",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 278466
+    },
+    {
+      "id": "netease-track:187295",
+      "neteaseTrackId": "187295",
+      "title": "风言风语",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 221373
+    },
+    {
+      "id": "netease-track:187298",
+      "neteaseTrackId": "187298",
+      "title": "不会让你后悔",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 252573
+    },
+    {
+      "id": "netease-track:187302",
+      "neteaseTrackId": "187302",
+      "title": "爱已成风",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 277174
+    },
+    {
+      "id": "netease-track:187306",
+      "neteaseTrackId": "187306",
+      "title": "因为我爱你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 282493
+    },
+    {
+      "id": "netease-track:187311",
+      "neteaseTrackId": "187311",
+      "title": "就等着你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291400
+    },
+    {
+      "id": "netease-track:187316",
+      "neteaseTrackId": "187316",
+      "title": "我在这里守候",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 238000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18996",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "等待 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:29567",
+  "id": "album:29567",
+  "neteaseAlbumId": "29567",
+  "slug": "netease-album-29567",
+  "title": "我们不要伤心了",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "2010-06-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29567.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29567.webp",
+    "alt": "《我们不要伤心了》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297893",
+      "neteaseTrackId": "297893",
+      "title": "不见了",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 71331
+    },
+    {
+      "id": "netease-track:297894",
+      "neteaseTrackId": "297894",
+      "title": "看见快乐对我笑",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 267517
+    },
+    {
+      "id": "netease-track:297895",
+      "neteaseTrackId": "297895",
+      "title": "我们不要伤心了",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 296792
+    },
+    {
+      "id": "netease-track:297896",
+      "neteaseTrackId": "297896",
+      "title": "我们不是永远都那么勇敢",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 274970
+    },
+    {
+      "id": "netease-track:297897",
+      "neteaseTrackId": "297897",
+      "title": "Don't Wanna Be",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 222563
+    },
+    {
+      "id": "netease-track:297898",
+      "neteaseTrackId": "297898",
+      "title": "急切却又只能等待",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 229720
+    },
+    {
+      "id": "netease-track:297899",
+      "neteaseTrackId": "297899",
+      "title": "她往月亮走",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 232549
+    },
+    {
+      "id": "netease-track:297900",
+      "neteaseTrackId": "297900",
+      "title": "太阳雨",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 265984
+    },
+    {
+      "id": "netease-track:297901",
+      "neteaseTrackId": "297901",
+      "title": "孤单",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 266682
+    },
+    {
+      "id": "netease-track:297902",
+      "neteaseTrackId": "297902",
+      "title": "你.我",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 256023
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29567",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我们不要伤心了 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:430805",
+  "id": "album:430805",
+  "neteaseAlbumId": "430805",
+  "slug": "com-lag-2-2-5",
+  "title": "Com Lag: 2+2=5",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "2004-03-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "XL Recordings",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/430805.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/430805.webp",
+    "alt": "《Com Lag: 2+2=5》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4261970",
+      "neteaseTrackId": "4261970",
+      "title": "2 + 2 = 5 (Live at Earls Court)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 215266
+    },
+    {
+      "id": "netease-track:4261974",
+      "neteaseTrackId": "4261974",
+      "title": "Remyxomatosis (Cristian Vogel RMX)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 309920
+    },
+    {
+      "id": "netease-track:4261977",
+      "neteaseTrackId": "4261977",
+      "title": "I Will (Los Angeles Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 133240
+    },
+    {
+      "id": "netease-track:4261979",
+      "neteaseTrackId": "4261979",
+      "title": "Paperbag Writer",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 238280
+    },
+    {
+      "id": "netease-track:4261981",
+      "neteaseTrackId": "4261981",
+      "title": "I Am a Wicked Child",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 186333
+    },
+    {
+      "id": "netease-track:4261983",
+      "neteaseTrackId": "4261983",
+      "title": "I Am Citizen Insane",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 212600
+    },
+    {
+      "id": "netease-track:4261987",
+      "neteaseTrackId": "4261987",
+      "title": "Skttrbrain (Four Tet Remix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 265106
+    },
+    {
+      "id": "netease-track:4261991",
+      "neteaseTrackId": "4261991",
+      "title": "Gagging Order",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 216000
+    },
+    {
+      "id": "netease-track:4261995",
+      "neteaseTrackId": "4261995",
+      "title": "Fog (Again) (Live)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 138400
+    },
+    {
+      "id": "netease-track:4261999",
+      "neteaseTrackId": "4261999",
+      "title": "Where Bluebirds Fly",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 271253
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=430805",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Com Lag: 2+2=5 Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

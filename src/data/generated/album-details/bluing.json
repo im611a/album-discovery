@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1970082",
+  "id": "album:1970082",
+  "neteaseAlbumId": "1970082",
+  "slug": "bluing",
+  "title": "Bluing",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2011-05-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Documents",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970082.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970082.webp",
+    "alt": "《Bluing》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21332656",
+      "neteaseTrackId": "21332656",
+      "title": "Jeru",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 193093
+    },
+    {
+      "id": "netease-track:21332657",
+      "neteaseTrackId": "21332657",
+      "title": "Venus De Milo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 191493
+    },
+    {
+      "id": "netease-track:21332658",
+      "neteaseTrackId": "21332658",
+      "title": "Conception",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 241306
+    },
+    {
+      "id": "netease-track:21332659",
+      "neteaseTrackId": "21332659",
+      "title": "Deception",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 165986
+    },
+    {
+      "id": "netease-track:21332660",
+      "neteaseTrackId": "21332660",
+      "title": "Boplicity",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 181160
+    },
+    {
+      "id": "netease-track:21332661",
+      "neteaseTrackId": "21332661",
+      "title": "Godchild",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 191506
+    },
+    {
+      "id": "netease-track:21332662",
+      "neteaseTrackId": "21332662",
+      "title": "Rocker",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 185000
+    },
+    {
+      "id": "netease-track:21332663",
+      "neteaseTrackId": "21332663",
+      "title": "Yesterdays",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 146000
+    },
+    {
+      "id": "netease-track:21332664",
+      "neteaseTrackId": "21332664",
+      "title": "Hibeck",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 184053
+    },
+    {
+      "id": "netease-track:21332665",
+      "neteaseTrackId": "21332665",
+      "title": "Ezz-Thetic",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 171320
+    },
+    {
+      "id": "netease-track:21332666",
+      "neteaseTrackId": "21332666",
+      "title": "My Old Flame",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 394000
+    },
+    {
+      "id": "netease-track:21332667",
+      "neteaseTrackId": "21332667",
+      "title": "Budo",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 152133
+    },
+    {
+      "id": "netease-track:21332668",
+      "neteaseTrackId": "21332668",
+      "title": "Bluing",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 594066
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1970082",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Bluing Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

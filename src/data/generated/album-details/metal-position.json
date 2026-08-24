@@ -1,0 +1,142 @@
+{
+  "internalId": "album:49553",
+  "id": "album:49553",
+  "neteaseAlbumId": "49553",
+  "slug": "metal-position",
+  "title": "Metal Position",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15581",
+      "neteaseArtistId": "15581",
+      "name": "近藤等则"
+    }
+  ],
+  "releaseDate": "1986-05-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/49553.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/49553.webp",
+    "alt": "《Metal Position》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:525825",
+      "neteaseTrackId": "525825",
+      "title": "Night Drive",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 338000
+    },
+    {
+      "id": "netease-track:525830",
+      "neteaseTrackId": "525830",
+      "title": "Cerezo Rosa",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:525835",
+      "neteaseTrackId": "525835",
+      "title": "Metalic Bamboo",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 290000
+    },
+    {
+      "id": "netease-track:525839",
+      "neteaseTrackId": "525839",
+      "title": "Black Dance",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:525842",
+      "neteaseTrackId": "525842",
+      "title": "We Know Smart",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 317000
+    },
+    {
+      "id": "netease-track:525845",
+      "neteaseTrackId": "525845",
+      "title": "Tea Girl",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 312000
+    },
+    {
+      "id": "netease-track:525848",
+      "neteaseTrackId": "525848",
+      "title": "Tricky Dicky Fa Fa",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 274442
+    },
+    {
+      "id": "netease-track:525851",
+      "neteaseTrackId": "525851",
+      "title": "Kaze",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 164000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=49553",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Metal Position 近藤等则",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

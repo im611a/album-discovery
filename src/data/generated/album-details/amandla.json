@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1970387",
+  "id": "album:1970387",
+  "neteaseAlbumId": "1970387",
+  "slug": "amandla",
+  "title": "Amandla",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1989-05-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970387.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970387.webp",
+    "alt": "《Amandla》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21337535",
+      "neteaseTrackId": "21337535",
+      "title": "Catembe",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 337000
+    },
+    {
+      "id": "netease-track:21337536",
+      "neteaseTrackId": "21337536",
+      "title": "Cobra",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 316560
+    },
+    {
+      "id": "netease-track:21337537",
+      "neteaseTrackId": "21337537",
+      "title": "Big Time",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 341706
+    },
+    {
+      "id": "netease-track:21337538",
+      "neteaseTrackId": "21337538",
+      "title": "Hannibal",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351000
+    },
+    {
+      "id": "netease-track:21337539",
+      "neteaseTrackId": "21337539",
+      "title": "Jo-Jo",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 291533
+    },
+    {
+      "id": "netease-track:21337540",
+      "neteaseTrackId": "21337540",
+      "title": "Amandla",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 321533
+    },
+    {
+      "id": "netease-track:21337541",
+      "neteaseTrackId": "21337541",
+      "title": "Jilli",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 306133
+    },
+    {
+      "id": "netease-track:21337542",
+      "neteaseTrackId": "21337542",
+      "title": "Mr. Pastorius",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 342000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1970387",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Amandla Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

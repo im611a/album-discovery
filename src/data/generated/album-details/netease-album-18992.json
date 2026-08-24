@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18992",
+  "id": "album:18992",
+  "neteaseAlbumId": "18992",
+  "slug": "netease-album-18992",
+  "title": "心碎深处",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1994-10-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18992.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18992.webp",
+    "alt": "《心碎深处》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187228",
+      "neteaseTrackId": "187228",
+      "title": "Knife",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 294000
+    },
+    {
+      "id": "netease-track:187232",
+      "neteaseTrackId": "187232",
+      "title": "Somewhere In My Broken Heart",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:187234",
+      "neteaseTrackId": "187234",
+      "title": "You Are My Lady",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:187236",
+      "neteaseTrackId": "187236",
+      "title": "One Day In Your Life",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 255000
+    },
+    {
+      "id": "netease-track:187239",
+      "neteaseTrackId": "187239",
+      "title": "Blue Guitar",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 278000
+    },
+    {
+      "id": "netease-track:187243",
+      "neteaseTrackId": "187243",
+      "title": "Girl You Are My Song",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 271000
+    },
+    {
+      "id": "netease-track:187248",
+      "neteaseTrackId": "187248",
+      "title": "It Was Almost Like A Song",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:187253",
+      "neteaseTrackId": "187253",
+      "title": "The Actor",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 318000
+    },
+    {
+      "id": "netease-track:187258",
+      "neteaseTrackId": "187258",
+      "title": "Let It Go",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 250000
+    },
+    {
+      "id": "netease-track:187263",
+      "neteaseTrackId": "187263",
+      "title": "Loving Me Loving You",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 225000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18992",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "心碎深处 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

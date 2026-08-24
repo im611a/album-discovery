@@ -1,0 +1,131 @@
+{
+  "internalId": "album:1637044",
+  "id": "album:1637044",
+  "neteaseAlbumId": "1637044",
+  "slug": "live-in-boston-vol-1",
+  "title": "Live in Boston, Vol. 1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1985-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637044.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637044.webp",
+    "alt": "《Live in Boston, Vol. 1》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17785977",
+      "neteaseTrackId": "17785977",
+      "title": "Black Magic Woman (Live in Boston)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 414243
+    },
+    {
+      "id": "netease-track:17785978",
+      "neteaseTrackId": "17785978",
+      "title": "Jumping at Shadows (Live in Boston)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 288813
+    },
+    {
+      "id": "netease-track:17785979",
+      "neteaseTrackId": "17785979",
+      "title": "Like It This Way (Live in Boston)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 274226
+    },
+    {
+      "id": "netease-track:17785980",
+      "neteaseTrackId": "17785980",
+      "title": "Only You (Live in Boston)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 307000
+    },
+    {
+      "id": "netease-track:17785981",
+      "neteaseTrackId": "17785981",
+      "title": "I Can't Hold Out (Live in Boston)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 395000
+    },
+    {
+      "id": "netease-track:17785982",
+      "neteaseTrackId": "17785982",
+      "title": "Got to Move (Live in Boston)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 228320
+    },
+    {
+      "id": "netease-track:17785983",
+      "neteaseTrackId": "17785983",
+      "title": "The Green Manalishi (Live in Boston)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 775813
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1637044",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live in Boston, Vol. 1 Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

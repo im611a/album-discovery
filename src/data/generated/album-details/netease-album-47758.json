@@ -1,0 +1,186 @@
+{
+  "internalId": "album:47758",
+  "id": "album:47758",
+  "neteaseAlbumId": "47758",
+  "slug": "netease-album-47758",
+  "title": "坂本龙一の音楽 ― early best songs",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1999-09-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47758.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47758.webp",
+    "alt": "《坂本龙一の音楽 ― early best songs》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:500520",
+      "neteaseTrackId": "500520",
+      "title": "THE END OF ASIA",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 381000
+    },
+    {
+      "id": "netease-track:500526",
+      "neteaseTrackId": "500526",
+      "title": "グラスホッパー",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 315000
+    },
+    {
+      "id": "netease-track:500531",
+      "neteaseTrackId": "500531",
+      "title": "プラスティック・バンブー",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 391523
+    },
+    {
+      "id": "netease-track:500535",
+      "neteaseTrackId": "500535",
+      "title": "THOUSAND KNIVES",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 576000
+    },
+    {
+      "id": "netease-track:500539",
+      "neteaseTrackId": "500539",
+      "title": "ノイエ・ヤパーニッシェ・エレクトロニーシェ・フォルクスリート",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 485000
+    },
+    {
+      "id": "netease-track:500547",
+      "neteaseTrackId": "500547",
+      "title": "ぼくのかけら",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 235389
+    },
+    {
+      "id": "netease-track:500552",
+      "neteaseTrackId": "500552",
+      "title": "AKASAKA MOON",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:500556",
+      "neteaseTrackId": "500556",
+      "title": "KYLYN",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 157000
+    },
+    {
+      "id": "netease-track:500562",
+      "neteaseTrackId": "500562",
+      "title": "I’LL BE THERE",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 404000
+    },
+    {
+      "id": "netease-track:500567",
+      "neteaseTrackId": "500567",
+      "title": "マザー・テラ",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 215000
+    },
+    {
+      "id": "netease-track:500572",
+      "neteaseTrackId": "500572",
+      "title": "グラスホッパー",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:500578",
+      "neteaseTrackId": "500578",
+      "title": "THE END OF ASIA",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 278000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=47758",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "坂本龙一の音楽 ― early best songs 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

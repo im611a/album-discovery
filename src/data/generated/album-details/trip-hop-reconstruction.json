@@ -1,0 +1,230 @@
+{
+  "internalId": "album:428312",
+  "id": "album:428312",
+  "neteaseAlbumId": "428312",
+  "slug": "trip-hop-reconstruction",
+  "title": "Trip-Hop Reconstruction",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:98538",
+      "neteaseArtistId": "98538",
+      "name": "Portishead"
+    }
+  ],
+  "releaseDate": "1994-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "UMGD",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/428312.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/428312.webp",
+    "alt": "《Trip-Hop Reconstruction》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4235661",
+      "neteaseTrackId": "4235661",
+      "title": "Sour Sour Times",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:4235664",
+      "neteaseTrackId": "4235664",
+      "title": "Numbed In Moscow",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:4235667",
+      "neteaseTrackId": "4235667",
+      "title": "A Tribute To Monk & Canatella",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 426000
+    },
+    {
+      "id": "netease-track:4235670",
+      "neteaseTrackId": "4235670",
+      "title": "Numb",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:4235672",
+      "neteaseTrackId": "4235672",
+      "title": "Lot More",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:4235674",
+      "neteaseTrackId": "4235674",
+      "title": "Theme FromTo Kill A Dead Man",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 267000
+    },
+    {
+      "id": "netease-track:4235676",
+      "neteaseTrackId": "4235676",
+      "title": "Airbus Reconstruction",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 311000
+    },
+    {
+      "id": "netease-track:4235679",
+      "neteaseTrackId": "4235679",
+      "title": "Revenge Of The Number",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:4235682",
+      "neteaseTrackId": "4235682",
+      "title": "Sheared Times",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 258000
+    },
+    {
+      "id": "netease-track:4235684",
+      "neteaseTrackId": "4235684",
+      "title": "Glory Box",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 329000
+    },
+    {
+      "id": "netease-track:4235687",
+      "neteaseTrackId": "4235687",
+      "title": "Scorn",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 367046
+    },
+    {
+      "id": "netease-track:4235690",
+      "neteaseTrackId": "4235690",
+      "title": "Sheared Box",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 211000
+    },
+    {
+      "id": "netease-track:4235693",
+      "neteaseTrackId": "4235693",
+      "title": "Toy Box",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 346148
+    },
+    {
+      "id": "netease-track:4235696",
+      "neteaseTrackId": "4235696",
+      "title": "Wandering Star",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 291000
+    },
+    {
+      "id": "netease-track:4235699",
+      "neteaseTrackId": "4235699",
+      "title": "Interlude",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 148000
+    },
+    {
+      "id": "netease-track:4235702",
+      "neteaseTrackId": "4235702",
+      "title": "Mourning Air (War Child)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 226899
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=428312",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Trip-Hop Reconstruction Portishead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

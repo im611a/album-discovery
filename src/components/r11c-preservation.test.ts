@@ -10,8 +10,8 @@ const source = (path: string) => readFileSync(join(process.cwd(), path), "utf8")
 
 describe("R11-C whole-site preservation contracts", () => {
   it("preserves the published catalog, album-detail, and artist route families", () => {
-    expect(catalogAlbums.length).toBe(357);
-    expect(publishedArtists.length).toBe(300);
+    expect(catalogAlbums.length).toBe(1_330);
+    expect(publishedArtists.length).toBe(453);
     expect(source("src/app/albums/[slug]/page.tsx")).toContain("generateStaticParams");
     expect(source("src/app/artists/[slug]/page.tsx")).toContain("generateStaticParams");
     expect(source("src/components/albums/album-detail.tsx")).toContain("TrackList");

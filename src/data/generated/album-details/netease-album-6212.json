@@ -1,0 +1,481 @@
+{
+  "internalId": "album:6212",
+  "id": "album:6212",
+  "neteaseAlbumId": "6212",
+  "slug": "netease-album-6212",
+  "title": "夜奔 电影原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2034",
+      "neteaseArtistId": "2034",
+      "name": "鲍比达"
+    },
+    {
+      "id": "netease-artist:3061",
+      "neteaseArtistId": "3061",
+      "name": "黄磊"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    },
+    {
+      "id": "netease-artist:8147",
+      "neteaseArtistId": "8147",
+      "name": "江美琪"
+    },
+    {
+      "id": "netease-artist:5350",
+      "neteaseArtistId": "5350",
+      "name": "吴克群"
+    },
+    {
+      "id": "netease-artist:9945",
+      "neteaseArtistId": "9945",
+      "name": "萧亚轩"
+    }
+  ],
+  "releaseDate": "2000-10-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6212.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6212.webp",
+    "alt": "《夜奔 电影原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:62868",
+      "neteaseTrackId": "62868",
+      "title": "熟悉",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄磊"
+      ],
+      "durationMs": 26000
+    },
+    {
+      "id": "netease-track:62871",
+      "neteaseTrackId": "62871",
+      "title": "天津",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 132000
+    },
+    {
+      "id": "netease-track:62874",
+      "neteaseTrackId": "62874",
+      "title": "想念",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 7000
+    },
+    {
+      "id": "netease-track:62877",
+      "neteaseTrackId": "62877",
+      "title": "试探",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 145000
+    },
+    {
+      "id": "netease-track:62880",
+      "neteaseTrackId": "62880",
+      "title": "感知",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄磊"
+      ],
+      "durationMs": 20871
+    },
+    {
+      "id": "netease-track:62883",
+      "neteaseTrackId": "62883",
+      "title": "接触",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 144509
+    },
+    {
+      "id": "netease-track:62886",
+      "neteaseTrackId": "62886",
+      "title": "爱情",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄磊"
+      ],
+      "durationMs": 33800
+    },
+    {
+      "id": "netease-track:62889",
+      "neteaseTrackId": "62889",
+      "title": "夜",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "萧亚轩"
+      ],
+      "durationMs": 215400
+    },
+    {
+      "id": "netease-track:62892",
+      "neteaseTrackId": "62892",
+      "title": "眼泪",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄磊"
+      ],
+      "durationMs": 13000
+    },
+    {
+      "id": "netease-track:62897",
+      "neteaseTrackId": "62897",
+      "title": "乡愁",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 174293
+    },
+    {
+      "id": "netease-track:62901",
+      "neteaseTrackId": "62901",
+      "title": "痴迷",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 19000
+    },
+    {
+      "id": "netease-track:62905",
+      "neteaseTrackId": "62905",
+      "title": "云天楼",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 21760
+    },
+    {
+      "id": "netease-track:62908",
+      "neteaseTrackId": "62908",
+      "title": "戏前",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 26958
+    },
+    {
+      "id": "netease-track:62911",
+      "neteaseTrackId": "62911",
+      "title": "隐藏",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 133000
+    },
+    {
+      "id": "netease-track:62914",
+      "neteaseTrackId": "62914",
+      "title": "幸福",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "黄磊"
+      ],
+      "durationMs": 21000
+    },
+    {
+      "id": "netease-track:62917",
+      "neteaseTrackId": "62917",
+      "title": "幸福与不幸",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 125936
+    },
+    {
+      "id": "netease-track:62920",
+      "neteaseTrackId": "62920",
+      "title": "记忆",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 61000
+    },
+    {
+      "id": "netease-track:62923",
+      "neteaseTrackId": "62923",
+      "title": "林冲",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄磊"
+      ],
+      "durationMs": 15000
+    },
+    {
+      "id": "netease-track:62926",
+      "neteaseTrackId": "62926",
+      "title": "望家乡",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 110315
+    },
+    {
+      "id": "netease-track:62928",
+      "neteaseTrackId": "62928",
+      "title": "问",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄磊"
+      ],
+      "durationMs": 5000
+    },
+    {
+      "id": "netease-track:62930",
+      "neteaseTrackId": "62930",
+      "title": "逃",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 50000
+    },
+    {
+      "id": "netease-track:62932",
+      "neteaseTrackId": "62932",
+      "title": "黎明",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄磊"
+      ],
+      "durationMs": 23000
+    },
+    {
+      "id": "netease-track:62934",
+      "neteaseTrackId": "62934",
+      "title": "夜奔",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 103000
+    },
+    {
+      "id": "netease-track:62936",
+      "neteaseTrackId": "62936",
+      "title": "流离",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 170135
+    },
+    {
+      "id": "netease-track:62939",
+      "neteaseTrackId": "62939",
+      "title": "时光",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 166060
+    },
+    {
+      "id": "netease-track:62941",
+      "neteaseTrackId": "62941",
+      "title": "嫉妒",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 10814
+    },
+    {
+      "id": "netease-track:62943",
+      "neteaseTrackId": "62943",
+      "title": "爱",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 50128
+    },
+    {
+      "id": "netease-track:62945",
+      "neteaseTrackId": "62945",
+      "title": "细数",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "吴克群",
+        "江美琪"
+      ],
+      "durationMs": 274066
+    },
+    {
+      "id": "netease-track:62948",
+      "neteaseTrackId": "62948",
+      "title": "1949纽约",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "黄磊"
+      ],
+      "durationMs": 28000
+    },
+    {
+      "id": "netease-track:62951",
+      "neteaseTrackId": "62951",
+      "title": "重逢",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 138000
+    },
+    {
+      "id": "netease-track:62954",
+      "neteaseTrackId": "62954",
+      "title": "雪夜",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "黄磊"
+      ],
+      "durationMs": 40000
+    },
+    {
+      "id": "netease-track:62957",
+      "neteaseTrackId": "62957",
+      "title": "遗憾",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 154093
+    },
+    {
+      "id": "netease-track:62960",
+      "neteaseTrackId": "62960",
+      "title": "妻子、爱人",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "黄磊"
+      ],
+      "durationMs": 23484
+    },
+    {
+      "id": "netease-track:62963",
+      "neteaseTrackId": "62963",
+      "title": "永远",
+      "trackNumber": 34,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 213386
+    },
+    {
+      "id": "netease-track:62966",
+      "neteaseTrackId": "62966",
+      "title": "旧事",
+      "trackNumber": 35,
+      "discNumber": 1,
+      "artists": [
+        "萧亚轩"
+      ],
+      "durationMs": 75786
+    },
+    {
+      "id": "netease-track:62968",
+      "neteaseTrackId": "62968",
+      "title": "戏",
+      "trackNumber": 36,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄磊"
+      ],
+      "durationMs": 19617
+    }
+  ],
+  "trackCount": 36,
+  "externalUrl": "https://music.163.com/#/album?id=6212",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "夜奔 电影原声带 鲍比达 黄磊 刘若英 江美琪 吴克群 萧亚轩",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -12,13 +12,13 @@ import { catalogAlbums, publishedArtists } from "./published-catalog";
 const state = (overrides: Record<string, unknown> = {}) => ({ ...createInitialUserState(), ...overrides });
 
 describe("R16 Artist↔Album canonical graph", () => {
-  it("audits all 300 Artists, 357 Albums and 627 credited memberships without identity failures", () => {
+  it("audits all 453 Artists, 1,330 Albums and 1,794 credited memberships without identity failures", () => {
     expect(auditArtistAlbumGraph(publishedArtists, catalogAlbums)).toEqual({
-      artistCount: 300,
-      albumCount: 357,
-      singleWorkArtists: 238,
-      multiWorkArtists: 62,
-      artistAlbumMemberships: 627,
+      artistCount: 453,
+      albumCount: 1_330,
+      singleWorkArtists: 297,
+      multiWorkArtists: 156,
+      artistAlbumMemberships: 1_794,
       invalidArtistReferences: 0,
       invalidAlbumReferences: 0,
       unresolvedAlbumReferences: 0,
@@ -104,7 +104,7 @@ describe("R16 canonical ArtistCollection projection", () => {
     const second = projectAllArtistCollections({ artists: publishedArtists, catalog: catalogAlbums, state: localState });
     const signature = (items: typeof first) => items.map((item) => [item.artist.artistId, item.publishedAlbums.map((entry) => entry.albumId), item.keptAlbums.map((entry) => entry.albumId), item.summary]);
     expect(signature(first)).toEqual(signature(second));
-    expect(first).toHaveLength(300);
+    expect(first).toHaveLength(453);
     expect([JSON.stringify(publishedArtists), JSON.stringify(catalogAlbums), JSON.stringify(localState)]).toEqual(before);
   });
 

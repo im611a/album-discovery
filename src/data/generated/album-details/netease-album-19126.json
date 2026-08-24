@@ -1,0 +1,175 @@
+{
+  "internalId": "album:19126",
+  "id": "album:19126",
+  "neteaseAlbumId": "19126",
+  "slug": "netease-album-19126",
+  "title": "情人箭",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1979-06-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19126.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19126.webp",
+    "alt": "《情人箭》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189042",
+      "neteaseTrackId": "189042",
+      "title": "油脂热潮",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 188040
+    },
+    {
+      "id": "netease-track:189046",
+      "neteaseTrackId": "189046",
+      "title": "三岁仔",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 155933
+    },
+    {
+      "id": "netease-track:189050",
+      "neteaseTrackId": "189050",
+      "title": "浣花洗剑录",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 203653
+    },
+    {
+      "id": "netease-track:189054",
+      "neteaseTrackId": "189054",
+      "title": "变色龙",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 188426
+    },
+    {
+      "id": "netease-track:189058",
+      "neteaseTrackId": "189058",
+      "title": "大亨",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 227106
+    },
+    {
+      "id": "netease-track:189061",
+      "neteaseTrackId": "189061",
+      "title": "追族",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 220213
+    },
+    {
+      "id": "netease-track:189064",
+      "neteaseTrackId": "189064",
+      "title": "情人箭",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 156943
+    },
+    {
+      "id": "netease-track:189067",
+      "neteaseTrackId": "189067",
+      "title": "你教我点好?",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 176026
+    },
+    {
+      "id": "netease-track:189071",
+      "neteaseTrackId": "189071",
+      "title": "爱有万万千",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 207960
+    },
+    {
+      "id": "netease-track:189075",
+      "neteaseTrackId": "189075",
+      "title": "沈胜衣",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 138426
+    },
+    {
+      "id": "netease-track:189079",
+      "neteaseTrackId": "189079",
+      "title": "大报复",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 191293
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=19126",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "情人箭 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

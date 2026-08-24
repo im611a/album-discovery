@@ -1,0 +1,164 @@
+{
+  "internalId": "album:21250",
+  "id": "album:21250",
+  "neteaseAlbumId": "21250",
+  "slug": "netease-album-21250",
+  "title": "说到爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2011-11-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21250.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21250.webp",
+    "alt": "《说到爱》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:208884",
+      "neteaseTrackId": "208884",
+      "title": "说到爱",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 266813
+    },
+    {
+      "id": "netease-track:208885",
+      "neteaseTrackId": "208885",
+      "title": "不知所以然",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 199053
+    },
+    {
+      "id": "netease-track:208886",
+      "neteaseTrackId": "208886",
+      "title": "可爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 282373
+    },
+    {
+      "id": "netease-track:208887",
+      "neteaseTrackId": "208887",
+      "title": "旧行李",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 258266
+    },
+    {
+      "id": "netease-track:208888",
+      "neteaseTrackId": "208888",
+      "title": "便利贴",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 225640
+    },
+    {
+      "id": "netease-track:208889",
+      "neteaseTrackId": "208889",
+      "title": "别找我麻烦",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 248493
+    },
+    {
+      "id": "netease-track:208890",
+      "neteaseTrackId": "208890",
+      "title": "多米诺",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 245600
+    },
+    {
+      "id": "netease-track:208891",
+      "neteaseTrackId": "208891",
+      "title": "Letting Go",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 263453
+    },
+    {
+      "id": "netease-track:208892",
+      "neteaseTrackId": "208892",
+      "title": "爱我很简单",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 266866
+    },
+    {
+      "id": "netease-track:208893",
+      "neteaseTrackId": "208893",
+      "title": "下次见",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 214133
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=21250",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "说到爱 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

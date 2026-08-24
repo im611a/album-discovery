@@ -1,0 +1,197 @@
+{
+  "internalId": "album:260908",
+  "id": "album:260908",
+  "neteaseAlbumId": "260908",
+  "slug": "then-play-on",
+  "title": "Then Play On",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1969-09-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260908.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260908.webp",
+    "alt": "《Then Play On》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2590554",
+      "neteaseTrackId": "2590554",
+      "title": "Coming Your Way",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 222563
+    },
+    {
+      "id": "netease-track:2590557",
+      "neteaseTrackId": "2590557",
+      "title": "Closing My Eyes",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 287660
+    },
+    {
+      "id": "netease-track:2590560",
+      "neteaseTrackId": "2590560",
+      "title": "Showbiz Blues",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 227683
+    },
+    {
+      "id": "netease-track:2590563",
+      "neteaseTrackId": "2590563",
+      "title": "My Dream",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 210076
+    },
+    {
+      "id": "netease-track:2590567",
+      "neteaseTrackId": "2590567",
+      "title": "Underway",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 181106
+    },
+    {
+      "id": "netease-track:2590571",
+      "neteaseTrackId": "2590571",
+      "title": "Oh Well",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 545600
+    },
+    {
+      "id": "netease-track:2590574",
+      "neteaseTrackId": "2590574",
+      "title": "Although the Sun Is Shining",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 143151
+    },
+    {
+      "id": "netease-track:2590579",
+      "neteaseTrackId": "2590579",
+      "title": "Rattlesnake Shake",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 208848
+    },
+    {
+      "id": "netease-track:2590583",
+      "neteaseTrackId": "2590583",
+      "title": "Searching for Madge",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 410932
+    },
+    {
+      "id": "netease-track:2590586",
+      "neteaseTrackId": "2590586",
+      "title": "Fighting for Madge",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 159608
+    },
+    {
+      "id": "netease-track:2590589",
+      "neteaseTrackId": "2590589",
+      "title": "When You Say",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 267023
+    },
+    {
+      "id": "netease-track:2590593",
+      "neteaseTrackId": "2590593",
+      "title": "Like Crying Like Dying",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 144200
+    },
+    {
+      "id": "netease-track:2590595",
+      "neteaseTrackId": "2590595",
+      "title": "Before the Beginning",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 208065
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=260908",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Then Play On Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

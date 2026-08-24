@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T00:00:00.000Z",
+  "generatedAt": "2026-08-22T06:26:49.190Z",
   "artists": [
     {
       "artistId": "netease-artist:12127888",
@@ -76,6 +76,29 @@
       ]
     },
     {
+      "artistId": "netease-artist:188773",
+      "neteaseArtistId": "188773",
+      "slug": "artist-188773",
+      "name": "4026",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "electronic",
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:19186"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19186.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:31511662",
       "neteaseArtistId": "31511662",
       "slug": "artist-31511662",
@@ -103,11 +126,11 @@
       "slug": "artist-804159",
       "name": "阿力普",
       "aliases": [],
-      "albumCount": 2,
+      "albumCount": 4,
       "albumCountByType": {
-        "album": 2
+        "album": 4
       },
-      "earliestYear": 2022,
+      "earliestYear": 2009,
       "latestYear": 2026,
       "commonCoreGenres": [
         "folk",
@@ -115,11 +138,36 @@
       ],
       "albumIds": [
         "album:145645032",
-        "album:386849800"
+        "album:386849800",
+        "album:38414",
+        "album:38420"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/145645032.webp",
-        "/catalog/covers/thumb/386849800.webp"
+        "/catalog/covers/thumb/386849800.webp",
+        "/catalog/covers/thumb/38414.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1888",
+      "neteaseArtistId": "1888",
+      "slug": "artist-1888",
+      "name": "阿穆隆",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
       ]
     },
     {
@@ -255,6 +303,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:7067",
+      "neteaseArtistId": "7067",
+      "slug": "artist-7067",
+      "name": "安又琪",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2006,
+      "latestYear": 2006,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:34568"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/34568.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:29810609",
       "neteaseArtistId": "29810609",
       "slug": "artist-29810609",
@@ -326,15 +396,18 @@
       "slug": "artist-15289",
       "name": "坂本龍一",
       "aliases": [],
-      "albumCount": 16,
+      "albumCount": 73,
       "albumCountByType": {
-        "album": 12,
-        "ep": 4
+        "album": 59,
+        "ep": 14
       },
-      "earliestYear": 2020,
+      "earliestYear": 1978,
       "latestYear": 2026,
       "commonCoreGenres": [
-        "ambient"
+        "ambient",
+        "electronic",
+        "jazz",
+        "art-pop"
       ],
       "albumIds": [
         "album:158396696",
@@ -352,7 +425,64 @@
         "album:130859255",
         "album:130243779",
         "album:34887555",
-        "album:167913218"
+        "album:167913218",
+        "album:43969",
+        "album:47563",
+        "album:47568",
+        "album:47573",
+        "album:47580",
+        "album:47583",
+        "album:47608",
+        "album:47613",
+        "album:47621",
+        "album:47632",
+        "album:47649",
+        "album:47651",
+        "album:47657",
+        "album:47697",
+        "album:47704",
+        "album:47715",
+        "album:47720",
+        "album:47724",
+        "album:47726",
+        "album:47730",
+        "album:47735",
+        "album:47741",
+        "album:47750",
+        "album:47758",
+        "album:47766",
+        "album:47776",
+        "album:47785",
+        "album:47788",
+        "album:47791",
+        "album:47795",
+        "album:47798",
+        "album:47808",
+        "album:47812",
+        "album:47816",
+        "album:47819",
+        "album:47827",
+        "album:47835",
+        "album:47837",
+        "album:47839",
+        "album:47847",
+        "album:47848",
+        "album:47854",
+        "album:47857",
+        "album:47865",
+        "album:47876",
+        "album:47881",
+        "album:47886",
+        "album:60600",
+        "album:104561",
+        "album:104577",
+        "album:104592",
+        "album:104602",
+        "album:123111",
+        "album:280897",
+        "album:317732",
+        "album:501659",
+        "album:1830513"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/158396696.webp",
@@ -408,25 +538,120 @@
       ]
     },
     {
+      "artistId": "netease-artist:2034",
+      "neteaseArtistId": "2034",
+      "slug": "artist-2034",
+      "name": "鲍比达",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1995,
+      "latestYear": 2000,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:6212",
+        "album:6228"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/6212.webp",
+        "/catalog/covers/thumb/6228.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:187214",
+      "neteaseArtistId": "187214",
+      "slug": "artist-187214",
+      "name": "不一定",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 2,
+        "ep": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "electronic",
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:7550",
+        "album:7554",
+        "album:7558"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/7550.webp",
+        "/catalog/covers/thumb/7554.webp",
+        "/catalog/covers/thumb/7558.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:7214",
       "neteaseArtistId": "7214",
       "slug": "artist-7214",
       "name": "蔡健雅",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 17,
       "albumCountByType": {
-        "album": 1
+        "album": 17
       },
-      "earliestYear": 2020,
+      "earliestYear": 1997,
       "latestYear": 2020,
       "commonCoreGenres": [
+        "pop",
         "hip-hop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:97772220",
+        "album:21249",
+        "album:21250",
+        "album:21252",
+        "album:21255",
+        "album:21257",
+        "album:21262",
+        "album:21271",
+        "album:21273",
+        "album:21276",
+        "album:21279",
+        "album:21285",
+        "album:21288",
+        "album:21290",
+        "album:21294",
+        "album:21298",
+        "album:513198"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/21249.webp",
+        "/catalog/covers/thumb/21250.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7219",
+      "neteaseArtistId": "7219",
+      "slug": "artist-7219",
+      "name": "蔡依林",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2004,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489986",
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489986.webp",
+        "/catalog/covers/thumb/512482.webp"
       ]
     },
     {
@@ -459,20 +684,48 @@
       "slug": "artist-7409",
       "name": "岑宁儿",
       "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 2,
+        "ep": 1
+      },
+      "earliestYear": 2010,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "pop",
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220",
+        "album:22430",
+        "album:22435"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/22430.webp",
+        "/catalog/covers/thumb/22435.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11355",
+      "neteaseArtistId": "11355",
+      "slug": "artist-11355",
+      "name": "超级女声",
+      "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2020,
-      "latestYear": 2020,
+      "earliestYear": 2006,
+      "latestYear": 2006,
       "commonCoreGenres": [
-        "hip-hop"
+        "pop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:34568"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/34568.webp"
       ]
     },
     {
@@ -507,6 +760,140 @@
         "/catalog/covers/thumb/385720805.webp",
         "/catalog/covers/thumb/251145843.webp",
         "/catalog/covers/thumb/247974960.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2124",
+      "neteaseArtistId": "2124",
+      "slug": "artist-2124",
+      "name": "陈楚生",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:1094128",
+      "neteaseArtistId": "1094128",
+      "slug": "artist-1094128",
+      "name": "陈飞午",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2002,
+      "latestYear": 2002,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:490053"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/490053.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2133",
+      "neteaseArtistId": "2133",
+      "slug": "artist-2133",
+      "name": "陈奂仁",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2005,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7235",
+      "neteaseArtistId": "7235",
+      "slug": "artist-7235",
+      "name": "陈慧琳",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1999,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395",
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp",
+        "/catalog/covers/thumb/512482.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7262",
+      "neteaseArtistId": "7262",
+      "slug": "artist-7262",
+      "name": "陈慧珊",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2001,
+      "latestYear": 2001,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:19080"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19080.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7225",
+      "neteaseArtistId": "7225",
+      "slug": "artist-7225",
+      "name": "陈慧娴",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
       ]
     },
     {
@@ -575,20 +962,129 @@
       "slug": "artist-7217",
       "name": "陈绮贞",
       "aliases": [],
+      "albumCount": 13,
+      "albumCountByType": {
+        "album": 7,
+        "ep": 6
+      },
+      "earliestYear": 1997,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "indie-rock",
+        "pop",
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:97772220",
+        "album:9128",
+        "album:21266",
+        "album:21275",
+        "album:21284",
+        "album:21286",
+        "album:21302",
+        "album:21307",
+        "album:21311",
+        "album:21313",
+        "album:21315",
+        "album:21319",
+        "album:513305"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/9128.webp",
+        "/catalog/covers/thumb/21266.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7494",
+      "neteaseArtistId": "7494",
+      "slug": "artist-7494",
+      "name": "陈西贝",
+      "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2020,
-      "latestYear": 2020,
+      "earliestYear": 2006,
+      "latestYear": 2006,
       "commonCoreGenres": [
-        "hip-hop"
+        "pop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:34568"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/34568.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2125",
+      "neteaseArtistId": "2125",
+      "slug": "artist-2125",
+      "name": "陈晓东",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395",
+        "album:513198"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp",
+        "/catalog/covers/thumb/513198.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7298",
+      "neteaseArtistId": "7298",
+      "slug": "artist-7298",
+      "name": "陈晓琪",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2005,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2135",
+      "neteaseArtistId": "2135",
+      "slug": "artist-2135",
+      "name": "陈勋奇",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1994,
+      "latestYear": 2002,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:6645",
+        "album:6661"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/6645.webp",
+        "/catalog/covers/thumb/6661.webp"
       ]
     },
     {
@@ -619,12 +1115,12 @@
       "slug": "artist-2116",
       "name": "陈奕迅",
       "aliases": [],
-      "albumCount": 13,
+      "albumCount": 45,
       "albumCountByType": {
-        "album": 12,
-        "ep": 1
+        "album": 42,
+        "ep": 3
       },
-      "earliestYear": 2005,
+      "earliestYear": 1996,
       "latestYear": 2023,
       "commonCoreGenres": [
         "pop"
@@ -642,7 +1138,39 @@
         "album:6335",
         "album:6341",
         "album:6355",
-        "album:6362"
+        "album:6362",
+        "album:6375",
+        "album:6378",
+        "album:6388",
+        "album:6404",
+        "album:6429",
+        "album:6434",
+        "album:6437",
+        "album:6451",
+        "album:6452",
+        "album:6462",
+        "album:6479",
+        "album:6483",
+        "album:6498",
+        "album:6510",
+        "album:6530",
+        "album:6543",
+        "album:6548",
+        "album:6555",
+        "album:6559",
+        "album:6562",
+        "album:6565",
+        "album:6581",
+        "album:6584",
+        "album:6590",
+        "album:6595",
+        "album:6599",
+        "album:6604",
+        "album:6612",
+        "album:6620",
+        "album:6624",
+        "album:27442",
+        "album:512482"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/6491.webp",
@@ -678,9 +1206,9 @@
       "slug": "artist-2111",
       "name": "崔健",
       "aliases": [],
-      "albumCount": 13,
+      "albumCount": 14,
       "albumCountByType": {
-        "album": 11,
+        "album": 12,
         "ep": 2
       },
       "earliestYear": 1984,
@@ -701,12 +1229,36 @@
         "album:6309",
         "album:6313",
         "album:6319",
-        "album:2406003"
+        "album:2406003",
+        "album:6317"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/6311.webp",
         "/catalog/covers/thumb/181094567.webp",
         "/catalog/covers/thumb/34403098.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:17481",
+      "neteaseArtistId": "17481",
+      "slug": "artist-17481",
+      "name": "大貫妙子",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2010,
+      "latestYear": 2010,
+      "commonCoreGenres": [
+        "ambient",
+        "art-pop"
+      ],
+      "albumIds": [
+        "album:60600"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/60600.webp"
       ]
     },
     {
@@ -737,20 +1289,26 @@
       "slug": "artist-2514",
       "name": "蛋堡",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 5,
       "albumCountByType": {
-        "album": 1
+        "album": 5
       },
       "earliestYear": 2009,
-      "latestYear": 2009,
+      "latestYear": 2011,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:7547"
+        "album:7547",
+        "album:7539",
+        "album:7542",
+        "album:7543",
+        "album:7546"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/7547.webp"
+        "/catalog/covers/thumb/7547.webp",
+        "/catalog/covers/thumb/7539.webp",
+        "/catalog/covers/thumb/7542.webp"
       ]
     },
     {
@@ -759,12 +1317,12 @@
       "slug": "artist-2517",
       "name": "刀郎",
       "aliases": [],
-      "albumCount": 16,
+      "albumCount": 19,
       "albumCountByType": {
-        "album": 15,
-        "ep": 1
+        "album": 17,
+        "ep": 2
       },
-      "earliestYear": 2002,
+      "earliestYear": 2001,
       "latestYear": 2025,
       "commonCoreGenres": [
         "folk"
@@ -785,7 +1343,10 @@
         "album:7611",
         "album:7557",
         "album:7614",
-        "album:7617"
+        "album:7617",
+        "album:5945",
+        "album:7568",
+        "album:7620"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/169512732.webp",
@@ -794,25 +1355,96 @@
       ]
     },
     {
-      "artistId": "netease-artist:12443",
-      "neteaseArtistId": "12443",
-      "slug": "artist-12443",
-      "name": "东方大戏楼",
+      "artistId": "netease-artist:2531",
+      "neteaseArtistId": "2531",
+      "slug": "artist-2531",
+      "name": "邓健泓",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2001,
+      "latestYear": 2001,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:19080"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19080.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2516",
+      "neteaseArtistId": "2516",
+      "slug": "artist-2516",
+      "name": "迪克牛仔",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2020,
-      "latestYear": 2020,
+      "earliestYear": 1999,
+      "latestYear": 1999,
       "commonCoreGenres": [
-        "experimental-rock"
+        "pop"
       ],
       "albumIds": [
-        "album:73982649"
+        "album:15395"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/73982649.webp"
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11366",
+      "neteaseArtistId": "11366",
+      "slug": "artist-11366",
+      "name": "丁香晓晓",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2006,
+      "latestYear": 2006,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:34568"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/34568.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12443",
+      "neteaseArtistId": "12443",
+      "slug": "artist-12443",
+      "name": "东方大戏楼",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 1998,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "experimental-rock",
+        "electronic"
+      ],
+      "albumIds": [
+        "album:73982649",
+        "album:19186",
+        "album:36554"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/73982649.webp",
+        "/catalog/covers/thumb/19186.webp",
+        "/catalog/covers/thumb/36554.webp"
       ]
     },
     {
@@ -821,16 +1453,18 @@
       "slug": "artist-2515",
       "name": "窦唯",
       "aliases": [],
-      "albumCount": 14,
+      "albumCount": 25,
       "albumCountByType": {
-        "album": 7,
-        "ep": 7
+        "album": 17,
+        "ep": 8
       },
       "earliestYear": 1994,
       "latestYear": 2026,
       "commonCoreGenres": [
         "rock",
-        "electronic"
+        "electronic",
+        "experimental-rock",
+        "ambient"
       ],
       "albumIds": [
         "album:7600",
@@ -846,7 +1480,18 @@
         "album:190496385",
         "album:182458672",
         "album:180537331",
-        "album:169036446"
+        "album:169036446",
+        "album:7545",
+        "album:7550",
+        "album:7554",
+        "album:7558",
+        "album:7565",
+        "album:7570",
+        "album:7579",
+        "album:7582",
+        "album:7605",
+        "album:489797",
+        "album:513562"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/7600.webp",
@@ -855,25 +1500,51 @@
       ]
     },
     {
-      "artistId": "netease-artist:11728",
-      "neteaseArtistId": "11728",
-      "slug": "artist-11728",
-      "name": "发光曲线",
+      "artistId": "netease-artist:14484",
+      "neteaseArtistId": "14484",
+      "slug": "artist-14484",
+      "name": "渡辺香津美",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2023,
-      "latestYear": 2023,
+      "earliestYear": 1979,
+      "latestYear": 1979,
       "commonCoreGenres": [
-        "folk"
+        "jazz"
       ],
       "albumIds": [
-        "album:158475145"
+        "album:43969"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/158475145.webp"
+        "/catalog/covers/thumb/43969.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:11728",
+      "neteaseArtistId": "11728",
+      "slug": "artist-11728",
+      "name": "发光曲线",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 1,
+        "ep": 1
+      },
+      "earliestYear": 2011,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk",
+        "post-rock"
+      ],
+      "albumIds": [
+        "album:158475145",
+        "album:35220"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp",
+        "/catalog/covers/thumb/35220.webp"
       ]
     },
     {
@@ -908,6 +1579,28 @@
         "/catalog/covers/thumb/97168319.webp",
         "/catalog/covers/thumb/153023757.webp",
         "/catalog/covers/thumb/149257265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7662",
+      "neteaseArtistId": "7662",
+      "slug": "artist-7662",
+      "name": "范晓萱",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
       ]
     },
     {
@@ -974,6 +1667,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/138339265.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7779",
+      "neteaseArtistId": "7779",
+      "slug": "artist-7779",
+      "name": "高慧君",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513198"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513198.webp"
       ]
     },
     {
@@ -1051,20 +1766,74 @@
       "slug": "artist-7785",
       "name": "龚琳娜",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 9,
       "albumCountByType": {
-        "album": 1
+        "album": 9
       },
-      "earliestYear": 2023,
+      "earliestYear": 2000,
       "latestYear": 2023,
       "commonCoreGenres": [
         "folk"
       ],
       "albumIds": [
-        "album:178219441"
+        "album:178219441",
+        "album:23693",
+        "album:23700",
+        "album:23704",
+        "album:23708",
+        "album:23711",
+        "album:23713",
+        "album:23716",
+        "album:38303"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/178219441.webp"
+        "/catalog/covers/thumb/178219441.webp",
+        "/catalog/covers/thumb/23693.webp",
+        "/catalog/covers/thumb/23700.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2844",
+      "neteaseArtistId": "2844",
+      "slug": "artist-2844",
+      "name": "古天乐",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489865"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489865.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2879",
+      "neteaseArtistId": "2879",
+      "slug": "artist-2879",
+      "name": "关智斌",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2005,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp"
       ]
     },
     {
@@ -1090,25 +1859,72 @@
       ]
     },
     {
-      "artistId": "netease-artist:2987",
-      "neteaseArtistId": "2987",
-      "slug": "artist-2987",
-      "name": "郭一凡",
+      "artistId": "netease-artist:187943",
+      "neteaseArtistId": "187943",
+      "slug": "artist-187943",
+      "name": "郭彪",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2020,
-      "latestYear": 2020,
+      "earliestYear": 2007,
+      "latestYear": 2007,
       "commonCoreGenres": [
-        "hip-hop"
+        "pop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:35882"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2987",
+      "neteaseArtistId": "2987",
+      "slug": "artist-2987",
+      "name": "郭一凡",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2011,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "hip-hop",
+        "pop"
+      ],
+      "albumIds": [
+        "album:97772220",
+        "album:9002"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/9002.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3113",
+      "neteaseArtistId": "3113",
+      "slug": "artist-3113",
+      "name": "海俊杰",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1996,
+      "latestYear": 1996,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:27442"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/27442.webp"
       ]
     },
     {
@@ -1117,20 +1933,34 @@
       "slug": "artist-7891",
       "name": "韩红",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 12,
       "albumCountByType": {
-        "album": 1
+        "album": 11,
+        "ep": 1
       },
-      "earliestYear": 2020,
+      "earliestYear": 1998,
       "latestYear": 2020,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:95509227"
+        "album:95509227",
+        "album:23927",
+        "album:23931",
+        "album:23932",
+        "album:23934",
+        "album:23936",
+        "album:23938",
+        "album:23939",
+        "album:23940",
+        "album:23941",
+        "album:23942",
+        "album:23943"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/95509227.webp"
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/23927.webp",
+        "/catalog/covers/thumb/23931.webp"
       ]
     },
     {
@@ -1156,6 +1986,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:234373",
+      "neteaseArtistId": "234373",
+      "slug": "artist-234373",
+      "name": "汉家儿",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513281"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513281.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:711683",
       "neteaseArtistId": "711683",
       "slug": "artist-711683",
@@ -1175,6 +2027,50 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7913",
+      "neteaseArtistId": "7913",
+      "slug": "artist-7913",
+      "name": "何超仪",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1996,
+      "latestYear": 1996,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:27442"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/27442.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3055",
+      "neteaseArtistId": "3055",
+      "slug": "artist-3055",
+      "name": "何勇",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1995,
+      "latestYear": 1995,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513562"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513562.webp"
       ]
     },
     {
@@ -1200,25 +2096,118 @@
       ]
     },
     {
+      "artistId": "netease-artist:3092",
+      "neteaseArtistId": "3092",
+      "slug": "artist-3092",
+      "name": "虎子 Hz",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "electronic",
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:19186"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19186.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3104",
+      "neteaseArtistId": "3104",
+      "slug": "artist-3104",
+      "name": "骅梓",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1995,
+      "latestYear": 1995,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513518.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:159830",
       "neteaseArtistId": "159830",
       "slug": "artist-159830",
       "name": "環ROY",
       "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "ep": 1,
+        "album": 1
+      },
+      "earliestYear": 2011,
+      "latestYear": 2026,
+      "commonCoreGenres": [
+        "ambient",
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:371556408",
+        "album:49822"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/371556408.webp",
+        "/catalog/covers/thumb/49822.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3061",
+      "neteaseArtistId": "3061",
+      "slug": "artist-3061",
+      "name": "黄磊",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2000,
+      "latestYear": 2000,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:6212"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/6212.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3065",
+      "neteaseArtistId": "3065",
+      "slug": "artist-3065",
+      "name": "黄立行",
+      "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "ep": 1
       },
-      "earliestYear": 2026,
-      "latestYear": 2026,
+      "earliestYear": 2004,
+      "latestYear": 2004,
       "commonCoreGenres": [
-        "ambient"
+        "pop"
       ],
       "albumIds": [
-        "album:371556408"
+        "album:9128"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/371556408.webp"
+        "/catalog/covers/thumb/9128.webp"
       ]
     },
     {
@@ -1227,20 +2216,29 @@
       "slug": "artist-7063",
       "name": "黄丽玲",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 7,
       "albumCountByType": {
-        "album": 1
+        "album": 7
       },
-      "earliestYear": 2020,
+      "earliestYear": 2006,
       "latestYear": 2020,
       "commonCoreGenres": [
+        "pop",
         "hip-hop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:97772220",
+        "album:20830",
+        "album:20831",
+        "album:20834",
+        "album:20839",
+        "album:20842",
+        "album:20846"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/20830.webp",
+        "/catalog/covers/thumb/20831.webp"
       ]
     },
     {
@@ -1271,20 +2269,50 @@
       "slug": "artist-7901",
       "name": "黄雅莉",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 5,
       "albumCountByType": {
-        "album": 1
+        "album": 5
       },
-      "earliestYear": 2020,
+      "earliestYear": 2006,
       "latestYear": 2020,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:95509227"
+        "album:95509227",
+        "album:24035",
+        "album:24037",
+        "album:24041",
+        "album:34568"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/95509227.webp"
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/24035.webp",
+        "/catalog/covers/thumb/24037.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:7893",
+      "neteaseArtistId": "7893",
+      "slug": "artist-7893",
+      "name": "黄韵玲",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2004,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:23955",
+        "album:489809"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/23955.webp",
+        "/catalog/covers/thumb/489809.webp"
       ]
     },
     {
@@ -1357,6 +2385,50 @@
       ]
     },
     {
+      "artistId": "netease-artist:3462",
+      "neteaseArtistId": "3462",
+      "slug": "artist-3462",
+      "name": "吉杰",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8147",
+      "neteaseArtistId": "8147",
+      "slug": "artist-8147",
+      "name": "江美琪",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2000,
+      "latestYear": 2000,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:6212"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/6212.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:51704552",
       "neteaseArtistId": "51704552",
       "slug": "artist-51704552",
@@ -1401,6 +2473,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:3562",
+      "neteaseArtistId": "3562",
+      "slug": "artist-3562",
+      "name": "金复载",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:10530"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/10530.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:166014",
       "neteaseArtistId": "166014",
       "slug": "artist-166014",
@@ -1428,20 +2522,29 @@
       "slug": "artist-15581",
       "name": "近藤等则",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 6,
       "albumCountByType": {
-        "ep": 1
+        "ep": 1,
+        "album": 5
       },
-      "earliestYear": 2020,
+      "earliestYear": 1986,
       "latestYear": 2020,
       "commonCoreGenres": [
-        "ambient"
+        "ambient",
+        "electronic"
       ],
       "albumIds": [
-        "album:167913218"
+        "album:167913218",
+        "album:49530",
+        "album:49534",
+        "album:49540",
+        "album:49543",
+        "album:49553"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/167913218.webp"
+        "/catalog/covers/thumb/167913218.webp",
+        "/catalog/covers/thumb/49530.webp",
+        "/catalog/covers/thumb/49534.webp"
       ]
     },
     {
@@ -1489,6 +2592,52 @@
       ]
     },
     {
+      "artistId": "netease-artist:8298",
+      "neteaseArtistId": "8298",
+      "slug": "artist-8298",
+      "name": "柯以敏",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3617",
+      "neteaseArtistId": "3617",
+      "slug": "artist-3617",
+      "name": "柯有伦",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2004,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489986",
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489986.webp",
+        "/catalog/covers/thumb/512482.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:991002",
       "neteaseArtistId": "991002",
       "slug": "artist-991002",
@@ -1533,6 +2682,50 @@
       ]
     },
     {
+      "artistId": "netease-artist:12079",
+      "neteaseArtistId": "12079",
+      "slug": "artist-12079",
+      "name": "快乐男声",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:203110",
+      "neteaseArtistId": "203110",
+      "slug": "artist-203110",
+      "name": "赖心莹",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489809"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489809.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:31055231",
       "neteaseArtistId": "31055231",
       "slug": "artist-31055231",
@@ -1560,20 +2753,73 @@
       "slug": "artist-3682",
       "name": "老狼",
       "aliases": [],
+      "albumCount": 7,
+      "albumCountByType": {
+        "album": 7
+      },
+      "earliestYear": 1995,
+      "latestYear": 2023,
+      "commonCoreGenres": [
+        "folk",
+        "rock"
+      ],
+      "albumIds": [
+        "album:158475145",
+        "album:10746",
+        "album:10747",
+        "album:10748",
+        "album:490052",
+        "album:513281",
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/158475145.webp",
+        "/catalog/covers/thumb/10746.webp",
+        "/catalog/covers/thumb/10747.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:234366",
+      "neteaseArtistId": "234366",
+      "slug": "artist-234366",
+      "name": "雷刚与天堂",
+      "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2023,
-      "latestYear": 2023,
+      "earliestYear": 1998,
+      "latestYear": 1998,
       "commonCoreGenres": [
-        "folk"
+        "rock"
       ],
       "albumIds": [
-        "album:158475145"
+        "album:513281"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/158475145.webp"
+        "/catalog/covers/thumb/513281.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3741",
+      "neteaseArtistId": "3741",
+      "slug": "artist-3741",
+      "name": "雷颂德",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
       ]
     },
     {
@@ -1643,6 +2889,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:8385",
+      "neteaseArtistId": "8385",
+      "slug": "artist-8385",
+      "name": "李蕙敏",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:51475646",
       "neteaseArtistId": "51475646",
       "slug": "artist-51475646",
@@ -1670,20 +2938,29 @@
       "slug": "artist-3689",
       "name": "李玖哲",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 6,
       "albumCountByType": {
-        "ep": 1
+        "ep": 1,
+        "album": 5
       },
-      "earliestYear": 2025,
+      "earliestYear": 2005,
       "latestYear": 2025,
       "commonCoreGenres": [
+        "pop",
         "hip-hop"
       ],
       "albumIds": [
-        "album:272136228"
+        "album:272136228",
+        "album:10820",
+        "album:10822",
+        "album:10826",
+        "album:10830",
+        "album:10832"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/272136228.webp"
+        "/catalog/covers/thumb/272136228.webp",
+        "/catalog/covers/thumb/10820.webp",
+        "/catalog/covers/thumb/10822.webp"
       ]
     },
     {
@@ -1709,6 +2986,79 @@
       ]
     },
     {
+      "artistId": "netease-artist:3699",
+      "neteaseArtistId": "3699",
+      "slug": "artist-3699",
+      "name": "李克勤",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8331",
+      "neteaseArtistId": "8331",
+      "slug": "artist-8331",
+      "name": "李玟",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 1998,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:10530",
+        "album:512482",
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/10530.webp",
+        "/catalog/covers/thumb/512482.webp",
+        "/catalog/covers/thumb/513294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8348",
+      "neteaseArtistId": "8348",
+      "slug": "artist-8348",
+      "name": "李心洁",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 1,
+        "ep": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489982",
+        "album:513305"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489982.webp",
+        "/catalog/covers/thumb/513305.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:12851112",
       "neteaseArtistId": "12851112",
       "slug": "artist-12851112",
@@ -1728,6 +3078,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8327",
+      "neteaseArtistId": "8327",
+      "slug": "artist-8327",
+      "name": "李宇春",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2006,
+      "latestYear": 2006,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:34568"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/34568.webp"
       ]
     },
     {
@@ -1775,25 +3147,72 @@
       ]
     },
     {
-      "artistId": "netease-artist:12468289",
-      "neteaseArtistId": "12468289",
-      "slug": "artist-12468289",
-      "name": "梁龙",
+      "artistId": "netease-artist:3715",
+      "neteaseArtistId": "3715",
+      "slug": "artist-3715",
+      "name": "梁朝伟",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2020,
-      "latestYear": 2020,
+      "earliestYear": 2002,
+      "latestYear": 2002,
       "commonCoreGenres": [
-        "experimental-rock"
+        "pop"
       ],
       "albumIds": [
-        "album:73982649"
+        "album:6645"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/73982649.webp"
+        "/catalog/covers/thumb/6645.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12468289",
+      "neteaseArtistId": "12468289",
+      "slug": "artist-12468289",
+      "name": "梁龙",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2008,
+      "latestYear": 2020,
+      "commonCoreGenres": [
+        "experimental-rock",
+        "electronic"
+      ],
+      "albumIds": [
+        "album:73982649",
+        "album:19186"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/73982649.webp",
+        "/catalog/covers/thumb/19186.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8400",
+      "neteaseArtistId": "8400",
+      "slug": "artist-8400",
+      "name": "梁洛施",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2005,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp"
       ]
     },
     {
@@ -1839,20 +3258,105 @@
       "slug": "artist-3687",
       "name": "林一峰",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 17,
       "albumCountByType": {
-        "album": 1
+        "album": 14,
+        "ep": 3
       },
-      "earliestYear": 2023,
+      "earliestYear": 2003,
       "latestYear": 2023,
       "commonCoreGenres": [
         "folk"
       ],
       "albumIds": [
-        "album:158475145"
+        "album:158475145",
+        "album:10761",
+        "album:10772",
+        "album:10779",
+        "album:10781",
+        "album:10784",
+        "album:10788",
+        "album:10790",
+        "album:10793",
+        "album:10800",
+        "album:10803",
+        "album:10814",
+        "album:10816",
+        "album:10827",
+        "album:10837",
+        "album:10840",
+        "album:10849"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/158475145.webp"
+        "/catalog/covers/thumb/158475145.webp",
+        "/catalog/covers/thumb/10761.webp",
+        "/catalog/covers/thumb/10772.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8336",
+      "neteaseArtistId": "8336",
+      "slug": "artist-8336",
+      "name": "林忆莲",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3691",
+      "neteaseArtistId": "3691",
+      "slug": "artist-3691",
+      "name": "刘德华",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:3688",
+      "neteaseArtistId": "3688",
+      "slug": "artist-3688",
+      "name": "刘欢",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:10530"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/10530.webp"
       ]
     },
     {
@@ -1861,20 +3365,46 @@
       "slug": "artist-8326",
       "name": "刘若英",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 23,
       "albumCountByType": {
-        "album": 1
+        "album": 21,
+        "ep": 2
       },
-      "earliestYear": 2020,
+      "earliestYear": 1995,
       "latestYear": 2020,
       "commonCoreGenres": [
+        "pop",
         "hip-hop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:97772220",
+        "album:6212",
+        "album:18809",
+        "album:23955",
+        "album:25389",
+        "album:25393",
+        "album:25399",
+        "album:25403",
+        "album:25408",
+        "album:25411",
+        "album:25414",
+        "album:25427",
+        "album:25436",
+        "album:25437",
+        "album:25438",
+        "album:25439",
+        "album:25442",
+        "album:25444",
+        "album:38300",
+        "album:489809",
+        "album:489865",
+        "album:489957",
+        "album:489982"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/6212.webp",
+        "/catalog/covers/thumb/18809.webp"
       ]
     },
     {
@@ -1993,20 +3523,22 @@
       "slug": "artist-3793",
       "name": "陆虎",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
-      "earliestYear": 2020,
+      "earliestYear": 2007,
       "latestYear": 2020,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:95509227"
+        "album:95509227",
+        "album:35882"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/95509227.webp"
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/35882.webp"
       ]
     },
     {
@@ -2032,25 +3564,49 @@
       ]
     },
     {
-      "artistId": "netease-artist:8376",
-      "neteaseArtistId": "8376",
-      "slug": "artist-8376",
-      "name": "罗思容",
+      "artistId": "netease-artist:3723",
+      "neteaseArtistId": "3723",
+      "slug": "artist-3723",
+      "name": "吕方",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2023,
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:8376",
+      "neteaseArtistId": "8376",
+      "slug": "artist-8376",
+      "name": "罗思容",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2011,
       "latestYear": 2023,
       "commonCoreGenres": [
         "folk"
       ],
       "albumIds": [
-        "album:158475145"
+        "album:158475145",
+        "album:26008"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/158475145.webp"
+        "/catalog/covers/thumb/158475145.webp",
+        "/catalog/covers/thumb/26008.webp"
       ]
     },
     {
@@ -2233,6 +3789,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:8918",
+      "neteaseArtistId": "8918",
+      "slug": "artist-8918",
+      "name": "梅艳芳",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1996,
+      "latestYear": 1996,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:27442"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/27442.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:649505",
       "neteaseArtistId": "649505",
       "slug": "artist-649505",
@@ -2282,20 +3860,46 @@
       "slug": "artist-8926",
       "name": "莫文蔚",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 23,
       "albumCountByType": {
-        "album": 1
+        "album": 19,
+        "ep": 4
       },
-      "earliestYear": 2020,
+      "earliestYear": 1993,
       "latestYear": 2020,
       "commonCoreGenres": [
+        "pop",
         "hip-hop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:97772220",
+        "album:27496",
+        "album:27500",
+        "album:27513",
+        "album:27518",
+        "album:27524",
+        "album:27534",
+        "album:27549",
+        "album:27555",
+        "album:27558",
+        "album:27564",
+        "album:27573",
+        "album:27575",
+        "album:27576",
+        "album:27579",
+        "album:27580",
+        "album:27581",
+        "album:27582",
+        "album:27583",
+        "album:27584",
+        "album:489986",
+        "album:490053",
+        "album:512482"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/27496.webp",
+        "/catalog/covers/thumb/27500.webp"
       ]
     },
     {
@@ -2422,6 +4026,51 @@
       ]
     },
     {
+      "artistId": "netease-artist:4728",
+      "neteaseArtistId": "4728",
+      "slug": "artist-4728",
+      "name": "彭健新",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:4721",
+      "neteaseArtistId": "4721",
+      "slug": "artist-4721",
+      "name": "朴树",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2002,
+      "latestYear": 2002,
+      "commonCoreGenres": [
+        "folk",
+        "rock"
+      ],
+      "albumIds": [
+        "album:490052"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/490052.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:1049443",
       "neteaseArtistId": "1049443",
       "slug": "artist-1049443",
@@ -2441,6 +4090,50 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:4813",
+      "neteaseArtistId": "4813",
+      "slug": "artist-4813",
+      "name": "齐秦",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:203119",
+      "neteaseArtistId": "203119",
+      "slug": "artist-203119",
+      "name": "邱碧盈",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489809"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489809.webp"
       ]
     },
     {
@@ -2471,20 +4164,28 @@
       "slug": "artist-122455",
       "name": "群星",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 5,
       "albumCountByType": {
-        "album": 1
+        "album": 5
       },
-      "earliestYear": 2017,
+      "earliestYear": 1995,
       "latestYear": 2017,
       "commonCoreGenres": [
+        "pop",
+        "rock",
         "hip-hop"
       ],
       "albumIds": [
-        "album:35359276"
+        "album:35359276",
+        "album:489865",
+        "album:489986",
+        "album:513281",
+        "album:513518"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/35359276.webp"
+        "/catalog/covers/thumb/35359276.webp",
+        "/catalog/covers/thumb/489865.webp",
+        "/catalog/covers/thumb/489986.webp"
       ]
     },
     {
@@ -2507,6 +4208,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/254547742.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9269",
+      "neteaseArtistId": "9269",
+      "slug": "artist-9269",
+      "name": "容祖儿",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2005,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp"
       ]
     },
     {
@@ -2583,6 +4306,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:5084",
+      "neteaseArtistId": "5084",
+      "slug": "artist-5084",
+      "name": "石头",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1995,
+      "latestYear": 1995,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513518.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:52058759",
       "neteaseArtistId": "52058759",
       "slug": "artist-52058759",
@@ -2610,20 +4355,69 @@
       "slug": "artist-9463",
       "name": "史依弘",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "ep": 1
+        "ep": 1,
+        "album": 1
       },
-      "earliestYear": 2024,
+      "earliestYear": 2009,
       "latestYear": 2024,
       "commonCoreGenres": [
+        "folk",
         "rock"
       ],
       "albumIds": [
-        "album:198581148"
+        "album:198581148",
+        "album:29133"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/198581148.webp"
+        "/catalog/covers/thumb/198581148.webp",
+        "/catalog/covers/thumb/29133.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:18187",
+      "neteaseArtistId": "18187",
+      "slug": "artist-18187",
+      "name": "矢野顕子",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1979,
+      "latestYear": 1979,
+      "commonCoreGenres": [
+        "jazz"
+      ],
+      "albumIds": [
+        "album:43969"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/43969.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12712",
+      "neteaseArtistId": "12712",
+      "slug": "artist-12712",
+      "name": "水木年华",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2002,
+      "latestYear": 2002,
+      "commonCoreGenres": [
+        "folk",
+        "rock"
+      ],
+      "albumIds": [
+        "album:490052"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/490052.webp"
       ]
     },
     {
@@ -2671,6 +4465,50 @@
       ]
     },
     {
+      "artistId": "netease-artist:5012",
+      "neteaseArtistId": "5012",
+      "slug": "artist-5012",
+      "name": "苏聪",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1987,
+      "latestYear": 1987,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:501659"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/501659.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:4938",
+      "neteaseArtistId": "4938",
+      "slug": "artist-4938",
+      "name": "苏醒",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:4934",
       "neteaseArtistId": "4934",
       "slug": "artist-4934",
@@ -2700,6 +4538,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:4948",
+      "neteaseArtistId": "4948",
+      "slug": "artist-4948",
+      "name": "苏永康",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:1193259",
       "neteaseArtistId": "1193259",
       "slug": "artist-1193259",
@@ -2719,6 +4579,72 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12992",
+      "neteaseArtistId": "12992",
+      "slug": "artist-12992",
+      "name": "太极乐队",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5205",
+      "neteaseArtistId": "5205",
+      "slug": "artist-5205",
+      "name": "谭咏麟",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:12972",
+      "neteaseArtistId": "12972",
+      "slug": "artist-12972",
+      "name": "唐朝乐队",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1995,
+      "latestYear": 1995,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513562"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513562.webp"
       ]
     },
     {
@@ -2799,6 +4725,74 @@
       ]
     },
     {
+      "artistId": "netease-artist:12984",
+      "neteaseArtistId": "12984",
+      "slug": "artist-12984",
+      "name": "天堂乐队",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1995,
+      "latestYear": 1995,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513518.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9488",
+      "neteaseArtistId": "9488",
+      "slug": "artist-9488",
+      "name": "田震",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1995,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513281",
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513281.webp",
+        "/catalog/covers/thumb/513518.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:187152",
+      "neteaseArtistId": "187152",
+      "slug": "artist-187152",
+      "name": "童声合唱",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513281"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513281.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:789380",
       "neteaseArtistId": "789380",
       "slug": "artist-789380",
@@ -2826,20 +4820,39 @@
       "slug": "artist-9611",
       "name": "万芳",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 18,
       "albumCountByType": {
-        "album": 1
+        "album": 18
       },
-      "earliestYear": 2023,
+      "earliestYear": 1990,
       "latestYear": 2023,
       "commonCoreGenres": [
         "folk"
       ],
       "albumIds": [
-        "album:158475145"
+        "album:158475145",
+        "album:29566",
+        "album:29567",
+        "album:29570",
+        "album:29575",
+        "album:29577",
+        "album:29584",
+        "album:29588",
+        "album:29594",
+        "album:29599",
+        "album:29602",
+        "album:29605",
+        "album:29611",
+        "album:29614",
+        "album:29616",
+        "album:29619",
+        "album:29622",
+        "album:29625"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/158475145.webp"
+        "/catalog/covers/thumb/158475145.webp",
+        "/catalog/covers/thumb/29566.webp",
+        "/catalog/covers/thumb/29567.webp"
       ]
     },
     {
@@ -2942,16 +4955,40 @@
       ]
     },
     {
+      "artistId": "netease-artist:5368",
+      "neteaseArtistId": "5368",
+      "slug": "artist-5368",
+      "name": "王凡",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "electronic",
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:19186"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19186.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:9621",
       "neteaseArtistId": "9621",
       "slug": "artist-9621",
       "name": "王菲",
       "aliases": [],
-      "albumCount": 8,
+      "albumCount": 49,
       "albumCountByType": {
-        "album": 8
+        "album": 42,
+        "ep": 7
       },
-      "earliestYear": 1996,
+      "earliestYear": 1985,
       "latestYear": 2015,
       "commonCoreGenres": [
         "pop",
@@ -2965,7 +5002,48 @@
         "album:180635491",
         "album:29692",
         "album:29695",
-        "album:29704"
+        "album:29704",
+        "album:6645",
+        "album:6661",
+        "album:15395",
+        "album:19080",
+        "album:19222",
+        "album:29654",
+        "album:29672",
+        "album:29686",
+        "album:29697",
+        "album:29706",
+        "album:29712",
+        "album:29725",
+        "album:29730",
+        "album:29732",
+        "album:29736",
+        "album:29739",
+        "album:29742",
+        "album:29744",
+        "album:29746",
+        "album:29752",
+        "album:29753",
+        "album:29757",
+        "album:29764",
+        "album:29768",
+        "album:29771",
+        "album:29773",
+        "album:29776",
+        "album:29778",
+        "album:29782",
+        "album:29785",
+        "album:29787",
+        "album:29788",
+        "album:29792",
+        "album:29798",
+        "album:29802",
+        "album:29805",
+        "album:29808",
+        "album:29812",
+        "album:29816",
+        "album:29821",
+        "album:29825"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/29748.webp",
@@ -2979,20 +5057,27 @@
       "slug": "artist-9749",
       "name": "王虹",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 5,
       "albumCountByType": {
-        "ep": 1
+        "ep": 1,
+        "album": 4
       },
-      "earliestYear": 1990,
+      "earliestYear": 1985,
       "latestYear": 1990,
       "commonCoreGenres": [
         "rock"
       ],
       "albumIds": [
-        "album:513850"
+        "album:513850",
+        "album:30167",
+        "album:30168",
+        "album:30169",
+        "album:30170"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/513850.webp"
+        "/catalog/covers/thumb/513850.webp",
+        "/catalog/covers/thumb/30167.webp",
+        "/catalog/covers/thumb/30168.webp"
       ]
     },
     {
@@ -3015,6 +5100,50 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5641",
+      "neteaseArtistId": "5641",
+      "slug": "artist-5641",
+      "name": "王黎光",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489957"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489957.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5370",
+      "neteaseArtistId": "5370",
+      "slug": "artist-5370",
+      "name": "王栎鑫",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
       ]
     },
     {
@@ -3067,6 +5196,28 @@
       "previewCovers": [
         "/catalog/covers/thumb/95509227.webp",
         "/catalog/covers/thumb/97772220.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5518",
+      "neteaseArtistId": "5518",
+      "slug": "artist-5518",
+      "name": "王铮亮",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
       ]
     },
     {
@@ -3141,10 +5292,10 @@
       "slug": "artist-13188",
       "name": "惘闻",
       "aliases": [],
-      "albumCount": 12,
+      "albumCount": 13,
       "albumCountByType": {
         "album": 10,
-        "ep": 2
+        "ep": 3
       },
       "earliestYear": 2000,
       "latestYear": 2022,
@@ -3163,7 +5314,8 @@
         "album:38199",
         "album:38200",
         "album:38202",
-        "album:38206"
+        "album:38206",
+        "album:38201"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/38188.webp",
@@ -3172,25 +5324,57 @@
       ]
     },
     {
-      "artistId": "netease-artist:9609",
-      "neteaseArtistId": "9609",
-      "slug": "artist-9609",
-      "name": "魏如萱",
+      "artistId": "netease-artist:5349",
+      "neteaseArtistId": "5349",
+      "slug": "artist-5349",
+      "name": "魏晨",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2020,
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9609",
+      "neteaseArtistId": "9609",
+      "slug": "artist-9609",
+      "name": "魏如萱",
+      "aliases": [],
+      "albumCount": 7,
+      "albumCountByType": {
+        "album": 4,
+        "ep": 3
+      },
+      "earliestYear": 2007,
       "latestYear": 2020,
       "commonCoreGenres": [
+        "art-pop",
         "hip-hop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:97772220",
+        "album:29548",
+        "album:29553",
+        "album:29555",
+        "album:29557",
+        "album:29558",
+        "album:29560"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/29548.webp",
+        "/catalog/covers/thumb/29553.webp"
       ]
     },
     {
@@ -3225,6 +5409,94 @@
       ]
     },
     {
+      "artistId": "netease-artist:13190",
+      "neteaseArtistId": "13190",
+      "slug": "artist-13190",
+      "name": "无印良品",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5399",
+      "neteaseArtistId": "5399",
+      "slug": "artist-5399",
+      "name": "吴国敬",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5350",
+      "neteaseArtistId": "5350",
+      "slug": "artist-5350",
+      "name": "吴克群",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2000,
+      "latestYear": 2000,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:6212"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/6212.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9619",
+      "neteaseArtistId": "9619",
+      "slug": "artist-9619",
+      "name": "吴佩慈",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513305"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513305.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:938017",
       "neteaseArtistId": "938017",
       "slug": "artist-938017",
@@ -3244,6 +5516,50 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/158475145.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13193",
+      "neteaseArtistId": "13193",
+      "slug": "artist-13193",
+      "name": "五月天",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2001,
+      "latestYear": 2001,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:38300"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/38300.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5354",
+      "neteaseArtistId": "5354",
+      "slug": "artist-5354",
+      "name": "伍佰",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489986"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489986.webp"
       ]
     },
     {
@@ -3317,6 +5633,30 @@
       ]
     },
     {
+      "artistId": "netease-artist:9975",
+      "neteaseArtistId": "9975",
+      "slug": "artist-9975",
+      "name": "希莉娜依",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1995,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513281",
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513281.webp",
+        "/catalog/covers/thumb/513518.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:14712157",
       "neteaseArtistId": "14712157",
       "slug": "artist-14712157",
@@ -3344,20 +5684,50 @@
       "slug": "artist-5768",
       "name": "萧敬腾",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 5,
       "albumCountByType": {
-        "album": 1
+        "album": 5
       },
-      "earliestYear": 2020,
+      "earliestYear": 2008,
       "latestYear": 2020,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:95509227"
+        "album:95509227",
+        "album:16944",
+        "album:16958",
+        "album:16961",
+        "album:16971"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/95509227.webp"
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/16944.webp",
+        "/catalog/covers/thumb/16958.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9945",
+      "neteaseArtistId": "9945",
+      "slug": "artist-9945",
+      "name": "萧亚轩",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2000,
+      "latestYear": 2003,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:6212",
+        "album:18809"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/6212.webp",
+        "/catalog/covers/thumb/18809.webp"
       ]
     },
     {
@@ -3382,6 +5752,30 @@
       "previewCovers": [
         "/catalog/covers/thumb/153023757.webp",
         "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5772",
+      "neteaseArtistId": "5772",
+      "slug": "artist-5772",
+      "name": "小柯",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1995,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513281",
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513281.webp",
+        "/catalog/covers/thumb/513518.webp"
       ]
     },
     {
@@ -3410,6 +5804,51 @@
       ]
     },
     {
+      "artistId": "netease-artist:13287",
+      "neteaseArtistId": "13287",
+      "slug": "artist-13287",
+      "name": "小熊饼干",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2009,
+      "latestYear": 2009,
+      "commonCoreGenres": [
+        "folk",
+        "rock"
+      ],
+      "albumIds": [
+        "album:38420"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/38420.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:17479",
+      "neteaseArtistId": "17479",
+      "slug": "artist-17479",
+      "name": "小野リサ",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489957"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489957.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:54504757",
       "neteaseArtistId": "54504757",
       "slug": "artist-54504757",
@@ -3433,6 +5872,50 @@
         "/catalog/covers/thumb/75364824.webp",
         "/catalog/covers/thumb/71723702.webp",
         "/catalog/covers/thumb/266943938.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5773",
+      "neteaseArtistId": "5773",
+      "slug": "artist-5773",
+      "name": "谢霆锋",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2005,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9951",
+      "neteaseArtistId": "9951",
+      "slug": "artist-9951",
+      "name": "辛晓琪",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
       ]
     },
     {
@@ -3480,25 +5963,75 @@
       ]
     },
     {
-      "artistId": "netease-artist:9940",
-      "neteaseArtistId": "9940",
-      "slug": "artist-9940",
-      "name": "徐佳莹",
+      "artistId": "netease-artist:5775",
+      "neteaseArtistId": "5775",
+      "slug": "artist-5775",
+      "name": "熊天平",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2020,
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9954",
+      "neteaseArtistId": "9954",
+      "slug": "artist-9954",
+      "name": "徐怀钰",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513305"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513305.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:9940",
+      "neteaseArtistId": "9940",
+      "slug": "artist-9940",
+      "name": "徐佳莹",
+      "aliases": [],
+      "albumCount": 4,
+      "albumCountByType": {
+        "album": 4
+      },
+      "earliestYear": 2009,
       "latestYear": 2020,
       "commonCoreGenres": [
+        "pop",
         "hip-hop"
       ],
       "albumIds": [
-        "album:97772220"
+        "album:97772220",
+        "album:30449",
+        "album:30451",
+        "album:30452"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/97772220.webp"
+        "/catalog/covers/thumb/97772220.webp",
+        "/catalog/covers/thumb/30449.webp",
+        "/catalog/covers/thumb/30451.webp"
       ]
     },
     {
@@ -3546,25 +6079,124 @@
       ]
     },
     {
-      "artistId": "netease-artist:5781",
-      "neteaseArtistId": "5781",
-      "slug": "artist-5781",
-      "name": "薛之谦",
+      "artistId": "netease-artist:9943",
+      "neteaseArtistId": "9943",
+      "slug": "artist-9943",
+      "name": "许茹芸",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2020,
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5770",
+      "neteaseArtistId": "5770",
+      "slug": "artist-5770",
+      "name": "许巍",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1995,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513281",
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513281.webp",
+        "/catalog/covers/thumb/513518.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5787",
+      "neteaseArtistId": "5787",
+      "slug": "artist-5787",
+      "name": "许志安",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:5781",
+      "neteaseArtistId": "5781",
+      "slug": "artist-5781",
+      "name": "薛之谦",
+      "aliases": [],
+      "albumCount": 6,
+      "albumCountByType": {
+        "album": 6
+      },
+      "earliestYear": 2006,
       "latestYear": 2020,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:95509227"
+        "album:95509227",
+        "album:17072",
+        "album:17074",
+        "album:17077",
+        "album:17079",
+        "album:17081"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/95509227.webp"
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/17072.webp",
+        "/catalog/covers/thumb/17074.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13436",
+      "neteaseArtistId": "13436",
+      "slug": "artist-13436",
+      "name": "眼镜蛇",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1995,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513281",
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513281.webp",
+        "/catalog/covers/thumb/513518.webp"
       ]
     },
     {
@@ -3590,25 +6222,139 @@
       ]
     },
     {
-      "artistId": "netease-artist:6090",
-      "neteaseArtistId": "6090",
-      "slug": "artist-6090",
-      "name": "杨瑞代",
+      "artistId": "netease-artist:6068",
+      "neteaseArtistId": "6068",
+      "slug": "artist-6068",
+      "name": "杨坤",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2013,
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489957"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489957.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10204",
+      "neteaseArtistId": "10204",
+      "slug": "artist-10204",
+      "name": "杨千嬅",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1996,
+      "latestYear": 1996,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:27442"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/27442.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6090",
+      "neteaseArtistId": "6090",
+      "slug": "artist-6090",
+      "name": "杨瑞代",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 2009,
       "latestYear": 2013,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:3154731"
+        "album:3154731",
+        "album:18006",
+        "album:18008"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/3154731.webp"
+        "/catalog/covers/thumb/3154731.webp",
+        "/catalog/covers/thumb/18006.webp",
+        "/catalog/covers/thumb/18008.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6389",
+      "neteaseArtistId": "6389",
+      "slug": "artist-6389",
+      "name": "姚谦",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2003,
+      "latestYear": 2003,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:18809"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/18809.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6231",
+      "neteaseArtistId": "6231",
+      "slug": "artist-6231",
+      "name": "姚政",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13439",
+      "neteaseArtistId": "13439",
+      "slug": "artist-13439",
+      "name": "译乐队",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:7582"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/7582.webp"
       ]
     },
     {
@@ -3634,6 +6380,29 @@
       ]
     },
     {
+      "artistId": "netease-artist:13430",
+      "neteaseArtistId": "13430",
+      "slug": "artist-13430",
+      "name": "诱导社",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "electronic",
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:19186"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19186.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:12798895",
       "neteaseArtistId": "12798895",
       "slug": "artist-12798895",
@@ -3656,17 +6425,61 @@
       ]
     },
     {
+      "artistId": "netease-artist:6083",
+      "neteaseArtistId": "6083",
+      "slug": "artist-6083",
+      "name": "余宪忠",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:23955"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/23955.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6076",
+      "neteaseArtistId": "6076",
+      "slug": "artist-6076",
+      "name": "俞灏明",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:18122",
       "neteaseArtistId": "18122",
       "slug": "artist-18122",
       "name": "宇多田ヒカル",
       "aliases": [],
-      "albumCount": 16,
+      "albumCount": 38,
       "albumCountByType": {
-        "album": 8,
-        "ep": 8
+        "album": 14,
+        "ep": 24
       },
-      "earliestYear": 1999,
+      "earliestYear": 1996,
       "latestYear": 2025,
       "commonCoreGenres": [
         "pop"
@@ -3687,12 +6500,58 @@
         "album:64236",
         "album:64246",
         "album:64250",
-        "album:64253"
+        "album:64253",
+        "album:64208",
+        "album:64219",
+        "album:64231",
+        "album:64259",
+        "album:64265",
+        "album:64279",
+        "album:64288",
+        "album:64299",
+        "album:64308",
+        "album:64312",
+        "album:64316",
+        "album:64323",
+        "album:64335",
+        "album:64337",
+        "album:64339",
+        "album:64345",
+        "album:64354",
+        "album:64363",
+        "album:64366",
+        "album:64368",
+        "album:64371",
+        "album:1804681"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/2093862.webp",
         "/catalog/covers/thumb/348985953.webp",
         "/catalog/covers/thumb/191690469.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6075",
+      "neteaseArtistId": "6075",
+      "slug": "artist-6075",
+      "name": "庾澄庆",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1998,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482",
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp",
+        "/catalog/covers/thumb/513294.webp"
       ]
     },
     {
@@ -3743,27 +6602,136 @@
       ]
     },
     {
+      "artistId": "netease-artist:10564",
+      "neteaseArtistId": "10564",
+      "slug": "artist-10564",
+      "name": "张艾嘉",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489982"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489982.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6455",
+      "neteaseArtistId": "6455",
+      "slug": "artist-6455",
+      "name": "张楚",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1995,
+      "latestYear": 1995,
+      "commonCoreGenres": [
+        "rock"
+      ],
+      "albumIds": [
+        "album:513562"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513562.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:6457",
       "neteaseArtistId": "6457",
       "slug": "artist-6457",
       "name": "张国荣",
       "aliases": [],
-      "albumCount": 2,
+      "albumCount": 43,
       "albumCountByType": {
-        "album": 2
+        "album": 34,
+        "ep": 9
       },
-      "earliestYear": 1996,
+      "earliestYear": 1977,
       "latestYear": 2013,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
         "album:19038",
-        "album:2374026"
+        "album:2374026",
+        "album:6228",
+        "album:15395",
+        "album:18937",
+        "album:18945",
+        "album:18951",
+        "album:18954",
+        "album:18972",
+        "album:18983",
+        "album:18995",
+        "album:18999",
+        "album:19003",
+        "album:19012",
+        "album:19014",
+        "album:19018",
+        "album:19022",
+        "album:19025",
+        "album:19029",
+        "album:19043",
+        "album:19045",
+        "album:19048",
+        "album:19057",
+        "album:19063",
+        "album:19068",
+        "album:19070",
+        "album:19074",
+        "album:19084",
+        "album:19087",
+        "album:19091",
+        "album:19092",
+        "album:19095",
+        "album:19097",
+        "album:19104",
+        "album:19107",
+        "album:19111",
+        "album:19112",
+        "album:19116",
+        "album:19120",
+        "album:19122",
+        "album:19126",
+        "album:19128",
+        "album:19132"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/19038.webp",
-        "/catalog/covers/thumb/2374026.webp"
+        "/catalog/covers/thumb/2374026.webp",
+        "/catalog/covers/thumb/6228.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10559",
+      "neteaseArtistId": "10559",
+      "slug": "artist-10559",
+      "name": "张惠妹",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
       ]
     },
     {
@@ -3772,20 +6740,30 @@
       "slug": "artist-6472",
       "name": "张杰",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 8,
       "albumCountByType": {
-        "album": 1
+        "album": 7,
+        "ep": 1
       },
-      "earliestYear": 2020,
+      "earliestYear": 2006,
       "latestYear": 2020,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:95509227"
+        "album:95509227",
+        "album:19292",
+        "album:19298",
+        "album:19315",
+        "album:19318",
+        "album:19322",
+        "album:19323",
+        "album:35882"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/95509227.webp"
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/19292.webp",
+        "/catalog/covers/thumb/19298.webp"
       ]
     },
     {
@@ -3794,20 +6772,30 @@
       "slug": "artist-10561",
       "name": "张靓颖",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 8,
       "albumCountByType": {
-        "album": 1
+        "album": 7,
+        "ep": 1
       },
-      "earliestYear": 2020,
+      "earliestYear": 2006,
       "latestYear": 2020,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:95509227"
+        "album:95509227",
+        "album:32341",
+        "album:32348",
+        "album:32356",
+        "album:32374",
+        "album:32381",
+        "album:32388",
+        "album:511241"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/95509227.webp"
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/32341.webp",
+        "/catalog/covers/thumb/32348.webp"
       ]
     },
     {
@@ -3816,20 +6804,82 @@
       "slug": "artist-6454",
       "name": "张信哲",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 32,
       "albumCountByType": {
-        "album": 1
+        "album": 32
       },
-      "earliestYear": 2020,
+      "earliestYear": 1989,
       "latestYear": 2020,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:95509227"
+        "album:95509227",
+        "album:10530",
+        "album:18908",
+        "album:18912",
+        "album:18916",
+        "album:18920",
+        "album:18926",
+        "album:18929",
+        "album:18931",
+        "album:18938",
+        "album:18940",
+        "album:18944",
+        "album:18947",
+        "album:18950",
+        "album:18960",
+        "album:18964",
+        "album:18968",
+        "album:18971",
+        "album:18974",
+        "album:18977",
+        "album:18980",
+        "album:18982",
+        "album:18988",
+        "album:18992",
+        "album:18996",
+        "album:19000",
+        "album:19004",
+        "album:19006",
+        "album:19009",
+        "album:19013",
+        "album:19016",
+        "album:513294"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/95509227.webp"
+        "/catalog/covers/thumb/95509227.webp",
+        "/catalog/covers/thumb/10530.webp",
+        "/catalog/covers/thumb/18908.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6460",
+      "neteaseArtistId": "6460",
+      "slug": "artist-6460",
+      "name": "张学友",
+      "aliases": [],
+      "albumCount": 5,
+      "albumCountByType": {
+        "album": 2,
+        "ep": 3
+      },
+      "earliestYear": 1994,
+      "latestYear": 2010,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395",
+        "album:19080",
+        "album:19222",
+        "album:511241",
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp",
+        "/catalog/covers/thumb/19080.webp",
+        "/catalog/covers/thumb/19222.webp"
       ]
     },
     {
@@ -3874,6 +6924,72 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/281405720.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10695",
+      "neteaseArtistId": "10695",
+      "slug": "artist-10695",
+      "name": "张远",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:35882"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/35882.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6453",
+      "neteaseArtistId": "6453",
+      "slug": "artist-6453",
+      "name": "张震岳",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489986"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489986.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10836",
+      "neteaseArtistId": "10836",
+      "slug": "artist-10836",
+      "name": "赵静怡",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2006,
+      "latestYear": 2006,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:34568"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/34568.webp"
       ]
     },
     {
@@ -3948,6 +7064,79 @@
       ]
     },
     {
+      "artistId": "netease-artist:6458",
+      "neteaseArtistId": "6458",
+      "slug": "artist-6458",
+      "name": "郑钧",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 1995,
+      "latestYear": 2002,
+      "commonCoreGenres": [
+        "rock",
+        "folk"
+      ],
+      "albumIds": [
+        "album:490052",
+        "album:513281",
+        "album:513518"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/490052.webp",
+        "/catalog/covers/thumb/513281.webp",
+        "/catalog/covers/thumb/513518.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10595",
+      "neteaseArtistId": "10595",
+      "slug": "artist-10595",
+      "name": "郑希怡",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2005,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6473",
+      "neteaseArtistId": "6473",
+      "slug": "artist-6473",
+      "name": "郑中基",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395",
+        "album:513198"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp",
+        "/catalog/covers/thumb/513198.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:12003155",
       "neteaseArtistId": "12003155",
       "slug": "artist-12003155",
@@ -3975,20 +7164,89 @@
       "slug": "artist-13585",
       "name": "指人儿",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 1,
+        "ep": 1
       },
-      "earliestYear": 2020,
+      "earliestYear": 2009,
       "latestYear": 2020,
       "commonCoreGenres": [
         "rock"
       ],
       "albumIds": [
-        "album:91290063"
+        "album:91290063",
+        "album:39095"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/91290063.webp"
+        "/catalog/covers/thumb/91290063.webp",
+        "/catalog/covers/thumb/39095.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:160729",
+      "neteaseArtistId": "160729",
+      "slug": "artist-160729",
+      "name": "中島美嘉",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489986"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489986.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6495",
+      "neteaseArtistId": "6495",
+      "slug": "artist-6495",
+      "name": "钟镇涛",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:15395"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/15395.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:6456",
+      "neteaseArtistId": "6456",
+      "slug": "artist-6456",
+      "name": "周华健",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:513294"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/513294.webp"
       ]
     },
     {
@@ -3997,12 +7255,12 @@
       "slug": "artist-6452",
       "name": "周杰伦",
       "aliases": [],
-      "albumCount": 18,
+      "albumCount": 20,
       "albumCountByType": {
-        "album": 17,
+        "album": 19,
         "ep": 1
       },
-      "earliestYear": 2001,
+      "earliestYear": 2000,
       "latestYear": 2022,
       "commonCoreGenres": [
         "pop"
@@ -4025,7 +7283,9 @@
         "album:18904",
         "album:18907",
         "album:18909",
-        "album:18888"
+        "album:18888",
+        "album:18898",
+        "album:18918"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/18915.webp",
@@ -4056,6 +7316,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:10563",
+      "neteaseArtistId": "10563",
+      "slug": "artist-10563",
+      "name": "周迅",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "electronic"
+      ],
+      "albumIds": [
+        "album:489797"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489797.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:99794700",
       "neteaseArtistId": "99794700",
       "slug": "artist-99794700",
@@ -4083,20 +7365,22 @@
       "slug": "artist-6461",
       "name": "周云蓬",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
-      "earliestYear": 2023,
+      "earliestYear": 2004,
       "latestYear": 2023,
       "commonCoreGenres": [
         "folk"
       ],
       "albumIds": [
-        "album:158475145"
+        "album:158475145",
+        "album:19041"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/158475145.webp"
+        "/catalog/covers/thumb/158475145.webp",
+        "/catalog/covers/thumb/19041.webp"
       ]
     },
     {
@@ -4105,20 +7389,23 @@
       "slug": "artist-10582",
       "name": "朱婧汐Akini Jing",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
-      "earliestYear": 2022,
+      "earliestYear": 2008,
       "latestYear": 2022,
       "commonCoreGenres": [
+        "pop",
         "rock"
       ],
       "albumIds": [
-        "album:143519789"
+        "album:143519789",
+        "album:32641"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/143519789.webp"
+        "/catalog/covers/thumb/143519789.webp",
+        "/catalog/covers/thumb/32641.webp"
       ]
     },
     {
@@ -4127,23 +7414,51 @@
       "slug": "artist-17635",
       "name": "椎名林檎",
       "aliases": [],
-      "albumCount": 2,
+      "albumCount": 7,
       "albumCountByType": {
-        "album": 2
+        "album": 7
       },
       "earliestYear": 1999,
-      "latestYear": 2003,
+      "latestYear": 2009,
       "commonCoreGenres": [
         "alternative-rock",
         "rock"
       ],
       "albumIds": [
         "album:2085451",
-        "album:61643"
+        "album:61643",
+        "album:61561",
+        "album:61584",
+        "album:61602",
+        "album:61614",
+        "album:61618"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/2085451.webp",
-        "/catalog/covers/thumb/61643.webp"
+        "/catalog/covers/thumb/61643.webp",
+        "/catalog/covers/thumb/61561.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:10859",
+      "neteaseArtistId": "10859",
+      "slug": "artist-10859",
+      "name": "宗庸卓玛",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:10530"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/10530.webp"
       ]
     },
     {
@@ -4152,15 +7467,16 @@
       "slug": "artist-6467",
       "name": "左小祖咒",
       "aliases": [],
-      "albumCount": 14,
+      "albumCount": 26,
       "albumCountByType": {
-        "album": 14
+        "album": 26
       },
-      "earliestYear": 1999,
+      "earliestYear": 1998,
       "latestYear": 2026,
       "commonCoreGenres": [
         "experimental-rock",
-        "rock"
+        "rock",
+        "electronic"
       ],
       "albumIds": [
         "album:19213",
@@ -4176,7 +7492,19 @@
         "album:83768670",
         "album:133583254",
         "album:122481657",
-        "album:73982649"
+        "album:73982649",
+        "album:19165",
+        "album:19170",
+        "album:19173",
+        "album:19177",
+        "album:19182",
+        "album:19186",
+        "album:19189",
+        "album:19193",
+        "album:19196",
+        "album:19204",
+        "album:19208",
+        "album:19223"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/19213.webp",
@@ -4220,20 +7548,29 @@
       "slug": "artist-27648",
       "name": "A Tribe Called Quest",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 8,
       "albumCountByType": {
-        "album": 1
+        "album": 8
       },
-      "earliestYear": 1993,
-      "latestYear": 1993,
+      "earliestYear": 1990,
+      "latestYear": 2009,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:1506337"
+        "album:1506337",
+        "album:1506326",
+        "album:1506327",
+        "album:1506329",
+        "album:1506330",
+        "album:1506331",
+        "album:1506332",
+        "album:1506336"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1506337.webp"
+        "/catalog/covers/thumb/1506337.webp",
+        "/catalog/covers/thumb/1506326.webp",
+        "/catalog/covers/thumb/1506327.webp"
       ]
     },
     {
@@ -4264,20 +7601,27 @@
       "slug": "artist-46520",
       "name": "Aaliyah",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 6,
       "albumCountByType": {
-        "album": 1
+        "album": 6
       },
-      "earliestYear": 2001,
-      "latestYear": 2001,
+      "earliestYear": 1994,
+      "latestYear": 2006,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:1515056"
+        "album:1515056",
+        "album:213543",
+        "album:213552",
+        "album:213554",
+        "album:213560",
+        "album:1515055"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1515056.webp"
+        "/catalog/covers/thumb/1515056.webp",
+        "/catalog/covers/thumb/213543.webp",
+        "/catalog/covers/thumb/213552.webp"
       ]
     },
     {
@@ -4286,20 +7630,54 @@
       "slug": "artist-29061",
       "name": "Alex Heffes",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 3,
       "albumCountByType": {
-        "ep": 1
+        "ep": 1,
+        "album": 2
       },
-      "earliestYear": 2023,
+      "earliestYear": 2009,
       "latestYear": 2023,
       "commonCoreGenres": [
         "ambient"
       ],
       "albumIds": [
-        "album:174167316"
+        "album:174167316",
+        "album:111931",
+        "album:1502412"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/174167316.webp"
+        "/catalog/covers/thumb/174167316.webp",
+        "/catalog/covers/thumb/111931.webp",
+        "/catalog/covers/thumb/1502412.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:27649",
+      "neteaseArtistId": "27649",
+      "slug": "artist-27649",
+      "name": "Alva Noto",
+      "aliases": [],
+      "albumCount": 4,
+      "albumCountByType": {
+        "album": 2,
+        "ep": 2
+      },
+      "earliestYear": 2002,
+      "latestYear": 2011,
+      "commonCoreGenres": [
+        "ambient",
+        "electronic"
+      ],
+      "albumIds": [
+        "album:104561",
+        "album:104577",
+        "album:104592",
+        "album:104602"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/104561.webp",
+        "/catalog/covers/thumb/104577.webp",
+        "/catalog/covers/thumb/104592.webp"
       ]
     },
     {
@@ -4350,25 +7728,106 @@
       ]
     },
     {
-      "artistId": "netease-artist:48436",
-      "neteaseArtistId": "48436",
-      "slug": "artist-48436",
-      "name": "Beyoncé",
+      "artistId": "netease-artist:11100",
+      "neteaseArtistId": "11100",
+      "slug": "artist-11100",
+      "name": "B.A.D",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2013,
+      "earliestYear": 2003,
+      "latestYear": 2003,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:18809"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/18809.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2025",
+      "neteaseArtistId": "2025",
+      "slug": "artist-2025",
+      "name": "B6",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "electronic",
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:19186"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19186.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "slug": "artist-48436",
+      "name": "Beyoncé",
+      "aliases": [],
+      "albumCount": 34,
+      "albumCountByType": {
+        "album": 17,
+        "ep": 17
+      },
+      "earliestYear": 2003,
       "latestYear": 2013,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:2732013"
+        "album:2732013",
+        "album:220665",
+        "album:220669",
+        "album:220673",
+        "album:220679",
+        "album:220682",
+        "album:220688",
+        "album:220704",
+        "album:220706",
+        "album:220709",
+        "album:220712",
+        "album:220714",
+        "album:220716",
+        "album:220719",
+        "album:220730",
+        "album:220734",
+        "album:220757",
+        "album:220768",
+        "album:220772",
+        "album:220775",
+        "album:220780",
+        "album:220787",
+        "album:220795",
+        "album:220798",
+        "album:220805",
+        "album:220808",
+        "album:220812",
+        "album:220816",
+        "album:295223",
+        "album:1712033",
+        "album:1801256",
+        "album:1801258",
+        "album:1801261",
+        "album:1801294"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/2732013.webp"
+        "/catalog/covers/thumb/2732013.webp",
+        "/catalog/covers/thumb/220665.webp",
+        "/catalog/covers/thumb/220669.webp"
       ]
     },
     {
@@ -4399,20 +7858,65 @@
       "slug": "artist-48581",
       "name": "Bill Laswell",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 41,
       "albumCountByType": {
-        "ep": 1
+        "ep": 13,
+        "album": 28
       },
-      "earliestYear": 2020,
+      "earliestYear": 1970,
       "latestYear": 2020,
       "commonCoreGenres": [
-        "ambient"
+        "ambient",
+        "jazz",
+        "electronic"
       ],
       "albumIds": [
-        "album:167913218"
+        "album:167913218",
+        "album:49543",
+        "album:222189",
+        "album:222193",
+        "album:222201",
+        "album:222204",
+        "album:222206",
+        "album:222209",
+        "album:222210",
+        "album:222214",
+        "album:222216",
+        "album:222217",
+        "album:222219",
+        "album:222226",
+        "album:222231",
+        "album:222234",
+        "album:222242",
+        "album:222261",
+        "album:222262",
+        "album:222265",
+        "album:222268",
+        "album:222272",
+        "album:222279",
+        "album:222289",
+        "album:222291",
+        "album:222297",
+        "album:222299",
+        "album:222302",
+        "album:222321",
+        "album:1540804",
+        "album:1540806",
+        "album:1540808",
+        "album:1540810",
+        "album:1540813",
+        "album:1540814",
+        "album:1540817",
+        "album:1540821",
+        "album:1540822",
+        "album:1540825",
+        "album:1540828",
+        "album:1540834"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/167913218.webp"
+        "/catalog/covers/thumb/167913218.webp",
+        "/catalog/covers/thumb/49543.webp",
+        "/catalog/covers/thumb/222189.webp"
       ]
     },
     {
@@ -4509,20 +8013,27 @@
       "slug": "artist-29389",
       "name": "Burial",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 5,
       "albumCountByType": {
-        "album": 1
+        "album": 2,
+        "ep": 3
       },
-      "earliestYear": 2007,
-      "latestYear": 2007,
+      "earliestYear": 2005,
+      "latestYear": 2012,
       "commonCoreGenres": [
         "electronic"
       ],
       "albumIds": [
-        "album:1533976"
+        "album:1533976",
+        "album:113537",
+        "album:1533975",
+        "album:1533977",
+        "album:1533981"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1533976.webp"
+        "/catalog/covers/thumb/1533976.webp",
+        "/catalog/covers/thumb/113537.webp",
+        "/catalog/covers/thumb/1533975.webp"
       ]
     },
     {
@@ -4597,20 +8108,44 @@
       "slug": "artist-11364",
       "name": "Casino Demon",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
-      "earliestYear": 2020,
+      "earliestYear": 2009,
       "latestYear": 2020,
       "commonCoreGenres": [
         "rock"
       ],
       "albumIds": [
-        "album:91290063"
+        "album:91290063",
+        "album:34591"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/91290063.webp"
+        "/catalog/covers/thumb/91290063.webp",
+        "/catalog/covers/thumb/34591.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:18886",
+      "neteaseArtistId": "18886",
+      "slug": "artist-18886",
+      "name": "CHEMISTRY",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489986"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489986.webp"
       ]
     },
     {
@@ -4636,25 +8171,77 @@
       ]
     },
     {
+      "artistId": "netease-artist:30338",
+      "neteaseArtistId": "30338",
+      "slug": "artist-30338",
+      "name": "Christopher Willits",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 1,
+        "ep": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2012,
+      "commonCoreGenres": [
+        "ambient",
+        "electronic"
+      ],
+      "albumIds": [
+        "album:123111",
+        "album:1830513"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/123111.webp",
+        "/catalog/covers/thumb/1830513.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:89364",
       "neteaseArtistId": "89364",
       "slug": "artist-89364",
       "name": "Cocteau Twins",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 23,
       "albumCountByType": {
-        "album": 1
+        "album": 12,
+        "ep": 11
       },
-      "earliestYear": 1990,
-      "latestYear": 1990,
+      "earliestYear": 1982,
+      "latestYear": 2006,
       "commonCoreGenres": [
-        "dream-pop"
+        "dream-pop",
+        "ambient"
       ],
       "albumIds": [
-        "album:1577480"
+        "album:1577480",
+        "album:403118",
+        "album:403177",
+        "album:403179",
+        "album:403197",
+        "album:403203",
+        "album:1577473",
+        "album:1577474",
+        "album:1577475",
+        "album:1577476",
+        "album:1577478",
+        "album:1577481",
+        "album:1577483",
+        "album:1577485",
+        "album:1577486",
+        "album:1577493",
+        "album:1577498",
+        "album:1577499",
+        "album:1577500",
+        "album:1577502",
+        "album:1577503",
+        "album:1577504",
+        "album:1671465"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1577480.webp"
+        "/catalog/covers/thumb/1577480.webp",
+        "/catalog/covers/thumb/403118.webp",
+        "/catalog/covers/thumb/403177.webp"
       ]
     },
     {
@@ -4663,20 +8250,32 @@
       "slug": "artist-50946",
       "name": "Coldcut",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 9,
       "albumCountByType": {
-        "ep": 1
+        "ep": 3,
+        "album": 6
       },
-      "earliestYear": 2021,
+      "earliestYear": 1988,
       "latestYear": 2021,
       "commonCoreGenres": [
+        "electronic",
         "ambient"
       ],
       "albumIds": [
-        "album:135236866"
+        "album:135236866",
+        "album:233611",
+        "album:233624",
+        "album:233629",
+        "album:1574644",
+        "album:1574645",
+        "album:1574646",
+        "album:1574650",
+        "album:1574661"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/135236866.webp"
+        "/catalog/covers/thumb/135236866.webp",
+        "/catalog/covers/thumb/233611.webp",
+        "/catalog/covers/thumb/233624.webp"
       ]
     },
     {
@@ -4707,20 +8306,30 @@
       "slug": "artist-90513",
       "name": "Daft Punk",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 8,
       "albumCountByType": {
-        "album": 1
+        "album": 6,
+        "ep": 2
       },
-      "earliestYear": 2001,
-      "latestYear": 2001,
+      "earliestYear": 1997,
+      "latestYear": 2010,
       "commonCoreGenres": [
         "electronic"
       ],
       "albumIds": [
-        "album:1609277"
+        "album:1609277",
+        "album:406250",
+        "album:406274",
+        "album:1609269",
+        "album:1609275",
+        "album:1609276",
+        "album:1609279",
+        "album:1609284"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1609277.webp"
+        "/catalog/covers/thumb/1609277.webp",
+        "/catalog/covers/thumb/406250.webp",
+        "/catalog/covers/thumb/406274.webp"
       ]
     },
     {
@@ -4743,6 +8352,50 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/34840135.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31279",
+      "neteaseArtistId": "31279",
+      "slug": "artist-31279",
+      "name": "David Byrne",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1987,
+      "latestYear": 1987,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:501659"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/501659.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:31209",
+      "neteaseArtistId": "31209",
+      "slug": "artist-31209",
+      "name": "David Sylvian",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1992,
+      "latestYear": 1992,
+      "commonCoreGenres": [
+        "ambient"
+      ],
+      "albumIds": [
+        "album:47835"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/47835.webp"
       ]
     },
     {
@@ -4847,20 +8500,22 @@
       "slug": "artist-53566",
       "name": "Duster",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
       "earliestYear": 1998,
-      "latestYear": 1998,
+      "latestYear": 2009,
       "commonCoreGenres": [
         "indie-rock"
       ],
       "albumIds": [
-        "album:246863"
+        "album:246863",
+        "album:1598716"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/246863.webp"
+        "/catalog/covers/thumb/246863.webp",
+        "/catalog/covers/thumb/1598716.webp"
       ]
     },
     {
@@ -4883,6 +8538,51 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/74268947.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:56226",
+      "neteaseArtistId": "56226",
+      "slug": "artist-56226",
+      "name": "Eraldo Bernocchi",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1999,
+      "latestYear": 1999,
+      "commonCoreGenres": [
+        "ambient",
+        "electronic"
+      ],
+      "albumIds": [
+        "album:49543"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/49543.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:32797",
+      "neteaseArtistId": "32797",
+      "slug": "artist-32797",
+      "name": "Evan Parker",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2011,
+      "latestYear": 2011,
+      "commonCoreGenres": [
+        "jazz"
+      ],
+      "albumIds": [
+        "album:222189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/222189.webp"
       ]
     },
     {
@@ -4910,25 +8610,100 @@
       ]
     },
     {
-      "artistId": "netease-artist:56788",
-      "neteaseArtistId": "56788",
-      "slug": "artist-56788",
-      "name": "Fleetwood Mac",
+      "artistId": "netease-artist:33394",
+      "neteaseArtistId": "33394",
+      "slug": "artist-33394",
+      "name": "Fennesz",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 1977,
-      "latestYear": 1977,
+      "earliestYear": 2011,
+      "latestYear": 2011,
+      "commonCoreGenres": [
+        "ambient",
+        "electronic"
+      ],
+      "albumIds": [
+        "album:47573"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/47573.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "slug": "artist-56788",
+      "name": "Fleetwood Mac",
+      "aliases": [],
+      "albumCount": 27,
+      "albumCountByType": {
+        "album": 26,
+        "ep": 1
+      },
+      "earliestYear": 1968,
+      "latestYear": 2004,
       "commonCoreGenres": [
         "rock"
       ],
       "albumIds": [
-        "album:1637054"
+        "album:1637054",
+        "album:260765",
+        "album:260776",
+        "album:260797",
+        "album:260850",
+        "album:260864",
+        "album:260870",
+        "album:260876",
+        "album:260880",
+        "album:260885",
+        "album:260887",
+        "album:260901",
+        "album:260908",
+        "album:260920",
+        "album:1637031",
+        "album:1637033",
+        "album:1637038",
+        "album:1637041",
+        "album:1637042",
+        "album:1637044",
+        "album:1637047",
+        "album:1637051",
+        "album:1637055",
+        "album:1637057",
+        "album:1637059",
+        "album:1637061",
+        "album:1637065"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1637054.webp"
+        "/catalog/covers/thumb/1637054.webp",
+        "/catalog/covers/thumb/260765.webp",
+        "/catalog/covers/thumb/260776.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:92447",
+      "neteaseArtistId": "92447",
+      "slug": "artist-92447",
+      "name": "FM3",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2006,
+      "latestYear": 2006,
+      "commonCoreGenres": [
+        "ambient",
+        "electronic"
+      ],
+      "albumIds": [
+        "album:7565"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/7565.webp"
       ]
     },
     {
@@ -4937,20 +8712,25 @@
       "slug": "artist-33727",
       "name": "Frank Ocean",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 4,
       "albumCountByType": {
-        "album": 1
+        "album": 4
       },
-      "earliestYear": 2016,
+      "earliestYear": 2011,
       "latestYear": 2016,
       "commonCoreGenres": [
         "art-pop"
       ],
       "albumIds": [
-        "album:34818182"
+        "album:34818182",
+        "album:140966",
+        "album:140987",
+        "album:1631862"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/34818182.webp"
+        "/catalog/covers/thumb/34818182.webp",
+        "/catalog/covers/thumb/140966.webp",
+        "/catalog/covers/thumb/140987.webp"
       ]
     },
     {
@@ -5049,20 +8829,24 @@
       "slug": "artist-93191",
       "name": "Godspeed You! Black Emperor",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 3,
       "albumCountByType": {
-        "ep": 1
+        "ep": 3
       },
       "earliestYear": 2000,
-      "latestYear": 2000,
+      "latestYear": 2012,
       "commonCoreGenres": [
         "post-rock"
       ],
       "albumIds": [
-        "album:412971"
+        "album:412971",
+        "album:1663776",
+        "album:1663777"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/412971.webp"
+        "/catalog/covers/thumb/412971.webp",
+        "/catalog/covers/thumb/1663776.webp",
+        "/catalog/covers/thumb/1663777.webp"
       ]
     },
     {
@@ -5107,6 +8891,29 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/92448901.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:34529",
+      "neteaseArtistId": "34529",
+      "slug": "artist-34529",
+      "name": "Harold Budd",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1986,
+      "latestYear": 1986,
+      "commonCoreGenres": [
+        "ambient",
+        "dream-pop"
+      ],
+      "albumIds": [
+        "album:1671465"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1671465.webp"
       ]
     },
     {
@@ -5268,17 +9075,39 @@
       ]
     },
     {
+      "artistId": "netease-artist:60389",
+      "neteaseArtistId": "60389",
+      "slug": "artist-60389",
+      "name": "Ikue Mori",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2011,
+      "latestYear": 2011,
+      "commonCoreGenres": [
+        "jazz"
+      ],
+      "albumIds": [
+        "album:222189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/222189.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:160947",
       "neteaseArtistId": "160947",
       "slug": "artist-160947",
       "name": "IU",
       "aliases": [],
-      "albumCount": 4,
+      "albumCount": 6,
       "albumCountByType": {
-        "album": 3,
+        "album": 5,
         "ep": 1
       },
-      "earliestYear": 2013,
+      "earliestYear": 2009,
       "latestYear": 2025,
       "commonCoreGenres": [
         "pop"
@@ -5287,7 +9116,9 @@
         "album:35377328",
         "album:272648305",
         "album:2732291",
-        "album:2840006"
+        "album:2840006",
+        "album:522651",
+        "album:522668"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/35377328.webp",
@@ -5345,20 +9176,49 @@
       "slug": "artist-35350",
       "name": "Janet Jackson",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 26,
       "albumCountByType": {
-        "album": 1
+        "album": 14,
+        "ep": 12
       },
-      "earliestYear": 1997,
-      "latestYear": 1997,
+      "earliestYear": 1981,
+      "latestYear": 2009,
       "commonCoreGenres": [
-        "art-pop"
+        "art-pop",
+        "pop"
       ],
       "albumIds": [
-        "album:2046781"
+        "album:2046781",
+        "album:151244",
+        "album:151266",
+        "album:151299",
+        "album:151305",
+        "album:151308",
+        "album:151311",
+        "album:151316",
+        "album:151320",
+        "album:151326",
+        "album:151337",
+        "album:151338",
+        "album:151341",
+        "album:151348",
+        "album:151350",
+        "album:151356",
+        "album:172280",
+        "album:1706201",
+        "album:1706204",
+        "album:1706206",
+        "album:1706212",
+        "album:1706213",
+        "album:1706216",
+        "album:1706224",
+        "album:1706242",
+        "album:1706243"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/2046781.webp"
+        "/catalog/covers/thumb/2046781.webp",
+        "/catalog/covers/thumb/151244.webp",
+        "/catalog/covers/thumb/151266.webp"
       ]
     },
     {
@@ -5383,6 +9243,28 @@
       "previewCovers": [
         "/catalog/covers/thumb/163444848.webp",
         "/catalog/covers/thumb/81262294.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:35334",
+      "neteaseArtistId": "35334",
+      "slug": "artist-35334",
+      "name": "JAŸ-Z",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2011,
+      "latestYear": 2011,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:1707467"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1707467.webp"
       ]
     },
     {
@@ -5430,25 +9312,93 @@
       ]
     },
     {
-      "artistId": "netease-artist:60926",
-      "neteaseArtistId": "60926",
-      "slug": "artist-60926",
-      "name": "Joni Mitchell",
+      "artistId": "netease-artist:95270",
+      "neteaseArtistId": "95270",
+      "slug": "artist-95270",
+      "name": "JJ DOOM",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 1971,
-      "latestYear": 1971,
+      "earliestYear": 2012,
+      "latestYear": 2012,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:1723692"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1723692.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:61849",
+      "neteaseArtistId": "61849",
+      "slug": "artist-61849",
+      "name": "Jneiro Jarel",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2012,
+      "latestYear": 2012,
+      "commonCoreGenres": [
+        "hip-hop"
+      ],
+      "albumIds": [
+        "album:1723692"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1723692.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "slug": "artist-60926",
+      "name": "Joni Mitchell",
+      "aliases": [],
+      "albumCount": 23,
+      "albumCountByType": {
+        "album": 23
+      },
+      "earliestYear": 1968,
+      "latestYear": 2007,
       "commonCoreGenres": [
         "folk"
       ],
       "albumIds": [
-        "album:1724200"
+        "album:1724200",
+        "album:279853",
+        "album:1724164",
+        "album:1724168",
+        "album:1724169",
+        "album:1724171",
+        "album:1724173",
+        "album:1724174",
+        "album:1724177",
+        "album:1724178",
+        "album:1724181",
+        "album:1724183",
+        "album:1724187",
+        "album:1724189",
+        "album:1724190",
+        "album:1724192",
+        "album:1724193",
+        "album:1724195",
+        "album:1724197",
+        "album:1724198",
+        "album:1724202",
+        "album:1724204",
+        "album:1724206"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1724200.webp"
+        "/catalog/covers/thumb/1724200.webp",
+        "/catalog/covers/thumb/279853.webp",
+        "/catalog/covers/thumb/1724164.webp"
       ]
     },
     {
@@ -5479,20 +9429,73 @@
       "slug": "artist-11950",
       "name": "Joyside",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 7,
       "albumCountByType": {
-        "album": 1
+        "album": 6,
+        "ep": 1
       },
-      "earliestYear": 2020,
+      "earliestYear": 2003,
       "latestYear": 2020,
       "commonCoreGenres": [
         "rock"
       ],
       "albumIds": [
-        "album:91290063"
+        "album:91290063",
+        "album:35637",
+        "album:35644",
+        "album:35651",
+        "album:35654",
+        "album:35660",
+        "album:35668"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/91290063.webp"
+        "/catalog/covers/thumb/91290063.webp",
+        "/catalog/covers/thumb/35637.webp",
+        "/catalog/covers/thumb/35644.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:35331",
+      "neteaseArtistId": "35331",
+      "slug": "artist-35331",
+      "name": "Justin Timberlake",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:1712033"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1712033.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:37724",
+      "neteaseArtistId": "37724",
+      "slug": "artist-37724",
+      "name": "K'NAAN",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2010,
+      "latestYear": 2010,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:511241"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/511241.webp"
       ]
     },
     {
@@ -5501,20 +9504,33 @@
       "slug": "artist-37520",
       "name": "Kanye West",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 12,
       "albumCountByType": {
-        "album": 1
+        "album": 12
       },
       "earliestYear": 2004,
-      "latestYear": 2004,
+      "latestYear": 2011,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:73643239"
+        "album:73643239",
+        "album:164101",
+        "album:164114",
+        "album:164118",
+        "album:164129",
+        "album:164173",
+        "album:1707467",
+        "album:1738261",
+        "album:1738262",
+        "album:1738266",
+        "album:1738268",
+        "album:1738270"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/73643239.webp"
+        "/catalog/covers/thumb/73643239.webp",
+        "/catalog/covers/thumb/164101.webp",
+        "/catalog/covers/thumb/164114.webp"
       ]
     },
     {
@@ -5523,20 +9539,37 @@
       "slug": "artist-62898",
       "name": "Kate Bush",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 15,
       "albumCountByType": {
-        "album": 1
+        "album": 13,
+        "ep": 2
       },
-      "earliestYear": 1985,
-      "latestYear": 1985,
+      "earliestYear": 1978,
+      "latestYear": 2011,
       "commonCoreGenres": [
         "art-pop"
       ],
       "albumIds": [
-        "album:1742060"
+        "album:1742060",
+        "album:290039",
+        "album:290043",
+        "album:290051",
+        "album:290090",
+        "album:1742049",
+        "album:1742050",
+        "album:1742051",
+        "album:1742053",
+        "album:1742054",
+        "album:1742055",
+        "album:1742056",
+        "album:1742057",
+        "album:1742058",
+        "album:1742059"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1742060.webp"
+        "/catalog/covers/thumb/1742060.webp",
+        "/catalog/covers/thumb/290039.webp",
+        "/catalog/covers/thumb/290043.webp"
       ]
     },
     {
@@ -5545,20 +9578,26 @@
       "slug": "artist-37995",
       "name": "Kendrick Lamar",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 5,
       "albumCountByType": {
-        "album": 1
+        "album": 5
       },
-      "earliestYear": 2015,
+      "earliestYear": 2009,
       "latestYear": 2015,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:3109151"
+        "album:3109151",
+        "album:1734884",
+        "album:1734885",
+        "album:1734886",
+        "album:1734888"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/3109151.webp"
+        "/catalog/covers/thumb/3109151.webp",
+        "/catalog/covers/thumb/1734884.webp",
+        "/catalog/covers/thumb/1734885.webp"
       ]
     },
     {
@@ -5684,6 +9723,28 @@
       ]
     },
     {
+      "artistId": "netease-artist:64147",
+      "neteaseArtistId": "64147",
+      "slug": "artist-64147",
+      "name": "Lady Gaga",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 2010,
+      "latestYear": 2010,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:295223"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/295223.webp"
+      ]
+    },
+    {
       "artistId": "netease-artist:31599197",
       "neteaseArtistId": "31599197",
       "slug": "artist-31599197",
@@ -5711,20 +9772,26 @@
       "slug": "artist-20287",
       "name": "Lamp",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 4,
       "albumCountByType": {
-        "album": 1
+        "album": 2,
+        "ep": 2
       },
-      "earliestYear": 2004,
-      "latestYear": 2004,
+      "earliestYear": 2003,
+      "latestYear": 2007,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:2298031"
+        "album:2298031",
+        "album:75698",
+        "album:75699",
+        "album:75701"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/2298031.webp"
+        "/catalog/covers/thumb/2298031.webp",
+        "/catalog/covers/thumb/75698.webp",
+        "/catalog/covers/thumb/75699.webp"
       ]
     },
     {
@@ -5769,6 +9836,29 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/128015189.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:38117",
+      "neteaseArtistId": "38117",
+      "slug": "artist-38117",
+      "name": "Lou Reed",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2011,
+      "latestYear": 2011,
+      "commonCoreGenres": [
+        "experimental-rock",
+        "metal"
+      ],
+      "albumIds": [
+        "album:167167"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/167167.webp"
       ]
     },
     {
@@ -5821,22 +9911,41 @@
       "slug": "artist-38940",
       "name": "Madlib",
       "aliases": [],
-      "albumCount": 2,
+      "albumCount": 20,
       "albumCountByType": {
-        "album": 2
+        "album": 20
       },
-      "earliestYear": 2004,
+      "earliestYear": 2003,
       "latestYear": 2014,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
         "album:316551",
-        "album:3056906"
+        "album:3056906",
+        "album:173540",
+        "album:173546",
+        "album:173552",
+        "album:173567",
+        "album:173571",
+        "album:173583",
+        "album:173608",
+        "album:173616",
+        "album:1956785",
+        "album:1956787",
+        "album:1956788",
+        "album:1956789",
+        "album:1956790",
+        "album:1956791",
+        "album:1956792",
+        "album:1956793",
+        "album:1956794",
+        "album:1956796"
       ],
       "previewCovers": [
         "/catalog/covers/thumb/316551.webp",
-        "/catalog/covers/thumb/3056906.webp"
+        "/catalog/covers/thumb/3056906.webp",
+        "/catalog/covers/thumb/173540.webp"
       ]
     },
     {
@@ -5845,20 +9954,22 @@
       "slug": "artist-68199",
       "name": "Madvillain",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
       "earliestYear": 2004,
-      "latestYear": 2004,
+      "latestYear": 2008,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:316551"
+        "album:316551",
+        "album:1587795"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/316551.webp"
+        "/catalog/covers/thumb/316551.webp",
+        "/catalog/covers/thumb/1587795.webp"
       ]
     },
     {
@@ -5925,6 +10036,50 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/163444848.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:38893",
+      "neteaseArtistId": "38893",
+      "slug": "artist-38893",
+      "name": "Marcus Miller",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1969,
+      "latestYear": 1969,
+      "commonCoreGenres": [
+        "jazz"
+      ],
+      "albumIds": [
+        "album:1970272"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/1970272.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:66598",
+      "neteaseArtistId": "66598",
+      "slug": "artist-66598",
+      "name": "Mark Nauseef",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2011,
+      "latestYear": 2011,
+      "commonCoreGenres": [
+        "jazz"
+      ],
+      "albumIds": [
+        "album:222189"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/222189.webp"
       ]
     },
     {
@@ -5999,20 +10154,27 @@
       "slug": "artist-4479",
       "name": "MC HotDog 热狗",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 5,
       "albumCountByType": {
-        "album": 1
+        "album": 4,
+        "ep": 1
       },
-      "earliestYear": 2022,
+      "earliestYear": 2000,
       "latestYear": 2022,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:145165772"
+        "album:145165772",
+        "album:13352",
+        "album:13355",
+        "album:13361",
+        "album:13367"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/145165772.webp"
+        "/catalog/covers/thumb/145165772.webp",
+        "/catalog/covers/thumb/13352.webp",
+        "/catalog/covers/thumb/13355.webp"
       ]
     },
     {
@@ -6070,20 +10232,54 @@
       "slug": "artist-38851",
       "name": "Metallica",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 31,
       "albumCountByType": {
-        "album": 1
+        "album": 18,
+        "ep": 13
       },
-      "earliestYear": 1986,
-      "latestYear": 1986,
+      "earliestYear": 1982,
+      "latestYear": 2011,
       "commonCoreGenres": [
-        "metal"
+        "metal",
+        "experimental-rock"
       ],
       "albumIds": [
-        "album:1956859"
+        "album:1956859",
+        "album:167167",
+        "album:172075",
+        "album:172076",
+        "album:172077",
+        "album:172083",
+        "album:172108",
+        "album:172113",
+        "album:172122",
+        "album:172126",
+        "album:172175",
+        "album:172189",
+        "album:172198",
+        "album:172208",
+        "album:172216",
+        "album:172238",
+        "album:172247",
+        "album:172254",
+        "album:172262",
+        "album:172269",
+        "album:172277",
+        "album:172292",
+        "album:1956857",
+        "album:1956858",
+        "album:1956860",
+        "album:1956862",
+        "album:1956864",
+        "album:1956866",
+        "album:1956878",
+        "album:1956882",
+        "album:1956884"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1956859.webp"
+        "/catalog/covers/thumb/1956859.webp",
+        "/catalog/covers/thumb/167167.webp",
+        "/catalog/covers/thumb/172075.webp"
       ]
     },
     {
@@ -6092,20 +10288,55 @@
       "slug": "artist-38994",
       "name": "MF DOOM",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 12,
       "albumCountByType": {
-        "album": 1
+        "album": 12
       },
-      "earliestYear": 2004,
-      "latestYear": 2004,
+      "earliestYear": 1999,
+      "latestYear": 2012,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:316551"
+        "album:316551",
+        "album:174160",
+        "album:174181",
+        "album:174193",
+        "album:174206",
+        "album:174214",
+        "album:174226",
+        "album:174230",
+        "album:1723692",
+        "album:1954812",
+        "album:1954814",
+        "album:1954818"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/316551.webp"
+        "/catalog/covers/thumb/316551.webp",
+        "/catalog/covers/thumb/174160.webp",
+        "/catalog/covers/thumb/174181.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:38853",
+      "neteaseArtistId": "38853",
+      "slug": "artist-38853",
+      "name": "Michael Jackson",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "ep": 1
+      },
+      "earliestYear": 1994,
+      "latestYear": 1994,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:172280"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/172280.webp"
       ]
     },
     {
@@ -6138,20 +10369,166 @@
       "slug": "artist-38860",
       "name": "Miles Davis",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 120,
       "albumCountByType": {
-        "ep": 1
+        "ep": 38,
+        "album": 82
       },
-      "earliestYear": 1959,
-      "latestYear": 1959,
+      "earliestYear": 1949,
+      "latestYear": 2020,
       "commonCoreGenres": [
         "jazz"
       ],
       "albumIds": [
-        "album:1969878"
+        "album:1969878",
+        "album:172293",
+        "album:172306",
+        "album:172354",
+        "album:172357",
+        "album:172400",
+        "album:172427",
+        "album:172433",
+        "album:172445",
+        "album:172452",
+        "album:172502",
+        "album:172512",
+        "album:172516",
+        "album:172522",
+        "album:172526",
+        "album:172531",
+        "album:172541",
+        "album:172579",
+        "album:172621",
+        "album:172629",
+        "album:172658",
+        "album:172662",
+        "album:172666",
+        "album:172682",
+        "album:172693",
+        "album:172696",
+        "album:172710",
+        "album:499938",
+        "album:499946",
+        "album:499952",
+        "album:499955",
+        "album:499956",
+        "album:499958",
+        "album:1969686",
+        "album:1969696",
+        "album:1969706",
+        "album:1969722",
+        "album:1969737",
+        "album:1969738",
+        "album:1969745",
+        "album:1969751",
+        "album:1969836",
+        "album:1969854",
+        "album:1969867",
+        "album:1969884",
+        "album:1969887",
+        "album:1969891",
+        "album:1969893",
+        "album:1969963",
+        "album:1969964",
+        "album:1969966",
+        "album:1970004",
+        "album:1970020",
+        "album:1970052",
+        "album:1970082",
+        "album:1970085",
+        "album:1970101",
+        "album:1970114",
+        "album:1970118",
+        "album:1970157",
+        "album:1970164",
+        "album:1970192",
+        "album:1970261",
+        "album:1970268",
+        "album:1970272",
+        "album:1970283",
+        "album:1970285",
+        "album:1970289",
+        "album:1970387",
+        "album:1970388",
+        "album:1970424",
+        "album:1970426",
+        "album:1970427",
+        "album:1970438",
+        "album:1970439",
+        "album:1970452",
+        "album:1970503",
+        "album:1970509",
+        "album:1970526",
+        "album:1970528",
+        "album:1970529",
+        "album:1970534",
+        "album:1970540",
+        "album:1970542",
+        "album:1970543",
+        "album:1970545",
+        "album:1970546",
+        "album:1970548",
+        "album:1970554",
+        "album:1970560",
+        "album:1970563",
+        "album:1970564",
+        "album:1970566",
+        "album:1970567",
+        "album:1970582",
+        "album:1970583",
+        "album:1970584",
+        "album:1970590",
+        "album:1970598",
+        "album:1970602",
+        "album:1970603",
+        "album:1970604",
+        "album:1970606",
+        "album:1970608",
+        "album:1970613",
+        "album:1970619",
+        "album:1970622",
+        "album:1970629",
+        "album:1970631",
+        "album:1970632",
+        "album:1970635",
+        "album:1970636",
+        "album:1970649",
+        "album:1970651",
+        "album:1970652",
+        "album:1970654",
+        "album:1970661",
+        "album:1970665",
+        "album:1970680",
+        "album:1970681"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1969878.webp"
+        "/catalog/covers/thumb/1969878.webp",
+        "/catalog/covers/thumb/172293.webp",
+        "/catalog/covers/thumb/172306.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:13674247",
+      "neteaseArtistId": "13674247",
+      "slug": "artist-13674247",
+      "name": "MORELENBAUM2",
+      "aliases": [],
+      "albumCount": 2,
+      "albumCountByType": {
+        "album": 2
+      },
+      "earliestYear": 2001,
+      "latestYear": 2003,
+      "commonCoreGenres": [
+        "jazz"
+      ],
+      "albumIds": [
+        "album:280897",
+        "album:317732"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/280897.webp",
+        "/catalog/covers/thumb/317732.webp"
       ]
     },
     {
@@ -6226,20 +10603,29 @@
       "slug": "artist-96273",
       "name": "My Bloody Valentine",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 7,
       "albumCountByType": {
-        "album": 1
+        "album": 3,
+        "ep": 4
       },
-      "earliestYear": 1991,
-      "latestYear": 1991,
+      "earliestYear": 1984,
+      "latestYear": 2012,
       "commonCoreGenres": [
         "dream-pop"
       ],
       "albumIds": [
-        "album:422052"
+        "album:422052",
+        "album:422063",
+        "album:422074",
+        "album:422078",
+        "album:422082",
+        "album:1963621",
+        "album:1963622"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/422052.webp"
+        "/catalog/covers/thumb/422052.webp",
+        "/catalog/covers/thumb/422063.webp",
+        "/catalog/covers/thumb/422074.webp"
       ]
     },
     {
@@ -6308,6 +10694,28 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/124139046.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:41222",
+      "neteaseArtistId": "41222",
+      "slug": "artist-41222",
+      "name": "Peter Brötzmann",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1987,
+      "latestYear": 1987,
+      "commonCoreGenres": [
+        "jazz"
+      ],
+      "albumIds": [
+        "album:222272"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/222272.webp"
       ]
     },
     {
@@ -6385,20 +10793,27 @@
       "slug": "artist-98538",
       "name": "Portishead",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 6,
       "albumCountByType": {
-        "album": 1
+        "album": 6
       },
       "earliestYear": 1994,
-      "latestYear": 1994,
+      "latestYear": 2006,
       "commonCoreGenres": [
         "electronic"
       ],
       "albumIds": [
-        "album:1681844"
+        "album:1681844",
+        "album:428297",
+        "album:428299",
+        "album:428309",
+        "album:428312",
+        "album:1681848"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1681844.webp"
+        "/catalog/covers/thumb/1681844.webp",
+        "/catalog/covers/thumb/428297.webp",
+        "/catalog/covers/thumb/428299.webp"
       ]
     },
     {
@@ -6407,20 +10822,47 @@
       "slug": "artist-41142",
       "name": "Prince",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 25,
       "albumCountByType": {
-        "album": 1
+        "album": 24,
+        "ep": 1
       },
       "earliestYear": 1982,
-      "latestYear": 1982,
+      "latestYear": 2010,
       "commonCoreGenres": [
         "pop"
       ],
       "albumIds": [
-        "album:1974794"
+        "album:1974794",
+        "album:184153",
+        "album:184156",
+        "album:184162",
+        "album:184166",
+        "album:184178",
+        "album:184182",
+        "album:184186",
+        "album:184190",
+        "album:184193",
+        "album:184197",
+        "album:184208",
+        "album:184224",
+        "album:184230",
+        "album:184235",
+        "album:184240",
+        "album:184243",
+        "album:184250",
+        "album:184255",
+        "album:184257",
+        "album:184264",
+        "album:184303",
+        "album:184323",
+        "album:184333",
+        "album:334297"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1974794.webp"
+        "/catalog/covers/thumb/1974794.webp",
+        "/catalog/covers/thumb/184153.webp",
+        "/catalog/covers/thumb/184156.webp"
       ]
     },
     {
@@ -6476,20 +10918,35 @@
       "slug": "artist-99384",
       "name": "Radiohead",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 13,
       "albumCountByType": {
-        "album": 1
+        "album": 9,
+        "ep": 4
       },
-      "earliestYear": 1997,
-      "latestYear": 1997,
+      "earliestYear": 1992,
+      "latestYear": 2011,
       "commonCoreGenres": [
         "alternative-rock"
       ],
       "albumIds": [
-        "album:2060534"
+        "album:2060534",
+        "album:430805",
+        "album:430961",
+        "album:430993",
+        "album:431000",
+        "album:1720832",
+        "album:1720833",
+        "album:1720835",
+        "album:1720836",
+        "album:1720840",
+        "album:1720842",
+        "album:1720862",
+        "album:1720876"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/2060534.webp"
+        "/catalog/covers/thumb/2060534.webp",
+        "/catalog/covers/thumb/430805.webp",
+        "/catalog/covers/thumb/430961.webp"
       ]
     },
     {
@@ -6588,25 +11045,84 @@
       ]
     },
     {
-      "artistId": "netease-artist:99990",
-      "neteaseArtistId": "99990",
-      "slug": "artist-99990",
-      "name": "Sigur Rós",
+      "artistId": "netease-artist:74623",
+      "neteaseArtistId": "74623",
+      "slug": "artist-74623",
+      "name": "Shakira",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 1999,
-      "latestYear": 1999,
+      "earliestYear": 2007,
+      "latestYear": 2007,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:220768"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/220768.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:2523",
+      "neteaseArtistId": "2523",
+      "slug": "artist-2523",
+      "name": "SHAO",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2008,
+      "latestYear": 2008,
+      "commonCoreGenres": [
+        "electronic",
+        "experimental-rock"
+      ],
+      "albumIds": [
+        "album:19186"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/19186.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "slug": "artist-99990",
+      "name": "Sigur Rós",
+      "aliases": [],
+      "albumCount": 12,
+      "albumCountByType": {
+        "album": 8,
+        "ep": 4
+      },
+      "earliestYear": 1997,
+      "latestYear": 2013,
       "commonCoreGenres": [
         "post-rock"
       ],
       "albumIds": [
-        "album:2029087"
+        "album:2029087",
+        "album:432389",
+        "album:432397",
+        "album:432403",
+        "album:432431",
+        "album:432437",
+        "album:432445",
+        "album:432455",
+        "album:432460",
+        "album:432463",
+        "album:432471",
+        "album:432476"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/2029087.webp"
+        "/catalog/covers/thumb/2029087.webp",
+        "/catalog/covers/thumb/432389.webp",
+        "/catalog/covers/thumb/432397.webp"
       ]
     },
     {
@@ -6659,20 +11175,55 @@
       "slug": "artist-100003",
       "name": "Slowdive",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 11,
       "albumCountByType": {
-        "album": 1
+        "album": 8,
+        "ep": 3
       },
-      "earliestYear": 1993,
-      "latestYear": 1993,
+      "earliestYear": 1991,
+      "latestYear": 2009,
       "commonCoreGenres": [
         "dream-pop"
       ],
       "albumIds": [
-        "album:1761243"
+        "album:1761243",
+        "album:432630",
+        "album:432639",
+        "album:432647",
+        "album:432652",
+        "album:432657",
+        "album:432660",
+        "album:432662",
+        "album:432675",
+        "album:1761247",
+        "album:1761254"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1761243.webp"
+        "/catalog/covers/thumb/1761243.webp",
+        "/catalog/covers/thumb/432630.webp",
+        "/catalog/covers/thumb/432639.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:74613",
+      "neteaseArtistId": "74613",
+      "slug": "artist-74613",
+      "name": "Sophie Zelmani",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 2004,
+      "latestYear": 2004,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:489986"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/489986.webp"
       ]
     },
     {
@@ -6681,20 +11232,33 @@
       "slug": "artist-74643",
       "name": "Spiritualized",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 11,
       "albumCountByType": {
-        "album": 1
+        "album": 10,
+        "ep": 1
       },
-      "earliestYear": 1997,
-      "latestYear": 1997,
+      "earliestYear": 1992,
+      "latestYear": 2012,
       "commonCoreGenres": [
         "rock"
       ],
       "albumIds": [
-        "album:1757603"
+        "album:1757603",
+        "album:345487",
+        "album:1757599",
+        "album:1757600",
+        "album:1757601",
+        "album:1757602",
+        "album:1757608",
+        "album:1757609",
+        "album:1757610",
+        "album:1757611",
+        "album:1757616"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/1757603.webp"
+        "/catalog/covers/thumb/1757603.webp",
+        "/catalog/covers/thumb/345487.webp",
+        "/catalog/covers/thumb/1757599.webp"
       ]
     },
     {
@@ -6703,20 +11267,22 @@
       "slug": "artist-75252",
       "name": "Sweet Trip",
       "aliases": [],
-      "albumCount": 1,
+      "albumCount": 2,
       "albumCountByType": {
-        "album": 1
+        "album": 2
       },
       "earliestYear": 2003,
-      "latestYear": 2003,
+      "latestYear": 2009,
       "commonCoreGenres": [
         "electronic"
       ],
       "albumIds": [
-        "album:349573"
+        "album:349573",
+        "album:1754503"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/349573.webp"
+        "/catalog/covers/thumb/349573.webp",
+        "/catalog/covers/thumb/1754503.webp"
       ]
     },
     {
@@ -6739,6 +11305,50 @@
       ],
       "previewCovers": [
         "/catalog/covers/thumb/178219441.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:72352",
+      "neteaseArtistId": "72352",
+      "slug": "artist-72352",
+      "name": "The New Power Generation",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1998,
+      "latestYear": 1998,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:184235"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/184235.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:15223382",
+      "neteaseArtistId": "15223382",
+      "slug": "artist-15223382",
+      "name": "The New Power Generation",
+      "aliases": [],
+      "albumCount": 1,
+      "albumCountByType": {
+        "album": 1
+      },
+      "earliestYear": 1992,
+      "latestYear": 1992,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:334297"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/334297.webp"
       ]
     },
     {
@@ -6877,25 +11487,51 @@
       ]
     },
     {
-      "artistId": "netease-artist:44708",
-      "neteaseArtistId": "44708",
-      "slug": "artist-44708",
-      "name": "Tyler, The Creator",
+      "artistId": "netease-artist:12985",
+      "neteaseArtistId": "12985",
+      "slug": "artist-12985",
+      "name": "Twins",
       "aliases": [],
       "albumCount": 1,
       "albumCountByType": {
         "album": 1
       },
-      "earliestYear": 2017,
+      "earliestYear": 2005,
+      "latestYear": 2005,
+      "commonCoreGenres": [
+        "pop"
+      ],
+      "albumIds": [
+        "album:512482"
+      ],
+      "previewCovers": [
+        "/catalog/covers/thumb/512482.webp"
+      ]
+    },
+    {
+      "artistId": "netease-artist:44708",
+      "neteaseArtistId": "44708",
+      "slug": "artist-44708",
+      "name": "Tyler, The Creator",
+      "aliases": [],
+      "albumCount": 3,
+      "albumCountByType": {
+        "album": 3
+      },
+      "earliestYear": 2009,
       "latestYear": 2017,
       "commonCoreGenres": [
         "hip-hop"
       ],
       "albumIds": [
-        "album:35745181"
+        "album:35745181",
+        "album:205196",
+        "album:1769995"
       ],
       "previewCovers": [
-        "/catalog/covers/thumb/35745181.webp"
+        "/catalog/covers/thumb/35745181.webp",
+        "/catalog/covers/thumb/205196.webp",
+        "/catalog/covers/thumb/1769995.webp"
       ]
     },
     {

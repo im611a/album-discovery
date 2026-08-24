@@ -1,0 +1,136 @@
+{
+  "internalId": "album:220772",
+  "id": "album:220772",
+  "neteaseAlbumId": "220772",
+  "slug": "irreplaceable-remixes",
+  "title": "Irreplaceable (remixes)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2007-03-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220772.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220772.webp",
+    "alt": "《Irreplaceable (remixes)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188865",
+      "neteaseTrackId": "2188865",
+      "title": "Irreplaceable (Ralphi & Craig Club Radio Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 248894
+    },
+    {
+      "id": "netease-track:2188870",
+      "neteaseTrackId": "2188870",
+      "title": "Irreplaceable (Ralphi & Craig Club Voc Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 531252
+    },
+    {
+      "id": "netease-track:2188875",
+      "neteaseTrackId": "2188875",
+      "title": "Irreplaceable (Ralphi Rosario Dub Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Ralphi Rosario"
+      ],
+      "durationMs": 567248
+    },
+    {
+      "id": "netease-track:2188880",
+      "neteaseTrackId": "2188880",
+      "title": "Irreplaceable (Maurice Joshua Remix Edit)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Maurice Joshua"
+      ],
+      "durationMs": 241092
+    },
+    {
+      "id": "netease-track:2188885",
+      "neteaseTrackId": "2188885",
+      "title": "Irreplaceable (Maurice Joshua Club Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Maurice Joshua"
+      ],
+      "durationMs": 426788
+    },
+    {
+      "id": "netease-track:2188888",
+      "neteaseTrackId": "2188888",
+      "title": "Irreplaceable (fetauring Ghostface Killah)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Ghostface Killah"
+      ],
+      "durationMs": 285094
+    },
+    {
+      "id": "netease-track:2188891",
+      "neteaseTrackId": "2188891",
+      "title": "Irreplaceable (DJ Speedy Remix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Speedy"
+      ],
+      "durationMs": 260783
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=220772",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Irreplaceable (remixes) Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

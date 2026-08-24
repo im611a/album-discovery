@@ -1,0 +1,209 @@
+{
+  "internalId": "album:140987",
+  "id": "album:140987",
+  "neteaseAlbumId": "140987",
+  "slug": "nostalgia-ultra",
+  "title": "Nostalgia/Ultra",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:33727",
+      "neteaseArtistId": "33727",
+      "name": "Frank Ocean"
+    }
+  ],
+  "releaseDate": "2011-02-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/140987.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/140987.webp",
+    "alt": "《Nostalgia/Ultra》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1372157",
+      "neteaseTrackId": "1372157",
+      "title": "StreetFighter",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 22220
+    },
+    {
+      "id": "netease-track:1372158",
+      "neteaseTrackId": "1372158",
+      "title": "Strawberry Swing",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean",
+        "Chris Martin"
+      ],
+      "durationMs": 235356
+    },
+    {
+      "id": "netease-track:1372162",
+      "neteaseTrackId": "1372162",
+      "title": "Novacane",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 302856
+    },
+    {
+      "id": "netease-track:1372166",
+      "neteaseTrackId": "1372166",
+      "title": "We All Try",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 171803
+    },
+    {
+      "id": "netease-track:1372168",
+      "neteaseTrackId": "1372168",
+      "title": "B*****s talkin' (metal gear solid)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 22103
+    },
+    {
+      "id": "netease-track:1372170",
+      "neteaseTrackId": "1372170",
+      "title": "Songs 4 Women",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 253188
+    },
+    {
+      "id": "netease-track:1372175",
+      "neteaseTrackId": "1372175",
+      "title": "Love Crimes",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 240118
+    },
+    {
+      "id": "netease-track:1372179",
+      "neteaseTrackId": "1372179",
+      "title": "GoldenEye",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 18226
+    },
+    {
+      "id": "netease-track:1372184",
+      "neteaseTrackId": "1372184",
+      "title": "There Will Be Tears",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 194535
+    },
+    {
+      "id": "netease-track:1372189",
+      "neteaseTrackId": "1372189",
+      "title": "Swim Good",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 257226
+    },
+    {
+      "id": "netease-track:1372194",
+      "neteaseTrackId": "1372194",
+      "title": "Dust",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 153459
+    },
+    {
+      "id": "netease-track:1372200",
+      "neteaseTrackId": "1372200",
+      "title": "American Wedding",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 420790
+    },
+    {
+      "id": "netease-track:1372205",
+      "neteaseTrackId": "1372205",
+      "title": "Soul Calibur",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 18365
+    },
+    {
+      "id": "netease-track:1372209",
+      "neteaseTrackId": "1372209",
+      "title": "Nature Feels",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 223908
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=140987",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Nostalgia/Ultra Frank Ocean",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

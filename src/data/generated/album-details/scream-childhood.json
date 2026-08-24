@@ -1,0 +1,130 @@
+{
+  "internalId": "album:172280",
+  "id": "album:172280",
+  "neteaseAlbumId": "172280",
+  "slug": "scream-childhood",
+  "title": "Scream / Childhood",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38853",
+      "neteaseArtistId": "38853",
+      "name": "Michael Jackson"
+    },
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1994-06-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172280.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172280.webp",
+    "alt": "《Scream / Childhood》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1698698",
+      "neteaseTrackId": "1698698",
+      "title": "Scream [Single Edit, No. 2]",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Michael Jackson",
+        "Janet Jackson"
+      ],
+      "durationMs": 241893
+    },
+    {
+      "id": "netease-track:1698702",
+      "neteaseTrackId": "1698702",
+      "title": "Scream [Def Radio Mix]",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Michael Jackson",
+        "Janet Jackson"
+      ],
+      "durationMs": 201840
+    },
+    {
+      "id": "netease-track:1698705",
+      "neteaseTrackId": "1698705",
+      "title": "Scream [Naughty Radio Edit with Rap]",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Michael Jackson",
+        "Janet Jackson"
+      ],
+      "durationMs": 269479
+    },
+    {
+      "id": "netease-track:1698710",
+      "neteaseTrackId": "1698710",
+      "title": "Scream [Dave \"Jam\" Hall's Extended Urban Remix]",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Michael Jackson",
+        "Janet Jackson"
+      ],
+      "durationMs": 312528
+    },
+    {
+      "id": "netease-track:1698715",
+      "neteaseTrackId": "1698715",
+      "title": "Scream [Classic Club Mix]",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Michael Jackson",
+        "Janet Jackson"
+      ],
+      "durationMs": 543007
+    },
+    {
+      "id": "netease-track:1698719",
+      "neteaseTrackId": "1698719",
+      "title": "Childhood [Theme from \"Free Willy 2\"]",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Michael Jackson"
+      ],
+      "durationMs": 266649
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=172280",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Scream / Childhood Michael Jackson Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

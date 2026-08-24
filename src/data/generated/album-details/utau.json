@@ -1,0 +1,291 @@
+{
+  "internalId": "album:60600",
+  "id": "album:60600",
+  "neteaseAlbumId": "60600",
+  "slug": "utau",
+  "title": "UTAU",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:17481",
+      "neteaseArtistId": "17481",
+      "name": "大貫妙子"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2010-11-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "(P) commmons/AEI",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/60600.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/60600.webp",
+    "alt": "《UTAU》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:633056",
+      "neteaseTrackId": "633056",
+      "title": "美貌の青空（Bibo no Aozora）",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 305213
+    },
+    {
+      "id": "netease-track:633058",
+      "neteaseTrackId": "633058",
+      "title": "Tango",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 396413
+    },
+    {
+      "id": "netease-track:633060",
+      "neteaseTrackId": "633060",
+      "title": "３びきのくま（Sambiki no Kuma）",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 261466
+    },
+    {
+      "id": "netease-track:633063",
+      "neteaseTrackId": "633063",
+      "title": "赤とんぼ（Aka Tombo）",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 187093
+    },
+    {
+      "id": "netease-track:633065",
+      "neteaseTrackId": "633065",
+      "title": "夏色の服（Natsuiro no Fuku）",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 222880
+    },
+    {
+      "id": "netease-track:633068",
+      "neteaseTrackId": "633068",
+      "title": "Antinomy",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 365853
+    },
+    {
+      "id": "netease-track:633071",
+      "neteaseTrackId": "633071",
+      "title": "Flower",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 310080
+    },
+    {
+      "id": "netease-track:633075",
+      "neteaseTrackId": "633075",
+      "title": "鉄道員（Poppoya）",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 334080
+    },
+    {
+      "id": "netease-track:633079",
+      "neteaseTrackId": "633079",
+      "title": "a life",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 246520
+    },
+    {
+      "id": "netease-track:633083",
+      "neteaseTrackId": "633083",
+      "title": "四季(Shiki)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 286920
+    },
+    {
+      "id": "netease-track:633087",
+      "neteaseTrackId": "633087",
+      "title": "風の道(Kaze no Michi)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "大貫妙子",
+        "坂本龍一"
+      ],
+      "durationMs": 250853
+    },
+    {
+      "id": "netease-track:633091",
+      "neteaseTrackId": "633091",
+      "title": "美貌の青空（Instrumental）",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 309813
+    },
+    {
+      "id": "netease-track:633095",
+      "neteaseTrackId": "633095",
+      "title": "Tango（Instrumental）",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 283586
+    },
+    {
+      "id": "netease-track:633099",
+      "neteaseTrackId": "633099",
+      "title": "koko（Instrumental）",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 258480
+    },
+    {
+      "id": "netease-track:633103",
+      "neteaseTrackId": "633103",
+      "title": "赤とんぼ(Aka Tombo）（Instrumental）",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 189760
+    },
+    {
+      "id": "netease-track:633107",
+      "neteaseTrackId": "633107",
+      "title": "夏色の服(Natsuiro no Fuku）（Instrumental）",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 252040
+    },
+    {
+      "id": "netease-track:633111",
+      "neteaseTrackId": "633111",
+      "title": "Lost theme - Femme Fatale（Instrumental）",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 419800
+    },
+    {
+      "id": "netease-track:633114",
+      "neteaseTrackId": "633114",
+      "title": "A flower is not a flower（Instrumental）",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 193480
+    },
+    {
+      "id": "netease-track:633117",
+      "neteaseTrackId": "633117",
+      "title": "Aqua（Instrumental）",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 294546
+    },
+    {
+      "id": "netease-track:633119",
+      "neteaseTrackId": "633119",
+      "title": "Geimori",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 571906
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=60600",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "UTAU 大貫妙子 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

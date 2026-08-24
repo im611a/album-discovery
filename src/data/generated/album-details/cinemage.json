@@ -1,0 +1,121 @@
+{
+  "internalId": "album:47697",
+  "id": "album:47697",
+  "neteaseAlbumId": "47697",
+  "slug": "cinemage",
+  "title": "Cinemage",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2000-02-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47697.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47697.webp",
+    "alt": "《Cinemage》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:499658",
+      "neteaseTrackId": "499658",
+      "title": "Forbidden Colours",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "David Sylvian"
+      ],
+      "durationMs": 288000
+    },
+    {
+      "id": "netease-track:499662",
+      "neteaseTrackId": "499662",
+      "title": "Last Emperor",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 318000
+    },
+    {
+      "id": "netease-track:499666",
+      "neteaseTrackId": "499666",
+      "title": "Little Buddha",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 527000
+    },
+    {
+      "id": "netease-track:499670",
+      "neteaseTrackId": "499670",
+      "title": "Wuthering Heights",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 420000
+    },
+    {
+      "id": "netease-track:499676",
+      "neteaseTrackId": "499676",
+      "title": "Replica",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 290000
+    },
+    {
+      "id": "netease-track:499682",
+      "neteaseTrackId": "499682",
+      "title": "Mar Mediterrani",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 1036000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=47697",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Cinemage 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

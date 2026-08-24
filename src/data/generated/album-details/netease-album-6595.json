@@ -1,0 +1,164 @@
+{
+  "internalId": "album:6595",
+  "id": "album:6595",
+  "neteaseAlbumId": "6595",
+  "slug": "netease-album-6595",
+  "title": "打得火热",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2000-09-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "英皇唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6595.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6595.webp",
+    "alt": "《打得火热》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67467",
+      "neteaseTrackId": "67467",
+      "title": "K歌之王",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 222351
+    },
+    {
+      "id": "netease-track:67471",
+      "neteaseTrackId": "67471",
+      "title": "打得火热",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 194115
+    },
+    {
+      "id": "netease-track:67475",
+      "neteaseTrackId": "67475",
+      "title": "新广告歌",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 207088
+    },
+    {
+      "id": "netease-track:67480",
+      "neteaseTrackId": "67480",
+      "title": "低等动物",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 258000
+    },
+    {
+      "id": "netease-track:67485",
+      "neteaseTrackId": "67485",
+      "title": "绵绵",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 244066
+    },
+    {
+      "id": "netease-track:67490",
+      "neteaseTrackId": "67490",
+      "title": "美丽谎言",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 250934
+    },
+    {
+      "id": "netease-track:67495",
+      "neteaseTrackId": "67495",
+      "title": "吹微风",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 219229
+    },
+    {
+      "id": "netease-track:67498",
+      "neteaseTrackId": "67498",
+      "title": "温室效应",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 238793
+    },
+    {
+      "id": "netease-track:67501",
+      "neteaseTrackId": "67501",
+      "title": "活跃症",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 323294
+    },
+    {
+      "id": "netease-track:67504",
+      "neteaseTrackId": "67504",
+      "title": "下周同样时间(再见)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 197653
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6595",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "打得火热 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

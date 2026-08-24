@@ -1,0 +1,98 @@
+{
+  "internalId": "album:19097",
+  "id": "album:19097",
+  "neteaseAlbumId": "19097",
+  "slug": "netease-album-19097",
+  "title": "Leslie Remix 行动",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1988-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "新艺宝",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19097.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19097.webp",
+    "alt": "《Leslie Remix 行动》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188688",
+      "neteaseTrackId": "188688",
+      "title": "爱的凶手",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 331000
+    },
+    {
+      "id": "netease-track:188690",
+      "neteaseTrackId": "188690",
+      "title": "热辣辣",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 301040
+    },
+    {
+      "id": "netease-track:188692",
+      "neteaseTrackId": "188692",
+      "title": "共创真善美",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 212300
+    },
+    {
+      "id": "netease-track:188694",
+      "neteaseTrackId": "188694",
+      "title": "爱的凶手(Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 243000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=19097",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Leslie Remix 行动 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

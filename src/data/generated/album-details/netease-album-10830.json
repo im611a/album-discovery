@@ -1,0 +1,164 @@
+{
+  "internalId": "album:10830",
+  "id": "album:10830",
+  "neteaseAlbumId": "10830",
+  "slug": "netease-album-10830",
+  "title": "Baby是我",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3689",
+      "neteaseArtistId": "3689",
+      "name": "李玖哲"
+    }
+  ],
+  "releaseDate": "2006-04-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10830.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10830.webp",
+    "alt": "《Baby是我》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109237",
+      "neteaseTrackId": "109237",
+      "title": "我会好好过",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 248659
+    },
+    {
+      "id": "netease-track:109241",
+      "neteaseTrackId": "109241",
+      "title": "Baby 是我",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:109245",
+      "neteaseTrackId": "109245",
+      "title": "再见",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 221000
+    },
+    {
+      "id": "netease-track:109248",
+      "neteaseTrackId": "109248",
+      "title": "给你抱抱",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 196000
+    },
+    {
+      "id": "netease-track:109251",
+      "neteaseTrackId": "109251",
+      "title": "刚刚好",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 241000
+    },
+    {
+      "id": "netease-track:109253",
+      "neteaseTrackId": "109253",
+      "title": "我忘了",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 273000
+    },
+    {
+      "id": "netease-track:109256",
+      "neteaseTrackId": "109256",
+      "title": "只牵你的手",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 256522
+    },
+    {
+      "id": "netease-track:109259",
+      "neteaseTrackId": "109259",
+      "title": "Let Me Know",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:109264",
+      "neteaseTrackId": "109264",
+      "title": "依赖",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:109268",
+      "neteaseTrackId": "109268",
+      "title": "最后一首歌",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 227000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=10830",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Baby是我 李玖哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "internalId": "album:222193",
+  "id": "album:222193",
+  "neteaseAlbumId": "222193",
+  "slug": "aspiration",
+  "title": "Aspiration",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2011-03-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222193.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222193.webp",
+    "alt": "《Aspiration》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205268",
+      "neteaseTrackId": "2205268",
+      "title": "Pattabhi Jois",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 747000
+    },
+    {
+      "id": "netease-track:2205270",
+      "neteaseTrackId": "2205270",
+      "title": "Bliss: The Eternal Now",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 467000
+    },
+    {
+      "id": "netease-track:2205272",
+      "neteaseTrackId": "2205272",
+      "title": "Searching For You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 423000
+    },
+    {
+      "id": "netease-track:2205274",
+      "neteaseTrackId": "2205274",
+      "title": "The Hidden Garden/Naima",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 326000
+    },
+    {
+      "id": "netease-track:2205276",
+      "neteaseTrackId": "2205276",
+      "title": "Time",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 481000
+    },
+    {
+      "id": "netease-track:2205278",
+      "neteaseTrackId": "2205278",
+      "title": "Peace in Essaouira (for Sonny Sharrock)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 441000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=222193",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Aspiration Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

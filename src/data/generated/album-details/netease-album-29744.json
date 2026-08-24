@@ -1,0 +1,231 @@
+{
+  "internalId": "album:29744",
+  "id": "album:29744",
+  "neteaseAlbumId": "29744",
+  "slug": "netease-album-29744",
+  "title": "菲卖品",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1997-09-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29744.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29744.webp",
+    "alt": "《菲卖品》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300104",
+      "neteaseTrackId": "300104",
+      "title": "不得了",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 231293
+    },
+    {
+      "id": "netease-track:300106",
+      "neteaseTrackId": "300106",
+      "title": "我愿意",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 269573
+    },
+    {
+      "id": "netease-track:300108",
+      "neteaseTrackId": "300108",
+      "title": "执迷不悔",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 322960
+    },
+    {
+      "id": "netease-track:300110",
+      "neteaseTrackId": "300110",
+      "title": "天空",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261040
+    },
+    {
+      "id": "netease-track:300112",
+      "neteaseTrackId": "300112",
+      "title": "天使",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266160
+    },
+    {
+      "id": "netease-track:300114",
+      "neteaseTrackId": "300114",
+      "title": "你在我心中",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261333
+    },
+    {
+      "id": "netease-track:300115",
+      "neteaseTrackId": "300115",
+      "title": "雪中莲",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 206573
+    },
+    {
+      "id": "netease-track:300116",
+      "neteaseTrackId": "300116",
+      "title": "但愿人长久",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 258293
+    },
+    {
+      "id": "netease-track:300117",
+      "neteaseTrackId": "300117",
+      "title": "浮躁",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 179266
+    },
+    {
+      "id": "netease-track:300119",
+      "neteaseTrackId": "300119",
+      "title": "棋子",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 288733
+    },
+    {
+      "id": "netease-track:300121",
+      "neteaseTrackId": "300121",
+      "title": "不变",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 287226
+    },
+    {
+      "id": "netease-track:300123",
+      "neteaseTrackId": "300123",
+      "title": "流星",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 241200
+    },
+    {
+      "id": "netease-track:300125",
+      "neteaseTrackId": "300125",
+      "title": "誓言",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 262226
+    },
+    {
+      "id": "netease-track:300127",
+      "neteaseTrackId": "300127",
+      "title": "冷战",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 250240
+    },
+    {
+      "id": "netease-track:300129",
+      "neteaseTrackId": "300129",
+      "title": "矜持",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 279466
+    },
+    {
+      "id": "netease-track:300131",
+      "neteaseTrackId": "300131",
+      "title": "无常",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 156440
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=29744",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "菲卖品 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

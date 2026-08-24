@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1720862",
+  "id": "album:1720862",
+  "neteaseAlbumId": "1720862",
+  "slug": "my-iron-lung",
+  "title": "My Iron Lung",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "1994-09-25",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1720862.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1720862.webp",
+    "alt": "《My Iron Lung》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18795665",
+      "neteaseTrackId": "18795665",
+      "title": "My Iron Lung",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 277000
+    },
+    {
+      "id": "netease-track:18795666",
+      "neteaseTrackId": "18795666",
+      "title": "The Trickster",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:18795667",
+      "neteaseTrackId": "18795667",
+      "title": "Punchdrunk Lovesick Singalong",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:18795668",
+      "neteaseTrackId": "18795668",
+      "title": "Lozenge Of Love",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 136000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1720862",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "My Iron Lung Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

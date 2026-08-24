@@ -1,0 +1,180 @@
+{
+  "internalId": "album:6661",
+  "id": "album:6661",
+  "neteaseAlbumId": "6661",
+  "slug": "netease-album-6661",
+  "title": "重庆森林 电影原声大碟",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2135",
+      "neteaseArtistId": "2135",
+      "name": "陈勋奇"
+    },
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1994-01-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "新艺宝",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6661.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6661.webp",
+    "alt": "《重庆森林 电影原声大碟》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:68350",
+      "neteaseTrackId": "68350",
+      "title": "梦中人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 265360
+    },
+    {
+      "id": "netease-track:68353",
+      "neteaseTrackId": "68353",
+      "title": "追逐一班行而上列车",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 183000
+    },
+    {
+      "id": "netease-track:68356",
+      "neteaseTrackId": "68356",
+      "title": "感性森林",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 198333
+    },
+    {
+      "id": "netease-track:68359",
+      "neteaseTrackId": "68359",
+      "title": "太空内的快活",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 178813
+    },
+    {
+      "id": "netease-track:68362",
+      "neteaseTrackId": "68362",
+      "title": "汗、雨、泪",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 309053
+    },
+    {
+      "id": "netease-track:68365",
+      "neteaseTrackId": "68365",
+      "title": "夜餐",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 309973
+    },
+    {
+      "id": "netease-track:68368",
+      "neteaseTrackId": "68368",
+      "title": "残酷仙境节奏",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 131866
+    },
+    {
+      "id": "netease-track:68370",
+      "neteaseTrackId": "68370",
+      "title": "硬摇硬滚的游魂",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 132720
+    },
+    {
+      "id": "netease-track:68372",
+      "neteaseTrackId": "68372",
+      "title": "伤心短篇",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 91733
+    },
+    {
+      "id": "netease-track:68374",
+      "neteaseTrackId": "68374",
+      "title": "分手前最后一声再见",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 98680
+    },
+    {
+      "id": "netease-track:68377",
+      "neteaseTrackId": "68377",
+      "title": "胡思乱想",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 232373
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=6661",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "重庆森林 电影原声大碟 陈勋奇 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

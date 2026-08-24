@@ -1,0 +1,186 @@
+{
+  "internalId": "album:19003",
+  "id": "album:19003",
+  "neteaseAlbumId": "19003",
+  "slug": "netease-album-19003",
+  "title": "大热",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "2000-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19003.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19003.webp",
+    "alt": "《大热》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187374",
+      "neteaseTrackId": "187374",
+      "title": "我",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 224173
+    },
+    {
+      "id": "netease-track:187378",
+      "neteaseTrackId": "187378",
+      "title": "大热",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 218867
+    },
+    {
+      "id": "netease-track:187382",
+      "neteaseTrackId": "187382",
+      "title": "侯斯顿之恋",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 256933
+    },
+    {
+      "id": "netease-track:187387",
+      "neteaseTrackId": "187387",
+      "title": "身边有人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 249133
+    },
+    {
+      "id": "netease-track:187392",
+      "neteaseTrackId": "187392",
+      "title": "奇迹",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 291440
+    },
+    {
+      "id": "netease-track:187397",
+      "neteaseTrackId": "187397",
+      "title": "Don't Lie To Me",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 259733
+    },
+    {
+      "id": "netease-track:187402",
+      "neteaseTrackId": "187402",
+      "title": "午后红茶",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 315760
+    },
+    {
+      "id": "netease-track:187405",
+      "neteaseTrackId": "187405",
+      "title": "没有爱",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 253107
+    },
+    {
+      "id": "netease-track:187408",
+      "neteaseTrackId": "187408",
+      "title": "愿你决定",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 240933
+    },
+    {
+      "id": "netease-track:187411",
+      "neteaseTrackId": "187411",
+      "title": "没有烟总有花",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 235227
+    },
+    {
+      "id": "netease-track:187414",
+      "neteaseTrackId": "187414",
+      "title": "发烧",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 219773
+    },
+    {
+      "id": "netease-track:187417",
+      "neteaseTrackId": "187417",
+      "title": "我(国)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 224466
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=19003",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "大热 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "internalId": "album:29557",
+  "id": "album:29557",
+  "neteaseAlbumId": "29557",
+  "slug": "netease-album-29557",
+  "title": "泡泡",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9609",
+      "neteaseArtistId": "9609",
+      "name": "魏如萱"
+    }
+  ],
+  "releaseDate": "2008-07-10",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29557.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29557.webp",
+    "alt": "《泡泡》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297782",
+      "neteaseTrackId": "297782",
+      "title": "等等等",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 201061
+    },
+    {
+      "id": "netease-track:297784",
+      "neteaseTrackId": "297784",
+      "title": "我在想唱一首歌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 85170
+    },
+    {
+      "id": "netease-track:297786",
+      "neteaseTrackId": "297786",
+      "title": "泡泡",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 202919
+    },
+    {
+      "id": "netease-track:297788",
+      "neteaseTrackId": "297788",
+      "title": "买你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 206053
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=29557",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "泡泡 魏如萱",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "internalId": "album:29752",
+  "id": "album:29752",
+  "neteaseAlbumId": "29752",
+  "slug": "di-dar",
+  "title": "Di-Dar",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1995-12-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29752.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29752.webp",
+    "alt": "《Di-Dar》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300192",
+      "neteaseTrackId": "300192",
+      "title": "Di-Dar",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 151346
+    },
+    {
+      "id": "netease-track:300193",
+      "neteaseTrackId": "300193",
+      "title": "假期",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 234133
+    },
+    {
+      "id": "netease-track:300195",
+      "neteaseTrackId": "300195",
+      "title": "迷路",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 306360
+    },
+    {
+      "id": "netease-track:300197",
+      "neteaseTrackId": "300197",
+      "title": "暧昧",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 280666
+    },
+    {
+      "id": "netease-track:300199",
+      "neteaseTrackId": "300199",
+      "title": "或者",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 267333
+    },
+    {
+      "id": "netease-track:300201",
+      "neteaseTrackId": "300201",
+      "title": "我想",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 219333
+    },
+    {
+      "id": "netease-track:300203",
+      "neteaseTrackId": "300203",
+      "title": "享受",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 309560
+    },
+    {
+      "id": "netease-track:300205",
+      "neteaseTrackId": "300205",
+      "title": "一半",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266266
+    },
+    {
+      "id": "netease-track:300207",
+      "neteaseTrackId": "300207",
+      "title": "无题",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 260173
+    },
+    {
+      "id": "netease-track:300210",
+      "neteaseTrackId": "300210",
+      "title": "流星",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 284240
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29752",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Di-Dar 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

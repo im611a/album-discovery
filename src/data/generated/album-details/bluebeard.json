@@ -1,0 +1,98 @@
+{
+  "internalId": "album:403197",
+  "id": "album:403197",
+  "neteaseAlbumId": "403197",
+  "slug": "bluebeard",
+  "title": "Bluebeard",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1994-02-06",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Fontana/(UK/ROW)/Capitol(US)",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/403197.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/403197.webp",
+    "alt": "《Bluebeard》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3986430",
+      "neteaseTrackId": "3986430",
+      "title": "Bluebeard",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 234962
+    },
+    {
+      "id": "netease-track:3986434",
+      "neteaseTrackId": "3986434",
+      "title": "Three Swept",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 216573
+    },
+    {
+      "id": "netease-track:3986438",
+      "neteaseTrackId": "3986438",
+      "title": "Ice-Pulse",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 226332
+    },
+    {
+      "id": "netease-track:3986442",
+      "neteaseTrackId": "3986442",
+      "title": "Bluebeard (Acoustic Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 188466
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=403197",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Bluebeard Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

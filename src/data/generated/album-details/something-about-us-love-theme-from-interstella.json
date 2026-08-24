@@ -1,0 +1,98 @@
+{
+  "internalId": "album:406274",
+  "id": "album:406274",
+  "neteaseAlbumId": "406274",
+  "slug": "something-about-us-love-theme-from-interstella",
+  "title": "Something About Us (Love Theme from Interstella)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:90513",
+      "neteaseArtistId": "90513",
+      "name": "Daft Punk"
+    }
+  ],
+  "releaseDate": "2003-11-13",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/406274.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/406274.webp",
+    "alt": "《Something About Us (Love Theme from Interstella)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4017457",
+      "neteaseTrackId": "4017457",
+      "title": "Something About Us (Love Theme from Interstella 5555)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 134933
+    },
+    {
+      "id": "netease-track:4017461",
+      "neteaseTrackId": "4017461",
+      "title": "Veridis Quo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 345186
+    },
+    {
+      "id": "netease-track:4017465",
+      "neteaseTrackId": "4017465",
+      "title": "Voyager (Dominique Torti's Wild Style Edit)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 392733
+    },
+    {
+      "id": "netease-track:4017469",
+      "neteaseTrackId": "4017469",
+      "title": "Something About Us",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 232666
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=406274",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Something About Us (Love Theme from Interstella) Daft Punk",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

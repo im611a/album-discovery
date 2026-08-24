@@ -1,0 +1,115 @@
+{
+  "internalId": "album:1706242",
+  "id": "album:1706242",
+  "neteaseAlbumId": "1706242",
+  "slug": "got-til-it-s-gone",
+  "title": "Got 'Til It's Gone",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1996-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706242.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706242.webp",
+    "alt": "《Got 'Til It's Gone》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18589432",
+      "neteaseTrackId": "18589432",
+      "title": "Got 'Til It's Gone (Radio Edit)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Q-Tip",
+        "Joni Mitchell"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:18589433",
+      "neteaseTrackId": "18589433",
+      "title": "Got 'Til It's Gone (Mellow Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 311727
+    },
+    {
+      "id": "netease-track:18589434",
+      "neteaseTrackId": "18589434",
+      "title": "Got 'Til It's Gone (Nellee Hooper Master Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Q-Tip",
+        "Joni Mitchell"
+      ],
+      "durationMs": 259761
+    },
+    {
+      "id": "netease-track:18589435",
+      "neteaseTrackId": "18589435",
+      "title": "Got 'Til It's Gone (Mellow Mix Edit)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 230109
+    },
+    {
+      "id": "netease-track:18589436",
+      "neteaseTrackId": "18589436",
+      "title": "Got 'Til It's Gone (Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Q-Tip",
+        "Joni Mitchell"
+      ],
+      "durationMs": 242133
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=1706242",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Got 'Til It's Gone Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

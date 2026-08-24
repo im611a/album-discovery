@@ -1,0 +1,165 @@
+{
+  "internalId": "album:27558",
+  "id": "album:27558",
+  "neteaseAlbumId": "27558",
+  "slug": "netease-album-27558",
+  "title": "十二楼的莫文蔚",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2000-10-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27558.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27558.webp",
+    "alt": "《十二楼的莫文蔚》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277584",
+      "neteaseTrackId": "277584",
+      "title": "十二楼",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 313333
+    },
+    {
+      "id": "netease-track:277586",
+      "neteaseTrackId": "277586",
+      "title": "寂寞的恋人啊",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 248360
+    },
+    {
+      "id": "netease-track:277588",
+      "neteaseTrackId": "277588",
+      "title": "因为所以",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 230733
+    },
+    {
+      "id": "netease-track:277592",
+      "neteaseTrackId": "277592",
+      "title": "懒得管",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 177187
+    },
+    {
+      "id": "netease-track:277596",
+      "neteaseTrackId": "277596",
+      "title": "爱情中毒",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 196789
+    },
+    {
+      "id": "netease-track:277600",
+      "neteaseTrackId": "277600",
+      "title": "起了毛球",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 219173
+    },
+    {
+      "id": "netease-track:277604",
+      "neteaseTrackId": "277604",
+      "title": "两个女孩",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 239333
+    },
+    {
+      "id": "netease-track:277608",
+      "neteaseTrackId": "277608",
+      "title": "你的天堂",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 217269
+    },
+    {
+      "id": "netease-track:277612",
+      "neteaseTrackId": "277612",
+      "title": "月蚀",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 254466
+    },
+    {
+      "id": "netease-track:277615",
+      "neteaseTrackId": "277615",
+      "title": "遇见另一个自己",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "李宗盛"
+      ],
+      "durationMs": 313422
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=27558",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "十二楼的莫文蔚 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

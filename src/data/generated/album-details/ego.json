@@ -1,0 +1,99 @@
+{
+  "internalId": "album:220712",
+  "id": "album:220712",
+  "neteaseAlbumId": "220712",
+  "slug": "ego",
+  "title": "Ego",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2009-05-18",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220712.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220712.webp",
+    "alt": "《Ego》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188186",
+      "neteaseTrackId": "2188186",
+      "title": "Ego (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 236360
+    },
+    {
+      "id": "netease-track:2188189",
+      "neteaseTrackId": "2188189",
+      "title": "Ego (Instrumental)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 238000
+    },
+    {
+      "id": "netease-track:2188192",
+      "neteaseTrackId": "2188192",
+      "title": "Ego (Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Kanye West"
+      ],
+      "durationMs": 289149
+    },
+    {
+      "id": "netease-track:2188195",
+      "neteaseTrackId": "2188195",
+      "title": "Ego (Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 221000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=220712",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ego Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

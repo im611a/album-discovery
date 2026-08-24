@@ -1,0 +1,220 @@
+{
+  "internalId": "album:29805",
+  "id": "album:29805",
+  "neteaseAlbumId": "29805",
+  "slug": "netease-album-29805",
+  "title": "王菲珍藏集",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2004-10-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29805.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29805.webp",
+    "alt": "《王菲珍藏集》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300780",
+      "neteaseTrackId": "300780",
+      "title": "女孩",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 216147
+    },
+    {
+      "id": "netease-track:300783",
+      "neteaseTrackId": "300783",
+      "title": "往事",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 254866
+    },
+    {
+      "id": "netease-track:300786",
+      "neteaseTrackId": "300786",
+      "title": "潇洒地走",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 184627
+    },
+    {
+      "id": "netease-track:300789",
+      "neteaseTrackId": "300789",
+      "title": "想让你知道",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 167613
+    },
+    {
+      "id": "netease-track:300791",
+      "neteaseTrackId": "300791",
+      "title": "月光下的恋情",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 168160
+    },
+    {
+      "id": "netease-track:300793",
+      "neteaseTrackId": "300793",
+      "title": "心墙",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 254986
+    },
+    {
+      "id": "netease-track:300795",
+      "neteaseTrackId": "300795",
+      "title": "请你猜一猜",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 175914
+    },
+    {
+      "id": "netease-track:300796",
+      "neteaseTrackId": "300796",
+      "title": "多梦的童年",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 187347
+    },
+    {
+      "id": "netease-track:300797",
+      "neteaseTrackId": "300797",
+      "title": "我们俩",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 194360
+    },
+    {
+      "id": "netease-track:300798",
+      "neteaseTrackId": "300798",
+      "title": "你在我身边",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 143906
+    },
+    {
+      "id": "netease-track:300799",
+      "neteaseTrackId": "300799",
+      "title": "请你别说",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 222134
+    },
+    {
+      "id": "netease-track:300801",
+      "neteaseTrackId": "300801",
+      "title": "除了你",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 235533
+    },
+    {
+      "id": "netease-track:300803",
+      "neteaseTrackId": "300803",
+      "title": "说一句",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 153040
+    },
+    {
+      "id": "netease-track:300805",
+      "neteaseTrackId": "300805",
+      "title": "最后的告白",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 154427
+    },
+    {
+      "id": "netease-track:300807",
+      "neteaseTrackId": "300807",
+      "title": "别了，朋友",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 168172
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=29805",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "王菲珍藏集 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

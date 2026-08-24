@@ -1,0 +1,120 @@
+{
+  "internalId": "album:151337",
+  "id": "album:151337",
+  "neteaseAlbumId": "151337",
+  "slug": "that-s-the-way-love-goes",
+  "title": "That's the Way Love Goes",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1993-04-22",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151337.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151337.webp",
+    "alt": "《That's the Way Love Goes》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480696",
+      "neteaseTrackId": "1480696",
+      "title": "That's The Way Love Goes (CJ R&B 7'' Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 250000
+    },
+    {
+      "id": "netease-track:1480701",
+      "neteaseTrackId": "1480701",
+      "title": "That's The Way Love Goes (CJ R&B 12'' Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 378000
+    },
+    {
+      "id": "netease-track:1480706",
+      "neteaseTrackId": "1480706",
+      "title": "That's The Way Love Goes (CJ FXTC Club Mix 12'')",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 384000
+    },
+    {
+      "id": "netease-track:1480711",
+      "neteaseTrackId": "1480711",
+      "title": "That's The Way Love Goes (Macapella)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 383000
+    },
+    {
+      "id": "netease-track:1480716",
+      "neteaseTrackId": "1480716",
+      "title": "That's The Way Love Goes (CJ FXTC Instrumental)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 375000
+    },
+    {
+      "id": "netease-track:1480722",
+      "neteaseTrackId": "1480722",
+      "title": "That's The Way Love Goes (LP Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 268068
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=151337",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "That's the Way Love Goes Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

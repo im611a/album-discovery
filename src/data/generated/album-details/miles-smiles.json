@@ -1,0 +1,121 @@
+{
+  "internalId": "album:1970619",
+  "id": "album:1970619",
+  "neteaseAlbumId": "1970619",
+  "slug": "miles-smiles",
+  "title": "Miles Smiles",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1966-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970619.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970619.webp",
+    "alt": "《Miles Smiles》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341255",
+      "neteaseTrackId": "21341255",
+      "title": "Orbits",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 275690
+    },
+    {
+      "id": "netease-track:21341256",
+      "neteaseTrackId": "21341256",
+      "title": "Circle",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Herbie Hancock"
+      ],
+      "durationMs": 354000
+    },
+    {
+      "id": "netease-track:21341257",
+      "neteaseTrackId": "21341257",
+      "title": "Footprints",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 585955
+    },
+    {
+      "id": "netease-track:21341258",
+      "neteaseTrackId": "21341258",
+      "title": "Dolores",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 379181
+    },
+    {
+      "id": "netease-track:21341259",
+      "neteaseTrackId": "21341259",
+      "title": "Freedom Jazz Dance (Evolution of the Groove)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 432309
+    },
+    {
+      "id": "netease-track:21341260",
+      "neteaseTrackId": "21341260",
+      "title": "Gingerbread Boy",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 463957
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970619",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Smiles Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

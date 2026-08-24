@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1706212",
+  "id": "album:1706212",
+  "neteaseAlbumId": "1706212",
+  "slug": "janet-jackson",
+  "title": "Janet Jackson",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1981-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "A&M",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706212.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706212.webp",
+    "alt": "《Janet Jackson》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18589233",
+      "neteaseTrackId": "18589233",
+      "title": "Say You Do (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 410528
+    },
+    {
+      "id": "netease-track:18589234",
+      "neteaseTrackId": "18589234",
+      "title": "You'll Never Find (A Love Like Mine) (Album Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 251611
+    },
+    {
+      "id": "netease-track:18589235",
+      "neteaseTrackId": "18589235",
+      "title": "Young Love (Album Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 298135
+    },
+    {
+      "id": "netease-track:18589236",
+      "neteaseTrackId": "18589236",
+      "title": "Love And My Best Friend (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 288693
+    },
+    {
+      "id": "netease-track:18589237",
+      "neteaseTrackId": "18589237",
+      "title": "Don't Mess Up This Good Thing (Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 235781
+    },
+    {
+      "id": "netease-track:18589238",
+      "neteaseTrackId": "18589238",
+      "title": "Forever Yours (Album Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 297726
+    },
+    {
+      "id": "netease-track:18589239",
+      "neteaseTrackId": "18589239",
+      "title": "The Magic Is Working (Album Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 248964
+    },
+    {
+      "id": "netease-track:18589240",
+      "neteaseTrackId": "18589240",
+      "title": "Come Give Your Love To Me (Album Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 303830
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1706212",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Janet Jackson Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "internalId": "album:489809",
+  "id": "album:489809",
+  "neteaseAlbumId": "489809",
+  "slug": "netease-album-489809",
+  "title": "1个好爸爸(电影原声音乐)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7893",
+      "neteaseArtistId": "7893",
+      "name": "黄韵玲"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    },
+    {
+      "id": "netease-artist:203110",
+      "neteaseArtistId": "203110",
+      "name": "赖心莹"
+    },
+    {
+      "id": "netease-artist:203119",
+      "neteaseArtistId": "203119",
+      "name": "邱碧盈"
+    }
+  ],
+  "releaseDate": "2008-04-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/489809.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/489809.webp",
+    "alt": "《1个好爸爸(电影原声音乐)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4873318",
+      "neteaseTrackId": "4873318",
+      "title": "我深深期待",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 201533
+    },
+    {
+      "id": "netease-track:4873319",
+      "neteaseTrackId": "4873319",
+      "title": "一个好爸爸",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 161680
+    },
+    {
+      "id": "netease-track:4873320",
+      "neteaseTrackId": "4873320",
+      "title": "触电",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 144933
+    },
+    {
+      "id": "netease-track:4873322",
+      "neteaseTrackId": "4873322",
+      "title": "灰",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 32293
+    },
+    {
+      "id": "netease-track:4873323",
+      "neteaseTrackId": "4873323",
+      "title": "天恩的喜儿",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 68000
+    },
+    {
+      "id": "netease-track:4873324",
+      "neteaseTrackId": "4873324",
+      "title": "夏日假期",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 74746
+    },
+    {
+      "id": "netease-track:4873325",
+      "neteaseTrackId": "4873325",
+      "title": "唱游",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "赖心莹",
+        "邱碧盈"
+      ],
+      "durationMs": 70347
+    },
+    {
+      "id": "netease-track:4873326",
+      "neteaseTrackId": "4873326",
+      "title": "黄色琴房",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 76720
+    },
+    {
+      "id": "netease-track:4873328",
+      "neteaseTrackId": "4873328",
+      "title": "Party",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 67786
+    },
+    {
+      "id": "netease-track:4873329",
+      "neteaseTrackId": "4873329",
+      "title": "我深深期待",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 81613
+    },
+    {
+      "id": "netease-track:4873330",
+      "neteaseTrackId": "4873330",
+      "title": "安静的对话",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 153173
+    },
+    {
+      "id": "netease-track:4873332",
+      "neteaseTrackId": "4873332",
+      "title": "告解",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 118986
+    },
+    {
+      "id": "netease-track:4873333",
+      "neteaseTrackId": "4873333",
+      "title": "BPM",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 151000
+    },
+    {
+      "id": "netease-track:4873334",
+      "neteaseTrackId": "4873334",
+      "title": "兄弟情",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 162168
+    },
+    {
+      "id": "netease-track:4873335",
+      "neteaseTrackId": "4873335",
+      "title": "秘密基地",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 206613
+    },
+    {
+      "id": "netease-track:4873336",
+      "neteaseTrackId": "4873336",
+      "title": "天恩和妈妈",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 134906
+    },
+    {
+      "id": "netease-track:4873337",
+      "neteaseTrackId": "4873337",
+      "title": "黑暗地带",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 200866
+    },
+    {
+      "id": "netease-track:4873338",
+      "neteaseTrackId": "4873338",
+      "title": "The End",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "黄韵玲"
+      ],
+      "durationMs": 124653
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=489809",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "1个好爸爸(电影原声音乐) 黄韵玲 刘若英 赖心莹 邱碧盈",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

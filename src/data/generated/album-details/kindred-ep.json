@@ -1,0 +1,87 @@
+{
+  "internalId": "album:113537",
+  "id": "album:113537",
+  "neteaseAlbumId": "113537",
+  "slug": "kindred-ep",
+  "title": "Kindred EP",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29389",
+      "neteaseArtistId": "29389",
+      "name": "Burial"
+    }
+  ],
+  "releaseDate": "2012-02-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/113537.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/113537.webp",
+    "alt": "《Kindred EP》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1092572",
+      "neteaseTrackId": "1092572",
+      "title": "Kindred",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 686048
+    },
+    {
+      "id": "netease-track:1092575",
+      "neteaseTrackId": "1092575",
+      "title": "Loner",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 448560
+    },
+    {
+      "id": "netease-track:1092578",
+      "neteaseTrackId": "1092578",
+      "title": "Ashtray Wasp",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 705050
+    }
+  ],
+  "trackCount": 3,
+  "externalUrl": "https://music.163.com/#/album?id=113537",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Kindred EP Burial",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

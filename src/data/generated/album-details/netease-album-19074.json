@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19074",
+  "id": "album:19074",
+  "neteaseAlbumId": "19074",
+  "slug": "netease-album-19074",
+  "title": "张国荣经典金曲伴唱音乐 KARAOKE VOL.2",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1990-04-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "世纪唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19074.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19074.webp",
+    "alt": "《张国荣经典金曲伴唱音乐 KARAOKE VOL.2》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188399",
+      "neteaseTrackId": "188399",
+      "title": "风再起时",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:188403",
+      "neteaseTrackId": "188403",
+      "title": "少女心事",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 236000
+    },
+    {
+      "id": "netease-track:188406",
+      "neteaseTrackId": "188406",
+      "title": "谁令你心痴",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 278151
+    },
+    {
+      "id": "netease-track:188409",
+      "neteaseTrackId": "188409",
+      "title": "柔情蜜意",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 189000
+    },
+    {
+      "id": "netease-track:188412",
+      "neteaseTrackId": "188412",
+      "title": "H2O",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248215
+    },
+    {
+      "id": "netease-track:188415",
+      "neteaseTrackId": "188415",
+      "title": "倩女幽魂",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 173000
+    },
+    {
+      "id": "netease-track:188418",
+      "neteaseTrackId": "188418",
+      "title": "沉默是金",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:188420",
+      "neteaseTrackId": "188420",
+      "title": "由零开始",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:188422",
+      "neteaseTrackId": "188422",
+      "title": "想你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 279640
+    },
+    {
+      "id": "netease-track:188424",
+      "neteaseTrackId": "188424",
+      "title": "MONICA",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 227000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19074",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "张国荣经典金曲伴唱音乐 KARAOKE VOL.2 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

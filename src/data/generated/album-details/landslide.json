@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1637051",
+  "id": "album:1637051",
+  "neteaseAlbumId": "1637051",
+  "slug": "landslide",
+  "title": "Landslide",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1998-06-29",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637051.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637051.webp",
+    "alt": "《Landslide》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17786127",
+      "neteaseTrackId": "17786127",
+      "title": "Landslide (Live Album Version/Fade)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 237266
+    },
+    {
+      "id": "netease-track:17786128",
+      "neteaseTrackId": "17786128",
+      "title": "Landslide (Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 206315
+    },
+    {
+      "id": "netease-track:17786129",
+      "neteaseTrackId": "17786129",
+      "title": "Landslide (String Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 210600
+    },
+    {
+      "id": "netease-track:17786130",
+      "neteaseTrackId": "17786130",
+      "title": "Landslide (Analog Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 209466
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1637051",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Landslide Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "internalId": "album:172629",
+  "id": "album:172629",
+  "neteaseAlbumId": "172629",
+  "slug": "diggin",
+  "title": "Diggin'",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1969-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172629.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172629.webp",
+    "alt": "《Diggin'》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1702794",
+      "neteaseTrackId": "1702794",
+      "title": "Dig",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 455026
+    },
+    {
+      "id": "netease-track:1702800",
+      "neteaseTrackId": "1702800",
+      "title": "It's Only a Paper Moon",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 325172
+    },
+    {
+      "id": "netease-track:1702804",
+      "neteaseTrackId": "1702804",
+      "title": "Denial",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 342000
+    },
+    {
+      "id": "netease-track:1702810",
+      "neteaseTrackId": "1702810",
+      "title": "Bluing",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 600000
+    },
+    {
+      "id": "netease-track:1702816",
+      "neteaseTrackId": "1702816",
+      "title": "Out of the Blue",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 376633
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=172629",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Diggin' Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

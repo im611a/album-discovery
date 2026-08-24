@@ -1,0 +1,198 @@
+{
+  "internalId": "album:29821",
+  "id": "album:29821",
+  "neteaseAlbumId": "29821",
+  "slug": "netease-album-29821",
+  "title": "迷人的卡勒",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1985-09-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29821.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29821.webp",
+    "alt": "《迷人的卡勒》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300948",
+      "neteaseTrackId": "300948",
+      "title": "月光小夜曲",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 203066
+    },
+    {
+      "id": "netease-track:300951",
+      "neteaseTrackId": "300951",
+      "title": "你照亮我的心",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 203546
+    },
+    {
+      "id": "netease-track:300953",
+      "neteaseTrackId": "300953",
+      "title": "口琴的故事",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 178840
+    },
+    {
+      "id": "netease-track:300955",
+      "neteaseTrackId": "300955",
+      "title": "邮递员",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 181626
+    },
+    {
+      "id": "netease-track:300957",
+      "neteaseTrackId": "300957",
+      "title": "世界之顶",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 185706
+    },
+    {
+      "id": "netease-track:300959",
+      "neteaseTrackId": "300959",
+      "title": "故乡从不拒绝我",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 163786
+    },
+    {
+      "id": "netease-track:300961",
+      "neteaseTrackId": "300961",
+      "title": "年纪轻轻",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 153666
+    },
+    {
+      "id": "netease-track:300963",
+      "neteaseTrackId": "300963",
+      "title": "命运",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 182733
+    },
+    {
+      "id": "netease-track:300966",
+      "neteaseTrackId": "300966",
+      "title": "忘记他",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 194720
+    },
+    {
+      "id": "netease-track:300969",
+      "neteaseTrackId": "300969",
+      "title": "往事常牵挂",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 201773
+    },
+    {
+      "id": "netease-track:300972",
+      "neteaseTrackId": "300972",
+      "title": "玫瑰花园",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 210973
+    },
+    {
+      "id": "netease-track:300975",
+      "neteaseTrackId": "300975",
+      "title": "迷人的卡勒",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 205866
+    },
+    {
+      "id": "netease-track:300978",
+      "neteaseTrackId": "300978",
+      "title": "今天的欢乐明天的梦",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 256986
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=29821",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "迷人的卡勒 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

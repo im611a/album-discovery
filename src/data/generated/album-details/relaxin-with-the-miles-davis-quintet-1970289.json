@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1970289",
+  "id": "album:1970289",
+  "neteaseAlbumId": "1970289",
+  "slug": "relaxin-with-the-miles-davis-quintet-1970289",
+  "title": "Relaxin' with the Miles Davis Quintet",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2020-09-16",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Music Manager",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970289.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970289.webp",
+    "alt": "《Relaxin' with the Miles Davis Quintet》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21336150",
+      "neteaseTrackId": "21336150",
+      "title": "If I Were a Bell",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 494946
+    },
+    {
+      "id": "netease-track:21336151",
+      "neteaseTrackId": "21336151",
+      "title": "You're My Everything",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 317266
+    },
+    {
+      "id": "netease-track:21336152",
+      "neteaseTrackId": "21336152",
+      "title": "I Could Write a Book",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 307906
+    },
+    {
+      "id": "netease-track:21336153",
+      "neteaseTrackId": "21336153",
+      "title": "Oleo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351106
+    },
+    {
+      "id": "netease-track:21336154",
+      "neteaseTrackId": "21336154",
+      "title": "It Could Happen to You",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 392253
+    },
+    {
+      "id": "netease-track:21336155",
+      "neteaseTrackId": "21336155",
+      "title": "Woody'n You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 292840
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970289",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Relaxin' with the Miles Davis Quintet Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

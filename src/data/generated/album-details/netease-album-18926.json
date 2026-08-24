@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18926",
+  "id": "album:18926",
+  "neteaseAlbumId": "18926",
+  "slug": "netease-album-18926",
+  "title": "下一个永远",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "2004-09-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18926.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18926.webp",
+    "alt": "《下一个永远》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186240",
+      "neteaseTrackId": "186240",
+      "title": "白月光",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 267426
+    },
+    {
+      "id": "netease-track:186242",
+      "neteaseTrackId": "186242",
+      "title": "下一个永远",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291893
+    },
+    {
+      "id": "netease-track:186244",
+      "neteaseTrackId": "186244",
+      "title": "你懂吗",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 246858
+    },
+    {
+      "id": "netease-track:186245",
+      "neteaseTrackId": "186245",
+      "title": "习惯寂寞",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291553
+    },
+    {
+      "id": "netease-track:186246",
+      "neteaseTrackId": "186246",
+      "title": "想我的理由",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 257725
+    },
+    {
+      "id": "netease-track:186247",
+      "neteaseTrackId": "186247",
+      "title": "爱与折磨",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 250698
+    },
+    {
+      "id": "netease-track:186249",
+      "neteaseTrackId": "186249",
+      "title": "边爱边走",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 256732
+    },
+    {
+      "id": "netease-track:186251",
+      "neteaseTrackId": "186251",
+      "title": "九月雨",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 320810
+    },
+    {
+      "id": "netease-track:186253",
+      "neteaseTrackId": "186253",
+      "title": "月半圆",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 307293
+    },
+    {
+      "id": "netease-track:186254",
+      "neteaseTrackId": "186254",
+      "title": "惹尘",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 263994
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18926",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "下一个永远 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

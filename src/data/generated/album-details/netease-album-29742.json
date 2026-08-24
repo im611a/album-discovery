@@ -1,0 +1,209 @@
+{
+  "internalId": "album:29742",
+  "id": "album:29742",
+  "neteaseAlbumId": "29742",
+  "slug": "netease-album-29742",
+  "title": "20世纪中华歌坛名人百集珍藏版",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1997-06-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "中国唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29742.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29742.webp",
+    "alt": "《20世纪中华歌坛名人百集珍藏版》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300076",
+      "neteaseTrackId": "300076",
+      "title": "容易受伤的女人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 259853
+    },
+    {
+      "id": "netease-track:300078",
+      "neteaseTrackId": "300078",
+      "title": "变幻的世界在转",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 248506
+    },
+    {
+      "id": "netease-track:300080",
+      "neteaseTrackId": "300080",
+      "title": "矜持",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 279160
+    },
+    {
+      "id": "netease-track:300082",
+      "neteaseTrackId": "300082",
+      "title": "沉醉",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:300084",
+      "neteaseTrackId": "300084",
+      "title": "不变",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 289666
+    },
+    {
+      "id": "netease-track:300086",
+      "neteaseTrackId": "300086",
+      "title": "只愿为你守着约",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 257373
+    },
+    {
+      "id": "netease-track:300089",
+      "neteaseTrackId": "300089",
+      "title": "冷战",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 250984
+    },
+    {
+      "id": "netease-track:300090",
+      "neteaseTrackId": "300090",
+      "title": "软弱",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 265333
+    },
+    {
+      "id": "netease-track:300091",
+      "neteaseTrackId": "300091",
+      "title": "挣脱",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:300092",
+      "neteaseTrackId": "300092",
+      "title": "眷恋",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 244666
+    },
+    {
+      "id": "netease-track:300093",
+      "neteaseTrackId": "300093",
+      "title": "出路",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 240426
+    },
+    {
+      "id": "netease-track:300095",
+      "neteaseTrackId": "300095",
+      "title": "动心",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 243666
+    },
+    {
+      "id": "netease-track:300097",
+      "neteaseTrackId": "300097",
+      "title": "只有我自己",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:300099",
+      "neteaseTrackId": "300099",
+      "title": "心太野",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 299746
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=29742",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "20世纪中华歌坛名人百集珍藏版 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

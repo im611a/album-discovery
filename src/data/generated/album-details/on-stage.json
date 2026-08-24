@@ -1,0 +1,98 @@
+{
+  "internalId": "album:290090",
+  "id": "album:290090",
+  "neteaseAlbumId": "290090",
+  "slug": "on-stage",
+  "title": "On Stage",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "1979-08-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/290090.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/290090.webp",
+    "alt": "《On Stage》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2872900",
+      "neteaseTrackId": "2872900",
+      "title": "Them Heavy People",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 248000
+    },
+    {
+      "id": "netease-track:2872904",
+      "neteaseTrackId": "2872904",
+      "title": "Don't Push Your Foot On The Heartbrake",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:2872909",
+      "neteaseTrackId": "2872909",
+      "title": "James And The Cold Gun",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 385000
+    },
+    {
+      "id": "netease-track:2872919",
+      "neteaseTrackId": "2872919",
+      "title": "L'Amour Looks Something Like You",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 164000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=290090",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "On Stage Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

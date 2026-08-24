@@ -1,0 +1,154 @@
+{
+  "internalId": "album:19193",
+  "id": "album:19193",
+  "neteaseAlbumId": "19193",
+  "slug": "netease-album-19193",
+  "title": "走失的主人",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "1998-10-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19193.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19193.webp",
+    "alt": "《走失的主人》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189889",
+      "neteaseTrackId": "189889",
+      "title": "走失的主人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 309594
+    },
+    {
+      "id": "netease-track:189893",
+      "neteaseTrackId": "189893",
+      "title": "正宗",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 251797
+    },
+    {
+      "id": "netease-track:1875359039",
+      "neteaseTrackId": "1875359039",
+      "title": "长安",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 244464
+    },
+    {
+      "id": "netease-track:189900",
+      "neteaseTrackId": "189900",
+      "title": "阿丝玛",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 291437
+    },
+    {
+      "id": "netease-track:189905",
+      "neteaseTrackId": "189905",
+      "title": "让我再见一次大夫",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 367233
+    },
+    {
+      "id": "netease-track:189909",
+      "neteaseTrackId": "189909",
+      "title": "关河令",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 282968
+    },
+    {
+      "id": "netease-track:189913",
+      "neteaseTrackId": "189913",
+      "title": "勋章之梦",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 258287
+    },
+    {
+      "id": "netease-track:189916",
+      "neteaseTrackId": "189916",
+      "title": "六枝花",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 309077
+    },
+    {
+      "id": "netease-track:189919",
+      "neteaseTrackId": "189919",
+      "title": "媚笑阳台",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 343107
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=19193",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "走失的主人 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "internalId": "album:19045",
+  "id": "album:19045",
+  "neteaseAlbumId": "19045",
+  "slug": "netease-album-19045",
+  "title": "宠爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1995-07-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19045.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19045.webp",
+    "alt": "《宠爱》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187986",
+      "neteaseTrackId": "187986",
+      "title": "A Thousand Dreams Of You",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 211000
+    },
+    {
+      "id": "netease-track:187988",
+      "neteaseTrackId": "187988",
+      "title": "深情相拥",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "辛晓琪"
+      ],
+      "durationMs": 215295
+    },
+    {
+      "id": "netease-track:187992",
+      "neteaseTrackId": "187992",
+      "title": "夜半歌声",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:187994",
+      "neteaseTrackId": "187994",
+      "title": "今生今世",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:187996",
+      "neteaseTrackId": "187996",
+      "title": "当爱已成往事",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 302000
+    },
+    {
+      "id": "netease-track:187998",
+      "neteaseTrackId": "187998",
+      "title": "一辈子失去了你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:188003",
+      "neteaseTrackId": "188003",
+      "title": "追",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 323000
+    },
+    {
+      "id": "netease-track:188006",
+      "neteaseTrackId": "188006",
+      "title": "眉来眼去",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "辛晓琪"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:188010",
+      "neteaseTrackId": "188010",
+      "title": "红颜白发",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 205000
+    },
+    {
+      "id": "netease-track:188013",
+      "neteaseTrackId": "188013",
+      "title": "何去何从之阿飞正传",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 194722
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19045",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "宠爱 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

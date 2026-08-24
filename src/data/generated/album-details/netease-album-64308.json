@@ -1,0 +1,98 @@
+{
+  "internalId": "album:64308",
+  "id": "album:64308",
+  "neteaseAlbumId": "64308",
+  "slug": "netease-album-64308",
+  "title": "SAKURAドロップス / Letters",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2002-05-08",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64308.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64308.webp",
+    "alt": "《SAKURAドロップス / Letters》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666907",
+      "neteaseTrackId": "666907",
+      "title": "SAKURAドロップス",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 298693
+    },
+    {
+      "id": "netease-track:666911",
+      "neteaseTrackId": "666911",
+      "title": "Letters",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 284421
+    },
+    {
+      "id": "netease-track:666915",
+      "neteaseTrackId": "666915",
+      "title": "Sakuraドロップス(Original Karaoke)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 298051
+    },
+    {
+      "id": "netease-track:666919",
+      "neteaseTrackId": "666919",
+      "title": "Letters(Original Karaoke)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 284676
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=64308",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "SAKURAドロップス / Letters 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

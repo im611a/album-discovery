@@ -1,0 +1,164 @@
+{
+  "internalId": "album:16958",
+  "id": "album:16958",
+  "neteaseAlbumId": "16958",
+  "slug": "netease-album-16958",
+  "title": "爱的时刻 自选辑",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5768",
+      "neteaseArtistId": "5768",
+      "name": "萧敬腾"
+    }
+  ],
+  "releaseDate": "2009-11-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/16958.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/16958.webp",
+    "alt": "《爱的时刻 自选辑》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:167910",
+      "neteaseTrackId": "167910",
+      "title": "开到荼蘼",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 293800
+    },
+    {
+      "id": "netease-track:167912",
+      "neteaseTrackId": "167912",
+      "title": "新不了情",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 264813
+    },
+    {
+      "id": "netease-track:167914",
+      "neteaseTrackId": "167914",
+      "title": "如果没有你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 276773
+    },
+    {
+      "id": "netease-track:167916",
+      "neteaseTrackId": "167916",
+      "title": "梦一场",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 226733
+    },
+    {
+      "id": "netease-track:167918",
+      "neteaseTrackId": "167918",
+      "title": "无言花",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 264546
+    },
+    {
+      "id": "netease-track:167921",
+      "neteaseTrackId": "167921",
+      "title": "我怀念的",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 300626
+    },
+    {
+      "id": "netease-track:167924",
+      "neteaseTrackId": "167924",
+      "title": "记念",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 227386
+    },
+    {
+      "id": "netease-track:167927",
+      "neteaseTrackId": "167927",
+      "title": "写一首歌",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 294986
+    },
+    {
+      "id": "netease-track:167931",
+      "neteaseTrackId": "167931",
+      "title": "记得",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 294320
+    },
+    {
+      "id": "netease-track:167933",
+      "neteaseTrackId": "167933",
+      "title": "倒带",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 276000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=16958",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "爱的时刻 自选辑 萧敬腾",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

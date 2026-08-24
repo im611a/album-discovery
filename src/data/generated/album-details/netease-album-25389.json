@@ -1,0 +1,164 @@
+{
+  "internalId": "album:25389",
+  "id": "album:25389",
+  "neteaseAlbumId": "25389",
+  "slug": "netease-album-25389",
+  "title": "在一起",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2010-04-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "相信音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25389.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25389.webp",
+    "alt": "《在一起》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254149",
+      "neteaseTrackId": "254149",
+      "title": "继续-给十五岁的自己",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 309853
+    },
+    {
+      "id": "netease-track:254151",
+      "neteaseTrackId": "254151",
+      "title": "我们没有在一起",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 279560
+    },
+    {
+      "id": "netease-track:254153",
+      "neteaseTrackId": "254153",
+      "title": "我不想念",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 230866
+    },
+    {
+      "id": "netease-track:254155",
+      "neteaseTrackId": "254155",
+      "title": "风和日丽",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 242653
+    },
+    {
+      "id": "netease-track:254156",
+      "neteaseTrackId": "254156",
+      "title": "直接",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 227053
+    },
+    {
+      "id": "netease-track:254157",
+      "neteaseTrackId": "254157",
+      "title": "好强",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 225213
+    },
+    {
+      "id": "netease-track:254158",
+      "neteaseTrackId": "254158",
+      "title": "他为你夹菜",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 277746
+    },
+    {
+      "id": "netease-track:254159",
+      "neteaseTrackId": "254159",
+      "title": "长椅",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 251093
+    },
+    {
+      "id": "netease-track:254162",
+      "neteaseTrackId": "254162",
+      "title": "你不要送花给我",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 252813
+    },
+    {
+      "id": "netease-track:254165",
+      "neteaseTrackId": "254165",
+      "title": "同桌的你",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 218880
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=25389",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "在一起 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

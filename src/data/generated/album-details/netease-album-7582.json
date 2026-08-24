@@ -1,0 +1,179 @@
+{
+  "internalId": "album:7582",
+  "id": "album:7582",
+  "neteaseAlbumId": "7582",
+  "slug": "netease-album-7582",
+  "title": "幻听",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:13439",
+      "neteaseArtistId": "13439",
+      "name": "译乐队"
+    }
+  ],
+  "releaseDate": "1999-09-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7582.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7582.webp",
+    "alt": "《幻听》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77135",
+      "neteaseTrackId": "77135",
+      "title": "序·玉楼春·雨·临江仙",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 80600
+    },
+    {
+      "id": "netease-track:77139",
+      "neteaseTrackId": "77139",
+      "title": "幻听",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 222760
+    },
+    {
+      "id": "netease-track:77145",
+      "neteaseTrackId": "77145",
+      "title": "旺天下",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 362440
+    },
+    {
+      "id": "netease-track:77149",
+      "neteaseTrackId": "77149",
+      "title": "哪呢",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 250360
+    },
+    {
+      "id": "netease-track:77154",
+      "neteaseTrackId": "77154",
+      "title": "丰收获",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 309067
+    },
+    {
+      "id": "netease-track:77164",
+      "neteaseTrackId": "77164",
+      "title": "觉是",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 214133
+    },
+    {
+      "id": "netease-track:77159",
+      "neteaseTrackId": "77159",
+      "title": "荡空山",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 218867
+    },
+    {
+      "id": "netease-track:77169",
+      "neteaseTrackId": "77169",
+      "title": "暮春秋色",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 336000
+    },
+    {
+      "id": "netease-track:77173",
+      "neteaseTrackId": "77173",
+      "title": "爱被爱",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 300200
+    },
+    {
+      "id": "netease-track:77176",
+      "neteaseTrackId": "77176",
+      "title": "漓江水",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "译乐队"
+      ],
+      "durationMs": 230000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=7582",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "幻听 窦唯 译乐队",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

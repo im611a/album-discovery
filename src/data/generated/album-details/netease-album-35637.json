@@ -1,0 +1,175 @@
+{
+  "internalId": "album:35637",
+  "id": "album:35637",
+  "neteaseAlbumId": "35637",
+  "slug": "netease-album-35637",
+  "title": "Joyside同名专辑",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11950",
+      "neteaseArtistId": "11950",
+      "name": "Joyside"
+    }
+  ],
+  "releaseDate": "2010-09-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35637.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/35637.webp",
+    "alt": "《Joyside同名专辑》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:360692",
+      "neteaseTrackId": "360692",
+      "title": "Run!",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 191293
+    },
+    {
+      "id": "netease-track:360696",
+      "neteaseTrackId": "360696",
+      "title": "He is dead (Lament)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 297800
+    },
+    {
+      "id": "netease-track:360700",
+      "neteaseTrackId": "360700",
+      "title": "Maybe tonight",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 220266
+    },
+    {
+      "id": "netease-track:360703",
+      "neteaseTrackId": "360703",
+      "title": "Gagaga",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 151706
+    },
+    {
+      "id": "netease-track:360708",
+      "neteaseTrackId": "360708",
+      "title": "Nobody's lover",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 234546
+    },
+    {
+      "id": "netease-track:360713",
+      "neteaseTrackId": "360713",
+      "title": "Silly Girl",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 258693
+    },
+    {
+      "id": "netease-track:360718",
+      "neteaseTrackId": "360718",
+      "title": "Nervous (Midnight Mania)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 115013
+    },
+    {
+      "id": "netease-track:360722",
+      "neteaseTrackId": "360722",
+      "title": "Your city is a desert to me",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 259573
+    },
+    {
+      "id": "netease-track:360726",
+      "neteaseTrackId": "360726",
+      "title": "Shejing",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 164000
+    },
+    {
+      "id": "netease-track:360729",
+      "neteaseTrackId": "360729",
+      "title": "Sister lunatics",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 150648
+    },
+    {
+      "id": "netease-track:360732",
+      "neteaseTrackId": "360732",
+      "title": "Good night",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 483893
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=35637",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Joyside同名专辑 Joyside",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

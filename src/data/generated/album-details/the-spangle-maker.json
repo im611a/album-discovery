@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1577499",
+  "id": "album:1577499",
+  "neteaseAlbumId": "1577499",
+  "slug": "the-spangle-maker",
+  "title": "The Spangle Maker",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1984-04-02",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Beggars Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577499.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577499.webp",
+    "alt": "《The Spangle Maker》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17125038",
+      "neteaseTrackId": "17125038",
+      "title": "The Spangle Maker",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 281965
+    },
+    {
+      "id": "netease-track:17125039",
+      "neteaseTrackId": "17125039",
+      "title": "Pearly-Dewdrops’ Drops (12\" Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 313887
+    },
+    {
+      "id": "netease-track:17125040",
+      "neteaseTrackId": "17125040",
+      "title": "Pepper-Tree",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 237531
+    },
+    {
+      "id": "netease-track:17125041",
+      "neteaseTrackId": "17125041",
+      "title": "Pearly-Dewdrops’ Drops (7\" Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 251219
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1577499",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Spangle Maker Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

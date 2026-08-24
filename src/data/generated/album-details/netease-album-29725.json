@@ -1,0 +1,198 @@
+{
+  "internalId": "album:29725",
+  "id": "album:29725",
+  "neteaseAlbumId": "29725",
+  "slug": "netease-album-29725",
+  "title": "唱游",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1998-10-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KC DIGITAL LIMITED",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29725.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29725.webp",
+    "alt": "《唱游》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:299901",
+      "neteaseTrackId": "299901",
+      "title": "感情生活",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 317160
+    },
+    {
+      "id": "netease-track:299904",
+      "neteaseTrackId": "299904",
+      "title": "脸",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 214400
+    },
+    {
+      "id": "netease-track:299907",
+      "neteaseTrackId": "299907",
+      "title": "色诫",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 295800
+    },
+    {
+      "id": "netease-track:299910",
+      "neteaseTrackId": "299910",
+      "title": "半途而废",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:299915",
+      "neteaseTrackId": "299915",
+      "title": "飞",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 343733
+    },
+    {
+      "id": "netease-track:299920",
+      "neteaseTrackId": "299920",
+      "title": "你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 265266
+    },
+    {
+      "id": "netease-track:299925",
+      "neteaseTrackId": "299925",
+      "title": "小聪明",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 243333
+    },
+    {
+      "id": "netease-track:299932",
+      "neteaseTrackId": "299932",
+      "title": "醒不来",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 246840
+    },
+    {
+      "id": "netease-track:299936",
+      "neteaseTrackId": "299936",
+      "title": "红豆",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 256026
+    },
+    {
+      "id": "netease-track:299939",
+      "neteaseTrackId": "299939",
+      "title": "童",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 279866
+    },
+    {
+      "id": "netease-track:299942",
+      "neteaseTrackId": "299942",
+      "title": "原谅自己",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 221333
+    },
+    {
+      "id": "netease-track:299946",
+      "neteaseTrackId": "299946",
+      "title": "偿还",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 258840
+    },
+    {
+      "id": "netease-track:299950",
+      "neteaseTrackId": "299950",
+      "title": "情诫",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 257933
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=29725",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "唱游 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

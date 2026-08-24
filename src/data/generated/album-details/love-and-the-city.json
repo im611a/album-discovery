@@ -1,0 +1,164 @@
+{
+  "internalId": "album:25427",
+  "id": "album:25427",
+  "neteaseAlbumId": "25427",
+  "slug": "love-and-the-city",
+  "title": "Love and the City",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2002-06-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25427.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25427.webp",
+    "alt": "《Love and the City》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254457",
+      "neteaseTrackId": "254457",
+      "title": "一辈子的孤单",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 272266
+    },
+    {
+      "id": "netease-track:254460",
+      "neteaseTrackId": "254460",
+      "title": "当爱在靠近",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 250760
+    },
+    {
+      "id": "netease-track:254463",
+      "neteaseTrackId": "254463",
+      "title": "说你永远都不离开我",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 249616
+    },
+    {
+      "id": "netease-track:254466",
+      "neteaseTrackId": "254466",
+      "title": "孤寂",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 256104
+    },
+    {
+      "id": "netease-track:254469",
+      "neteaseTrackId": "254469",
+      "title": "她的温柔",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 279933
+    },
+    {
+      "id": "netease-track:254472",
+      "neteaseTrackId": "254472",
+      "title": "说",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 257872
+    },
+    {
+      "id": "netease-track:254475",
+      "neteaseTrackId": "254475",
+      "title": "滤过性病毒",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 212035
+    },
+    {
+      "id": "netease-track:254478",
+      "neteaseTrackId": "254478",
+      "title": "明年此时",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 311777
+    },
+    {
+      "id": "netease-track:254480",
+      "neteaseTrackId": "254480",
+      "title": "如果我有一双翅膀",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 303491
+    },
+    {
+      "id": "netease-track:254482",
+      "neteaseTrackId": "254482",
+      "title": "一切",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 258201
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=25427",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Love and the City 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

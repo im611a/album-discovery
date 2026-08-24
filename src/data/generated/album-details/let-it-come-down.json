@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1757608",
+  "id": "album:1757608",
+  "neteaseAlbumId": "1757608",
+  "slug": "let-it-come-down",
+  "title": "Let It Come Down",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "2001-09-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fat Possum",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1757608.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1757608.webp",
+    "alt": "《Let It Come Down》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19169359",
+      "neteaseTrackId": "19169359",
+      "title": "On Fire",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 240047
+    },
+    {
+      "id": "netease-track:19169360",
+      "neteaseTrackId": "19169360",
+      "title": "Do It All Over Again",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 226487
+    },
+    {
+      "id": "netease-track:19169361",
+      "neteaseTrackId": "19169361",
+      "title": "Don't Just Do Something",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 413129
+    },
+    {
+      "id": "netease-track:19169362",
+      "neteaseTrackId": "19169362",
+      "title": "Out of Sight",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 369359
+    },
+    {
+      "id": "netease-track:19169363",
+      "neteaseTrackId": "19169363",
+      "title": "The Twelve Steps",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 281588
+    },
+    {
+      "id": "netease-track:19169364",
+      "neteaseTrackId": "19169364",
+      "title": "The Straight and Narrow",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 310218
+    },
+    {
+      "id": "netease-track:19169365",
+      "neteaseTrackId": "19169365",
+      "title": "I Didn't Mean to Hurt You",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 312215
+    },
+    {
+      "id": "netease-track:19169366",
+      "neteaseTrackId": "19169366",
+      "title": "Stop Your Crying",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 314282
+    },
+    {
+      "id": "netease-track:19169367",
+      "neteaseTrackId": "19169367",
+      "title": "Anything More",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 335528
+    },
+    {
+      "id": "netease-track:19169368",
+      "neteaseTrackId": "19169368",
+      "title": "Won't Get to Heaven (The State I'm in)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 630600
+    },
+    {
+      "id": "netease-track:19169369",
+      "neteaseTrackId": "19169369",
+      "title": "Lord Can You Hear Me",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 336085
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1757608",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Let It Come Down Spiritualized",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

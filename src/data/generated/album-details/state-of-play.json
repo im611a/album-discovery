@@ -1,0 +1,164 @@
+{
+  "internalId": "album:111931",
+  "id": "album:111931",
+  "neteaseAlbumId": "111931",
+  "slug": "state-of-play",
+  "title": "State Of Play",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29061",
+      "neteaseArtistId": "29061",
+      "name": "Alex Heffes"
+    }
+  ],
+  "releaseDate": "2009-05-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/111931.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/111931.webp",
+    "alt": "《State Of Play》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1073865",
+      "neteaseTrackId": "1073865",
+      "title": "Opening Title & The Ballad Of Sonia",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 143058
+    },
+    {
+      "id": "netease-track:1073868",
+      "neteaseTrackId": "1073868",
+      "title": "The Apartment",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 178279
+    },
+    {
+      "id": "netease-track:1073871",
+      "neteaseTrackId": "1073871",
+      "title": "Cal Connects The Evidence",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 274236
+    },
+    {
+      "id": "netease-track:1073874",
+      "neteaseTrackId": "1073874",
+      "title": "Research",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 276874
+    },
+    {
+      "id": "netease-track:1073877",
+      "neteaseTrackId": "1073877",
+      "title": "Conspiracy At The Highest Level",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 351999
+    },
+    {
+      "id": "netease-track:1073880",
+      "neteaseTrackId": "1073880",
+      "title": "The Americana Hotel",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:1073883",
+      "neteaseTrackId": "1073883",
+      "title": "A Political Suicide",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 212812
+    },
+    {
+      "id": "netease-track:1073886",
+      "neteaseTrackId": "1073886",
+      "title": "The Cab Ride Home",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 273999
+    },
+    {
+      "id": "netease-track:1073889",
+      "neteaseTrackId": "1073889",
+      "title": "Steven And Cal",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 278760
+    },
+    {
+      "id": "netease-track:1073892",
+      "neteaseTrackId": "1073892",
+      "title": "Writing The Article",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 160059
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=111931",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "State Of Play Alex Heffes",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

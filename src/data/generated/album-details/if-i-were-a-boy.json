@@ -1,0 +1,110 @@
+{
+  "internalId": "album:220734",
+  "id": "album:220734",
+  "neteaseAlbumId": "220734",
+  "slug": "if-i-were-a-boy",
+  "title": "If I Were A Boy",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2008-10-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220734.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220734.webp",
+    "alt": "《If I Were A Boy》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188471",
+      "neteaseTrackId": "2188471",
+      "title": "If I Were A Boy (Main)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 250000
+    },
+    {
+      "id": "netease-track:2188476",
+      "neteaseTrackId": "2188476",
+      "title": "If I Were A Boy (DJ Escape and capello Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 246000
+    },
+    {
+      "id": "netease-track:2188481",
+      "neteaseTrackId": "2188481",
+      "title": "If I Were A Boy (Karmatronic Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 211000
+    },
+    {
+      "id": "netease-track:2188489",
+      "neteaseTrackId": "2188489",
+      "title": "If I Were A Boy (Maurice Joshua Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 194000
+    },
+    {
+      "id": "netease-track:2188495",
+      "neteaseTrackId": "2188495",
+      "title": "If I Were A Boy (Remix)(featuring R.Kelly)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "R. Kelly"
+      ],
+      "durationMs": 292000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=220734",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "If I Were A Boy Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

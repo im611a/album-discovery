@@ -1,0 +1,208 @@
+{
+  "internalId": "album:1754503",
+  "id": "album:1754503",
+  "neteaseAlbumId": "1754503",
+  "slug": "you-will-never-know-why",
+  "title": "You Will Never Know Why",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:75252",
+      "neteaseArtistId": "75252",
+      "name": "Sweet Trip"
+    }
+  ],
+  "releaseDate": "2009-09-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Darla",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1754503.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1754503.webp",
+    "alt": "《You Will Never Know Why》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19138435",
+      "neteaseTrackId": "19138435",
+      "title": "Conservation of Two",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 161853
+    },
+    {
+      "id": "netease-track:19138436",
+      "neteaseTrackId": "19138436",
+      "title": "Air Supply",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 281746
+    },
+    {
+      "id": "netease-track:19138437",
+      "neteaseTrackId": "19138437",
+      "title": "Forever",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 238960
+    },
+    {
+      "id": "netease-track:19138438",
+      "neteaseTrackId": "19138438",
+      "title": "Acting",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 425946
+    },
+    {
+      "id": "netease-track:19138439",
+      "neteaseTrackId": "19138439",
+      "title": "Milk",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 265280
+    },
+    {
+      "id": "netease-track:19138440",
+      "neteaseTrackId": "19138440",
+      "title": "Darkness",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 379213
+    },
+    {
+      "id": "netease-track:19138441",
+      "neteaseTrackId": "19138441",
+      "title": "To the Moon",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 250240
+    },
+    {
+      "id": "netease-track:19138442",
+      "neteaseTrackId": "19138442",
+      "title": "Song About a Sea",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 90973
+    },
+    {
+      "id": "netease-track:19138443",
+      "neteaseTrackId": "19138443",
+      "title": "Song About a Sun",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 92013
+    },
+    {
+      "id": "netease-track:19138444",
+      "neteaseTrackId": "19138444",
+      "title": "No Words to Be Found",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 167506
+    },
+    {
+      "id": "netease-track:19138445",
+      "neteaseTrackId": "19138445",
+      "title": "Pretending",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 305093
+    },
+    {
+      "id": "netease-track:19138446",
+      "neteaseTrackId": "19138446",
+      "title": "Misfortunes are Cruel",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 258173
+    },
+    {
+      "id": "netease-track:19138447",
+      "neteaseTrackId": "19138447",
+      "title": "Your World is Eternally Complete",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 260120
+    },
+    {
+      "id": "netease-track:19138448",
+      "neteaseTrackId": "19138448",
+      "title": "Female Lover",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Sweet Trip"
+      ],
+      "durationMs": 244800
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=1754503",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "You Will Never Know Why Sweet Trip",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

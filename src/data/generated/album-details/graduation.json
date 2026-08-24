@@ -1,0 +1,228 @@
+{
+  "internalId": "album:1738261",
+  "id": "album:1738261",
+  "neteaseAlbumId": "1738261",
+  "slug": "graduation",
+  "title": "Graduation",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2007-09-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Roc-A-Fella",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1738261.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1738261.webp",
+    "alt": "《Graduation》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18969067",
+      "neteaseTrackId": "18969067",
+      "title": "Good Morning",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 195200
+    },
+    {
+      "id": "netease-track:18969068",
+      "neteaseTrackId": "18969068",
+      "title": "Champion",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 167506
+    },
+    {
+      "id": "netease-track:18969069",
+      "neteaseTrackId": "18969069",
+      "title": "Stronger",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Daft Punk"
+      ],
+      "durationMs": 311946
+    },
+    {
+      "id": "netease-track:18969070",
+      "neteaseTrackId": "18969070",
+      "title": "I Wonder",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 243426
+    },
+    {
+      "id": "netease-track:18969071",
+      "neteaseTrackId": "18969071",
+      "title": "Good Life",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "T-Pain"
+      ],
+      "durationMs": 207052
+    },
+    {
+      "id": "netease-track:18969072",
+      "neteaseTrackId": "18969072",
+      "title": "Can't Tell Me Nothing",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 271600
+    },
+    {
+      "id": "netease-track:18969073",
+      "neteaseTrackId": "18969073",
+      "title": "Barry Bonds",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Lil Wayne"
+      ],
+      "durationMs": 204333
+    },
+    {
+      "id": "netease-track:18969074",
+      "neteaseTrackId": "18969074",
+      "title": "Drunk and Hot Girls",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Mos Def"
+      ],
+      "durationMs": 313226
+    },
+    {
+      "id": "netease-track:18969075",
+      "neteaseTrackId": "18969075",
+      "title": "Flashing Lights",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Dwele"
+      ],
+      "durationMs": 237506
+    },
+    {
+      "id": "netease-track:18969076",
+      "neteaseTrackId": "18969076",
+      "title": "Everything I Am",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "DJ Premier"
+      ],
+      "durationMs": 227773
+    },
+    {
+      "id": "netease-track:18969077",
+      "neteaseTrackId": "18969077",
+      "title": "The Glory",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 212826
+    },
+    {
+      "id": "netease-track:18969078",
+      "neteaseTrackId": "18969078",
+      "title": "Homecoming",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Chris Martin"
+      ],
+      "durationMs": 203546
+    },
+    {
+      "id": "netease-track:18969079",
+      "neteaseTrackId": "18969079",
+      "title": "Big Brother",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 287608
+    },
+    {
+      "id": "netease-track:18969080",
+      "neteaseTrackId": "18969080",
+      "title": "Good Night",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Mos Def",
+        "Al Be Back"
+      ],
+      "durationMs": 186493
+    },
+    {
+      "id": "netease-track:18969081",
+      "neteaseTrackId": "18969081",
+      "title": "Stronger (A-Trak Remix)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 278177
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1738261",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Graduation Kanye West",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

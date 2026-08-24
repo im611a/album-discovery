@@ -1,0 +1,109 @@
+{
+  "internalId": "album:1969738",
+  "id": "album:1969738",
+  "neteaseAlbumId": "1969738",
+  "slug": "autumn-leaves",
+  "title": "Autumn Leaves",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2012-07-28",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969738.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969738.webp",
+    "alt": "《Autumn Leaves》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21326928",
+      "neteaseTrackId": "21326928",
+      "title": "Autumn Leaves",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 805000
+    },
+    {
+      "id": "netease-track:21326929",
+      "neteaseTrackId": "21326929",
+      "title": "Round Midnight (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 378506
+    },
+    {
+      "id": "netease-track:21326930",
+      "neteaseTrackId": "21326930",
+      "title": "All of You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 935026
+    },
+    {
+      "id": "netease-track:21326931",
+      "neteaseTrackId": "21326931",
+      "title": "Walkin'",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 782000
+    },
+    {
+      "id": "netease-track:21326932",
+      "neteaseTrackId": "21326932",
+      "title": "So What",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 652000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=1969738",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Autumn Leaves Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

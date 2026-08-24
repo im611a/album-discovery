@@ -1,0 +1,120 @@
+{
+  "internalId": "album:220805",
+  "id": "album:220805",
+  "neteaseAlbumId": "220805",
+  "slug": "me-myself-and-i",
+  "title": "Me, Myself and I",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2003-12-15",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220805.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220805.webp",
+    "alt": "《Me, Myself and I》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2189321",
+      "neteaseTrackId": "2189321",
+      "title": "Me, Myself and I (Radio Edit)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 238886
+    },
+    {
+      "id": "netease-track:2189326",
+      "neteaseTrackId": "2189326",
+      "title": "Me, Myself and I (Eastern Delight Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:2189331",
+      "neteaseTrackId": "2189331",
+      "title": "Me, Myself and I (Bama Boys **** Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 283000
+    },
+    {
+      "id": "netease-track:2189337",
+      "neteaseTrackId": "2189337",
+      "title": "Me, Myself and I (Junior's Radio Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:2189343",
+      "neteaseTrackId": "2189343",
+      "title": "Dangerously In Love (Live from Headliners)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 431000
+    },
+    {
+      "id": "netease-track:2189349",
+      "neteaseTrackId": "2189349",
+      "title": "Me, Myself and I (Bama Boys Throwback Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 283000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=220805",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Me, Myself and I Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

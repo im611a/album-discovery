@@ -1,0 +1,142 @@
+{
+  "internalId": "album:430993",
+  "id": "album:430993",
+  "neteaseAlbumId": "430993",
+  "slug": "itch",
+  "title": "Itch",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "1994-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/430993.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/430993.webp",
+    "alt": "《Itch》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4264362",
+      "neteaseTrackId": "4264362",
+      "title": "Stop Whispering (US Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 250821
+    },
+    {
+      "id": "netease-track:4264363",
+      "neteaseTrackId": "4264363",
+      "title": "Thinking About You (Drill Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 135586
+    },
+    {
+      "id": "netease-track:4264364",
+      "neteaseTrackId": "4264364",
+      "title": "Faithless, the Wonder Boy",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:4264366",
+      "neteaseTrackId": "4264366",
+      "title": "Banana Co. (Acoustic)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 146573
+    },
+    {
+      "id": "netease-track:4264369",
+      "neteaseTrackId": "4264369",
+      "title": "Killer Cars (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 133468
+    },
+    {
+      "id": "netease-track:4264371",
+      "neteaseTrackId": "4264371",
+      "title": "Vegatable (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 188827
+    },
+    {
+      "id": "netease-track:4264373",
+      "neteaseTrackId": "4264373",
+      "title": "You (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:4264375",
+      "neteaseTrackId": "4264375",
+      "title": "Creep(Acoustic)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 258640
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=430993",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Itch Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

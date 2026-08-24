@@ -1,0 +1,142 @@
+{
+  "internalId": "album:173571",
+  "id": "album:173571",
+  "neteaseAlbumId": "173571",
+  "slug": "madlib-medicine-show-no-2-flight-to-brazil",
+  "title": "Madlib Medicine Show No. 2: Flight to Brazil",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38940",
+      "neteaseArtistId": "38940",
+      "name": "Madlib"
+    }
+  ],
+  "releaseDate": "2010-02-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/173571.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/173571.webp",
+    "alt": "《Madlib Medicine Show No. 2: Flight to Brazil》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1713898",
+      "neteaseTrackId": "1713898",
+      "title": "Rio De Janeiro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 732693
+    },
+    {
+      "id": "netease-track:1713902",
+      "neteaseTrackId": "1713902",
+      "title": "Sao Paulo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 422920
+    },
+    {
+      "id": "netease-track:1713904",
+      "neteaseTrackId": "1713904",
+      "title": "Belo Horizonte",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 494240
+    },
+    {
+      "id": "netease-track:1713907",
+      "neteaseTrackId": "1713907",
+      "title": "Porto Alegre",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 341480
+    },
+    {
+      "id": "netease-track:1713911",
+      "neteaseTrackId": "1713911",
+      "title": "Salvador",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 445000
+    },
+    {
+      "id": "netease-track:1713915",
+      "neteaseTrackId": "1713915",
+      "title": "Recife",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 763000
+    },
+    {
+      "id": "netease-track:1713924",
+      "neteaseTrackId": "1713924",
+      "title": "Brasília",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 571000
+    },
+    {
+      "id": "netease-track:1713927",
+      "neteaseTrackId": "1713927",
+      "title": "Curitiba",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 334453
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=173571",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Madlib Medicine Show No. 2: Flight to Brazil Madlib",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

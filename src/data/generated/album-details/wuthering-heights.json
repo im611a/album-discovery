@@ -1,0 +1,329 @@
+{
+  "internalId": "album:47839",
+  "id": "album:47839",
+  "neteaseAlbumId": "47839",
+  "slug": "wuthering-heights",
+  "title": "Wuthering heights",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1992-09-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47839.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47839.webp",
+    "alt": "《Wuthering heights》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:502106",
+      "neteaseTrackId": "502106",
+      "title": "Main Titles / Haunted House / Ghost",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 430600
+    },
+    {
+      "id": "netease-track:502111",
+      "neteaseTrackId": "502111",
+      "title": "Home / Growing Up",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 264000
+    },
+    {
+      "id": "netease-track:502116",
+      "neteaseTrackId": "502116",
+      "title": "Omen",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:502120",
+      "neteaseTrackId": "502120",
+      "title": "Cathy and Edgar",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 54000
+    },
+    {
+      "id": "netease-track:502123",
+      "neteaseTrackId": "502123",
+      "title": "Where is Heathcliff",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 56000
+    },
+    {
+      "id": "netease-track:502125",
+      "neteaseTrackId": "502125",
+      "title": "Christening",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 54000
+    },
+    {
+      "id": "netease-track:502129",
+      "neteaseTrackId": "502129",
+      "title": "Betrayal",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 123000
+    },
+    {
+      "id": "netease-track:502133",
+      "neteaseTrackId": "502133",
+      "title": "I Am Heathcliff",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 202666
+    },
+    {
+      "id": "netease-track:502136",
+      "neteaseTrackId": "502136",
+      "title": "Grange",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 86000
+    },
+    {
+      "id": "netease-track:502140",
+      "neteaseTrackId": "502140",
+      "title": "The Plot",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 92000
+    },
+    {
+      "id": "netease-track:502143",
+      "neteaseTrackId": "502143",
+      "title": "The New Owner / The Last Kiss",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 204000
+    },
+    {
+      "id": "netease-track:502146",
+      "neteaseTrackId": "502146",
+      "title": "Switching Sides",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 63000
+    },
+    {
+      "id": "netease-track:502149",
+      "neteaseTrackId": "502149",
+      "title": "Elopement / Hallucination",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 215000
+    },
+    {
+      "id": "netease-track:502154",
+      "neteaseTrackId": "502154",
+      "title": "Isabella the Abused",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 45000
+    },
+    {
+      "id": "netease-track:502159",
+      "neteaseTrackId": "502159",
+      "title": "Wasted Lives",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:502162",
+      "neteaseTrackId": "502162",
+      "title": "Catherine Dies",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 197000
+    },
+    {
+      "id": "netease-track:502167",
+      "neteaseTrackId": "502167",
+      "title": "Young Catherine",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 70000
+    },
+    {
+      "id": "netease-track:502170",
+      "neteaseTrackId": "502170",
+      "title": "Letter",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 173000
+    },
+    {
+      "id": "netease-track:502173",
+      "neteaseTrackId": "502173",
+      "title": "Subjugation",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 116000
+    },
+    {
+      "id": "netease-track:502178",
+      "neteaseTrackId": "502178",
+      "title": "The Marriage",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 157000
+    },
+    {
+      "id": "netease-track:502183",
+      "neteaseTrackId": "502183",
+      "title": "Hareton and Catherine",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 130000
+    },
+    {
+      "id": "netease-track:502188",
+      "neteaseTrackId": "502188",
+      "title": "Catherine's Return",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 103000
+    },
+    {
+      "id": "netease-track:502193",
+      "neteaseTrackId": "502193",
+      "title": "Beckoning",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 117000
+    },
+    {
+      "id": "netease-track:502198",
+      "neteaseTrackId": "502198",
+      "title": "Main Theme / End Titles",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 471466
+    },
+    {
+      "id": "netease-track:502203",
+      "neteaseTrackId": "502203",
+      "title": "Main Theme (Piano Version)",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 319000
+    }
+  ],
+  "trackCount": 25,
+  "externalUrl": "https://music.163.com/#/album?id=47839",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Wuthering heights 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

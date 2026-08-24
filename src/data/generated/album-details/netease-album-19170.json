@@ -1,0 +1,194 @@
+{
+  "internalId": "album:19170",
+  "id": "album:19170",
+  "neteaseAlbumId": "19170",
+  "slug": "netease-album-19170",
+  "title": "左小祖咒去奶子房",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2012-05-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19170.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19170.webp",
+    "alt": "《左小祖咒去奶子房》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189611",
+      "neteaseTrackId": "189611",
+      "title": "马群",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 170381
+    },
+    {
+      "id": "netease-track:189614",
+      "neteaseTrackId": "189614",
+      "title": "香格里拉",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "芬妮"
+      ],
+      "durationMs": 290556
+    },
+    {
+      "id": "netease-track:189617",
+      "neteaseTrackId": "189617",
+      "title": "泸沽湖情歌",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 260909
+    },
+    {
+      "id": "netease-track:189620",
+      "neteaseTrackId": "189620",
+      "title": "不要跟我走",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:189624",
+      "neteaseTrackId": "189624",
+      "title": "看到天空下群起的山峦",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "希阿措",
+        "左小祖咒"
+      ],
+      "durationMs": 225319
+    },
+    {
+      "id": "netease-track:189627",
+      "neteaseTrackId": "189627",
+      "title": "I Cannot Sit Sadly by Your Side",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cowboy Junkies",
+        "左小祖咒"
+      ],
+      "durationMs": 299560
+    },
+    {
+      "id": "netease-track:189630",
+      "neteaseTrackId": "189630",
+      "title": "恩惠",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王韵壹",
+        "左小祖咒"
+      ],
+      "durationMs": 312586
+    },
+    {
+      "id": "netease-track:1318877141",
+      "neteaseTrackId": "1318877141",
+      "title": "梦见远方的泸沽湖",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "宋昭"
+      ],
+      "durationMs": 270357
+    },
+    {
+      "id": "netease-track:189641",
+      "neteaseTrackId": "189641",
+      "title": "我爱",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王韵壹",
+        "左小祖咒"
+      ],
+      "durationMs": 302419
+    },
+    {
+      "id": "netease-track:1435200089",
+      "neteaseTrackId": "1435200089",
+      "title": "小河淌水",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 226764
+    },
+    {
+      "id": "netease-track:189645",
+      "neteaseTrackId": "189645",
+      "title": "左小祖咒去奶子房",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 169734
+    },
+    {
+      "id": "netease-track:189649",
+      "neteaseTrackId": "189649",
+      "title": "驮峯寻乡",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 500118
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=19170",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "左小祖咒去奶子房 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

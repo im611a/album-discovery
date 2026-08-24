@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1540808",
+  "id": "album:1540808",
+  "neteaseAlbumId": "1540808",
+  "slug": "city-of-light",
+  "title": "City of Light",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2019-04-11",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540808.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540808.webp",
+    "alt": "《City of Light》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16714974",
+      "neteaseTrackId": "16714974",
+      "title": "Nothing",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 783493
+    },
+    {
+      "id": "netease-track:16714975",
+      "neteaseTrackId": "16714975",
+      "title": "Kashi",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 786546
+    },
+    {
+      "id": "netease-track:16714976",
+      "neteaseTrackId": "16714976",
+      "title": "Kala",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 439826
+    },
+    {
+      "id": "netease-track:16714977",
+      "neteaseTrackId": "16714977",
+      "title": "Above the Earth",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 680386
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1540808",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "City of Light Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

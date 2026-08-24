@@ -1,0 +1,153 @@
+{
+  "internalId": "album:1577473",
+  "id": "album:1577473",
+  "neteaseAlbumId": "1577473",
+  "slug": "victorialand",
+  "title": "Victorialand",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1986-04-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beggars Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577473.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577473.webp",
+    "alt": "《Victorialand》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17124711",
+      "neteaseTrackId": "17124711",
+      "title": "Lazy Calm",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 396173
+    },
+    {
+      "id": "netease-track:17124712",
+      "neteaseTrackId": "17124712",
+      "title": "Fluffy Tufts",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 185666
+    },
+    {
+      "id": "netease-track:17124713",
+      "neteaseTrackId": "17124713",
+      "title": "Throughout the Dark Months of April And May",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 184999
+    },
+    {
+      "id": "netease-track:17124714",
+      "neteaseTrackId": "17124714",
+      "title": "Whales Tails",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 196493
+    },
+    {
+      "id": "netease-track:17124715",
+      "neteaseTrackId": "17124715",
+      "title": "Oomingmak",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 162533
+    },
+    {
+      "id": "netease-track:17124716",
+      "neteaseTrackId": "17124716",
+      "title": "Little Spacey",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 205960
+    },
+    {
+      "id": "netease-track:17124717",
+      "neteaseTrackId": "17124717",
+      "title": "Feet-like Fins",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 206367
+    },
+    {
+      "id": "netease-track:17124718",
+      "neteaseTrackId": "17124718",
+      "title": "How to Bring a Blush to the Snow",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 230164
+    },
+    {
+      "id": "netease-track:17124719",
+      "neteaseTrackId": "17124719",
+      "title": "The Thinner the Air",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 196466
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1577473",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Victorialand Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

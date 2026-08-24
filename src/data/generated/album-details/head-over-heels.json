@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1577476",
+  "id": "album:1577476",
+  "neteaseAlbumId": "1577476",
+  "slug": "head-over-heels",
+  "title": "Head Over Heels",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1983-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beggars Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577476.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577476.webp",
+    "alt": "《Head Over Heels》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17124740",
+      "neteaseTrackId": "17124740",
+      "title": "When Mama Was Moth",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 186333
+    },
+    {
+      "id": "netease-track:17124741",
+      "neteaseTrackId": "17124741",
+      "title": "Five Ten Fiftyfold",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 299626
+    },
+    {
+      "id": "netease-track:17124742",
+      "neteaseTrackId": "17124742",
+      "title": "Sugar Hiccup",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 222440
+    },
+    {
+      "id": "netease-track:17124743",
+      "neteaseTrackId": "17124743",
+      "title": "In Our Angelhood",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 179733
+    },
+    {
+      "id": "netease-track:17124744",
+      "neteaseTrackId": "17124744",
+      "title": "Glass Candle Grenades",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 164911
+    },
+    {
+      "id": "netease-track:17124745",
+      "neteaseTrackId": "17124745",
+      "title": "In the Gold Dust Rush",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 221387
+    },
+    {
+      "id": "netease-track:17124746",
+      "neteaseTrackId": "17124746",
+      "title": "The Tinderbox (Of a Heart)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 297299
+    },
+    {
+      "id": "netease-track:17124747",
+      "neteaseTrackId": "17124747",
+      "title": "Multifoiled",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 156200
+    },
+    {
+      "id": "netease-track:17124748",
+      "neteaseTrackId": "17124748",
+      "title": "My Love Paramour",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 219533
+    },
+    {
+      "id": "netease-track:17124749",
+      "neteaseTrackId": "17124749",
+      "title": "Musette and Drums",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 279733
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1577476",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Head Over Heels Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "internalId": "album:27549",
+  "id": "album:27549",
+  "neteaseAlbumId": "27549",
+  "slug": "netease-album-27549",
+  "title": "莫文蔚 & Friends",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2001-12-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27549.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27549.webp",
+    "alt": "《莫文蔚 & Friends》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277490",
+      "neteaseTrackId": "277490",
+      "title": "那么爱你为什么",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "黄品源"
+      ],
+      "durationMs": 264809
+    },
+    {
+      "id": "netease-track:277495",
+      "neteaseTrackId": "277495",
+      "title": "爱我爱我",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "任贤齐"
+      ],
+      "durationMs": 256799
+    },
+    {
+      "id": "netease-track:277499",
+      "neteaseTrackId": "277499",
+      "title": "冬至",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "伍佰"
+      ],
+      "durationMs": 380733
+    },
+    {
+      "id": "netease-track:277503",
+      "neteaseTrackId": "277503",
+      "title": "南龙北凤",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "周华健"
+      ],
+      "durationMs": 211106
+    },
+    {
+      "id": "netease-track:277507",
+      "neteaseTrackId": "277507",
+      "title": "坚强的理由",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "伍佰"
+      ],
+      "durationMs": 318160
+    },
+    {
+      "id": "netease-track:277517",
+      "neteaseTrackId": "277517",
+      "title": "广岛之恋",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "张洪量"
+      ],
+      "durationMs": 320573
+    },
+    {
+      "id": "netease-track:277522",
+      "neteaseTrackId": "277522",
+      "title": "痛苦过",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "周华健"
+      ],
+      "durationMs": 200239
+    },
+    {
+      "id": "netease-track:277526",
+      "neteaseTrackId": "277526",
+      "title": "活着",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "任贤齐"
+      ],
+      "durationMs": 288200
+    },
+    {
+      "id": "netease-track:277530",
+      "neteaseTrackId": "277530",
+      "title": "失恋万岁",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "苏慧伦"
+      ],
+      "durationMs": 182800
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=27549",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "莫文蔚 & Friends 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

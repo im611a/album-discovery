@@ -1,0 +1,186 @@
+{
+  "internalId": "album:18988",
+  "id": "album:18988",
+  "neteaseAlbumId": "18988",
+  "slug": "netease-album-18988",
+  "title": "拥有",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1995-01-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "巨石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18988.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18988.webp",
+    "alt": "《拥有》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187162",
+      "neteaseTrackId": "187162",
+      "title": "曾经爱过",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 247840
+    },
+    {
+      "id": "netease-track:187166",
+      "neteaseTrackId": "187166",
+      "title": "疼你的心",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 299026
+    },
+    {
+      "id": "netease-track:187169",
+      "neteaseTrackId": "187169",
+      "title": "爱如潮水",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 275159
+    },
+    {
+      "id": "netease-track:187173",
+      "neteaseTrackId": "187173",
+      "title": "让我忘记你的脸",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 210973
+    },
+    {
+      "id": "netease-track:187177",
+      "neteaseTrackId": "187177",
+      "title": "我们爱这个错",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 207666
+    },
+    {
+      "id": "netease-track:187182",
+      "neteaseTrackId": "187182",
+      "title": "今夜梦里有雾",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 283667
+    },
+    {
+      "id": "netease-track:187187",
+      "neteaseTrackId": "187187",
+      "title": "忘不了你",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 231332
+    },
+    {
+      "id": "netease-track:187192",
+      "neteaseTrackId": "187192",
+      "title": "有了爱",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 283760
+    },
+    {
+      "id": "netease-track:187197",
+      "neteaseTrackId": "187197",
+      "title": "我是真的爱你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 305000
+    },
+    {
+      "id": "netease-track:187202",
+      "neteaseTrackId": "187202",
+      "title": "知道",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 226998
+    },
+    {
+      "id": "netease-track:187207",
+      "neteaseTrackId": "187207",
+      "title": "难道",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 282853
+    },
+    {
+      "id": "netease-track:187212",
+      "neteaseTrackId": "187212",
+      "title": "不变是你永远是我",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 197933
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=18988",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "拥有 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

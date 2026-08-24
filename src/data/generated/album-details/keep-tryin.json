@@ -1,0 +1,87 @@
+{
+  "internalId": "album:64265",
+  "id": "album:64265",
+  "neteaseAlbumId": "64265",
+  "slug": "keep-tryin",
+  "title": "Keep Tryin'",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2006-02-21",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64265.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64265.webp",
+    "alt": "《Keep Tryin'》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666572",
+      "neteaseTrackId": "666572",
+      "title": "Keep Tryin",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 295288
+    },
+    {
+      "id": "netease-track:666576",
+      "neteaseTrackId": "666576",
+      "title": "Wings",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 291851
+    },
+    {
+      "id": "netease-track:666580",
+      "neteaseTrackId": "666580",
+      "title": "Keep Tryin' [Original Karaoke]",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 293453
+    }
+  ],
+  "trackCount": 3,
+  "externalUrl": "https://music.163.com/#/album?id=64265",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Keep Tryin' 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

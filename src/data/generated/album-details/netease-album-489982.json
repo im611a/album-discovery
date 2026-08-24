@@ -1,0 +1,423 @@
+{
+  "internalId": "album:489982",
+  "id": "album:489982",
+  "neteaseAlbumId": "489982",
+  "slug": "netease-album-489982",
+  "title": "20 30 40 爱得精彩",
+  "aliases": [
+    "电影《20 30 40》原声带专辑"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:10564",
+      "neteaseArtistId": "10564",
+      "name": "张艾嘉"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    },
+    {
+      "id": "netease-artist:8348",
+      "neteaseArtistId": "8348",
+      "name": "李心洁"
+    }
+  ],
+  "releaseDate": "2004-02-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/489982.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/489982.webp",
+    "alt": "《20 30 40 爱得精彩》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4876123",
+      "neteaseTrackId": "4876123",
+      "title": "20.30.40",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "李心洁",
+        "张艾嘉",
+        "刘若英"
+      ],
+      "durationMs": 259752
+    },
+    {
+      "id": "netease-track:4876124",
+      "neteaseTrackId": "4876124",
+      "title": "多傻",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 302811
+    },
+    {
+      "id": "netease-track:4876125",
+      "neteaseTrackId": "4876125",
+      "title": "短歌",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张艾嘉"
+      ],
+      "durationMs": 258113
+    },
+    {
+      "id": "netease-track:4876126",
+      "neteaseTrackId": "4876126",
+      "title": "Good Or Bad",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "李心洁",
+        "刘若英"
+      ],
+      "durationMs": 251933
+    },
+    {
+      "id": "netease-track:4876127",
+      "neteaseTrackId": "4876127",
+      "title": "60年代",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张艾嘉"
+      ],
+      "durationMs": 282888
+    },
+    {
+      "id": "netease-track:4876128",
+      "neteaseTrackId": "4876128",
+      "title": "有爱没爱我都不会慌",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 195674
+    },
+    {
+      "id": "netease-track:4876129",
+      "neteaseTrackId": "4876129",
+      "title": "女人女人女人",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "李心洁",
+        "张艾嘉",
+        "刘若英"
+      ],
+      "durationMs": 251309
+    },
+    {
+      "id": "netease-track:4876130",
+      "neteaseTrackId": "4876130",
+      "title": "下次恋爱会好一点",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "李心洁"
+      ],
+      "durationMs": 244853
+    },
+    {
+      "id": "netease-track:4876131",
+      "neteaseTrackId": "4876131",
+      "title": "可爱少年",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张艾嘉"
+      ],
+      "durationMs": 216038
+    },
+    {
+      "id": "netease-track:4876132",
+      "neteaseTrackId": "4876132",
+      "title": "20.30.40(电影音乐主题曲)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 166417
+    },
+    {
+      "id": "netease-track:4876133",
+      "neteaseTrackId": "4876133",
+      "title": "No Answer",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 126107
+    },
+    {
+      "id": "netease-track:4876134",
+      "neteaseTrackId": "4876134",
+      "title": "梦魇",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 89443
+    },
+    {
+      "id": "netease-track:4876135",
+      "neteaseTrackId": "4876135",
+      "title": "发现",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 80457
+    },
+    {
+      "id": "netease-track:4876136",
+      "neteaseTrackId": "4876136",
+      "title": "Sweet J",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 147493
+    },
+    {
+      "id": "netease-track:4876137",
+      "neteaseTrackId": "4876137",
+      "title": "走在雨中",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "李心洁"
+      ],
+      "durationMs": 67613
+    },
+    {
+      "id": "netease-track:4876138",
+      "neteaseTrackId": "4876138",
+      "title": "沉默的孤独",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 187315
+    },
+    {
+      "id": "netease-track:4876139",
+      "neteaseTrackId": "4876139",
+      "title": "答案",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 134048
+    },
+    {
+      "id": "netease-track:4876140",
+      "neteaseTrackId": "4876140",
+      "title": "一个的Coffee Shop",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 138089
+    },
+    {
+      "id": "netease-track:4876141",
+      "neteaseTrackId": "4876141",
+      "title": "钢琴独奏1号",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 134257
+    },
+    {
+      "id": "netease-track:4876142",
+      "neteaseTrackId": "4876142",
+      "title": "冷战",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 123808
+    },
+    {
+      "id": "netease-track:4876143",
+      "neteaseTrackId": "4876143",
+      "title": "改变",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 66989
+    },
+    {
+      "id": "netease-track:4876144",
+      "neteaseTrackId": "4876144",
+      "title": "心中的独白",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 113429
+    },
+    {
+      "id": "netease-track:4876145",
+      "neteaseTrackId": "4876145",
+      "title": "Cara Mia (Ot:亲爱的你)",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 199900
+    },
+    {
+      "id": "netease-track:4876147",
+      "neteaseTrackId": "4876147",
+      "title": "等待(音乐)",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 60441
+    },
+    {
+      "id": "netease-track:4876148",
+      "neteaseTrackId": "4876148",
+      "title": "看见",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 96432
+    },
+    {
+      "id": "netease-track:4876149",
+      "neteaseTrackId": "4876149",
+      "title": "三重奏",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 162261
+    },
+    {
+      "id": "netease-track:4876150",
+      "neteaseTrackId": "4876150",
+      "title": "暗示",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 140457
+    },
+    {
+      "id": "netease-track:4876151",
+      "neteaseTrackId": "4876151",
+      "title": "告别青春",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 148003
+    },
+    {
+      "id": "netease-track:4876152",
+      "neteaseTrackId": "4876152",
+      "title": "Dear EMIly",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 163538
+    },
+    {
+      "id": "netease-track:4876153",
+      "neteaseTrackId": "4876153",
+      "title": "Coda",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 94876
+    },
+    {
+      "id": "netease-track:4876154",
+      "neteaseTrackId": "4876154",
+      "title": "Passion Am",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 242323
+    },
+    {
+      "id": "netease-track:4876155",
+      "neteaseTrackId": "4876155",
+      "title": "我要你的爱",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "葛兰"
+      ],
+      "durationMs": 163050
+    }
+  ],
+  "trackCount": 32,
+  "externalUrl": "https://music.163.com/#/album?id=489982",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "20 30 40 爱得精彩 电影《20 30 40》原声带专辑 张艾嘉 刘若英 李心洁",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

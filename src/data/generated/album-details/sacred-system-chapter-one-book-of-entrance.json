@@ -1,0 +1,109 @@
+{
+  "internalId": "album:222302",
+  "id": "album:222302",
+  "neteaseAlbumId": "222302",
+  "slug": "sacred-system-chapter-one-book-of-entrance",
+  "title": "Sacred System Chapter One: Book Of Entrance",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1996-04-29",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "ROIR",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222302.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222302.webp",
+    "alt": "《Sacred System Chapter One: Book Of Entrance》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2206314",
+      "neteaseTrackId": "2206314",
+      "title": "Babylon Ghost",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 360506
+    },
+    {
+      "id": "netease-track:2206315",
+      "neteaseTrackId": "2206315",
+      "title": "Dread Iternal",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 559800
+    },
+    {
+      "id": "netease-track:2206316",
+      "neteaseTrackId": "2206316",
+      "title": "Cyborg Assault",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 337533
+    },
+    {
+      "id": "netease-track:2206317",
+      "neteaseTrackId": "2206317",
+      "title": "Galactic Zone",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 571466
+    },
+    {
+      "id": "netease-track:2206320",
+      "neteaseTrackId": "2206320",
+      "title": "Sub Terrain",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 973093
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=222302",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sacred System Chapter One: Book Of Entrance Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

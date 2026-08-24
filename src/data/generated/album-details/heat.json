@@ -1,0 +1,109 @@
+{
+  "internalId": "album:220682",
+  "id": "album:220682",
+  "neteaseAlbumId": "220682",
+  "slug": "heat",
+  "title": "Heat",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2011-02-10",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Columbia Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220682.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220682.webp",
+    "alt": "《Heat》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2187822",
+      "neteaseTrackId": "2187822",
+      "title": "Fever",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 212893
+    },
+    {
+      "id": "netease-track:2187824",
+      "neteaseTrackId": "2187824",
+      "title": "At Last (Karmatronic Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 460000
+    },
+    {
+      "id": "netease-track:2187826",
+      "neteaseTrackId": "2187826",
+      "title": "Broken-Hearted Girl (Catalyst Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 285946
+    },
+    {
+      "id": "netease-track:2187828",
+      "neteaseTrackId": "2187828",
+      "title": "Satellites (Karmatronic Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 441000
+    },
+    {
+      "id": "netease-track:2187830",
+      "neteaseTrackId": "2187830",
+      "title": "Smash Into You (Lost Daze Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 382000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=220682",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Heat Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

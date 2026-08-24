@@ -1,0 +1,165 @@
+{
+  "internalId": "album:19104",
+  "id": "album:19104",
+  "neteaseAlbumId": "19104",
+  "slug": "netease-album-19104",
+  "title": "兜风心情",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1989-07-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19104.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19104.webp",
+    "alt": "《兜风心情》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188779",
+      "neteaseTrackId": "188779",
+      "title": "爱的狂徒",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 229080
+    },
+    {
+      "id": "netease-track:188783",
+      "neteaseTrackId": "188783",
+      "title": "透明的你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 228920
+    },
+    {
+      "id": "netease-track:188787",
+      "neteaseTrackId": "188787",
+      "title": "狂野如我",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 222560
+    },
+    {
+      "id": "netease-track:188790",
+      "neteaseTrackId": "188790",
+      "title": "守住风口",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 195746
+    },
+    {
+      "id": "netease-track:188792",
+      "neteaseTrackId": "188792",
+      "title": "梦里蓝天",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 284840
+    },
+    {
+      "id": "netease-track:188795",
+      "neteaseTrackId": "188795",
+      "title": "兜风心情",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "柏安妮"
+      ],
+      "durationMs": 242066
+    },
+    {
+      "id": "netease-track:188799",
+      "neteaseTrackId": "188799",
+      "title": "天使之爱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 244866
+    },
+    {
+      "id": "netease-track:188803",
+      "neteaseTrackId": "188803",
+      "title": "在你的眼里看不见我的心",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 244040
+    },
+    {
+      "id": "netease-track:188807",
+      "neteaseTrackId": "188807",
+      "title": "明月夜",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 246813
+    },
+    {
+      "id": "netease-track:188811",
+      "neteaseTrackId": "188811",
+      "title": "直到世界没有爱情",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 255733
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19104",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "兜风心情 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

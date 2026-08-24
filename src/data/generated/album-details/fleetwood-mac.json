@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1637057",
+  "id": "album:1637057",
+  "neteaseAlbumId": "1637057",
+  "slug": "fleetwood-mac",
+  "title": "Fleetwood Mac",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1975-07-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637057.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637057.webp",
+    "alt": "《Fleetwood Mac》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17786200",
+      "neteaseTrackId": "17786200",
+      "title": "Monday Morning",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 167840
+    },
+    {
+      "id": "netease-track:17786201",
+      "neteaseTrackId": "17786201",
+      "title": "Warm Ways",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 234826
+    },
+    {
+      "id": "netease-track:17786202",
+      "neteaseTrackId": "17786202",
+      "title": "Blue Letter",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 161066
+    },
+    {
+      "id": "netease-track:17786203",
+      "neteaseTrackId": "17786203",
+      "title": "Rhiannon",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 252773
+    },
+    {
+      "id": "netease-track:17786204",
+      "neteaseTrackId": "17786204",
+      "title": "Over My Head",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 215000
+    },
+    {
+      "id": "netease-track:17786205",
+      "neteaseTrackId": "17786205",
+      "title": "Crystal",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 314266
+    },
+    {
+      "id": "netease-track:17786206",
+      "neteaseTrackId": "17786206",
+      "title": "Say You Love Me",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 249946
+    },
+    {
+      "id": "netease-track:17786207",
+      "neteaseTrackId": "17786207",
+      "title": "Landslide",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 199493
+    },
+    {
+      "id": "netease-track:17786208",
+      "neteaseTrackId": "17786208",
+      "title": "World Turning",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 265933
+    },
+    {
+      "id": "netease-track:17786209",
+      "neteaseTrackId": "17786209",
+      "title": "Sugar Daddy",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 250973
+    },
+    {
+      "id": "netease-track:17786210",
+      "neteaseTrackId": "17786210",
+      "title": "I'm so Afraid",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 262533
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1637057",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Fleetwood Mac Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "internalId": "album:184178",
+  "id": "album:184178",
+  "neteaseAlbumId": "184178",
+  "slug": "3121",
+  "title": "3121",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "2006-03-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184178.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184178.webp",
+    "alt": "《3121》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1822400",
+      "neteaseTrackId": "1822400",
+      "title": "3121",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 271092
+    },
+    {
+      "id": "netease-track:1822404",
+      "neteaseTrackId": "1822404",
+      "title": "Lolita",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 246131
+    },
+    {
+      "id": "netease-track:1822407",
+      "neteaseTrackId": "1822407",
+      "title": "Te Amo Corazón",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 215829
+    },
+    {
+      "id": "netease-track:1822410",
+      "neteaseTrackId": "1822410",
+      "title": "Black Sweat",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 191169
+    },
+    {
+      "id": "netease-track:1822412",
+      "neteaseTrackId": "1822412",
+      "title": "Incense and Candles",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 244784
+    },
+    {
+      "id": "netease-track:1822415",
+      "neteaseTrackId": "1822415",
+      "title": "Love",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 345954
+    },
+    {
+      "id": "netease-track:1822418",
+      "neteaseTrackId": "1822418",
+      "title": "Satisfied",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 170341
+    },
+    {
+      "id": "netease-track:1822422",
+      "neteaseTrackId": "1822422",
+      "title": "Fury",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 242277
+    },
+    {
+      "id": "netease-track:1822426",
+      "neteaseTrackId": "1822426",
+      "title": "The Word",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 251425
+    },
+    {
+      "id": "netease-track:1822430",
+      "neteaseTrackId": "1822430",
+      "title": "Beautiful, Loved and Blessed",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 343585
+    },
+    {
+      "id": "netease-track:1822434",
+      "neteaseTrackId": "1822434",
+      "title": "The Dance",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 320876
+    },
+    {
+      "id": "netease-track:1822437",
+      "neteaseTrackId": "1822437",
+      "title": "Get On the Boat",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 371840
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=184178",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "3121 Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

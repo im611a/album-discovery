@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1540806",
+  "id": "album:1540806",
+  "neteaseAlbumId": "1540806",
+  "slug": "invisible-design-ii",
+  "title": "Invisible Design II",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2009-03-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Tzadik",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540806.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540806.webp",
+    "alt": "《Invisible Design II》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16714955",
+      "neteaseTrackId": "16714955",
+      "title": "Xtrak",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 179120
+    },
+    {
+      "id": "netease-track:16714956",
+      "neteaseTrackId": "16714956",
+      "title": "Quartz",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 312186
+    },
+    {
+      "id": "netease-track:16714957",
+      "neteaseTrackId": "16714957",
+      "title": "Aphasia",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 435986
+    },
+    {
+      "id": "netease-track:16714958",
+      "neteaseTrackId": "16714958",
+      "title": "Sub Sonnet",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 431640
+    },
+    {
+      "id": "netease-track:16714959",
+      "neteaseTrackId": "16714959",
+      "title": "Solar Clip",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 206026
+    },
+    {
+      "id": "netease-track:16714960",
+      "neteaseTrackId": "16714960",
+      "title": "Iron Monger",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 118786
+    },
+    {
+      "id": "netease-track:16714961",
+      "neteaseTrackId": "16714961",
+      "title": "Fractal",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 308920
+    },
+    {
+      "id": "netease-track:16714962",
+      "neteaseTrackId": "16714962",
+      "title": "Pillar",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 188746
+    },
+    {
+      "id": "netease-track:16714963",
+      "neteaseTrackId": "16714963",
+      "title": "Gulf Of Stars",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 428413
+    },
+    {
+      "id": "netease-track:16714964",
+      "neteaseTrackId": "16714964",
+      "title": "Darkness After",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 373080
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1540806",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Invisible Design II Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

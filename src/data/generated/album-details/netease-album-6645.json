@@ -1,0 +1,354 @@
+{
+  "internalId": "album:6645",
+  "id": "album:6645",
+  "neteaseAlbumId": "6645",
+  "slug": "netease-album-6645",
+  "title": "天下无双 电影原声大碟",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2135",
+      "neteaseArtistId": "2135",
+      "name": "陈勋奇"
+    },
+    {
+      "id": "netease-artist:3715",
+      "neteaseArtistId": "3715",
+      "name": "梁朝伟"
+    },
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2002-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6645.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6645.webp",
+    "alt": "《天下无双 电影原声大碟》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:68087",
+      "neteaseTrackId": "68087",
+      "title": "序曲",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 63573
+    },
+    {
+      "id": "netease-track:68089",
+      "neteaseTrackId": "68089",
+      "title": "出宫",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 149814
+    },
+    {
+      "id": "netease-track:68091",
+      "neteaseTrackId": "68091",
+      "title": "下江南",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 118560
+    },
+    {
+      "id": "netease-track:68093",
+      "neteaseTrackId": "68093",
+      "title": "杀气",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 68506
+    },
+    {
+      "id": "netease-track:68097",
+      "neteaseTrackId": "68097",
+      "title": "天地之大小于尘埃",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 90760
+    },
+    {
+      "id": "netease-track:68101",
+      "neteaseTrackId": "68101",
+      "title": "喜相逢",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "梁朝伟",
+        "王菲"
+      ],
+      "durationMs": 197360
+    },
+    {
+      "id": "netease-track:68106",
+      "neteaseTrackId": "68106",
+      "title": "朝露",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 154013
+    },
+    {
+      "id": "netease-track:68109",
+      "neteaseTrackId": "68109",
+      "title": "善其身",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 189640
+    },
+    {
+      "id": "netease-track:68113",
+      "neteaseTrackId": "68113",
+      "title": "醉一场",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "梁朝伟",
+        "王菲"
+      ],
+      "durationMs": 142893
+    },
+    {
+      "id": "netease-track:68116",
+      "neteaseTrackId": "68116",
+      "title": "喜相逢啦啦啦啦啦",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 195866
+    },
+    {
+      "id": "netease-track:68119",
+      "neteaseTrackId": "68119",
+      "title": "眼波流",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 113200
+    },
+    {
+      "id": "netease-track:68122",
+      "neteaseTrackId": "68122",
+      "title": "离恨",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 153453
+    },
+    {
+      "id": "netease-track:68127",
+      "neteaseTrackId": "68127",
+      "title": "桃花为盟",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 35773
+    },
+    {
+      "id": "netease-track:68131",
+      "neteaseTrackId": "68131",
+      "title": "平地有风雷",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 30320
+    },
+    {
+      "id": "netease-track:68133",
+      "neteaseTrackId": "68133",
+      "title": "爱有神奇力量",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 82520
+    },
+    {
+      "id": "netease-track:68135",
+      "neteaseTrackId": "68135",
+      "title": "缘定今生",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 198960
+    },
+    {
+      "id": "netease-track:68137",
+      "neteaseTrackId": "68137",
+      "title": "独饮",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 190400
+    },
+    {
+      "id": "netease-track:68139",
+      "neteaseTrackId": "68139",
+      "title": "触影生情",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 270440
+    },
+    {
+      "id": "netease-track:68142",
+      "neteaseTrackId": "68142",
+      "title": "天下无双天啦地啦",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "梁朝伟",
+        "王菲"
+      ],
+      "durationMs": 133426
+    },
+    {
+      "id": "netease-track:68148",
+      "neteaseTrackId": "68148",
+      "title": "有你有我",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 94867
+    },
+    {
+      "id": "netease-track:68151",
+      "neteaseTrackId": "68151",
+      "title": "人间天地好",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 189173
+    },
+    {
+      "id": "netease-track:68154",
+      "neteaseTrackId": "68154",
+      "title": "爱火不熄",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 210800
+    },
+    {
+      "id": "netease-track:68157",
+      "neteaseTrackId": "68157",
+      "title": "如许前尘",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 205987
+    },
+    {
+      "id": "netease-track:68160",
+      "neteaseTrackId": "68160",
+      "title": "不回首",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 172192
+    },
+    {
+      "id": "netease-track:68163",
+      "neteaseTrackId": "68163",
+      "title": "春暖花开大团圆",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "陈勋奇"
+      ],
+      "durationMs": 118600
+    },
+    {
+      "id": "netease-track:68166",
+      "neteaseTrackId": "68166",
+      "title": "天下无双天啦地啦",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "梁朝伟",
+        "王菲"
+      ],
+      "durationMs": 134066
+    }
+  ],
+  "trackCount": 26,
+  "externalUrl": "https://music.163.com/#/album?id=6645",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "天下无双 电影原声大碟 陈勋奇 梁朝伟 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

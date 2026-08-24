@@ -1,0 +1,301 @@
+{
+  "internalId": "album:490053",
+  "id": "album:490053",
+  "neteaseAlbumId": "490053",
+  "slug": "netease-album-490053",
+  "title": "夕阳天使 电影原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:1094128",
+      "neteaseArtistId": "1094128",
+      "name": "陈飞午"
+    },
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2002-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/490053.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/490053.webp",
+    "alt": "《夕阳天使 电影原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4877247",
+      "neteaseTrackId": "4877247",
+      "title": "You",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 305397
+    },
+    {
+      "id": "netease-track:4877248",
+      "neteaseTrackId": "4877248",
+      "title": "Under Attack",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 176000
+    },
+    {
+      "id": "netease-track:4877249",
+      "neteaseTrackId": "4877249",
+      "title": "Mysterious Lady",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 60760
+    },
+    {
+      "id": "netease-track:4877250",
+      "neteaseTrackId": "4877250",
+      "title": "Assassin",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 169000
+    },
+    {
+      "id": "netease-track:4877251",
+      "neteaseTrackId": "4877251",
+      "title": "You're On The Run",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:4877252",
+      "neteaseTrackId": "4877252",
+      "title": "Partners In Action",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 87000
+    },
+    {
+      "id": "netease-track:4877253",
+      "neteaseTrackId": "4877253",
+      "title": "What Kind Of Love Story",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 115800
+    },
+    {
+      "id": "netease-track:4877254",
+      "neteaseTrackId": "4877254",
+      "title": "Love Somebody (Part 2)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:4877255",
+      "neteaseTrackId": "4877255",
+      "title": "谁是我的",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 304933
+    },
+    {
+      "id": "netease-track:4877256",
+      "neteaseTrackId": "4877256",
+      "title": "I Am An Assassin (Part 1)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 72000
+    },
+    {
+      "id": "netease-track:4877257",
+      "neteaseTrackId": "4877257",
+      "title": "The Tricks",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 93000
+    },
+    {
+      "id": "netease-track:4877258",
+      "neteaseTrackId": "4877258",
+      "title": "Run For Your Life",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 85000
+    },
+    {
+      "id": "netease-track:4877259",
+      "neteaseTrackId": "4877259",
+      "title": "I Will Be Fine (粤)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 225266
+    },
+    {
+      "id": "netease-track:4877260",
+      "neteaseTrackId": "4877260",
+      "title": "Spring",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 52662
+    },
+    {
+      "id": "netease-track:4877261",
+      "neteaseTrackId": "4877261",
+      "title": "You (Guitar Instrumental)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 67000
+    },
+    {
+      "id": "netease-track:4877262",
+      "neteaseTrackId": "4877262",
+      "title": "你给我多少时间",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 304746
+    },
+    {
+      "id": "netease-track:4877263",
+      "neteaseTrackId": "4877263",
+      "title": "I Love You Sister",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 329874
+    },
+    {
+      "id": "netease-track:4877264",
+      "neteaseTrackId": "4877264",
+      "title": "Let's Do It",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 66000
+    },
+    {
+      "id": "netease-track:4877265",
+      "neteaseTrackId": "4877265",
+      "title": "Close To You",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 267626
+    },
+    {
+      "id": "netease-track:4877266",
+      "neteaseTrackId": "4877266",
+      "title": "Hand In Hand",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 208000
+    },
+    {
+      "id": "netease-track:4877267",
+      "neteaseTrackId": "4877267",
+      "title": "Revende",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "陈飞午"
+      ],
+      "durationMs": 410000
+    },
+    {
+      "id": "netease-track:4877268",
+      "neteaseTrackId": "4877268",
+      "title": "I Will Be Fine",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 229293
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=490053",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "夕阳天使 电影原声带 陈飞午 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "internalId": "album:23713",
+  "id": "album:23713",
+  "neteaseAlbumId": "23713",
+  "slug": "netease-album-23713",
+  "title": "走生命的路",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7785",
+      "neteaseArtistId": "7785",
+      "name": "龚琳娜"
+    }
+  ],
+  "releaseDate": "2005-08-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "龚锣（北京）国际文化传播",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23713.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23713.webp",
+    "alt": "《走生命的路》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:236711",
+      "neteaseTrackId": "236711",
+      "title": "走,生命的路",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 286506
+    },
+    {
+      "id": "netease-track:236713",
+      "neteaseTrackId": "236713",
+      "title": "庭院深深",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 304066
+    },
+    {
+      "id": "netease-track:236715",
+      "neteaseTrackId": "236715",
+      "title": "你在哪里",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 202066
+    },
+    {
+      "id": "netease-track:236716",
+      "neteaseTrackId": "236716",
+      "title": "故乡的奶奶",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 222400
+    },
+    {
+      "id": "netease-track:236717",
+      "neteaseTrackId": "236717",
+      "title": "龙的眼",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 363080
+    },
+    {
+      "id": "netease-track:236718",
+      "neteaseTrackId": "236718",
+      "title": "阳光少女",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 276880
+    },
+    {
+      "id": "netease-track:236720",
+      "neteaseTrackId": "236720",
+      "title": "山中问答",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 337133
+    },
+    {
+      "id": "netease-track:236722",
+      "neteaseTrackId": "236722",
+      "title": "在森林里",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 240400
+    },
+    {
+      "id": "netease-track:236725",
+      "neteaseTrackId": "236725",
+      "title": "我的失恋",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 236346
+    },
+    {
+      "id": "netease-track:236728",
+      "neteaseTrackId": "236728",
+      "title": "放羊",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 133960
+    },
+    {
+      "id": "netease-track:236731",
+      "neteaseTrackId": "236731",
+      "title": "希望",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 339266
+    },
+    {
+      "id": "netease-track:236734",
+      "neteaseTrackId": "236734",
+      "title": "走，生命的路Ⅱ",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 509626
+    },
+    {
+      "id": "netease-track:236737",
+      "neteaseTrackId": "236737",
+      "title": "冬去春来",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 261706
+    },
+    {
+      "id": "netease-track:236740",
+      "neteaseTrackId": "236740",
+      "title": "诞生",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 76853
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=23713",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "走生命的路 龚琳娜",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

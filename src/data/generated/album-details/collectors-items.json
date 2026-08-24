@@ -1,0 +1,131 @@
+{
+  "internalId": "album:172658",
+  "id": "album:172658",
+  "neteaseAlbumId": "172658",
+  "slug": "collectors-items",
+  "title": "Collectors' Items",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2012-08-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "SINETONE AMR",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172658.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172658.webp",
+    "alt": "《Collectors' Items》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1703082",
+      "neteaseTrackId": "1703082",
+      "title": "Serpent's Tooth 1",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 420310
+    },
+    {
+      "id": "netease-track:1303612510",
+      "neteaseTrackId": "1303612510",
+      "title": "Serpent's Tooth 2",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 377866
+    },
+    {
+      "id": "netease-track:1703085",
+      "neteaseTrackId": "1703085",
+      "title": "'Round About Midnight",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 424568
+    },
+    {
+      "id": "netease-track:1703087",
+      "neteaseTrackId": "1703087",
+      "title": "Compulsion",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 343902
+    },
+    {
+      "id": "netease-track:1703089",
+      "neteaseTrackId": "1703089",
+      "title": "No Line",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 339666
+    },
+    {
+      "id": "netease-track:1703090",
+      "neteaseTrackId": "1703090",
+      "title": "Vierd Blues",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 412003
+    },
+    {
+      "id": "netease-track:1703093",
+      "neteaseTrackId": "1703093",
+      "title": "In Your Own Sweet Way",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 274076
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=172658",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Collectors' Items Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

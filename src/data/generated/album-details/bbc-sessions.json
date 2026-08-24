@@ -1,0 +1,384 @@
+{
+  "internalId": "album:1577486",
+  "id": "album:1577486",
+  "neteaseAlbumId": "1577486",
+  "slug": "bbc-sessions",
+  "title": "BBC Sessions",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1999-10-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577486.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577486.webp",
+    "alt": "《BBC Sessions》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17124845",
+      "neteaseTrackId": "17124845",
+      "title": "Wax And Wane (BBC Session - John Peel, 15th July 1982)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 231067
+    },
+    {
+      "id": "netease-track:17124847",
+      "neteaseTrackId": "17124847",
+      "title": "Garlands (BBC Session - John Peel, 15th July 1982)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 259266
+    },
+    {
+      "id": "netease-track:17124849",
+      "neteaseTrackId": "17124849",
+      "title": "Alas Dies Laughing (BBC Session - John Peel, 15th July 1982)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 208534
+    },
+    {
+      "id": "netease-track:17124851",
+      "neteaseTrackId": "17124851",
+      "title": "Feathers Oar-Blades (BBC Session - John Peel, 15th July 1982)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 139000
+    },
+    {
+      "id": "netease-track:17124853",
+      "neteaseTrackId": "17124853",
+      "title": "Hearsay Please (BBC Session - John Peel, 31st January 1983)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:17124855",
+      "neteaseTrackId": "17124855",
+      "title": "Dear Heart (BBC Session - John Peel, 31st January 1983)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 218933
+    },
+    {
+      "id": "netease-track:17124857",
+      "neteaseTrackId": "17124857",
+      "title": "Blind Dumb Deaf (BBC Session - John Peel, 31st January 1983)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 221027
+    },
+    {
+      "id": "netease-track:17124859",
+      "neteaseTrackId": "17124859",
+      "title": "Hazel (BBC Session - John Peel, 31st January 1983)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 201600
+    },
+    {
+      "id": "netease-track:17124861",
+      "neteaseTrackId": "17124861",
+      "title": "The Tinderbox (Of A Heart) (BBC Session - John Peel, 4th October 1983)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 288240
+    },
+    {
+      "id": "netease-track:17124862",
+      "neteaseTrackId": "17124862",
+      "title": "Strange Fruit (BBC Session - John Peel, 4th October 1983)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 112000
+    },
+    {
+      "id": "netease-track:17124863",
+      "neteaseTrackId": "17124863",
+      "title": "Hitherto (BBC Session - John Peel, 4th October 1983)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 237000
+    },
+    {
+      "id": "netease-track:17124864",
+      "neteaseTrackId": "17124864",
+      "title": "From The Flagstones (BBC Session - John Peel, 4th October 1983)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:17124865",
+      "neteaseTrackId": "17124865",
+      "title": "Sugar Hiccup (BBC Session - Kid Jensen, 10th October 1983)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 221400
+    },
+    {
+      "id": "netease-track:17124866",
+      "neteaseTrackId": "17124866",
+      "title": "In Our Angelhood (BBC Session - Kid Jensen, 10th October 1983)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 235240
+    },
+    {
+      "id": "netease-track:17124868",
+      "neteaseTrackId": "17124868",
+      "title": "My Hue And Cry (BBC Session - Kid Jensen, 10th October 1983)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:17124869",
+      "neteaseTrackId": "17124869",
+      "title": "Musette And Drums (BBC Session - Kid Jensen, 10th October 1983)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 251639
+    },
+    {
+      "id": "netease-track:17124871",
+      "neteaseTrackId": "17124871",
+      "title": "Hitherto (BBC Session - Saturday Night Live, 3rd December 1983)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 236800
+    },
+    {
+      "id": "netease-track:17124874",
+      "neteaseTrackId": "17124874",
+      "title": "From The Flagstones (BBC Session - Saturday Night Live, 3rd December 1983)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 213600
+    },
+    {
+      "id": "netease-track:17124876",
+      "neteaseTrackId": "17124876",
+      "title": "Musette And Drums (BBC Session - Saturday Night Live, 3rd December 1983)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 253027
+    },
+    {
+      "id": "netease-track:17124878",
+      "neteaseTrackId": "17124878",
+      "title": "Pepper Tree (BBC Session - John Peel, 5th September 1984)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 245466
+    },
+    {
+      "id": "netease-track:17124881",
+      "neteaseTrackId": "17124881",
+      "title": "Beatrix (BBC Session - John Peel, 5th September 1984)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 184000
+    },
+    {
+      "id": "netease-track:17124883",
+      "neteaseTrackId": "17124883",
+      "title": "Ivo (BBC Session - John Peel, 5th September 1984)",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:17124885",
+      "neteaseTrackId": "17124885",
+      "title": "Otterley (BBC Session - John Peel, 5th September 1984)",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:17124887",
+      "neteaseTrackId": "17124887",
+      "title": "Serpentskirt (BBC Session - Mark Radcliffe, 12 March 1996)",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 224666
+    },
+    {
+      "id": "netease-track:17124889",
+      "neteaseTrackId": "17124889",
+      "title": "Golden-Vein (BBC Session - Mark Radcliffe, 12 March 1996)",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 166973
+    },
+    {
+      "id": "netease-track:17124891",
+      "neteaseTrackId": "17124891",
+      "title": "Half-Gifts (BBC Session - Mark Radcliffe, 12 March 1996)",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 230573
+    },
+    {
+      "id": "netease-track:17124893",
+      "neteaseTrackId": "17124893",
+      "title": "Seekers Who Are Lovers (BBC Session - Mark Radcliffe, 12 March 1996)",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 263440
+    },
+    {
+      "id": "netease-track:17124895",
+      "neteaseTrackId": "17124895",
+      "title": "Calfskin Smack (BBC Session - Robert Elms, 10th April 1996)",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 267333
+    },
+    {
+      "id": "netease-track:17124897",
+      "neteaseTrackId": "17124897",
+      "title": "Fifty - Fifty Clown (BBC Session - Robert Elms, 10th April 1996)",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 195667
+    },
+    {
+      "id": "netease-track:17124898",
+      "neteaseTrackId": "17124898",
+      "title": "Violaine (BBC Session - Robert Elms, 10th April 1996)",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 228226
+    }
+  ],
+  "trackCount": 30,
+  "externalUrl": "https://music.163.com/#/album?id=1577486",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "BBC Sessions Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

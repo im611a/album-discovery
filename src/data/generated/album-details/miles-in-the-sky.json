@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1970622",
+  "id": "album:1970622",
+  "neteaseAlbumId": "1970622",
+  "slug": "miles-in-the-sky",
+  "title": "Miles in the Sky",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1968-07-21",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970622.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970622.webp",
+    "alt": "《Miles in the Sky》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341277",
+      "neteaseTrackId": "21341277",
+      "title": "Stuff",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1022304
+    },
+    {
+      "id": "netease-track:21341278",
+      "neteaseTrackId": "21341278",
+      "title": "Paraphernalia",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 761382
+    },
+    {
+      "id": "netease-track:21341279",
+      "neteaseTrackId": "21341279",
+      "title": "Black Comedy",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 451186
+    },
+    {
+      "id": "netease-track:21341280",
+      "neteaseTrackId": "21341280",
+      "title": "Country Son",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 830763
+    },
+    {
+      "id": "netease-track:21341281",
+      "neteaseTrackId": "21341281",
+      "title": "Black Comedy (alternate take)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 386173
+    },
+    {
+      "id": "netease-track:21341282",
+      "neteaseTrackId": "21341282",
+      "title": "Country Son (alternate take)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 878760
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970622",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles in the Sky Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

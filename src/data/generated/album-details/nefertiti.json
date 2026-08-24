@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1970652",
+  "id": "album:1970652",
+  "neteaseAlbumId": "1970652",
+  "slug": "nefertiti",
+  "title": "Nefertiti",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1968-01-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "COLUMBIA/LEGACY",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970652.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970652.webp",
+    "alt": "《Nefertiti》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341594",
+      "neteaseTrackId": "21341594",
+      "title": "Nefertiti",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 475036
+    },
+    {
+      "id": "netease-track:21341595",
+      "neteaseTrackId": "21341595",
+      "title": "Fall",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 398760
+    },
+    {
+      "id": "netease-track:21341596",
+      "neteaseTrackId": "21341596",
+      "title": "Hand Jive",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 534593
+    },
+    {
+      "id": "netease-track:21341597",
+      "neteaseTrackId": "21341597",
+      "title": "Madness",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 453226
+    },
+    {
+      "id": "netease-track:21341598",
+      "neteaseTrackId": "21341598",
+      "title": "Riot",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 185200
+    },
+    {
+      "id": "netease-track:21341599",
+      "neteaseTrackId": "21341599",
+      "title": "Pinocchio",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 308933
+    },
+    {
+      "id": "netease-track:21341600",
+      "neteaseTrackId": "21341600",
+      "title": "Hand Jive (Alternate Take)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 411773
+    },
+    {
+      "id": "netease-track:21341601",
+      "neteaseTrackId": "21341601",
+      "title": "Hand Jive (Second Alternate Take)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 497000
+    },
+    {
+      "id": "netease-track:21341602",
+      "neteaseTrackId": "21341602",
+      "title": "Madness (Alternate Take)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 405760
+    },
+    {
+      "id": "netease-track:21341603",
+      "neteaseTrackId": "21341603",
+      "title": "Pinocchio (Alternate Take)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 308866
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1970652",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Nefertiti Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

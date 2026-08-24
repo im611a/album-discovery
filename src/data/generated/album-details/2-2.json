@@ -1,0 +1,100 @@
+{
+  "internalId": "album:22430",
+  "id": "album:22430",
+  "neteaseAlbumId": "22430",
+  "slug": "2-2",
+  "title": "2/2",
+  "aliases": [
+    "二分之二"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:7409",
+      "neteaseArtistId": "7409",
+      "name": "岑宁儿"
+    }
+  ],
+  "releaseDate": "2012-05-17",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "StreetVoice",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/22430.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/22430.webp",
+    "alt": "《2/2》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:222577",
+      "neteaseTrackId": "222577",
+      "title": "1∕2 Cup",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 157500
+    },
+    {
+      "id": "netease-track:222578",
+      "neteaseTrackId": "222578",
+      "title": "2∕2 Cup",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 233337
+    },
+    {
+      "id": "netease-track:222579",
+      "neteaseTrackId": "222579",
+      "title": "Moving On Pedals",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 228577
+    },
+    {
+      "id": "netease-track:222580",
+      "neteaseTrackId": "222580",
+      "title": "Moving On",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 272695
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=22430",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "2/2 二分之二 岑宁儿",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

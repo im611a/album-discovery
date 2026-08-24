@@ -1,0 +1,197 @@
+{
+  "internalId": "album:21302",
+  "id": "album:21302",
+  "neteaseAlbumId": "21302",
+  "slug": "netease-album-21302",
+  "title": "Groupies吉他手",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "2002-08-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21302.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21302.webp",
+    "alt": "《Groupies吉他手》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209394",
+      "neteaseTrackId": "209394",
+      "title": "我亲爱的偏执狂",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 175720
+    },
+    {
+      "id": "netease-track:209397",
+      "neteaseTrackId": "209397",
+      "title": "太聪明",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 263173
+    },
+    {
+      "id": "netease-track:209400",
+      "neteaseTrackId": "209400",
+      "title": "小步舞曲",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 259720
+    },
+    {
+      "id": "netease-track:209402",
+      "neteaseTrackId": "209402",
+      "title": "1234567",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 216560
+    },
+    {
+      "id": "netease-track:209403",
+      "neteaseTrackId": "209403",
+      "title": "随便说说",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 272653
+    },
+    {
+      "id": "netease-track:209404",
+      "neteaseTrackId": "209404",
+      "title": "躺在你的衣柜 (Guitar)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 305603
+    },
+    {
+      "id": "netease-track:209406",
+      "neteaseTrackId": "209406",
+      "title": "A Practice",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 32653
+    },
+    {
+      "id": "netease-track:209407",
+      "neteaseTrackId": "209407",
+      "title": "吉他手",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 183426
+    },
+    {
+      "id": "netease-track:209409",
+      "neteaseTrackId": "209409",
+      "title": "黑眼圈",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 259813
+    },
+    {
+      "id": "netease-track:209411",
+      "neteaseTrackId": "209411",
+      "title": "就算全世界与我为敌",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 291906
+    },
+    {
+      "id": "netease-track:209414",
+      "neteaseTrackId": "209414",
+      "title": "小尘埃",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 182506
+    },
+    {
+      "id": "netease-track:209416",
+      "neteaseTrackId": "209416",
+      "title": "不应该",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 186453
+    },
+    {
+      "id": "netease-track:209418",
+      "neteaseTrackId": "209418",
+      "title": "躺在你的衣柜 (Piano)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 199733
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=21302",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Groupies吉他手 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1742056",
+  "id": "album:1742056",
+  "neteaseAlbumId": "1742056",
+  "slug": "the-sensual-world",
+  "title": "The Sensual World",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "1989-10-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fish People",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1742056.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1742056.webp",
+    "alt": "《The Sensual World》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19012406",
+      "neteaseTrackId": "19012406",
+      "title": "The Sensual World",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 237666
+    },
+    {
+      "id": "netease-track:19012407",
+      "neteaseTrackId": "19012407",
+      "title": "Love And Anger",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 282466
+    },
+    {
+      "id": "netease-track:19012408",
+      "neteaseTrackId": "19012408",
+      "title": "The Fog",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 306733
+    },
+    {
+      "id": "netease-track:19012409",
+      "neteaseTrackId": "19012409",
+      "title": "Reaching Out",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 192466
+    },
+    {
+      "id": "netease-track:19012410",
+      "neteaseTrackId": "19012410",
+      "title": "Heads We're Dancing",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 321200
+    },
+    {
+      "id": "netease-track:19012411",
+      "neteaseTrackId": "19012411",
+      "title": "Deeper Understanding",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 286226
+    },
+    {
+      "id": "netease-track:19012412",
+      "neteaseTrackId": "19012412",
+      "title": "Between A Man And A Woman",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 210364
+    },
+    {
+      "id": "netease-track:19012413",
+      "neteaseTrackId": "19012413",
+      "title": "Never Be Mine",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 224914
+    },
+    {
+      "id": "netease-track:19012414",
+      "neteaseTrackId": "19012414",
+      "title": "Rocket's Tail",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 247248
+    },
+    {
+      "id": "netease-track:19012415",
+      "neteaseTrackId": "19012415",
+      "title": "This Woman's Work",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 218906
+    },
+    {
+      "id": "netease-track:19012416",
+      "neteaseTrackId": "19012416",
+      "title": "Walk Straight Down The Middle",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 228858
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1742056",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Sensual World Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

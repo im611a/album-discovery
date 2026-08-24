@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1956878",
+  "id": "album:1956878",
+  "neteaseAlbumId": "1956878",
+  "slug": "beyond-magnetic",
+  "title": "Beyond Magnetic",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2010-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Blackened Recordings / Universal Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956878.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956878.webp",
+    "alt": "《Beyond Magnetic》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162639",
+      "neteaseTrackId": "21162639",
+      "title": "Hate Train",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 419186
+    },
+    {
+      "id": "netease-track:21162641",
+      "neteaseTrackId": "21162641",
+      "title": "Just A Bullet Away",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 431480
+    },
+    {
+      "id": "netease-track:21162643",
+      "neteaseTrackId": "21162643",
+      "title": "Hell And Back",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 417893
+    },
+    {
+      "id": "netease-track:21162645",
+      "neteaseTrackId": "21162645",
+      "title": "Rebel Of Babylon",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 482168
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1956878",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Beyond Magnetic Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

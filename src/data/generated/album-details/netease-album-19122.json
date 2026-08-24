@@ -1,0 +1,98 @@
+{
+  "internalId": "album:19122",
+  "id": "album:19122",
+  "neteaseAlbumId": "19122",
+  "slug": "netease-album-19122",
+  "title": "Leslie Dance & Remix 黑胶版",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1987-10-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "新艺宝唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19122.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19122.webp",
+    "alt": "《Leslie Dance & Remix 黑胶版》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189023",
+      "neteaseTrackId": "189023",
+      "title": "够了 (LP Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 227645
+    },
+    {
+      "id": "netease-track:189025",
+      "neteaseTrackId": "189025",
+      "title": "无心睡眠 (Whoo-Oh-O Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 315118
+    },
+    {
+      "id": "netease-track:189027",
+      "neteaseTrackId": "189027",
+      "title": "够了 (Enough's Enough Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 373879
+    },
+    {
+      "id": "netease-track:189029",
+      "neteaseTrackId": "189029",
+      "title": "拒绝再玩 (Play Again Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 315025
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=19122",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Leslie Dance & Remix 黑胶版 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

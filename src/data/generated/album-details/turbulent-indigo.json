@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1724204",
+  "id": "album:1724204",
+  "neteaseAlbumId": "1724204",
+  "slug": "turbulent-indigo",
+  "title": "Turbulent Indigo",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1994-10-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724204.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724204.webp",
+    "alt": "《Turbulent Indigo》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822251",
+      "neteaseTrackId": "18822251",
+      "title": "Sunny Sunday",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 156933
+    },
+    {
+      "id": "netease-track:18822253",
+      "neteaseTrackId": "18822253",
+      "title": "Sex Kills",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 237493
+    },
+    {
+      "id": "netease-track:18822255",
+      "neteaseTrackId": "18822255",
+      "title": "How Do You Stop",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 249226
+    },
+    {
+      "id": "netease-track:18822257",
+      "neteaseTrackId": "18822257",
+      "title": "Turbulent Indigo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 214200
+    },
+    {
+      "id": "netease-track:18822259",
+      "neteaseTrackId": "18822259",
+      "title": "Last Chance Lost",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 194533
+    },
+    {
+      "id": "netease-track:18822261",
+      "neteaseTrackId": "18822261",
+      "title": "The Magdalene Laundries",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 244533
+    },
+    {
+      "id": "netease-track:18822263",
+      "neteaseTrackId": "18822263",
+      "title": "Not to Blame",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 258173
+    },
+    {
+      "id": "netease-track:18822265",
+      "neteaseTrackId": "18822265",
+      "title": "Borderline",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 287866
+    },
+    {
+      "id": "netease-track:18822266",
+      "neteaseTrackId": "18822266",
+      "title": "Yvette in English",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 316560
+    },
+    {
+      "id": "netease-track:18822268",
+      "neteaseTrackId": "18822268",
+      "title": "The Sire of Sorrow (Job's Sad Song)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 427200
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1724204",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Turbulent Indigo Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

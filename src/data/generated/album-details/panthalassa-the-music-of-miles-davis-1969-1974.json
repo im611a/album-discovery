@@ -1,0 +1,98 @@
+{
+  "internalId": "album:172452",
+  "id": "album:172452",
+  "neteaseAlbumId": "172452",
+  "slug": "panthalassa-the-music-of-miles-davis-1969-1974",
+  "title": "Panthalassa: The Music of Miles Davis 1969-1974",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1998-04-27",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172452.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172452.webp",
+    "alt": "《Panthalassa: The Music of Miles Davis 1969-1974》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1700761",
+      "neteaseTrackId": "1700761",
+      "title": "In a Silent Way/Shhh/Peaceful/It's About Time",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 920000
+    },
+    {
+      "id": "netease-track:1700765",
+      "neteaseTrackId": "1700765",
+      "title": "Black Satin/What If/ Agharta Preude Dub",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 966266
+    },
+    {
+      "id": "netease-track:1700768",
+      "neteaseTrackId": "1700768",
+      "title": "Rated X/Billy Preston",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 873000
+    },
+    {
+      "id": "netease-track:1700772",
+      "neteaseTrackId": "1700772",
+      "title": "He Loved Him Madly",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 820000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=172452",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Panthalassa: The Music of Miles Davis 1969-1974 Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

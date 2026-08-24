@@ -1,0 +1,99 @@
+{
+  "internalId": "album:220812",
+  "id": "album:220812",
+  "neteaseAlbumId": "220812",
+  "slug": "baby-boy",
+  "title": "Baby Boy",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2003-09-08",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220812.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220812.webp",
+    "alt": "《Baby Boy》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2189406",
+      "neteaseTrackId": "2189406",
+      "title": "Baby Boy",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Sean Paul"
+      ],
+      "durationMs": 244827
+    },
+    {
+      "id": "netease-track:2189411",
+      "neteaseTrackId": "2189411",
+      "title": "Baby Boy (Maurice's Nu Soul Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 373000
+    },
+    {
+      "id": "netease-track:2189416",
+      "neteaseTrackId": "2189416",
+      "title": "Baby Boy (Junior's Papadella)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 238000
+    },
+    {
+      "id": "netease-track:2189421",
+      "neteaseTrackId": "2189421",
+      "title": "Baby Boy (Junior Vasquez Club Anthem Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 531000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=220812",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Baby Boy Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

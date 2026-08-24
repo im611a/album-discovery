@@ -1,0 +1,98 @@
+{
+  "internalId": "album:432445",
+  "id": "album:432445",
+  "neteaseAlbumId": "432445",
+  "slug": "untitled-1",
+  "title": "Untitled #1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "2013-10-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432445.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432445.webp",
+    "alt": "《Untitled #1》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4278930",
+      "neteaseTrackId": "4278930",
+      "title": "Untitled #1",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 398320
+    },
+    {
+      "id": "netease-track:4278934",
+      "neteaseTrackId": "4278934",
+      "title": "Untitled #9 part 1",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 278040
+    },
+    {
+      "id": "netease-track:4278937",
+      "neteaseTrackId": "4278937",
+      "title": "Untitled #9 part 2",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 167826
+    },
+    {
+      "id": "netease-track:4278942",
+      "neteaseTrackId": "4278942",
+      "title": "Untitled #9 part 3",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 262440
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=432445",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Untitled #1 Sigur Rós",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

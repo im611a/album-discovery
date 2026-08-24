@@ -1,0 +1,198 @@
+{
+  "internalId": "album:27534",
+  "id": "album:27534",
+  "neteaseAlbumId": "27534",
+  "slug": "i",
+  "title": "[i]",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2002-04-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27534.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27534.webp",
+    "alt": "《[i]》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277295",
+      "neteaseTrackId": "277295",
+      "title": "I Will Be Fine",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 223770
+    },
+    {
+      "id": "netease-track:277299",
+      "neteaseTrackId": "277299",
+      "title": "单人房双人床",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 284960
+    },
+    {
+      "id": "netease-track:277302",
+      "neteaseTrackId": "277302",
+      "title": "爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 198333
+    },
+    {
+      "id": "netease-track:277305",
+      "neteaseTrackId": "277305",
+      "title": "那可不一定",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "王力宏"
+      ],
+      "durationMs": 210066
+    },
+    {
+      "id": "netease-track:277308",
+      "neteaseTrackId": "277308",
+      "title": "女朋友的男朋友",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 244426
+    },
+    {
+      "id": "netease-track:277312",
+      "neteaseTrackId": "277312",
+      "title": "原罪",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 232600
+    },
+    {
+      "id": "netease-track:277316",
+      "neteaseTrackId": "277316",
+      "title": "你给我多少时间",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 305200
+    },
+    {
+      "id": "netease-track:277319",
+      "neteaseTrackId": "277319",
+      "title": "Alive! [我的自由式]",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 314160
+    },
+    {
+      "id": "netease-track:277321",
+      "neteaseTrackId": "277321",
+      "title": "左岸, 右转",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 292133
+    },
+    {
+      "id": "netease-track:277323",
+      "neteaseTrackId": "277323",
+      "title": "如果你是李白",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 231173
+    },
+    {
+      "id": "netease-track:277325",
+      "neteaseTrackId": "277325",
+      "title": "Close To You",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 268453
+    },
+    {
+      "id": "netease-track:277327",
+      "neteaseTrackId": "277327",
+      "title": "I'll Be Fine",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 225266
+    },
+    {
+      "id": "netease-track:277329",
+      "neteaseTrackId": "277329",
+      "title": "谁是我的",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 304933
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=27534",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "[i] 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

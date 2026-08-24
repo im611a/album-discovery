@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1577485",
+  "id": "album:1577485",
+  "neteaseAlbumId": "1577485",
+  "slug": "garlands",
+  "title": "Garlands",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1982-07-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beggars Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577485.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577485.webp",
+    "alt": "《Garlands》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17124827",
+      "neteaseTrackId": "17124827",
+      "title": "Blood *****",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 274893
+    },
+    {
+      "id": "netease-track:17124829",
+      "neteaseTrackId": "17124829",
+      "title": "Wax and Wane",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:17124831",
+      "neteaseTrackId": "17124831",
+      "title": "But I'm Not",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 165040
+    },
+    {
+      "id": "netease-track:17124833",
+      "neteaseTrackId": "17124833",
+      "title": "Blind Dumb Deaf",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 226899
+    },
+    {
+      "id": "netease-track:17124835",
+      "neteaseTrackId": "17124835",
+      "title": "Shallow Then Halo",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 316800
+    },
+    {
+      "id": "netease-track:17124837",
+      "neteaseTrackId": "17124837",
+      "title": "The Hollow Men",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 302027
+    },
+    {
+      "id": "netease-track:17124839",
+      "neteaseTrackId": "17124839",
+      "title": "Garlands",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 272093
+    },
+    {
+      "id": "netease-track:17124841",
+      "neteaseTrackId": "17124841",
+      "title": "Grail Overfloweth",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 322612
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1577485",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Garlands Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

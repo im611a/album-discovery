@@ -1,0 +1,120 @@
+{
+  "internalId": "album:64323",
+  "id": "album:64323",
+  "neteaseAlbumId": "64323",
+  "slug": "final-distance",
+  "title": "FINAL DISTANCE",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2001-07-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64323.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64323.webp",
+    "alt": "《FINAL DISTANCE》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666986",
+      "neteaseTrackId": "666986",
+      "title": "Final Distance",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 337757
+    },
+    {
+      "id": "netease-track:666990",
+      "neteaseTrackId": "666990",
+      "title": "Distance(Planitb Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 373400
+    },
+    {
+      "id": "netease-track:666991",
+      "neteaseTrackId": "666991",
+      "title": "Distance(M-Flo Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 353547
+    },
+    {
+      "id": "netease-track:666996",
+      "neteaseTrackId": "666996",
+      "title": "DISTANCE",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 339777
+    },
+    {
+      "id": "netease-track:667000",
+      "neteaseTrackId": "667000",
+      "title": "Distance(Original Karaoke)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 338825
+    },
+    {
+      "id": "netease-track:667005",
+      "neteaseTrackId": "667005",
+      "title": "Final Distance(Instrumental)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 337130
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=64323",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "FINAL DISTANCE 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

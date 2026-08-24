@@ -1,0 +1,98 @@
+{
+  "internalId": "album:172531",
+  "id": "album:172531",
+  "neteaseAlbumId": "172531",
+  "slug": "miles-davis-and-milt-jackson-quintet-sextet",
+  "title": "Miles Davis and Milt Jackson Quintet/Sextet",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1990-10-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Original Jazz Classics",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172531.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172531.webp",
+    "alt": "《Miles Davis and Milt Jackson Quintet/Sextet》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1701754",
+      "neteaseTrackId": "1701754",
+      "title": "Dr. Jackle",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 535353
+    },
+    {
+      "id": "netease-track:1701759",
+      "neteaseTrackId": "1701759",
+      "title": "Bitty Ditty",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 396240
+    },
+    {
+      "id": "netease-track:1701764",
+      "neteaseTrackId": "1701764",
+      "title": "Minor March",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 499360
+    },
+    {
+      "id": "netease-track:1701769",
+      "neteaseTrackId": "1701769",
+      "title": "Changes",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 431998
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=172531",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Davis and Milt Jackson Quintet/Sextet Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

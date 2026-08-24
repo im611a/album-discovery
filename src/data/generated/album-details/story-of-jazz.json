@@ -1,0 +1,183 @@
+{
+  "internalId": "album:172621",
+  "id": "album:172621",
+  "neteaseAlbumId": "172621",
+  "slug": "story-of-jazz",
+  "title": "Story of Jazz",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1969-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172621.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172621.webp",
+    "alt": "《Story of Jazz》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1702733",
+      "neteaseTrackId": "1702733",
+      "title": "Moon Dreams",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MacGregor",
+        "Chummy",
+        "Miles Davis"
+      ],
+      "durationMs": 196780
+    },
+    {
+      "id": "netease-track:1702735",
+      "neteaseTrackId": "1702735",
+      "title": "Venus de Milo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Gerry",
+        "Mulligan",
+        "Miles Davis"
+      ],
+      "durationMs": 191000
+    },
+    {
+      "id": "netease-track:1702737",
+      "neteaseTrackId": "1702737",
+      "title": "Autumn Leaves",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kosma",
+        "Joseph",
+        "Miles Davis"
+      ],
+      "durationMs": 656173
+    },
+    {
+      "id": "netease-track:1702739",
+      "neteaseTrackId": "1702739",
+      "title": "Yesterdays",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Otto",
+        "Harbach",
+        "Miles Davis"
+      ],
+      "durationMs": 225790
+    },
+    {
+      "id": "netease-track:1702746",
+      "neteaseTrackId": "1702746",
+      "title": "Dear Old Stockholm",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "STAn",
+        "Miles Davis"
+      ],
+      "durationMs": 232160
+    },
+    {
+      "id": "netease-track:1702750",
+      "neteaseTrackId": "1702750",
+      "title": "I Waited for You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Walter",
+        "Fuller",
+        "Miles Davis"
+      ],
+      "durationMs": 211301
+    },
+    {
+      "id": "netease-track:1702755",
+      "neteaseTrackId": "1702755",
+      "title": "Israel",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Johnny Hammond Smith",
+        "Carisi",
+        "Miles Davis"
+      ],
+      "durationMs": 138000
+    },
+    {
+      "id": "netease-track:1702761",
+      "neteaseTrackId": "1702761",
+      "title": "How Deep Is the Ocean?",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Berlin",
+        "Irving",
+        "Miles Davis"
+      ],
+      "durationMs": 225790
+    },
+    {
+      "id": "netease-track:1702764",
+      "neteaseTrackId": "1702764",
+      "title": "Rogue",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Lewis",
+        "John",
+        "Miles Davis"
+      ],
+      "durationMs": 195172
+    },
+    {
+      "id": "netease-track:1702771",
+      "neteaseTrackId": "1702771",
+      "title": "It Never Entered My Mind",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Lorenz",
+        "Hart",
+        "Miles Davis"
+      ],
+      "durationMs": 243716
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=172621",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Story of Jazz Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

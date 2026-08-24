@@ -1,0 +1,285 @@
+{
+  "internalId": "album:32341",
+  "id": "album:32341",
+  "neteaseAlbumId": "32341",
+  "slug": "netease-album-32341",
+  "title": "改变",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "name": "张靓颖"
+    }
+  ],
+  "releaseDate": "2011-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "少城时代",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/32341.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/32341.webp",
+    "alt": "《改变》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:326901",
+      "neteaseTrackId": "326901",
+      "title": "我的模样",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 208025
+    },
+    {
+      "id": "netease-track:326903",
+      "neteaseTrackId": "326903",
+      "title": "追爱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 234360
+    },
+    {
+      "id": "netease-track:326905",
+      "neteaseTrackId": "326905",
+      "title": "出境入境",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 233600
+    },
+    {
+      "id": "netease-track:326908",
+      "neteaseTrackId": "326908",
+      "title": "错就错",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 229546
+    },
+    {
+      "id": "netease-track:326910",
+      "neteaseTrackId": "326910",
+      "title": "为爱疯狂",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 208640
+    },
+    {
+      "id": "netease-track:326912",
+      "neteaseTrackId": "326912",
+      "title": "大胆",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 191386
+    },
+    {
+      "id": "netease-track:326914",
+      "neteaseTrackId": "326914",
+      "title": "爱就爱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 324893
+    },
+    {
+      "id": "netease-track:326916",
+      "neteaseTrackId": "326916",
+      "title": "有时候",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 250320
+    },
+    {
+      "id": "netease-track:326917",
+      "neteaseTrackId": "326917",
+      "title": "上一章",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 233066
+    },
+    {
+      "id": "netease-track:326918",
+      "neteaseTrackId": "326918",
+      "title": "改变",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:326921",
+      "neteaseTrackId": "326921",
+      "title": "改变+美丽与勇敢(hidden track)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 388866
+    },
+    {
+      "id": "netease-track:326928",
+      "neteaseTrackId": "326928",
+      "title": "真爱的味道",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 250520
+    },
+    {
+      "id": "netease-track:326930",
+      "neteaseTrackId": "326930",
+      "title": "无法言喻",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 319367
+    },
+    {
+      "id": "netease-track:458412888",
+      "neteaseTrackId": "458412888",
+      "title": "我的模样 (伴奏)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 209200
+    },
+    {
+      "id": "netease-track:458412887",
+      "neteaseTrackId": "458412887",
+      "title": "追爱 (伴奏)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 234173
+    },
+    {
+      "id": "netease-track:458412892",
+      "neteaseTrackId": "458412892",
+      "title": "错就错 (伴奏)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 231480
+    },
+    {
+      "id": "netease-track:458412889",
+      "neteaseTrackId": "458412889",
+      "title": "为爱疯狂 (伴奏)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 210755
+    },
+    {
+      "id": "netease-track:458412893",
+      "neteaseTrackId": "458412893",
+      "title": "大胆 (伴奏)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 191066
+    },
+    {
+      "id": "netease-track:458412886",
+      "neteaseTrackId": "458412886",
+      "title": "爱就爱 (伴奏)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 326706
+    },
+    {
+      "id": "netease-track:458412890",
+      "neteaseTrackId": "458412890",
+      "title": "有时候 (伴奏)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 251573
+    },
+    {
+      "id": "netease-track:458412891",
+      "neteaseTrackId": "458412891",
+      "title": "上一章 (伴奏)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 234346
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=32341",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "改变 张靓颖",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "internalId": "album:432455",
+  "id": "album:432455",
+  "neteaseAlbumId": "432455",
+  "slug": "ri-mur",
+  "title": "Rímur",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "2001-03-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432455.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432455.webp",
+    "alt": "《Rímur》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4278990",
+      "neteaseTrackId": "4278990",
+      "title": "Mansöngur",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós",
+        "Steindor Andersen"
+      ],
+      "durationMs": 378706
+    },
+    {
+      "id": "netease-track:4278993",
+      "neteaseTrackId": "4278993",
+      "title": "Rímur af Göngu-Hrólfi",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Steindor Andersen"
+      ],
+      "durationMs": 60213
+    },
+    {
+      "id": "netease-track:4278995",
+      "neteaseTrackId": "4278995",
+      "title": "Fjöll í austri",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós",
+        "Steindor Andersen"
+      ],
+      "durationMs": 360360
+    },
+    {
+      "id": "netease-track:4278997",
+      "neteaseTrackId": "4278997",
+      "title": "Vorvísur",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Steindor Andersen"
+      ],
+      "durationMs": 88813
+    },
+    {
+      "id": "netease-track:4279001",
+      "neteaseTrackId": "4279001",
+      "title": "Á ferð til Breiðafjarðar vorið 1922",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós",
+        "Steindor Andersen"
+      ],
+      "durationMs": 362066
+    },
+    {
+      "id": "netease-track:4279007",
+      "neteaseTrackId": "4279007",
+      "title": "Lækurinn",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Steindor Andersen"
+      ],
+      "durationMs": 349653
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=432455",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Rímur Sigur Rós",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

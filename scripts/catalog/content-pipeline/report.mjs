@@ -49,6 +49,8 @@ export function humanReport(report) {
     `- NEEDS_REVIEW: ${report.counts.NEEDS_REVIEW}`,
     `- ERROR: ${report.counts.ERROR}`,
     `- FATAL: ${report.counts.FATAL}`,
+    `- REJECTED_BY_REVIEW: ${report.counts.REJECTED_BY_REVIEW}`,
+    `- QUARANTINED: ${report.counts.QUARANTINED}`,
     "- Production mutation: NO",
     "",
     "## Exceptions",

@@ -1,0 +1,186 @@
+{
+  "internalId": "album:29594",
+  "id": "album:29594",
+  "neteaseAlbumId": "29594",
+  "slug": "netease-album-29594",
+  "title": "左手",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1997-07-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29594.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29594.webp",
+    "alt": "《左手》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298239",
+      "neteaseTrackId": "298239",
+      "title": "放逐",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 266263
+    },
+    {
+      "id": "netease-track:298243",
+      "neteaseTrackId": "298243",
+      "title": "守夜人",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 296706
+    },
+    {
+      "id": "netease-track:298247",
+      "neteaseTrackId": "298247",
+      "title": "左手",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 33808
+    },
+    {
+      "id": "netease-track:298251",
+      "neteaseTrackId": "298251",
+      "title": "孩子气",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 262506
+    },
+    {
+      "id": "netease-track:298255",
+      "neteaseTrackId": "298255",
+      "title": "寂寞",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 253778
+    },
+    {
+      "id": "netease-track:298259",
+      "neteaseTrackId": "298259",
+      "title": "属于你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 268973
+    },
+    {
+      "id": "netease-track:298263",
+      "neteaseTrackId": "298263",
+      "title": "学你",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 244993
+    },
+    {
+      "id": "netease-track:298267",
+      "neteaseTrackId": "298267",
+      "title": "分手",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 300326
+    },
+    {
+      "id": "netease-track:298271",
+      "neteaseTrackId": "298271",
+      "title": "悲怜上帝的女儿",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 308026
+    },
+    {
+      "id": "netease-track:298275",
+      "neteaseTrackId": "298275",
+      "title": "啄木鸟",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 254706
+    },
+    {
+      "id": "netease-track:298278",
+      "neteaseTrackId": "298278",
+      "title": "另一个自己",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 269467
+    },
+    {
+      "id": "netease-track:298281",
+      "neteaseTrackId": "298281",
+      "title": "孩子气-成人篇",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 269397
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=29594",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "左手 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

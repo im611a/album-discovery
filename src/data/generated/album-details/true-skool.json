@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1574661",
+  "id": "album:1574661",
+  "neteaseAlbumId": "1574661",
+  "slug": "true-skool",
+  "title": "True Skool",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:50946",
+      "neteaseArtistId": "50946",
+      "name": "Coldcut"
+    }
+  ],
+  "releaseDate": "2006-04-15",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Ninja Tune",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1574661.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1574661.webp",
+    "alt": "《True Skool》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17084490",
+      "neteaseTrackId": "17084490",
+      "title": "True Skool (Radio Edit)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 167786
+    },
+    {
+      "id": "netease-track:17084491",
+      "neteaseTrackId": "17084491",
+      "title": "True Skool (Sway clean Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 206746
+    },
+    {
+      "id": "netease-track:17084492",
+      "neteaseTrackId": "17084492",
+      "title": "True Skool (Switch mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 378413
+    },
+    {
+      "id": "netease-track:17084493",
+      "neteaseTrackId": "17084493",
+      "title": "True Skool (The Qemists mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 417373
+    },
+    {
+      "id": "netease-track:17084494",
+      "neteaseTrackId": "17084494",
+      "title": "True Skool (Spank Rock mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 292053
+    },
+    {
+      "id": "netease-track:17084495",
+      "neteaseTrackId": "17084495",
+      "title": "True Skool",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 214066
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1574661",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "True Skool Coldcut",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:20839",
+  "id": "album:20839",
+  "neteaseAlbumId": "20839",
+  "slug": "netease-album-20839",
+  "title": "以前，以后",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7063",
+      "neteaseArtistId": "7063",
+      "name": "黄丽玲"
+    }
+  ],
+  "releaseDate": "2009-12-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "(P) 2009 Avex Taiwan Inc.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/20839.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/20839.webp",
+    "alt": "《以前，以后》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:205380",
+      "neteaseTrackId": "205380",
+      "title": "分手需要练习的",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 300693
+    },
+    {
+      "id": "netease-track:205383",
+      "neteaseTrackId": "205383",
+      "title": "One Life",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 248706
+    },
+    {
+      "id": "netease-track:205386",
+      "neteaseTrackId": "205386",
+      "title": "以前以后",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 262560
+    },
+    {
+      "id": "netease-track:205389",
+      "neteaseTrackId": "205389",
+      "title": "快乐生活",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 205000
+    },
+    {
+      "id": "netease-track:205392",
+      "neteaseTrackId": "205392",
+      "title": "完整的浪漫",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 285800
+    },
+    {
+      "id": "netease-track:205395",
+      "neteaseTrackId": "205395",
+      "title": "现在我很幸福",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 238706
+    },
+    {
+      "id": "netease-track:205397",
+      "neteaseTrackId": "205397",
+      "title": "开窍",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 222093
+    },
+    {
+      "id": "netease-track:205399",
+      "neteaseTrackId": "205399",
+      "title": "勇敢的不是我",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 303866
+    },
+    {
+      "id": "netease-track:205401",
+      "neteaseTrackId": "205401",
+      "title": "麻烦下一位",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 191400
+    },
+    {
+      "id": "netease-track:205402",
+      "neteaseTrackId": "205402",
+      "title": "一不爱二不休",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 265506
+    },
+    {
+      "id": "netease-track:205404",
+      "neteaseTrackId": "205404",
+      "title": "家",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 298680
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=20839",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "以前，以后 黄丽玲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

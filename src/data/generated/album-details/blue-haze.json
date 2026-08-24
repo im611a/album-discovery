@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1969884",
+  "id": "album:1969884",
+  "neteaseAlbumId": "1969884",
+  "slug": "blue-haze",
+  "title": "Blue Haze",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2018-06-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Marathon Media International Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969884.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969884.webp",
+    "alt": "《Blue Haze》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21329179",
+      "neteaseTrackId": "21329179",
+      "title": "I'll Remember April",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 470825
+    },
+    {
+      "id": "netease-track:21329180",
+      "neteaseTrackId": "21329180",
+      "title": "Four",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 242425
+    },
+    {
+      "id": "netease-track:21329181",
+      "neteaseTrackId": "21329181",
+      "title": "Old devil moon",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 203839
+    },
+    {
+      "id": "netease-track:21329182",
+      "neteaseTrackId": "21329182",
+      "title": "Smooch",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 186292
+    },
+    {
+      "id": "netease-track:21329183",
+      "neteaseTrackId": "21329183",
+      "title": "Blue Haze",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 370385
+    },
+    {
+      "id": "netease-track:21329184",
+      "neteaseTrackId": "21329184",
+      "title": "When lights are low",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 207772
+    },
+    {
+      "id": "netease-track:21329185",
+      "neteaseTrackId": "21329185",
+      "title": "Tune up",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 235239
+    },
+    {
+      "id": "netease-track:21329186",
+      "neteaseTrackId": "21329186",
+      "title": "Miles ahead",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 267377
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1969884",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Blue Haze Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

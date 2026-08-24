@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1637047",
+  "id": "album:1637047",
+  "neteaseAlbumId": "1637047",
+  "slug": "behind-the-mask",
+  "title": "Behind the Mask",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1990-04-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637047.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637047.webp",
+    "alt": "《Behind the Mask》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17786033",
+      "neteaseTrackId": "17786033",
+      "title": "Skies the Limit",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 225306
+    },
+    {
+      "id": "netease-track:17786034",
+      "neteaseTrackId": "17786034",
+      "title": "Love Is Dangerous (2018 Remaster)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 198200
+    },
+    {
+      "id": "netease-track:17786035",
+      "neteaseTrackId": "17786035",
+      "title": "In the Back of My Mind",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 422693
+    },
+    {
+      "id": "netease-track:17786036",
+      "neteaseTrackId": "17786036",
+      "title": "Do You Know",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 259306
+    },
+    {
+      "id": "netease-track:17786037",
+      "neteaseTrackId": "17786037",
+      "title": "Save Me",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 255093
+    },
+    {
+      "id": "netease-track:17786038",
+      "neteaseTrackId": "17786038",
+      "title": "Affairs of the Heart",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 262106
+    },
+    {
+      "id": "netease-track:17786039",
+      "neteaseTrackId": "17786039",
+      "title": "When the Sun Goes Down",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 198560
+    },
+    {
+      "id": "netease-track:17786040",
+      "neteaseTrackId": "17786040",
+      "title": "Behind the Mask",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 258200
+    },
+    {
+      "id": "netease-track:17786041",
+      "neteaseTrackId": "17786041",
+      "title": "Stand on the Rock",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 239506
+    },
+    {
+      "id": "netease-track:17786042",
+      "neteaseTrackId": "17786042",
+      "title": "Hard Feelings",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 294533
+    },
+    {
+      "id": "netease-track:17786043",
+      "neteaseTrackId": "17786043",
+      "title": "Freedom",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 252493
+    },
+    {
+      "id": "netease-track:17786044",
+      "neteaseTrackId": "17786044",
+      "title": "When It Comes to Love",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 248573
+    },
+    {
+      "id": "netease-track:17786045",
+      "neteaseTrackId": "17786045",
+      "title": "The Second Time",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 151893
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1637047",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Behind the Mask Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

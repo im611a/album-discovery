@@ -1,0 +1,120 @@
+{
+  "internalId": "album:172269",
+  "id": "album:172269",
+  "neteaseAlbumId": "172269",
+  "slug": "creeping-death",
+  "title": "Creeping Death",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1984-11-22",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Elektra",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172269.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172269.webp",
+    "alt": "《Creeping Death》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1698492",
+      "neteaseTrackId": "1698492",
+      "title": "Creeping Death (From Ride the Lightning )",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 396066
+    },
+    {
+      "id": "netease-track:1698497",
+      "neteaseTrackId": "1698497",
+      "title": "Am I Evil? (From Kill Em' All And/Or Garage Inc.)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 472346
+    },
+    {
+      "id": "netease-track:1698502",
+      "neteaseTrackId": "1698502",
+      "title": "Blitzkrieg (Kill Em' All )",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 216800
+    },
+    {
+      "id": "netease-track:1698506",
+      "neteaseTrackId": "1698506",
+      "title": "Jump In The Fire (Kill Em' All)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 282409
+    },
+    {
+      "id": "netease-track:1698512",
+      "neteaseTrackId": "1698512",
+      "title": "Seek And Destroy (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 423000
+    },
+    {
+      "id": "netease-track:1698517",
+      "neteaseTrackId": "1698517",
+      "title": "Phantom Lord (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 291000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=172269",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Creeping Death Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

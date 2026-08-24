@@ -1,0 +1,153 @@
+{
+  "internalId": "album:172306",
+  "id": "album:172306",
+  "neteaseAlbumId": "172306",
+  "slug": "live-in-zurich",
+  "title": "Live in Zurich",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2009-01-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172306.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172306.webp",
+    "alt": "《Live in Zurich》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1698973",
+      "neteaseTrackId": "1698973",
+      "title": "If I Were a Bell",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1004000
+    },
+    {
+      "id": "netease-track:1698977",
+      "neteaseTrackId": "1698977",
+      "title": "Fran-Dance",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 462000
+    },
+    {
+      "id": "netease-track:1698981",
+      "neteaseTrackId": "1698981",
+      "title": "So What",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 927400
+    },
+    {
+      "id": "netease-track:1698984",
+      "neteaseTrackId": "1698984",
+      "title": "All Blues",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1026133
+    },
+    {
+      "id": "netease-track:1698988",
+      "neteaseTrackId": "1698988",
+      "title": "The Theme",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 55426
+    },
+    {
+      "id": "netease-track:1698992",
+      "neteaseTrackId": "1698992",
+      "title": "Four",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 291826
+    },
+    {
+      "id": "netease-track:1698996",
+      "neteaseTrackId": "1698996",
+      "title": "Bye Bye Blackbird",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 412093
+    },
+    {
+      "id": "netease-track:1699002",
+      "neteaseTrackId": "1699002",
+      "title": "Walkin'",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 392493
+    },
+    {
+      "id": "netease-track:1699007",
+      "neteaseTrackId": "1699007",
+      "title": "Two Bass Hit",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 48026
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=172306",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live in Zurich Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

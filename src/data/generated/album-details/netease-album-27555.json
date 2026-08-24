@@ -1,0 +1,164 @@
+{
+  "internalId": "album:27555",
+  "id": "album:27555",
+  "neteaseAlbumId": "27555",
+  "slug": "netease-album-27555",
+  "title": "一朵金花",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2001-02-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27555.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27555.webp",
+    "alt": "《一朵金花》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277537",
+      "neteaseTrackId": "277537",
+      "title": "散光",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 213533
+    },
+    {
+      "id": "netease-track:277541",
+      "neteaseTrackId": "277541",
+      "title": "扇子舞",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 232160
+    },
+    {
+      "id": "netease-track:277545",
+      "neteaseTrackId": "277545",
+      "title": "童年末日",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 277106
+    },
+    {
+      "id": "netease-track:277549",
+      "neteaseTrackId": "277549",
+      "title": "旺角公主",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 246826
+    },
+    {
+      "id": "netease-track:277553",
+      "neteaseTrackId": "277553",
+      "title": "角色",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 315306
+    },
+    {
+      "id": "netease-track:277557",
+      "neteaseTrackId": "277557",
+      "title": "幻听",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 304013
+    },
+    {
+      "id": "netease-track:277561",
+      "neteaseTrackId": "277561",
+      "title": "高帽",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 337733
+    },
+    {
+      "id": "netease-track:277565",
+      "neteaseTrackId": "277565",
+      "title": "忘我",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 267933
+    },
+    {
+      "id": "netease-track:277569",
+      "neteaseTrackId": "277569",
+      "title": "冬至",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 381373
+    },
+    {
+      "id": "netease-track:277573",
+      "neteaseTrackId": "277573",
+      "title": "一朵金花",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 205133
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=27555",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "一朵金花 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

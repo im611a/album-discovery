@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1598716",
+  "id": "album:1598716",
+  "neteaseAlbumId": "1598716",
+  "slug": "sweetheart-snackbar",
+  "title": "Sweetheart Snackbar",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:53566",
+      "neteaseArtistId": "53566",
+      "name": "Duster"
+    }
+  ],
+  "releaseDate": "2009-01-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1598716.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1598716.webp",
+    "alt": "《Sweetheart Snackbar》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17341176",
+      "neteaseTrackId": "17341176",
+      "title": "Automatrimonia",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 210976
+    },
+    {
+      "id": "netease-track:17341177",
+      "neteaseTrackId": "17341177",
+      "title": "Dek-a-doodle Dandy",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 179774
+    },
+    {
+      "id": "netease-track:17341179",
+      "neteaseTrackId": "17341179",
+      "title": "QC Girls",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 193488
+    },
+    {
+      "id": "netease-track:17341180",
+      "neteaseTrackId": "17341180",
+      "title": "D.U.S.T.E.R.",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 44173
+    },
+    {
+      "id": "netease-track:17341181",
+      "neteaseTrackId": "17341181",
+      "title": "Houseborken",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 163735
+    },
+    {
+      "id": "netease-track:17341182",
+      "neteaseTrackId": "17341182",
+      "title": "Dekonstruccion",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 153051
+    },
+    {
+      "id": "netease-track:17341183",
+      "neteaseTrackId": "17341183",
+      "title": "Miss Me",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 217408
+    },
+    {
+      "id": "netease-track:17341184",
+      "neteaseTrackId": "17341184",
+      "title": "Balls",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 189428
+    },
+    {
+      "id": "netease-track:17341185",
+      "neteaseTrackId": "17341185",
+      "title": "******* The Cherry",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 206053
+    },
+    {
+      "id": "netease-track:17341186",
+      "neteaseTrackId": "17341186",
+      "title": "Janice, Janice",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 93576
+    },
+    {
+      "id": "netease-track:17341187",
+      "neteaseTrackId": "17341187",
+      "title": "Retail Theraphy",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 147670
+    },
+    {
+      "id": "netease-track:17341188",
+      "neteaseTrackId": "17341188",
+      "title": "Saksakan",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 240233
+    },
+    {
+      "id": "netease-track:17341189",
+      "neteaseTrackId": "17341189",
+      "title": "GPS",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Duster"
+      ],
+      "durationMs": 250279
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1598716",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sweetheart Snackbar Duster",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

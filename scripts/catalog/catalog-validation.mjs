@@ -42,7 +42,7 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
   const slugs = albums.map((album) => album.slug);
   for (const duplicate of duplicateValues(ids)) errors.push(`Duplicate NetEase album ID: ${duplicate}`);
   for (const duplicate of duplicateValues(slugs)) errors.push(`Duplicate slug: ${duplicate}`);
-  const semanticIdentities = albums.map((album) => `${album.artists?.[0]?.neteaseArtistId ?? ""}:${normalizeName(album.title)}:${album.releaseDate?.slice(0, 4) ?? ""}`);
+  const semanticIdentities = albums.map(semanticAlbumIdentity);
   for (const duplicate of duplicateValues(semanticIdentities)) errors.push(`Duplicate artist/title/year identity: ${duplicate}`);
   const coreTaxonomyKeys = new Set((catalog?.taxonomy ?? []).filter((item) => item.kind === "core").map((item) => item.key));
   const relatedTaxonomyKeys = new Set((catalog?.taxonomy ?? []).map((item) => item.key));
@@ -161,6 +161,10 @@ export function validateCatalogData(catalog, identities = {}, rymSnapshot = { re
     multiChannelAlbums: albums.filter((album) => (album.sourceMarketChannels?.length ?? 0) > 1).length,
   };
   return { ok: errors.length === 0, errors, summary };
+}
+
+export function semanticAlbumIdentity(album) {
+  return `${album?.artists?.[0]?.neteaseArtistId ?? ""}:${normalizeName(album?.title)}:${album?.releaseDate?.slice(0, 4) ?? ""}`;
 }
 
 function normalizeName(value) {

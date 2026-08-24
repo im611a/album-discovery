@@ -1,0 +1,175 @@
+{
+  "internalId": "album:6378",
+  "id": "album:6378",
+  "neteaseAlbumId": "6378",
+  "slug": "netease-album-6378",
+  "title": "上五楼的快活",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2009-09-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6378.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6378.webp",
+    "alt": "《上五楼的快活》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:64668",
+      "neteaseTrackId": "64668",
+      "title": "在你身边",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 253893
+    },
+    {
+      "id": "netease-track:64673",
+      "neteaseTrackId": "64673",
+      "title": "这样的一个麻烦",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 237866
+    },
+    {
+      "id": "netease-track:64677",
+      "neteaseTrackId": "64677",
+      "title": "多少",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 296786
+    },
+    {
+      "id": "netease-track:64682",
+      "neteaseTrackId": "64682",
+      "title": "Nothing Ever Happened",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 196333
+    },
+    {
+      "id": "netease-track:64686",
+      "neteaseTrackId": "64686",
+      "title": "你为什么哭了呢",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 293280
+    },
+    {
+      "id": "netease-track:64691",
+      "neteaseTrackId": "64691",
+      "title": "谋情害命",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 217893
+    },
+    {
+      "id": "netease-track:64695",
+      "neteaseTrackId": "64695",
+      "title": "我甲你",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 207706
+    },
+    {
+      "id": "netease-track:64699",
+      "neteaseTrackId": "64699",
+      "title": "心的距离",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 321773
+    },
+    {
+      "id": "netease-track:64702",
+      "neteaseTrackId": "64702",
+      "title": "床头灯",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 287893
+    },
+    {
+      "id": "netease-track:64706",
+      "neteaseTrackId": "64706",
+      "title": "给你",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 316200
+    },
+    {
+      "id": "netease-track:64712",
+      "neteaseTrackId": "64712",
+      "title": "从何说起",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 260440
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=6378",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "上五楼的快活 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "internalId": "album:64208",
+  "id": "album:64208",
+  "neteaseAlbumId": "64208",
+  "slug": "utada-the-best",
+  "title": "Utada The Best",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2010-11-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "ユニバーサル インターナショナル",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64208.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64208.webp",
+    "alt": "《Utada The Best》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666146",
+      "neteaseTrackId": "666146",
+      "title": "Come Back To Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 238329
+    },
+    {
+      "id": "netease-track:666148",
+      "neteaseTrackId": "666148",
+      "title": "Easy Breezy",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 243266
+    },
+    {
+      "id": "netease-track:666150",
+      "neteaseTrackId": "666150",
+      "title": "Merry Christmas Mr. Lawrence - FYI",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 229560
+    },
+    {
+      "id": "netease-track:666152",
+      "neteaseTrackId": "666152",
+      "title": "You Make Me Want To Be A Man",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 275666
+    },
+    {
+      "id": "netease-track:666154",
+      "neteaseTrackId": "666154",
+      "title": "This One (Crying Like A Child)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 270240
+    },
+    {
+      "id": "netease-track:666157",
+      "neteaseTrackId": "666157",
+      "title": "Exodus '04",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 270280
+    },
+    {
+      "id": "netease-track:666160",
+      "neteaseTrackId": "666160",
+      "title": "Apple And Cinnamon",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 278946
+    },
+    {
+      "id": "netease-track:666164",
+      "neteaseTrackId": "666164",
+      "title": "Automatic Part II",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 180853
+    },
+    {
+      "id": "netease-track:666168",
+      "neteaseTrackId": "666168",
+      "title": "Devil Inside",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 237093
+    },
+    {
+      "id": "netease-track:666172",
+      "neteaseTrackId": "666172",
+      "title": "Kremlin Dusk",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 311146
+    },
+    {
+      "id": "netease-track:666174",
+      "neteaseTrackId": "666174",
+      "title": "Sanctuary opening",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 195263
+    },
+    {
+      "id": "netease-track:666177",
+      "neteaseTrackId": "666177",
+      "title": "Sanctuary ending",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 358373
+    },
+    {
+      "id": "netease-track:666180",
+      "neteaseTrackId": "666180",
+      "title": "Exodus ‘04 (JJ FLORES Double J Radio Mix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 223040
+    },
+    {
+      "id": "netease-track:666183",
+      "neteaseTrackId": "666183",
+      "title": "Devil Inside (RJD2 Remix)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 244293
+    },
+    {
+      "id": "netease-track:666186",
+      "neteaseTrackId": "666186",
+      "title": "Come Back To Me (Tony Moran & Warren Rigg Radio Edit)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 273213
+    },
+    {
+      "id": "netease-track:666190",
+      "neteaseTrackId": "666190",
+      "title": "Dirty Desire (Mike Rizzo Radio Edit)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 214106
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=64208",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Utada The Best 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

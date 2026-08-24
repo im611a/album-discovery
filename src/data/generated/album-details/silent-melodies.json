@@ -1,0 +1,186 @@
+{
+  "internalId": "album:49530",
+  "id": "album:49530",
+  "neteaseAlbumId": "49530",
+  "slug": "silent-melodies",
+  "title": "Silent Melodies",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15581",
+      "neteaseArtistId": "15581",
+      "name": "近藤等则"
+    }
+  ],
+  "releaseDate": "2007-11-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/49530.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/49530.webp",
+    "alt": "《Silent Melodies》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:525660",
+      "neteaseTrackId": "525660",
+      "title": "Clear Water",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 268253
+    },
+    {
+      "id": "netease-track:525661",
+      "neteaseTrackId": "525661",
+      "title": "Gone Dream, Pt. 1",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 135133
+    },
+    {
+      "id": "netease-track:525662",
+      "neteaseTrackId": "525662",
+      "title": "Gone Dream, Pt. 2",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 262373
+    },
+    {
+      "id": "netease-track:525663",
+      "neteaseTrackId": "525663",
+      "title": "Resonant Space",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 199240
+    },
+    {
+      "id": "netease-track:525666",
+      "neteaseTrackId": "525666",
+      "title": "Mountain Shadow",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 127400
+    },
+    {
+      "id": "netease-track:525669",
+      "neteaseTrackId": "525669",
+      "title": "Song for the Small Planet",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 308569
+    },
+    {
+      "id": "netease-track:525672",
+      "neteaseTrackId": "525672",
+      "title": "Sky Cry",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 226920
+    },
+    {
+      "id": "netease-track:525675",
+      "neteaseTrackId": "525675",
+      "title": "Moon Cloud",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 246680
+    },
+    {
+      "id": "netease-track:525678",
+      "neteaseTrackId": "525678",
+      "title": "Wind Temptation",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 391697
+    },
+    {
+      "id": "netease-track:525681",
+      "neteaseTrackId": "525681",
+      "title": "Stars Night",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 389000
+    },
+    {
+      "id": "netease-track:525684",
+      "neteaseTrackId": "525684",
+      "title": "Melting Stone",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 114000
+    },
+    {
+      "id": "netease-track:525686",
+      "neteaseTrackId": "525686",
+      "title": "First Light",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 227146
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=49530",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Silent Melodies 近藤等则",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "internalId": "album:172189",
+  "id": "album:172189",
+  "neteaseAlbumId": "172189",
+  "slug": "turn-the-page",
+  "title": "Turn the Page",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1998-11-23",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Polygram International",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172189.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172189.webp",
+    "alt": "《Turn the Page》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1697378",
+      "neteaseTrackId": "1697378",
+      "title": "Turn the Page",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 366573
+    },
+    {
+      "id": "netease-track:1697380",
+      "neteaseTrackId": "1697380",
+      "title": "Bleeding Me (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 512000
+    },
+    {
+      "id": "netease-track:1697383",
+      "neteaseTrackId": "1697383",
+      "title": "Stone Cold Crazy (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 211000
+    },
+    {
+      "id": "netease-track:1697385",
+      "neteaseTrackId": "1697385",
+      "title": "The Wait (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 282000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=172189",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Turn the Page Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

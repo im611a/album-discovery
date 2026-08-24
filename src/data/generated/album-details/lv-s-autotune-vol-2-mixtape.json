@@ -1,0 +1,238 @@
+{
+  "internalId": "album:164129",
+  "id": "album:164129",
+  "neteaseAlbumId": "164129",
+  "slug": "lv-s-autotune-vol-2-mixtape",
+  "title": "LV's & Autotune Vol 2 (Mixtape)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2009-08-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/164129.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/164129.webp",
+    "alt": "《LV's & Autotune Vol 2 (Mixtape)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1614909",
+      "neteaseTrackId": "1614909",
+      "title": "Diamonds",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 46000
+    },
+    {
+      "id": "netease-track:1614912",
+      "neteaseTrackId": "1614912",
+      "title": "Poke Her Face",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Lady Gaga",
+        "Kid Cudi",
+        "Common"
+      ],
+      "durationMs": 237386
+    },
+    {
+      "id": "netease-track:1614915",
+      "neteaseTrackId": "1614915",
+      "title": "We Fight, We Love",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Consequence",
+        "Kanye West",
+        "Q-Tip"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:1614918",
+      "neteaseTrackId": "1614918",
+      "title": "Maybach Music 2",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Lil Wayne",
+        "Rick Ross",
+        "T-Pain",
+        "Kanye West"
+      ],
+      "durationMs": 299932
+    },
+    {
+      "id": "netease-track:1614921",
+      "neteaseTrackId": "1614921",
+      "title": "Flight School",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "GLC",
+        "Kanye West",
+        "T-Pain"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:1614926",
+      "neteaseTrackId": "1614926",
+      "title": "Amazing (Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 304000
+    },
+    {
+      "id": "netease-track:1614930",
+      "neteaseTrackId": "1614930",
+      "title": "Imma Be Iight",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Lil Wayne",
+        "Joe Young",
+        "Kanye West"
+      ],
+      "durationMs": 191000
+    },
+    {
+      "id": "netease-track:1614933",
+      "neteaseTrackId": "1614933",
+      "title": "Doing Girls Wrong",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 249756
+    },
+    {
+      "id": "netease-track:1614935",
+      "neteaseTrackId": "1614935",
+      "title": "Knock You Down",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Ne-Yo",
+        "Keri Hilson"
+      ],
+      "durationMs": 326240
+    },
+    {
+      "id": "netease-track:1614937",
+      "neteaseTrackId": "1614937",
+      "title": "Walking On The Moon",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "The-Dream"
+      ],
+      "durationMs": 254640
+    },
+    {
+      "id": "netease-track:1614940",
+      "neteaseTrackId": "1614940",
+      "title": "Go Hard (Remix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Lil Wayne",
+        "JAŸ-Z",
+        "Kanye West"
+      ],
+      "durationMs": 315402
+    },
+    {
+      "id": "netease-track:1614943",
+      "neteaseTrackId": "1614943",
+      "title": "I'm The **** (Remix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 221126
+    },
+    {
+      "id": "netease-track:1614947",
+      "neteaseTrackId": "1614947",
+      "title": "Oprah Story",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 156000
+    },
+    {
+      "id": "netease-track:1614951",
+      "neteaseTrackId": "1614951",
+      "title": "Kinda Like A Big Deal",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Clipse"
+      ],
+      "durationMs": 200000
+    },
+    {
+      "id": "netease-track:1614964",
+      "neteaseTrackId": "1614964",
+      "title": "Ego (Remix)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Beyoncé"
+      ],
+      "durationMs": 279771
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=164129",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "LV's & Autotune Vol 2 (Mixtape) Kanye West",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

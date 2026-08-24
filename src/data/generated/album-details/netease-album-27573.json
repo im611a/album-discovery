@@ -1,0 +1,188 @@
+{
+  "internalId": "album:27573",
+  "id": "album:27573",
+  "neteaseAlbumId": "27573",
+  "slug": "netease-album-27573",
+  "title": "就是 莫文蔚",
+  "aliases": [
+    "It Is Karen Mok"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "1999-12-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27573.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27573.webp",
+    "alt": "《就是 莫文蔚》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277748",
+      "neteaseTrackId": "277748",
+      "title": "爱我的请举手",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 220560
+    },
+    {
+      "id": "netease-track:277750",
+      "neteaseTrackId": "277750",
+      "title": "今天星期几",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 199440
+    },
+    {
+      "id": "netease-track:277752",
+      "neteaseTrackId": "277752",
+      "title": "Accessories",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 167415
+    },
+    {
+      "id": "netease-track:277754",
+      "neteaseTrackId": "277754",
+      "title": "愈夜愈美丽",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 290667
+    },
+    {
+      "id": "netease-track:277756",
+      "neteaseTrackId": "277756",
+      "title": "我的天",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 248221
+    },
+    {
+      "id": "netease-track:277757",
+      "neteaseTrackId": "277757",
+      "title": "双城故事",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 256666
+    },
+    {
+      "id": "netease-track:277758",
+      "neteaseTrackId": "277758",
+      "title": "我想爱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 282331
+    },
+    {
+      "id": "netease-track:277759",
+      "neteaseTrackId": "277759",
+      "title": "忽然之间",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 201666
+    },
+    {
+      "id": "netease-track:277761",
+      "neteaseTrackId": "277761",
+      "title": "是这样吗",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 213426
+    },
+    {
+      "id": "netease-track:277763",
+      "neteaseTrackId": "277763",
+      "title": "冷",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 303902
+    },
+    {
+      "id": "netease-track:277765",
+      "neteaseTrackId": "277765",
+      "title": "不要爱我",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 329933
+    },
+    {
+      "id": "netease-track:277767",
+      "neteaseTrackId": "277767",
+      "title": "你最爱的歌",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 183266
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=27573",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "就是 莫文蔚 It Is Karen Mok 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "internalId": "album:15395",
+  "id": "album:15395",
+  "neteaseAlbumId": "15395",
+  "slug": "netease-album-15395",
+  "title": "谁可改变(十五周年纪念集)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5205",
+      "neteaseArtistId": "5205",
+      "name": "谭咏麟"
+    },
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    },
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    },
+    {
+      "id": "netease-artist:3723",
+      "neteaseArtistId": "3723",
+      "name": "吕方"
+    },
+    {
+      "id": "netease-artist:6460",
+      "neteaseArtistId": "6460",
+      "name": "张学友"
+    },
+    {
+      "id": "netease-artist:5787",
+      "neteaseArtistId": "5787",
+      "name": "许志安"
+    },
+    {
+      "id": "netease-artist:2125",
+      "neteaseArtistId": "2125",
+      "name": "陈晓东"
+    },
+    {
+      "id": "netease-artist:3741",
+      "neteaseArtistId": "3741",
+      "name": "雷颂德"
+    },
+    {
+      "id": "netease-artist:7235",
+      "neteaseArtistId": "7235",
+      "name": "陈慧琳"
+    },
+    {
+      "id": "netease-artist:4948",
+      "neteaseArtistId": "4948",
+      "name": "苏永康"
+    },
+    {
+      "id": "netease-artist:8385",
+      "neteaseArtistId": "8385",
+      "name": "李蕙敏"
+    },
+    {
+      "id": "netease-artist:5399",
+      "neteaseArtistId": "5399",
+      "name": "吴国敬"
+    },
+    {
+      "id": "netease-artist:4728",
+      "neteaseArtistId": "4728",
+      "name": "彭健新"
+    },
+    {
+      "id": "netease-artist:6495",
+      "neteaseArtistId": "6495",
+      "name": "钟镇涛"
+    },
+    {
+      "id": "netease-artist:6473",
+      "neteaseArtistId": "6473",
+      "name": "郑中基"
+    },
+    {
+      "id": "netease-artist:7225",
+      "neteaseArtistId": "7225",
+      "name": "陈慧娴"
+    },
+    {
+      "id": "netease-artist:3699",
+      "neteaseArtistId": "3699",
+      "name": "李克勤"
+    },
+    {
+      "id": "netease-artist:2516",
+      "neteaseArtistId": "2516",
+      "name": "迪克牛仔"
+    },
+    {
+      "id": "netease-artist:12992",
+      "neteaseArtistId": "12992",
+      "name": "太极乐队"
+    }
+  ],
+  "releaseDate": "1999-08-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/15395.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/15395.webp",
+    "alt": "《谁可改变(十五周年纪念集)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:153111",
+      "neteaseTrackId": "153111",
+      "title": "幻影+雾之恋",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "谭咏麟",
+        "张国荣"
+      ],
+      "durationMs": 306782
+    },
+    {
+      "id": "netease-track:153114",
+      "neteaseTrackId": "153114",
+      "title": "我爱雀斑",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 239449
+    },
+    {
+      "id": "netease-track:153116",
+      "neteaseTrackId": "153116",
+      "title": "都市恋歌",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "吕方"
+      ],
+      "durationMs": 223863
+    },
+    {
+      "id": "netease-track:153118",
+      "neteaseTrackId": "153118",
+      "title": "雨夜的浪漫",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 293569
+    },
+    {
+      "id": "netease-track:153121",
+      "neteaseTrackId": "153121",
+      "title": "谁可改变",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "许志安"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:153124",
+      "neteaseTrackId": "153124",
+      "title": "爱情陷阱",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "谭咏麟",
+        "陈晓东"
+      ],
+      "durationMs": 249332
+    },
+    {
+      "id": "netease-track:153128",
+      "neteaseTrackId": "153128",
+      "title": "爱的根源",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "雷颂德",
+        "陈慧琳"
+      ],
+      "durationMs": 233026
+    },
+    {
+      "id": "netease-track:153131",
+      "neteaseTrackId": "153131",
+      "title": "午夜丽人",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "苏永康"
+      ],
+      "durationMs": 218383
+    },
+    {
+      "id": "netease-track:153134",
+      "neteaseTrackId": "153134",
+      "title": "亮了红灯",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "李蕙敏"
+      ],
+      "durationMs": 282076
+    },
+    {
+      "id": "netease-track:153137",
+      "neteaseTrackId": "153137",
+      "title": "此刻你在何处",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "吴国敬"
+      ],
+      "durationMs": 311013
+    },
+    {
+      "id": "netease-track:153140",
+      "neteaseTrackId": "153140",
+      "title": "爱是这样甜",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "彭健新",
+        "钟镇涛"
+      ],
+      "durationMs": 187400
+    },
+    {
+      "id": "netease-track:153143",
+      "neteaseTrackId": "153143",
+      "title": "最爱的你",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "郑中基"
+      ],
+      "durationMs": 263933
+    },
+    {
+      "id": "netease-track:153146",
+      "neteaseTrackId": "153146",
+      "title": "爱在深秋",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈慧娴"
+      ],
+      "durationMs": 240106
+    },
+    {
+      "id": "netease-track:153149",
+      "neteaseTrackId": "153149",
+      "title": "情(是永远着迷)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "李克勤"
+      ],
+      "durationMs": 238666
+    },
+    {
+      "id": "netease-track:153152",
+      "neteaseTrackId": "153152",
+      "title": "玛丽安",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "迪克牛仔"
+      ],
+      "durationMs": 264053
+    },
+    {
+      "id": "netease-track:153155",
+      "neteaseTrackId": "153155",
+      "title": "爱的替身(Remix)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "太极乐队"
+      ],
+      "durationMs": 249428
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=15395",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "谁可改变(十五周年纪念集) 谭咏麟 张国荣 王菲 吕方 张学友 许志安 陈晓东 雷颂德 陈慧琳 苏永康 李蕙敏 吴国敬 彭健新 钟镇涛 郑中基 陈慧娴 李克勤 迪克牛仔 太极乐队",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

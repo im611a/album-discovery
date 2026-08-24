@@ -1,0 +1,164 @@
+{
+  "internalId": "album:6599",
+  "id": "album:6599",
+  "neteaseAlbumId": "6599",
+  "slug": "nothing-really-matters",
+  "title": "Nothing Really Matters",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2000-07-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6599.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6599.webp",
+    "alt": "《Nothing Really Matters》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67522",
+      "neteaseTrackId": "67522",
+      "title": "送院途中",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 213786
+    },
+    {
+      "id": "netease-track:67527",
+      "neteaseTrackId": "67527",
+      "title": "黑夜不再来",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 180413
+    },
+    {
+      "id": "netease-track:67532",
+      "neteaseTrackId": "67532",
+      "title": "美丽有罪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 219053
+    },
+    {
+      "id": "netease-track:67537",
+      "neteaseTrackId": "67537",
+      "title": "戏迷情人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 218333
+    },
+    {
+      "id": "netease-track:67541",
+      "neteaseTrackId": "67541",
+      "title": "和平饭店",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 158426
+    },
+    {
+      "id": "netease-track:67545",
+      "neteaseTrackId": "67545",
+      "title": "我感激",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 227840
+    },
+    {
+      "id": "netease-track:67549",
+      "neteaseTrackId": "67549",
+      "title": "到此一游",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 239280
+    },
+    {
+      "id": "netease-track:67553",
+      "neteaseTrackId": "67553",
+      "title": "当这地球没有花",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 224160
+    },
+    {
+      "id": "netease-track:67557",
+      "neteaseTrackId": "67557",
+      "title": "Made In Hong Kong",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 256746
+    },
+    {
+      "id": "netease-track:67560",
+      "neteaseTrackId": "67560",
+      "title": "爱上你是我眼睛的错",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 247080
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6599",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Nothing Really Matters 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "internalId": "album:222321",
+  "id": "album:222321",
+  "neteaseAlbumId": "222321",
+  "slug": "axiom-ambient-lost-in-the-translation",
+  "title": "Axiom Ambient: Lost in the Translation",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1994-02-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222321.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222321.webp",
+    "alt": "《Axiom Ambient: Lost in the Translation》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2206420",
+      "neteaseTrackId": "2206420",
+      "title": "Eternal Drift",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 952999
+    },
+    {
+      "id": "netease-track:2206423",
+      "neteaseTrackId": "2206423",
+      "title": "Peace",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 1024809
+    },
+    {
+      "id": "netease-track:2206427",
+      "neteaseTrackId": "2206427",
+      "title": "Aum",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 1053805
+    },
+    {
+      "id": "netease-track:2206431",
+      "neteaseTrackId": "2206431",
+      "title": "Cosmic Trigger",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 978050
+    },
+    {
+      "id": "netease-track:2206435",
+      "neteaseTrackId": "2206435",
+      "title": "Dharmapala",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 873000
+    },
+    {
+      "id": "netease-track:2206439",
+      "neteaseTrackId": "2206439",
+      "title": "Flash of Panic",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 914285
+    },
+    {
+      "id": "netease-track:2206443",
+      "neteaseTrackId": "2206443",
+      "title": "Holy Mountain",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 998321
+    },
+    {
+      "id": "netease-track:2206447",
+      "neteaseTrackId": "2206447",
+      "title": "Ruins",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 476000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=222321",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Axiom Ambient: Lost in the Translation Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

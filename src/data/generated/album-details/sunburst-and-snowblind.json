@@ -1,0 +1,98 @@
+{
+  "internalId": "album:403203",
+  "id": "album:403203",
+  "neteaseAlbumId": "403203",
+  "slug": "sunburst-and-snowblind",
+  "title": "Sunburst and Snowblind",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1983-11-17",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "4AD",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/403203.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/403203.webp",
+    "alt": "《Sunburst and Snowblind》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3986488",
+      "neteaseTrackId": "3986488",
+      "title": "Sugar Hiccup",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 217933
+    },
+    {
+      "id": "netease-track:3986493",
+      "neteaseTrackId": "3986493",
+      "title": "From the Flagstones",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:3986498",
+      "neteaseTrackId": "3986498",
+      "title": "Hitherto",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 232186
+    },
+    {
+      "id": "netease-track:3986503",
+      "neteaseTrackId": "3986503",
+      "title": "Because of Whirl-Jack",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 206920
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=403203",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sunburst and Snowblind Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

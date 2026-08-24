@@ -1,0 +1,235 @@
+{
+  "internalId": "album:1609269",
+  "id": "album:1609269",
+  "neteaseAlbumId": "1609269",
+  "slug": "tron-legacy-reconfigured",
+  "title": "TRON: Legacy Reconfigured",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:90513",
+      "neteaseArtistId": "90513",
+      "name": "Daft Punk"
+    }
+  ],
+  "releaseDate": "2010-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Walt Disney Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1609269.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1609269.webp",
+    "alt": "《TRON: Legacy Reconfigured》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17455678",
+      "neteaseTrackId": "17455678",
+      "title": "Derezzed (Remixed by The Glitch Mob)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "The Glitch Mob"
+      ],
+      "durationMs": 262269
+    },
+    {
+      "id": "netease-track:17455679",
+      "neteaseTrackId": "17455679",
+      "title": "Fall (Remixed by M83 VS Big Black Delta)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "M83",
+        "Big Black Delta"
+      ],
+      "durationMs": 235023
+    },
+    {
+      "id": "netease-track:17455680",
+      "neteaseTrackId": "17455680",
+      "title": "The Grid (Remixed by The Crystal Method)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "The Crystal Method"
+      ],
+      "durationMs": 267833
+    },
+    {
+      "id": "netease-track:17455681",
+      "neteaseTrackId": "17455681",
+      "title": "Adagio for TRON (Remixed by Teddybears)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Teddybears"
+      ],
+      "durationMs": 334393
+    },
+    {
+      "id": "netease-track:17455682",
+      "neteaseTrackId": "17455682",
+      "title": "The Son of Flynn (Remixed by Ki:Theory)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Ki:Theory"
+      ],
+      "durationMs": 291552
+    },
+    {
+      "id": "netease-track:17455683",
+      "neteaseTrackId": "17455683",
+      "title": "C.L.U. (Remixed by Paul Oakenfold)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Paul Oakenfold"
+      ],
+      "durationMs": 275304
+    },
+    {
+      "id": "netease-track:17455684",
+      "neteaseTrackId": "17455684",
+      "title": "The Son of Flynn (Remixed by Moby)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Moby"
+      ],
+      "durationMs": 392347
+    },
+    {
+      "id": "netease-track:17455685",
+      "neteaseTrackId": "17455685",
+      "title": "End of Line (Remixed by Boys Noize)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Boys Noize"
+      ],
+      "durationMs": 340218
+    },
+    {
+      "id": "netease-track:17455686",
+      "neteaseTrackId": "17455686",
+      "title": "Rinzler (Remixed by Kaskade)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Kaskade"
+      ],
+      "durationMs": 412473
+    },
+    {
+      "id": "netease-track:17455687",
+      "neteaseTrackId": "17455687",
+      "title": "Encom Part 2 (Remixed by Com Truise)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Com Truise"
+      ],
+      "durationMs": 292127
+    },
+    {
+      "id": "netease-track:17455688",
+      "neteaseTrackId": "17455688",
+      "title": "End of Line (Remixed by Photek)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Photek"
+      ],
+      "durationMs": 318746
+    },
+    {
+      "id": "netease-track:17455689",
+      "neteaseTrackId": "17455689",
+      "title": "Arena (Remixed by The Japanese Popstars)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "The Japanese Popstars"
+      ],
+      "durationMs": 367780
+    },
+    {
+      "id": "netease-track:17455690",
+      "neteaseTrackId": "17455690",
+      "title": "Derezzed (Remixed by Avicii)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Avicii"
+      ],
+      "durationMs": 303986
+    },
+    {
+      "id": "netease-track:17455691",
+      "neteaseTrackId": "17455691",
+      "title": "Solar Sailer (Remixed by Pretty Lights)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Pretty Lights"
+      ],
+      "durationMs": 272904
+    },
+    {
+      "id": "netease-track:17455692",
+      "neteaseTrackId": "17455692",
+      "title": "TRON Legacy (End Titles) (Remixed by Sander Kleinenberg)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk",
+        "Sander Kleinenberg"
+      ],
+      "durationMs": 304994
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1609269",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "TRON: Legacy Reconfigured Daft Punk",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

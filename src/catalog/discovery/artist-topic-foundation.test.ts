@@ -18,16 +18,16 @@ function topicKeys(kind: TopicEntryKind) {
 
 afterEach(() => vi.unstubAllGlobals());
 
-describe("R13-3D non-visible artist discovery foundation", () => {
+describe("R13-3D non-visible artist discovery foundation", { timeout: 180_000 }, () => {
   it("covers every real artist with deterministic multi-work chronology or single-work escape", () => {
     const results = publishedArtists.map((artist) => discoverFromArtist(
       publishedDiscoveryIndex,
       artist.artistId,
     ));
 
-    expect(results).toHaveLength(300);
-    expect(results.filter((result) => result.artistShape === "MULTI_WORK")).toHaveLength(62);
-    expect(results.filter((result) => result.artistShape === "SINGLE_WORK")).toHaveLength(238);
+    expect(results).toHaveLength(453);
+    expect(results.filter((result) => result.artistShape === "MULTI_WORK")).toHaveLength(156);
+    expect(results.filter((result) => result.artistShape === "SINGLE_WORK")).toHaveLength(297);
 
     for (const [index, artist] of publishedArtists.entries()) {
       const result = results[index];
@@ -64,7 +64,7 @@ describe("R13-3D non-visible artist discovery foundation", () => {
         )).toBe(true);
       }
     }
-  }, 30_000);
+  }, 180_000);
 
   it("accepts a real chronology anchor and preserves an existing validated origin", () => {
     const artist = publishedArtists.find((candidate) => candidate.albumCount > 1)!;
@@ -119,7 +119,7 @@ describe("R13-3D non-visible topic entry foundation", () => {
       ERA: expect.arrayContaining([]),
       LISTENING_CONTEXT: expect.arrayContaining([]),
     });
-    expect(Object.values(keysByKind).flat()).toHaveLength(53);
+    expect(Object.values(keysByKind).flat()).toHaveLength(55);
 
     for (const kind of TOPIC_ENTRY_KINDS) {
       for (const key of keysByKind[kind]) {
@@ -144,7 +144,7 @@ describe("R13-3D non-visible topic entry foundation", () => {
         expect(parseDiscoveryPathContext(query, publishedDiscoveryIndex)).toEqual(result.pathContext);
       }
     }
-  }, 30_000);
+  }, 180_000);
 
   it("preserves a prior discovery origin while adapting a topic to an album", () => {
     const topicKey = topicKeys("PRIMARY_GENRE")[0];

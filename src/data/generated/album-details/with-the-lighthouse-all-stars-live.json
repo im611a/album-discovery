@@ -1,0 +1,109 @@
+{
+  "internalId": "album:499955",
+  "id": "album:499955",
+  "neteaseAlbumId": "499955",
+  "slug": "with-the-lighthouse-all-stars-live",
+  "title": "With The Lighthouse All Stars [Live]",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1953-09-12",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Ojc",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/499955.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/499955.webp",
+    "alt": "《With The Lighthouse All Stars [Live]》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5033672",
+      "neteaseTrackId": "5033672",
+      "title": "Infinity Promenade",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 737802
+    },
+    {
+      "id": "netease-track:5033673",
+      "neteaseTrackId": "5033673",
+      "title": "'Round Midnight",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 345704
+    },
+    {
+      "id": "netease-track:5033674",
+      "neteaseTrackId": "5033674",
+      "title": "A Night In Tunisia",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 722364
+    },
+    {
+      "id": "netease-track:5033675",
+      "neteaseTrackId": "5033675",
+      "title": "Drum Conversation",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:5033676",
+      "neteaseTrackId": "5033676",
+      "title": "At Last",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 318000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=499955",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "With The Lighthouse All Stars [Live] Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

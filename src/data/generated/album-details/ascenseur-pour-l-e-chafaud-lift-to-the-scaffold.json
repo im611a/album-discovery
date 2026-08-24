@@ -1,0 +1,340 @@
+{
+  "internalId": "album:1969887",
+  "id": "album:1969887",
+  "neteaseAlbumId": "1969887",
+  "slug": "ascenseur-pour-l-e-chafaud-lift-to-the-scaffold",
+  "title": "Ascenseur pour l'échafaud (Lift To The Scaffold)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2012-02-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "JB Production",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969887.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969887.webp",
+    "alt": "《Ascenseur pour l'échafaud (Lift To The Scaffold)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21329236",
+      "neteaseTrackId": "21329236",
+      "title": "Nuit Sur Les Champs-Elysées, pt. 1",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 145562
+    },
+    {
+      "id": "netease-track:21329237",
+      "neteaseTrackId": "21329237",
+      "title": "Nuit Sur Les Champs-Elysées, pt. 2",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 326533
+    },
+    {
+      "id": "netease-track:21329238",
+      "neteaseTrackId": "21329238",
+      "title": "Nuit Sur Les Champs-Elysées, pt. 3 (Générique)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 175826
+    },
+    {
+      "id": "netease-track:21329239",
+      "neteaseTrackId": "21329239",
+      "title": "Nuit Sur Les Champs-Elysées, pt. 4 (Florence sur les Champs-Elysées)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 181893
+    },
+    {
+      "id": "netease-track:21329240",
+      "neteaseTrackId": "21329240",
+      "title": "Assassinat, pt. 1 (Visite du vigile)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 127240
+    },
+    {
+      "id": "netease-track:21329241",
+      "neteaseTrackId": "21329241",
+      "title": "Assassinat, pt. 2 (Julien dans l'ascenseur)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 134840
+    },
+    {
+      "id": "netease-track:21329242",
+      "neteaseTrackId": "21329242",
+      "title": "Assassinat, pt. 3 (L' assassinat de Carala)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 133426
+    },
+    {
+      "id": "netease-track:21329243",
+      "neteaseTrackId": "21329243",
+      "title": "Motel (Diner au motel)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 238524
+    },
+    {
+      "id": "netease-track:21329244",
+      "neteaseTrackId": "21329244",
+      "title": "Final, pt. 1",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 189986
+    },
+    {
+      "id": "netease-track:21329245",
+      "neteaseTrackId": "21329245",
+      "title": "Final, pt. 2",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 181000
+    },
+    {
+      "id": "netease-track:21329246",
+      "neteaseTrackId": "21329246",
+      "title": "Final, pt. 3 (Chez le photographe du motel)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 249800
+    },
+    {
+      "id": "netease-track:21329247",
+      "neteaseTrackId": "21329247",
+      "title": "Ascenseur (Evasion de Julien)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 123973
+    },
+    {
+      "id": "netease-track:21329248",
+      "neteaseTrackId": "21329248",
+      "title": "Le Petit Bal, Pt. 1",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 162000
+    },
+    {
+      "id": "netease-track:21329249",
+      "neteaseTrackId": "21329249",
+      "title": "Le Petit Bal, Pt. 2 (Au bar du petit bac)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 176000
+    },
+    {
+      "id": "netease-track:21329250",
+      "neteaseTrackId": "21329250",
+      "title": "Séquence Voiture, Pt. 1",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 179933
+    },
+    {
+      "id": "netease-track:21329251",
+      "neteaseTrackId": "21329251",
+      "title": "Séquence Voiture, Pt. 2",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 138000
+    },
+    {
+      "id": "netease-track:21329252",
+      "neteaseTrackId": "21329252",
+      "title": "Générique",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 166812
+    },
+    {
+      "id": "netease-track:21329253",
+      "neteaseTrackId": "21329253",
+      "title": "L'assassinat de carala",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 129906
+    },
+    {
+      "id": "netease-track:21329254",
+      "neteaseTrackId": "21329254",
+      "title": "Sur l'autoroute",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 137213
+    },
+    {
+      "id": "netease-track:21329255",
+      "neteaseTrackId": "21329255",
+      "title": "Julien dans l'ascenseur",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 129680
+    },
+    {
+      "id": "netease-track:21329256",
+      "neteaseTrackId": "21329256",
+      "title": "Florence sur les champs-elysées",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 172533
+    },
+    {
+      "id": "netease-track:21329257",
+      "neteaseTrackId": "21329257",
+      "title": "Diner au motel",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:21329258",
+      "neteaseTrackId": "21329258",
+      "title": "Evasion de julien",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 54866
+    },
+    {
+      "id": "netease-track:21329259",
+      "neteaseTrackId": "21329259",
+      "title": "Visite du vigile",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 126000
+    },
+    {
+      "id": "netease-track:21329260",
+      "neteaseTrackId": "21329260",
+      "title": "Au bar du petit bac",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 171441
+    },
+    {
+      "id": "netease-track:21329261",
+      "neteaseTrackId": "21329261",
+      "title": "Chez le photographe du motel",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 236293
+    }
+  ],
+  "trackCount": 26,
+  "externalUrl": "https://music.163.com/#/album?id=1969887",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ascenseur pour l'échafaud (Lift To The Scaffold) Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

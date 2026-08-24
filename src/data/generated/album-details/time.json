@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1637042",
+  "id": "album:1637042",
+  "neteaseAlbumId": "1637042",
+  "slug": "time",
+  "title": "Time",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1995-10-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637042.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637042.webp",
+    "alt": "《Time》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17785954",
+      "neteaseTrackId": "17785954",
+      "title": "Talkin' to My Heart",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 296680
+    },
+    {
+      "id": "netease-track:17785955",
+      "neteaseTrackId": "17785955",
+      "title": "Hollywood (Some Other Kind of Town)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 345880
+    },
+    {
+      "id": "netease-track:17785956",
+      "neteaseTrackId": "17785956",
+      "title": "Blow by Blow",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 267520
+    },
+    {
+      "id": "netease-track:17785957",
+      "neteaseTrackId": "17785957",
+      "title": "Winds of Change",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 268426
+    },
+    {
+      "id": "netease-track:17785958",
+      "neteaseTrackId": "17785958",
+      "title": "I Do",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 268000
+    },
+    {
+      "id": "netease-track:17785959",
+      "neteaseTrackId": "17785959",
+      "title": "Nothing Without You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 188813
+    },
+    {
+      "id": "netease-track:17785960",
+      "neteaseTrackId": "17785960",
+      "title": "Dreamin' the Dream",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 225520
+    },
+    {
+      "id": "netease-track:17785961",
+      "neteaseTrackId": "17785961",
+      "title": "Sooner or Later",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 341546
+    },
+    {
+      "id": "netease-track:17785962",
+      "neteaseTrackId": "17785962",
+      "title": "I Wonder Why",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 269786
+    },
+    {
+      "id": "netease-track:17785963",
+      "neteaseTrackId": "17785963",
+      "title": "Nights in Estoril",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 287266
+    },
+    {
+      "id": "netease-track:17785964",
+      "neteaseTrackId": "17785964",
+      "title": "I Got It in for You",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 250706
+    },
+    {
+      "id": "netease-track:17785965",
+      "neteaseTrackId": "17785965",
+      "title": "All over Again",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 216506
+    },
+    {
+      "id": "netease-track:17785966",
+      "neteaseTrackId": "17785966",
+      "title": "These Strange Times",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 428146
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1637042",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Time Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19111",
+  "id": "album:19111",
+  "neteaseAlbumId": "19111",
+  "slug": "hot-summer",
+  "title": "Hot Summer",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1988-07-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19111.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19111.webp",
+    "alt": "《Hot Summer》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188861",
+      "neteaseTrackId": "188861",
+      "title": "Hot Summer",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 237960
+    },
+    {
+      "id": "netease-track:188865",
+      "neteaseTrackId": "188865",
+      "title": "贴身",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 198200
+    },
+    {
+      "id": "netease-track:188869",
+      "neteaseTrackId": "188869",
+      "title": "无需要太多",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268026
+    },
+    {
+      "id": "netease-track:188873",
+      "neteaseTrackId": "188873",
+      "title": "可否多一吻",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 307506
+    },
+    {
+      "id": "netease-track:188877",
+      "neteaseTrackId": "188877",
+      "title": "Hey! 不要玩",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 218546
+    },
+    {
+      "id": "netease-track:188881",
+      "neteaseTrackId": "188881",
+      "title": "沉默是金",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 249666
+    },
+    {
+      "id": "netease-track:188885",
+      "neteaseTrackId": "188885",
+      "title": "继续跳舞",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 270920
+    },
+    {
+      "id": "netease-track:188889",
+      "neteaseTrackId": "188889",
+      "title": "浓情",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 213213
+    },
+    {
+      "id": "netease-track:188893",
+      "neteaseTrackId": "188893",
+      "title": "内心争斗",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 287093
+    },
+    {
+      "id": "netease-track:188897",
+      "neteaseTrackId": "188897",
+      "title": "再恋",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 280693
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19111",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Hot Summer 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "internalId": "album:151244",
+  "id": "album:151244",
+  "neteaseAlbumId": "151244",
+  "slug": "number-ones",
+  "title": "Number Ones",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "2009-11-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151244.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151244.webp",
+    "alt": "《Number Ones》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1479257",
+      "neteaseTrackId": "1479257",
+      "title": "What Have You Done For Me Lately",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 284049
+    },
+    {
+      "id": "netease-track:1479260",
+      "neteaseTrackId": "1479260",
+      "title": "Nasty",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 243000
+    },
+    {
+      "id": "netease-track:1479262",
+      "neteaseTrackId": "1479262",
+      "title": "When I Think Of You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 235053
+    },
+    {
+      "id": "netease-track:1479264",
+      "neteaseTrackId": "1479264",
+      "title": "Control",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 354115
+    },
+    {
+      "id": "netease-track:1479266",
+      "neteaseTrackId": "1479266",
+      "title": "Let's Wait Awhile (Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 277000
+    },
+    {
+      "id": "netease-track:1479269",
+      "neteaseTrackId": "1479269",
+      "title": "The Pleasure Principle",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:1479272",
+      "neteaseTrackId": "1479272",
+      "title": "Diamonds",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Herb Alpert",
+        "Janet Jackson",
+        "Lisa Keith"
+      ],
+      "durationMs": 293173
+    },
+    {
+      "id": "netease-track:1479275",
+      "neteaseTrackId": "1479275",
+      "title": "Miss You Much",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 252145
+    },
+    {
+      "id": "netease-track:1479278",
+      "neteaseTrackId": "1479278",
+      "title": "Rhythm Nation (Single Edit with Pledge)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 329874
+    },
+    {
+      "id": "netease-track:1479281",
+      "neteaseTrackId": "1479281",
+      "title": "Escapade",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 285387
+    },
+    {
+      "id": "netease-track:1479284",
+      "neteaseTrackId": "1479284",
+      "title": "Alright (7\" House Mix with Rap)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Heavy D"
+      ],
+      "durationMs": 298800
+    },
+    {
+      "id": "netease-track:1479288",
+      "neteaseTrackId": "1479288",
+      "title": "Come Back To Me (I'm Beggin' You Mix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 335751
+    },
+    {
+      "id": "netease-track:1479291",
+      "neteaseTrackId": "1479291",
+      "title": "Black Cat (Video Mix / Short Solo)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 271595
+    },
+    {
+      "id": "netease-track:1479293",
+      "neteaseTrackId": "1479293",
+      "title": "Love Will Never Do (Without You)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 274893
+    },
+    {
+      "id": "netease-track:1479295",
+      "neteaseTrackId": "1479295",
+      "title": "The Best Things In Life Are Free",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Luther Vandross",
+        "Ralph Tresvant",
+        "Bell Biv DeVoe"
+      ],
+      "durationMs": 276573
+    },
+    {
+      "id": "netease-track:1479297",
+      "neteaseTrackId": "1479297",
+      "title": "That’s The Way Love Goes",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:1479300",
+      "neteaseTrackId": "1479300",
+      "title": "If",
+      "trackNumber": 17,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 272000
+    },
+    {
+      "id": "netease-track:1479302",
+      "neteaseTrackId": "1479302",
+      "title": "Again",
+      "trackNumber": 18,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 227666
+    },
+    {
+      "id": "netease-track:1479306",
+      "neteaseTrackId": "1479306",
+      "title": "Because Of Love",
+      "trackNumber": 19,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 257000
+    },
+    {
+      "id": "netease-track:1479309",
+      "neteaseTrackId": "1479309",
+      "title": "Any Time, Any Place (R. Kelly Remix)",
+      "trackNumber": 20,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 311746
+    },
+    {
+      "id": "netease-track:1479312",
+      "neteaseTrackId": "1479312",
+      "title": "Scream",
+      "trackNumber": 21,
+      "discNumber": 2,
+      "artists": [
+        "Michael Jackson",
+        "Janet Jackson"
+      ],
+      "durationMs": 241866
+    },
+    {
+      "id": "netease-track:1479315",
+      "neteaseTrackId": "1479315",
+      "title": "Runaway",
+      "trackNumber": 22,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 214595
+    },
+    {
+      "id": "netease-track:1479318",
+      "neteaseTrackId": "1479318",
+      "title": "Got ’Til It’s Gone",
+      "trackNumber": 23,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson",
+        "Q-Tip",
+        "Joni Mitchell"
+      ],
+      "durationMs": 216053
+    },
+    {
+      "id": "netease-track:1479320",
+      "neteaseTrackId": "1479320",
+      "title": "Together Again",
+      "trackNumber": 24,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 248732
+    },
+    {
+      "id": "netease-track:1479323",
+      "neteaseTrackId": "1479323",
+      "title": "I Get Lonely",
+      "trackNumber": 25,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 241000
+    },
+    {
+      "id": "netease-track:1479326",
+      "neteaseTrackId": "1479326",
+      "title": "Go Deep",
+      "trackNumber": 26,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 283013
+    },
+    {
+      "id": "netease-track:1479328",
+      "neteaseTrackId": "1479328",
+      "title": "What’s It Gonna Be?!",
+      "trackNumber": 27,
+      "discNumber": 2,
+      "artists": [
+        "Busta Rhymes",
+        "Janet Jackson"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:1479329",
+      "neteaseTrackId": "1479329",
+      "title": "Doesn’t Really Matter",
+      "trackNumber": 28,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 296333
+    },
+    {
+      "id": "netease-track:1479331",
+      "neteaseTrackId": "1479331",
+      "title": "All for You (Video Mix)",
+      "trackNumber": 29,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 271973
+    },
+    {
+      "id": "netease-track:1479333",
+      "neteaseTrackId": "1479333",
+      "title": "Someone To Call My Lover",
+      "trackNumber": 30,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 254706
+    },
+    {
+      "id": "netease-track:1479336",
+      "neteaseTrackId": "1479336",
+      "title": "All Nite (Don’t Stop)",
+      "trackNumber": 31,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 207000
+    },
+    {
+      "id": "netease-track:1479339",
+      "neteaseTrackId": "1479339",
+      "title": "Call On Me",
+      "trackNumber": 32,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson",
+        "Nelly"
+      ],
+      "durationMs": 215146
+    },
+    {
+      "id": "netease-track:1479342",
+      "neteaseTrackId": "1479342",
+      "title": "Feedback",
+      "trackNumber": 33,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 236193
+    },
+    {
+      "id": "netease-track:1479345",
+      "neteaseTrackId": "1479345",
+      "title": "Make Me",
+      "trackNumber": 34,
+      "discNumber": 2,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 218213
+    }
+  ],
+  "trackCount": 34,
+  "externalUrl": "https://music.163.com/#/album?id=151244",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Number Ones Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

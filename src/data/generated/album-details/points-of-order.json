@@ -1,0 +1,142 @@
+{
+  "internalId": "album:222219",
+  "id": "album:222219",
+  "neteaseAlbumId": "222219",
+  "slug": "points-of-order",
+  "title": "Points Of Order",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2001-10-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222219.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222219.webp",
+    "alt": "《Points Of Order》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205523",
+      "neteaseTrackId": "2205523",
+      "title": "X29",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 442665
+    },
+    {
+      "id": "netease-track:2205524",
+      "neteaseTrackId": "2205524",
+      "title": "Staple Nex",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 303809
+    },
+    {
+      "id": "netease-track:2205525",
+      "neteaseTrackId": "2205525",
+      "title": "Broken Toenail Gland",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 288949
+    },
+    {
+      "id": "netease-track:2205526",
+      "neteaseTrackId": "2205526",
+      "title": "Cyclops",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 381085
+    },
+    {
+      "id": "netease-track:2205527",
+      "neteaseTrackId": "2205527",
+      "title": "White Ark",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 110062
+    },
+    {
+      "id": "netease-track:2205528",
+      "neteaseTrackId": "2205528",
+      "title": "Iron Cross",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 672635
+    },
+    {
+      "id": "netease-track:2205529",
+      "neteaseTrackId": "2205529",
+      "title": "Conquer Worm",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 259599
+    },
+    {
+      "id": "netease-track:2205530",
+      "neteaseTrackId": "2205530",
+      "title": "Lightning Teleportation",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 451000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=222219",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Points Of Order Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

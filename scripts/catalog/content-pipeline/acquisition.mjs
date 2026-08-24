@@ -8,9 +8,9 @@ const METADATA_HOST = "music.163.com";
 const COVER_HOST = /^p[1-4]\.music\.126\.net$/u;
 const CODEC_EXTENSION = new Map([["mjpeg", ".jpg"], ["png", ".png"], ["webp", ".webp"]]);
 
-function sourceError(code, message) { return Object.assign(new Error(`${code}: ${message}`), { code }); }
+export function sourceError(code, message, details = {}) { return Object.assign(new Error(`${code}: ${message}`), { code, ...details }); }
 
-async function request(url, { fetchImpl, timeoutMs, retries, allowedHost }) {
+export async function requestSourceBytes(url, { fetchImpl, timeoutMs, retries, allowedHost }) {
   const requested = new URL(url);
   if (requested.protocol !== "https:" || !allowedHost(requested.hostname)) throw sourceError("ACQUISITION_HOST_FORBIDDEN", requested.hostname);
   let last;
@@ -35,7 +35,7 @@ async function request(url, { fetchImpl, timeoutMs, retries, allowedHost }) {
       if (!response.ok) {
         const retryable = response.status === 429 || response.status >= 500 && response.status <= 599;
         if (retryable && attempt < retries) { last = sourceError("TRANSIENT_HTTP", String(response.status)); continue; }
-        throw sourceError("ACQUISITION_HTTP_ERROR", String(response.status));
+        throw sourceError("ACQUISITION_HTTP_ERROR", String(response.status), { status: response.status });
       }
       const bytes = Buffer.from(await response.arrayBuffer());
       return { bytes, accounting: { requestUrl: requested.href, status: response.status, redirectCount: hops.length - 1, hops, finalHost: final.hostname, contentType: response.headers.get("content-type"), contentLength: response.headers.get("content-length"), attempts: attempt + 1 } };
@@ -91,12 +91,12 @@ export async function acquireBatch({ batchRoot, refresh = false, concurrency = 2
           results[index] = { albumId: row.albumId, status: "CACHE_HIT", payloadSha256: await sha256File(payloadFile), rawResponse: await stat(rawFile).then(async (info) => ({ file: path.relative(batchRoot, rawFile).replaceAll("\\", "/"), sha256: await sha256File(rawFile), bytes: info.size })).catch(() => null), defects: payloadDefects(payload) };
           continue;
         }
-        const metadata = await request(`https://${METADATA_HOST}/api/v1/album/${row.albumId}`, { fetchImpl, timeoutMs, retries, allowedHost: (host) => host === METADATA_HOST });
+        const metadata = await requestSourceBytes(`https://${METADATA_HOST}/api/v1/album/${row.albumId}`, { fetchImpl, timeoutMs, retries, allowedHost: (host) => host === METADATA_HOST });
         const payload = JSON.parse(metadata.bytes.toString("utf8"));
         if (String(payload?.album?.id ?? "") !== row.albumId) throw sourceError("SOURCE_IDENTITY_MISMATCH", row.albumId);
         const coverUrl = new URL(String(payload?.album?.picUrl ?? ""));
         if (!COVER_HOST.test(coverUrl.hostname)) throw sourceError("COVER_HOST_FORBIDDEN", coverUrl.hostname);
-        const cover = await request(coverUrl, { fetchImpl, timeoutMs, retries, allowedHost: (host) => COVER_HOST.test(host) });
+        const cover = await requestSourceBytes(coverUrl, { fetchImpl, timeoutMs, retries, allowedHost: (host) => COVER_HOST.test(host) });
         const probeFile = path.join(reportRoot, `.cover-${row.albumId}-${process.pid}.bin`);
         await writeFile(probeFile, cover.bytes);
         const decoded = await inspectImage(probeFile);

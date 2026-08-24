@@ -1,0 +1,255 @@
+{
+  "internalId": "album:19196",
+  "id": "album:19196",
+  "neteaseAlbumId": "19196",
+  "slug": "netease-album-19196",
+  "title": "你知道东方在哪一边",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2008-03-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19196.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19196.webp",
+    "alt": "《你知道东方在哪一边》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189960",
+      "neteaseTrackId": "189960",
+      "title": "小白兔",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "陈伟伦"
+      ],
+      "durationMs": 311093
+    },
+    {
+      "id": "netease-track:189963",
+      "neteaseTrackId": "189963",
+      "title": "单刀会",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 379000
+    },
+    {
+      "id": "netease-track:189968",
+      "neteaseTrackId": "189968",
+      "title": "你是一道彩虹",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 341240
+    },
+    {
+      "id": "netease-track:189973",
+      "neteaseTrackId": "189973",
+      "title": "一五一十，十五二十/皮条客",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 212218
+    },
+    {
+      "id": "netease-track:1882119878",
+      "neteaseTrackId": "1882119878",
+      "title": "大话喷子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 359733
+    },
+    {
+      "id": "netease-track:189980",
+      "neteaseTrackId": "189980",
+      "title": "金牌鼻祖",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 253469
+    },
+    {
+      "id": "netease-track:189984",
+      "neteaseTrackId": "189984",
+      "title": "偶像",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 335600
+    },
+    {
+      "id": "netease-track:189989",
+      "neteaseTrackId": "189989",
+      "title": "秃顶同志",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 230680
+    },
+    {
+      "id": "netease-track:189993",
+      "neteaseTrackId": "189993",
+      "title": "黄沙港",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 175986
+    },
+    {
+      "id": "netease-track:1825646057",
+      "neteaseTrackId": "1825646057",
+      "title": "方法论（片段版）",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 42370
+    },
+    {
+      "id": "netease-track:190004",
+      "neteaseTrackId": "190004",
+      "title": "你一直没让我的脑子休息过",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 256933
+    },
+    {
+      "id": "netease-track:1430975213",
+      "neteaseTrackId": "1430975213",
+      "title": "野合万事兴",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒",
+        "宝罗"
+      ],
+      "durationMs": 319160
+    },
+    {
+      "id": "netease-track:190010",
+      "neteaseTrackId": "190010",
+      "title": "我怕我还不能爱你",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 294120
+    },
+    {
+      "id": "netease-track:190012",
+      "neteaseTrackId": "190012",
+      "title": "可忘不可忘",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 316733
+    },
+    {
+      "id": "netease-track:190016",
+      "neteaseTrackId": "190016",
+      "title": "小莉",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 347506
+    },
+    {
+      "id": "netease-track:190018",
+      "neteaseTrackId": "190018",
+      "title": "把那个故事再给我讲一遍",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 442453
+    },
+    {
+      "id": "netease-track:190023",
+      "neteaseTrackId": "190023",
+      "title": "这正合适",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 247488
+    },
+    {
+      "id": "netease-track:190028",
+      "neteaseTrackId": "190028",
+      "title": "爱的荣光",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 417386
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=19196",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "你知道东方在哪一边 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

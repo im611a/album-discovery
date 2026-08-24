@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19013",
+  "id": "album:19013",
+  "neteaseAlbumId": "19013",
+  "slug": "netease-album-19013",
+  "title": "忧郁",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1989-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19013.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19013.webp",
+    "alt": "《忧郁》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187532",
+      "neteaseTrackId": "187532",
+      "title": "你知道应该如何爱着我",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 289667
+    },
+    {
+      "id": "netease-track:187536",
+      "neteaseTrackId": "187536",
+      "title": "让我忘记你的脸",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 207666
+    },
+    {
+      "id": "netease-track:187541",
+      "neteaseTrackId": "187541",
+      "title": "不变是你,永远是我",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 197493
+    },
+    {
+      "id": "netease-track:187545",
+      "neteaseTrackId": "187545",
+      "title": "心与心的交点",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 290666
+    },
+    {
+      "id": "netease-track:187548",
+      "neteaseTrackId": "187548",
+      "title": "Blue Balloon",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 243840
+    },
+    {
+      "id": "netease-track:187552",
+      "neteaseTrackId": "187552",
+      "title": "打造一个希望的城市",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 227732
+    },
+    {
+      "id": "netease-track:187556",
+      "neteaseTrackId": "187556",
+      "title": "给我一些音乐",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 220133
+    },
+    {
+      "id": "netease-track:187561",
+      "neteaseTrackId": "187561",
+      "title": "不曾对你说抱歉",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 251826
+    },
+    {
+      "id": "netease-track:187565",
+      "neteaseTrackId": "187565",
+      "title": "让我的热情改变你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 240333
+    },
+    {
+      "id": "netease-track:187569",
+      "neteaseTrackId": "187569",
+      "title": "The Twelfth Of Never",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 271333
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19013",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "忧郁 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

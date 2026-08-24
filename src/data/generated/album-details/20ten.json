@@ -1,0 +1,164 @@
+{
+  "internalId": "album:184153",
+  "id": "album:184153",
+  "neteaseAlbumId": "184153",
+  "slug": "20ten",
+  "title": "20Ten",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "2010-07-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184153.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184153.webp",
+    "alt": "《20Ten》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1822085",
+      "neteaseTrackId": "1822085",
+      "title": "Compassion",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 235891
+    },
+    {
+      "id": "netease-track:1822088",
+      "neteaseTrackId": "1822088",
+      "title": "Beginning Endlessly",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 327053
+    },
+    {
+      "id": "netease-track:1822091",
+      "neteaseTrackId": "1822091",
+      "title": "Future Soul Song",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 308384
+    },
+    {
+      "id": "netease-track:1822097",
+      "neteaseTrackId": "1822097",
+      "title": "Sticky Like Glue",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 286325
+    },
+    {
+      "id": "netease-track:1822099",
+      "neteaseTrackId": "1822099",
+      "title": "Act of God",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 193631
+    },
+    {
+      "id": "netease-track:1822100",
+      "neteaseTrackId": "1822100",
+      "title": "Lavaux",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 183739
+    },
+    {
+      "id": "netease-track:1822101",
+      "neteaseTrackId": "1822101",
+      "title": "Walk In Sand",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 209815
+    },
+    {
+      "id": "netease-track:1822102",
+      "neteaseTrackId": "1822102",
+      "title": "Sea of Everything",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 229320
+    },
+    {
+      "id": "netease-track:1822106",
+      "neteaseTrackId": "1822106",
+      "title": "Everybody Loves Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 248337
+    },
+    {
+      "id": "netease-track:1822108",
+      "neteaseTrackId": "1822108",
+      "title": "Laydown",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 186409
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=184153",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "20Ten Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18980",
+  "id": "album:18980",
+  "neteaseAlbumId": "18980",
+  "slug": "netease-album-18980",
+  "title": "醉心",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1995-08-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "巨石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18980.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18980.webp",
+    "alt": "《醉心》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187027",
+      "neteaseTrackId": "187027",
+      "title": "彩色的我",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 235758
+    },
+    {
+      "id": "netease-track:187031",
+      "neteaseTrackId": "187031",
+      "title": "握握手好吗",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 271133
+    },
+    {
+      "id": "netease-track:187035",
+      "neteaseTrackId": "187035",
+      "title": "心爱宝贝",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 254373
+    },
+    {
+      "id": "netease-track:187039",
+      "neteaseTrackId": "187039",
+      "title": "不要说不能说的感觉",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 232066
+    },
+    {
+      "id": "netease-track:187043",
+      "neteaseTrackId": "187043",
+      "title": "这个世界",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 220133
+    },
+    {
+      "id": "netease-track:187046",
+      "neteaseTrackId": "187046",
+      "title": "难以抗拒你容颜",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 234600
+    },
+    {
+      "id": "netease-track:187050",
+      "neteaseTrackId": "187050",
+      "title": "你最美丽会微笑的脸",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 210333
+    },
+    {
+      "id": "netease-track:187054",
+      "neteaseTrackId": "187054",
+      "title": "不会让你后悔",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 252573
+    },
+    {
+      "id": "netease-track:187058",
+      "neteaseTrackId": "187058",
+      "title": "跳针的唱片",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 258000
+    },
+    {
+      "id": "netease-track:187062",
+      "neteaseTrackId": "187062",
+      "title": "打造一个希望的城市",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 227732
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18980",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "醉心 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

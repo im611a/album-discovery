@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1757601",
+  "id": "album:1757601",
+  "neteaseAlbumId": "1757601",
+  "slug": "amazing-grace",
+  "title": "Amazing Grace",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "2003-09-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Sanctuary Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1757601.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1757601.webp",
+    "alt": "《Amazing Grace》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19169236",
+      "neteaseTrackId": "19169236",
+      "title": "This Little Life of Mine",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 239360
+    },
+    {
+      "id": "netease-track:19169237",
+      "neteaseTrackId": "19169237",
+      "title": "She Kissed Me (It Felt Like a Hit)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 206333
+    },
+    {
+      "id": "netease-track:19169238",
+      "neteaseTrackId": "19169238",
+      "title": "Hold On",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 234400
+    },
+    {
+      "id": "netease-track:19169239",
+      "neteaseTrackId": "19169239",
+      "title": "Oh Baby",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 250293
+    },
+    {
+      "id": "netease-track:19169240",
+      "neteaseTrackId": "19169240",
+      "title": "Never Goin' Back",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 173426
+    },
+    {
+      "id": "netease-track:19169241",
+      "neteaseTrackId": "19169241",
+      "title": "The Power and the Glory",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 269866
+    },
+    {
+      "id": "netease-track:19169242",
+      "neteaseTrackId": "19169242",
+      "title": "Lord Let It Rain On Me",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 220800
+    },
+    {
+      "id": "netease-track:19169243",
+      "neteaseTrackId": "19169243",
+      "title": "The Ballad of Richie Lee",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 203706
+    },
+    {
+      "id": "netease-track:19169244",
+      "neteaseTrackId": "19169244",
+      "title": "Cheapster",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 158626
+    },
+    {
+      "id": "netease-track:19169245",
+      "neteaseTrackId": "19169245",
+      "title": "Rated X",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 319426
+    },
+    {
+      "id": "netease-track:19169246",
+      "neteaseTrackId": "19169246",
+      "title": "Lay It Down Slow",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 300333
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1757601",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Amazing Grace Spiritualized",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

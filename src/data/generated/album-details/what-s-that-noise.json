@@ -1,0 +1,197 @@
+{
+  "internalId": "album:233629",
+  "id": "album:233629",
+  "neteaseAlbumId": "233629",
+  "slug": "what-s-that-noise",
+  "title": "What's That Noise",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:50946",
+      "neteaseArtistId": "50946",
+      "name": "Coldcut"
+    }
+  ],
+  "releaseDate": "1988-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "BMG Rights Management (UK) Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/233629.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/233629.webp",
+    "alt": "《What's That Noise》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2316171",
+      "neteaseTrackId": "2316171",
+      "title": "Stop This Crazy Thing [Featuring Junior Reid]",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 238422
+    },
+    {
+      "id": "netease-track:2316158",
+      "neteaseTrackId": "2316158",
+      "title": "Fat (Party and Bullshit)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 274293
+    },
+    {
+      "id": "netease-track:2316161",
+      "neteaseTrackId": "2316161",
+      "title": "(I'm) In Deep",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 322600
+    },
+    {
+      "id": "netease-track:2316164",
+      "neteaseTrackId": "2316164",
+      "title": "My Telephone",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 325640
+    },
+    {
+      "id": "netease-track:2316167",
+      "neteaseTrackId": "2316167",
+      "title": "Theme from \"Reportage\"",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 94640
+    },
+    {
+      "id": "netease-track:2316169",
+      "neteaseTrackId": "2316169",
+      "title": "Which Doctor?",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 299933
+    },
+    {
+      "id": "netease-track:2316155",
+      "neteaseTrackId": "2316155",
+      "title": "Stop This Crazy Thing",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 356560
+    },
+    {
+      "id": "netease-track:2316174",
+      "neteaseTrackId": "2316174",
+      "title": "No Connection",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 216200
+    },
+    {
+      "id": "netease-track:2316176",
+      "neteaseTrackId": "2316176",
+      "title": "Smoke 1",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 291306
+    },
+    {
+      "id": "netease-track:2316178",
+      "neteaseTrackId": "2316178",
+      "title": "Doctorin' the House",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 317533
+    },
+    {
+      "id": "netease-track:2316181",
+      "neteaseTrackId": "2316181",
+      "title": "What's That Noise?",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 175866
+    },
+    {
+      "id": "netease-track:2316184",
+      "neteaseTrackId": "2316184",
+      "title": "Beats & Pieces",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 355866
+    },
+    {
+      "id": "netease-track:2316187",
+      "neteaseTrackId": "2316187",
+      "title": "Stop This Crazy Thing",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 423840
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=233629",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "What's That Noise Coldcut",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

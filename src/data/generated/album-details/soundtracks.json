@@ -1,0 +1,241 @@
+{
+  "internalId": "album:47788",
+  "id": "album:47788",
+  "neteaseAlbumId": "47788",
+  "slug": "soundtracks",
+  "title": "Soundtracks",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1993-03-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47788.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47788.webp",
+    "alt": "《Soundtracks》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:501033",
+      "neteaseTrackId": "501033",
+      "title": "Last Emporer Theme",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 355000
+    },
+    {
+      "id": "netease-track:501039",
+      "neteaseTrackId": "501039",
+      "title": "Rain (I Want a Divorce)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 109319
+    },
+    {
+      "id": "netease-track:501045",
+      "neteaseTrackId": "501045",
+      "title": "Manchukuo Party",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:501051",
+      "neteaseTrackId": "501051",
+      "title": "Manchukuo Waltz",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 161000
+    },
+    {
+      "id": "netease-track:501056",
+      "neteaseTrackId": "501056",
+      "title": "Baby (Was Born Dead)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 55542
+    },
+    {
+      "id": "netease-track:501061",
+      "neteaseTrackId": "501061",
+      "title": "Where Is Armo?",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 146160
+    },
+    {
+      "id": "netease-track:501066",
+      "neteaseTrackId": "501066",
+      "title": "Merry Christmas Mr. Lawrence Theme",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 281373
+    },
+    {
+      "id": "netease-track:501072",
+      "neteaseTrackId": "501072",
+      "title": "Germination",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 177000
+    },
+    {
+      "id": "netease-track:501078",
+      "neteaseTrackId": "501078",
+      "title": "Seed & The Sower",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 232000
+    },
+    {
+      "id": "netease-track:501082",
+      "neteaseTrackId": "501082",
+      "title": "Ride Ride Ride",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 131000
+    },
+    {
+      "id": "netease-track:501087",
+      "neteaseTrackId": "501087",
+      "title": "Loneliness",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 91115
+    },
+    {
+      "id": "netease-track:501092",
+      "neteaseTrackId": "501092",
+      "title": "Sheltering Sky Theme [Piano Version]",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 260249
+    },
+    {
+      "id": "netease-track:501098",
+      "neteaseTrackId": "501098",
+      "title": "On the Hill",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 370869
+    },
+    {
+      "id": "netease-track:501104",
+      "neteaseTrackId": "501104",
+      "title": "Grand Hotel",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 125573
+    },
+    {
+      "id": "netease-track:501111",
+      "neteaseTrackId": "501111",
+      "title": "Sheltering Sky Theme",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 318484
+    },
+    {
+      "id": "netease-track:501117",
+      "neteaseTrackId": "501117",
+      "title": "Tacones Lojanos",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 118333
+    },
+    {
+      "id": "netease-track:501123",
+      "neteaseTrackId": "501123",
+      "title": "Highheels [Main Theme]",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 184600
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=47788",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Soundtracks 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

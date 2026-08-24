@@ -1,0 +1,153 @@
+{
+  "internalId": "album:1540821",
+  "id": "album:1540821",
+  "neteaseAlbumId": "1540821",
+  "slug": "baselines",
+  "title": "Baselines",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2016-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Celluloid",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540821.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540821.webp",
+    "alt": "《Baselines》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16715059",
+      "neteaseTrackId": "16715059",
+      "title": "Activate",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 202800
+    },
+    {
+      "id": "netease-track:16715060",
+      "neteaseTrackId": "16715060",
+      "title": "Work Song",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 436226
+    },
+    {
+      "id": "netease-track:16715061",
+      "neteaseTrackId": "16715061",
+      "title": "Hindsight",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 240906
+    },
+    {
+      "id": "netease-track:16715062",
+      "neteaseTrackId": "16715062",
+      "title": "Uprising",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 67866
+    },
+    {
+      "id": "netease-track:16715063",
+      "neteaseTrackId": "16715063",
+      "title": "Barricade",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 249933
+    },
+    {
+      "id": "netease-track:16715064",
+      "neteaseTrackId": "16715064",
+      "title": "Upright Man",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 234960
+    },
+    {
+      "id": "netease-track:16715065",
+      "neteaseTrackId": "16715065",
+      "title": "Moving Target",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 116600
+    },
+    {
+      "id": "netease-track:16715066",
+      "neteaseTrackId": "16715066",
+      "title": "Lowlands",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 269466
+    },
+    {
+      "id": "netease-track:16715067",
+      "neteaseTrackId": "16715067",
+      "title": "Conversation",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 189000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1540821",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Baselines Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

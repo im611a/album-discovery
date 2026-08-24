@@ -1,0 +1,298 @@
+{
+  "internalId": "album:1706206",
+  "id": "album:1706206",
+  "neteaseAlbumId": "1706206",
+  "slug": "discipline",
+  "title": "Discipline",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "2008-02-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706206.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706206.webp",
+    "alt": "《Discipline》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18589056",
+      "neteaseTrackId": "18589056",
+      "title": "I.D. (Interlude)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 47490
+    },
+    {
+      "id": "netease-track:18589057",
+      "neteaseTrackId": "18589057",
+      "title": "Feedback",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 218213
+    },
+    {
+      "id": "netease-track:18589058",
+      "neteaseTrackId": "18589058",
+      "title": "LUV",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 189533
+    },
+    {
+      "id": "netease-track:18589059",
+      "neteaseTrackId": "18589059",
+      "title": "Spinnin (Interlude)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 7915
+    },
+    {
+      "id": "netease-track:18589060",
+      "neteaseTrackId": "18589060",
+      "title": "Rollercoaster",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 230826
+    },
+    {
+      "id": "netease-track:18589061",
+      "neteaseTrackId": "18589061",
+      "title": "Bathroom Break (Interlude)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 40176
+    },
+    {
+      "id": "netease-track:18589062",
+      "neteaseTrackId": "18589062",
+      "title": "Rock With U",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 231906
+    },
+    {
+      "id": "netease-track:18589063",
+      "neteaseTrackId": "18589063",
+      "title": "2nite",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 248708
+    },
+    {
+      "id": "netease-track:18589064",
+      "neteaseTrackId": "18589064",
+      "title": "Can't B Good",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 253066
+    },
+    {
+      "id": "netease-track:18589065",
+      "neteaseTrackId": "18589065",
+      "title": "4 Words (Interlude)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 10631
+    },
+    {
+      "id": "netease-track:18589066",
+      "neteaseTrackId": "18589066",
+      "title": "Never Letchu Go",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 247306
+    },
+    {
+      "id": "netease-track:18589067",
+      "neteaseTrackId": "18589067",
+      "title": "Truth Or Dare (Interlude)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 23902
+    },
+    {
+      "id": "netease-track:18589068",
+      "neteaseTrackId": "18589068",
+      "title": "Greatest X",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 262973
+    },
+    {
+      "id": "netease-track:18589069",
+      "neteaseTrackId": "18589069",
+      "title": "Good Morning Janet (Interlude)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 43937
+    },
+    {
+      "id": "netease-track:18589070",
+      "neteaseTrackId": "18589070",
+      "title": "So Much Betta",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Daft Punk"
+      ],
+      "durationMs": 172546
+    },
+    {
+      "id": "netease-track:18589071",
+      "neteaseTrackId": "18589071",
+      "title": "Play Selection (Interlude)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 17057
+    },
+    {
+      "id": "netease-track:18589072",
+      "neteaseTrackId": "18589072",
+      "title": "The 1",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Missy Elliott"
+      ],
+      "durationMs": 220891
+    },
+    {
+      "id": "netease-track:18589073",
+      "neteaseTrackId": "18589073",
+      "title": "What's Ur Name",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 153546
+    },
+    {
+      "id": "netease-track:18589074",
+      "neteaseTrackId": "18589074",
+      "title": "The Meaning (Interlude)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 76225
+    },
+    {
+      "id": "netease-track:18589075",
+      "neteaseTrackId": "18589075",
+      "title": "Discipline",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 300266
+    },
+    {
+      "id": "netease-track:18589076",
+      "neteaseTrackId": "18589076",
+      "title": "Back (Interlude)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 18311
+    },
+    {
+      "id": "netease-track:18589077",
+      "neteaseTrackId": "18589077",
+      "title": "Curtains",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 230080
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=1706206",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Discipline Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

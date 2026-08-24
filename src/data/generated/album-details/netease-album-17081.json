@@ -1,0 +1,166 @@
+{
+  "internalId": "album:17081",
+  "id": "album:17081",
+  "neteaseAlbumId": "17081",
+  "slug": "netease-album-17081",
+  "title": "薛之谦",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5781",
+      "neteaseArtistId": "5781",
+      "name": "薛之谦"
+    }
+  ],
+  "releaseDate": "2006-06-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "潮石音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/17081.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/17081.webp",
+    "alt": "《薛之谦》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:169241",
+      "neteaseTrackId": "169241",
+      "title": "王子归来",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 287949
+    },
+    {
+      "id": "netease-track:169243",
+      "neteaseTrackId": "169243",
+      "title": "认真的雪",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 259041
+    },
+    {
+      "id": "netease-track:169245",
+      "neteaseTrackId": "169245",
+      "title": "红尘女子",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 283004
+    },
+    {
+      "id": "netease-track:169247",
+      "neteaseTrackId": "169247",
+      "title": "爱不走",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 265400
+    },
+    {
+      "id": "netease-track:169249",
+      "neteaseTrackId": "169249",
+      "title": "快乐帮",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 241680
+    },
+    {
+      "id": "netease-track:169251",
+      "neteaseTrackId": "169251",
+      "title": "我的Show",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦",
+        "君君"
+      ],
+      "durationMs": 215693
+    },
+    {
+      "id": "netease-track:169253",
+      "neteaseTrackId": "169253",
+      "title": "黄色枫叶",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 252075
+    },
+    {
+      "id": "netease-track:169255",
+      "neteaseTrackId": "169255",
+      "title": "钗头凤",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 300001
+    },
+    {
+      "id": "netease-track:169257",
+      "neteaseTrackId": "169257",
+      "title": "MEMORY",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 301023
+    },
+    {
+      "id": "netease-track:169259",
+      "neteaseTrackId": "169259",
+      "title": "我的Show(伴奏)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦",
+        "君君"
+      ],
+      "durationMs": 210360
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=17081",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "薛之谦 薛之谦",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

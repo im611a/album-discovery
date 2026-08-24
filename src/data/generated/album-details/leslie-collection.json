@@ -1,0 +1,186 @@
+{
+  "internalId": "album:19068",
+  "id": "album:19068",
+  "neteaseAlbumId": "19068",
+  "slug": "leslie-collection",
+  "title": "Leslie Collection",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1990-06-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "新艺宝",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19068.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19068.webp",
+    "alt": "《Leslie Collection》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188296",
+      "neteaseTrackId": "188296",
+      "title": "无需要太多",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 331506
+    },
+    {
+      "id": "netease-track:188299",
+      "neteaseTrackId": "188299",
+      "title": "别话",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247493
+    },
+    {
+      "id": "netease-track:188302",
+      "neteaseTrackId": "188302",
+      "title": "最爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 310626
+    },
+    {
+      "id": "netease-track:188306",
+      "neteaseTrackId": "188306",
+      "title": "天使之爱",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 244924
+    },
+    {
+      "id": "netease-track:188310",
+      "neteaseTrackId": "188310",
+      "title": "由零开始",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 249146
+    },
+    {
+      "id": "netease-track:188313",
+      "neteaseTrackId": "188313",
+      "title": "沉默是金",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248825
+    },
+    {
+      "id": "netease-track:188317",
+      "neteaseTrackId": "188317",
+      "title": "烈火灯蛾",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 259667
+    },
+    {
+      "id": "netease-track:188322",
+      "neteaseTrackId": "188322",
+      "title": "想你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 299080
+    },
+    {
+      "id": "netease-track:188326",
+      "neteaseTrackId": "188326",
+      "title": "继续跳舞(Body Mix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 380412
+    },
+    {
+      "id": "netease-track:188331",
+      "neteaseTrackId": "188331",
+      "title": "Hot Summer(Hot Mix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 410000
+    },
+    {
+      "id": "netease-track:188335",
+      "neteaseTrackId": "188335",
+      "title": "放荡(Shake It Mix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 369475
+    },
+    {
+      "id": "netease-track:188339",
+      "neteaseTrackId": "188339",
+      "title": "侧面(Nah Nah Mix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 377906
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=19068",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Leslie Collection 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

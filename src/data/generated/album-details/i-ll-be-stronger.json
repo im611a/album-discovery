@@ -1,0 +1,98 @@
+{
+  "internalId": "album:64371",
+  "id": "album:64371",
+  "neteaseAlbumId": "64371",
+  "slug": "i-ll-be-stronger",
+  "title": "I'll Be Stronger",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "1996-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64371.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64371.webp",
+    "alt": "《I'll Be Stronger》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:667361",
+      "neteaseTrackId": "667361",
+      "title": "I'll Be Stronger (Tone Epic House Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 655000
+    },
+    {
+      "id": "netease-track:667364",
+      "neteaseTrackId": "667364",
+      "title": "I'll Be Stronger (R&B)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 279000
+    },
+    {
+      "id": "netease-track:667366",
+      "neteaseTrackId": "667366",
+      "title": "JazzMoses (Vocal)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 322000
+    },
+    {
+      "id": "netease-track:667368",
+      "neteaseTrackId": "667368",
+      "title": "Cookin' With Gas (Vocal)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 423000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=64371",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "I'll Be Stronger 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

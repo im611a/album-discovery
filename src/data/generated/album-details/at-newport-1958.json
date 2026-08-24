@@ -1,0 +1,131 @@
+{
+  "internalId": "album:1970598",
+  "id": "album:1970598",
+  "neteaseAlbumId": "1970598",
+  "slug": "at-newport-1958",
+  "title": "At Newport 1958",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2001-04-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970598.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970598.webp",
+    "alt": "《At Newport 1958》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21340930",
+      "neteaseTrackId": "21340930",
+      "title": "Introduction By Willis Connover (live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 135893
+    },
+    {
+      "id": "netease-track:21340931",
+      "neteaseTrackId": "21340931",
+      "title": "Ah-Leu-Cha (live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 352826
+    },
+    {
+      "id": "netease-track:21340932",
+      "neteaseTrackId": "21340932",
+      "title": "Straight, No Chaser (live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 527600
+    },
+    {
+      "id": "netease-track:21340933",
+      "neteaseTrackId": "21340933",
+      "title": "Fran-Dance (live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 433693
+    },
+    {
+      "id": "netease-track:21340934",
+      "neteaseTrackId": "21340934",
+      "title": "Two Bass Hit (live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 250626
+    },
+    {
+      "id": "netease-track:21340935",
+      "neteaseTrackId": "21340935",
+      "title": "Bye Bye Blackbird (live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 550000
+    },
+    {
+      "id": "netease-track:21340936",
+      "neteaseTrackId": "21340936",
+      "title": "The Theme (live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 168800
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1970598",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "At Newport 1958 Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

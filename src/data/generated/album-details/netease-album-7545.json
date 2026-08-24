@@ -1,0 +1,308 @@
+{
+  "internalId": "album:7545",
+  "id": "album:7545",
+  "neteaseAlbumId": "7545",
+  "slug": "netease-album-7545",
+  "title": "五音环乐",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    }
+  ],
+  "releaseDate": "2008-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7545.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7545.webp",
+    "alt": "《五音环乐》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76855",
+      "neteaseTrackId": "76855",
+      "title": "Track 01",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 323493
+    },
+    {
+      "id": "netease-track:76857",
+      "neteaseTrackId": "76857",
+      "title": "Track 02",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 294133
+    },
+    {
+      "id": "netease-track:76859",
+      "neteaseTrackId": "76859",
+      "title": "Track 03",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 284709
+    },
+    {
+      "id": "netease-track:76861",
+      "neteaseTrackId": "76861",
+      "title": "Track 04",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 223295
+    },
+    {
+      "id": "netease-track:76863",
+      "neteaseTrackId": "76863",
+      "title": "Track 05",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:76864",
+      "neteaseTrackId": "76864",
+      "title": "Track 01",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 538093
+    },
+    {
+      "id": "netease-track:76865",
+      "neteaseTrackId": "76865",
+      "title": "Track 02",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 351000
+    },
+    {
+      "id": "netease-track:76866",
+      "neteaseTrackId": "76866",
+      "title": "Track 03",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 531533
+    },
+    {
+      "id": "netease-track:76868",
+      "neteaseTrackId": "76868",
+      "title": "Track 04",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 418226
+    },
+    {
+      "id": "netease-track:76869",
+      "neteaseTrackId": "76869",
+      "title": "Track 05",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 111640
+    },
+    {
+      "id": "netease-track:76870",
+      "neteaseTrackId": "76870",
+      "title": "Track 06",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 449586
+    },
+    {
+      "id": "netease-track:76871",
+      "neteaseTrackId": "76871",
+      "title": "Track 07",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 107053
+    },
+    {
+      "id": "netease-track:76872",
+      "neteaseTrackId": "76872",
+      "title": "Track 08",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:76874",
+      "neteaseTrackId": "76874",
+      "title": "Track 01",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 262374
+    },
+    {
+      "id": "netease-track:76876",
+      "neteaseTrackId": "76876",
+      "title": "Track 02",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 294133
+    },
+    {
+      "id": "netease-track:76878",
+      "neteaseTrackId": "76878",
+      "title": "Track 03",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 284709
+    },
+    {
+      "id": "netease-track:76880",
+      "neteaseTrackId": "76880",
+      "title": "Track 04",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 731000
+    },
+    {
+      "id": "netease-track:76882",
+      "neteaseTrackId": "76882",
+      "title": "Track 05",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 737000
+    },
+    {
+      "id": "netease-track:76884",
+      "neteaseTrackId": "76884",
+      "title": "Track 06",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 296569
+    },
+    {
+      "id": "netease-track:76886",
+      "neteaseTrackId": "76886",
+      "title": "Track 01",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 538093
+    },
+    {
+      "id": "netease-track:76889",
+      "neteaseTrackId": "76889",
+      "title": "Track 02",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 489000
+    },
+    {
+      "id": "netease-track:76892",
+      "neteaseTrackId": "76892",
+      "title": "Track 03",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 428426
+    },
+    {
+      "id": "netease-track:76895",
+      "neteaseTrackId": "76895",
+      "title": "Track 04",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 223295
+    }
+  ],
+  "trackCount": 23,
+  "externalUrl": "https://music.163.com/#/album?id=7545",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic",
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "五音环乐 窦唯",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

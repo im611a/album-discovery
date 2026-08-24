@@ -1,0 +1,242 @@
+{
+  "internalId": "album:25414",
+  "id": "album:25414",
+  "neteaseAlbumId": "25414",
+  "slug": "netease-album-25414",
+  "title": "我的失败与伟大",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2003-11-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "大国文化唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25414.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25414.webp",
+    "alt": "《我的失败与伟大》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254321",
+      "neteaseTrackId": "254321",
+      "title": "我的失败与伟大",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 213693
+    },
+    {
+      "id": "netease-track:254324",
+      "neteaseTrackId": "254324",
+      "title": "分开旅行",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄立行"
+      ],
+      "durationMs": 247431
+    },
+    {
+      "id": "netease-track:254326",
+      "neteaseTrackId": "254326",
+      "title": "开始的那句话",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 222331
+    },
+    {
+      "id": "netease-track:254328",
+      "neteaseTrackId": "254328",
+      "title": "原来你也在这里",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 219506
+    },
+    {
+      "id": "netease-track:254330",
+      "neteaseTrackId": "254330",
+      "title": "换我先吻你",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 208538
+    },
+    {
+      "id": "netease-track:254333",
+      "neteaseTrackId": "254333",
+      "title": "我的眼前的幸福",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 264568
+    },
+    {
+      "id": "netease-track:254334",
+      "neteaseTrackId": "254334",
+      "title": "什么时候",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 284676
+    },
+    {
+      "id": "netease-track:254335",
+      "neteaseTrackId": "254335",
+      "title": "如何让你懂",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 210442
+    },
+    {
+      "id": "netease-track:254336",
+      "neteaseTrackId": "254336",
+      "title": "似水年华",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 291967
+    },
+    {
+      "id": "netease-track:254337",
+      "neteaseTrackId": "254337",
+      "title": "下楼谈恋爱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 80133
+    },
+    {
+      "id": "netease-track:254340",
+      "neteaseTrackId": "254340",
+      "title": "蝴蝶",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 263360
+    },
+    {
+      "id": "netease-track:254342",
+      "neteaseTrackId": "254342",
+      "title": "时代的序曲(钢琴独奏)",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 92946
+    },
+    {
+      "id": "netease-track:254344",
+      "neteaseTrackId": "254344",
+      "title": "等待与追寻(钢琴独奏)",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 162946
+    },
+    {
+      "id": "netease-track:254346",
+      "neteaseTrackId": "254346",
+      "title": "时代是沉默的(钢琴独奏)",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 224160
+    },
+    {
+      "id": "netease-track:254349",
+      "neteaseTrackId": "254349",
+      "title": "无涯的荒野(钢琴独奏)",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 130679
+    },
+    {
+      "id": "netease-track:254352",
+      "neteaseTrackId": "254352",
+      "title": "千万人之中(钢琴独奏)",
+      "trackNumber": 16,
+      "discNumber": 2,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 155466
+    },
+    {
+      "id": "netease-track:254355",
+      "neteaseTrackId": "254355",
+      "title": "你也在这里吗(钢琴独奏)",
+      "trackNumber": 17,
+      "discNumber": 2,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 106026
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=25414",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我的失败与伟大 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

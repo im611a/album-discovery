@@ -1,0 +1,109 @@
+{
+  "internalId": "album:19012",
+  "id": "album:19012",
+  "neteaseAlbumId": "19012",
+  "slug": "untitled",
+  "title": "Untitled",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "2000-02-29",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19012.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19012.webp",
+    "alt": "《Untitled》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187523",
+      "neteaseTrackId": "187523",
+      "title": "路过蜻蜓",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 234733
+    },
+    {
+      "id": "netease-track:187527",
+      "neteaseTrackId": "187527",
+      "title": "你这样恨我",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 260933
+    },
+    {
+      "id": "netease-track:187530",
+      "neteaseTrackId": "187530",
+      "title": "左右手 (Acoustic Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 259240
+    },
+    {
+      "id": "netease-track:187535",
+      "neteaseTrackId": "187535",
+      "title": "枕头",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 257760
+    },
+    {
+      "id": "netease-track:187540",
+      "neteaseTrackId": "187540",
+      "title": "I Honestly Love You",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 234040
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=19012",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Untitled 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

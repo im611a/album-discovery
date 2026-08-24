@@ -1,0 +1,168 @@
+{
+  "internalId": "album:7550",
+  "id": "album:7550",
+  "neteaseAlbumId": "7550",
+  "slug": "netease-album-7550",
+  "title": "佐罗在中国",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:187214",
+      "neteaseArtistId": "187214",
+      "name": "不一定"
+    }
+  ],
+  "releaseDate": "2007-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7550.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7550.webp",
+    "alt": "《佐罗在中国》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76906",
+      "neteaseTrackId": "76906",
+      "title": "张荐:键盘、电脑、笛/陈兵:箱琴/巫娜:贝司",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 361320
+    },
+    {
+      "id": "netease-track:76908",
+      "neteaseTrackId": "76908",
+      "title": "张荐:键盘、采样/巫娜:手指琴/陈兵:箱琴/马培红:吉它",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 420160
+    },
+    {
+      "id": "netease-track:76910",
+      "neteaseTrackId": "76910",
+      "title": "杨典:古琴/张荐:电脑/窦唯:贝司",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 561280
+    },
+    {
+      "id": "netease-track:76913",
+      "neteaseTrackId": "76913",
+      "title": "刘效松:鼓/马培红:吉它/巫娜:手指琴/张荐:电脑/文智涌:贝司",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 395760
+    },
+    {
+      "id": "netease-track:76915",
+      "neteaseTrackId": "76915",
+      "title": "张荐:采样/马培红:手指琴/陈兵:箱琴",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 276160
+    },
+    {
+      "id": "netease-track:76917",
+      "neteaseTrackId": "76917",
+      "title": "马培红:吉它、人声/窦唯:箱琴、鼓、人声/张荐:笛、电脑、人声",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 225400
+    },
+    {
+      "id": "netease-track:76919",
+      "neteaseTrackId": "76919",
+      "title": "窦唯:键盘、箱琴、鼓/马培红:吉它/陈兵:贝司、箱琴/文智涌:小号",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 259320
+    },
+    {
+      "id": "netease-track:76922",
+      "neteaseTrackId": "76922",
+      "title": "张荐:电脑、笛/窦唯:吉它",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 286400
+    },
+    {
+      "id": "netease-track:76924",
+      "neteaseTrackId": "76924",
+      "title": "文智涌:吉它/张荐:电脑/巫娜:手指琴/陈兵:键盘、箱琴/窦唯:鼓",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "不一定"
+      ],
+      "durationMs": 238680
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=7550",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic",
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "佐罗在中国 窦唯 不一定",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

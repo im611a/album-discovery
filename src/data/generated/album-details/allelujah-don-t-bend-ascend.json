@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1663777",
+  "id": "album:1663777",
+  "neteaseAlbumId": "1663777",
+  "slug": "allelujah-don-t-bend-ascend",
+  "title": "Allelujah! Don't Bend! Ascend!",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:93191",
+      "neteaseArtistId": "93191",
+      "name": "Godspeed You! Black Emperor"
+    }
+  ],
+  "releaseDate": "2012-10-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1663777.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1663777.webp",
+    "alt": "《Allelujah! Don't Bend! Ascend!》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18105876",
+      "neteaseTrackId": "18105876",
+      "title": "Mladic",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 1199533
+    },
+    {
+      "id": "netease-track:18105878",
+      "neteaseTrackId": "18105878",
+      "title": "Their Helicopters Sing",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 390053
+    },
+    {
+      "id": "netease-track:18105880",
+      "neteaseTrackId": "18105880",
+      "title": "We Drift Like Worried Fire",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 1207293
+    },
+    {
+      "id": "netease-track:18105882",
+      "neteaseTrackId": "18105882",
+      "title": "Strung Like Lights At Thee Printemps Erable",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 391880
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1663777",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Allelujah! Don't Bend! Ascend! Godspeed You! Black Emperor",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

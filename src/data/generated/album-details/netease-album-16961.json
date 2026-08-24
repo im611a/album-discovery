@@ -1,0 +1,186 @@
+{
+  "internalId": "album:16961",
+  "id": "album:16961",
+  "neteaseAlbumId": "16961",
+  "slug": "netease-album-16961",
+  "title": "王妃",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5768",
+      "neteaseArtistId": "5768",
+      "name": "萧敬腾"
+    }
+  ],
+  "releaseDate": "2009-07-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/16961.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/16961.webp",
+    "alt": "《王妃》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:167942",
+      "neteaseTrackId": "167942",
+      "title": "王妃",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 221760
+    },
+    {
+      "id": "netease-track:167944",
+      "neteaseTrackId": "167944",
+      "title": "我不会爱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 247173
+    },
+    {
+      "id": "netease-track:167946",
+      "neteaseTrackId": "167946",
+      "title": "阿飞的小蝴蝶",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 256160
+    },
+    {
+      "id": "netease-track:167949",
+      "neteaseTrackId": "167949",
+      "title": "善男信女",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 270506
+    },
+    {
+      "id": "netease-track:167951",
+      "neteaseTrackId": "167951",
+      "title": "Say A Lil Something",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:167954",
+      "neteaseTrackId": "167954",
+      "title": "爱游戏",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 230600
+    },
+    {
+      "id": "netease-track:167956",
+      "neteaseTrackId": "167956",
+      "title": "小男人大男孩",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 215200
+    },
+    {
+      "id": "netease-track:167959",
+      "neteaseTrackId": "167959",
+      "title": "会痛的石头",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 288666
+    },
+    {
+      "id": "netease-track:167960",
+      "neteaseTrackId": "167960",
+      "title": "爱过了头",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 265400
+    },
+    {
+      "id": "netease-track:167961",
+      "neteaseTrackId": "167961",
+      "title": "Green Door",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 198243
+    },
+    {
+      "id": "netease-track:167963",
+      "neteaseTrackId": "167963",
+      "title": "给爱人",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 226960
+    },
+    {
+      "id": "netease-track:167965",
+      "neteaseTrackId": "167965",
+      "title": "寂寞还是你",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 219800
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=16961",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "王妃 萧敬腾",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

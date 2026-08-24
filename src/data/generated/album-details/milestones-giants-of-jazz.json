@@ -1,0 +1,310 @@
+{
+  "internalId": "album:1970283",
+  "id": "album:1970283",
+  "neteaseAlbumId": "1970283",
+  "slug": "milestones-giants-of-jazz",
+  "title": "Milestones (Giants of Jazz)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2010-07-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970283.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970283.webp",
+    "alt": "《Milestones (Giants of Jazz)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21336014",
+      "neteaseTrackId": "21336014",
+      "title": "Milestones",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Charlie Parker",
+        "John Lewis",
+        "Max Roach"
+      ],
+      "durationMs": 160173
+    },
+    {
+      "id": "netease-track:21336015",
+      "neteaseTrackId": "21336015",
+      "title": "Little Willie Leaps",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Charlie Parker",
+        "John Lewis",
+        "Max Roach"
+      ],
+      "durationMs": 173000
+    },
+    {
+      "id": "netease-track:21336016",
+      "neteaseTrackId": "21336016",
+      "title": "Half Nelson",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Charlie Parker",
+        "John Lewis",
+        "Max Roach"
+      ],
+      "durationMs": 167000
+    },
+    {
+      "id": "netease-track:21336017",
+      "neteaseTrackId": "21336017",
+      "title": "Sippin' At Bells",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Charlie Parker",
+        "John Lewis",
+        "Max Roach"
+      ],
+      "durationMs": 145528
+    },
+    {
+      "id": "netease-track:21336018",
+      "neteaseTrackId": "21336018",
+      "title": "Another Hair Do",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 162640
+    },
+    {
+      "id": "netease-track:21336019",
+      "neteaseTrackId": "21336019",
+      "title": "Bluebird",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 176853
+    },
+    {
+      "id": "netease-track:21336020",
+      "neteaseTrackId": "21336020",
+      "title": "Bird Gets the Worm",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 181360
+    },
+    {
+      "id": "netease-track:21336021",
+      "neteaseTrackId": "21336021",
+      "title": "Buzzy",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 151346
+    },
+    {
+      "id": "netease-track:21336022",
+      "neteaseTrackId": "21336022",
+      "title": "Donna Lee",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 182700
+    },
+    {
+      "id": "netease-track:21336023",
+      "neteaseTrackId": "21336023",
+      "title": "Chasing the Bird",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 178480
+    },
+    {
+      "id": "netease-track:21336024",
+      "neteaseTrackId": "21336024",
+      "title": "Cheryl",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 181000
+    },
+    {
+      "id": "netease-track:21336025",
+      "neteaseTrackId": "21336025",
+      "title": "Now's the Time",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Charlie Parker's Reboppers"
+      ],
+      "durationMs": 196626
+    },
+    {
+      "id": "netease-track:21336026",
+      "neteaseTrackId": "21336026",
+      "title": "Billie's Bounce",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Charlie Parker's Reboppers"
+      ],
+      "durationMs": 190133
+    },
+    {
+      "id": "netease-track:21336027",
+      "neteaseTrackId": "21336027",
+      "title": "Night In Tunisia",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 185600
+    },
+    {
+      "id": "netease-track:21336028",
+      "neteaseTrackId": "21336028",
+      "title": "Ornithology",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 182493
+    },
+    {
+      "id": "netease-track:21336029",
+      "neteaseTrackId": "21336029",
+      "title": "Yardbird Suite",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 159000
+    },
+    {
+      "id": "netease-track:21336030",
+      "neteaseTrackId": "21336030",
+      "title": "Moose the Mooche",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:21336031",
+      "neteaseTrackId": "21336031",
+      "title": "Dexterity",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 181000
+    },
+    {
+      "id": "netease-track:21336032",
+      "neteaseTrackId": "21336032",
+      "title": "Scrapple from the Apple",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 177000
+    },
+    {
+      "id": "netease-track:21336033",
+      "neteaseTrackId": "21336033",
+      "title": "Klact Oveedseds Tene",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 186000
+    },
+    {
+      "id": "netease-track:21336034",
+      "neteaseTrackId": "21336034",
+      "title": "Crazeology",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 178040
+    },
+    {
+      "id": "netease-track:21336035",
+      "neteaseTrackId": "21336035",
+      "title": "Quasimado",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 176426
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=1970283",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Milestones (Giants of Jazz) Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "internalId": "album:38420",
+  "id": "album:38420",
+  "neteaseAlbumId": "38420",
+  "slug": "netease-album-38420",
+  "title": "你要的我都有",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:804159",
+      "neteaseArtistId": "804159",
+      "name": "阿力普"
+    },
+    {
+      "id": "netease-artist:13287",
+      "neteaseArtistId": "13287",
+      "name": "小熊饼干"
+    }
+  ],
+  "releaseDate": "2009-08-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38420.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/38420.webp",
+    "alt": "《你要的我都有》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:387837",
+      "neteaseTrackId": "387837",
+      "title": "Silence",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 260063
+    },
+    {
+      "id": "netease-track:387840",
+      "neteaseTrackId": "387840",
+      "title": "I Love Myself Used To Love You",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 344000
+    },
+    {
+      "id": "netease-track:387843",
+      "neteaseTrackId": "387843",
+      "title": "一个人看电影",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 286302
+    },
+    {
+      "id": "netease-track:387846",
+      "neteaseTrackId": "387846",
+      "title": "我们",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 252331
+    },
+    {
+      "id": "netease-track:387849",
+      "neteaseTrackId": "387849",
+      "title": "零柒年 (上半年)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 125968
+    },
+    {
+      "id": "netease-track:387851",
+      "neteaseTrackId": "387851",
+      "title": "零柒年 (下半年)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 225419
+    },
+    {
+      "id": "netease-track:387853",
+      "neteaseTrackId": "387853",
+      "title": "Prey",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 238770
+    },
+    {
+      "id": "netease-track:387854",
+      "neteaseTrackId": "387854",
+      "title": "Welcome to Pengshan",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 202083
+    },
+    {
+      "id": "netease-track:387856",
+      "neteaseTrackId": "387856",
+      "title": "Wahaha",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 172408
+    },
+    {
+      "id": "netease-track:387858",
+      "neteaseTrackId": "387858",
+      "title": "Hello,I Love You (Acoustic)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 212114
+    },
+    {
+      "id": "netease-track:387860",
+      "neteaseTrackId": "387860",
+      "title": "My Way (附赠曲目)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 329491
+    },
+    {
+      "id": "netease-track:387863",
+      "neteaseTrackId": "387863",
+      "title": "自生自灭 (附赠曲目)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 309080
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=38420",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "你要的我都有 阿力普 小熊饼干",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

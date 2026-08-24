@@ -1,0 +1,333 @@
+{
+  "internalId": "album:18929",
+  "id": "album:18929",
+  "neteaseAlbumId": "18929",
+  "slug": "netease-album-18929",
+  "title": "从开始到现在",
+  "aliases": [
+    "2002情歌大全集"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "2002-06-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "潮水音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18929.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18929.webp",
+    "alt": "《从开始到现在》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186260",
+      "neteaseTrackId": "186260",
+      "title": "从开始到现在 (电视剧场版)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 274960
+    },
+    {
+      "id": "netease-track:186262",
+      "neteaseTrackId": "186262",
+      "title": "不要回头....",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 17000
+    },
+    {
+      "id": "netease-track:186264",
+      "neteaseTrackId": "186264",
+      "title": "My Memory",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 254200
+    },
+    {
+      "id": "netease-track:186266",
+      "neteaseTrackId": "186266",
+      "title": "究竟",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:186267",
+      "neteaseTrackId": "186267",
+      "title": "宽容",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 318000
+    },
+    {
+      "id": "netease-track:186268",
+      "neteaseTrackId": "186268",
+      "title": "不要对他说",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291805
+    },
+    {
+      "id": "netease-track:186269",
+      "neteaseTrackId": "186269",
+      "title": "爱就一个字",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:186271",
+      "neteaseTrackId": "186271",
+      "title": "信仰",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 256000
+    },
+    {
+      "id": "netease-track:186273",
+      "neteaseTrackId": "186273",
+      "title": "直觉",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 331000
+    },
+    {
+      "id": "netease-track:186274",
+      "neteaseTrackId": "186274",
+      "title": "回来",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 283000
+    },
+    {
+      "id": "netease-track:186275",
+      "neteaseTrackId": "186275",
+      "title": "如果你愿意",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 308000
+    },
+    {
+      "id": "netease-track:186276",
+      "neteaseTrackId": "186276",
+      "title": "到处留情",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 213066
+    },
+    {
+      "id": "netease-track:186277",
+      "neteaseTrackId": "186277",
+      "title": "你是唯一",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "潘越云"
+      ],
+      "durationMs": 269249
+    },
+    {
+      "id": "netease-track:186279",
+      "neteaseTrackId": "186279",
+      "title": "从开始到现在",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 273467
+    },
+    {
+      "id": "netease-track:186281",
+      "neteaseTrackId": "186281",
+      "title": "My Memory",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 255000
+    },
+    {
+      "id": "netease-track:186283",
+      "neteaseTrackId": "186283",
+      "title": "过火",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 302333
+    },
+    {
+      "id": "netease-track:186285",
+      "neteaseTrackId": "186285",
+      "title": "太想爱你",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 290200
+    },
+    {
+      "id": "netease-track:186287",
+      "neteaseTrackId": "186287",
+      "title": "用情",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 311465
+    },
+    {
+      "id": "netease-track:186289",
+      "neteaseTrackId": "186289",
+      "title": "下雪边界",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 288360
+    },
+    {
+      "id": "netease-track:186291",
+      "neteaseTrackId": "186291",
+      "title": "多心",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 253654
+    },
+    {
+      "id": "netease-track:186293",
+      "neteaseTrackId": "186293",
+      "title": "爱情余味",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 299305
+    },
+    {
+      "id": "netease-track:186295",
+      "neteaseTrackId": "186295",
+      "title": "爱转动",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "庾澄庆"
+      ],
+      "durationMs": 267600
+    },
+    {
+      "id": "netease-track:186297",
+      "neteaseTrackId": "186297",
+      "title": "受罪",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 311542
+    },
+    {
+      "id": "netease-track:186299",
+      "neteaseTrackId": "186299",
+      "title": "心情卡片",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 279533
+    },
+    {
+      "id": "netease-track:186301",
+      "neteaseTrackId": "186301",
+      "title": "爱不留",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 287184
+    }
+  ],
+  "trackCount": 25,
+  "externalUrl": "https://music.163.com/#/album?id=18929",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "从开始到现在 2002情歌大全集 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

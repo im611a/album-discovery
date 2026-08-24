@@ -1,0 +1,165 @@
+{
+  "internalId": "album:29764",
+  "id": "album:29764",
+  "neteaseAlbumId": "29764",
+  "slug": "netease-album-29764",
+  "title": "天空",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1994-11-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29764.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29764.webp",
+    "alt": "《天空》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300333",
+      "neteaseTrackId": "300333",
+      "title": "天空",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 263160
+    },
+    {
+      "id": "netease-track:300336",
+      "neteaseTrackId": "300336",
+      "title": "棋子",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 286946
+    },
+    {
+      "id": "netease-track:300339",
+      "neteaseTrackId": "300339",
+      "title": "天使",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 263120
+    },
+    {
+      "id": "netease-track:300342",
+      "neteaseTrackId": "300342",
+      "title": "影子",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 294493
+    },
+    {
+      "id": "netease-track:300346",
+      "neteaseTrackId": "300346",
+      "title": "天空(Unplugged)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 216986
+    },
+    {
+      "id": "netease-track:300350",
+      "neteaseTrackId": "300350",
+      "title": "眷恋",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 238120
+    },
+    {
+      "id": "netease-track:300353",
+      "neteaseTrackId": "300353",
+      "title": "不变",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 285600
+    },
+    {
+      "id": "netease-track:300355",
+      "neteaseTrackId": "300355",
+      "title": "矜持",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 277986
+    },
+    {
+      "id": "netease-track:300357",
+      "neteaseTrackId": "300357",
+      "title": "挣脱",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 268200
+    },
+    {
+      "id": "netease-track:300360",
+      "neteaseTrackId": "300360",
+      "title": "誓言",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261506
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29764",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "天空 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

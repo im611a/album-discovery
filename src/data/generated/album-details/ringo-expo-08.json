@@ -1,0 +1,343 @@
+{
+  "internalId": "album:61561",
+  "id": "album:61561",
+  "neteaseAlbumId": "61561",
+  "slug": "ringo-expo-08",
+  "title": "Ringo Expo 08",
+  "aliases": [
+    "“(生)林檎博’08~10周年纪念祭~”"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:17635",
+      "neteaseArtistId": "17635",
+      "name": "椎名林檎"
+    }
+  ],
+  "releaseDate": "2009-03-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/61561.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/61561.webp",
+    "alt": "《Ringo Expo 08》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:641982",
+      "neteaseTrackId": "641982",
+      "title": "ハツコイ娼女 (Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 288000
+    },
+    {
+      "id": "netease-track:641984",
+      "neteaseTrackId": "641984",
+      "title": "シドと白昼夢 (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:641985",
+      "neteaseTrackId": "641985",
+      "title": "ここでキスして。 (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 270853
+    },
+    {
+      "id": "netease-track:641988",
+      "neteaseTrackId": "641988",
+      "title": "本能 (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 266000
+    },
+    {
+      "id": "netease-track:641989",
+      "neteaseTrackId": "641989",
+      "title": "ギャンブル (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 356649
+    },
+    {
+      "id": "netease-track:641991",
+      "neteaseTrackId": "641991",
+      "title": "宗教 (inst) (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:641993",
+      "neteaseTrackId": "641993",
+      "title": "ギブス (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 338946
+    },
+    {
+      "id": "netease-track:641995",
+      "neteaseTrackId": "641995",
+      "title": "闇に降る雨 (Live)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 306000
+    },
+    {
+      "id": "netease-track:641997",
+      "neteaseTrackId": "641997",
+      "title": "すべりだい (Live)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:642000",
+      "neteaseTrackId": "642000",
+      "title": "浴室 (Live)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:642002",
+      "neteaseTrackId": "642002",
+      "title": "錯乱 (Live)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:642003",
+      "neteaseTrackId": "642003",
+      "title": "罪と罰 (Live)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 319093
+    },
+    {
+      "id": "netease-track:642004",
+      "neteaseTrackId": "642004",
+      "title": "歌舞伎町の女王 (Live)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 199040
+    },
+    {
+      "id": "netease-track:642005",
+      "neteaseTrackId": "642005",
+      "title": "ブラックアウト (Live)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 277000
+    },
+    {
+      "id": "netease-track:642006",
+      "neteaseTrackId": "642006",
+      "title": "やつつけ仕事 (inst) (Live)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:642008",
+      "neteaseTrackId": "642008",
+      "title": "茎 STEM (Live)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 283000
+    },
+    {
+      "id": "netease-track:642009",
+      "neteaseTrackId": "642009",
+      "title": "この世の限り (Live)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 217000
+    },
+    {
+      "id": "netease-track:642010",
+      "neteaseTrackId": "642010",
+      "title": "玉葱のハッピーソング (Live)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 206000
+    },
+    {
+      "id": "netease-track:642011",
+      "neteaseTrackId": "642011",
+      "title": "夢のあと (Live)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 291000
+    },
+    {
+      "id": "netease-track:642013",
+      "neteaseTrackId": "642013",
+      "title": "積木遊び (Live)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 203600
+    },
+    {
+      "id": "netease-track:642016",
+      "neteaseTrackId": "642016",
+      "title": "御祭騒ぎ (Live)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 310000
+    },
+    {
+      "id": "netease-track:642019",
+      "neteaseTrackId": "642019",
+      "title": "カリソメ乙女 (Live)",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "SOIL & \"PIMP\" SESSIONS",
+        "椎名林檎"
+      ],
+      "durationMs": 187000
+    },
+    {
+      "id": "netease-track:642021",
+      "neteaseTrackId": "642021",
+      "title": "正しい街 (Live)",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 231200
+    },
+    {
+      "id": "netease-track:642023",
+      "neteaseTrackId": "642023",
+      "title": "幸福論 (Live)",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 173000
+    },
+    {
+      "id": "netease-track:642024",
+      "neteaseTrackId": "642024",
+      "title": "みかんの皮 (処女作) (Live)",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 18000
+    },
+    {
+      "id": "netease-track:642026",
+      "neteaseTrackId": "642026",
+      "title": "余興 (仮) (Live)",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 244840
+    }
+  ],
+  "trackCount": 26,
+  "externalUrl": "https://music.163.com/#/album?id=61561",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ringo Expo 08 “(生)林檎博’08~10周年纪念祭~” 椎名林檎",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

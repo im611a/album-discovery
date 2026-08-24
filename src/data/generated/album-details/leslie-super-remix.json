@@ -1,0 +1,100 @@
+{
+  "internalId": "album:18954",
+  "id": "album:18954",
+  "neteaseAlbumId": "18954",
+  "slug": "leslie-super-remix",
+  "title": "Leslie Super Remix",
+  "aliases": [
+    "张国荣 2005 香港情怀写真书珍藏版 随书附送 限量发行1000 份"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "2005-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18954.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18954.webp",
+    "alt": "《Leslie Super Remix》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186644",
+      "neteaseTrackId": "186644",
+      "title": "拒绝再玩(Play Again Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 317053
+    },
+    {
+      "id": "netease-track:186647",
+      "neteaseTrackId": "186647",
+      "title": "热辣辣(Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 301040
+    },
+    {
+      "id": "netease-track:186650",
+      "neteaseTrackId": "186650",
+      "title": "无心睡眠(Whoo-Oh-O Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 316626
+    },
+    {
+      "id": "netease-track:186654",
+      "neteaseTrackId": "186654",
+      "title": "爱的凶手(Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 331049
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=18954",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Leslie Super Remix 张国荣 2005 香港情怀写真书珍藏版 随书附送 限量发行1000 份 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

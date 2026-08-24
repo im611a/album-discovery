@@ -1,0 +1,98 @@
+{
+  "internalId": "album:64368",
+  "id": "album:64368",
+  "neteaseAlbumId": "64368",
+  "slug": "close-to-you",
+  "title": "Close To You",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "1998-01-15",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64368.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64368.webp",
+    "alt": "《Close To You》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:667343",
+      "neteaseTrackId": "667343",
+      "title": "クロース・トゥ・ユウ",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 280160
+    },
+    {
+      "id": "netease-track:667346",
+      "neteaseTrackId": "667346",
+      "title": "テイク・ア・リトル・ホワイル",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 232040
+    },
+    {
+      "id": "netease-track:667349",
+      "neteaseTrackId": "667349",
+      "title": "チケット・4・ツー",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 324466
+    },
+    {
+      "id": "netease-track:667352",
+      "neteaseTrackId": "667352",
+      "title": "プレシャス・ラヴ",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 322773
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=64368",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Close To You 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

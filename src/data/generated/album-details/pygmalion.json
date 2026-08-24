@@ -1,0 +1,285 @@
+{
+  "internalId": "album:1761254",
+  "id": "album:1761254",
+  "neteaseAlbumId": "1761254",
+  "slug": "pygmalion",
+  "title": "Pygmalion",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "name": "Slowdive"
+    }
+  ],
+  "releaseDate": "1995-02-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1761254.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1761254.webp",
+    "alt": "《Pygmalion》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19204379",
+      "neteaseTrackId": "19204379",
+      "title": "Rutti",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 606946
+    },
+    {
+      "id": "netease-track:19204380",
+      "neteaseTrackId": "19204380",
+      "title": "Crazy for You",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 361279
+    },
+    {
+      "id": "netease-track:19204381",
+      "neteaseTrackId": "19204381",
+      "title": "Miranda",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 289529
+    },
+    {
+      "id": "netease-track:19204382",
+      "neteaseTrackId": "19204382",
+      "title": "Trellisaze",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 378647
+    },
+    {
+      "id": "netease-track:19204383",
+      "neteaseTrackId": "19204383",
+      "title": "Cello",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 93808
+    },
+    {
+      "id": "netease-track:19204384",
+      "neteaseTrackId": "19204384",
+      "title": "J's Heaven",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 406000
+    },
+    {
+      "id": "netease-track:19204385",
+      "neteaseTrackId": "19204385",
+      "title": "Visions Of LA",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 106881
+    },
+    {
+      "id": "netease-track:19204386",
+      "neteaseTrackId": "19204386",
+      "title": "Blue Skied An' Clear",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 414476
+    },
+    {
+      "id": "netease-track:19204387",
+      "neteaseTrackId": "19204387",
+      "title": "All Of Us",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 250334
+    },
+    {
+      "id": "netease-track:482093807",
+      "neteaseTrackId": "482093807",
+      "title": "Miranda (Demo Version)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 229691
+    },
+    {
+      "id": "netease-track:482093808",
+      "neteaseTrackId": "482093808",
+      "title": "Watch Me (Demo Version)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 229436
+    },
+    {
+      "id": "netease-track:482093809",
+      "neteaseTrackId": "482093809",
+      "title": "Yesterday (Demo Version)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 264243
+    },
+    {
+      "id": "netease-track:482093810",
+      "neteaseTrackId": "482093810",
+      "title": "To Watch (Demo Version)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 355985
+    },
+    {
+      "id": "netease-track:482093811",
+      "neteaseTrackId": "482093811",
+      "title": "Option One (Instrumental #1) (Demo Version)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 234173
+    },
+    {
+      "id": "netease-track:482093812",
+      "neteaseTrackId": "482093812",
+      "title": "Carfo (Demo Version)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 267888
+    },
+    {
+      "id": "netease-track:482093813",
+      "neteaseTrackId": "482093813",
+      "title": "Sinewaves (Demo Version)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 315814
+    },
+    {
+      "id": "netease-track:482093814",
+      "neteaseTrackId": "482093814",
+      "title": "Ambient Guitar (Demo Version)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 350667
+    },
+    {
+      "id": "netease-track:482093815",
+      "neteaseTrackId": "482093815",
+      "title": "Crazy for You (Alternative Version (Demo Version))",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 280685
+    },
+    {
+      "id": "netease-track:482093816",
+      "neteaseTrackId": "482093816",
+      "title": "Krautruck (Demo Version)",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 308639
+    },
+    {
+      "id": "netease-track:482093817",
+      "neteaseTrackId": "482093817",
+      "title": "Changes (Demo Version)",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 294916
+    },
+    {
+      "id": "netease-track:482093818",
+      "neteaseTrackId": "482093818",
+      "title": "Red Five (Demo Version)",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 367943
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=1761254",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Pygmalion Slowdive",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

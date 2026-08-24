@@ -1,0 +1,150 @@
+{
+  "internalId": "album:173540",
+  "id": "album:173540",
+  "neteaseAlbumId": "173540",
+  "slug": "shame",
+  "title": "Shame",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38940",
+      "neteaseArtistId": "38940",
+      "name": "Madlib"
+    }
+  ],
+  "releaseDate": "2012-07-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/173540.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/173540.webp",
+    "alt": "《Shame》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1713497",
+      "neteaseTrackId": "1713497",
+      "title": "Shame",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Freddie Gibbs",
+        "Madlib"
+      ],
+      "durationMs": 185000
+    },
+    {
+      "id": "netease-track:1713500",
+      "neteaseTrackId": "1713500",
+      "title": "Shame (Instrumental)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Freddie Gibbs"
+      ],
+      "durationMs": 185411
+    },
+    {
+      "id": "netease-track:1713503",
+      "neteaseTrackId": "1713503",
+      "title": "Later That Night (Bonus Beat)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Freddie Gibbs",
+        "Madlib"
+      ],
+      "durationMs": 94666
+    },
+    {
+      "id": "netease-track:1713506",
+      "neteaseTrackId": "1713506",
+      "title": "Shame (Acapella)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Freddie Gibbs",
+        "Madlib"
+      ],
+      "durationMs": 178000
+    },
+    {
+      "id": "netease-track:1713510",
+      "neteaseTrackId": "1713510",
+      "title": "Terrorist",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Freddie Gibbs",
+        "Madlib"
+      ],
+      "durationMs": 73173
+    },
+    {
+      "id": "netease-track:1713513",
+      "neteaseTrackId": "1713513",
+      "title": "Terrorist (Instrumental)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Freddie Gibbs",
+        "Madlib"
+      ],
+      "durationMs": 72973
+    },
+    {
+      "id": "netease-track:1713515",
+      "neteaseTrackId": "1713515",
+      "title": "The Morning After (Bonus Beat)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Freddie Gibbs",
+        "Madlib"
+      ],
+      "durationMs": 58880
+    },
+    {
+      "id": "netease-track:1713517",
+      "neteaseTrackId": "1713517",
+      "title": "Terrorist (Acapella)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Freddie Gibbs",
+        "Madlib"
+      ],
+      "durationMs": 75023
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=173540",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Shame Madlib",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

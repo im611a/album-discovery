@@ -1,0 +1,175 @@
+{
+  "internalId": "album:184255",
+  "id": "album:184255",
+  "neteaseAlbumId": "184255",
+  "slug": "chaos-and-disorder",
+  "title": "Chaos and Disorder",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "1996-07-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184255.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184255.webp",
+    "alt": "《Chaos and Disorder》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1823563",
+      "neteaseTrackId": "1823563",
+      "title": "Chaos and Disorder",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 259506
+    },
+    {
+      "id": "netease-track:1823566",
+      "neteaseTrackId": "1823566",
+      "title": "I Like It There",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 195813
+    },
+    {
+      "id": "netease-track:1823569",
+      "neteaseTrackId": "1823569",
+      "title": "Dinner with Delores",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 166161
+    },
+    {
+      "id": "netease-track:1823572",
+      "neteaseTrackId": "1823572",
+      "title": "The Same December",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 204173
+    },
+    {
+      "id": "netease-track:1823576",
+      "neteaseTrackId": "1823576",
+      "title": "Right the Wrong",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 279568
+    },
+    {
+      "id": "netease-track:1823580",
+      "neteaseTrackId": "1823580",
+      "title": "Zannalee",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 163866
+    },
+    {
+      "id": "netease-track:1823584",
+      "neteaseTrackId": "1823584",
+      "title": "I Rock, Therefore I Am",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 375164
+    },
+    {
+      "id": "netease-track:1823588",
+      "neteaseTrackId": "1823588",
+      "title": "Into the Light",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 166301
+    },
+    {
+      "id": "netease-track:1823592",
+      "neteaseTrackId": "1823592",
+      "title": "I Will",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 217083
+    },
+    {
+      "id": "netease-track:1823596",
+      "neteaseTrackId": "1823596",
+      "title": "Dig U Better Dead",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 240024
+    },
+    {
+      "id": "netease-track:1823600",
+      "neteaseTrackId": "1823600",
+      "title": "Had U",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 89443
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=184255",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Chaos and Disorder Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

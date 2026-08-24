@@ -1,0 +1,230 @@
+{
+  "internalId": "album:47857",
+  "id": "album:47857",
+  "neteaseAlbumId": "47857",
+  "slug": "coda",
+  "title": "Coda",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1983-12-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47857.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47857.webp",
+    "alt": "《Coda》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:502559",
+      "neteaseTrackId": "502559",
+      "title": "Merry Christmas Mr.Lawrence",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 288533
+    },
+    {
+      "id": "netease-track:502563",
+      "neteaseTrackId": "502563",
+      "title": "Batavia",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 50000
+    },
+    {
+      "id": "netease-track:502567",
+      "neteaseTrackId": "502567",
+      "title": "Germination",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 129093
+    },
+    {
+      "id": "netease-track:502570",
+      "neteaseTrackId": "502570",
+      "title": "A Hearty Breakfast",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 78901
+    },
+    {
+      "id": "netease-track:502572",
+      "neteaseTrackId": "502572",
+      "title": "Before the War",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 104443
+    },
+    {
+      "id": "netease-track:502574",
+      "neteaseTrackId": "502574",
+      "title": "The Seed And the Sower",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 235148
+    },
+    {
+      "id": "netease-track:502577",
+      "neteaseTrackId": "502577",
+      "title": "A Brief Encounter",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 143000
+    },
+    {
+      "id": "netease-track:502580",
+      "neteaseTrackId": "502580",
+      "title": "Ride Ride Ride",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 62090
+    },
+    {
+      "id": "netease-track:502584",
+      "neteaseTrackId": "502584",
+      "title": "The Fight",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 80000
+    },
+    {
+      "id": "netease-track:502587",
+      "neteaseTrackId": "502587",
+      "title": "Dismissed!/Assembly",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 110000
+    },
+    {
+      "id": "netease-track:502590",
+      "neteaseTrackId": "502590",
+      "title": "Beyond Reason",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 86122
+    },
+    {
+      "id": "netease-track:502593",
+      "neteaseTrackId": "502593",
+      "title": "Sowing the Seed",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 91834
+    },
+    {
+      "id": "netease-track:502596",
+      "neteaseTrackId": "502596",
+      "title": "Last Regrets",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 125026
+    },
+    {
+      "id": "netease-track:502600",
+      "neteaseTrackId": "502600",
+      "title": "The Seed",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 66571
+    },
+    {
+      "id": "netease-track:502604",
+      "neteaseTrackId": "502604",
+      "title": "Japan",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 178000
+    },
+    {
+      "id": "netease-track:502608",
+      "neteaseTrackId": "502608",
+      "title": "Coda",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 330000
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=47857",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Coda 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

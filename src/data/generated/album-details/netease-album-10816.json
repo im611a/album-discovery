@@ -1,0 +1,164 @@
+{
+  "internalId": "album:10816",
+  "id": "album:10816",
+  "neteaseAlbumId": "10816",
+  "slug": "netease-album-10816",
+  "title": "这一路走来",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2005-09-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10816.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10816.webp",
+    "alt": "《这一路走来》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109076",
+      "neteaseTrackId": "109076",
+      "title": "我和泡面",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 187196
+    },
+    {
+      "id": "netease-track:109078",
+      "neteaseTrackId": "109078",
+      "title": "一和二",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 165466
+    },
+    {
+      "id": "netease-track:109080",
+      "neteaseTrackId": "109080",
+      "title": "趁着天还未亮",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 185306
+    },
+    {
+      "id": "netease-track:109082",
+      "neteaseTrackId": "109082",
+      "title": "离开是为了回来",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 237714
+    },
+    {
+      "id": "netease-track:109084",
+      "neteaseTrackId": "109084",
+      "title": "离开古城",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 238440
+    },
+    {
+      "id": "netease-track:109087",
+      "neteaseTrackId": "109087",
+      "title": "重回布拉格",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 225493
+    },
+    {
+      "id": "netease-track:109090",
+      "neteaseTrackId": "109090",
+      "title": "一根烟的时间",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 244506
+    },
+    {
+      "id": "netease-track:109093",
+      "neteaseTrackId": "109093",
+      "title": "State of mind",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 177493
+    },
+    {
+      "id": "netease-track:109096",
+      "neteaseTrackId": "109096",
+      "title": "时间河",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 184506
+    },
+    {
+      "id": "netease-track:109098",
+      "neteaseTrackId": "109098",
+      "title": "The Best is Yet to Come",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 169173
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=10816",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "这一路走来 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

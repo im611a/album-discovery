@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1969745",
+  "id": "album:1969745",
+  "neteaseAlbumId": "1969745",
+  "slug": "friday-saturday-night-at-the-black-hawk",
+  "title": "Friday & Saturday Night At The Black Hawk",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2012-07-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Not Now Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969745.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969745.webp",
+    "alt": "《Friday & Saturday Night At The Black Hawk》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21326990",
+      "neteaseTrackId": "21326990",
+      "title": "Walkin'",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 861000
+    },
+    {
+      "id": "netease-track:21326991",
+      "neteaseTrackId": "21326991",
+      "title": "Bye Bye Blackbird",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 594000
+    },
+    {
+      "id": "netease-track:21326992",
+      "neteaseTrackId": "21326992",
+      "title": "All Of You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 941000
+    },
+    {
+      "id": "netease-track:21326993",
+      "neteaseTrackId": "21326993",
+      "title": "No Blues",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 533506
+    },
+    {
+      "id": "netease-track:21326994",
+      "neteaseTrackId": "21326994",
+      "title": "Bye Bye / The Theme",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 161000
+    },
+    {
+      "id": "netease-track:21326995",
+      "neteaseTrackId": "21326995",
+      "title": "Love, I've Found You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 115000
+    },
+    {
+      "id": "netease-track:21326996",
+      "neteaseTrackId": "21326996",
+      "title": "Well, You Needn't",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 496000
+    },
+    {
+      "id": "netease-track:21326997",
+      "neteaseTrackId": "21326997",
+      "title": "Fran-Dance",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 458000
+    },
+    {
+      "id": "netease-track:21326998",
+      "neteaseTrackId": "21326998",
+      "title": "So What",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 759000
+    },
+    {
+      "id": "netease-track:21326999",
+      "neteaseTrackId": "21326999",
+      "title": "Oleo",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 320000
+    },
+    {
+      "id": "netease-track:21327000",
+      "neteaseTrackId": "21327000",
+      "title": "If I Were A Bell",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 660000
+    },
+    {
+      "id": "netease-track:21327001",
+      "neteaseTrackId": "21327001",
+      "title": "Neo",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 758173
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1969745",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Friday & Saturday Night At The Black Hawk Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

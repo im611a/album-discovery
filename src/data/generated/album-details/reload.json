@@ -1,0 +1,198 @@
+{
+  "internalId": "album:1956860",
+  "id": "album:1956860",
+  "neteaseAlbumId": "1956860",
+  "slug": "reload",
+  "title": "Reload",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1997-11-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Blackened Recordings / Universal Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956860.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956860.webp",
+    "alt": "《Reload》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162416",
+      "neteaseTrackId": "21162416",
+      "title": "Fuel",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 269800
+    },
+    {
+      "id": "netease-track:21162417",
+      "neteaseTrackId": "21162417",
+      "title": "The Memory Remains",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica",
+        "Marianne Faithfull"
+      ],
+      "durationMs": 279173
+    },
+    {
+      "id": "netease-track:21162418",
+      "neteaseTrackId": "21162418",
+      "title": "Devil's Dance",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 318960
+    },
+    {
+      "id": "netease-track:21162419",
+      "neteaseTrackId": "21162419",
+      "title": "The Unforgiven II",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 396440
+    },
+    {
+      "id": "netease-track:21162420",
+      "neteaseTrackId": "21162420",
+      "title": "Better than You",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 321600
+    },
+    {
+      "id": "netease-track:21162421",
+      "neteaseTrackId": "21162421",
+      "title": "Slither",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 313200
+    },
+    {
+      "id": "netease-track:21162422",
+      "neteaseTrackId": "21162422",
+      "title": "Carpe Diem Baby",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 372200
+    },
+    {
+      "id": "netease-track:21162423",
+      "neteaseTrackId": "21162423",
+      "title": "Bad Seed",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 245333
+    },
+    {
+      "id": "netease-track:21162424",
+      "neteaseTrackId": "21162424",
+      "title": "Where the Wild Things Are",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 412960
+    },
+    {
+      "id": "netease-track:21162425",
+      "neteaseTrackId": "21162425",
+      "title": "Prince Charming",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 365093
+    },
+    {
+      "id": "netease-track:21162426",
+      "neteaseTrackId": "21162426",
+      "title": "Low Man's Lyric",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 456226
+    },
+    {
+      "id": "netease-track:21162427",
+      "neteaseTrackId": "21162427",
+      "title": "Attitude",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 316533
+    },
+    {
+      "id": "netease-track:21162428",
+      "neteaseTrackId": "21162428",
+      "title": "Fixxxer",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 494773
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1956860",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Reload Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

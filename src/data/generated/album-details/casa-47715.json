@@ -1,0 +1,252 @@
+{
+  "internalId": "album:47715",
+  "id": "album:47715",
+  "neteaseAlbumId": "47715",
+  "slug": "casa-47715",
+  "title": "Casa",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2002-08-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KAB America, Inc.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47715.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47715.webp",
+    "alt": "《Casa》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:499832",
+      "neteaseTrackId": "499832",
+      "title": "As Praias Desertas",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 230426
+    },
+    {
+      "id": "netease-track:499835",
+      "neteaseTrackId": "499835",
+      "title": "O Amor Em Paz",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 231133
+    },
+    {
+      "id": "netease-track:499839",
+      "neteaseTrackId": "499839",
+      "title": "Vivo Sonhando - Dreamer",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 270800
+    },
+    {
+      "id": "netease-track:499843",
+      "neteaseTrackId": "499843",
+      "title": "Inútil Paisagem",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 269906
+    },
+    {
+      "id": "netease-track:499848",
+      "neteaseTrackId": "499848",
+      "title": "Sabiá",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 229733
+    },
+    {
+      "id": "netease-track:499853",
+      "neteaseTrackId": "499853",
+      "title": "Chanson Pour Michele",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 190760
+    },
+    {
+      "id": "netease-track:499859",
+      "neteaseTrackId": "499859",
+      "title": "Bonita",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:499865",
+      "neteaseTrackId": "499865",
+      "title": "Fotografia - Photograph",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 258173
+    },
+    {
+      "id": "netease-track:499870",
+      "neteaseTrackId": "499870",
+      "title": "Imagina",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 138066
+    },
+    {
+      "id": "netease-track:499875",
+      "neteaseTrackId": "499875",
+      "title": "Estrada Branca",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 242666
+    },
+    {
+      "id": "netease-track:499880",
+      "neteaseTrackId": "499880",
+      "title": "O Grande Amor",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 270293
+    },
+    {
+      "id": "netease-track:499886",
+      "neteaseTrackId": "499886",
+      "title": "Cançao Em Modo Menor",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 120973
+    },
+    {
+      "id": "netease-track:499892",
+      "neteaseTrackId": "499892",
+      "title": "Tema Para Ana",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 127133
+    },
+    {
+      "id": "netease-track:499898",
+      "neteaseTrackId": "499898",
+      "title": "Derradeira Primavera",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 141093
+    },
+    {
+      "id": "netease-track:499903",
+      "neteaseTrackId": "499903",
+      "title": "Esperança Perdida - I Was Just One More For You",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 244600
+    },
+    {
+      "id": "netease-track:499907",
+      "neteaseTrackId": "499907",
+      "title": "Sem Você (Album Version)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 307773
+    },
+    {
+      "id": "netease-track:499911",
+      "neteaseTrackId": "499911",
+      "title": "Samba Do Avião (Live)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 337733
+    },
+    {
+      "id": "netease-track:499915",
+      "neteaseTrackId": "499915",
+      "title": "Improvisation (Live)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 430960
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=47715",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Casa 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

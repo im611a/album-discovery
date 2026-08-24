@@ -1,0 +1,109 @@
+{
+  "internalId": "album:29560",
+  "id": "album:29560",
+  "neteaseAlbumId": "29560",
+  "slug": "netease-album-29560",
+  "title": "生活练习曲",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9609",
+      "neteaseArtistId": "9609",
+      "name": "魏如萱"
+    }
+  ],
+  "releaseDate": "2007-10-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29560.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29560.webp",
+    "alt": "《生活练习曲》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297817",
+      "neteaseTrackId": "297817",
+      "title": "啦啦啦啦 (Demo)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 166321
+    },
+    {
+      "id": "netease-track:297819",
+      "neteaseTrackId": "297819",
+      "title": "一起去旅行 (Demo)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 223293
+    },
+    {
+      "id": "netease-track:297821",
+      "neteaseTrackId": "297821",
+      "title": "世界末日的某个角落 (Demo)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 272901
+    },
+    {
+      "id": "netease-track:297823",
+      "neteaseTrackId": "297823",
+      "title": "Sous Les Branches",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 59715
+    },
+    {
+      "id": "netease-track:297825",
+      "neteaseTrackId": "297825",
+      "title": "En Chantant",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 205986
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=29560",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "生活练习曲 魏如萱",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

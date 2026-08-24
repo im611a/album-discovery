@@ -1,0 +1,189 @@
+{
+  "internalId": "album:19070",
+  "id": "album:19070",
+  "neteaseAlbumId": "19070",
+  "slug": "netease-album-19070",
+  "title": "风再起时",
+  "aliases": [
+    "张国荣告别歌坛纪念专辑"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1990-06-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19070.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19070.webp",
+    "alt": "《风再起时》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188348",
+      "neteaseTrackId": "188348",
+      "title": "风再起时(粤)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 270800
+    },
+    {
+      "id": "netease-track:188350",
+      "neteaseTrackId": "188350",
+      "title": "拒绝再玩",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 214200
+    },
+    {
+      "id": "netease-track:188352",
+      "neteaseTrackId": "188352",
+      "title": "天使之爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248400
+    },
+    {
+      "id": "netease-track:188355",
+      "neteaseTrackId": "188355",
+      "title": "共同渡过",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 267000
+    },
+    {
+      "id": "netease-track:188358",
+      "neteaseTrackId": "188358",
+      "title": "守住风口",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 199333
+    },
+    {
+      "id": "netease-track:188361",
+      "neteaseTrackId": "188361",
+      "title": "胭脂扣(粤)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 154866
+    },
+    {
+      "id": "netease-track:188364",
+      "neteaseTrackId": "188364",
+      "title": "倩女幽魂",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217533
+    },
+    {
+      "id": "netease-track:188368",
+      "neteaseTrackId": "188368",
+      "title": "兜风心情",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "柏安妮"
+      ],
+      "durationMs": 244266
+    },
+    {
+      "id": "netease-track:188373",
+      "neteaseTrackId": "188373",
+      "title": "为你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 292933
+    },
+    {
+      "id": "netease-track:188377",
+      "neteaseTrackId": "188377",
+      "title": "无心睡眠(粤)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 192573
+    },
+    {
+      "id": "netease-track:188381",
+      "neteaseTrackId": "188381",
+      "title": "透明的你",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 231960
+    },
+    {
+      "id": "netease-track:188385",
+      "neteaseTrackId": "188385",
+      "title": "童年时(粤)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 228960
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=19070",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "风再起时 张国荣告别歌坛纪念专辑 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

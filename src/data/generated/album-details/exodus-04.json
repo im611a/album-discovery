@@ -1,0 +1,164 @@
+{
+  "internalId": "album:64279",
+  "id": "album:64279",
+  "neteaseAlbumId": "64279",
+  "slug": "exodus-04",
+  "title": "Exodus'04",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2005-06-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Island",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64279.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64279.webp",
+    "alt": "《Exodus'04》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666639",
+      "neteaseTrackId": "666639",
+      "title": "Exodus '04 (Double J Radio Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 223040
+    },
+    {
+      "id": "netease-track:666642",
+      "neteaseTrackId": "666642",
+      "title": "Exodus '04 (Josh Harris' Elektrik Radio)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 206200
+    },
+    {
+      "id": "netease-track:666647",
+      "neteaseTrackId": "666647",
+      "title": "Exodus '04 (Josh Harris vs. The MPC Radio)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 223360
+    },
+    {
+      "id": "netease-track:666651",
+      "neteaseTrackId": "666651",
+      "title": "Exodus '04 (Josh Harris' Exodus Experience)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 255440
+    },
+    {
+      "id": "netease-track:666655",
+      "neteaseTrackId": "666655",
+      "title": "Exodus '04 (Double J Extended Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 223040
+    },
+    {
+      "id": "netease-track:666659",
+      "neteaseTrackId": "666659",
+      "title": "Exodus '04 (Peter Bailey Dub)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 464000
+    },
+    {
+      "id": "netease-track:666663",
+      "neteaseTrackId": "666663",
+      "title": "Exodus '04 (JJ Flores Dub #1)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 333520
+    },
+    {
+      "id": "netease-track:666667",
+      "neteaseTrackId": "666667",
+      "title": "Exodus '04 (Kriya vs. Velez Progressive Trance Mix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 393866
+    },
+    {
+      "id": "netease-track:666670",
+      "neteaseTrackId": "666670",
+      "title": "Exodus '04 (Kriya vs. Velez Electro House Mix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 410920
+    },
+    {
+      "id": "netease-track:666673",
+      "neteaseTrackId": "666673",
+      "title": "Exodus '04 (JJ Flores Dub #2)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 431800
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=64279",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Exodus'04 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "internalId": "album:222209",
+  "id": "album:222209",
+  "neteaseAlbumId": "222209",
+  "slug": "version-2-version-a-dub-transmission",
+  "title": "Version 2 Version: A Dub Transmission",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2004-09-20",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "ROIR",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222209.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222209.webp",
+    "alt": "《Version 2 Version: A Dub Transmission》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205452",
+      "neteaseTrackId": "2205452",
+      "title": "Dystopia",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 583120
+    },
+    {
+      "id": "netease-track:2205454",
+      "neteaseTrackId": "2205454",
+      "title": "Simulacra",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 537226
+    },
+    {
+      "id": "netease-track:2205456",
+      "neteaseTrackId": "2205456",
+      "title": "Space-Time Paradox",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 378760
+    },
+    {
+      "id": "netease-track:2205458",
+      "neteaseTrackId": "2205458",
+      "title": "Babylon Site",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 523600
+    },
+    {
+      "id": "netease-track:2205460",
+      "neteaseTrackId": "2205460",
+      "title": "Night City",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 535453
+    },
+    {
+      "id": "netease-track:2205462",
+      "neteaseTrackId": "2205462",
+      "title": "System Malfunction",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 519266
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=222209",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Version 2 Version: A Dub Transmission Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

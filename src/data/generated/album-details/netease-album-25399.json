@@ -1,0 +1,176 @@
+{
+  "internalId": "album:25399",
+  "id": "album:25399",
+  "neteaseAlbumId": "25399",
+  "slug": "netease-album-25399",
+  "title": "我很好",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2008-01-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25399.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25399.webp",
+    "alt": "《我很好》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254204",
+      "neteaseTrackId": "254204",
+      "title": "我很好",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 272560
+    },
+    {
+      "id": "netease-track:254206",
+      "neteaseTrackId": "254206",
+      "title": "熊",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 238453
+    },
+    {
+      "id": "netease-track:254208",
+      "neteaseTrackId": "254208",
+      "title": "落跑新娘",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 231146
+    },
+    {
+      "id": "netease-track:254211",
+      "neteaseTrackId": "254211",
+      "title": "给你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 247293
+    },
+    {
+      "id": "netease-track:254214",
+      "neteaseTrackId": "254214",
+      "title": "还是一样",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 248453
+    },
+    {
+      "id": "netease-track:254216",
+      "neteaseTrackId": "254216",
+      "title": "栀子花",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 227546
+    },
+    {
+      "id": "netease-track:254218",
+      "neteaseTrackId": "254218",
+      "title": "静静坐着",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 281680
+    },
+    {
+      "id": "netease-track:254221",
+      "neteaseTrackId": "254221",
+      "title": "口香糖",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 281626
+    },
+    {
+      "id": "netease-track:254223",
+      "neteaseTrackId": "254223",
+      "title": "12月3日，北京",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 316800
+    },
+    {
+      "id": "netease-track:254225",
+      "neteaseTrackId": "254225",
+      "title": "训练",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 234053
+    },
+    {
+      "id": "netease-track:254227",
+      "neteaseTrackId": "254227",
+      "title": "不能跟情人说的话",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "范玮琪"
+      ],
+      "durationMs": 256013
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=25399",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我很好 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

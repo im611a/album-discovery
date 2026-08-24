@@ -1,0 +1,155 @@
+{
+  "internalId": "album:30167",
+  "id": "album:30167",
+  "neteaseAlbumId": "30167",
+  "slug": "netease-album-30167",
+  "title": "命运",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9749",
+      "neteaseArtistId": "9749",
+      "name": "王虹"
+    }
+  ],
+  "releaseDate": "1990-08-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/30167.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/30167.webp",
+    "alt": "《命运》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:304604",
+      "neteaseTrackId": "304604",
+      "title": "命运",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 269893
+    },
+    {
+      "id": "netease-track:304605",
+      "neteaseTrackId": "304605",
+      "title": "你我的家",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王虹",
+        "刘家昌"
+      ],
+      "durationMs": 198134
+    },
+    {
+      "id": "netease-track:304606",
+      "neteaseTrackId": "304606",
+      "title": "童年小雨",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 224862
+    },
+    {
+      "id": "netease-track:304607",
+      "neteaseTrackId": "304607",
+      "title": "热血颂",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王虹",
+        "徐良"
+      ],
+      "durationMs": 294200
+    },
+    {
+      "id": "netease-track:304608",
+      "neteaseTrackId": "304608",
+      "title": "野花上的泪",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 171333
+    },
+    {
+      "id": "netease-track:304609",
+      "neteaseTrackId": "304609",
+      "title": "香云空姐",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:304610",
+      "neteaseTrackId": "304610",
+      "title": "草地露水",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 231960
+    },
+    {
+      "id": "netease-track:304611",
+      "neteaseTrackId": "304611",
+      "title": "空叹",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 202640
+    },
+    {
+      "id": "netease-track:304612",
+      "neteaseTrackId": "304612",
+      "title": "仙境",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 179000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=30167",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "命运 王虹",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

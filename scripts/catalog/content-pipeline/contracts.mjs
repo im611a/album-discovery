@@ -15,6 +15,8 @@ export const DISPOSITION = Object.freeze({
   ERROR: "ERROR",
   FATAL: "FATAL",
   IMPORTED: "IMPORTED",
+  REJECTED_BY_REVIEW: "REJECTED_BY_REVIEW",
+  QUARANTINED: "QUARANTINED",
 });
 
 export const ARTIST_STATE = Object.freeze({

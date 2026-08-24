@@ -1,0 +1,311 @@
+{
+  "internalId": "album:1757610",
+  "id": "album:1757610",
+  "neteaseAlbumId": "1757610",
+  "slug": "pure-phase",
+  "title": "Pure Phase",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "1995-03-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1757610.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1757610.webp",
+    "alt": "《Pure Phase》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19169394",
+      "neteaseTrackId": "19169394",
+      "title": "Medication",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 496349
+    },
+    {
+      "id": "netease-track:19169395",
+      "neteaseTrackId": "19169395",
+      "title": "The Slide Song",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 232315
+    },
+    {
+      "id": "netease-track:19169396",
+      "neteaseTrackId": "19169396",
+      "title": "Electric Phase",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 93808
+    },
+    {
+      "id": "netease-track:19169397",
+      "neteaseTrackId": "19169397",
+      "title": "All Of My Tears",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 190171
+    },
+    {
+      "id": "netease-track:19169398",
+      "neteaseTrackId": "19169398",
+      "title": "These Blues",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 184691
+    },
+    {
+      "id": "netease-track:19169399",
+      "neteaseTrackId": "19169399",
+      "title": "Let It Flow",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 330048
+    },
+    {
+      "id": "netease-track:19169400",
+      "neteaseTrackId": "19169400",
+      "title": "Take Good Care of It",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 276758
+    },
+    {
+      "id": "netease-track:19169401",
+      "neteaseTrackId": "19169401",
+      "title": "Born Never Asked",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 125200
+    },
+    {
+      "id": "netease-track:19169402",
+      "neteaseTrackId": "19169402",
+      "title": "Electric Mainline",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 460010
+    },
+    {
+      "id": "netease-track:19169403",
+      "neteaseTrackId": "19169403",
+      "title": "Lay Back In The Sun",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 309106
+    },
+    {
+      "id": "netease-track:19169404",
+      "neteaseTrackId": "19169404",
+      "title": "Good Times",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 293877
+    },
+    {
+      "id": "netease-track:19169405",
+      "neteaseTrackId": "19169405",
+      "title": "Pure Phase",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet"
+      ],
+      "durationMs": 379768
+    },
+    {
+      "id": "netease-track:19169406",
+      "neteaseTrackId": "19169406",
+      "title": "Spread Your Wings",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 377129
+    },
+    {
+      "id": "netease-track:19169407",
+      "neteaseTrackId": "19169407",
+      "title": "Feel Like Goin' Home",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Rico",
+        "Monica",
+        "Dulcimer",
+        "Jason",
+        "Tremeloes",
+        "Drones",
+        "Tam Tam",
+        "Balanescu Quartet",
+        "Spiritualized"
+      ],
+      "durationMs": 334854
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=1757610",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Pure Phase Spiritualized",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

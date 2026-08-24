@@ -258,8 +258,8 @@ describe("R13 real-catalog discovery audit", () => {
     };
 
     expect(audit).toMatchObject({
-      albumsEvaluated: 357,
-      albumsWithCandidates: 357,
+      albumsEvaluated: 1_330,
+      albumsWithCandidates: 1_330,
       albumsWithNoContinuation: 0,
       immediateReversalPossibilities: 0,
       duplicatePrimaryTargets: 0,
@@ -283,5 +283,5 @@ describe("R13 real-catalog discovery audit", () => {
       avoidableSameEraRepetitions: 0,
     });
     expect(goldenCases).toHaveLength(RELATIONS.length);
-  }, 20_000);
+  }, 120_000);
 });

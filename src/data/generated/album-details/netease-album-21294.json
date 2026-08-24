@@ -1,0 +1,164 @@
+{
+  "internalId": "album:21294",
+  "id": "album:21294",
+  "neteaseAlbumId": "21294",
+  "slug": "netease-album-21294",
+  "title": "Tanya 蔡健雅",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "1999-01-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Taiwan",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21294.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21294.webp",
+    "alt": "《Tanya 蔡健雅》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209317",
+      "neteaseTrackId": "209317",
+      "title": "好无聊",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 223457
+    },
+    {
+      "id": "netease-track:209319",
+      "neteaseTrackId": "209319",
+      "title": "呼吸",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 295412
+    },
+    {
+      "id": "netease-track:209321",
+      "neteaseTrackId": "209321",
+      "title": "你快走开",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 304661
+    },
+    {
+      "id": "netease-track:209323",
+      "neteaseTrackId": "209323",
+      "title": "与你无关",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 187920
+    },
+    {
+      "id": "netease-track:209325",
+      "neteaseTrackId": "209325",
+      "title": "无所谓",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 299521
+    },
+    {
+      "id": "netease-track:209328",
+      "neteaseTrackId": "209328",
+      "title": "余兴节目",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 264348
+    },
+    {
+      "id": "netease-track:209331",
+      "neteaseTrackId": "209331",
+      "title": "最后一个烦恼",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 330347
+    },
+    {
+      "id": "netease-track:209332",
+      "neteaseTrackId": "209332",
+      "title": "想你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 256491
+    },
+    {
+      "id": "netease-track:209333",
+      "neteaseTrackId": "209333",
+      "title": "影子",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 244943
+    },
+    {
+      "id": "netease-track:209334",
+      "neteaseTrackId": "209334",
+      "title": "靠边停",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 214625
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=21294",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Tanya 蔡健雅 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

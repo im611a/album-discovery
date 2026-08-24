@@ -1,0 +1,156 @@
+{
+  "internalId": "album:1671465",
+  "id": "album:1671465",
+  "neteaseAlbumId": "1671465",
+  "slug": "the-moon-and-the-melodies",
+  "title": "The Moon and the Melodies",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    },
+    {
+      "id": "netease-artist:34529",
+      "neteaseArtistId": "34529",
+      "name": "Harold Budd"
+    }
+  ],
+  "releaseDate": "1986-11-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beggars Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1671465.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1671465.webp",
+    "alt": "《The Moon and the Melodies》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18201824",
+      "neteaseTrackId": "18201824",
+      "title": "Sea, Swallow Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "Harold Budd"
+      ],
+      "durationMs": 189040
+    },
+    {
+      "id": "netease-track:18201825",
+      "neteaseTrackId": "18201825",
+      "title": "Memory Gongs",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "Harold Budd"
+      ],
+      "durationMs": 447533
+    },
+    {
+      "id": "netease-track:18201826",
+      "neteaseTrackId": "18201826",
+      "title": "Why Do You Love Me?",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "Harold Budd"
+      ],
+      "durationMs": 291600
+    },
+    {
+      "id": "netease-track:18201827",
+      "neteaseTrackId": "18201827",
+      "title": "Eyes Are Mosaics",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "Harold Budd"
+      ],
+      "durationMs": 249933
+    },
+    {
+      "id": "netease-track:18201828",
+      "neteaseTrackId": "18201828",
+      "title": "She Will Destroy You",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "Harold Budd"
+      ],
+      "durationMs": 257866
+    },
+    {
+      "id": "netease-track:18201829",
+      "neteaseTrackId": "18201829",
+      "title": "The Ghost Has No Home",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "Harold Budd"
+      ],
+      "durationMs": 455800
+    },
+    {
+      "id": "netease-track:18201830",
+      "neteaseTrackId": "18201830",
+      "title": "Bloody and Blunt",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "Harold Budd"
+      ],
+      "durationMs": 133200
+    },
+    {
+      "id": "netease-track:18201831",
+      "neteaseTrackId": "18201831",
+      "title": "Ooze Out and Away, Onehow",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "Harold Budd"
+      ],
+      "durationMs": 221280
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1671465",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Moon and the Melodies Cocteau Twins Harold Budd",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

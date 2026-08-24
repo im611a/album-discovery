@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1724197",
+  "id": "album:1724197",
+  "neteaseAlbumId": "1724197",
+  "slug": "don-juan-s-reckless-daughter",
+  "title": "Don Juan's Reckless Daughter",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1977-12-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724197.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724197.webp",
+    "alt": "《Don Juan's Reckless Daughter》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822169",
+      "neteaseTrackId": "18822169",
+      "title": "Overture-Cotton Avenue",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 401507
+    },
+    {
+      "id": "netease-track:18822171",
+      "neteaseTrackId": "18822171",
+      "title": "Talk To Me",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 225533
+    },
+    {
+      "id": "netease-track:18822173",
+      "neteaseTrackId": "18822173",
+      "title": "Jericho",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 205067
+    },
+    {
+      "id": "netease-track:18822175",
+      "neteaseTrackId": "18822175",
+      "title": "Paprika Plains",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 981066
+    },
+    {
+      "id": "netease-track:18822176",
+      "neteaseTrackId": "18822176",
+      "title": "Otis And Marlena",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 237520
+    },
+    {
+      "id": "netease-track:18822178",
+      "neteaseTrackId": "18822178",
+      "title": "The Tenth World",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 416000
+    },
+    {
+      "id": "netease-track:18822180",
+      "neteaseTrackId": "18822180",
+      "title": "Dreamland",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 279000
+    },
+    {
+      "id": "netease-track:18822182",
+      "neteaseTrackId": "18822182",
+      "title": "Don Juan's Reckless Daughter",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 398988
+    },
+    {
+      "id": "netease-track:18822184",
+      "neteaseTrackId": "18822184",
+      "title": "Off Night Backstreet",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 200000
+    },
+    {
+      "id": "netease-track:18822186",
+      "neteaseTrackId": "18822186",
+      "title": "The Silky Veils Of Ardor",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 241093
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1724197",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Don Juan's Reckless Daughter Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

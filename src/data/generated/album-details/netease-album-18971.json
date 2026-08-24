@@ -1,0 +1,165 @@
+{
+  "internalId": "album:18971",
+  "id": "album:18971",
+  "neteaseAlbumId": "18971",
+  "slug": "netease-album-18971",
+  "title": "夜色",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1996-04-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18971.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18971.webp",
+    "alt": "《夜色》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186866",
+      "neteaseTrackId": "186866",
+      "title": "Against All Odds (Take A Look At Me Now)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 259318
+    },
+    {
+      "id": "netease-track:186870",
+      "neteaseTrackId": "186870",
+      "title": "Good Night Girl",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 266763
+    },
+    {
+      "id": "netease-track:186873",
+      "neteaseTrackId": "186873",
+      "title": "One More Try",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 328125
+    },
+    {
+      "id": "netease-track:186876",
+      "neteaseTrackId": "186876",
+      "title": "Missing",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 273111
+    },
+    {
+      "id": "netease-track:186886",
+      "neteaseTrackId": "186886",
+      "title": "Pray",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 247302
+    },
+    {
+      "id": "netease-track:186889",
+      "neteaseTrackId": "186889",
+      "title": "Have I Told You Lately",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 255635
+    },
+    {
+      "id": "netease-track:186891",
+      "neteaseTrackId": "186891",
+      "title": "Too Much Heaven",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "蓝心湄"
+      ],
+      "durationMs": 272327
+    },
+    {
+      "id": "netease-track:186895",
+      "neteaseTrackId": "186895",
+      "title": "True",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 264752
+    },
+    {
+      "id": "netease-track:186901",
+      "neteaseTrackId": "186901",
+      "title": "Stars",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 303439
+    },
+    {
+      "id": "netease-track:186906",
+      "neteaseTrackId": "186906",
+      "title": "The Color Of The Night",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 258456
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18971",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "夜色 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

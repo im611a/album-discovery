@@ -1,0 +1,230 @@
+{
+  "internalId": "album:172122",
+  "id": "album:172122",
+  "neteaseAlbumId": "172122",
+  "slug": "live-2009-09-11-san-rafael-ca",
+  "title": "Live 2009-09-11-San Rafael, CA",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2009-09-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172122.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172122.webp",
+    "alt": "《Live 2009-09-11-San Rafael, CA》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1696490",
+      "neteaseTrackId": "1696490",
+      "title": "Creeping Death",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 394000
+    },
+    {
+      "id": "netease-track:1696493",
+      "neteaseTrackId": "1696493",
+      "title": "For Whom The Bell Tolls",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 323000
+    },
+    {
+      "id": "netease-track:1696496",
+      "neteaseTrackId": "1696496",
+      "title": "Fuel",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 307000
+    },
+    {
+      "id": "netease-track:1696499",
+      "neteaseTrackId": "1696499",
+      "title": "Harvester Of Sorrow",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 374000
+    },
+    {
+      "id": "netease-track:1696502",
+      "neteaseTrackId": "1696502",
+      "title": "Fade To Black",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 493000
+    },
+    {
+      "id": "netease-track:1696505",
+      "neteaseTrackId": "1696505",
+      "title": "Broken Beat And Scarred",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 421000
+    },
+    {
+      "id": "netease-track:1696508",
+      "neteaseTrackId": "1696508",
+      "title": "Cyanide",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 471000
+    },
+    {
+      "id": "netease-track:1696512",
+      "neteaseTrackId": "1696512",
+      "title": "Sad But True",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 368000
+    },
+    {
+      "id": "netease-track:1696516",
+      "neteaseTrackId": "1696516",
+      "title": "One",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 505000
+    },
+    {
+      "id": "netease-track:1696519",
+      "neteaseTrackId": "1696519",
+      "title": "Master Of Puppets",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 496000
+    },
+    {
+      "id": "netease-track:1696523",
+      "neteaseTrackId": "1696523",
+      "title": "Battery",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 308000
+    },
+    {
+      "id": "netease-track:1696527",
+      "neteaseTrackId": "1696527",
+      "title": "Kirk Solo 01",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 105000
+    },
+    {
+      "id": "netease-track:1696530",
+      "neteaseTrackId": "1696530",
+      "title": "Nothing Else Matters",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 348000
+    },
+    {
+      "id": "netease-track:1696533",
+      "neteaseTrackId": "1696533",
+      "title": "Enter Sandman",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 397000
+    },
+    {
+      "id": "netease-track:1696536",
+      "neteaseTrackId": "1696536",
+      "title": "Hit The Lights",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 343000
+    },
+    {
+      "id": "netease-track:1696540",
+      "neteaseTrackId": "1696540",
+      "title": "Seek And Destroy",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 580000
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=172122",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live 2009-09-11-San Rafael, CA Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

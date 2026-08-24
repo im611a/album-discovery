@@ -1,0 +1,232 @@
+{
+  "internalId": "album:1706204",
+  "id": "album:1706204",
+  "neteaseAlbumId": "1706204",
+  "slug": "20-y-o",
+  "title": "20 Y.O.",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "2006-09-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706204.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706204.webp",
+    "alt": "《20 Y.O.》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18589013",
+      "neteaseTrackId": "18589013",
+      "title": "(Intro) 20",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 52825
+    },
+    {
+      "id": "netease-track:18589014",
+      "neteaseTrackId": "18589014",
+      "title": "So Excited (Album Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Khia"
+      ],
+      "durationMs": 194234
+    },
+    {
+      "id": "netease-track:18589015",
+      "neteaseTrackId": "18589015",
+      "title": "Show Me",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 218066
+    },
+    {
+      "id": "netease-track:18589016",
+      "neteaseTrackId": "18589016",
+      "title": "Get It Out Me",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 184520
+    },
+    {
+      "id": "netease-track:18589017",
+      "neteaseTrackId": "18589017",
+      "title": "Do It 2 Me",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 246201
+    },
+    {
+      "id": "netease-track:18589018",
+      "neteaseTrackId": "18589018",
+      "title": "This Body",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 250287
+    },
+    {
+      "id": "netease-track:18589019",
+      "neteaseTrackId": "18589019",
+      "title": "20 Part 2 (Interlude)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 27213
+    },
+    {
+      "id": "netease-track:18589020",
+      "neteaseTrackId": "18589020",
+      "title": "With U",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 308895
+    },
+    {
+      "id": "netease-track:18589021",
+      "neteaseTrackId": "18589021",
+      "title": "Call On Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Nelly"
+      ],
+      "durationMs": 204266
+    },
+    {
+      "id": "netease-track:18589022",
+      "neteaseTrackId": "18589022",
+      "title": "20 Part 3 (Interlude)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 28235
+    },
+    {
+      "id": "netease-track:18589023",
+      "neteaseTrackId": "18589023",
+      "title": "Daybreak",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 261201
+    },
+    {
+      "id": "netease-track:18589024",
+      "neteaseTrackId": "18589024",
+      "title": "Enjoy",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 270582
+    },
+    {
+      "id": "netease-track:18589025",
+      "neteaseTrackId": "18589025",
+      "title": "20 Part 4 (Interlude)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 43258
+    },
+    {
+      "id": "netease-track:18589026",
+      "neteaseTrackId": "18589026",
+      "title": "Take Care",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 343307
+    },
+    {
+      "id": "netease-track:18589027",
+      "neteaseTrackId": "18589027",
+      "title": "Love 2 Love",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 303624
+    },
+    {
+      "id": "netease-track:18589028",
+      "neteaseTrackId": "18589028",
+      "title": "(Outro) 20 Part 5",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 64922
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=1706204",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "20 Y.O. Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

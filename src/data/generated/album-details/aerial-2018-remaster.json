@@ -1,0 +1,230 @@
+{
+  "internalId": "album:1742051",
+  "id": "album:1742051",
+  "neteaseAlbumId": "1742051",
+  "slug": "aerial-2018-remaster",
+  "title": "Aerial (2018 Remaster)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "2005-11-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fish People",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1742051.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1742051.webp",
+    "alt": "《Aerial (2018 Remaster)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19012356",
+      "neteaseTrackId": "19012356",
+      "title": "King Of The Mountain (2018 Remaster)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 292866
+    },
+    {
+      "id": "netease-track:19012357",
+      "neteaseTrackId": "19012357",
+      "title": "Pi (2018 Remaster)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 369533
+    },
+    {
+      "id": "netease-track:19012358",
+      "neteaseTrackId": "19012358",
+      "title": "Bertie (2018 Remaster)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 259133
+    },
+    {
+      "id": "netease-track:19012359",
+      "neteaseTrackId": "19012359",
+      "title": "Mrs. Bartolozzi (2018 Remaster)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 358960
+    },
+    {
+      "id": "netease-track:19012360",
+      "neteaseTrackId": "19012360",
+      "title": "How To Be Invisible (2018 Remaster)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 332306
+    },
+    {
+      "id": "netease-track:19012361",
+      "neteaseTrackId": "19012361",
+      "title": "Joanni (2018 Remaster)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 296173
+    },
+    {
+      "id": "netease-track:19012362",
+      "neteaseTrackId": "19012362",
+      "title": "A Coral Room (2018 Remaster)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 372373
+    },
+    {
+      "id": "netease-track:29829103",
+      "neteaseTrackId": "29829103",
+      "title": "Prelude (2018 Remaster)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 85893
+    },
+    {
+      "id": "netease-track:29829106",
+      "neteaseTrackId": "29829106",
+      "title": "Prologue (2018 Remaster)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 341306
+    },
+    {
+      "id": "netease-track:29829109",
+      "neteaseTrackId": "29829109",
+      "title": "An Architect's Dream (2018 Remaster)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 294853
+    },
+    {
+      "id": "netease-track:29829105",
+      "neteaseTrackId": "29829105",
+      "title": "The Painter's Link (2018 Remaster)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 95786
+    },
+    {
+      "id": "netease-track:29829108",
+      "neteaseTrackId": "29829108",
+      "title": "Sunset (2018 Remaster)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 358560
+    },
+    {
+      "id": "netease-track:29829104",
+      "neteaseTrackId": "29829104",
+      "title": "Aerial Tal (2018 Remaster)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 61533
+    },
+    {
+      "id": "netease-track:29829107",
+      "neteaseTrackId": "29829107",
+      "title": "Somewhere In Between (2018 Remaster)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 304306
+    },
+    {
+      "id": "netease-track:29829111",
+      "neteaseTrackId": "29829111",
+      "title": "Nocturn (2018 Remaster)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 509200
+    },
+    {
+      "id": "netease-track:29829110",
+      "neteaseTrackId": "29829110",
+      "title": "Aerial (2018 Remaster)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 474173
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=1742051",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Aerial (2018 Remaster) Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

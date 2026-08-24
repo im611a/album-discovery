@@ -1,0 +1,153 @@
+{
+  "internalId": "album:9002",
+  "id": "album:9002",
+  "neteaseAlbumId": "9002",
+  "slug": "netease-album-9002",
+  "title": "郭一凡原创Demo",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2987",
+      "neteaseArtistId": "2987",
+      "name": "郭一凡"
+    }
+  ],
+  "releaseDate": "2011-06-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/9002.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/9002.webp",
+    "alt": "《郭一凡原创Demo》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:91909",
+      "neteaseTrackId": "91909",
+      "title": "遇见更好的自己(Acoustic版)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 228649
+    },
+    {
+      "id": "netease-track:91913",
+      "neteaseTrackId": "91913",
+      "title": "兄弟(Acoustic版)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 192000
+    },
+    {
+      "id": "netease-track:91917",
+      "neteaseTrackId": "91917",
+      "title": "为什么(Acoustic版)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 307000
+    },
+    {
+      "id": "netease-track:91920",
+      "neteaseTrackId": "91920",
+      "title": "不如唱首歌(Acoustic版)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 246700
+    },
+    {
+      "id": "netease-track:91923",
+      "neteaseTrackId": "91923",
+      "title": "梦想家",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 295680
+    },
+    {
+      "id": "netease-track:91926",
+      "neteaseTrackId": "91926",
+      "title": "够了(Acoustic版)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 311000
+    },
+    {
+      "id": "netease-track:91929",
+      "neteaseTrackId": "91929",
+      "title": "Snail(Acoustic版)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:91930",
+      "neteaseTrackId": "91930",
+      "title": "旅行者(初版)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:91931",
+      "neteaseTrackId": "91931",
+      "title": "和平时代的骑士",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "郭一凡"
+      ],
+      "durationMs": 204460
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=9002",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "郭一凡原创Demo 郭一凡",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

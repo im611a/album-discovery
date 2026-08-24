@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1970606",
+  "id": "album:1970606",
+  "neteaseAlbumId": "1970606",
+  "slug": "big-fun",
+  "title": "Big Fun",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1974-04-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970606.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970606.webp",
+    "alt": "《Big Fun》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341008",
+      "neteaseTrackId": "21341008",
+      "title": "Great Expectations",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1644747
+    },
+    {
+      "id": "netease-track:21341009",
+      "neteaseTrackId": "21341009",
+      "title": "Ife",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1295116
+    },
+    {
+      "id": "netease-track:21341010",
+      "neteaseTrackId": "21341010",
+      "title": "Recollections",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1134526
+    },
+    {
+      "id": "netease-track:21341011",
+      "neteaseTrackId": "21341011",
+      "title": "Trevere",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 355474
+    },
+    {
+      "id": "netease-track:21341012",
+      "neteaseTrackId": "21341012",
+      "title": "Go Ahead John",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1707493
+    },
+    {
+      "id": "netease-track:21341013",
+      "neteaseTrackId": "21341013",
+      "title": "Lonely Fire",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1281300
+    },
+    {
+      "id": "netease-track:21341014",
+      "neteaseTrackId": "21341014",
+      "title": "The Little Blue Frog",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 551404
+    },
+    {
+      "id": "netease-track:21341015",
+      "neteaseTrackId": "21341015",
+      "title": "Yaphet",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 579570
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1970606",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Big Fun Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "internalId": "album:19298",
+  "id": "album:19298",
+  "neteaseAlbumId": "19298",
+  "slug": "netease-album-19298",
+  "title": "这，就是爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "name": "张杰"
+    }
+  ],
+  "releaseDate": "2010-11-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "天娱传媒",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19298.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19298.webp",
+    "alt": "《这，就是爱》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:191086",
+      "neteaseTrackId": "191086",
+      "title": "今生今世",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 241760
+    },
+    {
+      "id": "netease-track:191066",
+      "neteaseTrackId": "191066",
+      "title": "最悲歌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 252000
+    },
+    {
+      "id": "netease-track:191063",
+      "neteaseTrackId": "191063",
+      "title": "女人到底想什么",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张杰",
+        "张宇"
+      ],
+      "durationMs": 244558
+    },
+    {
+      "id": "netease-track:191060",
+      "neteaseTrackId": "191060",
+      "title": "这，就是爱",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 294556
+    },
+    {
+      "id": "netease-track:191078",
+      "neteaseTrackId": "191078",
+      "title": "手中沙",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 221253
+    },
+    {
+      "id": "netease-track:191068",
+      "neteaseTrackId": "191068",
+      "title": "青梅竹马",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 276009
+    },
+    {
+      "id": "netease-track:191070",
+      "neteaseTrackId": "191070",
+      "title": "习惯了",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 248058
+    },
+    {
+      "id": "netease-track:191075",
+      "neteaseTrackId": "191075",
+      "title": "一切都值得",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 279301
+    },
+    {
+      "id": "netease-track:191081",
+      "neteaseTrackId": "191081",
+      "title": "包围",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 284316
+    },
+    {
+      "id": "netease-track:191084",
+      "neteaseTrackId": "191084",
+      "title": "云中的Angel",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:545407146",
+      "neteaseTrackId": "545407146",
+      "title": "成都演唱会DVD片头",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 105940
+    },
+    {
+      "id": "netease-track:545406141",
+      "neteaseTrackId": "545406141",
+      "title": "火鸟 (DVD版)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:545412115",
+      "neteaseTrackId": "545412115",
+      "title": "对 (DVD版)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 170710
+    },
+    {
+      "id": "netease-track:545412116",
+      "neteaseTrackId": "545412116",
+      "title": "下一个自己 (DVD版)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 240715
+    },
+    {
+      "id": "netease-track:545413110",
+      "neteaseTrackId": "545413110",
+      "title": "想和你去吹吹风 (DVD版)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 315000
+    },
+    {
+      "id": "netease-track:545412117",
+      "neteaseTrackId": "545412117",
+      "title": "到底有谁能告诉我 (DVD版)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 156328
+    },
+    {
+      "id": "netease-track:545413111",
+      "neteaseTrackId": "545413111",
+      "title": "今夜你会不会来 (DVD版)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 134000
+    },
+    {
+      "id": "netease-track:545407147",
+      "neteaseTrackId": "545407147",
+      "title": "何必在一起 (DVD版)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 277551
+    },
+    {
+      "id": "netease-track:545413112",
+      "neteaseTrackId": "545413112",
+      "title": "让你依靠 (DVD版)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 258194
+    },
+    {
+      "id": "netease-track:545407148",
+      "neteaseTrackId": "545407148",
+      "title": "今生今世 (DVD版)",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 296491
+    },
+    {
+      "id": "netease-track:545406142",
+      "neteaseTrackId": "545406142",
+      "title": "我们都一样 (DVD版)",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 268012
+    },
+    {
+      "id": "netease-track:545406143",
+      "neteaseTrackId": "545406143",
+      "title": "突然想爱你 (DVD版)",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 195080
+    },
+    {
+      "id": "netease-track:545412118",
+      "neteaseTrackId": "545412118",
+      "title": "亲爱的你怎么不在我身边 (DVD版)",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 208066
+    },
+    {
+      "id": "netease-track:545412119",
+      "neteaseTrackId": "545412119",
+      "title": "太委屈 (DVD版)",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:545413113",
+      "neteaseTrackId": "545413113",
+      "title": "原来你什么都不想要 (DVD版)",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 192947
+    },
+    {
+      "id": "netease-track:545407149",
+      "neteaseTrackId": "545407149",
+      "title": "最浪漫的事 (改编版)(DVD版)",
+      "trackNumber": 16,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 379173
+    },
+    {
+      "id": "netease-track:545406144",
+      "neteaseTrackId": "545406144",
+      "title": "Marry Me (DVD版)",
+      "trackNumber": 17,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 246161
+    },
+    {
+      "id": "netease-track:545407150",
+      "neteaseTrackId": "545407150",
+      "title": "穿越人海 (DVD版)",
+      "trackNumber": 18,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 257043
+    },
+    {
+      "id": "netease-track:545407151",
+      "neteaseTrackId": "545407151",
+      "title": "心中一把火 (DVD版)",
+      "trackNumber": 19,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 242582
+    },
+    {
+      "id": "netease-track:545406145",
+      "neteaseTrackId": "545406145",
+      "title": "最接近天堂的地方 (DVD版)",
+      "trackNumber": 20,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 261937
+    },
+    {
+      "id": "netease-track:545407152",
+      "neteaseTrackId": "545407152",
+      "title": "明天过后 (DVD版)",
+      "trackNumber": 21,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 124214
+    },
+    {
+      "id": "netease-track:545412120",
+      "neteaseTrackId": "545412120",
+      "title": "半透明的墙 (DVD版)",
+      "trackNumber": 22,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:545407153",
+      "neteaseTrackId": "545407153",
+      "title": "最美的太阳 (DVD版)",
+      "trackNumber": 23,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 260710
+    },
+    {
+      "id": "netease-track:545412121",
+      "neteaseTrackId": "545412121",
+      "title": "这，就是爱 (DVD版)",
+      "trackNumber": 24,
+      "discNumber": 2,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 315000
+    },
+    {
+      "id": "netease-track:191072",
+      "neteaseTrackId": "191072",
+      "title": "着魔",
+      "trackNumber": 1,
+      "discNumber": 3,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 215480
+    }
+  ],
+  "trackCount": 35,
+  "externalUrl": "https://music.163.com/#/album?id=19298",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "这，就是爱 张杰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

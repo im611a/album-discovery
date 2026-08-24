@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1724178",
+  "id": "album:1724178",
+  "neteaseAlbumId": "1724178",
+  "slug": "songs-of-a-prairie-girl",
+  "title": "Songs of a Prairie Girl",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "2005-04-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724178.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724178.webp",
+    "alt": "《Songs of a Prairie Girl》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18821909",
+      "neteaseTrackId": "18821909",
+      "title": "Urge for Going",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 308013
+    },
+    {
+      "id": "netease-track:18821910",
+      "neteaseTrackId": "18821910",
+      "title": "The Tea Leaf Prophecy (Lay Down Your Arms)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 294586
+    },
+    {
+      "id": "netease-track:18821913",
+      "neteaseTrackId": "18821913",
+      "title": "Cherokee Louise",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 361173
+    },
+    {
+      "id": "netease-track:18821915",
+      "neteaseTrackId": "18821915",
+      "title": "Ray's Dad's Cadillac",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 273933
+    },
+    {
+      "id": "netease-track:18821916",
+      "neteaseTrackId": "18821916",
+      "title": "Let the Wind Carry Me",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 236346
+    },
+    {
+      "id": "netease-track:18821917",
+      "neteaseTrackId": "18821917",
+      "title": "Don Juan's Reckless Daughter",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 398933
+    },
+    {
+      "id": "netease-track:18821919",
+      "neteaseTrackId": "18821919",
+      "title": "Raised on Robbery",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 187773
+    },
+    {
+      "id": "netease-track:18821921",
+      "neteaseTrackId": "18821921",
+      "title": "Paprika Plains (Remix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 979880
+    },
+    {
+      "id": "netease-track:18821923",
+      "neteaseTrackId": "18821923",
+      "title": "Song for Sharon",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 517586
+    },
+    {
+      "id": "netease-track:1358914315",
+      "neteaseTrackId": "1358914315",
+      "title": "River",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 245040
+    },
+    {
+      "id": "netease-track:1358914316",
+      "neteaseTrackId": "1358914316",
+      "title": "Chinese Cafe/Unchained Melody",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 318973
+    },
+    {
+      "id": "netease-track:1358915276",
+      "neteaseTrackId": "1358915276",
+      "title": "Harlem in Havana",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 267800
+    },
+    {
+      "id": "netease-track:1358914317",
+      "neteaseTrackId": "1358914317",
+      "title": "Come In From the Cold (Edit Version)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 218693
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1724178",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Songs of a Prairie Girl Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

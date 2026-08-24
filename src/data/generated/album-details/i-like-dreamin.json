@@ -1,0 +1,98 @@
+{
+  "internalId": "album:19132",
+  "id": "album:19132",
+  "neteaseAlbumId": "19132",
+  "slug": "i-like-dreamin",
+  "title": "I Like Dreamin'",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1977-08-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19132.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19132.webp",
+    "alt": "《I Like Dreamin'》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189150",
+      "neteaseTrackId": "189150",
+      "title": "I Like Dreamin'",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 202707
+    },
+    {
+      "id": "netease-track:189153",
+      "neteaseTrackId": "189153",
+      "title": "Do You Wanna Make Love",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 219405
+    },
+    {
+      "id": "netease-track:189156",
+      "neteaseTrackId": "189156",
+      "title": "Thank You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 273577
+    },
+    {
+      "id": "netease-track:189159",
+      "neteaseTrackId": "189159",
+      "title": "凝望",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 187906
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=19132",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "I Like Dreamin' 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

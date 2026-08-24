@@ -1,0 +1,164 @@
+{
+  "internalId": "album:30449",
+  "id": "album:30449",
+  "neteaseAlbumId": "30449",
+  "slug": "netease-album-30449",
+  "title": "理想人生",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9940",
+      "neteaseArtistId": "9940",
+      "name": "徐佳莹"
+    }
+  ],
+  "releaseDate": "2012-06-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/30449.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/30449.webp",
+    "alt": "《理想人生》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:306638",
+      "neteaseTrackId": "306638",
+      "title": "布谷",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 224800
+    },
+    {
+      "id": "netease-track:306639",
+      "neteaseTrackId": "306639",
+      "title": "翻滚吧！我的宝贝",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 206973
+    },
+    {
+      "id": "netease-track:306640",
+      "neteaseTrackId": "306640",
+      "title": "你敢不敢",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 235760
+    },
+    {
+      "id": "netease-track:306641",
+      "neteaseTrackId": "306641",
+      "title": "不怕庆祝",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 280026
+    },
+    {
+      "id": "netease-track:306642",
+      "neteaseTrackId": "306642",
+      "title": "辣椒",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 246000
+    },
+    {
+      "id": "netease-track:306643",
+      "neteaseTrackId": "306643",
+      "title": "不难",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 280640
+    },
+    {
+      "id": "netease-track:306644",
+      "neteaseTrackId": "306644",
+      "title": "瓶颈",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 272253
+    },
+    {
+      "id": "netease-track:306645",
+      "neteaseTrackId": "306645",
+      "title": "调色盘",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 241454
+    },
+    {
+      "id": "netease-track:306646",
+      "neteaseTrackId": "306646",
+      "title": "理想人生",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 245680
+    },
+    {
+      "id": "netease-track:306647",
+      "neteaseTrackId": "306647",
+      "title": "拉拉队",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 213866
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=30449",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "理想人生 徐佳莹",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "internalId": "album:260876",
+  "id": "album:260876",
+  "neteaseAlbumId": "260876",
+  "slug": "penguin",
+  "title": "Penguin",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1973-03-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260876.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260876.webp",
+    "alt": "《Penguin》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2590177",
+      "neteaseTrackId": "2590177",
+      "title": "Remember Me (2018 Remaster)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 165706
+    },
+    {
+      "id": "netease-track:2590183",
+      "neteaseTrackId": "2590183",
+      "title": "Bright Fire",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 273626
+    },
+    {
+      "id": "netease-track:2590187",
+      "neteaseTrackId": "2590187",
+      "title": "Dissatisfied",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:2590191",
+      "neteaseTrackId": "2590191",
+      "title": "(I'm A) Road Runner",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 295800
+    },
+    {
+      "id": "netease-track:2590195",
+      "neteaseTrackId": "2590195",
+      "title": "The Derelict",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 169874
+    },
+    {
+      "id": "netease-track:2590200",
+      "neteaseTrackId": "2590200",
+      "title": "Revelation",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 300626
+    },
+    {
+      "id": "netease-track:2590205",
+      "neteaseTrackId": "2590205",
+      "title": "Did You Ever Love Me",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 224400
+    },
+    {
+      "id": "netease-track:2590210",
+      "neteaseTrackId": "2590210",
+      "title": "Night Watch",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 377266
+    },
+    {
+      "id": "netease-track:2590214",
+      "neteaseTrackId": "2590214",
+      "title": "Caught in the Rain",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 168333
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=260876",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Penguin Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

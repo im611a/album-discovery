@@ -1,0 +1,164 @@
+{
+  "internalId": "album:25439",
+  "id": "album:25439",
+  "neteaseAlbumId": "25439",
+  "slug": "netease-album-25439",
+  "title": "到处乱走",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "1996-10-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25439.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25439.webp",
+    "alt": "《到处乱走》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254599",
+      "neteaseTrackId": "254599",
+      "title": "到处乱走",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 317747
+    },
+    {
+      "id": "netease-track:254600",
+      "neteaseTrackId": "254600",
+      "title": "爱人说话",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 232880
+    },
+    {
+      "id": "netease-track:254601",
+      "neteaseTrackId": "254601",
+      "title": "门的声音(伴奏)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 135116
+    },
+    {
+      "id": "netease-track:254602",
+      "neteaseTrackId": "254602",
+      "title": "墨镜",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 306934
+    },
+    {
+      "id": "netease-track:254603",
+      "neteaseTrackId": "254603",
+      "title": "小精灵",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 238733
+    },
+    {
+      "id": "netease-track:254604",
+      "neteaseTrackId": "254604",
+      "title": "玫瑰天空",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 286374
+    },
+    {
+      "id": "netease-track:254606",
+      "neteaseTrackId": "254606",
+      "title": "失恋Party",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 242546
+    },
+    {
+      "id": "netease-track:254607",
+      "neteaseTrackId": "254607",
+      "title": "阁楼",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 272920
+    },
+    {
+      "id": "netease-track:254608",
+      "neteaseTrackId": "254608",
+      "title": "门",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 279627
+    },
+    {
+      "id": "netease-track:254609",
+      "neteaseTrackId": "254609",
+      "title": "H.K.",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 214373
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=25439",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "到处乱走 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

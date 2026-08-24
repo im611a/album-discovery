@@ -1,0 +1,98 @@
+{
+  "internalId": "album:220673",
+  "id": "album:220673",
+  "neteaseAlbumId": "220673",
+  "slug": "countdown-remixes",
+  "title": "Countdown (Remixes)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2011-10-03",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220673.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220673.webp",
+    "alt": "《Countdown (Remixes)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2187768",
+      "neteaseTrackId": "2187768",
+      "title": "Countdown",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 213387
+    },
+    {
+      "id": "netease-track:2187772",
+      "neteaseTrackId": "2187772",
+      "title": "Countdown (Reggae Rewind Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:2187777",
+      "neteaseTrackId": "2187777",
+      "title": "Countdown (Olli Collins & Fred Portelli Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 370076
+    },
+    {
+      "id": "netease-track:2187781",
+      "neteaseTrackId": "2187781",
+      "title": "Countdown (Jack Beats Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 243000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=220673",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Countdown (Remixes) Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

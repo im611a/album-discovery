@@ -1,0 +1,98 @@
+{
+  "internalId": "album:25411",
+  "id": "album:25411",
+  "neteaseAlbumId": "25411",
+  "slug": "netease-album-25411",
+  "title": "听说？(台湾预购限定盘)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2004-10-09",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25411.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25411.webp",
+    "alt": "《听说？(台湾预购限定盘)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254308",
+      "neteaseTrackId": "254308",
+      "title": "春光",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 217000
+    },
+    {
+      "id": "netease-track:254310",
+      "neteaseTrackId": "254310",
+      "title": "还以颜色",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 268013
+    },
+    {
+      "id": "netease-track:254312",
+      "neteaseTrackId": "254312",
+      "title": "花开花落",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 207000
+    },
+    {
+      "id": "netease-track:254315",
+      "neteaseTrackId": "254315",
+      "title": "多少遗憾",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 265000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=25411",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "听说？(台湾预购限定盘) 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

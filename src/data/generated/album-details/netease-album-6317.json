@@ -1,0 +1,188 @@
+{
+  "internalId": "album:6317",
+  "id": "album:6317",
+  "neteaseAlbumId": "6317",
+  "slug": "netease-album-6317",
+  "title": "崔健——’85回顾",
+  "aliases": [
+    "'85回顾"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:2111",
+      "neteaseArtistId": "2111",
+      "name": "崔健"
+    }
+  ],
+  "releaseDate": "1993-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "中国唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6317.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6317.webp",
+    "alt": "《崔健——’85回顾》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:63767",
+      "neteaseTrackId": "63767",
+      "title": "谁、谁、谁",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 271000
+    },
+    {
+      "id": "netease-track:63782",
+      "neteaseTrackId": "63782",
+      "title": "星光满天",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 211720
+    },
+    {
+      "id": "netease-track:63797",
+      "neteaseTrackId": "63797",
+      "title": "梦里的呼唤",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 158545
+    },
+    {
+      "id": "netease-track:63788",
+      "neteaseTrackId": "63788",
+      "title": "生活不能没有你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 155760
+    },
+    {
+      "id": "netease-track:63773",
+      "neteaseTrackId": "63773",
+      "title": "雪花飘",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 181054
+    },
+    {
+      "id": "netease-track:63770",
+      "neteaseTrackId": "63770",
+      "title": "梦中的倾诉",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 244172
+    },
+    {
+      "id": "netease-track:63795",
+      "neteaseTrackId": "63795",
+      "title": "是否",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:63779",
+      "neteaseTrackId": "63779",
+      "title": "我的心愿",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 226546
+    },
+    {
+      "id": "netease-track:63793",
+      "neteaseTrackId": "63793",
+      "title": "哈罗",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 204042
+    },
+    {
+      "id": "netease-track:63791",
+      "neteaseTrackId": "63791",
+      "title": "草帽歌",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 226586
+    },
+    {
+      "id": "netease-track:63785",
+      "neteaseTrackId": "63785",
+      "title": "世界的末日",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 256745
+    },
+    {
+      "id": "netease-track:63776",
+      "neteaseTrackId": "63776",
+      "title": "艰难行",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "崔健"
+      ],
+      "durationMs": 359440
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=6317",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "崔健——’85回顾 '85回顾 崔健",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1724189",
+  "id": "album:1724189",
+  "neteaseAlbumId": "1724189",
+  "slug": "wild-things-run-fast",
+  "title": "Wild Things Run Fast",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1981-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Geffen",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724189.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724189.webp",
+    "alt": "《Wild Things Run Fast》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822072",
+      "neteaseTrackId": "18822072",
+      "title": "Chinese Cafe/ Unchained Melody",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 319738
+    },
+    {
+      "id": "netease-track:18822074",
+      "neteaseTrackId": "18822074",
+      "title": "Wild Things Run Fast",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 136463
+    },
+    {
+      "id": "netease-track:18822076",
+      "neteaseTrackId": "18822076",
+      "title": "Ladies' Man",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 160357
+    },
+    {
+      "id": "netease-track:18822078",
+      "neteaseTrackId": "18822078",
+      "title": "Moon At The Window",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 223492
+    },
+    {
+      "id": "netease-track:18822080",
+      "neteaseTrackId": "18822080",
+      "title": "Solid Love",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 184668
+    },
+    {
+      "id": "netease-track:18822082",
+      "neteaseTrackId": "18822082",
+      "title": "Be Cool",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 253631
+    },
+    {
+      "id": "netease-track:18822084",
+      "neteaseTrackId": "18822084",
+      "title": "(You're So Square) Baby, I Don't Care",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 158058
+    },
+    {
+      "id": "netease-track:18822086",
+      "neteaseTrackId": "18822086",
+      "title": "You Dream Flat Tires",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 173476
+    },
+    {
+      "id": "netease-track:18822088",
+      "neteaseTrackId": "18822088",
+      "title": "Man To Man",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 225567
+    },
+    {
+      "id": "netease-track:18822090",
+      "neteaseTrackId": "18822090",
+      "title": "Underneath The Streetlight",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 136515
+    },
+    {
+      "id": "netease-track:18822092",
+      "neteaseTrackId": "18822092",
+      "title": "Love",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 228066
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1724189",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Wild Things Run Fast Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

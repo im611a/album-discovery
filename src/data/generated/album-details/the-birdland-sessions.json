@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1970529",
+  "id": "album:1970529",
+  "neteaseAlbumId": "1970529",
+  "slug": "the-birdland-sessions",
+  "title": "The Birdland Sessions",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2006-03-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970529.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970529.webp",
+    "alt": "《The Birdland Sessions》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339717",
+      "neteaseTrackId": "21339717",
+      "title": "Conception - Original Broadcast (1950)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 250493
+    },
+    {
+      "id": "netease-track:21339718",
+      "neteaseTrackId": "21339718",
+      "title": "Ray's Idea",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 355080
+    },
+    {
+      "id": "netease-track:21339719",
+      "neteaseTrackId": "21339719",
+      "title": "That Old Black Magic",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 139000
+    },
+    {
+      "id": "netease-track:21339720",
+      "neteaseTrackId": "21339720",
+      "title": "Max Is Making Wax",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 242400
+    },
+    {
+      "id": "netease-track:21339721",
+      "neteaseTrackId": "21339721",
+      "title": "Woody 'N' You - Original Broadcast (1950)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 341472
+    },
+    {
+      "id": "netease-track:21339722",
+      "neteaseTrackId": "21339722",
+      "title": "Move - Original Broadcast (1951)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 378600
+    },
+    {
+      "id": "netease-track:21339723",
+      "neteaseTrackId": "21339723",
+      "title": "Half Nelson - Original Broadcast (1951)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 459042
+    },
+    {
+      "id": "netease-track:21339724",
+      "neteaseTrackId": "21339724",
+      "title": "Down - Original Broadcast (1951)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 445223
+    },
+    {
+      "id": "netease-track:21339725",
+      "neteaseTrackId": "21339725",
+      "title": "Move - Original Broadcast (1951)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 386000
+    },
+    {
+      "id": "netease-track:21339726",
+      "neteaseTrackId": "21339726",
+      "title": "Squirrel",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 527150
+    },
+    {
+      "id": "netease-track:21339727",
+      "neteaseTrackId": "21339727",
+      "title": "Ladybird - Version 2",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 340924
+    },
+    {
+      "id": "netease-track:21339728",
+      "neteaseTrackId": "21339728",
+      "title": "Confirmation",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 348013
+    },
+    {
+      "id": "netease-track:21339729",
+      "neteaseTrackId": "21339729",
+      "title": "Out Of The Blue",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 343320
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1970529",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Birdland Sessions Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

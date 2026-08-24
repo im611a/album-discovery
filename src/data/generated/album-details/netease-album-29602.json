@@ -1,0 +1,164 @@
+{
+  "internalId": "album:29602",
+  "id": "album:29602",
+  "neteaseAlbumId": "29602",
+  "slug": "netease-album-29602",
+  "title": "割爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1996-01-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29602.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29602.webp",
+    "alt": "《割爱》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298337",
+      "neteaseTrackId": "298337",
+      "title": "Fly Away",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 233290
+    },
+    {
+      "id": "netease-track:298341",
+      "neteaseTrackId": "298341",
+      "title": "割爱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 225666
+    },
+    {
+      "id": "netease-track:298344",
+      "neteaseTrackId": "298344",
+      "title": "算了吧",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 341173
+    },
+    {
+      "id": "netease-track:298347",
+      "neteaseTrackId": "298347",
+      "title": "爱做梦的人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 264428
+    },
+    {
+      "id": "netease-track:298350",
+      "neteaseTrackId": "298350",
+      "title": "了断",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 250840
+    },
+    {
+      "id": "netease-track:298354",
+      "neteaseTrackId": "298354",
+      "title": "四季",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 321426
+    },
+    {
+      "id": "netease-track:298358",
+      "neteaseTrackId": "298358",
+      "title": "爱，禁不起考验",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 267656
+    },
+    {
+      "id": "netease-track:298362",
+      "neteaseTrackId": "298362",
+      "title": "选择一个人生活",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 251333
+    },
+    {
+      "id": "netease-track:298364",
+      "neteaseTrackId": "298364",
+      "title": "箱子",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 217173
+    },
+    {
+      "id": "netease-track:298366",
+      "neteaseTrackId": "298366",
+      "title": "心软",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 268094
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29602",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "割爱 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

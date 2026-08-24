@@ -1,0 +1,186 @@
+{
+  "internalId": "album:19128",
+  "id": "album:19128",
+  "neteaseAlbumId": "19128",
+  "slug": "day-dreamin",
+  "title": "Day Dreamin'",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1978-01-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19128.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19128.webp",
+    "alt": "《Day Dreamin'》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189093",
+      "neteaseTrackId": "189093",
+      "title": "Day Dreamer",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 156093
+    },
+    {
+      "id": "netease-track:189096",
+      "neteaseTrackId": "189096",
+      "title": "We Are All Alone",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 230133
+    },
+    {
+      "id": "netease-track:189099",
+      "neteaseTrackId": "189099",
+      "title": "Even Now",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 234173
+    },
+    {
+      "id": "netease-track:189102",
+      "neteaseTrackId": "189102",
+      "title": "Before My Heart Finds Out",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 148840
+    },
+    {
+      "id": "netease-track:189105",
+      "neteaseTrackId": "189105",
+      "title": "Good Morning Sorrow",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 198974
+    },
+    {
+      "id": "netease-track:189108",
+      "neteaseTrackId": "189108",
+      "title": "Undercover Angel",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 211280
+    },
+    {
+      "id": "netease-track:189111",
+      "neteaseTrackId": "189111",
+      "title": "I Like Dreamin'",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 202707
+    },
+    {
+      "id": "netease-track:189118",
+      "neteaseTrackId": "189118",
+      "title": "I Need You",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 203337
+    },
+    {
+      "id": "netease-track:189122",
+      "neteaseTrackId": "189122",
+      "title": "You Made Me Believe In Magic",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 170466
+    },
+    {
+      "id": "netease-track:189129",
+      "neteaseTrackId": "189129",
+      "title": "Just The Way You Are",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 285442
+    },
+    {
+      "id": "netease-track:189132",
+      "neteaseTrackId": "189132",
+      "title": "A Little Bit More",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:189135",
+      "neteaseTrackId": "189135",
+      "title": "Pistol Packin' Melody",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 199386
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=19128",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Day Dreamin' 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

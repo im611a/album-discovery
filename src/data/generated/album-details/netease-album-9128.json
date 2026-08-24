@@ -1,0 +1,104 @@
+{
+  "internalId": "album:9128",
+  "id": "album:9128",
+  "neteaseAlbumId": "9128",
+  "slug": "netease-album-9128",
+  "title": "蓝调",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3065",
+      "neteaseArtistId": "3065",
+      "name": "黄立行"
+    },
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "2004-12-05",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/9128.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/9128.webp",
+    "alt": "《蓝调》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:92890",
+      "neteaseTrackId": "92890",
+      "title": "为什么写静静的生活-OS",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 75755
+    },
+    {
+      "id": "netease-track:92894",
+      "neteaseTrackId": "92894",
+      "title": "静静的生活",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄立行",
+        "陈绮贞"
+      ],
+      "durationMs": 298000
+    },
+    {
+      "id": "netease-track:92898",
+      "neteaseTrackId": "92898",
+      "title": "Stanley O.S.",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄立行"
+      ],
+      "durationMs": 69000
+    },
+    {
+      "id": "netease-track:92902",
+      "neteaseTrackId": "92902",
+      "title": "复制人军队",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄立行"
+      ],
+      "durationMs": 158000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=9128",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "蓝调 黄立行 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "internalId": "album:1577493",
+  "id": "album:1577493",
+  "neteaseAlbumId": "1577493",
+  "slug": "milk-kisses",
+  "title": "Milk & Kisses",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1996-02-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "UMC (Universal Music Catalogue)",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577493.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577493.webp",
+    "alt": "《Milk & Kisses》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17124968",
+      "neteaseTrackId": "17124968",
+      "title": "Violaine",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 225800
+    },
+    {
+      "id": "netease-track:28302904",
+      "neteaseTrackId": "28302904",
+      "title": "Serpentskirt",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 237307
+    },
+    {
+      "id": "netease-track:17124970",
+      "neteaseTrackId": "17124970",
+      "title": "Tishbite",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 231786
+    },
+    {
+      "id": "netease-track:17124972",
+      "neteaseTrackId": "17124972",
+      "title": "Half-Gifts",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 261266
+    },
+    {
+      "id": "netease-track:17124974",
+      "neteaseTrackId": "17124974",
+      "title": "Calfskin Smack",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 298840
+    },
+    {
+      "id": "netease-track:17124976",
+      "neteaseTrackId": "17124976",
+      "title": "Rilkean Heart",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 242393
+    },
+    {
+      "id": "netease-track:17124979",
+      "neteaseTrackId": "17124979",
+      "title": "Ups",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 219214
+    },
+    {
+      "id": "netease-track:17124981",
+      "neteaseTrackId": "17124981",
+      "title": "Eperdu",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 277096
+    },
+    {
+      "id": "netease-track:17124983",
+      "neteaseTrackId": "17124983",
+      "title": "Treasure Hiding",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 294563
+    },
+    {
+      "id": "netease-track:17124985",
+      "neteaseTrackId": "17124985",
+      "title": "Seekers Who Are Lovers",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 285233
+    },
+    {
+      "id": "netease-track:17124969",
+      "neteaseTrackId": "17124969",
+      "title": "Serpentskirt",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins",
+        "王菲"
+      ],
+      "durationMs": 237573
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1577493",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Milk & Kisses Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

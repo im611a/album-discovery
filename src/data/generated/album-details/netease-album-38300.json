@@ -1,0 +1,202 @@
+{
+  "internalId": "album:38300",
+  "id": "album:38300",
+  "neteaseAlbumId": "38300",
+  "slug": "netease-album-38300",
+  "title": "候鸟 电影原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13193",
+      "neteaseArtistId": "13193",
+      "name": "五月天"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2001-05-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38300.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/38300.webp",
+    "alt": "《候鸟 电影原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:386722",
+      "neteaseTrackId": "386722",
+      "title": "鲨鱼摇滚",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 107020
+    },
+    {
+      "id": "netease-track:386725",
+      "neteaseTrackId": "386725",
+      "title": "罗密欧与茱丽叶(候鸟迷幻混音版)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 180866
+    },
+    {
+      "id": "netease-track:386728",
+      "neteaseTrackId": "386728",
+      "title": "火花一般",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 146099
+    },
+    {
+      "id": "netease-track:386730",
+      "neteaseTrackId": "386730",
+      "title": "候鸟",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 213693
+    },
+    {
+      "id": "netease-track:386733",
+      "neteaseTrackId": "386733",
+      "title": "海豚的歌",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 25640
+    },
+    {
+      "id": "netease-track:386736",
+      "neteaseTrackId": "386736",
+      "title": "左键(少男少女Icq)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 168693
+    },
+    {
+      "id": "netease-track:386739",
+      "neteaseTrackId": "386739",
+      "title": "旅途上",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 112105
+    },
+    {
+      "id": "netease-track:386744",
+      "neteaseTrackId": "386744",
+      "title": "企鹅午后",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 52430
+    },
+    {
+      "id": "netease-track:386749",
+      "neteaseTrackId": "386749",
+      "title": "公路电影",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄品源"
+      ],
+      "durationMs": 347733
+    },
+    {
+      "id": "netease-track:386753",
+      "neteaseTrackId": "386753",
+      "title": "年华 (不插电清新版)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 268840
+    },
+    {
+      "id": "netease-track:386757",
+      "neteaseTrackId": "386757",
+      "title": "一个人的表情",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 74266
+    },
+    {
+      "id": "netease-track:386761",
+      "neteaseTrackId": "386761",
+      "title": "金赛的迷惑",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 226719
+    },
+    {
+      "id": "netease-track:386765",
+      "neteaseTrackId": "386765",
+      "title": "…的愉快",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "五月天"
+      ],
+      "durationMs": 51893
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=38300",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "候鸟 电影原声带 五月天 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

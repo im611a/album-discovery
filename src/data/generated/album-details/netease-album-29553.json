@@ -1,0 +1,109 @@
+{
+  "internalId": "album:29553",
+  "id": "album:29553",
+  "neteaseAlbumId": "29553",
+  "slug": "netease-album-29553",
+  "title": "在哪里",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9609",
+      "neteaseArtistId": "9609",
+      "name": "魏如萱"
+    }
+  ],
+  "releaseDate": "2011-01-22",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "銀翼文創",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29553.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29553.webp",
+    "alt": "《在哪里》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297748",
+      "neteaseTrackId": "297748",
+      "title": "香格里拉",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 287600
+    },
+    {
+      "id": "netease-track:297750",
+      "neteaseTrackId": "297750",
+      "title": "我家楼下",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 63599
+    },
+    {
+      "id": "netease-track:297752",
+      "neteaseTrackId": "297752",
+      "title": "门",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 201456
+    },
+    {
+      "id": "netease-track:297754",
+      "neteaseTrackId": "297754",
+      "title": "if",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 224954
+    },
+    {
+      "id": "netease-track:297755",
+      "neteaseTrackId": "297755",
+      "title": "哪",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 285582
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=29553",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "在哪里 魏如萱",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

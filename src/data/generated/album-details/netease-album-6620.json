@@ -1,0 +1,186 @@
+{
+  "internalId": "album:6620",
+  "id": "album:6620",
+  "neteaseAlbumId": "6620",
+  "slug": "netease-album-6620",
+  "title": "酝酿",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "1997-11-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "广州万中无二音乐文化有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6620.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6620.webp",
+    "alt": "《酝酿》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67787",
+      "neteaseTrackId": "67787",
+      "title": "预感",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 307333
+    },
+    {
+      "id": "netease-track:67791",
+      "neteaseTrackId": "67791",
+      "title": "酝酿",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 269840
+    },
+    {
+      "id": "netease-track:67794",
+      "neteaseTrackId": "67794",
+      "title": "摊开双手",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 255826
+    },
+    {
+      "id": "netease-track:67800",
+      "neteaseTrackId": "67800",
+      "title": "换季",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 248840
+    },
+    {
+      "id": "netease-track:67805",
+      "neteaseTrackId": "67805",
+      "title": "爱的傀儡",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 271160
+    },
+    {
+      "id": "netease-track:67810",
+      "neteaseTrackId": "67810",
+      "title": "感动",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 233840
+    },
+    {
+      "id": "netease-track:67815",
+      "neteaseTrackId": "67815",
+      "title": "我终于放开了她",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 256493
+    },
+    {
+      "id": "netease-track:67818",
+      "neteaseTrackId": "67818",
+      "title": "好聚好散",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 283666
+    },
+    {
+      "id": "netease-track:67821",
+      "neteaseTrackId": "67821",
+      "title": "宠爱",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 303333
+    },
+    {
+      "id": "netease-track:67824",
+      "neteaseTrackId": "67824",
+      "title": "L'amour",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 224173
+    },
+    {
+      "id": "netease-track:67829",
+      "neteaseTrackId": "67829",
+      "title": "Taipei City",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:67834",
+      "neteaseTrackId": "67834",
+      "title": "预感(伴奏)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 306320
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=6620",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "酝酿 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

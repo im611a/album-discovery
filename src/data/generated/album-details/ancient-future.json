@@ -1,0 +1,132 @@
+{
+  "internalId": "album:1830513",
+  "id": "album:1830513",
+  "neteaseAlbumId": "1830513",
+  "slug": "ancient-future",
+  "title": "Ancient Future",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:30338",
+      "neteaseArtistId": "30338",
+      "name": "Christopher Willits"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2012-07-29",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Ghostly International",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1830513.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1830513.webp",
+    "alt": "《Ancient Future》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19820047",
+      "neteaseTrackId": "19820047",
+      "title": "Reticent Reminiscence",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 303517
+    },
+    {
+      "id": "netease-track:19820048",
+      "neteaseTrackId": "19820048",
+      "title": "Abandoned Silence",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 270673
+    },
+    {
+      "id": "netease-track:19820049",
+      "neteaseTrackId": "19820049",
+      "title": "I Don't Want to Understand",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 431396
+    },
+    {
+      "id": "netease-track:19820050",
+      "neteaseTrackId": "19820050",
+      "title": "Levitation",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 265634
+    },
+    {
+      "id": "netease-track:19820051",
+      "neteaseTrackId": "19820051",
+      "title": "Releasing",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 231333
+    },
+    {
+      "id": "netease-track:19820052",
+      "neteaseTrackId": "19820052",
+      "title": "Completion",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 427875
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1830513",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ancient Future Christopher Willits 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

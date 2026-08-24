@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1757600",
+  "id": "album:1757600",
+  "neteaseAlbumId": "1757600",
+  "slug": "sweet-heart-sweet-light",
+  "title": "Sweet Heart Sweet Light",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "2012-04-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Double Six Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1757600.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1757600.webp",
+    "alt": "《Sweet Heart Sweet Light》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19169225",
+      "neteaseTrackId": "19169225",
+      "title": "Huh? (intro)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 61133
+    },
+    {
+      "id": "netease-track:19169226",
+      "neteaseTrackId": "19169226",
+      "title": "Hey Jane",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 534825
+    },
+    {
+      "id": "netease-track:19169227",
+      "neteaseTrackId": "19169227",
+      "title": "Little Girl",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 219613
+    },
+    {
+      "id": "netease-track:19169228",
+      "neteaseTrackId": "19169228",
+      "title": "Get What You Deserve",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 406986
+    },
+    {
+      "id": "netease-track:19169229",
+      "neteaseTrackId": "19169229",
+      "title": "Too Late",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 225400
+    },
+    {
+      "id": "netease-track:19169230",
+      "neteaseTrackId": "19169230",
+      "title": "Headin' For The Top Now",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 502560
+    },
+    {
+      "id": "netease-track:19169231",
+      "neteaseTrackId": "19169231",
+      "title": "Freedom",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 271626
+    },
+    {
+      "id": "netease-track:19169232",
+      "neteaseTrackId": "19169232",
+      "title": "I Am What I Am",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 277466
+    },
+    {
+      "id": "netease-track:19169233",
+      "neteaseTrackId": "19169233",
+      "title": "Mary",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 371826
+    },
+    {
+      "id": "netease-track:19169234",
+      "neteaseTrackId": "19169234",
+      "title": "Life Is A Problem",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 242760
+    },
+    {
+      "id": "netease-track:19169235",
+      "neteaseTrackId": "19169235",
+      "title": "So Long You Pretty Thing",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 471533
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1757600",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sweet Heart Sweet Light Spiritualized",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

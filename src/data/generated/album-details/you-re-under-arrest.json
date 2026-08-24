@@ -1,0 +1,153 @@
+{
+  "internalId": "album:1970661",
+  "id": "album:1970661",
+  "neteaseAlbumId": "1970661",
+  "slug": "you-re-under-arrest",
+  "title": "You're Under Arrest",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1985-04-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970661.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970661.webp",
+    "alt": "《You're Under Arrest》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341723",
+      "neteaseTrackId": "21341723",
+      "title": "One Phone Call/Street Scenes (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 275043
+    },
+    {
+      "id": "netease-track:21341724",
+      "neteaseTrackId": "21341724",
+      "title": "Human Nature",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 269467
+    },
+    {
+      "id": "netease-track:21341725",
+      "neteaseTrackId": "21341725",
+      "title": "MD1/Something's On Your Mind/MD2 (Album Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 436976
+    },
+    {
+      "id": "netease-track:21341726",
+      "neteaseTrackId": "21341726",
+      "title": "Ms. Morrisine (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 292316
+    },
+    {
+      "id": "netease-track:21341727",
+      "neteaseTrackId": "21341727",
+      "title": "Katia Prelude (Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 42396
+    },
+    {
+      "id": "netease-track:21341728",
+      "neteaseTrackId": "21341728",
+      "title": "Katia (Album Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 457595
+    },
+    {
+      "id": "netease-track:21341729",
+      "neteaseTrackId": "21341729",
+      "title": "Time After Time",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 221355
+    },
+    {
+      "id": "netease-track:21341730",
+      "neteaseTrackId": "21341730",
+      "title": "You're Under Arrest (Album Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 372726
+    },
+    {
+      "id": "netease-track:21341731",
+      "neteaseTrackId": "21341731",
+      "title": "Jean Pierre/You're Under/ Then There Were None (Album Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 205937
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1970661",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "You're Under Arrest Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

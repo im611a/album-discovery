@@ -1,0 +1,175 @@
+{
+  "internalId": "album:432431",
+  "id": "album:432431",
+  "neteaseAlbumId": "432431",
+  "slug": "takk",
+  "title": "Takk...",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "2005-08-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432431.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432431.webp",
+    "alt": "《Takk...》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4278794",
+      "neteaseTrackId": "4278794",
+      "title": "Takk...",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 116440
+    },
+    {
+      "id": "netease-track:4278799",
+      "neteaseTrackId": "4278799",
+      "title": "Glósóli",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 386880
+    },
+    {
+      "id": "netease-track:4278804",
+      "neteaseTrackId": "4278804",
+      "title": "Hoppípolla",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 270071
+    },
+    {
+      "id": "netease-track:4278810",
+      "neteaseTrackId": "4278810",
+      "title": "Með Blóðnasir",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 144426
+    },
+    {
+      "id": "netease-track:4278814",
+      "neteaseTrackId": "4278814",
+      "title": "Sé Lest",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 524013
+    },
+    {
+      "id": "netease-track:4278817",
+      "neteaseTrackId": "4278817",
+      "title": "Sæglópur",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 504360
+    },
+    {
+      "id": "netease-track:4278822",
+      "neteaseTrackId": "4278822",
+      "title": "Mílanó",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 638080
+    },
+    {
+      "id": "netease-track:4278827",
+      "neteaseTrackId": "4278827",
+      "title": "Gong",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 334333
+    },
+    {
+      "id": "netease-track:4278832",
+      "neteaseTrackId": "4278832",
+      "title": "Andvari",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 396013
+    },
+    {
+      "id": "netease-track:4278836",
+      "neteaseTrackId": "4278836",
+      "title": "Svo Hljótt",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 451000
+    },
+    {
+      "id": "netease-track:4278840",
+      "neteaseTrackId": "4278840",
+      "title": "Heysátan",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 281693
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=432431",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Takk... Sigur Rós",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

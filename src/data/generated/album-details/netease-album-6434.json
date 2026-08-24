@@ -1,0 +1,175 @@
+{
+  "internalId": "album:6434",
+  "id": "album:6434",
+  "neteaseAlbumId": "6434",
+  "slug": "netease-album-6434",
+  "title": "认了吧",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2007-04-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6434.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6434.webp",
+    "alt": "《认了吧》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:65525",
+      "neteaseTrackId": "65525",
+      "title": "烟味",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 263346
+    },
+    {
+      "id": "netease-track:65528",
+      "neteaseTrackId": "65528",
+      "title": "淘汰",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 285000
+    },
+    {
+      "id": "netease-track:65531",
+      "neteaseTrackId": "65531",
+      "title": "快乐男生",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 202493
+    },
+    {
+      "id": "netease-track:65533",
+      "neteaseTrackId": "65533",
+      "title": "红玫瑰",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 239973
+    },
+    {
+      "id": "netease-track:65535",
+      "neteaseTrackId": "65535",
+      "title": "月黑风高",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 276346
+    },
+    {
+      "id": "netease-track:65536",
+      "neteaseTrackId": "65536",
+      "title": "爱情转移",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 259986
+    },
+    {
+      "id": "netease-track:65538",
+      "neteaseTrackId": "65538",
+      "title": "好久不见",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 250543
+    },
+    {
+      "id": "netease-track:65540",
+      "neteaseTrackId": "65540",
+      "title": "爱是一本书",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 264013
+    },
+    {
+      "id": "netease-track:65543",
+      "neteaseTrackId": "65543",
+      "title": "第一个雅皮士",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 204693
+    },
+    {
+      "id": "netease-track:65546",
+      "neteaseTrackId": "65546",
+      "title": "白色球鞋",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 278160
+    },
+    {
+      "id": "netease-track:65549",
+      "neteaseTrackId": "65549",
+      "title": "月球上的人",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 222640
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=6434",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "认了吧 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "internalId": "album:7543",
+  "id": "album:7543",
+  "neteaseAlbumId": "7543",
+  "slug": "winter-sweet",
+  "title": "Winter Sweet",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2514",
+      "neteaseArtistId": "2514",
+      "name": "蛋堡"
+    }
+  ],
+  "releaseDate": "2009-12-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "颜社企业有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7543.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7543.webp",
+    "alt": "《Winter Sweet》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76843",
+      "neteaseTrackId": "76843",
+      "title": "Soft Lintro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 88706
+    },
+    {
+      "id": "netease-track:76844",
+      "neteaseTrackId": "76844",
+      "title": "少年维持着烦恼",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 329840
+    },
+    {
+      "id": "netease-track:76845",
+      "neteaseTrackId": "76845",
+      "title": "新生活",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 94080
+    },
+    {
+      "id": "netease-track:76846",
+      "neteaseTrackId": "76846",
+      "title": "后来的切片 之一",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 121866
+    },
+    {
+      "id": "netease-track:76847",
+      "neteaseTrackId": "76847",
+      "title": "白天自由, 夜晚寂寞",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 183533
+    },
+    {
+      "id": "netease-track:76848",
+      "neteaseTrackId": "76848",
+      "title": "夜聊 (你说, 我说) [feat. 李英宏]",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡",
+        "李英宏"
+      ],
+      "durationMs": 309640
+    },
+    {
+      "id": "netease-track:76849",
+      "neteaseTrackId": "76849",
+      "title": "你还记得吗?",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 143266
+    },
+    {
+      "id": "netease-track:76851",
+      "neteaseTrackId": "76851",
+      "title": "后来的切片 之二",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 201973
+    },
+    {
+      "id": "netease-track:76852",
+      "neteaseTrackId": "76852",
+      "title": "偷偷 (feat. 阎韦伶)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡",
+        "阎韦伶"
+      ],
+      "durationMs": 248213
+    },
+    {
+      "id": "netease-track:76853",
+      "neteaseTrackId": "76853",
+      "title": "慢慢来",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 165866
+    },
+    {
+      "id": "netease-track:76854",
+      "neteaseTrackId": "76854",
+      "title": "后来的切片 之三",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 153026
+    },
+    {
+      "id": "netease-track:76856",
+      "neteaseTrackId": "76856",
+      "title": "Winter Morning Sounds",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 235666
+    },
+    {
+      "id": "netease-track:76858",
+      "neteaseTrackId": "76858",
+      "title": "Winter Sweet",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 350000
+    },
+    {
+      "id": "netease-track:76860",
+      "neteaseTrackId": "76860",
+      "title": "旅途愉快",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 201413
+    },
+    {
+      "id": "netease-track:76862",
+      "neteaseTrackId": "76862",
+      "title": "再做一次好梦",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 198453
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=7543",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Winter Sweet 蛋堡",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

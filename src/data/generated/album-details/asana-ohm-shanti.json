@@ -1,0 +1,153 @@
+{
+  "internalId": "album:222206",
+  "id": "album:222206",
+  "neteaseAlbumId": "222206",
+  "slug": "asana-ohm-shanti",
+  "title": "Asana OHM Shanti",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2006-02-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222206.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222206.webp",
+    "alt": "《Asana OHM Shanti》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205403",
+      "neteaseTrackId": "2205403",
+      "title": "Morning Breeze",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 356000
+    },
+    {
+      "id": "netease-track:2205405",
+      "neteaseTrackId": "2205405",
+      "title": "Kala Infinite",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 482533
+    },
+    {
+      "id": "netease-track:2205407",
+      "neteaseTrackId": "2205407",
+      "title": "Shiva Stone",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 378520
+    },
+    {
+      "id": "netease-track:2205409",
+      "neteaseTrackId": "2205409",
+      "title": "Mukti",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 520240
+    },
+    {
+      "id": "netease-track:2205411",
+      "neteaseTrackId": "2205411",
+      "title": "Shriva Manas Puji",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 83000
+    },
+    {
+      "id": "netease-track:2205413",
+      "neteaseTrackId": "2205413",
+      "title": "Ohm Shanti",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 601000
+    },
+    {
+      "id": "netease-track:2205415",
+      "neteaseTrackId": "2205415",
+      "title": "Balama",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 357560
+    },
+    {
+      "id": "netease-track:2205417",
+      "neteaseTrackId": "2205417",
+      "title": "Pattern Release",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 193040
+    },
+    {
+      "id": "netease-track:2205419",
+      "neteaseTrackId": "2205419",
+      "title": "Here Comes the Sun",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 199826
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=222206",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Asana OHM Shanti Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

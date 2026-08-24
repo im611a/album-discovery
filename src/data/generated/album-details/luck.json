@@ -1,0 +1,197 @@
+{
+  "internalId": "album:21290",
+  "id": "album:21290",
+  "neteaseAlbumId": "21290",
+  "slug": "luck",
+  "title": "LUCK",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "1999-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music China",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21290.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21290.webp",
+    "alt": "《LUCK》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209280",
+      "neteaseTrackId": "209280",
+      "title": "Luck",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 216426
+    },
+    {
+      "id": "netease-track:209283",
+      "neteaseTrackId": "209283",
+      "title": "Drive!",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 231266
+    },
+    {
+      "id": "netease-track:209286",
+      "neteaseTrackId": "209286",
+      "title": "Don’t You Dare",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 244106
+    },
+    {
+      "id": "netease-track:209289",
+      "neteaseTrackId": "209289",
+      "title": "All Right",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 224693
+    },
+    {
+      "id": "netease-track:209294",
+      "neteaseTrackId": "209294",
+      "title": "Inside Out",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 190600
+    },
+    {
+      "id": "netease-track:209297",
+      "neteaseTrackId": "209297",
+      "title": "Let You Down",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 245173
+    },
+    {
+      "id": "netease-track:1952728254",
+      "neteaseTrackId": "1952728254",
+      "title": "Space Out (An Interlude)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 24933
+    },
+    {
+      "id": "netease-track:209300",
+      "neteaseTrackId": "209300",
+      "title": "Outer Space ,Shuttles And Satellites",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 227760
+    },
+    {
+      "id": "netease-track:209305",
+      "neteaseTrackId": "209305",
+      "title": "Cipher",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 242333
+    },
+    {
+      "id": "netease-track:209307",
+      "neteaseTrackId": "209307",
+      "title": "Everything is About You",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 216866
+    },
+    {
+      "id": "netease-track:209308",
+      "neteaseTrackId": "209308",
+      "title": "You",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 211400
+    },
+    {
+      "id": "netease-track:209309",
+      "neteaseTrackId": "209309",
+      "title": "(Next time Around) I Won’t Feel The Same",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 176506
+    },
+    {
+      "id": "netease-track:209310",
+      "neteaseTrackId": "209310",
+      "title": "The Wicked Signs Of Trying To Be A Superstar",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 227360
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=21290",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "LUCK 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

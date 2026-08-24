@@ -1,0 +1,186 @@
+{
+  "internalId": "album:10772",
+  "id": "album:10772",
+  "neteaseAlbumId": "10772",
+  "slug": "netease-album-10772",
+  "title": "一峰一人一结他2011音乐会 One Magic Day Live",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2012-01-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10772.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10772.webp",
+    "alt": "《一峰一人一结他2011音乐会 One Magic Day Live》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108496",
+      "neteaseTrackId": "108496",
+      "title": "离开是为了回来",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 305373
+    },
+    {
+      "id": "netease-track:108501",
+      "neteaseTrackId": "108501",
+      "title": "回到花开的那天",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:108505",
+      "neteaseTrackId": "108505",
+      "title": "一支烟的时间",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 232458
+    },
+    {
+      "id": "netease-track:108509",
+      "neteaseTrackId": "108509",
+      "title": "Trust",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 213436
+    },
+    {
+      "id": "netease-track:108513",
+      "neteaseTrackId": "108513",
+      "title": "19",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 225906
+    },
+    {
+      "id": "netease-track:108516",
+      "neteaseTrackId": "108516",
+      "title": "Moon Over Bourbon Street",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 278293
+    },
+    {
+      "id": "netease-track:108520",
+      "neteaseTrackId": "108520",
+      "title": "未完舞曲",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 240520
+    },
+    {
+      "id": "netease-track:108524",
+      "neteaseTrackId": "108524",
+      "title": "In Love Again",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 231706
+    },
+    {
+      "id": "netease-track:108529",
+      "neteaseTrackId": "108529",
+      "title": "错得对",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 188284
+    },
+    {
+      "id": "netease-track:108532",
+      "neteaseTrackId": "108532",
+      "title": "雪糕车",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 354480
+    },
+    {
+      "id": "netease-track:108534",
+      "neteaseTrackId": "108534",
+      "title": "The Best is Yet to Come",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 215861
+    },
+    {
+      "id": "netease-track:108537",
+      "neteaseTrackId": "108537",
+      "title": "盛女(Studio Version)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 122954
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=10772",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "一峰一人一结他2011音乐会 One Magic Day Live 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

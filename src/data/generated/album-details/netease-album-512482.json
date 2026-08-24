@@ -1,0 +1,281 @@
+{
+  "internalId": "album:512482",
+  "id": "album:512482",
+  "neteaseAlbumId": "512482",
+  "slug": "netease-album-512482",
+  "title": "星光闪耀迪士尼",
+  "aliases": [
+    "香港迪士尼乐园开幕纪念大碟 / 香港迪士尼乐园之奇妙音乐旅程 "
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6460",
+      "neteaseArtistId": "6460",
+      "name": "张学友"
+    },
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    },
+    {
+      "id": "netease-artist:12985",
+      "neteaseArtistId": "12985",
+      "name": "Twins"
+    },
+    {
+      "id": "netease-artist:10595",
+      "neteaseArtistId": "10595",
+      "name": "郑希怡"
+    },
+    {
+      "id": "netease-artist:8400",
+      "neteaseArtistId": "8400",
+      "name": "梁洛施"
+    },
+    {
+      "id": "netease-artist:2133",
+      "neteaseArtistId": "2133",
+      "name": "陈奂仁"
+    },
+    {
+      "id": "netease-artist:2879",
+      "neteaseArtistId": "2879",
+      "name": "关智斌"
+    },
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    },
+    {
+      "id": "netease-artist:7219",
+      "neteaseArtistId": "7219",
+      "name": "蔡依林"
+    },
+    {
+      "id": "netease-artist:3617",
+      "neteaseArtistId": "3617",
+      "name": "柯有伦"
+    },
+    {
+      "id": "netease-artist:7298",
+      "neteaseArtistId": "7298",
+      "name": "陈晓琪"
+    },
+    {
+      "id": "netease-artist:7235",
+      "neteaseArtistId": "7235",
+      "name": "陈慧琳"
+    },
+    {
+      "id": "netease-artist:5773",
+      "neteaseArtistId": "5773",
+      "name": "谢霆锋"
+    },
+    {
+      "id": "netease-artist:8331",
+      "neteaseArtistId": "8331",
+      "name": "李玟"
+    },
+    {
+      "id": "netease-artist:9269",
+      "neteaseArtistId": "9269",
+      "name": "容祖儿"
+    },
+    {
+      "id": "netease-artist:6075",
+      "neteaseArtistId": "6075",
+      "name": "庾澄庆"
+    }
+  ],
+  "releaseDate": "2005-09-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/512482.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/512482.webp",
+    "alt": "《星光闪耀迪士尼》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5262009",
+      "neteaseTrackId": "5262009",
+      "title": "让奇妙飞翔(粤)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 242333
+    },
+    {
+      "id": "netease-track:5262010",
+      "neteaseTrackId": "5262010",
+      "title": "世界真细小",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Twins",
+        "郑希怡",
+        "梁洛施",
+        "陈奂仁",
+        "关智斌",
+        "Boy’Z"
+      ],
+      "durationMs": 175506
+    },
+    {
+      "id": "netease-track:5262011",
+      "neteaseTrackId": "5262011",
+      "title": "新的世界",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 203000
+    },
+    {
+      "id": "netease-track:5262012",
+      "neteaseTrackId": "5262012",
+      "title": "When You Wish Upon A Star",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 215506
+    },
+    {
+      "id": "netease-track:5262013",
+      "neteaseTrackId": "5262013",
+      "title": "米奇进行曲",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Twins"
+      ],
+      "durationMs": 159000
+    },
+    {
+      "id": "netease-track:5262014",
+      "neteaseTrackId": "5262014",
+      "title": "海洋之心",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡依林",
+        "柯有伦"
+      ],
+      "durationMs": 208986
+    },
+    {
+      "id": "netease-track:5262015",
+      "neteaseTrackId": "5262015",
+      "title": "他约我去迪士尼",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈晓琪",
+        "陈慧琳"
+      ],
+      "durationMs": 226466
+    },
+    {
+      "id": "netease-track:5262016",
+      "neteaseTrackId": "5262016",
+      "title": "基本需要",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "谢霆锋"
+      ],
+      "durationMs": 167090
+    },
+    {
+      "id": "netease-track:5262017",
+      "neteaseTrackId": "5262017",
+      "title": "风之彩",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "李玟"
+      ],
+      "durationMs": 284026
+    },
+    {
+      "id": "netease-track:5262018",
+      "neteaseTrackId": "5262018",
+      "title": "不死的真爱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "容祖儿"
+      ],
+      "durationMs": 202426
+    },
+    {
+      "id": "netease-track:5262019",
+      "neteaseTrackId": "5262019",
+      "title": "影中我",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈慧琳"
+      ],
+      "durationMs": 241120
+    },
+    {
+      "id": "netease-track:5262020",
+      "neteaseTrackId": "5262020",
+      "title": "你是我唯一所爱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "庾澄庆"
+      ],
+      "durationMs": 242509
+    },
+    {
+      "id": "netease-track:5262021",
+      "neteaseTrackId": "5262021",
+      "title": "让奇妙飞翔",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 243037
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=512482",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "星光闪耀迪士尼 香港迪士尼乐园开幕纪念大碟 / 香港迪士尼乐园之奇妙音乐旅程  张学友 陈奕迅 Twins 郑希怡 梁洛施 陈奂仁 关智斌 莫文蔚 蔡依林 柯有伦 陈晓琪 陈慧琳 谢霆锋 李玟 容祖儿 庾澄庆",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

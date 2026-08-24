@@ -1,0 +1,164 @@
+{
+  "internalId": "album:21315",
+  "id": "album:21315",
+  "neteaseAlbumId": "21315",
+  "slug": "netease-album-21315",
+  "title": "让我想一想",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "1998-07-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21315.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21315.webp",
+    "alt": "《让我想一想》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209526",
+      "neteaseTrackId": "209526",
+      "title": "让我想一想",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 228226
+    },
+    {
+      "id": "netease-track:209528",
+      "neteaseTrackId": "209528",
+      "title": "微凉的你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 274373
+    },
+    {
+      "id": "netease-track:209530",
+      "neteaseTrackId": "209530",
+      "title": "会不会",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 261533
+    },
+    {
+      "id": "netease-track:209532",
+      "neteaseTrackId": "209532",
+      "title": "情歌",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 270960
+    },
+    {
+      "id": "netease-track:209534",
+      "neteaseTrackId": "209534",
+      "title": "和你在一起",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 205775
+    },
+    {
+      "id": "netease-track:209536",
+      "neteaseTrackId": "209536",
+      "title": "嫉妒",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 268826
+    },
+    {
+      "id": "netease-track:209538",
+      "neteaseTrackId": "209538",
+      "title": "孤岛",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 252106
+    },
+    {
+      "id": "netease-track:209541",
+      "neteaseTrackId": "209541",
+      "title": "孩子",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 216827
+    },
+    {
+      "id": "netease-track:209543",
+      "neteaseTrackId": "209543",
+      "title": "天使",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 335693
+    },
+    {
+      "id": "netease-track:209545",
+      "neteaseTrackId": "209545",
+      "title": "漫漫长夜",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 336773
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=21315",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "让我想一想 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

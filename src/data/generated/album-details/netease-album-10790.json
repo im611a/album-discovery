@@ -1,0 +1,109 @@
+{
+  "internalId": "album:10790",
+  "id": "album:10790",
+  "neteaseAlbumId": "10790",
+  "slug": "netease-album-10790",
+  "title": "山谷里的音乐",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2009-06-23",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10790.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10790.webp",
+    "alt": "《山谷里的音乐》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108771",
+      "neteaseTrackId": "108771",
+      "title": "两个人的梦呓",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "小娟&山谷里的居民"
+      ],
+      "durationMs": 305373
+    },
+    {
+      "id": "netease-track:108775",
+      "neteaseTrackId": "108775",
+      "title": "那一夜的两支牙刷",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 192549
+    },
+    {
+      "id": "netease-track:108778",
+      "neteaseTrackId": "108778",
+      "title": "一个人的春夏秋冬",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 233091
+    },
+    {
+      "id": "netease-track:108781",
+      "neteaseTrackId": "108781",
+      "title": "离家不远",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "小娟与一峰"
+      ],
+      "durationMs": 200426
+    },
+    {
+      "id": "netease-track:108784",
+      "neteaseTrackId": "108784",
+      "title": "山谷里的晚霞",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "小娟&山谷里的居民"
+      ],
+      "durationMs": 257160
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=10790",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "山谷里的音乐 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

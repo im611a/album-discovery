@@ -1,0 +1,363 @@
+{
+  "internalId": "album:151326",
+  "id": "album:151326",
+  "neteaseAlbumId": "151326",
+  "slug": "janet",
+  "title": "Janet.",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1993-05-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151326.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151326.webp",
+    "alt": "《Janet.》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480537",
+      "neteaseTrackId": "1480537",
+      "title": "Morning",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 31493
+    },
+    {
+      "id": "netease-track:1480543",
+      "neteaseTrackId": "1480543",
+      "title": "That's The Way Love Goes",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 265106
+    },
+    {
+      "id": "netease-track:1480549",
+      "neteaseTrackId": "1480549",
+      "title": "You Know",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 12066
+    },
+    {
+      "id": "netease-track:1480555",
+      "neteaseTrackId": "1480555",
+      "title": "You Want This",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 305666
+    },
+    {
+      "id": "netease-track:1480558",
+      "neteaseTrackId": "1480558",
+      "title": "Be A Good Boy",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 8026
+    },
+    {
+      "id": "netease-track:1480561",
+      "neteaseTrackId": "1480561",
+      "title": "If",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 271640
+    },
+    {
+      "id": "netease-track:1480564",
+      "neteaseTrackId": "1480564",
+      "title": "Back",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 4266
+    },
+    {
+      "id": "netease-track:1480570",
+      "neteaseTrackId": "1480570",
+      "title": "This Time",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 418826
+    },
+    {
+      "id": "netease-track:1480576",
+      "neteaseTrackId": "1480576",
+      "title": "Go On Miss Janet",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 5173
+    },
+    {
+      "id": "netease-track:1480580",
+      "neteaseTrackId": "1480580",
+      "title": "Throb",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 275539
+    },
+    {
+      "id": "netease-track:1480587",
+      "neteaseTrackId": "1480587",
+      "title": "What'll I Do",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 245573
+    },
+    {
+      "id": "netease-track:1480591",
+      "neteaseTrackId": "1480591",
+      "title": "The Lounge",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 15534
+    },
+    {
+      "id": "netease-track:1480596",
+      "neteaseTrackId": "1480596",
+      "title": "Funky Big Band",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 323133
+    },
+    {
+      "id": "netease-track:1480600",
+      "neteaseTrackId": "1480600",
+      "title": "Racism",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 8591
+    },
+    {
+      "id": "netease-track:1480604",
+      "neteaseTrackId": "1480604",
+      "title": "New Agenda",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Chuck D"
+      ],
+      "durationMs": 240533
+    },
+    {
+      "id": "netease-track:1480608",
+      "neteaseTrackId": "1480608",
+      "title": "Love Part 2",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 11586
+    },
+    {
+      "id": "netease-track:1480612",
+      "neteaseTrackId": "1480612",
+      "title": "Because Of Love",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 260906
+    },
+    {
+      "id": "netease-track:1480618",
+      "neteaseTrackId": "1480618",
+      "title": "Wind",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 11470
+    },
+    {
+      "id": "netease-track:1480623",
+      "neteaseTrackId": "1480623",
+      "title": "Again",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 227184
+    },
+    {
+      "id": "netease-track:1480627",
+      "neteaseTrackId": "1480627",
+      "title": "Another Lover",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 11192
+    },
+    {
+      "id": "netease-track:1480631",
+      "neteaseTrackId": "1480631",
+      "title": "Where Are You Now",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 347560
+    },
+    {
+      "id": "netease-track:1480636",
+      "neteaseTrackId": "1480636",
+      "title": "Hold On Baby",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 10402
+    },
+    {
+      "id": "netease-track:1480640",
+      "neteaseTrackId": "1480640",
+      "title": "The Body That Loves You",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 333200
+    },
+    {
+      "id": "netease-track:1480643",
+      "neteaseTrackId": "1480643",
+      "title": "Rain",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 18599
+    },
+    {
+      "id": "netease-track:1480648",
+      "neteaseTrackId": "1480648",
+      "title": "Any Time, Any Place",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 428251
+    },
+    {
+      "id": "netease-track:1480653",
+      "neteaseTrackId": "1480653",
+      "title": "Are You Still Up",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 96571
+    },
+    {
+      "id": "netease-track:1480658",
+      "neteaseTrackId": "1480658",
+      "title": "Sweet Dreams",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 14048
+    },
+    {
+      "id": "netease-track:1347073648",
+      "neteaseTrackId": "1347073648",
+      "title": "Whoops Now",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 299363
+    }
+  ],
+  "trackCount": 28,
+  "externalUrl": "https://music.163.com/#/album?id=151326",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Janet. Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:23942",
+  "id": "album:23942",
+  "neteaseAlbumId": "23942",
+  "slug": "netease-album-23942",
+  "title": "醒了",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2001-05-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "央金玛国际文化传媒(北京)有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23942.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23942.webp",
+    "alt": "《醒了》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238847",
+      "neteaseTrackId": "238847",
+      "title": "醒了",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 213386
+    },
+    {
+      "id": "netease-track:238848",
+      "neteaseTrackId": "238848",
+      "title": "斜当 (藏译) 歌唱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 292986
+    },
+    {
+      "id": "netease-track:238849",
+      "neteaseTrackId": "238849",
+      "title": "那片海",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 268800
+    },
+    {
+      "id": "netease-track:238850",
+      "neteaseTrackId": "238850",
+      "title": "你不会回来",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 265120
+    },
+    {
+      "id": "netease-track:238851",
+      "neteaseTrackId": "238851",
+      "title": "天空",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 309853
+    },
+    {
+      "id": "netease-track:238852",
+      "neteaseTrackId": "238852",
+      "title": "穿行",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 301186
+    },
+    {
+      "id": "netease-track:238853",
+      "neteaseTrackId": "238853",
+      "title": "那个冬季",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 285120
+    },
+    {
+      "id": "netease-track:238854",
+      "neteaseTrackId": "238854",
+      "title": "雪",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 303666
+    },
+    {
+      "id": "netease-track:238855",
+      "neteaseTrackId": "238855",
+      "title": "天亮了",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 222266
+    },
+    {
+      "id": "netease-track:238856",
+      "neteaseTrackId": "238856",
+      "title": "青藏高原",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 204506
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=23942",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "醒了 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

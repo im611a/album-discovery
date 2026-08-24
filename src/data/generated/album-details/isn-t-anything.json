@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1963621",
+  "id": "album:1963621",
+  "neteaseAlbumId": "1963621",
+  "slug": "isn-t-anything",
+  "title": "Isn’t Anything",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:96273",
+      "neteaseArtistId": "96273",
+      "name": "My Bloody Valentine"
+    }
+  ],
+  "releaseDate": "1988-11-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Domino Recording Co",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1963621.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1963621.webp",
+    "alt": "《Isn’t Anything》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21251564",
+      "neteaseTrackId": "21251564",
+      "title": "Soft As Snow (But Warm Inside)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 141226
+    },
+    {
+      "id": "netease-track:21251565",
+      "neteaseTrackId": "21251565",
+      "title": "Lose My Breath",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:21251566",
+      "neteaseTrackId": "21251566",
+      "title": "Cupid Come",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 269813
+    },
+    {
+      "id": "netease-track:21251567",
+      "neteaseTrackId": "21251567",
+      "title": "(When You Wake) You’re Still In A Dream",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 198640
+    },
+    {
+      "id": "netease-track:21251568",
+      "neteaseTrackId": "21251568",
+      "title": "No More Sorry",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 167800
+    },
+    {
+      "id": "netease-track:21251569",
+      "neteaseTrackId": "21251569",
+      "title": "All I Need",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 185026
+    },
+    {
+      "id": "netease-track:21251570",
+      "neteaseTrackId": "21251570",
+      "title": "Feed Me With Your Kiss",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 234933
+    },
+    {
+      "id": "netease-track:21251571",
+      "neteaseTrackId": "21251571",
+      "title": "Sueisfine",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 132946
+    },
+    {
+      "id": "netease-track:21251572",
+      "neteaseTrackId": "21251572",
+      "title": "Several Girls Galore",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 141160
+    },
+    {
+      "id": "netease-track:21251573",
+      "neteaseTrackId": "21251573",
+      "title": "You Never Should",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 203040
+    },
+    {
+      "id": "netease-track:21251574",
+      "neteaseTrackId": "21251574",
+      "title": "Nothing Much To Lose",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 197706
+    },
+    {
+      "id": "netease-track:21251575",
+      "neteaseTrackId": "21251575",
+      "title": "I Can See It (But I Can’t Feel It)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 192680
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1963621",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Isn’t Anything My Bloody Valentine",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

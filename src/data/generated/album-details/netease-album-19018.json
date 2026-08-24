@@ -1,0 +1,220 @@
+{
+  "internalId": "album:19018",
+  "id": "album:19018",
+  "neteaseAlbumId": "19018",
+  "slug": "netease-album-19018",
+  "title": "侬本多情",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1999-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19018.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19018.webp",
+    "alt": "《侬本多情》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187618",
+      "neteaseTrackId": "187618",
+      "title": "侬本多情",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 226214
+    },
+    {
+      "id": "netease-track:187623",
+      "neteaseTrackId": "187623",
+      "title": "一盏小明灯",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 144146
+    },
+    {
+      "id": "netease-track:187627",
+      "neteaseTrackId": "187627",
+      "title": "这刻相见后",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247641
+    },
+    {
+      "id": "netease-track:187630",
+      "neteaseTrackId": "187630",
+      "title": "那一记耳光",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 130186
+    },
+    {
+      "id": "netease-track:187632",
+      "neteaseTrackId": "187632",
+      "title": "全身都是爱",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 176226
+    },
+    {
+      "id": "netease-track:187635",
+      "neteaseTrackId": "187635",
+      "title": "一片痴",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 222333
+    },
+    {
+      "id": "netease-track:187638",
+      "neteaseTrackId": "187638",
+      "title": "谁负了谁",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 279902
+    },
+    {
+      "id": "netease-track:187642",
+      "neteaseTrackId": "187642",
+      "title": "为你钟情",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 242746
+    },
+    {
+      "id": "netease-track:187646",
+      "neteaseTrackId": "187646",
+      "title": "柔情蜜意",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 185426
+    },
+    {
+      "id": "netease-track:187650",
+      "neteaseTrackId": "187650",
+      "title": "分手",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 245533
+    },
+    {
+      "id": "netease-track:187654",
+      "neteaseTrackId": "187654",
+      "title": "共您离别",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 225520
+    },
+    {
+      "id": "netease-track:187658",
+      "neteaseTrackId": "187658",
+      "title": "恋爱交叉",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 181000
+    },
+    {
+      "id": "netease-track:187662",
+      "neteaseTrackId": "187662",
+      "title": "不怕寂寞",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 271613
+    },
+    {
+      "id": "netease-track:187666",
+      "neteaseTrackId": "187666",
+      "title": "风继续吹",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 311640
+    },
+    {
+      "id": "netease-track:187670",
+      "neteaseTrackId": "187670",
+      "title": "缘份",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "梅艳芳"
+      ],
+      "durationMs": 211786
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=19018",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "侬本多情 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

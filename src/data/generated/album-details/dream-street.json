@@ -1,0 +1,155 @@
+{
+  "internalId": "album:151356",
+  "id": "album:151356",
+  "neteaseAlbumId": "151356",
+  "slug": "dream-street",
+  "title": "Dream Street",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1983-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "A&M",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151356.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151356.webp",
+    "alt": "《Dream Street》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1481055",
+      "neteaseTrackId": "1481055",
+      "title": "Don't Stand Another Chance",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Michael Jackson"
+      ],
+      "durationMs": 257369
+    },
+    {
+      "id": "netease-track:1481060",
+      "neteaseTrackId": "1481060",
+      "title": "Two to the Power of Love",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Cliff Richard"
+      ],
+      "durationMs": 188360
+    },
+    {
+      "id": "netease-track:1481066",
+      "neteaseTrackId": "1481066",
+      "title": "Pretty Boy",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 396527
+    },
+    {
+      "id": "netease-track:1481071",
+      "neteaseTrackId": "1481071",
+      "title": "Dream Street",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 232973
+    },
+    {
+      "id": "netease-track:1481076",
+      "neteaseTrackId": "1481076",
+      "title": "Communication",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 196066
+    },
+    {
+      "id": "netease-track:1481080",
+      "neteaseTrackId": "1481080",
+      "title": "Fast Girls",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 200626
+    },
+    {
+      "id": "netease-track:1481084",
+      "neteaseTrackId": "1481084",
+      "title": "Hold Back the Tears",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 195651
+    },
+    {
+      "id": "netease-track:1481088",
+      "neteaseTrackId": "1481088",
+      "title": "All My Love to You",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 346464
+    },
+    {
+      "id": "netease-track:1481092",
+      "neteaseTrackId": "1481092",
+      "title": "If It Takes All Night",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 248040
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=151356",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dream Street Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

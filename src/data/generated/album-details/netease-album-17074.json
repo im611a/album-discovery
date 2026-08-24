@@ -1,0 +1,208 @@
+{
+  "internalId": "album:17074",
+  "id": "album:17074",
+  "neteaseAlbumId": "17074",
+  "slug": "netease-album-17074",
+  "title": "未完成的歌",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5781",
+      "neteaseArtistId": "5781",
+      "name": "薛之谦"
+    }
+  ],
+  "releaseDate": "2009-12-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "潮石音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/17074.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/17074.webp",
+    "alt": "《未完成的歌》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:169152",
+      "neteaseTrackId": "169152",
+      "title": "未完成的歌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 260373
+    },
+    {
+      "id": "netease-track:169156",
+      "neteaseTrackId": "169156",
+      "title": "我的雅典娜",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 222920
+    },
+    {
+      "id": "netease-track:169159",
+      "neteaseTrackId": "169159",
+      "title": "传说",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 272880
+    },
+    {
+      "id": "netease-track:169162",
+      "neteaseTrackId": "169162",
+      "title": "马戏小丑",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 296906
+    },
+    {
+      "id": "netease-track:169165",
+      "neteaseTrackId": "169165",
+      "title": "你过得好吗",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 265253
+    },
+    {
+      "id": "netease-track:169168",
+      "neteaseTrackId": "169168",
+      "title": "红尘女子",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 285813
+    },
+    {
+      "id": "netease-track:169171",
+      "neteaseTrackId": "169171",
+      "title": "Memory",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 298706
+    },
+    {
+      "id": "netease-track:169174",
+      "neteaseTrackId": "169174",
+      "title": "倾城",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 234160
+    },
+    {
+      "id": "netease-track:169176",
+      "neteaseTrackId": "169176",
+      "title": "我们的世界",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 257800
+    },
+    {
+      "id": "netease-track:169178",
+      "neteaseTrackId": "169178",
+      "title": "给我的爱人",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 288467
+    },
+    {
+      "id": "netease-track:169180",
+      "neteaseTrackId": "169180",
+      "title": "爱的期限",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 260866
+    },
+    {
+      "id": "netease-track:169183",
+      "neteaseTrackId": "169183",
+      "title": "黄色枫叶",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 254306
+    },
+    {
+      "id": "netease-track:169185",
+      "neteaseTrackId": "169185",
+      "title": "认真的雪",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 255587
+    },
+    {
+      "id": "netease-track:169188",
+      "neteaseTrackId": "169188",
+      "title": "爱我的人 谢谢你",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 235466
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=17074",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "未完成的歌 薛之谦",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

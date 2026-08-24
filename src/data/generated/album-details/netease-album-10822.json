@@ -1,0 +1,165 @@
+{
+  "internalId": "album:10822",
+  "id": "album:10822",
+  "neteaseAlbumId": "10822",
+  "slug": "netease-album-10822",
+  "title": "不，完美",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3689",
+      "neteaseArtistId": "3689",
+      "name": "李玖哲"
+    }
+  ],
+  "releaseDate": "2008-08-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10822.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10822.webp",
+    "alt": "《不，完美》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109158",
+      "neteaseTrackId": "109158",
+      "title": "苍天",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:109161",
+      "neteaseTrackId": "109161",
+      "title": "别说",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 201720
+    },
+    {
+      "id": "netease-track:109164",
+      "neteaseTrackId": "109164",
+      "title": "不，完美",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 220706
+    },
+    {
+      "id": "netease-track:109168",
+      "neteaseTrackId": "109168",
+      "title": "不只是场梦",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:109171",
+      "neteaseTrackId": "109171",
+      "title": "坏习惯",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:109174",
+      "neteaseTrackId": "109174",
+      "title": "死结",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 274653
+    },
+    {
+      "id": "netease-track:109176",
+      "neteaseTrackId": "109176",
+      "title": "顽皮鬼",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:109179",
+      "neteaseTrackId": "109179",
+      "title": "你不懂我的明白",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:109181",
+      "neteaseTrackId": "109181",
+      "title": "Forever",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:109184",
+      "neteaseTrackId": "109184",
+      "title": "预感",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲",
+        "李冰冰"
+      ],
+      "durationMs": 197976
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=10822",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "不，完美 李玖哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

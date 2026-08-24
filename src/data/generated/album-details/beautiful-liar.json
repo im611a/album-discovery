@@ -1,0 +1,142 @@
+{
+  "internalId": "album:220768",
+  "id": "album:220768",
+  "neteaseAlbumId": "220768",
+  "slug": "beautiful-liar",
+  "title": "Beautiful Liar",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    },
+    {
+      "id": "netease-artist:74623",
+      "neteaseArtistId": "74623",
+      "name": "Shakira"
+    }
+  ],
+  "releaseDate": "2007-03-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220768.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220768.webp",
+    "alt": "《Beautiful Liar》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188802",
+      "neteaseTrackId": "2188802",
+      "title": "Beautiful Liar (Main Version / Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Shakira"
+      ],
+      "durationMs": 201572
+    },
+    {
+      "id": "netease-track:2188807",
+      "neteaseTrackId": "2188807",
+      "title": "Beautiful Liar (Bello Embustero) (Spanish Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 200875
+    },
+    {
+      "id": "netease-track:2188812",
+      "neteaseTrackId": "2188812",
+      "title": "Beautiful Liar (Spanglish Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sasha",
+        "Beyoncé"
+      ],
+      "durationMs": 199482
+    },
+    {
+      "id": "netease-track:2188817",
+      "neteaseTrackId": "2188817",
+      "title": "Beautiful Liar (Instrumental)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 199250
+    },
+    {
+      "id": "netease-track:2188821",
+      "neteaseTrackId": "2188821",
+      "title": "Beautiful Liar (Freemasons Remix Edit)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Shakira",
+        "Freemasons"
+      ],
+      "durationMs": 451976
+    },
+    {
+      "id": "netease-track:2188825",
+      "neteaseTrackId": "2188825",
+      "title": "Irreplaceable (Maurice Joshua Remix Edit)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Maurice Joshua"
+      ],
+      "durationMs": 426805
+    },
+    {
+      "id": "netease-track:2188829",
+      "neteaseTrackId": "2188829",
+      "title": "Déjà Vu (Freemasons Radio Mix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Freemasons"
+      ],
+      "durationMs": 195000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=220768",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Beautiful Liar Beyoncé Shakira",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

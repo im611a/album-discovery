@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1574644",
+  "id": "album:1574644",
+  "neteaseAlbumId": "1574644",
+  "slug": "sound-mirrors",
+  "title": "Sound Mirrors",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:50946",
+      "neteaseArtistId": "50946",
+      "name": "Coldcut"
+    }
+  ],
+  "releaseDate": "2006-02-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Ninja Tune",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1574644.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1574644.webp",
+    "alt": "《Sound Mirrors》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17084364",
+      "neteaseTrackId": "17084364",
+      "title": "Man In A Garage",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 207826
+    },
+    {
+      "id": "netease-track:17084365",
+      "neteaseTrackId": "17084365",
+      "title": "True Skool",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 214066
+    },
+    {
+      "id": "netease-track:17084366",
+      "neteaseTrackId": "17084366",
+      "title": "Just For The Kick",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 306360
+    },
+    {
+      "id": "netease-track:17084367",
+      "neteaseTrackId": "17084367",
+      "title": "Walk A Mile In My Shoes",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 308480
+    },
+    {
+      "id": "netease-track:17084368",
+      "neteaseTrackId": "17084368",
+      "title": "Mr Nichols",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 345013
+    },
+    {
+      "id": "netease-track:17084369",
+      "neteaseTrackId": "17084369",
+      "title": "A Whistle And A Prayer",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 355466
+    },
+    {
+      "id": "netease-track:17084370",
+      "neteaseTrackId": "17084370",
+      "title": "Everything Is Under Control",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 216186
+    },
+    {
+      "id": "netease-track:17084371",
+      "neteaseTrackId": "17084371",
+      "title": "Boogie Man",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 229200
+    },
+    {
+      "id": "netease-track:17084372",
+      "neteaseTrackId": "17084372",
+      "title": "Aid Dealer",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 253813
+    },
+    {
+      "id": "netease-track:17084373",
+      "neteaseTrackId": "17084373",
+      "title": "This Island Earth",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 254720
+    },
+    {
+      "id": "netease-track:17084374",
+      "neteaseTrackId": "17084374",
+      "title": "Colors The Soul",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 259013
+    },
+    {
+      "id": "netease-track:17084375",
+      "neteaseTrackId": "17084375",
+      "title": "Sound Mirrors",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 359386
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1574644",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sound Mirrors Coldcut",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

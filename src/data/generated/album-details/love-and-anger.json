@@ -1,0 +1,98 @@
+{
+  "internalId": "album:290051",
+  "id": "album:290051",
+  "neteaseAlbumId": "290051",
+  "slug": "love-and-anger",
+  "title": "Love And Anger",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "1990-02-25",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/290051.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/290051.webp",
+    "alt": "《Love And Anger》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2872460",
+      "neteaseTrackId": "2872460",
+      "title": "Love And Anger (Single Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 278047
+    },
+    {
+      "id": "netease-track:2872463",
+      "neteaseTrackId": "2872463",
+      "title": "Ken",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 230000
+    },
+    {
+      "id": "netease-track:2872466",
+      "neteaseTrackId": "2872466",
+      "title": "The Confrontation",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 178000
+    },
+    {
+      "id": "netease-track:2872469",
+      "neteaseTrackId": "2872469",
+      "title": "One Last Look Around The House Before We Go…",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 64000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=290051",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Love And Anger Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

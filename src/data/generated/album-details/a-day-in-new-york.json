@@ -1,0 +1,191 @@
+{
+  "internalId": "album:317732",
+  "id": "album:317732",
+  "neteaseAlbumId": "317732",
+  "slug": "a-day-in-new-york",
+  "title": "A Day in New York",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    },
+    {
+      "id": "netease-artist:13674247",
+      "neteaseArtistId": "13674247",
+      "name": "MORELENBAUM2"
+    }
+  ],
+  "releaseDate": "2003-03-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KAB America Inc.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/317732.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/317732.webp",
+    "alt": "《A Day in New York》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3141685",
+      "neteaseTrackId": "3141685",
+      "title": "Desafinado",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 243066
+    },
+    {
+      "id": "netease-track:3141688",
+      "neteaseTrackId": "3141688",
+      "title": "Bim Bom",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 133093
+    },
+    {
+      "id": "netease-track:3141693",
+      "neteaseTrackId": "3141693",
+      "title": "Insensatez",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 261266
+    },
+    {
+      "id": "netease-track:3141696",
+      "neteaseTrackId": "3141696",
+      "title": "Coraçao Vagabundo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 251866
+    },
+    {
+      "id": "netease-track:3141699",
+      "neteaseTrackId": "3141699",
+      "title": "Falando De Amor",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 230000
+    },
+    {
+      "id": "netease-track:3141701",
+      "neteaseTrackId": "3141701",
+      "title": "Chora Coraçao",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 210333
+    },
+    {
+      "id": "netease-track:3141704",
+      "neteaseTrackId": "3141704",
+      "title": "Sabià",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 296400
+    },
+    {
+      "id": "netease-track:3141708",
+      "neteaseTrackId": "3141708",
+      "title": "Tango (Versao Em Português)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 336106
+    },
+    {
+      "id": "netease-track:3141711",
+      "neteaseTrackId": "3141711",
+      "title": "Chega De Saudade",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 196266
+    },
+    {
+      "id": "netease-track:3141713",
+      "neteaseTrackId": "3141713",
+      "title": "Samba De Aviao",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 287626
+    },
+    {
+      "id": "netease-track:3141716",
+      "neteaseTrackId": "3141716",
+      "title": "Fotografia",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "MORELENBAUM2"
+      ],
+      "durationMs": 276600
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=317732",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "A Day in New York 坂本龍一 MORELENBAUM2",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

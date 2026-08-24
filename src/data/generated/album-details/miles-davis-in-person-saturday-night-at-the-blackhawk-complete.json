@@ -1,0 +1,230 @@
+{
+  "internalId": "album:1970566",
+  "id": "album:1970566",
+  "neteaseAlbumId": "1970566",
+  "slug": "miles-davis-in-person-saturday-night-at-the-blackhawk-complete",
+  "title": "Miles Davis - In Person Saturday Night At The Blackhawk, Complete",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1961-04-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970566.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970566.webp",
+    "alt": "《Miles Davis - In Person Saturday Night At The Blackhawk, Complete》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21340478",
+      "neteaseTrackId": "21340478",
+      "title": "If I Were A Bell (Live Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 764493
+    },
+    {
+      "id": "netease-track:21340479",
+      "neteaseTrackId": "21340479",
+      "title": "So What (Live Album Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 734902
+    },
+    {
+      "id": "netease-track:21340480",
+      "neteaseTrackId": "21340480",
+      "title": "No Blues (Live Album Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 27141
+    },
+    {
+      "id": "netease-track:21340481",
+      "neteaseTrackId": "21340481",
+      "title": "On Green Dolphin Street (Live Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 724662
+    },
+    {
+      "id": "netease-track:21340482",
+      "neteaseTrackId": "21340482",
+      "title": "Walkin' (Live Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 743990
+    },
+    {
+      "id": "netease-track:21340483",
+      "neteaseTrackId": "21340483",
+      "title": "'Round Midnight (Live Album Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 449358
+    },
+    {
+      "id": "netease-track:21340484",
+      "neteaseTrackId": "21340484",
+      "title": "Well You Needn't (Live Album Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 482417
+    },
+    {
+      "id": "netease-track:21340485",
+      "neteaseTrackId": "21340485",
+      "title": "The Theme (Live Album Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 18337
+    },
+    {
+      "id": "netease-track:21340486",
+      "neteaseTrackId": "21340486",
+      "title": "Autumn Leaves (Live Album Version)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 705253
+    },
+    {
+      "id": "netease-track:21340487",
+      "neteaseTrackId": "21340487",
+      "title": "Neo (Live Album Version)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 749191
+    },
+    {
+      "id": "netease-track:21340488",
+      "neteaseTrackId": "21340488",
+      "title": "Two Bass Hit (Live Album Version)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:21340489",
+      "neteaseTrackId": "21340489",
+      "title": "Bye Bye (Theme) (Live Album Version)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 207281
+    },
+    {
+      "id": "netease-track:21340490",
+      "neteaseTrackId": "21340490",
+      "title": "Love, I've Found You (Live Album Version)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 115487
+    },
+    {
+      "id": "netease-track:21340491",
+      "neteaseTrackId": "21340491",
+      "title": "I Thought About You (Live Album Version)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 331624
+    },
+    {
+      "id": "netease-track:21340492",
+      "neteaseTrackId": "21340492",
+      "title": "Someday My Prince Will Come (Live Album Version)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 578933
+    },
+    {
+      "id": "netease-track:21340493",
+      "neteaseTrackId": "21340493",
+      "title": "Softly as in a Morning Sunrise (Live Album Version)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 521079
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=1970566",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Davis - In Person Saturday Night At The Blackhawk, Complete Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

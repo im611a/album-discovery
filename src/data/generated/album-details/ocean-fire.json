@@ -1,0 +1,144 @@
+{
+  "internalId": "album:123111",
+  "id": "album:123111",
+  "neteaseAlbumId": "123111",
+  "slug": "ocean-fire",
+  "title": "Ocean Fire",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:30338",
+      "neteaseArtistId": "30338",
+      "name": "Christopher Willits"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2007-10-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/123111.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/123111.webp",
+    "alt": "《Ocean Fire》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1187708",
+      "neteaseTrackId": "1187708",
+      "title": "Toward Water",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 491520
+    },
+    {
+      "id": "netease-track:1187712",
+      "neteaseTrackId": "1187712",
+      "title": "Umi",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 176000
+    },
+    {
+      "id": "netease-track:1187716",
+      "neteaseTrackId": "1187716",
+      "title": "Sea Plains",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 543186
+    },
+    {
+      "id": "netease-track:1187719",
+      "neteaseTrackId": "1187719",
+      "title": "Sentience",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 497413
+    },
+    {
+      "id": "netease-track:1187723",
+      "neteaseTrackId": "1187723",
+      "title": "Chi-Yu",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 509706
+    },
+    {
+      "id": "netease-track:1187727",
+      "neteaseTrackId": "1187727",
+      "title": "Cold Heat",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 466253
+    },
+    {
+      "id": "netease-track:1187732",
+      "neteaseTrackId": "1187732",
+      "title": "Ocean Sky Remains",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Christopher Willits",
+        "坂本龍一"
+      ],
+      "durationMs": 679986
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=123111",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ocean Fire Christopher Willits 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

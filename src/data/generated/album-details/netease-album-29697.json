@@ -1,0 +1,275 @@
+{
+  "internalId": "album:29697",
+  "id": "album:29697",
+  "neteaseAlbumId": "29697",
+  "slug": "netease-album-29697",
+  "title": "王菲音乐盒",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2000-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29697.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29697.webp",
+    "alt": "《王菲音乐盒》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:299547",
+      "neteaseTrackId": "299547",
+      "title": "约定(伴奏)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 178398
+    },
+    {
+      "id": "netease-track:299549",
+      "neteaseTrackId": "299549",
+      "title": "暗涌(伴奏)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 178050
+    },
+    {
+      "id": "netease-track:299551",
+      "neteaseTrackId": "299551",
+      "title": "执迷不悔(伴奏)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 181394
+    },
+    {
+      "id": "netease-track:299553",
+      "neteaseTrackId": "299553",
+      "title": "爱与痛的边缘(伴奏)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 176564
+    },
+    {
+      "id": "netease-track:299555",
+      "neteaseTrackId": "299555",
+      "title": "容易受伤的女人(伴奏)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 158220
+    },
+    {
+      "id": "netease-track:299557",
+      "neteaseTrackId": "299557",
+      "title": "但愿人长久(伴奏)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 187733
+    },
+    {
+      "id": "netease-track:299559",
+      "neteaseTrackId": "299559",
+      "title": "静夜的单簧管(伴奏)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 173244
+    },
+    {
+      "id": "netease-track:299561",
+      "neteaseTrackId": "299561",
+      "title": "堕落(伴奏)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 166208
+    },
+    {
+      "id": "netease-track:299563",
+      "neteaseTrackId": "299563",
+      "title": "棋子(伴奏)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 145403
+    },
+    {
+      "id": "netease-track:299565",
+      "neteaseTrackId": "299565",
+      "title": "迷路(伴奏)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 123901
+    },
+    {
+      "id": "netease-track:299567",
+      "neteaseTrackId": "299567",
+      "title": "无奈那天(伴奏)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 168878
+    },
+    {
+      "id": "netease-track:299569",
+      "neteaseTrackId": "299569",
+      "title": "季候风(伴奏)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 157733
+    },
+    {
+      "id": "netease-track:299571",
+      "neteaseTrackId": "299571",
+      "title": "如风(伴奏)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 144729
+    },
+    {
+      "id": "netease-track:299573",
+      "neteaseTrackId": "299573",
+      "title": "中间人(伴奏)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 168066
+    },
+    {
+      "id": "netease-track:299575",
+      "neteaseTrackId": "299575",
+      "title": "藉口(伴奏)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 167555
+    },
+    {
+      "id": "netease-track:299577",
+      "neteaseTrackId": "299577",
+      "title": "天与地(伴奏)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 180395
+    },
+    {
+      "id": "netease-track:299579",
+      "neteaseTrackId": "299579",
+      "title": "守时(伴奏)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 130542
+    },
+    {
+      "id": "netease-track:299581",
+      "neteaseTrackId": "299581",
+      "title": "暧昧(伴奏)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 137717
+    },
+    {
+      "id": "netease-track:299583",
+      "neteaseTrackId": "299583",
+      "title": "背影(伴奏)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 184900
+    },
+    {
+      "id": "netease-track:299585",
+      "neteaseTrackId": "299585",
+      "title": "My Loneliness(伴奏)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 123924
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=29697",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "王菲音乐盒 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

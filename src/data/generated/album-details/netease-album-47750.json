@@ -1,0 +1,164 @@
+{
+  "internalId": "album:47750",
+  "id": "album:47750",
+  "neteaseAlbumId": "47750",
+  "slug": "netease-album-47750",
+  "title": "坂本龍一コレクション",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1999-11-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47750.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47750.webp",
+    "alt": "《坂本龍一コレクション》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:500399",
+      "neteaseTrackId": "500399",
+      "title": "energy flow (Originally performed by 坂本龍一)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 285400
+    },
+    {
+      "id": "netease-track:500405",
+      "neteaseTrackId": "500405",
+      "title": "鉄道員 (Originally performed by 坂本龍一)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 304226
+    },
+    {
+      "id": "netease-track:500410",
+      "neteaseTrackId": "500410",
+      "title": "Put Your Hands Up (Originally performed by 坂本龍一)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 304066
+    },
+    {
+      "id": "netease-track:500415",
+      "neteaseTrackId": "500415",
+      "title": "ラスト・エンペラー (Originally performed by 坂本龍一)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 252440
+    },
+    {
+      "id": "netease-track:500420",
+      "neteaseTrackId": "500420",
+      "title": "ザ・シェルタリング・スカイ (Originally performed by 坂本龍一)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 292800
+    },
+    {
+      "id": "netease-track:500424",
+      "neteaseTrackId": "500424",
+      "title": "The Other Side of Love (Originally performed by 坂本龍一)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 279093
+    },
+    {
+      "id": "netease-track:500428",
+      "neteaseTrackId": "500428",
+      "title": "MIND CIRCUS (Originally performed by 坂本龍一)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 293640
+    },
+    {
+      "id": "netease-track:500433",
+      "neteaseTrackId": "500433",
+      "title": "子猫物語 (Originally performed by 坂本龍一)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 247266
+    },
+    {
+      "id": "netease-track:500438",
+      "neteaseTrackId": "500438",
+      "title": "aqua (Originally performed by 坂本龍一)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 276933
+    },
+    {
+      "id": "netease-track:500443",
+      "neteaseTrackId": "500443",
+      "title": "メリー・クリスマス・ミスター・ローレンス (Originally performed by 坂本龍一)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 300800
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=47750",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "坂本龍一コレクション 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

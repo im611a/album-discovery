@@ -1,0 +1,256 @@
+{
+  "internalId": "album:489957",
+  "id": "album:489957",
+  "neteaseAlbumId": "489957",
+  "slug": "netease-album-489957",
+  "title": "天下无贼 电影原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5641",
+      "neteaseArtistId": "5641",
+      "name": "王黎光"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    },
+    {
+      "id": "netease-artist:6068",
+      "neteaseArtistId": "6068",
+      "name": "杨坤"
+    },
+    {
+      "id": "netease-artist:17479",
+      "neteaseArtistId": "17479",
+      "name": "小野リサ"
+    }
+  ],
+  "releaseDate": "2004-12-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/489957.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/489957.webp",
+    "alt": "《天下无贼 电影原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4875708",
+      "neteaseTrackId": "4875708",
+      "title": "开篇.天地佛门",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 180840
+    },
+    {
+      "id": "netease-track:4875709",
+      "neteaseTrackId": "4875709",
+      "title": "良心发现",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 62933
+    },
+    {
+      "id": "netease-track:4875710",
+      "neteaseTrackId": "4875710",
+      "title": "傻根与狼的对话",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 50574
+    },
+    {
+      "id": "netease-track:4875711",
+      "neteaseTrackId": "4875711",
+      "title": "初识傻根",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 122920
+    },
+    {
+      "id": "netease-track:4875712",
+      "neteaseTrackId": "4875712",
+      "title": "舞曲(比武)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 79306
+    },
+    {
+      "id": "netease-track:4875713",
+      "neteaseTrackId": "4875713",
+      "title": "偷天神手",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 184387
+    },
+    {
+      "id": "netease-track:4875714",
+      "neteaseTrackId": "4875714",
+      "title": "警界名单",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 121840
+    },
+    {
+      "id": "netease-track:4875715",
+      "neteaseTrackId": "4875715",
+      "title": "舞曲(较量)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 52013
+    },
+    {
+      "id": "netease-track:4875716",
+      "neteaseTrackId": "4875716",
+      "title": "狼之初 性心善",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 226840
+    },
+    {
+      "id": "netease-track:4875717",
+      "neteaseTrackId": "4875717",
+      "title": "群贼车顶大比拼",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 184986
+    },
+    {
+      "id": "netease-track:4875718",
+      "neteaseTrackId": "4875718",
+      "title": "调色",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 160840
+    },
+    {
+      "id": "netease-track:4875719",
+      "neteaseTrackId": "4875719",
+      "title": "舞曲(比拼)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 26644
+    },
+    {
+      "id": "netease-track:4875720",
+      "neteaseTrackId": "4875720",
+      "title": "良心的觉悟",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 98827
+    },
+    {
+      "id": "netease-track:4875721",
+      "neteaseTrackId": "4875721",
+      "title": "良心的力量",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王黎光"
+      ],
+      "durationMs": 82960
+    },
+    {
+      "id": "netease-track:4875722",
+      "neteaseTrackId": "4875722",
+      "title": "那一天",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "杨坤"
+      ],
+      "durationMs": 304080
+    },
+    {
+      "id": "netease-track:4875723",
+      "neteaseTrackId": "4875723",
+      "title": "知道不知道？",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 253334
+    },
+    {
+      "id": "netease-track:4875724",
+      "neteaseTrackId": "4875724",
+      "title": "La Vie En Rose",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "小野リサ"
+      ],
+      "durationMs": 283827
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=489957",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "天下无贼 电影原声带 王黎光 刘若英 杨坤 小野リサ",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

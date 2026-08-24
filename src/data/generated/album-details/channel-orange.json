@@ -1,0 +1,244 @@
+{
+  "internalId": "album:1631862",
+  "id": "album:1631862",
+  "neteaseAlbumId": "1631862",
+  "slug": "channel-orange",
+  "title": "channel ORANGE",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:33727",
+      "neteaseArtistId": "33727",
+      "name": "Frank Ocean"
+    }
+  ],
+  "releaseDate": "2012-07-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Red Zone Entertainment / IDJ",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1631862.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1631862.webp",
+    "alt": "《channel ORANGE》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17724525",
+      "neteaseTrackId": "17724525",
+      "title": "Start (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 45640
+    },
+    {
+      "id": "netease-track:17724526",
+      "neteaseTrackId": "17724526",
+      "title": "Thinkin Bout You (Spring Sampler / 2012)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 200750
+    },
+    {
+      "id": "netease-track:17724527",
+      "neteaseTrackId": "17724527",
+      "title": "Fertilizer (Album Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 39640
+    },
+    {
+      "id": "netease-track:17724528",
+      "neteaseTrackId": "17724528",
+      "title": "Sierra Leone (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 148760
+    },
+    {
+      "id": "netease-track:17724529",
+      "neteaseTrackId": "17724529",
+      "title": "Sweet Life (Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 262680
+    },
+    {
+      "id": "netease-track:17724530",
+      "neteaseTrackId": "17724530",
+      "title": "Not Just Money (Album Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 59760
+    },
+    {
+      "id": "netease-track:17724531",
+      "neteaseTrackId": "17724531",
+      "title": "Super Rich Kids (Album Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean",
+        "Earl Sweatshirt"
+      ],
+      "durationMs": 304760
+    },
+    {
+      "id": "netease-track:17724532",
+      "neteaseTrackId": "17724532",
+      "title": "Pilot Jones (Album Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 184080
+    },
+    {
+      "id": "netease-track:17724533",
+      "neteaseTrackId": "17724533",
+      "title": "Crack Rock (Album Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 224150
+    },
+    {
+      "id": "netease-track:17724534",
+      "neteaseTrackId": "17724534",
+      "title": "Pyramids (Album Version)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 592920
+    },
+    {
+      "id": "netease-track:17724535",
+      "neteaseTrackId": "17724535",
+      "title": "Lost (Album Version)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 234100
+    },
+    {
+      "id": "netease-track:17724536",
+      "neteaseTrackId": "17724536",
+      "title": "White (Album Version)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean",
+        "John Mayer"
+      ],
+      "durationMs": 76280
+    },
+    {
+      "id": "netease-track:17724537",
+      "neteaseTrackId": "17724537",
+      "title": "Monks (Album Version)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 200240
+    },
+    {
+      "id": "netease-track:17724538",
+      "neteaseTrackId": "17724538",
+      "title": "Bad Religion (Album Version)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 175460
+    },
+    {
+      "id": "netease-track:17724539",
+      "neteaseTrackId": "17724539",
+      "title": "Pink Matter (Album Version)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean",
+        "André 3000"
+      ],
+      "durationMs": 268820
+    },
+    {
+      "id": "netease-track:17724540",
+      "neteaseTrackId": "17724540",
+      "title": "Forrest Gump (Album Version)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 194840
+    },
+    {
+      "id": "netease-track:17724541",
+      "neteaseTrackId": "17724541",
+      "title": "End (Album Version)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Frank Ocean"
+      ],
+      "durationMs": 134600
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=1631862",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "channel ORANGE Frank Ocean",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

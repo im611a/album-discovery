@@ -1,0 +1,193 @@
+{
+  "internalId": "album:1970268",
+  "id": "album:1970268",
+  "neteaseAlbumId": "1970268",
+  "slug": "es-brew-legacy-edition",
+  "title": "*****es Brew (Legacy Edition)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2010-08-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970268.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970268.webp",
+    "alt": "《*****es Brew (Legacy Edition)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21335639",
+      "neteaseTrackId": "21335639",
+      "title": "Pharaoh's Dance",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1203768
+    },
+    {
+      "id": "netease-track:21335640",
+      "neteaseTrackId": "21335640",
+      "title": "*****es Brew",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1618755
+    },
+    {
+      "id": "netease-track:21335641",
+      "neteaseTrackId": "21335641",
+      "title": "Spanish Key",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1052769
+    },
+    {
+      "id": "netease-track:21335642",
+      "neteaseTrackId": "21335642",
+      "title": "John McLaughlin",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 263105
+    },
+    {
+      "id": "netease-track:21335643",
+      "neteaseTrackId": "21335643",
+      "title": "Miles Runs the Voodoo Down",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 840074
+    },
+    {
+      "id": "netease-track:21335644",
+      "neteaseTrackId": "21335644",
+      "title": "Sanctuary",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis",
+        "Wayne Shorter",
+        "Bennie Maupin",
+        "John McLaughlin",
+        "Chick Corea",
+        "Joe Zawinul",
+        "Dave Holland",
+        "Harvey Brooks"
+      ],
+      "durationMs": 656474
+    },
+    {
+      "id": "netease-track:21335645",
+      "neteaseTrackId": "21335645",
+      "title": "Spanish Key (alternate take)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 620878
+    },
+    {
+      "id": "netease-track:21335646",
+      "neteaseTrackId": "21335646",
+      "title": "John McLaughlin (alternate take)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 399243
+    },
+    {
+      "id": "netease-track:21335647",
+      "neteaseTrackId": "21335647",
+      "title": "Miles Runs the Voodoo Down (45-rpm single edit)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 169848
+    },
+    {
+      "id": "netease-track:21335648",
+      "neteaseTrackId": "21335648",
+      "title": "Spanish Key (single)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 169691
+    },
+    {
+      "id": "netease-track:21335649",
+      "neteaseTrackId": "21335649",
+      "title": "Great Expectations (single)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 161564
+    },
+    {
+      "id": "netease-track:21335650",
+      "neteaseTrackId": "21335650",
+      "title": "Little Blue Frog (single)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 156363
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1970268",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "*****es Brew (Legacy Edition) Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

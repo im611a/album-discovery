@@ -1,0 +1,98 @@
+{
+  "internalId": "album:21284",
+  "id": "album:21284",
+  "neteaseAlbumId": "21284",
+  "slug": "netease-album-21284",
+  "title": "快乐的夏天",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "2006-12-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21284.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21284.webp",
+    "alt": "《快乐的夏天》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209216",
+      "neteaseTrackId": "209216",
+      "title": "送别",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 207053
+    },
+    {
+      "id": "netease-track:209212",
+      "neteaseTrackId": "209212",
+      "title": "西风的话",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 168907
+    },
+    {
+      "id": "netease-track:209219",
+      "neteaseTrackId": "209219",
+      "title": "送别(伴奏)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 203000
+    },
+    {
+      "id": "netease-track:209214",
+      "neteaseTrackId": "209214",
+      "title": "西风的话(伴奏)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 165040
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=21284",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "快乐的夏天 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

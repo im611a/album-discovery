@@ -1,0 +1,230 @@
+{
+  "internalId": "album:172502",
+  "id": "album:172502",
+  "neteaseAlbumId": "172502",
+  "slug": "miles-quincy-live-at-montreux",
+  "title": "Miles & Quincy Live at Montreux",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1993-04-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172502.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172502.webp",
+    "alt": "《Miles & Quincy Live at Montreux》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1701395",
+      "neteaseTrackId": "1701395",
+      "title": "Introduction",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 83600
+    },
+    {
+      "id": "netease-track:1701399",
+      "neteaseTrackId": "1701399",
+      "title": "Boplicity",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:1701403",
+      "neteaseTrackId": "1701403",
+      "title": "Introduction to Miles Ahead Medley",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 8906
+    },
+    {
+      "id": "netease-track:1701407",
+      "neteaseTrackId": "1701407",
+      "title": "Springsville",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:1701412",
+      "neteaseTrackId": "1701412",
+      "title": "Maids of Cadiz",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 217560
+    },
+    {
+      "id": "netease-track:1701416",
+      "neteaseTrackId": "1701416",
+      "title": "The Duke",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:1701420",
+      "neteaseTrackId": "1701420",
+      "title": "My Ship",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 250760
+    },
+    {
+      "id": "netease-track:1701423",
+      "neteaseTrackId": "1701423",
+      "title": "Miles Ahead",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 217946
+    },
+    {
+      "id": "netease-track:1701427",
+      "neteaseTrackId": "1701427",
+      "title": "Blues for Pablo",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 363573
+    },
+    {
+      "id": "netease-track:1701431",
+      "neteaseTrackId": "1701431",
+      "title": "Introduction to Porgy and Bess Medley",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 29293
+    },
+    {
+      "id": "netease-track:1701436",
+      "neteaseTrackId": "1701436",
+      "title": "Orgone",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 248848
+    },
+    {
+      "id": "netease-track:1701439",
+      "neteaseTrackId": "1701439",
+      "title": "Gone, Gone, Gone",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 107866
+    },
+    {
+      "id": "netease-track:1701444",
+      "neteaseTrackId": "1701444",
+      "title": "Summertime",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 174000
+    },
+    {
+      "id": "netease-track:1701448",
+      "neteaseTrackId": "1701448",
+      "title": "Here Come de Honey Man",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 220986
+    },
+    {
+      "id": "netease-track:1701451",
+      "neteaseTrackId": "1701451",
+      "title": "The Pan Piper",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 100000
+    },
+    {
+      "id": "netease-track:1701455",
+      "neteaseTrackId": "1701455",
+      "title": "Solea",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 706506
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=172502",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles & Quincy Live at Montreux Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:10747",
+  "id": "album:10747",
+  "neteaseAlbumId": "10747",
+  "slug": "netease-album-10747",
+  "title": "晴朗",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3682",
+      "neteaseArtistId": "3682",
+      "name": "老狼"
+    }
+  ],
+  "releaseDate": "2002-10-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10747.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10747.webp",
+    "alt": "《晴朗》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108108",
+      "neteaseTrackId": "108108",
+      "title": "虎口脱险",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 297946
+    },
+    {
+      "id": "netease-track:108109",
+      "neteaseTrackId": "108109",
+      "title": "晴朗",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 300106
+    },
+    {
+      "id": "netease-track:108110",
+      "neteaseTrackId": "108110",
+      "title": "麦克",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 219560
+    },
+    {
+      "id": "netease-track:108111",
+      "neteaseTrackId": "108111",
+      "title": "关于现在关于未来",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 294066
+    },
+    {
+      "id": "netease-track:108112",
+      "neteaseTrackId": "108112",
+      "title": "给S",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 260080
+    },
+    {
+      "id": "netease-track:108113",
+      "neteaseTrackId": "108113",
+      "title": "百分之百的女孩",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 298586
+    },
+    {
+      "id": "netease-track:108114",
+      "neteaseTrackId": "108114",
+      "title": "郎心似铁",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 245773
+    },
+    {
+      "id": "netease-track:108115",
+      "neteaseTrackId": "108115",
+      "title": "喜悦",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 266200
+    },
+    {
+      "id": "netease-track:108116",
+      "neteaseTrackId": "108116",
+      "title": "歌",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 278080
+    },
+    {
+      "id": "netease-track:108117",
+      "neteaseTrackId": "108117",
+      "title": "未知的旅程",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 254546
+    },
+    {
+      "id": "netease-track:108118",
+      "neteaseTrackId": "108118",
+      "title": "月光倾城",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 145453
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=10747",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "晴朗 老狼",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

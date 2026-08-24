@@ -1,0 +1,187 @@
+{
+  "internalId": "album:1637033",
+  "id": "album:1637033",
+  "neteaseAlbumId": "1637033",
+  "slug": "the-pious-bird-of-good-omen",
+  "title": "The Pious Bird Of Good Omen",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1995-05-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637033.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637033.webp",
+    "alt": "《The Pious Bird Of Good Omen》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17785809",
+      "neteaseTrackId": "17785809",
+      "title": "Need Your Love So Bad",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 232946
+    },
+    {
+      "id": "netease-track:17785810",
+      "neteaseTrackId": "17785810",
+      "title": "Coming Home",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 161000
+    },
+    {
+      "id": "netease-track:17785811",
+      "neteaseTrackId": "17785811",
+      "title": "Rambling Pony",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 159660
+    },
+    {
+      "id": "netease-track:17785812",
+      "neteaseTrackId": "17785812",
+      "title": "The Big Boat",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac",
+        "Eddie Boyd"
+      ],
+      "durationMs": 156014
+    },
+    {
+      "id": "netease-track:17785813",
+      "neteaseTrackId": "17785813",
+      "title": "I Believe My Time Ain't Long",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 174544
+    },
+    {
+      "id": "netease-track:17785814",
+      "neteaseTrackId": "17785814",
+      "title": "The Sun Is Shining",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 194000
+    },
+    {
+      "id": "netease-track:17785815",
+      "neteaseTrackId": "17785815",
+      "title": "Albatross",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 185000
+    },
+    {
+      "id": "netease-track:17785816",
+      "neteaseTrackId": "17785816",
+      "title": "Black Magic Woman",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 171316
+    },
+    {
+      "id": "netease-track:17785817",
+      "neteaseTrackId": "17785817",
+      "title": "Just The Blues",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 340000
+    },
+    {
+      "id": "netease-track:17785818",
+      "neteaseTrackId": "17785818",
+      "title": "Jigsaw Puzzle Blues",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 97000
+    },
+    {
+      "id": "netease-track:17785819",
+      "neteaseTrackId": "17785819",
+      "title": "Looking For Somebody",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 171733
+    },
+    {
+      "id": "netease-track:17785820",
+      "neteaseTrackId": "17785820",
+      "title": "Stop Messin' Around",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 139000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1637033",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Pious Bird Of Good Omen Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:18964",
+  "id": "album:18964",
+  "neteaseAlbumId": "18964",
+  "slug": "netease-album-18964",
+  "title": "思念",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1996-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18964.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18964.webp",
+    "alt": "《思念》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186733",
+      "neteaseTrackId": "186733",
+      "title": "早知道爱上你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 248667
+    },
+    {
+      "id": "netease-track:186738",
+      "neteaseTrackId": "186738",
+      "title": "没有人知的故事",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 242333
+    },
+    {
+      "id": "netease-track:186742",
+      "neteaseTrackId": "186742",
+      "title": "祈祷",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 279493
+    },
+    {
+      "id": "netease-track:186746",
+      "neteaseTrackId": "186746",
+      "title": "背影",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 252334
+    },
+    {
+      "id": "netease-track:186750",
+      "neteaseTrackId": "186750",
+      "title": "朋友祝福",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 263506
+    },
+    {
+      "id": "netease-track:186754",
+      "neteaseTrackId": "186754",
+      "title": "自你往年离去",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:186758",
+      "neteaseTrackId": "186758",
+      "title": "如果你快乐",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 260160
+    },
+    {
+      "id": "netease-track:186762",
+      "neteaseTrackId": "186762",
+      "title": "该怎样爱",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 266840
+    },
+    {
+      "id": "netease-track:186765",
+      "neteaseTrackId": "186765",
+      "title": "感谢您",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 203334
+    },
+    {
+      "id": "netease-track:186768",
+      "neteaseTrackId": "186768",
+      "title": "如若我是他",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 250666
+    },
+    {
+      "id": "netease-track:186771",
+      "neteaseTrackId": "186771",
+      "title": "时差",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 256493
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18964",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "思念 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

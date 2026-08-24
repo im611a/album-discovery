@@ -1,0 +1,165 @@
+{
+  "internalId": "album:29575",
+  "id": "album:29575",
+  "neteaseAlbumId": "29575",
+  "slug": "netease-album-29575",
+  "title": "这天",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "2000-11-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29575.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29575.webp",
+    "alt": "《这天》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297972",
+      "neteaseTrackId": "297972",
+      "title": "听风的歌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 227360
+    },
+    {
+      "id": "netease-track:297974",
+      "neteaseTrackId": "297974",
+      "title": "那夜",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 279373
+    },
+    {
+      "id": "netease-track:297976",
+      "neteaseTrackId": "297976",
+      "title": "这天",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 215533
+    },
+    {
+      "id": "netease-track:297978",
+      "neteaseTrackId": "297978",
+      "title": "同名同姓的人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 217426
+    },
+    {
+      "id": "netease-track:297980",
+      "neteaseTrackId": "297980",
+      "title": "傻傻的",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 249200
+    },
+    {
+      "id": "netease-track:297982",
+      "neteaseTrackId": "297982",
+      "title": "迷惑森林",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 241928
+    },
+    {
+      "id": "netease-track:297984",
+      "neteaseTrackId": "297984",
+      "title": "寂寞城市来的人",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 191306
+    },
+    {
+      "id": "netease-track:297986",
+      "neteaseTrackId": "297986",
+      "title": "你的世界",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 247666
+    },
+    {
+      "id": "netease-track:297988",
+      "neteaseTrackId": "297988",
+      "title": "面膜",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 223399
+    },
+    {
+      "id": "netease-track:297990",
+      "neteaseTrackId": "297990",
+      "title": "麻糬",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳",
+        "黄品源"
+      ],
+      "durationMs": 231293
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29575",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "这天 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

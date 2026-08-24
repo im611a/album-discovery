@@ -1,0 +1,153 @@
+{
+  "internalId": "album:1969836",
+  "id": "album:1969836",
+  "neteaseAlbumId": "1969836",
+  "slug": "miles-davis-and-horns",
+  "title": "Miles Davis And Horns",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1988-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Original Jazz Classics",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969836.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969836.webp",
+    "alt": "《Miles Davis And Horns》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21328299",
+      "neteaseTrackId": "21328299",
+      "title": "Tasty Pudding",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 200360
+    },
+    {
+      "id": "netease-track:21328300",
+      "neteaseTrackId": "21328300",
+      "title": "Floppy",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 359333
+    },
+    {
+      "id": "netease-track:21328301",
+      "neteaseTrackId": "21328301",
+      "title": "Willie The Wailer",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 265226
+    },
+    {
+      "id": "netease-track:21328302",
+      "neteaseTrackId": "21328302",
+      "title": "For Adults Only",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 332960
+    },
+    {
+      "id": "netease-track:21328303",
+      "neteaseTrackId": "21328303",
+      "title": "Morpheus",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 140906
+    },
+    {
+      "id": "netease-track:21328304",
+      "neteaseTrackId": "21328304",
+      "title": "Down",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 170666
+    },
+    {
+      "id": "netease-track:21328305",
+      "neteaseTrackId": "21328305",
+      "title": "Blue Room",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 180693
+    },
+    {
+      "id": "netease-track:21328306",
+      "neteaseTrackId": "21328306",
+      "title": "Blue Room (Alternate Take)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 168466
+    },
+    {
+      "id": "netease-track:21328307",
+      "neteaseTrackId": "21328307",
+      "title": "Whispering",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 182440
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1969836",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Davis And Horns Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

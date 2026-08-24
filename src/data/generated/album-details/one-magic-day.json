@@ -1,0 +1,175 @@
+{
+  "internalId": "album:10781",
+  "id": "album:10781",
+  "neteaseAlbumId": "10781",
+  "slug": "one-magic-day",
+  "title": "ONE MAGIC DAY",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2011-09-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "LYFE Company Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10781.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10781.webp",
+    "alt": "《ONE MAGIC DAY》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108586",
+      "neteaseTrackId": "108586",
+      "title": "错得对",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 185573
+    },
+    {
+      "id": "netease-track:108588",
+      "neteaseTrackId": "108588",
+      "title": "很多.很少",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 108560
+    },
+    {
+      "id": "netease-track:108590",
+      "neteaseTrackId": "108590",
+      "title": "回到花开的那天",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 268413
+    },
+    {
+      "id": "netease-track:108593",
+      "neteaseTrackId": "108593",
+      "title": "简单不简单",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 273186
+    },
+    {
+      "id": "netease-track:108596",
+      "neteaseTrackId": "108596",
+      "title": "千杯少",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 173653
+    },
+    {
+      "id": "netease-track:108600",
+      "neteaseTrackId": "108600",
+      "title": "烟.花",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 180706
+    },
+    {
+      "id": "netease-track:108604",
+      "neteaseTrackId": "108604",
+      "title": "朋友 你变了没有",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 230680
+    },
+    {
+      "id": "netease-track:108608",
+      "neteaseTrackId": "108608",
+      "title": "再见小王子",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 244160
+    },
+    {
+      "id": "netease-track:108612",
+      "neteaseTrackId": "108612",
+      "title": "It’s Hard to Say Goodbye",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 233213
+    },
+    {
+      "id": "netease-track:108616",
+      "neteaseTrackId": "108616",
+      "title": "莫过如此",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 217146
+    },
+    {
+      "id": "netease-track:108620",
+      "neteaseTrackId": "108620",
+      "title": "Victim of Love",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 208546
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=10781",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "ONE MAGIC DAY 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

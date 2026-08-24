@@ -1,0 +1,166 @@
+{
+  "internalId": "album:47881",
+  "id": "album:47881",
+  "neteaseAlbumId": "47881",
+  "slug": "netease-album-47881",
+  "title": "左うでの梦",
+  "aliases": [
+    "Left Handed Dream"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1981-10-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47881.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47881.webp",
+    "alt": "《左うでの梦》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:502989",
+      "neteaseTrackId": "502989",
+      "title": "ぼくのかけら",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 243760
+    },
+    {
+      "id": "netease-track:502992",
+      "neteaseTrackId": "502992",
+      "title": "サルとユキとゴミのこども",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 310622
+    },
+    {
+      "id": "netease-track:502995",
+      "neteaseTrackId": "502995",
+      "title": "かちゃくちゃねぇ",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 259026
+    },
+    {
+      "id": "netease-track:502998",
+      "neteaseTrackId": "502998",
+      "title": "The Garden of Poppies",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 337506
+    },
+    {
+      "id": "netease-track:503001",
+      "neteaseTrackId": "503001",
+      "title": "Relâche",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 237266
+    },
+    {
+      "id": "netease-track:503007",
+      "neteaseTrackId": "503007",
+      "title": "Tell'em To Me",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 271293
+    },
+    {
+      "id": "netease-track:503012",
+      "neteaseTrackId": "503012",
+      "title": "Living In The Dark",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 318440
+    },
+    {
+      "id": "netease-track:503017",
+      "neteaseTrackId": "503017",
+      "title": "Slat Dance",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 170200
+    },
+    {
+      "id": "netease-track:503019",
+      "neteaseTrackId": "503019",
+      "title": "Venezia",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 283866
+    },
+    {
+      "id": "netease-track:503024",
+      "neteaseTrackId": "503024",
+      "title": "サルの家",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 138493
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=47881",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "左うでの梦 Left Handed Dream 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

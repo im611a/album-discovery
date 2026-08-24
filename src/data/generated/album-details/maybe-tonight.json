@@ -1,0 +1,120 @@
+{
+  "internalId": "album:35651",
+  "id": "album:35651",
+  "neteaseAlbumId": "35651",
+  "slug": "maybe-tonight",
+  "title": "Maybe Tonight",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11950",
+      "neteaseArtistId": "11950",
+      "name": "Joyside"
+    }
+  ],
+  "releaseDate": "2009-04-26",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "兵马司唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35651.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/35651.webp",
+    "alt": "《Maybe Tonight》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:360863",
+      "neteaseTrackId": "360863",
+      "title": "Sister Lunatic",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 147826
+    },
+    {
+      "id": "netease-track:360866",
+      "neteaseTrackId": "360866",
+      "title": "Silly Girl",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 276653
+    },
+    {
+      "id": "netease-track:360869",
+      "neteaseTrackId": "360869",
+      "title": "Your City Is A Desert To Me",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 257920
+    },
+    {
+      "id": "netease-track:360872",
+      "neteaseTrackId": "360872",
+      "title": "Shejing",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 165573
+    },
+    {
+      "id": "netease-track:360875",
+      "neteaseTrackId": "360875",
+      "title": "Maybe Tonight",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 224853
+    },
+    {
+      "id": "netease-track:360878",
+      "neteaseTrackId": "360878",
+      "title": "The Last Song For The Endless Party",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 239000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=35651",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Maybe Tonight Joyside",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

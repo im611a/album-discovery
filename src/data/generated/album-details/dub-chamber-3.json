@@ -1,0 +1,98 @@
+{
+  "internalId": "album:222234",
+  "id": "album:222234",
+  "neteaseAlbumId": "222234",
+  "slug": "dub-chamber-3",
+  "title": "Dub Chamber 3",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2000-04-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "ROIR",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222234.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222234.webp",
+    "alt": "《Dub Chamber 3》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205633",
+      "neteaseTrackId": "2205633",
+      "title": "Beyond the Zero",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 549760
+    },
+    {
+      "id": "netease-track:2205635",
+      "neteaseTrackId": "2205635",
+      "title": "Cybotron",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 566640
+    },
+    {
+      "id": "netease-track:2205638",
+      "neteaseTrackId": "2205638",
+      "title": "Devil Syndrome",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 713133
+    },
+    {
+      "id": "netease-track:2205641",
+      "neteaseTrackId": "2205641",
+      "title": "A Screaming Comes Across the Sky",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 1054440
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=222234",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dub Chamber 3 Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

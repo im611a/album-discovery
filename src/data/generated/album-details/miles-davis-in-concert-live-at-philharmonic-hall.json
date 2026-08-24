@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1970632",
+  "id": "album:1970632",
+  "neteaseAlbumId": "1970632",
+  "slug": "miles-davis-in-concert-live-at-philharmonic-hall",
+  "title": "Miles Davis In Concert: Live At Philharmonic Hall",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1973-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970632.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970632.webp",
+    "alt": "《Miles Davis In Concert: Live At Philharmonic Hall》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341428",
+      "neteaseTrackId": "21341428",
+      "title": "Rated X (Instrumental)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 736397
+    },
+    {
+      "id": "netease-track:21341429",
+      "neteaseTrackId": "21341429",
+      "title": "Honky Tonk (Instrumental)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 558471
+    },
+    {
+      "id": "netease-track:21341430",
+      "neteaseTrackId": "21341430",
+      "title": "Theme From Jack Johnson (Instrumental)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 612649
+    },
+    {
+      "id": "netease-track:21341431",
+      "neteaseTrackId": "21341431",
+      "title": "Black Satin/The Theme (Instrumental)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 854831
+    },
+    {
+      "id": "netease-track:21341432",
+      "neteaseTrackId": "21341432",
+      "title": "Ife (Instrumental)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1673952
+    },
+    {
+      "id": "netease-track:21341433",
+      "neteaseTrackId": "21341433",
+      "title": "Right Off/The Theme (Instrumental)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 630961
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970632",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Davis In Concert: Live At Philharmonic Hall Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

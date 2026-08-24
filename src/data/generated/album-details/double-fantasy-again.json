@@ -1,0 +1,190 @@
+{
+  "internalId": "album:18995",
+  "id": "album:18995",
+  "neteaseAlbumId": "18995",
+  "slug": "double-fantasy-again",
+  "title": "Double Fantasy Again",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "2001-09-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18995.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18995.webp",
+    "alt": "《Double Fantasy Again》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187246",
+      "neteaseTrackId": "187246",
+      "title": "当真就好",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "陈淑桦"
+      ],
+      "durationMs": 327266
+    },
+    {
+      "id": "netease-track:187250",
+      "neteaseTrackId": "187250",
+      "title": "当真就好",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 327613
+    },
+    {
+      "id": "netease-track:187255",
+      "neteaseTrackId": "187255",
+      "title": "深情相拥",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "辛晓琪"
+      ],
+      "durationMs": 215040
+    },
+    {
+      "id": "netease-track:187260",
+      "neteaseTrackId": "187260",
+      "title": "深情相拥",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:187265",
+      "neteaseTrackId": "187265",
+      "title": "FROM NOW ON",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "林忆莲"
+      ],
+      "durationMs": 245826
+    },
+    {
+      "id": "netease-track:187269",
+      "neteaseTrackId": "187269",
+      "title": "FROM NOW ON",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247213
+    },
+    {
+      "id": "netease-track:187273",
+      "neteaseTrackId": "187273",
+      "title": "眉来眼去",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "辛晓琪"
+      ],
+      "durationMs": 245813
+    },
+    {
+      "id": "netease-track:187277",
+      "neteaseTrackId": "187277",
+      "title": "眉来眼去",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 245813
+    },
+    {
+      "id": "netease-track:187281",
+      "neteaseTrackId": "187281",
+      "title": "有心人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 269706
+    },
+    {
+      "id": "netease-track:187285",
+      "neteaseTrackId": "187285",
+      "title": "有心人",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 267919
+    },
+    {
+      "id": "netease-track:187289",
+      "neteaseTrackId": "187289",
+      "title": "谈情说爱",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 235463
+    },
+    {
+      "id": "netease-track:187293",
+      "neteaseTrackId": "187293",
+      "title": "谈情说爱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 236120
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=18995",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Double Fantasy Again 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

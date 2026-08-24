@@ -1,0 +1,131 @@
+{
+  "internalId": "album:422082",
+  "id": "album:422082",
+  "neteaseAlbumId": "422082",
+  "slug": "this-is-your-bloody-valentine",
+  "title": "This Is Your Bloody Valentine",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:96273",
+      "neteaseArtistId": "96273",
+      "name": "My Bloody Valentine"
+    }
+  ],
+  "releaseDate": "1984-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/422082.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/422082.webp",
+    "alt": "《This Is Your Bloody Valentine》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4174348",
+      "neteaseTrackId": "4174348",
+      "title": "Forever and Again",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 213626
+    },
+    {
+      "id": "netease-track:4174351",
+      "neteaseTrackId": "4174351",
+      "title": "Homelovin' Guy",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 183866
+    },
+    {
+      "id": "netease-track:4174354",
+      "neteaseTrackId": "4174354",
+      "title": "Don't Cramp My Style",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 147000
+    },
+    {
+      "id": "netease-track:4174357",
+      "neteaseTrackId": "4174357",
+      "title": "Tiger in My Tank",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 211066
+    },
+    {
+      "id": "netease-track:4174360",
+      "neteaseTrackId": "4174360",
+      "title": "The Love Gang",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 235426
+    },
+    {
+      "id": "netease-track:4174363",
+      "neteaseTrackId": "4174363",
+      "title": "Inferno",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 281200
+    },
+    {
+      "id": "netease-track:4174367",
+      "neteaseTrackId": "4174367",
+      "title": "The Last Supper",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 271306
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=422082",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "This Is Your Bloody Valentine My Bloody Valentine",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

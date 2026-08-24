@@ -1,0 +1,175 @@
+{
+  "internalId": "album:10748",
+  "id": "album:10748",
+  "neteaseAlbumId": "10748",
+  "slug": "netease-album-10748",
+  "title": "恋恋风尘",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3682",
+      "neteaseArtistId": "3682",
+      "name": "老狼"
+    }
+  ],
+  "releaseDate": "1995-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "太合麦田（天津）音乐有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10748.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10748.webp",
+    "alt": "《恋恋风尘》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108119",
+      "neteaseTrackId": "108119",
+      "title": "恋恋风尘",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 216000
+    },
+    {
+      "id": "netease-track:108120",
+      "neteaseTrackId": "108120",
+      "title": "美人",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 229560
+    },
+    {
+      "id": "netease-track:108121",
+      "neteaseTrackId": "108121",
+      "title": "蓝色理想",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 294400
+    },
+    {
+      "id": "netease-track:108122",
+      "neteaseTrackId": "108122",
+      "title": "爱已成歌",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 235373
+    },
+    {
+      "id": "netease-track:108123",
+      "neteaseTrackId": "108123",
+      "title": "为你难过",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 217560
+    },
+    {
+      "id": "netease-track:108124",
+      "neteaseTrackId": "108124",
+      "title": "来自我心",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 219800
+    },
+    {
+      "id": "netease-track:108125",
+      "neteaseTrackId": "108125",
+      "title": "昨天今天",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 240640
+    },
+    {
+      "id": "netease-track:108126",
+      "neteaseTrackId": "108126",
+      "title": "音乐虫子",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 309200
+    },
+    {
+      "id": "netease-track:108127",
+      "neteaseTrackId": "108127",
+      "title": "只有你陪我一起唱歌",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 258226
+    },
+    {
+      "id": "netease-track:108128",
+      "neteaseTrackId": "108128",
+      "title": "同桌的你(风行版)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 232626
+    },
+    {
+      "id": "netease-track:519935280",
+      "neteaseTrackId": "519935280",
+      "title": "睡在我上铺的兄弟",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 213586
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=10748",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "恋恋风尘 老狼",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

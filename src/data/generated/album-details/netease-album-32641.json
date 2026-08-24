@@ -1,0 +1,175 @@
+{
+  "internalId": "album:32641",
+  "id": "album:32641",
+  "neteaseAlbumId": "32641",
+  "slug": "netease-album-32641",
+  "title": "朱婧汐同名专辑",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:10582",
+      "neteaseArtistId": "10582",
+      "name": "朱婧汐Akini Jing"
+    }
+  ],
+  "releaseDate": "2008-04-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "大国文化唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/32641.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/32641.webp",
+    "alt": "《朱婧汐同名专辑》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:330449",
+      "neteaseTrackId": "330449",
+      "title": "小河淌水",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 207973
+    },
+    {
+      "id": "netease-track:330451",
+      "neteaseTrackId": "330451",
+      "title": "为什么",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 215986
+    },
+    {
+      "id": "netease-track:330453",
+      "neteaseTrackId": "330453",
+      "title": "蝴蝶劫",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 240226
+    },
+    {
+      "id": "netease-track:330454",
+      "neteaseTrackId": "330454",
+      "title": "香格里拉",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 253573
+    },
+    {
+      "id": "netease-track:330455",
+      "neteaseTrackId": "330455",
+      "title": "倒淌河",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 240853
+    },
+    {
+      "id": "netease-track:330456",
+      "neteaseTrackId": "330456",
+      "title": "阿诗玛",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 251880
+    },
+    {
+      "id": "netease-track:330457",
+      "neteaseTrackId": "330457",
+      "title": "失乐园",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 217586
+    },
+    {
+      "id": "netease-track:330458",
+      "neteaseTrackId": "330458",
+      "title": "众生相",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 280266
+    },
+    {
+      "id": "netease-track:330459",
+      "neteaseTrackId": "330459",
+      "title": "美丽骏马",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 237200
+    },
+    {
+      "id": "netease-track:330460",
+      "neteaseTrackId": "330460",
+      "title": "蚂蚁",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 274586
+    },
+    {
+      "id": "netease-track:330461",
+      "neteaseTrackId": "330461",
+      "title": "蚂蚁(信乐团 Special Remix Version)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "朱婧汐Akini Jing"
+      ],
+      "durationMs": 217373
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=32641",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "朱婧汐同名专辑 朱婧汐Akini Jing",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

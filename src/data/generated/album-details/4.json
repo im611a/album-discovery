@@ -1,0 +1,253 @@
+{
+  "internalId": "album:1801261",
+  "id": "album:1801261",
+  "neteaseAlbumId": "1801261",
+  "slug": "4",
+  "title": "4",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2011-06-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1801261.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1801261.webp",
+    "alt": "《4》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19550149",
+      "neteaseTrackId": "19550149",
+      "title": "1+1",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 273880
+    },
+    {
+      "id": "netease-track:19550150",
+      "neteaseTrackId": "19550150",
+      "title": "I Care",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 240047
+    },
+    {
+      "id": "netease-track:19550151",
+      "neteaseTrackId": "19550151",
+      "title": "I Miss You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 178747
+    },
+    {
+      "id": "netease-track:19550152",
+      "neteaseTrackId": "19550152",
+      "title": "Best Thing I Never Had",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 253746
+    },
+    {
+      "id": "netease-track:19550153",
+      "neteaseTrackId": "19550153",
+      "title": "Party",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "André 3000"
+      ],
+      "durationMs": 245480
+    },
+    {
+      "id": "netease-track:19550154",
+      "neteaseTrackId": "19550154",
+      "title": "Rather Die Young",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 223283
+    },
+    {
+      "id": "netease-track:19550155",
+      "neteaseTrackId": "19550155",
+      "title": "Start Over",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 199134
+    },
+    {
+      "id": "netease-track:19550156",
+      "neteaseTrackId": "19550156",
+      "title": "Love On Top",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 267413
+    },
+    {
+      "id": "netease-track:19550157",
+      "neteaseTrackId": "19550157",
+      "title": "Countdown",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 213553
+    },
+    {
+      "id": "netease-track:19550158",
+      "neteaseTrackId": "19550158",
+      "title": "End of Time",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 224327
+    },
+    {
+      "id": "netease-track:19550159",
+      "neteaseTrackId": "19550159",
+      "title": "I Was Here",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 239281
+    },
+    {
+      "id": "netease-track:19550160",
+      "neteaseTrackId": "19550160",
+      "title": "Run the World (Girls)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 236146
+    },
+    {
+      "id": "netease-track:29431029",
+      "neteaseTrackId": "29431029",
+      "title": "Lay Up Under Me",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 253760
+    },
+    {
+      "id": "netease-track:29431030",
+      "neteaseTrackId": "29431030",
+      "title": "Schoolin' Life",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 292757
+    },
+    {
+      "id": "netease-track:29431032",
+      "neteaseTrackId": "29431032",
+      "title": "Dance for You",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 375768
+    },
+    {
+      "id": "netease-track:29431033",
+      "neteaseTrackId": "29431033",
+      "title": "Run the World (Girls) (Kaskade Club Remix)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 302486
+    },
+    {
+      "id": "netease-track:29431034",
+      "neteaseTrackId": "29431034",
+      "title": "Run the World (Girls) (RedTop Club Remix)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 363043
+    },
+    {
+      "id": "netease-track:29431035",
+      "neteaseTrackId": "29431035",
+      "title": "Run the World (Girls) (Jochen Simms Club Remix)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 377161
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=1801261",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "4 Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

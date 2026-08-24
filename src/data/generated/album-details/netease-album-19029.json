@@ -1,0 +1,98 @@
+{
+  "internalId": "album:19029",
+  "id": "album:19029",
+  "neteaseAlbumId": "19029",
+  "slug": "netease-album-19029",
+  "title": "这些年来",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1998-02-13",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19029.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19029.webp",
+    "alt": "《这些年来》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187775",
+      "neteaseTrackId": "187775",
+      "title": "这些年来",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 299000
+    },
+    {
+      "id": "netease-track:187779",
+      "neteaseTrackId": "187779",
+      "title": "上帝",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 244933
+    },
+    {
+      "id": "netease-track:187783",
+      "neteaseTrackId": "187783",
+      "title": "以后",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 256666
+    },
+    {
+      "id": "netease-track:187786",
+      "neteaseTrackId": "187786",
+      "title": "最冷一天",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 257600
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=19029",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "这些年来 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

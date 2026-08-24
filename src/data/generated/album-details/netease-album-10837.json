@@ -1,0 +1,197 @@
+{
+  "internalId": "album:10837",
+  "id": "album:10837",
+  "neteaseAlbumId": "10837",
+  "slug": "netease-album-10837",
+  "title": "Travelogue,Too 一个人在途上",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2004-10-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "LYFE Company Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10837.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10837.webp",
+    "alt": "《Travelogue,Too 一个人在途上》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109345",
+      "neteaseTrackId": "109345",
+      "title": "Cl411",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 230840
+    },
+    {
+      "id": "netease-track:109346",
+      "neteaseTrackId": "109346",
+      "title": "没有夏娃的伊甸园",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 244306
+    },
+    {
+      "id": "netease-track:109347",
+      "neteaseTrackId": "109347",
+      "title": "冷热之间",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 146706
+    },
+    {
+      "id": "netease-track:109348",
+      "neteaseTrackId": "109348",
+      "title": "恋人絮语",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 135186
+    },
+    {
+      "id": "netease-track:109351",
+      "neteaseTrackId": "109351",
+      "title": "一支烟的时间",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:109354",
+      "neteaseTrackId": "109354",
+      "title": "说说自己的故事",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 188800
+    },
+    {
+      "id": "netease-track:109357",
+      "neteaseTrackId": "109357",
+      "title": "Buffering-Heart",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 16506
+    },
+    {
+      "id": "netease-track:109362",
+      "neteaseTrackId": "109362",
+      "title": "植物人",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 200093
+    },
+    {
+      "id": "netease-track:109364",
+      "neteaseTrackId": "109364",
+      "title": "State Of Mind",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 175680
+    },
+    {
+      "id": "netease-track:109367",
+      "neteaseTrackId": "109367",
+      "title": "今天应该更高兴",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 229626
+    },
+    {
+      "id": "netease-track:109371",
+      "neteaseTrackId": "109371",
+      "title": "Buffering-Time",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 59200
+    },
+    {
+      "id": "netease-track:109373",
+      "neteaseTrackId": "109373",
+      "title": "冷热之间( Reprise)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 186893
+    },
+    {
+      "id": "netease-track:109376",
+      "neteaseTrackId": "109376",
+      "title": "一个人在途上",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 220186
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=10837",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Travelogue,Too 一个人在途上 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

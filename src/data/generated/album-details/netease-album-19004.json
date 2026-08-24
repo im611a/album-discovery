@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19004",
+  "id": "album:19004",
+  "neteaseAlbumId": "19004",
+  "slug": "netease-album-19004",
+  "title": "知道",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1992-04-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "巨石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19004.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19004.webp",
+    "alt": "《知道》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187403",
+      "neteaseTrackId": "187403",
+      "title": "难以抗拒你容颜",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 235400
+    },
+    {
+      "id": "netease-track:187388",
+      "neteaseTrackId": "187388",
+      "title": "有你真的会快乐吗",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 325827
+    },
+    {
+      "id": "netease-track:187393",
+      "neteaseTrackId": "187393",
+      "title": "知道",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 227227
+    },
+    {
+      "id": "netease-track:187398",
+      "neteaseTrackId": "187398",
+      "title": "珍藏我的爱情",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 222707
+    },
+    {
+      "id": "netease-track:187383",
+      "neteaseTrackId": "187383",
+      "title": "等待与你相见",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 304000
+    },
+    {
+      "id": "netease-track:187406",
+      "neteaseTrackId": "187406",
+      "title": "最想念的季节",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 266773
+    },
+    {
+      "id": "netease-track:187409",
+      "neteaseTrackId": "187409",
+      "title": "想你的夜",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 239907
+    },
+    {
+      "id": "netease-track:187413",
+      "neteaseTrackId": "187413",
+      "title": "其实快乐很容易",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 244332
+    },
+    {
+      "id": "netease-track:187416",
+      "neteaseTrackId": "187416",
+      "title": "I Remember",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 269333
+    },
+    {
+      "id": "netease-track:187419",
+      "neteaseTrackId": "187419",
+      "title": "永远存在",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 265357
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19004",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "知道 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

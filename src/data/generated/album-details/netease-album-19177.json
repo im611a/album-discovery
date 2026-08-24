@@ -1,0 +1,254 @@
+{
+  "internalId": "album:19177",
+  "id": "album:19177",
+  "neteaseAlbumId": "19177",
+  "slug": "netease-album-19177",
+  "title": "你知道对方在那一边",
+  "aliases": [
+    "电影原声配乐"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2011-04-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19177.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19177.webp",
+    "alt": "《你知道对方在那一边》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:433681913",
+      "neteaseTrackId": "433681913",
+      "title": "高大全你到底想干啥",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "吕思清"
+      ],
+      "durationMs": 124000
+    },
+    {
+      "id": "netease-track:189713",
+      "neteaseTrackId": "189713",
+      "title": "四月",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 231734
+    },
+    {
+      "id": "netease-track:1432487861",
+      "neteaseTrackId": "1432487861",
+      "title": "大粗二粗",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 146737
+    },
+    {
+      "id": "netease-track:1432364179",
+      "neteaseTrackId": "1432364179",
+      "title": "年年有个三月三",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "郭永章"
+      ],
+      "durationMs": 158917
+    },
+    {
+      "id": "netease-track:189719",
+      "neteaseTrackId": "189719",
+      "title": "高大全",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "吕思清"
+      ],
+      "durationMs": 153571
+    },
+    {
+      "id": "netease-track:1432365958",
+      "neteaseTrackId": "1432365958",
+      "title": "我有发誓的力气",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 186111
+    },
+    {
+      "id": "netease-track:1432487807",
+      "neteaseTrackId": "1432487807",
+      "title": "税务是一个橡皮筋",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "张玮玮"
+      ],
+      "durationMs": 240526
+    },
+    {
+      "id": "netease-track:1432484997",
+      "neteaseTrackId": "1432484997",
+      "title": "事件是分水岭",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 192912
+    },
+    {
+      "id": "netease-track:189716",
+      "neteaseTrackId": "189716",
+      "title": "今晚翻牌曲",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "吕思清"
+      ],
+      "durationMs": 151500
+    },
+    {
+      "id": "netease-track:1432484893",
+      "neteaseTrackId": "1432484893",
+      "title": "主角失踪48小时",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 152500
+    },
+    {
+      "id": "netease-track:1432484948",
+      "neteaseTrackId": "1432484948",
+      "title": "你知道对方在那一边",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 199285
+    },
+    {
+      "id": "netease-track:189749",
+      "neteaseTrackId": "189749",
+      "title": "高大全拉手风琴",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "张玮玮"
+      ],
+      "durationMs": 168571
+    },
+    {
+      "id": "netease-track:189733",
+      "neteaseTrackId": "189733",
+      "title": "此人落井下石",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 198695
+    },
+    {
+      "id": "netease-track:1432487860",
+      "neteaseTrackId": "1432487860",
+      "title": "大悲春",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "张玮玮"
+      ],
+      "durationMs": 237558
+    },
+    {
+      "id": "netease-track:1432362969",
+      "neteaseTrackId": "1432362969",
+      "title": "湖边",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "二手玫瑰",
+        "唐宁"
+      ],
+      "durationMs": 187744
+    },
+    {
+      "id": "netease-track:189756",
+      "neteaseTrackId": "189756",
+      "title": "马屁公司开会",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 147000
+    },
+    {
+      "id": "netease-track:189707",
+      "neteaseTrackId": "189707",
+      "title": "人肉搜索",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "郭龙"
+      ],
+      "durationMs": 199565
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=19177",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "你知道对方在那一边 电影原声配乐 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

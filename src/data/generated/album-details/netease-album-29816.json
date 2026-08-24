@@ -1,0 +1,209 @@
+{
+  "internalId": "album:29816",
+  "id": "album:29816",
+  "neteaseAlbumId": "29816",
+  "slug": "netease-album-29816",
+  "title": "迷人小姐-王菲珍藏集",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1987-12-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29816.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29816.webp",
+    "alt": "《迷人小姐-王菲珍藏集》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300885",
+      "neteaseTrackId": "300885",
+      "title": "请你别说",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 222134
+    },
+    {
+      "id": "netease-track:300892",
+      "neteaseTrackId": "300892",
+      "title": "多梦的童年",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 187347
+    },
+    {
+      "id": "netease-track:300902",
+      "neteaseTrackId": "300902",
+      "title": "你在我身旁",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 143906
+    },
+    {
+      "id": "netease-track:300904",
+      "neteaseTrackId": "300904",
+      "title": "请你猜一猜",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 175914
+    },
+    {
+      "id": "netease-track:300906",
+      "neteaseTrackId": "300906",
+      "title": "我们俩",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 194360
+    },
+    {
+      "id": "netease-track:300908",
+      "neteaseTrackId": "300908",
+      "title": "想让你知道",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 167613
+    },
+    {
+      "id": "netease-track:300912",
+      "neteaseTrackId": "300912",
+      "title": "女孩",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 216147
+    },
+    {
+      "id": "netease-track:300916",
+      "neteaseTrackId": "300916",
+      "title": "心墙",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 254986
+    },
+    {
+      "id": "netease-track:300920",
+      "neteaseTrackId": "300920",
+      "title": "潇洒的走",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 184627
+    },
+    {
+      "id": "netease-track:300924",
+      "neteaseTrackId": "300924",
+      "title": "月光下的恋情",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 168160
+    },
+    {
+      "id": "netease-track:300929",
+      "neteaseTrackId": "300929",
+      "title": "十三妹",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 124320
+    },
+    {
+      "id": "netease-track:300933",
+      "neteaseTrackId": "300933",
+      "title": "最后的表白",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 154427
+    },
+    {
+      "id": "netease-track:300937",
+      "neteaseTrackId": "300937",
+      "title": "除了你",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 235533
+    },
+    {
+      "id": "netease-track:300940",
+      "neteaseTrackId": "300940",
+      "title": "等下次相逢",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 162600
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=29816",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "迷人小姐-王菲珍藏集 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

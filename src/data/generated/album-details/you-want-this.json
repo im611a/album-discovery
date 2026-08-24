@@ -1,0 +1,132 @@
+{
+  "internalId": "album:151316",
+  "id": "album:151316",
+  "neteaseAlbumId": "151316",
+  "slug": "you-want-this",
+  "title": "You Want This",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1994-10-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151316.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151316.webp",
+    "alt": "《You Want This》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480379",
+      "neteaseTrackId": "1480379",
+      "title": "You Want This (Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "MC Lyte"
+      ],
+      "durationMs": 287438
+    },
+    {
+      "id": "netease-track:1480385",
+      "neteaseTrackId": "1480385",
+      "title": "You Want This (E-Smoove's Anthem 7\")",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 266000
+    },
+    {
+      "id": "netease-track:1480391",
+      "neteaseTrackId": "1480391",
+      "title": "You Want This (Mafia & Fluxy Dancehall Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 272000
+    },
+    {
+      "id": "netease-track:1480394",
+      "neteaseTrackId": "1480394",
+      "title": "You Want This (Spoiled Milk. Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 285000
+    },
+    {
+      "id": "netease-track:1480398",
+      "neteaseTrackId": "1480398",
+      "title": "You Want This (Disco Theory)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 376000
+    },
+    {
+      "id": "netease-track:1480402",
+      "neteaseTrackId": "1480402",
+      "title": "You Want This (Funk Extravaganza)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 465000
+    },
+    {
+      "id": "netease-track:1480406",
+      "neteaseTrackId": "1480406",
+      "title": "You Want This (Smoove Soul 12\")",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 381000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=151316",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "You Want This Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

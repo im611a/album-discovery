@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1574645",
+  "id": "album:1574645",
+  "neteaseAlbumId": "1574645",
+  "slug": "let-us-play",
+  "title": "Let Us Play",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:50946",
+      "neteaseArtistId": "50946",
+      "name": "Coldcut"
+    }
+  ],
+  "releaseDate": "1997-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Ninja Tune",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1574645.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1574645.webp",
+    "alt": "《Let Us Play》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17084376",
+      "neteaseTrackId": "17084376",
+      "title": "Return to Margin",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 512160
+    },
+    {
+      "id": "netease-track:17084377",
+      "neteaseTrackId": "17084377",
+      "title": "Atomic Moog 2000 (Post Nuclear After life Lounge Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 426173
+    },
+    {
+      "id": "netease-track:17084378",
+      "neteaseTrackId": "17084378",
+      "title": "More Beats & Pieces (Daddy Rips It Up Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 368560
+    },
+    {
+      "id": "netease-track:17084379",
+      "neteaseTrackId": "17084379",
+      "title": "Rubaiyat",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 402066
+    },
+    {
+      "id": "netease-track:17084380",
+      "neteaseTrackId": "17084380",
+      "title": "Pan Opticon",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 419440
+    },
+    {
+      "id": "netease-track:17084381",
+      "neteaseTrackId": "17084381",
+      "title": "Music 4 No Musicians",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 422666
+    },
+    {
+      "id": "netease-track:17084382",
+      "neteaseTrackId": "17084382",
+      "title": "Noah's Toilet",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 273893
+    },
+    {
+      "id": "netease-track:17084383",
+      "neteaseTrackId": "17084383",
+      "title": "Space Journey",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 260933
+    },
+    {
+      "id": "netease-track:17084384",
+      "neteaseTrackId": "17084384",
+      "title": "Timber",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 272066
+    },
+    {
+      "id": "netease-track:17084385",
+      "neteaseTrackId": "17084385",
+      "title": "Every Home A Prison",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 423026
+    },
+    {
+      "id": "netease-track:17084386",
+      "neteaseTrackId": "17084386",
+      "title": "Cloned Again",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:17084387",
+      "neteaseTrackId": "17084387",
+      "title": "I'm Wild About That Thing",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 444200
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1574645",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Let Us Play Coldcut",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "internalId": "album:513294",
+  "id": "album:513294",
+  "neteaseAlbumId": "513294",
+  "slug": "netease-album-513294",
+  "title": "让心勇敢飞",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3691",
+      "neteaseArtistId": "3691",
+      "name": "刘德华"
+    },
+    {
+      "id": "netease-artist:4813",
+      "neteaseArtistId": "4813",
+      "name": "齐秦"
+    },
+    {
+      "id": "netease-artist:8336",
+      "neteaseArtistId": "8336",
+      "name": "林忆莲"
+    },
+    {
+      "id": "netease-artist:10559",
+      "neteaseArtistId": "10559",
+      "name": "张惠妹"
+    },
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    },
+    {
+      "id": "netease-artist:6456",
+      "neteaseArtistId": "6456",
+      "name": "周华健"
+    },
+    {
+      "id": "netease-artist:9943",
+      "neteaseArtistId": "9943",
+      "name": "许茹芸"
+    },
+    {
+      "id": "netease-artist:8331",
+      "neteaseArtistId": "8331",
+      "name": "李玟"
+    },
+    {
+      "id": "netease-artist:9951",
+      "neteaseArtistId": "9951",
+      "name": "辛晓琪"
+    },
+    {
+      "id": "netease-artist:7662",
+      "neteaseArtistId": "7662",
+      "name": "范晓萱"
+    },
+    {
+      "id": "netease-artist:6075",
+      "neteaseArtistId": "6075",
+      "name": "庾澄庆"
+    },
+    {
+      "id": "netease-artist:13190",
+      "neteaseArtistId": "13190",
+      "name": "无印良品"
+    },
+    {
+      "id": "netease-artist:8298",
+      "neteaseArtistId": "8298",
+      "name": "柯以敏"
+    },
+    {
+      "id": "netease-artist:5775",
+      "neteaseArtistId": "5775",
+      "name": "熊天平"
+    }
+  ],
+  "releaseDate": "1998-07-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "民声",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/513294.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/513294.webp",
+    "alt": "《让心勇敢飞》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5275601",
+      "neteaseTrackId": "5275601",
+      "title": "让心勇敢飞",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘德华",
+        "品冠",
+        "齐秦",
+        "熊天平",
+        "林忆莲",
+        "柯以敏",
+        "张惠妹",
+        "范晓萱",
+        "张信哲",
+        "光良",
+        "周华健",
+        "庾澄庆",
+        "许茹芸",
+        "辛晓琪",
+        "李玟"
+      ],
+      "durationMs": 306866
+    },
+    {
+      "id": "netease-track:5275602",
+      "neteaseTrackId": "5275602",
+      "title": "无情的雨，无情的你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "齐秦"
+      ],
+      "durationMs": 248560
+    },
+    {
+      "id": "netease-track:5275603",
+      "neteaseTrackId": "5275603",
+      "title": "为你我受冷风吹",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林忆莲"
+      ],
+      "durationMs": 257733
+    },
+    {
+      "id": "netease-track:5275604",
+      "neteaseTrackId": "5275604",
+      "title": "冲动",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张惠妹"
+      ],
+      "durationMs": 260840
+    },
+    {
+      "id": "netease-track:5275605",
+      "neteaseTrackId": "5275605",
+      "title": "背叛",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 234506
+    },
+    {
+      "id": "netease-track:5275606",
+      "neteaseTrackId": "5275606",
+      "title": "明天我要嫁给你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周华健"
+      ],
+      "durationMs": 206493
+    },
+    {
+      "id": "netease-track:5275607",
+      "neteaseTrackId": "5275607",
+      "title": "沙漏",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "许茹芸"
+      ],
+      "durationMs": 261131
+    },
+    {
+      "id": "netease-track:5275608",
+      "neteaseTrackId": "5275608",
+      "title": "无处躲雨",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "李玟"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:5275609",
+      "neteaseTrackId": "5275609",
+      "title": "爱情余味",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "辛晓琪"
+      ],
+      "durationMs": 229706
+    },
+    {
+      "id": "netease-track:5275610",
+      "neteaseTrackId": "5275610",
+      "title": "好想谈恋爱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "范晓萱"
+      ],
+      "durationMs": 262920
+    },
+    {
+      "id": "netease-track:5275611",
+      "neteaseTrackId": "5275611",
+      "title": "让自己High",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "庾澄庆"
+      ],
+      "durationMs": 226693
+    },
+    {
+      "id": "netease-track:5275612",
+      "neteaseTrackId": "5275612",
+      "title": "有你在身旁",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "无印良品"
+      ],
+      "durationMs": 246133
+    },
+    {
+      "id": "netease-track:5275613",
+      "neteaseTrackId": "5275613",
+      "title": "怕你不了解",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "柯以敏"
+      ],
+      "durationMs": 277240
+    },
+    {
+      "id": "netease-track:5275614",
+      "neteaseTrackId": "5275614",
+      "title": "火柴天堂",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "熊天平"
+      ],
+      "durationMs": 295241
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=513294",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "让心勇敢飞 刘德华 齐秦 林忆莲 张惠妹 张信哲 周华健 许茹芸 李玟 辛晓琪 范晓萱 庾澄庆 无印良品 柯以敏 熊天平",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

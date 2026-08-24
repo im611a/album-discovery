@@ -1,0 +1,166 @@
+{
+  "internalId": "album:432471",
+  "id": "album:432471",
+  "neteaseAlbumId": "432471",
+  "slug": "netease-album-432471",
+  "title": "Von brigði",
+  "aliases": [
+    "无望"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "1998-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432471.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432471.webp",
+    "alt": "《Von brigði》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4279110",
+      "neteaseTrackId": "4279110",
+      "title": "Syndir guðs (Recycled by Biogen)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 418746
+    },
+    {
+      "id": "netease-track:4279111",
+      "neteaseTrackId": "4279111",
+      "title": "Syndir guðs (Recycled by múm)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 295053
+    },
+    {
+      "id": "netease-track:4279113",
+      "neteaseTrackId": "4279113",
+      "title": "Leit af lífi (Recycled by Plasmic)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 328293
+    },
+    {
+      "id": "netease-track:4279117",
+      "neteaseTrackId": "4279117",
+      "title": "Myrkur (Recycled by Ilo)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 332960
+    },
+    {
+      "id": "netease-track:4279122",
+      "neteaseTrackId": "4279122",
+      "title": "Myrkur (Recycled by Dirty-Bix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 304760
+    },
+    {
+      "id": "netease-track:4279126",
+      "neteaseTrackId": "4279126",
+      "title": "180 sekúndur fyrir sólarupprás (Recycled by Curver)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 181013
+    },
+    {
+      "id": "netease-track:4279129",
+      "neteaseTrackId": "4279129",
+      "title": "Hún jörð (Recycled by Hassbræður)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 320906
+    },
+    {
+      "id": "netease-track:4279132",
+      "neteaseTrackId": "4279132",
+      "title": "Leit af lífi (Recycled by Thor)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 336106
+    },
+    {
+      "id": "netease-track:4279135",
+      "neteaseTrackId": "4279135",
+      "title": "Von (Recycled by GusGus)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 446266
+    },
+    {
+      "id": "netease-track:4279138",
+      "neteaseTrackId": "4279138",
+      "title": "Leit af lífi (Recycled by Sigur Rós)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 302920
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=432471",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Von brigði 无望 Sigur Rós",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

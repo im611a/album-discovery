@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1956882",
+  "id": "album:1956882",
+  "neteaseAlbumId": "1956882",
+  "slug": "broken-beat-scarred",
+  "title": "Broken, Beat & Scarred",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2009-04-02",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956882.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956882.webp",
+    "alt": "《Broken, Beat & Scarred》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162680",
+      "neteaseTrackId": "21162680",
+      "title": "Broken, Beat & Scarred (Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 446615
+    },
+    {
+      "id": "netease-track:21162682",
+      "neteaseTrackId": "21162682",
+      "title": "The End Of The Line (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 472528
+    },
+    {
+      "id": "netease-track:21162684",
+      "neteaseTrackId": "21162684",
+      "title": "Stone Cold Crazy (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 204538
+    },
+    {
+      "id": "netease-track:21162685",
+      "neteaseTrackId": "21162685",
+      "title": "Of Wolf And Man (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 292466
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1956882",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Broken, Beat & Scarred Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

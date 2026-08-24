@@ -1,0 +1,98 @@
+{
+  "internalId": "album:19322",
+  "id": "album:19322",
+  "neteaseAlbumId": "19322",
+  "slug": "netease-album-19322",
+  "title": "最美的太阳",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "name": "张杰"
+    }
+  ],
+  "releaseDate": "2007-12-23",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "步酷音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19322.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19322.webp",
+    "alt": "《最美的太阳》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:191278",
+      "neteaseTrackId": "191278",
+      "title": "最美的太阳",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 257693
+    },
+    {
+      "id": "netease-track:191281",
+      "neteaseTrackId": "191281",
+      "title": "花手绢",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 279186
+    },
+    {
+      "id": "netease-track:191285",
+      "neteaseTrackId": "191285",
+      "title": "I'm a dreamer",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 294866
+    },
+    {
+      "id": "netease-track:191289",
+      "neteaseTrackId": "191289",
+      "title": "消失",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 289000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=19322",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "最美的太阳 张杰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

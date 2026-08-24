@@ -1,0 +1,340 @@
+{
+  "internalId": "album:1970540",
+  "id": "album:1970540",
+  "neteaseAlbumId": "1970540",
+  "slug": "from-cool-to-bop",
+  "title": "From Cool To Bop",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2005-06-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Master Classics",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970540.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970540.webp",
+    "alt": "《From Cool To Bop》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339915",
+      "neteaseTrackId": "21339915",
+      "title": "Theme",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 17666
+    },
+    {
+      "id": "netease-track:21339916",
+      "neteaseTrackId": "21339916",
+      "title": "Introduction",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 62213
+    },
+    {
+      "id": "netease-track:21339917",
+      "neteaseTrackId": "21339917",
+      "title": "Move",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 224360
+    },
+    {
+      "id": "netease-track:21339918",
+      "neteaseTrackId": "21339918",
+      "title": "Why Do I Love You",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 221880
+    },
+    {
+      "id": "netease-track:21339919",
+      "neteaseTrackId": "21339919",
+      "title": "Godchild",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351773
+    },
+    {
+      "id": "netease-track:21339920",
+      "neteaseTrackId": "21339920",
+      "title": "Introduction",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 24586
+    },
+    {
+      "id": "netease-track:21339921",
+      "neteaseTrackId": "21339921",
+      "title": "S'il Vous Plait",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 263813
+    },
+    {
+      "id": "netease-track:21339922",
+      "neteaseTrackId": "21339922",
+      "title": "Moon Dreams",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 188080
+    },
+    {
+      "id": "netease-track:21339923",
+      "neteaseTrackId": "21339923",
+      "title": "Budo (Hallucinations)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 206666
+    },
+    {
+      "id": "netease-track:21339924",
+      "neteaseTrackId": "21339924",
+      "title": "Darn That Dream",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 263693
+    },
+    {
+      "id": "netease-track:21339925",
+      "neteaseTrackId": "21339925",
+      "title": "Move",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 289200
+    },
+    {
+      "id": "netease-track:21339926",
+      "neteaseTrackId": "21339926",
+      "title": "Moon Dreams",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 226680
+    },
+    {
+      "id": "netease-track:21339927",
+      "neteaseTrackId": "21339927",
+      "title": "Budo (Hallucinations)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 262426
+    },
+    {
+      "id": "netease-track:21339928",
+      "neteaseTrackId": "21339928",
+      "title": "52nd Street Theme",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 235826
+    },
+    {
+      "id": "netease-track:21339929",
+      "neteaseTrackId": "21339929",
+      "title": "Half Nelson",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 342426
+    },
+    {
+      "id": "netease-track:21339930",
+      "neteaseTrackId": "21339930",
+      "title": "You Go To My Head",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 337000
+    },
+    {
+      "id": "netease-track:21339931",
+      "neteaseTrackId": "21339931",
+      "title": "Chasin' The Bird",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 344280
+    },
+    {
+      "id": "netease-track:21339932",
+      "neteaseTrackId": "21339932",
+      "title": "Rifftide",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:21339933",
+      "neteaseTrackId": "21339933",
+      "title": "Good Bait",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 347866
+    },
+    {
+      "id": "netease-track:21339934",
+      "neteaseTrackId": "21339934",
+      "title": "Don't Blame Me",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 259293
+    },
+    {
+      "id": "netease-track:21339935",
+      "neteaseTrackId": "21339935",
+      "title": "Lady Bird",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 306280
+    },
+    {
+      "id": "netease-track:21339936",
+      "neteaseTrackId": "21339936",
+      "title": "Wah-Hoo!",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 333280
+    },
+    {
+      "id": "netease-track:21339937",
+      "neteaseTrackId": "21339937",
+      "title": "Allen's Alley",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 259146
+    },
+    {
+      "id": "netease-track:21339938",
+      "neteaseTrackId": "21339938",
+      "title": "Embraceable You",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 239786
+    },
+    {
+      "id": "netease-track:21339939",
+      "neteaseTrackId": "21339939",
+      "title": "Ornithology",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 231053
+    },
+    {
+      "id": "netease-track:21339940",
+      "neteaseTrackId": "21339940",
+      "title": "All The Things You Are",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 258573
+    }
+  ],
+  "trackCount": 26,
+  "externalUrl": "https://music.163.com/#/album?id=1970540",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "From Cool To Bop Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

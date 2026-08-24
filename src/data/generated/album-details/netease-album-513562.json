@@ -1,0 +1,190 @@
+{
+  "internalId": "album:513562",
+  "id": "album:513562",
+  "neteaseAlbumId": "513562",
+  "slug": "netease-album-513562",
+  "title": "摇滚中国乐势力",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:6455",
+      "neteaseArtistId": "6455",
+      "name": "张楚"
+    },
+    {
+      "id": "netease-artist:3055",
+      "neteaseArtistId": "3055",
+      "name": "何勇"
+    },
+    {
+      "id": "netease-artist:12972",
+      "neteaseArtistId": "12972",
+      "name": "唐朝乐队"
+    }
+  ],
+  "releaseDate": "1995-10-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/513562.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/513562.webp",
+    "alt": "《摇滚中国乐势力》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5279713",
+      "neteaseTrackId": "5279713",
+      "title": "高级动物 (Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 217133
+    },
+    {
+      "id": "netease-track:5279714",
+      "neteaseTrackId": "5279714",
+      "title": "噢！乖 (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 346467
+    },
+    {
+      "id": "netease-track:5279715",
+      "neteaseTrackId": "5279715",
+      "title": "悲伤的梦 (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 323666
+    },
+    {
+      "id": "netease-track:5279716",
+      "neteaseTrackId": "5279716",
+      "title": "飞翔鸟 (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "唐朝乐队"
+      ],
+      "durationMs": 581667
+    },
+    {
+      "id": "netease-track:5279717",
+      "neteaseTrackId": "5279717",
+      "title": "选择 (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "唐朝乐队"
+      ],
+      "durationMs": 410933
+    },
+    {
+      "id": "netease-track:5279718",
+      "neteaseTrackId": "5279718",
+      "title": "孤独的人是可耻的 (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张楚"
+      ],
+      "durationMs": 237840
+    },
+    {
+      "id": "netease-track:5279719",
+      "neteaseTrackId": "5279719",
+      "title": "厕所和床 (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张楚"
+      ],
+      "durationMs": 175267
+    },
+    {
+      "id": "netease-track:5279720",
+      "neteaseTrackId": "5279720",
+      "title": "蚂蚁 蚂蚁 (Live)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张楚"
+      ],
+      "durationMs": 320400
+    },
+    {
+      "id": "netease-track:5279721",
+      "neteaseTrackId": "5279721",
+      "title": "姑娘 漂亮 (Live)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "何勇"
+      ],
+      "durationMs": 336227
+    },
+    {
+      "id": "netease-track:5279722",
+      "neteaseTrackId": "5279722",
+      "title": "钟鼓楼 (Live)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "何勇"
+      ],
+      "durationMs": 509866
+    },
+    {
+      "id": "netease-track:5279723",
+      "neteaseTrackId": "5279723",
+      "title": "非洲梦 (Live)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "何勇"
+      ],
+      "durationMs": 315333
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=513562",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "摇滚中国乐势力 窦唯 张楚 何勇 唐朝乐队",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

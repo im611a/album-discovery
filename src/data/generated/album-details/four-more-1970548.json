@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1970548",
+  "id": "album:1970548",
+  "neteaseAlbumId": "1970548",
+  "slug": "four-more-1970548",
+  "title": "Four & More",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1966-01-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970548.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970548.webp",
+    "alt": "《Four & More》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339995",
+      "neteaseTrackId": "21339995",
+      "title": "So What (Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 551000
+    },
+    {
+      "id": "netease-track:21339996",
+      "neteaseTrackId": "21339996",
+      "title": "Walkin' (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 487893
+    },
+    {
+      "id": "netease-track:21339997",
+      "neteaseTrackId": "21339997",
+      "title": "Joshua (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 572306
+    },
+    {
+      "id": "netease-track:21339998",
+      "neteaseTrackId": "21339998",
+      "title": "Go-Go (Theme And Announcement) (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 100666
+    },
+    {
+      "id": "netease-track:21339999",
+      "neteaseTrackId": "21339999",
+      "title": "Four (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 379933
+    },
+    {
+      "id": "netease-track:21340000",
+      "neteaseTrackId": "21340000",
+      "title": "Seven Steps To Heaven (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 464960
+    },
+    {
+      "id": "netease-track:21340001",
+      "neteaseTrackId": "21340001",
+      "title": "There Is No Greater Love (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 602440
+    },
+    {
+      "id": "netease-track:21340002",
+      "neteaseTrackId": "21340002",
+      "title": "Go-Go (Theme And Announcement) (Live)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 81400
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1970548",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Four & More Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

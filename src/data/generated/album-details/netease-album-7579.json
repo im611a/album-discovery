@@ -1,0 +1,145 @@
+{
+  "internalId": "album:7579",
+  "id": "album:7579",
+  "neteaseAlbumId": "7579",
+  "slug": "netease-album-7579",
+  "title": "再续镜花缘",
+  "aliases": [
+    "镜花缘记"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    }
+  ],
+  "releaseDate": "2001-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7579.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7579.webp",
+    "alt": "《再续镜花缘》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77102",
+      "neteaseTrackId": "77102",
+      "title": "流水",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 71200
+    },
+    {
+      "id": "netease-track:77106",
+      "neteaseTrackId": "77106",
+      "title": "落花",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 99812
+    },
+    {
+      "id": "netease-track:77110",
+      "neteaseTrackId": "77110",
+      "title": "行舞",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 401960
+    },
+    {
+      "id": "netease-track:77114",
+      "neteaseTrackId": "77114",
+      "title": "远",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 266960
+    },
+    {
+      "id": "netease-track:77118",
+      "neteaseTrackId": "77118",
+      "title": "赶路",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 218026
+    },
+    {
+      "id": "netease-track:77122",
+      "neteaseTrackId": "77122",
+      "title": "眠航",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 263720
+    },
+    {
+      "id": "netease-track:77126",
+      "neteaseTrackId": "77126",
+      "title": "伤逝",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 338520
+    },
+    {
+      "id": "netease-track:77130",
+      "neteaseTrackId": "77130",
+      "title": "怀",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 774849
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=7579",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic",
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "再续镜花缘 镜花缘记 窦唯",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "internalId": "album:18982",
+  "id": "album:18982",
+  "neteaseAlbumId": "18982",
+  "slug": "netease-album-18982",
+  "title": "绝对想念",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1995-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18982.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18982.webp",
+    "alt": "《绝对想念》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187071",
+      "neteaseTrackId": "187071",
+      "title": "爱如潮水",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 275200
+    },
+    {
+      "id": "netease-track:187078",
+      "neteaseTrackId": "187078",
+      "title": "有一点动心",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "刘嘉玲"
+      ],
+      "durationMs": 231840
+    },
+    {
+      "id": "netease-track:187081",
+      "neteaseTrackId": "187081",
+      "title": "让我忘记你的脸",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 210973
+    },
+    {
+      "id": "netease-track:187085",
+      "neteaseTrackId": "187085",
+      "title": "相信相依",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 269760
+    },
+    {
+      "id": "netease-track:187089",
+      "neteaseTrackId": "187089",
+      "title": "你知道应该如何爱着我",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 289306
+    },
+    {
+      "id": "netease-track:187093",
+      "neteaseTrackId": "187093",
+      "title": "别怕我伤心",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291827
+    },
+    {
+      "id": "netease-track:187097",
+      "neteaseTrackId": "187097",
+      "title": "我们爱这个错",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 207666
+    },
+    {
+      "id": "netease-track:187100",
+      "neteaseTrackId": "187100",
+      "title": "临别一眼",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 297333
+    },
+    {
+      "id": "netease-track:187103",
+      "neteaseTrackId": "187103",
+      "title": "我真的愿意",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 271507
+    },
+    {
+      "id": "netease-track:187106",
+      "neteaseTrackId": "187106",
+      "title": "给我一些音乐",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 218666
+    },
+    {
+      "id": "netease-track:187109",
+      "neteaseTrackId": "187109",
+      "title": "爱如潮水(伴唱版)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 273493
+    },
+    {
+      "id": "netease-track:187113",
+      "neteaseTrackId": "187113",
+      "title": "别怕我伤心(伴唱版)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 289507
+    },
+    {
+      "id": "netease-track:187117",
+      "neteaseTrackId": "187117",
+      "title": "有一点动心(伴唱版)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 231333
+    },
+    {
+      "id": "netease-track:187121",
+      "neteaseTrackId": "187121",
+      "title": "我们爱这个错(伴唱版)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 208666
+    },
+    {
+      "id": "netease-track:187124",
+      "neteaseTrackId": "187124",
+      "title": "让我忘记你的脸(伴唱版)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 211666
+    },
+    {
+      "id": "netease-track:187127",
+      "neteaseTrackId": "187127",
+      "title": "I Have To Say I Love You In A Song",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 195666
+    },
+    {
+      "id": "netease-track:187132",
+      "neteaseTrackId": "187132",
+      "title": "C'est La Vie",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:187135",
+      "neteaseTrackId": "187135",
+      "title": "The Twelfth Of Never",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 271333
+    },
+    {
+      "id": "netease-track:187140",
+      "neteaseTrackId": "187140",
+      "title": "I Will Always Love You",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 208332
+    },
+    {
+      "id": "netease-track:187144",
+      "neteaseTrackId": "187144",
+      "title": "Girl You Are My Song",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 271000
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=18982",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "绝对想念 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

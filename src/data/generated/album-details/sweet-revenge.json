@@ -1,0 +1,197 @@
+{
+  "internalId": "album:47798",
+  "id": "album:47798",
+  "neteaseAlbumId": "47798",
+  "slug": "sweet-revenge",
+  "title": "Sweet Revenge",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1994-06-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47798.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47798.webp",
+    "alt": "《Sweet Revenge》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:501245",
+      "neteaseTrackId": "501245",
+      "title": "Tokyo Story",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 76933
+    },
+    {
+      "id": "netease-track:501251",
+      "neteaseTrackId": "501251",
+      "title": "Moving On",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 341293
+    },
+    {
+      "id": "netease-track:501256",
+      "neteaseTrackId": "501256",
+      "title": "二人の果て",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 356733
+    },
+    {
+      "id": "netease-track:501261",
+      "neteaseTrackId": "501261",
+      "title": "Regret",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 339306
+    },
+    {
+      "id": "netease-track:501265",
+      "neteaseTrackId": "501265",
+      "title": "Pounding at my Heart",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 330000
+    },
+    {
+      "id": "netease-track:501270",
+      "neteaseTrackId": "501270",
+      "title": "Love and Hate",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 329160
+    },
+    {
+      "id": "netease-track:501275",
+      "neteaseTrackId": "501275",
+      "title": "Sweet Revenge",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 249640
+    },
+    {
+      "id": "netease-track:501281",
+      "neteaseTrackId": "501281",
+      "title": "7 Seconds",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 213666
+    },
+    {
+      "id": "netease-track:31517972",
+      "neteaseTrackId": "31517972",
+      "title": "Anna",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 286600
+    },
+    {
+      "id": "netease-track:501286",
+      "neteaseTrackId": "501286",
+      "title": "Same Dream, Same Destination",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 244560
+    },
+    {
+      "id": "netease-track:31517973",
+      "neteaseTrackId": "31517973",
+      "title": "Psychedelic Afternoon",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 250333
+    },
+    {
+      "id": "netease-track:501291",
+      "neteaseTrackId": "501291",
+      "title": "Interruptions",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 287106
+    },
+    {
+      "id": "netease-track:501295",
+      "neteaseTrackId": "501295",
+      "title": "君と僕と彼女のこと",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 312360
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=47798",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sweet Revenge 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

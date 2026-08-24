@@ -1,0 +1,142 @@
+{
+  "internalId": "album:151350",
+  "id": "album:151350",
+  "neteaseAlbumId": "151350",
+  "slug": "control-the-remixes",
+  "title": "Control: The Remixes",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1987-02-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "A&M",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151350.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151350.webp",
+    "alt": "《Control: The Remixes》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480959",
+      "neteaseTrackId": "1480959",
+      "title": "Control (Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 354115
+    },
+    {
+      "id": "netease-track:1480964",
+      "neteaseTrackId": "1480964",
+      "title": "Nasty (Extended Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 243554
+    },
+    {
+      "id": "netease-track:1480967",
+      "neteaseTrackId": "1480967",
+      "title": "What Have You Done For Me Lately",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 300093
+    },
+    {
+      "id": "netease-track:1480971",
+      "neteaseTrackId": "1480971",
+      "title": "You Can Be Mine",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 316573
+    },
+    {
+      "id": "netease-track:1480976",
+      "neteaseTrackId": "1480976",
+      "title": "When I Think of You (Extra Beats)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 297973
+    },
+    {
+      "id": "netease-track:1480981",
+      "neteaseTrackId": "1480981",
+      "title": "When I Think of You (Dance Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 237540
+    },
+    {
+      "id": "netease-track:1480985",
+      "neteaseTrackId": "1480985",
+      "title": "Control (Acappella)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 211973
+    },
+    {
+      "id": "netease-track:1480989",
+      "neteaseTrackId": "1480989",
+      "title": "Let's Wait Awhile (Remix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 276933
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=151350",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Control: The Remixes Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

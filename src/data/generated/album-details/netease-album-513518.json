@@ -1,0 +1,214 @@
+{
+  "internalId": "album:513518",
+  "id": "album:513518",
+  "neteaseAlbumId": "513518",
+  "slug": "netease-album-513518",
+  "title": "红星一号",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:122455",
+      "neteaseArtistId": "122455",
+      "name": "群星"
+    },
+    {
+      "id": "netease-artist:9488",
+      "neteaseArtistId": "9488",
+      "name": "田震"
+    },
+    {
+      "id": "netease-artist:3104",
+      "neteaseArtistId": "3104",
+      "name": "骅梓"
+    },
+    {
+      "id": "netease-artist:13436",
+      "neteaseArtistId": "13436",
+      "name": "眼镜蛇"
+    },
+    {
+      "id": "netease-artist:5084",
+      "neteaseArtistId": "5084",
+      "name": "石头"
+    },
+    {
+      "id": "netease-artist:5770",
+      "neteaseArtistId": "5770",
+      "name": "许巍"
+    },
+    {
+      "id": "netease-artist:5772",
+      "neteaseArtistId": "5772",
+      "name": "小柯"
+    },
+    {
+      "id": "netease-artist:9975",
+      "neteaseArtistId": "9975",
+      "name": "希莉娜依"
+    },
+    {
+      "id": "netease-artist:12984",
+      "neteaseArtistId": "12984",
+      "name": "天堂乐队"
+    },
+    {
+      "id": "netease-artist:6458",
+      "neteaseArtistId": "6458",
+      "name": "郑钧"
+    },
+    {
+      "id": "netease-artist:3682",
+      "neteaseArtistId": "3682",
+      "name": "老狼"
+    }
+  ],
+  "releaseDate": "1995-09-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "太合麦田",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/513518.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/513518.webp",
+    "alt": "《红星一号》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5279277",
+      "neteaseTrackId": "5279277",
+      "title": "执着",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "田震"
+      ],
+      "durationMs": 289000
+    },
+    {
+      "id": "netease-track:5279278",
+      "neteaseTrackId": "5279278",
+      "title": "忘掉",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "骅梓"
+      ],
+      "durationMs": 287218
+    },
+    {
+      "id": "netease-track:5279279",
+      "neteaseTrackId": "5279279",
+      "title": "不是游戏的年纪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "眼镜蛇"
+      ],
+      "durationMs": 384692
+    },
+    {
+      "id": "netease-track:5279280",
+      "neteaseTrackId": "5279280",
+      "title": "童话梦",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "石头"
+      ],
+      "durationMs": 310000
+    },
+    {
+      "id": "netease-track:5279281",
+      "neteaseTrackId": "5279281",
+      "title": "两天",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "许巍"
+      ],
+      "durationMs": 443000
+    },
+    {
+      "id": "netease-track:5279282",
+      "neteaseTrackId": "5279282",
+      "title": "乌鸦",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "小柯"
+      ],
+      "durationMs": 228179
+    },
+    {
+      "id": "netease-track:5279283",
+      "neteaseTrackId": "5279283",
+      "title": "秋天",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "希莉娜依"
+      ],
+      "durationMs": 251003
+    },
+    {
+      "id": "netease-track:5279284",
+      "neteaseTrackId": "5279284",
+      "title": "天使的泪",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "天堂乐队"
+      ],
+      "durationMs": 487000
+    },
+    {
+      "id": "netease-track:5279285",
+      "neteaseTrackId": "5279285",
+      "title": "极乐世界",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "郑钧"
+      ],
+      "durationMs": 239032
+    },
+    {
+      "id": "netease-track:2612434262",
+      "neteaseTrackId": "2612434262",
+      "title": "同桌的你 (95年红星版)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 208733
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=513518",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "红星一号 群星 田震 骅梓 眼镜蛇 石头 许巍 小柯 希莉娜依 天堂乐队 郑钧 老狼",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

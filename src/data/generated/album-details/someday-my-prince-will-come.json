@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1969867",
+  "id": "album:1969867",
+  "neteaseAlbumId": "1969867",
+  "slug": "someday-my-prince-will-come",
+  "title": "Someday My Prince Will Come",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1997-04-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969867.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969867.webp",
+    "alt": "《Someday My Prince Will Come》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21328827",
+      "neteaseTrackId": "21328827",
+      "title": "Some Day My Prince Will Come",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 542413
+    },
+    {
+      "id": "netease-track:21328828",
+      "neteaseTrackId": "21328828",
+      "title": "Old Folks (Album Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 314212
+    },
+    {
+      "id": "netease-track:21328829",
+      "neteaseTrackId": "21328829",
+      "title": "Pfrancing",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 510173
+    },
+    {
+      "id": "netease-track:21328830",
+      "neteaseTrackId": "21328830",
+      "title": "Drad Dog",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 288786
+    },
+    {
+      "id": "netease-track:21328831",
+      "neteaseTrackId": "21328831",
+      "title": "Teo",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 572650
+    },
+    {
+      "id": "netease-track:21328832",
+      "neteaseTrackId": "21328832",
+      "title": "I Thought About You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 292176
+    },
+    {
+      "id": "netease-track:21328833",
+      "neteaseTrackId": "21328833",
+      "title": "Blues No. 2 (Album Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 425366
+    },
+    {
+      "id": "netease-track:21328834",
+      "neteaseTrackId": "21328834",
+      "title": "Someday My Prince Will Come",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 333810
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1969867",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Someday My Prince Will Come Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

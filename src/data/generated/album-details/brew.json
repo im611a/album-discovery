@@ -1,0 +1,171 @@
+{
+  "internalId": "album:1970654",
+  "id": "album:1970654",
+  "neteaseAlbumId": "1970654",
+  "slug": "brew",
+  "title": "******* Brew",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1970-03-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970654.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970654.webp",
+    "alt": "《******* Brew》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341618",
+      "neteaseTrackId": "21341618",
+      "title": "Pharaoh's Dance",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1203768
+    },
+    {
+      "id": "netease-track:21341619",
+      "neteaseTrackId": "21341619",
+      "title": "******* Brew",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Wayne Shorter",
+        "Bennie Maupin",
+        "John McLaughlin",
+        "Chick Corea",
+        "Joe Zawinul",
+        "Dave Holland",
+        "Harvey Brooks"
+      ],
+      "durationMs": 1618570
+    },
+    {
+      "id": "netease-track:21341620",
+      "neteaseTrackId": "21341620",
+      "title": "Spanish Key",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis",
+        "Wayne Shorter",
+        "Bennie Maupin",
+        "John McLaughlin",
+        "Chick Corea",
+        "Joe Zawinul",
+        "Dave Holland",
+        "Harvey Brooks"
+      ],
+      "durationMs": 1052769
+    },
+    {
+      "id": "netease-track:21341621",
+      "neteaseTrackId": "21341621",
+      "title": "John McLaughlin",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis",
+        "Wayne Shorter",
+        "Bennie Maupin",
+        "John McLaughlin",
+        "Chick Corea",
+        "Joe Zawinul",
+        "Dave Holland",
+        "Harvey Brooks"
+      ],
+      "durationMs": 263105
+    },
+    {
+      "id": "netease-track:21341622",
+      "neteaseTrackId": "21341622",
+      "title": "Miles Runs the Voodoo Down",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis",
+        "Wayne Shorter",
+        "Bennie Maupin",
+        "John McLaughlin",
+        "Chick Corea",
+        "Joe Zawinul",
+        "Dave Holland",
+        "Harvey Brooks"
+      ],
+      "durationMs": 841398
+    },
+    {
+      "id": "netease-track:21341623",
+      "neteaseTrackId": "21341623",
+      "title": "Sanctuary",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis",
+        "Wayne Shorter",
+        "Bennie Maupin",
+        "John McLaughlin",
+        "Chick Corea",
+        "Joe Zawinul",
+        "Dave Holland",
+        "Harvey Brooks"
+      ],
+      "durationMs": 657542
+    },
+    {
+      "id": "netease-track:21341624",
+      "neteaseTrackId": "21341624",
+      "title": "Feio",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis",
+        "Wayne Shorter",
+        "John McLaughlin",
+        "Chick Corea",
+        "Joe Zawinul",
+        "Dave Holland"
+      ],
+      "durationMs": 709230
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1970654",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "******* Brew Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

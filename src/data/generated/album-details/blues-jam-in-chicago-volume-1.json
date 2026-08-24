@@ -1,0 +1,219 @@
+{
+  "internalId": "album:1637055",
+  "id": "album:1637055",
+  "neteaseAlbumId": "1637055",
+  "slug": "blues-jam-in-chicago-volume-1",
+  "title": "Blues Jam In Chicago - Volume 1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "2004-05-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637055.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637055.webp",
+    "alt": "《Blues Jam In Chicago - Volume 1》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17786177",
+      "neteaseTrackId": "17786177",
+      "title": "Watch Out!",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 260063
+    },
+    {
+      "id": "netease-track:17786178",
+      "neteaseTrackId": "17786178",
+      "title": "Ooh Baby",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 245527
+    },
+    {
+      "id": "netease-track:17786179",
+      "neteaseTrackId": "17786179",
+      "title": "South Indiana - Take 1",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 201061
+    },
+    {
+      "id": "netease-track:17786180",
+      "neteaseTrackId": "17786180",
+      "title": "South Indiana - Take 2",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 226925
+    },
+    {
+      "id": "netease-track:17786181",
+      "neteaseTrackId": "17786181",
+      "title": "Last Night",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 301270
+    },
+    {
+      "id": "netease-track:17786182",
+      "neteaseTrackId": "17786182",
+      "title": "Red Hot Jam (Take 1)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 355242
+    },
+    {
+      "id": "netease-track:17786183",
+      "neteaseTrackId": "17786183",
+      "title": "Red Hot Jam",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 362422
+    },
+    {
+      "id": "netease-track:17786184",
+      "neteaseTrackId": "17786184",
+      "title": "I'm Worried",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 226768
+    },
+    {
+      "id": "netease-track:17786185",
+      "neteaseTrackId": "17786185",
+      "title": "I Held My Baby Last Night",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 316029
+    },
+    {
+      "id": "netease-track:17786186",
+      "neteaseTrackId": "17786186",
+      "title": "Madison Blues",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 295549
+    },
+    {
+      "id": "netease-track:17786187",
+      "neteaseTrackId": "17786187",
+      "title": "I Can't Hold Out",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 288949
+    },
+    {
+      "id": "netease-track:17786188",
+      "neteaseTrackId": "17786188",
+      "title": "Bobby's Rock",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 239595
+    },
+    {
+      "id": "netease-track:17786189",
+      "neteaseTrackId": "17786189",
+      "title": "I Need Your Love (Take 2)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 271830
+    },
+    {
+      "id": "netease-track:17786190",
+      "neteaseTrackId": "17786190",
+      "title": "Horton's Boogie Woogie (Take 1)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 217361
+    },
+    {
+      "id": "netease-track:17786191",
+      "neteaseTrackId": "17786191",
+      "title": "I Got The Blues",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 294974
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1637055",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Blues Jam In Chicago - Volume 1 Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

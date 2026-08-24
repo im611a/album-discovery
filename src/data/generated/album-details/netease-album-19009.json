@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19009",
+  "id": "album:19009",
+  "neteaseAlbumId": "19009",
+  "slug": "netease-album-19009",
+  "title": "忘记",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1989-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "巨石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19009.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19009.webp",
+    "alt": "《忘记》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187490",
+      "neteaseTrackId": "187490",
+      "title": "舍不得你要离开",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 312067
+    },
+    {
+      "id": "netease-track:187495",
+      "neteaseTrackId": "187495",
+      "title": "相信相依",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 269760
+    },
+    {
+      "id": "netease-track:187500",
+      "neteaseTrackId": "187500",
+      "title": "你就这样离开我",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 221373
+    },
+    {
+      "id": "netease-track:187504",
+      "neteaseTrackId": "187504",
+      "title": "新兵日记",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 254467
+    },
+    {
+      "id": "netease-track:187508",
+      "neteaseTrackId": "187508",
+      "title": "Reality",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 302160
+    },
+    {
+      "id": "netease-track:187509",
+      "neteaseTrackId": "187509",
+      "title": "心爱宝贝",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 254373
+    },
+    {
+      "id": "netease-track:187510",
+      "neteaseTrackId": "187510",
+      "title": "永远在我身边",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291307
+    },
+    {
+      "id": "netease-track:187512",
+      "neteaseTrackId": "187512",
+      "title": "连根拔去",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 257400
+    },
+    {
+      "id": "netease-track:187515",
+      "neteaseTrackId": "187515",
+      "title": "寂寞的冬",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 279333
+    },
+    {
+      "id": "netease-track:187517",
+      "neteaseTrackId": "187517",
+      "title": "Almost Over You",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 203733
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19009",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "忘记 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

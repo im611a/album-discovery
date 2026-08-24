@@ -1,0 +1,142 @@
+{
+  "internalId": "album:432389",
+  "id": "album:432389",
+  "neteaseAlbumId": "432389",
+  "slug": "valtari",
+  "title": "Valtari",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "2012-05-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432389.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432389.webp",
+    "alt": "《Valtari》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4278293",
+      "neteaseTrackId": "4278293",
+      "title": "Ég anda",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 375026
+    },
+    {
+      "id": "netease-track:4278295",
+      "neteaseTrackId": "4278295",
+      "title": "Ekki múkk",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 464373
+    },
+    {
+      "id": "netease-track:4278297",
+      "neteaseTrackId": "4278297",
+      "title": "Varúð",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 396853
+    },
+    {
+      "id": "netease-track:4278300",
+      "neteaseTrackId": "4278300",
+      "title": "Rembihnútur",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 304986
+    },
+    {
+      "id": "netease-track:4278303",
+      "neteaseTrackId": "4278303",
+      "title": "Dauðalogn",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 396706
+    },
+    {
+      "id": "netease-track:4278307",
+      "neteaseTrackId": "4278307",
+      "title": "Varðeldur",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 367773
+    },
+    {
+      "id": "netease-track:4278310",
+      "neteaseTrackId": "4278310",
+      "title": "Valtari",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 498653
+    },
+    {
+      "id": "netease-track:4278313",
+      "neteaseTrackId": "4278313",
+      "title": "Fjögur píanó",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 470000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=432389",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Valtari Sigur Rós",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "internalId": "album:29808",
+  "id": "album:29808",
+  "neteaseAlbumId": "29808",
+  "slug": "netease-album-29808",
+  "title": "邓丽君 故乡情",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1986-07-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29808.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29808.webp",
+    "alt": "《邓丽君 故乡情》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300813",
+      "neteaseTrackId": "300813",
+      "title": "离别",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:300815",
+      "neteaseTrackId": "300815",
+      "title": "风儿雨儿",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 184000
+    },
+    {
+      "id": "netease-track:300818",
+      "neteaseTrackId": "300818",
+      "title": "爱我像爱花一样",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266585
+    },
+    {
+      "id": "netease-track:300821",
+      "neteaseTrackId": "300821",
+      "title": "梦",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 329000
+    },
+    {
+      "id": "netease-track:300824",
+      "neteaseTrackId": "300824",
+      "title": "山茶花",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 232000
+    },
+    {
+      "id": "netease-track:300827",
+      "neteaseTrackId": "300827",
+      "title": "彩霞你飘向哪里",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 157000
+    },
+    {
+      "id": "netease-track:300830",
+      "neteaseTrackId": "300830",
+      "title": "轻风",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:300833",
+      "neteaseTrackId": "300833",
+      "title": "微风细雨",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:300835",
+      "neteaseTrackId": "300835",
+      "title": "情人的微笑",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 139000
+    },
+    {
+      "id": "netease-track:300837",
+      "neteaseTrackId": "300837",
+      "title": "小小秘密",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:300839",
+      "neteaseTrackId": "300839",
+      "title": "星月泪痕",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 150000
+    },
+    {
+      "id": "netease-track:300842",
+      "neteaseTrackId": "300842",
+      "title": "让心儿圈起来",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 185000
+    },
+    {
+      "id": "netease-track:300844",
+      "neteaseTrackId": "300844",
+      "title": "原乡人",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 178000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=29808",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "邓丽君 故乡情 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

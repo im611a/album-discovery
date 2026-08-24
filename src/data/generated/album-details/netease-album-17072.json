@@ -1,0 +1,154 @@
+{
+  "internalId": "album:17072",
+  "id": "album:17072",
+  "neteaseAlbumId": "17072",
+  "slug": "netease-album-17072",
+  "title": "几个薛之谦",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5781",
+      "neteaseArtistId": "5781",
+      "name": "薛之谦"
+    }
+  ],
+  "releaseDate": "2012-08-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "潮石音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/17072.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/17072.webp",
+    "alt": "《几个薛之谦》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:169137",
+      "neteaseTrackId": "169137",
+      "title": "我知道你都知道",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 274200
+    },
+    {
+      "id": "netease-track:169140",
+      "neteaseTrackId": "169140",
+      "title": "几个你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 316573
+    },
+    {
+      "id": "netease-track:169142",
+      "neteaseTrackId": "169142",
+      "title": "伏笔",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 286306
+    },
+    {
+      "id": "netease-track:33071051",
+      "neteaseTrackId": "33071051",
+      "title": "为什么",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 257173
+    },
+    {
+      "id": "netease-track:169144",
+      "neteaseTrackId": "169144",
+      "title": "我终于成了别人的女人",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 305533
+    },
+    {
+      "id": "netease-track:33071052",
+      "neteaseTrackId": "33071052",
+      "title": "敷衍",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 249293
+    },
+    {
+      "id": "netease-track:169146",
+      "neteaseTrackId": "169146",
+      "title": "我们爱过就好",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦",
+        "黄龄"
+      ],
+      "durationMs": 260386
+    },
+    {
+      "id": "netease-track:33071050",
+      "neteaseTrackId": "33071050",
+      "title": "楚河汉界",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 257866
+    },
+    {
+      "id": "netease-track:33071053",
+      "neteaseTrackId": "33071053",
+      "title": "为了遇见你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 240333
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=17072",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "几个薛之谦 薛之谦",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

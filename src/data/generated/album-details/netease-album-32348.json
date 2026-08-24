@@ -1,0 +1,396 @@
+{
+  "internalId": "album:32348",
+  "id": "album:32348",
+  "neteaseAlbumId": "32348",
+  "slug": "netease-album-32348",
+  "title": "我相信",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "name": "张靓颖"
+    }
+  ],
+  "releaseDate": "2010-02-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/32348.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/32348.webp",
+    "alt": "《我相信》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:326949",
+      "neteaseTrackId": "326949",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 68132
+    },
+    {
+      "id": "netease-track:326952",
+      "neteaseTrackId": "326952",
+      "title": "热",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:326955",
+      "neteaseTrackId": "326955",
+      "title": "我相信",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 280798
+    },
+    {
+      "id": "netease-track:326958",
+      "neteaseTrackId": "326958",
+      "title": "勇敢爱",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 275348
+    },
+    {
+      "id": "netease-track:326961",
+      "neteaseTrackId": "326961",
+      "title": "就这样好了",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 237638
+    },
+    {
+      "id": "netease-track:326963",
+      "neteaseTrackId": "326963",
+      "title": "I Do",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 211255
+    },
+    {
+      "id": "netease-track:326965",
+      "neteaseTrackId": "326965",
+      "title": "如果这就是爱情",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 282760
+    },
+    {
+      "id": "netease-track:326967",
+      "neteaseTrackId": "326967",
+      "title": "快活",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 209560
+    },
+    {
+      "id": "netease-track:326969",
+      "neteaseTrackId": "326969",
+      "title": "办不到",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖",
+        "大嘴巴"
+      ],
+      "durationMs": 196773
+    },
+    {
+      "id": "netease-track:326972",
+      "neteaseTrackId": "326972",
+      "title": "低High",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 95773
+    },
+    {
+      "id": "netease-track:326974",
+      "neteaseTrackId": "326974",
+      "title": "I Don't Wanna Pray",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 211226
+    },
+    {
+      "id": "netease-track:326976",
+      "neteaseTrackId": "326976",
+      "title": "我们都辜负了爱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 232933
+    },
+    {
+      "id": "netease-track:326978",
+      "neteaseTrackId": "326978",
+      "title": "需要你",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 278066
+    },
+    {
+      "id": "netease-track:326980",
+      "neteaseTrackId": "326980",
+      "title": "木兰星",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 298624
+    },
+    {
+      "id": "netease-track:326982",
+      "neteaseTrackId": "326982",
+      "title": "朝思暮想",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 257734
+    },
+    {
+      "id": "netease-track:326985",
+      "neteaseTrackId": "326985",
+      "title": "印象西湖雨",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 313933
+    },
+    {
+      "id": "netease-track:326988",
+      "neteaseTrackId": "326988",
+      "title": "这么近那么远",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 277800
+    },
+    {
+      "id": "netease-track:326991",
+      "neteaseTrackId": "326991",
+      "title": "来不及流泪的人",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 229399
+    },
+    {
+      "id": "netease-track:326994",
+      "neteaseTrackId": "326994",
+      "title": "旗开得胜",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 221161
+    },
+    {
+      "id": "netease-track:458412862",
+      "neteaseTrackId": "458412862",
+      "title": "热 (伴奏)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 219678
+    },
+    {
+      "id": "netease-track:458412870",
+      "neteaseTrackId": "458412870",
+      "title": "我相信 (伴奏)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 282615
+    },
+    {
+      "id": "netease-track:458412867",
+      "neteaseTrackId": "458412867",
+      "title": "就这样好了 (伴奏)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 236911
+    },
+    {
+      "id": "netease-track:458412872",
+      "neteaseTrackId": "458412872",
+      "title": "I Do (伴奏)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 209918
+    },
+    {
+      "id": "netease-track:458412863",
+      "neteaseTrackId": "458412863",
+      "title": "如果这就是爱情 (伴奏)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 281925
+    },
+    {
+      "id": "netease-track:458412864",
+      "neteaseTrackId": "458412864",
+      "title": "快活 (伴奏)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 210241
+    },
+    {
+      "id": "netease-track:458412873",
+      "neteaseTrackId": "458412873",
+      "title": "办不到 (伴奏)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 196754
+    },
+    {
+      "id": "netease-track:458412871",
+      "neteaseTrackId": "458412871",
+      "title": "低High (伴奏)",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 95710
+    },
+    {
+      "id": "netease-track:458412865",
+      "neteaseTrackId": "458412865",
+      "title": "I Don't Wanna Pray (伴奏)",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 210166
+    },
+    {
+      "id": "netease-track:458412866",
+      "neteaseTrackId": "458412866",
+      "title": "我们都辜负了爱 (伴奏)",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 232595
+    },
+    {
+      "id": "netease-track:458412869",
+      "neteaseTrackId": "458412869",
+      "title": "需要你 (伴奏)",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 280308
+    },
+    {
+      "id": "netease-track:458412868",
+      "neteaseTrackId": "458412868",
+      "title": "朝思暮想 (伴奏)",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 256647
+    }
+  ],
+  "trackCount": 31,
+  "externalUrl": "https://music.163.com/#/album?id=32348",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我相信 张靓颖",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

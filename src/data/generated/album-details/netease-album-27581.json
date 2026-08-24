@@ -1,0 +1,187 @@
+{
+  "internalId": "album:27581",
+  "id": "album:27581",
+  "neteaseAlbumId": "27581",
+  "slug": "netease-album-27581",
+  "title": "做自己",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "1997-10-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27581.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27581.webp",
+    "alt": "《做自己》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277816",
+      "neteaseTrackId": "277816",
+      "title": "爱自己",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 284333
+    },
+    {
+      "id": "netease-track:277817",
+      "neteaseTrackId": "277817",
+      "title": "他不爱我",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 239120
+    },
+    {
+      "id": "netease-track:277818",
+      "neteaseTrackId": "277818",
+      "title": "想一个男生",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 222213
+    },
+    {
+      "id": "netease-track:277819",
+      "neteaseTrackId": "277819",
+      "title": "更衣室",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 269026
+    },
+    {
+      "id": "netease-track:277820",
+      "neteaseTrackId": "277820",
+      "title": "广岛之恋",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "张洪量"
+      ],
+      "durationMs": 321400
+    },
+    {
+      "id": "netease-track:277821",
+      "neteaseTrackId": "277821",
+      "title": "Snacks",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 267600
+    },
+    {
+      "id": "netease-track:277822",
+      "neteaseTrackId": "277822",
+      "title": "电台情歌",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 248373
+    },
+    {
+      "id": "netease-track:277823",
+      "neteaseTrackId": "277823",
+      "title": "午夜前的十分钟",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 309333
+    },
+    {
+      "id": "netease-track:277824",
+      "neteaseTrackId": "277824",
+      "title": "信徒",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 271240
+    },
+    {
+      "id": "netease-track:277825",
+      "neteaseTrackId": "277825",
+      "title": "Live For Romance",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 304906
+    },
+    {
+      "id": "netease-track:277826",
+      "neteaseTrackId": "277826",
+      "title": "只有冰淇淋的烛光晚餐",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 239200
+    },
+    {
+      "id": "netease-track:277827",
+      "neteaseTrackId": "277827",
+      "title": "拆信",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 301600
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=27581",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "做自己 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

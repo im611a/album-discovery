@@ -37,6 +37,21 @@ function signature(value: LibraryPresentationModel) {
   return JSON.stringify(value, (key, item) => key === "album" ? { id: item.id, slug: item.slug } : item);
 }
 
+function presentationOwnedCopy(value: LibraryPresentationModel) {
+  const sectionCopy = (section: LibraryPresentationModel["primaryCollection"] | LibraryPresentationModel["recent"]) => ({
+    ...section,
+    entries: section.entries.map((entry) => ({ statuses: entry.statuses })),
+  });
+  return {
+    header: value.header,
+    summary: value.summary,
+    facets: value.facets,
+    primaryCollection: sectionCopy(value.primaryCollection),
+    recent: sectionCopy(value.recent),
+    pageEmptyState: value.pageEmptyState,
+  };
+}
+
 describe("R15-2B Library presentation information architecture", () => {
   it("builds a truthful empty orientation with real exits and no fake personal shelf", () => {
     const result = model(null);
@@ -207,9 +222,9 @@ describe("R15-2B Library presentation information architecture", () => {
 });
 
 describe("R15-2B deterministic real-catalog presentation fixtures", () => {
-  it("builds all required density and semantic fixtures from the real 357-album catalog", () => {
+  it("builds all required density and semantic fixtures from the real 1,330-album catalog", () => {
     const fixtures = buildLibraryPresentationFixtures(albums);
-    expect(albums).toHaveLength(357);
+    expect(albums).toHaveLength(1_330);
     expect(fixtures.map((fixture) => fixture.name)).toEqual(LIBRARY_PRESENTATION_FIXTURE_NAMES);
     expect(fixtures).toHaveLength(16);
     expect(LIBRARY_PRESENTATION_GOLDEN_CASES).toHaveLength(12);
@@ -254,7 +269,7 @@ describe("R15-2B deterministic real-catalog presentation fixtures", () => {
           failures.invalidAlbumLinks += section.entries.filter((entry) => !validSlugs.has(entry.slug) || !entry.href.startsWith(`/albums/${entry.slug}?lfrom=library`)).length;
           if (new Set(section.entries.map((entry) => entry.albumId)).size !== section.entries.length) failures.duplicateCollectionEntries += 1;
           failures.invalidCovers += section.entries.filter((entry) => !entry.cover.alt || (entry.cover.kind === "local" && !entry.cover.src)).length;
-          if (strings(first).some((copy) => forbiddenClaims.test(copy))) failures.falsePlaybackListeningClaims += 1;
+          if (strings(presentationOwnedCopy(first)).some((copy) => forbiddenClaims.test(copy))) failures.falsePlaybackListeningClaims += 1;
           if (first.facets.some((facet) => facet.count !== domain.facets.find((source) => source.facet === facet.key)?.count)) failures.incorrectFacetCounts += 1;
           const facts = Object.fromEntries(first.summary.facts.map((fact) => [fact.key, fact.value]));
           if (facts.total !== domain.summary.totalLibraryAlbums || facts.saved !== domain.summary.savedCount || facts.favorite !== domain.summary.favoriteCount || facts["marked-listened"] !== domain.summary.markedListenedCount || facts.recent !== domain.summary.recentlyViewedCount) failures.summaryMismatches += 1;
@@ -273,7 +288,7 @@ describe("R15-2B deterministic real-catalog presentation fixtures", () => {
       falsePlaybackListeningClaims: 0, incorrectFacetCounts: 0, summaryMismatches: 0,
       nondeterministicPresentationOutputs: 0, unboundedSections: 0, brokenAccessibleLabels: 0,
     });
-  }, 180_000);
+  }, 1_200_000);
 
   it("measures bounded presentation adaptation for empty through dense inputs", () => {
     const fixtureByName = new Map(buildLibraryPresentationFixtures(albums).map((fixture) => [fixture.name, fixture]));

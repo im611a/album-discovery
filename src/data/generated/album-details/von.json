@@ -1,0 +1,186 @@
+{
+  "internalId": "album:432476",
+  "id": "album:432476",
+  "neteaseAlbumId": "432476",
+  "slug": "von",
+  "title": "Von",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "1997-06-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432476.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432476.webp",
+    "alt": "《Von》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4279152",
+      "neteaseTrackId": "4279152",
+      "title": "Sigur Rós",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 587066
+    },
+    {
+      "id": "netease-track:4279156",
+      "neteaseTrackId": "4279156",
+      "title": "Dögun",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 350133
+    },
+    {
+      "id": "netease-track:4279160",
+      "neteaseTrackId": "4279160",
+      "title": "Hún Jörð",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 438256
+    },
+    {
+      "id": "netease-track:4279164",
+      "neteaseTrackId": "4279164",
+      "title": "Leit að lífi",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 154148
+    },
+    {
+      "id": "netease-track:4279167",
+      "neteaseTrackId": "4279167",
+      "title": "Myrkur",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 374308
+    },
+    {
+      "id": "netease-track:4279169",
+      "neteaseTrackId": "4279169",
+      "title": "18 sekúndur fyrir sólarupprás",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 18912
+    },
+    {
+      "id": "netease-track:4279171",
+      "neteaseTrackId": "4279171",
+      "title": "Hafssól",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 745038
+    },
+    {
+      "id": "netease-track:4279173",
+      "neteaseTrackId": "4279173",
+      "title": "Veröld ny og óð",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 209533
+    },
+    {
+      "id": "netease-track:4279177",
+      "neteaseTrackId": "4279177",
+      "title": "Von",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 312267
+    },
+    {
+      "id": "netease-track:4279180",
+      "neteaseTrackId": "4279180",
+      "title": "Mistur",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 136568
+    },
+    {
+      "id": "netease-track:4279183",
+      "neteaseTrackId": "4279183",
+      "title": "Syndir guðs (Opinberun frelsarans)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 462680
+    },
+    {
+      "id": "netease-track:4279186",
+      "neteaseTrackId": "4279186",
+      "title": "Rukrym",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 539898
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=432476",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Von Sigur Rós",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

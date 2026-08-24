@@ -1,0 +1,109 @@
+{
+  "internalId": "album:431000",
+  "id": "album:431000",
+  "neteaseAlbumId": "431000",
+  "slug": "creep",
+  "title": "Creep",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "1992-09-20",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "XL Recordings",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/431000.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/431000.webp",
+    "alt": "《Creep》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4264434",
+      "neteaseTrackId": "4264434",
+      "title": "Creep",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 238640
+    },
+    {
+      "id": "netease-track:4264438",
+      "neteaseTrackId": "4264438",
+      "title": "Inside My Head",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 191680
+    },
+    {
+      "id": "netease-track:412911117",
+      "neteaseTrackId": "412911117",
+      "title": "Million Dollar Question",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 198200
+    },
+    {
+      "id": "netease-track:4264436",
+      "neteaseTrackId": "4264436",
+      "title": "Yes I Am",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 265680
+    },
+    {
+      "id": "netease-track:412902159",
+      "neteaseTrackId": "412902159",
+      "title": "Blow Out (Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 258546
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=431000",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Creep Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

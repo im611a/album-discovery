@@ -1,0 +1,99 @@
+{
+  "internalId": "album:220704",
+  "id": "album:220704",
+  "neteaseAlbumId": "220704",
+  "slug": "video-phone-220704",
+  "title": "Video Phone",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2009-11-22",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220704.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220704.webp",
+    "alt": "《Video Phone》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188090",
+      "neteaseTrackId": "2188090",
+      "title": "Video Phone",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 215000
+    },
+    {
+      "id": "netease-track:2188098",
+      "neteaseTrackId": "2188098",
+      "title": "Video Phone (Extended Remix featuring Lady Gaga)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Lady Gaga"
+      ],
+      "durationMs": 304715
+    },
+    {
+      "id": "netease-track:2188102",
+      "neteaseTrackId": "2188102",
+      "title": "Poison",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 244924
+    },
+    {
+      "id": "netease-track:2188093",
+      "neteaseTrackId": "2188093",
+      "title": "Video Phone (Instrumental)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 208169
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=220704",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Video Phone Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

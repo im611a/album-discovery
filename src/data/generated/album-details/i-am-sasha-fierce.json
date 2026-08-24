@@ -1,0 +1,198 @@
+{
+  "internalId": "album:1801258",
+  "id": "album:1801258",
+  "neteaseAlbumId": "1801258",
+  "slug": "i-am-sasha-fierce",
+  "title": "I AM...SASHA FIERCE",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2008-11-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1801258.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1801258.webp",
+    "alt": "《I AM...SASHA FIERCE》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19550041",
+      "neteaseTrackId": "19550041",
+      "title": "If I Were a Boy",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 249146
+    },
+    {
+      "id": "netease-track:19550042",
+      "neteaseTrackId": "19550042",
+      "title": "Halo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:19550043",
+      "neteaseTrackId": "19550043",
+      "title": "Disappear",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 267517
+    },
+    {
+      "id": "netease-track:19550044",
+      "neteaseTrackId": "19550044",
+      "title": "Broken-Hearted Girl",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 277687
+    },
+    {
+      "id": "netease-track:19550045",
+      "neteaseTrackId": "19550045",
+      "title": "Ave Maria",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 221653
+    },
+    {
+      "id": "netease-track:19550046",
+      "neteaseTrackId": "19550046",
+      "title": "Satellites",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 187594
+    },
+    {
+      "id": "netease-track:1379536285",
+      "neteaseTrackId": "1379536285",
+      "title": "Save The Hero",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 273949
+    },
+    {
+      "id": "netease-track:19550047",
+      "neteaseTrackId": "19550047",
+      "title": "Single Ladies (Put a Ring on It)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 193607
+    },
+    {
+      "id": "netease-track:19550048",
+      "neteaseTrackId": "19550048",
+      "title": "Radio",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 218848
+    },
+    {
+      "id": "netease-track:19550049",
+      "neteaseTrackId": "19550049",
+      "title": "Diva",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 200666
+    },
+    {
+      "id": "netease-track:19550050",
+      "neteaseTrackId": "19550050",
+      "title": "Sweet Dreams",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé",
+        "Rico Love"
+      ],
+      "durationMs": 208120
+    },
+    {
+      "id": "netease-track:19550051",
+      "neteaseTrackId": "19550051",
+      "title": "Video Phone",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 215440
+    },
+    {
+      "id": "netease-track:1379536290",
+      "neteaseTrackId": "1379536290",
+      "title": "Why Don't You Love Me",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 217454
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1801258",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "I AM...SASHA FIERCE Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "internalId": "album:222265",
+  "id": "album:222265",
+  "neteaseAlbumId": "222265",
+  "slug": "equations-of-eternity-vol-2-veve",
+  "title": "Equations of Eternity, Vol. 2: Veve",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1998-08-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222265.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222265.webp",
+    "alt": "《Equations of Eternity, Vol. 2: Veve》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205981",
+      "neteaseTrackId": "2205981",
+      "title": "Baron Samedi",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 396000
+    },
+    {
+      "id": "netease-track:2205984",
+      "neteaseTrackId": "2205984",
+      "title": "Magamat",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 382000
+    },
+    {
+      "id": "netease-track:2205987",
+      "neteaseTrackId": "2205987",
+      "title": "Kurukulla",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 381000
+    },
+    {
+      "id": "netease-track:2205990",
+      "neteaseTrackId": "2205990",
+      "title": "Luk Krok",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 396000
+    },
+    {
+      "id": "netease-track:2205992",
+      "neteaseTrackId": "2205992",
+      "title": "Set Rising",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 327000
+    },
+    {
+      "id": "netease-track:2205995",
+      "neteaseTrackId": "2205995",
+      "title": "Aether",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 400000
+    },
+    {
+      "id": "netease-track:2205999",
+      "neteaseTrackId": "2205999",
+      "title": "Madre de Agua",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 340000
+    },
+    {
+      "id": "netease-track:2206002",
+      "neteaseTrackId": "2206002",
+      "title": "Yama",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 339000
+    },
+    {
+      "id": "netease-track:2206006",
+      "neteaseTrackId": "2206006",
+      "title": "Maka",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 2063
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=222265",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Equations of Eternity, Vol. 2: Veve Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

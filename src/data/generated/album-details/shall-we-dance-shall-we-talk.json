@@ -1,0 +1,197 @@
+{
+  "internalId": "album:6590",
+  "id": "album:6590",
+  "neteaseAlbumId": "6590",
+  "slug": "shall-we-dance-shall-we-talk",
+  "title": "Shall We Dance? Shall We Talk!",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2001-04-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "英皇唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6590.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6590.webp",
+    "alt": "《Shall We Dance? Shall We Talk!》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67402",
+      "neteaseTrackId": "67402",
+      "title": "黎喇",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 13181
+    },
+    {
+      "id": "netease-track:67407",
+      "neteaseTrackId": "67407",
+      "title": "Shall We Dance",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 204729
+    },
+    {
+      "id": "netease-track:67411",
+      "neteaseTrackId": "67411",
+      "title": "Shall We Talk",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 227207
+    },
+    {
+      "id": "netease-track:67418",
+      "neteaseTrackId": "67418",
+      "title": "2001太空漫游",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 236893
+    },
+    {
+      "id": "netease-track:67420",
+      "neteaseTrackId": "67420",
+      "title": "失恋太少",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 213573
+    },
+    {
+      "id": "netease-track:67422",
+      "neteaseTrackId": "67422",
+      "title": "单车",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 211251
+    },
+    {
+      "id": "netease-track:67427",
+      "neteaseTrackId": "67427",
+      "title": "天使的礼物",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 202926
+    },
+    {
+      "id": "netease-track:67432",
+      "neteaseTrackId": "67432",
+      "title": "Eason's Angel",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 50644
+    },
+    {
+      "id": "netease-track:67437",
+      "neteaseTrackId": "67437",
+      "title": "怪物",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 192935
+    },
+    {
+      "id": "netease-track:67442",
+      "neteaseTrackId": "67442",
+      "title": "孤独探戈",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 206256
+    },
+    {
+      "id": "netease-track:67447",
+      "neteaseTrackId": "67447",
+      "title": "信心花舍",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 205007
+    },
+    {
+      "id": "netease-track:67452",
+      "neteaseTrackId": "67452",
+      "title": "黑暗中漫舞",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 195294
+    },
+    {
+      "id": "netease-track:32451037",
+      "neteaseTrackId": "32451037",
+      "title": "遗失的国度",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 282066
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=6590",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Shall We Dance? Shall We Talk! 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "internalId": "album:1540813",
+  "id": "album:1540813",
+  "neteaseAlbumId": "1540813",
+  "slug": "filmtracks-2000",
+  "title": "Filmtracks 2000",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2001-09-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540813.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540813.webp",
+    "alt": "《Filmtracks 2000》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16714999",
+      "neteaseTrackId": "16714999",
+      "title": "Oman",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 323213
+    },
+    {
+      "id": "netease-track:16715000",
+      "neteaseTrackId": "16715000",
+      "title": "Turf War",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:16715001",
+      "neteaseTrackId": "16715001",
+      "title": "Oum El Bouaghi",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 549000
+    },
+    {
+      "id": "netease-track:16715002",
+      "neteaseTrackId": "16715002",
+      "title": "Haji Baig",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 132493
+    },
+    {
+      "id": "netease-track:16715003",
+      "neteaseTrackId": "16715003",
+      "title": "Into The Void",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 256888
+    },
+    {
+      "id": "netease-track:16715004",
+      "neteaseTrackId": "16715004",
+      "title": "Comoro 1",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 96960
+    },
+    {
+      "id": "netease-track:16715005",
+      "neteaseTrackId": "16715005",
+      "title": "Siren Song",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:16715006",
+      "neteaseTrackId": "16715006",
+      "title": "Soldiers Of Misfortune",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 141000
+    },
+    {
+      "id": "netease-track:16715007",
+      "neteaseTrackId": "16715007",
+      "title": "Deadly Haven",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 287242
+    },
+    {
+      "id": "netease-track:16715008",
+      "neteaseTrackId": "16715008",
+      "title": "Portals",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 119000
+    },
+    {
+      "id": "netease-track:16715009",
+      "neteaseTrackId": "16715009",
+      "title": "Jammu",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 170000
+    },
+    {
+      "id": "netease-track:16715010",
+      "neteaseTrackId": "16715010",
+      "title": "Abu Sayyam",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 37440
+    },
+    {
+      "id": "netease-track:16715011",
+      "neteaseTrackId": "16715011",
+      "title": "Dark Wave",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 298000
+    },
+    {
+      "id": "netease-track:16715012",
+      "neteaseTrackId": "16715012",
+      "title": "Comoro 2",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 84114
+    },
+    {
+      "id": "netease-track:16715013",
+      "neteaseTrackId": "16715013",
+      "title": "Odyssey",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 159160
+    },
+    {
+      "id": "netease-track:16715014",
+      "neteaseTrackId": "16715014",
+      "title": "El-oued",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 332000
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=1540813",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Filmtracks 2000 Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "internalId": "album:220775",
+  "id": "album:220775",
+  "neteaseAlbumId": "220775",
+  "slug": "upgrade-u",
+  "title": "Upgrade U",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2006-11-26",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220775.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220775.webp",
+    "alt": "《Upgrade U》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188907",
+      "neteaseTrackId": "2188907",
+      "title": "Upgrade U (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "JAŸ-Z"
+      ],
+      "durationMs": 270733
+    },
+    {
+      "id": "netease-track:2188912",
+      "neteaseTrackId": "2188912",
+      "title": "Upgrade U (Instrumental)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 270000
+    },
+    {
+      "id": "netease-track:2188917",
+      "neteaseTrackId": "2188917",
+      "title": "Upgrade U (Album Version – No Rap)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:2188921",
+      "neteaseTrackId": "2188921",
+      "title": "Upgrade U (Acapella)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 267000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=220775",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Upgrade U Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -218,6 +218,7 @@ export function simulateVisibleArtistTopicPaths({ seedCount = 80, stepsPerSeed =
   let completedTransitions = 0;
   let deadEnds = 0;
   let immediateReversals = 0;
+  let truthfulExhaustionReversals = 0;
   let avoidableShortLoops = 0;
   let invalidRoutes = 0;
   let unresolvedEntities = 0;
@@ -283,7 +284,10 @@ export function simulateVisibleArtistTopicPaths({ seedCount = 80, stepsPerSeed =
       const targetIsRecent = recent.has(target.slug);
       const truthfulFreshAlternative = options.some((option) => !recent.has(option.target.slug));
       if (targetIsRecent && truthfulFreshAlternative) avoidableShortLoops += 1;
-      if (visited.at(-2) === target.slug) immediateReversals += 1;
+      if (visited.at(-2) === target.slug) {
+        immediateReversals += 1;
+        if (!truthfulFreshAlternative) truthfulExhaustionReversals += 1;
+      }
       const targetUrl = new URL(presentation.primary.href, "https://local.test");
       const targetContext = parseDiscoveryPathContext(targetUrl.searchParams, publishedDiscoveryIndex);
       if (targetContext.trailAlbumSlugs.length > 3 || targetContext.transitionFamilies.length > 3) invalidRoutes += 1;
@@ -312,6 +316,7 @@ export function simulateVisibleArtistTopicPaths({ seedCount = 80, stepsPerSeed =
       completedTransitions,
       deadEnds,
       immediateReversals,
+      truthfulExhaustionReversals,
       avoidableShortLoops,
       invalidRoutes,
       unresolvedEntities,

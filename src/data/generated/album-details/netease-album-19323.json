@@ -1,0 +1,77 @@
+{
+  "internalId": "album:19323",
+  "id": "album:19323",
+  "neteaseAlbumId": "19323",
+  "slug": "netease-album-19323",
+  "title": "再爱我一回",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "name": "张杰"
+    }
+  ],
+  "releaseDate": "2006-09-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19323.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19323.webp",
+    "alt": "《再爱我一回》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:191312",
+      "neteaseTrackId": "191312",
+      "title": "你和我",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 257506
+    },
+    {
+      "id": "netease-track:191313",
+      "neteaseTrackId": "191313",
+      "title": "为了遇见你",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张杰",
+        "胡瑶"
+      ],
+      "durationMs": 245280
+    }
+  ],
+  "trackCount": 2,
+  "externalUrl": "https://music.163.com/#/album?id=19323",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "再爱我一回 张杰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

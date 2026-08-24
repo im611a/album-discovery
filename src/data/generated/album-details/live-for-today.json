@@ -1,0 +1,176 @@
+{
+  "internalId": "album:6543",
+  "id": "album:6543",
+  "neteaseAlbumId": "6543",
+  "slug": "live-for-today",
+  "title": "Live For Today",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2003-07-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "英皇唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6543.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6543.webp",
+    "alt": "《Live For Today》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:66786",
+      "neteaseTrackId": "66786",
+      "title": "幸灾乐祸",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 206239
+    },
+    {
+      "id": "netease-track:66790",
+      "neteaseTrackId": "66790",
+      "title": "Katrina",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 230812
+    },
+    {
+      "id": "netease-track:66793",
+      "neteaseTrackId": "66793",
+      "title": "十面埋伏",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 232119
+    },
+    {
+      "id": "netease-track:66796",
+      "neteaseTrackId": "66796",
+      "title": "呀边个边个",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 185972
+    },
+    {
+      "id": "netease-track:66799",
+      "neteaseTrackId": "66799",
+      "title": "小孩不懂怕",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 225132
+    },
+    {
+      "id": "netease-track:66802",
+      "neteaseTrackId": "66802",
+      "title": "谎言",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "关淑怡"
+      ],
+      "durationMs": 249492
+    },
+    {
+      "id": "netease-track:66807",
+      "neteaseTrackId": "66807",
+      "title": "真相",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 200666
+    },
+    {
+      "id": "netease-track:66811",
+      "neteaseTrackId": "66811",
+      "title": "猜情寻",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 246839
+    },
+    {
+      "id": "netease-track:66815",
+      "neteaseTrackId": "66815",
+      "title": "忘记歌词",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 213866
+    },
+    {
+      "id": "netease-track:66819",
+      "neteaseTrackId": "66819",
+      "title": "New Order",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 267959
+    },
+    {
+      "id": "netease-track:66823",
+      "neteaseTrackId": "66823",
+      "title": "岁月如歌",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 207852
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=6543",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live For Today 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "internalId": "album:19208",
+  "id": "album:19208",
+  "neteaseAlbumId": "19208",
+  "slug": "netease-album-19208",
+  "title": "我不能悲伤地坐在你身旁",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2005-05-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19208.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19208.webp",
+    "alt": "《我不能悲伤地坐在你身旁》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:190113",
+      "neteaseTrackId": "190113",
+      "title": "像孩子似的倾听",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 345640
+    },
+    {
+      "id": "netease-track:190119",
+      "neteaseTrackId": "190119",
+      "title": "我不能悲伤地坐在你身旁",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 383720
+    },
+    {
+      "id": "netease-track:190121",
+      "neteaseTrackId": "190121",
+      "title": "征服",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 378680
+    },
+    {
+      "id": "netease-track:190123",
+      "neteaseTrackId": "190123",
+      "title": "恩惠",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 444240
+    },
+    {
+      "id": "netease-track:190126",
+      "neteaseTrackId": "190126",
+      "title": "平安大道的延伸",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 351266
+    },
+    {
+      "id": "netease-track:190130",
+      "neteaseTrackId": "190130",
+      "title": "当我离开你的时候",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "陈珊妮"
+      ],
+      "durationMs": 359946
+    },
+    {
+      "id": "netease-track:190134",
+      "neteaseTrackId": "190134",
+      "title": "尊敬",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 500306
+    },
+    {
+      "id": "netease-track:190138",
+      "neteaseTrackId": "190138",
+      "title": "这些天的一天",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 196453
+    },
+    {
+      "id": "netease-track:190141",
+      "neteaseTrackId": "190141",
+      "title": "感激",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 348920
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=19208",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我不能悲伤地坐在你身旁 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

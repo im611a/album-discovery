@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1540814",
+  "id": "album:1540814",
+  "neteaseAlbumId": "1540814",
+  "slug": "oscillations",
+  "title": "Oscillations",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1995-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Sub rosa",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540814.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540814.webp",
+    "alt": "《Oscillations》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16715015",
+      "neteaseTrackId": "16715015",
+      "title": "Digitaria",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 381800
+    },
+    {
+      "id": "netease-track:16715016",
+      "neteaseTrackId": "16715016",
+      "title": "Faktura",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 371640
+    },
+    {
+      "id": "netease-track:16715017",
+      "neteaseTrackId": "16715017",
+      "title": "Dislocation",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 480626
+    },
+    {
+      "id": "netease-track:16715018",
+      "neteaseTrackId": "16715018",
+      "title": "Extinguisher",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 469533
+    },
+    {
+      "id": "netease-track:16715019",
+      "neteaseTrackId": "16715019",
+      "title": "Third Stage Navigator",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 540306
+    },
+    {
+      "id": "netease-track:16715020",
+      "neteaseTrackId": "16715020",
+      "title": "Wird",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 510666
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1540814",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Oscillations Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

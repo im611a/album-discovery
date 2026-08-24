@@ -1,0 +1,274 @@
+{
+  "internalId": "album:6510",
+  "id": "album:6510",
+  "neteaseAlbumId": "6510",
+  "slug": "netease-album-6510",
+  "title": "英皇钢琴热恋系列 - 陈奕迅",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2004-07-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "EEG Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6510.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6510.webp",
+    "alt": "《英皇钢琴热恋系列 - 陈奕迅》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:66407",
+      "neteaseTrackId": "66407",
+      "title": "岁月如歌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 199867
+    },
+    {
+      "id": "netease-track:66413",
+      "neteaseTrackId": "66413",
+      "title": "明年今日",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 195466
+    },
+    {
+      "id": "netease-track:66418",
+      "neteaseTrackId": "66418",
+      "title": "十面埋伏",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 195240
+    },
+    {
+      "id": "netease-track:66423",
+      "neteaseTrackId": "66423",
+      "title": "打回原形",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 215306
+    },
+    {
+      "id": "netease-track:66428",
+      "neteaseTrackId": "66428",
+      "title": "K歌之王",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 221747
+    },
+    {
+      "id": "netease-track:66432",
+      "neteaseTrackId": "66432",
+      "title": "Shall We Talk",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 236267
+    },
+    {
+      "id": "netease-track:66436",
+      "neteaseTrackId": "66436",
+      "title": "给爱丽斯",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 214240
+    },
+    {
+      "id": "netease-track:66439",
+      "neteaseTrackId": "66439",
+      "title": "忘记歌词",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 212453
+    },
+    {
+      "id": "netease-track:66442",
+      "neteaseTrackId": "66442",
+      "title": "Lonely Christmas",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 260387
+    },
+    {
+      "id": "netease-track:66444",
+      "neteaseTrackId": "66444",
+      "title": "猜情寻",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 234573
+    },
+    {
+      "id": "netease-track:66445",
+      "neteaseTrackId": "66445",
+      "title": "幸灾乐祸",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 207773
+    },
+    {
+      "id": "netease-track:66447",
+      "neteaseTrackId": "66447",
+      "title": "人来人往",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 225507
+    },
+    {
+      "id": "netease-track:66449",
+      "neteaseTrackId": "66449",
+      "title": "想哭",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 214840
+    },
+    {
+      "id": "netease-track:66455",
+      "neteaseTrackId": "66455",
+      "title": "你的背包",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 212040
+    },
+    {
+      "id": "netease-track:66460",
+      "neteaseTrackId": "66460",
+      "title": "天使的礼物",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 199053
+    },
+    {
+      "id": "netease-track:66464",
+      "neteaseTrackId": "66464",
+      "title": "打得火热",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 153694
+    },
+    {
+      "id": "netease-track:66468",
+      "neteaseTrackId": "66468",
+      "title": "单车",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 198840
+    },
+    {
+      "id": "netease-track:66472",
+      "neteaseTrackId": "66472",
+      "title": "孤儿仔",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 202946
+    },
+    {
+      "id": "netease-track:66478",
+      "neteaseTrackId": "66478",
+      "title": "少见不怪",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 225934
+    },
+    {
+      "id": "netease-track:66483",
+      "neteaseTrackId": "66483",
+      "title": "他一个人",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 255000
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=6510",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "英皇钢琴热恋系列 - 陈奕迅 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

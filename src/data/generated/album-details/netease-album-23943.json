@@ -1,0 +1,164 @@
+{
+  "internalId": "album:23943",
+  "id": "album:23943",
+  "neteaseAlbumId": "23943",
+  "slug": "netease-album-23943",
+  "title": "雪域光芒",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "1998-09-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "央金玛国际文化传媒(北京)有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23943.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23943.webp",
+    "alt": "《雪域光芒》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238857",
+      "neteaseTrackId": "238857",
+      "title": "雪域光芒",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 260693
+    },
+    {
+      "id": "netease-track:238858",
+      "neteaseTrackId": "238858",
+      "title": "家乡",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 232800
+    },
+    {
+      "id": "netease-track:238859",
+      "neteaseTrackId": "238859",
+      "title": "风雨中的美丽",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 259773
+    },
+    {
+      "id": "netease-track:238860",
+      "neteaseTrackId": "238860",
+      "title": "漂",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 224078
+    },
+    {
+      "id": "netease-track:238861",
+      "neteaseTrackId": "238861",
+      "title": "北京的金山上",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 243533
+    },
+    {
+      "id": "netease-track:238862",
+      "neteaseTrackId": "238862",
+      "title": "喜玛拉雅",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 290040
+    },
+    {
+      "id": "netease-track:238864",
+      "neteaseTrackId": "238864",
+      "title": "格桑花开",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 284626
+    },
+    {
+      "id": "netease-track:238866",
+      "neteaseTrackId": "238866",
+      "title": "相爱",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 294948
+    },
+    {
+      "id": "netease-track:238868",
+      "neteaseTrackId": "238868",
+      "title": "情人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 252604
+    },
+    {
+      "id": "netease-track:238870",
+      "neteaseTrackId": "238870",
+      "title": "原野",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 303307
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=23943",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "雪域光芒 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

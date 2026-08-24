@@ -1,0 +1,120 @@
+{
+  "internalId": "album:430961",
+  "id": "album:430961",
+  "neteaseAlbumId": "430961",
+  "slug": "no-surprises-running-from-demons",
+  "title": "No Surprises / Running from Demons",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "1997-12-09",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/430961.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/430961.webp",
+    "alt": "《No Surprises / Running from Demons》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4263988",
+      "neteaseTrackId": "4263988",
+      "title": "No Surprises",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 229000
+    },
+    {
+      "id": "netease-track:4263991",
+      "neteaseTrackId": "4263991",
+      "title": "Pearly (remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 215375
+    },
+    {
+      "id": "netease-track:4263994",
+      "neteaseTrackId": "4263994",
+      "title": "Melatonin",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 128733
+    },
+    {
+      "id": "netease-track:4263998",
+      "neteaseTrackId": "4263998",
+      "title": "Meeting in the Aisle",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 189706
+    },
+    {
+      "id": "netease-track:4264002",
+      "neteaseTrackId": "4264002",
+      "title": "Bishop's Robes",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 203685
+    },
+    {
+      "id": "netease-track:4264007",
+      "neteaseTrackId": "4264007",
+      "title": "A Reminder",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 232386
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=430961",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "No Surprises / Running from Demons Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

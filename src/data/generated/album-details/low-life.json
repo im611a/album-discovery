@@ -1,0 +1,191 @@
+{
+  "internalId": "album:222272",
+  "id": "album:222272",
+  "neteaseAlbumId": "222272",
+  "slug": "low-life",
+  "title": "Low Life",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    },
+    {
+      "id": "netease-artist:41222",
+      "neteaseArtistId": "41222",
+      "name": "Peter Brötzmann"
+    }
+  ],
+  "releaseDate": "1987-05-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KP&P - Celluloid N.Y",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222272.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222272.webp",
+    "alt": "《Low Life》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2206057",
+      "neteaseTrackId": "2206057",
+      "title": "Death Rattle",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 269533
+    },
+    {
+      "id": "netease-track:2206060",
+      "neteaseTrackId": "2206060",
+      "title": "Low Life",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 213226
+    },
+    {
+      "id": "netease-track:2206061",
+      "neteaseTrackId": "2206061",
+      "title": "Disengage",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 181840
+    },
+    {
+      "id": "netease-track:2206062",
+      "neteaseTrackId": "2206062",
+      "title": "Locomotive",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 223266
+    },
+    {
+      "id": "netease-track:2206063",
+      "neteaseTrackId": "2206063",
+      "title": "Barrier",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 249493
+    },
+    {
+      "id": "netease-track:2206064",
+      "neteaseTrackId": "2206064",
+      "title": "Wheeling Vultures",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 232533
+    },
+    {
+      "id": "netease-track:2206067",
+      "neteaseTrackId": "2206067",
+      "title": "Curved Dog",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 94306
+    },
+    {
+      "id": "netease-track:2206070",
+      "neteaseTrackId": "2206070",
+      "title": "Abasement",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 99666
+    },
+    {
+      "id": "netease-track:2206073",
+      "neteaseTrackId": "2206073",
+      "title": "Land One",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 490466
+    },
+    {
+      "id": "netease-track:2206076",
+      "neteaseTrackId": "2206076",
+      "title": "Tingle Hairs",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 253266
+    },
+    {
+      "id": "netease-track:2206078",
+      "neteaseTrackId": "2206078",
+      "title": "The Last Detective",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Peter Brötzmann"
+      ],
+      "durationMs": 153693
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=222272",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Low Life Bill Laswell Peter Brötzmann",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

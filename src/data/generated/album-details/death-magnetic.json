@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1956857",
+  "id": "album:1956857",
+  "neteaseAlbumId": "1956857",
+  "slug": "death-magnetic",
+  "title": "Death Magnetic",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2008-09-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Blackened Recordings / Universal Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956857.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956857.webp",
+    "alt": "《Death Magnetic》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162388",
+      "neteaseTrackId": "21162388",
+      "title": "That Was Just Your Life",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 428355
+    },
+    {
+      "id": "netease-track:21162389",
+      "neteaseTrackId": "21162389",
+      "title": "The End of the Line",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 472346
+    },
+    {
+      "id": "netease-track:21162390",
+      "neteaseTrackId": "21162390",
+      "title": "Broken, Beat & Scarred",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 385515
+    },
+    {
+      "id": "netease-track:21162391",
+      "neteaseTrackId": "21162391",
+      "title": "The Day That Never Comes",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 476266
+    },
+    {
+      "id": "netease-track:21162392",
+      "neteaseTrackId": "21162392",
+      "title": "All Nightmare Long",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 477074
+    },
+    {
+      "id": "netease-track:21162393",
+      "neteaseTrackId": "21162393",
+      "title": "Cyanide",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 399595
+    },
+    {
+      "id": "netease-track:21162394",
+      "neteaseTrackId": "21162394",
+      "title": "The Unforgiven III",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 466625
+    },
+    {
+      "id": "netease-track:21162395",
+      "neteaseTrackId": "21162395",
+      "title": "The Judas Kiss",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 480733
+    },
+    {
+      "id": "netease-track:21162396",
+      "neteaseTrackId": "21162396",
+      "title": "Suicide & Redemption",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 597733
+    },
+    {
+      "id": "netease-track:21162397",
+      "neteaseTrackId": "21162397",
+      "title": "My Apocalypse",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 301093
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1956857",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Death Magnetic Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

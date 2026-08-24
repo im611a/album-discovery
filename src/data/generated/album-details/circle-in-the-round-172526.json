@@ -1,0 +1,164 @@
+{
+  "internalId": "album:172526",
+  "id": "album:172526",
+  "neteaseAlbumId": "172526",
+  "slug": "circle-in-the-round-172526",
+  "title": "Circle In The Round",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1979-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172526.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172526.webp",
+    "alt": "《Circle In The Round》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1701695",
+      "neteaseTrackId": "1701695",
+      "title": "Two Bass Hit",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 222406
+    },
+    {
+      "id": "netease-track:1701702",
+      "neteaseTrackId": "1701702",
+      "title": "Love for Sale",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 708989
+    },
+    {
+      "id": "netease-track:1701708",
+      "neteaseTrackId": "1701708",
+      "title": "Blues No. 2",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 407902
+    },
+    {
+      "id": "netease-track:1701714",
+      "neteaseTrackId": "1701714",
+      "title": "Circle In The Round",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1575026
+    },
+    {
+      "id": "netease-track:1701719",
+      "neteaseTrackId": "1701719",
+      "title": "Teo's Bag",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 355604
+    },
+    {
+      "id": "netease-track:1701722",
+      "neteaseTrackId": "1701722",
+      "title": "Side Car I",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 297717
+    },
+    {
+      "id": "netease-track:1701724",
+      "neteaseTrackId": "1701724",
+      "title": "Side Car II",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 213864
+    },
+    {
+      "id": "netease-track:1701729",
+      "neteaseTrackId": "1701729",
+      "title": "Splash",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 510249
+    },
+    {
+      "id": "netease-track:1701733",
+      "neteaseTrackId": "1701733",
+      "title": "Sanctuary",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 528039
+    },
+    {
+      "id": "netease-track:1701738",
+      "neteaseTrackId": "1701738",
+      "title": "Guinnevere",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1085811
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=172526",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Circle In The Round Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

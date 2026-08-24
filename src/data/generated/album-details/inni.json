@@ -1,0 +1,219 @@
+{
+  "internalId": "album:432397",
+  "id": "album:432397",
+  "neteaseAlbumId": "432397",
+  "slug": "inni",
+  "title": "Inní",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99990",
+      "neteaseArtistId": "99990",
+      "name": "Sigur Rós"
+    }
+  ],
+  "releaseDate": "2011-11-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432397.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432397.webp",
+    "alt": "《Inní》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4278334",
+      "neteaseTrackId": "4278334",
+      "title": "Svefn-g-englar (Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 612906
+    },
+    {
+      "id": "netease-track:4278338",
+      "neteaseTrackId": "4278338",
+      "title": "Glósóli (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 412386
+    },
+    {
+      "id": "netease-track:4278342",
+      "neteaseTrackId": "4278342",
+      "title": "Ny Batterí (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 518493
+    },
+    {
+      "id": "netease-track:4278345",
+      "neteaseTrackId": "4278345",
+      "title": "Fljótavík (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 218173
+    },
+    {
+      "id": "netease-track:4278349",
+      "neteaseTrackId": "4278349",
+      "title": "Við spilum endalaust (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 238773
+    },
+    {
+      "id": "netease-track:4278353",
+      "neteaseTrackId": "4278353",
+      "title": "Hoppípolla (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 253413
+    },
+    {
+      "id": "netease-track:4278357",
+      "neteaseTrackId": "4278357",
+      "title": "Með blóðnasir (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 142160
+    },
+    {
+      "id": "netease-track:4278362",
+      "neteaseTrackId": "4278362",
+      "title": "Inní mér syngur vitleysingur (Live)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 248680
+    },
+    {
+      "id": "netease-track:4278367",
+      "neteaseTrackId": "4278367",
+      "title": "E-Bow (Live)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 549120
+    },
+    {
+      "id": "netease-track:4278372",
+      "neteaseTrackId": "4278372",
+      "title": "Sæglópur (Live)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 460773
+    },
+    {
+      "id": "netease-track:4278377",
+      "neteaseTrackId": "4278377",
+      "title": "Festival (Live)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 455613
+    },
+    {
+      "id": "netease-track:4278380",
+      "neteaseTrackId": "4278380",
+      "title": "Hafsól (Live)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 508280
+    },
+    {
+      "id": "netease-track:4278383",
+      "neteaseTrackId": "4278383",
+      "title": "All Alright (Live)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 341506
+    },
+    {
+      "id": "netease-track:4278386",
+      "neteaseTrackId": "4278386",
+      "title": "Popplagið (Live)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 923573
+    },
+    {
+      "id": "netease-track:4278390",
+      "neteaseTrackId": "4278390",
+      "title": "Lúppulagið (Live)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Sigur Rós"
+      ],
+      "durationMs": 359320
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=432397",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Inní Sigur Rós",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

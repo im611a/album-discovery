@@ -1,0 +1,98 @@
+{
+  "internalId": "album:10779",
+  "id": "album:10779",
+  "neteaseAlbumId": "10779",
+  "slug": "one-magic-christmas",
+  "title": "One Magic Christmas",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2011-12-12",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10779.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10779.webp",
+    "alt": "《One Magic Christmas》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108558",
+      "neteaseTrackId": "108558",
+      "title": "Away in a Manger",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 163000
+    },
+    {
+      "id": "netease-track:108563",
+      "neteaseTrackId": "108563",
+      "title": "First Noel",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 129000
+    },
+    {
+      "id": "netease-track:108568",
+      "neteaseTrackId": "108568",
+      "title": "Santa Claus is Coming to Town",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 140000
+    },
+    {
+      "id": "netease-track:108572",
+      "neteaseTrackId": "108572",
+      "title": "Simple Wish",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 188000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=10779",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "One Magic Christmas 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

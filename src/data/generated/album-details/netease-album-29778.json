@@ -1,0 +1,242 @@
+{
+  "internalId": "album:29778",
+  "id": "album:29778",
+  "neteaseAlbumId": "29778",
+  "slug": "netease-album-29778",
+  "title": "最菲",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1994-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "新艺宝",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29778.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29778.webp",
+    "alt": "《最菲》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300486",
+      "neteaseTrackId": "300486",
+      "title": "容易受伤的女人(国)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 257933
+    },
+    {
+      "id": "netease-track:300488",
+      "neteaseTrackId": "300488",
+      "title": "冷战",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 248440
+    },
+    {
+      "id": "netease-track:300490",
+      "neteaseTrackId": "300490",
+      "title": "执迷不悔(国)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266893
+    },
+    {
+      "id": "netease-track:300492",
+      "neteaseTrackId": "300492",
+      "title": "多得他",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 289106
+    },
+    {
+      "id": "netease-track:300495",
+      "neteaseTrackId": "300495",
+      "title": "季候风",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 274426
+    },
+    {
+      "id": "netease-track:300498",
+      "neteaseTrackId": "300498",
+      "title": "动心",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 239106
+    },
+    {
+      "id": "netease-track:300500",
+      "neteaseTrackId": "300500",
+      "title": "Miss You Night & Day",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 332133
+    },
+    {
+      "id": "netease-track:300502",
+      "neteaseTrackId": "300502",
+      "title": "无奈那天",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 302400
+    },
+    {
+      "id": "netease-track:300504",
+      "neteaseTrackId": "300504",
+      "title": "流非飞",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 222666
+    },
+    {
+      "id": "netease-track:300507",
+      "neteaseTrackId": "300507",
+      "title": "静夜的单簧管",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261266
+    },
+    {
+      "id": "netease-track:300510",
+      "neteaseTrackId": "300510",
+      "title": "诱惑我",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 234600
+    },
+    {
+      "id": "netease-track:300513",
+      "neteaseTrackId": "300513",
+      "title": "Kisses In The Wind",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 241760
+    },
+    {
+      "id": "netease-track:300516",
+      "neteaseTrackId": "300516",
+      "title": "我永远珍惜你我",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 222400
+    },
+    {
+      "id": "netease-track:300519",
+      "neteaseTrackId": "300519",
+      "title": "Do We Really Care",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261466
+    },
+    {
+      "id": "netease-track:300521",
+      "neteaseTrackId": "300521",
+      "title": "可否抱紧我",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 248093
+    },
+    {
+      "id": "netease-track:300523",
+      "neteaseTrackId": "300523",
+      "title": "容易受伤的女人",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 259853
+    },
+    {
+      "id": "netease-track:300525",
+      "neteaseTrackId": "300525",
+      "title": "忘掉你像忘掉我",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261466
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=29778",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "最菲 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:21285",
+  "id": "album:21285",
+  "neteaseAlbumId": "21285",
+  "slug": "i-do-believe",
+  "title": "I Do Believe",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2001-04-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Taiwan",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21285.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21285.webp",
+    "alt": "《I Do Believe》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209218",
+      "neteaseTrackId": "209218",
+      "title": "I Do Believe(暖洋洋版)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 241603
+    },
+    {
+      "id": "netease-track:209221",
+      "neteaseTrackId": "209221",
+      "title": "可以爱你真好",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 186200
+    },
+    {
+      "id": "netease-track:209223",
+      "neteaseTrackId": "209223",
+      "title": "Why",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 211266
+    },
+    {
+      "id": "netease-track:209225",
+      "neteaseTrackId": "209225",
+      "title": "冲动",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 293453
+    },
+    {
+      "id": "netease-track:209226",
+      "neteaseTrackId": "209226",
+      "title": "Day & Night",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 252800
+    },
+    {
+      "id": "netease-track:209227",
+      "neteaseTrackId": "209227",
+      "title": "跟你借的幸福",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 300214
+    },
+    {
+      "id": "netease-track:209229",
+      "neteaseTrackId": "209229",
+      "title": "女人的说法",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 205798
+    },
+    {
+      "id": "netease-track:209231",
+      "neteaseTrackId": "209231",
+      "title": "不够完美",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 219666
+    },
+    {
+      "id": "netease-track:209234",
+      "neteaseTrackId": "209234",
+      "title": "变卖",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 303666
+    },
+    {
+      "id": "netease-track:209237",
+      "neteaseTrackId": "209237",
+      "title": "平凡之歌",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 243252
+    },
+    {
+      "id": "netease-track:209240",
+      "neteaseTrackId": "209240",
+      "title": "I Do Believe(Beliver Mix星光灿烂版)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 233569
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=21285",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "I Do Believe 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

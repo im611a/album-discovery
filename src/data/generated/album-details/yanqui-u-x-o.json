@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1663776",
+  "id": "album:1663776",
+  "neteaseAlbumId": "1663776",
+  "slug": "yanqui-u-x-o",
+  "title": "Yanqui U.X.O.",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:93191",
+      "neteaseArtistId": "93191",
+      "name": "Godspeed You! Black Emperor"
+    }
+  ],
+  "releaseDate": "2002-11-03",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1663776.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1663776.webp",
+    "alt": "《Yanqui U.X.O.》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18105864",
+      "neteaseTrackId": "18105864",
+      "title": "09-15-00",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 987133
+    },
+    {
+      "id": "netease-track:18105866",
+      "neteaseTrackId": "18105866",
+      "title": "09-15-00 (cont.)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 376680
+    },
+    {
+      "id": "netease-track:18105868",
+      "neteaseTrackId": "18105868",
+      "title": "Rockets fall on Rocket Falls",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 1242266
+    },
+    {
+      "id": "netease-track:18105870",
+      "neteaseTrackId": "18105870",
+      "title": "mother****er=redeemer",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 1282253
+    },
+    {
+      "id": "netease-track:18105872",
+      "neteaseTrackId": "18105872",
+      "title": "************=redeemer (cont.)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 610640
+    },
+    {
+      "id": "netease-track:3334265990",
+      "neteaseTrackId": "3334265990",
+      "title": "George Bush Cut Up While Talking (Hidden Track)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Godspeed You! Black Emperor"
+      ],
+      "durationMs": 218967
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1663776",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Yanqui U.X.O. Godspeed You! Black Emperor",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

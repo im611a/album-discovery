@@ -1,0 +1,177 @@
+{
+  "internalId": "album:18968",
+  "id": "album:18968",
+  "neteaseAlbumId": "18968",
+  "slug": "netease-album-18968",
+  "title": "梦想",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1996-07-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18968.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18968.webp",
+    "alt": "《梦想》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186802",
+      "neteaseTrackId": "186802",
+      "title": "梦",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "陈艾玲"
+      ],
+      "durationMs": 133277
+    },
+    {
+      "id": "netease-track:186806",
+      "neteaseTrackId": "186806",
+      "title": "我是真的",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 304301
+    },
+    {
+      "id": "netease-track:186810",
+      "neteaseTrackId": "186810",
+      "title": "错过你错过爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "于台烟"
+      ],
+      "durationMs": 257437
+    },
+    {
+      "id": "netease-track:186814",
+      "neteaseTrackId": "186814",
+      "title": "逃",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 270629
+    },
+    {
+      "id": "netease-track:186819",
+      "neteaseTrackId": "186819",
+      "title": "已经结束了吗",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 266789
+    },
+    {
+      "id": "netease-track:186827",
+      "neteaseTrackId": "186827",
+      "title": "爱情对我来说",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 308794
+    },
+    {
+      "id": "netease-track:186832",
+      "neteaseTrackId": "186832",
+      "title": "太想爱你",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 287174
+    },
+    {
+      "id": "netease-track:186835",
+      "neteaseTrackId": "186835",
+      "title": "男人也好女人也好",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291449
+    },
+    {
+      "id": "netease-track:186841",
+      "neteaseTrackId": "186841",
+      "title": "爱我其实很容易",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 260624
+    },
+    {
+      "id": "netease-track:186845",
+      "neteaseTrackId": "186845",
+      "title": "且行且珍惜",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 294359
+    },
+    {
+      "id": "netease-track:186849",
+      "neteaseTrackId": "186849",
+      "title": "梦想成真",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 260624
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18968",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "梦想 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

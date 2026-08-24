@@ -32,14 +32,14 @@ async function transactionFixture() {
   const planFile = path.join(batch, "plan", "plan.json");
   const reportFile = path.join(batch, "report", "report.json");
   await writeFile(planFile, stableJson({ baseline: { catalogFingerprint: "a".repeat(64), catalogSha256: catalogSha }, candidate: { fingerprint: candidateFingerprint }, readyAlbumIds: ["123"], review: { fingerprint: null } }));
-  await writeFile(reportFile, stableJson({ input: { sha256: inputSha }, counts: { READY: 1, NEEDS_REVIEW: 0, ERROR: 0, FATAL: 0 }, resultFingerprint: "b".repeat(64), records: [] }));
+  await writeFile(reportFile, stableJson({ input: { sha256: inputSha }, counts: { rowsTotal: 1, READY: 1, REJECTED_BY_REVIEW: 0, QUARANTINED: 0, SKIPPED_DUPLICATE: 0, NEEDS_REVIEW: 0, ERROR: 0, FATAL: 0, IMPORTED: 0 }, resultFingerprint: "b".repeat(64), records: [] }));
   const payloadFingerprint = (await directoryFingerprint(path.join(batch, "input", "payloads"))).fingerprint;
   const coverFingerprint = (await directoryFingerprint(path.join(batch, "incoming-covers"))).fingerprint;
   await writeFile(path.join(batch, "operator", "qualification.json"), stableJson({ schema: "content-pipeline-v1/operator-qualification/v1", batchId: id, inputSha256: inputSha, baselineCatalogSha256: catalogSha, payloadFingerprint, coverFingerprint, planSha256: await sha256File(planFile), reportSha256: await sha256File(reportFile), candidateFingerprint, resultFingerprint: "b".repeat(64), reviewFingerprint: null }));
   return { root, id, batch, candidateFingerprint };
 }
 
-async function pipelineFixture({ expectedTitle = "Operator End to End" } = {}) {
+async function pipelineFixture({ expectedTitle = "Operator End to End", invalidTrackList = false } = {}) {
   const root = await mkdtemp(path.join(os.tmpdir(), "operator-e2e-")); temporary.push(root);
   const id = "CONTENT-BATCH-20260821-002";
   const batch = path.join(root, ".local-data", "content-pipeline-v1", id);
@@ -50,10 +50,27 @@ async function pipelineFixture({ expectedTitle = "Operator End to End" } = {}) {
   await createBatchWorkspace(batch, { id, discoveredAt: "2026-08-21T00:00:00.000Z" });
   const albumId = "990099";
   const artistId = 9_090_099;
-  const payload = { album: { id: Number(albumId), name: "Operator End to End", artists: [{ id: artistId, name: "Operator Fixture Artist" }], publishTime: Date.UTC(2026, 0, 2), type: "专辑", company: "Fixture" }, songs: [{ id: 9900991, name: "One", no: 1, cd: "1", dt: 1000, ar: [{ id: artistId, name: "Operator Fixture Artist" }] }, { id: 9900992, name: "Two", no: 2, cd: "1", dt: 1000, ar: [{ id: artistId, name: "Operator Fixture Artist" }] }] };
+  const songs = [{ id: 9900991, name: "One", no: 1, cd: "1", dt: 1000, ar: [{ id: artistId, name: "Operator Fixture Artist" }] }, { id: 9900992, name: "Two", no: 2, cd: "1", dt: 1000, ar: [{ id: artistId, name: "Operator Fixture Artist" }] }];
+  const payload = { album: { id: Number(albumId), name: "Operator End to End", artists: [{ id: artistId, name: "Operator Fixture Artist" }], publishTime: Date.UTC(2026, 0, 2), type: "专辑", company: "Fixture" }, songs: invalidTrackList ? songs.slice(0, 1) : songs };
   await writeFile(path.join(batch, "input", "input.csv"), `album_id,expected_title,expected_artists,core_genres,cover_file\n${albumId},${expectedTitle},Operator Fixture Artist,rock,${albumId}.png\n`);
   await writeFile(path.join(batch, "input", "payloads", `${albumId}.json`), stableJson(payload));
   await run("ffmpeg", ["-hide_banner", "-loglevel", "error", "-y", "-f", "lavfi", "-i", "color=c=purple:s=96x128", "-frames:v", "1", path.join(batch, "incoming-covers", `${albumId}.png`)], { windowsHide: true });
+  return { root, id, batch };
+}
+
+async function hardeningFixture() {
+  const root = await mkdtemp(path.join(os.tmpdir(), "operator-hardening-")); temporary.push(root);
+  const id = "CONTENT-BATCH-20260822-001";
+  const batch = path.join(root, ".local-data", "content-pipeline-v1", id);
+  await Promise.all([mkdir(path.join(batch, "input", "payloads"), { recursive: true }), mkdir(path.join(batch, "incoming-covers"), { recursive: true }), mkdir(path.join(batch, "acquisition"), { recursive: true }), mkdir(path.join(root, "production", "generated"), { recursive: true })]);
+  const records = ["10", "11", "12"].map((albumId) => ({ album_id: albumId, expected_title: `Album ${albumId}`, expected_artists: albumId === "12" ? "Missing" : "Known", core_genres: "", manual_verified: "false" }));
+  await writeFile(path.join(batch, "input", "input.json"), stableJson({ records }));
+  await writeFile(path.join(batch, "batch.json"), stableJson({ id, input: "input/input.json", discoveredAt: "2026-08-22T00:00:00.000Z" }));
+  for (const [albumId, artistId] of [["10", 1], ["11", 1]]) { await writeFile(path.join(batch, "input", "payloads", `${albumId}.json`), stableJson({ album: { id: Number(albumId), name: `Album ${albumId}`, artists: [{ id: artistId, name: "Known" }] } })); await writeFile(path.join(batch, "incoming-covers", `${albumId}.png`), `cover-${albumId}`); }
+  const acquired = async (albumId, defects = []) => ({ albumId, status: "ACQUIRED", payloadSha256: await sha256File(path.join(batch, "input", "payloads", `${albumId}.json`)), cover: { sha256: await sha256File(path.join(batch, "incoming-covers", `${albumId}.png`)) }, defects });
+  await writeFile(path.join(batch, "acquisition", "report.json"), stableJson({ schema: "content-pipeline-v1/acquisition/v1", batchId: id, requested: 3, acquired: 2, failed: 1, sourceDefects: 1, cacheHits: 0, refreshDrift: 0, results: [await acquired("10"), await acquired("11", [{ code: "SOURCE_PAYLOAD_DUPLICATE_POSITION", disposition: "DO_NOT_IMPORT", positions: ["1:1"] }]), { albumId: "12", status: "FAILED", code: "ACQUISITION_HTTP_ERROR", message: "ACQUISITION_HTTP_ERROR: 404" }] }));
+  await writeFile(path.join(root, "production", "generated", "catalog.json"), stableJson({ taxonomy: [{ key: "rock", kind: "core" }], albums: [{ neteaseAlbumId: "1", title: "Known baseline", coreGenres: ["rock"], artists: [{ neteaseArtistId: "1", name: "Known" }] }] }));
+  await writeFile(path.join(root, "production", "generated", "artist-index.json"), stableJson({ artists: [] }));
   return { root, id, batch };
 }
 
@@ -61,6 +78,29 @@ describe("Bulk Operator command contract", () => {
   it("fails closed on unknown and missing options", () => {
     expect(() => parseOperatorArguments(["status", "--wat"])).toThrow(/UNKNOWN_OPTION/u);
     expect(() => parseOperatorArguments(["status", "--batch"])).toThrow(/MISSING_OPTION_VALUE/u);
+    expect(() => parseOperatorArguments(["discover", "--limit"])).toThrow(/MISSING_OPTION_VALUE/u);
+  });
+
+  it("routes cached discovery, emits a directly acquirable artifact, and rejects a stale discovery baseline", async () => {
+    const root = await mkdtemp(path.join(os.tmpdir(), "operator-discovery-")); temporary.push(root);
+    const generated = path.join(root, "production", "generated");
+    const legacyCache = path.join(root, ".cache", "catalog", "netease");
+    await Promise.all([mkdir(generated, { recursive: true }), mkdir(legacyCache, { recursive: true })]);
+    const catalogFile = path.join(generated, "catalog.json");
+    await writeFile(catalogFile, `${JSON.stringify({ version: 1, albums: [] })}\n`, "utf8");
+    await writeFile(path.join(generated, "artist-index.json"), `${JSON.stringify({ version: 1, artists: [{ neteaseArtistId: "1", name: "Discovery Artist" }] })}\n`, "utf8");
+    await writeFile(path.join(legacyCache, "artist-albums-1-0.json"), `${JSON.stringify({ code: 200, artist: { id: 1, name: "Discovery Artist" }, hotAlbums: [{ id: 20, name: "Discovered Album", type: "Album", subType: "录音室版", size: 8, artists: [{ id: 1, name: "Discovery Artist" }] }], more: false })}\n`, "utf8");
+    const environment = { ...process.env, NODE_ENV: "test", CONTENT_PIPELINE_OPERATOR_TEST_ROOT: root };
+    const stdout = capture();
+    expect(await runOperator(["discover", "--artist-limit", "1", "--from-current-artists", "--limit", "1", "--json"], { stdout: stdout.stream, stderr: capture().stream, environment })).toBe(0);
+    const discovered = JSON.parse(stdout.value);
+    expect(discovered).toMatchObject({ command: "discover", status: "DISCOVERY_COMPLETE", counts: { discovered: 1, existing: 0, newCandidates: 1 }, productionMutation: false });
+    const candidate = JSON.parse(await readFile(discovered.artifacts.candidate, "utf8"));
+    expect(candidate.records).toEqual([expect.objectContaining({ album_id: "20", core_genres: "", manual_verified: "false" })]);
+    await writeFile(catalogFile, `${JSON.stringify({ version: 2, albums: [{ neteaseAlbumId: "10" }] })}\n`, "utf8");
+    const stale = capture();
+    expect(await runOperator(["acquire", "--input", discovered.artifacts.candidate, "--json"], { stdout: stale.stream, stderr: capture().stream, environment })).toBe(6);
+    expect(JSON.parse(stale.value)).toMatchObject({ status: "FAILED", exitCategory: "preflight", errors: [{ code: "STALE_DISCOVERY_BASELINE" }] });
   });
 
   it("emits exactly one JSON envelope", async () => {
@@ -68,6 +108,23 @@ describe("Bulk Operator command contract", () => {
     expect(await runOperator(["help", "--json"], { stdout: stdout.stream, stderr: stderr.stream })).toBe(0);
     expect(JSON.parse(stdout.value)).toMatchObject({ schema: "content-pipeline-v1/operator-result/v1", command: "help", status: "HELP" });
     expect(stderr.value).toBe("");
+  });
+
+  it("finalizes partial acquisition and exports grouped taxonomy without network or production mutation", async () => {
+    const fixture = await hardeningFixture();
+    const environment = { ...process.env, NODE_ENV: "test", CONTENT_PIPELINE_OPERATOR_TEST_ROOT: fixture.root };
+    const productionFile = path.join(fixture.root, "production", "generated", "catalog.json");
+    const productionBefore = await sha256File(productionFile);
+    const finalized = capture();
+    expect(await runOperator(["finalize-acquisition", "--batch", fixture.id, "--json"], { stdout: finalized.stream, stderr: capture().stream, environment })).toBe(0);
+    expect(JSON.parse(finalized.value)).toMatchObject({ status: "ACQUISITION_USABLE", counts: { requested: 3, clean: 1, doNotImport: 1, unavailable: 1, unresolvedBlocking: 0 }, cleanReuse: { acquisitionRequests: 0, copiedArtifacts: 0 } });
+    const taxonomy = capture();
+    expect(await runOperator(["taxonomy", "--batch", fixture.id, "--json"], { stdout: taxonomy.stream, stderr: capture().stream, environment })).toBe(5);
+    expect(JSON.parse(taxonomy.value)).toMatchObject({ status: "TAXONOMY_REVIEW_REQUIRED", counts: { albums: 1, highConfidenceAlbums: 1, groups: 1 }, confidence: "PROPOSED_NOT_HUMAN_ACCEPTED" });
+    const status = capture();
+    expect(await runOperator(["status", "--batch", fixture.id, "--json"], { stdout: status.stream, stderr: capture().stream, environment })).toBe(0);
+    expect(JSON.parse(status.value)).toMatchObject({ status: "AWAITING_TAXONOMY_REVIEW", acquisitionUsable: true });
+    expect(await sha256File(productionFile)).toBe(productionBefore);
   });
 
   it("rejects known options that are irrelevant to a command", async () => {
@@ -128,7 +185,7 @@ describe("Bulk Operator command contract", () => {
     expect(JSON.parse(promote.value).status).toBe("COMMITTED");
     const catalog = JSON.parse(await readFile(path.join(fixture.root, "production", "generated", "catalog.json"), "utf8"));
     expect(catalog.albums.some((album) => album.neteaseAlbumId === "990099")).toBe(true);
-  }, 60_000);
+  }, 120_000);
 
   it("binds human review to batch/input, invalidates qualification, and requires a rerun", async () => {
     const fixture = await pipelineFixture({ expectedTitle: "Human Assertion Differs" });
@@ -150,6 +207,31 @@ describe("Bulk Operator command contract", () => {
     const rerun = capture();
     expect(await runOperator(["dry-run", "--batch", fixture.id, "--json"], { stdout: rerun.stream, stderr: capture().stream, environment })).toBe(0);
     expect(JSON.parse(rerun.value)).toMatchObject({ status: "DRY_RUN_COMPLETE", counts: { READY: 1, NEEDS_REVIEW: 0 } });
+  }, 60_000);
+
+  it("applies formal REJECT and deterministic quarantine without production or network mutation", async () => {
+    for (const scenario of ["REJECT", "QUARANTINE"]) {
+      const fixture = await pipelineFixture(scenario === "REJECT" ? { expectedTitle: "Human Assertion Differs" } : { invalidTrackList: true });
+      const environment = { ...process.env, NODE_ENV: "test", CONTENT_PIPELINE_OPERATOR_TEST_ROOT: fixture.root };
+      const productionFile = path.join(fixture.root, "production", "generated", "catalog.json");
+      const productionBefore = await sha256File(productionFile);
+      const initial = capture();
+      expect(await runOperator(["dry-run", "--batch", fixture.id, "--json"], { stdout: initial.stream, stderr: capture().stream, environment })).toBe(scenario === "REJECT" ? 5 : 6);
+      const exported = capture();
+      expect(await runOperator(["review", "--batch", fixture.id, "--json"], { stdout: exported.stream, stderr: capture().stream, environment })).toBe(5);
+      const template = JSON.parse(await readFile(JSON.parse(exported.value).artifacts.template, "utf8"));
+      if (scenario === "REJECT") template.decisions = template.decisions.map((decision) => ({ ...decision, decision: "REJECT" }));
+      else template.quarantines = template.quarantines.map((decision) => ({ ...decision, decision: "QUARANTINE" }));
+      const artifact = path.join(fixture.root, `${scenario.toLocaleLowerCase("en-US")}-decisions.json`);
+      await writeFile(artifact, stableJson(template));
+      const applied = capture();
+      expect(await runOperator(["review", "--batch", fixture.id, "--apply", artifact, "--json"], { stdout: applied.stream, stderr: capture().stream, environment })).toBe(0);
+      expect(JSON.parse(applied.value)).toMatchObject({ counts: scenario === "REJECT" ? { accepted: 0, rejected: 1, quarantined: 0 } : { accepted: 0, rejected: 0, quarantined: 1 } });
+      const rerun = capture();
+      expect(await runOperator(["dry-run", "--batch", fixture.id, "--json"], { stdout: rerun.stream, stderr: capture().stream, environment })).toBe(0);
+      expect(JSON.parse(rerun.value)).toMatchObject({ status: "DRY_RUN_COMPLETE", counts: scenario === "REJECT" ? { READY: 0, REJECTED_BY_REVIEW: 1, NEEDS_REVIEW: 0, ERROR: 0, FATAL: 0 } : { READY: 0, QUARANTINED: 1, NEEDS_REVIEW: 0, ERROR: 0, FATAL: 0 }, networkRequests: 0 });
+      expect(await sha256File(productionFile)).toBe(productionBefore);
+    }
   }, 60_000);
 
   it("blocks prepare after production baseline or candidate drift", async () => {

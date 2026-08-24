@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19006",
+  "id": "album:19006",
+  "neteaseAlbumId": "19006",
+  "slug": "my-eyes-adored-you",
+  "title": "My Eyes Adored You",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1992-01-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "巨石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19006.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19006.webp",
+    "alt": "《My Eyes Adored You》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187432",
+      "neteaseTrackId": "187432",
+      "title": "My Eyes Adored You",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 240419
+    },
+    {
+      "id": "netease-track:187435",
+      "neteaseTrackId": "187435",
+      "title": "Stand By Me",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 221030
+    },
+    {
+      "id": "netease-track:187438",
+      "neteaseTrackId": "187438",
+      "title": "I Have To Say I Love You In A Song",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 196000
+    },
+    {
+      "id": "netease-track:187442",
+      "neteaseTrackId": "187442",
+      "title": "Key Largo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:187447",
+      "neteaseTrackId": "187447",
+      "title": "It's A Heartache",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:187452",
+      "neteaseTrackId": "187452",
+      "title": "Crocodile Rock",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:187456",
+      "neteaseTrackId": "187456",
+      "title": "I Will Always Love You",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 204869
+    },
+    {
+      "id": "netease-track:187461",
+      "neteaseTrackId": "187461",
+      "title": "Smile A Little Smile",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 184000
+    },
+    {
+      "id": "netease-track:187466",
+      "neteaseTrackId": "187466",
+      "title": "Young Girl",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 257000
+    },
+    {
+      "id": "netease-track:187477",
+      "neteaseTrackId": "187477",
+      "title": "Wonderful World",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 242360
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19006",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "My Eyes Adored You 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

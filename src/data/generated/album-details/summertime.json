@@ -1,0 +1,124 @@
+{
+  "internalId": "album:220808",
+  "id": "album:220808",
+  "neteaseAlbumId": "220808",
+  "slug": "summertime",
+  "title": "Summertime",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2003-10-27",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220808.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220808.webp",
+    "alt": "《Summertime》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2189364",
+      "neteaseTrackId": "2189364",
+      "title": "Summertime (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Puff Daddy"
+      ],
+      "durationMs": 232571
+    },
+    {
+      "id": "netease-track:2189368",
+      "neteaseTrackId": "2189368",
+      "title": "Summertime (Album Version Instrumental)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 204930
+    },
+    {
+      "id": "netease-track:2189373",
+      "neteaseTrackId": "2189373",
+      "title": "Summertime (A Capella)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Puff Daddy"
+      ],
+      "durationMs": 176000
+    },
+    {
+      "id": "netease-track:2189377",
+      "neteaseTrackId": "2189377",
+      "title": "Summertime (Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Ghostface Killah"
+      ],
+      "durationMs": 235128
+    },
+    {
+      "id": "netease-track:2189382",
+      "neteaseTrackId": "2189382",
+      "title": "Summertime (Remix Instrumental)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 234000
+    },
+    {
+      "id": "netease-track:2189387",
+      "neteaseTrackId": "2189387",
+      "title": "Summertime (A Capella)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Ghostface Killah"
+      ],
+      "durationMs": 227000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=220808",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Summertime Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

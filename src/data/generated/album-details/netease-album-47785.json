@@ -1,0 +1,199 @@
+{
+  "internalId": "album:47785",
+  "id": "album:47785",
+  "neteaseAlbumId": "47785",
+  "slug": "netease-album-47785",
+  "title": "スムーチー",
+  "aliases": [
+    "Smoochy"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1995-10-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KAB America Inc.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47785.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47785.webp",
+    "alt": "《スムーチー》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:500945",
+      "neteaseTrackId": "500945",
+      "title": "美貌の青空",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 343160
+    },
+    {
+      "id": "netease-track:500950",
+      "neteaseTrackId": "500950",
+      "title": "愛してる、愛してない",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 313066
+    },
+    {
+      "id": "netease-track:500956",
+      "neteaseTrackId": "500956",
+      "title": "Bring Them Home",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 221333
+    },
+    {
+      "id": "netease-track:500962",
+      "neteaseTrackId": "500962",
+      "title": "青猫のトルソ",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 140066
+    },
+    {
+      "id": "netease-track:500966",
+      "neteaseTrackId": "500966",
+      "title": "Tango",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 280240
+    },
+    {
+      "id": "netease-track:500972",
+      "neteaseTrackId": "500972",
+      "title": "Insensatez",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 50800
+    },
+    {
+      "id": "netease-track:500978",
+      "neteaseTrackId": "500978",
+      "title": "Poesia",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 326693
+    },
+    {
+      "id": "netease-track:500984",
+      "neteaseTrackId": "500984",
+      "title": "電脳戯話",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 354200
+    },
+    {
+      "id": "netease-track:500990",
+      "neteaseTrackId": "500990",
+      "title": "Hemisphere",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 323933
+    },
+    {
+      "id": "netease-track:500996",
+      "neteaseTrackId": "500996",
+      "title": "真夏の夜の穴",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 161933
+    },
+    {
+      "id": "netease-track:501001",
+      "neteaseTrackId": "501001",
+      "title": "Rio",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 321240
+    },
+    {
+      "id": "netease-track:501008",
+      "neteaseTrackId": "501008",
+      "title": "A Day in the Park",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 322066
+    },
+    {
+      "id": "netease-track:1403677858",
+      "neteaseTrackId": "1403677858",
+      "title": "Tango (Version Castellano)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 278960
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=47785",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "スムーチー Smoochy 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "internalId": "album:6228",
+  "id": "album:6228",
+  "neteaseAlbumId": "6228",
+  "slug": "netease-album-6228",
+  "title": "夜半歌声 电影原声大碟",
+  "aliases": [
+    "The Phantom Lover"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:2034",
+      "neteaseArtistId": "2034",
+      "name": "鲍比达"
+    },
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1995-07-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6228.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6228.webp",
+    "alt": "《夜半歌声 电影原声大碟》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:63032",
+      "neteaseTrackId": "63032",
+      "title": "夜半歌声主题曲(电影版)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 132867
+    },
+    {
+      "id": "netease-track:63033",
+      "neteaseTrackId": "63033",
+      "title": "序曲",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 104064
+    },
+    {
+      "id": "netease-track:63034",
+      "neteaseTrackId": "63034",
+      "title": "剧院",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 62000
+    },
+    {
+      "id": "netease-track:63035",
+      "neteaseTrackId": "63035",
+      "title": "幽会",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 184888
+    },
+    {
+      "id": "netease-track:63036",
+      "neteaseTrackId": "63036",
+      "title": "行装",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 176000
+    },
+    {
+      "id": "netease-track:63038",
+      "neteaseTrackId": "63038",
+      "title": "凄雪",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 158000
+    },
+    {
+      "id": "netease-track:63040",
+      "neteaseTrackId": "63040",
+      "title": "为君痴狂",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 197000
+    },
+    {
+      "id": "netease-track:63042",
+      "neteaseTrackId": "63042",
+      "title": "心有所属",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 98028
+    },
+    {
+      "id": "netease-track:63044",
+      "neteaseTrackId": "63044",
+      "title": "私奔",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 144000
+    },
+    {
+      "id": "netease-track:63046",
+      "neteaseTrackId": "63046",
+      "title": "烙印",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 167058
+    },
+    {
+      "id": "netease-track:63048",
+      "neteaseTrackId": "63048",
+      "title": "衷情乐章",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 260647
+    },
+    {
+      "id": "netease-track:63050",
+      "neteaseTrackId": "63050",
+      "title": "青葱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 150000
+    },
+    {
+      "id": "netease-track:63053",
+      "neteaseTrackId": "63053",
+      "title": "情渊",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 228179
+    },
+    {
+      "id": "netease-track:63056",
+      "neteaseTrackId": "63056",
+      "title": "空白情书",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 174828
+    },
+    {
+      "id": "netease-track:63059",
+      "neteaseTrackId": "63059",
+      "title": "约定",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 190000
+    },
+    {
+      "id": "netease-track:63062",
+      "neteaseTrackId": "63062",
+      "title": "火葬",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 87000
+    },
+    {
+      "id": "netease-track:63065",
+      "neteaseTrackId": "63065",
+      "title": "最后一面",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 81378
+    },
+    {
+      "id": "netease-track:63068",
+      "neteaseTrackId": "63068",
+      "title": "深仇",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 69000
+    },
+    {
+      "id": "netease-track:63072",
+      "neteaseTrackId": "63072",
+      "title": "拥有",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 186131
+    },
+    {
+      "id": "netease-track:63075",
+      "neteaseTrackId": "63075",
+      "title": "终曲",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "鲍比达"
+      ],
+      "durationMs": 10000
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=6228",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "夜半歌声 电影原声大碟 The Phantom Lover 鲍比达 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

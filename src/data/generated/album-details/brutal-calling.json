@@ -1,0 +1,142 @@
+{
+  "internalId": "album:222210",
+  "id": "album:222210",
+  "neteaseAlbumId": "222210",
+  "slug": "brutal-calling",
+  "title": "Brutal Calling",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1970-01-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222210.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222210.webp",
+    "alt": "《Brutal Calling》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205466",
+      "neteaseTrackId": "2205466",
+      "title": "Mass Graves",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 355000
+    },
+    {
+      "id": "netease-track:2205467",
+      "neteaseTrackId": "2205467",
+      "title": "Tunnel 110",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 438067
+    },
+    {
+      "id": "netease-track:2205469",
+      "neteaseTrackId": "2205469",
+      "title": "Doctored Intelligence",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 380000
+    },
+    {
+      "id": "netease-track:2205471",
+      "neteaseTrackId": "2205471",
+      "title": "Not Tomorrow or Never",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 388000
+    },
+    {
+      "id": "netease-track:2205473",
+      "neteaseTrackId": "2205473",
+      "title": "Decapitation Strike",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 389000
+    },
+    {
+      "id": "netease-track:2205475",
+      "neteaseTrackId": "2205475",
+      "title": "Whistleblower Body",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 428663
+    },
+    {
+      "id": "netease-track:2205477",
+      "neteaseTrackId": "2205477",
+      "title": "Lockdown on Bridges and Tunnels",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 338918
+    },
+    {
+      "id": "netease-track:2205479",
+      "neteaseTrackId": "2205479",
+      "title": "110",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 371000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=222210",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Brutal Calling Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

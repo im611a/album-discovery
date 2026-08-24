@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1533977",
+  "id": "album:1533977",
+  "neteaseAlbumId": "1533977",
+  "slug": "distant-lights",
+  "title": "Distant Lights",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29389",
+      "neteaseArtistId": "29389",
+      "name": "Burial"
+    }
+  ],
+  "releaseDate": "2006-08-27",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Hyperdub",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1533977.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1533977.webp",
+    "alt": "《Distant Lights》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16640383",
+      "neteaseTrackId": "16640383",
+      "title": "Distant Lights",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 325149
+    },
+    {
+      "id": "netease-track:16640384",
+      "neteaseTrackId": "16640384",
+      "title": "Distant Lights (Kode9 Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 278068
+    },
+    {
+      "id": "netease-track:16640385",
+      "neteaseTrackId": "16640385",
+      "title": "Pirates",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 366880
+    },
+    {
+      "id": "netease-track:16640386",
+      "neteaseTrackId": "16640386",
+      "title": "Gutted",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 280546
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1533977",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Distant Lights Burial",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

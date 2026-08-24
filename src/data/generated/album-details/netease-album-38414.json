@@ -1,0 +1,154 @@
+{
+  "internalId": "album:38414",
+  "id": "album:38414",
+  "neteaseAlbumId": "38414",
+  "slug": "netease-album-38414",
+  "title": "如果2012",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:804159",
+      "neteaseArtistId": "804159",
+      "name": "阿力普"
+    }
+  ],
+  "releaseDate": "2011-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38414.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/38414.webp",
+    "alt": "《如果2012》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:387776",
+      "neteaseTrackId": "387776",
+      "title": "如果2012 (Intro)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:387780",
+      "neteaseTrackId": "387780",
+      "title": "如果2012 (Outro)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 123000
+    },
+    {
+      "id": "netease-track:387784",
+      "neteaseTrackId": "387784",
+      "title": "旅行",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 298710
+    },
+    {
+      "id": "netease-track:387788",
+      "neteaseTrackId": "387788",
+      "title": "End of the world",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 112000
+    },
+    {
+      "id": "netease-track:387792",
+      "neteaseTrackId": "387792",
+      "title": "一首不知道名字的歌",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 206001
+    },
+    {
+      "id": "netease-track:387796",
+      "neteaseTrackId": "387796",
+      "title": "Wahaha(Acoustic)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:387799",
+      "neteaseTrackId": "387799",
+      "title": "一个人看电影(Acoustic)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 229000
+    },
+    {
+      "id": "netease-track:387802",
+      "neteaseTrackId": "387802",
+      "title": "对不起",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 298000
+    },
+    {
+      "id": "netease-track:387805",
+      "neteaseTrackId": "387805",
+      "title": "Welcome to Karamay",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "小熊饼干"
+      ],
+      "durationMs": 123000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=38414",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "如果2012 阿力普",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

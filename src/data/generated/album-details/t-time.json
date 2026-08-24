@@ -1,0 +1,341 @@
+{
+  "internalId": "album:21262",
+  "id": "album:21262",
+  "neteaseAlbumId": "21262",
+  "slug": "t-time",
+  "title": "T-TIME",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2006-06-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21262.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21262.webp",
+    "alt": "《T-TIME》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:208963",
+      "neteaseTrackId": "208963",
+      "title": "Beautiful Love",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 295404
+    },
+    {
+      "id": "netease-track:208966",
+      "neteaseTrackId": "208966",
+      "title": "深信不疑",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 297733
+    },
+    {
+      "id": "netease-track:208970",
+      "neteaseTrackId": "208970",
+      "title": "路口",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 265426
+    },
+    {
+      "id": "netease-track:208974",
+      "neteaseTrackId": "208974",
+      "title": "无底洞",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 241013
+    },
+    {
+      "id": "netease-track:208981",
+      "neteaseTrackId": "208981",
+      "title": "双栖动物",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 275800
+    },
+    {
+      "id": "netease-track:208985",
+      "neteaseTrackId": "208985",
+      "title": "陌生人",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 234120
+    },
+    {
+      "id": "netease-track:208986",
+      "neteaseTrackId": "208986",
+      "title": "假想敌",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 258413
+    },
+    {
+      "id": "netease-track:208990",
+      "neteaseTrackId": "208990",
+      "title": "沙滩",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 295466
+    },
+    {
+      "id": "netease-track:208992",
+      "neteaseTrackId": "208992",
+      "title": "原点",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅",
+        "孙燕姿"
+      ],
+      "durationMs": 250195
+    },
+    {
+      "id": "netease-track:209000",
+      "neteaseTrackId": "209000",
+      "title": "障眼法",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 230880
+    },
+    {
+      "id": "netease-track:209004",
+      "neteaseTrackId": "209004",
+      "title": "过动儿",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 249013
+    },
+    {
+      "id": "netease-track:209014",
+      "neteaseTrackId": "209014",
+      "title": "二手菸",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 231840
+    },
+    {
+      "id": "netease-track:209017",
+      "neteaseTrackId": "209017",
+      "title": "夜盲症",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 229200
+    },
+    {
+      "id": "netease-track:209023",
+      "neteaseTrackId": "209023",
+      "title": "失乐园",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 258266
+    },
+    {
+      "id": "netease-track:209027",
+      "neteaseTrackId": "209027",
+      "title": "优先权",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 249573
+    },
+    {
+      "id": "netease-track:208978",
+      "neteaseTrackId": "208978",
+      "title": "记念",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 229454
+    },
+    {
+      "id": "netease-track:208972",
+      "neteaseTrackId": "208972",
+      "title": "呼吸",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 295800
+    },
+    {
+      "id": "netease-track:208976",
+      "neteaseTrackId": "208976",
+      "title": "可以爱你真好",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 185666
+    },
+    {
+      "id": "netease-track:208988",
+      "neteaseTrackId": "208988",
+      "title": "你的温度",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 222666
+    },
+    {
+      "id": "netease-track:208982",
+      "neteaseTrackId": "208982",
+      "title": "Yellow",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 283507
+    },
+    {
+      "id": "netease-track:208996",
+      "neteaseTrackId": "208996",
+      "title": "True Colors",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 255773
+    },
+    {
+      "id": "netease-track:209008",
+      "neteaseTrackId": "209008",
+      "title": "True Love",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 229600
+    },
+    {
+      "id": "netease-track:209011",
+      "neteaseTrackId": "209011",
+      "title": "好无聊",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 224496
+    },
+    {
+      "id": "netease-track:209020",
+      "neteaseTrackId": "209020",
+      "title": "你快走开",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 305240
+    },
+    {
+      "id": "netease-track:209029",
+      "neteaseTrackId": "209029",
+      "title": "My Colour TV Set",
+      "trackNumber": 16,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 267520
+    },
+    {
+      "id": "netease-track:209030",
+      "neteaseTrackId": "209030",
+      "title": "T-time",
+      "trackNumber": 17,
+      "discNumber": 2,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 344653
+    }
+  ],
+  "trackCount": 26,
+  "externalUrl": "https://music.163.com/#/album?id=21262",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "T-TIME 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

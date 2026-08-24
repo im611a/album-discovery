@@ -1,0 +1,153 @@
+{
+  "internalId": "album:1724202",
+  "id": "album:1724202",
+  "neteaseAlbumId": "1724202",
+  "slug": "hejira",
+  "title": "Hejira",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1976-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724202.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724202.webp",
+    "alt": "《Hejira》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822233",
+      "neteaseTrackId": "18822233",
+      "title": "Coyote",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 301440
+    },
+    {
+      "id": "netease-track:18822234",
+      "neteaseTrackId": "18822234",
+      "title": "Amelia",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 361933
+    },
+    {
+      "id": "netease-track:18822235",
+      "neteaseTrackId": "18822235",
+      "title": "Furry Sings The Blues",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 306240
+    },
+    {
+      "id": "netease-track:18822237",
+      "neteaseTrackId": "18822237",
+      "title": "A Strange Boy",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 259266
+    },
+    {
+      "id": "netease-track:18822239",
+      "neteaseTrackId": "18822239",
+      "title": "Hejira",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 402466
+    },
+    {
+      "id": "netease-track:18822241",
+      "neteaseTrackId": "18822241",
+      "title": "Song For Sharon",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 517586
+    },
+    {
+      "id": "netease-track:18822243",
+      "neteaseTrackId": "18822243",
+      "title": "Black Crow",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 262893
+    },
+    {
+      "id": "netease-track:18822245",
+      "neteaseTrackId": "18822245",
+      "title": "Blue Motel Room",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 304306
+    },
+    {
+      "id": "netease-track:18822247",
+      "neteaseTrackId": "18822247",
+      "title": "Refuge Of The Roads",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 400846
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1724202",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Hejira Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

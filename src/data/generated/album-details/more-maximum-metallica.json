@@ -1,0 +1,153 @@
+{
+  "internalId": "album:172175",
+  "id": "album:172175",
+  "neteaseAlbumId": "172175",
+  "slug": "more-maximum-metallica",
+  "title": "More Maximum: Metallica",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2003-07-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172175.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172175.webp",
+    "alt": "《More Maximum: Metallica》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1697187",
+      "neteaseTrackId": "1697187",
+      "title": "Intro: Throbbing Metal",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:1697189",
+      "neteaseTrackId": "1697189",
+      "title": "Unleashing Of Potential",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 329000
+    },
+    {
+      "id": "netease-track:1697191",
+      "neteaseTrackId": "1697191",
+      "title": "Constant Invention",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 628000
+    },
+    {
+      "id": "netease-track:1697192",
+      "neteaseTrackId": "1697192",
+      "title": "Unsettling The Inner Sanctum",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:1697194",
+      "neteaseTrackId": "1697194",
+      "title": "Dark Days",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 393000
+    },
+    {
+      "id": "netease-track:1697196",
+      "neteaseTrackId": "1697196",
+      "title": "New Dawn",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 292000
+    },
+    {
+      "id": "netease-track:1697197",
+      "neteaseTrackId": "1697197",
+      "title": "Myths And Legends",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 473000
+    },
+    {
+      "id": "netease-track:1697200",
+      "neteaseTrackId": "1697200",
+      "title": "Special Chemistry",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:1697202",
+      "neteaseTrackId": "1697202",
+      "title": "Question Of Relevance",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 297000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=172175",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "More Maximum: Metallica Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "internalId": "album:18947",
+  "id": "album:18947",
+  "neteaseAlbumId": "18947",
+  "slug": "netease-album-18947",
+  "title": "选哲",
+  "aliases": [
+    "张信哲精选辑"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1998-04-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18947.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18947.webp",
+    "alt": "《选哲》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186554",
+      "neteaseTrackId": "186554",
+      "title": "太想爱你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 287137
+    },
+    {
+      "id": "netease-track:186557",
+      "neteaseTrackId": "186557",
+      "title": "改变",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 277996
+    },
+    {
+      "id": "netease-track:186560",
+      "neteaseTrackId": "186560",
+      "title": "过火",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 302333
+    },
+    {
+      "id": "netease-track:186563",
+      "neteaseTrackId": "186563",
+      "title": "已经结束了吗",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 268200
+    },
+    {
+      "id": "netease-track:186567",
+      "neteaseTrackId": "186567",
+      "title": "受罪",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 311485
+    },
+    {
+      "id": "netease-track:186571",
+      "neteaseTrackId": "186571",
+      "title": "真爱一生",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 271125
+    },
+    {
+      "id": "netease-track:186577",
+      "neteaseTrackId": "186577",
+      "title": "MISSING",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 275148
+    },
+    {
+      "id": "netease-track:186581",
+      "neteaseTrackId": "186581",
+      "title": "不要对他说",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 288694
+    },
+    {
+      "id": "netease-track:186584",
+      "neteaseTrackId": "186584",
+      "title": "且行且珍惜",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 293000
+    },
+    {
+      "id": "netease-track:186588",
+      "neteaseTrackId": "186588",
+      "title": "用情",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 311465
+    },
+    {
+      "id": "netease-track:186592",
+      "neteaseTrackId": "186592",
+      "title": "我是真的",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 307253
+    },
+    {
+      "id": "netease-track:186594",
+      "neteaseTrackId": "186594",
+      "title": "背叛",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 239282
+    },
+    {
+      "id": "netease-track:186599",
+      "neteaseTrackId": "186599",
+      "title": "逃",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 274312
+    },
+    {
+      "id": "netease-track:186603",
+      "neteaseTrackId": "186603",
+      "title": "STARS",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 303152
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=18947",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "选哲 张信哲精选辑 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

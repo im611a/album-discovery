@@ -1,0 +1,155 @@
+{
+  "internalId": "album:19189",
+  "id": "album:19189",
+  "neteaseAlbumId": "19189",
+  "slug": "netease-album-19189",
+  "title": "大事",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2009-12-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19189.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19189.webp",
+    "alt": "《大事》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:189853",
+      "neteaseTrackId": "189853",
+      "title": "好姑娘",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:189856",
+      "neteaseTrackId": "189856",
+      "title": "动人的部分",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 197526
+    },
+    {
+      "id": "netease-track:189859",
+      "neteaseTrackId": "189859",
+      "title": "钱歌",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 251470
+    },
+    {
+      "id": "netease-track:189862",
+      "neteaseTrackId": "189862",
+      "title": "忧伤的老板",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 323571
+    },
+    {
+      "id": "netease-track:189866",
+      "neteaseTrackId": "189866",
+      "title": "忽悠 忽悠",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 247983
+    },
+    {
+      "id": "netease-track:189870",
+      "neteaseTrackId": "189870",
+      "title": "当你需要的时候",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 191454
+    },
+    {
+      "id": "netease-track:189874",
+      "neteaseTrackId": "189874",
+      "title": "竹林",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "央吉玛"
+      ],
+      "durationMs": 235875
+    },
+    {
+      "id": "netease-track:1318894110",
+      "neteaseTrackId": "1318894110",
+      "title": "杀人剂",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 253684
+    },
+    {
+      "id": "netease-track:1318877142",
+      "neteaseTrackId": "1318877142",
+      "title": "北京画报",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 864093
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=19189",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "大事 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

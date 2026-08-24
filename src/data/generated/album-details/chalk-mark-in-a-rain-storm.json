@@ -1,0 +1,165 @@
+{
+  "internalId": "album:1724190",
+  "id": "album:1724190",
+  "neteaseAlbumId": "1724190",
+  "slug": "chalk-mark-in-a-rain-storm",
+  "title": "Chalk Mark In A Rain Storm",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1987-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Geffen",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724190.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724190.webp",
+    "alt": "《Chalk Mark In A Rain Storm》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822096",
+      "neteaseTrackId": "18822096",
+      "title": "My Secret Place",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell",
+        "Peter Gabriel"
+      ],
+      "durationMs": 300257
+    },
+    {
+      "id": "netease-track:18822098",
+      "neteaseTrackId": "18822098",
+      "title": "Number One",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:18822100",
+      "neteaseTrackId": "18822100",
+      "title": "Lakota",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 387000
+    },
+    {
+      "id": "netease-track:18822101",
+      "neteaseTrackId": "18822101",
+      "title": "The Tea Leaf Prophecy (Lay Down Your Arms)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 294000
+    },
+    {
+      "id": "netease-track:18822102",
+      "neteaseTrackId": "18822102",
+      "title": "Dancin' Clown",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 233755
+    },
+    {
+      "id": "netease-track:18822104",
+      "neteaseTrackId": "18822104",
+      "title": "Cool Water",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 325311
+    },
+    {
+      "id": "netease-track:18822106",
+      "neteaseTrackId": "18822106",
+      "title": "The Beat Of Black Wings",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 324000
+    },
+    {
+      "id": "netease-track:18822107",
+      "neteaseTrackId": "18822107",
+      "title": "Snakes And Ladders",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 344000
+    },
+    {
+      "id": "netease-track:18822109",
+      "neteaseTrackId": "18822109",
+      "title": "The Reoccurring Dream",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 183000
+    },
+    {
+      "id": "netease-track:18822111",
+      "neteaseTrackId": "18822111",
+      "title": "A Bird That Whistles",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 157988
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1724190",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Chalk Mark In A Rain Storm Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1956858",
+  "id": "album:1956858",
+  "neteaseAlbumId": "1956858",
+  "slug": "some-kind-of-monster",
+  "title": "Some Kind Of Monster",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2004-07-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Blackened Recordings / Universal Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956858.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956858.webp",
+    "alt": "《Some Kind Of Monster》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162398",
+      "neteaseTrackId": "21162398",
+      "title": "Some Kind Of Monster",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 505573
+    },
+    {
+      "id": "netease-track:21162399",
+      "neteaseTrackId": "21162399",
+      "title": "The Four Horsemen (Live In Paris / 2003)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 321596
+    },
+    {
+      "id": "netease-track:21162400",
+      "neteaseTrackId": "21162400",
+      "title": "Damage Inc. (Live In Paris / 2003)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 300280
+    },
+    {
+      "id": "netease-track:21162401",
+      "neteaseTrackId": "21162401",
+      "title": "Leper Messiah (Live In Paris / 2003)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 356653
+    },
+    {
+      "id": "netease-track:21162402",
+      "neteaseTrackId": "21162402",
+      "title": "Motorbreath (Live In Paris / 2003)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 199932
+    },
+    {
+      "id": "netease-track:21162403",
+      "neteaseTrackId": "21162403",
+      "title": "Ride The Lightning (Live In Paris / 2003)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 400953
+    },
+    {
+      "id": "netease-track:21162404",
+      "neteaseTrackId": "21162404",
+      "title": "Hit The Lights (Live In Paris / 2003)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 252395
+    },
+    {
+      "id": "netease-track:21162405",
+      "neteaseTrackId": "21162405",
+      "title": "Some Kind Of Monster (Edit)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 256835
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1956858",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Some Kind Of Monster Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

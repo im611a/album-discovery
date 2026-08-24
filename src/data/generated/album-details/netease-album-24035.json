@@ -1,0 +1,164 @@
+{
+  "internalId": "album:24035",
+  "id": "album:24035",
+  "neteaseAlbumId": "24035",
+  "slug": "netease-album-24035",
+  "title": "前任女友",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7901",
+      "neteaseArtistId": "7901",
+      "name": "黄雅莉"
+    }
+  ],
+  "releaseDate": "2010-12-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "福茂唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/24035.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/24035.webp",
+    "alt": "《前任女友》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:239648",
+      "neteaseTrackId": "239648",
+      "title": "想你笑",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 263693
+    },
+    {
+      "id": "netease-track:239649",
+      "neteaseTrackId": "239649",
+      "title": "远方有多远",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 260560
+    },
+    {
+      "id": "netease-track:239650",
+      "neteaseTrackId": "239650",
+      "title": "善良",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 270973
+    },
+    {
+      "id": "netease-track:239652",
+      "neteaseTrackId": "239652",
+      "title": "你离开我的种种",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 279853
+    },
+    {
+      "id": "netease-track:239654",
+      "neteaseTrackId": "239654",
+      "title": "爱的初见面",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 219066
+    },
+    {
+      "id": "netease-track:239656",
+      "neteaseTrackId": "239656",
+      "title": "过期的旅行",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 264960
+    },
+    {
+      "id": "netease-track:239658",
+      "neteaseTrackId": "239658",
+      "title": "前任女友",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 254240
+    },
+    {
+      "id": "netease-track:239660",
+      "neteaseTrackId": "239660",
+      "title": "像问号的爱情",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 254240
+    },
+    {
+      "id": "netease-track:239662",
+      "neteaseTrackId": "239662",
+      "title": "猫头鹰呼叫爱情",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 197706
+    },
+    {
+      "id": "netease-track:239664",
+      "neteaseTrackId": "239664",
+      "title": "同城",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 278666
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=24035",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "前任女友 黄雅莉",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

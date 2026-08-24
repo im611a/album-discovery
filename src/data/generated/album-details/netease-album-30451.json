@@ -1,0 +1,164 @@
+{
+  "internalId": "album:30451",
+  "id": "album:30451",
+  "neteaseAlbumId": "30451",
+  "slug": "netease-album-30451",
+  "title": "极限",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9940",
+      "neteaseArtistId": "9940",
+      "name": "徐佳莹"
+    }
+  ],
+  "releaseDate": "2010-09-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/30451.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/30451.webp",
+    "alt": "《极限》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:306649",
+      "neteaseTrackId": "306649",
+      "title": "去我家",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 221026
+    },
+    {
+      "id": "netease-track:306650",
+      "neteaseTrackId": "306650",
+      "title": "极限",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 230880
+    },
+    {
+      "id": "netease-track:306651",
+      "neteaseTrackId": "306651",
+      "title": "惧高症",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 267253
+    },
+    {
+      "id": "netease-track:306652",
+      "neteaseTrackId": "306652",
+      "title": "香水",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 227733
+    },
+    {
+      "id": "netease-track:306653",
+      "neteaseTrackId": "306653",
+      "title": "Love",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 225307
+    },
+    {
+      "id": "netease-track:306654",
+      "neteaseTrackId": "306654",
+      "title": "绿洲",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 251947
+    },
+    {
+      "id": "netease-track:306655",
+      "neteaseTrackId": "306655",
+      "title": "残爱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 220053
+    },
+    {
+      "id": "netease-track:306656",
+      "neteaseTrackId": "306656",
+      "title": "乐园",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 210613
+    },
+    {
+      "id": "netease-track:306657",
+      "neteaseTrackId": "306657",
+      "title": "时间大师",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 209200
+    },
+    {
+      "id": "netease-track:306658",
+      "neteaseTrackId": "306658",
+      "title": "迪斯可",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 296547
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=30451",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "极限 徐佳莹",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

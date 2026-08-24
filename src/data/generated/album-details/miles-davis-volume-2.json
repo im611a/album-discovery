@@ -1,0 +1,175 @@
+{
+  "internalId": "album:172541",
+  "id": "album:172541",
+  "neteaseAlbumId": "172541",
+  "slug": "miles-davis-volume-2",
+  "title": "Miles Davis Volume 2",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1990-01-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172541.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172541.webp",
+    "alt": "《Miles Davis Volume 2》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1701923",
+      "neteaseTrackId": "1701923",
+      "title": "Kelo",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 205217
+    },
+    {
+      "id": "netease-track:1701928",
+      "neteaseTrackId": "1701928",
+      "title": "Enigma",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 203798
+    },
+    {
+      "id": "netease-track:1701933",
+      "neteaseTrackId": "1701933",
+      "title": "Ray's Idea",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 224769
+    },
+    {
+      "id": "netease-track:1701937",
+      "neteaseTrackId": "1701937",
+      "title": "Tempus Fugit",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 232200
+    },
+    {
+      "id": "netease-track:1701941",
+      "neteaseTrackId": "1701941",
+      "title": "C.T.A.",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 214784
+    },
+    {
+      "id": "netease-track:1701945",
+      "neteaseTrackId": "1701945",
+      "title": "I Waited For You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 211301
+    },
+    {
+      "id": "netease-track:1701948",
+      "neteaseTrackId": "1701948",
+      "title": "Kelo (Alternate Take)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 200360
+    },
+    {
+      "id": "netease-track:1701951",
+      "neteaseTrackId": "1701951",
+      "title": "Enigma (Alternate Take)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 206100
+    },
+    {
+      "id": "netease-track:1701954",
+      "neteaseTrackId": "1701954",
+      "title": "Ray's Idea (Alternate Take)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 232245
+    },
+    {
+      "id": "netease-track:1701957",
+      "neteaseTrackId": "1701957",
+      "title": "Tempus Fugit (Alternate Take)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 240140
+    },
+    {
+      "id": "netease-track:1701959",
+      "neteaseTrackId": "1701959",
+      "title": "C.T.A. (Alternate Take)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 197276
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=172541",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Davis Volume 2 Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

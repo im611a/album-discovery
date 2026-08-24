@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1720840",
+  "id": "album:1720840",
+  "neteaseAlbumId": "1720840",
+  "slug": "the-bends",
+  "title": "The Bends",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "1995-03-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beggars Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1720840.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1720840.webp",
+    "alt": "《The Bends》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18795416",
+      "neteaseTrackId": "18795416",
+      "title": "Planet Telex",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 259200
+    },
+    {
+      "id": "netease-track:18795418",
+      "neteaseTrackId": "18795418",
+      "title": "The Bends",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 246200
+    },
+    {
+      "id": "netease-track:18795421",
+      "neteaseTrackId": "18795421",
+      "title": "High and Dry",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 257532
+    },
+    {
+      "id": "netease-track:18795423",
+      "neteaseTrackId": "18795423",
+      "title": "Fake Plastic Trees",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 290706
+    },
+    {
+      "id": "netease-track:18795425",
+      "neteaseTrackId": "18795425",
+      "title": "Bones",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 189000
+    },
+    {
+      "id": "netease-track:18795427",
+      "neteaseTrackId": "18795427",
+      "title": "(Nice Dream)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 233226
+    },
+    {
+      "id": "netease-track:18795429",
+      "neteaseTrackId": "18795429",
+      "title": "Just",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 234800
+    },
+    {
+      "id": "netease-track:18795431",
+      "neteaseTrackId": "18795431",
+      "title": "My Iron Lung",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 276480
+    },
+    {
+      "id": "netease-track:18795433",
+      "neteaseTrackId": "18795433",
+      "title": "Bullet Proof ... I Wish I Was",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 208733
+    },
+    {
+      "id": "netease-track:18795434",
+      "neteaseTrackId": "18795434",
+      "title": "Black Star",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 247040
+    },
+    {
+      "id": "netease-track:18795435",
+      "neteaseTrackId": "18795435",
+      "title": "Sulk",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 222960
+    },
+    {
+      "id": "netease-track:18795436",
+      "neteaseTrackId": "18795436",
+      "title": "Street Spirit (Fade Out)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 253863
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1720840",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Bends Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

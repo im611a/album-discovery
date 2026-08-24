@@ -1,0 +1,199 @@
+{
+  "internalId": "album:29792",
+  "id": "album:29792",
+  "neteaseAlbumId": "29792",
+  "slug": "shirley-once-more",
+  "title": "Shirley Once More",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1991-09-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29792.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29792.webp",
+    "alt": "《Shirley Once More》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300653",
+      "neteaseTrackId": "300653",
+      "title": "Everything",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266866
+    },
+    {
+      "id": "netease-track:300655",
+      "neteaseTrackId": "300655",
+      "title": "无奈那天",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 303892
+    },
+    {
+      "id": "netease-track:300657",
+      "neteaseTrackId": "300657",
+      "title": "多得他",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 294373
+    },
+    {
+      "id": "netease-track:300659",
+      "neteaseTrackId": "300659",
+      "title": "可否抱紧我",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 253666
+    },
+    {
+      "id": "netease-track:300661",
+      "neteaseTrackId": "300661",
+      "title": "有缘的话",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲",
+        "陈小宝"
+      ],
+      "durationMs": 222933
+    },
+    {
+      "id": "netease-track:300662",
+      "neteaseTrackId": "300662",
+      "title": "又继续等",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 283560
+    },
+    {
+      "id": "netease-track:300665",
+      "neteaseTrackId": "300665",
+      "title": "静夜的单簧管",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 265573
+    },
+    {
+      "id": "netease-track:300667",
+      "neteaseTrackId": "300667",
+      "title": "巴黎塔尖",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 268760
+    },
+    {
+      "id": "netease-track:300670",
+      "neteaseTrackId": "300670",
+      "title": "藉口",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 279133
+    },
+    {
+      "id": "netease-track:300672",
+      "neteaseTrackId": "300672",
+      "title": "不可多得",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 243866
+    },
+    {
+      "id": "netease-track:300674",
+      "neteaseTrackId": "300674",
+      "title": "尾班车",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 325440
+    },
+    {
+      "id": "netease-track:300676",
+      "neteaseTrackId": "300676",
+      "title": "My Loneliness",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 250466
+    },
+    {
+      "id": "netease-track:300679",
+      "neteaseTrackId": "300679",
+      "title": "闷人咖啡",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 262960
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=29792",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Shirley Once More 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

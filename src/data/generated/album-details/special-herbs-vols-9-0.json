@@ -1,0 +1,197 @@
+{
+  "internalId": "album:174181",
+  "id": "album:174181",
+  "neteaseAlbumId": "174181",
+  "slug": "special-herbs-vols-9-0",
+  "title": "Special Herbs, Vols. 9 & 0",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38994",
+      "neteaseArtistId": "38994",
+      "name": "MF DOOM"
+    }
+  ],
+  "releaseDate": "2005-07-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/174181.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/174181.webp",
+    "alt": "《Special Herbs, Vols. 9 & 0》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1720982",
+      "neteaseTrackId": "1720982",
+      "title": "Vinca Rosea",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 180000
+    },
+    {
+      "id": "netease-track:1720985",
+      "neteaseTrackId": "1720985",
+      "title": "Burdock Root",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:1720987",
+      "neteaseTrackId": "1720987",
+      "title": "Vervain",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 179000
+    },
+    {
+      "id": "netease-track:1720989",
+      "neteaseTrackId": "1720989",
+      "title": "Bergamont",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:1720991",
+      "neteaseTrackId": "1720991",
+      "title": "Podina",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 127000
+    },
+    {
+      "id": "netease-track:1720993",
+      "neteaseTrackId": "1720993",
+      "title": "\"Untitled\" (Meditation)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 236000
+    },
+    {
+      "id": "netease-track:1720995",
+      "neteaseTrackId": "1720995",
+      "title": "Coltsfoot Leaf",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 221000
+    },
+    {
+      "id": "netease-track:1720998",
+      "neteaseTrackId": "1720998",
+      "title": "Orris Root Powder",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 217000
+    },
+    {
+      "id": "netease-track:1721001",
+      "neteaseTrackId": "1721001",
+      "title": "Passion Flower",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:1721005",
+      "neteaseTrackId": "1721005",
+      "title": "Yellow Dock",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:1721009",
+      "neteaseTrackId": "1721009",
+      "title": "Datura Stramonium",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:1721013",
+      "neteaseTrackId": "1721013",
+      "title": "Coca Leaf",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 231000
+    },
+    {
+      "id": "netease-track:1721017",
+      "neteaseTrackId": "1721017",
+      "title": "Peach Extract",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 247000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=174181",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Special Herbs, Vols. 9 & 0 MF DOOM",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

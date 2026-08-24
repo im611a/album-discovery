@@ -1,0 +1,98 @@
+{
+  "internalId": "album:432657",
+  "id": "album:432657",
+  "neteaseAlbumId": "432657",
+  "slug": "5-ep",
+  "title": "5 EP",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "name": "Slowdive"
+    }
+  ],
+  "releaseDate": "1993-11-21",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Creation",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432657.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432657.webp",
+    "alt": "《5 EP》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4281404",
+      "neteaseTrackId": "4281404",
+      "title": "In Mind",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 225613
+    },
+    {
+      "id": "netease-track:4281408",
+      "neteaseTrackId": "4281408",
+      "title": "Good Day Sunshine",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 308941
+    },
+    {
+      "id": "netease-track:4281412",
+      "neteaseTrackId": "4281412",
+      "title": "Missing You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 255906
+    },
+    {
+      "id": "netease-track:4281415",
+      "neteaseTrackId": "4281415",
+      "title": "Country Rain",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 214691
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=432657",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "5 EP Slowdive",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

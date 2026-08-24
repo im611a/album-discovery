@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1970603",
+  "id": "album:1970603",
+  "neteaseAlbumId": "1970603",
+  "slug": "ken-burns-jazz-miles-davis",
+  "title": "Ken Burns Jazz-Miles Davis",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2000-11-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "COLUMBIA/LEGACY",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970603.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970603.webp",
+    "alt": "《Ken Burns Jazz-Miles Davis》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21340980",
+      "neteaseTrackId": "21340980",
+      "title": "Donna Lee",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 155000
+    },
+    {
+      "id": "netease-track:21340981",
+      "neteaseTrackId": "21340981",
+      "title": "Boplicity",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 181506
+    },
+    {
+      "id": "netease-track:21340982",
+      "neteaseTrackId": "21340982",
+      "title": "Walkin'",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 807000
+    },
+    {
+      "id": "netease-track:21340983",
+      "neteaseTrackId": "21340983",
+      "title": "Generique",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 166812
+    },
+    {
+      "id": "netease-track:21340984",
+      "neteaseTrackId": "21340984",
+      "title": "I Wants To Stay Here (aka I Loves You Porgy)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 220306
+    },
+    {
+      "id": "netease-track:21340985",
+      "neteaseTrackId": "21340985",
+      "title": "So What",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 562039
+    },
+    {
+      "id": "netease-track:21340986",
+      "neteaseTrackId": "21340986",
+      "title": "My Funny Valentine (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 905392
+    },
+    {
+      "id": "netease-track:21340987",
+      "neteaseTrackId": "21340987",
+      "title": "Gingerbread Boy",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 466000
+    },
+    {
+      "id": "netease-track:21340988",
+      "neteaseTrackId": "21340988",
+      "title": "Miles Runs The Voodoo Down",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 692000
+    },
+    {
+      "id": "netease-track:21340989",
+      "neteaseTrackId": "21340989",
+      "title": "Tutu",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 316666
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1970603",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ken Burns Jazz-Miles Davis Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

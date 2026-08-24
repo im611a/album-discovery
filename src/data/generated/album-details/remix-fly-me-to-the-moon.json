@@ -1,0 +1,98 @@
+{
+  "internalId": "album:64339",
+  "id": "album:64339",
+  "neteaseAlbumId": "64339",
+  "slug": "remix-fly-me-to-the-moon",
+  "title": "REMIX: Fly Me To The Moon",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2000-05-09",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64339.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64339.webp",
+    "alt": "《REMIX: Fly Me To The Moon》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:667119",
+      "neteaseTrackId": "667119",
+      "title": "Fly Me To The Moon (Mike Brown Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 351000
+    },
+    {
+      "id": "netease-track:667121",
+      "neteaseTrackId": "667121",
+      "title": "Fly Me To The Moon (James McQuaid Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 233000
+    },
+    {
+      "id": "netease-track:667123",
+      "neteaseTrackId": "667123",
+      "title": "Fly Me To The Moon (VC2's Club Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 359000
+    },
+    {
+      "id": "netease-track:667127",
+      "neteaseTrackId": "667127",
+      "title": "Fly Me To The Moon (Bob Allecca Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 269000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=64339",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "REMIX: Fly Me To The Moon 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

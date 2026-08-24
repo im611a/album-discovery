@@ -1,0 +1,131 @@
+{
+  "internalId": "album:222262",
+  "id": "album:222262",
+  "neteaseAlbumId": "222262",
+  "slug": "sacred-system-nagual-site",
+  "title": "Sacred System: Nagual Site",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1970-01-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222262.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222262.webp",
+    "alt": "《Sacred System: Nagual Site》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205957",
+      "neteaseTrackId": "2205957",
+      "title": "Raag Sohni",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 356000
+    },
+    {
+      "id": "netease-track:2205960",
+      "neteaseTrackId": "2205960",
+      "title": "Black Lotus",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 613000
+    },
+    {
+      "id": "netease-track:2205962",
+      "neteaseTrackId": "2205962",
+      "title": "X-Zibit-I",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 466493
+    },
+    {
+      "id": "netease-track:2205964",
+      "neteaseTrackId": "2205964",
+      "title": "Dèrive",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 324000
+    },
+    {
+      "id": "netease-track:2205966",
+      "neteaseTrackId": "2205966",
+      "title": "Saiya Nikasegaye",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 372448
+    },
+    {
+      "id": "netease-track:2205968",
+      "neteaseTrackId": "2205968",
+      "title": "Driftwork",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 532851
+    },
+    {
+      "id": "netease-track:2205971",
+      "neteaseTrackId": "2205971",
+      "title": "Aab Yaad Kar Tu",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 459000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=222262",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sacred System: Nagual Site Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "internalId": "album:25403",
+  "id": "album:25403",
+  "neteaseAlbumId": "25403",
+  "slug": "netease-album-25403",
+  "title": "一整夜",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2005-12-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "大国文化唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25403.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25403.webp",
+    "alt": "《一整夜》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254238",
+      "neteaseTrackId": "254238",
+      "title": "序",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 21333
+    },
+    {
+      "id": "netease-track:254241",
+      "neteaseTrackId": "254241",
+      "title": "黄昏以后 天亮以前",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 287827
+    },
+    {
+      "id": "netease-track:254244",
+      "neteaseTrackId": "254244",
+      "title": "光",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 237933
+    },
+    {
+      "id": "netease-track:254247",
+      "neteaseTrackId": "254247",
+      "title": "一次幸福的机会",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 235600
+    },
+    {
+      "id": "netease-track:254250",
+      "neteaseTrackId": "254250",
+      "title": "学习忘记",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 212747
+    },
+    {
+      "id": "netease-track:254253",
+      "neteaseTrackId": "254253",
+      "title": "24楼",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "杨坤"
+      ],
+      "durationMs": 264813
+    },
+    {
+      "id": "netease-track:254257",
+      "neteaseTrackId": "254257",
+      "title": "只怪我自己",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 220987
+    },
+    {
+      "id": "netease-track:254259",
+      "neteaseTrackId": "254259",
+      "title": "别人",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 225093
+    },
+    {
+      "id": "netease-track:254262",
+      "neteaseTrackId": "254262",
+      "title": "一万遍",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 265534
+    },
+    {
+      "id": "netease-track:254263",
+      "neteaseTrackId": "254263",
+      "title": "越爱越美丽",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 215146
+    },
+    {
+      "id": "netease-track:254264",
+      "neteaseTrackId": "254264",
+      "title": "不怕死",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 246734
+    },
+    {
+      "id": "netease-track:254267",
+      "neteaseTrackId": "254267",
+      "title": "飞行中的思念",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 299133
+    },
+    {
+      "id": "netease-track:254269",
+      "neteaseTrackId": "254269",
+      "title": "待续",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 20280
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=25403",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "一整夜 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:19014",
+  "id": "album:19014",
+  "neteaseAlbumId": "19014",
+  "slug": "netease-album-19014",
+  "title": "陪你倒数",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1999-10-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19014.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19014.webp",
+    "alt": "《陪你倒数》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187560",
+      "neteaseTrackId": "187560",
+      "title": "梦死醉生",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 250960
+    },
+    {
+      "id": "netease-track:187564",
+      "neteaseTrackId": "187564",
+      "title": "左右手",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 258200
+    },
+    {
+      "id": "netease-track:187568",
+      "neteaseTrackId": "187568",
+      "title": "春夏秋冬",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248800
+    },
+    {
+      "id": "netease-track:187572",
+      "neteaseTrackId": "187572",
+      "title": "寂寞有害",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 276040
+    },
+    {
+      "id": "netease-track:187575",
+      "neteaseTrackId": "187575",
+      "title": "心跳呼吸正常",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268026
+    },
+    {
+      "id": "netease-track:187579",
+      "neteaseTrackId": "187579",
+      "title": "小明星",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 191373
+    },
+    {
+      "id": "netease-track:187583",
+      "neteaseTrackId": "187583",
+      "title": "同道中人",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 219160
+    },
+    {
+      "id": "netease-track:187588",
+      "neteaseTrackId": "187588",
+      "title": "不要爱他",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 212466
+    },
+    {
+      "id": "netease-track:187592",
+      "neteaseTrackId": "187592",
+      "title": "陪你倒数",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 264506
+    },
+    {
+      "id": "netease-track:187596",
+      "neteaseTrackId": "187596",
+      "title": "你是明星",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 193533
+    },
+    {
+      "id": "netease-track:187600",
+      "neteaseTrackId": "187600",
+      "title": "全世界只想你来爱我",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 257226
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=19014",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "陪你倒数 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

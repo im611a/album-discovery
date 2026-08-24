@@ -1,0 +1,120 @@
+{
+  "internalId": "album:6375",
+  "id": "album:6375",
+  "neteaseAlbumId": "6375",
+  "slug": "time-flies",
+  "title": "Time Flies",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2010-03-11",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6375.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6375.webp",
+    "alt": "《Time Flies》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:64625",
+      "neteaseTrackId": "64625",
+      "title": "无人之境",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 221173
+    },
+    {
+      "id": "netease-track:64630",
+      "neteaseTrackId": "64630",
+      "title": "大人",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 188000
+    },
+    {
+      "id": "netease-track:64634",
+      "neteaseTrackId": "64634",
+      "title": "一丝不挂",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 242280
+    },
+    {
+      "id": "netease-track:64638",
+      "neteaseTrackId": "64638",
+      "title": "陀飞轮",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 278198
+    },
+    {
+      "id": "netease-track:64643",
+      "neteaseTrackId": "64643",
+      "title": "心腹",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 203000
+    },
+    {
+      "id": "netease-track:64648",
+      "neteaseTrackId": "64648",
+      "title": "味之素",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 200000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=6375",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Time Flies 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

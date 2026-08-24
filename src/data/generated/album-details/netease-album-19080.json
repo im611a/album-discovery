@@ -1,0 +1,124 @@
+{
+  "internalId": "album:19080",
+  "id": "album:19080",
+  "neteaseAlbumId": "19080",
+  "slug": "netease-album-19080",
+  "title": "乞嗤爸爸(全集加原声大碟)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6460",
+      "neteaseArtistId": "6460",
+      "name": "张学友"
+    },
+    {
+      "id": "netease-artist:7262",
+      "neteaseArtistId": "7262",
+      "name": "陈慧珊"
+    },
+    {
+      "id": "netease-artist:2531",
+      "neteaseArtistId": "2531",
+      "name": "邓健泓"
+    },
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2001-09-20",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "新艺宝",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19080.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19080.webp",
+    "alt": "《乞嗤爸爸(全集加原声大碟)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188469",
+      "neteaseTrackId": "188469",
+      "title": "有病呻吟剧场版1",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 203000
+    },
+    {
+      "id": "netease-track:188472",
+      "neteaseTrackId": "188472",
+      "title": "有病呻吟剧场版2",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:188475",
+      "neteaseTrackId": "188475",
+      "title": "迷信",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈慧珊"
+      ],
+      "durationMs": 292733
+    },
+    {
+      "id": "netease-track:188479",
+      "neteaseTrackId": "188479",
+      "title": "卫斯理之恋",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "邓健泓"
+      ],
+      "durationMs": 246173
+    },
+    {
+      "id": "netease-track:188483",
+      "neteaseTrackId": "188483",
+      "title": "约定",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 267093
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=19080",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "乞嗤爸爸(全集加原声大碟) 张学友 陈慧珊 邓健泓 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

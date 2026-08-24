@@ -1,0 +1,197 @@
+{
+  "internalId": "album:432652",
+  "id": "album:432652",
+  "neteaseAlbumId": "432652",
+  "slug": "pygmalion-demos-bootleg",
+  "title": "Pygmalion Demos[Bootleg]",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "name": "Slowdive"
+    }
+  ],
+  "releaseDate": "1994-08-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432652.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432652.webp",
+    "alt": "《Pygmalion Demos[Bootleg]》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4281339",
+      "neteaseTrackId": "4281339",
+      "title": "Miranda (Love Me)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 229000
+    },
+    {
+      "id": "netease-track:4281344",
+      "neteaseTrackId": "4281344",
+      "title": "Watch Me",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 229386
+    },
+    {
+      "id": "netease-track:4281349",
+      "neteaseTrackId": "4281349",
+      "title": "Yesterday",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 264186
+    },
+    {
+      "id": "netease-track:4281354",
+      "neteaseTrackId": "4281354",
+      "title": "To Watch",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 355985
+    },
+    {
+      "id": "netease-track:4281356",
+      "neteaseTrackId": "4281356",
+      "title": "Option One",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 234173
+    },
+    {
+      "id": "netease-track:4281359",
+      "neteaseTrackId": "4281359",
+      "title": "Crazy For You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 280706
+    },
+    {
+      "id": "netease-track:4281362",
+      "neteaseTrackId": "4281362",
+      "title": "Sinewaves",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 315814
+    },
+    {
+      "id": "netease-track:4281365",
+      "neteaseTrackId": "4281365",
+      "title": "Prautrock",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 308000
+    },
+    {
+      "id": "netease-track:4281372",
+      "neteaseTrackId": "4281372",
+      "title": "Ambient Guitar",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 350667
+    },
+    {
+      "id": "netease-track:4281376",
+      "neteaseTrackId": "4281376",
+      "title": "Red 5",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 367000
+    },
+    {
+      "id": "netease-track:4281380",
+      "neteaseTrackId": "4281380",
+      "title": "Cargo",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 267000
+    },
+    {
+      "id": "netease-track:4281382",
+      "neteaseTrackId": "4281382",
+      "title": "Changes",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 294000
+    },
+    {
+      "id": "netease-track:4281386",
+      "neteaseTrackId": "4281386",
+      "title": "On the Horizon",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 294000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=432652",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Pygmalion Demos[Bootleg] Slowdive",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

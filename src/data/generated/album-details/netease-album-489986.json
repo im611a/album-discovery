@@ -1,0 +1,270 @@
+{
+  "internalId": "album:489986",
+  "id": "album:489986",
+  "neteaseAlbumId": "489986",
+  "slug": "netease-album-489986",
+  "title": "求婚事务所 电视原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:122455",
+      "neteaseArtistId": "122455",
+      "name": "群星"
+    },
+    {
+      "id": "netease-artist:3617",
+      "neteaseArtistId": "3617",
+      "name": "柯有伦"
+    },
+    {
+      "id": "netease-artist:7219",
+      "neteaseArtistId": "7219",
+      "name": "蔡依林"
+    },
+    {
+      "id": "netease-artist:74613",
+      "neteaseArtistId": "74613",
+      "name": "Sophie Zelmani"
+    },
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    },
+    {
+      "id": "netease-artist:6453",
+      "neteaseArtistId": "6453",
+      "name": "张震岳"
+    },
+    {
+      "id": "netease-artist:5354",
+      "neteaseArtistId": "5354",
+      "name": "伍佰"
+    },
+    {
+      "id": "netease-artist:160729",
+      "neteaseArtistId": "160729",
+      "name": "中島美嘉"
+    },
+    {
+      "id": "netease-artist:18886",
+      "neteaseArtistId": "18886",
+      "name": "CHEMISTRY"
+    }
+  ],
+  "releaseDate": "2004-05-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/489986.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/489986.webp",
+    "alt": "《求婚事务所 电视原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4876201",
+      "neteaseTrackId": "4876201",
+      "title": "Wake Up",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "柯有伦"
+      ],
+      "durationMs": 303680
+    },
+    {
+      "id": "netease-track:4876202",
+      "neteaseTrackId": "4876202",
+      "title": "倒带",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡依林"
+      ],
+      "durationMs": 266147
+    },
+    {
+      "id": "netease-track:4876203",
+      "neteaseTrackId": "4876203",
+      "title": "Going Home",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Sophie Zelmani"
+      ],
+      "durationMs": 250480
+    },
+    {
+      "id": "netease-track:4876204",
+      "neteaseTrackId": "4876204",
+      "title": "If",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 244680
+    },
+    {
+      "id": "netease-track:4876205",
+      "neteaseTrackId": "4876205",
+      "title": "想太多",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张震岳"
+      ],
+      "durationMs": 302550
+    },
+    {
+      "id": "netease-track:4876206",
+      "neteaseTrackId": "4876206",
+      "title": "晚风",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "伍佰"
+      ],
+      "durationMs": 225493
+    },
+    {
+      "id": "netease-track:4876207",
+      "neteaseTrackId": "4876207",
+      "title": "我明白他",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 250612
+    },
+    {
+      "id": "netease-track:4876208",
+      "neteaseTrackId": "4876208",
+      "title": "After The Rain",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "The Uncoloured"
+      ],
+      "durationMs": 321013
+    },
+    {
+      "id": "netease-track:4876209",
+      "neteaseTrackId": "4876209",
+      "title": "雪の華",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "中島美嘉"
+      ],
+      "durationMs": 341973
+    },
+    {
+      "id": "netease-track:4876210",
+      "neteaseTrackId": "4876210",
+      "title": "梦想起飞(Point Of No Return)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "CHEMISTRY"
+      ],
+      "durationMs": 331720
+    },
+    {
+      "id": "netease-track:4876211",
+      "neteaseTrackId": "4876211",
+      "title": "爱的箴言",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "纽承泽"
+      ],
+      "durationMs": 254773
+    },
+    {
+      "id": "netease-track:4876212",
+      "neteaseTrackId": "4876212",
+      "title": "夏夜晚风",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "伍佰"
+      ],
+      "durationMs": 213733
+    },
+    {
+      "id": "netease-track:4876213",
+      "neteaseTrackId": "4876213",
+      "title": "主题慢版",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 138720
+    },
+    {
+      "id": "netease-track:4876214",
+      "neteaseTrackId": "4876214",
+      "title": "主题中快版",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 145360
+    },
+    {
+      "id": "netease-track:4876215",
+      "neteaseTrackId": "4876215",
+      "title": "爱情慢板",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 158080
+    },
+    {
+      "id": "netease-track:4876216",
+      "neteaseTrackId": "4876216",
+      "title": "倒带(钢琴弦乐版)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 326746
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=489986",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "求婚事务所 电视原声带 群星 柯有伦 蔡依林 Sophie Zelmani 莫文蔚 张震岳 伍佰 中島美嘉 CHEMISTRY",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

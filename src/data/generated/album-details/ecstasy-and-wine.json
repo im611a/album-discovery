@@ -1,0 +1,120 @@
+{
+  "internalId": "album:422063",
+  "id": "album:422063",
+  "neteaseAlbumId": "422063",
+  "slug": "ecstasy-and-wine",
+  "title": "Ecstasy And Wine",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:96273",
+      "neteaseArtistId": "96273",
+      "name": "My Bloody Valentine"
+    }
+  ],
+  "releaseDate": "1988-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/422063.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/422063.webp",
+    "alt": "《Ecstasy And Wine》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4174218",
+      "neteaseTrackId": "4174218",
+      "title": "Never Say Goodbye",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 152053
+    },
+    {
+      "id": "netease-track:4174225",
+      "neteaseTrackId": "4174225",
+      "title": "The Things I Miss",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 176146
+    },
+    {
+      "id": "netease-track:4174227",
+      "neteaseTrackId": "4174227",
+      "title": "I Don't Need You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 187133
+    },
+    {
+      "id": "netease-track:4174230",
+      "neteaseTrackId": "4174230",
+      "title": "Safe In Your Sleep",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 151000
+    },
+    {
+      "id": "netease-track:4174235",
+      "neteaseTrackId": "4174235",
+      "title": "You Got Nothing",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 221373
+    },
+    {
+      "id": "netease-track:4174237",
+      "neteaseTrackId": "4174237",
+      "title": "Lose Yourself In Me",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "My Bloody Valentine"
+      ],
+      "durationMs": 206000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=422063",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ecstasy And Wine My Bloody Valentine",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

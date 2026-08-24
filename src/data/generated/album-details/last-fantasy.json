@@ -1,0 +1,204 @@
+{
+  "internalId": "album:522651",
+  "id": "album:522651",
+  "neteaseAlbumId": "522651",
+  "slug": "last-fantasy",
+  "title": "Last Fantasy",
+  "aliases": [
+    "最终幻想"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:160947",
+      "neteaseArtistId": "160947",
+      "name": "IU"
+    }
+  ],
+  "releaseDate": "2011-11-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Kakao Entertainment Corp.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/522651.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/522651.webp",
+    "alt": "《Last Fantasy》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5346669",
+      "neteaseTrackId": "5346669",
+      "title": "비밀",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 246773
+    },
+    {
+      "id": "netease-track:5346670",
+      "neteaseTrackId": "5346670",
+      "title": "잠자는 숲 속의 남자",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "尹尚"
+      ],
+      "durationMs": 216760
+    },
+    {
+      "id": "netease-track:5346671",
+      "neteaseTrackId": "5346671",
+      "title": "별을 찾는 아이",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "金光振"
+      ],
+      "durationMs": 240346
+    },
+    {
+      "id": "netease-track:5346672",
+      "neteaseTrackId": "5346672",
+      "title": "너랑 나",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 241840
+    },
+    {
+      "id": "netease-track:5346673",
+      "neteaseTrackId": "5346673",
+      "title": "벽지무늬",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 222866
+    },
+    {
+      "id": "netease-track:5346674",
+      "neteaseTrackId": "5346674",
+      "title": "삼촌",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "李笛"
+      ],
+      "durationMs": 206400
+    },
+    {
+      "id": "netease-track:5346675",
+      "neteaseTrackId": "5346675",
+      "title": "사랑니",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 215333
+    },
+    {
+      "id": "netease-track:5346676",
+      "neteaseTrackId": "5346676",
+      "title": "Everything's Alright",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "金贤哲"
+      ],
+      "durationMs": 215213
+    },
+    {
+      "id": "netease-track:5346677",
+      "neteaseTrackId": "5346677",
+      "title": "Last Fantasy",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 369706
+    },
+    {
+      "id": "netease-track:5346678",
+      "neteaseTrackId": "5346678",
+      "title": "Teacher",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "IU",
+        "Ra.D"
+      ],
+      "durationMs": 243240
+    },
+    {
+      "id": "netease-track:5346679",
+      "neteaseTrackId": "5346679",
+      "title": "길 잃은 강아지",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 196066
+    },
+    {
+      "id": "netease-track:5346680",
+      "neteaseTrackId": "5346680",
+      "title": "4AM",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 183986
+    },
+    {
+      "id": "netease-track:5346681",
+      "neteaseTrackId": "5346681",
+      "title": "라망 (The Lover)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 352933
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=522651",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Last Fantasy 最终幻想 IU",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

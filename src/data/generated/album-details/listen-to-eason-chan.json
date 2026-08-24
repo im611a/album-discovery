@@ -1,0 +1,275 @@
+{
+  "internalId": "album:6429",
+  "id": "album:6429",
+  "neteaseAlbumId": "6429",
+  "slug": "listen-to-eason-chan",
+  "title": "Listen to Eason Chan",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2007-10-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6429.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6429.webp",
+    "alt": "《Listen to Eason Chan》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:65449",
+      "neteaseTrackId": "65449",
+      "title": "玛利奥派对",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 206840
+    },
+    {
+      "id": "netease-track:65452",
+      "neteaseTrackId": "65452",
+      "title": "热岛小夜曲",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 245520
+    },
+    {
+      "id": "netease-track:65455",
+      "neteaseTrackId": "65455",
+      "title": "闪",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 222493
+    },
+    {
+      "id": "netease-track:65459",
+      "neteaseTrackId": "65459",
+      "title": "演唱会",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 156000
+    },
+    {
+      "id": "netease-track:65463",
+      "neteaseTrackId": "65463",
+      "title": "滑铁卢车站",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:65467",
+      "neteaseTrackId": "65467",
+      "title": "Crying In The Party",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:65471",
+      "neteaseTrackId": "65471",
+      "title": "狂热革命",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 225163
+    },
+    {
+      "id": "netease-track:65475",
+      "neteaseTrackId": "65475",
+      "title": "变色龙",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 226600
+    },
+    {
+      "id": "netease-track:65478",
+      "neteaseTrackId": "65478",
+      "title": "时代巨轮",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 218506
+    },
+    {
+      "id": "netease-track:65483",
+      "neteaseTrackId": "65483",
+      "title": "乜嘢啫",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 219986
+    },
+    {
+      "id": "netease-track:65487",
+      "neteaseTrackId": "65487",
+      "title": "兄弟",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "刘德华"
+      ],
+      "durationMs": 247173
+    },
+    {
+      "id": "netease-track:65494",
+      "neteaseTrackId": "65494",
+      "title": "热岛小夜曲 (Wideboys Club Mix)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 347000
+    },
+    {
+      "id": "netease-track:65496",
+      "neteaseTrackId": "65496",
+      "title": "闪 (Digital Dog Remix)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 354466
+    },
+    {
+      "id": "netease-track:65498",
+      "neteaseTrackId": "65498",
+      "title": "演唱会 (Junior Rotter Remix)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 265826
+    },
+    {
+      "id": "netease-track:65500",
+      "neteaseTrackId": "65500",
+      "title": "滑铁卢车站 (Wideboys Club Mix)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 346813
+    },
+    {
+      "id": "netease-track:65503",
+      "neteaseTrackId": "65503",
+      "title": "Crying In The Party (Soul Seekerz Remix)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 500693
+    },
+    {
+      "id": "netease-track:65506",
+      "neteaseTrackId": "65506",
+      "title": "狂热革命 (Junior Rotter Remix)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 282493
+    },
+    {
+      "id": "netease-track:65509",
+      "neteaseTrackId": "65509",
+      "title": "变色龙 (Section Remix)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 321573
+    },
+    {
+      "id": "netease-track:65513",
+      "neteaseTrackId": "65513",
+      "title": "时代巨轮 (Digital Dog Remix)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 345002
+    },
+    {
+      "id": "netease-track:65516",
+      "neteaseTrackId": "65516",
+      "title": "乜嘢啫 (Section Remix)",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 238213
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=6429",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Listen to Eason Chan 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

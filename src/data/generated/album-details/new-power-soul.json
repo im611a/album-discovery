@@ -1,0 +1,182 @@
+{
+  "internalId": "album:184235",
+  "id": "album:184235",
+  "neteaseAlbumId": "184235",
+  "slug": "new-power-soul",
+  "title": "New Power Soul",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    },
+    {
+      "id": "netease-artist:72352",
+      "neteaseArtistId": "72352",
+      "name": "The New Power Generation"
+    }
+  ],
+  "releaseDate": "1998-06-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184235.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184235.webp",
+    "alt": "《New Power Soul》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1823116",
+      "neteaseTrackId": "1823116",
+      "title": "New Power Soul",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 301733
+    },
+    {
+      "id": "netease-track:1823121",
+      "neteaseTrackId": "1823121",
+      "title": "Mad ***",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 313226
+    },
+    {
+      "id": "netease-track:1823126",
+      "neteaseTrackId": "1823126",
+      "title": "Until U're in My Arms Again",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 287773
+    },
+    {
+      "id": "netease-track:1823130",
+      "neteaseTrackId": "1823130",
+      "title": "When You Love Somebody",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 356626
+    },
+    {
+      "id": "netease-track:1823135",
+      "neteaseTrackId": "1823135",
+      "title": "Shoo-Bed-Ooh",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 204333
+    },
+    {
+      "id": "netease-track:1823141",
+      "neteaseTrackId": "1823141",
+      "title": "Push It Up",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "Doug E. Fresh"
+      ],
+      "durationMs": 328933
+    },
+    {
+      "id": "netease-track:1823146",
+      "neteaseTrackId": "1823146",
+      "title": "Freaks on This Side",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 342973
+    },
+    {
+      "id": "netease-track:1823151",
+      "neteaseTrackId": "1823151",
+      "title": "Come On",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 359533
+    },
+    {
+      "id": "netease-track:1823157",
+      "neteaseTrackId": "1823157",
+      "title": "The One",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 425133
+    },
+    {
+      "id": "netease-track:1823161",
+      "neteaseTrackId": "1823161",
+      "title": "I Like Funky Music",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "Doug E.Fresh"
+      ],
+      "durationMs": 272266
+    },
+    {
+      "id": "netease-track:1823164",
+      "neteaseTrackId": "1823164",
+      "title": "Wasted Kisses(hidden track)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 180066
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=184235",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "New Power Soul Prince The New Power Generation",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

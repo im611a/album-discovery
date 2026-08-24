@@ -1,0 +1,219 @@
+{
+  "internalId": "album:10803",
+  "id": "album:10803",
+  "neteaseAlbumId": "10803",
+  "slug": "netease-album-10803",
+  "title": "思生活",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2007-02-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10803.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10803.webp",
+    "alt": "《思生活》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108894",
+      "neteaseTrackId": "108894",
+      "title": "私生活 - 紐約",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 145392
+    },
+    {
+      "id": "netease-track:108898",
+      "neteaseTrackId": "108898",
+      "title": "廚房",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 188520
+    },
+    {
+      "id": "netease-track:108903",
+      "neteaseTrackId": "108903",
+      "title": "與你共枕",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 218506
+    },
+    {
+      "id": "netease-track:108907",
+      "neteaseTrackId": "108907",
+      "title": "公路, 塵埃, 四合院",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 207528
+    },
+    {
+      "id": "netease-track:108911",
+      "neteaseTrackId": "108911",
+      "title": "公司裏的愛琴海",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 79493
+    },
+    {
+      "id": "netease-track:108915",
+      "neteaseTrackId": "108915",
+      "title": "有一種朋友",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 187536
+    },
+    {
+      "id": "netease-track:108919",
+      "neteaseTrackId": "108919",
+      "title": "晚睡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 177173
+    },
+    {
+      "id": "netease-track:108922",
+      "neteaseTrackId": "108922",
+      "title": "魔鬼與我同生",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 256872
+    },
+    {
+      "id": "netease-track:108924",
+      "neteaseTrackId": "108924",
+      "title": "煙圈和肥皂泡",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 212544
+    },
+    {
+      "id": "netease-track:108926",
+      "neteaseTrackId": "108926",
+      "title": "燃",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 256536
+    },
+    {
+      "id": "netease-track:108928",
+      "neteaseTrackId": "108928",
+      "title": "曼克頓的最後一夜",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 92544
+    },
+    {
+      "id": "netease-track:108932",
+      "neteaseTrackId": "108932",
+      "title": "與陌生人喝酒",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 244032
+    },
+    {
+      "id": "netease-track:108936",
+      "neteaseTrackId": "108936",
+      "title": "兩支牙刷",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 169032
+    },
+    {
+      "id": "netease-track:108940",
+      "neteaseTrackId": "108940",
+      "title": "私生活 - 慕尼黑",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 175032
+    },
+    {
+      "id": "netease-track:108944",
+      "neteaseTrackId": "108944",
+      "title": "留下腳印, 帶走回憶",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 209712
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=10803",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "思生活 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "internalId": "album:151341",
+  "id": "album:151341",
+  "neteaseAlbumId": "151341",
+  "slug": "alright",
+  "title": "Alright",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1990-03-03",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151341.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151341.webp",
+    "alt": "《Alright》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480777",
+      "neteaseTrackId": "1480777",
+      "title": "Alright (7\" House Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 263733
+    },
+    {
+      "id": "netease-track:1480782",
+      "neteaseTrackId": "1480782",
+      "title": "Alright (Hip Hop Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Heavy D"
+      ],
+      "durationMs": 313960
+    },
+    {
+      "id": "netease-track:1480787",
+      "neteaseTrackId": "1480787",
+      "title": "Alright (House Mix UK edit)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 305000
+    },
+    {
+      "id": "netease-track:1480792",
+      "neteaseTrackId": "1480792",
+      "title": "Vuelve A Mi (Come Back To Me)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 314800
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=151341",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Alright Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

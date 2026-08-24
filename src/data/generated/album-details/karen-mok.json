@@ -1,0 +1,109 @@
+{
+  "internalId": "album:27564",
+  "id": "album:27564",
+  "neteaseAlbumId": "27564",
+  "slug": "karen-mok",
+  "title": "Karen Mok",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2000-07-06",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27564.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27564.webp",
+    "alt": "《Karen Mok》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277643",
+      "neteaseTrackId": "277643",
+      "title": "A Brand New Day",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 236797
+    },
+    {
+      "id": "netease-track:277646",
+      "neteaseTrackId": "277646",
+      "title": "北极光",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 249338
+    },
+    {
+      "id": "netease-track:277648",
+      "neteaseTrackId": "277648",
+      "title": "水色",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 174533
+    },
+    {
+      "id": "netease-track:277649",
+      "neteaseTrackId": "277649",
+      "title": "吸烟不吸烟",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 218506
+    },
+    {
+      "id": "netease-track:277650",
+      "neteaseTrackId": "277650",
+      "title": "妇女新知",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 336400
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=27564",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Karen Mok 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "internalId": "album:18908",
+  "id": "album:18908",
+  "neteaseAlbumId": "18908",
+  "slug": "netease-album-18908",
+  "title": "初",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "2010-09-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18908.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18908.webp",
+    "alt": "《初》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186050",
+      "neteaseTrackId": "186050",
+      "title": "当时",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 290822
+    },
+    {
+      "id": "netease-track:186052",
+      "neteaseTrackId": "186052",
+      "title": "悲伤的嗜好",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 278309
+    },
+    {
+      "id": "netease-track:186054",
+      "neteaseTrackId": "186054",
+      "title": "空位",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 297091
+    },
+    {
+      "id": "netease-track:186056",
+      "neteaseTrackId": "186056",
+      "title": "好像爱情",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 281548
+    },
+    {
+      "id": "netease-track:186058",
+      "neteaseTrackId": "186058",
+      "title": "爱不危险",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 230740
+    },
+    {
+      "id": "netease-track:186060",
+      "neteaseTrackId": "186060",
+      "title": "我看见",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 266815
+    },
+    {
+      "id": "netease-track:186061",
+      "neteaseTrackId": "186061",
+      "title": "幸福的力量",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "Olivia Ong"
+      ],
+      "durationMs": 246048
+    },
+    {
+      "id": "netease-track:186062",
+      "neteaseTrackId": "186062",
+      "title": "别说",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 323762
+    },
+    {
+      "id": "netease-track:186063",
+      "neteaseTrackId": "186063",
+      "title": "最初",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 267860
+    },
+    {
+      "id": "netease-track:186066",
+      "neteaseTrackId": "186066",
+      "title": "冷太阳",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 274182
+    },
+    {
+      "id": "netease-track:186069",
+      "neteaseTrackId": "186069",
+      "title": "肩膀",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 436324
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18908",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "初 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

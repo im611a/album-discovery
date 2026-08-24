@@ -1,0 +1,109 @@
+{
+  "internalId": "album:172445",
+  "id": "album:172445",
+  "neteaseAlbumId": "172445",
+  "slug": "on-green-dolphin-street",
+  "title": "On Green Dolphin Street",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1999-03-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172445.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172445.webp",
+    "alt": "《On Green Dolphin Street》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1700696",
+      "neteaseTrackId": "1700696",
+      "title": "So What",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 648000
+    },
+    {
+      "id": "netease-track:1700700",
+      "neteaseTrackId": "1700700",
+      "title": "On Green Dolphin Street",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 815751
+    },
+    {
+      "id": "netease-track:1700704",
+      "neteaseTrackId": "1700704",
+      "title": "All Blues/The Theme",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1031000
+    },
+    {
+      "id": "netease-track:1700709",
+      "neteaseTrackId": "1700709",
+      "title": "On Green Dolphin Street",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 722000
+    },
+    {
+      "id": "netease-track:1700712",
+      "neteaseTrackId": "1700712",
+      "title": "So What",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 648000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=172445",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "On Green Dolphin Street Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

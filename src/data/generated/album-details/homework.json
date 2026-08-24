@@ -1,0 +1,230 @@
+{
+  "internalId": "album:1609276",
+  "id": "album:1609276",
+  "neteaseAlbumId": "1609276",
+  "slug": "homework",
+  "title": "Homework",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:90513",
+      "neteaseArtistId": "90513",
+      "name": "Daft Punk"
+    }
+  ],
+  "releaseDate": "1997-01-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1609276.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1609276.webp",
+    "alt": "《Homework》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17455784",
+      "neteaseTrackId": "17455784",
+      "title": "Daftendirekt",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 164629
+    },
+    {
+      "id": "netease-track:17455785",
+      "neteaseTrackId": "17455785",
+      "title": "WDPK 83.7 FM",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 28333
+    },
+    {
+      "id": "netease-track:17455786",
+      "neteaseTrackId": "17455786",
+      "title": "Revolution 909",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 335087
+    },
+    {
+      "id": "netease-track:17455787",
+      "neteaseTrackId": "17455787",
+      "title": "Da Funk",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 328680
+    },
+    {
+      "id": "netease-track:17455788",
+      "neteaseTrackId": "17455788",
+      "title": "Phœnix",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 297106
+    },
+    {
+      "id": "netease-track:17455789",
+      "neteaseTrackId": "17455789",
+      "title": "Fresh",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 244459
+    },
+    {
+      "id": "netease-track:17455790",
+      "neteaseTrackId": "17455790",
+      "title": "Around the World",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 429533
+    },
+    {
+      "id": "netease-track:17455791",
+      "neteaseTrackId": "17455791",
+      "title": "Rollin' & Scratchin'",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 448626
+    },
+    {
+      "id": "netease-track:17455792",
+      "neteaseTrackId": "17455792",
+      "title": "Teachers",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 173545
+    },
+    {
+      "id": "netease-track:17455793",
+      "neteaseTrackId": "17455793",
+      "title": "High Fidelity",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 362466
+    },
+    {
+      "id": "netease-track:17455794",
+      "neteaseTrackId": "17455794",
+      "title": "Rock'n Roll",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 453926
+    },
+    {
+      "id": "netease-track:17455795",
+      "neteaseTrackId": "17455795",
+      "title": "Oh Yeah",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 121200
+    },
+    {
+      "id": "netease-track:17455796",
+      "neteaseTrackId": "17455796",
+      "title": "Burnin'",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 414173
+    },
+    {
+      "id": "netease-track:17455797",
+      "neteaseTrackId": "17455797",
+      "title": "Indo Silver Club",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 274733
+    },
+    {
+      "id": "netease-track:17455798",
+      "neteaseTrackId": "17455798",
+      "title": "Alive",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 316253
+    },
+    {
+      "id": "netease-track:17455799",
+      "neteaseTrackId": "17455799",
+      "title": "Funk Ad",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 51400
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=1609276",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Homework Daft Punk",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

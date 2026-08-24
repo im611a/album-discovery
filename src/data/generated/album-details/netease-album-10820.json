@@ -1,0 +1,153 @@
+{
+  "internalId": "album:10820",
+  "id": "album:10820",
+  "neteaseAlbumId": "10820",
+  "slug": "netease-album-10820",
+  "title": "好玖",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3689",
+      "neteaseArtistId": "3689",
+      "name": "李玖哲"
+    }
+  ],
+  "releaseDate": "2010-09-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10820.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10820.webp",
+    "alt": "《好玖》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109117",
+      "neteaseTrackId": "109117",
+      "title": "Right Here Waiting",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 263209
+    },
+    {
+      "id": "netease-track:109121",
+      "neteaseTrackId": "109121",
+      "title": "不爱了",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 291056
+    },
+    {
+      "id": "netease-track:109125",
+      "neteaseTrackId": "109125",
+      "title": "夏天",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 226222
+    },
+    {
+      "id": "netease-track:109129",
+      "neteaseTrackId": "109129",
+      "title": "最后的那一天",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 233482
+    },
+    {
+      "id": "netease-track:109133",
+      "neteaseTrackId": "109133",
+      "title": "称谓",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 241606
+    },
+    {
+      "id": "netease-track:109136",
+      "neteaseTrackId": "109136",
+      "title": "No More Cryin'",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 232254
+    },
+    {
+      "id": "netease-track:109139",
+      "neteaseTrackId": "109139",
+      "title": "不一样",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 213420
+    },
+    {
+      "id": "netease-track:109142",
+      "neteaseTrackId": "109142",
+      "title": "他不够爱你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 270367
+    },
+    {
+      "id": "netease-track:109146",
+      "neteaseTrackId": "109146",
+      "title": "Making Love Out Of Nothing At All",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 321175
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=10820",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "好玖 李玖哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

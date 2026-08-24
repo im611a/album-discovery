@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1540810",
+  "id": "album:1540810",
+  "neteaseAlbumId": "1540810",
+  "slug": "hear-no-evil",
+  "title": "Hear No Evil",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2006-06-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Metastation",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540810.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540810.webp",
+    "alt": "《Hear No Evil》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16714980",
+      "neteaseTrackId": "16714980",
+      "title": "Lost Roads",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 446667
+    },
+    {
+      "id": "netease-track:16714981",
+      "neteaseTrackId": "16714981",
+      "title": "Bullet Hole Memory",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 434000
+    },
+    {
+      "id": "netease-track:16714982",
+      "neteaseTrackId": "16714982",
+      "title": "Illinois Central",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 421000
+    },
+    {
+      "id": "netease-track:16714983",
+      "neteaseTrackId": "16714983",
+      "title": "Assassin",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 385000
+    },
+    {
+      "id": "netease-track:16714984",
+      "neteaseTrackId": "16714984",
+      "title": "Stations Of The Cross",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 452597
+    },
+    {
+      "id": "netease-track:16714985",
+      "neteaseTrackId": "16714985",
+      "title": "Kingdom Come",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 456176
+    },
+    {
+      "id": "netease-track:16714986",
+      "neteaseTrackId": "16714986",
+      "title": "Lost Roads Orchestral Site",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 1087000
+    },
+    {
+      "id": "netease-track:16714987",
+      "neteaseTrackId": "16714987",
+      "title": "Kingdom Come Ambient Site",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 1587000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1540810",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Hear No Evil Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

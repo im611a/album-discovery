@@ -1,0 +1,208 @@
+{
+  "internalId": "album:1720835",
+  "id": "album:1720835",
+  "neteaseAlbumId": "1720835",
+  "slug": "hail-to-the-thief",
+  "title": "Hail To the Thief",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "2003-06-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "XL Recordings",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1720835.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1720835.webp",
+    "alt": "《Hail To the Thief》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18795374",
+      "neteaseTrackId": "18795374",
+      "title": "2 + 2 = 5",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:18795375",
+      "neteaseTrackId": "18795375",
+      "title": "Sit Down. Stand Up",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 259000
+    },
+    {
+      "id": "netease-track:18795376",
+      "neteaseTrackId": "18795376",
+      "title": "Sail To The Moon",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 258000
+    },
+    {
+      "id": "netease-track:18795377",
+      "neteaseTrackId": "18795377",
+      "title": "Backdrifts",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 322000
+    },
+    {
+      "id": "netease-track:18795378",
+      "neteaseTrackId": "18795378",
+      "title": "Go To Sleep",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 201572
+    },
+    {
+      "id": "netease-track:18795379",
+      "neteaseTrackId": "18795379",
+      "title": "Where I End and You Begin",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:18795380",
+      "neteaseTrackId": "18795380",
+      "title": "We Suck Young Blood",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 296000
+    },
+    {
+      "id": "netease-track:18795381",
+      "neteaseTrackId": "18795381",
+      "title": "The Gloaming",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:18795382",
+      "neteaseTrackId": "18795382",
+      "title": "There, There",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 323000
+    },
+    {
+      "id": "netease-track:18795383",
+      "neteaseTrackId": "18795383",
+      "title": "I Will",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 119000
+    },
+    {
+      "id": "netease-track:18795384",
+      "neteaseTrackId": "18795384",
+      "title": "A Punch Up at a Wedding",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 297000
+    },
+    {
+      "id": "netease-track:18795385",
+      "neteaseTrackId": "18795385",
+      "title": "Myxomatosis",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 232000
+    },
+    {
+      "id": "netease-track:18795386",
+      "neteaseTrackId": "18795386",
+      "title": "Scatterbrain",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 201000
+    },
+    {
+      "id": "netease-track:18795387",
+      "neteaseTrackId": "18795387",
+      "title": "A Wolf At the Door",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 201000
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=1720835",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Hail To the Thief Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

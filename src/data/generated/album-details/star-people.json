@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1970651",
+  "id": "album:1970651",
+  "neteaseAlbumId": "1970651",
+  "slug": "star-people",
+  "title": "Star People",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1982-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970651.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970651.webp",
+    "alt": "《Star People》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341588",
+      "neteaseTrackId": "21341588",
+      "title": "Come Get It (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 678626
+    },
+    {
+      "id": "netease-track:21341589",
+      "neteaseTrackId": "21341589",
+      "title": "It Gets Better (Album Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 589670
+    },
+    {
+      "id": "netease-track:21341590",
+      "neteaseTrackId": "21341590",
+      "title": "Speak (Album Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 506697
+    },
+    {
+      "id": "netease-track:21341591",
+      "neteaseTrackId": "21341591",
+      "title": "Star People (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1122800
+    },
+    {
+      "id": "netease-track:21341592",
+      "neteaseTrackId": "21341592",
+      "title": "U 'n' l (Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 353152
+    },
+    {
+      "id": "netease-track:21341593",
+      "neteaseTrackId": "21341593",
+      "title": "Star on Cicely (Album Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 266170
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970651",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Star People Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

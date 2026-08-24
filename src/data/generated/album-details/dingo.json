@@ -1,0 +1,230 @@
+{
+  "internalId": "album:172516",
+  "id": "album:172516",
+  "neteaseAlbumId": "172516",
+  "slug": "dingo",
+  "title": "Dingo",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2005-12-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172516.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172516.webp",
+    "alt": "《Dingo》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1701564",
+      "neteaseTrackId": "1701564",
+      "title": "Kimberley Trumpet",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 161200
+    },
+    {
+      "id": "netease-track:1701570",
+      "neteaseTrackId": "1701570",
+      "title": "The Arrival",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 127133
+    },
+    {
+      "id": "netease-track:1701576",
+      "neteaseTrackId": "1701576",
+      "title": "Concert On The Runway",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 253533
+    },
+    {
+      "id": "netease-track:1701582",
+      "neteaseTrackId": "1701582",
+      "title": "The Departure",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 118733
+    },
+    {
+      "id": "netease-track:1701588",
+      "neteaseTrackId": "1701588",
+      "title": "Dingo Howl",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 44266
+    },
+    {
+      "id": "netease-track:1701592",
+      "neteaseTrackId": "1701592",
+      "title": "Letter as Hero",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 83626
+    },
+    {
+      "id": "netease-track:1701600",
+      "neteaseTrackId": "1701600",
+      "title": "Trumpet Cleaning",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 239973
+    },
+    {
+      "id": "netease-track:1701603",
+      "neteaseTrackId": "1701603",
+      "title": "The Dream",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 232760
+    },
+    {
+      "id": "netease-track:1701605",
+      "neteaseTrackId": "1701605",
+      "title": "Paris Walking I",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 124573
+    },
+    {
+      "id": "netease-track:1701608",
+      "neteaseTrackId": "1701608",
+      "title": "Paris Walking II",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 197133
+    },
+    {
+      "id": "netease-track:1701613",
+      "neteaseTrackId": "1701613",
+      "title": "Kimberly Trumpet in Paris",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 135226
+    },
+    {
+      "id": "netease-track:1701616",
+      "neteaseTrackId": "1701616",
+      "title": "The Music Room",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 161400
+    },
+    {
+      "id": "netease-track:1701620",
+      "neteaseTrackId": "1701620",
+      "title": "Club Entrance (The)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 256306
+    },
+    {
+      "id": "netease-track:1701624",
+      "neteaseTrackId": "1701624",
+      "title": "The Jam Session",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 389226
+    },
+    {
+      "id": "netease-track:1701630",
+      "neteaseTrackId": "1701630",
+      "title": "Going Home",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 130973
+    },
+    {
+      "id": "netease-track:1701636",
+      "neteaseTrackId": "1701636",
+      "title": "Surprise!",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 316893
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=172516",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dingo Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

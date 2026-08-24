@@ -1,0 +1,131 @@
+{
+  "internalId": "album:428297",
+  "id": "album:428297",
+  "neteaseAlbumId": "428297",
+  "slug": "remixes",
+  "title": "Remixes",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:98538",
+      "neteaseArtistId": "98538",
+      "name": "Portishead"
+    }
+  ],
+  "releaseDate": "2006-04-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "ポーティスヘッド",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/428297.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/428297.webp",
+    "alt": "《Remixes》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4235472",
+      "neteaseTrackId": "4235472",
+      "title": "Planet D",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 281160
+    },
+    {
+      "id": "netease-track:4235473",
+      "neteaseTrackId": "4235473",
+      "title": "Sonar Blow Job",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 178000
+    },
+    {
+      "id": "netease-track:4235474",
+      "neteaseTrackId": "4235474",
+      "title": "Oubli",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 219266
+    },
+    {
+      "id": "netease-track:4235475",
+      "neteaseTrackId": "4235475",
+      "title": "Wild wood",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 208979
+    },
+    {
+      "id": "netease-track:4235477",
+      "neteaseTrackId": "4235477",
+      "title": "Acid jazz & trip hop",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:4235479",
+      "neteaseTrackId": "4235479",
+      "title": "Fun For Me",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:4235481",
+      "neteaseTrackId": "4235481",
+      "title": "Give Up But Don't Give Out",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 348000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=428297",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Remixes Portishead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

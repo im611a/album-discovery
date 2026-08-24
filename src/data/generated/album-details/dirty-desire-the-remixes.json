@@ -1,0 +1,153 @@
+{
+  "internalId": "album:64219",
+  "id": "album:64219",
+  "neteaseAlbumId": "64219",
+  "slug": "dirty-desire-the-remixes",
+  "title": "Dirty Desire (The Remixes)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2008-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Island Def Jam",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64219.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64219.webp",
+    "alt": "《Dirty Desire (The Remixes)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666218",
+      "neteaseTrackId": "666218",
+      "title": "Dirty Desire (Mike Rizzo Radio Edit)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 214151
+    },
+    {
+      "id": "netease-track:666222",
+      "neteaseTrackId": "666222",
+      "title": "Dirty Desire (Digital Dog Radio Edit)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 156969
+    },
+    {
+      "id": "netease-track:666225",
+      "neteaseTrackId": "666225",
+      "title": "Dirty Desire (Razor N' Guido Radio Edit)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 223634
+    },
+    {
+      "id": "netease-track:666228",
+      "neteaseTrackId": "666228",
+      "title": "Dirty Desire (Mike Rizzo Club Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 422504
+    },
+    {
+      "id": "netease-track:666231",
+      "neteaseTrackId": "666231",
+      "title": "Dirty Desire (Digital Dog Club Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 360829
+    },
+    {
+      "id": "netease-track:666235",
+      "neteaseTrackId": "666235",
+      "title": "Dirty Desire (Razor N' Guido Main Mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 501289
+    },
+    {
+      "id": "netease-track:666239",
+      "neteaseTrackId": "666239",
+      "title": "Dirty Desire (Mike Rizzo Dub Mix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 399647
+    },
+    {
+      "id": "netease-track:666243",
+      "neteaseTrackId": "666243",
+      "title": "Dirty Desire (Digital Dog Dub)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 380368
+    },
+    {
+      "id": "netease-track:666247",
+      "neteaseTrackId": "666247",
+      "title": "Dirty Desire (Mixshow Edit)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 381805
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=64219",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dirty Desire (The Remixes) 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "internalId": "album:18937",
+  "id": "album:18937",
+  "neteaseAlbumId": "18937",
+  "slug": "i-am-what-i-am",
+  "title": "I Am What I Am",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "2010-03-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18937.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18937.webp",
+    "alt": "《I Am What I Am》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186421",
+      "neteaseTrackId": "186421",
+      "title": "追",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 303760
+    },
+    {
+      "id": "netease-track:186422",
+      "neteaseTrackId": "186422",
+      "title": "今生今世",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 105293
+    },
+    {
+      "id": "netease-track:186423",
+      "neteaseTrackId": "186423",
+      "title": "梦死醉生",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247986
+    },
+    {
+      "id": "netease-track:186424",
+      "neteaseTrackId": "186424",
+      "title": "寂寞有害",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 273986
+    },
+    {
+      "id": "netease-track:186427",
+      "neteaseTrackId": "186427",
+      "title": "不要爱他",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 210586
+    },
+    {
+      "id": "netease-track:186430",
+      "neteaseTrackId": "186430",
+      "title": "梦到内河",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 227120
+    },
+    {
+      "id": "netease-track:186433",
+      "neteaseTrackId": "186433",
+      "title": "冤家",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 222120
+    },
+    {
+      "id": "netease-track:186436",
+      "neteaseTrackId": "186436",
+      "title": "玻璃之情",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 280293
+    },
+    {
+      "id": "netease-track:186447",
+      "neteaseTrackId": "186447",
+      "title": "小明星",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 189893
+    },
+    {
+      "id": "netease-track:186450",
+      "neteaseTrackId": "186450",
+      "title": "American Pie (Live)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 279267
+    },
+    {
+      "id": "netease-track:186453",
+      "neteaseTrackId": "186453",
+      "title": "春夏秋冬",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247640
+    },
+    {
+      "id": "netease-track:186455",
+      "neteaseTrackId": "186455",
+      "title": "没有爱",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248666
+    },
+    {
+      "id": "netease-track:186457",
+      "neteaseTrackId": "186457",
+      "title": "路过蜻蜓",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 231680
+    },
+    {
+      "id": "netease-track:186459",
+      "neteaseTrackId": "186459",
+      "title": "十号风球",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 206520
+    },
+    {
+      "id": "netease-track:186462",
+      "neteaseTrackId": "186462",
+      "title": "我的心里没有他 (Live)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 143867
+    },
+    {
+      "id": "netease-track:186465",
+      "neteaseTrackId": "186465",
+      "title": "热情的沙漠 (Live)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 182600
+    },
+    {
+      "id": "netease-track:186467",
+      "neteaseTrackId": "186467",
+      "title": "大热",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 215186
+    },
+    {
+      "id": "netease-track:186469",
+      "neteaseTrackId": "186469",
+      "title": "红蝴蝶",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 200400
+    },
+    {
+      "id": "netease-track:186471",
+      "neteaseTrackId": "186471",
+      "title": "枕头",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 253746
+    },
+    {
+      "id": "netease-track:186473",
+      "neteaseTrackId": "186473",
+      "title": "左右手",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 255506
+    },
+    {
+      "id": "netease-track:186476",
+      "neteaseTrackId": "186476",
+      "title": "我(国)",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 219160
+    },
+    {
+      "id": "netease-track:186479",
+      "neteaseTrackId": "186479",
+      "title": "陪你倒数",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 262880
+    },
+    {
+      "id": "netease-track:186482",
+      "neteaseTrackId": "186482",
+      "title": "你这样恨我",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 258026
+    },
+    {
+      "id": "netease-track:186484",
+      "neteaseTrackId": "186484",
+      "title": "候斯顿之恋",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 252880
+    },
+    {
+      "id": "netease-track:186486",
+      "neteaseTrackId": "186486",
+      "title": "芳华绝代",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "梅艳芳"
+      ],
+      "durationMs": 366413
+    },
+    {
+      "id": "netease-track:186488",
+      "neteaseTrackId": "186488",
+      "title": "洁身自爱",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 264053
+    },
+    {
+      "id": "netease-track:186490",
+      "neteaseTrackId": "186490",
+      "title": "心跳呼吸正常",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 265346
+    },
+    {
+      "id": "netease-track:186492",
+      "neteaseTrackId": "186492",
+      "title": "没有烟总有花",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 232933
+    },
+    {
+      "id": "netease-track:186496",
+      "neteaseTrackId": "186496",
+      "title": "挪亚方舟",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 225560
+    },
+    {
+      "id": "netease-track:186500",
+      "neteaseTrackId": "186500",
+      "title": "春光乍泄",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 228506
+    },
+    {
+      "id": "netease-track:186504",
+      "neteaseTrackId": "186504",
+      "title": "I Honestly Love You",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 230800
+    },
+    {
+      "id": "netease-track:186508",
+      "neteaseTrackId": "186508",
+      "title": "至少还有你 (Live)",
+      "trackNumber": 34,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 340532
+    },
+    {
+      "id": "netease-track:186512",
+      "neteaseTrackId": "186512",
+      "title": "月亮代表我的心(Live)",
+      "trackNumber": 35,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247280
+    },
+    {
+      "id": "netease-track:186516",
+      "neteaseTrackId": "186516",
+      "title": "我",
+      "trackNumber": 36,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 220547
+    },
+    {
+      "id": "netease-track:29095723",
+      "neteaseTrackId": "29095723",
+      "title": "今生今世(电影版)",
+      "trackNumber": 37,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 105293
+    }
+  ],
+  "trackCount": 35,
+  "externalUrl": "https://music.163.com/#/album?id=18937",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "I Am What I Am 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

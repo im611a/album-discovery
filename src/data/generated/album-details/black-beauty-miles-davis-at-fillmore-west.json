@@ -1,0 +1,153 @@
+{
+  "internalId": "album:1970635",
+  "id": "album:1970635",
+  "neteaseAlbumId": "1970635",
+  "slug": "black-beauty-miles-davis-at-fillmore-west",
+  "title": "Black Beauty: Miles Davis At Fillmore West",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1972-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970635.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970635.webp",
+    "alt": "《Black Beauty: Miles Davis At Fillmore West》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341459",
+      "neteaseTrackId": "21341459",
+      "title": "Directions",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 646048
+    },
+    {
+      "id": "netease-track:21341460",
+      "neteaseTrackId": "21341460",
+      "title": "Miles Runs The Voodoo Down",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 740298
+    },
+    {
+      "id": "netease-track:21341461",
+      "neteaseTrackId": "21341461",
+      "title": "Willie Nelson",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 398158
+    },
+    {
+      "id": "netease-track:21341462",
+      "neteaseTrackId": "21341462",
+      "title": "I Fall In Love Too Easily",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 79296
+    },
+    {
+      "id": "netease-track:21341463",
+      "neteaseTrackId": "21341463",
+      "title": "Sanctuary",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 240770
+    },
+    {
+      "id": "netease-track:21341464",
+      "neteaseTrackId": "21341464",
+      "title": "It's About That Time",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 599222
+    },
+    {
+      "id": "netease-track:21341465",
+      "neteaseTrackId": "21341465",
+      "title": "*****es Brew",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 772643
+    },
+    {
+      "id": "netease-track:21341466",
+      "neteaseTrackId": "21341466",
+      "title": "Masqualero",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 547239
+    },
+    {
+      "id": "netease-track:21341467",
+      "neteaseTrackId": "21341467",
+      "title": "Spanish Key/The Theme",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 734331
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1970635",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Black Beauty: Miles Davis At Fillmore West Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

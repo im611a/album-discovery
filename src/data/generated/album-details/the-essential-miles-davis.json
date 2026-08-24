@@ -1,0 +1,308 @@
+{
+  "internalId": "album:1969963",
+  "id": "album:1969963",
+  "neteaseAlbumId": "1969963",
+  "slug": "the-essential-miles-davis",
+  "title": "The Essential Miles Davis",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2001-05-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969963.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969963.webp",
+    "alt": "《The Essential Miles Davis》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21330434",
+      "neteaseTrackId": "21330434",
+      "title": "Now's The Time",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 194690
+    },
+    {
+      "id": "netease-track:21330435",
+      "neteaseTrackId": "21330435",
+      "title": "Jeru",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 193706
+    },
+    {
+      "id": "netease-track:21330436",
+      "neteaseTrackId": "21330436",
+      "title": "Compulsion",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 342517
+    },
+    {
+      "id": "netease-track:21330437",
+      "neteaseTrackId": "21330437",
+      "title": "Tempus Fugit",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 232200
+    },
+    {
+      "id": "netease-track:21330438",
+      "neteaseTrackId": "21330438",
+      "title": "Walkin'",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 805146
+    },
+    {
+      "id": "netease-track:21330439",
+      "neteaseTrackId": "21330439",
+      "title": "'Round Midnight",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 355358
+    },
+    {
+      "id": "netease-track:21330440",
+      "neteaseTrackId": "21330440",
+      "title": "Bye Bye Blackbird",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 473315
+    },
+    {
+      "id": "netease-track:21330441",
+      "neteaseTrackId": "21330441",
+      "title": "New Rhumba",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 277440
+    },
+    {
+      "id": "netease-track:21330442",
+      "neteaseTrackId": "21330442",
+      "title": "Generique",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 168489
+    },
+    {
+      "id": "netease-track:21330443",
+      "neteaseTrackId": "21330443",
+      "title": "Summertime",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 202986
+    },
+    {
+      "id": "netease-track:21330444",
+      "neteaseTrackId": "21330444",
+      "title": "So What",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 562466
+    },
+    {
+      "id": "netease-track:21330445",
+      "neteaseTrackId": "21330445",
+      "title": "The Pan Piper",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 234945
+    },
+    {
+      "id": "netease-track:21330446",
+      "neteaseTrackId": "21330446",
+      "title": "Someday My Prince Will Come",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 543834
+    },
+    {
+      "id": "netease-track:21330447",
+      "neteaseTrackId": "21330447",
+      "title": "My Funny Valentine",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 905392
+    },
+    {
+      "id": "netease-track:21330448",
+      "neteaseTrackId": "21330448",
+      "title": "E.S.P.",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 326333
+    },
+    {
+      "id": "netease-track:21330449",
+      "neteaseTrackId": "21330449",
+      "title": "Nefertiti",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 470784
+    },
+    {
+      "id": "netease-track:21330450",
+      "neteaseTrackId": "21330450",
+      "title": "Petits Machins (Little Stuff)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 488153
+    },
+    {
+      "id": "netease-track:21330451",
+      "neteaseTrackId": "21330451",
+      "title": "Miles Runs The Voodoo Down",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 841328
+    },
+    {
+      "id": "netease-track:21330452",
+      "neteaseTrackId": "21330452",
+      "title": "Little Church",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 193863
+    },
+    {
+      "id": "netease-track:21330453",
+      "neteaseTrackId": "21330453",
+      "title": "Black Satin",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 315167
+    },
+    {
+      "id": "netease-track:21330454",
+      "neteaseTrackId": "21330454",
+      "title": "Jean Pierre",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 241510
+    },
+    {
+      "id": "netease-track:21330455",
+      "neteaseTrackId": "21330455",
+      "title": "Time After Time",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 218197
+    },
+    {
+      "id": "netease-track:21330456",
+      "neteaseTrackId": "21330456",
+      "title": "Portia",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 380133
+    }
+  ],
+  "trackCount": 23,
+  "externalUrl": "https://music.163.com/#/album?id=1969963",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Essential Miles Davis Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

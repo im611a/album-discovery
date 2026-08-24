@@ -1,0 +1,164 @@
+{
+  "internalId": "album:35654",
+  "id": "album:35654",
+  "neteaseAlbumId": "35654",
+  "slug": "booze-at-neptune-s-dawn",
+  "title": "Booze At Neptune's Dawn",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11950",
+      "neteaseArtistId": "11950",
+      "name": "Joyside"
+    }
+  ],
+  "releaseDate": "2007-09-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "兵马司唱片/Indie Works",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35654.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/35654.webp",
+    "alt": "《Booze At Neptune's Dawn》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:360899",
+      "neteaseTrackId": "360899",
+      "title": "Spy",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 150800
+    },
+    {
+      "id": "netease-track:360901",
+      "neteaseTrackId": "360901",
+      "title": "All Night",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 223666
+    },
+    {
+      "id": "netease-track:360903",
+      "neteaseTrackId": "360903",
+      "title": "Neptune's Child",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 233146
+    },
+    {
+      "id": "netease-track:360906",
+      "neteaseTrackId": "360906",
+      "title": "Out Of Time",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 266680
+    },
+    {
+      "id": "netease-track:360909",
+      "neteaseTrackId": "360909",
+      "title": "Too Fast To Love",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 176586
+    },
+    {
+      "id": "netease-track:360912",
+      "neteaseTrackId": "360912",
+      "title": "Dong Dong Dong",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 257773
+    },
+    {
+      "id": "netease-track:360915",
+      "neteaseTrackId": "360915",
+      "title": "Lover D",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 265773
+    },
+    {
+      "id": "netease-track:360918",
+      "neteaseTrackId": "360918",
+      "title": "Baby In Shadow",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 241586
+    },
+    {
+      "id": "netease-track:360921",
+      "neteaseTrackId": "360921",
+      "title": "Booze At Dawn",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 258373
+    },
+    {
+      "id": "netease-track:360924",
+      "neteaseTrackId": "360924",
+      "title": "Fire",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 344026
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=35654",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Booze At Neptune's Dawn Joyside",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

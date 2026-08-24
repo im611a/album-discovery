@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19112",
+  "id": "album:19112",
+  "neteaseAlbumId": "19112",
+  "slug": "virgin-snow",
+  "title": "Virgin Snow",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1988-02-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19112.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19112.webp",
+    "alt": "《Virgin Snow》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188907",
+      "neteaseTrackId": "188907",
+      "title": "爱的凶手",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 235800
+    },
+    {
+      "id": "netease-track:188909",
+      "neteaseTrackId": "188909",
+      "title": "热辣辣",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 204266
+    },
+    {
+      "id": "netease-track:188912",
+      "neteaseTrackId": "188912",
+      "title": "奔向未来日子",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268466
+    },
+    {
+      "id": "netease-track:188916",
+      "neteaseTrackId": "188916",
+      "title": "雪中情",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 241960
+    },
+    {
+      "id": "netease-track:188919",
+      "neteaseTrackId": "188919",
+      "title": "从未可以",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 346266
+    },
+    {
+      "id": "netease-track:188922",
+      "neteaseTrackId": "188922",
+      "title": "想你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 299080
+    },
+    {
+      "id": "netease-track:188925",
+      "neteaseTrackId": "188925",
+      "title": "烧毁我眼睛",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 185933
+    },
+    {
+      "id": "netease-track:188929",
+      "neteaseTrackId": "188929",
+      "title": "你是我一半",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 214400
+    },
+    {
+      "id": "netease-track:188933",
+      "neteaseTrackId": "188933",
+      "title": "妒忌",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 232173
+    },
+    {
+      "id": "netease-track:188937",
+      "neteaseTrackId": "188937",
+      "title": "最爱",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 309733
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19112",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Virgin Snow 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

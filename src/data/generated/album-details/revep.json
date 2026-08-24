@@ -1,0 +1,96 @@
+{
+  "internalId": "album:104592",
+  "id": "album:104592",
+  "neteaseAlbumId": "104592",
+  "slug": "revep",
+  "title": "Revep",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:27649",
+      "neteaseArtistId": "27649",
+      "name": "Alva Noto"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2006-05-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "NOTON",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/104592.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/104592.webp",
+    "alt": "《Revep》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1000284",
+      "neteaseTrackId": "1000284",
+      "title": "Siisx",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 445032
+    },
+    {
+      "id": "netease-track:1000287",
+      "neteaseTrackId": "1000287",
+      "title": "Mur",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 494376
+    },
+    {
+      "id": "netease-track:1000292",
+      "neteaseTrackId": "1000292",
+      "title": "Ax Mr. L.",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 258680
+    }
+  ],
+  "trackCount": 3,
+  "externalUrl": "https://music.163.com/#/album?id=104592",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Revep Alva Noto 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

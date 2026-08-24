@@ -1,0 +1,209 @@
+{
+  "internalId": "album:29825",
+  "id": "album:29825",
+  "neteaseAlbumId": "29825",
+  "slug": "netease-album-29825",
+  "title": "风从哪里来",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1985-02-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29825.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29825.webp",
+    "alt": "《风从哪里来》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300987",
+      "neteaseTrackId": "300987",
+      "title": "风从哪里来",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 205546
+    },
+    {
+      "id": "netease-track:300990",
+      "neteaseTrackId": "300990",
+      "title": "四个心愿",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 202386
+    },
+    {
+      "id": "netease-track:300992",
+      "neteaseTrackId": "300992",
+      "title": "甜蜜蜜",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 158458
+    },
+    {
+      "id": "netease-track:300994",
+      "neteaseTrackId": "300994",
+      "title": "小小的秘密",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 208480
+    },
+    {
+      "id": "netease-track:300995",
+      "neteaseTrackId": "300995",
+      "title": "年纪轻轻",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 153666
+    },
+    {
+      "id": "netease-track:300997",
+      "neteaseTrackId": "300997",
+      "title": "唱歌的人",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 129426
+    },
+    {
+      "id": "netease-track:300999",
+      "neteaseTrackId": "300999",
+      "title": "最高峰",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 146973
+    },
+    {
+      "id": "netease-track:301002",
+      "neteaseTrackId": "301002",
+      "title": "望着天空的女孩",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 143906
+    },
+    {
+      "id": "netease-track:301005",
+      "neteaseTrackId": "301005",
+      "title": "你怎么说",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 217466
+    },
+    {
+      "id": "netease-track:301008",
+      "neteaseTrackId": "301008",
+      "title": "说说笑笑",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 177240
+    },
+    {
+      "id": "netease-track:301011",
+      "neteaseTrackId": "301011",
+      "title": "月光小夜曲",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 203066
+    },
+    {
+      "id": "netease-track:301014",
+      "neteaseTrackId": "301014",
+      "title": "你照亮我的心",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 203546
+    },
+    {
+      "id": "netease-track:301017",
+      "neteaseTrackId": "301017",
+      "title": "故乡从不拒绝我",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 163786
+    },
+    {
+      "id": "netease-track:301019",
+      "neteaseTrackId": "301019",
+      "title": "又见炊烟",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 223333
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=29825",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "风从哪里来 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

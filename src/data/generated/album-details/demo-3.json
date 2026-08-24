@@ -1,0 +1,230 @@
+{
+  "internalId": "album:21307",
+  "id": "album:21307",
+  "neteaseAlbumId": "21307",
+  "slug": "demo-3",
+  "title": "Demo 3",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "2001-11-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21307.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21307.webp",
+    "alt": "《Demo 3》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209427",
+      "neteaseTrackId": "209427",
+      "title": "他唱起歌来了",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 28000
+    },
+    {
+      "id": "netease-track:209429",
+      "neteaseTrackId": "209429",
+      "title": "坐火车到传说中的湘南海岸",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 110000
+    },
+    {
+      "id": "netease-track:209431",
+      "neteaseTrackId": "209431",
+      "title": "妈妈睡了",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 134152
+    },
+    {
+      "id": "netease-track:209433",
+      "neteaseTrackId": "209433",
+      "title": "我喜欢木村拓哉",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 84000
+    },
+    {
+      "id": "netease-track:209436",
+      "neteaseTrackId": "209436",
+      "title": "朋友",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 71000
+    },
+    {
+      "id": "netease-track:209439",
+      "neteaseTrackId": "209439",
+      "title": "其实我很羡慕你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 63000
+    },
+    {
+      "id": "netease-track:209442",
+      "neteaseTrackId": "209442",
+      "title": "星期天的下午",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 96052
+    },
+    {
+      "id": "netease-track:209445",
+      "neteaseTrackId": "209445",
+      "title": "我有一套限量的约翰连侬纪念邮票",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 79000
+    },
+    {
+      "id": "netease-track:209448",
+      "neteaseTrackId": "209448",
+      "title": "我还是如此的清醒",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 10000
+    },
+    {
+      "id": "netease-track:209451",
+      "neteaseTrackId": "209451",
+      "title": "我终于懂了",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 8000
+    },
+    {
+      "id": "netease-track:209454",
+      "neteaseTrackId": "209454",
+      "title": "梦",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 47504
+    },
+    {
+      "id": "netease-track:209457",
+      "neteaseTrackId": "209457",
+      "title": "黄色的浮板",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 59400
+    },
+    {
+      "id": "netease-track:209459",
+      "neteaseTrackId": "209459",
+      "title": "我们连觉也没睡决定连夜赶去拜访艾立克克莱普顿",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 162000
+    },
+    {
+      "id": "netease-track:209461",
+      "neteaseTrackId": "209461",
+      "title": "歌迷",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 41373
+    },
+    {
+      "id": "netease-track:209464",
+      "neteaseTrackId": "209464",
+      "title": "整个世界的黑暗",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 73613
+    },
+    {
+      "id": "netease-track:209466",
+      "neteaseTrackId": "209466",
+      "title": "九份的咖啡店",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 291773
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=21307",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Demo 3 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

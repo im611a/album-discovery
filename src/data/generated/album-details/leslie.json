@@ -1,0 +1,166 @@
+{
+  "internalId": "album:19092",
+  "id": "album:19092",
+  "neteaseAlbumId": "19092",
+  "slug": "leslie",
+  "title": "LESLIE",
+  "aliases": [
+    "侧面"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1989-02-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19092.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19092.webp",
+    "alt": "《LESLIE》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188639",
+      "neteaseTrackId": "188639",
+      "title": "由零开始",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 249146
+    },
+    {
+      "id": "netease-track:188642",
+      "neteaseTrackId": "188642",
+      "title": "烈火灯蛾",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 256666
+    },
+    {
+      "id": "netease-track:188645",
+      "neteaseTrackId": "188645",
+      "title": "侧面",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 225533
+    },
+    {
+      "id": "netease-track:188648",
+      "neteaseTrackId": "188648",
+      "title": "偏心",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 226826
+    },
+    {
+      "id": "netease-track:188651",
+      "neteaseTrackId": "188651",
+      "title": "需要你",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 230373
+    },
+    {
+      "id": "netease-track:188654",
+      "neteaseTrackId": "188654",
+      "title": "暴风一族",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 210066
+    },
+    {
+      "id": "netease-track:188656",
+      "neteaseTrackId": "188656",
+      "title": "放荡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 240413
+    },
+    {
+      "id": "netease-track:188659",
+      "neteaseTrackId": "188659",
+      "title": "情感的刺",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 231306
+    },
+    {
+      "id": "netease-track:188661",
+      "neteaseTrackId": "188661",
+      "title": "抵抗夜寒",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 188466
+    },
+    {
+      "id": "netease-track:188663",
+      "neteaseTrackId": "188663",
+      "title": "别话",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247493
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19092",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "LESLIE 侧面 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:27513",
+  "id": "album:27513",
+  "neteaseAlbumId": "27513",
+  "slug": "l-ve-is-karen-mok",
+  "title": "L!VE IS… Karen Mok",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2007-11-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27513.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27513.webp",
+    "alt": "《L!VE IS… Karen Mok》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277059",
+      "neteaseTrackId": "277059",
+      "title": "日场夜场",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 249476
+    },
+    {
+      "id": "netease-track:277061",
+      "neteaseTrackId": "277061",
+      "title": "请把手机关掉",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 249906
+    },
+    {
+      "id": "netease-track:277063",
+      "neteaseTrackId": "277063",
+      "title": "头号粉丝",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 276755
+    },
+    {
+      "id": "netease-track:277067",
+      "neteaseTrackId": "277067",
+      "title": "其实我一直都想对你说",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 267334
+    },
+    {
+      "id": "netease-track:277072",
+      "neteaseTrackId": "277072",
+      "title": "隐隐",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 262176
+    },
+    {
+      "id": "netease-track:277076",
+      "neteaseTrackId": "277076",
+      "title": "台",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 248986
+    },
+    {
+      "id": "netease-track:277080",
+      "neteaseTrackId": "277080",
+      "title": "L!VE 拉活",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 217280
+    },
+    {
+      "id": "netease-track:277084",
+      "neteaseTrackId": "277084",
+      "title": "Diva",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 237247
+    },
+    {
+      "id": "netease-track:277088",
+      "neteaseTrackId": "277088",
+      "title": "散",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 283597
+    },
+    {
+      "id": "netease-track:277091",
+      "neteaseTrackId": "277091",
+      "title": "安可",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 257253
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=27513",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "L!VE IS… Karen Mok 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

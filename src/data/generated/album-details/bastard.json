@@ -1,0 +1,228 @@
+{
+  "internalId": "album:205196",
+  "id": "album:205196",
+  "neteaseAlbumId": "205196",
+  "slug": "bastard",
+  "title": "Bastard",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:44708",
+      "neteaseArtistId": "44708",
+      "name": "Tyler, The Creator"
+    }
+  ],
+  "releaseDate": "2009-12-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "F.M.F. Entertainment",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/205196.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/205196.webp",
+    "alt": "《Bastard》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2036862",
+      "neteaseTrackId": "2036862",
+      "title": "Bastard",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 369000
+    },
+    {
+      "id": "netease-track:2036863",
+      "neteaseTrackId": "2036863",
+      "title": "Seven",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 208973
+    },
+    {
+      "id": "netease-track:2036864",
+      "neteaseTrackId": "2036864",
+      "title": "Odd Toddlers (feat. Casey Veggies)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Casey Veggies"
+      ],
+      "durationMs": 216413
+    },
+    {
+      "id": "netease-track:2036866",
+      "neteaseTrackId": "2036866",
+      "title": "French! (feat. Hodgy Beats)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Hodgy Beats"
+      ],
+      "durationMs": 243040
+    },
+    {
+      "id": "netease-track:2036868",
+      "neteaseTrackId": "2036868",
+      "title": "Blow",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 175253
+    },
+    {
+      "id": "netease-track:2036869",
+      "neteaseTrackId": "2036869",
+      "title": "Pigs Fly (feat. Domo Genesis)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Domo Genesis"
+      ],
+      "durationMs": 215026
+    },
+    {
+      "id": "netease-track:2036872",
+      "neteaseTrackId": "2036872",
+      "title": "Parade",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 142493
+    },
+    {
+      "id": "netease-track:2036874",
+      "neteaseTrackId": "2036874",
+      "title": "Slow It Down (feat. Hodgy Beats)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Hodgy Beats"
+      ],
+      "durationMs": 187893
+    },
+    {
+      "id": "netease-track:2036876",
+      "neteaseTrackId": "2036876",
+      "title": "AssMilk (feat. Earl Sweatshirt)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Earl Sweatshirt"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:2036878",
+      "neteaseTrackId": "2036878",
+      "title": "VCR/Wheels",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 208040
+    },
+    {
+      "id": "netease-track:2036881",
+      "neteaseTrackId": "2036881",
+      "title": "Session (feat. Hodgy Beats, Mike G, BrandUn DeShay)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Hodgy Beats",
+        "Mike G"
+      ],
+      "durationMs": 214533
+    },
+    {
+      "id": "netease-track:2036884",
+      "neteaseTrackId": "2036884",
+      "title": "Sarah",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 286506
+    },
+    {
+      "id": "netease-track:2036887",
+      "neteaseTrackId": "2036887",
+      "title": "Jack and the Beanstalk",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 230520
+    },
+    {
+      "id": "netease-track:2036889",
+      "neteaseTrackId": "2036889",
+      "title": "Tina (feat. Jasper, Taco)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator",
+        "Jasper Dolphin",
+        "Taco"
+      ],
+      "durationMs": 187026
+    },
+    {
+      "id": "netease-track:2036893",
+      "neteaseTrackId": "2036893",
+      "title": "Inglorious",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "durationMs": 244026
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=205196",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Bastard Tyler, The Creator",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

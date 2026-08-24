@@ -1,0 +1,309 @@
+{
+  "internalId": "album:174160",
+  "id": "album:174160",
+  "neteaseAlbumId": "174160",
+  "slug": "operation-doomsday-174160",
+  "title": "Operation: Doomsday",
+  "aliases": [
+    "2CD Lunchbox Edition"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:38994",
+      "neteaseArtistId": "38994",
+      "name": "MF DOOM"
+    }
+  ],
+  "releaseDate": "2011-04-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/174160.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/174160.webp",
+    "alt": "《Operation: Doomsday》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1720812",
+      "neteaseTrackId": "1720812",
+      "title": "Dead Bent (Original 12\" Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 196853
+    },
+    {
+      "id": "netease-track:1720816",
+      "neteaseTrackId": "1720816",
+      "title": "Gas Drawls (Original 12\" Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 172760
+    },
+    {
+      "id": "netease-track:1720819",
+      "neteaseTrackId": "1720819",
+      "title": "Hey! (Original 12\" Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 248160
+    },
+    {
+      "id": "netease-track:1720822",
+      "neteaseTrackId": "1720822",
+      "title": "Greenbacks (Original 12\" Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 237613
+    },
+    {
+      "id": "netease-track:1720825",
+      "neteaseTrackId": "1720825",
+      "title": "Go With The Flow feat. Sci.Fly (Original 12\" Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:1720828",
+      "neteaseTrackId": "1720828",
+      "title": "Go With The Flow (Raw Rhymes)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 223373
+    },
+    {
+      "id": "netease-track:1720832",
+      "neteaseTrackId": "1720832",
+      "title": "I Hear Voices Pt. 1 (Original 12\" Clean Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 171920
+    },
+    {
+      "id": "netease-track:1720836",
+      "neteaseTrackId": "1720836",
+      "title": "I Hear Voices Pt. 2 feat. MF Grimm (Original 12\" Clean Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 127186
+    },
+    {
+      "id": "netease-track:1720840",
+      "neteaseTrackId": "1720840",
+      "title": "Tick, Tick (Original 12\" Main Mix Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 264473
+    },
+    {
+      "id": "netease-track:1720844",
+      "neteaseTrackId": "1720844",
+      "title": "? (Extended Raw Rhymes Version) 3.45",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 226186
+    },
+    {
+      "id": "netease-track:1720848",
+      "neteaseTrackId": "1720848",
+      "title": "Dead Bent (Original 12\" Instrumental Version)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 196464
+    },
+    {
+      "id": "netease-track:1720852",
+      "neteaseTrackId": "1720852",
+      "title": "Gas Drawls (Original 12\" Instrumental Version)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 172760
+    },
+    {
+      "id": "netease-track:1720856",
+      "neteaseTrackId": "1720856",
+      "title": "Hey! (Original 12\" Instrumental Version)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 235960
+    },
+    {
+      "id": "netease-track:1720860",
+      "neteaseTrackId": "1720860",
+      "title": "Greenbacks (Original 12\" Instrumental Version)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 237760
+    },
+    {
+      "id": "netease-track:1720864",
+      "neteaseTrackId": "1720864",
+      "title": "The Mic (Original 12\" Instrumental)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 236000
+    },
+    {
+      "id": "netease-track:1720868",
+      "neteaseTrackId": "1720868",
+      "title": "Red and Gold (Original 12\" Instrumental)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 307560
+    },
+    {
+      "id": "netease-track:1720872",
+      "neteaseTrackId": "1720872",
+      "title": "I Hear Voices (Original 12\" Instrumental Version)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 174773
+    },
+    {
+      "id": "netease-track:1720876",
+      "neteaseTrackId": "1720876",
+      "title": "Doomsday (Instrumental)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 299213
+    },
+    {
+      "id": "netease-track:1720879",
+      "neteaseTrackId": "1720879",
+      "title": "Rhymes Like Dimes (Instrumental)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 130466
+    },
+    {
+      "id": "netease-track:1720882",
+      "neteaseTrackId": "1720882",
+      "title": "The Finest (Instrumental)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 262306
+    },
+    {
+      "id": "netease-track:1720885",
+      "neteaseTrackId": "1720885",
+      "title": "The Hands of Doom (Instrumental)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 124066
+    },
+    {
+      "id": "netease-track:1720888",
+      "neteaseTrackId": "1720888",
+      "title": "Who You Think I Am (Instrumental)",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 128000
+    },
+    {
+      "id": "netease-track:1720891",
+      "neteaseTrackId": "1720891",
+      "title": "? (Instrumental)",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 157946
+    }
+  ],
+  "trackCount": 23,
+  "externalUrl": "https://music.163.com/#/album?id=174160",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Operation: Doomsday 2CD Lunchbox Edition MF DOOM",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,7 +1,7 @@
 import { mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { validateCatalogData } from "../catalog-validation.mjs";
+import { semanticAlbumIdentity, validateCatalogData } from "../catalog-validation.mjs";
 import { normalizePayload } from "../sync-catalog.mjs";
 import { publishCatalog } from "../publish-catalog.mjs";
 import { validateAndStageCover } from "./covers.mjs";
@@ -77,6 +77,86 @@ function safeWorkspace(batchRoot, target) {
   if (!relative || relative.startsWith("..") || path.isAbsolute(relative)) throw new Error(`Pipeline output must remain inside the batch workspace: ${target}`);
 }
 
+function markCandidateIdentityConflicts(records, productionAlbums, { level, code, message, nextAction }) {
+  const membersByIdentity = new Map();
+  const addMember = (album, member) => {
+    const identityKey = semanticAlbumIdentity(album);
+    if (!membersByIdentity.has(identityKey)) membersByIdentity.set(identityKey, []);
+    membersByIdentity.get(identityKey).push({ ...member, album });
+  };
+  for (const album of productionAlbums) {
+    addMember(album, { scope: "PRODUCTION", albumId: String(album.neteaseAlbumId), rowNumber: null });
+  }
+  for (const record of records.filter((item) => item.disposition === DISPOSITION.READY && item.album)) {
+    addMember(record.album, { scope: "CANDIDATE", albumId: record.albumId, rowNumber: record.rowNumber, record });
+  }
+  const conflicts = [...membersByIdentity.entries()]
+    .filter(([, members]) => members.length > 1 && members.some((member) => member.scope === "CANDIDATE"))
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([identityKey, members]) => {
+      const sortedMembers = members.sort((left, right) => left.albumId.localeCompare(right.albumId, "en-US", { numeric: true }) || left.scope.localeCompare(right.scope));
+      const publicMembers = sortedMembers.map((member) => ({
+        scope: member.scope,
+        albumId: member.albumId,
+        rowNumber: member.rowNumber,
+        title: member.album.title,
+        releaseDate: member.album.releaseDate,
+      }));
+      const conflictScope = sortedMembers.some((member) => member.scope === "PRODUCTION") ? "PRODUCTION_TO_CANDIDATE" : "CANDIDATE_TO_CANDIDATE";
+      for (const member of sortedMembers.filter((item) => item.scope === "CANDIDATE")) {
+        member.record.findings.push(finding(
+          level,
+          code,
+          message(identityKey),
+          nextAction,
+          { identityKey, conflictScope, members: publicMembers },
+        ));
+        member.record.disposition = dispositionFromFindings(member.record.findings, member.record.duplicate.state);
+      }
+      return { identityKey, conflictScope, members: publicMembers };
+    });
+  return conflicts;
+}
+
+export function isolateCandidateIdentityConflicts(records, productionAlbums) {
+  return markCandidateIdentityConflicts(records, productionAlbums, {
+    level: SEVERITY.NEEDS_REVIEW,
+    code: "CANDIDATE_IDENTITY_CONFLICT",
+    message: (identityKey) => `Canonical Album identity ${identityKey} is shared by multiple records.`,
+    nextAction: "Resolve this exact identity conflict before including the Album in a candidate.",
+  });
+}
+
+export function enforceCandidateIdentityInvariant(records, productionAlbums) {
+  return markCandidateIdentityConflicts(records, productionAlbums, {
+    level: SEVERITY.FATAL,
+    code: "CANDIDATE_IDENTITY_CONFLICT_UNRESOLVED",
+    message: (identityKey) => `Accepted selection still violates canonical Album identity ${identityKey}.`,
+    nextAction: "Reject enough conflict members to leave one canonical identity before qualification.",
+  });
+}
+
+export function applyReviewOverlayToRecords(records, review, productionAlbums) {
+  const applied = new Set();
+  for (const record of records) {
+    const reviewed = applyReviewDecisions(record.findings, record.albumId, review);
+    for (const key of reviewed.applied) applied.add(key);
+    record.findings = reviewed.findings;
+    const unresolvedDisposition = dispositionFromFindings(record.findings, record.duplicate.state);
+    if ([DISPOSITION.FATAL, DISPOSITION.ERROR, DISPOSITION.NEEDS_REVIEW].includes(unresolvedDisposition)) record.disposition = unresolvedDisposition;
+    else if (reviewed.rejected) record.disposition = DISPOSITION.REJECTED_BY_REVIEW;
+    else if (reviewed.quarantined) record.disposition = DISPOSITION.QUARANTINED;
+    else record.disposition = unresolvedDisposition;
+  }
+  if (review) {
+    const expected = [...review.decisions, ...review.quarantines].map((decision) => `${decision.albumId}:${decision.code}`);
+    const unused = expected.filter((key) => !applied.has(key));
+    if (unused.length) throw Object.assign(new Error(`REVIEW_DECISION_NOT_APPLICABLE: ${unused.join(", ")}`), { code: "REVIEW_DECISION_NOT_APPLICABLE" });
+  }
+  const hardConflicts = enforceCandidateIdentityInvariant(records, productionAlbums);
+  return { applied, hardConflicts };
+}
+
 export async function runDryRun({
   batchRoot,
   catalogPath = path.join(repositoryRoot, "src", "data", "generated", "catalog.json"),
@@ -90,7 +170,7 @@ export async function runDryRun({
   if (!/^CONTENT-BATCH-\d{8}-\d{3}$/.test(String(config.id ?? ""))) throw new Error("batch.json id must match CONTENT-BATCH-YYYYMMDD-NNN.");
   const fixedTimestamp = String(config.discoveredAt ?? "");
   if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(fixedTimestamp)) throw new Error("batch.json discoveredAt must be a fixed UTC ISO timestamp with milliseconds.");
-  const inputPath = path.resolve(resolvedBatchRoot, config.input ?? "input/input.csv");
+  const inputPath = path.resolve(resolvedBatchRoot, config.operator?.activeInput ?? config.input ?? "input/input.csv");
   safeWorkspace(resolvedBatchRoot, inputPath);
   const incomingRoot = path.join(resolvedBatchRoot, "incoming-covers");
   const normalizedRoot = path.join(resolvedBatchRoot, "normalized");
@@ -183,12 +263,9 @@ export async function runDryRun({
   }
   const slugPlans = allocateDeterministicSlugs(working.filter((item) => item.album && item.duplicate.state !== DUPLICATE_STATE.EXACT_DUPLICATE).map((item) => ({ albumId: item.row.albumId, title: item.album.title, slugOverride: item.row.slugOverride })), catalog);
   const slugById = new Map(slugPlans.map((item) => [item.albumId, item]));
-  const appliedReviewDecisions = new Set();
   const records = working.map((item) => {
     const slug = slugById.get(item.row.albumId);
-    const reviewed = applyReviewDecisions([...item.findings, ...(slug?.findings ?? [])], item.row.albumId, review);
-    for (const key of reviewed.applied) appliedReviewDecisions.add(key);
-    const findings = reviewed.findings;
+    const findings = [...item.findings, ...(slug?.findings ?? [])];
     if (item.album && slug) item.album.slug = slug.slug;
     const disposition = dispositionFromFindings(findings, item.duplicate.state);
     return {
@@ -211,10 +288,8 @@ export async function runDryRun({
       album: item.album,
     };
   }).sort((a, b) => a.albumId.localeCompare(b.albumId, "en-US", { numeric: true }) || a.rowNumber - b.rowNumber);
-  if (review) {
-    const unused = review.decisions.filter((decision) => !appliedReviewDecisions.has(`${decision.albumId}:${decision.code}`));
-    if (unused.length) throw Object.assign(new Error(`REVIEW_DECISION_NOT_APPLICABLE: ${unused.map((item) => `${item.albumId}/${item.code}`).join(", ")}`), { code: "REVIEW_DECISION_NOT_APPLICABLE" });
-  }
+  isolateCandidateIdentityConflicts(records, catalog.albums);
+  const reviewResult = applyReviewOverlayToRecords(records, review, catalog.albums);
   const readyAlbums = records.filter((record) => record.disposition === DISPOSITION.READY).map((record) => record.album);
   const candidate = {
     ...catalog,
@@ -246,7 +321,7 @@ export async function runDryRun({
     selectionRequiredForPromotion: true,
     records: records.map((record) => ({ albumId: record.albumId, disposition: record.disposition, slug: record.proposed?.slug ?? null, duplicate: record.duplicate.state, destinationAssets: record.assets ? [record.assets.thumbnail.relativePath, record.assets.detail.relativePath] : [], findings: record.findings.map((item) => ({ level: item.level, code: item.code })) })),
     candidate: { albums: candidate.albums.length, generatedDirectory: "candidate/generated", assetDirectory: "candidate/assets/covers", fingerprint: candidateFiles.fingerprint, files: candidateFiles.entries.length, verification: candidateVerification },
-    review: review ? { schema: review.schema, fingerprint: review.fingerprint, decisions: review.decisions.length, applied: appliedReviewDecisions.size } : { schema: null, fingerprint: null, decisions: 0, applied: 0 },
+    review: review ? { schema: review.schema, fingerprint: review.fingerprint, decisions: review.decisions.length, quarantines: review.quarantines.length, applied: reviewResult.applied.size } : { schema: null, fingerprint: null, decisions: 0, quarantines: 0, applied: 0 },
   };
   const report = buildMachineReport({
     batch: { id: config.id, discoveredAt: fixedTimestamp, pipelineVersion: PIPELINE_VERSION },

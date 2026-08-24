@@ -1,0 +1,120 @@
+{
+  "internalId": "album:222289",
+  "id": "album:222289",
+  "neteaseAlbumId": "222289",
+  "slug": "outland-vol-2",
+  "title": "Outland, Vol. 2",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1996-11-04",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222289.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222289.webp",
+    "alt": "《Outland, Vol. 2》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2206190",
+      "neteaseTrackId": "2206190",
+      "title": "African Virus, Pt. I",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 570000
+    },
+    {
+      "id": "netease-track:2206192",
+      "neteaseTrackId": "2206192",
+      "title": "African Virus, Pt. II",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 568000
+    },
+    {
+      "id": "netease-track:2206193",
+      "neteaseTrackId": "2206193",
+      "title": "African Virus, Pt. III",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 1089000
+    },
+    {
+      "id": "netease-track:2206194",
+      "neteaseTrackId": "2206194",
+      "title": "African Virus, Pt. IV",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 348000
+    },
+    {
+      "id": "netease-track:2206195",
+      "neteaseTrackId": "2206195",
+      "title": "African Virus, Pt. V",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 368000
+    },
+    {
+      "id": "netease-track:2206196",
+      "neteaseTrackId": "2206196",
+      "title": "African Virus, Pt. VI",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 615000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=222289",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Outland, Vol. 2 Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

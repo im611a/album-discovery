@@ -1,0 +1,175 @@
+{
+  "internalId": "album:21249",
+  "id": "album:21249",
+  "neteaseAlbumId": "21249",
+  "slug": "just-say-so",
+  "title": "Just Say So",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2011-11-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "北京亚神文化传播有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21249.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21249.webp",
+    "alt": "《Just Say So》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:208873",
+      "neteaseTrackId": "208873",
+      "title": "Let's Get Together",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 205640
+    },
+    {
+      "id": "netease-track:208874",
+      "neteaseTrackId": "208874",
+      "title": "Just Say So",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 235640
+    },
+    {
+      "id": "netease-track:208875",
+      "neteaseTrackId": "208875",
+      "title": "Make It For Real",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 254760
+    },
+    {
+      "id": "netease-track:208876",
+      "neteaseTrackId": "208876",
+      "title": "Carousel",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 234133
+    },
+    {
+      "id": "netease-track:208877",
+      "neteaseTrackId": "208877",
+      "title": "Back Into My Life",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 255960
+    },
+    {
+      "id": "netease-track:208878",
+      "neteaseTrackId": "208878",
+      "title": "More Than Anyone",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 239706
+    },
+    {
+      "id": "netease-track:208879",
+      "neteaseTrackId": "208879",
+      "title": "Never Before",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 267080
+    },
+    {
+      "id": "netease-track:208880",
+      "neteaseTrackId": "208880",
+      "title": "See You Again",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 271666
+    },
+    {
+      "id": "netease-track:208881",
+      "neteaseTrackId": "208881",
+      "title": "Game With Fate",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 189026
+    },
+    {
+      "id": "netease-track:208882",
+      "neteaseTrackId": "208882",
+      "title": "Key To Happiness",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 242733
+    },
+    {
+      "id": "netease-track:208883",
+      "neteaseTrackId": "208883",
+      "title": "Friends",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 228186
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=21249",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Just Say So 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

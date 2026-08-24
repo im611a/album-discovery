@@ -1,0 +1,177 @@
+{
+  "internalId": "album:21255",
+  "id": "album:21255",
+  "neteaseAlbumId": "21255",
+  "slug": "my-space",
+  "title": "My Space",
+  "aliases": [
+    "限量限定纪念盘"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2008-07-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21255.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21255.webp",
+    "alt": "《My Space》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:208915",
+      "neteaseTrackId": "208915",
+      "title": "越来越不懂",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 229120
+    },
+    {
+      "id": "netease-track:208917",
+      "neteaseTrackId": "208917",
+      "title": "达尔文",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 308040
+    },
+    {
+      "id": "netease-track:208919",
+      "neteaseTrackId": "208919",
+      "title": "The Blower's Daughter",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 288787
+    },
+    {
+      "id": "netease-track:208921",
+      "neteaseTrackId": "208921",
+      "title": "Change the World",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 255712
+    },
+    {
+      "id": "netease-track:208923",
+      "neteaseTrackId": "208923",
+      "title": "空白格",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 233373
+    },
+    {
+      "id": "netease-track:208925",
+      "neteaseTrackId": "208925",
+      "title": "记念",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 238040
+    },
+    {
+      "id": "netease-track:208927",
+      "neteaseTrackId": "208927",
+      "title": "思念",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 236973
+    },
+    {
+      "id": "netease-track:208929",
+      "neteaseTrackId": "208929",
+      "title": "呼吸",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 292200
+    },
+    {
+      "id": "netease-track:208930",
+      "neteaseTrackId": "208930",
+      "title": "Is It Over Now?",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 210920
+    },
+    {
+      "id": "netease-track:208931",
+      "neteaseTrackId": "208931",
+      "title": "依赖",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 179520
+    },
+    {
+      "id": "netease-track:208932",
+      "neteaseTrackId": "208932",
+      "title": "对爱渴望",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 265453
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=21255",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "My Space 限量限定纪念盘 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

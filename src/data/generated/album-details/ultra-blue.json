@@ -1,0 +1,197 @@
+{
+  "internalId": "album:64259",
+  "id": "album:64259",
+  "neteaseAlbumId": "64259",
+  "slug": "ultra-blue",
+  "title": "ULTRA BLUE",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2006-06-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64259.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64259.webp",
+    "alt": "《ULTRA BLUE》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666500",
+      "neteaseTrackId": "666500",
+      "title": "This Is Love",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 298173
+    },
+    {
+      "id": "netease-track:666502",
+      "neteaseTrackId": "666502",
+      "title": "Keep Tryin'",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 292586
+    },
+    {
+      "id": "netease-track:666504",
+      "neteaseTrackId": "666504",
+      "title": "Blue",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 315253
+    },
+    {
+      "id": "netease-track:666506",
+      "neteaseTrackId": "666506",
+      "title": "日曜の朝",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 285072
+    },
+    {
+      "id": "netease-track:666510",
+      "neteaseTrackId": "666510",
+      "title": "Making Love",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 265596
+    },
+    {
+      "id": "netease-track:666514",
+      "neteaseTrackId": "666514",
+      "title": "誰かの願いが叶うころ",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 268027
+    },
+    {
+      "id": "netease-track:666517",
+      "neteaseTrackId": "666517",
+      "title": "Colors",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 239373
+    },
+    {
+      "id": "netease-track:666524",
+      "neteaseTrackId": "666524",
+      "title": "One Night Magic",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 279824
+    },
+    {
+      "id": "netease-track:666527",
+      "neteaseTrackId": "666527",
+      "title": "海路",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 215055
+    },
+    {
+      "id": "netease-track:666531",
+      "neteaseTrackId": "666531",
+      "title": "Wings",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 291851
+    },
+    {
+      "id": "netease-track:666535",
+      "neteaseTrackId": "666535",
+      "title": "Be My Last",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 271998
+    },
+    {
+      "id": "netease-track:666539",
+      "neteaseTrackId": "666539",
+      "title": "Eclipse (Interlude)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 92053
+    },
+    {
+      "id": "netease-track:666544",
+      "neteaseTrackId": "666544",
+      "title": "Passion",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 284933
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=64259",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "ULTRA BLUE 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

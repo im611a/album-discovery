@@ -1,0 +1,109 @@
+{
+  "internalId": "album:151299",
+  "id": "album:151299",
+  "neteaseAlbumId": "151299",
+  "slug": "go-deep",
+  "title": "Go Deep",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1998-06-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151299.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151299.webp",
+    "alt": "《Go Deep》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480066",
+      "neteaseTrackId": "1480066",
+      "title": "Go Deep (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 283012
+    },
+    {
+      "id": "netease-track:1480071",
+      "neteaseTrackId": "1480071",
+      "title": "Go Deep (T.R Funk Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 339906
+    },
+    {
+      "id": "netease-track:1480074",
+      "neteaseTrackId": "1480074",
+      "title": "Go Deep (Roni Size Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 446000
+    },
+    {
+      "id": "netease-track:1480077",
+      "neteaseTrackId": "1480077",
+      "title": "Go Deep (Masters At Work Alternate Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 509066
+    },
+    {
+      "id": "netease-track:1480080",
+      "neteaseTrackId": "1480080",
+      "title": "Go Deep (Masters At Work Down Tempo Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 316893
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=151299",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Go Deep Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

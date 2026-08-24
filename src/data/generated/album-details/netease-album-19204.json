@@ -1,0 +1,217 @@
+{
+  "internalId": "album:19204",
+  "id": "album:19204",
+  "neteaseAlbumId": "19204",
+  "slug": "netease-album-19204",
+  "title": "美国",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2006-03-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19204.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19204.webp",
+    "alt": "《美国》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:190045",
+      "neteaseTrackId": "190045",
+      "title": "云的南方",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "盛中国"
+      ],
+      "durationMs": 173037
+    },
+    {
+      "id": "netease-track:190050",
+      "neteaseTrackId": "190050",
+      "title": "在林中飞过",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "希阿措",
+        "左小祖咒"
+      ],
+      "durationMs": 219037
+    },
+    {
+      "id": "netease-track:190055",
+      "neteaseTrackId": "190055",
+      "title": "乌兰巴托的夜",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 274411
+    },
+    {
+      "id": "netease-track:190060",
+      "neteaseTrackId": "190060",
+      "title": "你的箫声 你的身影",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "希阿措",
+        "左小祖咒",
+        "张玮玮"
+      ],
+      "durationMs": 201640
+    },
+    {
+      "id": "netease-track:190065",
+      "neteaseTrackId": "190065",
+      "title": "醇厚的心/云的南方",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "张玮玮"
+      ],
+      "durationMs": 153388
+    },
+    {
+      "id": "netease-track:190070",
+      "neteaseTrackId": "190070",
+      "title": "相信我 没错的",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 55593
+    },
+    {
+      "id": "netease-track:190075",
+      "neteaseTrackId": "190075",
+      "title": "512厂",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 96920
+    },
+    {
+      "id": "netease-track:190080",
+      "neteaseTrackId": "190080",
+      "title": "一颗心/云的南方",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 187998
+    },
+    {
+      "id": "netease-track:190084",
+      "neteaseTrackId": "190084",
+      "title": "农夫的天空",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "张玮玮"
+      ],
+      "durationMs": 225247
+    },
+    {
+      "id": "netease-track:190087",
+      "neteaseTrackId": "190087",
+      "title": "薄雾",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 100918
+    },
+    {
+      "id": "netease-track:190090",
+      "neteaseTrackId": "190090",
+      "title": "我的天啊/云的南方",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "张玮玮"
+      ],
+      "durationMs": 222330
+    },
+    {
+      "id": "netease-track:190092",
+      "neteaseTrackId": "190092",
+      "title": "超强薄荷/云的南方",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "盛中国"
+      ],
+      "durationMs": 476821
+    },
+    {
+      "id": "netease-track:190095",
+      "neteaseTrackId": "190095",
+      "title": "泸沽湖情歌",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 153195
+    },
+    {
+      "id": "netease-track:190098",
+      "neteaseTrackId": "190098",
+      "title": "拿走的云",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 109889
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=19204",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "美国 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

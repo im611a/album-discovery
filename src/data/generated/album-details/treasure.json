@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1577475",
+  "id": "album:1577475",
+  "neteaseAlbumId": "1577475",
+  "slug": "treasure",
+  "title": "Treasure",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1984-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "4AD",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577475.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577475.webp",
+    "alt": "《Treasure》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17124730",
+      "neteaseTrackId": "17124730",
+      "title": "Ivo",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 233160
+    },
+    {
+      "id": "netease-track:17124731",
+      "neteaseTrackId": "17124731",
+      "title": "Lorelei",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 223573
+    },
+    {
+      "id": "netease-track:17124732",
+      "neteaseTrackId": "17124732",
+      "title": "Beatrix",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 192000
+    },
+    {
+      "id": "netease-track:17124733",
+      "neteaseTrackId": "17124733",
+      "title": "Persephone",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 260426
+    },
+    {
+      "id": "netease-track:17124734",
+      "neteaseTrackId": "17124734",
+      "title": "Pandora (for Cindy)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 335306
+    },
+    {
+      "id": "netease-track:17124735",
+      "neteaseTrackId": "17124735",
+      "title": "Amelia",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 211666
+    },
+    {
+      "id": "netease-track:17124736",
+      "neteaseTrackId": "17124736",
+      "title": "Aloysius",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 206666
+    },
+    {
+      "id": "netease-track:17124737",
+      "neteaseTrackId": "17124737",
+      "title": "Cicely",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 209533
+    },
+    {
+      "id": "netease-track:17124738",
+      "neteaseTrackId": "17124738",
+      "title": "Otterley",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 244066
+    },
+    {
+      "id": "netease-track:17124739",
+      "neteaseTrackId": "17124739",
+      "title": "Donimo",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 379066
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1577475",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Treasure Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

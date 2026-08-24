@@ -1,0 +1,122 @@
+{
+  "internalId": "album:27582",
+  "id": "album:27582",
+  "neteaseAlbumId": "27582",
+  "slug": "netease-album-27582",
+  "title": "我爱你",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "1998-02-28",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27582.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27582.webp",
+    "alt": "《我爱你》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277828",
+      "neteaseTrackId": "277828",
+      "title": "我爱你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 321560
+    },
+    {
+      "id": "netease-track:277829",
+      "neteaseTrackId": "277829",
+      "title": "想一个男生(Radio Edit)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "JuJu Club"
+      ],
+      "durationMs": 223867
+    },
+    {
+      "id": "netease-track:277830",
+      "neteaseTrackId": "277830",
+      "title": "爱自己",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 284333
+    },
+    {
+      "id": "netease-track:277831",
+      "neteaseTrackId": "277831",
+      "title": "午夜前的十分钟(Radi Edit)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 247067
+    },
+    {
+      "id": "netease-track:277832",
+      "neteaseTrackId": "277832",
+      "title": "想一个男生(Boom The Boy Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "JuJu Club"
+      ],
+      "durationMs": 428293
+    },
+    {
+      "id": "netease-track:277833",
+      "neteaseTrackId": "277833",
+      "title": "午夜前的十分钟(Boom The House Mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 406266
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=27582",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我爱你 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

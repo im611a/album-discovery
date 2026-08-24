@@ -1,0 +1,230 @@
+{
+  "internalId": "album:522668",
+  "id": "album:522668",
+  "neteaseAlbumId": "522668",
+  "slug": "growing-up",
+  "title": "Growing Up",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:160947",
+      "neteaseArtistId": "160947",
+      "name": "IU"
+    }
+  ],
+  "releaseDate": "2009-04-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Kakao Entertainment Corp.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/522668.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/522668.webp",
+    "alt": "《Growing Up》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5346786",
+      "neteaseTrackId": "5346786",
+      "title": "바라보기",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 203840
+    },
+    {
+      "id": "netease-track:5346787",
+      "neteaseTrackId": "5346787",
+      "title": "Boo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 203946
+    },
+    {
+      "id": "netease-track:5346788",
+      "neteaseTrackId": "5346788",
+      "title": "가여워",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 201253
+    },
+    {
+      "id": "netease-track:5346789",
+      "neteaseTrackId": "5346789",
+      "title": "A Dreamer",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 255986
+    },
+    {
+      "id": "netease-track:5346790",
+      "neteaseTrackId": "5346790",
+      "title": "Every Sweet Day",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 209533
+    },
+    {
+      "id": "netease-track:5346791",
+      "neteaseTrackId": "5346791",
+      "title": "미아",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 223080
+    },
+    {
+      "id": "netease-track:5346792",
+      "neteaseTrackId": "5346792",
+      "title": "나 말고 넷",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 190386
+    },
+    {
+      "id": "netease-track:5346793",
+      "neteaseTrackId": "5346793",
+      "title": "있잖아",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 202613
+    },
+    {
+      "id": "netease-track:5346794",
+      "neteaseTrackId": "5346794",
+      "title": "졸업하는 날",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 225160
+    },
+    {
+      "id": "netease-track:5346795",
+      "neteaseTrackId": "5346795",
+      "title": "Feel So Good",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 244253
+    },
+    {
+      "id": "netease-track:5346796",
+      "neteaseTrackId": "5346796",
+      "title": "미운 오리",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 210026
+    },
+    {
+      "id": "netease-track:5346797",
+      "neteaseTrackId": "5346797",
+      "title": "마주보기(바라보기 그 후)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 204293
+    },
+    {
+      "id": "netease-track:5346798",
+      "neteaseTrackId": "5346798",
+      "title": "미아(Acoustic Ver.)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 228520
+    },
+    {
+      "id": "netease-track:5346799",
+      "neteaseTrackId": "5346799",
+      "title": "있잖아(Rock Ver.)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 191266
+    },
+    {
+      "id": "netease-track:5346800",
+      "neteaseTrackId": "5346800",
+      "title": "Boo(Inst.)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 204240
+    },
+    {
+      "id": "netease-track:5346801",
+      "neteaseTrackId": "5346801",
+      "title": "가여워(Inst.)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "IU"
+      ],
+      "durationMs": 200613
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=522668",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Growing Up IU",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

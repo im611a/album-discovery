@@ -1,0 +1,329 @@
+{
+  "internalId": "album:432639",
+  "id": "album:432639",
+  "neteaseAlbumId": "432639",
+  "slug": "catch-the-breeze",
+  "title": "Catch The Breeze",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "name": "Slowdive"
+    }
+  ],
+  "releaseDate": "2004-10-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432639.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432639.webp",
+    "alt": "《Catch The Breeze》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4281106",
+      "neteaseTrackId": "4281106",
+      "title": "Slowdive",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 315680
+    },
+    {
+      "id": "netease-track:4281111",
+      "neteaseTrackId": "4281111",
+      "title": "Avalyn I",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 291680
+    },
+    {
+      "id": "netease-track:4281115",
+      "neteaseTrackId": "4281115",
+      "title": "Morningrise",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 260249
+    },
+    {
+      "id": "netease-track:4281120",
+      "neteaseTrackId": "4281120",
+      "title": "Catch The Breeze",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 264359
+    },
+    {
+      "id": "netease-track:4281126",
+      "neteaseTrackId": "4281126",
+      "title": "Golden Hair",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 243746
+    },
+    {
+      "id": "netease-track:4281132",
+      "neteaseTrackId": "4281132",
+      "title": "Shine",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 320746
+    },
+    {
+      "id": "netease-track:4281137",
+      "neteaseTrackId": "4281137",
+      "title": "Albatross",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 317893
+    },
+    {
+      "id": "netease-track:4281141",
+      "neteaseTrackId": "4281141",
+      "title": "Golden Hair [Live]",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 243746
+    },
+    {
+      "id": "netease-track:4281145",
+      "neteaseTrackId": "4281145",
+      "title": "Spanish Air",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 366000
+    },
+    {
+      "id": "netease-track:4281148",
+      "neteaseTrackId": "4281148",
+      "title": "So Tired",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 244227
+    },
+    {
+      "id": "netease-track:4281152",
+      "neteaseTrackId": "4281152",
+      "title": "Alison",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 230295
+    },
+    {
+      "id": "netease-track:4281156",
+      "neteaseTrackId": "4281156",
+      "title": "Country Rain",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 214691
+    },
+    {
+      "id": "netease-track:4281160",
+      "neteaseTrackId": "4281160",
+      "title": "Machine Gun",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 266843
+    },
+    {
+      "id": "netease-track:4281164",
+      "neteaseTrackId": "4281164",
+      "title": "When The Sun Hits",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 285440
+    },
+    {
+      "id": "netease-track:4281168",
+      "neteaseTrackId": "4281168",
+      "title": "40 Days",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 195929
+    },
+    {
+      "id": "netease-track:4281172",
+      "neteaseTrackId": "4281172",
+      "title": "Souvlaki Space Station",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 359066
+    },
+    {
+      "id": "netease-track:4281175",
+      "neteaseTrackId": "4281175",
+      "title": "Dagger",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 215318
+    },
+    {
+      "id": "netease-track:4281179",
+      "neteaseTrackId": "4281179",
+      "title": "Here She Comes",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 139760
+    },
+    {
+      "id": "netease-track:4281183",
+      "neteaseTrackId": "4281183",
+      "title": "Melon Yellow",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:4281187",
+      "neteaseTrackId": "4281187",
+      "title": "Sing",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 289386
+    },
+    {
+      "id": "netease-track:4281191",
+      "neteaseTrackId": "4281191",
+      "title": "Blue Skied An' Clear",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 412573
+    },
+    {
+      "id": "netease-track:4281195",
+      "neteaseTrackId": "4281195",
+      "title": "Crazy For You",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 362000
+    },
+    {
+      "id": "netease-track:4281199",
+      "neteaseTrackId": "4281199",
+      "title": "J's Heaven",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 407000
+    },
+    {
+      "id": "netease-track:4281203",
+      "neteaseTrackId": "4281203",
+      "title": "Vision Of La",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 105826
+    },
+    {
+      "id": "netease-track:4281206",
+      "neteaseTrackId": "4281206",
+      "title": "Rutti",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 608548
+    }
+  ],
+  "trackCount": 25,
+  "externalUrl": "https://music.163.com/#/album?id=432639",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Catch The Breeze Slowdive",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

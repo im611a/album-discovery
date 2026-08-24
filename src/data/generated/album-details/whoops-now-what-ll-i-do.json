@@ -1,0 +1,98 @@
+{
+  "internalId": "album:151311",
+  "id": "album:151311",
+  "neteaseAlbumId": "151311",
+  "slug": "whoops-now-what-ll-i-do",
+  "title": "Whoops Now/What'll I Do",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1995-01-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Virgin Catalogue",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151311.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151311.webp",
+    "alt": "《Whoops Now/What'll I Do》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480310",
+      "neteaseTrackId": "1480310",
+      "title": "Whoops Now (Single Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 220731
+    },
+    {
+      "id": "netease-track:1480315",
+      "neteaseTrackId": "1480315",
+      "title": "What'll I Do",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 245573
+    },
+    {
+      "id": "netease-track:1480320",
+      "neteaseTrackId": "1480320",
+      "title": "What'll I Do (Dave Navarro Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 260466
+    },
+    {
+      "id": "netease-track:1480325",
+      "neteaseTrackId": "1480325",
+      "title": "The Body That Loves You",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 333200
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=151311",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Whoops Now/What'll I Do Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

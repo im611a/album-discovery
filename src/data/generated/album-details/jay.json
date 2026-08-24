@@ -1,0 +1,166 @@
+{
+  "internalId": "album:18918",
+  "id": "album:18918",
+  "neteaseAlbumId": "18918",
+  "slug": "jay",
+  "title": "Jay",
+  "aliases": [
+    "杰伦"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6452",
+      "neteaseArtistId": "6452",
+      "name": "周杰伦"
+    }
+  ],
+  "releaseDate": "2000-11-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18918.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18918.webp",
+    "alt": "《Jay》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186145",
+      "neteaseTrackId": "186145",
+      "title": "可爱女人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 239027
+    },
+    {
+      "id": "netease-track:186147",
+      "neteaseTrackId": "186147",
+      "title": "完美主义",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 244533
+    },
+    {
+      "id": "netease-track:186149",
+      "neteaseTrackId": "186149",
+      "title": "星晴",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 259400
+    },
+    {
+      "id": "netease-track:186150",
+      "neteaseTrackId": "186150",
+      "title": "娘子",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 271000
+    },
+    {
+      "id": "netease-track:186152",
+      "neteaseTrackId": "186152",
+      "title": "斗牛",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 278000
+    },
+    {
+      "id": "netease-track:186154",
+      "neteaseTrackId": "186154",
+      "title": "黑色幽默",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 283190
+    },
+    {
+      "id": "netease-track:186156",
+      "neteaseTrackId": "186156",
+      "title": "伊斯坦堡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:186158",
+      "neteaseTrackId": "186158",
+      "title": "印第安老斑鸠",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 304000
+    },
+    {
+      "id": "netease-track:186160",
+      "neteaseTrackId": "186160",
+      "title": "龙卷风",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 250000
+    },
+    {
+      "id": "netease-track:186162",
+      "neteaseTrackId": "186162",
+      "title": "反方向的钟",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周杰伦"
+      ],
+      "durationMs": 258000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18918",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Jay 杰伦 周杰伦",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

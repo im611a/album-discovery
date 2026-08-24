@@ -1,0 +1,185 @@
+{
+  "internalId": "album:47580",
+  "id": "album:47580",
+  "neteaseAlbumId": "47580",
+  "slug": "virgin-house-ryuichi-sakamoto-tribute",
+  "title": "Virgin House~Ryuichi Sakamoto Tribute~",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2009-12-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47580.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47580.webp",
+    "alt": "《Virgin House~Ryuichi Sakamoto Tribute~》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:497896",
+      "neteaseTrackId": "497896",
+      "title": "Energy Flow",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Takao Fukushima"
+      ],
+      "durationMs": 196000
+    },
+    {
+      "id": "netease-track:497898",
+      "neteaseTrackId": "497898",
+      "title": "Asience",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "HORICH-st-EDGE"
+      ],
+      "durationMs": 156000
+    },
+    {
+      "id": "netease-track:497900",
+      "neteaseTrackId": "497900",
+      "title": "Merry Christmas Mr.Lawrence",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:497902",
+      "neteaseTrackId": "497902",
+      "title": "Put your hands up",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "nagaco"
+      ],
+      "durationMs": 200000
+    },
+    {
+      "id": "netease-track:497904",
+      "neteaseTrackId": "497904",
+      "title": "THE LAST EMPEROR THEME",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "LEMS",
+        "坂本龍一"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:497906",
+      "neteaseTrackId": "497906",
+      "title": "THE SHELTERING SKY THEME",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Total Art Spaghett"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:497908",
+      "neteaseTrackId": "497908",
+      "title": "Seven Samurai",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Takao Fukushima"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:497910",
+      "neteaseTrackId": "497910",
+      "title": "Rain",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "吉野ユウヤ"
+      ],
+      "durationMs": 334000
+    },
+    {
+      "id": "netease-track:497911",
+      "neteaseTrackId": "497911",
+      "title": "AMORE",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Cycle SeaQ"
+      ],
+      "durationMs": 281000
+    },
+    {
+      "id": "netease-track:497912",
+      "neteaseTrackId": "497912",
+      "title": "黄土高原",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Takao Fukushima"
+      ],
+      "durationMs": 251000
+    },
+    {
+      "id": "netease-track:497913",
+      "neteaseTrackId": "497913",
+      "title": "东风~TONG POO~",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一",
+        "Total Art Spaghett　　"
+      ],
+      "durationMs": 384000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=47580",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Virgin House~Ryuichi Sakamoto Tribute~ 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

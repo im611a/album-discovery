@@ -1,0 +1,120 @@
+{
+  "internalId": "album:220665",
+  "id": "album:220665",
+  "neteaseAlbumId": "220665",
+  "slug": "4-the-remix",
+  "title": "4: The Remix",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2012-04-22",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220665.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220665.webp",
+    "alt": "《4: The Remix》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2187707",
+      "neteaseTrackId": "2187707",
+      "title": "Run the World (Girls) (Dave Audé Club Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 512743
+    },
+    {
+      "id": "netease-track:2187710",
+      "neteaseTrackId": "2187710",
+      "title": "Countdown (Isa Machine Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 210326
+    },
+    {
+      "id": "netease-track:2187713",
+      "neteaseTrackId": "2187713",
+      "title": "Best Thing I Never Had (Lars B Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 430335
+    },
+    {
+      "id": "netease-track:2187716",
+      "neteaseTrackId": "2187716",
+      "title": "Love On Top (DJ Escape & Tony Coluccio Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 486736
+    },
+    {
+      "id": "netease-track:2187719",
+      "neteaseTrackId": "2187719",
+      "title": "End Of Time (WAWA Extended)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 335528
+    },
+    {
+      "id": "netease-track:2187722",
+      "neteaseTrackId": "2187722",
+      "title": "End Of Time (JIMEK Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 235357
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=220665",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "4: The Remix Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

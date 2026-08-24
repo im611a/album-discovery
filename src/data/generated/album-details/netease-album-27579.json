@@ -1,0 +1,187 @@
+{
+  "internalId": "album:27579",
+  "id": "album:27579",
+  "neteaseAlbumId": "27579",
+  "slug": "netease-album-27579",
+  "title": "我要说",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "1998-06-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27579.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27579.webp",
+    "alt": "《我要说》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277800",
+      "neteaseTrackId": "277800",
+      "title": "I Say",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 242400
+    },
+    {
+      "id": "netease-track:277801",
+      "neteaseTrackId": "277801",
+      "title": "开水与白面包",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 212893
+    },
+    {
+      "id": "netease-track:277802",
+      "neteaseTrackId": "277802",
+      "title": "真的吗",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 321306
+    },
+    {
+      "id": "netease-track:277803",
+      "neteaseTrackId": "277803",
+      "title": "坚强的理由",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "伍佰"
+      ],
+      "durationMs": 318160
+    },
+    {
+      "id": "netease-track:277804",
+      "neteaseTrackId": "277804",
+      "title": "爱情",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 285906
+    },
+    {
+      "id": "netease-track:277805",
+      "neteaseTrackId": "277805",
+      "title": "我不耐烦",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 216200
+    },
+    {
+      "id": "netease-track:277806",
+      "neteaseTrackId": "277806",
+      "title": "没时间",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 270266
+    },
+    {
+      "id": "netease-track:277807",
+      "neteaseTrackId": "277807",
+      "title": "Let's Fall In Love",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 237266
+    },
+    {
+      "id": "netease-track:277808",
+      "neteaseTrackId": "277808",
+      "title": "Slowly",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 293733
+    },
+    {
+      "id": "netease-track:277809",
+      "neteaseTrackId": "277809",
+      "title": "Just Say Goodbye",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 283360
+    },
+    {
+      "id": "netease-track:277810",
+      "neteaseTrackId": "277810",
+      "title": "是非题",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 246773
+    },
+    {
+      "id": "netease-track:277811",
+      "neteaseTrackId": "277811",
+      "title": "边界饭店",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 270760
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=27579",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我要说 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

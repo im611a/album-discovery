@@ -1,0 +1,176 @@
+{
+  "internalId": "album:7605",
+  "id": "album:7605",
+  "neteaseAlbumId": "7605",
+  "slug": "netease-album-7605",
+  "title": "艳阳天",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    }
+  ],
+  "releaseDate": "1995-10-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7605.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7605.webp",
+    "alt": "《艳阳天》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77389",
+      "neteaseTrackId": "77389",
+      "title": "引子",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 54333
+    },
+    {
+      "id": "netease-track:77393",
+      "neteaseTrackId": "77393",
+      "title": "出发",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 340866
+    },
+    {
+      "id": "netease-track:77397",
+      "neteaseTrackId": "77397",
+      "title": "窗外",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 285133
+    },
+    {
+      "id": "netease-track:77402",
+      "neteaseTrackId": "77402",
+      "title": "春去春来",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 270426
+    },
+    {
+      "id": "netease-track:77407",
+      "neteaseTrackId": "77407",
+      "title": "他",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 284893
+    },
+    {
+      "id": "netease-track:77412",
+      "neteaseTrackId": "77412",
+      "title": "阴",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 67520
+    },
+    {
+      "id": "netease-track:77417",
+      "neteaseTrackId": "77417",
+      "title": "艳阳天",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 241693
+    },
+    {
+      "id": "netease-track:77422",
+      "neteaseTrackId": "77422",
+      "title": "说不出的感觉",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 261013
+    },
+    {
+      "id": "netease-track:77426",
+      "neteaseTrackId": "77426",
+      "title": "晚霞",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 262160
+    },
+    {
+      "id": "netease-track:77429",
+      "neteaseTrackId": "77429",
+      "title": "黄昏",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 238546
+    },
+    {
+      "id": "netease-track:77432",
+      "neteaseTrackId": "77432",
+      "title": "未知",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 269573
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=7605",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic",
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "艳阳天 窦唯",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

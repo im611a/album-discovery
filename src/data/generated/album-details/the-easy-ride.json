@@ -1,0 +1,175 @@
+{
+  "internalId": "album:6581",
+  "id": "album:6581",
+  "neteaseAlbumId": "6581",
+  "slug": "the-easy-ride",
+  "title": "The Easy Ride",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2001-11-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "英皇唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6581.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6581.webp",
+    "alt": "《The Easy Ride》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67263",
+      "neteaseTrackId": "67263",
+      "title": "阿士匹灵",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 227277
+    },
+    {
+      "id": "netease-track:67267",
+      "neteaseTrackId": "67267",
+      "title": "阳性反应",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 14152
+    },
+    {
+      "id": "netease-track:67273",
+      "neteaseTrackId": "67273",
+      "title": "冲口而出",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 213124
+    },
+    {
+      "id": "netease-track:67279",
+      "neteaseTrackId": "67279",
+      "title": "大开眼戒",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 250934
+    },
+    {
+      "id": "netease-track:67284",
+      "neteaseTrackId": "67284",
+      "title": "我不好爱",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 238446
+    },
+    {
+      "id": "netease-track:67289",
+      "neteaseTrackId": "67289",
+      "title": "热带雨林",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 258080
+    },
+    {
+      "id": "netease-track:67294",
+      "neteaseTrackId": "67294",
+      "title": "人工智能",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 222282
+    },
+    {
+      "id": "netease-track:67300",
+      "neteaseTrackId": "67300",
+      "title": "结束开始",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 226999
+    },
+    {
+      "id": "netease-track:67307",
+      "neteaseTrackId": "67307",
+      "title": "活着多好",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 263630
+    },
+    {
+      "id": "netease-track:67312",
+      "neteaseTrackId": "67312",
+      "title": "他一个人",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 264532
+    },
+    {
+      "id": "netease-track:67317",
+      "neteaseTrackId": "67317",
+      "title": "不知所谓",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 201815
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=6581",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Easy Ride 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

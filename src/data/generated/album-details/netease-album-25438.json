@@ -1,0 +1,198 @@
+{
+  "internalId": "album:25438",
+  "id": "album:25438",
+  "neteaseAlbumId": "25438",
+  "slug": "netease-album-25438",
+  "title": "很爱很爱你",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "1998-11-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25438.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25438.webp",
+    "alt": "《很爱很爱你》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254589",
+      "neteaseTrackId": "254589",
+      "title": "很爱很爱你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 283000
+    },
+    {
+      "id": "netease-track:254590",
+      "neteaseTrackId": "254590",
+      "title": "花季未了",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 273333
+    },
+    {
+      "id": "netease-track:254591",
+      "neteaseTrackId": "254591",
+      "title": "Flying",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 146066
+    },
+    {
+      "id": "netease-track:254592",
+      "neteaseTrackId": "254592",
+      "title": "好久好久",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "光良"
+      ],
+      "durationMs": 297958
+    },
+    {
+      "id": "netease-track:254593",
+      "neteaseTrackId": "254593",
+      "title": "最初的地方",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 265426
+    },
+    {
+      "id": "netease-track:254594",
+      "neteaseTrackId": "254594",
+      "title": "透明",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 160973
+    },
+    {
+      "id": "netease-track:254595",
+      "neteaseTrackId": "254595",
+      "title": "你说的对",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 317026
+    },
+    {
+      "id": "netease-track:254596",
+      "neteaseTrackId": "254596",
+      "title": "梦童",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 231573
+    },
+    {
+      "id": "netease-track:254597",
+      "neteaseTrackId": "254597",
+      "title": "距离",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 298266
+    },
+    {
+      "id": "netease-track:254598",
+      "neteaseTrackId": "254598",
+      "title": "多个朋友",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 278039
+    },
+    {
+      "id": "netease-track:1318284476",
+      "neteaseTrackId": "1318284476",
+      "title": "为爱痴狂",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 304893
+    },
+    {
+      "id": "netease-track:1318458072",
+      "neteaseTrackId": "1318458072",
+      "title": "决定",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 298028
+    },
+    {
+      "id": "netease-track:1318284475",
+      "neteaseTrackId": "1318284475",
+      "title": "打了一把钥匙给你",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 303133
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=25438",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "很爱很爱你 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

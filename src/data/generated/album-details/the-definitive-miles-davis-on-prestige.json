@@ -1,0 +1,324 @@
+{
+  "internalId": "album:1970114",
+  "id": "album:1970114",
+  "neteaseAlbumId": "1970114",
+  "slug": "the-definitive-miles-davis-on-prestige",
+  "title": "The Definitive Miles Davis on Prestige",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2010-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Prestige",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970114.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970114.webp",
+    "alt": "《The Definitive Miles Davis on Prestige》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21333176",
+      "neteaseTrackId": "21333176",
+      "title": "Morpheus",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "John Lewis",
+        "Sonny Rollins"
+      ],
+      "durationMs": 142706
+    },
+    {
+      "id": "netease-track:21333177",
+      "neteaseTrackId": "21333177",
+      "title": "Ezz-Thetic",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Lee Konitz"
+      ],
+      "durationMs": 175746
+    },
+    {
+      "id": "netease-track:21333178",
+      "neteaseTrackId": "21333178",
+      "title": "Dig",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Sonny Rollins"
+      ],
+      "durationMs": 455160
+    },
+    {
+      "id": "netease-track:21333179",
+      "neteaseTrackId": "21333179",
+      "title": "Four",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 244493
+    },
+    {
+      "id": "netease-track:21333180",
+      "neteaseTrackId": "21333180",
+      "title": "Compulsion",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 346693
+    },
+    {
+      "id": "netease-track:21333181",
+      "neteaseTrackId": "21333181",
+      "title": "Solar",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis All Stars"
+      ],
+      "durationMs": 286266
+    },
+    {
+      "id": "netease-track:21333182",
+      "neteaseTrackId": "21333182",
+      "title": "I'll Remember April",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 474773
+    },
+    {
+      "id": "netease-track:21333183",
+      "neteaseTrackId": "21333183",
+      "title": "Walkin'",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis All Stars"
+      ],
+      "durationMs": 805477
+    },
+    {
+      "id": "netease-track:21333184",
+      "neteaseTrackId": "21333184",
+      "title": "Airegin",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Modern Jazz Giants"
+      ],
+      "durationMs": 300040
+    },
+    {
+      "id": "netease-track:21333185",
+      "neteaseTrackId": "21333185",
+      "title": "In Your Own Sweet Way",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 276640
+    },
+    {
+      "id": "netease-track:21333186",
+      "neteaseTrackId": "21333186",
+      "title": "Bags' Groove (Take 1)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Modern Jazz Giants"
+      ],
+      "durationMs": 676826
+    },
+    {
+      "id": "netease-track:21333187",
+      "neteaseTrackId": "21333187",
+      "title": "Will You Still Be Mine?",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 380693
+    },
+    {
+      "id": "netease-track:21333188",
+      "neteaseTrackId": "21333188",
+      "title": "There Is No Greater Love",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 322226
+    },
+    {
+      "id": "netease-track:21333189",
+      "neteaseTrackId": "21333189",
+      "title": "Surrey With The Fringe On Top",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 547253
+    },
+    {
+      "id": "netease-track:21333190",
+      "neteaseTrackId": "21333190",
+      "title": "Salt Peanuts",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 370186
+    },
+    {
+      "id": "netease-track:21333191",
+      "neteaseTrackId": "21333191",
+      "title": "It Never Entered My Mind (Instrumental)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 326680
+    },
+    {
+      "id": "netease-track:21333192",
+      "neteaseTrackId": "21333192",
+      "title": "If I Were A Bell",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 501280
+    },
+    {
+      "id": "netease-track:21333193",
+      "neteaseTrackId": "21333193",
+      "title": "'Round Midnight",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 324720
+    },
+    {
+      "id": "netease-track:21333194",
+      "neteaseTrackId": "21333194",
+      "title": "I Could Write A Book",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 311333
+    },
+    {
+      "id": "netease-track:21333195",
+      "neteaseTrackId": "21333195",
+      "title": "Oleo (1956 version)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 391280
+    },
+    {
+      "id": "netease-track:21333196",
+      "neteaseTrackId": "21333196",
+      "title": "My Funny Valentine",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 361320
+    },
+    {
+      "id": "netease-track:21333197",
+      "neteaseTrackId": "21333197",
+      "title": "Tune Up",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 341346
+    },
+    {
+      "id": "netease-track:21333198",
+      "neteaseTrackId": "21333198",
+      "title": "When Lights Are Low",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 455666
+    },
+    {
+      "id": "netease-track:21333199",
+      "neteaseTrackId": "21333199",
+      "title": "The Theme (Take 1)",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 119186
+    }
+  ],
+  "trackCount": 24,
+  "externalUrl": "https://music.163.com/#/album?id=1970114",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Definitive Miles Davis on Prestige Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

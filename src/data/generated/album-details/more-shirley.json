@@ -1,0 +1,209 @@
+{
+  "internalId": "album:29788",
+  "id": "album:29788",
+  "neteaseAlbumId": "29788",
+  "slug": "more-shirley",
+  "title": "More Shirley",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1992-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29788.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29788.webp",
+    "alt": "《More Shirley》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300607",
+      "neteaseTrackId": "300607",
+      "title": "明年今夜",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 256000
+    },
+    {
+      "id": "netease-track:300608",
+      "neteaseTrackId": "300608",
+      "title": "美丽的震荡",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:300609",
+      "neteaseTrackId": "300609",
+      "title": "游荡",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 289158
+    },
+    {
+      "id": "netease-track:300611",
+      "neteaseTrackId": "300611",
+      "title": "只有你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:300613",
+      "neteaseTrackId": "300613",
+      "title": "仍是旧句子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 218400
+    },
+    {
+      "id": "netease-track:300615",
+      "neteaseTrackId": "300615",
+      "title": "斗快说笑话",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 246866
+    },
+    {
+      "id": "netease-track:300617",
+      "neteaseTrackId": "300617",
+      "title": "激流",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 301826
+    },
+    {
+      "id": "netease-track:300619",
+      "neteaseTrackId": "300619",
+      "title": "温柔的手",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 232133
+    },
+    {
+      "id": "netease-track:300621",
+      "neteaseTrackId": "300621",
+      "title": "中间人",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 271400
+    },
+    {
+      "id": "netease-track:300623",
+      "neteaseTrackId": "300623",
+      "title": "一刹那",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266373
+    },
+    {
+      "id": "netease-track:300625",
+      "neteaseTrackId": "300625",
+      "title": "不装饰",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 300000
+    },
+    {
+      "id": "netease-track:300627",
+      "neteaseTrackId": "300627",
+      "title": "无原因",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:300630",
+      "neteaseTrackId": "300630",
+      "title": "新生",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 217866
+    },
+    {
+      "id": "netease-track:300631",
+      "neteaseTrackId": "300631",
+      "title": "哭墙",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 274973
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=29788",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "More Shirley 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

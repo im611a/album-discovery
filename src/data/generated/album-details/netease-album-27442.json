@@ -1,0 +1,121 @@
+{
+  "internalId": "album:27442",
+  "id": "album:27442",
+  "neteaseAlbumId": "27442",
+  "slug": "netease-album-27442",
+  "title": "我们不哭了",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8918",
+      "neteaseArtistId": "8918",
+      "name": "梅艳芳"
+    },
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    },
+    {
+      "id": "netease-artist:10204",
+      "neteaseArtistId": "10204",
+      "name": "杨千嬅"
+    },
+    {
+      "id": "netease-artist:7913",
+      "neteaseArtistId": "7913",
+      "name": "何超仪"
+    },
+    {
+      "id": "netease-artist:3113",
+      "neteaseArtistId": "3113",
+      "name": "海俊杰"
+    }
+  ],
+  "releaseDate": "1996-02-13",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27442.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27442.webp",
+    "alt": "《我们不哭了》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:276279",
+      "neteaseTrackId": "276279",
+      "title": "我们都哭了",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "梅艳芳"
+      ],
+      "durationMs": 152000
+    },
+    {
+      "id": "netease-track:276280",
+      "neteaseTrackId": "276280",
+      "title": "我们不哭了",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "何超仪",
+        "杨千嬅",
+        "陈奕迅",
+        "海俊杰"
+      ],
+      "durationMs": 195666
+    },
+    {
+      "id": "netease-track:276281",
+      "neteaseTrackId": "276281",
+      "title": "我们都哭了(伴奏)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "梅艳芳"
+      ],
+      "durationMs": 151480
+    },
+    {
+      "id": "netease-track:276282",
+      "neteaseTrackId": "276282",
+      "title": "我们不哭了(伴奏)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "梅艳芳"
+      ],
+      "durationMs": 199027
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=27442",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我们不哭了 梅艳芳 陈奕迅 杨千嬅 何超仪 海俊杰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

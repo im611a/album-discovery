@@ -1,0 +1,120 @@
+{
+  "internalId": "album:47791",
+  "id": "album:47791",
+  "neteaseAlbumId": "47791",
+  "slug": "netease-album-47791",
+  "title": "千のナイフ (2016 リマスター)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1978-10-24",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "(P)Nippon Columbia Co., Ltd. / NIPPONOPHONE",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47791.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47791.webp",
+    "alt": "《千のナイフ (2016 リマスター)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:501143",
+      "neteaseTrackId": "501143",
+      "title": "サウザント・ナイブス (2016 リマスター)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 575586
+    },
+    {
+      "id": "netease-track:501148",
+      "neteaseTrackId": "501148",
+      "title": "アイランド・オブ・ウッズ (2016 リマスター)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 590280
+    },
+    {
+      "id": "netease-track:501153",
+      "neteaseTrackId": "501153",
+      "title": "グラスホッパーズ (2016 リマスター)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 315906
+    },
+    {
+      "id": "netease-track:501157",
+      "neteaseTrackId": "501157",
+      "title": "ダス・ノイエ・ヤパニッシェ・エレクトロニッシェ・フォルクスリート (2016 リマスター)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 485493
+    },
+    {
+      "id": "netease-track:501161",
+      "neteaseTrackId": "501161",
+      "title": "プラスティック・バンブー (2016 リマスター)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 391506
+    },
+    {
+      "id": "netease-track:501165",
+      "neteaseTrackId": "501165",
+      "title": "ジ・エンド・オブ・エイジア (2016 リマスター)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 388026
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=47791",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "千のナイフ (2016 リマスター) 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

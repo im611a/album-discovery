@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19000",
+  "id": "album:19000",
+  "neteaseAlbumId": "19000",
+  "slug": "netease-album-19000",
+  "title": "心事",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1993-05-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19000.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19000.webp",
+    "alt": "《心事》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187333",
+      "neteaseTrackId": "187333",
+      "title": "我是真的爱你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 318573
+    },
+    {
+      "id": "netease-track:187338",
+      "neteaseTrackId": "187338",
+      "title": "爱如潮水",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 274840
+    },
+    {
+      "id": "netease-track:187342",
+      "neteaseTrackId": "187342",
+      "title": "想你是一种鼓励",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 302960
+    },
+    {
+      "id": "netease-track:187346",
+      "neteaseTrackId": "187346",
+      "title": "临别一眼",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 296040
+    },
+    {
+      "id": "netease-track:187350",
+      "neteaseTrackId": "187350",
+      "title": "这个世界",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 220133
+    },
+    {
+      "id": "netease-track:187353",
+      "neteaseTrackId": "187353",
+      "title": "我真的愿意",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 269333
+    },
+    {
+      "id": "netease-track:187356",
+      "neteaseTrackId": "187356",
+      "title": "你是我的生命、我的太阳",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 289732
+    },
+    {
+      "id": "netease-track:187359",
+      "neteaseTrackId": "187359",
+      "title": "难道",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 285880
+    },
+    {
+      "id": "netease-track:187363",
+      "neteaseTrackId": "187363",
+      "title": "要你亲口对我说",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 282933
+    },
+    {
+      "id": "netease-track:187367",
+      "neteaseTrackId": "187367",
+      "title": "我要让你知道",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 277800
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19000",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "心事 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

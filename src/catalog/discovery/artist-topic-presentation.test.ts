@@ -13,14 +13,14 @@ import { publishedDiscoveryIndex } from "./published-index";
 
 const topicKinds: TopicKind[] = ["core", "related", "decade", "scene"];
 
-describe("R13-3D visible Artist presentation", () => {
-  it("adapts all 300 artists without changing engine authority", () => {
+describe("R13-3D visible Artist presentation", { timeout: 180_000 }, () => {
+  it("adapts all 453 artists without changing engine authority", () => {
     const presentations = publishedArtists.map((artist) =>
       buildArtistDiscoveryPresentation(artist.artistId));
-    expect(presentations).toHaveLength(300);
+    expect(presentations).toHaveLength(453);
     expect(presentations.every(Boolean)).toBe(true);
-    expect(presentations.filter((item) => item?.source.shape === "MULTI_WORK")).toHaveLength(62);
-    expect(presentations.filter((item) => item?.source.shape === "SINGLE_WORK")).toHaveLength(238);
+    expect(presentations.filter((item) => item?.source.shape === "MULTI_WORK")).toHaveLength(156);
+    expect(presentations.filter((item) => item?.source.shape === "SINGLE_WORK")).toHaveLength(297);
     for (const presentation of presentations) {
       const targetIds = [
         presentation!.primary.target.id,
@@ -33,7 +33,7 @@ describe("R13-3D visible Artist presentation", () => {
         buildArtistDiscoveryPresentation(presentation!.source.id),
       ));
     }
-  }, 30_000);
+  }, 180_000);
 
   it("keeps multi-work chronology primary and gives single-work artists a factual Album escape", () => {
     const multi = publishedArtists.find((artist) => artist.albumCount === 2)!;
@@ -63,11 +63,11 @@ describe("R13-3D visible Artist presentation", () => {
   });
 });
 
-describe("R13-3D visible topic presentation", () => {
-  it("adapts exactly the authorized 53 topic entities", () => {
+describe("R13-3D visible topic presentation", { timeout: 180_000 }, () => {
+  it("adapts exactly the 55 current-catalog topic entities", () => {
     const topics = topicKinds.flatMap((kind) =>
       getTopicSummaries(kind).map((topic) => ({ kind, topic })));
-    expect(topics).toHaveLength(53);
+    expect(topics).toHaveLength(55);
     for (const { kind, topic } of topics) {
       const presentation = buildTopicDiscoveryPresentation(kind, topic.key);
       expect(presentation).not.toBeNull();
@@ -79,7 +79,7 @@ describe("R13-3D visible topic presentation", () => {
         buildTopicDiscoveryPresentation(kind, topic.key),
       ));
     }
-  }, 30_000);
+  }, 180_000);
 
   it("preserves a validated Album origin on deep link and refresh", () => {
     const topic = getTopicSummaries("core")[0];
@@ -114,7 +114,7 @@ describe("R13-3D visible topic presentation", () => {
     ].flatMap((view) => view ? [view.primary, ...view.alternates] : [])
       .map((option) => `${option.lens} ${option.explanation}`).join(" ");
     expect(visibleCopy).not.toMatch(/SAME_|SHARED_|PRIMARY_|CONTEXT_|CLEAN_CHRONOLOGY|FALLBACK|SPECIFIC/);
-  }, 30_000);
+  }, 180_000);
 });
 
 describe("R13-3D entity-hop URL contract", () => {

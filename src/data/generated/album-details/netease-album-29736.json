@@ -1,0 +1,121 @@
+{
+  "internalId": "album:29736",
+  "id": "album:29736",
+  "neteaseAlbumId": "29736",
+  "slug": "netease-album-29736",
+  "title": "自便",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1997-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29736.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29736.webp",
+    "alt": "《自便》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300032",
+      "neteaseTrackId": "300032",
+      "title": "守时",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 252200
+    },
+    {
+      "id": "netease-track:300034",
+      "neteaseTrackId": "300034",
+      "title": "守护天使",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 218866
+    },
+    {
+      "id": "netease-track:300037",
+      "neteaseTrackId": "300037",
+      "title": "自便",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 296506
+    },
+    {
+      "id": "netease-track:300040",
+      "neteaseTrackId": "300040",
+      "title": "Di-Dar(Historical Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 195026
+    },
+    {
+      "id": "netease-track:300043",
+      "neteaseTrackId": "300043",
+      "title": "誓言(Discovery Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 235733
+    },
+    {
+      "id": "netease-track:300046",
+      "neteaseTrackId": "300046",
+      "title": "梦游(Universal Mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 230400
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=29736",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "自便 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

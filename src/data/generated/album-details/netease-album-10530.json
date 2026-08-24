@@ -1,0 +1,206 @@
+{
+  "internalId": "album:10530",
+  "id": "album:10530",
+  "neteaseAlbumId": "10530",
+  "slug": "netease-album-10530",
+  "title": "宝莲灯 电影原声音乐",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3562",
+      "neteaseArtistId": "3562",
+      "name": "金复载"
+    },
+    {
+      "id": "netease-artist:8331",
+      "neteaseArtistId": "8331",
+      "name": "李玟"
+    },
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    },
+    {
+      "id": "netease-artist:10859",
+      "neteaseArtistId": "10859",
+      "name": "宗庸卓玛"
+    },
+    {
+      "id": "netease-artist:3688",
+      "neteaseArtistId": "3688",
+      "name": "刘欢"
+    }
+  ],
+  "releaseDate": "1999-08-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10530.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10530.webp",
+    "alt": "《宝莲灯 电影原声音乐》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:106368",
+      "neteaseTrackId": "106368",
+      "title": "想你的365天",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "李玟"
+      ],
+      "durationMs": 328333
+    },
+    {
+      "id": "netease-track:106370",
+      "neteaseTrackId": "106370",
+      "title": "爱就一个字",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 275893
+    },
+    {
+      "id": "netease-track:106371",
+      "neteaseTrackId": "106371",
+      "title": "序曲：宝莲灯",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 204973
+    },
+    {
+      "id": "netease-track:106372",
+      "neteaseTrackId": "106372",
+      "title": "母子情深",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 204333
+    },
+    {
+      "id": "netease-track:106373",
+      "neteaseTrackId": "106373",
+      "title": "天宫孤儿",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 237000
+    },
+    {
+      "id": "netease-track:106374",
+      "neteaseTrackId": "106374",
+      "title": "土地爷授计",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 304733
+    },
+    {
+      "id": "netease-track:106375",
+      "neteaseTrackId": "106375",
+      "title": "太尉进言",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 79893
+    },
+    {
+      "id": "netease-track:106376",
+      "neteaseTrackId": "106376",
+      "title": "集市场面",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 171306
+    },
+    {
+      "id": "netease-track:106377",
+      "neteaseTrackId": "106377",
+      "title": "沉香求师",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 182800
+    },
+    {
+      "id": "netease-track:106378",
+      "neteaseTrackId": "106378",
+      "title": "火湖炼斧",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 165026
+    },
+    {
+      "id": "netease-track:106379",
+      "neteaseTrackId": "106379",
+      "title": "劈山救母",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "金复载"
+      ],
+      "durationMs": 348306
+    },
+    {
+      "id": "netease-track:106380",
+      "neteaseTrackId": "106380",
+      "title": "望月节舞蹈",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "宗庸卓玛"
+      ],
+      "durationMs": 230986
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=10530",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "宝莲灯 电影原声音乐 金复载 李玟 张信哲 宗庸卓玛 刘欢",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

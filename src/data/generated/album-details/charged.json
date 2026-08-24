@@ -1,0 +1,169 @@
+{
+  "internalId": "album:49543",
+  "id": "album:49543",
+  "neteaseAlbumId": "49543",
+  "slug": "charged",
+  "title": "Charged",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56226",
+      "neteaseArtistId": "56226",
+      "name": "Eraldo Bernocchi"
+    },
+    {
+      "id": "netease-artist:15581",
+      "neteaseArtistId": "15581",
+      "name": "近藤等则"
+    },
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1999-06-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Innerhythmic",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/49543.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/49543.webp",
+    "alt": "《Charged》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:525762",
+      "neteaseTrackId": "525762",
+      "title": "Called",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Eraldo Bernocchi",
+        "Toshinori Kondo",
+        "Bill Laswell"
+      ],
+      "durationMs": 328144
+    },
+    {
+      "id": "netease-track:525767",
+      "neteaseTrackId": "525767",
+      "title": "Cried",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Eraldo Bernocchi|",
+        "Toshinori Kondo",
+        "Bill Laswell"
+      ],
+      "durationMs": 350249
+    },
+    {
+      "id": "netease-track:525770",
+      "neteaseTrackId": "525770",
+      "title": "Cornered",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Eraldo Bernocchi",
+        "Toshinori Kondo",
+        "Bill Laswell"
+      ],
+      "durationMs": 468671
+    },
+    {
+      "id": "netease-track:525771",
+      "neteaseTrackId": "525771",
+      "title": "Connected",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Eraldo Bernocchi",
+        "Toshinori Kondo",
+        "Bill Laswell"
+      ],
+      "durationMs": 289506
+    },
+    {
+      "id": "netease-track:525774",
+      "neteaseTrackId": "525774",
+      "title": "Cleared",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Eraldo Bernocchi",
+        "Toshinori Kondo",
+        "Bill Laswell"
+      ],
+      "durationMs": 537959
+    },
+    {
+      "id": "netease-track:525777",
+      "neteaseTrackId": "525777",
+      "title": "Tokyo",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Eraldo Bernocchi",
+        "Toshinori Kondo",
+        "Bill Laswell"
+      ],
+      "durationMs": 323407
+    },
+    {
+      "id": "netease-track:525779",
+      "neteaseTrackId": "525779",
+      "title": "Crooned",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Eraldo Bernocchi",
+        "Toshinori Kondo",
+        "Bill Laswell"
+      ],
+      "durationMs": 335481
+    },
+    {
+      "id": "netease-track:525781",
+      "neteaseTrackId": "525781",
+      "title": "Changed",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Eraldo Bernocchi",
+        "Toshinori Kondo",
+        "Bill Laswell"
+      ],
+      "durationMs": 210187
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=49543",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Charged Eraldo Bernocchi 近藤等则 Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

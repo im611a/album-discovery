@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19087",
+  "id": "album:19087",
+  "neteaseAlbumId": "19087",
+  "slug": "salute",
+  "title": "Salute",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1989-08-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19087.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19087.webp",
+    "alt": "《Salute》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188563",
+      "neteaseTrackId": "188563",
+      "title": "童年时",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 228960
+    },
+    {
+      "id": "netease-track:188567",
+      "neteaseTrackId": "188567",
+      "title": "但愿人长久",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 230826
+    },
+    {
+      "id": "netease-track:188571",
+      "neteaseTrackId": "188571",
+      "title": "纸船",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248146
+    },
+    {
+      "id": "netease-track:188575",
+      "neteaseTrackId": "188575",
+      "title": "明星",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 246026
+    },
+    {
+      "id": "netease-track:188579",
+      "neteaseTrackId": "188579",
+      "title": "从不知",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 237626
+    },
+    {
+      "id": "netease-track:188582",
+      "neteaseTrackId": "188582",
+      "title": "滴汗",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 289573
+    },
+    {
+      "id": "netease-track:188585",
+      "neteaseTrackId": "188585",
+      "title": "漫天风雨",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 240626
+    },
+    {
+      "id": "netease-track:188587",
+      "neteaseTrackId": "188587",
+      "title": "这是爱",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 221866
+    },
+    {
+      "id": "netease-track:188589",
+      "neteaseTrackId": "188589",
+      "title": "雪中情'89",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 241706
+    },
+    {
+      "id": "netease-track:188591",
+      "neteaseTrackId": "188591",
+      "title": "似水流年",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 256573
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19087",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Salute 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

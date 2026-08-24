@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1970629",
+  "id": "album:1970629",
+  "neteaseAlbumId": "1970629",
+  "slug": "get-up-with-it",
+  "title": "Get Up With It",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1974-11-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970629.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970629.webp",
+    "alt": "《Get Up With It》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341404",
+      "neteaseTrackId": "21341404",
+      "title": "He Loved Him Madly",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1933061
+    },
+    {
+      "id": "netease-track:21341405",
+      "neteaseTrackId": "21341405",
+      "title": "Maiysha",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 888511
+    },
+    {
+      "id": "netease-track:21341406",
+      "neteaseTrackId": "21341406",
+      "title": "Honky Tonk",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 353384
+    },
+    {
+      "id": "netease-track:21341407",
+      "neteaseTrackId": "21341407",
+      "title": "Rated X",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 411225
+    },
+    {
+      "id": "netease-track:21341408",
+      "neteaseTrackId": "21341408",
+      "title": "Calypso Frelimo",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1925584
+    },
+    {
+      "id": "netease-track:21341409",
+      "neteaseTrackId": "21341409",
+      "title": "Red China Blues",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 247222
+    },
+    {
+      "id": "netease-track:21341410",
+      "neteaseTrackId": "21341410",
+      "title": "Mtume",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 909525
+    },
+    {
+      "id": "netease-track:21341411",
+      "neteaseTrackId": "21341411",
+      "title": "Billy Preston",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 753975
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1970629",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Get Up With It Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

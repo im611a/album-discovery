@@ -1,0 +1,120 @@
+{
+  "internalId": "album:172216",
+  "id": "album:172216",
+  "neteaseAlbumId": "172216",
+  "slug": "until-it-sleeps",
+  "title": "Until It Sleeps",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1994-05-20",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Elektra",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172216.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172216.webp",
+    "alt": "《Until It Sleeps》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1697805",
+      "neteaseTrackId": "1697805",
+      "title": "Until It Sleeps",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 269666
+    },
+    {
+      "id": "netease-track:1697809",
+      "neteaseTrackId": "1697809",
+      "title": "Until It Sleeps(Herman Melville Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:1697811",
+      "neteaseTrackId": "1697811",
+      "title": "Kill/ Ride Medley(Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 619000
+    },
+    {
+      "id": "netease-track:1697816",
+      "neteaseTrackId": "1697816",
+      "title": "X 4(Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 368000
+    },
+    {
+      "id": "netease-track:1697821",
+      "neteaseTrackId": "1697821",
+      "title": "Overkill(Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 249155
+    },
+    {
+      "id": "netease-track:1697826",
+      "neteaseTrackId": "1697826",
+      "title": "Fobd(Aka Until It Sleeps-Early 'Writing In Prgress' Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 296000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=172216",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Until It Sleeps Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

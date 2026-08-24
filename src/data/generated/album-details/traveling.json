@@ -1,0 +1,98 @@
+{
+  "internalId": "album:64316",
+  "id": "album:64316",
+  "neteaseAlbumId": "64316",
+  "slug": "traveling",
+  "title": "traveling",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2001-11-27",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64316.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64316.webp",
+    "alt": "《traveling》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:666962",
+      "neteaseTrackId": "666962",
+      "title": "traveling",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 314676
+    },
+    {
+      "id": "netease-track:666968",
+      "neteaseTrackId": "666968",
+      "title": "traveling -PLANITb remix-",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 632209
+    },
+    {
+      "id": "netease-track:666971",
+      "neteaseTrackId": "666971",
+      "title": "traveling -Bahiatronic Mix-",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 398291
+    },
+    {
+      "id": "netease-track:666975",
+      "neteaseTrackId": "666975",
+      "title": "traveling -Original Karaoke-",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 315001
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=64316",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "traveling 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

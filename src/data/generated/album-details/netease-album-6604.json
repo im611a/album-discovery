@@ -1,0 +1,167 @@
+{
+  "internalId": "album:6604",
+  "id": "album:6604",
+  "neteaseAlbumId": "6604",
+  "slug": "netease-album-6604",
+  "title": "婚礼的祝福",
+  "aliases": [
+    "Blessed Wedding"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "1999-09-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "广州万中无二音乐文化有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6604.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6604.webp",
+    "alt": "《婚礼的祝福》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67572",
+      "neteaseTrackId": "67572",
+      "title": "婚礼的祝福",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 261893
+    },
+    {
+      "id": "netease-track:67576",
+      "neteaseTrackId": "67576",
+      "title": "拔河",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "梁汉文"
+      ],
+      "durationMs": 280733
+    },
+    {
+      "id": "netease-track:67581",
+      "neteaseTrackId": "67581",
+      "title": "我的开始在这里",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 228506
+    },
+    {
+      "id": "netease-track:67586",
+      "neteaseTrackId": "67586",
+      "title": "转机",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 275160
+    },
+    {
+      "id": "netease-track:67591",
+      "neteaseTrackId": "67591",
+      "title": "My Girl",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 237933
+    },
+    {
+      "id": "netease-track:67596",
+      "neteaseTrackId": "67596",
+      "title": "掏空",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 246133
+    },
+    {
+      "id": "netease-track:67601",
+      "neteaseTrackId": "67601",
+      "title": "伤心证明书",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 303400
+    },
+    {
+      "id": "netease-track:67604",
+      "neteaseTrackId": "67604",
+      "title": "1个2个3个4个",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 226906
+    },
+    {
+      "id": "netease-track:67607",
+      "neteaseTrackId": "67607",
+      "title": "Just Between The Two Of Us",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 256493
+    },
+    {
+      "id": "netease-track:67610",
+      "neteaseTrackId": "67610",
+      "title": "存在",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 230960
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6604",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "婚礼的祝福 Blessed Wedding 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

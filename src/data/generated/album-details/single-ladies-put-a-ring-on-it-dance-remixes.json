@@ -1,0 +1,221 @@
+{
+  "internalId": "album:220730",
+  "id": "album:220730",
+  "neteaseAlbumId": "220730",
+  "slug": "single-ladies-put-a-ring-on-it-dance-remixes",
+  "title": "Single Ladies (Put A Ring On It) - Dance Remixes",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2009-02-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220730.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220730.webp",
+    "alt": "《Single Ladies (Put A Ring On It) - Dance Remixes》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:435592363",
+      "neteaseTrackId": "435592363",
+      "title": "Single Ladies (Put a Ring on It) (RedTop Remix - Radio Edit)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 213298
+    },
+    {
+      "id": "netease-track:435592362",
+      "neteaseTrackId": "435592362",
+      "title": "Single Ladies (Put a Ring on It) (My Digital Enemy Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "My Digital Enemy"
+      ],
+      "durationMs": 398129
+    },
+    {
+      "id": "netease-track:435552350",
+      "neteaseTrackId": "435552350",
+      "title": "Single Ladies (Put a Ring on It) (Olli Collins & Fred Portelli Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 459104
+    },
+    {
+      "id": "netease-track:2188419",
+      "neteaseTrackId": "2188419",
+      "title": "Single Ladies (Put a Ring on It) (Dave Audé Remix - Club Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Dave Audé"
+      ],
+      "durationMs": 500041
+    },
+    {
+      "id": "netease-track:435552351",
+      "neteaseTrackId": "435552351",
+      "title": "Single Ladies (Put a Ring on It) (The Japanese Popstars Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 466117
+    },
+    {
+      "id": "netease-track:2188411",
+      "neteaseTrackId": "2188411",
+      "title": "Single Ladies (Put a Ring on It)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 193607
+    },
+    {
+      "id": "netease-track:2188424",
+      "neteaseTrackId": "2188424",
+      "title": "Single Ladies [Put A Ring On It] (Karmatronic Remix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 354615
+    },
+    {
+      "id": "netease-track:2188415",
+      "neteaseTrackId": "2188415",
+      "title": "Single Ladies [Put A Ring On It] (Instrumental)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 194000
+    },
+    {
+      "id": "netease-track:2188428",
+      "neteaseTrackId": "2188428",
+      "title": "Single Ladies [Put A Ring On It] (RedTop Club Mix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 412850
+    },
+    {
+      "id": "netease-track:2188438",
+      "neteaseTrackId": "2188438",
+      "title": "Single Ladies [Put A Ring On It] (Lost Daze Remix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 407000
+    },
+    {
+      "id": "netease-track:2188432",
+      "neteaseTrackId": "2188432",
+      "title": "Single Ladies [Put A Ring On It] (Redtop Dlub)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 424000
+    },
+    {
+      "id": "netease-track:2188435",
+      "neteaseTrackId": "2188435",
+      "title": "Single Ladies [Put A Ring On It] (Escape & Dom Capello Dub)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 370000
+    },
+    {
+      "id": "netease-track:2188443",
+      "neteaseTrackId": "2188443",
+      "title": "Single Ladies [Put A Ring On It] (Craig C. Remix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 499000
+    },
+    {
+      "id": "netease-track:2188447",
+      "neteaseTrackId": "2188447",
+      "title": "Single Ladies [Put A Ring On It] (Maurice Joshua Club Edit)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:2188451",
+      "neteaseTrackId": "2188451",
+      "title": "Single Ladies [Put A Ring On It] (Maurice Joshua Club Mix)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 406000
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=220730",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Single Ladies (Put A Ring On It) - Dance Remixes Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

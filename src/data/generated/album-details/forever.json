@@ -1,0 +1,197 @@
+{
+  "internalId": "album:18999",
+  "id": "album:18999",
+  "neteaseAlbumId": "18999",
+  "slug": "forever",
+  "title": "Forever",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "2001-03-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18999.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18999.webp",
+    "alt": "《Forever》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187309",
+      "neteaseTrackId": "187309",
+      "title": "Tonight And Forever",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 258266
+    },
+    {
+      "id": "netease-track:187314",
+      "neteaseTrackId": "187314",
+      "title": "梦到内河",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 227466
+    },
+    {
+      "id": "netease-track:187319",
+      "neteaseTrackId": "187319",
+      "title": "洁身自爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 263733
+    },
+    {
+      "id": "netease-track:187323",
+      "neteaseTrackId": "187323",
+      "title": "没有烟总有花",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 224933
+    },
+    {
+      "id": "netease-track:187327",
+      "neteaseTrackId": "187327",
+      "title": "月亮代表我的心",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 246960
+    },
+    {
+      "id": "netease-track:187331",
+      "neteaseTrackId": "187331",
+      "title": "大热",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 215440
+    },
+    {
+      "id": "netease-track:187336",
+      "neteaseTrackId": "187336",
+      "title": "路过蜻蜓",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 231733
+    },
+    {
+      "id": "netease-track:187341",
+      "neteaseTrackId": "187341",
+      "title": "春夏秋冬",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 246493
+    },
+    {
+      "id": "netease-track:187345",
+      "neteaseTrackId": "187345",
+      "title": "枕头",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 254240
+    },
+    {
+      "id": "netease-track:187349",
+      "neteaseTrackId": "187349",
+      "title": "心跳呼吸正常",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 265226
+    },
+    {
+      "id": "netease-track:187352",
+      "neteaseTrackId": "187352",
+      "title": "左右手",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 254573
+    },
+    {
+      "id": "netease-track:187355",
+      "neteaseTrackId": "187355",
+      "title": "我",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 221133
+    },
+    {
+      "id": "netease-track:187358",
+      "neteaseTrackId": "187358",
+      "title": "陪你倒数",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 263293
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=18999",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Forever 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

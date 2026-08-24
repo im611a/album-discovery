@@ -1,0 +1,263 @@
+{
+  "internalId": "album:6612",
+  "id": "album:6612",
+  "neteaseAlbumId": "6612",
+  "slug": "netease-album-6612",
+  "title": "新生活",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "1998-12-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6612.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6612.webp",
+    "alt": "《新生活》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67700",
+      "neteaseTrackId": "67700",
+      "title": "终于一百日",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 285160
+    },
+    {
+      "id": "netease-track:67705",
+      "neteaseTrackId": "67705",
+      "title": "新生活",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 227733
+    },
+    {
+      "id": "netease-track:67709",
+      "neteaseTrackId": "67709",
+      "title": "游移的伤口(Talk)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 85493
+    },
+    {
+      "id": "netease-track:67713",
+      "neteaseTrackId": "67713",
+      "title": "我什么都没有",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 269760
+    },
+    {
+      "id": "netease-track:67717",
+      "neteaseTrackId": "67717",
+      "title": "地狱咒(Talk)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 117133
+    },
+    {
+      "id": "netease-track:67722",
+      "neteaseTrackId": "67722",
+      "title": "与我常在",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 241507
+    },
+    {
+      "id": "netease-track:67726",
+      "neteaseTrackId": "67726",
+      "title": "抱拥这分钟",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 296093
+    },
+    {
+      "id": "netease-track:67730",
+      "neteaseTrackId": "67730",
+      "title": "天一半、地一半(Talk)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 157933
+    },
+    {
+      "id": "netease-track:67734",
+      "neteaseTrackId": "67734",
+      "title": "天下无双",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 260706
+    },
+    {
+      "id": "netease-track:67738",
+      "neteaseTrackId": "67738",
+      "title": "今天等我来",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:67743",
+      "neteaseTrackId": "67743",
+      "title": "回绝(Talk)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 116706
+    },
+    {
+      "id": "netease-track:67748",
+      "neteaseTrackId": "67748",
+      "title": "伤信",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 278974
+    },
+    {
+      "id": "netease-track:67753",
+      "neteaseTrackId": "67753",
+      "title": "我的快乐时代",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 216600
+    },
+    {
+      "id": "netease-track:67758",
+      "neteaseTrackId": "67758",
+      "title": "多一点",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 241333
+    },
+    {
+      "id": "netease-track:67762",
+      "neteaseTrackId": "67762",
+      "title": "时代曲",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 262426
+    },
+    {
+      "id": "netease-track:67766",
+      "neteaseTrackId": "67766",
+      "title": "游离份子",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 295000
+    },
+    {
+      "id": "netease-track:67768",
+      "neteaseTrackId": "67768",
+      "title": "我怕你不肯",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:67771",
+      "neteaseTrackId": "67771",
+      "title": "美满人生",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 225814
+    },
+    {
+      "id": "netease-track:67774",
+      "neteaseTrackId": "67774",
+      "title": "超人的主题曲",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 199760
+    }
+  ],
+  "trackCount": 19,
+  "externalUrl": "https://music.163.com/#/album?id=6612",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "新生活 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

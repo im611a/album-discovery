@@ -1,0 +1,164 @@
+{
+  "internalId": "album:43969",
+  "id": "album:43969",
+  "neteaseAlbumId": "43969",
+  "slug": "kylyn",
+  "title": "KYLYN",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:14484",
+      "neteaseArtistId": "14484",
+      "name": "渡辺香津美"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    },
+    {
+      "id": "netease-artist:18187",
+      "neteaseArtistId": "18187",
+      "name": "矢野顕子"
+    }
+  ],
+  "releaseDate": "1979-05-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "(P)Nippon Columbia Co., Ltd. / NIPPONOPHONE",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/43969.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/43969.webp",
+    "alt": "《KYLYN》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:453932",
+      "neteaseTrackId": "453932",
+      "title": "199X",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美"
+      ],
+      "durationMs": 116160
+    },
+    {
+      "id": "netease-track:453936",
+      "neteaseTrackId": "453936",
+      "title": "ソニック・ブーム",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美"
+      ],
+      "durationMs": 392777
+    },
+    {
+      "id": "netease-track:453940",
+      "neteaseTrackId": "453940",
+      "title": "ウォーター・ウェイズ・フロウ・バックワード・アゲイン",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美"
+      ],
+      "durationMs": 324649
+    },
+    {
+      "id": "netease-track:453943",
+      "neteaseTrackId": "453943",
+      "title": "マイルストーンズ",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美"
+      ],
+      "durationMs": 498364
+    },
+    {
+      "id": "netease-track:453947",
+      "neteaseTrackId": "453947",
+      "title": "E-DAY・プロジェクト",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美"
+      ],
+      "durationMs": 352496
+    },
+    {
+      "id": "netease-track:453951",
+      "neteaseTrackId": "453951",
+      "title": "アカサカ・ムーン",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美"
+      ],
+      "durationMs": 272666
+    },
+    {
+      "id": "netease-track:453955",
+      "neteaseTrackId": "453955",
+      "title": "KYLYN",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美"
+      ],
+      "durationMs": 153760
+    },
+    {
+      "id": "netease-track:453959",
+      "neteaseTrackId": "453959",
+      "title": "アイル・ビー・ゼア",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美",
+        "矢野顕子"
+      ],
+      "durationMs": 403306
+    },
+    {
+      "id": "netease-track:453963",
+      "neteaseTrackId": "453963",
+      "title": "マザー・テラ",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "渡辺香津美"
+      ],
+      "durationMs": 217835
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=43969",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "KYLYN 渡辺香津美 坂本龍一 矢野顕子",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

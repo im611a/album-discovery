@@ -1,0 +1,98 @@
+{
+  "internalId": "album:220688",
+  "id": "album:220688",
+  "neteaseAlbumId": "220688",
+  "slug": "why-don-t-you-love-me",
+  "title": "Why Don't You Love Me?",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2010-07-01",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220688.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220688.webp",
+    "alt": "《Why Don't You Love Me?》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2187896",
+      "neteaseTrackId": "2187896",
+      "title": "Why Don't You Love Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 217813
+    },
+    {
+      "id": "netease-track:2187899",
+      "neteaseTrackId": "2187899",
+      "title": "Why Don't You Love Me (Jump Smokers Club Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 237000
+    },
+    {
+      "id": "netease-track:2187908",
+      "neteaseTrackId": "2187908",
+      "title": "Why Don't You Love Me? (MK Ultras Remix) [Radio Edit]",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 217813
+    },
+    {
+      "id": "netease-track:2187910",
+      "neteaseTrackId": "2187910",
+      "title": "Why Don't You Love Me? (Starsmith Remix) [Radio Edit]",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 237000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=220688",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Why Don't You Love Me? Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1969686",
+  "id": "album:1969686",
+  "neteaseAlbumId": "1969686",
+  "slug": "blue-period",
+  "title": "Blue Period",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2012-08-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Believe Digital",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969686.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969686.webp",
+    "alt": "《Blue Period》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21326314",
+      "neteaseTrackId": "21326314",
+      "title": "Blung",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 596240
+    },
+    {
+      "id": "netease-track:21326315",
+      "neteaseTrackId": "21326315",
+      "title": "Blue Room",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 169733
+    },
+    {
+      "id": "netease-track:21326316",
+      "neteaseTrackId": "21326316",
+      "title": "Out Of The Blue",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 376573
+    },
+    {
+      "id": "netease-track:523809987",
+      "neteaseTrackId": "523809987",
+      "title": "So What",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 562991
+    },
+    {
+      "id": "netease-track:523809988",
+      "neteaseTrackId": "523809988",
+      "title": "Freddie Freeloader",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 586791
+    },
+    {
+      "id": "netease-track:523809989",
+      "neteaseTrackId": "523809989",
+      "title": "Blue in Green",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 336733
+    },
+    {
+      "id": "netease-track:523809990",
+      "neteaseTrackId": "523809990",
+      "title": "All Blues",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 694680
+    },
+    {
+      "id": "netease-track:523809991",
+      "neteaseTrackId": "523809991",
+      "title": "Flamenco Sketches",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 566099
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1969686",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Blue Period Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

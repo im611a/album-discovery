@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1970613",
+  "id": "album:1970613",
+  "neteaseAlbumId": "1970613",
+  "slug": "love-songs",
+  "title": "Love Songs",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1999-02-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970613.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970613.webp",
+    "alt": "《Love Songs》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341167",
+      "neteaseTrackId": "21341167",
+      "title": "I Fall In Love Too Easily",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 408760
+    },
+    {
+      "id": "netease-track:21341168",
+      "neteaseTrackId": "21341168",
+      "title": "I Thought About You",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 295226
+    },
+    {
+      "id": "netease-track:21341169",
+      "neteaseTrackId": "21341169",
+      "title": "Summer Night",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 364225
+    },
+    {
+      "id": "netease-track:21341170",
+      "neteaseTrackId": "21341170",
+      "title": "My Ship",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 267964
+    },
+    {
+      "id": "netease-track:21341171",
+      "neteaseTrackId": "21341171",
+      "title": "Some Day My Prince Will Come",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 549000
+    },
+    {
+      "id": "netease-track:21341172",
+      "neteaseTrackId": "21341172",
+      "title": "Stella By Starlight",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 293066
+    },
+    {
+      "id": "netease-track:21341173",
+      "neteaseTrackId": "21341173",
+      "title": "My Funny Valentine (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 898717
+    },
+    {
+      "id": "netease-track:21341174",
+      "neteaseTrackId": "21341174",
+      "title": "I Loves You, Porgy (From Porgy & Bess)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 220342
+    },
+    {
+      "id": "netease-track:21341175",
+      "neteaseTrackId": "21341175",
+      "title": "Old Folks",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 321160
+    },
+    {
+      "id": "netease-track:21341176",
+      "neteaseTrackId": "21341176",
+      "title": "Time After Time",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 334738
+    },
+    {
+      "id": "netease-track:21341177",
+      "neteaseTrackId": "21341177",
+      "title": "Human Nature",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 270693
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1970613",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Love Songs Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

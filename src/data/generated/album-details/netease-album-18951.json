@@ -1,0 +1,98 @@
+{
+  "internalId": "album:18951",
+  "id": "album:18951",
+  "neteaseAlbumId": "18951",
+  "slug": "netease-album-18951",
+  "title": "张国荣电影歌集",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1989-12-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18951.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18951.webp",
+    "alt": "《张国荣电影歌集》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186619",
+      "neteaseTrackId": "186619",
+      "title": "倩女幽魂",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217773
+    },
+    {
+      "id": "netease-track:186623",
+      "neteaseTrackId": "186623",
+      "title": "奔向未来日子",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 267600
+    },
+    {
+      "id": "netease-track:186626",
+      "neteaseTrackId": "186626",
+      "title": "胭脂扣",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 148826
+    },
+    {
+      "id": "netease-track:186630",
+      "neteaseTrackId": "186630",
+      "title": "浓情",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 213213
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=18951",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "张国荣电影歌集 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

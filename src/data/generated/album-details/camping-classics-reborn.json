@@ -1,0 +1,197 @@
+{
+  "internalId": "album:10814",
+  "id": "album:10814",
+  "neteaseAlbumId": "10814",
+  "slug": "camping-classics-reborn",
+  "title": "Camping Classics Reborn",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2006-03-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "LYFE Company Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10814.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10814.webp",
+    "alt": "《Camping Classics Reborn》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109035",
+      "neteaseTrackId": "109035",
+      "title": "You Can't Hurry Love",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 47826
+    },
+    {
+      "id": "netease-track:109038",
+      "neteaseTrackId": "109038",
+      "title": "Dancing Queen",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:109041",
+      "neteaseTrackId": "109041",
+      "title": "I Don't Want To Say Goodbye",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 140160
+    },
+    {
+      "id": "netease-track:109044",
+      "neteaseTrackId": "109044",
+      "title": "The Boy From Ipanema",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 161880
+    },
+    {
+      "id": "netease-track:109047",
+      "neteaseTrackId": "109047",
+      "title": "When He Sings",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 193000
+    },
+    {
+      "id": "netease-track:109050",
+      "neteaseTrackId": "109050",
+      "title": "Crazy For You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:109053",
+      "neteaseTrackId": "109053",
+      "title": "Let's Go Camping",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 143000
+    },
+    {
+      "id": "netease-track:109056",
+      "neteaseTrackId": "109056",
+      "title": "A Waltz For A Night",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 258000
+    },
+    {
+      "id": "netease-track:109059",
+      "neteaseTrackId": "109059",
+      "title": "Rent",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 210013
+    },
+    {
+      "id": "netease-track:109062",
+      "neteaseTrackId": "109062",
+      "title": "You've Got To Learn",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 173586
+    },
+    {
+      "id": "netease-track:109064",
+      "neteaseTrackId": "109064",
+      "title": "Cool",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 193413
+    },
+    {
+      "id": "netease-track:109066",
+      "neteaseTrackId": "109066",
+      "title": "Eternal Flame",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 141986
+    },
+    {
+      "id": "netease-track:109068",
+      "neteaseTrackId": "109068",
+      "title": "Happy Ending",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 121000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=10814",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Camping Classics Reborn 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

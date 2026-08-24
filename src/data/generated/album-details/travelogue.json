@@ -1,0 +1,296 @@
+{
+  "internalId": "album:1724181",
+  "id": "album:1724181",
+  "neteaseAlbumId": "1724181",
+  "slug": "travelogue",
+  "title": "Travelogue",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "2004-03-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724181.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724181.webp",
+    "alt": "《Travelogue》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18821967",
+      "neteaseTrackId": "18821967",
+      "title": "Otis and Marlena",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 232653
+    },
+    {
+      "id": "netease-track:18821969",
+      "neteaseTrackId": "18821969",
+      "title": "Amelia",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 406000
+    },
+    {
+      "id": "netease-track:18821970",
+      "neteaseTrackId": "18821970",
+      "title": "You Dream Flat Tires",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 226080
+    },
+    {
+      "id": "netease-track:18821972",
+      "neteaseTrackId": "18821972",
+      "title": "Love",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 338680
+    },
+    {
+      "id": "netease-track:18821974",
+      "neteaseTrackId": "18821974",
+      "title": "Woodstock",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 354973
+    },
+    {
+      "id": "netease-track:18821976",
+      "neteaseTrackId": "18821976",
+      "title": "Slouching Towards Bethlehem",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 429973
+    },
+    {
+      "id": "netease-track:18821978",
+      "neteaseTrackId": "18821978",
+      "title": "Judgement of the Moon and Stars",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 320880
+    },
+    {
+      "id": "netease-track:18821980",
+      "neteaseTrackId": "18821980",
+      "title": "The Sire of Sorrow",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 429040
+    },
+    {
+      "id": "netease-track:18821982",
+      "neteaseTrackId": "18821982",
+      "title": "For the Roses",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 449960
+    },
+    {
+      "id": "netease-track:18821984",
+      "neteaseTrackId": "18821984",
+      "title": "Trouble Child",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 302653
+    },
+    {
+      "id": "netease-track:18821985",
+      "neteaseTrackId": "18821985",
+      "title": "God Must Be a Boogie Man",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 236080
+    },
+    {
+      "id": "netease-track:18821986",
+      "neteaseTrackId": "18821986",
+      "title": "Be Cool",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 309373
+    },
+    {
+      "id": "netease-track:18821988",
+      "neteaseTrackId": "18821988",
+      "title": "Just Like This Train",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 304080
+    },
+    {
+      "id": "netease-track:18821990",
+      "neteaseTrackId": "18821990",
+      "title": "Sex Kills",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 237106
+    },
+    {
+      "id": "netease-track:18821992",
+      "neteaseTrackId": "18821992",
+      "title": "Refuge of the Roads",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 476306
+    },
+    {
+      "id": "netease-track:18821994",
+      "neteaseTrackId": "18821994",
+      "title": "Hejira",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 407933
+    },
+    {
+      "id": "netease-track:18821996",
+      "neteaseTrackId": "18821996",
+      "title": "Chinese Cafe / Unchained Melody",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 341560
+    },
+    {
+      "id": "netease-track:18821998",
+      "neteaseTrackId": "18821998",
+      "title": "Cherokee Louise",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 361173
+    },
+    {
+      "id": "netease-track:18822000",
+      "neteaseTrackId": "18822000",
+      "title": "The Dawntreader",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 338413
+    },
+    {
+      "id": "netease-track:18822002",
+      "neteaseTrackId": "18822002",
+      "title": "The Last Time I Saw Richard",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 298226
+    },
+    {
+      "id": "netease-track:18822003",
+      "neteaseTrackId": "18822003",
+      "title": "Borderline",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 383560
+    },
+    {
+      "id": "netease-track:18822005",
+      "neteaseTrackId": "18822005",
+      "title": "The Circle Game",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 410746
+    }
+  ],
+  "trackCount": 22,
+  "externalUrl": "https://music.163.com/#/album?id=1724181",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Travelogue Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

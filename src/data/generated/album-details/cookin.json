@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1970118",
+  "id": "album:1970118",
+  "neteaseAlbumId": "1970118",
+  "slug": "cookin",
+  "title": "Cookin'",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1999-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "CoolNote",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970118.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970118.webp",
+    "alt": "《Cookin'》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21333231",
+      "neteaseTrackId": "21333231",
+      "title": "My Funny Valentine",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 362866
+    },
+    {
+      "id": "netease-track:21333232",
+      "neteaseTrackId": "21333232",
+      "title": "Blues By Five",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 597864
+    },
+    {
+      "id": "netease-track:21333233",
+      "neteaseTrackId": "21333233",
+      "title": "Airegin",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 267051
+    },
+    {
+      "id": "netease-track:21333234",
+      "neteaseTrackId": "21333234",
+      "title": "Tune Up/ When The Lights Are Low",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 789525
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1970118",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Cookin' Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

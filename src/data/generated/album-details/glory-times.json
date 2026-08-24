@@ -1,0 +1,164 @@
+{
+  "internalId": "album:428309",
+  "id": "album:428309",
+  "neteaseAlbumId": "428309",
+  "slug": "glory-times",
+  "title": "Glory Times",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:98538",
+      "neteaseArtistId": "98538",
+      "name": "Portishead"
+    }
+  ],
+  "releaseDate": "1995-05-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Int'l",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/428309.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/428309.webp",
+    "alt": "《Glory Times》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4235629",
+      "neteaseTrackId": "4235629",
+      "title": "Sour Sour Times",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 247958
+    },
+    {
+      "id": "netease-track:4235631",
+      "neteaseTrackId": "4235631",
+      "title": "Lot More",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 262060
+    },
+    {
+      "id": "netease-track:4235632",
+      "neteaseTrackId": "4235632",
+      "title": "Shared Times",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 259993
+    },
+    {
+      "id": "netease-track:4235634",
+      "neteaseTrackId": "4235634",
+      "title": "Airbus Reconstruction",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 309905
+    },
+    {
+      "id": "netease-track:4235636",
+      "neteaseTrackId": "4235636",
+      "title": "Theme From to Kill a Dead Man",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 266483
+    },
+    {
+      "id": "netease-track:4235638",
+      "neteaseTrackId": "4235638",
+      "title": "Glory Box (Edit)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 217573
+    },
+    {
+      "id": "netease-track:4235641",
+      "neteaseTrackId": "4235641",
+      "title": "Glory Box (Mudflap Mix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 333000
+    },
+    {
+      "id": "netease-track:4235644",
+      "neteaseTrackId": "4235644",
+      "title": "Scorn",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 366733
+    },
+    {
+      "id": "netease-track:4235647",
+      "neteaseTrackId": "4235647",
+      "title": "Sheared Box",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 209240
+    },
+    {
+      "id": "netease-track:4235650",
+      "neteaseTrackId": "4235650",
+      "title": "Toy Box",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Portishead"
+      ],
+      "durationMs": 346226
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=428309",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Glory Times Portishead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

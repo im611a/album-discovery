@@ -1,0 +1,164 @@
+{
+  "internalId": "album:24041",
+  "id": "album:24041",
+  "neteaseAlbumId": "24041",
+  "slug": "netease-album-24041",
+  "title": "崽崽",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7901",
+      "neteaseArtistId": "7901",
+      "name": "黄雅莉"
+    }
+  ],
+  "releaseDate": "2006-12-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "天娱传媒",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/24041.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/24041.webp",
+    "alt": "《崽崽》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:239682",
+      "neteaseTrackId": "239682",
+      "title": "蝴蝶泉边",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 245185
+    },
+    {
+      "id": "netease-track:239683",
+      "neteaseTrackId": "239683",
+      "title": "崽崽",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 232228
+    },
+    {
+      "id": "netease-track:239684",
+      "neteaseTrackId": "239684",
+      "title": "无聊",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 247379
+    },
+    {
+      "id": "netease-track:239685",
+      "neteaseTrackId": "239685",
+      "title": "Mini主角",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 251559
+    },
+    {
+      "id": "netease-track:239687",
+      "neteaseTrackId": "239687",
+      "title": "有你",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 244062
+    },
+    {
+      "id": "netease-track:239689",
+      "neteaseTrackId": "239689",
+      "title": "你是我的玩具",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 231653
+    },
+    {
+      "id": "netease-track:239690",
+      "neteaseTrackId": "239690",
+      "title": "黄小花",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 256365
+    },
+    {
+      "id": "netease-track:239691",
+      "neteaseTrackId": "239691",
+      "title": "冒险",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 198347
+    },
+    {
+      "id": "netease-track:239692",
+      "neteaseTrackId": "239692",
+      "title": "I Want To Know 环游世界",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 229642
+    },
+    {
+      "id": "netease-track:239694",
+      "neteaseTrackId": "239694",
+      "title": "荔草",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 258272
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=24041",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "崽崽 黄雅莉",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

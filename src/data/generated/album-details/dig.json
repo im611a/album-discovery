@@ -1,0 +1,131 @@
+{
+  "internalId": "album:499958",
+  "id": "album:499958",
+  "neteaseAlbumId": "499958",
+  "slug": "dig",
+  "title": "Dig",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1951-10-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Ojc",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/499958.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/499958.webp",
+    "alt": "《Dig》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5033685",
+      "neteaseTrackId": "5033685",
+      "title": "Dig",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 457444
+    },
+    {
+      "id": "netease-track:5033686",
+      "neteaseTrackId": "5033686",
+      "title": "It's Only A Paper Moon",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 326974
+    },
+    {
+      "id": "netease-track:5033687",
+      "neteaseTrackId": "5033687",
+      "title": "Denial",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 342125
+    },
+    {
+      "id": "netease-track:5033688",
+      "neteaseTrackId": "5033688",
+      "title": "Bluing",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 596056
+    },
+    {
+      "id": "netease-track:5033689",
+      "neteaseTrackId": "5033689",
+      "title": "Out Of The Blue",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 376200
+    },
+    {
+      "id": "netease-track:5033690",
+      "neteaseTrackId": "5033690",
+      "title": "Conception",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 244741
+    },
+    {
+      "id": "netease-track:5033691",
+      "neteaseTrackId": "5033691",
+      "title": "My Old Flame",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 396480
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=499958",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dig Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

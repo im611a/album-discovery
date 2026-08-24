@@ -1,0 +1,186 @@
+{
+  "internalId": "album:29558",
+  "id": "album:29558",
+  "neteaseAlbumId": "29558",
+  "slug": "netease-album-29558",
+  "title": "甜蜜生活",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9609",
+      "neteaseArtistId": "9609",
+      "name": "魏如萱"
+    }
+  ],
+  "releaseDate": "2007-11-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "前卫花园",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29558.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29558.webp",
+    "alt": "《甜蜜生活》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297792",
+      "neteaseTrackId": "297792",
+      "title": "啦啦啦啦",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 170520
+    },
+    {
+      "id": "netease-track:297793",
+      "neteaseTrackId": "297793",
+      "title": "花王",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 160720
+    },
+    {
+      "id": "netease-track:297794",
+      "neteaseTrackId": "297794",
+      "title": "一起去旅行",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 223293
+    },
+    {
+      "id": "netease-track:297796",
+      "neteaseTrackId": "297796",
+      "title": "房间",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 190880
+    },
+    {
+      "id": "netease-track:297798",
+      "neteaseTrackId": "297798",
+      "title": "钻石",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 180413
+    },
+    {
+      "id": "netease-track:297800",
+      "neteaseTrackId": "297800",
+      "title": "香水",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 300320
+    },
+    {
+      "id": "netease-track:297802",
+      "neteaseTrackId": "297802",
+      "title": "女人经痛时",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 264946
+    },
+    {
+      "id": "netease-track:297804",
+      "neteaseTrackId": "297804",
+      "title": "A Todo Color",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 221320
+    },
+    {
+      "id": "netease-track:297806",
+      "neteaseTrackId": "297806",
+      "title": "Downtown Cafe",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 236040
+    },
+    {
+      "id": "netease-track:297808",
+      "neteaseTrackId": "297808",
+      "title": "拖鞋",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 255791
+    },
+    {
+      "id": "netease-track:297810",
+      "neteaseTrackId": "297810",
+      "title": "In The Same Space That You're In",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 218013
+    },
+    {
+      "id": "netease-track:297812",
+      "neteaseTrackId": "297812",
+      "title": "世界末日的某个角落",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "魏如萱"
+      ],
+      "durationMs": 272840
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=29558",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "甜蜜生活 魏如萱",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

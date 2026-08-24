@@ -1,0 +1,197 @@
+{
+  "internalId": "album:27518",
+  "id": "album:27518",
+  "neteaseAlbumId": "27518",
+  "slug": "netease-album-27518",
+  "title": "如果没有你",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2006-04-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27518.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27518.webp",
+    "alt": "《如果没有你》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277101",
+      "neteaseTrackId": "277101",
+      "title": "野",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 212933
+    },
+    {
+      "id": "netease-track:277106",
+      "neteaseTrackId": "277106",
+      "title": "一口一口",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 223160
+    },
+    {
+      "id": "netease-track:277111",
+      "neteaseTrackId": "277111",
+      "title": "如果没有你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 289546
+    },
+    {
+      "id": "netease-track:277117",
+      "neteaseTrackId": "277117",
+      "title": "24Hrs",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:277121",
+      "neteaseTrackId": "277121",
+      "title": "一个人睡",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 250626
+    },
+    {
+      "id": "netease-track:277125",
+      "neteaseTrackId": "277125",
+      "title": "甜美生活",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 242386
+    },
+    {
+      "id": "netease-track:277129",
+      "neteaseTrackId": "277129",
+      "title": "手",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 247453
+    },
+    {
+      "id": "netease-track:277134",
+      "neteaseTrackId": "277134",
+      "title": "薄荷",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 248600
+    },
+    {
+      "id": "netease-track:277139",
+      "neteaseTrackId": "277139",
+      "title": "Am Pm",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 264693
+    },
+    {
+      "id": "netease-track:277144",
+      "neteaseTrackId": "277144",
+      "title": "天下大同",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 217080
+    },
+    {
+      "id": "netease-track:277146",
+      "neteaseTrackId": "277146",
+      "title": "Fire",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 188290
+    },
+    {
+      "id": "netease-track:277148",
+      "neteaseTrackId": "277148",
+      "title": "24Hrs (粤语)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 238480
+    },
+    {
+      "id": "netease-track:277150",
+      "neteaseTrackId": "277150",
+      "title": "众生缘",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 218093
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=27518",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "如果没有你 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

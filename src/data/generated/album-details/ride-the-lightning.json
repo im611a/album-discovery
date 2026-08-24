@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1956862",
+  "id": "album:1956862",
+  "neteaseAlbumId": "1956862",
+  "slug": "ride-the-lightning",
+  "title": "Ride The Lightning",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1984-07-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Digital Distribution Estonia",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956862.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956862.webp",
+    "alt": "《Ride The Lightning》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162440",
+      "neteaseTrackId": "21162440",
+      "title": "Fight Fire with Fire",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 285413
+    },
+    {
+      "id": "netease-track:21162441",
+      "neteaseTrackId": "21162441",
+      "title": "Ride the Lightning",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 397880
+    },
+    {
+      "id": "netease-track:21162442",
+      "neteaseTrackId": "21162442",
+      "title": "For Whom the Bell Tolls",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 311733
+    },
+    {
+      "id": "netease-track:21162443",
+      "neteaseTrackId": "21162443",
+      "title": "Fade to Black",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 415506
+    },
+    {
+      "id": "netease-track:21162444",
+      "neteaseTrackId": "21162444",
+      "title": "Trapped Under Ice",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 244666
+    },
+    {
+      "id": "netease-track:21162445",
+      "neteaseTrackId": "21162445",
+      "title": "Escape",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 264426
+    },
+    {
+      "id": "netease-track:21162446",
+      "neteaseTrackId": "21162446",
+      "title": "Creeping Death",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 397000
+    },
+    {
+      "id": "netease-track:21162447",
+      "neteaseTrackId": "21162447",
+      "title": "The Call of Ktulu",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 535346
+    },
+    {
+      "id": "netease-track:21162448",
+      "neteaseTrackId": "21162448",
+      "title": "For Whom The Bell Tolls (Live Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 334986
+    },
+    {
+      "id": "netease-track:21162449",
+      "neteaseTrackId": "21162449",
+      "title": "Creeping Death (Live)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 492120
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1956862",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ride The Lightning Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

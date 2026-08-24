@@ -1,0 +1,164 @@
+{
+  "internalId": "album:29616",
+  "id": "album:29616",
+  "neteaseAlbumId": "29616",
+  "slug": "netease-album-29616",
+  "title": "贴心",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1993-09-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29616.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29616.webp",
+    "alt": "《贴心》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298508",
+      "neteaseTrackId": "298508",
+      "title": "雨后的玫瑰",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 313493
+    },
+    {
+      "id": "netease-track:298511",
+      "neteaseTrackId": "298511",
+      "title": "试着了解",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 309333
+    },
+    {
+      "id": "netease-track:298514",
+      "neteaseTrackId": "298514",
+      "title": "守候的心",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:298516",
+      "neteaseTrackId": "298516",
+      "title": "最怕在人前哭泣",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 314333
+    },
+    {
+      "id": "netease-track:298518",
+      "neteaseTrackId": "298518",
+      "title": "预约失恋",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 280666
+    },
+    {
+      "id": "netease-track:298519",
+      "neteaseTrackId": "298519",
+      "title": "多事的秋",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 333229
+    },
+    {
+      "id": "netease-track:298521",
+      "neteaseTrackId": "298521",
+      "title": "恋你",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 291000
+    },
+    {
+      "id": "netease-track:298523",
+      "neteaseTrackId": "298523",
+      "title": "可惜我爱你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 297333
+    },
+    {
+      "id": "netease-track:298526",
+      "neteaseTrackId": "298526",
+      "title": "爱恨交织",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 329666
+    },
+    {
+      "id": "netease-track:298529",
+      "neteaseTrackId": "298529",
+      "title": "给我一杯茶",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 223333
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29616",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "贴心 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

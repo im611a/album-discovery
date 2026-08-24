@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1970101",
+  "id": "album:1970101",
+  "neteaseAlbumId": "1970101",
+  "slug": "sketches-of-spain-1970101",
+  "title": "Sketches of Spain",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1960-07-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Isis",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970101.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970101.webp",
+    "alt": "《Sketches of Spain》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21333023",
+      "neteaseTrackId": "21333023",
+      "title": "Concertio de Aranjuez (Adagio)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 981080
+    },
+    {
+      "id": "netease-track:21333024",
+      "neteaseTrackId": "21333024",
+      "title": "Will o' the whisp",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 231000
+    },
+    {
+      "id": "netease-track:21333025",
+      "neteaseTrackId": "21333025",
+      "title": "The pan piper",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 236992
+    },
+    {
+      "id": "netease-track:21333026",
+      "neteaseTrackId": "21333026",
+      "title": "Saeta",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 300200
+    },
+    {
+      "id": "netease-track:21333027",
+      "neteaseTrackId": "21333027",
+      "title": "Solea",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 739080
+    },
+    {
+      "id": "netease-track:21333028",
+      "neteaseTrackId": "21333028",
+      "title": "Song of our country",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 205813
+    },
+    {
+      "id": "netease-track:21333029",
+      "neteaseTrackId": "21333029",
+      "title": "Concierto de Ajanruez (Part one)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 726000
+    },
+    {
+      "id": "netease-track:21333030",
+      "neteaseTrackId": "21333030",
+      "title": "Concierto de Ajuanruez (Part two ending)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 213000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1970101",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sketches of Spain Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

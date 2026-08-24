@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1724171",
+  "id": "album:1724171",
+  "neteaseAlbumId": "1724171",
+  "slug": "mingus",
+  "title": "Mingus",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1979-06-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724171.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724171.webp",
+    "alt": "《Mingus》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18821807",
+      "neteaseTrackId": "18821807",
+      "title": "Happy Birthday 1975",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 57533
+    },
+    {
+      "id": "netease-track:18821809",
+      "neteaseTrackId": "18821809",
+      "title": "God Must Be a Boogie Man",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 275706
+    },
+    {
+      "id": "netease-track:18821811",
+      "neteaseTrackId": "18821811",
+      "title": "Funeral",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 67160
+    },
+    {
+      "id": "netease-track:18821813",
+      "neteaseTrackId": "18821813",
+      "title": "A Chair in the Sky",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 402440
+    },
+    {
+      "id": "netease-track:18821815",
+      "neteaseTrackId": "18821815",
+      "title": "The Wolf That Lives in Lindsey",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 395200
+    },
+    {
+      "id": "netease-track:18821816",
+      "neteaseTrackId": "18821816",
+      "title": "I's a Muggin'",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 7640
+    },
+    {
+      "id": "netease-track:18821818",
+      "neteaseTrackId": "18821818",
+      "title": "Sweet Sucker Dance",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 484600
+    },
+    {
+      "id": "netease-track:18821820",
+      "neteaseTrackId": "18821820",
+      "title": "Coin in the Pocket",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 11760
+    },
+    {
+      "id": "netease-track:18821822",
+      "neteaseTrackId": "18821822",
+      "title": "The Dry Cleaner From Des Moines",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 201973
+    },
+    {
+      "id": "netease-track:18821824",
+      "neteaseTrackId": "18821824",
+      "title": "Lucky",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 4026
+    },
+    {
+      "id": "netease-track:18821826",
+      "neteaseTrackId": "18821826",
+      "title": "Goodbye Pork Pie Hat",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 338200
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1724171",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Mingus Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

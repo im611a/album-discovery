@@ -1,0 +1,516 @@
+{
+  "internalId": "album:1970534",
+  "id": "album:1970534",
+  "neteaseAlbumId": "1970534",
+  "slug": "the-complete-jack-johnson-sessions",
+  "title": "The Complete Jack Johnson Sessions",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1971-02-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970534.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970534.webp",
+    "alt": "《The Complete Jack Johnson Sessions》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339783",
+      "neteaseTrackId": "21339783",
+      "title": "Willie Nelson (take 2)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 401542
+    },
+    {
+      "id": "netease-track:21339784",
+      "neteaseTrackId": "21339784",
+      "title": "Willie Nelson (take 3)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 621319
+    },
+    {
+      "id": "netease-track:21339785",
+      "neteaseTrackId": "21339785",
+      "title": "Willie Nelson (insert 1)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 392277
+    },
+    {
+      "id": "netease-track:21339786",
+      "neteaseTrackId": "21339786",
+      "title": "Willie Nelson (insert 2)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 322586
+    },
+    {
+      "id": "netease-track:21339787",
+      "neteaseTrackId": "21339787",
+      "title": "Willie Nelson (remake take 1)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 644516
+    },
+    {
+      "id": "netease-track:21339788",
+      "neteaseTrackId": "21339788",
+      "title": "Willie Nelson (remake take 2)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 617697
+    },
+    {
+      "id": "netease-track:21339789",
+      "neteaseTrackId": "21339789",
+      "title": "Johnny Bratton (take 4)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 497324
+    },
+    {
+      "id": "netease-track:21339790",
+      "neteaseTrackId": "21339790",
+      "title": "Johnny Bratton (insert 1)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 398210
+    },
+    {
+      "id": "netease-track:21339791",
+      "neteaseTrackId": "21339791",
+      "title": "Johnny Bratton (insert 2)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 318798
+    },
+    {
+      "id": "netease-track:21339792",
+      "neteaseTrackId": "21339792",
+      "title": "Archie Moore",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 284969
+    },
+    {
+      "id": "netease-track:21339793",
+      "neteaseTrackId": "21339793",
+      "title": "Go Ahead John (part 1)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 787513
+    },
+    {
+      "id": "netease-track:21339794",
+      "neteaseTrackId": "21339794",
+      "title": "Go Ahead John (part two A)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 420466
+    },
+    {
+      "id": "netease-track:21339795",
+      "neteaseTrackId": "21339795",
+      "title": "Go Ahead John (part two B)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 606621
+    },
+    {
+      "id": "netease-track:21339796",
+      "neteaseTrackId": "21339796",
+      "title": "Go Ahead John (part two C)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 216944
+    },
+    {
+      "id": "netease-track:21339797",
+      "neteaseTrackId": "21339797",
+      "title": "Go Ahead John (part one remake)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 664450
+    },
+    {
+      "id": "netease-track:21339798",
+      "neteaseTrackId": "21339798",
+      "title": "Duran (take 4)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 337423
+    },
+    {
+      "id": "netease-track:21339799",
+      "neteaseTrackId": "21339799",
+      "title": "Duran (take 6)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 679888
+    },
+    {
+      "id": "netease-track:21339800",
+      "neteaseTrackId": "21339800",
+      "title": "Sugar Ray",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 376395
+    },
+    {
+      "id": "netease-track:21339801",
+      "neteaseTrackId": "21339801",
+      "title": "Right Off (take 10)",
+      "trackNumber": 1,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 668943
+    },
+    {
+      "id": "netease-track:21339802",
+      "neteaseTrackId": "21339802",
+      "title": "Right Off (take 10A)",
+      "trackNumber": 2,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 272904
+    },
+    {
+      "id": "netease-track:21339803",
+      "neteaseTrackId": "21339803",
+      "title": "Right Off (take 11)",
+      "trackNumber": 3,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 358400
+    },
+    {
+      "id": "netease-track:21339804",
+      "neteaseTrackId": "21339804",
+      "title": "Right Off (take 12)",
+      "trackNumber": 4,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 528741
+    },
+    {
+      "id": "netease-track:21339805",
+      "neteaseTrackId": "21339805",
+      "title": "Yesternow (take 16)",
+      "trackNumber": 5,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 589090
+    },
+    {
+      "id": "netease-track:21339806",
+      "neteaseTrackId": "21339806",
+      "title": "Yesternow (new take 4)",
+      "trackNumber": 6,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 947095
+    },
+    {
+      "id": "netease-track:21339807",
+      "neteaseTrackId": "21339807",
+      "title": "Honky Tonk (take 2)",
+      "trackNumber": 7,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 604786
+    },
+    {
+      "id": "netease-track:21339808",
+      "neteaseTrackId": "21339808",
+      "title": "Honky Tonk (take 5)",
+      "trackNumber": 8,
+      "discNumber": 3,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 689188
+    },
+    {
+      "id": "netease-track:21339809",
+      "neteaseTrackId": "21339809",
+      "title": "Ali (take 3)",
+      "trackNumber": 1,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 410319
+    },
+    {
+      "id": "netease-track:21339810",
+      "neteaseTrackId": "21339810",
+      "title": "Ali (take 4)",
+      "trackNumber": 2,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 614562
+    },
+    {
+      "id": "netease-track:21339811",
+      "neteaseTrackId": "21339811",
+      "title": "Konda",
+      "trackNumber": 3,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 989387
+    },
+    {
+      "id": "netease-track:21339812",
+      "neteaseTrackId": "21339812",
+      "title": "Nem um Talvez (take 17)",
+      "trackNumber": 4,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 170213
+    },
+    {
+      "id": "netease-track:21339813",
+      "neteaseTrackId": "21339813",
+      "title": "Nem um Talvez (take 19)",
+      "trackNumber": 5,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 168463
+    },
+    {
+      "id": "netease-track:21339814",
+      "neteaseTrackId": "21339814",
+      "title": "Little High People (take 7)",
+      "trackNumber": 6,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 412029
+    },
+    {
+      "id": "netease-track:21339815",
+      "neteaseTrackId": "21339815",
+      "title": "Little High People (take 8)",
+      "trackNumber": 7,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 567843
+    },
+    {
+      "id": "netease-track:21339816",
+      "neteaseTrackId": "21339816",
+      "title": "Nem um Talvez (take 3)",
+      "trackNumber": 8,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 276401
+    },
+    {
+      "id": "netease-track:21339817",
+      "neteaseTrackId": "21339817",
+      "title": "Nem um Talvez (take 4A)",
+      "trackNumber": 9,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 123846
+    },
+    {
+      "id": "netease-track:21339818",
+      "neteaseTrackId": "21339818",
+      "title": "Selim (take 4B)",
+      "trackNumber": 10,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 135157
+    },
+    {
+      "id": "netease-track:21339819",
+      "neteaseTrackId": "21339819",
+      "title": "Little Church (take 7)",
+      "trackNumber": 11,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 196101
+    },
+    {
+      "id": "netease-track:21339820",
+      "neteaseTrackId": "21339820",
+      "title": "Little Church (take 10)",
+      "trackNumber": 12,
+      "discNumber": 4,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 194873
+    },
+    {
+      "id": "netease-track:21339821",
+      "neteaseTrackId": "21339821",
+      "title": "The Mask (part one)",
+      "trackNumber": 1,
+      "discNumber": 5,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 466991
+    },
+    {
+      "id": "netease-track:21339822",
+      "neteaseTrackId": "21339822",
+      "title": "The Mask (part two)",
+      "trackNumber": 2,
+      "discNumber": 5,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 945423
+    },
+    {
+      "id": "netease-track:21339823",
+      "neteaseTrackId": "21339823",
+      "title": "Right Off",
+      "trackNumber": 3,
+      "discNumber": 5,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1612997
+    },
+    {
+      "id": "netease-track:21339824",
+      "neteaseTrackId": "21339824",
+      "title": "Yesternow",
+      "trackNumber": 4,
+      "discNumber": 5,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1534641
+    }
+  ],
+  "trackCount": 42,
+  "externalUrl": "https://music.163.com/#/album?id=1970534",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Complete Jack Johnson Sessions Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

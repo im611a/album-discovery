@@ -1,0 +1,115 @@
+{
+  "internalId": "album:1706243",
+  "id": "album:1706243",
+  "neteaseAlbumId": "1706243",
+  "slug": "son-of-a-gun-i-betcha-think-this-song-is-about-you",
+  "title": "Son Of A Gun (I Betcha Think This Song Is About You)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "2001-11-05",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706243.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706243.webp",
+    "alt": "《Son Of A Gun (I Betcha Think This Song Is About You)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18589437",
+      "neteaseTrackId": "18589437",
+      "title": "Son Of A Gun (I Betcha Think This Song Is About You) (The Original Flyte Tyme Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Carly Simon",
+        "Missy Elliott"
+      ],
+      "durationMs": 256116
+    },
+    {
+      "id": "netease-track:18589438",
+      "neteaseTrackId": "18589438",
+      "title": "Son Of A Gun (I Betcha Think This Song Is About You) (P. Diddy Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Carly Simon",
+        "Missy Elliott",
+        "P.Diddy"
+      ],
+      "durationMs": 302486
+    },
+    {
+      "id": "netease-track:18589439",
+      "neteaseTrackId": "18589439",
+      "title": "Son Of A Gun (Cottonbelly Vocal Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 326773
+    },
+    {
+      "id": "netease-track:18589440",
+      "neteaseTrackId": "18589440",
+      "title": "Son Of A Gun (Rock Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 248778
+    },
+    {
+      "id": "netease-track:18589441",
+      "neteaseTrackId": "18589441",
+      "title": "Son Of A Gun (I Betcha Think This Song Is About You)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "Carly Simon"
+      ],
+      "durationMs": 358469
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=1706243",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Son Of A Gun (I Betcha Think This Song Is About You) Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

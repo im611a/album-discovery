@@ -1,0 +1,208 @@
+{
+  "internalId": "album:47649",
+  "id": "album:47649",
+  "neteaseAlbumId": "47649",
+  "slug": "moto-tronic",
+  "title": "moto.tronic",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2003-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47649.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47649.webp",
+    "alt": "《moto.tronic》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:498839",
+      "neteaseTrackId": "498839",
+      "title": "Forbidden Colours",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 288000
+    },
+    {
+      "id": "netease-track:498843",
+      "neteaseTrackId": "498843",
+      "title": "Energy Flow",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 272501
+    },
+    {
+      "id": "netease-track:498847",
+      "neteaseTrackId": "498847",
+      "title": "O Grande Amor",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 270293
+    },
+    {
+      "id": "netease-track:498851",
+      "neteaseTrackId": "498851",
+      "title": "The Last Emperor",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 318406
+    },
+    {
+      "id": "netease-track:498855",
+      "neteaseTrackId": "498855",
+      "title": "Railroad Man",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 282666
+    },
+    {
+      "id": "netease-track:498859",
+      "neteaseTrackId": "498859",
+      "title": "Risky",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 326760
+    },
+    {
+      "id": "netease-track:498863",
+      "neteaseTrackId": "498863",
+      "title": "Before Long",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 83000
+    },
+    {
+      "id": "netease-track:498867",
+      "neteaseTrackId": "498867",
+      "title": "Desafinado",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 243066
+    },
+    {
+      "id": "netease-track:498871",
+      "neteaseTrackId": "498871",
+      "title": "Lost Child (String Quartet Remix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 302093
+    },
+    {
+      "id": "netease-track:498875",
+      "neteaseTrackId": "498875",
+      "title": "Little Buddha",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 527000
+    },
+    {
+      "id": "netease-track:498878",
+      "neteaseTrackId": "498878",
+      "title": "Neo Geo",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 308636
+    },
+    {
+      "id": "netease-track:498881",
+      "neteaseTrackId": "498881",
+      "title": "Opus",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 265960
+    },
+    {
+      "id": "netease-track:498884",
+      "neteaseTrackId": "498884",
+      "title": "Anger Remix (Rare Force 2 Mega Mix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 311000
+    },
+    {
+      "id": "netease-track:498887",
+      "neteaseTrackId": "498887",
+      "title": "Insensatez Remix",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 318666
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=47649",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "moto.tronic 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

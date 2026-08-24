@@ -1,0 +1,177 @@
+{
+  "internalId": "album:23938",
+  "id": "album:23938",
+  "neteaseAlbumId": "23938",
+  "slug": "netease-album-23938",
+  "title": "感动",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2005-04-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23938.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23938.webp",
+    "alt": "《感动》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238799",
+      "neteaseTrackId": "238799",
+      "title": "天路",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 264387
+    },
+    {
+      "id": "netease-track:238800",
+      "neteaseTrackId": "238800",
+      "title": "感动",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 307946
+    },
+    {
+      "id": "netease-track:238801",
+      "neteaseTrackId": "238801",
+      "title": "我决定爱你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红",
+        "李泉"
+      ],
+      "durationMs": 222853
+    },
+    {
+      "id": "netease-track:238802",
+      "neteaseTrackId": "238802",
+      "title": "爱",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 252734
+    },
+    {
+      "id": "netease-track:238803",
+      "neteaseTrackId": "238803",
+      "title": "生命",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 294466
+    },
+    {
+      "id": "netease-track:238804",
+      "neteaseTrackId": "238804",
+      "title": "流浪",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 254354
+    },
+    {
+      "id": "netease-track:238805",
+      "neteaseTrackId": "238805",
+      "title": "生命不言败",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 248128
+    },
+    {
+      "id": "netease-track:238806",
+      "neteaseTrackId": "238806",
+      "title": "让爱做主",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红",
+        "高明骏"
+      ],
+      "durationMs": 238253
+    },
+    {
+      "id": "netease-track:238807",
+      "neteaseTrackId": "238807",
+      "title": "回来",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 263836
+    },
+    {
+      "id": "netease-track:238808",
+      "neteaseTrackId": "238808",
+      "title": "天使",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 194690
+    },
+    {
+      "id": "netease-track:238809",
+      "neteaseTrackId": "238809",
+      "title": "天路(World Music)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 282598
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=23938",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "感动 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "internalId": "album:1970608",
+  "id": "album:1970608",
+  "neteaseAlbumId": "1970608",
+  "slug": "this-is-jazz-8",
+  "title": "This Is Jazz #8",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2000-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "COLUMBIA/LEGACY",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970608.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970608.webp",
+    "alt": "《This Is Jazz #8》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341024",
+      "neteaseTrackId": "21341024",
+      "title": "'Round Midnight",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 356040
+    },
+    {
+      "id": "netease-track:21341025",
+      "neteaseTrackId": "21341025",
+      "title": "Stella By Starlight",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 285253
+    },
+    {
+      "id": "netease-track:21341026",
+      "neteaseTrackId": "21341026",
+      "title": "Springsville",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 208906
+    },
+    {
+      "id": "netease-track:21341027",
+      "neteaseTrackId": "21341027",
+      "title": "Summertime",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 198666
+    },
+    {
+      "id": "netease-track:21341028",
+      "neteaseTrackId": "21341028",
+      "title": "So What",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 550000
+    },
+    {
+      "id": "netease-track:21341029",
+      "neteaseTrackId": "21341029",
+      "title": "Someday My Prince Will Come",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 547106
+    },
+    {
+      "id": "netease-track:21341030",
+      "neteaseTrackId": "21341030",
+      "title": "Seven Steps To Heaven (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 379537
+    },
+    {
+      "id": "netease-track:21341031",
+      "neteaseTrackId": "21341031",
+      "title": "Walkin' (Live)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 664000
+    },
+    {
+      "id": "netease-track:21341032",
+      "neteaseTrackId": "21341032",
+      "title": "E.S.P.",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 332160
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1970608",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "This Is Jazz #8 Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

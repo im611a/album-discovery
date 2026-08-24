@@ -1,0 +1,164 @@
+{
+  "internalId": "album:29614",
+  "id": "album:29614",
+  "neteaseAlbumId": "29614",
+  "slug": "tea-for-two",
+  "title": "Tea For Two",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1994-01-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29614.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29614.webp",
+    "alt": "《Tea For Two》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298474",
+      "neteaseTrackId": "298474",
+      "title": "Unchained Melody",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 227880
+    },
+    {
+      "id": "netease-track:298477",
+      "neteaseTrackId": "298477",
+      "title": "Good-bye Girl",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 251506
+    },
+    {
+      "id": "netease-track:298480",
+      "neteaseTrackId": "298480",
+      "title": "True Colors",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 224560
+    },
+    {
+      "id": "netease-track:298482",
+      "neteaseTrackId": "298482",
+      "title": "Cabaret",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:298484",
+      "neteaseTrackId": "298484",
+      "title": "What A Wonderful World",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 323493
+    },
+    {
+      "id": "netease-track:298486",
+      "neteaseTrackId": "298486",
+      "title": "The Moon's A Harsh Mistress",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 218058
+    },
+    {
+      "id": "netease-track:298488",
+      "neteaseTrackId": "298488",
+      "title": "Making Love",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 233569
+    },
+    {
+      "id": "netease-track:298493",
+      "neteaseTrackId": "298493",
+      "title": "Sunflower",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 202547
+    },
+    {
+      "id": "netease-track:298496",
+      "neteaseTrackId": "298496",
+      "title": "Tea For Two",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 318717
+    },
+    {
+      "id": "netease-track:298498",
+      "neteaseTrackId": "298498",
+      "title": "Wind Beneath My Wings",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 293569
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29614",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Tea For Two 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

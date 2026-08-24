@@ -1,0 +1,246 @@
+{
+  "internalId": "album:10784",
+  "id": "album:10784",
+  "neteaseAlbumId": "10784",
+  "slug": "netease-album-10784",
+  "title": "花訣",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2011-03-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "LYFE Company Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10784.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10784.webp",
+    "alt": "《花訣》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108635",
+      "neteaseTrackId": "108635",
+      "title": "萬花筒",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 131933
+    },
+    {
+      "id": "netease-track:108639",
+      "neteaseTrackId": "108639",
+      "title": "煙 . 花雪",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 21813
+    },
+    {
+      "id": "netease-track:108643",
+      "neteaseTrackId": "108643",
+      "title": "風信子 (春)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 201200
+    },
+    {
+      "id": "netease-track:108647",
+      "neteaseTrackId": "108647",
+      "title": "春花祭",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 139840
+    },
+    {
+      "id": "netease-track:108651",
+      "neteaseTrackId": "108651",
+      "title": "時間 . 川流",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 104960
+    },
+    {
+      "id": "netease-track:108655",
+      "neteaseTrackId": "108655",
+      "title": "蜜糖毒",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 187186
+    },
+    {
+      "id": "netease-track:108659",
+      "neteaseTrackId": "108659",
+      "title": "桃李園",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 181280
+    },
+    {
+      "id": "netease-track:108663",
+      "neteaseTrackId": "108663",
+      "title": "蝴蝶吻",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 211346
+    },
+    {
+      "id": "netease-track:108667",
+      "neteaseTrackId": "108667",
+      "title": "晚舟 . 初雪",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 17733
+    },
+    {
+      "id": "netease-track:108675",
+      "neteaseTrackId": "108675",
+      "title": "風信子 (秋)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 181536
+    },
+    {
+      "id": "netease-track:108679",
+      "neteaseTrackId": "108679",
+      "title": "曇花夜",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 227053
+    },
+    {
+      "id": "netease-track:108683",
+      "neteaseTrackId": "108683",
+      "title": "晨霧 . 朝露",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 76653
+    },
+    {
+      "id": "netease-track:108687",
+      "neteaseTrackId": "108687",
+      "title": "鏡花緣",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 190560
+    },
+    {
+      "id": "netease-track:108690",
+      "neteaseTrackId": "108690",
+      "title": "桂花釀",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 267826
+    },
+    {
+      "id": "netease-track:108693",
+      "neteaseTrackId": "108693",
+      "title": "萬花同",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 131784
+    },
+    {
+      "id": "netease-track:108696",
+      "neteaseTrackId": "108696",
+      "title": "年 . 月",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "林一峰",
+        "黄馨"
+      ],
+      "durationMs": 85706
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=10784",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "花訣 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

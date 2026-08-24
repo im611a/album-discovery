@@ -1,0 +1,252 @@
+{
+  "internalId": "album:345487",
+  "id": "album:345487",
+  "neteaseAlbumId": "345487",
+  "slug": "the-complete-works-vol-2",
+  "title": "The Complete Works, Vol. 2",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:74643",
+      "neteaseArtistId": "74643",
+      "name": "Spiritualized"
+    }
+  ],
+  "releaseDate": "2004-02-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Arista",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/345487.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/345487.webp",
+    "alt": "《The Complete Works, Vol. 2》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:3408868",
+      "neteaseTrackId": "3408868",
+      "title": "Let It Flow",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 330000
+    },
+    {
+      "id": "netease-track:3408872",
+      "neteaseTrackId": "3408872",
+      "title": "Don't Go/Stay With Me",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 365000
+    },
+    {
+      "id": "netease-track:3408875",
+      "neteaseTrackId": "3408875",
+      "title": "Don't Go/Stay With Me (The Individual)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 279000
+    },
+    {
+      "id": "netease-track:3408879",
+      "neteaseTrackId": "3408879",
+      "title": "Broken Heart [Japanese Version][Instrumental]",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 490000
+    },
+    {
+      "id": "netease-track:3408883",
+      "neteaseTrackId": "3408883",
+      "title": "Lay Back in the Sun [Single Version]",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:3408888",
+      "neteaseTrackId": "3408888",
+      "title": "Cool Waves [Instrumental]",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 186000
+    },
+    {
+      "id": "netease-track:3408893",
+      "neteaseTrackId": "3408893",
+      "title": "Electricity",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 230000
+    },
+    {
+      "id": "netease-track:3408897",
+      "neteaseTrackId": "3408897",
+      "title": "Spread Your Wings [Instrumental]",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 377000
+    },
+    {
+      "id": "netease-track:3408905",
+      "neteaseTrackId": "3408905",
+      "title": "I Think I'm in Love [Radio Edit]",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 238000
+    },
+    {
+      "id": "netease-track:3408914",
+      "neteaseTrackId": "3408914",
+      "title": "X Files Theme",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:3408918",
+      "neteaseTrackId": "3408918",
+      "title": "Broken Heart [Instrumental]",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:3408921",
+      "neteaseTrackId": "3408921",
+      "title": "Stop Your Crying",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 314226
+    },
+    {
+      "id": "netease-track:3408932",
+      "neteaseTrackId": "3408932",
+      "title": "Out of Sight",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 369306
+    },
+    {
+      "id": "netease-track:3408947",
+      "neteaseTrackId": "3408947",
+      "title": "On Fire [Live]",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 441000
+    },
+    {
+      "id": "netease-track:3408951",
+      "neteaseTrackId": "3408951",
+      "title": "Amazing Grace (Peace on Earth)",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 422000
+    },
+    {
+      "id": "netease-track:3408958",
+      "neteaseTrackId": "3408958",
+      "title": "Come Togerther [Live]",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 256000
+    },
+    {
+      "id": "netease-track:3408961",
+      "neteaseTrackId": "3408961",
+      "title": "Going Down Slow [Instrumental]",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:3408964",
+      "neteaseTrackId": "3408964",
+      "title": "Rock and Roll [Instrumental]",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Spiritualized"
+      ],
+      "durationMs": 211000
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=345487",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Complete Works, Vol. 2 Spiritualized",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

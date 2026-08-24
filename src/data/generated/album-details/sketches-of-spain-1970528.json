@@ -1,0 +1,113 @@
+{
+  "internalId": "album:1970528",
+  "id": "album:1970528",
+  "neteaseAlbumId": "1970528",
+  "slug": "sketches-of-spain-1970528",
+  "title": "Sketches Of Spain",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1999-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "CoolNote",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970528.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970528.webp",
+    "alt": "《Sketches Of Spain》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339709",
+      "neteaseTrackId": "21339709",
+      "title": "Concietro De Aranjuez",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 982297
+    },
+    {
+      "id": "netease-track:21339710",
+      "neteaseTrackId": "21339710",
+      "title": "Will O' The Wisp",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:21339711",
+      "neteaseTrackId": "21339711",
+      "title": "The Pan Piper",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 233000
+    },
+    {
+      "id": "netease-track:21339712",
+      "neteaseTrackId": "21339712",
+      "title": "Saeta",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 309000
+    },
+    {
+      "id": "netease-track:21339713",
+      "neteaseTrackId": "21339713",
+      "title": "Solea",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 737000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=1970528",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sketches Of Spain Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

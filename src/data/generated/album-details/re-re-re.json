@@ -1,0 +1,120 @@
+{
+  "internalId": "album:38201",
+  "id": "album:38201",
+  "neteaseAlbumId": "38201",
+  "slug": "re-re-re",
+  "title": "Re:Re:Re:",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13188",
+      "neteaseArtistId": "13188",
+      "name": "惘闻"
+    }
+  ],
+  "releaseDate": "2005-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Space Circle",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38201.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/38201.webp",
+    "alt": "《Re:Re:Re:》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:385394",
+      "neteaseTrackId": "385394",
+      "title": "隧道",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 644080
+    },
+    {
+      "id": "netease-track:385392",
+      "neteaseTrackId": "385392",
+      "title": "劳动公园",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 602320
+    },
+    {
+      "id": "netease-track:385393",
+      "neteaseTrackId": "385393",
+      "title": "My Crime",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 409760
+    },
+    {
+      "id": "netease-track:385397",
+      "neteaseTrackId": "385397",
+      "title": "最后的麻山",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 502733
+    },
+    {
+      "id": "netease-track:385395",
+      "neteaseTrackId": "385395",
+      "title": "酒狂",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 487920
+    },
+    {
+      "id": "netease-track:385396",
+      "neteaseTrackId": "385396",
+      "title": "圆周率",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "惘闻"
+      ],
+      "durationMs": 750346
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=38201",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Re:Re:Re: 惘闻",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

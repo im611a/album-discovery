@@ -1,0 +1,208 @@
+{
+  "internalId": "album:19315",
+  "id": "album:19315",
+  "neteaseAlbumId": "19315",
+  "slug": "netease-album-19315",
+  "title": "穿越三部曲",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "name": "张杰"
+    }
+  ],
+  "releaseDate": "2009-11-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "天娱传媒",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19315.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19315.webp",
+    "alt": "《穿越三部曲》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:191179",
+      "neteaseTrackId": "191179",
+      "title": "看月亮爬上来",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 198413
+    },
+    {
+      "id": "netease-track:191183",
+      "neteaseTrackId": "191183",
+      "title": "穿越人海",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 260346
+    },
+    {
+      "id": "netease-track:191187",
+      "neteaseTrackId": "191187",
+      "title": "何必在一起",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 274440
+    },
+    {
+      "id": "netease-track:191191",
+      "neteaseTrackId": "191191",
+      "title": "微笑",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 227586
+    },
+    {
+      "id": "netease-track:191195",
+      "neteaseTrackId": "191195",
+      "title": "量身订做",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 250426
+    },
+    {
+      "id": "netease-track:191199",
+      "neteaseTrackId": "191199",
+      "title": "勿忘心安",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 249080
+    },
+    {
+      "id": "netease-track:191202",
+      "neteaseTrackId": "191202",
+      "title": "龙鳞",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 340506
+    },
+    {
+      "id": "netease-track:191204",
+      "neteaseTrackId": "191204",
+      "title": "看月亮爬上来(伴奏)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 199306
+    },
+    {
+      "id": "netease-track:191206",
+      "neteaseTrackId": "191206",
+      "title": "穿越人海(伴奏)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 261226
+    },
+    {
+      "id": "netease-track:191208",
+      "neteaseTrackId": "191208",
+      "title": "何必在一起(伴奏)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 275733
+    },
+    {
+      "id": "netease-track:191212",
+      "neteaseTrackId": "191212",
+      "title": "微笑(伴奏)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 228533
+    },
+    {
+      "id": "netease-track:191216",
+      "neteaseTrackId": "191216",
+      "title": "量身订做(伴奏)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 251533
+    },
+    {
+      "id": "netease-track:191220",
+      "neteaseTrackId": "191220",
+      "title": "勿忘心安(伴奏)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 250080
+    },
+    {
+      "id": "netease-track:191224",
+      "neteaseTrackId": "191224",
+      "title": "龙鳞(伴奏)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 341123
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=19315",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "穿越三部曲 张杰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

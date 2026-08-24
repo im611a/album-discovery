@@ -1,0 +1,110 @@
+{
+  "internalId": "album:151320",
+  "id": "album:151320",
+  "neteaseAlbumId": "151320",
+  "slug": "any-time-any-place",
+  "title": "Any Time, Any Place",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1994-05-22",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151320.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151320.webp",
+    "alt": "《Any Time, Any Place》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480434",
+      "neteaseTrackId": "1480434",
+      "title": "Any Time, Any Place (R. Kelly Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "R. Kelly"
+      ],
+      "durationMs": 313000
+    },
+    {
+      "id": "netease-track:1480440",
+      "neteaseTrackId": "1480440",
+      "title": "Any Time, Any Place (D&D House Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 454000
+    },
+    {
+      "id": "netease-track:1480446",
+      "neteaseTrackId": "1480446",
+      "title": "Any Time, Any Place (Album Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 428200
+    },
+    {
+      "id": "netease-track:1480452",
+      "neteaseTrackId": "1480452",
+      "title": "Throb",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 275493
+    },
+    {
+      "id": "netease-track:1480458",
+      "neteaseTrackId": "1480458",
+      "title": "And On And On",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 288000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=151320",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Any Time, Any Place Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

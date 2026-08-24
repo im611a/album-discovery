@@ -13,7 +13,7 @@ export function ArchiveAlbumRow({ album }: { album: PublishedAlbumSummary }) {
       </Link>
       <div className="r12-archive-row__identity">
         <h3><Link href={`/albums/${album.slug}`}>{album.title}</Link></h3>
-        <p>{album.artists.map((artist, index) => <span key={artist.id}>{index ? "、" : ""}<Link href={`/artists/artist-${artist.neteaseArtistId}`}>{artist.name}</Link></span>)}</p>
+        <p>{album.artists.map((artist, index) => <span key={`${artist.id}:${artist.name}:${index}`}>{index ? "、" : ""}<Link href={`/artists/artist-${artist.neteaseArtistId}`}>{artist.name}</Link></span>)}</p>
       </div>
       <p className="r12-archive-row__release">{album.releaseYear ?? "年份暂缺"}<span>{RELEASE_TYPE_LABELS[album.albumType]}</span></p>
       <AlbumActions album={album} compact />

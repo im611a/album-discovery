@@ -1,0 +1,176 @@
+{
+  "internalId": "album:25437",
+  "id": "album:25437",
+  "neteaseAlbumId": "25437",
+  "slug": "netease-album-25437",
+  "title": "我等你",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2000-01-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25437.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25437.webp",
+    "alt": "《我等你》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254572",
+      "neteaseTrackId": "254572",
+      "title": "我等你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 268133
+    },
+    {
+      "id": "netease-track:254574",
+      "neteaseTrackId": "254574",
+      "title": "后来",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 341400
+    },
+    {
+      "id": "netease-track:254576",
+      "neteaseTrackId": "254576",
+      "title": "Love",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "梁静茹"
+      ],
+      "durationMs": 208000
+    },
+    {
+      "id": "netease-track:254578",
+      "neteaseTrackId": "254578",
+      "title": "对白",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 255466
+    },
+    {
+      "id": "netease-track:254580",
+      "neteaseTrackId": "254580",
+      "title": "坦白",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 258066
+    },
+    {
+      "id": "netease-track:254582",
+      "neteaseTrackId": "254582",
+      "title": "人之初",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 244800
+    },
+    {
+      "id": "netease-track:254583",
+      "neteaseTrackId": "254583",
+      "title": "不想回家",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 239266
+    },
+    {
+      "id": "netease-track:254585",
+      "neteaseTrackId": "254585",
+      "title": "比朋友多一点",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 218933
+    },
+    {
+      "id": "netease-track:254586",
+      "neteaseTrackId": "254586",
+      "title": "左岸",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 200466
+    },
+    {
+      "id": "netease-track:254587",
+      "neteaseTrackId": "254587",
+      "title": "序曲",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 94560
+    },
+    {
+      "id": "netease-track:254588",
+      "neteaseTrackId": "254588",
+      "title": "四月天",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 358333
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=25437",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我等你 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

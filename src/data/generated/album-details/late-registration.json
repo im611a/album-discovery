@@ -1,0 +1,298 @@
+{
+  "internalId": "album:1738262",
+  "id": "album:1738262",
+  "neteaseAlbumId": "1738262",
+  "slug": "late-registration",
+  "title": "Late Registration",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2005-08-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Def Jam Recordings；Roc-A-Fella",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1738262.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1738262.webp",
+    "alt": "《Late Registration》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18969082",
+      "neteaseTrackId": "18969082",
+      "title": "Wake Up Mr. West",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 41066
+    },
+    {
+      "id": "netease-track:18969083",
+      "neteaseTrackId": "18969083",
+      "title": "Heard 'Em Say",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Adam Levine"
+      ],
+      "durationMs": 203733
+    },
+    {
+      "id": "netease-track:18969084",
+      "neteaseTrackId": "18969084",
+      "title": "Touch The Sky",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Lupe Fiasco"
+      ],
+      "durationMs": 237333
+    },
+    {
+      "id": "netease-track:18969085",
+      "neteaseTrackId": "18969085",
+      "title": "Gold Digger",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Jamie Foxx"
+      ],
+      "durationMs": 208293
+    },
+    {
+      "id": "netease-track:18969086",
+      "neteaseTrackId": "18969086",
+      "title": "Skit #1",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 33573
+    },
+    {
+      "id": "netease-track:18969087",
+      "neteaseTrackId": "18969087",
+      "title": "Drive Slow",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "GLC",
+        "Paul Wall"
+      ],
+      "durationMs": 272826
+    },
+    {
+      "id": "netease-track:18969088",
+      "neteaseTrackId": "18969088",
+      "title": "My Way Home",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Common"
+      ],
+      "durationMs": 103573
+    },
+    {
+      "id": "netease-track:18969089",
+      "neteaseTrackId": "18969089",
+      "title": "Crack Music",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "The Game"
+      ],
+      "durationMs": 271360
+    },
+    {
+      "id": "netease-track:18969090",
+      "neteaseTrackId": "18969090",
+      "title": "Roses",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 245840
+    },
+    {
+      "id": "netease-track:18969091",
+      "neteaseTrackId": "18969091",
+      "title": "Bring Me Down",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Brandy"
+      ],
+      "durationMs": 199000
+    },
+    {
+      "id": "netease-track:18969092",
+      "neteaseTrackId": "18969092",
+      "title": "Addiction",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 266986
+    },
+    {
+      "id": "netease-track:18969093",
+      "neteaseTrackId": "18969093",
+      "title": "Skit #2",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 31440
+    },
+    {
+      "id": "netease-track:18969094",
+      "neteaseTrackId": "18969094",
+      "title": "Diamonds From Sierra Leone (Remix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "JAŸ-Z"
+      ],
+      "durationMs": 233400
+    },
+    {
+      "id": "netease-track:18969095",
+      "neteaseTrackId": "18969095",
+      "title": "We Major",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Nas",
+        "Really Doe"
+      ],
+      "durationMs": 448573
+    },
+    {
+      "id": "netease-track:18969096",
+      "neteaseTrackId": "18969096",
+      "title": "Skit #3",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 24133
+    },
+    {
+      "id": "netease-track:18969097",
+      "neteaseTrackId": "18969097",
+      "title": "Hey Mama",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 305426
+    },
+    {
+      "id": "netease-track:18969098",
+      "neteaseTrackId": "18969098",
+      "title": "Celebration",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 198440
+    },
+    {
+      "id": "netease-track:18969099",
+      "neteaseTrackId": "18969099",
+      "title": "Skit #4",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 78666
+    },
+    {
+      "id": "netease-track:18969100",
+      "neteaseTrackId": "18969100",
+      "title": "Gone",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Cam'ron",
+        "Consequence"
+      ],
+      "durationMs": 362600
+    },
+    {
+      "id": "netease-track:18969101",
+      "neteaseTrackId": "18969101",
+      "title": "Diamonds From Sierra Leone (Bonus Track)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 238693
+    },
+    {
+      "id": "netease-track:18969103",
+      "neteaseTrackId": "18969103",
+      "title": "Late",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West"
+      ],
+      "durationMs": 230400
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=1738262",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Late Registration Kanye West",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

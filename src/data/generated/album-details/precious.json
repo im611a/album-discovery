@@ -1,0 +1,186 @@
+{
+  "internalId": "album:64354",
+  "id": "album:64354",
+  "neteaseAlbumId": "64354",
+  "slug": "precious",
+  "title": "Precious",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "1998-01-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/64354.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/64354.webp",
+    "alt": "《Precious》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:667219",
+      "neteaseTrackId": "667219",
+      "title": "My Little Lover Boy",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 269560
+    },
+    {
+      "id": "netease-track:667221",
+      "neteaseTrackId": "667221",
+      "title": "Lullaby",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 278773
+    },
+    {
+      "id": "netease-track:667224",
+      "neteaseTrackId": "667224",
+      "title": "How Ya Doin’",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 186827
+    },
+    {
+      "id": "netease-track:667228",
+      "neteaseTrackId": "667228",
+      "title": "I Don’t Love You",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 291172
+    },
+    {
+      "id": "netease-track:667231",
+      "neteaseTrackId": "667231",
+      "title": "Promise",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 325094
+    },
+    {
+      "id": "netease-track:667234",
+      "neteaseTrackId": "667234",
+      "title": "Ticket 4 Two",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 324466
+    },
+    {
+      "id": "netease-track:667237",
+      "neteaseTrackId": "667237",
+      "title": "Take A Little While",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 232040
+    },
+    {
+      "id": "netease-track:667239",
+      "neteaseTrackId": "667239",
+      "title": "100 Reasons Why",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 272360
+    },
+    {
+      "id": "netease-track:667242",
+      "neteaseTrackId": "667242",
+      "title": "Work Things Out",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 272374
+    },
+    {
+      "id": "netease-track:667244",
+      "neteaseTrackId": "667244",
+      "title": "Close to You",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 280160
+    },
+    {
+      "id": "netease-track:667247",
+      "neteaseTrackId": "667247",
+      "title": "Precious Love",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 322773
+    },
+    {
+      "id": "netease-track:667249",
+      "neteaseTrackId": "667249",
+      "title": "How Ya Doin’(Rap Version)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 226000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=64354",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Precious 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

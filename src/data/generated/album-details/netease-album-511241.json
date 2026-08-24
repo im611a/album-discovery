@@ -1,0 +1,110 @@
+{
+  "internalId": "album:511241",
+  "id": "album:511241",
+  "neteaseAlbumId": "511241",
+  "slug": "netease-album-511241",
+  "title": "梦想.旗开得胜",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6460",
+      "neteaseArtistId": "6460",
+      "name": "张学友"
+    },
+    {
+      "id": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "name": "张靓颖"
+    },
+    {
+      "id": "netease-artist:37724",
+      "neteaseArtistId": "37724",
+      "name": "K'NAAN"
+    }
+  ],
+  "releaseDate": "2010-06-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Go East Music Entertainment Consulting Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/511241.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/511241.webp",
+    "alt": "《梦想.旗开得胜》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5240551",
+      "neteaseTrackId": "5240551",
+      "title": "旗开得胜",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张学友",
+        "张靓颖",
+        "K'NAAN"
+      ],
+      "durationMs": 221379
+    },
+    {
+      "id": "netease-track:5240552",
+      "neteaseTrackId": "5240552",
+      "title": "旗开得胜",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 219866
+    },
+    {
+      "id": "netease-track:5240553",
+      "neteaseTrackId": "5240553",
+      "title": "旗开得胜",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 221973
+    },
+    {
+      "id": "netease-track:5240554",
+      "neteaseTrackId": "5240554",
+      "title": "Dreamer",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "K'NAAN"
+      ],
+      "durationMs": 272026
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=511241",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "梦想.旗开得胜 张学友 张靓颖 K'NAAN",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

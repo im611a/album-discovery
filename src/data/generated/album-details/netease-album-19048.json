@@ -1,0 +1,385 @@
+{
+  "internalId": "album:19048",
+  "id": "album:19048",
+  "neteaseAlbumId": "19048",
+  "slug": "netease-album-19048",
+  "title": "狂恋",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1994-03-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "新艺宝",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19048.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19048.webp",
+    "alt": "《狂恋》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188029",
+      "neteaseTrackId": "188029",
+      "title": "拒绝再玩",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 210512
+    },
+    {
+      "id": "netease-track:188032",
+      "neteaseTrackId": "188032",
+      "title": "为你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 290946
+    },
+    {
+      "id": "netease-track:188035",
+      "neteaseTrackId": "188035",
+      "title": "透明的你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 228920
+    },
+    {
+      "id": "netease-track:188037",
+      "neteaseTrackId": "188037",
+      "title": "狂野如我",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 224986
+    },
+    {
+      "id": "netease-track:188040",
+      "neteaseTrackId": "188040",
+      "title": "到未来日子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268360
+    },
+    {
+      "id": "netease-track:188043",
+      "neteaseTrackId": "188043",
+      "title": "天使之爱",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 244924
+    },
+    {
+      "id": "netease-track:188046",
+      "neteaseTrackId": "188046",
+      "title": "共同渡过",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 266200
+    },
+    {
+      "id": "netease-track:188050",
+      "neteaseTrackId": "188050",
+      "title": "兜风心情",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣",
+        "柏安妮"
+      ],
+      "durationMs": 244273
+    },
+    {
+      "id": "netease-track:188054",
+      "neteaseTrackId": "188054",
+      "title": "倩女幽魂(国语)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 214426
+    },
+    {
+      "id": "netease-track:188058",
+      "neteaseTrackId": "188058",
+      "title": "爱的狂徒",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 233200
+    },
+    {
+      "id": "netease-track:188062",
+      "neteaseTrackId": "188062",
+      "title": "明月夜",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 246813
+    },
+    {
+      "id": "netease-track:188065",
+      "neteaseTrackId": "188065",
+      "title": "守住风口",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 196840
+    },
+    {
+      "id": "netease-track:188074",
+      "neteaseTrackId": "188074",
+      "title": "野火",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 233058
+    },
+    {
+      "id": "netease-track:188077",
+      "neteaseTrackId": "188077",
+      "title": "失散的影子",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 352373
+    },
+    {
+      "id": "netease-track:188080",
+      "neteaseTrackId": "188080",
+      "title": "惊梦",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 308105
+    },
+    {
+      "id": "netease-track:188083",
+      "neteaseTrackId": "188083",
+      "title": "童年时",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 228960
+    },
+    {
+      "id": "netease-track:188084",
+      "neteaseTrackId": "188084",
+      "title": "拒绝再玩",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 214466
+    },
+    {
+      "id": "netease-track:188086",
+      "neteaseTrackId": "188086",
+      "title": "风再起时",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 269258
+    },
+    {
+      "id": "netease-track:188096",
+      "neteaseTrackId": "188096",
+      "title": "无心睡眠",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 192320
+    },
+    {
+      "id": "netease-track:188099",
+      "neteaseTrackId": "188099",
+      "title": "共同渡过",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 266000
+    },
+    {
+      "id": "netease-track:188102",
+      "neteaseTrackId": "188102",
+      "title": "热辣辣",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 204266
+    },
+    {
+      "id": "netease-track:188106",
+      "neteaseTrackId": "188106",
+      "title": "想你",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 299080
+    },
+    {
+      "id": "netease-track:188109",
+      "neteaseTrackId": "188109",
+      "title": "倩女幽魂(粤语)",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217773
+    },
+    {
+      "id": "netease-track:188112",
+      "neteaseTrackId": "188112",
+      "title": "沉默是金",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 250066
+    },
+    {
+      "id": "netease-track:188120",
+      "neteaseTrackId": "188120",
+      "title": "HOT SUMMER",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 237960
+    },
+    {
+      "id": "netease-track:188123",
+      "neteaseTrackId": "188123",
+      "title": "侧面",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 225533
+    },
+    {
+      "id": "netease-track:188126",
+      "neteaseTrackId": "188126",
+      "title": "奔向未来日子",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 270186
+    },
+    {
+      "id": "netease-track:188129",
+      "neteaseTrackId": "188129",
+      "title": "但愿人长久",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 232706
+    },
+    {
+      "id": "netease-track:188133",
+      "neteaseTrackId": "188133",
+      "title": "爱的凶手",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 235800
+    },
+    {
+      "id": "netease-track:188136",
+      "neteaseTrackId": "188136",
+      "title": "风继续吹(Live)",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 415826
+    }
+  ],
+  "trackCount": 30,
+  "externalUrl": "https://music.163.com/#/album?id=19048",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "狂恋 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

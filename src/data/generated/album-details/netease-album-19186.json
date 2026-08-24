@@ -1,0 +1,229 @@
+{
+  "internalId": "album:19186",
+  "id": "album:19186",
+  "neteaseAlbumId": "19186",
+  "slug": "netease-album-19186",
+  "title": "REMIX 走失的主人",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    },
+    {
+      "id": "netease-artist:12468289",
+      "neteaseArtistId": "12468289",
+      "name": "梁龙"
+    },
+    {
+      "id": "netease-artist:12443",
+      "neteaseArtistId": "12443",
+      "name": "东方大戏楼"
+    },
+    {
+      "id": "netease-artist:13430",
+      "neteaseArtistId": "13430",
+      "name": "诱导社"
+    },
+    {
+      "id": "netease-artist:2523",
+      "neteaseArtistId": "2523",
+      "name": "SHAO"
+    },
+    {
+      "id": "netease-artist:5368",
+      "neteaseArtistId": "5368",
+      "name": "王凡"
+    },
+    {
+      "id": "netease-artist:2025",
+      "neteaseArtistId": "2025",
+      "name": "B6"
+    },
+    {
+      "id": "netease-artist:3092",
+      "neteaseArtistId": "3092",
+      "name": "虎子 Hz"
+    },
+    {
+      "id": "netease-artist:188773",
+      "neteaseArtistId": "188773",
+      "name": "4026"
+    }
+  ],
+  "releaseDate": "2008-12-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19186.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19186.webp",
+    "alt": "《REMIX 走失的主人》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:25702095",
+      "neteaseTrackId": "25702095",
+      "title": "阿丝玛",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 234571
+    },
+    {
+      "id": "netease-track:189836",
+      "neteaseTrackId": "189836",
+      "title": "假如生活欺骗了你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "诱导社"
+      ],
+      "durationMs": 267354
+    },
+    {
+      "id": "netease-track:1432544489",
+      "neteaseTrackId": "1432544489",
+      "title": "少年老成",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "B6"
+      ],
+      "durationMs": 246122
+    },
+    {
+      "id": "netease-track:189828",
+      "neteaseTrackId": "189828",
+      "title": "猪之花",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "SHAO",
+        "东方大戏楼"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:1318877140",
+      "neteaseTrackId": "1318877140",
+      "title": "皮条客",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 145142
+    },
+    {
+      "id": "netease-track:476631330",
+      "neteaseTrackId": "476631330",
+      "title": "爱情进行曲",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 222524
+    },
+    {
+      "id": "netease-track:1432542513",
+      "neteaseTrackId": "1432542513",
+      "title": "又卑又亢",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "梁龙",
+        "东方大戏楼"
+      ],
+      "durationMs": 231562
+    },
+    {
+      "id": "netease-track:1432544545",
+      "neteaseTrackId": "1432544545",
+      "title": "关河令",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "B6"
+      ],
+      "durationMs": 236400
+    },
+    {
+      "id": "netease-track:189820",
+      "neteaseTrackId": "189820",
+      "title": "媚笑阳台",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "4026"
+      ],
+      "durationMs": 250620
+    },
+    {
+      "id": "netease-track:189814",
+      "neteaseTrackId": "189814",
+      "title": "让我再见一次大夫",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "王凡"
+      ],
+      "durationMs": 356156
+    },
+    {
+      "id": "netease-track:1432547149",
+      "neteaseTrackId": "1432547149",
+      "title": "走失的主人",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "虎子 Hz"
+      ],
+      "durationMs": 238363
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=19186",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic",
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "REMIX 走失的主人 左小祖咒 梁龙 东方大戏楼 诱导社 SHAO 王凡 B6 虎子 Hz 4026",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

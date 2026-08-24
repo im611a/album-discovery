@@ -1,0 +1,109 @@
+{
+  "internalId": "album:21266",
+  "id": "album:21266",
+  "neteaseAlbumId": "21266",
+  "slug": "netease-album-21266",
+  "title": "Demo 4 陈绮贞的创作素描",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "2011-12-09",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21266.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21266.webp",
+    "alt": "《Demo 4 陈绮贞的创作素描》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:208995",
+      "neteaseTrackId": "208995",
+      "title": "One Of Us Singing Lalala",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 8000
+    },
+    {
+      "id": "netease-track:208998",
+      "neteaseTrackId": "208998",
+      "title": "That Girl Is You",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 65000
+    },
+    {
+      "id": "netease-track:209002",
+      "neteaseTrackId": "209002",
+      "title": "Red",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 193000
+    },
+    {
+      "id": "netease-track:209006",
+      "neteaseTrackId": "209006",
+      "title": "A Little",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 138000
+    },
+    {
+      "id": "netease-track:209009",
+      "neteaseTrackId": "209009",
+      "title": "Somebody Calling",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 10000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=21266",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Demo 4 陈绮贞的创作素描 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

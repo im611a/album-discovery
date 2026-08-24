@@ -1,0 +1,153 @@
+{
+  "internalId": "album:1706216",
+  "id": "album:1706216",
+  "neteaseAlbumId": "1706216",
+  "slug": "control",
+  "title": "Control",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1985-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "A&M",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706216.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706216.webp",
+    "alt": "《Control》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18589299",
+      "neteaseTrackId": "18589299",
+      "title": "Control",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 353306
+    },
+    {
+      "id": "netease-track:18589300",
+      "neteaseTrackId": "18589300",
+      "title": "Nasty",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 243133
+    },
+    {
+      "id": "netease-track:18589301",
+      "neteaseTrackId": "18589301",
+      "title": "What Have You Done For Me Lately",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 299493
+    },
+    {
+      "id": "netease-track:18589302",
+      "neteaseTrackId": "18589302",
+      "title": "You Can Be Mine",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 315733
+    },
+    {
+      "id": "netease-track:18589303",
+      "neteaseTrackId": "18589303",
+      "title": "The Pleasure Principle",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 297973
+    },
+    {
+      "id": "netease-track:18589304",
+      "neteaseTrackId": "18589304",
+      "title": "When I Think Of You",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 235493
+    },
+    {
+      "id": "netease-track:18589305",
+      "neteaseTrackId": "18589305",
+      "title": "He Doesn't Know I'm Alive",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 209933
+    },
+    {
+      "id": "netease-track:18589306",
+      "neteaseTrackId": "18589306",
+      "title": "Let's Wait Awhile",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 277400
+    },
+    {
+      "id": "netease-track:18589307",
+      "neteaseTrackId": "18589307",
+      "title": "Funny How Time Flies (When You're Having Fun)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 268466
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1706216",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Control Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

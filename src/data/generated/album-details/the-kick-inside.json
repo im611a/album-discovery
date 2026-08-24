@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1742058",
+  "id": "album:1742058",
+  "neteaseAlbumId": "1742058",
+  "slug": "the-kick-inside",
+  "title": "The Kick Inside",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "1978-02-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1742058.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1742058.webp",
+    "alt": "《The Kick Inside》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19012424",
+      "neteaseTrackId": "19012424",
+      "title": "Moving",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 181960
+    },
+    {
+      "id": "netease-track:19012425",
+      "neteaseTrackId": "19012425",
+      "title": "The Saxophone Song",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 232840
+    },
+    {
+      "id": "netease-track:19012426",
+      "neteaseTrackId": "19012426",
+      "title": "Strange Phenomena",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 178693
+    },
+    {
+      "id": "netease-track:19012427",
+      "neteaseTrackId": "19012427",
+      "title": "Kite",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 177000
+    },
+    {
+      "id": "netease-track:19012428",
+      "neteaseTrackId": "19012428",
+      "title": "The Man with the Child in His Eyes",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 158693
+    },
+    {
+      "id": "netease-track:19012429",
+      "neteaseTrackId": "19012429",
+      "title": "Wuthering Heights",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 269066
+    },
+    {
+      "id": "netease-track:19012430",
+      "neteaseTrackId": "19012430",
+      "title": "James and the Cold Gun",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 216506
+    },
+    {
+      "id": "netease-track:19012431",
+      "neteaseTrackId": "19012431",
+      "title": "Feel It",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 182866
+    },
+    {
+      "id": "netease-track:19012432",
+      "neteaseTrackId": "19012432",
+      "title": "Oh to Be in Love",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 198093
+    },
+    {
+      "id": "netease-track:19012433",
+      "neteaseTrackId": "19012433",
+      "title": "L'Amour Looks Something Like You",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 148640
+    },
+    {
+      "id": "netease-track:19012434",
+      "neteaseTrackId": "19012434",
+      "title": "Them Heavy People",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 185400
+    },
+    {
+      "id": "netease-track:19012435",
+      "neteaseTrackId": "19012435",
+      "title": "Room for the Life",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 245560
+    },
+    {
+      "id": "netease-track:19012436",
+      "neteaseTrackId": "19012436",
+      "title": "The Kick Inside",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 214773
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1742058",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Kick Inside Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

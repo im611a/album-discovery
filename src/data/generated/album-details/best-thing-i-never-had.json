@@ -1,0 +1,98 @@
+{
+  "internalId": "album:220679",
+  "id": "album:220679",
+  "neteaseAlbumId": "220679",
+  "slug": "best-thing-i-never-had",
+  "title": "Best Thing I Never Had",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2011-09-04",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220679.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220679.webp",
+    "alt": "《Best Thing I Never Had》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2187806",
+      "neteaseTrackId": "2187806",
+      "title": "Best Thing I Never Had (Gareth Wyn Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 393880
+    },
+    {
+      "id": "netease-track:2187809",
+      "neteaseTrackId": "2187809",
+      "title": "Best Thing I Never Had (Olli Collins & Fred Portelli Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 383245
+    },
+    {
+      "id": "netease-track:2187811",
+      "neteaseTrackId": "2187811",
+      "title": "Best Thing I Never Had (Billionaire Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 280497
+    },
+    {
+      "id": "netease-track:2187812",
+      "neteaseTrackId": "2187812",
+      "title": "Best Thing I Never Had (Moguai Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 377138
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=220679",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Best Thing I Never Had Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

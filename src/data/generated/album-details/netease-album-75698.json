@@ -1,0 +1,120 @@
+{
+  "internalId": "album:75698",
+  "id": "album:75698",
+  "neteaseAlbumId": "75698",
+  "slug": "netease-album-75698",
+  "title": "残光",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:20287",
+      "neteaseArtistId": "20287",
+      "name": "Lamp"
+    }
+  ],
+  "releaseDate": "2007-03-06",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "MOTEL BLEU",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/75698.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/75698.webp",
+    "alt": "《残光》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:769606",
+      "neteaseTrackId": "769606",
+      "title": "過ぎる春の",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 341240
+    },
+    {
+      "id": "netease-track:769607",
+      "neteaseTrackId": "769607",
+      "title": "ムード・ロマンティカNo2",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 267493
+    },
+    {
+      "id": "netease-track:769608",
+      "neteaseTrackId": "769608",
+      "title": "午前4時",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 320973
+    },
+    {
+      "id": "netease-track:769609",
+      "neteaseTrackId": "769609",
+      "title": "夏に散らした小さな恋",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 323400
+    },
+    {
+      "id": "netease-track:769610",
+      "neteaseTrackId": "769610",
+      "title": "面影",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 293986
+    },
+    {
+      "id": "netease-track:769611",
+      "neteaseTrackId": "769611",
+      "title": "泡沫綺譚",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 256320
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=75698",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "残光 Lamp",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "internalId": "album:29605",
+  "id": "album:29605",
+  "neteaseAlbumId": "29605",
+  "slug": "netease-album-29605",
+  "title": "一切如新",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1995-03-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29605.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29605.webp",
+    "alt": "《一切如新》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298374",
+      "neteaseTrackId": "298374",
+      "title": "一切如新",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 250493
+    },
+    {
+      "id": "netease-track:298377",
+      "neteaseTrackId": "298377",
+      "title": "神魂颠倒",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 294506
+    },
+    {
+      "id": "netease-track:298379",
+      "neteaseTrackId": "298379",
+      "title": "触景生情",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 304227
+    },
+    {
+      "id": "netease-track:298381",
+      "neteaseTrackId": "298381",
+      "title": "猜心",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 293160
+    },
+    {
+      "id": "netease-track:298383",
+      "neteaseTrackId": "298383",
+      "title": "试着了解",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 311536
+    },
+    {
+      "id": "netease-track:298386",
+      "neteaseTrackId": "298386",
+      "title": "半袖",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 287463
+    },
+    {
+      "id": "netease-track:298388",
+      "neteaseTrackId": "298388",
+      "title": "断线",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 250218
+    },
+    {
+      "id": "netease-track:298390",
+      "neteaseTrackId": "298390",
+      "title": "碧海晴天",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 291666
+    },
+    {
+      "id": "netease-track:298392",
+      "neteaseTrackId": "298392",
+      "title": "爱上你给的痛",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 243173
+    },
+    {
+      "id": "netease-track:298394",
+      "neteaseTrackId": "298394",
+      "title": "多事的秋",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 333229
+    },
+    {
+      "id": "netease-track:298397",
+      "neteaseTrackId": "298397",
+      "title": "飞",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 318554
+    },
+    {
+      "id": "netease-track:298400",
+      "neteaseTrackId": "298400",
+      "title": "情伤意乱",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 315506
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=29605",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "一切如新 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

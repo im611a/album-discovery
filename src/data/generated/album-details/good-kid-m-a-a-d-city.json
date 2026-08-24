@@ -1,0 +1,215 @@
+{
+  "internalId": "album:1734888",
+  "id": "album:1734888",
+  "neteaseAlbumId": "1734888",
+  "slug": "good-kid-m-a-a-d-city",
+  "title": "good kid, m.A.A.d city",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37995",
+      "neteaseArtistId": "37995",
+      "name": "Kendrick Lamar"
+    }
+  ],
+  "releaseDate": "2012-10-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Aftermath",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1734888.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1734888.webp",
+    "alt": "《good kid, m.A.A.d city》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18943528",
+      "neteaseTrackId": "18943528",
+      "title": "Sherane a.k.a Master Splinter’s Daughter",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 273640
+    },
+    {
+      "id": "netease-track:18943529",
+      "neteaseTrackId": "18943529",
+      "title": "Bitch, Don’t Kill My Vibe",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 310720
+    },
+    {
+      "id": "netease-track:18943530",
+      "neteaseTrackId": "18943530",
+      "title": "Backseat Freestyle",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 212653
+    },
+    {
+      "id": "netease-track:18943531",
+      "neteaseTrackId": "18943531",
+      "title": "The Art of Peer Pressure",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 324533
+    },
+    {
+      "id": "netease-track:18943532",
+      "neteaseTrackId": "18943532",
+      "title": "Money Trees",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Jay Rock"
+      ],
+      "durationMs": 386906
+    },
+    {
+      "id": "netease-track:18943533",
+      "neteaseTrackId": "18943533",
+      "title": "Poetic Justice",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Drake",
+        "Janet Jackson"
+      ],
+      "durationMs": 300160
+    },
+    {
+      "id": "netease-track:18943534",
+      "neteaseTrackId": "18943534",
+      "title": "good kid",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 214120
+    },
+    {
+      "id": "netease-track:18943535",
+      "neteaseTrackId": "18943535",
+      "title": "m.A.A.d city",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "MC Eiht"
+      ],
+      "durationMs": 350226
+    },
+    {
+      "id": "netease-track:18943536",
+      "neteaseTrackId": "18943536",
+      "title": "Swimming Pools (Drank) (Extended Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 313786
+    },
+    {
+      "id": "netease-track:18943537",
+      "neteaseTrackId": "18943537",
+      "title": "Sing About Me, I'm Dying Of Thirst",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 723649
+    },
+    {
+      "id": "netease-track:18943538",
+      "neteaseTrackId": "18943538",
+      "title": "Real",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Anna Wise"
+      ],
+      "durationMs": 443413
+    },
+    {
+      "id": "netease-track:18943539",
+      "neteaseTrackId": "18943539",
+      "title": "Compton",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Dr. Dre"
+      ],
+      "durationMs": 248093
+    },
+    {
+      "id": "netease-track:438803446",
+      "neteaseTrackId": "438803446",
+      "title": "Bitch, Don’t Kill My Vibe (Remix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "JAŸ-Z"
+      ],
+      "durationMs": 278569
+    },
+    {
+      "id": "netease-track:438803447",
+      "neteaseTrackId": "438803447",
+      "title": "*****, Don’t Kill My Vibe (International Remix / Explicit Version)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 306106
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=1734888",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "good kid, m.A.A.d city Kendrick Lamar",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:25442",
+  "id": "album:25442",
+  "neteaseAlbumId": "25442",
+  "slug": "netease-album-25442",
+  "title": "雨季",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "1995-12-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25442.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25442.webp",
+    "alt": "《雨季》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254614",
+      "neteaseTrackId": "254614",
+      "title": "打了一把钥匙给你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 307333
+    },
+    {
+      "id": "netease-track:254616",
+      "neteaseTrackId": "254616",
+      "title": "雨季",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 279000
+    },
+    {
+      "id": "netease-track:254618",
+      "neteaseTrackId": "254618",
+      "title": "蒲公英",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 228492
+    },
+    {
+      "id": "netease-track:254620",
+      "neteaseTrackId": "254620",
+      "title": "骂你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 234000
+    },
+    {
+      "id": "netease-track:254622",
+      "neteaseTrackId": "254622",
+      "title": "Monica",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 281000
+    },
+    {
+      "id": "netease-track:254624",
+      "neteaseTrackId": "254624",
+      "title": "男人的皮衣",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 366506
+    },
+    {
+      "id": "netease-track:254626",
+      "neteaseTrackId": "254626",
+      "title": "歌词给我",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 103492
+    },
+    {
+      "id": "netease-track:254627",
+      "neteaseTrackId": "254627",
+      "title": "背影",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 312666
+    },
+    {
+      "id": "netease-track:254628",
+      "neteaseTrackId": "254628",
+      "title": "单车失窃记",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 300667
+    },
+    {
+      "id": "netease-track:254629",
+      "neteaseTrackId": "254629",
+      "title": "说话",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 316333
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=25442",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "雨季 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

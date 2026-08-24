@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1724168",
+  "id": "album:1724168",
+  "neteaseAlbumId": "1724168",
+  "slug": "taming-the-tiger",
+  "title": "Taming the Tiger",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1998-09-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724168.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724168.webp",
+    "alt": "《Taming the Tiger》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18821760",
+      "neteaseTrackId": "18821760",
+      "title": "Harlem in Havana",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 267800
+    },
+    {
+      "id": "netease-track:18821762",
+      "neteaseTrackId": "18821762",
+      "title": "Man from Mars",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 249666
+    },
+    {
+      "id": "netease-track:18821764",
+      "neteaseTrackId": "18821764",
+      "title": "Love Puts on a New Face",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 226240
+    },
+    {
+      "id": "netease-track:18821766",
+      "neteaseTrackId": "18821766",
+      "title": "Lead Balloon",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 217733
+    },
+    {
+      "id": "netease-track:18821768",
+      "neteaseTrackId": "18821768",
+      "title": "No Apologies",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 257360
+    },
+    {
+      "id": "netease-track:18821770",
+      "neteaseTrackId": "18821770",
+      "title": "Taming the Tiger",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 257866
+    },
+    {
+      "id": "netease-track:18821772",
+      "neteaseTrackId": "18821772",
+      "title": "The Crazy Cries of Love",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 234640
+    },
+    {
+      "id": "netease-track:18821774",
+      "neteaseTrackId": "18821774",
+      "title": "Stay in Touch",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 178693
+    },
+    {
+      "id": "netease-track:18821776",
+      "neteaseTrackId": "18821776",
+      "title": "Face Lift",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 281600
+    },
+    {
+      "id": "netease-track:18821778",
+      "neteaseTrackId": "18821778",
+      "title": "My Best to You",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 222466
+    },
+    {
+      "id": "netease-track:18821780",
+      "neteaseTrackId": "18821780",
+      "title": "Tiger Bones",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 263973
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1724168",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Taming the Tiger Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

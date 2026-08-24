@@ -1,0 +1,186 @@
+{
+  "internalId": "album:18944",
+  "id": "album:18944",
+  "neteaseAlbumId": "18944",
+  "slug": "netease-album-18944",
+  "title": "到处留情",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1998-07-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18944.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18944.webp",
+    "alt": "《到处留情》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186494",
+      "neteaseTrackId": "186494",
+      "title": "多心",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 252108
+    },
+    {
+      "id": "netease-track:186499",
+      "neteaseTrackId": "186499",
+      "title": "不知如何是好",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 224497
+    },
+    {
+      "id": "netease-track:186503",
+      "neteaseTrackId": "186503",
+      "title": "忘掉了星期天",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 283194
+    },
+    {
+      "id": "netease-track:186507",
+      "neteaseTrackId": "186507",
+      "title": "憎你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 302107
+    },
+    {
+      "id": "netease-track:186511",
+      "neteaseTrackId": "186511",
+      "title": "联想",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 273816
+    },
+    {
+      "id": "netease-track:186514",
+      "neteaseTrackId": "186514",
+      "title": "直到明天",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 267730
+    },
+    {
+      "id": "netease-track:186518",
+      "neteaseTrackId": "186518",
+      "title": "到处留情",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 211749
+    },
+    {
+      "id": "netease-track:186521",
+      "neteaseTrackId": "186521",
+      "title": "一周运程",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 239831
+    },
+    {
+      "id": "netease-track:186523",
+      "neteaseTrackId": "186523",
+      "title": "别祝我愉快",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 264752
+    },
+    {
+      "id": "netease-track:186525",
+      "neteaseTrackId": "186525",
+      "title": "夜是",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 267259
+    },
+    {
+      "id": "netease-track:186527",
+      "neteaseTrackId": "186527",
+      "title": "下雪边界",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 286433
+    },
+    {
+      "id": "netease-track:186531",
+      "neteaseTrackId": "186531",
+      "title": "多心(Remix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 221074
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=18944",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "到处留情 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

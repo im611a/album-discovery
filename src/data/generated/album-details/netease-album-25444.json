@@ -1,0 +1,109 @@
+{
+  "internalId": "album:25444",
+  "id": "album:25444",
+  "neteaseAlbumId": "25444",
+  "slug": "netease-album-25444",
+  "title": "少女小渔刘若英的美丽与哀愁",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "1995-05-04",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25444.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25444.webp",
+    "alt": "《少女小渔刘若英的美丽与哀愁》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254633",
+      "neteaseTrackId": "254633",
+      "title": "游子",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 331000
+    },
+    {
+      "id": "netease-track:254635",
+      "neteaseTrackId": "254635",
+      "title": "决定",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 463333
+    },
+    {
+      "id": "netease-track:254638",
+      "neteaseTrackId": "254638",
+      "title": "为爱痴狂",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 352666
+    },
+    {
+      "id": "netease-track:254640",
+      "neteaseTrackId": "254640",
+      "title": "思念",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 298333
+    },
+    {
+      "id": "netease-track:254644",
+      "neteaseTrackId": "254644",
+      "title": "决定(电影版)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 481000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=25444",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "少女小渔刘若英的美丽与哀愁 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

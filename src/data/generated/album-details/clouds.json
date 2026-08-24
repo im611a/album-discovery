@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1724195",
+  "id": "album:1724195",
+  "neteaseAlbumId": "1724195",
+  "slug": "clouds",
+  "title": "Clouds",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1969-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724195.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724195.webp",
+    "alt": "《Clouds》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822149",
+      "neteaseTrackId": "18822149",
+      "title": "Tin Angel",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 249133
+    },
+    {
+      "id": "netease-track:18822151",
+      "neteaseTrackId": "18822151",
+      "title": "Chelsea Morning",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 151600
+    },
+    {
+      "id": "netease-track:18822153",
+      "neteaseTrackId": "18822153",
+      "title": "I Don't Know Where I Stand",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 193400
+    },
+    {
+      "id": "netease-track:18822155",
+      "neteaseTrackId": "18822155",
+      "title": "That Song About the Midway",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 277733
+    },
+    {
+      "id": "netease-track:18822157",
+      "neteaseTrackId": "18822157",
+      "title": "Roses Blue",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 232400
+    },
+    {
+      "id": "netease-track:18822159",
+      "neteaseTrackId": "18822159",
+      "title": "The Gallery",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 252160
+    },
+    {
+      "id": "netease-track:18822161",
+      "neteaseTrackId": "18822161",
+      "title": "I Think I Understand",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 267533
+    },
+    {
+      "id": "netease-track:18822163",
+      "neteaseTrackId": "18822163",
+      "title": "Songs to Aging Children Come",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 190066
+    },
+    {
+      "id": "netease-track:18822164",
+      "neteaseTrackId": "18822164",
+      "title": "The Fiddle and the Drum",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 169666
+    },
+    {
+      "id": "netease-track:18822165",
+      "neteaseTrackId": "18822165",
+      "title": "Both Sides Now",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 273573
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1724195",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Clouds Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:20834",
+  "id": "album:20834",
+  "neteaseAlbumId": "20834",
+  "slug": "netease-album-20834",
+  "title": "寂寞不痛",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7063",
+      "neteaseArtistId": "7063",
+      "name": "黄丽玲"
+    }
+  ],
+  "releaseDate": "2010-12-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "爱贝克思",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/20834.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/20834.webp",
+    "alt": "《寂寞不痛》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:205340",
+      "neteaseTrackId": "205340",
+      "title": "寂寞不痛",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 300866
+    },
+    {
+      "id": "netease-track:205342",
+      "neteaseTrackId": "205342",
+      "title": "给我一个理由忘记",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 285546
+    },
+    {
+      "id": "netease-track:205345",
+      "neteaseTrackId": "205345",
+      "title": "Lin极限",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 229733
+    },
+    {
+      "id": "netease-track:205347",
+      "neteaseTrackId": "205347",
+      "title": "不管幸福来了没有",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 309280
+    },
+    {
+      "id": "netease-track:205348",
+      "neteaseTrackId": "205348",
+      "title": "我不想他",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 199933
+    },
+    {
+      "id": "netease-track:205350",
+      "neteaseTrackId": "205350",
+      "title": "抱紧一点",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 291746
+    },
+    {
+      "id": "netease-track:205351",
+      "neteaseTrackId": "205351",
+      "title": "爱就爱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 198866
+    },
+    {
+      "id": "netease-track:205352",
+      "neteaseTrackId": "205352",
+      "title": "我能体谅",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 288577
+    },
+    {
+      "id": "netease-track:205354",
+      "neteaseTrackId": "205354",
+      "title": "稀有动物",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 213466
+    },
+    {
+      "id": "netease-track:205356",
+      "neteaseTrackId": "205356",
+      "title": "逃避没有不好",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 243586
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=20834",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "寂寞不痛 黄丽玲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

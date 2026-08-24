@@ -1,0 +1,190 @@
+{
+  "internalId": "album:184333",
+  "id": "album:184333",
+  "neteaseAlbumId": "184333",
+  "slug": "parade-music-from-the-motion-picture-under-the-cherry-moon",
+  "title": "Parade(Music from the Motion Picture Under the Cherry Moon)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "1986-03-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184333.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184333.webp",
+    "alt": "《Parade(Music from the Motion Picture Under the Cherry Moon)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1824602",
+      "neteaseTrackId": "1824602",
+      "title": "Christopher Tracy's Parade",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 131108
+    },
+    {
+      "id": "netease-track:1824605",
+      "neteaseTrackId": "1824605",
+      "title": "New Position",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 140486
+    },
+    {
+      "id": "netease-track:1824608",
+      "neteaseTrackId": "1824608",
+      "title": "I Wonder U",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 99944
+    },
+    {
+      "id": "netease-track:1824611",
+      "neteaseTrackId": "1824611",
+      "title": "Under the Cherry Moon",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 177240
+    },
+    {
+      "id": "netease-track:1824614",
+      "neteaseTrackId": "1824614",
+      "title": "Girls & Boys",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "The Revolution"
+      ],
+      "durationMs": 329613
+    },
+    {
+      "id": "netease-track:1824619",
+      "neteaseTrackId": "1824619",
+      "title": "Life Can Be so Nice",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 193776
+    },
+    {
+      "id": "netease-track:1824623",
+      "neteaseTrackId": "1824623",
+      "title": "Venus De Milo",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 115461
+    },
+    {
+      "id": "netease-track:1824627",
+      "neteaseTrackId": "1824627",
+      "title": "Mountains",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "The Revolution"
+      ],
+      "durationMs": 237662
+    },
+    {
+      "id": "netease-track:1824633",
+      "neteaseTrackId": "1824633",
+      "title": "Do U Lie?",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 164440
+    },
+    {
+      "id": "netease-track:1824637",
+      "neteaseTrackId": "1824637",
+      "title": "Kiss",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "The Revolution"
+      ],
+      "durationMs": 226240
+    },
+    {
+      "id": "netease-track:1824640",
+      "neteaseTrackId": "1824640",
+      "title": "Anotherloverholenyohead",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "The Revolution"
+      ],
+      "durationMs": 240744
+    },
+    {
+      "id": "netease-track:1824644",
+      "neteaseTrackId": "1824644",
+      "title": "Sometimes It Snows in April",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 409000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=184333",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Parade(Music from the Motion Picture Under the Cherry Moon) Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

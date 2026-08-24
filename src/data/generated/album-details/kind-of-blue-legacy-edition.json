@@ -1,0 +1,285 @@
+{
+  "internalId": "album:1970426",
+  "id": "album:1970426",
+  "neteaseAlbumId": "1970426",
+  "slug": "kind-of-blue-legacy-edition",
+  "title": "Kind Of Blue (Legacy Edition)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2009-01-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970426.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970426.webp",
+    "alt": "《Kind Of Blue (Legacy Edition)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21338084",
+      "neteaseTrackId": "21338084",
+      "title": "So What",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 562991
+    },
+    {
+      "id": "netease-track:21338085",
+      "neteaseTrackId": "21338085",
+      "title": "Freddie Freeloader",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 586760
+    },
+    {
+      "id": "netease-track:21338086",
+      "neteaseTrackId": "21338086",
+      "title": "Blue in Green",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 337386
+    },
+    {
+      "id": "netease-track:21338087",
+      "neteaseTrackId": "21338087",
+      "title": "All Blues",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 692813
+    },
+    {
+      "id": "netease-track:21338088",
+      "neteaseTrackId": "21338088",
+      "title": "Flamenco Sketches",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 566133
+    },
+    {
+      "id": "netease-track:21338089",
+      "neteaseTrackId": "21338089",
+      "title": "Flamenco Sketches (Alternate Take) (alternate take)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 571628
+    },
+    {
+      "id": "netease-track:21338090",
+      "neteaseTrackId": "21338090",
+      "title": "Freddie Freeloader (Studio Sequence 1)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 51592
+    },
+    {
+      "id": "netease-track:21338091",
+      "neteaseTrackId": "21338091",
+      "title": "Freddie Freeloader (False Start)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 85913
+    },
+    {
+      "id": "netease-track:21338092",
+      "neteaseTrackId": "21338092",
+      "title": "Freddie Freeloader (Studio Sequence 2)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 88530
+    },
+    {
+      "id": "netease-track:21338093",
+      "neteaseTrackId": "21338093",
+      "title": "So What (Studio Sequence 1)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 114130
+    },
+    {
+      "id": "netease-track:21338094",
+      "neteaseTrackId": "21338094",
+      "title": "So What (Studio Sequence 2)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 11702
+    },
+    {
+      "id": "netease-track:21338095",
+      "neteaseTrackId": "21338095",
+      "title": "Blue in Green (Studio Sequence)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 116958
+    },
+    {
+      "id": "netease-track:21338096",
+      "neteaseTrackId": "21338096",
+      "title": "Flamenco Sketches (Studio Sequence 1)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 42376
+    },
+    {
+      "id": "netease-track:21338097",
+      "neteaseTrackId": "21338097",
+      "title": "Flamenco Sketches (Studio Sequence 2)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 69775
+    },
+    {
+      "id": "netease-track:21338098",
+      "neteaseTrackId": "21338098",
+      "title": "All Blues (Studio Sequence)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 18964
+    },
+    {
+      "id": "netease-track:21338099",
+      "neteaseTrackId": "21338099",
+      "title": "On Green Dolphin Street (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 589833
+    },
+    {
+      "id": "netease-track:21338100",
+      "neteaseTrackId": "21338100",
+      "title": "Fran-Dance",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 349112
+    },
+    {
+      "id": "netease-track:21338101",
+      "neteaseTrackId": "21338101",
+      "title": "Stella By Starlight",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 284630
+    },
+    {
+      "id": "netease-track:21338102",
+      "neteaseTrackId": "21338102",
+      "title": "Love For Sale (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 706513
+    },
+    {
+      "id": "netease-track:21338103",
+      "neteaseTrackId": "21338103",
+      "title": "Fran-Dance (alternate take) (alternate take)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351875
+    },
+    {
+      "id": "netease-track:21338104",
+      "neteaseTrackId": "21338104",
+      "title": "So What (Live April 9th, 1960)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1049263
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=1970426",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Kind Of Blue (Legacy Edition) Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "internalId": "album:34568",
+  "id": "album:34568",
+  "neteaseAlbumId": "34568",
+  "slug": "netease-album-34568",
+  "title": "唱得响亮",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11355",
+      "neteaseArtistId": "11355",
+      "name": "超级女声"
+    },
+    {
+      "id": "netease-artist:7067",
+      "neteaseArtistId": "7067",
+      "name": "安又琪"
+    },
+    {
+      "id": "netease-artist:8327",
+      "neteaseArtistId": "8327",
+      "name": "李宇春"
+    },
+    {
+      "id": "netease-artist:7901",
+      "neteaseArtistId": "7901",
+      "name": "黄雅莉"
+    },
+    {
+      "id": "netease-artist:11366",
+      "neteaseArtistId": "11366",
+      "name": "丁香晓晓"
+    },
+    {
+      "id": "netease-artist:10836",
+      "neteaseArtistId": "10836",
+      "name": "赵静怡"
+    },
+    {
+      "id": "netease-artist:7494",
+      "neteaseArtistId": "7494",
+      "name": "陈西贝"
+    }
+  ],
+  "releaseDate": "2006-08-03",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "天娱传媒",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/34568.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/34568.webp",
+    "alt": "《唱得响亮》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:350844",
+      "neteaseTrackId": "350844",
+      "title": "唱得响亮",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "安又琪"
+      ],
+      "durationMs": 169000
+    },
+    {
+      "id": "netease-track:350845",
+      "neteaseTrackId": "350845",
+      "title": "唱得响亮",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "李宇春"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:350846",
+      "neteaseTrackId": "350846",
+      "title": "分享(黄雅莉版)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄雅莉"
+      ],
+      "durationMs": 268000
+    },
+    {
+      "id": "netease-track:350847",
+      "neteaseTrackId": "350847",
+      "title": "笔记",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "丁香晓晓"
+      ],
+      "durationMs": 232000
+    },
+    {
+      "id": "netease-track:350849",
+      "neteaseTrackId": "350849",
+      "title": "分享(安又琪版)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "安又琪"
+      ],
+      "durationMs": 268878
+    },
+    {
+      "id": "netease-track:350851",
+      "neteaseTrackId": "350851",
+      "title": "我的左手旁边是你的右手",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "丁香晓晓"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:350853",
+      "neteaseTrackId": "350853",
+      "title": "真我新声代",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "李宇春",
+        "赵静怡",
+        "陈西贝",
+        "黄雅莉"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:350855",
+      "neteaseTrackId": "350855",
+      "title": "真我新声代 ReMix",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "李宇春",
+        "赵静怡",
+        "陈西贝",
+        "黄雅莉"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:350857",
+      "neteaseTrackId": "350857",
+      "title": "唱得响亮",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 230573
+    },
+    {
+      "id": "netease-track:350859",
+      "neteaseTrackId": "350859",
+      "title": "唱得响亮(伴奏)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 204000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=34568",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "唱得响亮 超级女声 安又琪 李宇春 黄雅莉 丁香晓晓 赵静怡 陈西贝",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

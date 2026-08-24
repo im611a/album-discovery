@@ -1,0 +1,208 @@
+{
+  "internalId": "album:222242",
+  "id": "album:222242",
+  "neteaseAlbumId": "222242",
+  "slug": "broken-vessels",
+  "title": "Broken Vessels",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1999-09-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222242.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222242.webp",
+    "alt": "《Broken Vessels》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205721",
+      "neteaseTrackId": "2205721",
+      "title": "Broken Vessel",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 337000
+    },
+    {
+      "id": "netease-track:2205723",
+      "neteaseTrackId": "2205723",
+      "title": "ER",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 197000
+    },
+    {
+      "id": "netease-track:2205725",
+      "neteaseTrackId": "2205725",
+      "title": "Dementia",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 177000
+    },
+    {
+      "id": "netease-track:2205727",
+      "neteaseTrackId": "2205727",
+      "title": "Light Speed",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:2205730",
+      "neteaseTrackId": "2205730",
+      "title": "Strained",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 292000
+    },
+    {
+      "id": "netease-track:2205733",
+      "neteaseTrackId": "2205733",
+      "title": "High Ride",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 127000
+    },
+    {
+      "id": "netease-track:2205736",
+      "neteaseTrackId": "2205736",
+      "title": "Needle Drop",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 152000
+    },
+    {
+      "id": "netease-track:2205738",
+      "neteaseTrackId": "2205738",
+      "title": "Graveyard",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 109000
+    },
+    {
+      "id": "netease-track:2205740",
+      "neteaseTrackId": "2205740",
+      "title": "Smoking Up",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 313000
+    },
+    {
+      "id": "netease-track:2205741",
+      "neteaseTrackId": "2205741",
+      "title": "Explosion",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 76000
+    },
+    {
+      "id": "netease-track:2205742",
+      "neteaseTrackId": "2205742",
+      "title": "First Call",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 340000
+    },
+    {
+      "id": "netease-track:2205744",
+      "neteaseTrackId": "2205744",
+      "title": "Falling Under",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 136000
+    },
+    {
+      "id": "netease-track:2205746",
+      "neteaseTrackId": "2205746",
+      "title": "Lost Control",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 167000
+    },
+    {
+      "id": "netease-track:2205749",
+      "neteaseTrackId": "2205749",
+      "title": "Hands",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 286480
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=222242",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Broken Vessels Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

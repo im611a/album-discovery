@@ -206,14 +206,14 @@ test.describe("R13-3F final discovery product acceptance", () => {
     await page.setViewportSize({ width: 1440, height: 900 });
     const relationRoute = "/explore/?mode=genre&value=alternative-rock&kind=core";
     await page.goto(relationRoute);
-    const relation = page.locator('[data-explore-authority="relation"]');
+    const relation = page.locator('.r13-explore-entry[data-explore-authority="relation"]');
     const relationTarget = await relation.locator(".r13-explore-entry__primary").getAttribute("href");
     const explanation = await relation.locator(".r13-explore-entry__reason").first().innerText();
     await page.reload();
-    await expect(page.locator('[data-explore-authority="relation"] .r13-explore-entry__primary'))
+    await expect(page.locator('.r13-explore-entry[data-explore-authority="relation"] .r13-explore-entry__primary'))
       .toHaveAttribute("href", relationTarget ?? "");
     await page.screenshot({ path: path.join(screenshotRoot, "07-explore-relation-entry.png"), fullPage: true });
-    await page.locator('[data-explore-authority="relation"] .r13-explore-entry__primary').click();
+    await page.locator('.r13-explore-entry[data-explore-authority="relation"] .r13-explore-entry__primary').click();
     await expect(page.locator(".r13-discovery")).toBeVisible();
 
     const artistLink = page.locator(".album-detail__artists a").first();
@@ -234,17 +234,17 @@ test.describe("R13-3F final discovery product acceptance", () => {
     await expect(page).toHaveURL(/\/albums\//);
 
     await page.goto("/explore/?mode=random&seed=r13-final-smoke");
-    const random = page.locator('[data-explore-authority="serendipity"]');
+    const random = page.locator('.r13-explore-entry[data-explore-authority="serendipity"]');
     await expect(random).toBeVisible();
-    await expect(page.locator('[data-explore-authority="relation"]')).toHaveCount(0);
+    await expect(page.locator('.r13-explore-entry[data-explore-authority="relation"]')).toHaveCount(0);
     await expect(random.locator(".r13-explore-entry__source")).toHaveCount(0);
     await expect(random).toContainText("不是相似关系、推荐结论或热度排序");
     const randomTarget = await random.locator(".r13-explore-entry__primary").getAttribute("href");
     await page.reload();
-    await expect(page.locator('[data-explore-authority="serendipity"] .r13-explore-entry__primary'))
+    await expect(page.locator('.r13-explore-entry[data-explore-authority="serendipity"] .r13-explore-entry__primary'))
       .toHaveAttribute("href", randomTarget ?? "");
     await page.screenshot({ path: path.join(screenshotRoot, "09-explore-explicit-random.png"), fullPage: true });
-    await page.locator('[data-explore-authority="serendipity"] .r13-explore-entry__primary').click();
+    await page.locator('.r13-explore-entry[data-explore-authority="serendipity"] .r13-explore-entry__primary').click();
     await expect(page.locator(".r13-discovery")).toBeVisible();
     expectRuntimeClean(runtime);
     await writeFile(path.join(evidenceRoot, "R13_3F_EXPLORE_MIXED_JOURNEY_AUDIT.json"), `${JSON.stringify({
@@ -305,7 +305,7 @@ test.describe("R13-3F final discovery product acceptance", () => {
 
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/explore/?mode=scene&value=commute");
-    const keyboardTarget = page.locator('[data-explore-authority="relation"] .r13-explore-entry__primary');
+    const keyboardTarget = page.locator('.r13-explore-entry[data-explore-authority="relation"] .r13-explore-entry__primary');
     await keyboardTarget.focus();
     await page.keyboard.press("Enter");
     await expect(page).toHaveURL(/\/albums\//);

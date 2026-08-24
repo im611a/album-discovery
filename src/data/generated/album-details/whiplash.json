@@ -1,0 +1,98 @@
+{
+  "internalId": "album:172262",
+  "id": "album:172262",
+  "neteaseAlbumId": "172262",
+  "slug": "whiplash",
+  "title": "Whiplash",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1983-08-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Megaforce Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172262.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172262.webp",
+    "alt": "《Whiplash》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1698414",
+      "neteaseTrackId": "1698414",
+      "title": "Jump In The Fire",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 281626
+    },
+    {
+      "id": "netease-track:1698418",
+      "neteaseTrackId": "1698418",
+      "title": "Whiplash (Special Neckbrace Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 250122
+    },
+    {
+      "id": "netease-track:1698422",
+      "neteaseTrackId": "1698422",
+      "title": "Seek And Destroy (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 415451
+    },
+    {
+      "id": "netease-track:1698426",
+      "neteaseTrackId": "1698426",
+      "title": "Phantom Lord (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 301792
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=172262",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Whiplash Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

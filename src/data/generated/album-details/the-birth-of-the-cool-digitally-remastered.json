@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1970503",
+  "id": "album:1970503",
+  "neteaseAlbumId": "1970503",
+  "slug": "the-birth-of-the-cool-digitally-remastered",
+  "title": "The Birth Of The Cool (Digitally Remastered)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2006-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Revolver Music Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970503.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970503.webp",
+    "alt": "《The Birth Of The Cool (Digitally Remastered)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339388",
+      "neteaseTrackId": "21339388",
+      "title": "Move",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 155266
+    },
+    {
+      "id": "netease-track:21339389",
+      "neteaseTrackId": "21339389",
+      "title": "Jeru",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 195970
+    },
+    {
+      "id": "netease-track:21339390",
+      "neteaseTrackId": "21339390",
+      "title": "Moon Dreams",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 201888
+    },
+    {
+      "id": "netease-track:21339391",
+      "neteaseTrackId": "21339391",
+      "title": "Venus Demilo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 193360
+    },
+    {
+      "id": "netease-track:21339392",
+      "neteaseTrackId": "21339392",
+      "title": "Budo",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 154400
+    },
+    {
+      "id": "netease-track:21339393",
+      "neteaseTrackId": "21339393",
+      "title": "Deception",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 170306
+    },
+    {
+      "id": "netease-track:21339394",
+      "neteaseTrackId": "21339394",
+      "title": "God Child",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 192813
+    },
+    {
+      "id": "netease-track:21339395",
+      "neteaseTrackId": "21339395",
+      "title": "Boplicity",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 182560
+    },
+    {
+      "id": "netease-track:21339396",
+      "neteaseTrackId": "21339396",
+      "title": "Rocker",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 187813
+    },
+    {
+      "id": "netease-track:21339397",
+      "neteaseTrackId": "21339397",
+      "title": "Israel",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 139506
+    },
+    {
+      "id": "netease-track:21339398",
+      "neteaseTrackId": "21339398",
+      "title": "Rouge",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 195253
+    },
+    {
+      "id": "netease-track:21339399",
+      "neteaseTrackId": "21339399",
+      "title": "Dar'n That Dream",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 206564
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1970503",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Birth Of The Cool (Digitally Remastered) Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

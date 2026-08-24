@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1970164",
+  "id": "album:1970164",
+  "neteaseAlbumId": "1970164",
+  "slug": "miles-davis-tadd-dameron-quintet-in-paris-festival-international-de-jazz-may-1949-original-albu",
+  "title": "Miles Davis, Tadd Dameron Quintet In Paris Festival International de Jazz, May, 1949 (Original Albu",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2011-02-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970164.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970164.webp",
+    "alt": "《Miles Davis, Tadd Dameron Quintet In Paris Festival International de Jazz, May, 1949 (Original Albu》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21334121",
+      "neteaseTrackId": "21334121",
+      "title": "Rifftide",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:21334122",
+      "neteaseTrackId": "21334122",
+      "title": "Good Bait",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 348120
+    },
+    {
+      "id": "netease-track:21334123",
+      "neteaseTrackId": "21334123",
+      "title": "Don't Blame Me",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 259293
+    },
+    {
+      "id": "netease-track:21334124",
+      "neteaseTrackId": "21334124",
+      "title": "Lady Bird",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 306280
+    },
+    {
+      "id": "netease-track:21334125",
+      "neteaseTrackId": "21334125",
+      "title": "Perdido (Wahoo)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 333000
+    },
+    {
+      "id": "netease-track:21334126",
+      "neteaseTrackId": "21334126",
+      "title": "Allen's Alley",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 261250
+    },
+    {
+      "id": "netease-track:21334127",
+      "neteaseTrackId": "21334127",
+      "title": "Embraceable You",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 237000
+    },
+    {
+      "id": "netease-track:21334128",
+      "neteaseTrackId": "21334128",
+      "title": "Ornithology",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 231000
+    },
+    {
+      "id": "netease-track:21334129",
+      "neteaseTrackId": "21334129",
+      "title": "All the Things You Are",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 260573
+    },
+    {
+      "id": "netease-track:21334130",
+      "neteaseTrackId": "21334130",
+      "title": "The Squirrel",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 239000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1970164",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Davis, Tadd Dameron Quintet In Paris Festival International de Jazz, May, 1949 (Original Albu Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

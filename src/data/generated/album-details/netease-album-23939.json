@@ -1,0 +1,219 @@
+{
+  "internalId": "album:23939",
+  "id": "album:23939",
+  "neteaseAlbumId": "23939",
+  "slug": "netease-album-23939",
+  "title": "红歌汇",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2005-04-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23939.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23939.webp",
+    "alt": "《红歌汇》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238810",
+      "neteaseTrackId": "238810",
+      "title": "天空(Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 320800
+    },
+    {
+      "id": "netease-track:238811",
+      "neteaseTrackId": "238811",
+      "title": "穿行(Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 306503
+    },
+    {
+      "id": "netease-track:238812",
+      "neteaseTrackId": "238812",
+      "title": "醒了(Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 215240
+    },
+    {
+      "id": "netease-track:238813",
+      "neteaseTrackId": "238813",
+      "title": "来吧",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 257186
+    },
+    {
+      "id": "netease-track:238814",
+      "neteaseTrackId": "238814",
+      "title": "雪(Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 292320
+    },
+    {
+      "id": "netease-track:238815",
+      "neteaseTrackId": "238815",
+      "title": "天亮了(Unplugged)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 311920
+    },
+    {
+      "id": "netease-track:238816",
+      "neteaseTrackId": "238816",
+      "title": "绒花",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 268493
+    },
+    {
+      "id": "netease-track:238817",
+      "neteaseTrackId": "238817",
+      "title": "斜当",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 322466
+    },
+    {
+      "id": "netease-track:238818",
+      "neteaseTrackId": "238818",
+      "title": "茶马古道",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 290400
+    },
+    {
+      "id": "netease-track:238819",
+      "neteaseTrackId": "238819",
+      "title": "天涯(藏)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 235386
+    },
+    {
+      "id": "netease-track:238820",
+      "neteaseTrackId": "238820",
+      "title": "那片海(Live)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 467533
+    },
+    {
+      "id": "netease-track:238821",
+      "neteaseTrackId": "238821",
+      "title": "思念谁",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 304840
+    },
+    {
+      "id": "netease-track:238822",
+      "neteaseTrackId": "238822",
+      "title": "香格里拉(特别版)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 319226
+    },
+    {
+      "id": "netease-track:238823",
+      "neteaseTrackId": "238823",
+      "title": "家乡(歌迷互动版)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 305653
+    },
+    {
+      "id": "netease-track:238824",
+      "neteaseTrackId": "238824",
+      "title": "青藏高原(Encore版)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 277840
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=23939",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "红歌汇 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

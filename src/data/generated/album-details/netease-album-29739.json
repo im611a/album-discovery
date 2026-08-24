@@ -1,0 +1,167 @@
+{
+  "internalId": "album:29739",
+  "id": "album:29739",
+  "neteaseAlbumId": "29739",
+  "slug": "netease-album-29739",
+  "title": "王菲",
+  "aliases": [
+    "王菲 1997同名专辑"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1997-09-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KC DIGITAL LIMITED",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29739.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29739.webp",
+    "alt": "《王菲》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300052",
+      "neteaseTrackId": "300052",
+      "title": "麻醉",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 241293
+    },
+    {
+      "id": "netease-track:300055",
+      "neteaseTrackId": "300055",
+      "title": "你快乐所以我快乐",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 258266
+    },
+    {
+      "id": "netease-track:300058",
+      "neteaseTrackId": "300058",
+      "title": "闷",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 251506
+    },
+    {
+      "id": "netease-track:300060",
+      "neteaseTrackId": "300060",
+      "title": "娱乐场",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 207266
+    },
+    {
+      "id": "netease-track:300062",
+      "neteaseTrackId": "300062",
+      "title": "人间",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 285266
+    },
+    {
+      "id": "netease-track:300063",
+      "neteaseTrackId": "300063",
+      "title": "我也不想这样",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 296960
+    },
+    {
+      "id": "netease-track:300064",
+      "neteaseTrackId": "300064",
+      "title": "小题大做",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 207173
+    },
+    {
+      "id": "netease-track:300066",
+      "neteaseTrackId": "300066",
+      "title": "怀念",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 201066
+    },
+    {
+      "id": "netease-track:300068",
+      "neteaseTrackId": "300068",
+      "title": "扑火",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 255466
+    },
+    {
+      "id": "netease-track:300071",
+      "neteaseTrackId": "300071",
+      "title": "云端",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 234066
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29739",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "王菲 王菲 1997同名专辑 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

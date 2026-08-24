@@ -1,0 +1,208 @@
+{
+  "internalId": "album:20831",
+  "id": "album:20831",
+  "neteaseAlbumId": "20831",
+  "slug": "netease-album-20831",
+  "title": "我们会更好的",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7063",
+      "neteaseArtistId": "7063",
+      "name": "黄丽玲"
+    }
+  ],
+  "releaseDate": "2011-11-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "2011 Avex Taiwan Inc.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/20831.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/20831.webp",
+    "alt": "《我们会更好的》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:205315",
+      "neteaseTrackId": "205315",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 23200
+    },
+    {
+      "id": "netease-track:205317",
+      "neteaseTrackId": "205317",
+      "title": "大大的拥抱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 237880
+    },
+    {
+      "id": "netease-track:205318",
+      "neteaseTrackId": "205318",
+      "title": "无路可退",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 238880
+    },
+    {
+      "id": "netease-track:205320",
+      "neteaseTrackId": "205320",
+      "title": "我很忙",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 277333
+    },
+    {
+      "id": "netease-track:205322",
+      "neteaseTrackId": "205322",
+      "title": "算了吧",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 200786
+    },
+    {
+      "id": "netease-track:205324",
+      "neteaseTrackId": "205324",
+      "title": "Interlude",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 24773
+    },
+    {
+      "id": "netease-track:205326",
+      "neteaseTrackId": "205326",
+      "title": "后来你好吗",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 267986
+    },
+    {
+      "id": "netease-track:205328",
+      "neteaseTrackId": "205328",
+      "title": "1828",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 231346
+    },
+    {
+      "id": "netease-track:205330",
+      "neteaseTrackId": "205330",
+      "title": "不是不满足",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 293662
+    },
+    {
+      "id": "netease-track:205332",
+      "neteaseTrackId": "205332",
+      "title": "我们会更好的",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 293880
+    },
+    {
+      "id": "netease-track:205334",
+      "neteaseTrackId": "205334",
+      "title": "乖",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 210520
+    },
+    {
+      "id": "netease-track:205336",
+      "neteaseTrackId": "205336",
+      "title": "Outro",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 26626
+    },
+    {
+      "id": "netease-track:205338",
+      "neteaseTrackId": "205338",
+      "title": "每一个我",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 288240
+    },
+    {
+      "id": "netease-track:205339",
+      "neteaseTrackId": "205339",
+      "title": "一瞬之光",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 289560
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=20831",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我们会更好的 黄丽玲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

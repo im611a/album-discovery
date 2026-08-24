@@ -1,0 +1,180 @@
+{
+  "internalId": "album:167167",
+  "id": "album:167167",
+  "neteaseAlbumId": "167167",
+  "slug": "lulu",
+  "title": "Lulu",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38117",
+      "neteaseArtistId": "38117",
+      "name": "Lou Reed"
+    },
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2011-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Blackened Recordings / Universal Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/167167.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/167167.webp",
+    "alt": "《Lulu》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1645919",
+      "neteaseTrackId": "1645919",
+      "title": "Brandenburg Gate",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 261804
+    },
+    {
+      "id": "netease-track:1645922",
+      "neteaseTrackId": "1645922",
+      "title": "The View",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 317672
+    },
+    {
+      "id": "netease-track:1645924",
+      "neteaseTrackId": "1645924",
+      "title": "Pumping Blood",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 444290
+    },
+    {
+      "id": "netease-track:1645926",
+      "neteaseTrackId": "1645926",
+      "title": "Mistress Dread",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 412525
+    },
+    {
+      "id": "netease-track:1645928",
+      "neteaseTrackId": "1645928",
+      "title": "Iced Honey",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 277687
+    },
+    {
+      "id": "netease-track:1645932",
+      "neteaseTrackId": "1645932",
+      "title": "Cheat On Me",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 686213
+    },
+    {
+      "id": "netease-track:1645936",
+      "neteaseTrackId": "1645936",
+      "title": "Frustration",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 513787
+    },
+    {
+      "id": "netease-track:1645940",
+      "neteaseTrackId": "1645940",
+      "title": "Little Dog",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 481680
+    },
+    {
+      "id": "netease-track:1645944",
+      "neteaseTrackId": "1645944",
+      "title": "Dragon",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 670452
+    },
+    {
+      "id": "netease-track:1645948",
+      "neteaseTrackId": "1645948",
+      "title": "Junior Dad",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Lou Reed",
+        "Metallica"
+      ],
+      "durationMs": 1168853
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=167167",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Lulu Lou Reed Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

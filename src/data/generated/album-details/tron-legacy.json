@@ -1,0 +1,353 @@
+{
+  "internalId": "album:406250",
+  "id": "album:406250",
+  "neteaseAlbumId": "406250",
+  "slug": "tron-legacy",
+  "title": "TRON: Legacy",
+  "aliases": [
+    "电影《创：战纪》原声带"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:90513",
+      "neteaseArtistId": "90513",
+      "name": "Daft Punk"
+    }
+  ],
+  "releaseDate": "2009-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Walt Disney Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/406250.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/406250.webp",
+    "alt": "《TRON: Legacy》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4017213",
+      "neteaseTrackId": "4017213",
+      "title": "Overture",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 148006
+    },
+    {
+      "id": "netease-track:4017217",
+      "neteaseTrackId": "4017217",
+      "title": "The Grid",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 96739
+    },
+    {
+      "id": "netease-track:4017221",
+      "neteaseTrackId": "4017221",
+      "title": "The Son of Flynn",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 95226
+    },
+    {
+      "id": "netease-track:4017225",
+      "neteaseTrackId": "4017225",
+      "title": "Recognizer",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 157719
+    },
+    {
+      "id": "netease-track:4017229",
+      "neteaseTrackId": "4017229",
+      "title": "Armory",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 123010
+    },
+    {
+      "id": "netease-track:4017232",
+      "neteaseTrackId": "4017232",
+      "title": "Arena",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 93236
+    },
+    {
+      "id": "netease-track:4017235",
+      "neteaseTrackId": "4017235",
+      "title": "Rinzler",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 137665
+    },
+    {
+      "id": "netease-track:4017238",
+      "neteaseTrackId": "4017238",
+      "title": "The Game Has Changed",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 205474
+    },
+    {
+      "id": "netease-track:4017242",
+      "neteaseTrackId": "4017242",
+      "title": "Outlands",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 162501
+    },
+    {
+      "id": "netease-track:4017245",
+      "neteaseTrackId": "4017245",
+      "title": "Adagio for TRON",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 251070
+    },
+    {
+      "id": "netease-track:4017247",
+      "neteaseTrackId": "4017247",
+      "title": "Nocturne",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 101720
+    },
+    {
+      "id": "netease-track:4017248",
+      "neteaseTrackId": "4017248",
+      "title": "End of Line",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 156486
+    },
+    {
+      "id": "netease-track:4017250",
+      "neteaseTrackId": "4017250",
+      "title": "Derezzed",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 104113
+    },
+    {
+      "id": "netease-track:4017252",
+      "neteaseTrackId": "4017252",
+      "title": "Fall",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 82651
+    },
+    {
+      "id": "netease-track:4017256",
+      "neteaseTrackId": "4017256",
+      "title": "Solar Sailer",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 162168
+    },
+    {
+      "id": "netease-track:4017260",
+      "neteaseTrackId": "4017260",
+      "title": "Rectifier",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 134086
+    },
+    {
+      "id": "netease-track:4017264",
+      "neteaseTrackId": "4017264",
+      "title": "Disc Wars",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 251480
+    },
+    {
+      "id": "netease-track:4017268",
+      "neteaseTrackId": "4017268",
+      "title": "C.L.U.",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 279313
+    },
+    {
+      "id": "netease-track:4017272",
+      "neteaseTrackId": "4017272",
+      "title": "Arrival",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 120489
+    },
+    {
+      "id": "netease-track:4017278",
+      "neteaseTrackId": "4017278",
+      "title": "Flynn Lives",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 202187
+    },
+    {
+      "id": "netease-track:4017280",
+      "neteaseTrackId": "4017280",
+      "title": "TRON Legacy (End Titles)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 197825
+    },
+    {
+      "id": "netease-track:4017282",
+      "neteaseTrackId": "4017282",
+      "title": "Finale",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 262817
+    },
+    {
+      "id": "netease-track:4017285",
+      "neteaseTrackId": "4017285",
+      "title": "Encom Part I",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 231680
+    },
+    {
+      "id": "netease-track:4017287",
+      "neteaseTrackId": "4017287",
+      "title": "Encom Part II",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 136760
+    },
+    {
+      "id": "netease-track:4017290",
+      "neteaseTrackId": "4017290",
+      "title": "Round One",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 100026
+    },
+    {
+      "id": "netease-track:4017293",
+      "neteaseTrackId": "4017293",
+      "title": "Castor",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 138506
+    },
+    {
+      "id": "netease-track:4017296",
+      "neteaseTrackId": "4017296",
+      "title": "Reflections",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Daft Punk"
+      ],
+      "durationMs": 161300
+    }
+  ],
+  "trackCount": 27,
+  "externalUrl": "https://music.163.com/#/album?id=406250",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "TRON: Legacy 电影《创：战纪》原声带 Daft Punk",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

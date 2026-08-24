@@ -1,0 +1,109 @@
+{
+  "internalId": "album:35220",
+  "id": "album:35220",
+  "neteaseAlbumId": "35220",
+  "slug": "netease-album-35220",
+  "title": "发光曲线",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11728",
+      "neteaseArtistId": "11728",
+      "name": "发光曲线"
+    }
+  ],
+  "releaseDate": "2011-09-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "独立发行",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35220.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/35220.webp",
+    "alt": "《发光曲线》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:356752",
+      "neteaseTrackId": "356752",
+      "title": "小雷音之歌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "发光曲线"
+      ],
+      "durationMs": 430000
+    },
+    {
+      "id": "netease-track:356754",
+      "neteaseTrackId": "356754",
+      "title": "鲜花圣母",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "发光曲线"
+      ],
+      "durationMs": 545567
+    },
+    {
+      "id": "netease-track:356756",
+      "neteaseTrackId": "356756",
+      "title": "幼儿园",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "发光曲线"
+      ],
+      "durationMs": 398000
+    },
+    {
+      "id": "netease-track:356760",
+      "neteaseTrackId": "356760",
+      "title": "死在旋转公寓",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "发光曲线"
+      ],
+      "durationMs": 453746
+    },
+    {
+      "id": "netease-track:356762",
+      "neteaseTrackId": "356762",
+      "title": "浮山",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "发光曲线"
+      ],
+      "durationMs": 608000
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=35220",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "post-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "发光曲线 发光曲线",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

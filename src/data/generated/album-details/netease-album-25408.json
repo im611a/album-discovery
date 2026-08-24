@@ -1,0 +1,176 @@
+{
+  "internalId": "album:25408",
+  "id": "album:25408",
+  "neteaseAlbumId": "25408",
+  "slug": "netease-album-25408",
+  "title": "听说？",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2004-10-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "大国文化唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25408.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25408.webp",
+    "alt": "《听说？》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2011901182",
+      "neteaseTrackId": "2011901182",
+      "title": "20??长岛黄昏",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 52477
+    },
+    {
+      "id": "netease-track:254276",
+      "neteaseTrackId": "254276",
+      "title": "轻？",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 239135
+    },
+    {
+      "id": "netease-track:254278",
+      "neteaseTrackId": "254278",
+      "title": "幸福的路？",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 256934
+    },
+    {
+      "id": "netease-track:254280",
+      "neteaseTrackId": "254280",
+      "title": "听！是谁在唱歌？",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英",
+        "黄韵玲"
+      ],
+      "durationMs": 224984
+    },
+    {
+      "id": "netease-track:254283",
+      "neteaseTrackId": "254283",
+      "title": "听说？",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 243028
+    },
+    {
+      "id": "netease-track:254286",
+      "neteaseTrackId": "254286",
+      "title": "It Must Be？",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 214023
+    },
+    {
+      "id": "netease-track:254288",
+      "neteaseTrackId": "254288",
+      "title": "没道理？",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 244964
+    },
+    {
+      "id": "netease-track:254290",
+      "neteaseTrackId": "254290",
+      "title": "阴谋？",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 240004
+    },
+    {
+      "id": "netease-track:254292",
+      "neteaseTrackId": "254292",
+      "title": "那天？",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 245034
+    },
+    {
+      "id": "netease-track:254295",
+      "neteaseTrackId": "254295",
+      "title": "最亮的星光？",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 265947
+    },
+    {
+      "id": "netease-track:254298",
+      "neteaseTrackId": "254298",
+      "title": "知道不知道？",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 221786
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=25408",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "听说？ 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

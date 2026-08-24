@@ -1,0 +1,215 @@
+{
+  "internalId": "album:513281",
+  "id": "album:513281",
+  "neteaseAlbumId": "513281",
+  "slug": "netease-album-513281",
+  "title": "红星五号",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:122455",
+      "neteaseArtistId": "122455",
+      "name": "群星"
+    },
+    {
+      "id": "netease-artist:9488",
+      "neteaseArtistId": "9488",
+      "name": "田震"
+    },
+    {
+      "id": "netease-artist:5772",
+      "neteaseArtistId": "5772",
+      "name": "小柯"
+    },
+    {
+      "id": "netease-artist:9975",
+      "neteaseArtistId": "9975",
+      "name": "希莉娜依"
+    },
+    {
+      "id": "netease-artist:5770",
+      "neteaseArtistId": "5770",
+      "name": "许巍"
+    },
+    {
+      "id": "netease-artist:3682",
+      "neteaseArtistId": "3682",
+      "name": "老狼"
+    },
+    {
+      "id": "netease-artist:234366",
+      "neteaseArtistId": "234366",
+      "name": "雷刚与天堂"
+    },
+    {
+      "id": "netease-artist:234373",
+      "neteaseArtistId": "234373",
+      "name": "汉家儿"
+    },
+    {
+      "id": "netease-artist:6458",
+      "neteaseArtistId": "6458",
+      "name": "郑钧"
+    },
+    {
+      "id": "netease-artist:13436",
+      "neteaseArtistId": "13436",
+      "name": "眼镜蛇"
+    },
+    {
+      "id": "netease-artist:187152",
+      "neteaseArtistId": "187152",
+      "name": "童声合唱"
+    }
+  ],
+  "releaseDate": "1998-12-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "太合麦田",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/513281.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/513281.webp",
+    "alt": "《红星五号》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5275357",
+      "neteaseTrackId": "5275357",
+      "title": "千秋家国梦",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "田震",
+        "小柯"
+      ],
+      "durationMs": 233560
+    },
+    {
+      "id": "netease-track:5275358",
+      "neteaseTrackId": "5275358",
+      "title": "红装",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "希莉娜依"
+      ],
+      "durationMs": 233920
+    },
+    {
+      "id": "netease-track:5275359",
+      "neteaseTrackId": "5275359",
+      "title": "水妖",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "许巍"
+      ],
+      "durationMs": 273252
+    },
+    {
+      "id": "netease-track:5275360",
+      "neteaseTrackId": "5275360",
+      "title": "恋恋风尘",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 218383
+    },
+    {
+      "id": "netease-track:5275361",
+      "neteaseTrackId": "5275361",
+      "title": "坦白",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "雷刚与天堂"
+      ],
+      "durationMs": 221440
+    },
+    {
+      "id": "netease-track:5275362",
+      "neteaseTrackId": "5275362",
+      "title": "十八年后又是一条好汉",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "汉家儿"
+      ],
+      "durationMs": 178213
+    },
+    {
+      "id": "netease-track:5275363",
+      "neteaseTrackId": "5275363",
+      "title": "灰姑娘",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "郑钧"
+      ],
+      "durationMs": 304065
+    },
+    {
+      "id": "netease-track:5275364",
+      "neteaseTrackId": "5275364",
+      "title": "梦想",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "眼镜蛇"
+      ],
+      "durationMs": 267933
+    },
+    {
+      "id": "netease-track:5275365",
+      "neteaseTrackId": "5275365",
+      "title": "问题",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "小柯"
+      ],
+      "durationMs": 215146
+    },
+    {
+      "id": "netease-track:5275366",
+      "neteaseTrackId": "5275366",
+      "title": "十八年后又是一条好汉 (童声版)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "童声合唱"
+      ],
+      "durationMs": 175320
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=513281",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "红星五号 群星 田震 小柯 希莉娜依 许巍 老狼 雷刚与天堂 汉家儿 郑钧 眼镜蛇 童声合唱",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "internalId": "album:172083",
+  "id": "album:172083",
+  "neteaseAlbumId": "172083",
+  "slug": "live-in-riga",
+  "title": "Live in Riga",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2010-04-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172083.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172083.webp",
+    "alt": "《Live in Riga》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1695876",
+      "neteaseTrackId": "1695876",
+      "title": "That Was Just Your Life",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 442000
+    },
+    {
+      "id": "netease-track:1695879",
+      "neteaseTrackId": "1695879",
+      "title": "The End of the Line",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 476000
+    },
+    {
+      "id": "netease-track:1695882",
+      "neteaseTrackId": "1695882",
+      "title": "For Whom The Bell Tolls",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:1695885",
+      "neteaseTrackId": "1695885",
+      "title": "Creeping Death",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 377000
+    },
+    {
+      "id": "netease-track:1695888",
+      "neteaseTrackId": "1695888",
+      "title": "Bass Solo",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 64000
+    },
+    {
+      "id": "netease-track:1695891",
+      "neteaseTrackId": "1695891",
+      "title": "Fade to Black",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 483000
+    },
+    {
+      "id": "netease-track:1695894",
+      "neteaseTrackId": "1695894",
+      "title": "Broken, Beat & Scarred",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 415000
+    },
+    {
+      "id": "netease-track:1695897",
+      "neteaseTrackId": "1695897",
+      "title": "Cyanide",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 449000
+    },
+    {
+      "id": "netease-track:1695901",
+      "neteaseTrackId": "1695901",
+      "title": "Sad But True",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 351000
+    },
+    {
+      "id": "netease-track:1695904",
+      "neteaseTrackId": "1695904",
+      "title": "One",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 471000
+    },
+    {
+      "id": "netease-track:1695907",
+      "neteaseTrackId": "1695907",
+      "title": "Wherever I May Roam",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 472450
+    },
+    {
+      "id": "netease-track:1695909",
+      "neteaseTrackId": "1695909",
+      "title": "The Day That Never Comes",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 484000
+    },
+    {
+      "id": "netease-track:1695911",
+      "neteaseTrackId": "1695911",
+      "title": "Master Of Puppets",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 484101
+    },
+    {
+      "id": "netease-track:1695913",
+      "neteaseTrackId": "1695913",
+      "title": "Blackened",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 362000
+    },
+    {
+      "id": "netease-track:1695915",
+      "neteaseTrackId": "1695915",
+      "title": "Kirk Solo",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 124000
+    },
+    {
+      "id": "netease-track:1695918",
+      "neteaseTrackId": "1695918",
+      "title": "Nothing Else Matters",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 336000
+    },
+    {
+      "id": "netease-track:1695921",
+      "neteaseTrackId": "1695921",
+      "title": "Enter Sandman",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 402000
+    },
+    {
+      "id": "netease-track:1695924",
+      "neteaseTrackId": "1695924",
+      "title": "Encore Jam",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 104000
+    },
+    {
+      "id": "netease-track:1695927",
+      "neteaseTrackId": "1695927",
+      "title": "Stone Cold Crazy",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 178000
+    },
+    {
+      "id": "netease-track:1695930",
+      "neteaseTrackId": "1695930",
+      "title": "Hit The Lights",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:1695933",
+      "neteaseTrackId": "1695933",
+      "title": "Seek and Destroy",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 608000
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=172083",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live in Riga Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

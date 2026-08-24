@@ -1,0 +1,176 @@
+{
+  "internalId": "album:21271",
+  "id": "album:21271",
+  "neteaseAlbumId": "21271",
+  "slug": "netease-album-21271",
+  "title": "双栖动物",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2005-01-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21271.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21271.webp",
+    "alt": "《双栖动物》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209037",
+      "neteaseTrackId": "209037",
+      "title": "双栖动物",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 275800
+    },
+    {
+      "id": "netease-track:209039",
+      "neteaseTrackId": "209039",
+      "title": "假想敌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 258413
+    },
+    {
+      "id": "netease-track:209041",
+      "neteaseTrackId": "209041",
+      "title": "一分钟追悔",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 256080
+    },
+    {
+      "id": "netease-track:209043",
+      "neteaseTrackId": "209043",
+      "title": "优先权",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 249573
+    },
+    {
+      "id": "netease-track:209046",
+      "neteaseTrackId": "209046",
+      "title": "下一次爱情来的时候",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 258325
+    },
+    {
+      "id": "netease-track:209049",
+      "neteaseTrackId": "209049",
+      "title": "再见",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 225893
+    },
+    {
+      "id": "netease-track:209052",
+      "neteaseTrackId": "209052",
+      "title": "二手烟",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 231840
+    },
+    {
+      "id": "netease-track:209055",
+      "neteaseTrackId": "209055",
+      "title": "尘埃",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 252466
+    },
+    {
+      "id": "netease-track:209058",
+      "neteaseTrackId": "209058",
+      "title": "坐立不安",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 254240
+    },
+    {
+      "id": "netease-track:209061",
+      "neteaseTrackId": "209061",
+      "title": "失忆症",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 350426
+    },
+    {
+      "id": "netease-track:209064",
+      "neteaseTrackId": "209064",
+      "title": "原点",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "孙燕姿",
+        "蔡健雅"
+      ],
+      "durationMs": 248476
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=21271",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "双栖动物 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

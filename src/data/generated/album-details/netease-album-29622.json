@@ -1,0 +1,165 @@
+{
+  "internalId": "album:29622",
+  "id": "album:29622",
+  "neteaseAlbumId": "29622",
+  "slug": "netease-album-29622",
+  "title": "放心",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1992-01-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29622.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29622.webp",
+    "alt": "《放心》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298571",
+      "neteaseTrackId": "298571",
+      "title": "心事",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 304733
+    },
+    {
+      "id": "netease-track:298574",
+      "neteaseTrackId": "298574",
+      "title": "半袖",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 287997
+    },
+    {
+      "id": "netease-track:298577",
+      "neteaseTrackId": "298577",
+      "title": "住在你的影子里",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 250520
+    },
+    {
+      "id": "netease-track:298579",
+      "neteaseTrackId": "298579",
+      "title": "你爱不爱我",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 245481
+    },
+    {
+      "id": "netease-track:298581",
+      "neteaseTrackId": "298581",
+      "title": "Olive的项链",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 270094
+    },
+    {
+      "id": "netease-track:298582",
+      "neteaseTrackId": "298582",
+      "title": "碧海情天",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 291666
+    },
+    {
+      "id": "netease-track:298583",
+      "neteaseTrackId": "298583",
+      "title": "编织者",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳",
+        "马兆骏"
+      ],
+      "durationMs": 234400
+    },
+    {
+      "id": "netease-track:298585",
+      "neteaseTrackId": "298585",
+      "title": "到海边说再见",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 298360
+    },
+    {
+      "id": "netease-track:298587",
+      "neteaseTrackId": "298587",
+      "title": "带我飞吧!阳光",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 192600
+    },
+    {
+      "id": "netease-track:298589",
+      "neteaseTrackId": "298589",
+      "title": "微笑的星",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 293173
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29622",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "放心 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

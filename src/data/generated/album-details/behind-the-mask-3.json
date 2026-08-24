@@ -1,0 +1,120 @@
+{
+  "internalId": "album:47865",
+  "id": "album:47865",
+  "neteaseAlbumId": "47865",
+  "slug": "behind-the-mask-3",
+  "title": "Behind The Mask + 3",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1987-09-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47865.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47865.webp",
+    "alt": "《Behind The Mask + 3》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:502709",
+      "neteaseTrackId": "502709",
+      "title": "Behind The Mask",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 331000
+    },
+    {
+      "id": "netease-track:502713",
+      "neteaseTrackId": "502713",
+      "title": "Risky",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 384000
+    },
+    {
+      "id": "netease-track:502716",
+      "neteaseTrackId": "502716",
+      "title": "Field Work",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 307000
+    },
+    {
+      "id": "netease-track:502719",
+      "neteaseTrackId": "502719",
+      "title": "Steppin' Into Asia (TV Track)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 318000
+    },
+    {
+      "id": "netease-track:502721",
+      "neteaseTrackId": "502721",
+      "title": "Field Work (Edit)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:502724",
+      "neteaseTrackId": "502724",
+      "title": "両眼微笑 (Instrumental)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 236000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=47865",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Behind The Mask + 3 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

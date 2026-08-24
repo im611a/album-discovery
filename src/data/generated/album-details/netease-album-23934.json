@@ -1,0 +1,197 @@
+{
+  "internalId": "album:23934",
+  "id": "album:23934",
+  "neteaseAlbumId": "23934",
+  "slug": "netease-album-23934",
+  "title": "青藏高原",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2009-03-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23934.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23934.webp",
+    "alt": "《青藏高原》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238760",
+      "neteaseTrackId": "238760",
+      "title": "天亮了",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 152186
+    },
+    {
+      "id": "netease-track:238761",
+      "neteaseTrackId": "238761",
+      "title": "那片海",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 268000
+    },
+    {
+      "id": "netease-track:238762",
+      "neteaseTrackId": "238762",
+      "title": "青藏高原",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 205547
+    },
+    {
+      "id": "netease-track:238764",
+      "neteaseTrackId": "238764",
+      "title": "喜玛拉雅",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 292040
+    },
+    {
+      "id": "netease-track:238766",
+      "neteaseTrackId": "238766",
+      "title": "醒了",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:238768",
+      "neteaseTrackId": "238768",
+      "title": "风雨中的美丽",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 262680
+    },
+    {
+      "id": "netease-track:238770",
+      "neteaseTrackId": "238770",
+      "title": "家乡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 234986
+    },
+    {
+      "id": "netease-track:238772",
+      "neteaseTrackId": "238772",
+      "title": "穿行",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 301162
+    },
+    {
+      "id": "netease-track:238774",
+      "neteaseTrackId": "238774",
+      "title": "这个冬季",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 284000
+    },
+    {
+      "id": "netease-track:238776",
+      "neteaseTrackId": "238776",
+      "title": "你不会回来",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:238777",
+      "neteaseTrackId": "238777",
+      "title": "雪域光芒",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 263128
+    },
+    {
+      "id": "netease-track:238778",
+      "neteaseTrackId": "238778",
+      "title": "家乡(Reprise)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 235625
+    },
+    {
+      "id": "netease-track:238779",
+      "neteaseTrackId": "238779",
+      "title": "那片海(Reprise)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 265386
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=23934",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "青藏高原 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

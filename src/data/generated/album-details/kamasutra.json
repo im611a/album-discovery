@@ -1,0 +1,175 @@
+{
+  "internalId": "album:184240",
+  "id": "album:184240",
+  "neteaseAlbumId": "184240",
+  "slug": "kamasutra",
+  "title": "Kamasutra",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "1998-01-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184240.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184240.webp",
+    "alt": "《Kamasutra》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1823187",
+      "neteaseTrackId": "1823187",
+      "title": "The Plan",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 122800
+    },
+    {
+      "id": "netease-track:1823193",
+      "neteaseTrackId": "1823193",
+      "title": "Kamasutra",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 709933
+    },
+    {
+      "id": "netease-track:1823199",
+      "neteaseTrackId": "1823199",
+      "title": "At Last... The Lost Is Found",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:1823205",
+      "neteaseTrackId": "1823205",
+      "title": "The Ever Changing Light",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 180000
+    },
+    {
+      "id": "netease-track:1823211",
+      "neteaseTrackId": "1823211",
+      "title": "Cutz",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 183000
+    },
+    {
+      "id": "netease-track:1823217",
+      "neteaseTrackId": "1823217",
+      "title": "Serotonin",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 46000
+    },
+    {
+      "id": "netease-track:1823223",
+      "neteaseTrackId": "1823223",
+      "title": "Promise/Broken",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:1823228",
+      "neteaseTrackId": "1823228",
+      "title": "Barcelona",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 137000
+    },
+    {
+      "id": "netease-track:1823233",
+      "neteaseTrackId": "1823233",
+      "title": "Kamasutra/Overture #8",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 193293
+    },
+    {
+      "id": "netease-track:1823238",
+      "neteaseTrackId": "1823238",
+      "title": "Coincidence or Fate?",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 202000
+    },
+    {
+      "id": "netease-track:1823244",
+      "neteaseTrackId": "1823244",
+      "title": "Kamasutra/Eternal Embrace",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 242000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=184240",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Kamasutra Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

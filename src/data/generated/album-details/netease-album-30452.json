@@ -1,0 +1,175 @@
+{
+  "internalId": "album:30452",
+  "id": "album:30452",
+  "neteaseAlbumId": "30452",
+  "slug": "netease-album-30452",
+  "title": "LaLa首张创作专辑",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9940",
+      "neteaseArtistId": "9940",
+      "name": "徐佳莹"
+    }
+  ],
+  "releaseDate": "2009-05-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐娱乐股份有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/30452.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/30452.webp",
+    "alt": "《LaLa首张创作专辑》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:306659",
+      "neteaseTrackId": "306659",
+      "title": "喔伊细",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 222200
+    },
+    {
+      "id": "netease-track:306660",
+      "neteaseTrackId": "306660",
+      "title": "圆舞曲",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 261400
+    },
+    {
+      "id": "netease-track:306661",
+      "neteaseTrackId": "306661",
+      "title": "VIP",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 215413
+    },
+    {
+      "id": "netease-track:306662",
+      "neteaseTrackId": "306662",
+      "title": "失落沙洲",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 299346
+    },
+    {
+      "id": "netease-track:306663",
+      "neteaseTrackId": "306663",
+      "title": "白旗",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 209640
+    },
+    {
+      "id": "netease-track:306664",
+      "neteaseTrackId": "306664",
+      "title": "身骑白马",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 313186
+    },
+    {
+      "id": "netease-track:306665",
+      "neteaseTrackId": "306665",
+      "title": "一样的月光",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 240386
+    },
+    {
+      "id": "netease-track:306666",
+      "neteaseTrackId": "306666",
+      "title": "明知故犯",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 297866
+    },
+    {
+      "id": "netease-track:306667",
+      "neteaseTrackId": "306667",
+      "title": "出口",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 186480
+    },
+    {
+      "id": "netease-track:306668",
+      "neteaseTrackId": "306668",
+      "title": "哼情歌",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 220320
+    },
+    {
+      "id": "netease-track:306669",
+      "neteaseTrackId": "306669",
+      "title": "没锁门",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "徐佳莹"
+      ],
+      "durationMs": 187400
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=30452",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "LaLa首张创作专辑 徐佳莹",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

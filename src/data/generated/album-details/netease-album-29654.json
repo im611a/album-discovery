@@ -1,0 +1,586 @@
+{
+  "internalId": "album:29654",
+  "id": "album:29654",
+  "neteaseAlbumId": "29654",
+  "slug": "netease-album-29654",
+  "title": "阿菲正传",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "2009-06-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29654.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29654.webp",
+    "alt": "《阿菲正传》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298880",
+      "neteaseTrackId": "298880",
+      "title": "容易受伤的女人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 259866
+    },
+    {
+      "id": "netease-track:298883",
+      "neteaseTrackId": "298883",
+      "title": "执迷不悔",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 269253
+    },
+    {
+      "id": "netease-track:298886",
+      "neteaseTrackId": "298886",
+      "title": "冷战",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 250973
+    },
+    {
+      "id": "netease-track:298889",
+      "neteaseTrackId": "298889",
+      "title": "我愿意(弦乐版)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 160733
+    },
+    {
+      "id": "netease-track:298891",
+      "neteaseTrackId": "298891",
+      "title": "梦中人",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 263800
+    },
+    {
+      "id": "netease-track:298894",
+      "neteaseTrackId": "298894",
+      "title": "知己知彼(Europe Mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 200813
+    },
+    {
+      "id": "netease-track:298897",
+      "neteaseTrackId": "298897",
+      "title": "天空(Unplugged)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 219373
+    },
+    {
+      "id": "netease-track:298900",
+      "neteaseTrackId": "298900",
+      "title": "棋子",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 289640
+    },
+    {
+      "id": "netease-track:298903",
+      "neteaseTrackId": "298903",
+      "title": "暧昧",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 281466
+    },
+    {
+      "id": "netease-track:298906",
+      "neteaseTrackId": "298906",
+      "title": "Di-Dar(Historical Mix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 197573
+    },
+    {
+      "id": "netease-track:298908",
+      "neteaseTrackId": "298908",
+      "title": "浮躁",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 178800
+    },
+    {
+      "id": "netease-track:298910",
+      "neteaseTrackId": "298910",
+      "title": "你快乐(所以我快乐)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 259653
+    },
+    {
+      "id": "netease-track:298912",
+      "neteaseTrackId": "298912",
+      "title": "半途而废",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 214200
+    },
+    {
+      "id": "netease-track:298915",
+      "neteaseTrackId": "298915",
+      "title": "当时的月亮",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 233253
+    },
+    {
+      "id": "netease-track:298918",
+      "neteaseTrackId": "298918",
+      "title": "百年孤寂",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 318080
+    },
+    {
+      "id": "netease-track:298921",
+      "neteaseTrackId": "298921",
+      "title": "给自己的情书",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266502
+    },
+    {
+      "id": "netease-track:298924",
+      "neteaseTrackId": "298924",
+      "title": "尾班车",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 323800
+    },
+    {
+      "id": "netease-track:298927",
+      "neteaseTrackId": "298927",
+      "title": "有缘的话",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "王菲",
+        "陈小宝"
+      ],
+      "durationMs": 221106
+    },
+    {
+      "id": "netease-track:298930",
+      "neteaseTrackId": "298930",
+      "title": "可否抱紧我",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 251466
+    },
+    {
+      "id": "netease-track:298933",
+      "neteaseTrackId": "298933",
+      "title": "浪漫风暴",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 234520
+    },
+    {
+      "id": "netease-track:298936",
+      "neteaseTrackId": "298936",
+      "title": "执迷不悔(粤)",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 269200
+    },
+    {
+      "id": "netease-track:298939",
+      "neteaseTrackId": "298939",
+      "title": "不再儿嬉(Rock Version)",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 242080
+    },
+    {
+      "id": "netease-track:298942",
+      "neteaseTrackId": "298942",
+      "title": "把锁匙投进信箱",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 307800
+    },
+    {
+      "id": "netease-track:298945",
+      "neteaseTrackId": "298945",
+      "title": "长大",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 263960
+    },
+    {
+      "id": "netease-track:298948",
+      "neteaseTrackId": "298948",
+      "title": "流非飞(60's Version)",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 242626
+    },
+    {
+      "id": "netease-track:298951",
+      "neteaseTrackId": "298951",
+      "title": "如风(Autumn Version)",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 269906
+    },
+    {
+      "id": "netease-track:298954",
+      "neteaseTrackId": "298954",
+      "title": "容易受伤的女人(国)",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 260013
+    },
+    {
+      "id": "netease-track:298957",
+      "neteaseTrackId": "298957",
+      "title": "回忆是红色天空",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 255973
+    },
+    {
+      "id": "netease-track:298959",
+      "neteaseTrackId": "298959",
+      "title": "爱一次给不完",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "王菲",
+        "张学友"
+      ],
+      "durationMs": 238866
+    },
+    {
+      "id": "netease-track:298961",
+      "neteaseTrackId": "298961",
+      "title": "只因喜欢faye",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "王菲",
+        "林海峰"
+      ],
+      "durationMs": 232080
+    },
+    {
+      "id": "netease-track:298963",
+      "neteaseTrackId": "298963",
+      "title": "天与地",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 283533
+    },
+    {
+      "id": "netease-track:298966",
+      "neteaseTrackId": "298966",
+      "title": "梦游",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 278813
+    },
+    {
+      "id": "netease-track:298969",
+      "neteaseTrackId": "298969",
+      "title": "你在我心中",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 263506
+    },
+    {
+      "id": "netease-track:298972",
+      "neteaseTrackId": "298972",
+      "title": "一人分饰两角",
+      "trackNumber": 34,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 285266
+    },
+    {
+      "id": "netease-track:298975",
+      "neteaseTrackId": "298975",
+      "title": "誓言(Discovery Mix)",
+      "trackNumber": 35,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 237986
+    },
+    {
+      "id": "netease-track:298978",
+      "neteaseTrackId": "298978",
+      "title": "不得了",
+      "trackNumber": 36,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 230973
+    },
+    {
+      "id": "netease-track:298980",
+      "neteaseTrackId": "298980",
+      "title": "心惊胆战",
+      "trackNumber": 37,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 257466
+    },
+    {
+      "id": "netease-track:298983",
+      "neteaseTrackId": "298983",
+      "title": "我也不想这样",
+      "trackNumber": 38,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 297480
+    },
+    {
+      "id": "netease-track:298986",
+      "neteaseTrackId": "298986",
+      "title": "红豆",
+      "trackNumber": 39,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 257573
+    },
+    {
+      "id": "netease-track:298989",
+      "neteaseTrackId": "298989",
+      "title": "蝴蝶",
+      "trackNumber": 40,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 236733
+    },
+    {
+      "id": "netease-track:298992",
+      "neteaseTrackId": "298992",
+      "title": "开到荼蘼",
+      "trackNumber": 41,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 313786
+    },
+    {
+      "id": "netease-track:298995",
+      "neteaseTrackId": "298995",
+      "title": "只爱陌生人",
+      "trackNumber": 42,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 223960
+    },
+    {
+      "id": "netease-track:298998",
+      "neteaseTrackId": "298998",
+      "title": "守望麦田",
+      "trackNumber": 43,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 318453
+    },
+    {
+      "id": "netease-track:299001",
+      "neteaseTrackId": "299001",
+      "title": "笑忘书",
+      "trackNumber": 44,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 268986
+    },
+    {
+      "id": "netease-track:299004",
+      "neteaseTrackId": "299004",
+      "title": "萤火虫",
+      "trackNumber": 45,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 309400
+    },
+    {
+      "id": "netease-track:299008",
+      "neteaseTrackId": "299008",
+      "title": "流年",
+      "trackNumber": 46,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 274200
+    },
+    {
+      "id": "netease-track:299011",
+      "neteaseTrackId": "299011",
+      "title": "迷魂记",
+      "trackNumber": 47,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 245840
+    },
+    {
+      "id": "netease-track:299013",
+      "neteaseTrackId": "299013",
+      "title": "我爱雀斑",
+      "trackNumber": 48,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 239449
+    }
+  ],
+  "trackCount": 48,
+  "externalUrl": "https://music.163.com/#/album?id=29654",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "阿菲正传 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

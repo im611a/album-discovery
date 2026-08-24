@@ -1,0 +1,348 @@
+{
+  "internalId": "album:47573",
+  "id": "album:47573",
+  "neteaseAlbumId": "47573",
+  "slug": "flumina",
+  "title": "Flumina",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:33394",
+      "neteaseArtistId": "33394",
+      "name": "Fennesz"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2011-12-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Touch",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47573.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47573.webp",
+    "alt": "《Flumina》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:497838",
+      "neteaseTrackId": "497838",
+      "title": "0318",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 267346
+    },
+    {
+      "id": "netease-track:497840",
+      "neteaseTrackId": "497840",
+      "title": "0319",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 339706
+    },
+    {
+      "id": "netease-track:497841",
+      "neteaseTrackId": "497841",
+      "title": "0320",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 282626
+    },
+    {
+      "id": "netease-track:497842",
+      "neteaseTrackId": "497842",
+      "title": "0322",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 334906
+    },
+    {
+      "id": "netease-track:497843",
+      "neteaseTrackId": "497843",
+      "title": "0324",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 408546
+    },
+    {
+      "id": "netease-track:497846",
+      "neteaseTrackId": "497846",
+      "title": "0325",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:497849",
+      "neteaseTrackId": "497849",
+      "title": "0327",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 329933
+    },
+    {
+      "id": "netease-track:497852",
+      "neteaseTrackId": "497852",
+      "title": "0328",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 329800
+    },
+    {
+      "id": "netease-track:497854",
+      "neteaseTrackId": "497854",
+      "title": "0330",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 284413
+    },
+    {
+      "id": "netease-track:497856",
+      "neteaseTrackId": "497856",
+      "title": "0401",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 295266
+    },
+    {
+      "id": "netease-track:497857",
+      "neteaseTrackId": "497857",
+      "title": "0402",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 375133
+    },
+    {
+      "id": "netease-track:497859",
+      "neteaseTrackId": "497859",
+      "title": "0404",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 274076
+    },
+    {
+      "id": "netease-track:497861",
+      "neteaseTrackId": "497861",
+      "title": "0405",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 290560
+    },
+    {
+      "id": "netease-track:497866",
+      "neteaseTrackId": "497866",
+      "title": "0407",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 277733
+    },
+    {
+      "id": "netease-track:497868",
+      "neteaseTrackId": "497868",
+      "title": "0409",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 292702
+    },
+    {
+      "id": "netease-track:497871",
+      "neteaseTrackId": "497871",
+      "title": "0411",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 322586
+    },
+    {
+      "id": "netease-track:497874",
+      "neteaseTrackId": "497874",
+      "title": "0415",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 313547
+    },
+    {
+      "id": "netease-track:497877",
+      "neteaseTrackId": "497877",
+      "title": "0417",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 224313
+    },
+    {
+      "id": "netease-track:497880",
+      "neteaseTrackId": "497880",
+      "title": "0419",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 299650
+    },
+    {
+      "id": "netease-track:497882",
+      "neteaseTrackId": "497882",
+      "title": "0423",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 317257
+    },
+    {
+      "id": "netease-track:497884",
+      "neteaseTrackId": "497884",
+      "title": "0424",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 267807
+    },
+    {
+      "id": "netease-track:497886",
+      "neteaseTrackId": "497886",
+      "title": "0425",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 416391
+    },
+    {
+      "id": "netease-track:497888",
+      "neteaseTrackId": "497888",
+      "title": "0428",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 294608
+    },
+    {
+      "id": "netease-track:497890",
+      "neteaseTrackId": "497890",
+      "title": "0429",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "Fennesz",
+        "坂本龍一"
+      ],
+      "durationMs": 358243
+    }
+  ],
+  "trackCount": 24,
+  "externalUrl": "https://music.163.com/#/album?id=47573",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Flumina Fennesz 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -7,7 +7,7 @@ const push = vi.fn();
 let query = "";
 vi.mock("next/navigation", () => ({ useRouter: () => ({ push }), useSearchParams: () => new URLSearchParams(query) }));
 
-describe("NewReleasesCatalog URL view", () => {
+describe("NewReleasesCatalog URL view", { timeout: 30_000 }, () => {
   beforeEach(() => { query = ""; push.mockClear(); localStorage.clear(); });
   it("defaults to recently added and switches with a recoverable URL", () => {
     render(<PersonalStateProvider><NewReleasesCatalog /></PersonalStateProvider>);

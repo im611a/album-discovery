@@ -1,0 +1,155 @@
+{
+  "internalId": "album:29802",
+  "id": "album:29802",
+  "neteaseAlbumId": "29802",
+  "slug": "netease-album-29802",
+  "title": "王靖雯 (Remastered 2019)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1989-11-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29802.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29802.webp",
+    "alt": "《王靖雯 (Remastered 2019)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300752",
+      "neteaseTrackId": "300752",
+      "title": "无奈那天",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 303892
+    },
+    {
+      "id": "netease-track:300755",
+      "neteaseTrackId": "300755",
+      "title": "借口",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 279720
+    },
+    {
+      "id": "netease-track:300758",
+      "neteaseTrackId": "300758",
+      "title": "有缘的话",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲",
+        "陈小宝"
+      ],
+      "durationMs": 222520
+    },
+    {
+      "id": "netease-track:300761",
+      "neteaseTrackId": "300761",
+      "title": "温柔的手",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 232346
+    },
+    {
+      "id": "netease-track:300763",
+      "neteaseTrackId": "300763",
+      "title": "尾班车",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 325933
+    },
+    {
+      "id": "netease-track:300765",
+      "neteaseTrackId": "300765",
+      "title": "仍是旧句子",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 219360
+    },
+    {
+      "id": "netease-track:300767",
+      "neteaseTrackId": "300767",
+      "title": "中间人",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 270333
+    },
+    {
+      "id": "netease-track:300769",
+      "neteaseTrackId": "300769",
+      "title": "爱听谎言",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 253653
+    },
+    {
+      "id": "netease-track:300771",
+      "neteaseTrackId": "300771",
+      "title": "新生",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 225586
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=29802",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "王靖雯 (Remastered 2019) 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

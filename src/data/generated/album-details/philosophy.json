@@ -1,0 +1,208 @@
+{
+  "internalId": "album:233624",
+  "id": "album:233624",
+  "neteaseAlbumId": "233624",
+  "slug": "philosophy",
+  "title": "Philosophy",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:50946",
+      "neteaseArtistId": "50946",
+      "name": "Coldcut"
+    }
+  ],
+  "releaseDate": "1993-12-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/233624.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/233624.webp",
+    "alt": "《Philosophy》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2316123",
+      "neteaseTrackId": "2316123",
+      "title": "Philosophy",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 183626
+    },
+    {
+      "id": "netease-track:2316126",
+      "neteaseTrackId": "2316126",
+      "title": "Chocolate Box",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 341306
+    },
+    {
+      "id": "netease-track:2316129",
+      "neteaseTrackId": "2316129",
+      "title": "Pearls Before Swine",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 347826
+    },
+    {
+      "id": "netease-track:2316132",
+      "neteaseTrackId": "2316132",
+      "title": "What We're Living For",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 275706
+    },
+    {
+      "id": "netease-track:2316134",
+      "neteaseTrackId": "2316134",
+      "title": "Leaving Home",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 260293
+    },
+    {
+      "id": "netease-track:2316135",
+      "neteaseTrackId": "2316135",
+      "title": "Dreamer (Ecu Mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 218946
+    },
+    {
+      "id": "netease-track:2316136",
+      "neteaseTrackId": "2316136",
+      "title": "Peace & Love",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 320266
+    },
+    {
+      "id": "netease-track:2316137",
+      "neteaseTrackId": "2316137",
+      "title": "Kinda Natural",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 311533
+    },
+    {
+      "id": "netease-track:2316138",
+      "neteaseTrackId": "2316138",
+      "title": "Angel Heart",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 332306
+    },
+    {
+      "id": "netease-track:2316139",
+      "neteaseTrackId": "2316139",
+      "title": "Autumn Leaves",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 348400
+    },
+    {
+      "id": "netease-track:2316141",
+      "neteaseTrackId": "2316141",
+      "title": "Sign",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 371960
+    },
+    {
+      "id": "netease-track:2316144",
+      "neteaseTrackId": "2316144",
+      "title": "Fat Bloke",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 190533
+    },
+    {
+      "id": "netease-track:2316147",
+      "neteaseTrackId": "2316147",
+      "title": "Dreamer (Crazy Swing Mix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 230640
+    },
+    {
+      "id": "netease-track:2316149",
+      "neteaseTrackId": "2316149",
+      "title": "Bare Leaves",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 253533
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=233624",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Philosophy Coldcut",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "internalId": "album:1969722",
+  "id": "album:1969722",
+  "neteaseAlbumId": "1969722",
+  "slug": "1958-miles",
+  "title": "1958 Miles",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1958-09-08",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969722.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969722.webp",
+    "alt": "《1958 Miles》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21326588",
+      "neteaseTrackId": "21326588",
+      "title": "On Green Dolphin Street (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 589833
+    },
+    {
+      "id": "netease-track:21326589",
+      "neteaseTrackId": "21326589",
+      "title": "Fran-Dance",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 349669
+    },
+    {
+      "id": "netease-track:21326590",
+      "neteaseTrackId": "21326590",
+      "title": "Stella By Starlight",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 285187
+    },
+    {
+      "id": "netease-track:21326591",
+      "neteaseTrackId": "21326591",
+      "title": "Love For Sale (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 707866
+    },
+    {
+      "id": "netease-track:427814052",
+      "neteaseTrackId": "427814052",
+      "title": "Fran-Dance (alternate take)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351875
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=1969722",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "1958 Miles Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

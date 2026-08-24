@@ -1,0 +1,120 @@
+{
+  "internalId": "album:75701",
+  "id": "album:75701",
+  "neteaseAlbumId": "75701",
+  "slug": "netease-album-75701",
+  "title": "そよ風アパートメント201",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:20287",
+      "neteaseArtistId": "20287",
+      "name": "Lamp"
+    }
+  ],
+  "releaseDate": "2003-04-08",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Botanical House",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/75701.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/75701.webp",
+    "alt": "《そよ風アパートメント201》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:769628",
+      "neteaseTrackId": "769628",
+      "title": "風の午後に",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 293053
+    },
+    {
+      "id": "netease-track:769629",
+      "neteaseTrackId": "769629",
+      "title": "街は雨降り",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 261520
+    },
+    {
+      "id": "netease-track:769630",
+      "neteaseTrackId": "769630",
+      "title": "雨足はやく",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 240653
+    },
+    {
+      "id": "netease-track:769631",
+      "neteaseTrackId": "769631",
+      "title": "今夜の二人",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 213200
+    },
+    {
+      "id": "netease-track:769633",
+      "neteaseTrackId": "769633",
+      "title": "冬の喫茶店",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 228773
+    },
+    {
+      "id": "netease-track:769635",
+      "neteaseTrackId": "769635",
+      "title": "部屋の窓辺",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Lamp"
+      ],
+      "durationMs": 218013
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=75701",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "そよ風アパートメント201 Lamp",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "internalId": "album:1540828",
+  "id": "album:1540828",
+  "neteaseAlbumId": "1540828",
+  "slug": "imaginary-cuba",
+  "title": "Imaginary Cuba",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1999-11-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1540828.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1540828.webp",
+    "alt": "《Imaginary Cuba》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16715124",
+      "neteaseTrackId": "16715124",
+      "title": "Habana Transmission #1 / Avisale A La Vecina Dub",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 297958
+    },
+    {
+      "id": "netease-track:16715125",
+      "neteaseTrackId": "16715125",
+      "title": "Para Clave Y Guaguanco",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Amado de Jesus Dedeu"
+      ],
+      "durationMs": 183771
+    },
+    {
+      "id": "netease-track:16715126",
+      "neteaseTrackId": "16715126",
+      "title": "Loungin With F.E.",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Frank Emilio"
+      ],
+      "durationMs": 68780
+    },
+    {
+      "id": "netease-track:16715127",
+      "neteaseTrackId": "16715127",
+      "title": "Chacón and Daniel",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 265639
+    },
+    {
+      "id": "netease-track:16715128",
+      "neteaseTrackId": "16715128",
+      "title": "Dejala En La Puntica",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Amado de Jesus Dedeu"
+      ],
+      "durationMs": 140617
+    },
+    {
+      "id": "netease-track:16715129",
+      "neteaseTrackId": "16715129",
+      "title": "Habana Transmission #2 / Cuban Evolution",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 279327
+    },
+    {
+      "id": "netease-track:16715130",
+      "neteaseTrackId": "16715130",
+      "title": "Los Ibellis",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Bio Ibellis"
+      ],
+      "durationMs": 397191
+    },
+    {
+      "id": "netease-track:16715131",
+      "neteaseTrackId": "16715131",
+      "title": "Habana Transmission #3 / Shango Sound Scan",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Los Ibellis"
+      ],
+      "durationMs": 281007
+    },
+    {
+      "id": "netease-track:16715132",
+      "neteaseTrackId": "16715132",
+      "title": "Hombre Lobo, No!  Hombre Nuevo, Si",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 227761
+    },
+    {
+      "id": "netease-track:16715133",
+      "neteaseTrackId": "16715133",
+      "title": "Guerillero Heroico (El Che Vive!)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 213133
+    },
+    {
+      "id": "netease-track:16715134",
+      "neteaseTrackId": "16715134",
+      "title": "Shango",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Los Ibellis"
+      ],
+      "durationMs": 75302
+    },
+    {
+      "id": "netease-track:16715135",
+      "neteaseTrackId": "16715135",
+      "title": "Pompa At The House",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Guillermo Pompa"
+      ],
+      "durationMs": 112431
+    },
+    {
+      "id": "netease-track:16715136",
+      "neteaseTrackId": "16715136",
+      "title": "Madre No Me Pida In Dub",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Raúl Planas"
+      ],
+      "durationMs": 216456
+    },
+    {
+      "id": "netease-track:16715137",
+      "neteaseTrackId": "16715137",
+      "title": "Chaos In the Heat (Last Transmission)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 288966
+    },
+    {
+      "id": "netease-track:16715138",
+      "neteaseTrackId": "16715138",
+      "title": "Drafting Shadows / Leaving La Habana (Peaceful)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 394057
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1540828",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Imaginary Cuba Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

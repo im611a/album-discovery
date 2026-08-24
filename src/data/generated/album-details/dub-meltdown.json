@@ -1,0 +1,142 @@
+{
+  "internalId": "album:222279",
+  "id": "album:222279",
+  "neteaseAlbumId": "222279",
+  "slug": "dub-meltdown",
+  "title": "Dub Meltdown",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "1993-07-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "WordSound Recordings",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222279.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222279.webp",
+    "alt": "《Dub Meltdown》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2206120",
+      "neteaseTrackId": "2206120",
+      "title": "Crooklyn Dub Syndicate",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 485413
+    },
+    {
+      "id": "netease-track:2206123",
+      "neteaseTrackId": "2206123",
+      "title": "Fourth Column",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 495933
+    },
+    {
+      "id": "netease-track:2206126",
+      "neteaseTrackId": "2206126",
+      "title": "Aeon",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 489600
+    },
+    {
+      "id": "netease-track:2206129",
+      "neteaseTrackId": "2206129",
+      "title": "Emergency at the Plant",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 286373
+    },
+    {
+      "id": "netease-track:2206132",
+      "neteaseTrackId": "2206132",
+      "title": "Radioactive Dub",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 456453
+    },
+    {
+      "id": "netease-track:2206135",
+      "neteaseTrackId": "2206135",
+      "title": "Fallout",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 478586
+    },
+    {
+      "id": "netease-track:2206138",
+      "neteaseTrackId": "2206138",
+      "title": "A Greater Source of Power",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 465573
+    },
+    {
+      "id": "netease-track:2206140",
+      "neteaseTrackId": "2206140",
+      "title": "Melting Pot [dub]",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 444320
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=222279",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dub Meltdown Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

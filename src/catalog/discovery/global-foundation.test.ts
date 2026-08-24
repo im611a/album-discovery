@@ -9,7 +9,7 @@ import { discoverFromTopic, TOPIC_ENTRY_KINDS } from "./topic-entry";
 
 afterEach(() => vi.unstubAllGlobals());
 
-describe("R13-3F global discovery quality foundation", () => {
+describe("R13-3F global discovery quality foundation", { timeout: 180_000 }, () => {
   it("completes 2,000 mixed-origin transitions without avoidable loops or evidence failures", () => {
     const report = simulateDiscoveryPaths(publishedDiscoveryIndex, catalogAlbums, {
       seedCount: 100,
@@ -34,11 +34,11 @@ describe("R13-3F global discovery quality foundation", () => {
     ]);
     expect(report.paths).toHaveLength(100);
     expect(report.paths.every((path) => path.transitions.length === 20)).toBe(true);
-  }, 60_000);
+  }, 180_000);
 
   it("keeps every selected graph target resolvable and reports catalog reachability honestly", () => {
     const audit = auditDiscoveryReachability(publishedDiscoveryIndex, catalogAlbums);
-    expect(audit.catalogAlbumCount).toBe(357);
+    expect(audit.catalogAlbumCount).toBe(1_330);
     expect(audit.isolatedAlbums).toEqual([]);
     expect(audit.isolatedArtists).toEqual([]);
     expect(audit.weakComponentCount).toBeGreaterThanOrEqual(1);
@@ -70,7 +70,7 @@ describe("R13-3F global discovery quality foundation", () => {
         expect(result.primaryTarget && result.memberAlbumIds.includes(result.primaryTarget.albumId)).toBe(true);
       }
     }
-  }, 30_000);
+  }, 180_000);
 
   it("keeps presentation copy free of rank internals, raw enums, scores, and counts", () => {
     const serialized = JSON.stringify(catalogAlbums.map((album) => {
@@ -96,5 +96,5 @@ describe("R13-3F global discovery quality foundation", () => {
       expect(result.target?.href).toMatch(/^\/albums\/[a-z0-9-]+\?entry=explore$/);
     }
     expect(fetchSpy).not.toHaveBeenCalled();
-  }, 30_000);
+  }, 180_000);
 });

@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1970563",
+  "id": "album:1970563",
+  "neteaseAlbumId": "1970563",
+  "slug": "miles-in-berlin",
+  "title": "Miles In Berlin",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1988-08-06",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970563.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970563.webp",
+    "alt": "《Miles In Berlin》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21340409",
+      "neteaseTrackId": "21340409",
+      "title": "Milestones (Live Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 538000
+    },
+    {
+      "id": "netease-track:21340410",
+      "neteaseTrackId": "21340410",
+      "title": "Autumn Leaves (Live Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 758386
+    },
+    {
+      "id": "netease-track:21340411",
+      "neteaseTrackId": "21340411",
+      "title": "So What (Live Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 627133
+    },
+    {
+      "id": "netease-track:21340412",
+      "neteaseTrackId": "21340412",
+      "title": "Stella by Starlight (Live Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 773560
+    },
+    {
+      "id": "netease-track:21340413",
+      "neteaseTrackId": "21340413",
+      "title": "Walkin' (Live Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 639756
+    },
+    {
+      "id": "netease-track:21340414",
+      "neteaseTrackId": "21340414",
+      "title": "Go-Go (Theme and Announcement) (Live Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 105733
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970563",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles In Berlin Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

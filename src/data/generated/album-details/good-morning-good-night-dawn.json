@@ -1,0 +1,210 @@
+{
+  "internalId": "album:164118",
+  "id": "album:164118",
+  "neteaseAlbumId": "164118",
+  "slug": "good-morning-good-night-dawn",
+  "title": "Good Morning Good Night: Dawn",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2009-05-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/164118.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/164118.webp",
+    "alt": "《Good Morning Good Night: Dawn》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1614771",
+      "neteaseTrackId": "1614771",
+      "title": "G.O.O.D. Morning Luv",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:1614774",
+      "neteaseTrackId": "1614774",
+      "title": "My People",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 281000
+    },
+    {
+      "id": "netease-track:1614777",
+      "neteaseTrackId": "1614777",
+      "title": "Leader (The Jesus Peace)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:1614780",
+      "neteaseTrackId": "1614780",
+      "title": "V.E.R.S.E. (Very Entertaining Recitals Spit Effortlessly)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:1614784",
+      "neteaseTrackId": "1614784",
+      "title": "By Your Side",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 285000
+    },
+    {
+      "id": "netease-track:1614788",
+      "neteaseTrackId": "1614788",
+      "title": "U-N-I Verses Mine",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 281000
+    },
+    {
+      "id": "netease-track:1614791",
+      "neteaseTrackId": "1614791",
+      "title": "Promised Land [Extended Version]",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:1614794",
+      "neteaseTrackId": "1614794",
+      "title": "Not Love",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:1614797",
+      "neteaseTrackId": "1614797",
+      "title": "Thug Angel",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:1614801",
+      "neteaseTrackId": "1614801",
+      "title": "G.E.M. (G.O.O.D. Enuff Me)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 344000
+    },
+    {
+      "id": "netease-track:1614808",
+      "neteaseTrackId": "1614808",
+      "title": "Just Like Forever",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 289000
+    },
+    {
+      "id": "netease-track:1614810",
+      "neteaseTrackId": "1614810",
+      "title": "Elevated (So High)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:1614813",
+      "neteaseTrackId": "1614813",
+      "title": "Breathe Taking",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Malik Yusef"
+      ],
+      "durationMs": 299000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=164118",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Good Morning Good Night: Dawn Kanye West",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

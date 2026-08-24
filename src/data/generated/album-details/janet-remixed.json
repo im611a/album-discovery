@@ -1,0 +1,176 @@
+{
+  "internalId": "album:151308",
+  "id": "album:151308",
+  "neteaseAlbumId": "151308",
+  "slug": "janet-remixed",
+  "title": "Janet Remixed",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1995-03-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151308.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151308.webp",
+    "alt": "《Janet Remixed》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480236",
+      "neteaseTrackId": "1480236",
+      "title": "That's the Way Love Goes (CJ FXTC Club Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 384914
+    },
+    {
+      "id": "netease-track:1480241",
+      "neteaseTrackId": "1480241",
+      "title": "If (Brothers in Rhythm House Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 430666
+    },
+    {
+      "id": "netease-track:1480246",
+      "neteaseTrackId": "1480246",
+      "title": "Because of Love (Frankie & David Treat Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 401360
+    },
+    {
+      "id": "netease-track:1480251",
+      "neteaseTrackId": "1480251",
+      "title": "And on and On",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 288574
+    },
+    {
+      "id": "netease-track:1480256",
+      "neteaseTrackId": "1480256",
+      "title": "Throb (Morales Badyard Club)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 539585
+    },
+    {
+      "id": "netease-track:1480261",
+      "neteaseTrackId": "1480261",
+      "title": "You Want This (E-Smoove's House Anthem)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 591466
+    },
+    {
+      "id": "netease-track:1480267",
+      "neteaseTrackId": "1480267",
+      "title": "Any Time, Any Place (R. Kelly Mix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson",
+        "R. Kelly"
+      ],
+      "durationMs": 313933
+    },
+    {
+      "id": "netease-track:1480272",
+      "neteaseTrackId": "1480272",
+      "title": "Where Are You Now (Nellee Hooper Mix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 322896
+    },
+    {
+      "id": "netease-track:1480277",
+      "neteaseTrackId": "1480277",
+      "title": "70's Love Groove",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 347509
+    },
+    {
+      "id": "netease-track:1480282",
+      "neteaseTrackId": "1480282",
+      "title": "What'll I Do (Dave Navarro Mix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 260466
+    },
+    {
+      "id": "netease-track:1480288",
+      "neteaseTrackId": "1480288",
+      "title": "Any Time, Any Place (CJ's 12\" Mix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 498733
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=151308",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Janet Remixed Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

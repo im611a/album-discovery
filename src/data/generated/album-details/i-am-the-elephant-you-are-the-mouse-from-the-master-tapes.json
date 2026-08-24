@@ -1,0 +1,252 @@
+{
+  "internalId": "album:432647",
+  "id": "album:432647",
+  "neteaseAlbumId": "432647",
+  "slug": "i-am-the-elephant-you-are-the-mouse-from-the-master-tapes",
+  "title": "I Am the Elephant, You Are the Mouse [from The Master Tapes]",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "name": "Slowdive"
+    }
+  ],
+  "releaseDate": "1994-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432647.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432647.webp",
+    "alt": "《I Am the Elephant, You Are the Mouse [from The Master Tapes]》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4281260",
+      "neteaseTrackId": "4281260",
+      "title": "intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 60000
+    },
+    {
+      "id": "netease-track:4281264",
+      "neteaseTrackId": "4281264",
+      "title": "ambient",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 148000
+    },
+    {
+      "id": "netease-track:4281268",
+      "neteaseTrackId": "4281268",
+      "title": "amb - alt version",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 161000
+    },
+    {
+      "id": "netease-track:4281272",
+      "neteaseTrackId": "4281272",
+      "title": "beginning (4 parts)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 235000
+    },
+    {
+      "id": "netease-track:4281276",
+      "neteaseTrackId": "4281276",
+      "title": "beginning, pt. 2",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 161000
+    },
+    {
+      "id": "netease-track:4281280",
+      "neteaseTrackId": "4281280",
+      "title": "cranium (film mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 321000
+    },
+    {
+      "id": "netease-track:4281284",
+      "neteaseTrackId": "4281284",
+      "title": "i believe",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:4281288",
+      "neteaseTrackId": "4281288",
+      "title": "like up",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 344000
+    },
+    {
+      "id": "netease-track:4281292",
+      "neteaseTrackId": "4281292",
+      "title": "like up (rough mix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 332000
+    },
+    {
+      "id": "netease-track:4281295",
+      "neteaseTrackId": "4281295",
+      "title": "money",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 75000
+    },
+    {
+      "id": "netease-track:4281298",
+      "neteaseTrackId": "4281298",
+      "title": "opening",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 78000
+    },
+    {
+      "id": "netease-track:4281301",
+      "neteaseTrackId": "4281301",
+      "title": "painting / lost",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 104000
+    },
+    {
+      "id": "netease-track:4281305",
+      "neteaseTrackId": "4281305",
+      "title": "riverman - final version",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 67000
+    },
+    {
+      "id": "netease-track:4281309",
+      "neteaseTrackId": "4281309",
+      "title": "riverman 2 #2",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 128000
+    },
+    {
+      "id": "netease-track:4281312",
+      "neteaseTrackId": "4281312",
+      "title": "riverman 3 #1",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 57000
+    },
+    {
+      "id": "netease-track:4281316",
+      "neteaseTrackId": "4281316",
+      "title": "riverman 3 #2",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 63000
+    },
+    {
+      "id": "netease-track:4281321",
+      "neteaseTrackId": "4281321",
+      "title": "riverman 2 #1",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 130000
+    },
+    {
+      "id": "netease-track:4281326",
+      "neteaseTrackId": "4281326",
+      "title": "watch me - film mix",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 111000
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=432647",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "I Am the Elephant, You Are the Mouse [from The Master Tapes] Slowdive",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

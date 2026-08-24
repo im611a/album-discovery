@@ -1,0 +1,165 @@
+{
+  "internalId": "album:29625",
+  "id": "album:29625",
+  "neteaseAlbumId": "29625",
+  "slug": "netease-album-29625",
+  "title": "时间仍然继续在走",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1990-02-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29625.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29625.webp",
+    "alt": "《时间仍然继续在走》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298605",
+      "neteaseTrackId": "298605",
+      "title": "时间仍然继续在走",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 278221
+    },
+    {
+      "id": "netease-track:298607",
+      "neteaseTrackId": "298607",
+      "title": "就算没有明天",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 228040
+    },
+    {
+      "id": "netease-track:298609",
+      "neteaseTrackId": "298609",
+      "title": "让我问你",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳",
+        "郑进一"
+      ],
+      "durationMs": 242027
+    },
+    {
+      "id": "netease-track:298612",
+      "neteaseTrackId": "298612",
+      "title": "今夜最后一次",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 274373
+    },
+    {
+      "id": "netease-track:298615",
+      "neteaseTrackId": "298615",
+      "title": "失去了你",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 259733
+    },
+    {
+      "id": "netease-track:298618",
+      "neteaseTrackId": "298618",
+      "title": "无缺的美丽",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 185934
+    },
+    {
+      "id": "netease-track:298621",
+      "neteaseTrackId": "298621",
+      "title": "请给我你的笑",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 328866
+    },
+    {
+      "id": "netease-track:298624",
+      "neteaseTrackId": "298624",
+      "title": "不愿分离",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 287467
+    },
+    {
+      "id": "netease-track:298627",
+      "neteaseTrackId": "298627",
+      "title": "惑",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 266533
+    },
+    {
+      "id": "netease-track:298630",
+      "neteaseTrackId": "298630",
+      "title": "背影",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 268293
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29625",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "时间仍然继续在走 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

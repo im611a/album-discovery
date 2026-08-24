@@ -1,0 +1,153 @@
+{
+  "internalId": "album:172662",
+  "id": "album:172662",
+  "neteaseAlbumId": "172662",
+  "slug": "live-at-the-plugged-nickel",
+  "title": "Live at the Plugged Nickel",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1965-02-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "CBS",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172662.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172662.webp",
+    "alt": "《Live at the Plugged Nickel》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1703107",
+      "neteaseTrackId": "1703107",
+      "title": "Walkin'",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 661000
+    },
+    {
+      "id": "netease-track:1703111",
+      "neteaseTrackId": "1703111",
+      "title": "Agitation",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 662000
+    },
+    {
+      "id": "netease-track:1703115",
+      "neteaseTrackId": "1703115",
+      "title": "On Green Dolphin Street",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 785000
+    },
+    {
+      "id": "netease-track:1703118",
+      "neteaseTrackId": "1703118",
+      "title": "So What",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 816000
+    },
+    {
+      "id": "netease-track:1703121",
+      "neteaseTrackId": "1703121",
+      "title": "The Theme",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:1703124",
+      "neteaseTrackId": "1703124",
+      "title": "'Round About Midnight",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 525000
+    },
+    {
+      "id": "netease-track:1703127",
+      "neteaseTrackId": "1703127",
+      "title": "Stella by Starlight",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 792000
+    },
+    {
+      "id": "netease-track:1703131",
+      "neteaseTrackId": "1703131",
+      "title": "All Blues",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 743000
+    },
+    {
+      "id": "netease-track:1703135",
+      "neteaseTrackId": "1703135",
+      "title": "Yesterdays",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 905325
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=172662",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Live at the Plugged Nickel Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

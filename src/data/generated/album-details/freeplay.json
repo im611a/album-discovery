@@ -1,0 +1,166 @@
+{
+  "internalId": "album:10840",
+  "id": "album:10840",
+  "neteaseAlbumId": "10840",
+  "slug": "freeplay",
+  "title": "Freeplay",
+  "aliases": [
+    "Chet Lam On The Pancakes With Ketchup"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2004-03-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10840.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10840.webp",
+    "alt": "《Freeplay》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109383",
+      "neteaseTrackId": "109383",
+      "title": "Abc餐",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 209763
+    },
+    {
+      "id": "netease-track:109386",
+      "neteaseTrackId": "109386",
+      "title": "Hidden Strangers",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 152000
+    },
+    {
+      "id": "netease-track:109387",
+      "neteaseTrackId": "109387",
+      "title": "Martin",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 190000
+    },
+    {
+      "id": "netease-track:109390",
+      "neteaseTrackId": "109390",
+      "title": "I Know",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:109393",
+      "neteaseTrackId": "109393",
+      "title": "La La La La La La La La La La",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 73000
+    },
+    {
+      "id": "netease-track:109397",
+      "neteaseTrackId": "109397",
+      "title": "Travelling Cappuccino",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 189000
+    },
+    {
+      "id": "netease-track:109398",
+      "neteaseTrackId": "109398",
+      "title": "一秒",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 259080
+    },
+    {
+      "id": "netease-track:109401",
+      "neteaseTrackId": "109401",
+      "title": "For A Special Friend",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 115496
+    },
+    {
+      "id": "netease-track:109404",
+      "neteaseTrackId": "109404",
+      "title": "When You Call My Name",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 178000
+    },
+    {
+      "id": "netease-track:109408",
+      "neteaseTrackId": "109408",
+      "title": "Arcturus",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 159000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=10840",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Freeplay Chet Lam On The Pancakes With Ketchup 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "internalId": "album:172113",
+  "id": "album:172113",
+  "neteaseAlbumId": "172113",
+  "slug": "francais-pour-une-nuit",
+  "title": "Francais Pour Une Nuit",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2009-11-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Mercury",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172113.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172113.webp",
+    "alt": "《Francais Pour Une Nuit》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1696302",
+      "neteaseTrackId": "1696302",
+      "title": "The Ecstasy Of Gold",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 162586
+    },
+    {
+      "id": "netease-track:1696306",
+      "neteaseTrackId": "1696306",
+      "title": "Blackened",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 337000
+    },
+    {
+      "id": "netease-track:1696310",
+      "neteaseTrackId": "1696310",
+      "title": "Creeping Death",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 386000
+    },
+    {
+      "id": "netease-track:1696313",
+      "neteaseTrackId": "1696313",
+      "title": "Fuel",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 271000
+    },
+    {
+      "id": "netease-track:1696317",
+      "neteaseTrackId": "1696317",
+      "title": "Harvester Of Sorrow",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 368000
+    },
+    {
+      "id": "netease-track:1696321",
+      "neteaseTrackId": "1696321",
+      "title": "Fade To Black",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 517000
+    },
+    {
+      "id": "netease-track:1696325",
+      "neteaseTrackId": "1696325",
+      "title": "Broken, Beat & Scarred",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 398000
+    },
+    {
+      "id": "netease-track:1696330",
+      "neteaseTrackId": "1696330",
+      "title": "Cyanide",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 468000
+    },
+    {
+      "id": "netease-track:1696335",
+      "neteaseTrackId": "1696335",
+      "title": "Sad But Tru?",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 343000
+    },
+    {
+      "id": "netease-track:1696340",
+      "neteaseTrackId": "1696340",
+      "title": "One",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 474000
+    },
+    {
+      "id": "netease-track:1696345",
+      "neteaseTrackId": "1696345",
+      "title": "All Nightmare Long",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 571000
+    },
+    {
+      "id": "netease-track:1696350",
+      "neteaseTrackId": "1696350",
+      "title": "The Day That Never Comes",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 512000
+    },
+    {
+      "id": "netease-track:1696355",
+      "neteaseTrackId": "1696355",
+      "title": "Master Of Puppets",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 479000
+    },
+    {
+      "id": "netease-track:1696360",
+      "neteaseTrackId": "1696360",
+      "title": "Dyers Eve",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 433000
+    },
+    {
+      "id": "netease-track:1696364",
+      "neteaseTrackId": "1696364",
+      "title": "Nothing Else Matters",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 355000
+    },
+    {
+      "id": "netease-track:1696368",
+      "neteaseTrackId": "1696368",
+      "title": "Enter Sandman",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 558000
+    },
+    {
+      "id": "netease-track:1696372",
+      "neteaseTrackId": "1696372",
+      "title": "Stone Cold Crazy",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 146000
+    },
+    {
+      "id": "netease-track:1696376",
+      "neteaseTrackId": "1696376",
+      "title": "Motorbreath",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 350000
+    },
+    {
+      "id": "netease-track:1696383",
+      "neteaseTrackId": "1696383",
+      "title": "Seek And Destroy",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 703000
+    },
+    {
+      "id": "netease-track:1696387",
+      "neteaseTrackId": "1696387",
+      "title": "Outro",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 80613
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=172113",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Francais Pour Une Nuit Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

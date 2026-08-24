@@ -1,0 +1,110 @@
+{
+  "internalId": "album:29746",
+  "id": "album:29746",
+  "neteaseAlbumId": "29746",
+  "slug": "netease-album-29746",
+  "title": "玩具",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1997-02-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Cinepoly Records Co., Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29746.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29746.webp",
+    "alt": "《玩具》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300136",
+      "neteaseTrackId": "300136",
+      "title": "暗涌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261266
+    },
+    {
+      "id": "netease-track:300138",
+      "neteaseTrackId": "300138",
+      "title": "约定",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 267586
+    },
+    {
+      "id": "netease-track:300139",
+      "neteaseTrackId": "300139",
+      "title": "敷衍",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261229
+    },
+    {
+      "id": "netease-track:300140",
+      "neteaseTrackId": "300140",
+      "title": "玩具",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 179106
+    },
+    {
+      "id": "netease-track:300141",
+      "neteaseTrackId": "300141",
+      "title": "我信",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 287666
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=29746",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "玩具 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

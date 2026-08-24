@@ -1,0 +1,167 @@
+{
+  "internalId": "album:7539",
+  "id": "album:7539",
+  "neteaseAlbumId": "7539",
+  "slug": "netease-album-7539",
+  "title": "踩.脚.踏.车",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2514",
+      "neteaseArtistId": "2514",
+      "name": "蛋堡"
+    }
+  ],
+  "releaseDate": "2011-10-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "颜社企业有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7539.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7539.webp",
+    "alt": "《踩.脚.踏.车》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76820",
+      "neteaseTrackId": "76820",
+      "title": "ShinLip",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 102213
+    },
+    {
+      "id": "netease-track:76821",
+      "neteaseTrackId": "76821",
+      "title": "踩.脚.踏.车",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 245426
+    },
+    {
+      "id": "netease-track:76822",
+      "neteaseTrackId": "76822",
+      "title": "Day by Day (interlude)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 129093
+    },
+    {
+      "id": "netease-track:76823",
+      "neteaseTrackId": "76823",
+      "title": "嘘… (ft.徐佳莹)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡",
+        "徐佳莹"
+      ],
+      "durationMs": 308946
+    },
+    {
+      "id": "netease-track:76824",
+      "neteaseTrackId": "76824",
+      "title": "黄昏滨海 (interlude)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 62640
+    },
+    {
+      "id": "netease-track:76825",
+      "neteaseTrackId": "76825",
+      "title": "听一首歌 (ft.Matzka)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡",
+        "马斯卡乐团"
+      ],
+      "durationMs": 403760
+    },
+    {
+      "id": "netease-track:76826",
+      "neteaseTrackId": "76826",
+      "title": "MPC,Turntables and Mic (Skit)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 103320
+    },
+    {
+      "id": "netease-track:76827",
+      "neteaseTrackId": "76827",
+      "title": "找王A",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 252586
+    },
+    {
+      "id": "netease-track:76828",
+      "neteaseTrackId": "76828",
+      "title": "未完待续(outro)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 60106
+    },
+    {
+      "id": "netease-track:76829",
+      "neteaseTrackId": "76829",
+      "title": "Bonus Track:Music is Magic (ft.ShinSight Trio)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡",
+        "ShinSight Trio"
+      ],
+      "durationMs": 246000
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=7539",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "踩.脚.踏.车 蛋堡",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

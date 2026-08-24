@@ -1,0 +1,142 @@
+{
+  "internalId": "album:172077",
+  "id": "album:172077",
+  "neteaseAlbumId": "172077",
+  "slug": "six-feet-down-under-part-ii",
+  "title": "Six Feet Down Under (Part II)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2010-11-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172077.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172077.webp",
+    "alt": "《Six Feet Down Under (Part II)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1695840",
+      "neteaseTrackId": "1695840",
+      "title": "Blackened - October 16, 2010 at the Brisbane Entertainment Center, in Brisbane, Australia",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 386000
+    },
+    {
+      "id": "netease-track:1695841",
+      "neteaseTrackId": "1695841",
+      "title": "Ride the Lightning - October 14, 2010 at the Vector Arena, in Auckland, New Zealand",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 429000
+    },
+    {
+      "id": "netease-track:1695842",
+      "neteaseTrackId": "1695842",
+      "title": "The Four Horsemen - September 18, 2010 at the Acer Arena, in Sydney, Australia",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 320000
+    },
+    {
+      "id": "netease-track:1695843",
+      "neteaseTrackId": "1695843",
+      "title": "Welcome Home(Sanitarium) - September 15, 2010 at the Rod Laver Arena, in Melbourne, Australia",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 382000
+    },
+    {
+      "id": "netease-track:1695844",
+      "neteaseTrackId": "1695844",
+      "title": "Master of Puppets - October 16, 2010 at the Brisbane Entertainment Center, in Brisbane, Australia",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 503000
+    },
+    {
+      "id": "netease-track:1695846",
+      "neteaseTrackId": "1695846",
+      "title": "...And Justice for All - October 18, 2010 at the Brisbane Entertainment Center, in Brisbane, Australia",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 547000
+    },
+    {
+      "id": "netease-track:1695848",
+      "neteaseTrackId": "1695848",
+      "title": "Fade to Black - September 18, 2010 at the Acer Arena, in Sydney, Australia",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 453000
+    },
+    {
+      "id": "netease-track:1695850",
+      "neteaseTrackId": "1695850",
+      "title": "Damage, Inc. - September 22, 2010 at the CBS Canterbury Arena, in Christchurch, New Zealand",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 324000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=172077",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Six Feet Down Under (Part II) Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

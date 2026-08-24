@@ -1,0 +1,142 @@
+{
+  "internalId": "album:1970545",
+  "id": "album:1970545",
+  "neteaseAlbumId": "1970545",
+  "slug": "seven-steps-to-heaven",
+  "title": "Seven Steps To Heaven",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1963-07-13",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970545.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970545.webp",
+    "alt": "《Seven Steps To Heaven》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339975",
+      "neteaseTrackId": "21339975",
+      "title": "Basin Street Blues",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 627774
+    },
+    {
+      "id": "netease-track:21339976",
+      "neteaseTrackId": "21339976",
+      "title": "Seven Steps to Heaven",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 386000
+    },
+    {
+      "id": "netease-track:21339977",
+      "neteaseTrackId": "21339977",
+      "title": "I Fall in Love too Easily",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 403887
+    },
+    {
+      "id": "netease-track:21339978",
+      "neteaseTrackId": "21339978",
+      "title": "So Near, So Far (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 419000
+    },
+    {
+      "id": "netease-track:21339979",
+      "neteaseTrackId": "21339979",
+      "title": "Baby Won't You Please Come Home",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 508000
+    },
+    {
+      "id": "netease-track:21339980",
+      "neteaseTrackId": "21339980",
+      "title": "Joshua",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 420048
+    },
+    {
+      "id": "netease-track:21339981",
+      "neteaseTrackId": "21339981",
+      "title": "So Near, So Far (Album Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 311666
+    },
+    {
+      "id": "netease-track:21339982",
+      "neteaseTrackId": "21339982",
+      "title": "Summer Night (Album Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 362135
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1970545",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Seven Steps To Heaven Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1502412",
+  "id": "album:1502412",
+  "neteaseAlbumId": "1502412",
+  "slug": "the-rite-original-motion-picture-soundtrack",
+  "title": "The Rite (Original Motion Picture Soundtrack)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29061",
+      "neteaseArtistId": "29061",
+      "name": "Alex Heffes"
+    }
+  ],
+  "releaseDate": "2011-02-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1502412.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1502412.webp",
+    "alt": "《The Rite (Original Motion Picture Soundtrack)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16285652",
+      "neteaseTrackId": "16285652",
+      "title": "The Procedure",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 120146
+    },
+    {
+      "id": "netease-track:16285653",
+      "neteaseTrackId": "16285653",
+      "title": "Going to Rome",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 190573
+    },
+    {
+      "id": "netease-track:16285654",
+      "neteaseTrackId": "16285654",
+      "title": "The Accident",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 166146
+    },
+    {
+      "id": "netease-track:16285655",
+      "neteaseTrackId": "16285655",
+      "title": "The First Exorcism",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 187453
+    },
+    {
+      "id": "netease-track:16285656",
+      "neteaseTrackId": "16285656",
+      "title": "God's Fingernail",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 147613
+    },
+    {
+      "id": "netease-track:16285657",
+      "neteaseTrackId": "16285657",
+      "title": "Rosaria Coughs Up the Nails",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 274160
+    },
+    {
+      "id": "netease-track:16285658",
+      "neteaseTrackId": "16285658",
+      "title": "Michael Remembers/The Hospital",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 432720
+    },
+    {
+      "id": "netease-track:16285659",
+      "neteaseTrackId": "16285659",
+      "title": "Angeline's Story",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 182706
+    },
+    {
+      "id": "netease-track:16285660",
+      "neteaseTrackId": "16285660",
+      "title": "Phone Call to Father",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 122360
+    },
+    {
+      "id": "netease-track:16285661",
+      "neteaseTrackId": "16285661",
+      "title": "The Terror Is Real",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 264386
+    },
+    {
+      "id": "netease-track:16285662",
+      "neteaseTrackId": "16285662",
+      "title": "Exorcism of Lucas, Pt. 1",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 453480
+    },
+    {
+      "id": "netease-track:16285663",
+      "neteaseTrackId": "16285663",
+      "title": "The Final Exorcism",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 401826
+    },
+    {
+      "id": "netease-track:16285664",
+      "neteaseTrackId": "16285664",
+      "title": "The Farewell",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Alex Heffes"
+      ],
+      "durationMs": 433093
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1502412",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Rite (Original Motion Picture Soundtrack) Alex Heffes",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

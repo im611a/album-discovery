@@ -1,0 +1,308 @@
+{
+  "internalId": "album:7570",
+  "id": "album:7570",
+  "neteaseAlbumId": "7570",
+  "slug": "netease-album-7570",
+  "title": "我们俩",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    }
+  ],
+  "releaseDate": "2005-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7570.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7570.webp",
+    "alt": "《我们俩》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:77027",
+      "neteaseTrackId": "77027",
+      "title": "序•冬",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 107000
+    },
+    {
+      "id": "netease-track:77029",
+      "neteaseTrackId": "77029",
+      "title": "租屋•搬家",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 121000
+    },
+    {
+      "id": "netease-track:77031",
+      "neteaseTrackId": "77031",
+      "title": "电话费",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 38530
+    },
+    {
+      "id": "netease-track:77033",
+      "neteaseTrackId": "77033",
+      "title": "电暖器",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 54000
+    },
+    {
+      "id": "netease-track:77035",
+      "neteaseTrackId": "77035",
+      "title": "交罚款•托狗",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 101000
+    },
+    {
+      "id": "netease-track:77037",
+      "neteaseTrackId": "77037",
+      "title": "还得过",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 43000
+    },
+    {
+      "id": "netease-track:77041",
+      "neteaseTrackId": "77041",
+      "title": "说亲•弟弟",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 121000
+    },
+    {
+      "id": "netease-track:77045",
+      "neteaseTrackId": "77045",
+      "title": "挂灯笼",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 45000
+    },
+    {
+      "id": "netease-track:77048",
+      "neteaseTrackId": "77048",
+      "title": "误会•气极了",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 53000
+    },
+    {
+      "id": "netease-track:77051",
+      "neteaseTrackId": "77051",
+      "title": "臭脾气",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 88764
+    },
+    {
+      "id": "netease-track:77054",
+      "neteaseTrackId": "77054",
+      "title": "过年",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 47000
+    },
+    {
+      "id": "netease-track:77058",
+      "neteaseTrackId": "77058",
+      "title": "教•漏",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 113000
+    },
+    {
+      "id": "netease-track:77062",
+      "neteaseTrackId": "77062",
+      "title": "聊天儿",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 113946
+    },
+    {
+      "id": "netease-track:77065",
+      "neteaseTrackId": "77065",
+      "title": "万贯挪移",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 84845
+    },
+    {
+      "id": "netease-track:77068",
+      "neteaseTrackId": "77068",
+      "title": "挂画儿",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 112000
+    },
+    {
+      "id": "netease-track:77071",
+      "neteaseTrackId": "77071",
+      "title": "交换",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 55000
+    },
+    {
+      "id": "netease-track:77073",
+      "neteaseTrackId": "77073",
+      "title": "小马哭",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 63000
+    },
+    {
+      "id": "netease-track:77076",
+      "neteaseTrackId": "77076",
+      "title": "说•秋",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 44000
+    },
+    {
+      "id": "netease-track:77078",
+      "neteaseTrackId": "77078",
+      "title": "日历",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 26000
+    },
+    {
+      "id": "netease-track:77081",
+      "neteaseTrackId": "77081",
+      "title": "做饭",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 24000
+    },
+    {
+      "id": "netease-track:77084",
+      "neteaseTrackId": "77084",
+      "title": "走了",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 47000
+    },
+    {
+      "id": "netease-track:77087",
+      "neteaseTrackId": "77087",
+      "title": "屋子空了",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 118000
+    },
+    {
+      "id": "netease-track:77090",
+      "neteaseTrackId": "77090",
+      "title": "尾声",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "窦唯"
+      ],
+      "durationMs": 121000
+    }
+  ],
+  "trackCount": 23,
+  "externalUrl": "https://music.163.com/#/album?id=7570",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic",
+    "experimental-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我们俩 窦唯",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

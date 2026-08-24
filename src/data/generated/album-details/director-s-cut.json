@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1742054",
+  "id": "album:1742054",
+  "neteaseAlbumId": "1742054",
+  "slug": "director-s-cut",
+  "title": "Director's Cut",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "2011-05-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fish People",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1742054.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1742054.webp",
+    "alt": "《Director's Cut》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19012383",
+      "neteaseTrackId": "19012383",
+      "title": "Flower Of The Mountain",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 314053
+    },
+    {
+      "id": "netease-track:19012384",
+      "neteaseTrackId": "19012384",
+      "title": "The Song Of Solomon",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 284906
+    },
+    {
+      "id": "netease-track:19012385",
+      "neteaseTrackId": "19012385",
+      "title": "Lily",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 244613
+    },
+    {
+      "id": "netease-track:19012386",
+      "neteaseTrackId": "19012386",
+      "title": "Deeper Understanding",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 392035
+    },
+    {
+      "id": "netease-track:19012387",
+      "neteaseTrackId": "19012387",
+      "title": "The Red Shoes",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 298066
+    },
+    {
+      "id": "netease-track:19012388",
+      "neteaseTrackId": "19012388",
+      "title": "This Woman's Work",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 389573
+    },
+    {
+      "id": "netease-track:19012389",
+      "neteaseTrackId": "19012389",
+      "title": "Moments Of Pleasure",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 391733
+    },
+    {
+      "id": "netease-track:19012390",
+      "neteaseTrackId": "19012390",
+      "title": "Never Be Mine",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 305040
+    },
+    {
+      "id": "netease-track:19012391",
+      "neteaseTrackId": "19012391",
+      "title": "Top Of The City",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 263533
+    },
+    {
+      "id": "netease-track:19012392",
+      "neteaseTrackId": "19012392",
+      "title": "And So Is Love",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 260626
+    },
+    {
+      "id": "netease-track:19012393",
+      "neteaseTrackId": "19012393",
+      "title": "Rubberband Girl",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 276506
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1742054",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Director's Cut Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

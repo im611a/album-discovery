@@ -1,0 +1,264 @@
+{
+  "internalId": "album:501659",
+  "id": "album:501659",
+  "neteaseAlbumId": "501659",
+  "slug": "the-last-emperor-original-soundtrack",
+  "title": "The Last Emperor Original Soundtrack",
+  "aliases": [
+    "电影《末代皇帝》原声大碟"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    },
+    {
+      "id": "netease-artist:31279",
+      "neteaseArtistId": "31279",
+      "name": "David Byrne"
+    },
+    {
+      "id": "netease-artist:5012",
+      "neteaseArtistId": "5012",
+      "name": "苏聪"
+    }
+  ],
+  "releaseDate": "1987-12-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Virgin Catalogue",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/501659.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/501659.webp",
+    "alt": "《The Last Emperor Original Soundtrack》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5059142",
+      "neteaseTrackId": "5059142",
+      "title": "First Coronation",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 107000
+    },
+    {
+      "id": "netease-track:5059143",
+      "neteaseTrackId": "5059143",
+      "title": "Open The Door",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 174341
+    },
+    {
+      "id": "netease-track:5059144",
+      "neteaseTrackId": "5059144",
+      "title": "Where Is Armo?",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 146160
+    },
+    {
+      "id": "netease-track:5059145",
+      "neteaseTrackId": "5059145",
+      "title": "Picking Up Brides",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 159477
+    },
+    {
+      "id": "netease-track:5059146",
+      "neteaseTrackId": "5059146",
+      "title": "The Last Emperor: Theme Variation 1",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 140000
+    },
+    {
+      "id": "netease-track:5059147",
+      "neteaseTrackId": "5059147",
+      "title": "Rain (I Want A Divorce)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 110000
+    },
+    {
+      "id": "netease-track:5059148",
+      "neteaseTrackId": "5059148",
+      "title": "The Baby (Was Born Dead)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 56000
+    },
+    {
+      "id": "netease-track:5059149",
+      "neteaseTrackId": "5059149",
+      "title": "The Last Emperor: Theme Variation 2",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 268721
+    },
+    {
+      "id": "netease-track:5059150",
+      "neteaseTrackId": "5059150",
+      "title": "The Last Emperor (Theme)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 353201
+    },
+    {
+      "id": "netease-track:5059151",
+      "neteaseTrackId": "5059151",
+      "title": "The Last Emperor (Main Title Theme)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "David Byrne"
+      ],
+      "durationMs": 241110
+    },
+    {
+      "id": "netease-track:5059152",
+      "neteaseTrackId": "5059152",
+      "title": "Picking A Bride",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "David Byrne"
+      ],
+      "durationMs": 121000
+    },
+    {
+      "id": "netease-track:5059153",
+      "neteaseTrackId": "5059153",
+      "title": "Bed",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "David Byrne"
+      ],
+      "durationMs": 300826
+    },
+    {
+      "id": "netease-track:5059154",
+      "neteaseTrackId": "5059154",
+      "title": "Wind Rain And Water",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "David Byrne"
+      ],
+      "durationMs": 139000
+    },
+    {
+      "id": "netease-track:5059155",
+      "neteaseTrackId": "5059155",
+      "title": "Paper Emperor",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "David Byrne"
+      ],
+      "durationMs": 107964
+    },
+    {
+      "id": "netease-track:5059156",
+      "neteaseTrackId": "5059156",
+      "title": "Lunch",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "苏聪"
+      ],
+      "durationMs": 294635
+    },
+    {
+      "id": "netease-track:5059157",
+      "neteaseTrackId": "5059157",
+      "title": "Red Guard",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "The Red Guard Accordion Band"
+      ],
+      "durationMs": 81000
+    },
+    {
+      "id": "netease-track:5059158",
+      "neteaseTrackId": "5059158",
+      "title": "The Emperor's Waltz",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "The Ball Orchestra of Vienna"
+      ],
+      "durationMs": 186775
+    },
+    {
+      "id": "netease-track:5059159",
+      "neteaseTrackId": "5059159",
+      "title": "Red Guard Dance",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "The Girls Red Guard Dancers"
+      ],
+      "durationMs": 39000
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=501659",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Last Emperor Original Soundtrack 电影《末代皇帝》原声大碟 坂本龍一 David Byrne 苏聪",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

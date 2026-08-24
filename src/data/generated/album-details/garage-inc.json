@@ -1,0 +1,351 @@
+{
+  "internalId": "album:1956866",
+  "id": "album:1956866",
+  "neteaseAlbumId": "1956866",
+  "slug": "garage-inc",
+  "title": "Garage Inc.",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "1998-11-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Blackened Recordings / Universal Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956866.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956866.webp",
+    "alt": "《Garage Inc.》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162487",
+      "neteaseTrackId": "21162487",
+      "title": "Free Speech For The Dumb",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 155373
+    },
+    {
+      "id": "netease-track:21162488",
+      "neteaseTrackId": "21162488",
+      "title": "It's Electric",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 213933
+    },
+    {
+      "id": "netease-track:21162489",
+      "neteaseTrackId": "21162489",
+      "title": "Sabbra Cadabra",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 380226
+    },
+    {
+      "id": "netease-track:21162490",
+      "neteaseTrackId": "21162490",
+      "title": "Turn the Page",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 366573
+    },
+    {
+      "id": "netease-track:21162491",
+      "neteaseTrackId": "21162491",
+      "title": "Die, Die My Darling",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 149160
+    },
+    {
+      "id": "netease-track:21162492",
+      "neteaseTrackId": "21162492",
+      "title": "Loverman",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 472800
+    },
+    {
+      "id": "netease-track:21162493",
+      "neteaseTrackId": "21162493",
+      "title": "Mercyful Fate",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 670081
+    },
+    {
+      "id": "netease-track:21162494",
+      "neteaseTrackId": "21162494",
+      "title": "Astronomy",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 397600
+    },
+    {
+      "id": "netease-track:21162495",
+      "neteaseTrackId": "21162495",
+      "title": "Whiskey in the Jar",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 304800
+    },
+    {
+      "id": "netease-track:21162496",
+      "neteaseTrackId": "21162496",
+      "title": "Tuesday's Gone",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 545733
+    },
+    {
+      "id": "netease-track:21162497",
+      "neteaseTrackId": "21162497",
+      "title": "The More I See",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 288866
+    },
+    {
+      "id": "netease-track:21162498",
+      "neteaseTrackId": "21162498",
+      "title": "Helpless",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 396920
+    },
+    {
+      "id": "netease-track:21162499",
+      "neteaseTrackId": "21162499",
+      "title": "The Small Hours",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 403240
+    },
+    {
+      "id": "netease-track:21162500",
+      "neteaseTrackId": "21162500",
+      "title": "The Wait",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 295266
+    },
+    {
+      "id": "netease-track:21162501",
+      "neteaseTrackId": "21162501",
+      "title": "Crash Course in Brain Surgery",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 190403
+    },
+    {
+      "id": "netease-track:21162502",
+      "neteaseTrackId": "21162502",
+      "title": "Last Caress / Green Hell",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:21162503",
+      "neteaseTrackId": "21162503",
+      "title": "Am I Evil?",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 470066
+    },
+    {
+      "id": "netease-track:21162504",
+      "neteaseTrackId": "21162504",
+      "title": "Blitzkrieg (The Roseland Ballroom Live Version)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 216960
+    },
+    {
+      "id": "netease-track:21162505",
+      "neteaseTrackId": "21162505",
+      "title": "Breadfan",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 341333
+    },
+    {
+      "id": "netease-track:21162506",
+      "neteaseTrackId": "21162506",
+      "title": "The Prince",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 265600
+    },
+    {
+      "id": "netease-track:21162507",
+      "neteaseTrackId": "21162507",
+      "title": "Stone Cold Crazy",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 137706
+    },
+    {
+      "id": "netease-track:21162508",
+      "neteaseTrackId": "21162508",
+      "title": "So What",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 188973
+    },
+    {
+      "id": "netease-track:21162509",
+      "neteaseTrackId": "21162509",
+      "title": "Killing Time",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 183733
+    },
+    {
+      "id": "netease-track:21162510",
+      "neteaseTrackId": "21162510",
+      "title": "Overkill",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 244947
+    },
+    {
+      "id": "netease-track:21162511",
+      "neteaseTrackId": "21162511",
+      "title": "Damage Case",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:21162512",
+      "neteaseTrackId": "21162512",
+      "title": "Stone Dead Forever",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 292164
+    },
+    {
+      "id": "netease-track:21162513",
+      "neteaseTrackId": "21162513",
+      "title": "Too Late Too Late",
+      "trackNumber": 16,
+      "discNumber": 2,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 192062
+    }
+  ],
+  "trackCount": 27,
+  "externalUrl": "https://music.163.com/#/album?id=1956866",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Garage Inc. Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

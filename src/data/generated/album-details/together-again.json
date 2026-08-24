@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1706224",
+  "id": "album:1706224",
+  "neteaseAlbumId": "1706224",
+  "slug": "together-again",
+  "title": "Together Again",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1997-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Virgin Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706224.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706224.webp",
+    "alt": "《Together Again》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18589363",
+      "neteaseTrackId": "18589363",
+      "title": "Together Again (Radio Edit)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 248732
+    },
+    {
+      "id": "netease-track:18589364",
+      "neteaseTrackId": "18589364",
+      "title": "Together Again (Tony Humphries Club Mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 402541
+    },
+    {
+      "id": "netease-track:18589365",
+      "neteaseTrackId": "18589365",
+      "title": "Together Again (DJ Premier 100 In A 50 Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 323918
+    },
+    {
+      "id": "netease-track:18589366",
+      "neteaseTrackId": "18589366",
+      "title": "Together Again (Jimmy Jam Deep Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 259173
+    },
+    {
+      "id": "netease-track:18589367",
+      "neteaseTrackId": "18589367",
+      "title": "Together Again (Tony Moran 7\" Edit With Janet Vocal Intro)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 330048
+    },
+    {
+      "id": "netease-track:18589368",
+      "neteaseTrackId": "18589368",
+      "title": "Together Again (Jimmy Jam Deeper Radio Edit)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 239000
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1706224",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Together Again Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

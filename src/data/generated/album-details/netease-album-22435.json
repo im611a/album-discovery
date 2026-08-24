@@ -1,0 +1,133 @@
+{
+  "internalId": "album:22435",
+  "id": "album:22435",
+  "neteaseAlbumId": "22435",
+  "slug": "netease-album-22435",
+  "title": "海边的卡夫卡live实况",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7409",
+      "neteaseArtistId": "7409",
+      "name": "岑宁儿"
+    }
+  ],
+  "releaseDate": "2010-08-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/22435.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/22435.webp",
+    "alt": "《海边的卡夫卡live实况》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:222607",
+      "neteaseTrackId": "222607",
+      "title": "空隙",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 346000
+    },
+    {
+      "id": "netease-track:222610",
+      "neteaseTrackId": "222610",
+      "title": "错觉",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 152000
+    },
+    {
+      "id": "netease-track:222613",
+      "neteaseTrackId": "222613",
+      "title": "You and I",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:222615",
+      "neteaseTrackId": "222615",
+      "title": "不枉我们张山十年",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿",
+        "Friend"
+      ],
+      "durationMs": 276897
+    },
+    {
+      "id": "netease-track:222618",
+      "neteaseTrackId": "222618",
+      "title": "哪里",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 280000
+    },
+    {
+      "id": "netease-track:222621",
+      "neteaseTrackId": "222621",
+      "title": "The Baby Song",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿"
+      ],
+      "durationMs": 180000
+    },
+    {
+      "id": "netease-track:222622",
+      "neteaseTrackId": "222622",
+      "title": "Porcelain",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "岑宁儿",
+        "卢凯彤"
+      ],
+      "durationMs": 317000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=22435",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "海边的卡夫卡live实况 岑宁儿",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

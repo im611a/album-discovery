@@ -1,0 +1,132 @@
+{
+  "internalId": "album:104602",
+  "id": "album:104602",
+  "neteaseAlbumId": "104602",
+  "slug": "vrioon",
+  "title": "Vrioon",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:27649",
+      "neteaseArtistId": "27649",
+      "name": "Alva Noto"
+    },
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2002-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "NOTON",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/104602.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/104602.webp",
+    "alt": "《Vrioon》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1000400",
+      "neteaseTrackId": "1000400",
+      "title": "Uoon I",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 831280
+    },
+    {
+      "id": "netease-track:1000404",
+      "neteaseTrackId": "1000404",
+      "title": "Uoon II",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 580560
+    },
+    {
+      "id": "netease-track:1000408",
+      "neteaseTrackId": "1000408",
+      "title": "Duoon",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 346944
+    },
+    {
+      "id": "netease-track:1000412",
+      "neteaseTrackId": "1000412",
+      "title": "Noon",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 613176
+    },
+    {
+      "id": "netease-track:1000416",
+      "neteaseTrackId": "1000416",
+      "title": "Trioon I",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 308973
+    },
+    {
+      "id": "netease-track:1000419",
+      "neteaseTrackId": "1000419",
+      "title": "Trioon II",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Alva Noto",
+        "坂本龍一"
+      ],
+      "durationMs": 597680
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=104602",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Vrioon Alva Noto 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

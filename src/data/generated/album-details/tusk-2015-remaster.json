@@ -1,0 +1,274 @@
+{
+  "internalId": "album:260850",
+  "id": "album:260850",
+  "neteaseAlbumId": "260850",
+  "slug": "tusk-2015-remaster",
+  "title": "Tusk (2015 Remaster)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1979-10-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260850.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260850.webp",
+    "alt": "《Tusk (2015 Remaster)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2589853",
+      "neteaseTrackId": "2589853",
+      "title": "Over & Over (2015 Remaster)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 274666
+    },
+    {
+      "id": "netease-track:2589857",
+      "neteaseTrackId": "2589857",
+      "title": "The Ledge (2015 Remaster)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 127386
+    },
+    {
+      "id": "netease-track:2589861",
+      "neteaseTrackId": "2589861",
+      "title": "Think About Me (2015 Remaster)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 164333
+    },
+    {
+      "id": "netease-track:2589865",
+      "neteaseTrackId": "2589865",
+      "title": "Save Me a Place (2015 Remaster)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 162293
+    },
+    {
+      "id": "netease-track:2589869",
+      "neteaseTrackId": "2589869",
+      "title": "Sara (2015 Remaster)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 390680
+    },
+    {
+      "id": "netease-track:2589873",
+      "neteaseTrackId": "2589873",
+      "title": "What Makes You Think You're the One (2015 Remaster)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 210506
+    },
+    {
+      "id": "netease-track:2589877",
+      "neteaseTrackId": "2589877",
+      "title": "Storms (2015 Remaster)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 330746
+    },
+    {
+      "id": "netease-track:2589881",
+      "neteaseTrackId": "2589881",
+      "title": "That's All for Everyone (2015 Remaster)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 181306
+    },
+    {
+      "id": "netease-track:2589885",
+      "neteaseTrackId": "2589885",
+      "title": "Not That Funny (2015 Remaster)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 194826
+    },
+    {
+      "id": "netease-track:2589886",
+      "neteaseTrackId": "2589886",
+      "title": "Sisters of the Moon (2015 Remaster)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 283013
+    },
+    {
+      "id": "netease-track:2589887",
+      "neteaseTrackId": "2589887",
+      "title": "Angel (2015 Remaster)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 294053
+    },
+    {
+      "id": "netease-track:2589888",
+      "neteaseTrackId": "2589888",
+      "title": "That's Enough for Me (2015 Remaster)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 110746
+    },
+    {
+      "id": "netease-track:2589889",
+      "neteaseTrackId": "2589889",
+      "title": "Brown Eyes (2015 Remaster)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 267186
+    },
+    {
+      "id": "netease-track:2589893",
+      "neteaseTrackId": "2589893",
+      "title": "Never Make Me Cry (2015 Remaster)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 138160
+    },
+    {
+      "id": "netease-track:2589897",
+      "neteaseTrackId": "2589897",
+      "title": "I Know I'm Not Wrong (2015 Remaster)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 181853
+    },
+    {
+      "id": "netease-track:2589901",
+      "neteaseTrackId": "2589901",
+      "title": "Honey Hi (2015 Remaster)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 165666
+    },
+    {
+      "id": "netease-track:2589906",
+      "neteaseTrackId": "2589906",
+      "title": "Beautiful Child (2015 Remaster)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 321280
+    },
+    {
+      "id": "netease-track:2589911",
+      "neteaseTrackId": "2589911",
+      "title": "Walk a Thin Line (2015 Remaster)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 224666
+    },
+    {
+      "id": "netease-track:2589916",
+      "neteaseTrackId": "2589916",
+      "title": "Tusk (2015 Remaster)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 217573
+    },
+    {
+      "id": "netease-track:2589920",
+      "neteaseTrackId": "2589920",
+      "title": "Never Forget (2015 Remaster)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 218853
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=260850",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Tusk (2015 Remaster) Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "internalId": "album:21273",
+  "id": "album:21273",
+  "neteaseAlbumId": "21273",
+  "slug": "jupiter",
+  "title": "Jupiter",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2002-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music China",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21273.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21273.webp",
+    "alt": "《Jupiter》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209073",
+      "neteaseTrackId": "209073",
+      "title": "Drops Of Jupiter",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 229933
+    },
+    {
+      "id": "netease-track:209076",
+      "neteaseTrackId": "209076",
+      "title": "Tell Me",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 188560
+    },
+    {
+      "id": "netease-track:209079",
+      "neteaseTrackId": "209079",
+      "title": "Two Of Us",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 193600
+    },
+    {
+      "id": "netease-track:209082",
+      "neteaseTrackId": "209082",
+      "title": "All I Needed",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 260840
+    },
+    {
+      "id": "netease-track:209084",
+      "neteaseTrackId": "209084",
+      "title": "Yellow",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 283200
+    },
+    {
+      "id": "netease-track:209086",
+      "neteaseTrackId": "209086",
+      "title": "Sanctuary Of Love",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 252466
+    },
+    {
+      "id": "netease-track:209088",
+      "neteaseTrackId": "209088",
+      "title": "Just Like the Movies",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 254400
+    },
+    {
+      "id": "netease-track:209091",
+      "neteaseTrackId": "209091",
+      "title": "Day And Night",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 245960
+    },
+    {
+      "id": "netease-track:209094",
+      "neteaseTrackId": "209094",
+      "title": "Lost",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 294706
+    },
+    {
+      "id": "netease-track:209097",
+      "neteaseTrackId": "209097",
+      "title": "On This Earth",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 553933
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=21273",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Jupiter 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

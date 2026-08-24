@@ -1,0 +1,219 @@
+{
+  "internalId": "album:29577",
+  "id": "album:29577",
+  "neteaseAlbumId": "29577",
+  "slug": "netease-album-29577",
+  "title": "生命乐章",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1999-08-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29577.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29577.webp",
+    "alt": "《生命乐章》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297996",
+      "neteaseTrackId": "297996",
+      "title": "林爷",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "李文瑗"
+      ],
+      "durationMs": 731010
+    },
+    {
+      "id": "netease-track:297998",
+      "neteaseTrackId": "297998",
+      "title": "赵爷爷、胡爷爷",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "李文瑗"
+      ],
+      "durationMs": 583262
+    },
+    {
+      "id": "netease-track:298001",
+      "neteaseTrackId": "298001",
+      "title": "卖冥纸的阿嬷",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "李文瑗"
+      ],
+      "durationMs": 550713
+    },
+    {
+      "id": "netease-track:298005",
+      "neteaseTrackId": "298005",
+      "title": "林忠明",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "李文瑗"
+      ],
+      "durationMs": 548075
+    },
+    {
+      "id": "netease-track:298008",
+      "neteaseTrackId": "298008",
+      "title": "眼盲的阿婆",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "李文瑗"
+      ],
+      "durationMs": 527000
+    },
+    {
+      "id": "netease-track:298010",
+      "neteaseTrackId": "298010",
+      "title": "林志群",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "李文瑗"
+      ],
+      "durationMs": 484780
+    },
+    {
+      "id": "netease-track:298012",
+      "neteaseTrackId": "298012",
+      "title": "林美霞",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "李文瑗"
+      ],
+      "durationMs": 589871
+    },
+    {
+      "id": "netease-track:298014",
+      "neteaseTrackId": "298014",
+      "title": "序曲(生命乐章)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 160000
+    },
+    {
+      "id": "netease-track:298016",
+      "neteaseTrackId": "298016",
+      "title": "亲爱的，你这个小小身体",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 241000
+    },
+    {
+      "id": "netease-track:298020",
+      "neteaseTrackId": "298020",
+      "title": "将爱串起来",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 241345
+    },
+    {
+      "id": "netease-track:298024",
+      "neteaseTrackId": "298024",
+      "title": "孤独的一盏灯",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 234292
+    },
+    {
+      "id": "netease-track:298028",
+      "neteaseTrackId": "298028",
+      "title": "创痛让我长出翅膀",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 306000
+    },
+    {
+      "id": "netease-track:298032",
+      "neteaseTrackId": "298032",
+      "title": "因为你有爱",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 317231
+    },
+    {
+      "id": "netease-track:298036",
+      "neteaseTrackId": "298036",
+      "title": "沙哟娜啦，再相见",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 279000
+    },
+    {
+      "id": "netease-track:298040",
+      "neteaseTrackId": "298040",
+      "title": "演奏曲(生命乐章)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 155000
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=29577",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "生命乐章 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

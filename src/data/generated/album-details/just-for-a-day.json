@@ -1,0 +1,285 @@
+{
+  "internalId": "album:1761247",
+  "id": "album:1761247",
+  "neteaseAlbumId": "1761247",
+  "slug": "just-for-a-day",
+  "title": "Just For A Day",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "name": "Slowdive"
+    }
+  ],
+  "releaseDate": "1991-09-01",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1761247.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1761247.webp",
+    "alt": "《Just For A Day》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19204264",
+      "neteaseTrackId": "19204264",
+      "title": "Spanish Air",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 362695
+    },
+    {
+      "id": "netease-track:19204266",
+      "neteaseTrackId": "19204266",
+      "title": "Celia's Dream",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 249544
+    },
+    {
+      "id": "netease-track:19204269",
+      "neteaseTrackId": "19204269",
+      "title": "Catch The Breeze",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 259026
+    },
+    {
+      "id": "netease-track:19204271",
+      "neteaseTrackId": "19204271",
+      "title": "Ballad Of Sister Sue",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 272021
+    },
+    {
+      "id": "netease-track:19204272",
+      "neteaseTrackId": "19204272",
+      "title": "Erik's Song",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 265729
+    },
+    {
+      "id": "netease-track:19204273",
+      "neteaseTrackId": "19204273",
+      "title": "Waves",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 351851
+    },
+    {
+      "id": "netease-track:19204275",
+      "neteaseTrackId": "19204275",
+      "title": "Brighter",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 229250
+    },
+    {
+      "id": "netease-track:19204277",
+      "neteaseTrackId": "19204277",
+      "title": "The Sadman",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 285210
+    },
+    {
+      "id": "netease-track:19204279",
+      "neteaseTrackId": "19204279",
+      "title": "Primal",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 331441
+    },
+    {
+      "id": "netease-track:19204281",
+      "neteaseTrackId": "19204281",
+      "title": "Slowdive",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 317114
+    },
+    {
+      "id": "netease-track:19204283",
+      "neteaseTrackId": "19204283",
+      "title": "Avalyn I",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 292153
+    },
+    {
+      "id": "netease-track:19204285",
+      "neteaseTrackId": "19204285",
+      "title": "Avalyn II",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 489639
+    },
+    {
+      "id": "netease-track:19204287",
+      "neteaseTrackId": "19204287",
+      "title": "Morningrise",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 260574
+    },
+    {
+      "id": "netease-track:19204289",
+      "neteaseTrackId": "19204289",
+      "title": "She Calls",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 338384
+    },
+    {
+      "id": "netease-track:19204291",
+      "neteaseTrackId": "19204291",
+      "title": "Losing Today",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 301975
+    },
+    {
+      "id": "netease-track:19204293",
+      "neteaseTrackId": "19204293",
+      "title": "Golden Hair",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 244204
+    },
+    {
+      "id": "netease-track:19204294",
+      "neteaseTrackId": "19204294",
+      "title": "Shine",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 320746
+    },
+    {
+      "id": "netease-track:19204296",
+      "neteaseTrackId": "19204296",
+      "title": "Albatros",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 318368
+    },
+    {
+      "id": "netease-track:19204298",
+      "neteaseTrackId": "19204298",
+      "title": "Catch The Breeze (Peel Session)",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 251054
+    },
+    {
+      "id": "netease-track:19204300",
+      "neteaseTrackId": "19204300",
+      "title": "Shine (Peel Session)",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 320737
+    },
+    {
+      "id": "netease-track:19204302",
+      "neteaseTrackId": "19204302",
+      "title": "Golden Hair (Peel Session)",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 224676
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=1761247",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Just For A Day Slowdive",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

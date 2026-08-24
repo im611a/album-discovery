@@ -1,0 +1,104 @@
+{
+  "internalId": "album:19222",
+  "id": "album:19222",
+  "neteaseAlbumId": "19222",
+  "slug": "netease-album-19222",
+  "title": "非常侦探原声大碟",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6460",
+      "neteaseArtistId": "6460",
+      "name": "张学友"
+    },
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1994-08-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "宝丽金",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19222.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19222.webp",
+    "alt": "《非常侦探原声大碟》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:190207",
+      "neteaseTrackId": "190207",
+      "title": "非常夏日live in chicago 1975",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张学友",
+        "王菲"
+      ],
+      "durationMs": 236263
+    },
+    {
+      "id": "netease-track:190211",
+      "neteaseTrackId": "190211",
+      "title": "追钟(电影版)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 279666
+    },
+    {
+      "id": "netease-track:190215",
+      "neteaseTrackId": "190215",
+      "title": "当爱变成习惯",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 299773
+    },
+    {
+      "id": "netease-track:190219",
+      "neteaseTrackId": "190219",
+      "title": "来来回回",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张学友"
+      ],
+      "durationMs": 232493
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=19222",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "非常侦探原声大碟 张学友 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

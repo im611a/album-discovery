@@ -1,0 +1,153 @@
+{
+  "internalId": "album:61618",
+  "id": "album:61618",
+  "neteaseAlbumId": "61618",
+  "slug": "netease-album-61618",
+  "title": "絶頂集",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:17635",
+      "neteaseArtistId": "17635",
+      "name": "椎名林檎"
+    }
+  ],
+  "releaseDate": "2000-09-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/61618.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/61618.webp",
+    "alt": "《絶頂集》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:642584",
+      "neteaseTrackId": "642584",
+      "title": "やっつけ仕事 (LIVE)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 210001
+    },
+    {
+      "id": "netease-track:642588",
+      "neteaseTrackId": "642588",
+      "title": "ギャンブル (LIVE)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 331952
+    },
+    {
+      "id": "netease-track:642592",
+      "neteaseTrackId": "642592",
+      "title": "Jェチ~ッじoTMウ",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 330582
+    },
+    {
+      "id": "netease-track:642597",
+      "neteaseTrackId": "642597",
+      "title": "メロウ",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 354545
+    },
+    {
+      "id": "netease-track:642601",
+      "neteaseTrackId": "642601",
+      "title": "不幸自慢",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 145449
+    },
+    {
+      "id": "netease-track:642604",
+      "neteaseTrackId": "642604",
+      "title": "喪 興瑠怒 (仮)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 185434
+    },
+    {
+      "id": "netease-track:642606",
+      "neteaseTrackId": "642606",
+      "title": "膨らんできちゃった (LIVE)",
+      "trackNumber": 1,
+      "discNumber": 3,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 126897
+    },
+    {
+      "id": "netease-track:642608",
+      "neteaseTrackId": "642608",
+      "title": "はいはい (LIVE)",
+      "trackNumber": 2,
+      "discNumber": 3,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 154343
+    },
+    {
+      "id": "netease-track:642609",
+      "neteaseTrackId": "642609",
+      "title": "光合成 (LIVE)",
+      "trackNumber": 3,
+      "discNumber": 3,
+      "artists": [
+        "椎名林檎"
+      ],
+      "durationMs": 222005
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=61618",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "絶頂集 椎名林檎",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

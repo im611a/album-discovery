@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1637061",
+  "id": "album:1637061",
+  "neteaseAlbumId": "1637061",
+  "slug": "english-rose",
+  "title": "English Rose",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1969-11-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637061.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637061.webp",
+    "alt": "《English Rose》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17786271",
+      "neteaseTrackId": "17786271",
+      "title": "Stop Messin' Round",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 140736
+    },
+    {
+      "id": "netease-track:17786272",
+      "neteaseTrackId": "17786272",
+      "title": "Jigsaw Puzzle Blues",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 94249
+    },
+    {
+      "id": "netease-track:17786273",
+      "neteaseTrackId": "17786273",
+      "title": "Doctor Brown",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 223686
+    },
+    {
+      "id": "netease-track:17786274",
+      "neteaseTrackId": "17786274",
+      "title": "Something Inside of Me",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 235520
+    },
+    {
+      "id": "netease-track:17786275",
+      "neteaseTrackId": "17786275",
+      "title": "Evenin' Boogie",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 162266
+    },
+    {
+      "id": "netease-track:17786276",
+      "neteaseTrackId": "17786276",
+      "title": "Love That Burns",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 304160
+    },
+    {
+      "id": "netease-track:17786277",
+      "neteaseTrackId": "17786277",
+      "title": "Black Magic Woman",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 166719
+    },
+    {
+      "id": "netease-track:17786278",
+      "neteaseTrackId": "17786278",
+      "title": "I've Lost My Baby",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 255721
+    },
+    {
+      "id": "netease-track:17786279",
+      "neteaseTrackId": "17786279",
+      "title": "One Sunny Day",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 190612
+    },
+    {
+      "id": "netease-track:17786280",
+      "neteaseTrackId": "17786280",
+      "title": "Without You",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 278308
+    },
+    {
+      "id": "netease-track:17786281",
+      "neteaseTrackId": "17786281",
+      "title": "Coming Home",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 158667
+    },
+    {
+      "id": "netease-track:17786282",
+      "neteaseTrackId": "17786282",
+      "title": "Albatross",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 185973
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1637061",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "English Rose Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

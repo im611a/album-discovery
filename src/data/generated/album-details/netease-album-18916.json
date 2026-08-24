@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18916",
+  "id": "album:18916",
+  "neteaseAlbumId": "18916",
+  "slug": "netease-album-18916",
+  "title": "雪国八月",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "2007-09-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18916.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18916.webp",
+    "alt": "《雪国八月》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186115",
+      "neteaseTrackId": "186115",
+      "title": "宁静雪",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 268733
+    },
+    {
+      "id": "netease-track:186117",
+      "neteaseTrackId": "186117",
+      "title": "算",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 244546
+    },
+    {
+      "id": "netease-track:186118",
+      "neteaseTrackId": "186118",
+      "title": "微风掠过",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 248173
+    },
+    {
+      "id": "netease-track:186121",
+      "neteaseTrackId": "186121",
+      "title": "转机",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 236016
+    },
+    {
+      "id": "netease-track:186124",
+      "neteaseTrackId": "186124",
+      "title": "雨霖铃",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 256226
+    },
+    {
+      "id": "netease-track:186127",
+      "neteaseTrackId": "186127",
+      "title": "不如归去",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 248933
+    },
+    {
+      "id": "netease-track:186130",
+      "neteaseTrackId": "186130",
+      "title": "是我非我",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 245146
+    },
+    {
+      "id": "netease-track:186133",
+      "neteaseTrackId": "186133",
+      "title": "乱世佳人",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 204266
+    },
+    {
+      "id": "netease-track:186136",
+      "neteaseTrackId": "186136",
+      "title": "一个美丽的传说",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 213946
+    },
+    {
+      "id": "netease-track:186140",
+      "neteaseTrackId": "186140",
+      "title": "清风世界",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 211957
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18916",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "雪国八月 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

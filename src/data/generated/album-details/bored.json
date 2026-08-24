@@ -1,0 +1,186 @@
+{
+  "internalId": "album:21298",
+  "id": "album:21298",
+  "neteaseAlbumId": "21298",
+  "slug": "bored",
+  "title": "Bored",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "1997-07-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music China",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21298.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21298.webp",
+    "alt": "《Bored》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209340",
+      "neteaseTrackId": "209340",
+      "title": "Bored",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 232040
+    },
+    {
+      "id": "netease-track:209342",
+      "neteaseTrackId": "209342",
+      "title": "The Yes Yes Song",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 310053
+    },
+    {
+      "id": "netease-track:209344",
+      "neteaseTrackId": "209344",
+      "title": "My Colour TV Set",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 268453
+    },
+    {
+      "id": "netease-track:209347",
+      "neteaseTrackId": "209347",
+      "title": "Joni (It's Friday)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 257866
+    },
+    {
+      "id": "netease-track:209350",
+      "neteaseTrackId": "209350",
+      "title": "I Don't Know Where I Stand",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 198413
+    },
+    {
+      "id": "netease-track:209353",
+      "neteaseTrackId": "209353",
+      "title": "You Sorry Ass!!",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 307826
+    },
+    {
+      "id": "netease-track:209356",
+      "neteaseTrackId": "209356",
+      "title": "Ashes",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 212733
+    },
+    {
+      "id": "netease-track:209359",
+      "neteaseTrackId": "209359",
+      "title": "My Friend",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 255333
+    },
+    {
+      "id": "netease-track:209361",
+      "neteaseTrackId": "209361",
+      "title": "Forgotten",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 256200
+    },
+    {
+      "id": "netease-track:209363",
+      "neteaseTrackId": "209363",
+      "title": "So How?",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 231666
+    },
+    {
+      "id": "netease-track:209366",
+      "neteaseTrackId": "209366",
+      "title": "Until Next Time",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 193400
+    },
+    {
+      "id": "netease-track:209369",
+      "neteaseTrackId": "209369",
+      "title": "My Friend",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 236866
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=21298",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Bored 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

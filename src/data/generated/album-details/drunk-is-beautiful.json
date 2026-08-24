@@ -1,0 +1,230 @@
+{
+  "internalId": "album:35660",
+  "id": "album:35660",
+  "neteaseAlbumId": "35660",
+  "slug": "drunk-is-beautiful",
+  "title": "Drunk Is Beautiful",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:11950",
+      "neteaseArtistId": "11950",
+      "name": "Joyside"
+    }
+  ],
+  "releaseDate": "2003-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beijing Modern Sky Culture Development",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35660.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/35660.webp",
+    "alt": "《Drunk Is Beautiful》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:360955",
+      "neteaseTrackId": "360955",
+      "title": "Pretty 3 Chords",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 169960
+    },
+    {
+      "id": "netease-track:360959",
+      "neteaseTrackId": "360959",
+      "title": "I Want Beer",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 153026
+    },
+    {
+      "id": "netease-track:360960",
+      "neteaseTrackId": "360960",
+      "title": "Music Sucks",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 121226
+    },
+    {
+      "id": "netease-track:360962",
+      "neteaseTrackId": "360962",
+      "title": "Nothing to Do",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 151666
+    },
+    {
+      "id": "netease-track:360965",
+      "neteaseTrackId": "360965",
+      "title": "I Wanna Piss Around You",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 128053
+    },
+    {
+      "id": "netease-track:360968",
+      "neteaseTrackId": "360968",
+      "title": "A Dream of London",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 111493
+    },
+    {
+      "id": "netease-track:360972",
+      "neteaseTrackId": "360972",
+      "title": "(I Am) Lazy & Wasting",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 164533
+    },
+    {
+      "id": "netease-track:360976",
+      "neteaseTrackId": "360976",
+      "title": "Sunday Morning",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 99986
+    },
+    {
+      "id": "netease-track:360979",
+      "neteaseTrackId": "360979",
+      "title": "I Don't Wanna Be Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 150693
+    },
+    {
+      "id": "netease-track:360982",
+      "neteaseTrackId": "360982",
+      "title": "The Saviour Johnny Rotten",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 173733
+    },
+    {
+      "id": "netease-track:360985",
+      "neteaseTrackId": "360985",
+      "title": "University",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 43973
+    },
+    {
+      "id": "netease-track:360989",
+      "neteaseTrackId": "360989",
+      "title": "I Don't Care About Your Society",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 145120
+    },
+    {
+      "id": "netease-track:360992",
+      "neteaseTrackId": "360992",
+      "title": "I Can't Live Without Cigarettes",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 113013
+    },
+    {
+      "id": "netease-track:360995",
+      "neteaseTrackId": "360995",
+      "title": "A Girl from Nowhere",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 88840
+    },
+    {
+      "id": "netease-track:360998",
+      "neteaseTrackId": "360998",
+      "title": "Fall in Beer with You",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 71280
+    },
+    {
+      "id": "netease-track:361001",
+      "neteaseTrackId": "361001",
+      "title": "Every Phucingday",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Joyside"
+      ],
+      "durationMs": 423853
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=35660",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Drunk Is Beautiful Joyside",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

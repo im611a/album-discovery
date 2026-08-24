@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18960",
+  "id": "album:18960",
+  "neteaseAlbumId": "18960",
+  "slug": "netease-album-18960",
+  "title": "挚爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1997-03-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18960.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18960.webp",
+    "alt": "《挚爱》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186686",
+      "neteaseTrackId": "186686",
+      "title": "用情",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 308000
+    },
+    {
+      "id": "netease-track:186690",
+      "neteaseTrackId": "186690",
+      "title": "背叛",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 232255
+    },
+    {
+      "id": "netease-track:186694",
+      "neteaseTrackId": "186694",
+      "title": "多想",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 298000
+    },
+    {
+      "id": "netease-track:186697",
+      "neteaseTrackId": "186697",
+      "title": "Good Love",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 284448
+    },
+    {
+      "id": "netease-track:186700",
+      "neteaseTrackId": "186700",
+      "title": "放手",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 230740
+    },
+    {
+      "id": "netease-track:186702",
+      "neteaseTrackId": "186702",
+      "title": "受罪",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 308768
+    },
+    {
+      "id": "netease-track:186705",
+      "neteaseTrackId": "186705",
+      "title": "改变",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 275906
+    },
+    {
+      "id": "netease-track:186708",
+      "neteaseTrackId": "186708",
+      "title": "等你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 276376
+    },
+    {
+      "id": "netease-track:186712",
+      "neteaseTrackId": "186712",
+      "title": "快乐",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 231393
+    },
+    {
+      "id": "netease-track:186716",
+      "neteaseTrackId": "186716",
+      "title": "游戏",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 266058
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18960",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "挚爱 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

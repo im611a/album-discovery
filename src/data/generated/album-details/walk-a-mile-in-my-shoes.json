@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1574650",
+  "id": "album:1574650",
+  "neteaseAlbumId": "1574650",
+  "slug": "walk-a-mile-in-my-shoes",
+  "title": "Walk A Mile In My Shoes",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:50946",
+      "neteaseArtistId": "50946",
+      "name": "Coldcut"
+    }
+  ],
+  "releaseDate": "2006-08-17",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Ninja Tune",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1574650.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1574650.webp",
+    "alt": "《Walk A Mile In My Shoes》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17084435",
+      "neteaseTrackId": "17084435",
+      "title": "Walk A Mile In My Shoes (radio version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 199093
+    },
+    {
+      "id": "netease-track:17084436",
+      "neteaseTrackId": "17084436",
+      "title": "Walk A Mile In My Shoes (Tiga mix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 411813
+    },
+    {
+      "id": "netease-track:17084437",
+      "neteaseTrackId": "17084437",
+      "title": "Walk A Mile In My Shoes (Henrik Schwarz Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 294840
+    },
+    {
+      "id": "netease-track:17084438",
+      "neteaseTrackId": "17084438",
+      "title": "Walk A Mile In My Shoes (Tom Belton SSL rerub)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 231471
+    },
+    {
+      "id": "netease-track:17084439",
+      "neteaseTrackId": "17084439",
+      "title": "Walk A Mile In My Shoes (Timo Garcia and the Cheshire Catz remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 487453
+    },
+    {
+      "id": "netease-track:17084440",
+      "neteaseTrackId": "17084440",
+      "title": "Walk A Mile In My Shoes",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut"
+      ],
+      "durationMs": 308480
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1574650",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Walk A Mile In My Shoes Coldcut",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

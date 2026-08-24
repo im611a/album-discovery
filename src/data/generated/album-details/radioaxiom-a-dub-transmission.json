@@ -1,0 +1,131 @@
+{
+  "internalId": "album:222226",
+  "id": "album:222226",
+  "neteaseAlbumId": "222226",
+  "slug": "radioaxiom-a-dub-transmission",
+  "title": "Radioaxiom: A Dub Transmission",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2001-09-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222226.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222226.webp",
+    "alt": "《Radioaxiom: A Dub Transmission》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205581",
+      "neteaseTrackId": "2205581",
+      "title": "Subcode",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 456000
+    },
+    {
+      "id": "netease-track:2205582",
+      "neteaseTrackId": "2205582",
+      "title": "Alsema Dub",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 348000
+    },
+    {
+      "id": "netease-track:2205583",
+      "neteaseTrackId": "2205583",
+      "title": "Virus B",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 486000
+    },
+    {
+      "id": "netease-track:2205585",
+      "neteaseTrackId": "2205585",
+      "title": "Orion",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 471000
+    },
+    {
+      "id": "netease-track:2205587",
+      "neteaseTrackId": "2205587",
+      "title": "6th Chamber",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 429000
+    },
+    {
+      "id": "netease-track:2205589",
+      "neteaseTrackId": "2205589",
+      "title": "Alam Dub",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 409746
+    },
+    {
+      "id": "netease-track:2205591",
+      "neteaseTrackId": "2205591",
+      "title": "Second Sight",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 515000
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=222226",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Radioaxiom: A Dub Transmission Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

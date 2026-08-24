@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1577481",
+  "id": "album:1577481",
+  "neteaseAlbumId": "1577481",
+  "slug": "cocteau-twins-singles-collection",
+  "title": "Cocteau Twins Singles Collection",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1991-11-04",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Beggars Group",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577481.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577481.webp",
+    "alt": "《Cocteau Twins Singles Collection》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17124798",
+      "neteaseTrackId": "17124798",
+      "title": "Dials",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 162324
+    },
+    {
+      "id": "netease-track:17124799",
+      "neteaseTrackId": "17124799",
+      "title": "Crushed",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 200228
+    },
+    {
+      "id": "netease-track:17124801",
+      "neteaseTrackId": "17124801",
+      "title": "High Monkey Monk",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 189361
+    },
+    {
+      "id": "netease-track:17124803",
+      "neteaseTrackId": "17124803",
+      "title": "Oomingmak (Instrumental)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 164179
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1577481",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Cocteau Twins Singles Collection Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

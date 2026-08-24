@@ -1,0 +1,287 @@
+{
+  "internalId": "album:35882",
+  "id": "album:35882",
+  "neteaseAlbumId": "35882",
+  "slug": "13",
+  "title": "13",
+  "aliases": [
+    "2007《快乐男声》合辑"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:12079",
+      "neteaseArtistId": "12079",
+      "name": "快乐男声"
+    },
+    {
+      "id": "netease-artist:3793",
+      "neteaseArtistId": "3793",
+      "name": "陆虎"
+    },
+    {
+      "id": "netease-artist:10695",
+      "neteaseArtistId": "10695",
+      "name": "张远"
+    },
+    {
+      "id": "netease-artist:6231",
+      "neteaseArtistId": "6231",
+      "name": "姚政"
+    },
+    {
+      "id": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "name": "张杰"
+    },
+    {
+      "id": "netease-artist:5370",
+      "neteaseArtistId": "5370",
+      "name": "王栎鑫"
+    },
+    {
+      "id": "netease-artist:4938",
+      "neteaseArtistId": "4938",
+      "name": "苏醒"
+    },
+    {
+      "id": "netease-artist:1888",
+      "neteaseArtistId": "1888",
+      "name": "阿穆隆"
+    },
+    {
+      "id": "netease-artist:5349",
+      "neteaseArtistId": "5349",
+      "name": "魏晨"
+    },
+    {
+      "id": "netease-artist:5518",
+      "neteaseArtistId": "5518",
+      "name": "王铮亮"
+    },
+    {
+      "id": "netease-artist:2124",
+      "neteaseArtistId": "2124",
+      "name": "陈楚生"
+    },
+    {
+      "id": "netease-artist:6076",
+      "neteaseArtistId": "6076",
+      "name": "俞灏明"
+    },
+    {
+      "id": "netease-artist:187943",
+      "neteaseArtistId": "187943",
+      "name": "郭彪"
+    },
+    {
+      "id": "netease-artist:3462",
+      "neteaseArtistId": "3462",
+      "name": "吉杰"
+    }
+  ],
+  "releaseDate": "2007-07-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "天娱传媒",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/35882.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/35882.webp",
+    "alt": "《13》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:362952",
+      "neteaseTrackId": "362952",
+      "title": "还不是因为爱",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "苏醒"
+      ],
+      "durationMs": 210533
+    },
+    {
+      "id": "netease-track:362955",
+      "neteaseTrackId": "362955",
+      "title": "可不可以忘记",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王栎鑫"
+      ],
+      "durationMs": 221400
+    },
+    {
+      "id": "netease-track:362957",
+      "neteaseTrackId": "362957",
+      "title": "角斗士",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "郭彪"
+      ],
+      "durationMs": 268520
+    },
+    {
+      "id": "netease-track:362959",
+      "neteaseTrackId": "362959",
+      "title": "爱是一个人的事",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "俞灏明"
+      ],
+      "durationMs": 304120
+    },
+    {
+      "id": "netease-track:362961",
+      "neteaseTrackId": "362961",
+      "title": "爸爸妈妈去上班 我去幼儿园",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陆虎"
+      ],
+      "durationMs": 205013
+    },
+    {
+      "id": "netease-track:362962",
+      "neteaseTrackId": "362962",
+      "title": "流言有一千分贝",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 240453
+    },
+    {
+      "id": "netease-track:362963",
+      "neteaseTrackId": "362963",
+      "title": "等有饼吃咱再说吧",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "姚政"
+      ],
+      "durationMs": 220520
+    },
+    {
+      "id": "netease-track:362964",
+      "neteaseTrackId": "362964",
+      "title": "思念母亲",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "阿穆隆"
+      ],
+      "durationMs": 298920
+    },
+    {
+      "id": "netease-track:362965",
+      "neteaseTrackId": "362965",
+      "title": "有没有人告诉你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈楚生"
+      ],
+      "durationMs": 288360
+    },
+    {
+      "id": "netease-track:362967",
+      "neteaseTrackId": "362967",
+      "title": "少年游",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "魏晨"
+      ],
+      "durationMs": 194653
+    },
+    {
+      "id": "netease-track:362969",
+      "neteaseTrackId": "362969",
+      "title": "肩上的翅膀",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王铮亮"
+      ],
+      "durationMs": 218866
+    },
+    {
+      "id": "netease-track:362971",
+      "neteaseTrackId": "362971",
+      "title": "伤城",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张远"
+      ],
+      "durationMs": 269386
+    },
+    {
+      "id": "netease-track:362972",
+      "neteaseTrackId": "362972",
+      "title": "痛快",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "吉杰"
+      ],
+      "durationMs": 215253
+    },
+    {
+      "id": "netease-track:362974",
+      "neteaseTrackId": "362974",
+      "title": "我最闪亮",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈楚生",
+        "苏醒",
+        "魏晨",
+        "张杰",
+        "吉杰",
+        "俞灏明",
+        "王栎鑫",
+        "阿穆隆",
+        "张远",
+        "王铮亮",
+        "姚政",
+        "陆虎",
+        "郭彪"
+      ],
+      "durationMs": 301653
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=35882",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "13 2007《快乐男声》合辑 快乐男声 陆虎 张远 姚政 张杰 王栎鑫 苏醒 阿穆隆 魏晨 王铮亮 陈楚生 俞灏明 郭彪 吉杰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

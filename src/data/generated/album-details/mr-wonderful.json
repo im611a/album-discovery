@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1637031",
+  "id": "album:1637031",
+  "neteaseAlbumId": "1637031",
+  "slug": "mr-wonderful",
+  "title": "Mr. Wonderful",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1968-03-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1637031.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1637031.webp",
+    "alt": "《Mr. Wonderful》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17785787",
+      "neteaseTrackId": "17785787",
+      "title": "Stop Messin' Round",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 139435
+    },
+    {
+      "id": "netease-track:17785788",
+      "neteaseTrackId": "17785788",
+      "title": "I've Lost My Baby",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 257840
+    },
+    {
+      "id": "netease-track:17785789",
+      "neteaseTrackId": "17785789",
+      "title": "Rollin' Man",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 171966
+    },
+    {
+      "id": "netease-track:17785790",
+      "neteaseTrackId": "17785790",
+      "title": "Dust My Broom",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 170919
+    },
+    {
+      "id": "netease-track:17785791",
+      "neteaseTrackId": "17785791",
+      "title": "Love That Burns",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 301696
+    },
+    {
+      "id": "netease-track:17785792",
+      "neteaseTrackId": "17785792",
+      "title": "Doctor Brown",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 223843
+    },
+    {
+      "id": "netease-track:17785793",
+      "neteaseTrackId": "17785793",
+      "title": "Need Your Love Tonight",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 208560
+    },
+    {
+      "id": "netease-track:17785794",
+      "neteaseTrackId": "17785794",
+      "title": "If You Be My Baby",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 233133
+    },
+    {
+      "id": "netease-track:17785795",
+      "neteaseTrackId": "17785795",
+      "title": "Evenin' Boogie",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 162266
+    },
+    {
+      "id": "netease-track:17785796",
+      "neteaseTrackId": "17785796",
+      "title": "Lazy Poker Blues",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 154226
+    },
+    {
+      "id": "netease-track:17785797",
+      "neteaseTrackId": "17785797",
+      "title": "Coming Home",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 158589
+    },
+    {
+      "id": "netease-track:17785798",
+      "neteaseTrackId": "17785798",
+      "title": "Trying So Hard to Forget",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 285419
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1637031",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Mr. Wonderful Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

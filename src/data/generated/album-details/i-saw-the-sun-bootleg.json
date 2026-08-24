@@ -1,0 +1,285 @@
+{
+  "internalId": "album:432630",
+  "id": "album:432630",
+  "neteaseAlbumId": "432630",
+  "slug": "i-saw-the-sun-bootleg",
+  "title": "I Saw The Sun[Bootleg]",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:100003",
+      "neteaseArtistId": "100003",
+      "name": "Slowdive"
+    }
+  ],
+  "releaseDate": "2009-08-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/432630.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/432630.webp",
+    "alt": "《I Saw The Sun[Bootleg]》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4281002",
+      "neteaseTrackId": "4281002",
+      "title": "Summer Day",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 206000
+    },
+    {
+      "id": "netease-track:4281005",
+      "neteaseTrackId": "4281005",
+      "title": "Bleed",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 209072
+    },
+    {
+      "id": "netease-track:4281009",
+      "neteaseTrackId": "4281009",
+      "title": "Sleep",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 258693
+    },
+    {
+      "id": "netease-track:4281011",
+      "neteaseTrackId": "4281011",
+      "title": "Silver Screen (demo)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 330094
+    },
+    {
+      "id": "netease-track:4281013",
+      "neteaseTrackId": "4281013",
+      "title": "Dagger (electric)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 217000
+    },
+    {
+      "id": "netease-track:4281014",
+      "neteaseTrackId": "4281014",
+      "title": "Untitled No. 3",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 228089
+    },
+    {
+      "id": "netease-track:4281018",
+      "neteaseTrackId": "4281018",
+      "title": "Untitled No. 2",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:4281022",
+      "neteaseTrackId": "4281022",
+      "title": "Joy",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:4281025",
+      "neteaseTrackId": "4281025",
+      "title": "Instrumental Take One",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:4281030",
+      "neteaseTrackId": "4281030",
+      "title": "Silver Screen",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 243000
+    },
+    {
+      "id": "netease-track:4281035",
+      "neteaseTrackId": "4281035",
+      "title": "Ab",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 175000
+    },
+    {
+      "id": "netease-track:4281039",
+      "neteaseTrackId": "4281039",
+      "title": "Hide Yer Eyes",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 202803
+    },
+    {
+      "id": "netease-track:4281044",
+      "neteaseTrackId": "4281044",
+      "title": "I Believe",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:4281049",
+      "neteaseTrackId": "4281049",
+      "title": "Money",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 78000
+    },
+    {
+      "id": "netease-track:4281053",
+      "neteaseTrackId": "4281053",
+      "title": "Painting",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 83000
+    },
+    {
+      "id": "netease-track:4281058",
+      "neteaseTrackId": "4281058",
+      "title": "Like Up",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 343000
+    },
+    {
+      "id": "netease-track:4281063",
+      "neteaseTrackId": "4281063",
+      "title": "Ports Theme #1",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 174000
+    },
+    {
+      "id": "netease-track:4281069",
+      "neteaseTrackId": "4281069",
+      "title": "Nightmare",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 201000
+    },
+    {
+      "id": "netease-track:4281075",
+      "neteaseTrackId": "4281075",
+      "title": "Ports Theme #2",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 129000
+    },
+    {
+      "id": "netease-track:4281080",
+      "neteaseTrackId": "4281080",
+      "title": "I Saw The Sun",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 200000
+    },
+    {
+      "id": "netease-track:4281085",
+      "neteaseTrackId": "4281085",
+      "title": "Richard",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Slowdive"
+      ],
+      "durationMs": 310040
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=432630",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "I Saw The Sun[Bootleg] Slowdive",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

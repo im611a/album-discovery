@@ -1,0 +1,175 @@
+{
+  "internalId": "album:18940",
+  "id": "album:18940",
+  "neteaseAlbumId": "18940",
+  "slug": "netease-album-18940",
+  "title": "回来",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1999-07-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18940.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18940.webp",
+    "alt": "《回来》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186460",
+      "neteaseTrackId": "186460",
+      "title": "回来",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 279266
+    },
+    {
+      "id": "netease-track:186463",
+      "neteaseTrackId": "186463",
+      "title": "不做你的爱人",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 253519
+    },
+    {
+      "id": "netease-track:186466",
+      "neteaseTrackId": "186466",
+      "title": "找钥匙",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 287706
+    },
+    {
+      "id": "netease-track:186468",
+      "neteaseTrackId": "186468",
+      "title": "惩罚",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 253284
+    },
+    {
+      "id": "netease-track:186470",
+      "neteaseTrackId": "186470",
+      "title": "求爱",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 280033
+    },
+    {
+      "id": "netease-track:186472",
+      "neteaseTrackId": "186472",
+      "title": "两个人的森林",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 287844
+    },
+    {
+      "id": "netease-track:186474",
+      "neteaseTrackId": "186474",
+      "title": "忧郁症",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 266188
+    },
+    {
+      "id": "netease-track:186477",
+      "neteaseTrackId": "186477",
+      "title": "绝情",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 267834
+    },
+    {
+      "id": "netease-track:186480",
+      "neteaseTrackId": "186480",
+      "title": "坏天气",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 247981
+    },
+    {
+      "id": "netease-track:186483",
+      "neteaseTrackId": "186483",
+      "title": "怕冷",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 260703
+    },
+    {
+      "id": "netease-track:186485",
+      "neteaseTrackId": "186485",
+      "title": "世界这分钟",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 268226
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18940",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "回来 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "internalId": "album:20830",
+  "id": "album:20830",
+  "neteaseAlbumId": "20830",
+  "slug": "netease-album-20830",
+  "title": "我们会更好的(影音珍藏限量盘)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7063",
+      "neteaseArtistId": "7063",
+      "name": "黄丽玲"
+    }
+  ],
+  "releaseDate": "2012-01-05",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/20830.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/20830.webp",
+    "alt": "《我们会更好的(影音珍藏限量盘)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:22201022",
+      "neteaseTrackId": "22201022",
+      "title": "Intro",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 23200
+    },
+    {
+      "id": "netease-track:22201023",
+      "neteaseTrackId": "22201023",
+      "title": "大大的拥抱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 237880
+    },
+    {
+      "id": "netease-track:22201027",
+      "neteaseTrackId": "22201027",
+      "title": "无路可退",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 238880
+    },
+    {
+      "id": "netease-track:22201028",
+      "neteaseTrackId": "22201028",
+      "title": "我很忙",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 277333
+    },
+    {
+      "id": "netease-track:22201029",
+      "neteaseTrackId": "22201029",
+      "title": "算了吧",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 200786
+    },
+    {
+      "id": "netease-track:22201030",
+      "neteaseTrackId": "22201030",
+      "title": "Interlude",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 24773
+    },
+    {
+      "id": "netease-track:22201031",
+      "neteaseTrackId": "22201031",
+      "title": "后来你好吗",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 267986
+    },
+    {
+      "id": "netease-track:22201032",
+      "neteaseTrackId": "22201032",
+      "title": "1828",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 231346
+    },
+    {
+      "id": "netease-track:22201033",
+      "neteaseTrackId": "22201033",
+      "title": "不是不满足",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 293662
+    },
+    {
+      "id": "netease-track:22201034",
+      "neteaseTrackId": "22201034",
+      "title": "我们会更好的",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 293880
+    },
+    {
+      "id": "netease-track:22201035",
+      "neteaseTrackId": "22201035",
+      "title": "乖",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 210520
+    },
+    {
+      "id": "netease-track:22201036",
+      "neteaseTrackId": "22201036",
+      "title": "Outro",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 26626
+    },
+    {
+      "id": "netease-track:22201037",
+      "neteaseTrackId": "22201037",
+      "title": "每一个我",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 288240
+    },
+    {
+      "id": "netease-track:22201038",
+      "neteaseTrackId": "22201038",
+      "title": "一瞬之光",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 289560
+    },
+    {
+      "id": "netease-track:22201039",
+      "neteaseTrackId": "22201039",
+      "title": "不是不满足",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 294000
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=20830",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我们会更好的(影音珍藏限量盘) 黄丽玲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

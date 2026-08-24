@@ -1,0 +1,142 @@
+{
+  "internalId": "album:49540",
+  "id": "album:49540",
+  "neteaseAlbumId": "49540",
+  "slug": "nerve-tripper",
+  "title": "Nerve Tripper",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15581",
+      "neteaseArtistId": "15581",
+      "name": "近藤等则"
+    }
+  ],
+  "releaseDate": "2003-02-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/49540.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/49540.webp",
+    "alt": "《Nerve Tripper》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:525742",
+      "neteaseTrackId": "525742",
+      "title": "Open the Gate",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 413000
+    },
+    {
+      "id": "netease-track:525745",
+      "neteaseTrackId": "525745",
+      "title": "Lonely Way",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 326000
+    },
+    {
+      "id": "netease-track:525747",
+      "neteaseTrackId": "525747",
+      "title": "Insane Moon Moves Innocent Man",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 386000
+    },
+    {
+      "id": "netease-track:525749",
+      "neteaseTrackId": "525749",
+      "title": "Savage Satellite",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 548000
+    },
+    {
+      "id": "netease-track:525751",
+      "neteaseTrackId": "525751",
+      "title": "Where You Appear",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 351000
+    },
+    {
+      "id": "netease-track:525753",
+      "neteaseTrackId": "525753",
+      "title": "Dream Vibrates With Space",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 400000
+    },
+    {
+      "id": "netease-track:525755",
+      "neteaseTrackId": "525755",
+      "title": "Attaining the Esoteric Life",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 497000
+    },
+    {
+      "id": "netease-track:525757",
+      "neteaseTrackId": "525757",
+      "title": "Eternal Quest",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 422000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=49540",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Nerve Tripper 近藤等则",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

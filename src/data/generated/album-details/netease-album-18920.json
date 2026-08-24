@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18920",
+  "id": "album:18920",
+  "neteaseAlbumId": "18920",
+  "slug": "netease-album-18920",
+  "title": "做你的男人",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "2006-09-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18920.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18920.webp",
+    "alt": "《做你的男人》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186181",
+      "neteaseTrackId": "186181",
+      "title": "做你的男人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 273173
+    },
+    {
+      "id": "netease-track:186182",
+      "neteaseTrackId": "186182",
+      "title": "说谎",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 238933
+    },
+    {
+      "id": "netease-track:186183",
+      "neteaseTrackId": "186183",
+      "title": "后悔的藉口",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 243168
+    },
+    {
+      "id": "netease-track:186184",
+      "neteaseTrackId": "186184",
+      "title": "忘了我",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 244728
+    },
+    {
+      "id": "netease-track:186185",
+      "neteaseTrackId": "186185",
+      "title": "曾经",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 277128
+    },
+    {
+      "id": "netease-track:186186",
+      "neteaseTrackId": "186186",
+      "title": "不由自主",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 268176
+    },
+    {
+      "id": "netease-track:186188",
+      "neteaseTrackId": "186188",
+      "title": "远方",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 253283
+    },
+    {
+      "id": "netease-track:186190",
+      "neteaseTrackId": "186190",
+      "title": "上海姑娘",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 272626
+    },
+    {
+      "id": "netease-track:186192",
+      "neteaseTrackId": "186192",
+      "title": "你应该飞的",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 266568
+    },
+    {
+      "id": "netease-track:186194",
+      "neteaseTrackId": "186194",
+      "title": "晴天",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 262266
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18920",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "做你的男人 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

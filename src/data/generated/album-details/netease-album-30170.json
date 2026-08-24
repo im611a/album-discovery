@@ -1,0 +1,197 @@
+{
+  "internalId": "album:30170",
+  "id": "album:30170",
+  "neteaseAlbumId": "30170",
+  "slug": "netease-album-30170",
+  "title": "你照亮我的心",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9749",
+      "neteaseArtistId": "9749",
+      "name": "王虹"
+    }
+  ],
+  "releaseDate": "1985-09-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/30170.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/30170.webp",
+    "alt": "《你照亮我的心》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:304634",
+      "neteaseTrackId": "304634",
+      "title": "时空寄情",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 228519
+    },
+    {
+      "id": "netease-track:304635",
+      "neteaseTrackId": "304635",
+      "title": "迷失",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 244000
+    },
+    {
+      "id": "netease-track:304636",
+      "neteaseTrackId": "304636",
+      "title": "心痛的感觉",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 283000
+    },
+    {
+      "id": "netease-track:304637",
+      "neteaseTrackId": "304637",
+      "title": "你照亮我的心",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 205000
+    },
+    {
+      "id": "netease-track:304638",
+      "neteaseTrackId": "304638",
+      "title": "几多愁",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 216000
+    },
+    {
+      "id": "netease-track:304639",
+      "neteaseTrackId": "304639",
+      "title": "变",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:304640",
+      "neteaseTrackId": "304640",
+      "title": "明天还是要继续",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 181000
+    },
+    {
+      "id": "netease-track:304641",
+      "neteaseTrackId": "304641",
+      "title": "把握",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 192417
+    },
+    {
+      "id": "netease-track:304642",
+      "neteaseTrackId": "304642",
+      "title": "你可知道我爱谁",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 180000
+    },
+    {
+      "id": "netease-track:304643",
+      "neteaseTrackId": "304643",
+      "title": "是不是这样",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:304644",
+      "neteaseTrackId": "304644",
+      "title": "是否",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 194272
+    },
+    {
+      "id": "netease-track:304645",
+      "neteaseTrackId": "304645",
+      "title": "快乐在心扉",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 207000
+    },
+    {
+      "id": "netease-track:304646",
+      "neteaseTrackId": "304646",
+      "title": "一样的月光",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "王虹"
+      ],
+      "durationMs": 328933
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=30170",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "你照亮我的心 王虹",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

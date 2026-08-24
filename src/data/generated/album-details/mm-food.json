@@ -1,0 +1,223 @@
+{
+  "internalId": "album:1954812",
+  "id": "album:1954812",
+  "neteaseAlbumId": "1954812",
+  "slug": "mm-food",
+  "title": "MM..FOOD",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38994",
+      "neteaseArtistId": "38994",
+      "name": "MF DOOM"
+    }
+  ],
+  "releaseDate": "2004-11-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Rhymesayers",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1954812.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1954812.webp",
+    "alt": "《MM..FOOD》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21127271",
+      "neteaseTrackId": "21127271",
+      "title": "Beef Rap",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 279666
+    },
+    {
+      "id": "netease-track:21127272",
+      "neteaseTrackId": "21127272",
+      "title": "Hoe Cakes",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 234146
+    },
+    {
+      "id": "netease-track:21127273",
+      "neteaseTrackId": "21127273",
+      "title": "Potholderz (feat. Count Bass D)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "Count Bass D"
+      ],
+      "durationMs": 200653
+    },
+    {
+      "id": "netease-track:21127274",
+      "neteaseTrackId": "21127274",
+      "title": "One Beer",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 258586
+    },
+    {
+      "id": "netease-track:21127275",
+      "neteaseTrackId": "21127275",
+      "title": "Deep Fried Frenz",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 299626
+    },
+    {
+      "id": "netease-track:21127276",
+      "neteaseTrackId": "21127276",
+      "title": "Poo-Putt Platter",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 73613
+    },
+    {
+      "id": "netease-track:21127277",
+      "neteaseTrackId": "21127277",
+      "title": "Fillet-O-Rapper",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 63680
+    },
+    {
+      "id": "netease-track:21127278",
+      "neteaseTrackId": "21127278",
+      "title": "Gumbo",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 49440
+    },
+    {
+      "id": "netease-track:21127279",
+      "neteaseTrackId": "21127279",
+      "title": "Fig Leaf Bi-Carbonate",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 199360
+    },
+    {
+      "id": "netease-track:21127280",
+      "neteaseTrackId": "21127280",
+      "title": "Kon Karne",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 171600
+    },
+    {
+      "id": "netease-track:21127281",
+      "neteaseTrackId": "21127281",
+      "title": "Guinnesses (feat. Angelika & 4ize)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "Angelika",
+        "4ize"
+      ],
+      "durationMs": 281720
+    },
+    {
+      "id": "netease-track:21127282",
+      "neteaseTrackId": "21127282",
+      "title": "Kon Queso",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 240266
+    },
+    {
+      "id": "netease-track:21127283",
+      "neteaseTrackId": "21127283",
+      "title": "Rapp Snitch Knishes (feat. Mr. Fantastik)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "Mr. Fantastik"
+      ],
+      "durationMs": 172893
+    },
+    {
+      "id": "netease-track:21127284",
+      "neteaseTrackId": "21127284",
+      "title": "Vomitspit",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 168013
+    },
+    {
+      "id": "netease-track:21127285",
+      "neteaseTrackId": "21127285",
+      "title": "Kookies",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 241520
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1954812",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "MM..FOOD MF DOOM",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

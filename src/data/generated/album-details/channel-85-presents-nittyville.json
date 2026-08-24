@@ -1,0 +1,225 @@
+{
+  "internalId": "album:1956785",
+  "id": "album:1956785",
+  "neteaseAlbumId": "1956785",
+  "slug": "channel-85-presents-nittyville",
+  "title": "Channel 85 Presents Nittyville",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38940",
+      "neteaseArtistId": "38940",
+      "name": "Madlib"
+    }
+  ],
+  "releaseDate": "2011-05-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Madlib Invazion",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956785.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956785.webp",
+    "alt": "《Channel 85 Presents Nittyville》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21160828",
+      "neteaseTrackId": "21160828",
+      "title": "Nittyville (The Landing)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 148152
+    },
+    {
+      "id": "netease-track:21160829",
+      "neteaseTrackId": "21160829",
+      "title": "So Beautiful (Dues Paid)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 186240
+    },
+    {
+      "id": "netease-track:21160830",
+      "neteaseTrackId": "21160830",
+      "title": "Stageridin'",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 240096
+    },
+    {
+      "id": "netease-track:21160831",
+      "neteaseTrackId": "21160831",
+      "title": "Smoke Theme for Dankery Harv",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 122856
+    },
+    {
+      "id": "netease-track:21160832",
+      "neteaseTrackId": "21160832",
+      "title": "Jus' Follow",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 197688
+    },
+    {
+      "id": "netease-track:21160833",
+      "neteaseTrackId": "21160833",
+      "title": "The Exclusive (Bar Scene)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt",
+        "The Professionals"
+      ],
+      "durationMs": 211176
+    },
+    {
+      "id": "netease-track:21160834",
+      "neteaseTrackId": "21160834",
+      "title": "Eyegotcha",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 269010
+    },
+    {
+      "id": "netease-track:21160835",
+      "neteaseTrackId": "21160835",
+      "title": "Legalize It (Interlude)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 108487
+    },
+    {
+      "id": "netease-track:21160836",
+      "neteaseTrackId": "21160836",
+      "title": "Sunday Sinema",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 210312
+    },
+    {
+      "id": "netease-track:21160837",
+      "neteaseTrackId": "21160837",
+      "title": "What Can U Tell Me",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt",
+        "MED"
+      ],
+      "durationMs": 129725
+    },
+    {
+      "id": "netease-track:21160838",
+      "neteaseTrackId": "21160838",
+      "title": "The Truth (Interlude)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 125702
+    },
+    {
+      "id": "netease-track:21160839",
+      "neteaseTrackId": "21160839",
+      "title": "Red Light Green",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 207465
+    },
+    {
+      "id": "netease-track:21160840",
+      "neteaseTrackId": "21160840",
+      "title": "Go There",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt"
+      ],
+      "durationMs": 174629
+    },
+    {
+      "id": "netease-track:21160841",
+      "neteaseTrackId": "21160841",
+      "title": "Set It Off",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Frank Nitt",
+        "Prime"
+      ],
+      "durationMs": 303988
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=1956785",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Channel 85 Presents Nittyville Madlib",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

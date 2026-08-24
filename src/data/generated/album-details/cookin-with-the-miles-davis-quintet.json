@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1969891",
+  "id": "album:1969891",
+  "neteaseAlbumId": "1969891",
+  "slug": "cookin-with-the-miles-davis-quintet",
+  "title": "Cookin' With the Miles Davis Quintet",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1986-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Original Jazz Classics",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1969891.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1969891.webp",
+    "alt": "《Cookin' With the Miles Davis Quintet》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21329360",
+      "neteaseTrackId": "21329360",
+      "title": "My Funny Valentine",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 361650
+    },
+    {
+      "id": "netease-track:21329361",
+      "neteaseTrackId": "21329361",
+      "title": "Blues By Five",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 596800
+    },
+    {
+      "id": "netease-track:21329362",
+      "neteaseTrackId": "21329362",
+      "title": "Airegin",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 264352
+    },
+    {
+      "id": "netease-track:21329363",
+      "neteaseTrackId": "21329363",
+      "title": "Tune Up (When Lights Are Low)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 789060
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1969891",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Cookin' With the Miles Davis Quintet Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

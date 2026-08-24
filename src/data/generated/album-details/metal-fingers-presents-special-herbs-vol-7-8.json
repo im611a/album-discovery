@@ -1,0 +1,197 @@
+{
+  "internalId": "album:174193",
+  "id": "album:174193",
+  "neteaseAlbumId": "174193",
+  "slug": "metal-fingers-presents-special-herbs-vol-7-8",
+  "title": "Metal Fingers Presents: Special Herbs Vol. 7 & 8",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38994",
+      "neteaseArtistId": "38994",
+      "name": "MF DOOM"
+    }
+  ],
+  "releaseDate": "2004-09-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Metalface Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/174193.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/174193.webp",
+    "alt": "《Metal Fingers Presents: Special Herbs Vol. 7 & 8》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1721103",
+      "neteaseTrackId": "1721103",
+      "title": "Safed Musli",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 195413
+    },
+    {
+      "id": "netease-track:1721107",
+      "neteaseTrackId": "1721107",
+      "title": "Emblica Officinalis",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 290773
+    },
+    {
+      "id": "netease-track:1721111",
+      "neteaseTrackId": "1721111",
+      "title": "Licorice",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 185746
+    },
+    {
+      "id": "netease-track:1721115",
+      "neteaseTrackId": "1721115",
+      "title": "Sarsaparilla",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 209626
+    },
+    {
+      "id": "netease-track:1721119",
+      "neteaseTrackId": "1721119",
+      "title": "Fo Ti",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 169293
+    },
+    {
+      "id": "netease-track:1721123",
+      "neteaseTrackId": "1721123",
+      "title": "Camphor",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 110626
+    },
+    {
+      "id": "netease-track:1721126",
+      "neteaseTrackId": "1721126",
+      "title": "High John",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 271786
+    },
+    {
+      "id": "netease-track:1721129",
+      "neteaseTrackId": "1721129",
+      "title": "Mandrake",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 154213
+    },
+    {
+      "id": "netease-track:1721132",
+      "neteaseTrackId": "1721132",
+      "title": "Devil's Shoestring",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 265413
+    },
+    {
+      "id": "netease-track:1721136",
+      "neteaseTrackId": "1721136",
+      "title": "Wormwood",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 199013
+    },
+    {
+      "id": "netease-track:1721140",
+      "neteaseTrackId": "1721140",
+      "title": "Cedar",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 215520
+    },
+    {
+      "id": "netease-track:1721143",
+      "neteaseTrackId": "1721143",
+      "title": "Buckeyes",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 184520
+    },
+    {
+      "id": "netease-track:1721146",
+      "neteaseTrackId": "1721146",
+      "title": "Chrysanthemum Flowers",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 234080
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=174193",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Metal Fingers Presents: Special Herbs Vol. 7 & 8 MF DOOM",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "internalId": "album:32374",
+  "id": "album:32374",
+  "neteaseAlbumId": "32374",
+  "slug": "update",
+  "title": "Update",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "name": "张靓颖"
+    }
+  ],
+  "releaseDate": "2007-07-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/32374.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/32374.webp",
+    "alt": "《Update》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:327149",
+      "neteaseTrackId": "327149",
+      "title": "帮帮忙",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 223560
+    },
+    {
+      "id": "netease-track:327152",
+      "neteaseTrackId": "327152",
+      "title": "Dream Party",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 232186
+    },
+    {
+      "id": "netease-track:327155",
+      "neteaseTrackId": "327155",
+      "title": "给不起的爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 246186
+    },
+    {
+      "id": "netease-track:327158",
+      "neteaseTrackId": "327158",
+      "title": "日落大道",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 230453
+    },
+    {
+      "id": "netease-track:327160",
+      "neteaseTrackId": "327160",
+      "title": "我们说好的(Piano Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 119093
+    },
+    {
+      "id": "netease-track:327163",
+      "neteaseTrackId": "327163",
+      "title": "我们说好的",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 270920
+    },
+    {
+      "id": "netease-track:327166",
+      "neteaseTrackId": "327166",
+      "title": "G大调的悲伤",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 274546
+    },
+    {
+      "id": "netease-track:327169",
+      "neteaseTrackId": "327169",
+      "title": "Yalta",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 270626
+    },
+    {
+      "id": "netease-track:327173",
+      "neteaseTrackId": "327173",
+      "title": "Your Song",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 245866
+    },
+    {
+      "id": "netease-track:327177",
+      "neteaseTrackId": "327177",
+      "title": "保鲜期",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 272666
+    },
+    {
+      "id": "netease-track:327182",
+      "neteaseTrackId": "327182",
+      "title": "我们在一起(Dream Version)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 79000
+    },
+    {
+      "id": "netease-track:327187",
+      "neteaseTrackId": "327187",
+      "title": "我们在一起",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 193400
+    },
+    {
+      "id": "netease-track:458412907",
+      "neteaseTrackId": "458412907",
+      "title": "帮帮忙 (伴奏)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 227160
+    },
+    {
+      "id": "netease-track:458412905",
+      "neteaseTrackId": "458412905",
+      "title": "Dream Party (伴奏)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 234746
+    },
+    {
+      "id": "netease-track:458412910",
+      "neteaseTrackId": "458412910",
+      "title": "给不起的爱 (伴奏)",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 250826
+    },
+    {
+      "id": "netease-track:458412906",
+      "neteaseTrackId": "458412906",
+      "title": "日落大道 (伴奏)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 232133
+    },
+    {
+      "id": "netease-track:458412904",
+      "neteaseTrackId": "458412904",
+      "title": "G大调的悲伤 (伴奏)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 279440
+    },
+    {
+      "id": "netease-track:458412909",
+      "neteaseTrackId": "458412909",
+      "title": "Yalta (伴奏)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 274893
+    },
+    {
+      "id": "netease-track:458412903",
+      "neteaseTrackId": "458412903",
+      "title": "Your Song (伴奏)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 249133
+    },
+    {
+      "id": "netease-track:458412908",
+      "neteaseTrackId": "458412908",
+      "title": "保鲜期 (伴奏)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 277000
+    }
+  ],
+  "trackCount": 20,
+  "externalUrl": "https://music.163.com/#/album?id=32374",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Update 张靓颖",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

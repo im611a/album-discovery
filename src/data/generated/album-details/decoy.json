@@ -1,0 +1,131 @@
+{
+  "internalId": "album:1970649",
+  "id": "album:1970649",
+  "neteaseAlbumId": "1970649",
+  "slug": "decoy",
+  "title": "Decoy",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1984-06-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970649.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970649.webp",
+    "alt": "《Decoy》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341571",
+      "neteaseTrackId": "21341571",
+      "title": "Decoy (Album Version)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 513486
+    },
+    {
+      "id": "netease-track:21341572",
+      "neteaseTrackId": "21341572",
+      "title": "Robot 415",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 69903
+    },
+    {
+      "id": "netease-track:21341573",
+      "neteaseTrackId": "21341573",
+      "title": "Code M.D. (Album Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 357851
+    },
+    {
+      "id": "netease-track:21341574",
+      "neteaseTrackId": "21341574",
+      "title": "Freaky Deaky (Album Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 267493
+    },
+    {
+      "id": "netease-track:21341575",
+      "neteaseTrackId": "21341575",
+      "title": "What It Is (Album Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 271882
+    },
+    {
+      "id": "netease-track:21341576",
+      "neteaseTrackId": "21341576",
+      "title": "That's Right (Album Version)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 670511
+    },
+    {
+      "id": "netease-track:21341577",
+      "neteaseTrackId": "21341577",
+      "title": "That's What Happened (Album Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 211173
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1970649",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Decoy Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

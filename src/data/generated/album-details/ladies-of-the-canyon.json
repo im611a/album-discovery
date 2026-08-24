@@ -1,0 +1,186 @@
+{
+  "internalId": "album:1724187",
+  "id": "album:1724187",
+  "neteaseAlbumId": "1724187",
+  "slug": "ladies-of-the-canyon",
+  "title": "Ladies of the Canyon",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "2007-01-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724187.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724187.webp",
+    "alt": "《Ladies of the Canyon》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822049",
+      "neteaseTrackId": "18822049",
+      "title": "Morning Morgantown",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 193666
+    },
+    {
+      "id": "netease-track:18822051",
+      "neteaseTrackId": "18822051",
+      "title": "For Free",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 271706
+    },
+    {
+      "id": "netease-track:18822053",
+      "neteaseTrackId": "18822053",
+      "title": "Conversation",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 266960
+    },
+    {
+      "id": "netease-track:18822055",
+      "neteaseTrackId": "18822055",
+      "title": "Ladies of the Canyon",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 212933
+    },
+    {
+      "id": "netease-track:18822057",
+      "neteaseTrackId": "18822057",
+      "title": "Willy",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 180706
+    },
+    {
+      "id": "netease-track:18822059",
+      "neteaseTrackId": "18822059",
+      "title": "The Arrangement",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 215222
+    },
+    {
+      "id": "netease-track:18822061",
+      "neteaseTrackId": "18822061",
+      "title": "Rainy Night House",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 204773
+    },
+    {
+      "id": "netease-track:18822062",
+      "neteaseTrackId": "18822062",
+      "title": "The Priest",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 220786
+    },
+    {
+      "id": "netease-track:18822063",
+      "neteaseTrackId": "18822063",
+      "title": "Blue Boy",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 174341
+    },
+    {
+      "id": "netease-track:18822065",
+      "neteaseTrackId": "18822065",
+      "title": "Big Yellow Taxi",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 134800
+    },
+    {
+      "id": "netease-track:18822067",
+      "neteaseTrackId": "18822067",
+      "title": "Woodstock",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 326933
+    },
+    {
+      "id": "netease-track:18822069",
+      "neteaseTrackId": "18822069",
+      "title": "The Circle Game",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 292600
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1724187",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Ladies of the Canyon Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

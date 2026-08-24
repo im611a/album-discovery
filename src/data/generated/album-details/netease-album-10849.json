@@ -1,0 +1,164 @@
+{
+  "internalId": "album:10849",
+  "id": "album:10849",
+  "neteaseAlbumId": "10849",
+  "slug": "netease-album-10849",
+  "title": "林一峰的床頭歌 (Original Demos)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2003-01-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "LYFE Company Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10849.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10849.webp",
+    "alt": "《林一峰的床頭歌 (Original Demos)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109460",
+      "neteaseTrackId": "109460",
+      "title": "突然獨身 (Original Demo)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 212546
+    },
+    {
+      "id": "netease-track:109463",
+      "neteaseTrackId": "109463",
+      "title": "雪糕車 (Original Demo)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 322666
+    },
+    {
+      "id": "netease-track:109467",
+      "neteaseTrackId": "109467",
+      "title": "1 & 2 (Original Demo)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 165504
+    },
+    {
+      "id": "netease-track:109471",
+      "neteaseTrackId": "109471",
+      "title": "鞦韆 (Original Demo)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 189626
+    },
+    {
+      "id": "netease-track:109476",
+      "neteaseTrackId": "109476",
+      "title": "19 (Original Demo)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 186864
+    },
+    {
+      "id": "netease-track:109479",
+      "neteaseTrackId": "109479",
+      "title": "我和泡麵 (Original Demo)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 187200
+    },
+    {
+      "id": "netease-track:109482",
+      "neteaseTrackId": "109482",
+      "title": "青草地 溪水旁 (Original Demo)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 163512
+    },
+    {
+      "id": "netease-track:109483",
+      "neteaseTrackId": "109483",
+      "title": "我的日記 (Original Demo)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 180672
+    },
+    {
+      "id": "netease-track:109484",
+      "neteaseTrackId": "109484",
+      "title": "追憶 (Original Demo)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 241152
+    },
+    {
+      "id": "netease-track:109486",
+      "neteaseTrackId": "109486",
+      "title": "The Best Is Yet To Come (Original Demo)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 170333
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=10849",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "林一峰的床頭歌 (Original Demos) 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

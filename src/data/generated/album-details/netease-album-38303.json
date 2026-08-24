@@ -1,0 +1,153 @@
+{
+  "internalId": "album:38303",
+  "id": "album:38303",
+  "neteaseAlbumId": "38303",
+  "slug": "netease-album-38303",
+  "title": "琉璃光",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7785",
+      "neteaseArtistId": "7785",
+      "name": "龚琳娜"
+    }
+  ],
+  "releaseDate": "2003-02-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "龚锣（北京）国际文化传播",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/38303.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/38303.webp",
+    "alt": "《琉璃光》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:386762",
+      "neteaseTrackId": "386762",
+      "title": "琉璃光",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 389973
+    },
+    {
+      "id": "netease-track:386766",
+      "neteaseTrackId": "386766",
+      "title": "根",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 395041
+    },
+    {
+      "id": "netease-track:386769",
+      "neteaseTrackId": "386769",
+      "title": "小表妹",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 207293
+    },
+    {
+      "id": "netease-track:386772",
+      "neteaseTrackId": "386772",
+      "title": "自由鸟",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 313920
+    },
+    {
+      "id": "netease-track:386774",
+      "neteaseTrackId": "386774",
+      "title": "水彩",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 466680
+    },
+    {
+      "id": "netease-track:386775",
+      "neteaseTrackId": "386775",
+      "title": "泊",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 240349
+    },
+    {
+      "id": "netease-track:386777",
+      "neteaseTrackId": "386777",
+      "title": "蜜月",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 295040
+    },
+    {
+      "id": "netease-track:386779",
+      "neteaseTrackId": "386779",
+      "title": "熏香",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 284374
+    },
+    {
+      "id": "netease-track:386782",
+      "neteaseTrackId": "386782",
+      "title": "故乡的河",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "龚琳娜"
+      ],
+      "durationMs": 408333
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=38303",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "琉璃光 龚琳娜",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

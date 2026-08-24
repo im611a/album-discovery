@@ -1,0 +1,186 @@
+{
+  "internalId": "album:499952",
+  "id": "album:499952",
+  "neteaseAlbumId": "499952",
+  "slug": "volume-1",
+  "title": "Volume 1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1955-11-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/499952.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/499952.webp",
+    "alt": "《Volume 1》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5033650",
+      "neteaseTrackId": "5033650",
+      "title": "Tempus Fugit",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 231941
+    },
+    {
+      "id": "netease-track:5033651",
+      "neteaseTrackId": "5033651",
+      "title": "Kelo",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 196613
+    },
+    {
+      "id": "netease-track:5033652",
+      "neteaseTrackId": "5033652",
+      "title": "Enigma",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 203000
+    },
+    {
+      "id": "netease-track:5033653",
+      "neteaseTrackId": "5033653",
+      "title": "Ray's Idea",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 222760
+    },
+    {
+      "id": "netease-track:5033654",
+      "neteaseTrackId": "5033654",
+      "title": "How Deep Is The Ocean",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 278106
+    },
+    {
+      "id": "netease-track:5033655",
+      "neteaseTrackId": "5033655",
+      "title": "C.T.A. (Alternate Master)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:5033656",
+      "neteaseTrackId": "5033656",
+      "title": "Dear Old Stockholm",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 251000
+    },
+    {
+      "id": "netease-track:5033657",
+      "neteaseTrackId": "5033657",
+      "title": "Chance It",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 183000
+    },
+    {
+      "id": "netease-track:5033658",
+      "neteaseTrackId": "5033658",
+      "title": "Yesterdays",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 226840
+    },
+    {
+      "id": "netease-track:5033659",
+      "neteaseTrackId": "5033659",
+      "title": "Donna (Alternate Master)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 190124
+    },
+    {
+      "id": "netease-track:5033660",
+      "neteaseTrackId": "5033660",
+      "title": "C.T.A.",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 213000
+    },
+    {
+      "id": "netease-track:5033661",
+      "neteaseTrackId": "5033661",
+      "title": "Would'n You (Alternate Master)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 203000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=499952",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Volume 1 Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

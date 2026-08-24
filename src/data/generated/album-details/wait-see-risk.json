@@ -1,0 +1,109 @@
+{
+  "internalId": "album:1804681",
+  "id": "album:1804681",
+  "neteaseAlbumId": "1804681",
+  "slug": "wait-see-risk",
+  "title": "Wait & See -Risk-",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:18122",
+      "neteaseArtistId": "18122",
+      "name": "宇多田ヒカル"
+    }
+  ],
+  "releaseDate": "2000-04-18",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Universal Music LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1804681.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1804681.webp",
+    "alt": "《Wait & See -Risk-》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19608132",
+      "neteaseTrackId": "19608132",
+      "title": "Wait & See -Risk-",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 288531
+    },
+    {
+      "id": "netease-track:19608133",
+      "neteaseTrackId": "19608133",
+      "title": "Hayatochiri",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 255280
+    },
+    {
+      "id": "netease-track:19608134",
+      "neteaseTrackId": "19608134",
+      "title": "Fly Me To The Moon (In Other Words)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 203360
+    },
+    {
+      "id": "netease-track:19608135",
+      "neteaseTrackId": "19608135",
+      "title": "Wait & See -Risk- (Baton Girl Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 287323
+    },
+    {
+      "id": "netease-track:19608136",
+      "neteaseTrackId": "19608136",
+      "title": "Wait & See -Risk- (Karaoke)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "宇多田ヒカル"
+      ],
+      "durationMs": 288461
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=1804681",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Wait & See -Risk- 宇多田ヒカル",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

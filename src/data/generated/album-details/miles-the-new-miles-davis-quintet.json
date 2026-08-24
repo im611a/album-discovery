@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1970665",
+  "id": "album:1970665",
+  "neteaseAlbumId": "1970665",
+  "slug": "miles-the-new-miles-davis-quintet",
+  "title": "Miles: The New Miles Davis Quintet",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2009-11-19",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970665.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970665.webp",
+    "alt": "《Miles: The New Miles Davis Quintet》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21341761",
+      "neteaseTrackId": "21341761",
+      "title": "Just Squeeze Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 448533
+    },
+    {
+      "id": "netease-track:21341762",
+      "neteaseTrackId": "21341762",
+      "title": "There Is No Greater Love",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 321200
+    },
+    {
+      "id": "netease-track:21341763",
+      "neteaseTrackId": "21341763",
+      "title": "How Am I To Know?",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 277282
+    },
+    {
+      "id": "netease-track:21341764",
+      "neteaseTrackId": "21341764",
+      "title": "S'posin'",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 314786
+    },
+    {
+      "id": "netease-track:21341765",
+      "neteaseTrackId": "21341765",
+      "title": "The Theme",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 349800
+    },
+    {
+      "id": "netease-track:21341766",
+      "neteaseTrackId": "21341766",
+      "title": "Stablemates",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 321640
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970665",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles: The New Miles Davis Quintet Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

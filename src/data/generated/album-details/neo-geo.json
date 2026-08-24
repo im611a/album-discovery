@@ -1,0 +1,164 @@
+{
+  "internalId": "album:47847",
+  "id": "album:47847",
+  "neteaseAlbumId": "47847",
+  "slug": "neo-geo",
+  "title": "NEO GEO",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1987-08-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47847.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47847.webp",
+    "alt": "《NEO GEO》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:502323",
+      "neteaseTrackId": "502323",
+      "title": "Before Long",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 80967
+    },
+    {
+      "id": "netease-track:502328",
+      "neteaseTrackId": "502328",
+      "title": "NEO GEO",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 308639
+    },
+    {
+      "id": "netease-track:502333",
+      "neteaseTrackId": "502333",
+      "title": "Risky",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 327053
+    },
+    {
+      "id": "netease-track:502337",
+      "neteaseTrackId": "502337",
+      "title": "Free Trading",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 328748
+    },
+    {
+      "id": "netease-track:502342",
+      "neteaseTrackId": "502342",
+      "title": "Shogunade",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 272277
+    },
+    {
+      "id": "netease-track:502347",
+      "neteaseTrackId": "502347",
+      "title": "Parata",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 262362
+    },
+    {
+      "id": "netease-track:502352",
+      "neteaseTrackId": "502352",
+      "title": "Okinawa Song--Chin Nuku Juushii",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 319529
+    },
+    {
+      "id": "netease-track:502357",
+      "neteaseTrackId": "502357",
+      "title": "After All",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 192632
+    },
+    {
+      "id": "netease-track:2067054868",
+      "neteaseTrackId": "2067054868",
+      "title": "RISKY (Extended Mix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 425830
+    },
+    {
+      "id": "netease-track:2067054869",
+      "neteaseTrackId": "2067054869",
+      "title": "RISKY (Instrumental Version)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 326774
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=47847",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "NEO GEO 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

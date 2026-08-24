@@ -5,7 +5,7 @@ import {
   buildAlbumDiscoveryPresentationFromSearchParams,
 } from "./presentation";
 
-describe("R13-3C album discovery presentation", () => {
+describe("R13-3C album discovery presentation", { timeout: 180_000 }, () => {
   it("adapts every published album to exactly one primary and no more than three alternates", () => {
     for (const album of catalogAlbums) {
       const presentation = buildAlbumDiscoveryPresentation(album.id);

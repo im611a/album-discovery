@@ -1,0 +1,164 @@
+{
+  "internalId": "album:25436",
+  "id": "album:25436",
+  "neteaseAlbumId": "25436",
+  "slug": "netease-album-25436",
+  "title": "年华",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2001-01-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/25436.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/25436.webp",
+    "alt": "《年华》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:254548",
+      "neteaseTrackId": "254548",
+      "title": "成全",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 276395
+    },
+    {
+      "id": "netease-track:254550",
+      "neteaseTrackId": "254550",
+      "title": "遗忘的城市",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 299220
+    },
+    {
+      "id": "netease-track:254552",
+      "neteaseTrackId": "254552",
+      "title": "我曾爱过一个男孩",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 234422
+    },
+    {
+      "id": "netease-track:254555",
+      "neteaseTrackId": "254555",
+      "title": "年华",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 273107
+    },
+    {
+      "id": "netease-track:254557",
+      "neteaseTrackId": "254557",
+      "title": "对面男生的房间",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 250986
+    },
+    {
+      "id": "netease-track:254559",
+      "neteaseTrackId": "254559",
+      "title": "点亮橘子树",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 261202
+    },
+    {
+      "id": "netease-track:254561",
+      "neteaseTrackId": "254561",
+      "title": "忘了",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 264601
+    },
+    {
+      "id": "netease-track:254562",
+      "neteaseTrackId": "254562",
+      "title": "秘密",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 258774
+    },
+    {
+      "id": "netease-track:254564",
+      "neteaseTrackId": "254564",
+      "title": "傍晚",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 288120
+    },
+    {
+      "id": "netease-track:254567",
+      "neteaseTrackId": "254567",
+      "title": "勇敢",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 302134
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=25436",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "年华 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

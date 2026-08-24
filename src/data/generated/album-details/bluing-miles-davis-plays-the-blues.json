@@ -1,0 +1,156 @@
+{
+  "internalId": "album:1970509",
+  "id": "album:1970509",
+  "neteaseAlbumId": "1970509",
+  "slug": "bluing-miles-davis-plays-the-blues",
+  "title": "Bluing: Miles Davis Plays The Blues",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1995-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Prestige",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970509.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970509.webp",
+    "alt": "《Bluing: Miles Davis Plays The Blues》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21339452",
+      "neteaseTrackId": "21339452",
+      "title": "Bluing",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Sonny Rollins"
+      ],
+      "durationMs": 597000
+    },
+    {
+      "id": "netease-track:21339453",
+      "neteaseTrackId": "21339453",
+      "title": "Blue 'N' Boogie",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "J.J. Johnson"
+      ],
+      "durationMs": 498346
+    },
+    {
+      "id": "netease-track:21339454",
+      "neteaseTrackId": "21339454",
+      "title": "Bags' Groove (Take 2)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Modern Jazz Giants"
+      ],
+      "durationMs": 563200
+    },
+    {
+      "id": "netease-track:21339455",
+      "neteaseTrackId": "21339455",
+      "title": "Green Haze",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 347760
+    },
+    {
+      "id": "netease-track:21339456",
+      "neteaseTrackId": "21339456",
+      "title": "Dr. Jackle",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 533942
+    },
+    {
+      "id": "netease-track:21339457",
+      "neteaseTrackId": "21339457",
+      "title": "No Line",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 341946
+    },
+    {
+      "id": "netease-track:21339458",
+      "neteaseTrackId": "21339458",
+      "title": "Vierd Blues",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 414480
+    },
+    {
+      "id": "netease-track:21339459",
+      "neteaseTrackId": "21339459",
+      "title": "Trane's Blues",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 508934
+    },
+    {
+      "id": "netease-track:21339460",
+      "neteaseTrackId": "21339460",
+      "title": "Blues By Five",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis Quintet"
+      ],
+      "durationMs": 596373
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=1970509",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Bluing: Miles Davis Plays The Blues Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

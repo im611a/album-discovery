@@ -1,0 +1,205 @@
+{
+  "internalId": "album:1734885",
+  "id": "album:1734885",
+  "neteaseAlbumId": "1734885",
+  "slug": "overly-dedicated",
+  "title": "Overly Dedicated",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37995",
+      "neteaseArtistId": "37995",
+      "name": "Kendrick Lamar"
+    }
+  ],
+  "releaseDate": "2010-09-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Top Dawg Entertainment / Kendrick Lamar",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1734885.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1734885.webp",
+    "alt": "《Overly Dedicated》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18943485",
+      "neteaseTrackId": "18943485",
+      "title": "Growing Apart (To Get Closer)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Jhené Aiko"
+      ],
+      "durationMs": 220995
+    },
+    {
+      "id": "netease-track:18943486",
+      "neteaseTrackId": "18943486",
+      "title": "Ignorance Is Bliss",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 210495
+    },
+    {
+      "id": "netease-track:18943487",
+      "neteaseTrackId": "18943487",
+      "title": "P&P 1.5",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Ab-Soul"
+      ],
+      "durationMs": 361942
+    },
+    {
+      "id": "netease-track:18943488",
+      "neteaseTrackId": "18943488",
+      "title": "Alien Girl (Today W/ Her)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 239973
+    },
+    {
+      "id": "netease-track:18943489",
+      "neteaseTrackId": "18943489",
+      "title": "Opposites Attract (Tomorrow W/O Her)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Javonte"
+      ],
+      "durationMs": 271909
+    },
+    {
+      "id": "netease-track:18943490",
+      "neteaseTrackId": "18943490",
+      "title": "Michael Jordan",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "ScHoolboy Q"
+      ],
+      "durationMs": 350698
+    },
+    {
+      "id": "netease-track:18943491",
+      "neteaseTrackId": "18943491",
+      "title": "R.O.T.C (Interlude)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "BJ The Chicago Kid"
+      ],
+      "durationMs": 163105
+    },
+    {
+      "id": "netease-track:18943492",
+      "neteaseTrackId": "18943492",
+      "title": "Barbed Wire",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Ash Riser"
+      ],
+      "durationMs": 265678
+    },
+    {
+      "id": "netease-track:18943493",
+      "neteaseTrackId": "18943493",
+      "title": "Average Joe",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 256048
+    },
+    {
+      "id": "netease-track:18943494",
+      "neteaseTrackId": "18943494",
+      "title": "H.O.C",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 316975
+    },
+    {
+      "id": "netease-track:18943495",
+      "neteaseTrackId": "18943495",
+      "title": "Cut You Off (To Grow Closer)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 364103
+    },
+    {
+      "id": "netease-track:18943496",
+      "neteaseTrackId": "18943496",
+      "title": "She Needs Me (Remix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Dom Kennedy",
+        "Murs"
+      ],
+      "durationMs": 195790
+    },
+    {
+      "id": "netease-track:18943497",
+      "neteaseTrackId": "18943497",
+      "title": "I Do This (Remix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 248108
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1734885",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Overly Dedicated Kendrick Lamar",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

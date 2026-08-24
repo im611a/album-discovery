@@ -1,0 +1,131 @@
+{
+  "internalId": "album:1724192",
+  "id": "album:1724192",
+  "neteaseAlbumId": "1724192",
+  "slug": "big-yellow-taxi",
+  "title": "Big Yellow Taxi",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "2004-12-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724192.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724192.webp",
+    "alt": "《Big Yellow Taxi》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822115",
+      "neteaseTrackId": "18822115",
+      "title": "Big Yellow Taxi (Radio Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 252573
+    },
+    {
+      "id": "netease-track:18822117",
+      "neteaseTrackId": "18822117",
+      "title": "Big Yellow Taxi",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 239426
+    },
+    {
+      "id": "netease-track:18822119",
+      "neteaseTrackId": "18822119",
+      "title": "Big Yellow Taxi (Late Night Club Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 469840
+    },
+    {
+      "id": "netease-track:18822121",
+      "neteaseTrackId": "18822121",
+      "title": "Big Yellow Taxi (N.Y. Cab to Club Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 473133
+    },
+    {
+      "id": "netease-track:18822123",
+      "neteaseTrackId": "18822123",
+      "title": "Big Yellow Taxi (Double Espresso Nrg Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 277666
+    },
+    {
+      "id": "netease-track:18822125",
+      "neteaseTrackId": "18822125",
+      "title": "Big Yellow Taxi (Tribal Dub)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 461560
+    },
+    {
+      "id": "netease-track:18822127",
+      "neteaseTrackId": "18822127",
+      "title": "Big Yellow Taxi (Original a Cappella with Guitar)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 136040
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1724192",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Big Yellow Taxi Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

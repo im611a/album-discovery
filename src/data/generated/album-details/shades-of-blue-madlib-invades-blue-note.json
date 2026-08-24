@@ -1,0 +1,233 @@
+{
+  "internalId": "album:173616",
+  "id": "album:173616",
+  "neteaseAlbumId": "173616",
+  "slug": "shades-of-blue-madlib-invades-blue-note",
+  "title": "Shades Of Blue: Madlib Invades Blue Note",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38940",
+      "neteaseArtistId": "38940",
+      "name": "Madlib"
+    }
+  ],
+  "releaseDate": "2003-06-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/173616.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/173616.webp",
+    "alt": "《Shades Of Blue: Madlib Invades Blue Note》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1714504",
+      "neteaseTrackId": "1714504",
+      "title": "Introduction",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 31059
+    },
+    {
+      "id": "netease-track:1714506",
+      "neteaseTrackId": "1714506",
+      "title": "Slim's Return",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 237217
+    },
+    {
+      "id": "netease-track:1714507",
+      "neteaseTrackId": "1714507",
+      "title": "Distant Land",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 238506
+    },
+    {
+      "id": "netease-track:1714510",
+      "neteaseTrackId": "1714510",
+      "title": "Mystic Bounce",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 238158
+    },
+    {
+      "id": "netease-track:1714526",
+      "neteaseTrackId": "1714526",
+      "title": "Stormy",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Morgan Adams Quartet Plus Two"
+      ],
+      "durationMs": 221648
+    },
+    {
+      "id": "netease-track:1714533",
+      "neteaseTrackId": "1714533",
+      "title": "Blue Note Interlude",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 42370
+    },
+    {
+      "id": "netease-track:1714537",
+      "neteaseTrackId": "1714537",
+      "title": "Please Set Me At Ease",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "MED"
+      ],
+      "durationMs": 299973
+    },
+    {
+      "id": "netease-track:1714540",
+      "neteaseTrackId": "1714540",
+      "title": "Funky Blue Note",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Malcom Catto",
+        "Morgan Adams Quartet Plus Two"
+      ],
+      "durationMs": 190040
+    },
+    {
+      "id": "netease-track:1714543",
+      "neteaseTrackId": "1714543",
+      "title": "Alfred Lion Interlude",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 47177
+    },
+    {
+      "id": "netease-track:1714546",
+      "neteaseTrackId": "1714546",
+      "title": "Stepping Into Tomorrow",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 456000
+    },
+    {
+      "id": "netease-track:1714548",
+      "neteaseTrackId": "1714548",
+      "title": "Andrew Hill Break",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 66742
+    },
+    {
+      "id": "netease-track:1714556",
+      "neteaseTrackId": "1714556",
+      "title": "Montara",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 353985
+    },
+    {
+      "id": "netease-track:1714569",
+      "neteaseTrackId": "1714569",
+      "title": "Song For My Father",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Madlib",
+        "Sound Directions"
+      ],
+      "durationMs": 346096
+    },
+    {
+      "id": "netease-track:1714574",
+      "neteaseTrackId": "1714574",
+      "title": "Footprints",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Yesterdays New Quintet"
+      ],
+      "durationMs": 298240
+    },
+    {
+      "id": "netease-track:1714579",
+      "neteaseTrackId": "1714579",
+      "title": "Peace/Dolphin Dance",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Joe McDuphrey Experience"
+      ],
+      "durationMs": 338886
+    },
+    {
+      "id": "netease-track:1714584",
+      "neteaseTrackId": "1714584",
+      "title": "Outro",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 12303
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=173616",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Shades Of Blue: Madlib Invades Blue Note Madlib",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

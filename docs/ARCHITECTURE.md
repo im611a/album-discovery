@@ -18,12 +18,12 @@
 ## 快照拆分
 
 - `catalog-index.json`：列表、搜索、发现和推荐使用的轻量专辑字段，不含曲目、公司、外链和来源对象；
-- `catalog-index.manifest.json`：记录轻量索引版本、数量、字节数与 SHA-256；357 张规模保持一个分片，超过升级阈值后可按相同契约拆分；
+- `catalog-index.manifest.json`：记录轻量索引版本、数量、字节数与 SHA-256；当前 1,330 张规模保持一个分片，超过升级阈值后可按相同契约拆分；
 - `album-details/*.json`：每张专辑一个详情文件，只在对应静态详情构建时读取；
 - `artist-index.json`：艺人身份、专辑数量、类型统计、年份范围、常见核心流派和关联专辑；
 - `catalog.json`：维护与校验使用的完整稳定快照，不进入共享浏览器列表模块。
 
-357 张详情与 300 位艺人都在构建时生成静态路由。没有数据库。
+1,330 张详情与 453 位艺人都在构建时生成静态路由。没有数据库。
 
 专题页在构建期从轻量索引预计算真实 key、数量、常见核心流派和最多四张封面预览。详情、发现、搜索和专题不会加载其他专辑的曲目文件。纯静态逐专辑与逐艺人页面仍会随目录线性增长；数万条目录需要重新评估详情路由部署方式。
 
@@ -57,7 +57,15 @@ Content Pipeline 的 production promotion 是离线单写者事务，不与开�
 
 正式运维入口是 `album-import.ps1 → scripts/catalog/content-pipeline/operator.mjs → Content Pipeline V1 core`。PowerShell 是无业务逻辑的参数/退出码转发层；Operator 只负责 command routing、workspace lifecycle、locks、human authorization gates 和结果 envelope，不复制 parser、normalizer、validator、publisher 或 transaction/recovery engine。
 
-只有显式 `acquire` command 可以产生外部 HTTP GET，并只按输入中的 NetEase Album ID 写入 `.local-data/content-pipeline-v1/CONTENT-BATCH-*`。doctor、dry-run、status、review、prepare、promote、recover 都是 offline。Review overlay 只允许绑定 batch + input SHA 的既有 `NEEDS_REVIEW` code，不能覆盖 ERROR/FATAL/source defect。Prepare 只生成 PREPARED journal；promote 必须同时匹配 exact transaction ID 与 candidate fingerprint。Per-batch lock 防止 workspace 双写，production global lock 序列化 prepare/promote/recover；non-terminal journal 优先进入 recovery，不能靠删 stale lock 绕过。
+`discover` 与 `acquire` 是仅有的联网 command。`discover` 通过匿名公开 JSON enumeration 构建本地候选池：完整分页读取当前 production Artist 的 `/api/artist/albums/:id`，并读取 `area=ALL` 的公开新专辑列表以发现当前 Artist universe 之外的候选。它不声称网易云全库覆盖，不使用登录、Cookie、搜索词暴力枚举、HTML selector 或反爬绕过。枚举页使用有限 timeout/retry、全局保守间隔、最大四并发、内容哈希缓存与不可覆盖的 run snapshot；Album ID 跨 source 去重后再按 production catalog SHA 排除已有 Album。
+
+Discovery 输出是现有 structured-input parser 可读取的 JSON `records` artifact，并绑定 discovery fingerprint 与 production catalog SHA。标题和艺人是 source-derived assertion，`manual_verified=false`。公开 discovery 无权推断本站 `core_genres`，因此字段保持空值：`acquire` 可以先获取 authoritative payload/cover，但 `dry-run` 仍会以原有 taxonomy gate 拒绝形成 qualified candidate，直到人类或获准的批量 taxonomy decision 明确填入现有 key。Production baseline 变化后，Operator 会拒绝旧 discovery artifact 并要求重新去重，不会沿用过期 existing/new 分类。
+
+Partial acquisition 不创建第二套 acquisition authority。`finalize-acquisition` 读取原 acquisition report 和 batch artifacts，逐一验证已有 payload/cover hash，并生成 local-only clean-input view 与完整 quarantine ledger。Validator 已给出 `DO_NOT_IMPORT` 的 source defect 会被隔离；HTTP/source unavailable 保持可重试。Clean artifacts 保留原路径，不复制也不重新获取。
+
+Bulk taxonomy assist 位于 finalized acquisition 与 dry-run 之间，只使用 production 中同一 NetEase Artist ID 的已审阅 core genre evidence。只有每位 credited Artist 都具有唯一稳定 genre set 且彼此一致时才产生 `HIGH_CONFIDENCE` proposal；混合证据是 `AMBIGUOUS`，无证据则明确为 `NO_EVIDENCE`。提案按 credited Artists、confidence 和 genre set 分组，任何 proposal 都不会自动接受。只有绑定当前 proposal fingerprint 的显式 human group decision 才能生成 dry-run 使用的 taxonomy-reviewed derived input；原 qualification、transaction 和 promotion authority 不变。
+
+`acquire` 只按输入中的 NetEase Album ID 写入 `.local-data/content-pipeline-v1/CONTENT-BATCH-*`。doctor、dry-run、status、review、prepare、promote、recover 都是 offline；doctor 只报告 discovery capability，不探测网络。Review overlay 绑定 batch + input SHA；`NEEDS_REVIEW` finding 必须逐项 `ACCEPT` 或 `REJECT`，PENDING 继续阻断。REJECT 将整行排除为 `REJECTED_BY_REVIEW` 并保留原 finding，不得覆盖 ERROR/FATAL/source defect。独立 quarantine contract 目前只允许 `invalid_track_list → QUARANTINE`，转换后的 evidence 内嵌完整原 ERROR；未知 ERROR 仍然阻断。Dry-run 在 review 前用 catalog validator 的同一 canonical artist/title/year identity 构造 production↔candidate 与 candidate↔candidate 冲突组，并在 review 后再次验证接受的选择；仍冲突的选择变成局部 FATAL。Clean candidate 必须通过完整 invariant，禁止把局部唯一性冲突广播为所有 READY 行的 FATAL。所有 disposition 的行数必须精确对账，否则 qualification 不可 promotion。Prepare 只生成 PREPARED journal；promote 必须同时匹配 exact transaction ID 与 candidate fingerprint。Per-batch lock 防止 workspace 双写，production global lock 序列化 prepare/promote/recover；non-terminal journal 优先进入 recovery，不能靠删 stale lock 绕过。
 
 ## 静态交付
 

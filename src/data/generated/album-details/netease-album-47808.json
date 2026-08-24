@@ -1,0 +1,164 @@
+{
+  "internalId": "album:47808",
+  "id": "album:47808",
+  "neteaseAlbumId": "47808",
+  "slug": "netease-album-47808",
+  "title": "未来派野郎",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1986-04-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47808.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47808.webp",
+    "alt": "《未来派野郎》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:501401",
+      "neteaseTrackId": "501401",
+      "title": "ブロードウェイ・ブギ・ウギ",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 269573
+    },
+    {
+      "id": "netease-track:501406",
+      "neteaseTrackId": "501406",
+      "title": "黄土高原",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 326000
+    },
+    {
+      "id": "netease-track:501412",
+      "neteaseTrackId": "501412",
+      "title": "Ballet Me[']canique",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 309760
+    },
+    {
+      "id": "netease-track:501416",
+      "neteaseTrackId": "501416",
+      "title": "G.T.II°",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 247000
+    },
+    {
+      "id": "netease-track:501420",
+      "neteaseTrackId": "501420",
+      "title": "ミラン,1909",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 258933
+    },
+    {
+      "id": "netease-track:501424",
+      "neteaseTrackId": "501424",
+      "title": "ヴァリエティ・ショウ",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 236564
+    },
+    {
+      "id": "netease-track:501442",
+      "neteaseTrackId": "501442",
+      "title": "大航海",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 324706
+    },
+    {
+      "id": "netease-track:501447",
+      "neteaseTrackId": "501447",
+      "title": "ウォーター・イズ・ファイフ",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 115933
+    },
+    {
+      "id": "netease-track:501452",
+      "neteaseTrackId": "501452",
+      "title": "Parolibre",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 215733
+    },
+    {
+      "id": "netease-track:501462",
+      "neteaseTrackId": "501462",
+      "title": "G.T.",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 268466
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=47808",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "未来派野郎 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

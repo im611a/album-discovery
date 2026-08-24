@@ -1,0 +1,164 @@
+{
+  "internalId": "album:6388",
+  "id": "album:6388",
+  "neteaseAlbumId": "6388",
+  "slug": "h3m",
+  "title": "H³M",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2009-03-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6388.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6388.webp",
+    "alt": "《H³M》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:64788",
+      "neteaseTrackId": "64788",
+      "title": "Allegro, Opus 3.3 a.m.",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 185248
+    },
+    {
+      "id": "netease-track:64792",
+      "neteaseTrackId": "64792",
+      "title": "还有什么可以送给你",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 269173
+    },
+    {
+      "id": "netease-track:64797",
+      "neteaseTrackId": "64797",
+      "title": "于心有愧",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 238143
+    },
+    {
+      "id": "netease-track:64803",
+      "neteaseTrackId": "64803",
+      "title": "今天只做一件事",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 229947
+    },
+    {
+      "id": "netease-track:64809",
+      "neteaseTrackId": "64809",
+      "title": "一个旅人",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 257239
+    },
+    {
+      "id": "netease-track:64815",
+      "neteaseTrackId": "64815",
+      "title": "七百年后",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 262360
+    },
+    {
+      "id": "netease-track:64820",
+      "neteaseTrackId": "64820",
+      "title": "Life Goes On",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 221216
+    },
+    {
+      "id": "netease-track:64825",
+      "neteaseTrackId": "64825",
+      "title": "太阳照常升起",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 230249
+    },
+    {
+      "id": "netease-track:64829",
+      "neteaseTrackId": "64829",
+      "title": "不来也不去",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 269072
+    },
+    {
+      "id": "netease-track:64833",
+      "neteaseTrackId": "64833",
+      "title": "沙龙",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 274297
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6388",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "H³M 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "internalId": "album:29588",
+  "id": "album:29588",
+  "neteaseAlbumId": "29588",
+  "slug": "netease-album-29588",
+  "title": "答案 林万芳歌本1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1998-03-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29588.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29588.webp",
+    "alt": "《答案 林万芳歌本1》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298114",
+      "neteaseTrackId": "298114",
+      "title": "序",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 94923
+    },
+    {
+      "id": "netease-track:298118",
+      "neteaseTrackId": "298118",
+      "title": "拜访春天",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 234660
+    },
+    {
+      "id": "netease-track:298123",
+      "neteaseTrackId": "298123",
+      "title": "答案",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳",
+        "蔡琴"
+      ],
+      "durationMs": 301200
+    },
+    {
+      "id": "netease-track:298128",
+      "neteaseTrackId": "298128",
+      "title": "归",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 262478
+    },
+    {
+      "id": "netease-track:298133",
+      "neteaseTrackId": "298133",
+      "title": "七月凉山",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 238259
+    },
+    {
+      "id": "netease-track:298138",
+      "neteaseTrackId": "298138",
+      "title": "归去来兮",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 258763
+    },
+    {
+      "id": "netease-track:298143",
+      "neteaseTrackId": "298143",
+      "title": "偈",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 227067
+    },
+    {
+      "id": "netease-track:298148",
+      "neteaseTrackId": "298148",
+      "title": "回旋曲",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 246827
+    },
+    {
+      "id": "netease-track:298153",
+      "neteaseTrackId": "298153",
+      "title": "娃娃的故事",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 231173
+    },
+    {
+      "id": "netease-track:298158",
+      "neteaseTrackId": "298158",
+      "title": "当你生日",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 240453
+    },
+    {
+      "id": "netease-track:298163",
+      "neteaseTrackId": "298163",
+      "title": "再别康桥",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 322573
+    },
+    {
+      "id": "netease-track:298168",
+      "neteaseTrackId": "298168",
+      "title": "兰花草",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 89396
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=29588",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "答案 林万芳歌本1 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

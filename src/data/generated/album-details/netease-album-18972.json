@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18972",
+  "id": "album:18972",
+  "neteaseAlbumId": "18972",
+  "slug": "netease-album-18972",
+  "title": "一切随风",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "2003-07-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18972.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18972.webp",
+    "alt": "《一切随风》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186879",
+      "neteaseTrackId": "186879",
+      "title": "千娇百美",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 282986
+    },
+    {
+      "id": "netease-track:186885",
+      "neteaseTrackId": "186885",
+      "title": "玻璃之情",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 285413
+    },
+    {
+      "id": "netease-track:186888",
+      "neteaseTrackId": "186888",
+      "title": "敢爱",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 226626
+    },
+    {
+      "id": "netease-track:186892",
+      "neteaseTrackId": "186892",
+      "title": "随心",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 223653
+    },
+    {
+      "id": "netease-track:186894",
+      "neteaseTrackId": "186894",
+      "title": "红蝴蝶",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 204493
+    },
+    {
+      "id": "netease-track:186899",
+      "neteaseTrackId": "186899",
+      "title": "蝶变",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 215413
+    },
+    {
+      "id": "netease-track:186905",
+      "neteaseTrackId": "186905",
+      "title": "我知你好",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 259946
+    },
+    {
+      "id": "netease-track:186909",
+      "neteaseTrackId": "186909",
+      "title": "挪亚方舟",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 229600
+    },
+    {
+      "id": "netease-track:186912",
+      "neteaseTrackId": "186912",
+      "title": "我(国)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 224160
+    },
+    {
+      "id": "netease-track:186915",
+      "neteaseTrackId": "186915",
+      "title": "I Honestly Love You",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 231613
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18972",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "一切随风 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "internalId": "album:222189",
+  "id": "album:222189",
+  "neteaseAlbumId": "222189",
+  "slug": "near-nadir",
+  "title": "Near Nadir",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    },
+    {
+      "id": "netease-artist:60389",
+      "neteaseArtistId": "60389",
+      "name": "Ikue Mori"
+    },
+    {
+      "id": "netease-artist:32797",
+      "neteaseArtistId": "32797",
+      "name": "Evan Parker"
+    },
+    {
+      "id": "netease-artist:66598",
+      "neteaseArtistId": "66598",
+      "name": "Mark Nauseef"
+    }
+  ],
+  "releaseDate": "2011-08-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222189.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222189.webp",
+    "alt": "《Near Nadir》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205241",
+      "neteaseTrackId": "2205241",
+      "title": "Majuu",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 213573
+    },
+    {
+      "id": "netease-track:2205244",
+      "neteaseTrackId": "2205244",
+      "title": "Valhalla",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 262413
+    },
+    {
+      "id": "netease-track:2205247",
+      "neteaseTrackId": "2205247",
+      "title": "In Gold Mesh",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 240853
+    },
+    {
+      "id": "netease-track:2205250",
+      "neteaseTrackId": "2205250",
+      "title": "Orbs",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 133640
+    },
+    {
+      "id": "netease-track:2205253",
+      "neteaseTrackId": "2205253",
+      "title": "Nooks",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 186373
+    },
+    {
+      "id": "netease-track:2205255",
+      "neteaseTrackId": "2205255",
+      "title": "Funnel Drone",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 143040
+    },
+    {
+      "id": "netease-track:2205257",
+      "neteaseTrackId": "2205257",
+      "title": "Yuga Warp",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 401800
+    },
+    {
+      "id": "netease-track:2205259",
+      "neteaseTrackId": "2205259",
+      "title": "Near Nadir",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 334760
+    },
+    {
+      "id": "netease-track:2205262",
+      "neteaseTrackId": "2205262",
+      "title": "Ternary Rite +",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 273586
+    },
+    {
+      "id": "netease-track:2205263",
+      "neteaseTrackId": "2205263",
+      "title": "Flo Vi Ru Dub",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "Ikue Mori",
+        "Evan Parker",
+        "Mark Nauseef"
+      ],
+      "durationMs": 534720
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=222189",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Near Nadir Bill Laswell Ikue Mori Evan Parker Mark Nauseef",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

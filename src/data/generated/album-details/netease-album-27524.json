@@ -1,0 +1,198 @@
+{
+  "internalId": "album:27524",
+  "id": "album:27524",
+  "neteaseAlbumId": "27524",
+  "slug": "netease-album-27524",
+  "title": "[ X ] 特别版",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "2003-08-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27524.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27524.webp",
+    "alt": "《[ X ] 特别版》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277165",
+      "neteaseTrackId": "277165",
+      "title": "爱死你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚",
+        "柯有伦"
+      ],
+      "durationMs": 246720
+    },
+    {
+      "id": "netease-track:277169",
+      "neteaseTrackId": "277169",
+      "title": "看透",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 235911
+    },
+    {
+      "id": "netease-track:277173",
+      "neteaseTrackId": "277173",
+      "title": "You Are so Beautiful",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 285653
+    },
+    {
+      "id": "netease-track:277178",
+      "neteaseTrackId": "277178",
+      "title": "忽然东风",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 224840
+    },
+    {
+      "id": "netease-track:277183",
+      "neteaseTrackId": "277183",
+      "title": "如果还有以后",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 211173
+    },
+    {
+      "id": "netease-track:277188",
+      "neteaseTrackId": "277188",
+      "title": "黑雨",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 252626
+    },
+    {
+      "id": "netease-track:277193",
+      "neteaseTrackId": "277193",
+      "title": "我明白他",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 250546
+    },
+    {
+      "id": "netease-track:277196",
+      "neteaseTrackId": "277196",
+      "title": "腹语术",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 206613
+    },
+    {
+      "id": "netease-track:277199",
+      "neteaseTrackId": "277199",
+      "title": "清醒",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 196120
+    },
+    {
+      "id": "netease-track:277202",
+      "neteaseTrackId": "277202",
+      "title": "双面",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 233080
+    },
+    {
+      "id": "netease-track:277207",
+      "neteaseTrackId": "277207",
+      "title": "透视",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:277211",
+      "neteaseTrackId": "277211",
+      "title": "爱死你",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 248933
+    },
+    {
+      "id": "netease-track:277215",
+      "neteaseTrackId": "277215",
+      "title": "Love in the Present Tense",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 198826
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=27524",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "[ X ] 特别版 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

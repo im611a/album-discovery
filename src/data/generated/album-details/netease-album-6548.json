@@ -1,0 +1,164 @@
+{
+  "internalId": "album:6548",
+  "id": "album:6548",
+  "neteaseAlbumId": "6548",
+  "slug": "netease-album-6548",
+  "title": "黑白灰",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2003-04-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "英皇唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6548.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6548.webp",
+    "alt": "《黑白灰》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:66838",
+      "neteaseTrackId": "66838",
+      "title": "阿怪",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 314426
+    },
+    {
+      "id": "netease-track:66840",
+      "neteaseTrackId": "66840",
+      "title": "我们都寂寞",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 292906
+    },
+    {
+      "id": "netease-track:66841",
+      "neteaseTrackId": "66841",
+      "title": "兄妹",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 210141
+    },
+    {
+      "id": "netease-track:66842",
+      "neteaseTrackId": "66842",
+      "title": "十年",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 205423
+    },
+    {
+      "id": "netease-track:66844",
+      "neteaseTrackId": "66844",
+      "title": "要你的",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 222626
+    },
+    {
+      "id": "netease-track:66846",
+      "neteaseTrackId": "66846",
+      "title": "世界",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 262333
+    },
+    {
+      "id": "netease-track:66849",
+      "neteaseTrackId": "66849",
+      "title": "谢谢",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 298573
+    },
+    {
+      "id": "netease-track:66852",
+      "neteaseTrackId": "66852",
+      "title": "像一句广告",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 240800
+    },
+    {
+      "id": "netease-track:66855",
+      "neteaseTrackId": "66855",
+      "title": "寂寞奏鸣曲",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 213826
+    },
+    {
+      "id": "netease-track:66858",
+      "neteaseTrackId": "66858",
+      "title": "Last Order",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 235666
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=6548",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "黑白灰 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1956864",
+  "id": "album:1956864",
+  "neteaseAlbumId": "1956864",
+  "slug": "st-anger",
+  "title": "St. Anger",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2003-06-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Blackened Recordings / Universal Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956864.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956864.webp",
+    "alt": "《St. Anger》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162462",
+      "neteaseTrackId": "21162462",
+      "title": "Frantic",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 350360
+    },
+    {
+      "id": "netease-track:21162463",
+      "neteaseTrackId": "21162463",
+      "title": "St. Anger",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 441133
+    },
+    {
+      "id": "netease-track:21162464",
+      "neteaseTrackId": "21162464",
+      "title": "Some Kind of Monster",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 505532
+    },
+    {
+      "id": "netease-track:21162465",
+      "neteaseTrackId": "21162465",
+      "title": "Dirty Window",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 324906
+    },
+    {
+      "id": "netease-track:21162466",
+      "neteaseTrackId": "21162466",
+      "title": "Invisible Kid",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 510093
+    },
+    {
+      "id": "netease-track:21162467",
+      "neteaseTrackId": "21162467",
+      "title": "My World",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 345533
+    },
+    {
+      "id": "netease-track:21162468",
+      "neteaseTrackId": "21162468",
+      "title": "Shoot Me Again",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 430106
+    },
+    {
+      "id": "netease-track:21162469",
+      "neteaseTrackId": "21162469",
+      "title": "Sweet Amber",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 327133
+    },
+    {
+      "id": "netease-track:21162470",
+      "neteaseTrackId": "21162470",
+      "title": "The Unnamed Feeling",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 429400
+    },
+    {
+      "id": "netease-track:21162471",
+      "neteaseTrackId": "21162471",
+      "title": "Purify",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 313933
+    },
+    {
+      "id": "netease-track:21162472",
+      "neteaseTrackId": "21162472",
+      "title": "All Within My Hands",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 527837
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1956864",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "St. Anger Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

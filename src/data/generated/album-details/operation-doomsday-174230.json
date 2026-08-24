@@ -1,0 +1,266 @@
+{
+  "internalId": "album:174230",
+  "id": "album:174230",
+  "neteaseAlbumId": "174230",
+  "slug": "operation-doomsday-174230",
+  "title": "Operation: Doomsday",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38994",
+      "neteaseArtistId": "38994",
+      "name": "MF DOOM"
+    }
+  ],
+  "releaseDate": "1999-02-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/174230.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/174230.webp",
+    "alt": "《Operation: Doomsday》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1721615",
+      "neteaseTrackId": "1721615",
+      "title": "The Time We Faced Doom (Skit)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 124742
+    },
+    {
+      "id": "netease-track:1721618",
+      "neteaseTrackId": "1721618",
+      "title": "Doomsday",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "Pebbles"
+      ],
+      "durationMs": 298053
+    },
+    {
+      "id": "netease-track:1721622",
+      "neteaseTrackId": "1721622",
+      "title": "Rhymes Like Dimes",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "Cucumber Slice"
+      ],
+      "durationMs": 258615
+    },
+    {
+      "id": "netease-track:1721626",
+      "neteaseTrackId": "1721626",
+      "title": "The Finest",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "TOMMY GUNN"
+      ],
+      "durationMs": 240000
+    },
+    {
+      "id": "netease-track:1721630",
+      "neteaseTrackId": "1721630",
+      "title": "Back in the Days (Skit)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 45306
+    },
+    {
+      "id": "netease-track:1721634",
+      "neteaseTrackId": "1721634",
+      "title": "Go with the Flow",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 216919
+    },
+    {
+      "id": "netease-track:1721639",
+      "neteaseTrackId": "1721639",
+      "title": "Tick, Tick...",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "MF Grimm"
+      ],
+      "durationMs": 244506
+    },
+    {
+      "id": "netease-track:1721645",
+      "neteaseTrackId": "1721645",
+      "title": "Red and Gold",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "King Ghidra"
+      ],
+      "durationMs": 282680
+    },
+    {
+      "id": "netease-track:1721650",
+      "neteaseTrackId": "1721650",
+      "title": "The Hands of Doom (Skit)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 110160
+    },
+    {
+      "id": "netease-track:1721654",
+      "neteaseTrackId": "1721654",
+      "title": "Who You Think I Am?",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "King Ghidra",
+        "Kong",
+        "K.D.",
+        "Megalon",
+        "Rodan",
+        "X-Ray"
+      ],
+      "durationMs": 204154
+    },
+    {
+      "id": "netease-track:1721659",
+      "neteaseTrackId": "1721659",
+      "title": "Doom, Are You Awake? (Skit)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 72573
+    },
+    {
+      "id": "netease-track:1721663",
+      "neteaseTrackId": "1721663",
+      "title": "Hey!",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 226543
+    },
+    {
+      "id": "netease-track:1721668",
+      "neteaseTrackId": "1721668",
+      "title": "Operation: Greenbacks",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "Megalon"
+      ],
+      "durationMs": 226109
+    },
+    {
+      "id": "netease-track:1721673",
+      "neteaseTrackId": "1721673",
+      "title": "The Mic",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "Pebbles"
+      ],
+      "durationMs": 182312
+    },
+    {
+      "id": "netease-track:1721678",
+      "neteaseTrackId": "1721678",
+      "title": "The Mystery of Doom (Skit)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 21946
+    },
+    {
+      "id": "netease-track:1721681",
+      "neteaseTrackId": "1721681",
+      "title": "Dead Bent",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 142321
+    },
+    {
+      "id": "netease-track:1721685",
+      "neteaseTrackId": "1721685",
+      "title": "Gas Drawls",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM"
+      ],
+      "durationMs": 223493
+    },
+    {
+      "id": "netease-track:1721692",
+      "neteaseTrackId": "1721692",
+      "title": "Hero vs. Villain (Epilogue)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "MF DOOM",
+        "E. Mason"
+      ],
+      "durationMs": 182000
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=174230",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Operation: Doomsday MF DOOM",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

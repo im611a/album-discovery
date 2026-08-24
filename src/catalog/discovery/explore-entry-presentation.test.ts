@@ -8,16 +8,16 @@ import {
 } from "./explore-entry-presentation";
 import { getTopicSummaries } from "../topics";
 
-describe("R13-3E visible Explore presentation", () => {
-  it("maps all 353 visible relation choices to deterministic valid entries", () => {
+describe("R13-3E visible Explore presentation", { timeout: 180_000 }, () => {
+  it("maps all 508 visible relation choices to deterministic valid entries", () => {
     const choices = ["genre", "decade", "scene", "artist"].flatMap((mode) =>
       getExploreRelationChoices(mode as "genre" | "decade" | "scene" | "artist"));
-    expect(choices).toHaveLength(353);
+    expect(choices).toHaveLength(508);
     expect(choices.filter((choice) => choice.source.kind === "PRIMARY_GENRE")).toHaveLength(15);
     expect(choices.filter((choice) => choice.source.kind === "SECONDARY_GENRE")).toHaveLength(24);
-    expect(choices.filter((choice) => choice.source.kind === "ERA")).toHaveLength(7);
+    expect(choices.filter((choice) => choice.source.kind === "ERA")).toHaveLength(9);
     expect(choices.filter((choice) => choice.source.kind === "LISTENING_CONTEXT")).toHaveLength(7);
-    expect(choices.filter((choice) => choice.source.kind === "ARTIST")).toHaveLength(300);
+    expect(choices.filter((choice) => choice.source.kind === "ARTIST")).toHaveLength(453);
     for (const choice of choices) {
       const presentation = buildExploreRelationPresentation(choice);
       expect(presentation).not.toBeNull();
@@ -31,7 +31,7 @@ describe("R13-3E visible Explore presentation", () => {
       ]).size).toBe(1 + presentation!.alternates.length);
       expect(JSON.stringify(presentation)).toBe(JSON.stringify(buildExploreRelationPresentation(choice)));
     }
-  }, 60_000);
+  }, 180_000);
 
   it("keeps primary and secondary genre identities distinct while preserving old URLs", () => {
     const sharedKey = getTopicSummaries("core").find((core) =>

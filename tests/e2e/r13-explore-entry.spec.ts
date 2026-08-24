@@ -56,7 +56,7 @@ async function expectNoHorizontalOverflow(page: Page) {
 }
 
 async function expectRelationSurface(page: Page) {
-  const surface = page.locator('[data-explore-authority="relation"]');
+  const surface = page.locator('.r13-explore-entry[data-explore-authority="relation"]');
   await expect(surface).toHaveCount(1);
   await expect(surface.getByRole("heading", { level: 2, name: "沿一条真实关系进入" })).toBeVisible();
   await expect(surface.locator(".r13-explore-entry__primary")).toHaveCount(1);
@@ -133,16 +133,16 @@ test.describe("R13-3E visible Explore continuous-discovery entry", () => {
     await mkdir(screenshotRoot, { recursive: true });
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto("/explore/?mode=random&seed=shared-42");
-    const surface = page.locator('[data-explore-authority="serendipity"]');
+    const surface = page.locator('.r13-explore-entry[data-explore-authority="serendipity"]');
     await expect(surface).toHaveCount(1);
     await expect(surface.getByRole("heading", { level: 2, name: "偶然进入一张作品" })).toBeVisible();
     await expect(surface).toContainText("这不是相似关系、推荐结论或热度排序");
     await expect(surface).not.toHaveAttribute("data-explore-source-kind", /.+/);
-    await expect(page.locator('[data-explore-authority="relation"]')).toHaveCount(0);
+    await expect(page.locator('.r13-explore-entry[data-explore-authority="relation"]')).toHaveCount(0);
     await expect(surface.locator(".r13-explore-entry__source")).toHaveCount(0);
     const firstTarget = await surface.locator(".r13-explore-entry__primary").getAttribute("href");
     await page.reload();
-    await expect(page.locator('[data-explore-authority="serendipity"] .r13-explore-entry__primary'))
+    await expect(page.locator('.r13-explore-entry[data-explore-authority="serendipity"] .r13-explore-entry__primary'))
       .toHaveAttribute("href", firstTarget ?? "");
     await page.screenshot({ path: path.join(screenshotRoot, "f-explicit-serendipity-entry.png"), fullPage: true });
     expectRuntimeClean(runtime);
@@ -162,13 +162,13 @@ test.describe("R13-3E visible Explore continuous-discovery entry", () => {
     await surface.scrollIntoViewIfNeeded();
     await page.screenshot({ path: path.join(screenshotRoot, "h-relation-result-mobile-390.png") });
     await page.reload();
-    await expect(page.locator('[data-explore-authority="relation"] .r13-explore-entry__primary'))
+    await expect(page.locator('.r13-explore-entry[data-explore-authority="relation"] .r13-explore-entry__primary'))
       .toHaveAttribute("href", primary ?? "");
-    await page.locator('[data-explore-authority="relation"] .r13-explore-entry__primary').click();
+    await page.locator('.r13-explore-entry[data-explore-authority="relation"] .r13-explore-entry__primary').click();
     await expect(page.locator(".r13-discovery")).toHaveCount(1);
     await page.goBack();
     await expect(page).toHaveURL(/\/explore\/\?mode=scene&value=commute/);
-    await expect(page.locator('[data-explore-authority="relation"] .r13-explore-entry__primary'))
+    await expect(page.locator('.r13-explore-entry[data-explore-authority="relation"] .r13-explore-entry__primary'))
       .toHaveAttribute("href", primary ?? "");
     expectRuntimeClean(runtime);
   });
@@ -193,7 +193,7 @@ test.describe("R13-3E visible Explore continuous-discovery entry", () => {
         : `/explore/?mode=${viewport.mode}&value=${viewport.value}${viewport.suffix}`;
       await page.goto(route);
       const authority = viewport.mode === "random" ? "serendipity" : "relation";
-      await expect(page.locator(`[data-explore-authority="${authority}"]`)).toHaveCount(1);
+      await expect(page.locator(`.r13-explore-entry[data-explore-authority="${authority}"]`)).toHaveCount(1);
       const overflow = await expectNoHorizontalOverflow(page);
       await page.screenshot({
         path: path.join(screenshotRoot, `responsive-${viewport.width}.png`),

@@ -1,0 +1,192 @@
+{
+  "internalId": "album:7565",
+  "id": "album:7565",
+  "neteaseAlbumId": "7565",
+  "slug": "netease-album-7565",
+  "title": "后观音",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2515",
+      "neteaseArtistId": "2515",
+      "name": "窦唯"
+    },
+    {
+      "id": "netease-artist:92447",
+      "neteaseArtistId": "92447",
+      "name": "FM3"
+    }
+  ],
+  "releaseDate": "2006-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7565.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7565.webp",
+    "alt": "《后观音》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76990",
+      "neteaseTrackId": "76990",
+      "title": "Untitled 1",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 144640
+    },
+    {
+      "id": "netease-track:76992",
+      "neteaseTrackId": "76992",
+      "title": "乌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 323000
+    },
+    {
+      "id": "netease-track:76994",
+      "neteaseTrackId": "76994",
+      "title": "Untitled 2",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 277000
+    },
+    {
+      "id": "netease-track:76997",
+      "neteaseTrackId": "76997",
+      "title": "Untitled 3",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 125000
+    },
+    {
+      "id": "netease-track:77000",
+      "neteaseTrackId": "77000",
+      "title": "无",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 172000
+    },
+    {
+      "id": "netease-track:77003",
+      "neteaseTrackId": "77003",
+      "title": "Untitled 4",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:77006",
+      "neteaseTrackId": "77006",
+      "title": "Untitled 5",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 215640
+    },
+    {
+      "id": "netease-track:77008",
+      "neteaseTrackId": "77008",
+      "title": "Untitled 6",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 152000
+    },
+    {
+      "id": "netease-track:77011",
+      "neteaseTrackId": "77011",
+      "title": "吾",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 195422
+    },
+    {
+      "id": "netease-track:77015",
+      "neteaseTrackId": "77015",
+      "title": "Untitled 7",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 206200
+    },
+    {
+      "id": "netease-track:77019",
+      "neteaseTrackId": "77019",
+      "title": "悟",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "窦唯",
+        "FM3"
+      ],
+      "durationMs": 142000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=7565",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient",
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "后观音 窦唯 FM3",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "internalId": "album:19043",
+  "id": "album:19043",
+  "neteaseAlbumId": "19043",
+  "slug": "love-with-all-my-heart",
+  "title": "Love With All My Heart",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1996-09-29",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19043.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19043.webp",
+    "alt": "《Love With All My Heart》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187957",
+      "neteaseTrackId": "187957",
+      "title": "有心人",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268280
+    },
+    {
+      "id": "netease-track:187962",
+      "neteaseTrackId": "187962",
+      "title": "谈情说爱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 236120
+    },
+    {
+      "id": "netease-track:187967",
+      "neteaseTrackId": "187967",
+      "title": "有心人(伴奏)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 269280
+    },
+    {
+      "id": "netease-track:187972",
+      "neteaseTrackId": "187972",
+      "title": "谈情说爱(伴奏)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 233600
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=19043",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Love With All My Heart 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1956884",
+  "id": "album:1956884",
+  "neteaseAlbumId": "1956884",
+  "slug": "all-nightmare-long",
+  "title": "All Nightmare Long",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38851",
+      "neteaseArtistId": "38851",
+      "name": "Metallica"
+    }
+  ],
+  "releaseDate": "2008-12-14",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1956884.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1956884.webp",
+    "alt": "《All Nightmare Long》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21162686",
+      "neteaseTrackId": "21162686",
+      "title": "All Nightmare Long",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 477026
+    },
+    {
+      "id": "netease-track:21162687",
+      "neteaseTrackId": "21162687",
+      "title": "Master Of Puppets (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 500093
+    },
+    {
+      "id": "netease-track:21162688",
+      "neteaseTrackId": "21162688",
+      "title": "Blackened (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 392333
+    },
+    {
+      "id": "netease-track:21162689",
+      "neteaseTrackId": "21162689",
+      "title": "Seek & Destroy (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Metallica"
+      ],
+      "durationMs": 465693
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1956884",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "metal"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "All Nightmare Long Metallica",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

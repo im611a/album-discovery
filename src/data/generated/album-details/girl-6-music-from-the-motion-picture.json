@@ -1,0 +1,197 @@
+{
+  "internalId": "album:184257",
+  "id": "album:184257",
+  "neteaseAlbumId": "184257",
+  "slug": "girl-6-music-from-the-motion-picture",
+  "title": "Girl 6 (Music From The Motion Picture)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "1996-03-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184257.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184257.webp",
+    "alt": "《Girl 6 (Music From The Motion Picture)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1823614",
+      "neteaseTrackId": "1823614",
+      "title": "She Spoke 2 Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 257000
+    },
+    {
+      "id": "netease-track:1823617",
+      "neteaseTrackId": "1823617",
+      "title": "Pink Cashmere",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 375533
+    },
+    {
+      "id": "netease-track:1823620",
+      "neteaseTrackId": "1823620",
+      "title": "Count the Days",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "New Power Generation"
+      ],
+      "durationMs": 206000
+    },
+    {
+      "id": "netease-track:1823622",
+      "neteaseTrackId": "1823622",
+      "title": "Girls & Boys",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "The Revolution"
+      ],
+      "durationMs": 329653
+    },
+    {
+      "id": "netease-track:1823624",
+      "neteaseTrackId": "1823624",
+      "title": "Screams of Passion, The",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "The Family"
+      ],
+      "durationMs": 326000
+    },
+    {
+      "id": "netease-track:1823626",
+      "neteaseTrackId": "1823626",
+      "title": "Nasty Girl",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Vanity 6"
+      ],
+      "durationMs": 315920
+    },
+    {
+      "id": "netease-track:1823629",
+      "neteaseTrackId": "1823629",
+      "title": "Erotic City",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "The Revolution"
+      ],
+      "durationMs": 235493
+    },
+    {
+      "id": "netease-track:1823633",
+      "neteaseTrackId": "1823633",
+      "title": "Hot Thing",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 339067
+    },
+    {
+      "id": "netease-track:1823637",
+      "neteaseTrackId": "1823637",
+      "title": "Adore",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 390000
+    },
+    {
+      "id": "netease-track:1823641",
+      "neteaseTrackId": "1823641",
+      "title": "Cross, The",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 288469
+    },
+    {
+      "id": "netease-track:1823644",
+      "neteaseTrackId": "1823644",
+      "title": "How Come U Don't Call Me Anymore",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 231209
+    },
+    {
+      "id": "netease-track:1823647",
+      "neteaseTrackId": "1823647",
+      "title": "Don't Talk 2 Strangers",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 191000
+    },
+    {
+      "id": "netease-track:1823650",
+      "neteaseTrackId": "1823650",
+      "title": "Girl 6",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "New Power Generation"
+      ],
+      "durationMs": 244000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=184257",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Girl 6 (Music From The Motion Picture) Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

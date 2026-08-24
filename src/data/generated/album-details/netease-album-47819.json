@@ -1,0 +1,318 @@
+{
+  "internalId": "album:47819",
+  "id": "album:47819",
+  "neteaseAlbumId": "47819",
+  "slug": "netease-album-47819",
+  "title": "プレイング・ジ・オーケストラ",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1993-03-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47819.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47819.webp",
+    "alt": "《プレイング・ジ・オーケストラ》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:501626",
+      "neteaseTrackId": "501626",
+      "title": "ステーション",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 44000
+    },
+    {
+      "id": "netease-track:501629",
+      "neteaseTrackId": "501629",
+      "title": "オープン・ザ・ドア",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 178000
+    },
+    {
+      "id": "netease-track:501631",
+      "neteaseTrackId": "501631",
+      "title": "戴冠式",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 105000
+    },
+    {
+      "id": "netease-track:501633",
+      "neteaseTrackId": "501633",
+      "title": "アーモ",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 156000
+    },
+    {
+      "id": "netease-track:501635",
+      "neteaseTrackId": "501635",
+      "title": "デモ・ガンズ",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 162000
+    },
+    {
+      "id": "netease-track:501637",
+      "neteaseTrackId": "501637",
+      "title": "マウス",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 92000
+    },
+    {
+      "id": "netease-track:501642",
+      "neteaseTrackId": "501642",
+      "title": "カットマイ・キュー",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 164200
+    },
+    {
+      "id": "netease-track:501647",
+      "neteaseTrackId": "501647",
+      "title": "ザ・ゲート",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 141000
+    },
+    {
+      "id": "netease-track:501652",
+      "neteaseTrackId": "501652",
+      "title": "テンション",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 174226
+    },
+    {
+      "id": "netease-track:501657",
+      "neteaseTrackId": "501657",
+      "title": "レイン",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:501672",
+      "neteaseTrackId": "501672",
+      "title": "ザ・ベイビー",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 58000
+    },
+    {
+      "id": "netease-track:501677",
+      "neteaseTrackId": "501677",
+      "title": "ロシア兵",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 78000
+    },
+    {
+      "id": "netease-track:501682",
+      "neteaseTrackId": "501682",
+      "title": "ラストエンペラー~テーマ~",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 380000
+    },
+    {
+      "id": "netease-track:501687",
+      "neteaseTrackId": "501687",
+      "title": "メリー・クリスマス・ミスターローレンス",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 295000
+    },
+    {
+      "id": "netease-track:501692",
+      "neteaseTrackId": "501692",
+      "title": "発芽",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 174000
+    },
+    {
+      "id": "netease-track:501697",
+      "neteaseTrackId": "501697",
+      "title": "种子と种を莳く人",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 234000
+    },
+    {
+      "id": "netease-track:501702",
+      "neteaseTrackId": "501702",
+      "title": "ライド・ライド・ライド",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 128000
+    },
+    {
+      "id": "netease-track:501707",
+      "neteaseTrackId": "501707",
+      "title": "ザ・ファイト",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 100000
+    },
+    {
+      "id": "netease-track:501712",
+      "neteaseTrackId": "501712",
+      "title": "理性を越えて",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 129000
+    },
+    {
+      "id": "netease-track:501717",
+      "neteaseTrackId": "501717",
+      "title": "ザ・シード",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 87000
+    },
+    {
+      "id": "netease-track:501722",
+      "neteaseTrackId": "501722",
+      "title": "ラストエンペラー~エンド・テーマ~",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 323000
+    },
+    {
+      "id": "netease-track:501727",
+      "neteaseTrackId": "501727",
+      "title": "ビフォア・ロング",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 201000
+    },
+    {
+      "id": "netease-track:501732",
+      "neteaseTrackId": "501732",
+      "title": "レプリカ",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 302000
+    },
+    {
+      "id": "netease-track:501737",
+      "neteaseTrackId": "501737",
+      "title": "大航海",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 424000
+    }
+  ],
+  "trackCount": 24,
+  "externalUrl": "https://music.163.com/#/album?id=47819",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "プレイング・ジ・オーケストラ 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

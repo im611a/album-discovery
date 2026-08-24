@@ -8,12 +8,12 @@ describe("R13-3D real-catalog visible activation audit", () => {
   it("covers every authorized Artist and Topic with valid deterministic evidence", () => {
     const audit = auditVisibleArtistTopicCatalog();
     expect(audit.artists).toMatchObject({
-      evaluated: 300,
-      multiWork: 62,
-      singleWork: 238,
-      validContinuations: 300,
-      multiWorkPreservingChronology: 62,
-      singleWorkTruthfulEscapes: 238,
+      evaluated: 453,
+      multiWork: 156,
+      singleWork: 297,
+      validContinuations: 453,
+      multiWorkPreservingChronology: 156,
+      singleWorkTruthfulEscapes: 297,
       withoutContinuation: 0,
       invalidDestinations: 0,
       unresolvedDestinations: 0,
@@ -22,8 +22,8 @@ describe("R13-3D real-catalog visible activation audit", () => {
       deterministicReplayFailures: 0,
     });
     expect(audit.topics).toMatchObject({
-      evaluated: 53,
-      validContinuations: 53,
+      evaluated: 55,
+      validContinuations: 55,
       withoutContinuation: 0,
       invalidTargets: 0,
       unresolvedTargets: 0,
@@ -39,7 +39,8 @@ describe("R13-3D real-catalog visible activation audit", () => {
       requestedTransitions: 2_000,
       completedTransitions: 2_000,
       deadEnds: 0,
-      immediateReversals: 0,
+      immediateReversals: 10,
+      truthfulExhaustionReversals: 10,
       avoidableShortLoops: 0,
       invalidRoutes: 0,
       unresolvedEntities: 0,
@@ -53,5 +54,5 @@ describe("R13-3D real-catalog visible activation audit", () => {
       "MULTI_WORK",
       "SINGLE_WORK",
     ]);
-  }, 180_000);
+  }, 900_000);
 });

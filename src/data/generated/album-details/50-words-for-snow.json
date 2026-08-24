@@ -1,0 +1,132 @@
+{
+  "internalId": "album:1742057",
+  "id": "album:1742057",
+  "neteaseAlbumId": "1742057",
+  "slug": "50-words-for-snow",
+  "title": "50 Words for Snow",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "2011-11-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Fish People",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1742057.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1742057.webp",
+    "alt": "《50 Words for Snow》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19012417",
+      "neteaseTrackId": "19012417",
+      "title": "Snowflake",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 586693
+    },
+    {
+      "id": "netease-track:19012418",
+      "neteaseTrackId": "19012418",
+      "title": "Lake Tahoe",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 668160
+    },
+    {
+      "id": "netease-track:19012419",
+      "neteaseTrackId": "19012419",
+      "title": "Misty",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 812173
+    },
+    {
+      "id": "netease-track:19012420",
+      "neteaseTrackId": "19012420",
+      "title": "Wild Man",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 436610
+    },
+    {
+      "id": "netease-track:19012421",
+      "neteaseTrackId": "19012421",
+      "title": "Snowed In At Wheeler Street",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush",
+        "Elton John"
+      ],
+      "durationMs": 485093
+    },
+    {
+      "id": "netease-track:19012422",
+      "neteaseTrackId": "19012422",
+      "title": "50 Words For Snow",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 510928
+    },
+    {
+      "id": "netease-track:19012423",
+      "neteaseTrackId": "19012423",
+      "title": "Among Angels",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 408685
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1742057",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "50 Words for Snow Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

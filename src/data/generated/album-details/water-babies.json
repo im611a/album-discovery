@@ -1,0 +1,120 @@
+{
+  "internalId": "album:1970583",
+  "id": "album:1970583",
+  "neteaseAlbumId": "1970583",
+  "slug": "water-babies",
+  "title": "Water Babies",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2002-08-07",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970583.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970583.webp",
+    "alt": "《Water Babies》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21340701",
+      "neteaseTrackId": "21340701",
+      "title": "Water Babies",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 307757
+    },
+    {
+      "id": "netease-track:21340702",
+      "neteaseTrackId": "21340702",
+      "title": "Capricorn",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 505869
+    },
+    {
+      "id": "netease-track:21340703",
+      "neteaseTrackId": "21340703",
+      "title": "Sweet Pea",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 479515
+    },
+    {
+      "id": "netease-track:21340704",
+      "neteaseTrackId": "21340704",
+      "title": "Two Faced",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1080285
+    },
+    {
+      "id": "netease-track:21340705",
+      "neteaseTrackId": "21340705",
+      "title": "Dual Mr. Tillman Anthony",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 798255
+    },
+    {
+      "id": "netease-track:21340706",
+      "neteaseTrackId": "21340706",
+      "title": "Splash",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 605065
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=1970583",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Water Babies Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

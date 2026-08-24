@@ -1,0 +1,175 @@
+{
+  "internalId": "album:16971",
+  "id": "album:16971",
+  "neteaseAlbumId": "16971",
+  "slug": "netease-album-16971",
+  "title": "萧敬腾 同名专辑",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5768",
+      "neteaseArtistId": "5768",
+      "name": "萧敬腾"
+    }
+  ],
+  "releaseDate": "2008-06-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/16971.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/16971.webp",
+    "alt": "《萧敬腾 同名专辑》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:168014",
+      "neteaseTrackId": "168014",
+      "title": "收藏",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 285360
+    },
+    {
+      "id": "netease-track:168016",
+      "neteaseTrackId": "168016",
+      "title": "王子的新衣",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 262493
+    },
+    {
+      "id": "netease-track:168018",
+      "neteaseTrackId": "168018",
+      "title": "原谅我",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 252066
+    },
+    {
+      "id": "netease-track:168021",
+      "neteaseTrackId": "168021",
+      "title": "奋不顾身",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 286746
+    },
+    {
+      "id": "netease-track:168024",
+      "neteaseTrackId": "168024",
+      "title": "疼爱",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 230806
+    },
+    {
+      "id": "netease-track:168026",
+      "neteaseTrackId": "168026",
+      "title": "多希望你在",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 313560
+    },
+    {
+      "id": "netease-track:168028",
+      "neteaseTrackId": "168028",
+      "title": "活着",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 233440
+    },
+    {
+      "id": "netease-track:168031",
+      "neteaseTrackId": "168031",
+      "title": "一辈子存在",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 246373
+    },
+    {
+      "id": "netease-track:168033",
+      "neteaseTrackId": "168033",
+      "title": "我在哭",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 234840
+    },
+    {
+      "id": "netease-track:168036",
+      "neteaseTrackId": "168036",
+      "title": "Blues",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 210800
+    },
+    {
+      "id": "netease-track:168039",
+      "neteaseTrackId": "168039",
+      "title": "海芋恋",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 240120
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=16971",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "萧敬腾 同名专辑 萧敬腾",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

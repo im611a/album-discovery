@@ -1,0 +1,164 @@
+{
+  "internalId": "album:21288",
+  "id": "album:21288",
+  "neteaseAlbumId": "21288",
+  "slug": "netease-album-21288",
+  "title": "记念",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2000-03-22",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Taiwan",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21288.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21288.webp",
+    "alt": "《记念》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209247",
+      "neteaseTrackId": "209247",
+      "title": "你的温度",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 221467
+    },
+    {
+      "id": "netease-track:209250",
+      "neteaseTrackId": "209250",
+      "title": "记念",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 229214
+    },
+    {
+      "id": "netease-track:209253",
+      "neteaseTrackId": "209253",
+      "title": "太多",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 277037
+    },
+    {
+      "id": "netease-track:209256",
+      "neteaseTrackId": "209256",
+      "title": "愿意渺小",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 260133
+    },
+    {
+      "id": "netease-track:209259",
+      "neteaseTrackId": "209259",
+      "title": "天之美",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 253600
+    },
+    {
+      "id": "netease-track:209261",
+      "neteaseTrackId": "209261",
+      "title": "好想放假",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 216666
+    },
+    {
+      "id": "netease-track:209263",
+      "neteaseTrackId": "209263",
+      "title": "True Love",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 229600
+    },
+    {
+      "id": "netease-track:209265",
+      "neteaseTrackId": "209265",
+      "title": "体会",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 208614
+    },
+    {
+      "id": "netease-track:209266",
+      "neteaseTrackId": "209266",
+      "title": "伸伸懒腰",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 228066
+    },
+    {
+      "id": "netease-track:209269",
+      "neteaseTrackId": "209269",
+      "title": "漂亮一点",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 195674
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=21288",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "记念 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

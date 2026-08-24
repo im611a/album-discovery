@@ -1,0 +1,186 @@
+{
+  "internalId": "album:220716",
+  "id": "album:220716",
+  "neteaseAlbumId": "220716",
+  "slug": "halo",
+  "title": "Halo",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2009-01-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220716.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220716.webp",
+    "alt": "《Halo》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188235",
+      "neteaseTrackId": "2188235",
+      "title": "Halo",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 261000
+    },
+    {
+      "id": "netease-track:2188238",
+      "neteaseTrackId": "2188238",
+      "title": "Single Ladies (Put a Ring on It)(RedTop Remix Radio Edit)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 412850
+    },
+    {
+      "id": "netease-track:2188241",
+      "neteaseTrackId": "2188241",
+      "title": "Diva (Album Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 200613
+    },
+    {
+      "id": "netease-track:2188244",
+      "neteaseTrackId": "2188244",
+      "title": "Halo (Dave Audé Remix Radio Edit)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 257000
+    },
+    {
+      "id": "netease-track:2188247",
+      "neteaseTrackId": "2188247",
+      "title": "Halo (Olli Collins & Fred Portelli Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 418000
+    },
+    {
+      "id": "netease-track:2188250",
+      "neteaseTrackId": "2188250",
+      "title": "Halo (Clyde McKnight Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 537266
+    },
+    {
+      "id": "netease-track:2188253",
+      "neteaseTrackId": "2188253",
+      "title": "Halo (My Digital Enemy Remix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 393000
+    },
+    {
+      "id": "netease-track:2188256",
+      "neteaseTrackId": "2188256",
+      "title": "Halo (Radio Edit)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 535040
+    },
+    {
+      "id": "netease-track:2188260",
+      "neteaseTrackId": "2188260",
+      "title": "Halo (Dave Aude Club Mix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 537266
+    },
+    {
+      "id": "netease-track:2188264",
+      "neteaseTrackId": "2188264",
+      "title": "Halo (Gomi & Rasjek Club Mix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 433306
+    },
+    {
+      "id": "netease-track:2188267",
+      "neteaseTrackId": "2188267",
+      "title": "Halo (Karmatronic Club Mix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 482346
+    },
+    {
+      "id": "netease-track:2188270",
+      "neteaseTrackId": "2188270",
+      "title": "Halo (Lost Daze Club Mix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 371000
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=220716",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Halo Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

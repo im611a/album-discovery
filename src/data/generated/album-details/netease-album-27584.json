@@ -1,0 +1,164 @@
+{
+  "internalId": "album:27584",
+  "id": "album:27584",
+  "neteaseAlbumId": "27584",
+  "slug": "netease-album-27584",
+  "title": "莫文蔚",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:8926",
+      "neteaseArtistId": "8926",
+      "name": "莫文蔚"
+    }
+  ],
+  "releaseDate": "1993-08-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/27584.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/27584.webp",
+    "alt": "《莫文蔚》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:277849",
+      "neteaseTrackId": "277849",
+      "title": "这等待眼睛",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 240493
+    },
+    {
+      "id": "netease-track:277850",
+      "neteaseTrackId": "277850",
+      "title": "我有病",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 248506
+    },
+    {
+      "id": "netease-track:277851",
+      "neteaseTrackId": "277851",
+      "title": "一生等你回来",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 222493
+    },
+    {
+      "id": "netease-track:277852",
+      "neteaseTrackId": "277852",
+      "title": "原来… ...没可能",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:277853",
+      "neteaseTrackId": "277853",
+      "title": "下雨的日子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:277854",
+      "neteaseTrackId": "277854",
+      "title": "要是一生都不老",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 280555
+    },
+    {
+      "id": "netease-track:277855",
+      "neteaseTrackId": "277855",
+      "title": "来吧",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 285333
+    },
+    {
+      "id": "netease-track:277856",
+      "neteaseTrackId": "277856",
+      "title": "可曾是错",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 241528
+    },
+    {
+      "id": "netease-track:277857",
+      "neteaseTrackId": "277857",
+      "title": "逗留? 分手?",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 256705
+    },
+    {
+      "id": "netease-track:277858",
+      "neteaseTrackId": "277858",
+      "title": "HEY! 如果 … …",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "莫文蔚"
+      ],
+      "durationMs": 252212
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=27584",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "莫文蔚 莫文蔚",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

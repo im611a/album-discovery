@@ -1,0 +1,164 @@
+{
+  "internalId": "album:18931",
+  "id": "album:18931",
+  "neteaseAlbumId": "18931",
+  "slug": "netease-album-18931",
+  "title": "我好想",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "2001-12-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18931.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18931.webp",
+    "alt": "《我好想》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186307",
+      "neteaseTrackId": "186307",
+      "title": "爱情余味",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 299305
+    },
+    {
+      "id": "netease-track:186310",
+      "neteaseTrackId": "186310",
+      "title": "我好想",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 291005
+    },
+    {
+      "id": "netease-track:186313",
+      "neteaseTrackId": "186313",
+      "title": "舍不得, 对不起",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 294819
+    },
+    {
+      "id": "netease-track:186316",
+      "neteaseTrackId": "186316",
+      "title": "等风的旗",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 236435
+    },
+    {
+      "id": "netease-track:186319",
+      "neteaseTrackId": "186319",
+      "title": "Goodbye Yesterday",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 293277
+    },
+    {
+      "id": "netease-track:186322",
+      "neteaseTrackId": "186322",
+      "title": "雾中机场",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 290853
+    },
+    {
+      "id": "netease-track:186326",
+      "neteaseTrackId": "186326",
+      "title": "爱就一个字",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 272379
+    },
+    {
+      "id": "netease-track:186329",
+      "neteaseTrackId": "186329",
+      "title": "某某某",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 273921
+    },
+    {
+      "id": "netease-track:186332",
+      "neteaseTrackId": "186332",
+      "title": "如果你愿意",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 303909
+    },
+    {
+      "id": "netease-track:186335",
+      "neteaseTrackId": "186335",
+      "title": "有个人想我就好",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 284683
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=18931",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我好想 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

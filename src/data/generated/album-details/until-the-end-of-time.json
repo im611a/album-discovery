@@ -1,0 +1,203 @@
+{
+  "internalId": "album:1712033",
+  "id": "album:1712033",
+  "neteaseAlbumId": "1712033",
+  "slug": "until-the-end-of-time",
+  "title": "Until The End Of Time",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35331",
+      "neteaseArtistId": "35331",
+      "name": "Justin Timberlake"
+    },
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2007-11-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Jive",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1712033.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1712033.webp",
+    "alt": "《Until The End Of Time》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18672601",
+      "neteaseTrackId": "18672601",
+      "title": "Until The End Of Time (Jason Nevins Extended Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 440138
+    },
+    {
+      "id": "netease-track:18672602",
+      "neteaseTrackId": "18672602",
+      "title": "Until The End Of Time (Jason Nevins Mixshow)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 342831
+    },
+    {
+      "id": "netease-track:18672603",
+      "neteaseTrackId": "18672603",
+      "title": "Until The End Of Time (Ralphi Rosario BIG Radio Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 232751
+    },
+    {
+      "id": "netease-track:18672604",
+      "neteaseTrackId": "18672604",
+      "title": "Until The End Of Time (Johnny Vicious & DJ Escape Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 515735
+    },
+    {
+      "id": "netease-track:18672605",
+      "neteaseTrackId": "18672605",
+      "title": "Until The End Of Time (Mike Rizzo Global Club Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 450612
+    },
+    {
+      "id": "netease-track:18672606",
+      "neteaseTrackId": "18672606",
+      "title": "Until The End Of Time (Jonathan Peters Club Mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 530703
+    },
+    {
+      "id": "netease-track:405477284",
+      "neteaseTrackId": "405477284",
+      "title": "Until The End Of Time (Jason Nevins Radio Mix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 217408
+    },
+    {
+      "id": "netease-track:405477285",
+      "neteaseTrackId": "405477285",
+      "title": "Until The End Of Time (Jonathan Peters Radio Mix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 214726
+    },
+    {
+      "id": "netease-track:471969312",
+      "neteaseTrackId": "471969312",
+      "title": "Until The End Of Time (Ralphi Rosario Soul Radio Mix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 245681
+    },
+    {
+      "id": "netease-track:471968311",
+      "neteaseTrackId": "471968311",
+      "title": "Until The End Of Time (Future Presidents Remix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 232751
+    },
+    {
+      "id": "netease-track:471968310",
+      "neteaseTrackId": "471968310",
+      "title": "Until The End Of Time (Julian Bunetta Remix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 369336
+    },
+    {
+      "id": "netease-track:471968313",
+      "neteaseTrackId": "471968313",
+      "title": "Until The End Of Time (Johnny Vicious & DJ Escape Radio Remix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Justin Timberlake",
+        "Beyoncé"
+      ],
+      "durationMs": 217417
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=1712033",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Until The End Of Time Justin Timberlake Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

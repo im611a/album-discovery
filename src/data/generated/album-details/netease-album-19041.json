@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19041",
+  "id": "album:19041",
+  "neteaseAlbumId": "19041",
+  "slug": "netease-album-19041",
+  "title": "沉默如谜的呼吸",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6461",
+      "neteaseArtistId": "6461",
+      "name": "周云蓬"
+    }
+  ],
+  "releaseDate": "2004-09-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19041.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19041.webp",
+    "alt": "《沉默如谜的呼吸》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187948",
+      "neteaseTrackId": "187948",
+      "title": "空水杯",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 228480
+    },
+    {
+      "id": "netease-track:187951",
+      "neteaseTrackId": "187951",
+      "title": "鱼相忘于江湖",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 258333
+    },
+    {
+      "id": "netease-track:187954",
+      "neteaseTrackId": "187954",
+      "title": "沉默如谜的呼吸",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 279493
+    },
+    {
+      "id": "netease-track:187959",
+      "neteaseTrackId": "187959",
+      "title": "山鬼",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 298613
+    },
+    {
+      "id": "netease-track:187964",
+      "neteaseTrackId": "187964",
+      "title": "我听到某人在唱一首忧伤的歌",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 199280
+    },
+    {
+      "id": "netease-track:187969",
+      "neteaseTrackId": "187969",
+      "title": "盲人影院",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 248826
+    },
+    {
+      "id": "netease-track:187973",
+      "neteaseTrackId": "187973",
+      "title": "失业者",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 294520
+    },
+    {
+      "id": "netease-track:187976",
+      "neteaseTrackId": "187976",
+      "title": "幻觉支撑我们活下去",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 258866
+    },
+    {
+      "id": "netease-track:187979",
+      "neteaseTrackId": "187979",
+      "title": "荡荡悠悠",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 212226
+    },
+    {
+      "id": "netease-track:187982",
+      "neteaseTrackId": "187982",
+      "title": "蓝色老虎",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "周云蓬"
+      ],
+      "durationMs": 229186
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19041",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "沉默如谜的呼吸 周云蓬",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

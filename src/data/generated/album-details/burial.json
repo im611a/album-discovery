@@ -1,0 +1,197 @@
+{
+  "internalId": "album:1533975",
+  "id": "album:1533975",
+  "neteaseAlbumId": "1533975",
+  "slug": "burial",
+  "title": "Burial",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29389",
+      "neteaseArtistId": "29389",
+      "name": "Burial"
+    }
+  ],
+  "releaseDate": "2006-05-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "看见音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1533975.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1533975.webp",
+    "alt": "《Burial》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16640357",
+      "neteaseTrackId": "16640357",
+      "title": "Untitled",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 36231
+    },
+    {
+      "id": "netease-track:16640358",
+      "neteaseTrackId": "16640358",
+      "title": "Distant Lights",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 325149
+    },
+    {
+      "id": "netease-track:16640359",
+      "neteaseTrackId": "16640359",
+      "title": "Spaceape",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 241920
+    },
+    {
+      "id": "netease-track:16640360",
+      "neteaseTrackId": "16640360",
+      "title": "Wounder",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 291735
+    },
+    {
+      "id": "netease-track:16640361",
+      "neteaseTrackId": "16640361",
+      "title": "Night Bus",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 140486
+    },
+    {
+      "id": "netease-track:16640362",
+      "neteaseTrackId": "16640362",
+      "title": "Southern Comfort",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 301557
+    },
+    {
+      "id": "netease-track:16640363",
+      "neteaseTrackId": "16640363",
+      "title": "U Hurt Me",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 322768
+    },
+    {
+      "id": "netease-track:16640364",
+      "neteaseTrackId": "16640364",
+      "title": "Gutted",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 283167
+    },
+    {
+      "id": "netease-track:16640365",
+      "neteaseTrackId": "16640365",
+      "title": "Forgive",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 187820
+    },
+    {
+      "id": "netease-track:16640366",
+      "neteaseTrackId": "16640366",
+      "title": "Broken Home",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 304666
+    },
+    {
+      "id": "netease-track:16640367",
+      "neteaseTrackId": "16640367",
+      "title": "Prayer",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 225488
+    },
+    {
+      "id": "netease-track:16640368",
+      "neteaseTrackId": "16640368",
+      "title": "Pirates",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 370964
+    },
+    {
+      "id": "netease-track:16640369",
+      "neteaseTrackId": "16640369",
+      "title": "Untitled",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 54648
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1533975",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Burial Burial",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

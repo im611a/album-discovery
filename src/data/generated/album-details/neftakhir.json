@@ -1,0 +1,208 @@
+{
+  "internalId": "album:222201",
+  "id": "album:222201",
+  "neteaseAlbumId": "222201",
+  "slug": "neftakhir",
+  "title": "Neftakhir",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2005-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Barraka El Farnatshi Prod.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222201.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222201.webp",
+    "alt": "《Neftakhir》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205339",
+      "neteaseTrackId": "2205339",
+      "title": "El B'Nia",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 297360
+    },
+    {
+      "id": "netease-track:2205342",
+      "neteaseTrackId": "2205342",
+      "title": "Babour",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 309800
+    },
+    {
+      "id": "netease-track:2205345",
+      "neteaseTrackId": "2205345",
+      "title": "Ghourba Mourra",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 364840
+    },
+    {
+      "id": "netease-track:2205348",
+      "neteaseTrackId": "2205348",
+      "title": "Al Insan",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 295960
+    },
+    {
+      "id": "netease-track:2205351",
+      "neteaseTrackId": "2205351",
+      "title": "From Mecca to Najaf",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 313906
+    },
+    {
+      "id": "netease-track:2205354",
+      "neteaseTrackId": "2205354",
+      "title": "Ya Sherel Beli",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 365626
+    },
+    {
+      "id": "netease-track:2205357",
+      "neteaseTrackId": "2205357",
+      "title": "Neftakhir (part I)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 227266
+    },
+    {
+      "id": "netease-track:2205360",
+      "neteaseTrackId": "2205360",
+      "title": "Neftakhir (part II)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 249933
+    },
+    {
+      "id": "netease-track:2205363",
+      "neteaseTrackId": "2205363",
+      "title": "El Baqara",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 238600
+    },
+    {
+      "id": "netease-track:2205365",
+      "neteaseTrackId": "2205365",
+      "title": "Tyran perdant",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 388160
+    },
+    {
+      "id": "netease-track:2205367",
+      "neteaseTrackId": "2205367",
+      "title": "Kafa",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 270880
+    },
+    {
+      "id": "netease-track:2205368",
+      "neteaseTrackId": "2205368",
+      "title": "Sidi Rabbi",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 290360
+    },
+    {
+      "id": "netease-track:2205370",
+      "neteaseTrackId": "2205370",
+      "title": "Litim",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 247040
+    },
+    {
+      "id": "netease-track:2205372",
+      "neteaseTrackId": "2205372",
+      "title": "Matkhafsh",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell"
+      ],
+      "durationMs": 360333
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=222201",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Neftakhir Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

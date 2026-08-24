@@ -28,8 +28,8 @@ function selectedProjection(result: DiscoveryResult) {
 
 afterEach(() => vi.unstubAllGlobals());
 
-describe("R13 deterministic explainable discovery engine", () => {
-  it("returns no self or duplicate selection for all 357 source albums", () => {
+describe("R13 deterministic explainable discovery engine", { timeout: 60_000 }, () => {
+  it("returns no self or duplicate selection for all 1,330 source albums", () => {
     for (const album of catalogAlbums) {
       const result = found(album.id);
       const targetIds = result.options.map((candidate) => candidate.targetAlbumId);

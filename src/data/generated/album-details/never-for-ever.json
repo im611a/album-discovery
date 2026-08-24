@@ -1,0 +1,175 @@
+{
+  "internalId": "album:1742053",
+  "id": "album:1742053",
+  "neteaseAlbumId": "1742053",
+  "slug": "never-for-ever",
+  "title": "Never for Ever",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "1980-09-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1742053.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1742053.webp",
+    "alt": "《Never for Ever》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19012372",
+      "neteaseTrackId": "19012372",
+      "title": "Babooshka",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 209933
+    },
+    {
+      "id": "netease-track:19012373",
+      "neteaseTrackId": "19012373",
+      "title": "Delius",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 171640
+    },
+    {
+      "id": "netease-track:19012374",
+      "neteaseTrackId": "19012374",
+      "title": "Blow Away",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 214693
+    },
+    {
+      "id": "netease-track:19012375",
+      "neteaseTrackId": "19012375",
+      "title": "All We Ever Look For",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 228933
+    },
+    {
+      "id": "netease-track:19012376",
+      "neteaseTrackId": "19012376",
+      "title": "Egypt",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 252173
+    },
+    {
+      "id": "netease-track:19012377",
+      "neteaseTrackId": "19012377",
+      "title": "The Wedding List",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 255733
+    },
+    {
+      "id": "netease-track:19012378",
+      "neteaseTrackId": "19012378",
+      "title": "Violin",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 195933
+    },
+    {
+      "id": "netease-track:19012379",
+      "neteaseTrackId": "19012379",
+      "title": "The Infant Kiss",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 170026
+    },
+    {
+      "id": "netease-track:19012380",
+      "neteaseTrackId": "19012380",
+      "title": "Night Scented Stock",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 51933
+    },
+    {
+      "id": "netease-track:19012381",
+      "neteaseTrackId": "19012381",
+      "title": "Army Dreamers",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 178700
+    },
+    {
+      "id": "netease-track:19012382",
+      "neteaseTrackId": "19012382",
+      "title": "Breathing",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 329800
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=1742053",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Never for Ever Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

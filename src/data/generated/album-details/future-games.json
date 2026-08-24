@@ -1,0 +1,142 @@
+{
+  "internalId": "album:260885",
+  "id": "album:260885",
+  "neteaseAlbumId": "260885",
+  "slug": "future-games",
+  "title": "Future Games",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1971-09-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260885.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260885.webp",
+    "alt": "《Future Games》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2590279",
+      "neteaseTrackId": "2590279",
+      "title": "Woman Of 1,000 Years",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 328466
+    },
+    {
+      "id": "netease-track:2590282",
+      "neteaseTrackId": "2590282",
+      "title": "Morning Rain",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 338906
+    },
+    {
+      "id": "netease-track:2590284",
+      "neteaseTrackId": "2590284",
+      "title": "What A Shame",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 140000
+    },
+    {
+      "id": "netease-track:2590287",
+      "neteaseTrackId": "2590287",
+      "title": "Future Games",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 498133
+    },
+    {
+      "id": "netease-track:2590290",
+      "neteaseTrackId": "2590290",
+      "title": "Sands Of Time",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 444000
+    },
+    {
+      "id": "netease-track:2590293",
+      "neteaseTrackId": "2590293",
+      "title": "Sometimes",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 326733
+    },
+    {
+      "id": "netease-track:2590297",
+      "neteaseTrackId": "2590297",
+      "title": "Lay It All Down",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 270693
+    },
+    {
+      "id": "netease-track:2590300",
+      "neteaseTrackId": "2590300",
+      "title": "Show Me A Smile",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 200840
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=260885",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Future Games Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

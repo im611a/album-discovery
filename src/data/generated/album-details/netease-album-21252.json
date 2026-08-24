@@ -1,0 +1,164 @@
+{
+  "internalId": "album:21252",
+  "id": "album:21252",
+  "neteaseAlbumId": "21252",
+  "slug": "netease-album-21252",
+  "title": "若你碰到他",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2009-08-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21252.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21252.webp",
+    "alt": "《若你碰到他》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:208898",
+      "neteaseTrackId": "208898",
+      "title": "轮流转",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 266573
+    },
+    {
+      "id": "netease-track:208900",
+      "neteaseTrackId": "208900",
+      "title": "谁",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 273586
+    },
+    {
+      "id": "netease-track:208901",
+      "neteaseTrackId": "208901",
+      "title": "抛物线",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 307506
+    },
+    {
+      "id": "netease-track:208902",
+      "neteaseTrackId": "208902",
+      "title": "红色高跟鞋",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 206586
+    },
+    {
+      "id": "netease-track:208903",
+      "neteaseTrackId": "208903",
+      "title": "男人",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 232280
+    },
+    {
+      "id": "netease-track:208905",
+      "neteaseTrackId": "208905",
+      "title": "生锈游乐场",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 237493
+    },
+    {
+      "id": "netease-track:208907",
+      "neteaseTrackId": "208907",
+      "title": "救生圈",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 208786
+    },
+    {
+      "id": "netease-track:208908",
+      "neteaseTrackId": "208908",
+      "title": "若你碰到他",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 333680
+    },
+    {
+      "id": "netease-track:208909",
+      "neteaseTrackId": "208909",
+      "title": "自由落体",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 217040
+    },
+    {
+      "id": "netease-track:208910",
+      "neteaseTrackId": "208910",
+      "title": "Only Love",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 231013
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=21252",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "若你碰到他 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

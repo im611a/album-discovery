@@ -35,7 +35,7 @@
 
 匹配必须同时综合标题或登记别名、完整艺人集合、发行年份和发行类型，并且候选可靠唯一。只有 `MATCHED_EXACT`、`MATCHED_ALIAS`、`MATCHED_STRONG` 可以发布评分或分类；其他状态保持空值。评分必须大于 0 且不超过 5，人数若存在必须是非负整数，非匹配记录不得携带评分。
 
-本次 5000 行输入覆盖 13 张可靠精确匹配专辑；13 张具有评分和评分人数，11 张具有 Secondary Genres，核心流派自动调整为 0。其余 344 张不发布 RYM 字段。Primary Genres 仅用于审计；Descriptors 在输入边界解析后丢弃，不进入前端。任何构建和浏览器路径都不会访问 RYM。
+本次 5000 行输入覆盖 13 张可靠精确匹配专辑；13 张具有评分和评分人数，11 张具有 Secondary Genres，核心流派自动调整为 0。其余 1,317 张不发布 RYM 字段。Primary Genres 仅用于审计；Descriptors 在输入边界解析后丢弃，不进入前端。任何构建和浏览器路径都不会访问 RYM。
 
 原始输入 SHA-256：`272cc798cb1d1058048500485d1668855d9a251bb19fef9e52beaae81a8ec6b7`。详细证据见 [RYM_ENRICHMENT_AUDIT.md](./RYM_ENRICHMENT_AUDIT.md)。
 

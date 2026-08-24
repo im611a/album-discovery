@@ -1,0 +1,165 @@
+{
+  "internalId": "album:23927",
+  "id": "album:23927",
+  "neteaseAlbumId": "23927",
+  "slug": "netease-album-23927",
+  "title": "红歌②",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2010-12-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "央金玛国际文化传媒(北京)有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23927.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23927.webp",
+    "alt": "《红歌②》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238685",
+      "neteaseTrackId": "238685",
+      "title": "我爱祖国的蓝天",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 205360
+    },
+    {
+      "id": "netease-track:238686",
+      "neteaseTrackId": "238686",
+      "title": "翻身农奴把歌唱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 332026
+    },
+    {
+      "id": "netease-track:238687",
+      "neteaseTrackId": "238687",
+      "title": "雁南飞",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 235133
+    },
+    {
+      "id": "netease-track:238689",
+      "neteaseTrackId": "238689",
+      "title": "我和我的祖国",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 248173
+    },
+    {
+      "id": "netease-track:238691",
+      "neteaseTrackId": "238691",
+      "title": "祖国不会忘记",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 225173
+    },
+    {
+      "id": "netease-track:238693",
+      "neteaseTrackId": "238693",
+      "title": "珊瑚颂",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 223185
+    },
+    {
+      "id": "netease-track:238695",
+      "neteaseTrackId": "238695",
+      "title": "多情的土地",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 252253
+    },
+    {
+      "id": "netease-track:238697",
+      "neteaseTrackId": "238697",
+      "title": "婚誓",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "韩红",
+        "孙楠"
+      ],
+      "durationMs": 291533
+    },
+    {
+      "id": "netease-track:238699",
+      "neteaseTrackId": "238699",
+      "title": "映山红",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 213160
+    },
+    {
+      "id": "netease-track:238701",
+      "neteaseTrackId": "238701",
+      "title": "故乡的云",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 358880
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=23927",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "红歌② 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

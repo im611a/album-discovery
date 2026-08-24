@@ -1,0 +1,164 @@
+{
+  "internalId": "album:151338",
+  "id": "album:151338",
+  "neteaseAlbumId": "151338",
+  "slug": "because-of-love",
+  "title": "Because Of Love",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1994-01-17",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "UMC (Universal Music Catalogue)",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151338.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151338.webp",
+    "alt": "《Because Of Love》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480740",
+      "neteaseTrackId": "1480740",
+      "title": "Because Of Love",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 255190
+    },
+    {
+      "id": "netease-track:1444903602",
+      "neteaseTrackId": "1444903602",
+      "title": "Because Of Love (Frankie & David 7\" Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 215400
+    },
+    {
+      "id": "netease-track:1480744",
+      "neteaseTrackId": "1480744",
+      "title": "Because Of Love (Frankie & David Classic 12'' Version)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 471829
+    },
+    {
+      "id": "netease-track:1444903603",
+      "neteaseTrackId": "1444903603",
+      "title": "Because Of Love (Frankie & David Trick Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 407280
+    },
+    {
+      "id": "netease-track:1444903604",
+      "neteaseTrackId": "1444903604",
+      "title": "Because Of Love (Frankie & David Treat Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 401110
+    },
+    {
+      "id": "netease-track:1480755",
+      "neteaseTrackId": "1480755",
+      "title": "Because Of Love (Frankie & David Dub)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 482533
+    },
+    {
+      "id": "netease-track:1480750",
+      "neteaseTrackId": "1480750",
+      "title": "Because Of Love (Muggs 7'' With Bass Intro)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 212636
+    },
+    {
+      "id": "netease-track:1444904442",
+      "neteaseTrackId": "1444904442",
+      "title": "Because Of Love (D&D Bentley Radio Mix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 241789
+    },
+    {
+      "id": "netease-track:1480747",
+      "neteaseTrackId": "1480747",
+      "title": "Because Of Love (D&D Extended Mix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 311116
+    },
+    {
+      "id": "netease-track:1480760",
+      "neteaseTrackId": "1480760",
+      "title": "Because Of Love (D&D Slow Version)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 273554
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=151338",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Because Of Love Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "internalId": "album:220780",
+  "id": "album:220780",
+  "neteaseAlbumId": "220780",
+  "slug": "b-day",
+  "title": "B'Day",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2006-08-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220780.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220780.webp",
+    "alt": "《B'Day》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2188991",
+      "neteaseTrackId": "2188991",
+      "title": "Déjà-vu",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "JAŸ-Z"
+      ],
+      "durationMs": 240349
+    },
+    {
+      "id": "netease-track:2188995",
+      "neteaseTrackId": "2188995",
+      "title": "Get Me Bodied",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 205814
+    },
+    {
+      "id": "netease-track:2189000",
+      "neteaseTrackId": "2189000",
+      "title": "Suga Mama",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 204869
+    },
+    {
+      "id": "netease-track:2189004",
+      "neteaseTrackId": "2189004",
+      "title": "Upgrade U",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "JAŸ-Z"
+      ],
+      "durationMs": 272764
+    },
+    {
+      "id": "netease-track:2189009",
+      "neteaseTrackId": "2189009",
+      "title": "Ring The Alarm",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 203337
+    },
+    {
+      "id": "netease-track:2189013",
+      "neteaseTrackId": "2189013",
+      "title": "Kitty Kat",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 235682
+    },
+    {
+      "id": "netease-track:2189015",
+      "neteaseTrackId": "2189015",
+      "title": "Freakum Dress",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 200597
+    },
+    {
+      "id": "netease-track:2189018",
+      "neteaseTrackId": "2189018",
+      "title": "Green Light",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 210256
+    },
+    {
+      "id": "netease-track:2189022",
+      "neteaseTrackId": "2189022",
+      "title": "Irreplaceable",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 227671
+    },
+    {
+      "id": "netease-track:2189026",
+      "neteaseTrackId": "2189026",
+      "title": "Resentment",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 280822
+    },
+    {
+      "id": "netease-track:2189036",
+      "neteaseTrackId": "2189036",
+      "title": "Encore For The Fans",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 39961
+    },
+    {
+      "id": "netease-track:2189042",
+      "neteaseTrackId": "2189042",
+      "title": "Listen (From the Motion Picture \"Dreamgirls\")",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 217826
+    },
+    {
+      "id": "netease-track:2189031",
+      "neteaseTrackId": "2189031",
+      "title": "Get Me Bodied (Extended Mix)",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 361488
+    },
+    {
+      "id": "netease-track:2189047",
+      "neteaseTrackId": "2189047",
+      "title": "Get Me Bodied (Hidden Mix)",
+      "trackNumber": 14,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 205814
+    },
+    {
+      "id": "netease-track:2189052",
+      "neteaseTrackId": "2189052",
+      "title": "Creole",
+      "trackNumber": 15,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 233247
+    },
+    {
+      "id": "netease-track:2189057",
+      "neteaseTrackId": "2189057",
+      "title": "Beautiful Liar",
+      "trackNumber": 16,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé",
+        "Shakira"
+      ],
+      "durationMs": 180692
+    },
+    {
+      "id": "netease-track:2189062",
+      "neteaseTrackId": "2189062",
+      "title": "Welcome To Hollywood",
+      "trackNumber": 17,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 198240
+    },
+    {
+      "id": "netease-track:2189067",
+      "neteaseTrackId": "2189067",
+      "title": "Flaws And All",
+      "trackNumber": 18,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 249173
+    },
+    {
+      "id": "netease-track:2189072",
+      "neteaseTrackId": "2189072",
+      "title": "Still In Love (Kissing You)",
+      "trackNumber": 19,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:2189077",
+      "neteaseTrackId": "2189077",
+      "title": "Get Me Bodied (Extended Mix)",
+      "trackNumber": 20,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 361047
+    },
+    {
+      "id": "netease-track:2189083",
+      "neteaseTrackId": "2189083",
+      "title": "Listen / World Wide Woman",
+      "trackNumber": 21,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 451000
+    },
+    {
+      "id": "netease-track:2189089",
+      "neteaseTrackId": "2189089",
+      "title": "World Wide Woman",
+      "trackNumber": 22,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 222013
+    },
+    {
+      "id": "netease-track:2189095",
+      "neteaseTrackId": "2189095",
+      "title": "If",
+      "trackNumber": 23,
+      "discNumber": 3,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 198321
+    }
+  ],
+  "trackCount": 23,
+  "externalUrl": "https://music.163.com/#/album?id=220780",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "B'Day Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

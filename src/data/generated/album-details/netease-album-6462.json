@@ -1,0 +1,551 @@
+{
+  "internalId": "album:6462",
+  "id": "album:6462",
+  "neteaseAlbumId": "6462",
+  "slug": "netease-album-6462",
+  "title": "我的最好时代",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2006-02-08",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "英皇唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6462.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6462.webp",
+    "alt": "《我的最好时代》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:65941",
+      "neteaseTrackId": "65941",
+      "title": "K歌之王",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 222351
+    },
+    {
+      "id": "netease-track:65944",
+      "neteaseTrackId": "65944",
+      "title": "十面埋伏",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 232133
+    },
+    {
+      "id": "netease-track:65947",
+      "neteaseTrackId": "65947",
+      "title": "岁月如歌",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 207851
+    },
+    {
+      "id": "netease-track:65952",
+      "neteaseTrackId": "65952",
+      "title": "明年今日",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 206117
+    },
+    {
+      "id": "netease-track:65954",
+      "neteaseTrackId": "65954",
+      "title": "打回原形",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 250934
+    },
+    {
+      "id": "netease-track:65958",
+      "neteaseTrackId": "65958",
+      "title": "Shall We Talk",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 227207
+    },
+    {
+      "id": "netease-track:65961",
+      "neteaseTrackId": "65961",
+      "title": "Lonely Christmas",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 280211
+    },
+    {
+      "id": "netease-track:65964",
+      "neteaseTrackId": "65964",
+      "title": "低等动物",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 259706
+    },
+    {
+      "id": "netease-track:65967",
+      "neteaseTrackId": "65967",
+      "title": "人来人往",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 234769
+    },
+    {
+      "id": "netease-track:65970",
+      "neteaseTrackId": "65970",
+      "title": "1874",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 230190
+    },
+    {
+      "id": "netease-track:65973",
+      "neteaseTrackId": "65973",
+      "title": "少见不怪",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 228942
+    },
+    {
+      "id": "netease-track:65976",
+      "neteaseTrackId": "65976",
+      "title": "单车",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 211251
+    },
+    {
+      "id": "netease-track:65979",
+      "neteaseTrackId": "65979",
+      "title": "绵绵",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 244066
+    },
+    {
+      "id": "netease-track:65982",
+      "neteaseTrackId": "65982",
+      "title": "猜情寻",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 246841
+    },
+    {
+      "id": "netease-track:65986",
+      "neteaseTrackId": "65986",
+      "title": "他一个人",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 264532
+    },
+    {
+      "id": "netease-track:65999",
+      "neteaseTrackId": "65999",
+      "title": "爱是怀疑",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 273893
+    },
+    {
+      "id": "netease-track:66003",
+      "neteaseTrackId": "66003",
+      "title": "随意门",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 246633
+    },
+    {
+      "id": "netease-track:66005",
+      "neteaseTrackId": "66005",
+      "title": "2001太空漫游",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 221600
+    },
+    {
+      "id": "netease-track:66013",
+      "neteaseTrackId": "66013",
+      "title": "King Kong",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 203619
+    },
+    {
+      "id": "netease-track:66015",
+      "neteaseTrackId": "66015",
+      "title": "打得火热",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 194115
+    },
+    {
+      "id": "netease-track:66017",
+      "neteaseTrackId": "66017",
+      "title": "第一类接触",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 178644
+    },
+    {
+      "id": "netease-track:66020",
+      "neteaseTrackId": "66020",
+      "title": "给爱丽斯",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 210904
+    },
+    {
+      "id": "netease-track:66022",
+      "neteaseTrackId": "66022",
+      "title": "幸灾乐祸",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 206256
+    },
+    {
+      "id": "netease-track:66025",
+      "neteaseTrackId": "66025",
+      "title": "阿士匹灵",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 227277
+    },
+    {
+      "id": "netease-track:66028",
+      "neteaseTrackId": "66028",
+      "title": "一疋布",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "小苦妹"
+      ],
+      "durationMs": 177546
+    },
+    {
+      "id": "netease-track:66032",
+      "neteaseTrackId": "66032",
+      "title": "小孩不懂怕",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 225126
+    },
+    {
+      "id": "netease-track:66036",
+      "neteaseTrackId": "66036",
+      "title": "谎言",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 249546
+    },
+    {
+      "id": "netease-track:66040",
+      "neteaseTrackId": "66040",
+      "title": "真相",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 200705
+    },
+    {
+      "id": "netease-track:66044",
+      "neteaseTrackId": "66044",
+      "title": "忘记歌词",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 213887
+    },
+    {
+      "id": "netease-track:66049",
+      "neteaseTrackId": "66049",
+      "title": "冲口而出",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 213124
+    },
+    {
+      "id": "netease-track:66053",
+      "neteaseTrackId": "66053",
+      "title": "一切还好",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 298318
+    },
+    {
+      "id": "netease-track:66056",
+      "neteaseTrackId": "66056",
+      "title": "万佛朝宗",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 293115
+    },
+    {
+      "id": "netease-track:66059",
+      "neteaseTrackId": "66059",
+      "title": "冤气",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 264185
+    },
+    {
+      "id": "netease-track:66062",
+      "neteaseTrackId": "66062",
+      "title": "八里公路",
+      "trackNumber": 34,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 290453
+    },
+    {
+      "id": "netease-track:66064",
+      "neteaseTrackId": "66064",
+      "title": "放下来",
+      "trackNumber": 35,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 193800
+    },
+    {
+      "id": "netease-track:66067",
+      "neteaseTrackId": "66067",
+      "title": "开不了心",
+      "trackNumber": 36,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 279386
+    },
+    {
+      "id": "netease-track:66070",
+      "neteaseTrackId": "66070",
+      "title": "Katrina",
+      "trackNumber": 37,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 230815
+    },
+    {
+      "id": "netease-track:66074",
+      "neteaseTrackId": "66074",
+      "title": "活着多好",
+      "trackNumber": 38,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 263630
+    },
+    {
+      "id": "netease-track:66078",
+      "neteaseTrackId": "66078",
+      "title": "热带雨林",
+      "trackNumber": 39,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 258080
+    },
+    {
+      "id": "netease-track:66082",
+      "neteaseTrackId": "66082",
+      "title": "失恋太少",
+      "trackNumber": 40,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 249066
+    },
+    {
+      "id": "netease-track:66085",
+      "neteaseTrackId": "66085",
+      "title": "人工智能",
+      "trackNumber": 41,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 222282
+    },
+    {
+      "id": "netease-track:66088",
+      "neteaseTrackId": "66088",
+      "title": "孤独探戈",
+      "trackNumber": 42,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 206256
+    },
+    {
+      "id": "netease-track:66091",
+      "neteaseTrackId": "66091",
+      "title": "天使的礼物",
+      "trackNumber": 43,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 202926
+    },
+    {
+      "id": "netease-track:66095",
+      "neteaseTrackId": "66095",
+      "title": "孤儿仔",
+      "trackNumber": 44,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "苦荣"
+      ],
+      "durationMs": 223040
+    },
+    {
+      "id": "netease-track:66099",
+      "neteaseTrackId": "66099",
+      "title": "呀边个边个",
+      "trackNumber": 45,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 185998
+    }
+  ],
+  "trackCount": 45,
+  "externalUrl": "https://music.163.com/#/album?id=6462",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "我的最好时代 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

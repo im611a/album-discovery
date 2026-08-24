@@ -1,0 +1,131 @@
+{
+  "internalId": "album:1970192",
+  "id": "album:1970192",
+  "neteaseAlbumId": "1970192",
+  "slug": "bag-s-groove",
+  "title": "Bag's Groove",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2011-02-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970192.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970192.webp",
+    "alt": "《Bag's Groove》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21334422",
+      "neteaseTrackId": "21334422",
+      "title": "Bag's Groove 1",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 677640
+    },
+    {
+      "id": "netease-track:21334423",
+      "neteaseTrackId": "21334423",
+      "title": "Bag's Groove 2",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 566666
+    },
+    {
+      "id": "netease-track:21334424",
+      "neteaseTrackId": "21334424",
+      "title": "Airegin",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 301933
+    },
+    {
+      "id": "netease-track:21334425",
+      "neteaseTrackId": "21334425",
+      "title": "Oleo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 315733
+    },
+    {
+      "id": "netease-track:21334426",
+      "neteaseTrackId": "21334426",
+      "title": "But Not for Me 2",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 347133
+    },
+    {
+      "id": "netease-track:21334427",
+      "neteaseTrackId": "21334427",
+      "title": "Doxy",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 293826
+    },
+    {
+      "id": "netease-track:21334428",
+      "neteaseTrackId": "21334428",
+      "title": "But Not for Me 1",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 279680
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1970192",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Bag's Groove Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

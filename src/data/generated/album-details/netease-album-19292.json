@@ -1,0 +1,166 @@
+{
+  "internalId": "album:19292",
+  "id": "album:19292",
+  "neteaseAlbumId": "19292",
+  "slug": "netease-album-19292",
+  "title": "最接近天堂的地方",
+  "aliases": [
+    "Stand Up"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "name": "张杰"
+    }
+  ],
+  "releaseDate": "2011-11-15",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "天娱传媒",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19292.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19292.webp",
+    "alt": "《最接近天堂的地方》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:190991",
+      "neteaseTrackId": "190991",
+      "title": "Marry Me",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 229320
+    },
+    {
+      "id": "netease-track:190993",
+      "neteaseTrackId": "190993",
+      "title": "第一夫人",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 221613
+    },
+    {
+      "id": "netease-track:190995",
+      "neteaseTrackId": "190995",
+      "title": "最接近天堂的地方",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 199920
+    },
+    {
+      "id": "netease-track:190999",
+      "neteaseTrackId": "190999",
+      "title": "火鸟",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 239813
+    },
+    {
+      "id": "netease-track:191003",
+      "neteaseTrackId": "191003",
+      "title": "对",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 227906
+    },
+    {
+      "id": "netease-track:191006",
+      "neteaseTrackId": "191006",
+      "title": "下一个自己",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 245533
+    },
+    {
+      "id": "netease-track:191011",
+      "neteaseTrackId": "191011",
+      "title": "让你依靠",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 263173
+    },
+    {
+      "id": "netease-track:191015",
+      "neteaseTrackId": "191015",
+      "title": "秋天的童话",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 241573
+    },
+    {
+      "id": "netease-track:191019",
+      "neteaseTrackId": "191019",
+      "title": "半透明的墙",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 259160
+    },
+    {
+      "id": "netease-track:191024",
+      "neteaseTrackId": "191024",
+      "title": "高飞",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 277200
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19292",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "最接近天堂的地方 Stand Up 张杰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

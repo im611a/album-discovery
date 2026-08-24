@@ -1,0 +1,142 @@
+{
+  "internalId": "album:47795",
+  "id": "album:47795",
+  "neteaseAlbumId": "47795",
+  "slug": "netease-album-47795",
+  "title": "B-2ユニット",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1994-09-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47795.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47795.webp",
+    "alt": "《B-2ユニット》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:501188",
+      "neteaseTrackId": "501188",
+      "title": "ディファレンシア",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 126171
+    },
+    {
+      "id": "netease-track:501194",
+      "neteaseTrackId": "501194",
+      "title": "ザットネス・アンド・ゼアネス",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:501200",
+      "neteaseTrackId": "501200",
+      "title": "パーティシペイション・ミスティーク",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 400000
+    },
+    {
+      "id": "netease-track:501205",
+      "neteaseTrackId": "501205",
+      "title": "E―3A",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 286000
+    },
+    {
+      "id": "netease-track:501210",
+      "neteaseTrackId": "501210",
+      "title": "アイコニック・ストーリッジ",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 283000
+    },
+    {
+      "id": "netease-track:501215",
+      "neteaseTrackId": "501215",
+      "title": "ライオット・イン・ラゴス",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 342000
+    },
+    {
+      "id": "netease-track:501220",
+      "neteaseTrackId": "501220",
+      "title": "ノット・ザ・6・オ・クロック・ニュース",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 304000
+    },
+    {
+      "id": "netease-track:501226",
+      "neteaseTrackId": "501226",
+      "title": "ジ・エンド・オブ・ヨーロッパ",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 296913
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=47795",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "B-2ユニット 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

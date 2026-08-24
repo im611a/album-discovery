@@ -1,0 +1,197 @@
+{
+  "internalId": "album:19025",
+  "id": "album:19025",
+  "neteaseAlbumId": "19025",
+  "slug": "netease-album-19025",
+  "title": "20世纪中华歌坛名人百集珍藏版",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1999-01-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "中国唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19025.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19025.webp",
+    "alt": "《20世纪中华歌坛名人百集珍藏版》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187726",
+      "neteaseTrackId": "187726",
+      "title": "惊梦",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 308000
+    },
+    {
+      "id": "netease-track:187729",
+      "neteaseTrackId": "187729",
+      "title": "拒绝再玩",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 210453
+    },
+    {
+      "id": "netease-track:187732",
+      "neteaseTrackId": "187732",
+      "title": "到未来日子",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 268360
+    },
+    {
+      "id": "netease-track:187736",
+      "neteaseTrackId": "187736",
+      "title": "为你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 292989
+    },
+    {
+      "id": "netease-track:187740",
+      "neteaseTrackId": "187740",
+      "title": "失散的影子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 352373
+    },
+    {
+      "id": "netease-track:187743",
+      "neteaseTrackId": "187743",
+      "title": "倩女幽魂",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217594
+    },
+    {
+      "id": "netease-track:187746",
+      "neteaseTrackId": "187746",
+      "title": "请勿越轨",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217720
+    },
+    {
+      "id": "netease-track:187748",
+      "neteaseTrackId": "187748",
+      "title": "无形锁扣",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 262466
+    },
+    {
+      "id": "netease-track:187750",
+      "neteaseTrackId": "187750",
+      "title": "无心睡眠",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 192680
+    },
+    {
+      "id": "netease-track:187753",
+      "neteaseTrackId": "187753",
+      "title": "够了",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 232280
+    },
+    {
+      "id": "netease-track:187756",
+      "neteaseTrackId": "187756",
+      "title": "情难自控",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 257973
+    },
+    {
+      "id": "netease-track:187759",
+      "neteaseTrackId": "187759",
+      "title": "妄想",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 248172
+    },
+    {
+      "id": "netease-track:187763",
+      "neteaseTrackId": "187763",
+      "title": "共同渡过",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 266200
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=19025",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "20世纪中华歌坛名人百集珍藏版 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

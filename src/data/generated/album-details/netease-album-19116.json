@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19116",
+  "id": "album:19116",
+  "neteaseAlbumId": "19116",
+  "slug": "netease-album-19116",
+  "title": "传奇 (Dance & Remix)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1987-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19116.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19116.webp",
+    "alt": "《传奇 (Dance & Remix)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188951",
+      "neteaseTrackId": "188951",
+      "title": "拒绝再玩 (Play Again Mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 315573
+    },
+    {
+      "id": "netease-track:188954",
+      "neteaseTrackId": "188954",
+      "title": "热辣辣 (Remix Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 299106
+    },
+    {
+      "id": "netease-track:188957",
+      "neteaseTrackId": "188957",
+      "title": "无心睡眠 (Whoo-Oh-0 Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 315053
+    },
+    {
+      "id": "netease-track:188959",
+      "neteaseTrackId": "188959",
+      "title": "妒忌 (LP Version)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 230666
+    },
+    {
+      "id": "netease-track:188962",
+      "neteaseTrackId": "188962",
+      "title": "爱的凶手 (Remix Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 330013
+    },
+    {
+      "id": "netease-track:188965",
+      "neteaseTrackId": "188965",
+      "title": "够了 (Enough's Enough Mix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 372613
+    },
+    {
+      "id": "netease-track:28442686",
+      "neteaseTrackId": "28442686",
+      "title": "侧面(Remix Version)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 379226
+    },
+    {
+      "id": "netease-track:28442687",
+      "neteaseTrackId": "28442687",
+      "title": "偏心(Extended Version)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 287360
+    },
+    {
+      "id": "netease-track:28442688",
+      "neteaseTrackId": "28442688",
+      "title": "暴风一族(Remix Version)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 335973
+    },
+    {
+      "id": "netease-track:28442689",
+      "neteaseTrackId": "28442689",
+      "title": "共创真善美",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 212213
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19116",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "传奇 (Dance & Remix) 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

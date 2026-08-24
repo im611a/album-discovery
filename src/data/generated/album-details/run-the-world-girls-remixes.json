@@ -1,0 +1,147 @@
+{
+  "internalId": "album:1801294",
+  "id": "album:1801294",
+  "neteaseAlbumId": "1801294",
+  "slug": "run-the-world-girls-remixes",
+  "title": "Run The World (Girls) [Remixes]",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2011-04-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1801294.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1801294.webp",
+    "alt": "《Run The World (Girls) [Remixes]》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:19550332",
+      "neteaseTrackId": "19550332",
+      "title": "Run the World (Girls)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 236146
+    },
+    {
+      "id": "netease-track:29966269",
+      "neteaseTrackId": "29966269",
+      "title": "Run the World (Girls) (Album Version)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 284000
+    },
+    {
+      "id": "netease-track:29966271",
+      "neteaseTrackId": "29966271",
+      "title": "Run The World (Girls) (Kaskade Club Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Kaskade"
+      ],
+      "durationMs": 362986
+    },
+    {
+      "id": "netease-track:29966270",
+      "neteaseTrackId": "29966270",
+      "title": "Run The World (Girls) (RedTop Club Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 302427
+    },
+    {
+      "id": "netease-track:29966272",
+      "neteaseTrackId": "29966272",
+      "title": "Run The World (Girls) (Jochen Simms Club Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Jochen Simms"
+      ],
+      "durationMs": 377093
+    },
+    {
+      "id": "netease-track:405118892",
+      "neteaseTrackId": "405118892",
+      "title": "Run the World (Girls) (Chris Lake Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Chris Lake"
+      ],
+      "durationMs": 384847
+    },
+    {
+      "id": "netease-track:405118893",
+      "neteaseTrackId": "405118893",
+      "title": "Run the World (Girls) (Kito Remix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Kito"
+      ],
+      "durationMs": 217292
+    },
+    {
+      "id": "netease-track:405118894",
+      "neteaseTrackId": "405118894",
+      "title": "Run the World (Girls) (Billionaire Remix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé",
+        "Billionaire"
+      ],
+      "durationMs": 319878
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=1801294",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Run The World (Girls) [Remixes] Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "internalId": "album:29566",
+  "id": "album:29566",
+  "neteaseAlbumId": "29566",
+  "slug": "netease-album-29566",
+  "title": "原来我们都是爱着的",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "2012-08-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29566.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29566.webp",
+    "alt": "《原来我们都是爱着的》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:297882",
+      "neteaseTrackId": "297882",
+      "title": "原来我们都是爱着的",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 302253
+    },
+    {
+      "id": "netease-track:297883",
+      "neteaseTrackId": "297883",
+      "title": "让我送你花一朵",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 216333
+    },
+    {
+      "id": "netease-track:297884",
+      "neteaseTrackId": "297884",
+      "title": "Michelle的第一天",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 298466
+    },
+    {
+      "id": "netease-track:297885",
+      "neteaseTrackId": "297885",
+      "title": "阿茲海默",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 337826
+    },
+    {
+      "id": "netease-track:297886",
+      "neteaseTrackId": "297886",
+      "title": "可是我还是学不会",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 358333
+    },
+    {
+      "id": "netease-track:297887",
+      "neteaseTrackId": "297887",
+      "title": "小星星",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 246293
+    },
+    {
+      "id": "netease-track:297888",
+      "neteaseTrackId": "297888",
+      "title": "我只想安静的独自跳完一支舞",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 205200
+    },
+    {
+      "id": "netease-track:297889",
+      "neteaseTrackId": "297889",
+      "title": "如同爱一样的",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 201480
+    },
+    {
+      "id": "netease-track:297890",
+      "neteaseTrackId": "297890",
+      "title": "永远",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 255706
+    },
+    {
+      "id": "netease-track:297891",
+      "neteaseTrackId": "297891",
+      "title": "睡着了",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 270986
+    },
+    {
+      "id": "netease-track:297892",
+      "neteaseTrackId": "297892",
+      "title": "小星星的对话",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 217106
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=29566",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "原来我们都是爱着的 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

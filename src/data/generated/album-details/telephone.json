@@ -1,0 +1,262 @@
+{
+  "internalId": "album:295223",
+  "id": "album:295223",
+  "neteaseAlbumId": "295223",
+  "slug": "telephone",
+  "title": "Telephone",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:64147",
+      "neteaseArtistId": "64147",
+      "name": "Lady Gaga"
+    },
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2010-01-25",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Streamline, Kon Live, Cherrytree, Interscope",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/295223.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/295223.webp",
+    "alt": "《Telephone》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2923152",
+      "neteaseTrackId": "2923152",
+      "title": "Telephone",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 220589
+    },
+    {
+      "id": "netease-track:2923155",
+      "neteaseTrackId": "2923155",
+      "title": "Telephone (Alphabeat Remix Edit)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 289880
+    },
+    {
+      "id": "netease-track:2923158",
+      "neteaseTrackId": "2923158",
+      "title": "Telephone (Alphabeat Extended Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 401000
+    },
+    {
+      "id": "netease-track:2923161",
+      "neteaseTrackId": "2923161",
+      "title": "Telephone (DJ Dan Extended Vocal Remix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 360120
+    },
+    {
+      "id": "netease-track:2923164",
+      "neteaseTrackId": "2923164",
+      "title": "Telephone (DJ Dan Vocal Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 208000
+    },
+    {
+      "id": "netease-track:2923167",
+      "neteaseTrackId": "2923167",
+      "title": "Telephone (Dr. Rosen Main Remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 385880
+    },
+    {
+      "id": "netease-track:2923170",
+      "neteaseTrackId": "2923170",
+      "title": "Telephone (Electrolightz Remix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 267240
+    },
+    {
+      "id": "netease-track:2923174",
+      "neteaseTrackId": "2923174",
+      "title": "Bad Romance (DJ Paulo's Gaga Oh La-La Remix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga"
+      ],
+      "durationMs": 580000
+    },
+    {
+      "id": "netease-track:2923177",
+      "neteaseTrackId": "2923177",
+      "title": "Telephone (DJ. Dandub Remix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 385000
+    },
+    {
+      "id": "netease-track:2923180",
+      "neteaseTrackId": "2923180",
+      "title": "Telephone (Kaskade Extended Remix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 324413
+    },
+    {
+      "id": "netease-track:2923182",
+      "neteaseTrackId": "2923182",
+      "title": "Telephone (Kaskade Radio Remix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 222725
+    },
+    {
+      "id": "netease-track:2923184",
+      "neteaseTrackId": "2923184",
+      "title": "Telephone (Kaskade Dub Remix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 285000
+    },
+    {
+      "id": "netease-track:2923187",
+      "neteaseTrackId": "2923187",
+      "title": "Telephone (Ming Extended Remix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 272560
+    },
+    {
+      "id": "netease-track:2923190",
+      "neteaseTrackId": "2923190",
+      "title": "Telephone (Ming Radio Remix)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 196000
+    },
+    {
+      "id": "netease-track:2923194",
+      "neteaseTrackId": "2923194",
+      "title": "Telephone (Ming Dub Remix)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 248000
+    },
+    {
+      "id": "netease-track:2923197",
+      "neteaseTrackId": "2923197",
+      "title": "Telephone (Tom Nevilles Ear Ringer Instrumental Remix)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 433000
+    },
+    {
+      "id": "netease-track:2923200",
+      "neteaseTrackId": "2923200",
+      "title": "Telephone (Tom Nevilles Ear Ringer Radio Remix)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Lady Gaga",
+        "Beyoncé"
+      ],
+      "durationMs": 260000
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=295223",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Telephone Lady Gaga Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

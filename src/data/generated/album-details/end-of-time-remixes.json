@@ -1,0 +1,153 @@
+{
+  "internalId": "album:220669",
+  "id": "album:220669",
+  "neteaseAlbumId": "220669",
+  "slug": "end-of-time-remixes",
+  "title": "End Of Time (Remixes)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48436",
+      "neteaseArtistId": "48436",
+      "name": "Beyoncé"
+    }
+  ],
+  "releaseDate": "2012-04-16",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Beyoncé",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/220669.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/220669.webp",
+    "alt": "《End Of Time (Remixes)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2187733",
+      "neteaseTrackId": "2187733",
+      "title": "End Of Time (Labor Of Love Dub Manny Lehman Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 479000
+    },
+    {
+      "id": "netease-track:2187736",
+      "neteaseTrackId": "2187736",
+      "title": "End Of Time (Labor Of Love Manny Lehman Remix)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 480000
+    },
+    {
+      "id": "netease-track:2187740",
+      "neteaseTrackId": "2187740",
+      "title": "End Of Time (RedTop Club Edit)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:2187743",
+      "neteaseTrackId": "2187743",
+      "title": "End Of Time (RedTop Radio Main)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:2187746",
+      "neteaseTrackId": "2187746",
+      "title": "End Of Time (WAWA Remix Extended)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 337000
+    },
+    {
+      "id": "netease-track:2187748",
+      "neteaseTrackId": "2187748",
+      "title": "End Of Time (WAWA Remix Radio Edit)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 193000
+    },
+    {
+      "id": "netease-track:2187751",
+      "neteaseTrackId": "2187751",
+      "title": "End Of Time (Wideboys Dub Remix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 302000
+    },
+    {
+      "id": "netease-track:2187754",
+      "neteaseTrackId": "2187754",
+      "title": "End Of Time (Wideboys Remix Club Edit)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 302000
+    },
+    {
+      "id": "netease-track:2187758",
+      "neteaseTrackId": "2187758",
+      "title": "End Of Time (Wideboys Remix Radio Edit)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Beyoncé"
+      ],
+      "durationMs": 204000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=220669",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "End Of Time (Remixes) Beyoncé",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

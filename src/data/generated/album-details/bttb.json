@@ -1,0 +1,230 @@
+{
+  "internalId": "album:47726",
+  "id": "album:47726",
+  "neteaseAlbumId": "47726",
+  "slug": "bttb",
+  "title": "BTTB",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1999-02-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47726.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47726.webp",
+    "alt": "《BTTB》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:500014",
+      "neteaseTrackId": "500014",
+      "title": "opus",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 265960
+    },
+    {
+      "id": "netease-track:500017",
+      "neteaseTrackId": "500017",
+      "title": "sonatine",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 218481
+    },
+    {
+      "id": "netease-track:500020",
+      "neteaseTrackId": "500020",
+      "title": "intermezzo",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 224515
+    },
+    {
+      "id": "netease-track:500025",
+      "neteaseTrackId": "500025",
+      "title": "lorenz and watson",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 236443
+    },
+    {
+      "id": "netease-track:500030",
+      "neteaseTrackId": "500030",
+      "title": "choral no.1",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 147306
+    },
+    {
+      "id": "netease-track:500035",
+      "neteaseTrackId": "500035",
+      "title": "choral no.2",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 124520
+    },
+    {
+      "id": "netease-track:500039",
+      "neteaseTrackId": "500039",
+      "title": "do bacteria sleep?",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 257470
+    },
+    {
+      "id": "netease-track:500043",
+      "neteaseTrackId": "500043",
+      "title": "bachata",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 494062
+    },
+    {
+      "id": "netease-track:500047",
+      "neteaseTrackId": "500047",
+      "title": "chanson",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 143423
+    },
+    {
+      "id": "netease-track:500051",
+      "neteaseTrackId": "500051",
+      "title": "distant echo",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 353216
+    },
+    {
+      "id": "netease-track:500056",
+      "neteaseTrackId": "500056",
+      "title": "prelude",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 248826
+    },
+    {
+      "id": "netease-track:500061",
+      "neteaseTrackId": "500061",
+      "title": "sonata",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 210600
+    },
+    {
+      "id": "netease-track:500066",
+      "neteaseTrackId": "500066",
+      "title": "uetax",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 26226
+    },
+    {
+      "id": "netease-track:500071",
+      "neteaseTrackId": "500071",
+      "title": "aqua",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 270281
+    },
+    {
+      "id": "netease-track:500076",
+      "neteaseTrackId": "500076",
+      "title": "snake eyes",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 367632
+    },
+    {
+      "id": "netease-track:500081",
+      "neteaseTrackId": "500081",
+      "title": "tong poo",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 303360
+    }
+  ],
+  "trackCount": 16,
+  "externalUrl": "https://music.163.com/#/album?id=47726",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "BTTB 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

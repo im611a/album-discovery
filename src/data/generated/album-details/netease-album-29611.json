@@ -1,0 +1,164 @@
+{
+  "internalId": "album:29611",
+  "id": "album:29611",
+  "neteaseAlbumId": "29611",
+  "slug": "netease-album-29611",
+  "title": "断线",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1994-08-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29611.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29611.webp",
+    "alt": "《断线》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298444",
+      "neteaseTrackId": "298444",
+      "title": "爱上你给的痛",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 243173
+    },
+    {
+      "id": "netease-track:298446",
+      "neteaseTrackId": "298446",
+      "title": "断线",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 248546
+    },
+    {
+      "id": "netease-track:298448",
+      "neteaseTrackId": "298448",
+      "title": "飞",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 317000
+    },
+    {
+      "id": "netease-track:298450",
+      "neteaseTrackId": "298450",
+      "title": "逆风的吻",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 291173
+    },
+    {
+      "id": "netease-track:298453",
+      "neteaseTrackId": "298453",
+      "title": "椅子",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 312493
+    },
+    {
+      "id": "netease-track:298456",
+      "neteaseTrackId": "298456",
+      "title": "新不了情",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 268173
+    },
+    {
+      "id": "netease-track:298459",
+      "neteaseTrackId": "298459",
+      "title": "情伤意乱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 311493
+    },
+    {
+      "id": "netease-track:298462",
+      "neteaseTrackId": "298462",
+      "title": "云和风",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 298333
+    },
+    {
+      "id": "netease-track:298465",
+      "neteaseTrackId": "298465",
+      "title": "不应该的等待",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 300506
+    },
+    {
+      "id": "netease-track:298468",
+      "neteaseTrackId": "298468",
+      "title": "我就是爱你",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 232333
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29611",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "断线 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

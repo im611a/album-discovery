@@ -1,0 +1,109 @@
+{
+  "internalId": "album:499946",
+  "id": "album:499946",
+  "neteaseAlbumId": "499946",
+  "slug": "walkin",
+  "title": "Walkin'",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1956-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Prestige/OJC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/499946.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/499946.webp",
+    "alt": "《Walkin'》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5033604",
+      "neteaseTrackId": "5033604",
+      "title": "Walkin'",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 808333
+    },
+    {
+      "id": "netease-track:5033606",
+      "neteaseTrackId": "5033606",
+      "title": "Blue 'N' Boogie",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 498996
+    },
+    {
+      "id": "netease-track:5033608",
+      "neteaseTrackId": "5033608",
+      "title": "Solar",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 286325
+    },
+    {
+      "id": "netease-track:5033610",
+      "neteaseTrackId": "5033610",
+      "title": "You Don't Know What Love Is",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 261503
+    },
+    {
+      "id": "netease-track:5033612",
+      "neteaseTrackId": "5033612",
+      "title": "Love Me or Leave Me",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 416720
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=499946",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Walkin' Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

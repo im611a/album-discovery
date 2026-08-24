@@ -1,0 +1,164 @@
+{
+  "internalId": "album:20842",
+  "id": "album:20842",
+  "neteaseAlbumId": "20842",
+  "slug": "netease-album-20842",
+  "title": "天生歌姬",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7063",
+      "neteaseArtistId": "7063",
+      "name": "黄丽玲"
+    }
+  ],
+  "releaseDate": "2008-08-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "(P) 2008 Hit-Hope Music Ltd. / Avex Taiwan Inc.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/20842.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/20842.webp",
+    "alt": "《天生歌姬》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:205413",
+      "neteaseTrackId": "205413",
+      "title": "今晚你想念的人是不是我",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 246146
+    },
+    {
+      "id": "netease-track:205416",
+      "neteaseTrackId": "205416",
+      "title": "伪装",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 261413
+    },
+    {
+      "id": "netease-track:205419",
+      "neteaseTrackId": "205419",
+      "title": "做我自己",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 214853
+    },
+    {
+      "id": "netease-track:205421",
+      "neteaseTrackId": "205421",
+      "title": "P.S.我爱你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 255680
+    },
+    {
+      "id": "netease-track:205423",
+      "neteaseTrackId": "205423",
+      "title": "Love will live forever",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 209573
+    },
+    {
+      "id": "netease-track:205424",
+      "neteaseTrackId": "205424",
+      "title": "爱归你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 249613
+    },
+    {
+      "id": "netease-track:205425",
+      "neteaseTrackId": "205425",
+      "title": "Shine",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 271333
+    },
+    {
+      "id": "netease-track:205427",
+      "neteaseTrackId": "205427",
+      "title": "难得",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 269666
+    },
+    {
+      "id": "netease-track:205429",
+      "neteaseTrackId": "205429",
+      "title": "离开的时候",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 212586
+    },
+    {
+      "id": "netease-track:205432",
+      "neteaseTrackId": "205432",
+      "title": "樱花湖",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "黄丽玲"
+      ],
+      "durationMs": 273533
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=20842",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "天生歌姬 黄丽玲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

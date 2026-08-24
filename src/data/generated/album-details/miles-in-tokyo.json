@@ -1,0 +1,131 @@
+{
+  "internalId": "album:1970567",
+  "id": "album:1970567",
+  "neteaseAlbumId": "1970567",
+  "slug": "miles-in-tokyo",
+  "title": "Miles In Tokyo",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1964-07-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970567.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970567.webp",
+    "alt": "《Miles In Tokyo》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21340494",
+      "neteaseTrackId": "21340494",
+      "title": "Introduction by Teruo Isono (Live)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 70191
+    },
+    {
+      "id": "netease-track:21340495",
+      "neteaseTrackId": "21340495",
+      "title": "If I Were a Bell (Live)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 615630
+    },
+    {
+      "id": "netease-track:21340496",
+      "neteaseTrackId": "21340496",
+      "title": "My Funny Valentine (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 768603
+    },
+    {
+      "id": "netease-track:21340497",
+      "neteaseTrackId": "21340497",
+      "title": "So What (Live)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 483694
+    },
+    {
+      "id": "netease-track:21340498",
+      "neteaseTrackId": "21340498",
+      "title": "Walkin' (Live)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 551915
+    },
+    {
+      "id": "netease-track:21340499",
+      "neteaseTrackId": "21340499",
+      "title": "All of You (Live)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 678426
+    },
+    {
+      "id": "netease-track:21340500",
+      "neteaseTrackId": "21340500",
+      "title": "Go-Go (Theme and Announcement) (Live)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 80587
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=1970567",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles In Tokyo Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

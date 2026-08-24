@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1720842",
+  "id": "album:1720842",
+  "neteaseAlbumId": "1720842",
+  "slug": "in-rainbows",
+  "title": "In Rainbows",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "2007-10-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "XL Recordings",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1720842.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1720842.webp",
+    "alt": "《In Rainbows》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18795448",
+      "neteaseTrackId": "18795448",
+      "title": "15 Step",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 237293
+    },
+    {
+      "id": "netease-track:18795449",
+      "neteaseTrackId": "18795449",
+      "title": "Bodysnatchers",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 242293
+    },
+    {
+      "id": "netease-track:18795450",
+      "neteaseTrackId": "18795450",
+      "title": "Nude",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 255386
+    },
+    {
+      "id": "netease-track:18795451",
+      "neteaseTrackId": "18795451",
+      "title": "Weird Fishes / Arpeggi",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 318186
+    },
+    {
+      "id": "netease-track:18795452",
+      "neteaseTrackId": "18795452",
+      "title": "All I Need",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 228746
+    },
+    {
+      "id": "netease-track:18795453",
+      "neteaseTrackId": "18795453",
+      "title": "Faust Arp",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 129680
+    },
+    {
+      "id": "netease-track:18795454",
+      "neteaseTrackId": "18795454",
+      "title": "Reckoner",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 290213
+    },
+    {
+      "id": "netease-track:18795455",
+      "neteaseTrackId": "18795455",
+      "title": "House Of Cards",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 328293
+    },
+    {
+      "id": "netease-track:18795456",
+      "neteaseTrackId": "18795456",
+      "title": "Jigsaw Falling Into Place",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 248893
+    },
+    {
+      "id": "netease-track:18795457",
+      "neteaseTrackId": "18795457",
+      "title": "Videotape",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 279634
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1720842",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "In Rainbows Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

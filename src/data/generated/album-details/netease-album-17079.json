@@ -1,0 +1,164 @@
+{
+  "internalId": "album:17079",
+  "id": "album:17079",
+  "neteaseAlbumId": "17079",
+  "slug": "netease-album-17079",
+  "title": "你过得好吗",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5781",
+      "neteaseArtistId": "5781",
+      "name": "薛之谦"
+    }
+  ],
+  "releaseDate": "2007-07-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "潮石音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/17079.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/17079.webp",
+    "alt": "《你过得好吗》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:169221",
+      "neteaseTrackId": "169221",
+      "title": "苏黎世的从前",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 295546
+    },
+    {
+      "id": "netease-track:169223",
+      "neteaseTrackId": "169223",
+      "title": "你过得好吗",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 286613
+    },
+    {
+      "id": "netease-track:169225",
+      "neteaseTrackId": "169225",
+      "title": "爱情宣判",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 276333
+    },
+    {
+      "id": "netease-track:169227",
+      "neteaseTrackId": "169227",
+      "title": "朋友你们还好吗",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 282333
+    },
+    {
+      "id": "netease-track:169228",
+      "neteaseTrackId": "169228",
+      "title": "爱的期限",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 261986
+    },
+    {
+      "id": "netease-track:169229",
+      "neteaseTrackId": "169229",
+      "title": "马戏小丑",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 298853
+    },
+    {
+      "id": "netease-track:169230",
+      "neteaseTrackId": "169230",
+      "title": "倾城",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 231893
+    },
+    {
+      "id": "netease-track:169232",
+      "neteaseTrackId": "169232",
+      "title": "丢手绢",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 265853
+    },
+    {
+      "id": "netease-track:169234",
+      "neteaseTrackId": "169234",
+      "title": "续雪",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 280426
+    },
+    {
+      "id": "netease-track:169236",
+      "neteaseTrackId": "169236",
+      "title": "你过得好吗(伴奏)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "薛之谦"
+      ],
+      "durationMs": 287240
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=17079",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "你过得好吗 薛之谦",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

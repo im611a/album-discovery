@@ -1,0 +1,175 @@
+{
+  "internalId": "album:47608",
+  "id": "album:47608",
+  "neteaseAlbumId": "47608",
+  "slug": "tony-takitani",
+  "title": "Tony Takitani",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2005-07-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KAB America Inc.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47608.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47608.webp",
+    "alt": "《Tony Takitani》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:498206",
+      "neteaseTrackId": "498206",
+      "title": "DNA (Intro)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 703933
+    },
+    {
+      "id": "netease-track:498210",
+      "neteaseTrackId": "498210",
+      "title": "Solitude",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 294266
+    },
+    {
+      "id": "netease-track:498213",
+      "neteaseTrackId": "498213",
+      "title": "DNA",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 390733
+    },
+    {
+      "id": "netease-track:498217",
+      "neteaseTrackId": "498217",
+      "title": "Bottom",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 41200
+    },
+    {
+      "id": "netease-track:498222",
+      "neteaseTrackId": "498222",
+      "title": "Fotografia #1",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 212906
+    },
+    {
+      "id": "netease-track:498226",
+      "neteaseTrackId": "498226",
+      "title": "Fotografia #2",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 222640
+    },
+    {
+      "id": "netease-track:498233",
+      "neteaseTrackId": "498233",
+      "title": "Solitude-Short",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 154200
+    },
+    {
+      "id": "netease-track:498238",
+      "neteaseTrackId": "498238",
+      "title": "Harmonics #1",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 50106
+    },
+    {
+      "id": "netease-track:498243",
+      "neteaseTrackId": "498243",
+      "title": "Solitude - One Note",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 209173
+    },
+    {
+      "id": "netease-track:498249",
+      "neteaseTrackId": "498249",
+      "title": "Harmonics #2",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 60680
+    },
+    {
+      "id": "netease-track:498254",
+      "neteaseTrackId": "498254",
+      "title": "Solitude - Theme",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 245240
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=47608",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Tony Takitani 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

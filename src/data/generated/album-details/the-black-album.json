@@ -1,0 +1,142 @@
+{
+  "internalId": "album:184323",
+  "id": "album:184323",
+  "neteaseAlbumId": "184323",
+  "slug": "the-black-album",
+  "title": "The Black Album",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "1987-12-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Paisley Park",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184323.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184323.webp",
+    "alt": "《The Black Album》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1824492",
+      "neteaseTrackId": "1824492",
+      "title": "Le Grind",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 404200
+    },
+    {
+      "id": "netease-track:1824496",
+      "neteaseTrackId": "1824496",
+      "title": "Cindy C.",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 375266
+    },
+    {
+      "id": "netease-track:1824499",
+      "neteaseTrackId": "1824499",
+      "title": "Dead on It",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 277706
+    },
+    {
+      "id": "netease-track:1824502",
+      "neteaseTrackId": "1824502",
+      "title": "When 2 R in Love",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 239626
+    },
+    {
+      "id": "netease-track:1824505",
+      "neteaseTrackId": "1824505",
+      "title": "Bob George",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 336640
+    },
+    {
+      "id": "netease-track:1824509",
+      "neteaseTrackId": "1824509",
+      "title": "***********************",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 355733
+    },
+    {
+      "id": "netease-track:1824512",
+      "neteaseTrackId": "1824512",
+      "title": "2 Nigs United 4 West Compton",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 421466
+    },
+    {
+      "id": "netease-track:1824515",
+      "neteaseTrackId": "1824515",
+      "title": "Rockhard in a Funky Place",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 271680
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=184323",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Black Album Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

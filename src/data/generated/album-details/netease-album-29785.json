@@ -1,0 +1,209 @@
+{
+  "internalId": "album:29785",
+  "id": "album:29785",
+  "neteaseAlbumId": "29785",
+  "slug": "netease-album-29785",
+  "title": "十万个为什么？",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1993-09-06",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29785.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29785.webp",
+    "alt": "《十万个为什么？》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300547",
+      "neteaseTrackId": "300547",
+      "title": "流非飞",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 227493
+    },
+    {
+      "id": "netease-track:300551",
+      "neteaseTrackId": "300551",
+      "title": "Summer Of Love",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 277120
+    },
+    {
+      "id": "netease-track:300554",
+      "neteaseTrackId": "300554",
+      "title": "如风",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 270767
+    },
+    {
+      "id": "netease-track:300556",
+      "neteaseTrackId": "300556",
+      "title": "冷战",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 254426
+    },
+    {
+      "id": "netease-track:300559",
+      "neteaseTrackId": "300559",
+      "title": "长大",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 266253
+    },
+    {
+      "id": "netease-track:300566",
+      "neteaseTrackId": "300566",
+      "title": "若你真爱我",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 272506
+    },
+    {
+      "id": "netease-track:300569",
+      "neteaseTrackId": "300569",
+      "title": "动心",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 244293
+    },
+    {
+      "id": "netease-track:300571",
+      "neteaseTrackId": "300571",
+      "title": "雨天没有你",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 213840
+    },
+    {
+      "id": "netease-track:300573",
+      "neteaseTrackId": "300573",
+      "title": "诱惑我",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 239186
+    },
+    {
+      "id": "netease-track:300575",
+      "neteaseTrackId": "300575",
+      "title": "Do Do Da Da",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 227480
+    },
+    {
+      "id": "netease-track:300577",
+      "neteaseTrackId": "300577",
+      "title": "Do We Really Care",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 264840
+    },
+    {
+      "id": "netease-track:300578",
+      "neteaseTrackId": "300578",
+      "title": "如风(Autumn Version)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 270666
+    },
+    {
+      "id": "netease-track:300579",
+      "neteaseTrackId": "300579",
+      "title": "容易受伤的女人",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 261506
+    },
+    {
+      "id": "netease-track:300580",
+      "neteaseTrackId": "300580",
+      "title": "忘掉你像忘掉我",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 262773
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=29785",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "十万个为什么？ 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

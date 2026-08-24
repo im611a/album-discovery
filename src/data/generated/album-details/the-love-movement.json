@@ -1,0 +1,293 @@
+{
+  "internalId": "album:1506330",
+  "id": "album:1506330",
+  "neteaseAlbumId": "1506330",
+  "slug": "the-love-movement",
+  "title": "The Love Movement",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:27648",
+      "neteaseArtistId": "27648",
+      "name": "A Tribe Called Quest"
+    }
+  ],
+  "releaseDate": "1998-09-27",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1506330.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1506330.webp",
+    "alt": "《The Love Movement》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16330682",
+      "neteaseTrackId": "16330682",
+      "title": "Start It Up",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 198762
+    },
+    {
+      "id": "netease-track:16330683",
+      "neteaseTrackId": "16330683",
+      "title": "Find a Way",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 203128
+    },
+    {
+      "id": "netease-track:16330684",
+      "neteaseTrackId": "16330684",
+      "title": "Da Booty",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 200852
+    },
+    {
+      "id": "netease-track:16330685",
+      "neteaseTrackId": "16330685",
+      "title": "Steppin' It Up",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest",
+        "Busta Rhymes",
+        "Redman"
+      ],
+      "durationMs": 201990
+    },
+    {
+      "id": "netease-track:16330686",
+      "neteaseTrackId": "16330686",
+      "title": "Like It Like That",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 166835
+    },
+    {
+      "id": "netease-track:16330687",
+      "neteaseTrackId": "16330687",
+      "title": "Common Ground (Get It Goin' On)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 169853
+    },
+    {
+      "id": "netease-track:16330688",
+      "neteaseTrackId": "16330688",
+      "title": "4 Moms",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest",
+        "Spanky"
+      ],
+      "durationMs": 109064
+    },
+    {
+      "id": "netease-track:16330689",
+      "neteaseTrackId": "16330689",
+      "title": "His Name Is Mutty Ranks",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 116331
+    },
+    {
+      "id": "netease-track:16330690",
+      "neteaseTrackId": "16330690",
+      "title": "Give Me",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest",
+        "Noreaga"
+      ],
+      "durationMs": 232408
+    },
+    {
+      "id": "netease-track:16330691",
+      "neteaseTrackId": "16330691",
+      "title": "Pad & Pen",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Life",
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 203104
+    },
+    {
+      "id": "netease-track:16330692",
+      "neteaseTrackId": "16330692",
+      "title": "Busta's Lament",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 158801
+    },
+    {
+      "id": "netease-track:16330693",
+      "neteaseTrackId": "16330693",
+      "title": "Hot 4 U",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 195860
+    },
+    {
+      "id": "netease-track:16330694",
+      "neteaseTrackId": "16330694",
+      "title": "Against The World",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 238770
+    },
+    {
+      "id": "netease-track:16330695",
+      "neteaseTrackId": "16330695",
+      "title": "The Love",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 242996
+    },
+    {
+      "id": "netease-track:16330696",
+      "neteaseTrackId": "16330696",
+      "title": "Rock Rock Y'all",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Wordsworth",
+        "Jane Doe",
+        "Mos Def"
+      ],
+      "durationMs": 257555
+    },
+    {
+      "id": "netease-track:16330697",
+      "neteaseTrackId": "16330697",
+      "title": "Scenario (Remix)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 317811
+    },
+    {
+      "id": "netease-track:16330698",
+      "neteaseTrackId": "16330698",
+      "title": "Money Maker",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 262431
+    },
+    {
+      "id": "netease-track:16330699",
+      "neteaseTrackId": "16330699",
+      "title": "Hot *** (Album Version)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 168066
+    },
+    {
+      "id": "netease-track:16330700",
+      "neteaseTrackId": "16330700",
+      "title": "Oh My God (Remix)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 240558
+    },
+    {
+      "id": "netease-track:16330701",
+      "neteaseTrackId": "16330701",
+      "title": "Jazz (We've Got) (Re-Recording)",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "durationMs": 258693
+    },
+    {
+      "id": "netease-track:16330702",
+      "neteaseTrackId": "16330702",
+      "title": "One Two ****",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "A Tribe Called Quest",
+        "Busta Rhymes"
+      ],
+      "durationMs": 272277
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=1506330",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Love Movement A Tribe Called Quest",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

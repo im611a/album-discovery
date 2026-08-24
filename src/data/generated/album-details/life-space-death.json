@@ -1,0 +1,102 @@
+{
+  "internalId": "album:222217",
+  "id": "album:222217",
+  "neteaseAlbumId": "222217",
+  "slug": "life-space-death",
+  "title": "Life Space Death",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:48581",
+      "neteaseArtistId": "48581",
+      "name": "Bill Laswell"
+    }
+  ],
+  "releaseDate": "2002-09-23",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/222217.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/222217.webp",
+    "alt": "《Life Space Death》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2205512",
+      "neteaseTrackId": "2205512",
+      "title": "Life",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "近藤等則"
+      ],
+      "durationMs": 466000
+    },
+    {
+      "id": "netease-track:2205513",
+      "neteaseTrackId": "2205513",
+      "title": "Space",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "近藤等則"
+      ],
+      "durationMs": 391000
+    },
+    {
+      "id": "netease-track:2205514",
+      "neteaseTrackId": "2205514",
+      "title": "Death",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "近藤等則"
+      ],
+      "durationMs": 461000
+    },
+    {
+      "id": "netease-track:2205515",
+      "neteaseTrackId": "2205515",
+      "title": "Untitled Track",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Bill Laswell",
+        "近藤等則"
+      ],
+      "durationMs": 827000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=222217",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Life Space Death Bill Laswell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

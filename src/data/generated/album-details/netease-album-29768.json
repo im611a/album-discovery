@@ -1,0 +1,165 @@
+{
+  "internalId": "album:29768",
+  "id": "album:29768",
+  "neteaseAlbumId": "29768",
+  "slug": "netease-album-29768",
+  "title": "讨好自己",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1994-12-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29768.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29768.webp",
+    "alt": "《讨好自己》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300368",
+      "neteaseTrackId": "300368",
+      "title": "讨好自己",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 192066
+    },
+    {
+      "id": "netease-track:300371",
+      "neteaseTrackId": "300371",
+      "title": "蜜月期",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 249933
+    },
+    {
+      "id": "netease-track:300374",
+      "neteaseTrackId": "300374",
+      "title": "为非作歹",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 246853
+    },
+    {
+      "id": "netease-track:300377",
+      "neteaseTrackId": "300377",
+      "title": "我怕",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 240813
+    },
+    {
+      "id": "netease-track:300380",
+      "neteaseTrackId": "300380",
+      "title": "出路",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 240426
+    },
+    {
+      "id": "netease-track:300383",
+      "neteaseTrackId": "300383",
+      "title": "平凡最浪漫",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 263133
+    },
+    {
+      "id": "netease-track:300386",
+      "neteaseTrackId": "300386",
+      "title": "飘",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 234266
+    },
+    {
+      "id": "netease-track:300389",
+      "neteaseTrackId": "300389",
+      "title": "爱与痛的边缘",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 274160
+    },
+    {
+      "id": "netease-track:300392",
+      "neteaseTrackId": "300392",
+      "title": "背影",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 289400
+    },
+    {
+      "id": "netease-track:300395",
+      "neteaseTrackId": "300395",
+      "title": "天不变地变",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 291133
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29768",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "讨好自己 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

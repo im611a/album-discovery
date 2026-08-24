@@ -1,0 +1,98 @@
+{
+  "internalId": "album:39095",
+  "id": "album:39095",
+  "neteaseAlbumId": "39095",
+  "slug": "netease-album-39095",
+  "title": "指人儿乐队首张同名独立EP",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:13585",
+      "neteaseArtistId": "13585",
+      "name": "指人儿"
+    }
+  ],
+  "releaseDate": "2009-06-28",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/39095.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/39095.webp",
+    "alt": "《指人儿乐队首张同名独立EP》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:394729",
+      "neteaseTrackId": "394729",
+      "title": "翅膀",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "指人儿"
+      ],
+      "durationMs": 285280
+    },
+    {
+      "id": "netease-track:394724",
+      "neteaseTrackId": "394724",
+      "title": "指针",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "指人儿"
+      ],
+      "durationMs": 208560
+    },
+    {
+      "id": "netease-track:394727",
+      "neteaseTrackId": "394727",
+      "title": "宣言",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "指人儿"
+      ],
+      "durationMs": 245400
+    },
+    {
+      "id": "netease-track:394733",
+      "neteaseTrackId": "394733",
+      "title": "羁绊",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "指人儿"
+      ],
+      "durationMs": 282000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=39095",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "指人儿乐队首张同名独立EP 指人儿",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

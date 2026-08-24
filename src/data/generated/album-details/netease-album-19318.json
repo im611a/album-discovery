@@ -1,0 +1,164 @@
+{
+  "internalId": "album:19318",
+  "id": "album:19318",
+  "neteaseAlbumId": "19318",
+  "slug": "netease-album-19318",
+  "title": "明天过后",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6472",
+      "neteaseArtistId": "6472",
+      "name": "张杰"
+    }
+  ],
+  "releaseDate": "2008-09-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "天娱传媒",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19318.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19318.webp",
+    "alt": "《明天过后》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:191240",
+      "neteaseTrackId": "191240",
+      "title": "远走高飞",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 269986
+    },
+    {
+      "id": "netease-track:191244",
+      "neteaseTrackId": "191244",
+      "title": "恒星流星",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 271893
+    },
+    {
+      "id": "netease-track:191248",
+      "neteaseTrackId": "191248",
+      "title": "明天过后",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 237133
+    },
+    {
+      "id": "netease-track:191252",
+      "neteaseTrackId": "191252",
+      "title": "我们都一样",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 302986
+    },
+    {
+      "id": "netease-track:191254",
+      "neteaseTrackId": "191254",
+      "title": "天下",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 219093
+    },
+    {
+      "id": "netease-track:191256",
+      "neteaseTrackId": "191256",
+      "title": "回忆的独奏",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 253720
+    },
+    {
+      "id": "netease-track:191258",
+      "neteaseTrackId": "191258",
+      "title": "往事随风",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 309213
+    },
+    {
+      "id": "netease-track:191260",
+      "neteaseTrackId": "191260",
+      "title": "留言",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 241960
+    },
+    {
+      "id": "netease-track:191264",
+      "neteaseTrackId": "191264",
+      "title": "Cheer Up",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 192173
+    },
+    {
+      "id": "netease-track:191268",
+      "neteaseTrackId": "191268",
+      "title": "仰望星空",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张杰"
+      ],
+      "durationMs": 264840
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19318",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "明天过后 张杰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

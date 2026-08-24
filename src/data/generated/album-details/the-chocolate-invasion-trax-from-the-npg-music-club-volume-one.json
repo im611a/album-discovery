@@ -1,0 +1,165 @@
+{
+  "internalId": "album:184182",
+  "id": "album:184182",
+  "neteaseAlbumId": "184182",
+  "slug": "the-chocolate-invasion-trax-from-the-npg-music-club-volume-one",
+  "title": "The Chocolate Invasion (Trax From The NPG Music Club Volume One)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "2004-03-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184182.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184182.webp",
+    "alt": "《The Chocolate Invasion (Trax From The NPG Music Club Volume One)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1822448",
+      "neteaseTrackId": "1822448",
+      "title": "When Eye Lay My Hands On U",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 220914
+    },
+    {
+      "id": "netease-track:1822452",
+      "neteaseTrackId": "1822452",
+      "title": "Judas Smile",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 393253
+    },
+    {
+      "id": "netease-track:1822454",
+      "neteaseTrackId": "1822454",
+      "title": "Supercute",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 250868
+    },
+    {
+      "id": "netease-track:1822456",
+      "neteaseTrackId": "1822456",
+      "title": "Underneath the Cream",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 239862
+    },
+    {
+      "id": "netease-track:1822458",
+      "neteaseTrackId": "1822458",
+      "title": "My Medallion",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 307292
+    },
+    {
+      "id": "netease-track:1822461",
+      "neteaseTrackId": "1822461",
+      "title": "Vavoom",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 275435
+    },
+    {
+      "id": "netease-track:1822464",
+      "neteaseTrackId": "1822464",
+      "title": "High",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 305133
+    },
+    {
+      "id": "netease-track:1822467",
+      "neteaseTrackId": "1822467",
+      "title": "Sexmesexmenot",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 340497
+    },
+    {
+      "id": "netease-track:1822470",
+      "neteaseTrackId": "1822470",
+      "title": "Gamillah",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 189242
+    },
+    {
+      "id": "netease-track:1822473",
+      "neteaseTrackId": "1822473",
+      "title": "U Make My Sun Shine",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince",
+        "Angie Stone"
+      ],
+      "durationMs": 425644
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=184182",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Chocolate Invasion (Trax From The NPG Music Club Volume One) Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

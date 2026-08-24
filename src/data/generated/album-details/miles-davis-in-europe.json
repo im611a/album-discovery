@@ -1,0 +1,131 @@
+{
+  "internalId": "album:172666",
+  "id": "album:172666",
+  "neteaseAlbumId": "172666",
+  "slug": "miles-davis-in-europe",
+  "title": "Miles Davis In Europe",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2015-06-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Revolver Records",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172666.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172666.webp",
+    "alt": "《Miles Davis In Europe》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1703143",
+      "neteaseTrackId": "1703143",
+      "title": "Introduction by Andre Francis [Live Version]",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 46654
+    },
+    {
+      "id": "netease-track:1703145",
+      "neteaseTrackId": "1703145",
+      "title": "Autumn Leaves",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 832287
+    },
+    {
+      "id": "netease-track:1703149",
+      "neteaseTrackId": "1703149",
+      "title": "Milestones",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 556721
+    },
+    {
+      "id": "netease-track:1703151",
+      "neteaseTrackId": "1703151",
+      "title": "I Thought About You",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 704052
+    },
+    {
+      "id": "netease-track:1703154",
+      "neteaseTrackId": "1703154",
+      "title": "Joshua [Live Version]",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 686576
+    },
+    {
+      "id": "netease-track:1703157",
+      "neteaseTrackId": "1703157",
+      "title": "All Of You [Live Version]",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1009092
+    },
+    {
+      "id": "netease-track:1703160",
+      "neteaseTrackId": "1703160",
+      "title": "Walkin' [Live Version]",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 975464
+    }
+  ],
+  "trackCount": 7,
+  "externalUrl": "https://music.163.com/#/album?id=172666",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miles Davis In Europe Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

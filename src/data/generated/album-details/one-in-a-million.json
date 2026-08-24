@@ -1,0 +1,260 @@
+{
+  "internalId": "album:213560",
+  "id": "album:213560",
+  "neteaseAlbumId": "213560",
+  "slug": "one-in-a-million",
+  "title": "One In A Million",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:46520",
+      "neteaseArtistId": "46520",
+      "name": "Aaliyah"
+    }
+  ],
+  "releaseDate": "1996-08-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Blackground Records, LLC",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/213560.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/213560.webp",
+    "alt": "《One In A Million》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2120390",
+      "neteaseTrackId": "2120390",
+      "title": "Beats 4 Da Streets (Intro)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 130821
+    },
+    {
+      "id": "netease-track:2120393",
+      "neteaseTrackId": "2120393",
+      "title": "Hot Like Fire",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 263314
+    },
+    {
+      "id": "netease-track:2120396",
+      "neteaseTrackId": "2120396",
+      "title": "One In A Million",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 270760
+    },
+    {
+      "id": "netease-track:2120399",
+      "neteaseTrackId": "2120399",
+      "title": "A Girl Like You",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah",
+        "Treach"
+      ],
+      "durationMs": 262706
+    },
+    {
+      "id": "netease-track:2120402",
+      "neteaseTrackId": "2120402",
+      "title": "If Your Girl Only Knew",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 290960
+    },
+    {
+      "id": "netease-track:2120405",
+      "neteaseTrackId": "2120405",
+      "title": "Choosey Lover (Old School / New School)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 427866
+    },
+    {
+      "id": "netease-track:2120408",
+      "neteaseTrackId": "2120408",
+      "title": "Got To Give It Up",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah",
+        "Slick Rick"
+      ],
+      "durationMs": 281077
+    },
+    {
+      "id": "netease-track:2120411",
+      "neteaseTrackId": "2120411",
+      "title": "4 Page Letter",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 292400
+    },
+    {
+      "id": "netease-track:2120414",
+      "neteaseTrackId": "2120414",
+      "title": "Everything's Gonna Be Alright",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 289697
+    },
+    {
+      "id": "netease-track:2120416",
+      "neteaseTrackId": "2120416",
+      "title": "Giving You More",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 265665
+    },
+    {
+      "id": "netease-track:2120418",
+      "neteaseTrackId": "2120418",
+      "title": "I Gotcha' Back",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 173609
+    },
+    {
+      "id": "netease-track:2120420",
+      "neteaseTrackId": "2120420",
+      "title": "Never Givin' Up",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah",
+        "Tavarius Polk"
+      ],
+      "durationMs": 311745
+    },
+    {
+      "id": "netease-track:2120423",
+      "neteaseTrackId": "2120423",
+      "title": "Heartbroken",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 259108
+    },
+    {
+      "id": "netease-track:2120426",
+      "neteaseTrackId": "2120426",
+      "title": "Never Comin' Back",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 246099
+    },
+    {
+      "id": "netease-track:2120429",
+      "neteaseTrackId": "2120429",
+      "title": "Ladies In Da House",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah",
+        "Missy Elliott",
+        "Timbaland"
+      ],
+      "durationMs": 260884
+    },
+    {
+      "id": "netease-track:2120432",
+      "neteaseTrackId": "2120432",
+      "title": "The One I Gave My Heart To",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah"
+      ],
+      "durationMs": 270933
+    },
+    {
+      "id": "netease-track:2120435",
+      "neteaseTrackId": "2120435",
+      "title": "Came To Give Love (Outro)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah",
+        "Timbaland"
+      ],
+      "durationMs": 100293
+    },
+    {
+      "id": "netease-track:1871070188",
+      "neteaseTrackId": "1871070188",
+      "title": "Hot Like Fire (Timbaland's Groove Mix) (Bonus)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Aaliyah",
+        "Missy Elliott",
+        "Timbaland"
+      ],
+      "durationMs": 275250
+    }
+  ],
+  "trackCount": 18,
+  "externalUrl": "https://music.163.com/#/album?id=213560",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "One In A Million Aaliyah",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

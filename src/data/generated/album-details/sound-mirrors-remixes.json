@@ -1,0 +1,210 @@
+{
+  "internalId": "album:1574646",
+  "id": "album:1574646",
+  "neteaseAlbumId": "1574646",
+  "slug": "sound-mirrors-remixes",
+  "title": "Sound Mirrors Remixes",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:50946",
+      "neteaseArtistId": "50946",
+      "name": "Coldcut"
+    }
+  ],
+  "releaseDate": "2006-10-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Ninja Tune",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1574646.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1574646.webp",
+    "alt": "《Sound Mirrors Remixes》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17084389",
+      "neteaseTrackId": "17084389",
+      "title": "True Skool (Spank Rock mix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Roots Manuva"
+      ],
+      "durationMs": 295549
+    },
+    {
+      "id": "netease-track:17084390",
+      "neteaseTrackId": "17084390",
+      "title": "Everything Is Under Control (Theory 0.1)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Mike Ladd & Jon Spencer"
+      ],
+      "durationMs": 299520
+    },
+    {
+      "id": "netease-track:17084391",
+      "neteaseTrackId": "17084391",
+      "title": "Everything Is Under Control (The Qemists Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Mike Ladd & Jon Spencer"
+      ],
+      "durationMs": 330013
+    },
+    {
+      "id": "netease-track:17084392",
+      "neteaseTrackId": "17084392",
+      "title": "True Skool (Sway clean Mix)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Roots Manuva"
+      ],
+      "durationMs": 208979
+    },
+    {
+      "id": "netease-track:17084393",
+      "neteaseTrackId": "17084393",
+      "title": "Man In A Garage (Snap Ant Version)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "John Matthias"
+      ],
+      "durationMs": 259657
+    },
+    {
+      "id": "netease-track:17084395",
+      "neteaseTrackId": "17084395",
+      "title": "Everything Is Under Control (DJ Kentaro remix)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Mike Ladd & Jon Spencer"
+      ],
+      "durationMs": 217913
+    },
+    {
+      "id": "netease-track:17084396",
+      "neteaseTrackId": "17084396",
+      "title": "True Skool (Switch mix)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Roots Manuva"
+      ],
+      "durationMs": 380839
+    },
+    {
+      "id": "netease-track:17084397",
+      "neteaseTrackId": "17084397",
+      "title": "Walk A Mile In My Shoes (Tiga mix)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Robert Owens"
+      ],
+      "durationMs": 411813
+    },
+    {
+      "id": "netease-track:17084398",
+      "neteaseTrackId": "17084398",
+      "title": "Everything Is Under Control (Solid Groove Dub)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Mike Ladd & Jon Spencer"
+      ],
+      "durationMs": 433057
+    },
+    {
+      "id": "netease-track:17084399",
+      "neteaseTrackId": "17084399",
+      "title": "The State We're In (Badass Mix)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Automato"
+      ],
+      "durationMs": 222563
+    },
+    {
+      "id": "netease-track:17084394",
+      "neteaseTrackId": "17084394",
+      "title": "Man In A Garage (Nick Franglen Lemon Jelly remix)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "John Matthias"
+      ],
+      "durationMs": 423366
+    },
+    {
+      "id": "netease-track:17084400",
+      "neteaseTrackId": "17084400",
+      "title": "Man In A Garage (Daedelus Hydraulic remix)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "John Matthias"
+      ],
+      "durationMs": 265377
+    },
+    {
+      "id": "netease-track:17084401",
+      "neteaseTrackId": "17084401",
+      "title": "Walk A Mile In My Shoes (Henrik Schwarz Remix)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Coldcut",
+        "Robert Owens"
+      ],
+      "durationMs": 294840
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=1574646",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Sound Mirrors Remixes Coldcut",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

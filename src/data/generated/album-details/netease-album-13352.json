@@ -1,0 +1,251 @@
+{
+  "internalId": "album:13352",
+  "id": "album:13352",
+  "neteaseAlbumId": "13352",
+  "slug": "netease-album-13352",
+  "title": "贫民百万歌星",
+  "aliases": [
+    "Ghetto Superstar / 2009-2012 Best Single Collection"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:4479",
+      "neteaseArtistId": "4479",
+      "name": "MC HotDog 热狗"
+    }
+  ],
+  "releaseDate": "2012-07-12",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/13352.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/13352.webp",
+    "alt": "《贫民百万歌星》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:135021",
+      "neteaseTrackId": "135021",
+      "title": "贫民百万歌星(Intro)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 34373
+    },
+    {
+      "id": "netease-track:135022",
+      "neteaseTrackId": "135022",
+      "title": "贫民百万歌星",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:135023",
+      "neteaseTrackId": "135023",
+      "title": "不吃早餐才是一件很嘻哈的事",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗",
+        "蛋堡"
+      ],
+      "durationMs": 257506
+    },
+    {
+      "id": "netease-track:135024",
+      "neteaseTrackId": "135024",
+      "title": "和你巧遇在这里 SKIT",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 39000
+    },
+    {
+      "id": "netease-track:135025",
+      "neteaseTrackId": "135025",
+      "title": "轻熟女 27",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗",
+        "关彦淳"
+      ],
+      "durationMs": 275320
+    },
+    {
+      "id": "netease-track:135026",
+      "neteaseTrackId": "135026",
+      "title": "MC来了",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 222986
+    },
+    {
+      "id": "netease-track:135027",
+      "neteaseTrackId": "135027",
+      "title": "好无聊",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗",
+        "张震岳"
+      ],
+      "durationMs": 249000
+    },
+    {
+      "id": "netease-track:135028",
+      "neteaseTrackId": "135028",
+      "title": "离开",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗",
+        "张震岳"
+      ],
+      "durationMs": 291733
+    },
+    {
+      "id": "netease-track:135029",
+      "neteaseTrackId": "135029",
+      "title": "嗨嗨人生",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗",
+        "张震岳",
+        "关颖"
+      ],
+      "durationMs": 217000
+    },
+    {
+      "id": "netease-track:135030",
+      "neteaseTrackId": "135030",
+      "title": "散场之后 SKIT",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 65000
+    },
+    {
+      "id": "netease-track:135031",
+      "neteaseTrackId": "135031",
+      "title": "After Party",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗",
+        "Scottie"
+      ],
+      "durationMs": 251000
+    },
+    {
+      "id": "netease-track:135032",
+      "neteaseTrackId": "135032",
+      "title": "嘿嘿Taxi",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 246000
+    },
+    {
+      "id": "netease-track:135033",
+      "neteaseTrackId": "135033",
+      "title": "新闻快报 SKIT",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 26000
+    },
+    {
+      "id": "netease-track:135034",
+      "neteaseTrackId": "135034",
+      "title": "Live @ Legacy SKIT",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 36000
+    },
+    {
+      "id": "netease-track:135036",
+      "neteaseTrackId": "135036",
+      "title": "Party Like HotDog",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:135038",
+      "neteaseTrackId": "135038",
+      "title": "老子有钱",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗"
+      ],
+      "durationMs": 208000
+    },
+    {
+      "id": "netease-track:135040",
+      "neteaseTrackId": "135040",
+      "title": "Woman 27(Acoustic Version)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "MC HotDog 热狗",
+        "关颖"
+      ],
+      "durationMs": 261000
+    }
+  ],
+  "trackCount": 17,
+  "externalUrl": "https://music.163.com/#/album?id=13352",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "贫民百万歌星 Ghetto Superstar / 2009-2012 Best Single Collection MC HotDog 热狗",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

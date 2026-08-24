@@ -1,0 +1,197 @@
+{
+  "internalId": "album:47735",
+  "id": "album:47735",
+  "neteaseAlbumId": "47735",
+  "slug": "l-o-l-lack-of-love",
+  "title": "L.O.L. (Lack Of Love)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2000-11-07",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "KAB America Inc.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47735.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47735.webp",
+    "alt": "《L.O.L. (Lack Of Love)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:500204",
+      "neteaseTrackId": "500204",
+      "title": "Opening Theme",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 199733
+    },
+    {
+      "id": "netease-track:500209",
+      "neteaseTrackId": "500209",
+      "title": "Birth",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 127600
+    },
+    {
+      "id": "netease-track:500213",
+      "neteaseTrackId": "500213",
+      "title": "Artificial Paradise",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 724360
+    },
+    {
+      "id": "netease-track:500218",
+      "neteaseTrackId": "500218",
+      "title": "Transformation",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 118866
+    },
+    {
+      "id": "netease-track:500221",
+      "neteaseTrackId": "500221",
+      "title": "Mission",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 90240
+    },
+    {
+      "id": "netease-track:500224",
+      "neteaseTrackId": "500224",
+      "title": "Dream",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 84800
+    },
+    {
+      "id": "netease-track:500227",
+      "neteaseTrackId": "500227",
+      "title": "Unity",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 65160
+    },
+    {
+      "id": "netease-track:500232",
+      "neteaseTrackId": "500232",
+      "title": "Crisis",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 80640
+    },
+    {
+      "id": "netease-track:500237",
+      "neteaseTrackId": "500237",
+      "title": "Experiment",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 167066
+    },
+    {
+      "id": "netease-track:500241",
+      "neteaseTrackId": "500241",
+      "title": "Decision",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 133333
+    },
+    {
+      "id": "netease-track:500244",
+      "neteaseTrackId": "500244",
+      "title": "Change",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 108600
+    },
+    {
+      "id": "netease-track:500249",
+      "neteaseTrackId": "500249",
+      "title": "Storm",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 230426
+    },
+    {
+      "id": "netease-track:500252",
+      "neteaseTrackId": "500252",
+      "title": "Ending Theme",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 376133
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=47735",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "L.O.L. (Lack Of Love) 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

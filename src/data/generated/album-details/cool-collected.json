@@ -1,0 +1,197 @@
+{
+  "internalId": "album:172357",
+  "id": "album:172357",
+  "neteaseAlbumId": "172357",
+  "slug": "cool-collected",
+  "title": "Cool & Collected",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2006-09-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172357.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172357.webp",
+    "alt": "《Cool & Collected》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1699494",
+      "neteaseTrackId": "1699494",
+      "title": "So What",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 562991
+    },
+    {
+      "id": "netease-track:1699496",
+      "neteaseTrackId": "1699496",
+      "title": "Summertime",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 201000
+    },
+    {
+      "id": "netease-track:1699499",
+      "neteaseTrackId": "1699499",
+      "title": "Geneerique",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 170579
+    },
+    {
+      "id": "netease-track:1699503",
+      "neteaseTrackId": "1699503",
+      "title": "Stella by Starlight",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 283600
+    },
+    {
+      "id": "netease-track:1699507",
+      "neteaseTrackId": "1699507",
+      "title": "Fran-Dance - (alternate take)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351898
+    },
+    {
+      "id": "netease-track:1699511",
+      "neteaseTrackId": "1699511",
+      "title": "Milestones",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 340064
+    },
+    {
+      "id": "netease-track:1699515",
+      "neteaseTrackId": "1699515",
+      "title": "'Round Midnight",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 357224
+    },
+    {
+      "id": "netease-track:1699519",
+      "neteaseTrackId": "1699519",
+      "title": "Bye Bye Blackbird",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 475977
+    },
+    {
+      "id": "netease-track:1699523",
+      "neteaseTrackId": "1699523",
+      "title": "Seven Steps to Heaven",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 386000
+    },
+    {
+      "id": "netease-track:1699527",
+      "neteaseTrackId": "1699527",
+      "title": "Time After Time",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 220656
+    },
+    {
+      "id": "netease-track:1699529",
+      "neteaseTrackId": "1699529",
+      "title": "E.S.P.",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 330605
+    },
+    {
+      "id": "netease-track:1699531",
+      "neteaseTrackId": "1699531",
+      "title": "Human Nature",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 270994
+    },
+    {
+      "id": "netease-track:1699533",
+      "neteaseTrackId": "1699533",
+      "title": "It's About That Time - (Remix, previously unreleased)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 220969
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=172357",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Cool & Collected Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

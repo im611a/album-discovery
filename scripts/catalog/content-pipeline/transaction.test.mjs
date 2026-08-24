@@ -122,7 +122,7 @@ describe("Content Pipeline crash-consistent transaction", () => {
       await assertActualWriteSetBeforeAndCandidate(value);
       expect((await inspectTransaction(value.transactionRoot)).state).toBe("ROLLED_BACK");
     }
-  }, 30_000);
+  }, 120_000);
 
   it("recovers after a journal update failure and after an interrupted rollback", async () => {
     for (const scenario of ["journal:INSTALLED:1", "rollback"]) {

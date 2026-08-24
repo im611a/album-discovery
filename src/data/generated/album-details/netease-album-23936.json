@@ -1,0 +1,115 @@
+{
+  "internalId": "album:23936",
+  "id": "album:23936",
+  "neteaseAlbumId": "23936",
+  "slug": "netease-album-23936",
+  "title": "恋曲神话",
+  "aliases": [
+    "情歌对唱专辑"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:7891",
+      "neteaseArtistId": "7891",
+      "name": "韩红"
+    }
+  ],
+  "releaseDate": "2005-10-21",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "央金玛国际文化传媒(北京)有限公司",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/23936.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/23936.webp",
+    "alt": "《恋曲神话》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:238780",
+      "neteaseTrackId": "238780",
+      "title": "美丽的神话",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "韩红",
+        "孙楠"
+      ],
+      "durationMs": 299000
+    },
+    {
+      "id": "netease-track:238781",
+      "neteaseTrackId": "238781",
+      "title": "相爱多年",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "韩红",
+        "许志安"
+      ],
+      "durationMs": 316893
+    },
+    {
+      "id": "netease-track:238782",
+      "neteaseTrackId": "238782",
+      "title": "让爱做主",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "韩红",
+        "高明骏"
+      ],
+      "durationMs": 238253
+    },
+    {
+      "id": "netease-track:238783",
+      "neteaseTrackId": "238783",
+      "title": "我决定爱你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "韩红",
+        "李泉"
+      ],
+      "durationMs": 222853
+    },
+    {
+      "id": "netease-track:238784",
+      "neteaseTrackId": "238784",
+      "title": "神话",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "韩红"
+      ],
+      "durationMs": 265546
+    }
+  ],
+  "trackCount": 5,
+  "externalUrl": "https://music.163.com/#/album?id=23936",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "恋曲神话 情歌对唱专辑 韩红",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

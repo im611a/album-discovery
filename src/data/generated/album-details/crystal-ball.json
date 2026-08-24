@@ -1,0 +1,516 @@
+{
+  "internalId": "album:184243",
+  "id": "album:184243",
+  "neteaseAlbumId": "184243",
+  "slug": "crystal-ball",
+  "title": "Crystal Ball",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:41142",
+      "neteaseArtistId": "41142",
+      "name": "Prince"
+    }
+  ],
+  "releaseDate": "1998-01-28",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/184243.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/184243.webp",
+    "alt": "《Crystal Ball》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1823264",
+      "neteaseTrackId": "1823264",
+      "title": "Crystal Ball",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 627681
+    },
+    {
+      "id": "netease-track:1823269",
+      "neteaseTrackId": "1823269",
+      "title": "Dream Factory",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 187292
+    },
+    {
+      "id": "netease-track:1823275",
+      "neteaseTrackId": "1823275",
+      "title": "Acknowledge Me",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 327262
+    },
+    {
+      "id": "netease-track:1823280",
+      "neteaseTrackId": "1823280",
+      "title": "Ripopgodazippa",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 279057
+    },
+    {
+      "id": "netease-track:1823285",
+      "neteaseTrackId": "1823285",
+      "title": "Love Sign (Shock G's Silky Remix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 232000
+    },
+    {
+      "id": "netease-track:1823290",
+      "neteaseTrackId": "1823290",
+      "title": "Hide the Bone",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 303000
+    },
+    {
+      "id": "netease-track:1823294",
+      "neteaseTrackId": "1823294",
+      "title": "2morrow",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 253840
+    },
+    {
+      "id": "netease-track:1823298",
+      "neteaseTrackId": "1823298",
+      "title": "So Dark",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 314189
+    },
+    {
+      "id": "netease-track:1823302",
+      "neteaseTrackId": "1823302",
+      "title": "Movie Star",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 265705
+    },
+    {
+      "id": "netease-track:1823307",
+      "neteaseTrackId": "1823307",
+      "title": "Tell Me How U Wanna B Done",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 195349
+    },
+    {
+      "id": "netease-track:1823312",
+      "neteaseTrackId": "1823312",
+      "title": "Interactive",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 183182
+    },
+    {
+      "id": "netease-track:1823317",
+      "neteaseTrackId": "1823317",
+      "title": "Da Bang",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 199830
+    },
+    {
+      "id": "netease-track:1823322",
+      "neteaseTrackId": "1823322",
+      "title": "Calhoun Square",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 286302
+    },
+    {
+      "id": "netease-track:1823327",
+      "neteaseTrackId": "1823327",
+      "title": "What's My Name",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 183971
+    },
+    {
+      "id": "netease-track:1823331",
+      "neteaseTrackId": "1823331",
+      "title": "Crucial",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 306178
+    },
+    {
+      "id": "netease-track:1823335",
+      "neteaseTrackId": "1823335",
+      "title": "An Honest Man",
+      "trackNumber": 16,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 73430
+    },
+    {
+      "id": "netease-track:1823339",
+      "neteaseTrackId": "1823339",
+      "title": "****** Suicide",
+      "trackNumber": 17,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 219707
+    },
+    {
+      "id": "netease-track:1823342",
+      "neteaseTrackId": "1823342",
+      "title": "Cloreen Bacon Skin",
+      "trackNumber": 18,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 937482
+    },
+    {
+      "id": "netease-track:1823345",
+      "neteaseTrackId": "1823345",
+      "title": "Good Love",
+      "trackNumber": 19,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 295427
+    },
+    {
+      "id": "netease-track:1823348",
+      "neteaseTrackId": "1823348",
+      "title": "Strays of the World",
+      "trackNumber": 20,
+      "discNumber": 2,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 306944
+    },
+    {
+      "id": "netease-track:1823350",
+      "neteaseTrackId": "1823350",
+      "title": "Days of Wild",
+      "trackNumber": 21,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 558881
+    },
+    {
+      "id": "netease-track:1823354",
+      "neteaseTrackId": "1823354",
+      "title": "Last Heart",
+      "trackNumber": 22,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 181626
+    },
+    {
+      "id": "netease-track:1823358",
+      "neteaseTrackId": "1823358",
+      "title": "Poom Poom",
+      "trackNumber": 23,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 272091
+    },
+    {
+      "id": "netease-track:1823362",
+      "neteaseTrackId": "1823362",
+      "title": "She Gave Her Angels",
+      "trackNumber": 24,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 232826
+    },
+    {
+      "id": "netease-track:1823365",
+      "neteaseTrackId": "1823365",
+      "title": "18 & Over",
+      "trackNumber": 25,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 340334
+    },
+    {
+      "id": "netease-track:1823368",
+      "neteaseTrackId": "1823368",
+      "title": "The Ride",
+      "trackNumber": 26,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 313678
+    },
+    {
+      "id": "netease-track:1823371",
+      "neteaseTrackId": "1823371",
+      "title": "Get Loose",
+      "trackNumber": 27,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 211278
+    },
+    {
+      "id": "netease-track:1823374",
+      "neteaseTrackId": "1823374",
+      "title": "P. Control (Remix)",
+      "trackNumber": 28,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 359000
+    },
+    {
+      "id": "netease-track:1823378",
+      "neteaseTrackId": "1823378",
+      "title": "Make Your Mama Happy",
+      "trackNumber": 29,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 240790
+    },
+    {
+      "id": "netease-track:1823382",
+      "neteaseTrackId": "1823382",
+      "title": "Goodbye",
+      "trackNumber": 30,
+      "discNumber": 3,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 274506
+    },
+    {
+      "id": "netease-track:1823386",
+      "neteaseTrackId": "1823386",
+      "title": "The Truth",
+      "trackNumber": 31,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 214041
+    },
+    {
+      "id": "netease-track:1823390",
+      "neteaseTrackId": "1823390",
+      "title": "Don't Play Me",
+      "trackNumber": 32,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 168066
+    },
+    {
+      "id": "netease-track:1823394",
+      "neteaseTrackId": "1823394",
+      "title": "Circle of Amour",
+      "trackNumber": 33,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 283724
+    },
+    {
+      "id": "netease-track:1823398",
+      "neteaseTrackId": "1823398",
+      "title": "3rd Eye",
+      "trackNumber": 34,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 294011
+    },
+    {
+      "id": "netease-track:1823402",
+      "neteaseTrackId": "1823402",
+      "title": "Dionne",
+      "trackNumber": 35,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 194025
+    },
+    {
+      "id": "netease-track:1823406",
+      "neteaseTrackId": "1823406",
+      "title": "Man in a Uniform",
+      "trackNumber": 36,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 187756
+    },
+    {
+      "id": "netease-track:1823410",
+      "neteaseTrackId": "1823410",
+      "title": "Animal Kingdom",
+      "trackNumber": 37,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 241255
+    },
+    {
+      "id": "netease-track:1823414",
+      "neteaseTrackId": "1823414",
+      "title": "The Other Side of the Pillow",
+      "trackNumber": 38,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 201665
+    },
+    {
+      "id": "netease-track:1823417",
+      "neteaseTrackId": "1823417",
+      "title": "Fascination",
+      "trackNumber": 39,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 295000
+    },
+    {
+      "id": "netease-track:1823420",
+      "neteaseTrackId": "1823420",
+      "title": "One of Your Tears",
+      "trackNumber": 40,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 207354
+    },
+    {
+      "id": "netease-track:1823423",
+      "neteaseTrackId": "1823423",
+      "title": "Comeback",
+      "trackNumber": 41,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 119000
+    },
+    {
+      "id": "netease-track:1823427",
+      "neteaseTrackId": "1823427",
+      "title": "Welcome 2 the Dawn",
+      "trackNumber": 42,
+      "discNumber": 4,
+      "artists": [
+        "Prince"
+      ],
+      "durationMs": 197555
+    }
+  ],
+  "trackCount": 42,
+  "externalUrl": "https://music.163.com/#/album?id=184243",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Crystal Ball Prince",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

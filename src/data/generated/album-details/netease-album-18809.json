@@ -1,0 +1,201 @@
+{
+  "internalId": "album:18809",
+  "id": "album:18809",
+  "neteaseAlbumId": "18809",
+  "slug": "netease-album-18809",
+  "title": "梁山伯与祝英台 电影原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6389",
+      "neteaseArtistId": "6389",
+      "name": "姚谦"
+    },
+    {
+      "id": "netease-artist:11100",
+      "neteaseArtistId": "11100",
+      "name": "B.A.D"
+    },
+    {
+      "id": "netease-artist:9945",
+      "neteaseArtistId": "9945",
+      "name": "萧亚轩"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    }
+  ],
+  "releaseDate": "2003-08-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18809.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18809.webp",
+    "alt": "《梁山伯与祝英台 电影原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:185294",
+      "neteaseTrackId": "185294",
+      "title": "最美的新娘",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 90053
+    },
+    {
+      "id": "netease-track:185295",
+      "neteaseTrackId": "185295",
+      "title": "祝英台的好感",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 122800
+    },
+    {
+      "id": "netease-track:185296",
+      "neteaseTrackId": "185296",
+      "title": "暗示梁山伯",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 110000
+    },
+    {
+      "id": "netease-track:185297",
+      "neteaseTrackId": "185297",
+      "title": "女儿心兄弟情",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 60840
+    },
+    {
+      "id": "netease-track:185298",
+      "neteaseTrackId": "185298",
+      "title": "马文才",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "B.A.D"
+      ],
+      "durationMs": 102000
+    },
+    {
+      "id": "netease-track:185299",
+      "neteaseTrackId": "185299",
+      "title": "三载同窗",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 172013
+    },
+    {
+      "id": "netease-track:185300",
+      "neteaseTrackId": "185300",
+      "title": "你是我心中一句惊叹",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "萧亚轩"
+      ],
+      "durationMs": 243307
+    },
+    {
+      "id": "netease-track:185301",
+      "neteaseTrackId": "185301",
+      "title": "悬念与等待",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 178600
+    },
+    {
+      "id": "netease-track:185302",
+      "neteaseTrackId": "185302",
+      "title": "重逢与诀别",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 314333
+    },
+    {
+      "id": "netease-track:185303",
+      "neteaseTrackId": "185303",
+      "title": "此恨绵绵",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 450493
+    },
+    {
+      "id": "netease-track:185304",
+      "neteaseTrackId": "185304",
+      "title": "化蝶",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "姚谦"
+      ],
+      "durationMs": 352107
+    },
+    {
+      "id": "netease-track:185305",
+      "neteaseTrackId": "185305",
+      "title": "蝴蝶",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 261426
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=18809",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "梁山伯与祝英台 电影原声带 姚谦 B.A.D 萧亚轩 刘若英",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

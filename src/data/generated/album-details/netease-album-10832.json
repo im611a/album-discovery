@@ -1,0 +1,176 @@
+{
+  "internalId": "album:10832",
+  "id": "album:10832",
+  "neteaseAlbumId": "10832",
+  "slug": "netease-album-10832",
+  "title": "影子",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3689",
+      "neteaseArtistId": "3689",
+      "name": "李玖哲"
+    }
+  ],
+  "releaseDate": "2005-04-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10832.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10832.webp",
+    "alt": "《影子》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109276",
+      "neteaseTrackId": "109276",
+      "title": "影子",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 273000
+    },
+    {
+      "id": "netease-track:109280",
+      "neteaseTrackId": "109280",
+      "title": "洗牌",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 227000
+    },
+    {
+      "id": "netease-track:109283",
+      "neteaseTrackId": "109283",
+      "title": "无价快乐",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲",
+        "杨韵禾"
+      ],
+      "durationMs": 221000
+    },
+    {
+      "id": "netease-track:109287",
+      "neteaseTrackId": "109287",
+      "title": "好久好久不见",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 228000
+    },
+    {
+      "id": "netease-track:109293",
+      "neteaseTrackId": "109293",
+      "title": "都怪我",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 216555
+    },
+    {
+      "id": "netease-track:109297",
+      "neteaseTrackId": "109297",
+      "title": "Tell Me Why",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 258000
+    },
+    {
+      "id": "netease-track:109301",
+      "neteaseTrackId": "109301",
+      "title": "解脱",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 273493
+    },
+    {
+      "id": "netease-track:109305",
+      "neteaseTrackId": "109305",
+      "title": "柏拉图式想念",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 212000
+    },
+    {
+      "id": "netease-track:109309",
+      "neteaseTrackId": "109309",
+      "title": "第五街的诱惑",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "李玖哲"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:109313",
+      "neteaseTrackId": "109313",
+      "title": "弹错",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Gabe"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:109315",
+      "neteaseTrackId": "109315",
+      "title": "近情情怯",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Edward"
+      ],
+      "durationMs": 238000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=10832",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "影子 李玖哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

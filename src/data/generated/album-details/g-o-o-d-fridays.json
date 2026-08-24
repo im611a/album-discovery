@@ -1,0 +1,271 @@
+{
+  "internalId": "album:164101",
+  "id": "album:164101",
+  "neteaseAlbumId": "164101",
+  "slug": "g-o-o-d-fridays",
+  "title": "G.O.O.D. Fridays",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37520",
+      "neteaseArtistId": "37520",
+      "name": "Kanye West"
+    }
+  ],
+  "releaseDate": "2010-08-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "G.O.O.D. Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/164101.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/164101.webp",
+    "alt": "《G.O.O.D. Fridays》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1614563",
+      "neteaseTrackId": "1614563",
+      "title": "Power (Remix)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Swizz Beatz",
+        "JAŸ-Z",
+        "Kanye West"
+      ],
+      "durationMs": 309080
+    },
+    {
+      "id": "netease-track:1614566",
+      "neteaseTrackId": "1614566",
+      "title": "Monster",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Bon Iver",
+        "Rick Ross",
+        "JAŸ-Z",
+        "Kanye West",
+        "Nicki Minaj"
+      ],
+      "durationMs": 378893
+    },
+    {
+      "id": "netease-track:1614568",
+      "neteaseTrackId": "1614568",
+      "title": "Runaway Love (Remix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Raekwon",
+        "Justin Bieber"
+      ],
+      "durationMs": 287333
+    },
+    {
+      "id": "netease-track:1614572",
+      "neteaseTrackId": "1614572",
+      "title": "Devil In a New Dress",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Rick Ross",
+        "Kanye West"
+      ],
+      "durationMs": 172000
+    },
+    {
+      "id": "netease-track:1614576",
+      "neteaseTrackId": "1614576",
+      "title": "Good Friday",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Charlie Wilson",
+        "Kanye West",
+        "Common",
+        "Big Sean",
+        "Kid Cudi",
+        "Pusha T"
+      ],
+      "durationMs": 312816
+    },
+    {
+      "id": "netease-track:1614580",
+      "neteaseTrackId": "1614580",
+      "title": "Lord Lord Lord",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Charlie Wilson",
+        "Mos Def",
+        "Swizz Beatz",
+        "Kanye West",
+        "Raekwon"
+      ],
+      "durationMs": 450000
+    },
+    {
+      "id": "netease-track:1614584",
+      "neteaseTrackId": "1614584",
+      "title": "So Appalled",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "CyHi Da Prynce",
+        "Swizz Beatz",
+        "JAŸ-Z",
+        "RZA",
+        "Kanye West",
+        "Pusha T"
+      ],
+      "durationMs": 401815
+    },
+    {
+      "id": "netease-track:1614588",
+      "neteaseTrackId": "1614588",
+      "title": "Christian Dior Denim Flow",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kanye West",
+        "Ryan Leslie",
+        "Pusha T",
+        "John Legend",
+        "Lloyd Banks",
+        "Kid Cudi"
+      ],
+      "durationMs": 423000
+    },
+    {
+      "id": "netease-track:1614592",
+      "neteaseTrackId": "1614592",
+      "title": "Don’t Stop",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Child Rebel Soldier"
+      ],
+      "durationMs": 232000
+    },
+    {
+      "id": "netease-track:1614597",
+      "neteaseTrackId": "1614597",
+      "title": "Take One for the Team",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "CyHi Da Prynce",
+        "Kanye West",
+        "Keri Hilson",
+        "Pusha T"
+      ],
+      "durationMs": 376189
+    },
+    {
+      "id": "netease-track:1614602",
+      "neteaseTrackId": "1614602",
+      "title": "Don’t Look Down",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Lupe Fiasco",
+        "Mos Def",
+        "Kanye West",
+        "Big Sean"
+      ],
+      "durationMs": 354000
+    },
+    {
+      "id": "netease-track:1614607",
+      "neteaseTrackId": "1614607",
+      "title": "The Joy",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Charlie Wilson",
+        "Pete Rock",
+        "JAŸ-Z",
+        "Curtis Mayfield",
+        "Kanye West",
+        "Kid Cudi"
+      ],
+      "durationMs": 317920
+    },
+    {
+      "id": "netease-track:1614612",
+      "neteaseTrackId": "1614612",
+      "title": "Looking For Trouble",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "CyHi Da Prynce",
+        "Big Sean",
+        "J. Cole",
+        "Pusha T"
+      ],
+      "durationMs": 335000
+    },
+    {
+      "id": "netease-track:1614616",
+      "neteaseTrackId": "1614616",
+      "title": "Chain Heavy",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Talib Kweli",
+        "Consequence",
+        "Kanye West"
+      ],
+      "durationMs": 366837
+    },
+    {
+      "id": "netease-track:1614619",
+      "neteaseTrackId": "1614619",
+      "title": "Christmas in Harlem",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Jom Jones",
+        "CyHi Da Prynce",
+        "Vado",
+        "Cam'ron",
+        "Kanye West",
+        "Big Sean",
+        "Musiq Soulchild",
+        "Teyana Taylor",
+        "Pusha T"
+      ],
+      "durationMs": 391000
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=164101",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "G.O.O.D. Fridays Kanye West",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

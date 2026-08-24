@@ -1,0 +1,166 @@
+{
+  "internalId": "album:19120",
+  "id": "album:19120",
+  "neteaseAlbumId": "19120",
+  "slug": "summer-romance-87",
+  "title": "Summer Romance ’87",
+  "aliases": [
+    "浪漫"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1987-08-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19120.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19120.webp",
+    "alt": "《Summer Romance ’87》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188974",
+      "neteaseTrackId": "188974",
+      "title": "拒绝再玩",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217266
+    },
+    {
+      "id": "netease-track:188979",
+      "neteaseTrackId": "188979",
+      "title": "无心睡眠",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 193093
+    },
+    {
+      "id": "netease-track:188983",
+      "neteaseTrackId": "188983",
+      "title": "你在何地",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 304786
+    },
+    {
+      "id": "netease-track:188987",
+      "neteaseTrackId": "188987",
+      "title": "无形锁扣",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 263173
+    },
+    {
+      "id": "netease-track:188991",
+      "neteaseTrackId": "188991",
+      "title": "妄想",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 247160
+    },
+    {
+      "id": "netease-track:188995",
+      "neteaseTrackId": "188995",
+      "title": "共同渡过",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 267733
+    },
+    {
+      "id": "netease-track:188998",
+      "neteaseTrackId": "188998",
+      "title": "情难自控",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 255613
+    },
+    {
+      "id": "netease-track:189001",
+      "neteaseTrackId": "189001",
+      "title": "够了",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 232986
+    },
+    {
+      "id": "netease-track:189004",
+      "neteaseTrackId": "189004",
+      "title": "请勿越轨",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217720
+    },
+    {
+      "id": "netease-track:189007",
+      "neteaseTrackId": "189007",
+      "title": "倩女幽魂",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 217773
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19120",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Summer Romance ’87 浪漫 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

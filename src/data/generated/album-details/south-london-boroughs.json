@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1533981",
+  "id": "album:1533981",
+  "neteaseAlbumId": "1533981",
+  "slug": "south-london-boroughs",
+  "title": "South London Boroughs",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:29389",
+      "neteaseArtistId": "29389",
+      "name": "Burial"
+    }
+  ],
+  "releaseDate": "2005-05-15",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Hyperdub",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1533981.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1533981.webp",
+    "alt": "《South London Boroughs》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:16640396",
+      "neteaseTrackId": "16640396",
+      "title": "South London Boroughs",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 306826
+    },
+    {
+      "id": "netease-track:16640397",
+      "neteaseTrackId": "16640397",
+      "title": "Southern Comfort",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 301440
+    },
+    {
+      "id": "netease-track:16640399",
+      "neteaseTrackId": "16640399",
+      "title": "Broken Home",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 303226
+    },
+    {
+      "id": "netease-track:16640398",
+      "neteaseTrackId": "16640398",
+      "title": "Nite Train",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Burial"
+      ],
+      "durationMs": 258466
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1533981",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "electronic"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "South London Boroughs Burial",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

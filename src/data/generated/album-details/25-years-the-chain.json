@@ -1,0 +1,835 @@
+{
+  "internalId": "album:260776",
+  "id": "album:260776",
+  "neteaseAlbumId": "260776",
+  "slug": "25-years-the-chain",
+  "title": "25 Years The Chain",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:56788",
+      "neteaseArtistId": "56788",
+      "name": "Fleetwood Mac"
+    }
+  ],
+  "releaseDate": "1992-11-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/260776.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/260776.webp",
+    "alt": "《25 Years The Chain》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2588958",
+      "neteaseTrackId": "2588958",
+      "title": "Paper Doll",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 238946
+    },
+    {
+      "id": "netease-track:2588960",
+      "neteaseTrackId": "2588960",
+      "title": "Love Shines",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 287000
+    },
+    {
+      "id": "netease-track:2588962",
+      "neteaseTrackId": "2588962",
+      "title": "Stand Back (Live)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 302000
+    },
+    {
+      "id": "netease-track:2588964",
+      "neteaseTrackId": "2588964",
+      "title": "Crystal",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 313566
+    },
+    {
+      "id": "netease-track:2588965",
+      "neteaseTrackId": "2588965",
+      "title": "Isn't It Midnight (Alternate Mix)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:2588966",
+      "neteaseTrackId": "2588966",
+      "title": "Big Love",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 221933
+    },
+    {
+      "id": "netease-track:2588967",
+      "neteaseTrackId": "2588967",
+      "title": "Everywhere",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 227364
+    },
+    {
+      "id": "netease-track:2588969",
+      "neteaseTrackId": "2588969",
+      "title": "Affairs Of The Heart",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 262106
+    },
+    {
+      "id": "netease-track:2588971",
+      "neteaseTrackId": "2588971",
+      "title": "Heart Of Stone",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 279000
+    },
+    {
+      "id": "netease-track:2588973",
+      "neteaseTrackId": "2588973",
+      "title": "Sara (Full Length Version)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 392411
+    },
+    {
+      "id": "netease-track:2588975",
+      "neteaseTrackId": "2588975",
+      "title": "That's All For Everyone",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 182684
+    },
+    {
+      "id": "netease-track:2588978",
+      "neteaseTrackId": "2588978",
+      "title": "Over My Head",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:2588981",
+      "neteaseTrackId": "2588981",
+      "title": "Little Lies",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:2588984",
+      "neteaseTrackId": "2588984",
+      "title": "Eyes Of The World",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 222000
+    },
+    {
+      "id": "netease-track:2588987",
+      "neteaseTrackId": "2588987",
+      "title": "Oh Diane",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 153000
+    },
+    {
+      "id": "netease-track:2588989",
+      "neteaseTrackId": "2588989",
+      "title": "In The Back Of My Mind",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 421000
+    },
+    {
+      "id": "netease-track:2588992",
+      "neteaseTrackId": "2588992",
+      "title": "Make Me A Mask",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:2588995",
+      "neteaseTrackId": "2588995",
+      "title": "Save Me",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:2588997",
+      "neteaseTrackId": "2588997",
+      "title": "Goodbye Angel (Mirage Outtake)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 186000
+    },
+    {
+      "id": "netease-track:2589000",
+      "neteaseTrackId": "2589000",
+      "title": "Silver Springs",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:2589002",
+      "neteaseTrackId": "2589002",
+      "title": "What Makes You Think You're The One",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 210506
+    },
+    {
+      "id": "netease-track:2589005",
+      "neteaseTrackId": "2589005",
+      "title": "Think About Me",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 163959
+    },
+    {
+      "id": "netease-track:2589008",
+      "neteaseTrackId": "2589008",
+      "title": "Gypsy (Alternate Unedited Version)",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 321000
+    },
+    {
+      "id": "netease-track:2589011",
+      "neteaseTrackId": "2589011",
+      "title": "You Make Loving Fun",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 211000
+    },
+    {
+      "id": "netease-track:2589015",
+      "neteaseTrackId": "2589015",
+      "title": "Second Hand News (Alternate Mix)",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 169000
+    },
+    {
+      "id": "netease-track:2589019",
+      "neteaseTrackId": "2589019",
+      "title": "Love In Store (Alternate Mix)",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 203000
+    },
+    {
+      "id": "netease-track:2589024",
+      "neteaseTrackId": "2589024",
+      "title": "The Chain (Alternate Mix)",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 259552
+    },
+    {
+      "id": "netease-track:2589027",
+      "neteaseTrackId": "2589027",
+      "title": "Teen Beat",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 163000
+    },
+    {
+      "id": "netease-track:2589030",
+      "neteaseTrackId": "2589030",
+      "title": "Dreams (Alternate Mix)",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 258816
+    },
+    {
+      "id": "netease-track:2589033",
+      "neteaseTrackId": "2589033",
+      "title": "Only Over You",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 245000
+    },
+    {
+      "id": "netease-track:2589037",
+      "neteaseTrackId": "2589037",
+      "title": "I'm So Afraid (Live)",
+      "trackNumber": 31,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 447000
+    },
+    {
+      "id": "netease-track:2589040",
+      "neteaseTrackId": "2589040",
+      "title": "Love Is Dangerous",
+      "trackNumber": 32,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 198200
+    },
+    {
+      "id": "netease-track:2589043",
+      "neteaseTrackId": "2589043",
+      "title": "Gold Dust Woman (Alternate Mix)",
+      "trackNumber": 33,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 302000
+    },
+    {
+      "id": "netease-track:2589045",
+      "neteaseTrackId": "2589045",
+      "title": "Not That Funny (Live)",
+      "trackNumber": 34,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 476000
+    },
+    {
+      "id": "netease-track:2589048",
+      "neteaseTrackId": "2589048",
+      "title": "Warm Ways",
+      "trackNumber": 35,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 234826
+    },
+    {
+      "id": "netease-track:2589052",
+      "neteaseTrackId": "2589052",
+      "title": "Say You Love Me (Single Mix)",
+      "trackNumber": 36,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 225000
+    },
+    {
+      "id": "netease-track:2589055",
+      "neteaseTrackId": "2589055",
+      "title": "Don't Stop",
+      "trackNumber": 37,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 191760
+    },
+    {
+      "id": "netease-track:2589057",
+      "neteaseTrackId": "2589057",
+      "title": "Rhiannon",
+      "trackNumber": 38,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 250360
+    },
+    {
+      "id": "netease-track:2589061",
+      "neteaseTrackId": "2589061",
+      "title": "Walk A Thin Line",
+      "trackNumber": 39,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 225982
+    },
+    {
+      "id": "netease-track:2589066",
+      "neteaseTrackId": "2589066",
+      "title": "Storms",
+      "trackNumber": 40,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 327000
+    },
+    {
+      "id": "netease-track:2589071",
+      "neteaseTrackId": "2589071",
+      "title": "Go Your Own Way",
+      "trackNumber": 41,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 223613
+    },
+    {
+      "id": "netease-track:2589075",
+      "neteaseTrackId": "2589075",
+      "title": "Sisters Of The Moon",
+      "trackNumber": 42,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 282000
+    },
+    {
+      "id": "netease-track:2589079",
+      "neteaseTrackId": "2589079",
+      "title": "Monday Morning (Live)",
+      "trackNumber": 43,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 215000
+    },
+    {
+      "id": "netease-track:2589083",
+      "neteaseTrackId": "2589083",
+      "title": "Landslide",
+      "trackNumber": 44,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 198822
+    },
+    {
+      "id": "netease-track:2589088",
+      "neteaseTrackId": "2589088",
+      "title": "Hypnotized",
+      "trackNumber": 45,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 289466
+    },
+    {
+      "id": "netease-track:2589091",
+      "neteaseTrackId": "2589091",
+      "title": "Lay It All Down (Alternate Mix)",
+      "trackNumber": 46,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:2589094",
+      "neteaseTrackId": "2589094",
+      "title": "Angel (Alternate Mix)",
+      "trackNumber": 47,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 293581
+    },
+    {
+      "id": "netease-track:2589096",
+      "neteaseTrackId": "2589096",
+      "title": "Beautiful Child (Alternate Mix)",
+      "trackNumber": 48,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 320468
+    },
+    {
+      "id": "netease-track:2589098",
+      "neteaseTrackId": "2589098",
+      "title": "Brown Eyes (Alternate Mix)",
+      "trackNumber": 49,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 296000
+    },
+    {
+      "id": "netease-track:2589102",
+      "neteaseTrackId": "2589102",
+      "title": "Save Me A Place",
+      "trackNumber": 50,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 161989
+    },
+    {
+      "id": "netease-track:2589106",
+      "neteaseTrackId": "2589106",
+      "title": "Tusk (USC Intro Mix)",
+      "trackNumber": 51,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 195000
+    },
+    {
+      "id": "netease-track:2589109",
+      "neteaseTrackId": "2589109",
+      "title": "Never Going Back Again",
+      "trackNumber": 52,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 124667
+    },
+    {
+      "id": "netease-track:2589112",
+      "neteaseTrackId": "2589112",
+      "title": "Songbird",
+      "trackNumber": 53,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 200813
+    },
+    {
+      "id": "netease-track:2589115",
+      "neteaseTrackId": "2589115",
+      "title": "I Believe My Time Ain't Long",
+      "trackNumber": 54,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 173160
+    },
+    {
+      "id": "netease-track:2589119",
+      "neteaseTrackId": "2589119",
+      "title": "Need Your Love So Bad",
+      "trackNumber": 55,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 228437
+    },
+    {
+      "id": "netease-track:2589123",
+      "neteaseTrackId": "2589123",
+      "title": "Rattlesnake Shake",
+      "trackNumber": 56,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 208509
+    },
+    {
+      "id": "netease-track:2589127",
+      "neteaseTrackId": "2589127",
+      "title": "Oh Well, Part 1 (Original Mono Version)",
+      "trackNumber": 57,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:2589132",
+      "neteaseTrackId": "2589132",
+      "title": "Stop Messin' Round",
+      "trackNumber": 58,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 140721
+    },
+    {
+      "id": "netease-track:2589137",
+      "neteaseTrackId": "2589137",
+      "title": "The Green Manalishi",
+      "trackNumber": 59,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 276000
+    },
+    {
+      "id": "netease-track:2589140",
+      "neteaseTrackId": "2589140",
+      "title": "Albatross",
+      "trackNumber": 60,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 190000
+    },
+    {
+      "id": "netease-track:2589145",
+      "neteaseTrackId": "2589145",
+      "title": "Man Of The World",
+      "trackNumber": 61,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 168586
+    },
+    {
+      "id": "netease-track:2589150",
+      "neteaseTrackId": "2589150",
+      "title": "Love That Burns",
+      "trackNumber": 62,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 302927
+    },
+    {
+      "id": "netease-track:2589154",
+      "neteaseTrackId": "2589154",
+      "title": "Black Magic Woman",
+      "trackNumber": 63,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 172960
+    },
+    {
+      "id": "netease-track:2589158",
+      "neteaseTrackId": "2589158",
+      "title": "Watch Out",
+      "trackNumber": 64,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 253000
+    },
+    {
+      "id": "netease-track:2589162",
+      "neteaseTrackId": "2589162",
+      "title": "String-A-Long",
+      "trackNumber": 65,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 135000
+    },
+    {
+      "id": "netease-track:2589167",
+      "neteaseTrackId": "2589167",
+      "title": "Station Man",
+      "trackNumber": 66,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 341000
+    },
+    {
+      "id": "netease-track:2589171",
+      "neteaseTrackId": "2589171",
+      "title": "Did You Ever Love Me",
+      "trackNumber": 67,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 221000
+    },
+    {
+      "id": "netease-track:2589174",
+      "neteaseTrackId": "2589174",
+      "title": "Sentimental Lady",
+      "trackNumber": 68,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 272000
+    },
+    {
+      "id": "netease-track:2589177",
+      "neteaseTrackId": "2589177",
+      "title": "Come A Little Bit Closer",
+      "trackNumber": 69,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 288000
+    },
+    {
+      "id": "netease-track:2589181",
+      "neteaseTrackId": "2589181",
+      "title": "Heroes Are Hard To Find",
+      "trackNumber": 70,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 214000
+    },
+    {
+      "id": "netease-track:2589185",
+      "neteaseTrackId": "2589185",
+      "title": "Trinity (Bare Trees Outtake)",
+      "trackNumber": 71,
+      "discNumber": 1,
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "durationMs": 248000
+    }
+  ],
+  "trackCount": 71,
+  "externalUrl": "https://music.163.com/#/album?id=260776",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "25 Years The Chain Fleetwood Mac",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

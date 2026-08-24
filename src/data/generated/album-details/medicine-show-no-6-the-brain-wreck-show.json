@@ -1,0 +1,153 @@
+{
+  "internalId": "album:173552",
+  "id": "album:173552",
+  "neteaseAlbumId": "173552",
+  "slug": "medicine-show-no-6-the-brain-wreck-show",
+  "title": "Medicine Show No.6:The Brain Wreck Show",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38940",
+      "neteaseArtistId": "38940",
+      "name": "Madlib"
+    }
+  ],
+  "releaseDate": "2010-06-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/173552.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/173552.webp",
+    "alt": "《Medicine Show No.6:The Brain Wreck Show》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1713588",
+      "neteaseTrackId": "1713588",
+      "title": "World Leaders Plan Centralized Power Remote Brain Control",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 350000
+    },
+    {
+      "id": "netease-track:1713592",
+      "neteaseTrackId": "1713592",
+      "title": "It Has Widespread Support",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 318000
+    },
+    {
+      "id": "netease-track:1713596",
+      "neteaseTrackId": "1713596",
+      "title": "Predicted 2000 Years Ago",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 225000
+    },
+    {
+      "id": "netease-track:1713600",
+      "neteaseTrackId": "1713600",
+      "title": "It’s Almost Here",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 338000
+    },
+    {
+      "id": "netease-track:1713605",
+      "neteaseTrackId": "1713605",
+      "title": "It Will Happen On 4/20",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 449000
+    },
+    {
+      "id": "netease-track:1713610",
+      "neteaseTrackId": "1713610",
+      "title": "How To Avoid Being A Victim",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 229000
+    },
+    {
+      "id": "netease-track:1713616",
+      "neteaseTrackId": "1713616",
+      "title": "It’s Sudden Complete Collapse Predicted",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 728000
+    },
+    {
+      "id": "netease-track:1713619",
+      "neteaseTrackId": "1713619",
+      "title": "It Is Right On Time",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 345000
+    },
+    {
+      "id": "netease-track:1713621",
+      "neteaseTrackId": "1713621",
+      "title": "The Real New Order",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Madlib"
+      ],
+      "durationMs": 702000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=173552",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Medicine Show No.6:The Brain Wreck Show Madlib",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

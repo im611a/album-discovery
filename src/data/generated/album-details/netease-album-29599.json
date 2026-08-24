@@ -1,0 +1,165 @@
+{
+  "internalId": "album:29599",
+  "id": "album:29599",
+  "neteaseAlbumId": "29599",
+  "slug": "netease-album-29599",
+  "title": "就值得了爱",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9611",
+      "neteaseArtistId": "9611",
+      "name": "万芳"
+    }
+  ],
+  "releaseDate": "1996-10-23",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29599.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29599.webp",
+    "alt": "《就值得了爱》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:298286",
+      "neteaseTrackId": "298286",
+      "title": "温哥华悲伤一号",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 265093
+    },
+    {
+      "id": "netease-track:298290",
+      "neteaseTrackId": "298290",
+      "title": "就值得了爱",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 251240
+    },
+    {
+      "id": "netease-track:298294",
+      "neteaseTrackId": "298294",
+      "title": "然后你怎么说",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "万芳",
+        "伍佰"
+      ],
+      "durationMs": 256333
+    },
+    {
+      "id": "netease-track:298298",
+      "neteaseTrackId": "298298",
+      "title": "睡.醒",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 250543
+    },
+    {
+      "id": "netease-track:298303",
+      "neteaseTrackId": "298303",
+      "title": "这就够了",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 301255
+    },
+    {
+      "id": "netease-track:298307",
+      "neteaseTrackId": "298307",
+      "title": "心像凌晨四点的天的蓝",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 235466
+    },
+    {
+      "id": "netease-track:298311",
+      "neteaseTrackId": "298311",
+      "title": "心墙",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 231066
+    },
+    {
+      "id": "netease-track:298315",
+      "neteaseTrackId": "298315",
+      "title": "爱的形容词",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 211255
+    },
+    {
+      "id": "netease-track:298319",
+      "neteaseTrackId": "298319",
+      "title": "地平线",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 296800
+    },
+    {
+      "id": "netease-track:298321",
+      "neteaseTrackId": "298321",
+      "title": "星期三的下午",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "万芳"
+      ],
+      "durationMs": 306874
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=29599",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "就值得了爱 万芳",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

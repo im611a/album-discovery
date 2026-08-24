@@ -1,0 +1,285 @@
+{
+  "internalId": "album:47854",
+  "id": "album:47854",
+  "neteaseAlbumId": "47854",
+  "slug": "the-sheltering-sky",
+  "title": "The Sheltering Sky",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "1989-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Virgin Movie Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47854.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47854.webp",
+    "alt": "《The Sheltering Sky》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:502456",
+      "neteaseTrackId": "502456",
+      "title": "The Sacred Koran",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 42747
+    },
+    {
+      "id": "netease-track:502462",
+      "neteaseTrackId": "502462",
+      "title": "The Sheltering Sky Theme",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 318484
+    },
+    {
+      "id": "netease-track:502467",
+      "neteaseTrackId": "502467",
+      "title": "Belly",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 86796
+    },
+    {
+      "id": "netease-track:502473",
+      "neteaseTrackId": "502473",
+      "title": "Port's Composition",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 83173
+    },
+    {
+      "id": "netease-track:502478",
+      "neteaseTrackId": "502478",
+      "title": "On the Bed (Dream)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 96734
+    },
+    {
+      "id": "netease-track:502482",
+      "neteaseTrackId": "502482",
+      "title": "Loneliness",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 91115
+    },
+    {
+      "id": "netease-track:502486",
+      "neteaseTrackId": "502486",
+      "title": "On the Hill",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 370869
+    },
+    {
+      "id": "netease-track:502490",
+      "neteaseTrackId": "502490",
+      "title": "Kyoto",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 63947
+    },
+    {
+      "id": "netease-track:502493",
+      "neteaseTrackId": "502493",
+      "title": "Cemetery",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 84474
+    },
+    {
+      "id": "netease-track:502498",
+      "neteaseTrackId": "502498",
+      "title": "Dying",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 212601
+    },
+    {
+      "id": "netease-track:502503",
+      "neteaseTrackId": "502503",
+      "title": "Market",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 100960
+    },
+    {
+      "id": "netease-track:502508",
+      "neteaseTrackId": "502508",
+      "title": "Grand Hotel",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 125573
+    },
+    {
+      "id": "netease-track:502513",
+      "neteaseTrackId": "502513",
+      "title": "Sheltering Sky Theme",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 260249
+    },
+    {
+      "id": "netease-track:502517",
+      "neteaseTrackId": "502517",
+      "title": "Je Chante",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 165627
+    },
+    {
+      "id": "netease-track:502521",
+      "neteaseTrackId": "502521",
+      "title": "Midnight Sun",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 198623
+    },
+    {
+      "id": "netease-track:502524",
+      "neteaseTrackId": "502524",
+      "title": "Fever Ride",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 230016
+    },
+    {
+      "id": "netease-track:502528",
+      "neteaseTrackId": "502528",
+      "title": "Chant Avec Cithare",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 44025
+    },
+    {
+      "id": "netease-track:502532",
+      "neteaseTrackId": "502532",
+      "title": "Marnia's Tent",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 182137
+    },
+    {
+      "id": "netease-track:502536",
+      "neteaseTrackId": "502536",
+      "title": "Goulou Limma",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 347742
+    },
+    {
+      "id": "netease-track:502540",
+      "neteaseTrackId": "502540",
+      "title": "Happy Bus Ride",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 102910
+    },
+    {
+      "id": "netease-track:502544",
+      "neteaseTrackId": "502544",
+      "title": "Night Train",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 116982
+    }
+  ],
+  "trackCount": 21,
+  "externalUrl": "https://music.163.com/#/album?id=47854",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Sheltering Sky 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

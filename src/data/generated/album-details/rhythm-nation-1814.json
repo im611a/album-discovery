@@ -1,0 +1,263 @@
+{
+  "internalId": "album:1706213",
+  "id": "album:1706213",
+  "neteaseAlbumId": "1706213",
+  "slug": "rhythm-nation-1814",
+  "title": "Rhythm Nation 1814",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1989-09-18",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "A&M",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1706213.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1706213.webp",
+    "alt": "《Rhythm Nation 1814》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18589241",
+      "neteaseTrackId": "18589241",
+      "title": "Interlude: Pledge",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 47573
+    },
+    {
+      "id": "netease-track:18589242",
+      "neteaseTrackId": "18589242",
+      "title": "Rhythm Nation",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 330893
+    },
+    {
+      "id": "netease-track:18589244",
+      "neteaseTrackId": "18589244",
+      "title": "State Of The World",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 287826
+    },
+    {
+      "id": "netease-track:18589245",
+      "neteaseTrackId": "18589245",
+      "title": "Interlude: Race",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 4933
+    },
+    {
+      "id": "netease-track:18589246",
+      "neteaseTrackId": "18589246",
+      "title": "The Knowledge",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 233200
+    },
+    {
+      "id": "netease-track:18589247",
+      "neteaseTrackId": "18589247",
+      "title": "Interlude: Let's Dance",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 4000
+    },
+    {
+      "id": "netease-track:18589248",
+      "neteaseTrackId": "18589248",
+      "title": "Miss You Much",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 252240
+    },
+    {
+      "id": "netease-track:18589249",
+      "neteaseTrackId": "18589249",
+      "title": "Interlude: Come Back Interlude",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 21106
+    },
+    {
+      "id": "netease-track:18589250",
+      "neteaseTrackId": "18589250",
+      "title": "Love Will Never Do (Without You)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 350000
+    },
+    {
+      "id": "netease-track:18589251",
+      "neteaseTrackId": "18589251",
+      "title": "Livin' In A World (They Didn't Make)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 281160
+    },
+    {
+      "id": "netease-track:18589252",
+      "neteaseTrackId": "18589252",
+      "title": "Alright",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 386533
+    },
+    {
+      "id": "netease-track:18589253",
+      "neteaseTrackId": "18589253",
+      "title": "Interlude: Hey Baby",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 9822
+    },
+    {
+      "id": "netease-track:18589254",
+      "neteaseTrackId": "18589254",
+      "title": "Escapade",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 283960
+    },
+    {
+      "id": "netease-track:18589255",
+      "neteaseTrackId": "18589255",
+      "title": "Interlude: No Acid",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 5537
+    },
+    {
+      "id": "netease-track:18589256",
+      "neteaseTrackId": "18589256",
+      "title": "Black Cat",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 290560
+    },
+    {
+      "id": "netease-track:18589257",
+      "neteaseTrackId": "18589257",
+      "title": "Lonely",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 299066
+    },
+    {
+      "id": "netease-track:18589258",
+      "neteaseTrackId": "18589258",
+      "title": "Come Back To Me",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 332773
+    },
+    {
+      "id": "netease-track:18589259",
+      "neteaseTrackId": "18589259",
+      "title": "Someday Is Tonight",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 361273
+    },
+    {
+      "id": "netease-track:18589260",
+      "neteaseTrackId": "18589260",
+      "title": "Interlude: Livin'...In Complete Darkness",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 67317
+    }
+  ],
+  "trackCount": 19,
+  "externalUrl": "https://music.163.com/#/album?id=1706213",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Rhythm Nation 1814 Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

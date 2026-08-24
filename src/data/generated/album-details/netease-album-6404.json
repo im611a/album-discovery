@@ -1,0 +1,387 @@
+{
+  "internalId": "album:6404",
+  "id": "album:6404",
+  "neteaseAlbumId": "6404",
+  "slug": "netease-album-6404",
+  "title": "The 1st Eleven Years 然后呢？",
+  "aliases": [
+    "1997-2007 跨世纪国语精选"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2008-03-25",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "新艺宝",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6404.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6404.webp",
+    "alt": "《The 1st Eleven Years 然后呢？》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:65047",
+      "neteaseTrackId": "65047",
+      "title": "K歌之王",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 218000
+    },
+    {
+      "id": "netease-track:65050",
+      "neteaseTrackId": "65050",
+      "title": "十年",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 205000
+    },
+    {
+      "id": "netease-track:65053",
+      "neteaseTrackId": "65053",
+      "title": "淘汰(国)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 287000
+    },
+    {
+      "id": "netease-track:65056",
+      "neteaseTrackId": "65056",
+      "title": "爱是怀疑",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 269000
+    },
+    {
+      "id": "netease-track:65060",
+      "neteaseTrackId": "65060",
+      "title": "想哭",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 243000
+    },
+    {
+      "id": "netease-track:65063",
+      "neteaseTrackId": "65063",
+      "title": "圣诞结",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 284000
+    },
+    {
+      "id": "netease-track:65066",
+      "neteaseTrackId": "65066",
+      "title": "婚礼的祝福",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 263894
+    },
+    {
+      "id": "netease-track:65070",
+      "neteaseTrackId": "65070",
+      "title": "烟味(国)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:65074",
+      "neteaseTrackId": "65074",
+      "title": "对不起 谢谢(国)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 263000
+    },
+    {
+      "id": "netease-track:65078",
+      "neteaseTrackId": "65078",
+      "title": "好久不见(国)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 250543
+    },
+    {
+      "id": "netease-track:65082",
+      "neteaseTrackId": "65082",
+      "title": "低等动物(国)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:65086",
+      "neteaseTrackId": "65086",
+      "title": "我们都寂寞",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 294000
+    },
+    {
+      "id": "netease-track:65090",
+      "neteaseTrackId": "65090",
+      "title": "谢谢",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 300000
+    },
+    {
+      "id": "netease-track:65094",
+      "neteaseTrackId": "65094",
+      "title": "阿怪",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 314000
+    },
+    {
+      "id": "netease-track:65097",
+      "neteaseTrackId": "65097",
+      "title": "狂人日记",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:65099",
+      "neteaseTrackId": "65099",
+      "title": "爱情转移(国)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:65101",
+      "neteaseTrackId": "65101",
+      "title": "你的背包",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 237000
+    },
+    {
+      "id": "netease-track:65104",
+      "neteaseTrackId": "65104",
+      "title": "预感",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 307000
+    },
+    {
+      "id": "netease-track:65107",
+      "neteaseTrackId": "65107",
+      "title": "谢谢侬",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 262000
+    },
+    {
+      "id": "netease-track:65110",
+      "neteaseTrackId": "65110",
+      "title": "兄妹",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 209000
+    },
+    {
+      "id": "netease-track:65114",
+      "neteaseTrackId": "65114",
+      "title": "全世界失眠",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 250000
+    },
+    {
+      "id": "netease-track:65117",
+      "neteaseTrackId": "65117",
+      "title": "不如这样",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 282000
+    },
+    {
+      "id": "netease-track:65120",
+      "neteaseTrackId": "65120",
+      "title": "要你的",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 224000
+    },
+    {
+      "id": "netease-track:65123",
+      "neteaseTrackId": "65123",
+      "title": "不睡(国)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:65126",
+      "neteaseTrackId": "65126",
+      "title": "红玫瑰(国)",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 239973
+    },
+    {
+      "id": "netease-track:65130",
+      "neteaseTrackId": "65130",
+      "title": "拔河",
+      "trackNumber": 11,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅",
+        "梁汉文"
+      ],
+      "durationMs": 282000
+    },
+    {
+      "id": "netease-track:65134",
+      "neteaseTrackId": "65134",
+      "title": "不然你要我怎么样(国)",
+      "trackNumber": 12,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 292989
+    },
+    {
+      "id": "netease-track:65138",
+      "neteaseTrackId": "65138",
+      "title": "世界",
+      "trackNumber": 13,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 264000
+    },
+    {
+      "id": "netease-track:65142",
+      "neteaseTrackId": "65142",
+      "title": "人造卫星",
+      "trackNumber": 14,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 241000
+    },
+    {
+      "id": "netease-track:65146",
+      "neteaseTrackId": "65146",
+      "title": "酝酿",
+      "trackNumber": 15,
+      "discNumber": 2,
+      "artists": [
+        "陈奕迅"
+      ],
+      "durationMs": 269000
+    }
+  ],
+  "trackCount": 30,
+  "externalUrl": "https://music.163.com/#/album?id=6404",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The 1st Eleven Years 然后呢？ 1997-2007 跨世纪国语精选 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

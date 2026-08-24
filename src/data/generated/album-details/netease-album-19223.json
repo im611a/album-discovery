@@ -1,0 +1,177 @@
+{
+  "internalId": "album:19223",
+  "id": "album:19223",
+  "neteaseAlbumId": "19223",
+  "slug": "netease-album-19223",
+  "title": "左小祖咒在地安门",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6467",
+      "neteaseArtistId": "6467",
+      "name": "左小祖咒"
+    }
+  ],
+  "releaseDate": "2001-11-10",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "左小祖咒工作室",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19223.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19223.webp",
+    "alt": "《左小祖咒在地安门》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:190206",
+      "neteaseTrackId": "190206",
+      "title": "爱的劳工",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 286005
+    },
+    {
+      "id": "netease-track:1820396961",
+      "neteaseTrackId": "1820396961",
+      "title": "此歌无法播放",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 306436
+    },
+    {
+      "id": "netease-track:1432425946",
+      "neteaseTrackId": "1432425946",
+      "title": "黄泉大道",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 264310
+    },
+    {
+      "id": "netease-track:190218",
+      "neteaseTrackId": "190218",
+      "title": "一块玻璃板",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 368738
+    },
+    {
+      "id": "netease-track:1432428532",
+      "neteaseTrackId": "1432428532",
+      "title": "的",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 354986
+    },
+    {
+      "id": "netease-track:1875362743",
+      "neteaseTrackId": "1875362743",
+      "title": "弟弟",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 387194
+    },
+    {
+      "id": "netease-track:190225",
+      "neteaseTrackId": "190225",
+      "title": "美术鸡",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒",
+        "4026"
+      ],
+      "durationMs": 219665
+    },
+    {
+      "id": "netease-track:1343217147",
+      "neteaseTrackId": "1343217147",
+      "title": "不孕高手",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 209332
+    },
+    {
+      "id": "netease-track:190231",
+      "neteaseTrackId": "190231",
+      "title": "招牌",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 302731
+    },
+    {
+      "id": "netease-track:1432436699",
+      "neteaseTrackId": "1432436699",
+      "title": "北小京",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 350761
+    },
+    {
+      "id": "netease-track:1853486033",
+      "neteaseTrackId": "1853486033",
+      "title": "左小祖咒在地安门",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "左小祖咒"
+      ],
+      "durationMs": 314579
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=19223",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-rock",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "左小祖咒在地安门 左小祖咒",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "internalId": "album:49534",
+  "id": "album:49534",
+  "neteaseAlbumId": "49534",
+  "slug": "fukyo",
+  "title": "Fukyo",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15581",
+      "neteaseArtistId": "15581",
+      "name": "近藤等则"
+    }
+  ],
+  "releaseDate": "2010-03-24",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/49534.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/49534.webp",
+    "alt": "《Fukyo》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:525694",
+      "neteaseTrackId": "525694",
+      "title": "Fumu",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 202524
+    },
+    {
+      "id": "netease-track:525696",
+      "neteaseTrackId": "525696",
+      "title": "Tojin",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 242000
+    },
+    {
+      "id": "netease-track:525698",
+      "neteaseTrackId": "525698",
+      "title": "Seisei",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 126200
+    },
+    {
+      "id": "netease-track:525701",
+      "neteaseTrackId": "525701",
+      "title": "Furaku",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 133955
+    },
+    {
+      "id": "netease-track:525704",
+      "neteaseTrackId": "525704",
+      "title": "Hagan",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 142199
+    },
+    {
+      "id": "netease-track:525706",
+      "neteaseTrackId": "525706",
+      "title": "Misho",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 148886
+    },
+    {
+      "id": "netease-track:525708",
+      "neteaseTrackId": "525708",
+      "title": "Furitsu",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 40124
+    },
+    {
+      "id": "netease-track:525710",
+      "neteaseTrackId": "525710",
+      "title": "Rissetsu",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 216000
+    },
+    {
+      "id": "netease-track:525711",
+      "neteaseTrackId": "525711",
+      "title": "Ungetsu",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 398106
+    },
+    {
+      "id": "netease-track:525713",
+      "neteaseTrackId": "525713",
+      "title": "Fukotsu",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 274134
+    },
+    {
+      "id": "netease-track:525715",
+      "neteaseTrackId": "525715",
+      "title": "Mujyo",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 179000
+    },
+    {
+      "id": "netease-track:525718",
+      "neteaseTrackId": "525718",
+      "title": "Fusei",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 162000
+    },
+    {
+      "id": "netease-track:525721",
+      "neteaseTrackId": "525721",
+      "title": "Sokai",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 165000
+    },
+    {
+      "id": "netease-track:525724",
+      "neteaseTrackId": "525724",
+      "title": "Koho",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "近藤等则"
+      ],
+      "durationMs": 190000
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=49534",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Fukyo 近藤等则",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

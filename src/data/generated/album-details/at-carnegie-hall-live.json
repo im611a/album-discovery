@@ -1,0 +1,120 @@
+{
+  "internalId": "album:172682",
+  "id": "album:172682",
+  "neteaseAlbumId": "172682",
+  "slug": "at-carnegie-hall-live",
+  "title": "At Carnegie Hall [live]",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "1961-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172682.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172682.webp",
+    "alt": "《At Carnegie Hall [live]》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1703293",
+      "neteaseTrackId": "1703293",
+      "title": "So What",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 721093
+    },
+    {
+      "id": "netease-track:1703296",
+      "neteaseTrackId": "1703296",
+      "title": "Spring Is Here",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 242893
+    },
+    {
+      "id": "netease-track:1703301",
+      "neteaseTrackId": "1703301",
+      "title": "No Blues",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 550000
+    },
+    {
+      "id": "netease-track:1703304",
+      "neteaseTrackId": "1703304",
+      "title": "Oleo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 571906
+    },
+    {
+      "id": "netease-track:1703309",
+      "neteaseTrackId": "1703309",
+      "title": "Someday My Prince Will Come",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 274266
+    },
+    {
+      "id": "netease-track:1703312",
+      "neteaseTrackId": "1703312",
+      "title": "The Meaning of the Blues/Lament/New Rhumba",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 246760
+    }
+  ],
+  "trackCount": 6,
+  "externalUrl": "https://music.163.com/#/album?id=172682",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "At Carnegie Hall [live] Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

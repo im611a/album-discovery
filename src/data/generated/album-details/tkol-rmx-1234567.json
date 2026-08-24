@@ -1,0 +1,263 @@
+{
+  "internalId": "album:1720832",
+  "id": "album:1720832",
+  "neteaseAlbumId": "1720832",
+  "slug": "tkol-rmx-1234567",
+  "title": "TKOL RMX 1234567",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:99384",
+      "neteaseArtistId": "99384",
+      "name": "Radiohead"
+    }
+  ],
+  "releaseDate": "2011-10-09",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "XL Recordings",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1720832.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1720832.webp",
+    "alt": "《TKOL RMX 1234567》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18795314",
+      "neteaseTrackId": "18795314",
+      "title": "Little By Little (Caribou Rmx)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 340160
+    },
+    {
+      "id": "netease-track:18795315",
+      "neteaseTrackId": "18795315",
+      "title": "Lotus Flower (Jacques Greene Rmx)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 429946
+    },
+    {
+      "id": "netease-track:18795316",
+      "neteaseTrackId": "18795316",
+      "title": "Morning Mr Magpie (Nathan Fake Rmx)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 291986
+    },
+    {
+      "id": "netease-track:18795317",
+      "neteaseTrackId": "18795317",
+      "title": "Bloom (Harmonic 313 Rmx)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 304333
+    },
+    {
+      "id": "netease-track:18795318",
+      "neteaseTrackId": "18795318",
+      "title": "Bloom (Mark Pritchard Rmx)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 367280
+    },
+    {
+      "id": "netease-track:18795319",
+      "neteaseTrackId": "18795319",
+      "title": "Feral (Lone RMX)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 317506
+    },
+    {
+      "id": "netease-track:18795320",
+      "neteaseTrackId": "18795320",
+      "title": "Morning Mr Magpie (Pearson Sound Scavenger RMX)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 278893
+    },
+    {
+      "id": "netease-track:18795321",
+      "neteaseTrackId": "18795321",
+      "title": "Separator (Four Tet RMX)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 423000
+    },
+    {
+      "id": "netease-track:18795322",
+      "neteaseTrackId": "18795322",
+      "title": "Give Up The Ghost (Thriller Houseghost Remix)",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 373760
+    },
+    {
+      "id": "netease-track:18795323",
+      "neteaseTrackId": "18795323",
+      "title": "Codex (Illum Sphere)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 274373
+    },
+    {
+      "id": "netease-track:18795324",
+      "neteaseTrackId": "18795324",
+      "title": "Little By Little (Shed)",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 289893
+    },
+    {
+      "id": "netease-track:18795325",
+      "neteaseTrackId": "18795325",
+      "title": "Give Up The Ghost (Brokenchord Rmx)",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 305000
+    },
+    {
+      "id": "netease-track:18795326",
+      "neteaseTrackId": "18795326",
+      "title": "TKOL (Altrice Rmx)",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 362880
+    },
+    {
+      "id": "netease-track:18795327",
+      "neteaseTrackId": "18795327",
+      "title": "Bloom (Blawan Rmx)",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 449493
+    },
+    {
+      "id": "netease-track:18795328",
+      "neteaseTrackId": "18795328",
+      "title": "Good Evening Mrs Magpie (Modeselektor RMX)",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 464440
+    },
+    {
+      "id": "netease-track:18795329",
+      "neteaseTrackId": "18795329",
+      "title": "Bloom (Objekt RMX)",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 321426
+    },
+    {
+      "id": "netease-track:18795330",
+      "neteaseTrackId": "18795330",
+      "title": "Bloom (Jamie xx Rework)",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 148760
+    },
+    {
+      "id": "netease-track:18795331",
+      "neteaseTrackId": "18795331",
+      "title": "Separator (Anstam RMX)",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 290280
+    },
+    {
+      "id": "netease-track:18795332",
+      "neteaseTrackId": "18795332",
+      "title": "Lotus Flower (SBTRKT RMX)",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Radiohead"
+      ],
+      "durationMs": 321933
+    }
+  ],
+  "trackCount": 19,
+  "externalUrl": "https://music.163.com/#/album?id=1720832",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "alternative-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "TKOL RMX 1234567 Radiohead",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

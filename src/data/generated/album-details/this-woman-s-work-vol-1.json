@@ -1,0 +1,219 @@
+{
+  "internalId": "album:290039",
+  "id": "album:290039",
+  "neteaseAlbumId": "290039",
+  "slug": "this-woman-s-work-vol-1",
+  "title": "This Woman's Work, Vol. 1",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:62898",
+      "neteaseArtistId": "62898",
+      "name": "Kate Bush"
+    }
+  ],
+  "releaseDate": "1990-10-21",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/290039.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/290039.webp",
+    "alt": "《This Woman's Work, Vol. 1》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:2872303",
+      "neteaseTrackId": "2872303",
+      "title": "The Empty Bullring",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 136000
+    },
+    {
+      "id": "netease-track:2872306",
+      "neteaseTrackId": "2872306",
+      "title": "Ran Tan Waltz",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 161266
+    },
+    {
+      "id": "netease-track:2872309",
+      "neteaseTrackId": "2872309",
+      "title": "Passing Through the Air",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 125000
+    },
+    {
+      "id": "netease-track:2872312",
+      "neteaseTrackId": "2872312",
+      "title": "December Will Be Magic Again",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 289000
+    },
+    {
+      "id": "netease-track:2872316",
+      "neteaseTrackId": "2872316",
+      "title": "Warm and Soothing",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 164600
+    },
+    {
+      "id": "netease-track:2872319",
+      "neteaseTrackId": "2872319",
+      "title": "Lord of the Reedy River",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 162200
+    },
+    {
+      "id": "netease-track:2872323",
+      "neteaseTrackId": "2872323",
+      "title": "Ne T'En Fui Pas",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 153000
+    },
+    {
+      "id": "netease-track:2872326",
+      "neteaseTrackId": "2872326",
+      "title": "Un Baiser d'Enfant",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 182000
+    },
+    {
+      "id": "netease-track:2872330",
+      "neteaseTrackId": "2872330",
+      "title": "Under the Ivy",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 130000
+    },
+    {
+      "id": "netease-track:2872334",
+      "neteaseTrackId": "2872334",
+      "title": "Burning Bridge",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 282000
+    },
+    {
+      "id": "netease-track:2872338",
+      "neteaseTrackId": "2872338",
+      "title": "My Lagan Lover",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 150000
+    },
+    {
+      "id": "netease-track:2872342",
+      "neteaseTrackId": "2872342",
+      "title": "The Handsome Cabin Boy",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 192000
+    },
+    {
+      "id": "netease-track:2872346",
+      "neteaseTrackId": "2872346",
+      "title": "Not This Time",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:2872350",
+      "neteaseTrackId": "2872350",
+      "title": "Walk Straight Down the Middle",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 228879
+    },
+    {
+      "id": "netease-track:2872354",
+      "neteaseTrackId": "2872354",
+      "title": "Be Kind to My Mistakes",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Kate Bush"
+      ],
+      "durationMs": 181000
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=290039",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "This Woman's Work, Vol. 1 Kate Bush",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

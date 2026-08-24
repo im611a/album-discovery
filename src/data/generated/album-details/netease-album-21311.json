@@ -1,0 +1,175 @@
+{
+  "internalId": "album:21311",
+  "id": "album:21311",
+  "neteaseAlbumId": "21311",
+  "slug": "netease-album-21311",
+  "title": "还是会寂寞",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7217",
+      "neteaseArtistId": "7217",
+      "name": "陈绮贞"
+    }
+  ],
+  "releaseDate": "2000-04-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21311.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21311.webp",
+    "alt": "《还是会寂寞》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:209472",
+      "neteaseTrackId": "209472",
+      "title": "越洋电话",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 95360
+    },
+    {
+      "id": "netease-track:209475",
+      "neteaseTrackId": "209475",
+      "title": "我的骄傲无可救药",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 216506
+    },
+    {
+      "id": "netease-track:209478",
+      "neteaseTrackId": "209478",
+      "title": "还是会寂寞",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 272293
+    },
+    {
+      "id": "netease-track:209481",
+      "neteaseTrackId": "209481",
+      "title": "下午三点",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 270907
+    },
+    {
+      "id": "netease-track:209484",
+      "neteaseTrackId": "209484",
+      "title": "温室花朵",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 290249
+    },
+    {
+      "id": "netease-track:209487",
+      "neteaseTrackId": "209487",
+      "title": "午餐的约会",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 123065
+    },
+    {
+      "id": "netease-track:209490",
+      "neteaseTrackId": "209490",
+      "title": "等待",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 208909
+    },
+    {
+      "id": "netease-track:209492",
+      "neteaseTrackId": "209492",
+      "title": "慢歌3",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 258760
+    },
+    {
+      "id": "netease-track:209494",
+      "neteaseTrackId": "209494",
+      "title": "告诉我",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 313733
+    },
+    {
+      "id": "netease-track:209496",
+      "neteaseTrackId": "209496",
+      "title": "慢歌1",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 254506
+    },
+    {
+      "id": "netease-track:209498",
+      "neteaseTrackId": "209498",
+      "title": "灵感",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "陈绮贞"
+      ],
+      "durationMs": 187160
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=21311",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "indie-rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "还是会寂寞 陈绮贞",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

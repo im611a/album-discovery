@@ -1,0 +1,157 @@
+{
+  "internalId": "album:7546",
+  "id": "album:7546",
+  "neteaseAlbumId": "7546",
+  "slug": "netease-album-7546",
+  "title": "打包",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2514",
+      "neteaseArtistId": "2514",
+      "name": "蛋堡"
+    }
+  ],
+  "releaseDate": "2009-07-02",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/7546.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/7546.webp",
+    "alt": "《打包》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:76867",
+      "neteaseTrackId": "76867",
+      "title": "打包",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 272901
+    },
+    {
+      "id": "netease-track:29343269",
+      "neteaseTrackId": "29343269",
+      "title": "未曾改变",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡",
+        "Jnco"
+      ],
+      "durationMs": 223000
+    },
+    {
+      "id": "netease-track:29343270",
+      "neteaseTrackId": "29343270",
+      "title": "你是我的梦想",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:29343271",
+      "neteaseTrackId": "29343271",
+      "title": "寻找",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡",
+        "叁劈"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:29343273",
+      "neteaseTrackId": "29343273",
+      "title": "纯正好货",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡",
+        "AP满人",
+        "Jnco"
+      ],
+      "durationMs": 300000
+    },
+    {
+      "id": "netease-track:29343274",
+      "neteaseTrackId": "29343274",
+      "title": "欲望",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 174000
+    },
+    {
+      "id": "netease-track:29343275",
+      "neteaseTrackId": "29343275",
+      "title": "雨没停过",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 177000
+    },
+    {
+      "id": "netease-track:29343276",
+      "neteaseTrackId": "29343276",
+      "title": "回到",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 326556
+    },
+    {
+      "id": "netease-track:29343277",
+      "neteaseTrackId": "29343277",
+      "title": "爱简单",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蛋堡"
+      ],
+      "durationMs": 289000
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=7546",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "打包 蛋堡",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

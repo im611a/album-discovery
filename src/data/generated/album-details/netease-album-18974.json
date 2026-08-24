@@ -1,0 +1,176 @@
+{
+  "internalId": "album:18974",
+  "id": "album:18974",
+  "neteaseAlbumId": "18974",
+  "slug": "netease-album-18974",
+  "title": "深情",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1996-02-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "百代唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/18974.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/18974.webp",
+    "alt": "《深情》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:186920",
+      "neteaseTrackId": "186920",
+      "title": "今夜唱什么歌",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 268000
+    },
+    {
+      "id": "netease-track:186923",
+      "neteaseTrackId": "186923",
+      "title": "最伤心是谁",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 332000
+    },
+    {
+      "id": "netease-track:186926",
+      "neteaseTrackId": "186926",
+      "title": "他有什么好",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:186930",
+      "neteaseTrackId": "186930",
+      "title": "我应该走",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 274000
+    },
+    {
+      "id": "netease-track:186934",
+      "neteaseTrackId": "186934",
+      "title": "爱与不爱之间",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 287000
+    },
+    {
+      "id": "netease-track:186938",
+      "neteaseTrackId": "186938",
+      "title": "注定相爱",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "彭羚"
+      ],
+      "durationMs": 258000
+    },
+    {
+      "id": "netease-track:186942",
+      "neteaseTrackId": "186942",
+      "title": "过火(粤)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 301000
+    },
+    {
+      "id": "netease-track:186945",
+      "neteaseTrackId": "186945",
+      "title": "风",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 292000
+    },
+    {
+      "id": "netease-track:186948",
+      "neteaseTrackId": "186948",
+      "title": "一生不舍弃",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 285000
+    },
+    {
+      "id": "netease-track:186951",
+      "neteaseTrackId": "186951",
+      "title": "仍然心痛",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 331000
+    },
+    {
+      "id": "netease-track:186955",
+      "neteaseTrackId": "186955",
+      "title": "不必多说话",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 292000
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=18974",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "深情 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

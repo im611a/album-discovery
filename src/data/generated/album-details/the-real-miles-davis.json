@@ -1,0 +1,386 @@
+{
+  "internalId": "album:1970052",
+  "id": "album:1970052",
+  "neteaseAlbumId": "1970052",
+  "slug": "the-real-miles-davis",
+  "title": "The Real Miles Davis",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2011-06-26",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1970052.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1970052.webp",
+    "alt": "《The Real Miles Davis》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:21332198",
+      "neteaseTrackId": "21332198",
+      "title": "So What",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 562640
+    },
+    {
+      "id": "netease-track:21332199",
+      "neteaseTrackId": "21332199",
+      "title": "Some Day My Prince Will Come",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 549000
+    },
+    {
+      "id": "netease-track:21332200",
+      "neteaseTrackId": "21332200",
+      "title": "I Thought About You",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 291431
+    },
+    {
+      "id": "netease-track:21332201",
+      "neteaseTrackId": "21332201",
+      "title": "Teo",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 572650
+    },
+    {
+      "id": "netease-track:21332202",
+      "neteaseTrackId": "21332202",
+      "title": "Concierto de Aranjuez (Adagio) (Master)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 981562
+    },
+    {
+      "id": "netease-track:21332203",
+      "neteaseTrackId": "21332203",
+      "title": "Will O' The Wisp (master)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 229133
+    },
+    {
+      "id": "netease-track:21332204",
+      "neteaseTrackId": "21332204",
+      "title": "The Pan Piper",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis",
+        "Gil Evans"
+      ],
+      "durationMs": 234866
+    },
+    {
+      "id": "netease-track:21332205",
+      "neteaseTrackId": "21332205",
+      "title": "Pfrancing",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 509356
+    },
+    {
+      "id": "netease-track:21332206",
+      "neteaseTrackId": "21332206",
+      "title": "Blue In Green",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 334226
+    },
+    {
+      "id": "netease-track:21332207",
+      "neteaseTrackId": "21332207",
+      "title": "Drad Dog",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 291040
+    },
+    {
+      "id": "netease-track:21332208",
+      "neteaseTrackId": "21332208",
+      "title": "Summertime",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 200388
+    },
+    {
+      "id": "netease-track:21332209",
+      "neteaseTrackId": "21332209",
+      "title": "All Blues",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 693120
+    },
+    {
+      "id": "netease-track:21332210",
+      "neteaseTrackId": "21332210",
+      "title": "Stella By Starlight",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 284290
+    },
+    {
+      "id": "netease-track:21332211",
+      "neteaseTrackId": "21332211",
+      "title": "Fran Dance",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351373
+    },
+    {
+      "id": "netease-track:21332212",
+      "neteaseTrackId": "21332212",
+      "title": "My Man's Gone Now",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 372209
+    },
+    {
+      "id": "netease-track:21332213",
+      "neteaseTrackId": "21332213",
+      "title": "It Ain't Necessarily So",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 265013
+    },
+    {
+      "id": "netease-track:21332214",
+      "neteaseTrackId": "21332214",
+      "title": "Sid's Ahead",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 782133
+    },
+    {
+      "id": "netease-track:21332215",
+      "neteaseTrackId": "21332215",
+      "title": "Two Bass Hit",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 307961
+    },
+    {
+      "id": "netease-track:21332216",
+      "neteaseTrackId": "21332216",
+      "title": "Milestones",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 346066
+    },
+    {
+      "id": "netease-track:21332217",
+      "neteaseTrackId": "21332217",
+      "title": "On Green Dolphin Street",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 591506
+    },
+    {
+      "id": "netease-track:21332218",
+      "neteaseTrackId": "21332218",
+      "title": "Love For Sale",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 703506
+    },
+    {
+      "id": "netease-track:21332219",
+      "neteaseTrackId": "21332219",
+      "title": "The Duke",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 214866
+    },
+    {
+      "id": "netease-track:21332220",
+      "neteaseTrackId": "21332220",
+      "title": "My Ship",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 268493
+    },
+    {
+      "id": "netease-track:21332221",
+      "neteaseTrackId": "21332221",
+      "title": "Dear Old Stockholm",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 468800
+    },
+    {
+      "id": "netease-track:21332222",
+      "neteaseTrackId": "21332222",
+      "title": "Tadd's Delight",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 268693
+    },
+    {
+      "id": "netease-track:21332223",
+      "neteaseTrackId": "21332223",
+      "title": "The Theme (live)",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 166146
+    },
+    {
+      "id": "netease-track:21332224",
+      "neteaseTrackId": "21332224",
+      "title": "Ah-Leu-Cha (live)",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 351000
+    },
+    {
+      "id": "netease-track:21332225",
+      "neteaseTrackId": "21332225",
+      "title": "Buzzard Song",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 245150
+    },
+    {
+      "id": "netease-track:21332226",
+      "neteaseTrackId": "21332226",
+      "title": "Bess, You Is My Woman Now",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 312573
+    },
+    {
+      "id": "netease-track:21332227",
+      "neteaseTrackId": "21332227",
+      "title": "Straight, No Chaser",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 637600
+    }
+  ],
+  "trackCount": 30,
+  "externalUrl": "https://music.163.com/#/album?id=1970052",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "The Real Miles Davis Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

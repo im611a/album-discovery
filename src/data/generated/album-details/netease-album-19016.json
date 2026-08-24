@@ -1,0 +1,167 @@
+{
+  "internalId": "album:19016",
+  "id": "album:19016",
+  "neteaseAlbumId": "19016",
+  "slug": "netease-album-19016",
+  "title": "说谎",
+  "aliases": [
+    "我们爱这个错"
+  ],
+  "artists": [
+    {
+      "id": "netease-artist:6454",
+      "neteaseArtistId": "6454",
+      "name": "张信哲"
+    }
+  ],
+  "releaseDate": "1989-03-20",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "滚石唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19016.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19016.webp",
+    "alt": "《说谎》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:187587",
+      "neteaseTrackId": "187587",
+      "title": "我们爱这个错",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 210265
+    },
+    {
+      "id": "netease-track:187591",
+      "neteaseTrackId": "187591",
+      "title": "诺言也许不变",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 292293
+    },
+    {
+      "id": "netease-track:187595",
+      "neteaseTrackId": "187595",
+      "title": "今夜的梦里有雾",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 283667
+    },
+    {
+      "id": "netease-track:187599",
+      "neteaseTrackId": "187599",
+      "title": "你心动了吗",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 243133
+    },
+    {
+      "id": "netease-track:187604",
+      "neteaseTrackId": "187604",
+      "title": "C`est La Vie",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 226000
+    },
+    {
+      "id": "netease-track:187608",
+      "neteaseTrackId": "187608",
+      "title": "请别离去",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 256560
+    },
+    {
+      "id": "netease-track:187612",
+      "neteaseTrackId": "187612",
+      "title": "Without You",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 278640
+    },
+    {
+      "id": "netease-track:187616",
+      "neteaseTrackId": "187616",
+      "title": "别再沉默对我",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张信哲",
+        "于希平"
+      ],
+      "durationMs": 223760
+    },
+    {
+      "id": "netease-track:187622",
+      "neteaseTrackId": "187622",
+      "title": "思念的旋律",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:187626",
+      "neteaseTrackId": "187626",
+      "title": "快乐悲伤",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张信哲"
+      ],
+      "durationMs": 265906
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=19016",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "说谎 我们爱这个错 张信哲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

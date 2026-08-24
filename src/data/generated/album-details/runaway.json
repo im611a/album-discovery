@@ -1,0 +1,98 @@
+{
+  "internalId": "album:151305",
+  "id": "album:151305",
+  "neteaseAlbumId": "151305",
+  "slug": "runaway",
+  "title": "Runaway",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:35350",
+      "neteaseArtistId": "35350",
+      "name": "Janet Jackson"
+    }
+  ],
+  "releaseDate": "1995-08-28",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "A&M",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/151305.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/151305.webp",
+    "alt": "《Runaway》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1480178",
+      "neteaseTrackId": "1480178",
+      "title": "Runaway",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 214595
+    },
+    {
+      "id": "netease-track:1480182",
+      "neteaseTrackId": "1480182",
+      "title": "When I Think Of You (David Morales House Mix ' 95 UK 7\" Edit)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 208880
+    },
+    {
+      "id": "netease-track:1480186",
+      "neteaseTrackId": "1480186",
+      "title": "When I Think Of You (David Morales Classic Club Mix)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 417840
+    },
+    {
+      "id": "netease-track:1480190",
+      "neteaseTrackId": "1480190",
+      "title": "When I Think Of You (David Morales Jazzy Mix UK Edit)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Janet Jackson"
+      ],
+      "durationMs": 618000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=151305",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "art-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Runaway Janet Jackson",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

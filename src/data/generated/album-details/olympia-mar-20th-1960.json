@@ -1,0 +1,142 @@
+{
+  "internalId": "album:172427",
+  "id": "album:172427",
+  "neteaseAlbumId": "172427",
+  "slug": "olympia-mar-20th-1960",
+  "title": "Olympia, Mar 20th, 1960",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:38860",
+      "neteaseArtistId": "38860",
+      "name": "Miles Davis"
+    }
+  ],
+  "releaseDate": "2002-04-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/172427.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/172427.webp",
+    "alt": "《Olympia, Mar 20th, 1960》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:1700478",
+      "neteaseTrackId": "1700478",
+      "title": "All Of You",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 1026000
+    },
+    {
+      "id": "netease-track:1700480",
+      "neteaseTrackId": "1700480",
+      "title": "So What",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 812000
+    },
+    {
+      "id": "netease-track:1700482",
+      "neteaseTrackId": "1700482",
+      "title": "On Green Dolphin Street",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 886000
+    },
+    {
+      "id": "netease-track:1700484",
+      "neteaseTrackId": "1700484",
+      "title": "Walkin'",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 952000
+    },
+    {
+      "id": "netease-track:1700488",
+      "neteaseTrackId": "1700488",
+      "title": "Bye Bye Blackbird",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 840214
+    },
+    {
+      "id": "netease-track:1700490",
+      "neteaseTrackId": "1700490",
+      "title": "Round About Midnight",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 353000
+    },
+    {
+      "id": "netease-track:1700493",
+      "neteaseTrackId": "1700493",
+      "title": "Oleo",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 256000
+    },
+    {
+      "id": "netease-track:1700497",
+      "neteaseTrackId": "1700497",
+      "title": "The Theme",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Miles Davis"
+      ],
+      "durationMs": 50000
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=172427",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "jazz"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Olympia, Mar 20th, 1960 Miles Davis",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "internalId": "album:47704",
+  "id": "album:47704",
+  "neteaseAlbumId": "47704",
+  "slug": "henkakunoseiki-original-motion-picture-soundtrack",
+  "title": "Henkakunoseiki (Original Motion Picture Soundtrack)",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:15289",
+      "neteaseArtistId": "15289",
+      "name": "坂本龍一"
+    }
+  ],
+  "releaseDate": "2002-05-14",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/47704.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/47704.webp",
+    "alt": "《Henkakunoseiki (Original Motion Picture Soundtrack)》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:499716",
+      "neteaseTrackId": "499716",
+      "title": "Henkakunoseiki (Opening)",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 263266
+    },
+    {
+      "id": "netease-track:499718",
+      "neteaseTrackId": "499718",
+      "title": "Henkakunoseiki (Clarinet Duo)",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 207093
+    },
+    {
+      "id": "netease-track:499720",
+      "neteaseTrackId": "499720",
+      "title": "Henkakunoseiki (Cello Duo)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 208040
+    },
+    {
+      "id": "netease-track:499722",
+      "neteaseTrackId": "499722",
+      "title": "Henkakunoseiki (Violin Duo)",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 242426
+    },
+    {
+      "id": "netease-track:499727",
+      "neteaseTrackId": "499727",
+      "title": "Henkakunoseiki (Piano Solo)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 202773
+    },
+    {
+      "id": "netease-track:499732",
+      "neteaseTrackId": "499732",
+      "title": "Henkakunoseiki (Rhodes Solo)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 222626
+    },
+    {
+      "id": "netease-track:499738",
+      "neteaseTrackId": "499738",
+      "title": "Henkakunoseiki (Alt.Rhodes Solo)",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 225040
+    },
+    {
+      "id": "netease-track:499744",
+      "neteaseTrackId": "499744",
+      "title": "Henkakunoseiki (Ending)",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "坂本龍一"
+      ],
+      "durationMs": 238066
+    }
+  ],
+  "trackCount": 8,
+  "externalUrl": "https://music.163.com/#/album?id=47704",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "ambient"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Henkakunoseiki (Original Motion Picture Soundtrack) 坂本龍一",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

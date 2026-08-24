@@ -1,0 +1,164 @@
+{
+  "internalId": "album:1724183",
+  "id": "album:1724183",
+  "neteaseAlbumId": "1724183",
+  "slug": "dog-eat-dog",
+  "title": "Dog Eat Dog",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:60926",
+      "neteaseArtistId": "60926",
+      "name": "Joni Mitchell"
+    }
+  ],
+  "releaseDate": "1984-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Geffen",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1724183.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1724183.webp",
+    "alt": "《Dog Eat Dog》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18822009",
+      "neteaseTrackId": "18822009",
+      "title": "Good Friends",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 269191
+    },
+    {
+      "id": "netease-track:18822011",
+      "neteaseTrackId": "18822011",
+      "title": "Fiction",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 250305
+    },
+    {
+      "id": "netease-track:18822013",
+      "neteaseTrackId": "18822013",
+      "title": "The Three Great Stimulants",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 374961
+    },
+    {
+      "id": "netease-track:18822015",
+      "neteaseTrackId": "18822015",
+      "title": "Tax Free",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 257488
+    },
+    {
+      "id": "netease-track:18822016",
+      "neteaseTrackId": "18822016",
+      "title": "Smokin' (Empty, Try Another)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 105639
+    },
+    {
+      "id": "netease-track:18822017",
+      "neteaseTrackId": "18822017",
+      "title": "Dog Eat Dog",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 281939
+    },
+    {
+      "id": "netease-track:18822019",
+      "neteaseTrackId": "18822019",
+      "title": "Shiny Toys",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 208222
+    },
+    {
+      "id": "netease-track:18822021",
+      "neteaseTrackId": "18822021",
+      "title": "Ethiopia",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 351660
+    },
+    {
+      "id": "netease-track:18822023",
+      "neteaseTrackId": "18822023",
+      "title": "Impossible Dreamer",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 271072
+    },
+    {
+      "id": "netease-track:18822024",
+      "neteaseTrackId": "18822024",
+      "title": "Lucky Girl",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "durationMs": 241867
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=1724183",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Dog Eat Dog Joni Mitchell",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

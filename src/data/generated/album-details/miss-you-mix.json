@@ -1,0 +1,186 @@
+{
+  "internalId": "album:19063",
+  "id": "album:19063",
+  "neteaseAlbumId": "19063",
+  "slug": "miss-you-mix",
+  "title": "Miss You Mix",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:6457",
+      "neteaseArtistId": "6457",
+      "name": "张国荣"
+    }
+  ],
+  "releaseDate": "1990-12-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "Universal Music Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/19063.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/19063.webp",
+    "alt": "《Miss You Mix》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:188253",
+      "neteaseTrackId": "188253",
+      "title": "Dreaming",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 292292
+    },
+    {
+      "id": "netease-track:188256",
+      "neteaseTrackId": "188256",
+      "title": "Hot Summer",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 400312
+    },
+    {
+      "id": "netease-track:188259",
+      "neteaseTrackId": "188259",
+      "title": "放荡",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 374413
+    },
+    {
+      "id": "netease-track:188262",
+      "neteaseTrackId": "188262",
+      "title": "Why?!",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 385040
+    },
+    {
+      "id": "netease-track:188266",
+      "neteaseTrackId": "188266",
+      "title": "侧面",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 382084
+    },
+    {
+      "id": "netease-track:188269",
+      "neteaseTrackId": "188269",
+      "title": "拒绝再玩",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 320017
+    },
+    {
+      "id": "netease-track:188272",
+      "neteaseTrackId": "188272",
+      "title": "Miss You Much",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 378833
+    },
+    {
+      "id": "netease-track:188275",
+      "neteaseTrackId": "188275",
+      "title": "继续跳舞",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 380505
+    },
+    {
+      "id": "netease-track:188279",
+      "neteaseTrackId": "188279",
+      "title": "禁片",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 240930
+    },
+    {
+      "id": "netease-track:188282",
+      "neteaseTrackId": "188282",
+      "title": "无心睡眠",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 319413
+    },
+    {
+      "id": "netease-track:188285",
+      "neteaseTrackId": "188285",
+      "title": "暴风一族",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 339661
+    },
+    {
+      "id": "netease-track:188287",
+      "neteaseTrackId": "188287",
+      "title": "够了",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "张国荣"
+      ],
+      "durationMs": 374096
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=19063",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Miss You Mix 张国荣",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

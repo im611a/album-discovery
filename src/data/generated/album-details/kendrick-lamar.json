@@ -1,0 +1,228 @@
+{
+  "internalId": "album:1734886",
+  "id": "album:1734886",
+  "neteaseAlbumId": "1734886",
+  "slug": "kendrick-lamar",
+  "title": "Kendrick Lamar",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:37995",
+      "neteaseArtistId": "37995",
+      "name": "Kendrick Lamar"
+    }
+  ],
+  "releaseDate": "2009-12-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1734886.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1734886.webp",
+    "alt": "《Kendrick Lamar》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:18943498",
+      "neteaseTrackId": "18943498",
+      "title": "Is It Love",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Angela McCluskey"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:18943499",
+      "neteaseTrackId": "18943499",
+      "title": "Celebration",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 230000
+    },
+    {
+      "id": "netease-track:18943500",
+      "neteaseTrackId": "18943500",
+      "title": "P&P",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Ab Soul"
+      ],
+      "durationMs": 282000
+    },
+    {
+      "id": "netease-track:18943501",
+      "neteaseTrackId": "18943501",
+      "title": "She Needs Me",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Javonte"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:18943502",
+      "neteaseTrackId": "18943502",
+      "title": "IAM",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 79000
+    },
+    {
+      "id": "netease-track:18943503",
+      "neteaseTrackId": "18943503",
+      "title": "Wanna Be Heard",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 277130
+    },
+    {
+      "id": "netease-track:18943504",
+      "neteaseTrackId": "18943504",
+      "title": "I Do This",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Jay Rock"
+      ],
+      "durationMs": 248000
+    },
+    {
+      "id": "netease-track:18943505",
+      "neteaseTrackId": "18943505",
+      "title": "Uncle Bobby & Jason Keaton",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Javonte"
+      ],
+      "durationMs": 239000
+    },
+    {
+      "id": "netease-track:18943506",
+      "neteaseTrackId": "18943506",
+      "title": "Faith",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Bj The Chicago Kid",
+        "Punch"
+      ],
+      "durationMs": 291000
+    },
+    {
+      "id": "netease-track:18943507",
+      "neteaseTrackId": "18943507",
+      "title": "Trip",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 230000
+    },
+    {
+      "id": "netease-track:18943508",
+      "neteaseTrackId": "18943508",
+      "title": "Vanity Slaves",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:18943509",
+      "neteaseTrackId": "18943509",
+      "title": "Far From Here",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "ScHoolboy Q"
+      ],
+      "durationMs": 233000
+    },
+    {
+      "id": "netease-track:18943510",
+      "neteaseTrackId": "18943510",
+      "title": "Thanksgiving",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar",
+        "Big Pooh"
+      ],
+      "durationMs": 219000
+    },
+    {
+      "id": "netease-track:18943511",
+      "neteaseTrackId": "18943511",
+      "title": "Let Me Be Me",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 439000
+    },
+    {
+      "id": "netease-track:18943512",
+      "neteaseTrackId": "18943512",
+      "title": "Determined",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "durationMs": 271020
+    }
+  ],
+  "trackCount": 15,
+  "externalUrl": "https://music.163.com/#/album?id=1734886",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "hip-hop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Kendrick Lamar Kendrick Lamar",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

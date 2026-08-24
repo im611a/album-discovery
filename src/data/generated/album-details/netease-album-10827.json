@@ -1,0 +1,186 @@
+{
+  "internalId": "album:10827",
+  "id": "album:10827",
+  "neteaseAlbumId": "10827",
+  "slug": "netease-album-10827",
+  "title": "你今日拯救咗地球未呀",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3687",
+      "neteaseArtistId": "3687",
+      "name": "林一峰"
+    }
+  ],
+  "releaseDate": "2005-06-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "LYFE Company Limited",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10827.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10827.webp",
+    "alt": "《你今日拯救咗地球未呀》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:109208",
+      "neteaseTrackId": "109208",
+      "title": "静止",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 171840
+    },
+    {
+      "id": "netease-track:109212",
+      "neteaseTrackId": "109212",
+      "title": "游乐场上的最后胜利",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 102506
+    },
+    {
+      "id": "netease-track:109216",
+      "neteaseTrackId": "109216",
+      "title": "我和我的影子",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 177986
+    },
+    {
+      "id": "netease-track:109220",
+      "neteaseTrackId": "109220",
+      "title": "数三声",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 140013
+    },
+    {
+      "id": "netease-track:109224",
+      "neteaseTrackId": "109224",
+      "title": "大笨象",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 89000
+    },
+    {
+      "id": "netease-track:109228",
+      "neteaseTrackId": "109228",
+      "title": "忘了被拥抱的感觉",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 180493
+    },
+    {
+      "id": "netease-track:109231",
+      "neteaseTrackId": "109231",
+      "title": "死U死ME",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 121506
+    },
+    {
+      "id": "netease-track:109232",
+      "neteaseTrackId": "109232",
+      "title": "给最开心的人",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 238986
+    },
+    {
+      "id": "netease-track:109233",
+      "neteaseTrackId": "109233",
+      "title": "时间河",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 185506
+    },
+    {
+      "id": "netease-track:109234",
+      "neteaseTrackId": "109234",
+      "title": "活下来",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 274506
+    },
+    {
+      "id": "netease-track:109238",
+      "neteaseTrackId": "109238",
+      "title": "陪你失眠",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 127493
+    },
+    {
+      "id": "netease-track:109242",
+      "neteaseTrackId": "109242",
+      "title": "纯色",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "林一峰"
+      ],
+      "durationMs": 244173
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=10827",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "你今日拯救咗地球未呀 林一峰",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

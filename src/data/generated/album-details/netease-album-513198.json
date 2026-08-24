@@ -1,0 +1,217 @@
+{
+  "internalId": "album:513198",
+  "id": "album:513198",
+  "neteaseAlbumId": "513198",
+  "slug": "netease-album-513198",
+  "title": "艺佳四口",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2125",
+      "neteaseArtistId": "2125",
+      "name": "陈晓东"
+    },
+    {
+      "id": "netease-artist:7779",
+      "neteaseArtistId": "7779",
+      "name": "高慧君"
+    },
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    },
+    {
+      "id": "netease-artist:6473",
+      "neteaseArtistId": "6473",
+      "name": "郑中基"
+    }
+  ],
+  "releaseDate": "1999-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "环球唱片",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/513198.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/513198.webp",
+    "alt": "《艺佳四口》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:5274263",
+      "neteaseTrackId": "5274263",
+      "title": "To Love You More",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "高慧君"
+      ],
+      "durationMs": 384000
+    },
+    {
+      "id": "netease-track:5274264",
+      "neteaseTrackId": "5274264",
+      "title": "认真的女人最美丽",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "高慧君"
+      ],
+      "durationMs": 265000
+    },
+    {
+      "id": "netease-track:5274265",
+      "neteaseTrackId": "5274265",
+      "title": "你最珍贵",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "高慧君",
+        "陈晓东"
+      ],
+      "durationMs": 280764
+    },
+    {
+      "id": "netease-track:5274266",
+      "neteaseTrackId": "5274266",
+      "title": "新欢加精选",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "陈晓东"
+      ],
+      "durationMs": 227040
+    },
+    {
+      "id": "netease-track:5274267",
+      "neteaseTrackId": "5274267",
+      "title": "要知道你的感觉",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "陈晓东"
+      ],
+      "durationMs": 275000
+    },
+    {
+      "id": "netease-track:5274268",
+      "neteaseTrackId": "5274268",
+      "title": "谁人甲我比",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈晓东"
+      ],
+      "durationMs": 220000
+    },
+    {
+      "id": "netease-track:5274269",
+      "neteaseTrackId": "5274269",
+      "title": "白天不懂夜的黑",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 253960
+    },
+    {
+      "id": "netease-track:5274270",
+      "neteaseTrackId": "5274270",
+      "title": "你快走开",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 300000
+    },
+    {
+      "id": "netease-track:5274271",
+      "neteaseTrackId": "5274271",
+      "title": "红豆",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 195840
+    },
+    {
+      "id": "netease-track:5274272",
+      "neteaseTrackId": "5274272",
+      "title": "Killing Me Softly With His Song",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "郑中基",
+        "蔡健雅"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:5274273",
+      "neteaseTrackId": "5274273",
+      "title": "组曲:别爱我+卸不下的行李+不许别人占有",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "郑中基"
+      ],
+      "durationMs": 500000
+    },
+    {
+      "id": "netease-track:5274274",
+      "neteaseTrackId": "5274274",
+      "title": "童年",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "郑中基"
+      ],
+      "durationMs": 170000
+    },
+    {
+      "id": "netease-track:5274275",
+      "neteaseTrackId": "5274275",
+      "title": "制造浪漫",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "郑中基",
+        "蔡健雅",
+        "高慧君",
+        "陈晓东"
+      ],
+      "durationMs": 299000
+    }
+  ],
+  "trackCount": 13,
+  "externalUrl": "https://music.163.com/#/album?id=513198",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "艺佳四口 陈晓东 高慧君 蔡健雅 郑中基",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

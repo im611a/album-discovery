@@ -1,0 +1,98 @@
+{
+  "internalId": "album:1577502",
+  "id": "album:1577502",
+  "neteaseAlbumId": "1577502",
+  "slug": "tiny-dynamine",
+  "title": "Tiny Dynamine",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:89364",
+      "neteaseArtistId": "89364",
+      "name": "Cocteau Twins"
+    }
+  ],
+  "releaseDate": "1985-10-31",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "4AD",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/1577502.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/1577502.webp",
+    "alt": "《Tiny Dynamine》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:17125049",
+      "neteaseTrackId": "17125049",
+      "title": "Pink Orange Red",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 282906
+    },
+    {
+      "id": "netease-track:17125050",
+      "neteaseTrackId": "17125050",
+      "title": "Ribbed and Veined",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 239804
+    },
+    {
+      "id": "netease-track:17125051",
+      "neteaseTrackId": "17125051",
+      "title": "Plain Tiger",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 243461
+    },
+    {
+      "id": "netease-track:17125052",
+      "neteaseTrackId": "17125052",
+      "title": "Sultitan Itan",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "durationMs": 230608
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=1577502",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "dream-pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Tiny Dynamine Cocteau Twins",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

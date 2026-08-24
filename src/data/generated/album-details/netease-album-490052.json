@@ -1,0 +1,202 @@
+{
+  "internalId": "album:490052",
+  "id": "album:490052",
+  "neteaseAlbumId": "490052",
+  "slug": "netease-album-490052",
+  "title": "那时花开 电影原声带",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3682",
+      "neteaseArtistId": "3682",
+      "name": "老狼"
+    },
+    {
+      "id": "netease-artist:6458",
+      "neteaseArtistId": "6458",
+      "name": "郑钧"
+    },
+    {
+      "id": "netease-artist:4721",
+      "neteaseArtistId": "4721",
+      "name": "朴树"
+    },
+    {
+      "id": "netease-artist:12712",
+      "neteaseArtistId": "12712",
+      "name": "水木年华"
+    }
+  ],
+  "releaseDate": "2002-11-30",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/490052.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/490052.webp",
+    "alt": "《那时花开 电影原声带》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4877235",
+      "neteaseTrackId": "4877235",
+      "title": "月光倾城",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 145453
+    },
+    {
+      "id": "netease-track:4877236",
+      "neteaseTrackId": "4877236",
+      "title": "花儿为什么这样红",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "郑钧"
+      ],
+      "durationMs": 296467
+    },
+    {
+      "id": "netease-track:4877237",
+      "neteaseTrackId": "4877237",
+      "title": "雨(音乐)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 215000
+    },
+    {
+      "id": "netease-track:4877238",
+      "neteaseTrackId": "4877238",
+      "title": "三个郁闷的家伙",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 210000
+    },
+    {
+      "id": "netease-track:4877239",
+      "neteaseTrackId": "4877239",
+      "title": "双秀园号",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 217293
+    },
+    {
+      "id": "netease-track:4877240",
+      "neteaseTrackId": "4877240",
+      "title": "风花树(脆弱篇)",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "水木年华"
+      ],
+      "durationMs": 258533
+    },
+    {
+      "id": "netease-track:4877241",
+      "neteaseTrackId": "4877241",
+      "title": "青春之弦",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 131709
+    },
+    {
+      "id": "netease-track:4877242",
+      "neteaseTrackId": "4877242",
+      "title": "三人行",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 179000
+    },
+    {
+      "id": "netease-track:4877243",
+      "neteaseTrackId": "4877243",
+      "title": "一生有你",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "水木年华"
+      ],
+      "durationMs": 258133
+    },
+    {
+      "id": "netease-track:4877244",
+      "neteaseTrackId": "4877244",
+      "title": "猜想",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 335000
+    },
+    {
+      "id": "netease-track:4877245",
+      "neteaseTrackId": "4877245",
+      "title": "墓志铭",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "水木年华"
+      ],
+      "durationMs": 260733
+    },
+    {
+      "id": "netease-track:4877246",
+      "neteaseTrackId": "4877246",
+      "title": "那些花儿",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "朴树"
+      ],
+      "durationMs": 294626
+    }
+  ],
+  "trackCount": 12,
+  "externalUrl": "https://music.163.com/#/album?id=490052",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk",
+    "rock"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "那时花开 电影原声带 老狼 郑钧 朴树 水木年华",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

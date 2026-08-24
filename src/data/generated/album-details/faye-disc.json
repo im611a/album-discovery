@@ -1,0 +1,100 @@
+{
+  "internalId": "album:29776",
+  "id": "album:29776",
+  "neteaseAlbumId": "29776",
+  "slug": "faye-disc",
+  "title": "Faye Disc",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:9621",
+      "neteaseArtistId": "9621",
+      "name": "王菲"
+    }
+  ],
+  "releaseDate": "1994-04-30",
+  "releaseDatePrecision": "day",
+  "albumType": "ep",
+  "company": "Cinepoly Records Co. Ltd.",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/29776.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/29776.webp",
+    "alt": "《Faye Disc》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:300460",
+      "neteaseTrackId": "300460",
+      "title": "回忆是红色天空",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 254000
+    },
+    {
+      "id": "netease-track:300464",
+      "neteaseTrackId": "300464",
+      "title": "只有我自己",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 207000
+    },
+    {
+      "id": "netease-track:300467",
+      "neteaseTrackId": "300467",
+      "title": "冷战",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "王菲"
+      ],
+      "durationMs": 251000
+    },
+    {
+      "id": "netease-track:300469",
+      "neteaseTrackId": "300469",
+      "title": "只因喜欢你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "王菲",
+        "林海峰"
+      ],
+      "durationMs": 232000
+    }
+  ],
+  "trackCount": 4,
+  "externalUrl": "https://music.163.com/#/album?id=29776",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "experimental-pop",
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Faye Disc 王菲",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

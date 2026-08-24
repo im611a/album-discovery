@@ -1,0 +1,208 @@
+{
+  "internalId": "album:16944",
+  "id": "album:16944",
+  "neteaseAlbumId": "16944",
+  "slug": "netease-album-16944",
+  "title": "狂想曲",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:5768",
+      "neteaseArtistId": "5768",
+      "name": "萧敬腾"
+    }
+  ],
+  "releaseDate": "2011-06-29",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "索尼音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/16944.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/16944.webp",
+    "alt": "《狂想曲》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:167787",
+      "neteaseTrackId": "167787",
+      "title": "你",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 285333
+    },
+    {
+      "id": "netease-track:167791",
+      "neteaseTrackId": "167791",
+      "title": "复制人",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 227160
+    },
+    {
+      "id": "netease-track:167794",
+      "neteaseTrackId": "167794",
+      "title": "狂想曲",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 267973
+    },
+    {
+      "id": "netease-track:167796",
+      "neteaseTrackId": "167796",
+      "title": "只能想念你",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 261266
+    },
+    {
+      "id": "netease-track:167798",
+      "neteaseTrackId": "167798",
+      "title": "话不多",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 259000
+    },
+    {
+      "id": "netease-track:167799",
+      "neteaseTrackId": "167799",
+      "title": "怎么说我不爱你",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 275293
+    },
+    {
+      "id": "netease-track:167801",
+      "neteaseTrackId": "167801",
+      "title": "不停有意外的世界",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 242640
+    },
+    {
+      "id": "netease-track:167803",
+      "neteaseTrackId": "167803",
+      "title": "敷衍",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 238693
+    },
+    {
+      "id": "netease-track:167806",
+      "neteaseTrackId": "167806",
+      "title": "信仰",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 237733
+    },
+    {
+      "id": "netease-track:167809",
+      "neteaseTrackId": "167809",
+      "title": "好想对你说 (悲伤版)",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 301240
+    },
+    {
+      "id": "netease-track:167812",
+      "neteaseTrackId": "167812",
+      "title": "好想对你说",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 306226
+    },
+    {
+      "id": "netease-track:167816",
+      "neteaseTrackId": "167816",
+      "title": "白蛇传",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 149933
+    },
+    {
+      "id": "netease-track:167819",
+      "neteaseTrackId": "167819",
+      "title": "茉莉恋",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 167066
+    },
+    {
+      "id": "netease-track:167822",
+      "neteaseTrackId": "167822",
+      "title": "看对眼",
+      "trackNumber": 3,
+      "discNumber": 2,
+      "artists": [
+        "萧敬腾"
+      ],
+      "durationMs": 212800
+    }
+  ],
+  "trackCount": 14,
+  "externalUrl": "https://music.163.com/#/album?id=16944",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "狂想曲 萧敬腾",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

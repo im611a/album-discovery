@@ -1,0 +1,263 @@
+{
+  "internalId": "album:32356",
+  "id": "album:32356",
+  "neteaseAlbumId": "32356",
+  "slug": "netease-album-32356",
+  "title": "张靓颖@音乐",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:10561",
+      "neteaseArtistId": "10561",
+      "name": "张靓颖"
+    }
+  ],
+  "releaseDate": "2009-01-19",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/32356.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/32356.webp",
+    "alt": "《张靓颖@音乐》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:327039",
+      "neteaseTrackId": "327039",
+      "title": "花开的声音",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 285360
+    },
+    {
+      "id": "netease-track:327042",
+      "neteaseTrackId": "327042",
+      "title": "那不会是爱吧",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 240507
+    },
+    {
+      "id": "netease-track:327045",
+      "neteaseTrackId": "327045",
+      "title": "黑夜里的光",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 234000
+    },
+    {
+      "id": "netease-track:327048",
+      "neteaseTrackId": "327048",
+      "title": "是我",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 236093
+    },
+    {
+      "id": "netease-track:327051",
+      "neteaseTrackId": "327051",
+      "title": "我的音乐让我说",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 260000
+    },
+    {
+      "id": "netease-track:327054",
+      "neteaseTrackId": "327054",
+      "title": "为难",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 229800
+    },
+    {
+      "id": "netease-track:327057",
+      "neteaseTrackId": "327057",
+      "title": "靠近你",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 267240
+    },
+    {
+      "id": "netease-track:327060",
+      "neteaseTrackId": "327060",
+      "title": "Sunshine Alike",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 263493
+    },
+    {
+      "id": "netease-track:327063",
+      "neteaseTrackId": "327063",
+      "title": "孩子的眼睛",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 216467
+    },
+    {
+      "id": "netease-track:327066",
+      "neteaseTrackId": "327066",
+      "title": "我的路",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 395746
+    },
+    {
+      "id": "netease-track:458412902",
+      "neteaseTrackId": "458412902",
+      "title": "花开的声音 (伴奏)",
+      "trackNumber": 1,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 288933
+    },
+    {
+      "id": "netease-track:458412896",
+      "neteaseTrackId": "458412896",
+      "title": "那不会是爱吧 (伴奏)",
+      "trackNumber": 2,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 244026
+    },
+    {
+      "id": "netease-track:458412900",
+      "neteaseTrackId": "458412900",
+      "title": "是我 (伴奏)",
+      "trackNumber": 4,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 242693
+    },
+    {
+      "id": "netease-track:458412894",
+      "neteaseTrackId": "458412894",
+      "title": "我的音乐让我说 (伴奏)",
+      "trackNumber": 5,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 262640
+    },
+    {
+      "id": "netease-track:458412898",
+      "neteaseTrackId": "458412898",
+      "title": "为难 (伴奏)",
+      "trackNumber": 6,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 233480
+    },
+    {
+      "id": "netease-track:458412897",
+      "neteaseTrackId": "458412897",
+      "title": "靠近你 (伴奏)",
+      "trackNumber": 7,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 271266
+    },
+    {
+      "id": "netease-track:458412895",
+      "neteaseTrackId": "458412895",
+      "title": "Sunshine Alike (伴奏)",
+      "trackNumber": 8,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 270306
+    },
+    {
+      "id": "netease-track:458412899",
+      "neteaseTrackId": "458412899",
+      "title": "孩子的眼睛 (伴奏)",
+      "trackNumber": 9,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 219640
+    },
+    {
+      "id": "netease-track:458412901",
+      "neteaseTrackId": "458412901",
+      "title": "我的路 (伴奏)",
+      "trackNumber": 10,
+      "discNumber": 2,
+      "artists": [
+        "张靓颖"
+      ],
+      "durationMs": 391973
+    }
+  ],
+  "trackCount": 19,
+  "externalUrl": "https://music.163.com/#/album?id=32356",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "张靓颖@音乐 张靓颖",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

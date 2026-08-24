@@ -1,0 +1,175 @@
+{
+  "internalId": "album:21257",
+  "id": "album:21257",
+  "neteaseAlbumId": "21257",
+  "slug": "goodbye-hello",
+  "title": "Goodbye & Hello",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:7214",
+      "neteaseArtistId": "7214",
+      "name": "蔡健雅"
+    }
+  ],
+  "releaseDate": "2007-10-04",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "亚神音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/21257.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/21257.webp",
+    "alt": "《Goodbye & Hello》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:208933",
+      "neteaseTrackId": "208933",
+      "title": "达尔文",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 265106
+    },
+    {
+      "id": "netease-track:208935",
+      "neteaseTrackId": "208935",
+      "title": "Goodbye & Hello",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 220053
+    },
+    {
+      "id": "netease-track:208937",
+      "neteaseTrackId": "208937",
+      "title": "当你离开的时候",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 237693
+    },
+    {
+      "id": "netease-track:208938",
+      "neteaseTrackId": "208938",
+      "title": "空白格",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 252600
+    },
+    {
+      "id": "netease-track:208940",
+      "neteaseTrackId": "208940",
+      "title": "越来越不懂",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 249360
+    },
+    {
+      "id": "netease-track:208942",
+      "neteaseTrackId": "208942",
+      "title": "如果你爱我",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 231400
+    },
+    {
+      "id": "netease-track:208944",
+      "neteaseTrackId": "208944",
+      "title": "化学实验",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 254586
+    },
+    {
+      "id": "netease-track:208946",
+      "neteaseTrackId": "208946",
+      "title": "It's True",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 264751
+    },
+    {
+      "id": "netease-track:208948",
+      "neteaseTrackId": "208948",
+      "title": "晨间新闻",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 230973
+    },
+    {
+      "id": "netease-track:208949",
+      "neteaseTrackId": "208949",
+      "title": "走过的路",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 272200
+    },
+    {
+      "id": "netease-track:208950",
+      "neteaseTrackId": "208950",
+      "title": "达尔文 II 进化版",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "蔡健雅"
+      ],
+      "durationMs": 219453
+    }
+  ],
+  "trackCount": 11,
+  "externalUrl": "https://music.163.com/#/album?id=21257",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "Goodbye & Hello 蔡健雅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

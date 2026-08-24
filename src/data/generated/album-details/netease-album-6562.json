@@ -1,0 +1,158 @@
+{
+  "internalId": "album:6562",
+  "id": "album:6562",
+  "neteaseAlbumId": "6562",
+  "slug": "netease-album-6562",
+  "title": "五星级的家",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:2116",
+      "neteaseArtistId": "2116",
+      "name": "陈奕迅"
+    }
+  ],
+  "releaseDate": "2002-06-13",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "EEG Music",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/6562.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/6562.webp",
+    "alt": "《五星级的家》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:67028",
+      "neteaseTrackId": "67028",
+      "title": "五星级迫爆",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "苦荣",
+        "吴君如",
+        "小苦妹"
+      ],
+      "durationMs": 182800
+    },
+    {
+      "id": "netease-track:67032",
+      "neteaseTrackId": "67032",
+      "title": "孤儿仔",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "苦荣"
+      ],
+      "durationMs": 223040
+    },
+    {
+      "id": "netease-track:67034",
+      "neteaseTrackId": "67034",
+      "title": "真相 (纯音乐)",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 236982
+    },
+    {
+      "id": "netease-track:67036",
+      "neteaseTrackId": "67036",
+      "title": "愿",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "苦荣"
+      ],
+      "durationMs": 204440
+    },
+    {
+      "id": "netease-track:67039",
+      "neteaseTrackId": "67039",
+      "title": "寻人 (纯音乐)",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 146186
+    },
+    {
+      "id": "netease-track:67041",
+      "neteaseTrackId": "67041",
+      "title": "一疋布",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "陈奕迅",
+        "小苦妹"
+      ],
+      "durationMs": 179186
+    },
+    {
+      "id": "netease-track:67043",
+      "neteaseTrackId": "67043",
+      "title": "五星连珠",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 144875
+    },
+    {
+      "id": "netease-track:67045",
+      "neteaseTrackId": "67045",
+      "title": "讲故事",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "小苦妹"
+      ],
+      "durationMs": 221960
+    },
+    {
+      "id": "netease-track:67030",
+      "neteaseTrackId": "67030",
+      "title": "到此一游",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 165533
+    }
+  ],
+  "trackCount": 9,
+  "externalUrl": "https://music.163.com/#/album?id=6562",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "五星级的家 陈奕迅",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

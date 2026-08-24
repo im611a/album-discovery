@@ -1,0 +1,394 @@
+{
+  "internalId": "album:489865",
+  "id": "album:489865",
+  "neteaseAlbumId": "489865",
+  "slug": "netease-album-489865",
+  "title": "生日快乐 电影原声大碟",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:122455",
+      "neteaseArtistId": "122455",
+      "name": "群星"
+    },
+    {
+      "id": "netease-artist:8326",
+      "neteaseArtistId": "8326",
+      "name": "刘若英"
+    },
+    {
+      "id": "netease-artist:2844",
+      "neteaseArtistId": "2844",
+      "name": "古天乐"
+    }
+  ],
+  "releaseDate": "2007-01-11",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": null,
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/489865.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/489865.webp",
+    "alt": "《生日快乐 电影原声大碟》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:4874233",
+      "neteaseTrackId": "4874233",
+      "title": "祝你…",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 82000
+    },
+    {
+      "id": "netease-track:4874234",
+      "neteaseTrackId": "4874234",
+      "title": "生日快乐",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 214360
+    },
+    {
+      "id": "netease-track:4874235",
+      "neteaseTrackId": "4874235",
+      "title": "Happy Birthday",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 20000
+    },
+    {
+      "id": "netease-track:4874236",
+      "neteaseTrackId": "4874236",
+      "title": "那年17岁",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 113000
+    },
+    {
+      "id": "netease-track:4874237",
+      "neteaseTrackId": "4874237",
+      "title": "小米与小南",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 79000
+    },
+    {
+      "id": "netease-track:4874238",
+      "neteaseTrackId": "4874238",
+      "title": "如果我忘记你的生日",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "古天乐"
+      ],
+      "durationMs": 9000
+    },
+    {
+      "id": "netease-track:4874239",
+      "neteaseTrackId": "4874239",
+      "title": "等待",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 78000
+    },
+    {
+      "id": "netease-track:4874240",
+      "neteaseTrackId": "4874240",
+      "title": "I Miss You",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 57000
+    },
+    {
+      "id": "netease-track:4874241",
+      "neteaseTrackId": "4874241",
+      "title": "回忆",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 24000
+    },
+    {
+      "id": "netease-track:4874242",
+      "neteaseTrackId": "4874242",
+      "title": "Jesus Joy Of Man’s Desiring",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 43000
+    },
+    {
+      "id": "netease-track:4874243",
+      "neteaseTrackId": "4874243",
+      "title": "倾诉",
+      "trackNumber": 11,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 64000
+    },
+    {
+      "id": "netease-track:4874244",
+      "neteaseTrackId": "4874244",
+      "title": "我的祝福",
+      "trackNumber": 12,
+      "discNumber": 1,
+      "artists": [
+        "古天乐"
+      ],
+      "durationMs": 11000
+    },
+    {
+      "id": "netease-track:4874245",
+      "neteaseTrackId": "4874245",
+      "title": "English Suite In G MajorⅠ",
+      "trackNumber": 13,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 44000
+    },
+    {
+      "id": "netease-track:4874246",
+      "neteaseTrackId": "4874246",
+      "title": "English Suite In G MajorⅡ",
+      "trackNumber": 14,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 45000
+    },
+    {
+      "id": "netease-track:4874247",
+      "neteaseTrackId": "4874247",
+      "title": "爱",
+      "trackNumber": 15,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 75000
+    },
+    {
+      "id": "netease-track:4874248",
+      "neteaseTrackId": "4874248",
+      "title": "身边",
+      "trackNumber": 16,
+      "discNumber": 1,
+      "artists": [
+        "古天乐"
+      ],
+      "durationMs": 21000
+    },
+    {
+      "id": "netease-track:4874249",
+      "neteaseTrackId": "4874249",
+      "title": "我们",
+      "trackNumber": 17,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 92000
+    },
+    {
+      "id": "netease-track:4874250",
+      "neteaseTrackId": "4874250",
+      "title": "Years",
+      "trackNumber": 18,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 24000
+    },
+    {
+      "id": "netease-track:4874251",
+      "neteaseTrackId": "4874251",
+      "title": "失去",
+      "trackNumber": 19,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 93000
+    },
+    {
+      "id": "netease-track:4874252",
+      "neteaseTrackId": "4874252",
+      "title": "心意",
+      "trackNumber": 20,
+      "discNumber": 1,
+      "artists": [
+        "古天乐"
+      ],
+      "durationMs": 10000
+    },
+    {
+      "id": "netease-track:4874253",
+      "neteaseTrackId": "4874253",
+      "title": "许愿",
+      "trackNumber": 21,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 123000
+    },
+    {
+      "id": "netease-track:4874254",
+      "neteaseTrackId": "4874254",
+      "title": "后来…",
+      "trackNumber": 22,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 81000
+    },
+    {
+      "id": "netease-track:4874255",
+      "neteaseTrackId": "4874255",
+      "title": "每年生日",
+      "trackNumber": 23,
+      "discNumber": 1,
+      "artists": [
+        "古天乐"
+      ],
+      "durationMs": 17000
+    },
+    {
+      "id": "netease-track:4874256",
+      "neteaseTrackId": "4874256",
+      "title": "再也不用为你的幸福负责",
+      "trackNumber": 24,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 31000
+    },
+    {
+      "id": "netease-track:4874257",
+      "neteaseTrackId": "4874257",
+      "title": "离别",
+      "trackNumber": 25,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 18000
+    },
+    {
+      "id": "netease-track:4874258",
+      "neteaseTrackId": "4874258",
+      "title": "勇敢",
+      "trackNumber": 26,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 49000
+    },
+    {
+      "id": "netease-track:4874259",
+      "neteaseTrackId": "4874259",
+      "title": "思念",
+      "trackNumber": 27,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 22000
+    },
+    {
+      "id": "netease-track:4874260",
+      "neteaseTrackId": "4874260",
+      "title": "就算",
+      "trackNumber": 28,
+      "discNumber": 1,
+      "artists": [
+        "古天乐"
+      ],
+      "durationMs": 9000
+    },
+    {
+      "id": "netease-track:4874261",
+      "neteaseTrackId": "4874261",
+      "title": "生日快乐(主题曲演奏版)",
+      "trackNumber": 29,
+      "discNumber": 1,
+      "artists": [
+        "群星"
+      ],
+      "durationMs": 210181
+    },
+    {
+      "id": "netease-track:4874262",
+      "neteaseTrackId": "4874262",
+      "title": "待续…",
+      "trackNumber": 30,
+      "discNumber": 1,
+      "artists": [
+        "刘若英"
+      ],
+      "durationMs": 38000
+    }
+  ],
+  "trackCount": 30,
+  "externalUrl": "https://music.163.com/#/album?id=489865",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "pop"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "生日快乐 电影原声大碟 群星 刘若英 古天乐",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}

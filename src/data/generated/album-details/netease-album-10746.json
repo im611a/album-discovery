@@ -1,0 +1,165 @@
+{
+  "internalId": "album:10746",
+  "id": "album:10746",
+  "neteaseAlbumId": "10746",
+  "slug": "netease-album-10746",
+  "title": "北京的冬天",
+  "aliases": [],
+  "artists": [
+    {
+      "id": "netease-artist:3682",
+      "neteaseArtistId": "3682",
+      "name": "老狼"
+    }
+  ],
+  "releaseDate": "2007-01-31",
+  "releaseDatePrecision": "day",
+  "albumType": "album",
+  "company": "华纳音乐",
+  "cover": {
+    "kind": "local",
+    "src": "/catalog/covers/detail/10746.webp",
+    "thumbnailSrc": "/catalog/covers/thumb/10746.webp",
+    "alt": "《北京的冬天》专辑封面",
+    "reason": null
+  },
+  "tracks": [
+    {
+      "id": "netease-track:108098",
+      "neteaseTrackId": "108098",
+      "title": "北京的冬天",
+      "trackNumber": 1,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 259373
+    },
+    {
+      "id": "netease-track:108099",
+      "neteaseTrackId": "108099",
+      "title": "情人劫",
+      "trackNumber": 2,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 250160
+    },
+    {
+      "id": "netease-track:108100",
+      "neteaseTrackId": "108100",
+      "title": "每一分一秒",
+      "trackNumber": 3,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 211240
+    },
+    {
+      "id": "netease-track:108101",
+      "neteaseTrackId": "108101",
+      "title": "那么那么地",
+      "trackNumber": 4,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 247133
+    },
+    {
+      "id": "netease-track:108102",
+      "neteaseTrackId": "108102",
+      "title": "鸟儿的幻想",
+      "trackNumber": 5,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 259546
+    },
+    {
+      "id": "netease-track:108103",
+      "neteaseTrackId": "108103",
+      "title": "想把我唱给你听",
+      "trackNumber": 6,
+      "discNumber": 1,
+      "artists": [
+        "老狼",
+        "王婧"
+      ],
+      "durationMs": 289386
+    },
+    {
+      "id": "netease-track:108104",
+      "neteaseTrackId": "108104",
+      "title": "弄错的车站",
+      "trackNumber": 7,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 252800
+    },
+    {
+      "id": "netease-track:108105",
+      "neteaseTrackId": "108105",
+      "title": "有多远就走多远",
+      "trackNumber": 8,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 306946
+    },
+    {
+      "id": "netease-track:108106",
+      "neteaseTrackId": "108106",
+      "title": "等待",
+      "trackNumber": 9,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 258480
+    },
+    {
+      "id": "netease-track:108107",
+      "neteaseTrackId": "108107",
+      "title": "心中的舞蹈",
+      "trackNumber": 10,
+      "discNumber": 1,
+      "artists": [
+        "老狼"
+      ],
+      "durationMs": 232626
+    }
+  ],
+  "trackCount": 10,
+  "externalUrl": "https://music.163.com/#/album?id=10746",
+  "discoveredAt": "2026-08-21T12:20:30.469Z",
+  "updatedAt": "2026-08-22T06:26:49.190Z",
+  "sourceMarketChannels": [],
+  "coreGenres": [
+    "folk"
+  ],
+  "relatedGenres": [],
+  "descriptors": [],
+  "contexts": [],
+  "rymRating": null,
+  "rymRatingCount": null,
+  "rymReference": null,
+  "rymObservedAt": null,
+  "rymInputSourceId": null,
+  "rymMatchStatus": "UNVERIFIED_NO_DATA",
+  "editorial": null,
+  "searchText": "北京的冬天 老狼",
+  "source": {
+    "catalog": "netease",
+    "fetchedAt": "2026-08-22T06:26:49.190Z",
+    "parserVersion": "netease-sync-v1",
+    "verificationMethod": "reviewed_local_seed",
+    "error": null
+  }
+}
