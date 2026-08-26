@@ -1,10 +1,11 @@
 import { createAlbumVinylTexture, createMaterial, loadTexture } from "./stage-materials.js";
+import { withBasePath } from "@/lib/site-path";
 
 let threePromise;
 
 async function loadLocalThree() {
   if (!threePromise) {
-    threePromise = fetch("/homepage-production/vendor/three.module.min.txt")
+    threePromise = fetch(withBasePath("/homepage-production/vendor/three.module.min.txt"))
       .then((response) => {
         if (!response.ok) throw new Error(`Unable to load local Three.js vendor (${response.status}).`);
         return response.text();

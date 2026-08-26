@@ -21,8 +21,14 @@ function rscCandidates(requested) {
   return candidates;
 }
 
-export function resolveStaticFile(root, pathname) {
-  const requested = path.resolve(root, `.${pathname}`);
+export function resolveStaticFile(root, pathname, basePath = "") {
+  let sitePathname = pathname;
+  if (basePath) {
+    if (pathname === basePath) sitePathname = "/";
+    else if (pathname.startsWith(`${basePath}/`)) sitePathname = pathname.slice(basePath.length);
+    else return { status: 404, file: path.join(root, "404.html") };
+  }
+  const requested = path.resolve(root, `.${sitePathname}`);
   const relative = path.relative(root, requested);
   if (relative.startsWith("..") || path.isAbsolute(relative)) return { status: 400, file: null };
 

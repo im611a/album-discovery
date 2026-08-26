@@ -3,6 +3,7 @@ import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
 const out = path.join(root, "out");
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 if (!existsSync(path.join(out, "index.html"))) {
   throw new Error("Static export is missing; run pnpm build first.");
 }
@@ -21,6 +22,7 @@ const htmlFiles = files.filter((file) => file.endsWith(".html"));
 const missing = new Set();
 const forbidden = new Set();
 const unexpectedRemoteResources = new Set();
+const unprefixedRootReferences = new Set();
 let internalReferences = 0;
 let resourceReferences = 0;
 
@@ -28,9 +30,16 @@ function resolveInternal(value, htmlFile) {
   const withoutFragment = value.split("#", 1)[0].split("?", 1)[0];
   if (!withoutFragment) return;
   const decoded = decodeURIComponent(withoutFragment);
-  const relative = decoded.startsWith("/")
-    ? decoded.slice(1)
-    : path.relative(out, path.resolve(path.dirname(htmlFile), decoded)).replaceAll("\\", "/");
+  if (basePath && decoded.startsWith("/") && decoded !== basePath && !decoded.startsWith(`${basePath}/`)) {
+    unprefixedRootReferences.add(`${path.relative(out, htmlFile)} -> ${value}`);
+    return;
+  }
+  const siteRelative = basePath && (decoded === basePath || decoded.startsWith(`${basePath}/`))
+    ? decoded.slice(basePath.length)
+    : decoded;
+  const relative = siteRelative.startsWith("/")
+    ? siteRelative.slice(1)
+    : path.relative(out, path.resolve(path.dirname(htmlFile), siteRelative)).replaceAll("\\", "/");
   const candidate = path.join(out, relative);
   const targets = path.extname(relative)
     ? [candidate]
@@ -57,11 +66,12 @@ for (const htmlFile of htmlFiles) {
   }
 }
 
-if (missing.size || forbidden.size || unexpectedRemoteResources.size) {
+if (missing.size || forbidden.size || unexpectedRemoteResources.size || unprefixedRootReferences.size) {
   const detail = [
     ...[...missing].map((item) => `missing: ${item}`),
     ...[...forbidden].map((item) => `forbidden: ${item}`),
     ...[...unexpectedRemoteResources].map((item) => `remote-resource: ${item}`),
+    ...[...unprefixedRootReferences].map((item) => `unprefixed-root-reference: ${item}`),
   ].join("\n");
   throw new Error(`Static link validation failed:\n${detail}`);
 }
@@ -74,4 +84,5 @@ console.log(JSON.stringify({
   missingLocalResources: 0,
   forbiddenDiskOrReferencePaths: 0,
   unexpectedRemoteResources: 0,
+  unprefixedRootReferences: 0,
 }, null, 2));

@@ -1,5 +1,6 @@
 import { catalogAlbums } from "@/catalog/published-catalog";
 import type { PublishedAlbumSummary } from "@/catalog/schema";
+import { withBasePath } from "@/lib/site-path";
 import { APPROVED_HOMEPAGE_MAPPING } from "./approved-homepage-mapping";
 import {
   getHomepageStageVinylPalette,
@@ -41,7 +42,7 @@ function resolveAlbum(
     slug: album.slug,
     title: album.title,
     artists: album.artists.map((artist) => artist.name),
-    cover,
+    cover: withBasePath(cover),
     releaseYear: album.releaseYear,
     ...(displayNumber ? { displayNumber } : {}),
   };
@@ -67,7 +68,7 @@ export function buildHomepageContent(albums: readonly PublishedAlbumSummary[] = 
       slug: album.slug,
       title: album.title,
       artists: album.artists.map((artist) => artist.name),
-      cover,
+      cover: withBasePath(cover),
       releaseYear: album.releaseYear,
       ...(displayNumber ? { displayNumber } : {}),
     } satisfies HomepageAlbum;

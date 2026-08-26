@@ -4,6 +4,8 @@ import path from "node:path";
 const root = path.resolve(import.meta.dirname, "..");
 const host = "127.0.0.1";
 const port = "4311";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const healthUrl = `http://${host}:${port}${basePath}/`;
 let server = null;
 
 function runPlaywright() {
@@ -22,7 +24,7 @@ function runPlaywright() {
 try {
   let ready = false;
   try {
-    ready = (await fetch(`http://${host}:${port}/`)).ok;
+    ready = (await fetch(healthUrl)).ok;
   } catch {
     // Start the repository static server below.
   }
@@ -36,7 +38,7 @@ try {
   for (let attempt = 0; attempt < 60; attempt += 1) {
     if (ready) break;
     try {
-      const response = await fetch(`http://${host}:${port}/`);
+      const response = await fetch(healthUrl);
       if (response.ok) {
         ready = true;
         break;

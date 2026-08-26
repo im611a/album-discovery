@@ -45,4 +45,15 @@ describe("static export path resolution", () => {
     expect(resolveStaticFile(root, "/missing/")).toEqual({ status: 404, file: path.join(root, "404.html") });
     expect(resolveStaticFile(root, "/../../outside")).toEqual({ status: 400, file: null });
   });
+
+  it("serves an export under an explicit project-site base path", () => {
+    expect(resolveStaticFile(root, "/album-discovery/discover/", "/album-discovery")).toEqual({
+      status: 200,
+      file: path.join(root, "discover", "index.html"),
+    });
+    expect(resolveStaticFile(root, "/discover/", "/album-discovery")).toEqual({
+      status: 404,
+      file: path.join(root, "404.html"),
+    });
+  });
 });
