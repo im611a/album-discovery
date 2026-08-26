@@ -40,7 +40,7 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: /album-discovery
           NEXT_PUBLIC_SITE_URL: https://im611a.github.io/album-discovery
           NEXT_TELEMETRY_DISABLED: 1
-        run: pnpm build -- --webpack
+        run: pnpm exec next build --webpack
       - name: Verify static project-site output
         env:
           NEXT_PUBLIC_BASE_PATH: /album-discovery
