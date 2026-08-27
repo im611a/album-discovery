@@ -24,8 +24,7 @@ const SORT_VALUES: readonly CatalogSort[] = [
   "recently-added",
   "release-newest",
   "release-oldest",
-  "title",
-  "rym-rating-desc",
+  "random",
 ];
 const STATUS_VALUES: readonly CatalogUserStatus[] = ["liked", "favorite", "saved", "listened", "dismissed"];
 const RELEASE_TYPES = Object.keys(RELEASE_TYPE_LABELS) as ReleaseType[];

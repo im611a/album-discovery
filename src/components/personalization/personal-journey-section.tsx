@@ -31,6 +31,7 @@ export function PersonalJourneySection({ presentation, title, eyebrow, className
     ? [presentation.primary, ...presentation.secondary, ...presentation.fallback]
       .filter((option, index, values) => values.findIndex((candidate) => candidate.album.id === option.album.id) === index)
     : [];
+  const supportLimit = presentation.context === "FOR_YOU" ? 6 : 4;
   return <section className={`r14-personal-journey ${className}`.trim()} data-personal-status={presentation.status} aria-labelledby={`r14-${presentation.context.toLowerCase()}-journey-title`}>
     <header className="r14-personal-journey__header">
       <div><p className="section-kicker">{eyebrow}</p><h2 id={`r14-${presentation.context.toLowerCase()}-journey-title`}>{title}</h2></div>
@@ -38,7 +39,7 @@ export function PersonalJourneySection({ presentation, title, eyebrow, className
     </header>
     {options.length ? <div className="r14-personal-journey__layout">
       <JourneyCard option={options[0]} emphasis />
-      {options.length > 1 ? <div className="r14-personal-journey__support" aria-label="后续个人路径">{options.slice(1, 4).map((option) => <JourneyCard key={option.album.id} option={option} />)}</div> : null}
+      {options.length > 1 ? <div className="r14-personal-journey__support" aria-label="后续个人路径">{options.slice(1, supportLimit).map((option) => <JourneyCard key={option.album.id} option={option} />)}</div> : null}
     </div> : <div className="r14-personal-journey__empty">
       <p>这里没有足够的个人线索，因此不会伪装成“为你推荐”。你仍可从真实馆藏或关系探索开始。</p>
       <nav aria-label="个人路径起点">{presentation.ctas.map((cta) => <Link key={cta.href} href={cta.href}>{cta.label}</Link>)}</nav>

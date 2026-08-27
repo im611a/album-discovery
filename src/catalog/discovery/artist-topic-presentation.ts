@@ -280,5 +280,5 @@ export function buildDiscoveryEntityHref(
   const incoming = parseDiscoveryPathContext(searchParams, publishedDiscoveryIndex);
   const nextContext = appendDiscoveryEntityPathContext(incoming, currentAlbumSlug);
   const query = serializeDiscoveryPathContext(nextContext);
-  return query ? `${pathname}?${query}` : pathname;
+  return query ? `${pathname}${pathname.includes("?") ? "&" : "?"}${query}` : pathname;
 }

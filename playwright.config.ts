@@ -4,7 +4,7 @@ const baseURL = "http://127.0.0.1:4311";
 
 export default defineConfig({
   testDir: "./tests/e2e",
-  outputDir: ".local-data/playwright-results",
+  outputDir: process.env.PLAYWRIGHT_OUTPUT_DIR ?? ".local-data/playwright-results",
   fullyParallel: false,
   forbidOnly: true,
   retries: 0,

@@ -3,6 +3,8 @@ export function HomepageVinylMarker() {
     <div className="ad-fixed" aria-hidden="true">
       <div className="ad-marker">
         <span className="ad-marker__disc" />
+        <span className="ad-marker__grooves" />
+        <span className="ad-marker__shine" />
         <span className="ad-marker__ring" />
         <span className="ad-marker__ring ad-marker__ring--inner" />
         <span className="ad-marker__hole" />

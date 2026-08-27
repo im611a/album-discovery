@@ -45,15 +45,15 @@ describe("catalog view model foundation", () => {
 
   it("round-trips URL state in a stable parameter order", () => {
     const parsed = parseCatalogQuery(
-      "sort=title&type=album&scene=night&q=%E7%8E%8B%E8%8F%B2&status=liked",
+      "sort=random&type=album&scene=night&q=%E7%8E%8B%E8%8F%B2&status=liked",
       catalogAlbums,
     );
-    expect(serializeCatalogQuery(parsed)).toBe("q=%E7%8E%8B%E8%8F%B2&scene=night&type=album&status=liked&sort=title");
+    expect(serializeCatalogQuery(parsed)).toBe("q=%E7%8E%8B%E8%8F%B2&scene=night&type=album&status=liked&sort=random");
     expect(parseCatalogQuery(serializeCatalogQuery(parsed), catalogAlbums)).toEqual(parsed);
   });
 
   it("safely ignores invalid URL values and produces an explicit empty model", () => {
-    const invalid = parseCatalogQuery("core=not-real&type=BOOTLEG&status=unknown&sort=random", catalogAlbums);
+    const invalid = parseCatalogQuery("core=not-real&type=BOOTLEG&status=unknown&sort=not-real", catalogAlbums);
     expect(invalid).toEqual({
       query: "",
       filters: {

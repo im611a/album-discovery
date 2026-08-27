@@ -1,7 +1,7 @@
 import { catalogAlbums, catalogTaxonomy, publishedArtists } from "./published-catalog";
 import type { PublishedAlbumSummary, ReleaseType, SourceMarketChannel } from "./schema";
 
-export type CatalogSort = "recently-added" | "release-newest" | "release-oldest" | "title" | "rym-rating-desc";
+export type CatalogSort = "recently-added" | "release-newest" | "release-oldest" | "random" | "title" | "rym-rating-desc";
 export interface DiscoverFilters {
   coreGenre?: string | null;
   relatedGenre?: string | null;
@@ -70,6 +70,15 @@ function compareReleaseNewest(a: PublishedAlbumSummary, b: PublishedAlbumSummary
   return releaseValue(b).localeCompare(releaseValue(a)) || a.title.localeCompare(b.title, "zh-CN");
 }
 
+function stableDiscoveryKey(value: string) {
+  let hash = 2166136261;
+  for (const character of value) {
+    hash ^= character.codePointAt(0) ?? 0;
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
 export function discoverAlbums(
   filters: DiscoverFilters = {},
   sort: CatalogSort = "recently-added",
@@ -87,6 +96,9 @@ export function discoverAlbums(
     if (sort === "release-newest") return compareReleaseNewest(a, b);
     if (sort === "release-oldest") return -compareReleaseNewest(a, b);
     if (sort === "title") return a.title.localeCompare(b.title, "zh-CN");
+    if (sort === "random") {
+      return stableDiscoveryKey(a.internalId) - stableDiscoveryKey(b.internalId) || a.internalId.localeCompare(b.internalId);
+    }
     if (sort === "rym-rating-desc") {
       const ratingPresence = Number(b.rymRating != null) - Number(a.rymRating != null);
       if (ratingPresence) return ratingPresence;

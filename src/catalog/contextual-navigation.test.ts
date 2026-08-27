@@ -42,4 +42,14 @@ describe("R16 bounded cross-product navigation", () => {
   it("rejects protocol-relative destinations rather than creating an open redirect", () => {
     expect(buildCrossProductEntityHref({ pathname: "//evil.example", currentAlbumSlug: current.slug, catalog: catalogAlbums })).toBe("/");
   });
+
+  it("preserves an existing catalog filter while appending bounded discovery context", () => {
+    const href = buildCrossProductEntityHref({
+      pathname: "/discover?core=hip-hop",
+      currentAlbumSlug: current.slug,
+      catalog: catalogAlbums,
+    });
+    expect(href).toContain("/discover?core=hip-hop&entry=album");
+    expect(new URLSearchParams(href.split("?")[1]).get("core")).toBe("hip-hop");
+  });
 });

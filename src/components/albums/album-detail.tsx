@@ -84,8 +84,8 @@ export function AlbumDetail({ album: suppliedAlbum, viewModel, sameArtistAlbums 
       {album.coreGenres.length || album.relatedGenres.length ? <section className="detail-card" aria-labelledby="signals-title">
         <DetailSectionHeading number="02" kicker="分类依据" title="流派" id="signals-title" />
         <div className="signal-groups">
-          {album.coreGenres.length ? <div><h3>核心流派</h3>{album.coreGenres.map((item) => <DiscoveryContextLink key={item} href={`/genres/core/${item}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}</div> : null}
-          {album.relatedGenres.length ? <div><h3>相关流派</h3>{album.relatedGenres.map((item) => <DiscoveryContextLink key={item} href={`/genres/related/${item}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}</div> : null}
+          {album.coreGenres.length ? <div><h3>核心流派</h3>{album.coreGenres.map((item) => <DiscoveryContextLink key={item} href={`/discover?core=${encodeURIComponent(item)}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}</div> : null}
+          {album.relatedGenres.length ? <div><h3>相关流派</h3>{album.relatedGenres.map((item) => <DiscoveryContextLink key={item} href={`/discover?related=${encodeURIComponent(item)}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}</div> : null}
         </div>
         {album.relatedGenres.length ? <p className="source-note">相关流派来自人工核验的离线 RYM Secondary Genres。</p> : null}
       </section> : null}

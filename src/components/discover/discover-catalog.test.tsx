@@ -45,6 +45,10 @@ describe("DiscoverCatalog URL state", () => {
       expect(screen.getByLabelText(label)).toBeInTheDocument();
     }
     expect(screen.getByText("高级筛选")).toBeInTheDocument();
+    expect(screen.getByLabelText("排序").querySelectorAll("option")).toHaveLength(4);
+    expect(screen.getByLabelText("排序")).toHaveTextContent("随机发现");
+    expect(screen.getByLabelText("排序")).not.toHaveTextContent("标题");
+    expect(screen.getByLabelText("排序")).not.toHaveTextContent("RYM");
   });
 
   it("builds an encoded URL when a stable genre value changes", () => {

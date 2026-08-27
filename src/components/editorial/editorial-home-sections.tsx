@@ -93,7 +93,7 @@ export function GenreIndex() {
       <ol className="pa-classification__dividers">
         {topics.map((topic, index) => (
           <li key={topic.key}>
-            <Link href={`/genres/core/${topic.slug}`}>
+            <Link href={`/discover?core=${encodeURIComponent(topic.slug)}`}>
               <span>{String(index + 1).padStart(2, "0")}</span>
               <strong>{topic.label}</strong>
               <small>{topic.count} 张</small>

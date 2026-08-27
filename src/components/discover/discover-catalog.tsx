@@ -15,10 +15,9 @@ import { RELEASE_TYPE_LABELS, type ReleaseType } from "@/catalog/schema";
 import { CATALOG_PAGE_SIZE, paginate } from "@/catalog/pagination";
 
 const options = buildDiscoverOptions(catalogAlbums);
-const sorts: Array<[CatalogSort, string]> = [["recently-added", "最近收录"], ["release-newest", "发行时间：新到旧"], ["release-oldest", "发行时间：旧到新"], ["title", "标题"], ["rym-rating-desc", "RYM 评分：由高到低"]];
+const sorts: Array<[CatalogSort, string]> = [["recently-added", "最近收录"], ["release-newest", "发行时间：新→旧"], ["release-oldest", "发行时间：旧→新"], ["random", "随机发现"]];
 const releaseTypes = Object.entries(RELEASE_TYPE_LABELS) as Array<[ReleaseType, string]>;
 const statuses: Array<[CatalogUserStatus, string]> = [["liked", "喜欢"], ["favorite", "收藏"], ["saved", "想听"], ["listened", "听过"], ["dismissed", "不适合"]];
-const hasRymRatings = catalogAlbums.some((album) => album.rymRating != null);
 
 type FilterKey = keyof DiscoverFilters;
 
@@ -36,7 +35,7 @@ export function DiscoverFilterFields({ query, updateFilter, updateStatus, update
   return <>
   <div className="filter-grid filter-grid--primary" aria-label="主要目录筛选">
     <FilterGroup label="核心流派"><Select aria-label="核心流派" value={filters.coreGenre ?? ""} onChange={(event) => updateFilter("coreGenre", event.target.value)}><option value="">全部</option>{options.coreGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</Select></FilterGroup>
-    <FilterGroup label="排序"><Select aria-label="排序" value={query.sort} onChange={(event) => updateSort(event.target.value as CatalogSort)}>{sorts.map(([value, label]) => <option key={value} value={value} disabled={value === "rym-rating-desc" && !hasRymRatings}>{label}</option>)}</Select></FilterGroup>
+    <FilterGroup label="排序"><Select aria-label="排序" value={sorts.some(([value]) => value === query.sort) ? query.sort : "recently-added"} onChange={(event) => updateSort(event.target.value as CatalogSort)}>{sorts.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
   </div>
   <details className="catalog-advanced-filters">
     <summary><span>高级筛选</span><small>相关流派、场景、年代、类型与本机状态</small></summary>

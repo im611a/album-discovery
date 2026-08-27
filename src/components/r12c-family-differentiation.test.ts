@@ -8,7 +8,6 @@ describe("R12-C family-specific openings", () => {
   it("assigns a distinct product-role opening to every corrected family", () => {
     const roles = new Map([
       ["src/app/discover/page.tsx", "inventory"],
-      ["src/app/genres/page.tsx", "taxonomy"],
       ["src/app/decades/page.tsx", "chronology"],
       ["src/app/for-you/page.tsx", "taste-to-album"],
       ["src/app/new-releases/page.tsx", "intake-log"],
@@ -25,7 +24,8 @@ describe("R12-C family-specific openings", () => {
 
   it("keeps chronology, taxonomy, search, and utility evidence in the opening structure", () => {
     expect(source("src/app/decades/page.tsx")).toContain("topics.map");
-    expect(source("src/app/genres/page.tsx")).toContain("流派索引规模");
+    expect(source("src/app/genres/page.tsx")).toContain("流派已经回到专辑目录");
+    expect(source("src/app/genres/page.tsx")).toContain('href="/discover"');
     expect(source("src/components/search/search-catalog.tsx")).toContain('role="search"');
     expect(source("src/components/settings/settings-panel.tsx")).toContain('data-utility-block="local-data"');
   });

@@ -41,7 +41,7 @@ describe("AlbumDetail", () => {
     renderDetail("wake-after-the-rain");
     expect(screen.getByRole("link", { name: "嘻哈（Hip Hop）" })).toHaveAttribute(
       "href",
-      "/genres/core/hip-hop?entry=album&entryKey=wake-after-the-rain&trail=wake-after-the-rain",
+      "/discover?core=hip-hop&entry=album&entryKey=wake-after-the-rain&trail=wake-after-the-rain",
     );
   });
 
@@ -55,7 +55,7 @@ describe("AlbumDetail", () => {
     expect(screen.getByRole("heading", { name: "相关流派" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "chamber-pop" })).toHaveAttribute(
       "href",
-      "/genres/related/chamber-pop?entry=album&entryKey=wake-after-the-rain&trail=wake-after-the-rain",
+      "/discover?related=chamber-pop&entry=album&entryKey=wake-after-the-rain&trail=wake-after-the-rain",
     );
     expect(screen.queryByRole("heading", { name: "氛围与特征" })).not.toBeInTheDocument();
     expect(screen.getByText("相关流派来自人工核验的离线 RYM Secondary Genres。")).toBeInTheDocument();

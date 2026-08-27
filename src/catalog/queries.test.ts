@@ -31,4 +31,11 @@ describe("catalog queries", () => {
     expect(album?.title).toBe("OK Computer");
     expect(album && getRelatedAlbums(album)).toHaveLength(6);
   });
+  it("produces a stable discovery order without dropping catalog identities", () => {
+    const first = discoverAlbums({}, "random");
+    const replay = discoverAlbums({}, "random");
+    expect(first.map((album) => album.id)).toEqual(replay.map((album) => album.id));
+    expect(new Set(first.map((album) => album.id))).toEqual(new Set(getAllAlbums().map((album) => album.id)));
+    expect(first.map((album) => album.id)).not.toEqual(getAllAlbums().map((album) => album.id));
+  });
 });
