@@ -34,7 +34,8 @@ describe("static route contract", () => {
   it("publishes all product pages and every album in the sitemap", () => {
     const routes = sitemap().map((item) => item.url);
     expect(routes.length).toBeGreaterThanOrEqual(67);
-    for (const route of ["/discover", "/explore", "/scenes", "/decades", "/for-you", "/new-releases", "/artists", "/library", "/search", "/settings", "/about"]) expect(routes.some((url) => url.endsWith(route))).toBe(true);
+    for (const route of ["/discover", "/explore", "/scenes", "/decades", "/for-you", "/artists", "/library", "/search", "/settings", "/about"]) expect(routes.some((url) => url.endsWith(route))).toBe(true);
+    expect(routes.some((url) => url.endsWith("/new-releases"))).toBe(false);
     expect(routes.some((url) => url.endsWith("/genres") || url.includes("/genres/"))).toBe(false);
     expect(routes.filter((url) => url.includes("/albums/"))).toHaveLength(catalogAlbums.length);
     expect(routes.filter((url) => url.includes("/artists/"))).toHaveLength(publishedArtists.length);

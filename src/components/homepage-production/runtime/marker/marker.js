@@ -1,2 +1,24 @@
-export function calculateMarkerState(stageTop, viewportHeight, viewportWidth){const start=viewportHeight*.62,end=viewportHeight*.18;const progress=Math.max(0,Math.min(1,(start-stageTop)/(start-end)));const mobile=viewportWidth<=768;const dock=mobile?150:Math.round(72+Math.max(0,Math.min(viewportWidth,viewportHeight)-982)*.0537);const y=progress*-(viewportHeight/2-dock);return{progress,y,dockTop:dock,transform:"translate(-50%, calc(-50% + "+y+"px))"}}
-export function updateMarker(root,stageTop){const state=calculateMarkerState(stageTop,window.innerHeight,window.innerWidth);const marker=root.querySelector(".ad-marker");const fixed=root.querySelector(".ad-fixed");if(marker)marker.style.transform=state.transform;if(fixed)fixed.classList.toggle("is-back",stageTop<=window.innerHeight*.55);return state}
+export function calculateMarkerState(contentTop, viewportHeight) {
+  const start = viewportHeight * 0.78;
+  const end = viewportHeight * 0.18;
+  const progress = Math.max(0, Math.min(1, (start - contentTop) / (start - end)));
+  return {
+    progress,
+    y: -progress * viewportHeight * 0.12,
+    scale: 1 - progress * 0.28,
+    opacity: 1 - progress * 0.72,
+  };
+}
+
+export function updateMarker(root, contentTop) {
+  const state = calculateMarkerState(contentTop, window.innerHeight);
+  const marker = root.querySelector(".ad-marker");
+  const fixed = root.querySelector(".ad-fixed");
+  if (marker) {
+    marker.style.setProperty("--ad-marker-y", `${state.y.toFixed(2)}px`);
+    marker.style.setProperty("--ad-marker-scale", state.scale.toFixed(4));
+    marker.style.setProperty("--ad-marker-opacity", state.opacity.toFixed(4));
+  }
+  if (fixed) fixed.classList.toggle("is-back", state.progress >= 0.28);
+  return state;
+}

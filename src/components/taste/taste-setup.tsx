@@ -13,13 +13,13 @@ const seedAlbums = catalogAlbums.filter((album) => album.editorial).slice(0, 8);
 const coreTaxonomy = catalogTaxonomy.filter((item) => item.kind === "core");
 const toggle = (items: string[], value: string, maximum = Infinity) => items.includes(value) ? items.filter((item) => item !== value) : items.length < maximum ? [...items, value] : items;
 
-export function TasteSetup({ embedded = false, redirectTo = "/for-you" }: { embedded?: boolean; redirectTo?: string | null }) {
+export function TasteSetup({ embedded = false, redirectTo = "/for-you", mode = "full" }: { embedded?: boolean; redirectTo?: string | null; mode?: "full" | "cold-start" }) {
   const { state, hydrated, saveTaste } = usePersonalState();
   if (!hydrated) return <p className="status-message">正在读取本机口味…</p>;
-  return <TasteSetupForm key={JSON.stringify(state.taste)} initialTaste={state.taste} embedded={embedded} redirectTo={redirectTo} onSave={saveTaste} />;
+  return <TasteSetupForm key={JSON.stringify(state.taste)} initialTaste={state.taste} embedded={embedded} redirectTo={redirectTo} mode={mode} onSave={saveTaste} />;
 }
 
-function TasteSetupForm({ initialTaste, embedded, redirectTo, onSave }: { initialTaste: TasteProfile; embedded: boolean; redirectTo: string | null; onSave: (taste: TasteProfile, completed?: boolean) => void }) {
+function TasteSetupForm({ initialTaste, embedded, redirectTo, mode, onSave }: { initialTaste: TasteProfile; embedded: boolean; redirectTo: string | null; mode: "full" | "cold-start"; onSave: (taste: TasteProfile, completed?: boolean) => void }) {
   const router = useRouter();
   const [taste, setTaste] = useState<TasteProfile>(initialTaste);
   const signals = taste.genres.length;
@@ -28,13 +28,14 @@ function TasteSetupForm({ initialTaste, embedded, redirectTo, onSave }: { initia
   const updateGenre = (value: string) => setTaste((current) => current.genres.includes(value) || current.genres.length < 5
     ? { ...current, genres: toggle(current.genres, value) }
     : current);
-  return <section className={embedded ? "taste-setup taste-setup--embedded" : "taste-setup"} aria-labelledby="taste-title">
-    <div className="section-kicker">不到一分钟</div><h2 id="taste-title">先告诉我们你想听什么</h2><p>选择 2–5 个核心流派，也可以补充常见聆听场景和熟悉的种子专辑。数据只保存在这台设备。</p>
+  const coldStart = mode === "cold-start";
+  return <section className={`${embedded ? "taste-setup taste-setup--embedded" : "taste-setup"}${coldStart ? " taste-setup--cold-start" : ""}`} aria-labelledby="taste-title">
+    <div className="section-kicker">不到一分钟 · 只在本机</div><h2 id="taste-title">{coldStart ? "先选 2–5 个你常听的流派" : "调整口味"}</h2><p>{coldStart ? "本站目前还不了解你。先给出少量明确线索，再生成推荐。" : "需要时再调整流派、聆听场景、年代、种子专辑与推荐取向。"}</p>
     <fieldset data-taste-dimension="genre"><legend>核心流派偏好 <span>{signals}/5</span></legend><div className="choice-grid">{coreTaxonomy.map((item) => <button type="button" key={item.key} aria-pressed={taste.genres.includes(item.key)} onClick={() => updateGenre(item.key)}>{getTaxonomyLabel(item.key)}</button>)}</div></fieldset>
-    <fieldset data-taste-dimension="scene"><legend>常见聆听场景 <span>本站策展维度</span></legend><div className="choice-grid choice-grid--compact">{contexts.map((context) => <button type="button" key={context} aria-pressed={taste.contexts.includes(context)} onClick={() => setTaste((current) => ({ ...current, contexts: toggle(current.contexts, context, 4) }))}>{getListeningSceneLabel(context)}</button>)}</div></fieldset>
-    {!embedded ? <><fieldset data-taste-dimension="era"><legend>可选年代</legend><div className="choice-grid choice-grid--compact">{eras.map((era) => <button type="button" key={era} aria-pressed={taste.eras.includes(era)} onClick={() => setTaste((current) => ({ ...current, eras: toggle(current.eras, era, 3) }))}>{era.replace("s", " 年代")}</button>)}</div></fieldset><fieldset data-taste-dimension="seed"><legend>可选：从熟悉的专辑出发</legend><div className="seed-grid">{seedAlbums.map((album) => <button type="button" key={album.id} aria-pressed={taste.seedAlbumIds.includes(album.id)} onClick={() => setTaste((current) => ({ ...current, seedAlbumIds: toggle(current.seedAlbumIds, album.id, 3) }))}><strong>{album.title}</strong><span>{album.artists[0]?.name}</span></button>)}</div></fieldset></> : null}
-    <fieldset data-taste-dimension="direction"><legend>推荐取向</legend><div className="segmented-control">{([["familiar", "更熟悉"], ["balanced", "平衡"], ["exploratory", "更多探索"]] as const).map(([value, label]) => <button type="button" key={value} aria-pressed={taste.exploration === value} onClick={() => setTaste((current) => ({ ...current, exploration: value }))}>{label}</button>)}</div></fieldset>
-    {summary ? <p className="taste-summary"><strong>当前口味：</strong>{summary}</p> : null}
+    {!coldStart ? <fieldset data-taste-dimension="scene"><legend>常见聆听场景 <span>本站策展维度</span></legend><div className="choice-grid choice-grid--compact">{contexts.map((context) => <button type="button" key={context} aria-pressed={taste.contexts.includes(context)} onClick={() => setTaste((current) => ({ ...current, contexts: toggle(current.contexts, context, 4) }))}>{getListeningSceneLabel(context)}</button>)}</div></fieldset> : null}
+    {!embedded && !coldStart ? <><fieldset data-taste-dimension="era"><legend>可选年代</legend><div className="choice-grid choice-grid--compact">{eras.map((era) => <button type="button" key={era} aria-pressed={taste.eras.includes(era)} onClick={() => setTaste((current) => ({ ...current, eras: toggle(current.eras, era, 3) }))}>{era.replace("s", " 年代")}</button>)}</div></fieldset><fieldset data-taste-dimension="seed"><legend>可选：从熟悉的专辑出发</legend><div className="seed-grid">{seedAlbums.map((album) => <button type="button" key={album.id} aria-pressed={taste.seedAlbumIds.includes(album.id)} onClick={() => setTaste((current) => ({ ...current, seedAlbumIds: toggle(current.seedAlbumIds, album.id, 3) }))}><strong>{album.title}</strong><span>{album.artists[0]?.name}</span></button>)}</div></fieldset></> : null}
+    {!coldStart ? <fieldset data-taste-dimension="direction"><legend>推荐取向</legend><div className="segmented-control">{([["familiar", "更熟悉"], ["balanced", "平衡"], ["exploratory", "更多探索"]] as const).map(([value, label]) => <button type="button" key={value} aria-pressed={taste.exploration === value} onClick={() => setTaste((current) => ({ ...current, exploration: value }))}>{label}</button>)}</div></fieldset> : null}
+    {summary && !coldStart ? <p className="taste-summary"><strong>当前口味：</strong>{summary}</p> : null}
     <div className="form-actions"><button type="button" className="button button--primary" disabled={signals < 2} onClick={() => save()}>{redirectTo ? "查看我的推荐" : "保存口味"}</button>{redirectTo ? <button type="button" className="button button--quiet" onClick={() => save(true)}>跳过设置</button> : null}</div>
   </section>;
 }

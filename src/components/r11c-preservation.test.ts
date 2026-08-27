@@ -27,7 +27,8 @@ describe("R11-C whole-site preservation contracts", () => {
 
   it("preserves navigation destinations and versioned local-state recovery", () => {
     const hrefs = siteNavigationGroups.flatMap((group) => group.items.map(([href]) => href));
-    expect(hrefs).toEqual(expect.arrayContaining(["/discover", "/for-you", "/library", "/new-releases", "/artists", "/search", "/settings"]));
+    expect(hrefs).toEqual(expect.arrayContaining(["/discover", "/for-you", "/library", "/artists", "/search", "/settings"]));
+    expect(hrefs).not.toContain("/new-releases");
     const initial = createInitialUserState();
     expect(initial.version).toBe(1);
     expect(parseLocalUserState(initial, new Set(catalogAlbums.map((album) => album.id)))).toMatchObject({ version: 1, onboardingCompleted: false });

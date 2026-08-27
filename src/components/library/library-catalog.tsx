@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { type FormEvent, useMemo, useState } from "react";
 
-import { buildLibraryProjection, serializeLibraryQuery, type LibraryQuery } from "@/catalog/collection-presentation";
+import { buildLibraryProjection, parseLibraryQuery, serializeLibraryQuery, type LibraryQuery } from "@/catalog/collection-presentation";
 import { buildLibraryPresentationModel, type LibraryAlbumCardPresentation, type LibraryEmptyStatePresentation } from "@/catalog/library-presentation-model";
 import { catalogAlbums } from "@/catalog/published-catalog";
 import { AlbumActions } from "@/components/album-actions";
@@ -54,8 +54,7 @@ function CollectionRecord({ card, index, lead }: { card: LibraryAlbumCardPresent
         <h3><Link href={card.href}>{card.title}</Link></h3>
         <ArtistCredits card={card} />
         <p className="r15-library-record__meta">{card.releaseYearLabel}<span aria-hidden="true"> / </span>{card.releaseTypeLabel}</p>
-        {card.statuses.length ? <p className="r15-library-record__states" aria-label="本机专辑状态">{card.statuses.map((status) => status.label).join(" · ")}</p> : null}
-        <AlbumActions album={card.album} compact />
+        <AlbumActions album={card.album} mode="favorite" />
       </div>
     </article>
   );
@@ -111,7 +110,9 @@ export function LibraryCatalog() {
   const queryString = searchParams.toString();
   const { state, hydrated, storageAvailable } = usePersonalState();
   const model = useMemo(() => {
-    const projection = buildLibraryProjection({ catalog: catalogAlbums, state: hydrated ? state : null, query: queryString });
+    const requested = parseLibraryQuery(queryString);
+    const publicQuery: LibraryQuery = { ...requested, view: requested.view === "recent" ? "recent" : "favorite" };
+    const projection = buildLibraryProjection({ catalog: catalogAlbums, state: hydrated ? state : null, query: publicQuery });
     return buildLibraryPresentationModel({
       projection,
       catalog: catalogAlbums,
@@ -132,28 +133,12 @@ export function LibraryCatalog() {
     );
   }
 
-  const leadCollection = model.query.view === "overview" && model.primaryCollection.entries.length >= 4;
+  const leadCollection = model.primaryCollection.entries.length >= 4;
   return (
     <div className="r15-library-experience" data-library-ready="true" data-library-view={model.query.view}>
-      <section className="r15-library-summary" aria-labelledby="library-summary-title">
-        <div className="r15-library-summary__lead">
-          <p className="r15-library-section-index" aria-hidden="true">01 / ORIENTATION</p>
-          <h2 id="library-summary-title">{model.summary.heading}</h2>
-          <p>{model.header.localOnlyNote}</p>
-        </div>
-        <dl aria-label={model.summary.accessibleLabel}>
-          {model.summary.facts.map((fact) => (
-            <div key={fact.key} data-priority={fact.priority}>
-              <dt>{fact.label}</dt><dd>{fact.value}</dd>
-            </div>
-          ))}
-        </dl>
-      </section>
-
       <nav className="r15-library-facets" aria-label="我的专辑分类">
-        <Link href="/library" aria-current={model.query.view === "overview" ? "page" : undefined}><span>00</span><strong>概览</strong></Link>
         {model.facets.map((facet, index) => (
-          <Link key={facet.key} href={facet.href} aria-current={facet.selected && model.query.view !== "overview" ? "page" : undefined} data-facet-group={facet.group}>
+          <Link key={facet.key} href={facet.key === "favorite" ? "/library" : "/library?view=recent"} aria-current={facet.selected ? "page" : undefined} data-facet-group={facet.group}>
             <span>{String(index + 1).padStart(2, "0")}</span><strong>{facet.label}</strong><small>{facet.count}</small>
           </Link>
         ))}
@@ -165,7 +150,7 @@ export function LibraryCatalog() {
           {model.primaryCollection.visible ? (
             <section className="r15-library-collection" aria-labelledby="library-collection-title">
               <header className="r15-library-section-heading">
-                <p className="r15-library-section-index" aria-hidden="true">02 / COLLECTION</p>
+                <p className="r15-library-section-index" aria-hidden="true">01 / COLLECTION</p>
                 <div><h2 id="library-collection-title">{model.primaryCollection.heading}</h2><p>{model.primaryCollection.description}</p></div>
                 <p aria-live="polite">{model.primaryCollection.countLabel}</p>
               </header>
@@ -180,7 +165,7 @@ export function LibraryCatalog() {
           {model.recent.visible ? (
             <section className="r15-library-recent" aria-labelledby="library-recent-title">
               <header className="r15-library-section-heading">
-                <p className="r15-library-section-index" aria-hidden="true">03 / RETURN TRAIL</p>
+                <p className="r15-library-section-index" aria-hidden="true">02 / RETURN TRAIL</p>
                 <div><h2 id="library-recent-title">{model.recent.heading}</h2><p>{model.recent.description}</p></div>
                 <p>{model.recent.countLabel}</p>
               </header>

@@ -18,9 +18,10 @@ describe("R12 reference-driven structural transformation", () => {
     const discovery = source("src/components/discovery/album-discovery-view.tsx");
     const structure = `${detail}\n${discovery}`;
     expect(detail).toContain('<AlbumCover album={album} size="detail" />');
-    for (const number of ["01", "02", "03", "04", "05A", "05B", "06"]) {
+    for (const number of ["01", "02", "03", "04", "05B", "06"]) {
       expect(structure).toContain(number);
     }
+    expect(structure).not.toContain("05A");
     expect(detail).not.toContain("pa-same-artist-shelf__spine");
     expect(detail).not.toContain("RecordPackage");
   });

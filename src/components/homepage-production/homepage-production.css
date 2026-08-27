@@ -93,7 +93,7 @@
   pointer-events: none;
   mix-blend-mode: normal;
 }
-.ad-fixed.is-back { mix-blend-mode: normal; }
+.ad-fixed.is-back { z-index: 0; mix-blend-mode: normal; }
 .ad-copyright,
 .ad-scroll-hint {
   position: absolute;
@@ -110,7 +110,7 @@
   height: 58px;
   background: var(--ad-ink);
 }
-.ad-gallery-spacer { height: 88svh; }
+.ad-gallery-spacer { height: 82svh; }
 .ad-gallery {
   position: relative;
   display: grid;
@@ -152,13 +152,30 @@
   object-fit: cover;
 }
 .ad-marker {
+  --ad-marker-y: 0px;
+  --ad-marker-scale: 1;
+  --ad-marker-opacity: 1;
+  --ad-vinyl-tilt-x: 0deg;
+  --ad-vinyl-tilt-y: 0deg;
+  --ad-vinyl-light-x: 50%;
+  --ad-vinyl-light-y: 50%;
   position: absolute;
   left: 50%;
   top: 50%;
   width: clamp(220px, 30vmin, 400px);
   height: clamp(220px, 30vmin, 400px);
   pointer-events: none;
-  transform: translate(-50%, -50%);
+  opacity: var(--ad-marker-opacity);
+  transform: translate(-50%, calc(-50% + var(--ad-marker-y))) scale(var(--ad-marker-scale));
+  transform-origin: center;
+  transition: opacity 120ms linear;
+}
+.ad-marker__surface {
+  position: absolute;
+  inset: 0;
+  display: block;
+  transform: perspective(900px) rotateX(var(--ad-vinyl-tilt-x)) rotateY(var(--ad-vinyl-tilt-y));
+  transform-style: preserve-3d;
 }
 .ad-marker__disc,
 .ad-marker__grooves,
@@ -181,7 +198,9 @@
 }
 .ad-marker__shine {
   inset: 1%;
-  background: conic-gradient(from 212deg, transparent 0 15%, rgb(255 255 255 / 12%) 19%, transparent 25% 62%, rgb(255 255 255 / 5%) 67%, transparent 72%);
+  background:
+    radial-gradient(circle at var(--ad-vinyl-light-x) var(--ad-vinyl-light-y), rgb(255 255 255 / 13%), transparent 34%),
+    conic-gradient(from 212deg, transparent 0 15%, rgb(255 255 255 / 12%) 19%, transparent 25% 62%, rgb(255 255 255 / 5%) 67%, transparent 72%);
   mix-blend-mode: screen;
   animation: ad-vinyl-turn 28s linear infinite;
 }
@@ -310,7 +329,7 @@
 }
 
 @media (max-width: 768px) {
-  .ad-gallery-spacer { height: 94svh; }
+  .ad-gallery-spacer { height: 88svh; }
   .ad-marker { width: clamp(170px, 52vw, 220px); height: clamp(170px, 52vw, 220px); top: 48%; }
   .ad-gallery {
     grid-template-columns: repeat(6, 1fr);
@@ -340,4 +359,7 @@
   .ad-home { scroll-behavior: auto; }
   .ad-marker__grooves,
   .ad-marker__shine { animation: none; }
+  .ad-marker,
+  .ad-marker__surface { transition: none; transform-style: flat; }
+  .ad-marker__surface { transform: none; }
 }

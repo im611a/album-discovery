@@ -10,8 +10,6 @@ import { formatPartialDate, RELEASE_TYPE_LABELS, type PublishedAlbum, type Publi
 import { AlbumCover } from "./album-cover";
 import { AlbumDetailActions } from "./album-detail-actions";
 import { TrackList } from "./track-list";
-import { PersonalJourneySurface } from "@/components/personalization/personal-journey-surface";
-import { getAlbumRelationFallbackIds, getRelationEligibleAlbumIds } from "@/catalog/personalization";
 import { ReturnContextLink, ReturnJourneyAffordance } from "@/components/navigation/return-journey";
 
 function SameArtistShelf({ albums }: { albums: PublishedAlbumSummary[] }) {
@@ -81,39 +79,17 @@ export function AlbumDetail({ album: suppliedAlbum, viewModel, sameArtistAlbums 
       </div>
     </header>
     <div className="album-detail__content">
-      {album.coreGenres.length || album.relatedGenres.length ? <section className="detail-card" aria-labelledby="signals-title">
-        <DetailSectionHeading number="02" kicker="分类依据" title="流派" id="signals-title" />
-        <div className="signal-groups">
-          {album.coreGenres.length ? <div><h3>核心流派</h3>{album.coreGenres.map((item) => <DiscoveryContextLink key={item} href={`/discover?core=${encodeURIComponent(item)}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}</div> : null}
-          {album.relatedGenres.length ? <div><h3>相关流派</h3>{album.relatedGenres.map((item) => <DiscoveryContextLink key={item} href={`/discover?related=${encodeURIComponent(item)}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}</div> : null}
+      {album.coreGenres.length || album.relatedGenres.length || album.contexts.length || resolvedViewModel.rating.visible ? <section className="detail-card ux-album-facts" aria-labelledby="album-facts-title">
+        <DetailSectionHeading number="02" kicker="ALBUM CONTEXT" title="分类与聆听" id="album-facts-title" />
+        <div className="ux-album-facts__grid">
+          {album.coreGenres.length || album.relatedGenres.length ? <div><h3>流派</h3><div className="signal-groups">{album.coreGenres.map((item) => <DiscoveryContextLink key={item} href={`/discover?core=${encodeURIComponent(item)}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}{album.relatedGenres.map((item) => <DiscoveryContextLink key={item} href={`/discover?related=${encodeURIComponent(item)}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}</div></div> : null}
+          {album.contexts.length ? <div><h3>聆听场景</h3><div className="signal-groups">{album.contexts.map((item) => <DiscoveryContextLink key={item} href={`/scenes/${item}`} currentAlbumSlug={album.slug}>{getListeningSceneLabel(item)}</DiscoveryContextLink>)}</div></div> : null}
+          {resolvedViewModel.rating.visible ? <div className="ux-album-facts__rating"><h3>RYM 社区评分</h3><p><strong>{resolvedViewModel.rating.value?.toFixed(2)}</strong> / 5{resolvedViewModel.rating.count != null ? ` · ${resolvedViewModel.rating.count.toLocaleString("zh-CN")} 人评分` : ""}</p>{safeRymReference ? <ExternalLink href={safeRymReference}>查看来源 ↗</ExternalLink> : null}</div> : null}
         </div>
-        {album.relatedGenres.length ? <p className="source-note">相关流派来自人工核验的离线 RYM Secondary Genres。</p> : null}
+        {album.relatedGenres.length ? <p className="source-note">相关流派来自人工核验的离线 RYM Secondary Genres；聆听场景为本站策展维度。</p> : null}
       </section> : null}
-      {album.contexts.length ? <section className="detail-card detail-card--scenes" aria-labelledby="scenes-title"><DetailSectionHeading number="02B" kicker="本站策展维度" title="聆听场景" id="scenes-title" /><div className="signal-groups"><div>{album.contexts.map((item) => <DiscoveryContextLink key={item} href={`/scenes/${item}`} currentAlbumSlug={album.slug}>{getListeningSceneLabel(item)}</DiscoveryContextLink>)}</div></div></section> : null}
-      {resolvedViewModel.rating.visible ? <section className="detail-card detail-card--rating" aria-labelledby="rym-rating-title">
-        <DetailSectionHeading number="02C" kicker="离线核验数据" title="RYM 社区评分" id="rym-rating-title" />
-        <p className="rym-rating-value">{resolvedViewModel.rating.value?.toFixed(2)} <span>/ 5</span></p>
-        {resolvedViewModel.rating.count != null ? <p>{resolvedViewModel.rating.count.toLocaleString("zh-CN")} 人评分</p> : null}
-        <p className="source-note">这是 RYM 社区评分，不是本站评分；本站不接受用户评分。</p>
-        {safeRymReference ? <ExternalLink href={safeRymReference}>前往 RYM 查看来源 ↗</ExternalLink> : null}
-      </section> : null}
-      {album.editorial ? <section className="detail-card detail-card--guide" aria-labelledby="guide-title"><DetailSectionHeading number="03" kicker="聆听导览" title="为什么值得完整听" id="guide-title" /><p>{album.editorial.summaryZh}</p><p>{album.editorial.whyListenZh}</p></section> : null}
-      <section className="detail-card detail-card--tracks" aria-labelledby="tracks-title"><DetailSectionHeading number="04" kicker="网易云专辑曲序" title="曲目表" id="tracks-title" /><TrackList tracks={album.tracks} albumArtists={album.artists.map((artist) => artist.name)} /></section>
-      {sameArtistAlbums.length ? <section className="related-section" aria-labelledby="same-artist-title"><DetailSectionHeading number="05A" kicker="同一创作者" title="同艺人其他专辑" id="same-artist-title" /><SameArtistShelf albums={sameArtistAlbums} /></section> : null}
-      <Suspense fallback={<section className="r14-personal-journey r14-personal-journey--neutral" aria-busy="true"><p>正在读取当前设备上的个人线索…</p></section>}>
-        <PersonalJourneySurface
-          context="ALBUM"
-          source="album"
-          eyebrow="PERSONAL PATH / 与目录关系分开"
-          title="从这张作品与本机线索继续"
-          className="r14-album-journey"
-          currentAlbumSlug={album.slug}
-          currentAlbumIds={[album.id]}
-          eligibleAlbumIds={getRelationEligibleAlbumIds([album.id])}
-          relationFallbackAlbumIds={getAlbumRelationFallbackIds(album.id)}
-          limit={6}
-        />
-      </Suspense>
+      <section className="detail-card detail-card--tracks" aria-labelledby="tracks-title"><DetailSectionHeading number="03" kicker="网易云专辑曲序" title="曲目表" id="tracks-title" /><TrackList tracks={album.tracks} albumArtists={album.artists.map((artist) => artist.name)} /></section>
+      {sameArtistAlbums.length ? <section className="related-section" aria-labelledby="same-artist-title"><DetailSectionHeading number="04" kicker="同一创作者" title="同艺人其他专辑" id="same-artist-title" /><SameArtistShelf albums={sameArtistAlbums} /></section> : null}
       <Suspense fallback={<AlbumDiscoveryView presentation={resolvedViewModel.discovery} />}>
         <AlbumDiscovery
           sourceAlbumId={album.id}

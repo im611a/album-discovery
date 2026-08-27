@@ -10,7 +10,7 @@ describe("R12-C family-specific openings", () => {
       ["src/app/discover/page.tsx", "inventory"],
       ["src/app/decades/page.tsx", "chronology"],
       ["src/app/for-you/page.tsx", "taste-to-album"],
-      ["src/app/new-releases/page.tsx", "intake-log"],
+      ["src/app/new-releases/page.tsx", "ux-recent-compatibility"],
       ["src/app/search/page.tsx", "search-instrument"],
       ["src/app/settings/page.tsx", "local-utility"],
     ]);

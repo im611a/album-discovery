@@ -32,27 +32,36 @@ describe("LibraryCatalog", () => {
   it("presents a truthful orientation and useful routes for a fresh local library", async () => {
     renderLibrary();
 
-    expect(await screen.findByText("从一张想再次找到的专辑开始")).toBeInTheDocument();
+    expect(await screen.findByText("这里还没有收藏或最近查看")).toBeInTheDocument();
     expect(screen.getByRole("navigation", { name: "我的专辑分类" })).toBeInTheDocument();
+    expect(within(screen.getByRole("navigation", { name: "我的专辑分类" })).getAllByRole("link")).toHaveLength(2);
     expect(screen.getByRole("link", { name: "前往发现页浏览专辑目录" })).toHaveAttribute("href", "/discover");
     expect(screen.getByRole("link", { name: "前往为你推荐" })).toHaveAttribute("href", "/for-you");
     expect(screen.queryByText(/云端|同步|播放次数/)).not.toBeInTheDocument();
   });
 
-  it("renders the 2A/2B projection with independent recent browsing and canonical album links", async () => {
+  it("renders collection and recent as two independent public views", async () => {
     const saved = catalogAlbums.slice(0, 4);
     const recent = catalogAlbums.slice(3, 6);
-    installState({ savedAlbumIds: saved.map((album) => album.id), recentAlbumIds: recent.map((album) => album.id) });
-    renderLibrary();
+    installState({ favoriteAlbumIds: saved.map((album) => album.id), recentAlbumIds: recent.map((album) => album.id), savedAlbumIds: [catalogAlbums[9]!.id] });
+    const firstRender = renderLibrary();
 
-    expect(await screen.findByText("保留的专辑")).toBeInTheDocument();
-    expect(screen.getByText("最近查看", { selector: "h2" })).toBeInTheDocument();
+    expect(await screen.findByText("收藏", { selector: "h2" })).toBeInTheDocument();
+    expect(screen.queryByText("最近查看", { selector: "h2" })).not.toBeInTheDocument();
     expect(document.querySelectorAll("[data-library-album]")).toHaveLength(4);
-    expect(document.querySelectorAll("[data-library-recent]")).toHaveLength(3);
+    expect(document.querySelectorAll("[data-library-recent]")).toHaveLength(0);
     const firstRecord = document.querySelector(`[data-library-album="${saved[0]!.id}"]`);
     expect(firstRecord).not.toBeNull();
     expect(within(firstRecord as HTMLElement).getAllByRole("link", { name: new RegExp(saved[0]!.title) })[0]).toHaveAttribute("href", expect.stringContaining(`/albums/${saved[0]!.slug}`));
-    expect(screen.getByText(/按本机浏览顺序排列；它们不因此进入保留清单/)).toBeInTheDocument();
+    expect(within(firstRecord as HTMLElement).getByRole("button", { name: "已收藏" })).toBeInTheDocument();
+    expect(within(firstRecord as HTMLElement).queryByRole("button", { name: "已想听" })).not.toBeInTheDocument();
+
+    firstRender.unmount();
+    navigation.query = "view=recent";
+    renderLibrary();
+    expect(await screen.findByText("最近查看", { selector: "h2" })).toBeInTheDocument();
+    expect(document.querySelectorAll("[data-library-recent]")).toHaveLength(3);
+    expect(screen.getByText(/不因此进入保留清单/)).toBeInTheDocument();
   });
 
   it("uses URL-backed facets, sorting and search without introducing component-local catalogue state", async () => {
@@ -62,9 +71,10 @@ describe("LibraryCatalog", () => {
     renderLibrary();
 
     await screen.findByText(albums[0]!.title);
-    expect(document.querySelector('.r15-library-facets a[href^="/library?view=favorite"]')).toHaveAttribute("aria-current", "page");
+    expect(within(screen.getByRole("navigation", { name: "我的专辑分类" })).getByRole("link", { name: /收藏/ })).toHaveAttribute("aria-current", "page");
     expect(screen.getByRole("combobox", { name: "排列" })).toHaveValue("title");
-    expect(document.querySelector('.r15-library-facets a[href^="/library?view=saved"]')).toBeInTheDocument();
+    expect(document.querySelectorAll(".r15-library-facets a")).toHaveLength(2);
+    expect(document.querySelector('.r15-library-facets a[href^="/library?view=saved"]')).not.toBeInTheDocument();
 
     fireEvent.change(screen.getByRole("searchbox", { name: "在当前分类中查找" }), { target: { value: albums[0]!.title } });
     fireEvent.submit(screen.getByRole("search"));
@@ -75,15 +85,14 @@ describe("LibraryCatalog", () => {
 
   it("reflects an explicit local-state mutation in-place through the shared provider", async () => {
     const album = catalogAlbums[0]!;
-    installState({ savedAlbumIds: [album.id] });
+    installState({ favoriteAlbumIds: [album.id] });
     renderLibrary();
 
     await screen.findByText(album.title);
     const scope = document.querySelector(`[data-library-album="${album.id}"]`) as HTMLElement;
-    fireEvent.click(within(scope).getByText("本机状态"));
-    fireEvent.click(within(scope).getByRole("button", { name: "已想听" }));
+    fireEvent.click(within(scope).getByRole("button", { name: "已收藏" }));
 
-    expect(await screen.findByText("从一张想再次找到的专辑开始")).toBeInTheDocument();
-    expect(JSON.parse(localStorage.getItem("album-discovery:user-state:v1") ?? "{}").savedAlbumIds).toEqual([]);
+    expect(await screen.findByText("这里还没有收藏或最近查看")).toBeInTheDocument();
+    expect(JSON.parse(localStorage.getItem("album-discovery:user-state:v1") ?? "{}").favoriteAlbumIds).toEqual([]);
   });
 });

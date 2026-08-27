@@ -55,7 +55,7 @@ function presentationOwnedCopy(value: LibraryPresentationModel) {
 describe("R15-2B Library presentation information architecture", () => {
   it("builds a truthful empty orientation with real exits and no fake personal shelf", () => {
     const result = model(null);
-    expect(result.pageEmptyState).toMatchObject({ kind: "FRESH_LIBRARY", title: "从一张想再次找到的专辑开始" });
+    expect(result.pageEmptyState).toMatchObject({ kind: "FRESH_LIBRARY", title: "这里还没有收藏或最近查看" });
     expect(result.pageEmptyState?.actions.map((item) => item.href)).toEqual(["/discover", "/for-you", "/search"]);
     expect(result.primaryCollection.entries).toEqual([]);
     expect(result.recent.entries).toEqual([]);
@@ -84,7 +84,7 @@ describe("R15-2B Library presentation information architecture", () => {
 
   it("models recent browsing separately without creating durable membership", () => {
     const result = model(stateWith({ recentAlbumIds: [ids[2], ids[1]] }));
-    expect(result.summary.facts.find((fact) => fact.key === "total")?.value).toBe(0);
+    expect(result.summary.facts.find((fact) => fact.key === "favorite")?.value).toBe(0);
     expect(result.recent).toMatchObject({ kind: "RECENT_BROWSING", visible: true, independentOfCollectionFacet: true, count: 2 });
     expect(result.recent.entries.map((entry) => entry.albumId)).toEqual([ids[2], ids[1]]);
     expect(result.recent.entries.every((entry) => entry.statuses.length === 0)).toBe(true);
@@ -99,9 +99,8 @@ describe("R15-2B Library presentation information architecture", () => {
   });
 
   it.each([
-    ["all", "COLLECTION"], ["saved", "COLLECTION"], ["liked", "COLLECTION"],
-    ["favorite", "COLLECTION"], ["listened", "COLLECTION"], ["dismissed", "REVIEW"], ["recent", "ACTIVITY"],
-  ] as const)("exposes the %s facet with stable count, href and group", (view, group) => {
+    ["favorite", "COLLECTION"], ["recent", "ACTIVITY"],
+  ] as const)("exposes the public %s facet with stable count, href and group", (view, group) => {
     const result = model(stateWith({ savedAlbumIds: [ids[0]] }), `view=${view}`);
     const facet = result.facets.find((item) => item.key === view)!;
     expect(facet).toMatchObject({ group, selected: true, zeroCountBehavior: "VISIBLE" });
@@ -109,17 +108,16 @@ describe("R15-2B Library presentation information architecture", () => {
     expect(facet.accessibleLabel).toContain("当前分类");
   });
 
-  it("keeps every zero-count facet visible by explicit rule", () => {
+  it("keeps the two public zero-count facets visible by explicit rule", () => {
     const result = model(null);
-    expect(result.facets).toHaveLength(7);
+    expect(result.facets).toHaveLength(2);
+    expect(result.facets.map((facet) => facet.key)).toEqual(["favorite", "recent"]);
     expect(result.facets.every((facet) => facet.count === 0 && facet.zeroCountBehavior === "VISIBLE")).toBe(true);
   });
 
   it("maps exact summary counts without qualitative profiling", () => {
     const result = model(stateWith({ savedAlbumIds: ids.slice(0, 3), favoriteAlbumIds: ids.slice(1, 4), listenedAlbumIds: [ids[4]], recentAlbumIds: ids.slice(0, 5) }));
-    expect(Object.fromEntries(result.summary.facts.map((fact) => [fact.key, fact.value]))).toEqual({
-      total: 5, saved: 3, liked: 0, favorite: 3, "marked-listened": 1, recent: 5,
-    });
+    expect(Object.fromEntries(result.summary.facts.map((fact) => [fact.key, fact.value]))).toEqual({ favorite: 3, recent: 5 });
     expect(strings(result.summary).join(" ")).not.toMatch(/人格|心情|最喜欢的流派|最爱年代/);
   });
 
@@ -272,7 +270,7 @@ describe("R15-2B deterministic real-catalog presentation fixtures", () => {
           if (strings(presentationOwnedCopy(first)).some((copy) => forbiddenClaims.test(copy))) failures.falsePlaybackListeningClaims += 1;
           if (first.facets.some((facet) => facet.count !== domain.facets.find((source) => source.facet === facet.key)?.count)) failures.incorrectFacetCounts += 1;
           const facts = Object.fromEntries(first.summary.facts.map((fact) => [fact.key, fact.value]));
-          if (facts.total !== domain.summary.totalLibraryAlbums || facts.saved !== domain.summary.savedCount || facts.favorite !== domain.summary.favoriteCount || facts["marked-listened"] !== domain.summary.markedListenedCount || facts.recent !== domain.summary.recentlyViewedCount) failures.summaryMismatches += 1;
+          if (facts.favorite !== domain.summary.favoriteCount || facts.recent !== domain.summary.recentlyViewedCount) failures.summaryMismatches += 1;
           if (signature(first) !== signature(replay)) failures.nondeterministicPresentationOutputs += 1;
           if (first.primaryCollection.entries.length > albums.length || first.recent.entries.length > 20) failures.unboundedSections += 1;
           failures.brokenAccessibleLabels += section.entries.filter((entry) => !entry.accessibleLabel || !entry.cover.alt).length + first.facets.filter((facet) => !facet.accessibleLabel).length;

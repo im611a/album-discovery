@@ -19,19 +19,25 @@ describe("homepage pointer preservation", () => {
     vi.stubGlobal("cancelAnimationFrame", cancelFrame);
     vi.stubGlobal("innerWidth", 1000);
     vi.stubGlobal("innerHeight", 800);
-    vi.stubGlobal("matchMedia", vi.fn().mockReturnValue({ matches: false }));
+    vi.stubGlobal("matchMedia", vi.fn((query: string) => ({ matches: query === "(pointer: fine)" })));
 
     document.body.innerHTML = `
       <main data-homepage-root>
         <figure class="ad-poster ad-poster--large">
           <span class="ad-poster__pointer"><span class="ad-poster__par"></span></span>
         </figure>
+        <div class="ad-fixed"><div class="ad-marker"><span class="ad-marker__surface"></span></div></div>
         <section class="ad-stage"></section>
+        <section class="ad-gallery"></section>
       </main>`;
     const root = document.querySelector<HTMLElement>("[data-homepage-root]")!;
     const stageElement = root.querySelector<HTMLElement>(".ad-stage")!;
     Object.defineProperty(stageElement, "offsetHeight", { configurable: true, value: 1600 });
     vi.spyOn(stageElement, "getBoundingClientRect").mockReturnValue({ top: 0, height: 1600 } as DOMRect);
+    const gallery = root.querySelector<HTMLElement>(".ad-gallery")!;
+    vi.spyOn(gallery, "getBoundingClientRect").mockReturnValue({ top: 300, height: 900 } as DOMRect);
+    const marker = root.querySelector<HTMLElement>(".ad-marker")!;
+    vi.spyOn(marker, "getBoundingClientRect").mockReturnValue({ left: 350, top: 250, width: 300, height: 300 } as DOMRect);
     const poster = root.querySelector<HTMLElement>(".ad-poster")!;
     vi.spyOn(poster, "getBoundingClientRect").mockReturnValue({ top: 100, height: 300 } as DOMRect);
 
@@ -40,12 +46,14 @@ describe("homepage pointer preservation", () => {
     const stage = { setProgress: vi.fn(), update: vi.fn() };
     const runtime = createScrollRuntime(root, stage);
 
-    window.dispatchEvent(new MouseEvent("pointermove", { clientX: 0, clientY: 400 }));
+    window.dispatchEvent(new MouseEvent("pointermove", { clientX: 610, clientY: 400 }));
     const scheduledFrame = requestFrame.mock.calls[0]?.[0];
     expect(scheduledFrame).toBeTypeOf("function");
     scheduledFrame?.(16);
 
-    expect(root.querySelector<HTMLElement>(".ad-poster__pointer")!.style.transform).toBe("translate(16.20px,0.00px)");
+    expect(root.querySelector<HTMLElement>(".ad-poster__pointer")!.style.transform).toBe("translate(-3.56px,0.00px)");
+    expect(marker.style.getPropertyValue("--ad-marker-opacity")).not.toBe("");
+    expect(marker.style.getPropertyValue("--ad-vinyl-tilt-y")).not.toBe("0.00deg");
     expect(add).toHaveBeenCalledWith("pointermove", expect.any(Function), { passive: true });
     expect(stage.setProgress).toHaveBeenCalledWith(expect.any(Number), false);
     expect(stage.update).toHaveBeenCalled();
@@ -71,12 +79,16 @@ describe("homepage pointer preservation", () => {
         <figure class="ad-poster ad-poster--large">
           <span class="ad-poster__pointer"><span class="ad-poster__par"></span></span>
         </figure>
+        <div class="ad-fixed"><div class="ad-marker"><span class="ad-marker__surface"></span></div></div>
         <section class="ad-stage"></section>
+        <section class="ad-gallery"></section>
       </main>`;
     const root = document.querySelector<HTMLElement>("[data-homepage-root]")!;
     const stageElement = root.querySelector<HTMLElement>(".ad-stage")!;
     Object.defineProperty(stageElement, "offsetHeight", { configurable: true, value: 1600 });
     vi.spyOn(stageElement, "getBoundingClientRect").mockReturnValue({ top: 0, height: 1600 } as DOMRect);
+    const gallery = root.querySelector<HTMLElement>(".ad-gallery")!;
+    vi.spyOn(gallery, "getBoundingClientRect").mockReturnValue({ top: 300, height: 900 } as DOMRect);
     const poster = root.querySelector<HTMLElement>(".ad-poster")!;
     vi.spyOn(poster, "getBoundingClientRect").mockReturnValue({ top: 100, height: 300 } as DOMRect);
 

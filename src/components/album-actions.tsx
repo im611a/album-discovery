@@ -2,24 +2,23 @@
 
 import { usePersonalState } from "@/features/personal-state/personal-state-provider";
 
-export function AlbumActions({ album, compact = false }: { album: { id: string }; compact?: boolean }) {
+export function AlbumActions({ album, compact = false, mode = "all" }: { album: { id: string }; compact?: boolean; mode?: "all" | "favorite" | "feedback" }) {
   const { state, hydrated, toggleAlbum, setFeedback } = usePersonalState();
   const liked = state.likedAlbumIds.includes(album.id);
   const favorite = state.favoriteAlbumIds.includes(album.id);
   const saved = state.savedAlbumIds.includes(album.id);
   const listened = state.listenedAlbumIds.includes(album.id);
   const dismissed = state.dismissedAlbumIds.includes(album.id) || state.recommendationFeedback[album.id] === "not_for_me";
-  const controls = (
-    <>
+  const favoriteControl = <button type="button" aria-pressed={favorite} disabled={!hydrated} onClick={() => toggleAlbum("favoriteAlbumIds", album.id)}>{favorite ? "已收藏" : "收藏"}</button>;
+  const feedbackControls = <>
       <button type="button" aria-pressed={saved} disabled={!hydrated} onClick={() => toggleAlbum("savedAlbumIds", album.id)}>{saved ? "已想听" : "想听"}</button>
       <button type="button" aria-pressed={liked} disabled={!hydrated} onClick={() => setFeedback(album.id, liked ? null : "like")}>{liked ? "已喜欢" : "喜欢"}</button>
-      <button type="button" aria-pressed={favorite} disabled={!hydrated} onClick={() => toggleAlbum("favoriteAlbumIds", album.id)}>{favorite ? "已收藏" : "收藏"}</button>
       <button type="button" aria-pressed={listened} disabled={!hydrated} onClick={() => toggleAlbum("listenedAlbumIds", album.id)}>{listened ? "已听过" : "听过"}</button>
       <button type="button" className="quiet-action" aria-pressed={dismissed} disabled={!hydrated} onClick={() => setFeedback(album.id, dismissed ? null : "not_for_me")}>{dismissed ? "撤销不适合" : "不适合我"}</button>
-    </>
-  );
+    </>;
+  const controls = mode === "favorite" ? favoriteControl : mode === "feedback" ? feedbackControls : <>{favoriteControl}{feedbackControls}</>;
   if (compact) {
-    const selectedCount = [saved, liked, favorite, listened, dismissed].filter(Boolean).length;
+    const selectedCount = (mode === "favorite" ? [favorite] : mode === "feedback" ? [saved, liked, listened, dismissed] : [favorite, saved, liked, listened, dismissed]).filter(Boolean).length;
     return (
       <details className="album-actions album-actions--compact">
         <summary>

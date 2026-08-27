@@ -16,7 +16,8 @@ describe("AlbumDetail", () => {
   it("shows NetEase metadata, local actions, taxonomy, tracks and the single secure outbound destination", async () => {
     renderDetail("wake-after-the-rain");
     expect(screen.getByRole("heading", { level: 1, name: "在雨后醒来" })).toBeInTheDocument();
-    expect((await screen.findAllByRole("button", { name: "想听" })).length).toBeGreaterThan(0);
+    expect((await screen.findAllByRole("button", { name: "收藏" })).length).toBeGreaterThan(0);
+    expect(screen.getByText("更多反馈")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "曲目表" })).toBeInTheDocument();
     const link = screen.getByRole("link", { name: /网易云音乐.*查看专辑与曲目信息/ });
     expect(link).toHaveAttribute("href", "https://music.163.com/#/album?id=287974232");
@@ -52,13 +53,13 @@ describe("AlbumDetail", () => {
       descriptors: ["lush"],
     };
     render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
-    expect(screen.getByRole("heading", { name: "相关流派" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "流派" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "chamber-pop" })).toHaveAttribute(
       "href",
       "/discover?related=chamber-pop&entry=album&entryKey=wake-after-the-rain&trail=wake-after-the-rain",
     );
     expect(screen.queryByRole("heading", { name: "氛围与特征" })).not.toBeInTheDocument();
-    expect(screen.getByText("相关流派来自人工核验的离线 RYM Secondary Genres。")).toBeInTheDocument();
+    expect(screen.getByText(/相关流派来自人工核验的离线 RYM Secondary Genres/)).toBeInTheDocument();
   });
 
   it("places same-artist chronology before continuous discovery in semantic DOM order", () => {
@@ -71,7 +72,7 @@ describe("AlbumDetail", () => {
     expect(container.querySelector(".pa-same-artist-shelf .album-grid")).not.toBeInTheDocument();
   });
 
-  it("keeps the object-first reading order from taxonomy and verified rating through editorial and tracks", () => {
+  it("keeps one compact context band before tracks without unsupported editorial description", () => {
     const album = {
       ...getAlbumDetailBySlug("wake-after-the-rain")!,
       rymRating: 4.1,
@@ -79,10 +80,11 @@ describe("AlbumDetail", () => {
     };
     const { container } = render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
     const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
-    expect(headings.indexOf("流派")).toBeLessThan(headings.indexOf("聆听场景"));
-    expect(headings.indexOf("聆听场景")).toBeLessThan(headings.indexOf("RYM 社区评分"));
-    expect(headings.indexOf("RYM 社区评分")).toBeLessThan(headings.indexOf("为什么值得完整听"));
-    expect(headings.indexOf("为什么值得完整听")).toBeLessThan(headings.indexOf("曲目表"));
+    expect(headings.indexOf("分类与聆听")).toBeLessThan(headings.indexOf("曲目表"));
+    expect(screen.getByRole("heading", { level: 3, name: "流派" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 3, name: "聆听场景" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 3, name: "RYM 社区评分" })).toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "为什么值得完整听" })).not.toBeInTheDocument();
   });
 
   it("renders one undistorted album cover as the hero object without decorative package layers", async () => {
@@ -90,7 +92,7 @@ describe("AlbumDetail", () => {
     expect(container.querySelector(".pa-album-file__object .album-cover")).toBeInTheDocument();
     expect(container.querySelector(".pa-album-file__object [data-record-package]")).not.toBeInTheDocument();
     expect(container.querySelector(".pa-album-file__object .record-package__vinyl")).not.toBeInTheDocument();
-    expect((await screen.findAllByRole("button", { name: "想听" })).length).toBeGreaterThan(0);
+    expect((await screen.findAllByRole("button", { name: "收藏" })).length).toBeGreaterThan(0);
   });
 
   it("renders the authoritative discovery primary and alternates without a second album grid", () => {

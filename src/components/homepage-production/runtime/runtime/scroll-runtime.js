@@ -5,7 +5,10 @@ export function createScrollRuntime(root, stage) {
   let raf = 0;
   let disposed = false;
   const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const pointerCapable = matchMedia("(pointer: fine)").matches;
   const pointer = { tx: 0, ty: 0, x: 0, y: 0 };
+  const vinylPointer = { tx: 0, ty: 0, x: 0, y: 0 };
+  const marker = root.querySelector(".ad-marker");
   const amplitudes = {
     large: { x: 180, y: 60 },
     medium: { x: 100, y: 30 },
@@ -20,6 +23,13 @@ export function createScrollRuntime(root, stage) {
   function onPointer(event) {
     pointer.tx = 1 - event.clientX / innerWidth * 2;
     pointer.ty = 1 - event.clientY / innerHeight * 2;
+    if (!pointerCapable || !marker) return;
+    const rect = marker.getBoundingClientRect();
+    const dx = (event.clientX - (rect.left + rect.width / 2)) / Math.max(1, rect.width);
+    const dy = (event.clientY - (rect.top + rect.height / 2)) / Math.max(1, rect.height);
+    const proximity = Math.max(0, 1 - Math.hypot(dx, dy) / 1.35);
+    vinylPointer.tx = Math.max(-1, Math.min(1, dx * 1.7)) * proximity;
+    vinylPointer.ty = Math.max(-1, Math.min(1, dy * 1.7)) * proximity;
   }
   function updateGallery() {
     const mobile = innerWidth <= 768;
@@ -40,16 +50,26 @@ export function createScrollRuntime(root, stage) {
   function tick() {
     if (disposed) return;
     const stageElement = root.querySelector(".ad-stage");
-    if (!stageElement) return;
+    const galleryElement = root.querySelector(".ad-gallery");
+    if (!stageElement || !galleryElement) return;
     const rect = stageElement.getBoundingClientRect();
+    const galleryRect = galleryElement.getBoundingClientRect();
     const travel = Math.max(1, stageElement.offsetHeight - innerHeight);
     const progress = Math.max(0, Math.min(1, -rect.top / travel));
-    root.dataset.markerProgress = String(updateMarker(root, rect.top).progress);
+    root.dataset.markerProgress = String(updateMarker(root, galleryRect.top).progress);
     root.dataset.transitionProgress = String(updateTransition(root, rect.top));
     updateGallery();
     if (!reducedMotion) {
       pointer.x += (pointer.tx - pointer.x) * 0.09;
       pointer.y += (pointer.ty - pointer.y) * 0.09;
+      vinylPointer.x += (vinylPointer.tx - vinylPointer.x) * 0.12;
+      vinylPointer.y += (vinylPointer.ty - vinylPointer.y) * 0.12;
+      if (marker && pointerCapable) {
+        marker.style.setProperty("--ad-vinyl-tilt-x", `${(-vinylPointer.y * 2.2).toFixed(2)}deg`);
+        marker.style.setProperty("--ad-vinyl-tilt-y", `${(vinylPointer.x * 2.2).toFixed(2)}deg`);
+        marker.style.setProperty("--ad-vinyl-light-x", `${(50 + vinylPointer.x * 13).toFixed(2)}%`);
+        marker.style.setProperty("--ad-vinyl-light-y", `${(50 + vinylPointer.y * 13).toFixed(2)}%`);
+      }
       for (const size of Object.keys(galleryGroups)) {
         for (const node of galleryGroups[size]) {
           node.style.transform = `translate(${(amplitudes[size].x * pointer.x).toFixed(2)}px,${(amplitudes[size].y * pointer.y).toFixed(2)}px)`;

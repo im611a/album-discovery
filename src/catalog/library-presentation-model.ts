@@ -159,7 +159,7 @@ export const LIBRARY_RESPONSIVE_CONTENT_PRIORITY = Object.freeze({
 export const LIBRARY_PAGE_IDENTITY = Object.freeze({
   eyebrow: "CURRENT-DEVICE LIBRARY",
   title: "我的专辑",
-  description: "回到你明确保留的专辑，并从既有专辑导览继续探索。",
+  description: "收藏与最近查看，只保存在当前设备。",
 });
 
 function libraryHref(query: LibraryQuery) {
@@ -223,8 +223,8 @@ function emptyState(
   }
   return Object.freeze({
     kind: "FRESH_LIBRARY",
-    title: "从一张想再次找到的专辑开始",
-    supportingCopy: "想听、喜欢、收藏和标记听过都只保存在当前设备；最近查看会作为独立的浏览记录显示。",
+    title: "这里还没有收藏或最近查看",
+    supportingCopy: "在专辑页面收藏一张作品，或打开专辑导览后再回到这里。既有本机信号仍保留用于兼容推荐，但不作为 Library 分类展示。",
     actions: Object.freeze([
       action("浏览专辑目录", "前往发现页浏览专辑目录", "/discover"),
       action("查看本机推荐", "前往为你推荐", "/for-you"),
@@ -306,7 +306,7 @@ function cards(entries: readonly LibraryAlbumEntry[], query: LibraryQuery, catal
 }
 
 function collectionHeading(view: LibraryView, label: string) {
-  if (view === "overview") return "保留的专辑";
+  if (view === "overview" || view === "favorite") return "收藏";
   if (view === "dismissed") return "复核不适合我的专辑";
   return label;
 }
@@ -326,8 +326,8 @@ export function buildLibraryPresentationModel({
 }): LibraryPresentationModel {
   const selectedFacet = projection.facets.find((facet) => facet.facet === (projection.query.view === "overview" ? "all" : projection.query.view));
   if (!selectedFacet) throw new Error(`Missing Library facet presentation authority for ${projection.query.view}`);
-  const facets = Object.freeze(projection.facets.map((facet): LibraryFacetPresentation => {
-    const selected = projection.query.view === "overview" ? facet.facet === "all" : facet.facet === projection.query.view;
+  const facets = Object.freeze(projection.facets.filter((facet) => facet.facet === "favorite" || facet.facet === "recent").map((facet): LibraryFacetPresentation => {
+    const selected = projection.query.view === "overview" ? facet.facet === "favorite" : facet.facet === projection.query.view;
     const nextQuery = { ...projection.query, view: facet.facet };
     return Object.freeze({
       key: facet.facet,
@@ -381,12 +381,8 @@ export function buildLibraryPresentationModel({
       heading: "本机专辑概览",
       accessibleLabel: `当前设备保留 ${projection.summary.totalLibraryAlbums} 张专辑，最近查看 ${projection.summary.recentlyViewedCount} 张。`,
       facts: Object.freeze([
-        Object.freeze({ key: "total", label: "全部保留", value: projection.summary.totalLibraryAlbums, priority: "ESSENTIAL" as const }),
-        Object.freeze({ key: "saved", label: "想听", value: projection.summary.savedCount, priority: "SECONDARY" as const }),
-        Object.freeze({ key: "liked", label: "喜欢", value: projection.summary.likedCount, priority: "OPTIONAL" as const }),
-        Object.freeze({ key: "favorite", label: "收藏", value: projection.summary.favoriteCount, priority: "SECONDARY" as const }),
-        Object.freeze({ key: "marked-listened", label: "标记听过", value: projection.summary.markedListenedCount, priority: "SECONDARY" as const }),
-        Object.freeze({ key: "recent", label: "最近查看", value: projection.summary.recentlyViewedCount, priority: "SECONDARY" as const }),
+        Object.freeze({ key: "favorite", label: "收藏", value: projection.summary.favoriteCount, priority: "ESSENTIAL" as const }),
+        Object.freeze({ key: "recent", label: "最近查看", value: projection.summary.recentlyViewedCount, priority: "ESSENTIAL" as const }),
       ]),
     }),
     facets,

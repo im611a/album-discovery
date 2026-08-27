@@ -183,7 +183,7 @@ export function RecentCollection() {
           <h2 id="recent-title">最近收录</h2>
           <p>表示加入本站静态快照的真实时间，不冒充实时发行榜。</p>
         </div>
-        <Link href="/new-releases">查看完整账本 →</Link>
+        <Link href="/discover?sort=recently-added">按最近收录浏览目录 →</Link>
       </header>
       <div className="pa-intake-ledger__rows">
         {albums.map((album, index) => <CompactAlbumRow key={album.id} album={album} index={index} />)}

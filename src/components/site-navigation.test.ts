@@ -11,6 +11,7 @@ describe("shared site navigation", () => {
     expect(items).toContainEqual(["/decades", "年代"]);
     expect(items).toContainEqual(["/settings", "设置"]);
     expect(items.some(([href]) => href === "/genres")).toBe(false);
+    expect(items.some(([href]) => href === "/new-releases")).toBe(false);
     expect(items.some(([href, label]) => href === "/explore" || label === "Explore")).toBe(false);
     expect(new Set(items.map(([href]) => href)).size).toBe(items.length);
   });
