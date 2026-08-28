@@ -6041,3 +6041,26 @@ input[type="search"],
 @media (max-width: 520px) {
   .ux-album-facts__grid { grid-template-columns: 1fr; }
 }
+
+/* Public UX Refinement V5 — explicit disclosure and right-column Album context. */
+.catalog-advanced-filters__trigger {
+  display: flex; width: 100%; min-height: 58px; align-items: center; justify-content: space-between; gap: 18px;
+  padding: 10px 0; color: var(--r12-copy); text-align: left; background: transparent; border: 0; border-bottom: 1px solid var(--r12-rule); cursor: pointer;
+}
+.catalog-advanced-filters__trigger > span { display: grid; gap: 4px; }
+.catalog-advanced-filters__trigger strong { color: var(--r12-paper); font-size: .88rem; }
+.catalog-advanced-filters__trigger small { color: var(--r12-muted); }
+.catalog-advanced-filters__trigger i { font: 1.25rem/1 var(--r12-sans); transition: transform 160ms ease; }
+.catalog-advanced-filters[data-open="true"] .catalog-advanced-filters__trigger i { transform: rotate(180deg); }
+.catalog-advanced-filters__trigger:hover, .catalog-advanced-filters__trigger:focus-visible { color: var(--r12-paper); background: rgb(255 255 255 / 4%); outline: 1px solid var(--r12-rule-strong); outline-offset: 3px; }
+.r12-album-object .album-detail__intro > .ux-album-facts { margin-top: 22px; padding: 16px 0 0; border-top: 1px solid var(--r12-rule-strong); border-bottom: 0; }
+.r12-album-object .album-detail__intro > .ux-album-facts .ux-album-facts__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 24px; }
+.r12-album-object .album-detail__content > .detail-card--tracks { padding-top: clamp(30px, 4vw, 48px); }
+@media (max-width: 820px) {
+  .r12-album-object .album-detail__intro > .ux-album-facts .ux-album-facts__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .catalog-advanced-filters__trigger small { font-size: .68rem; }
+}
+@media (max-width: 520px) {
+  .r12-album-object .album-detail__intro > .ux-album-facts .ux-album-facts__grid { grid-template-columns: 1fr; }
+  .catalog-advanced-filters__trigger { min-height: 64px; }
+}

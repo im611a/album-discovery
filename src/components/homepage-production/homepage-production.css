@@ -96,7 +96,6 @@
   pointer-events: none;
   mix-blend-mode: normal;
 }
-.ad-fixed.is-back { z-index: 0; mix-blend-mode: normal; }
 .ad-copyright,
 .ad-scroll-hint {
   position: absolute;
@@ -176,6 +175,7 @@
   object-fit: cover;
 }
 .ad-marker {
+  --ad-marker-x: 0px;
   --ad-marker-y: 0px;
   --ad-marker-scale: 1;
   --ad-marker-opacity: 1;
@@ -190,10 +190,14 @@
   height: clamp(220px, 30vmin, 400px);
   pointer-events: none;
   opacity: var(--ad-marker-opacity);
-  transform: translate(-50%, calc(-50% + var(--ad-marker-y))) scale(var(--ad-marker-scale));
+  transform: translate(calc(-50% + var(--ad-marker-x)), calc(-50% + var(--ad-marker-y))) scale(var(--ad-marker-scale));
   transform-origin: center;
-  transition: opacity 120ms linear;
+  transition: opacity 120ms linear, transform 180ms ease-out;
 }
+.ad-fixed[data-marker-phase="dock"] { z-index: 90; }
+.ad-fixed[data-marker-phase="dock"] .ad-vinyl-selection { width: min(250px, 70vw); }
+.ad-fixed[data-marker-phase="dock"] .ad-vinyl-selection span { display: none; }
+.ad-fixed[data-marker-phase="release"] { pointer-events: none; }
 .ad-marker__surface {
   position: absolute;
   inset: 0;
@@ -374,6 +378,20 @@
 .ad-ending a { padding-bottom: 4px; border-bottom: 1px solid currentColor; }
 .ad-ending a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
 
+.ad-continuation { position: relative; z-index: 10; padding: clamp(72px, 10vw, 150px) var(--ad-pad); color: var(--ad-ink); background: #000; border-top: 1px solid rgb(217 217 217 / 24%); }
+.ad-continuation header { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(240px, .7fr); gap: 12px 40px; align-items: end; margin-bottom: 42px; }
+.ad-continuation header p { grid-column: 1 / -1; margin: 0; color: var(--ad-ink-dim); font-size: 9px; letter-spacing: .18em; }
+.ad-continuation h2 { margin: 0; font: 400 clamp(2.4rem, 5.5vw, 6.5rem)/.92 Georgia, "Noto Serif SC", serif; letter-spacing: -.05em; }
+.ad-continuation header span { color: var(--ad-ink-dim); }
+.ad-continuation ul { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(14px, 2vw, 32px); padding: 0; margin: 0; list-style: none; }
+.ad-continuation li a { display: grid; gap: 5px; }
+.ad-continuation img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; margin-bottom: 8px; }
+.ad-continuation strong { font: 400 clamp(1rem, 1.5vw, 1.35rem)/1.1 Georgia, "Noto Serif SC", serif; overflow-wrap: anywhere; }
+.ad-continuation li span, .ad-continuation small { color: var(--ad-ink-dim); font-size: 11px; }
+.ad-continuation small { text-transform: uppercase; letter-spacing: .08em; }
+.ad-continuation footer { display: flex; justify-content: flex-end; gap: 24px; margin-top: 34px; }
+.ad-continuation footer a, .ad-continuation footer button { padding: 4px 0; color: inherit; font: inherit; background: transparent; border: 0; border-bottom: 1px solid currentColor; cursor: pointer; }
+
 @media (max-width: 1100px) {
   .ad-nav__column:nth-child(2) { display: none; }
   .ad-nav__column:nth-child(1) { left: calc(50% + 17px); }
@@ -413,6 +431,9 @@
   .r17-recent-return__list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 14px; }
   .r17-recent-return__list li:nth-child(n + 5) { display: none; }
   .r17-recent-return footer { justify-content: flex-start; }
+  .ad-continuation header { grid-template-columns: 1fr; margin-bottom: 28px; }
+  .ad-continuation ul { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 12px; }
+  .ad-continuation footer { justify-content: flex-start; }
 }
 
 @media (prefers-reduced-motion: reduce) {

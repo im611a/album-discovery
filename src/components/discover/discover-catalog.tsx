@@ -33,6 +33,8 @@ function CatalogSearchForm({ initialQuery, onSubmit }: { initialQuery: string; o
 
 export function DiscoverFilterFields({ query, updateFilter, updateStatus, updateSort }: { query: CatalogQueryState; updateFilter: (key: FilterKey, value: string | boolean) => void; updateStatus: (value: string) => void; updateSort: (value: CatalogSort) => void }) {
   const filters = query.filters;
+  const advancedActiveCount = Number(Boolean(filters.relatedGenre)) + Number(Boolean(filters.context)) + Number(Boolean(filters.releaseType)) + Number(Boolean(filters.rymRatedOnly)) + Number(Boolean(filters.editorialOnly)) + Number(Boolean(query.userStatus));
+  const [advancedOpen, setAdvancedOpen] = useState(advancedActiveCount > 0);
   const [relatedGenreQuery, setRelatedGenreQuery] = useState("");
   const normalizedRelatedQuery = relatedGenreQuery.trim().toLocaleLowerCase("zh-CN");
   const visibleRelatedGenres = options.relatedGenres.filter((value) => {
@@ -45,9 +47,11 @@ export function DiscoverFilterFields({ query, updateFilter, updateStatus, update
     <FilterGroup label="年代"><Select aria-label="年代" value={filters.decade ?? ""} onChange={(event) => updateFilter("decade", event.target.value)}><option value="">全部年代</option>{options.decades.map((value) => <option key={value} value={value}>{value.replace("s", " 年代")}</option>)}</Select></FilterGroup>
     <FilterGroup label="排序"><Select aria-label="排序" value={sorts.some(([value]) => value === query.sort) ? query.sort : "recently-added"} onChange={(event) => updateSort(event.target.value as CatalogSort)}>{sorts.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
   </div>
-  <details className="catalog-advanced-filters">
-    <summary><span>更多筛选</span><small>细分流派、场景、类型、RYM 评分与本机状态</small></summary>
-    <div className="filter-grid filter-grid--advanced" aria-label="高级目录筛选">
+  <div className="catalog-advanced-filters" data-open={advancedOpen}>
+    <button className="catalog-advanced-filters__trigger" type="button" aria-expanded={advancedOpen} aria-controls="catalog-advanced-filter-panel" onClick={() => setAdvancedOpen((open) => !open)}>
+      <span><strong>更多筛选{advancedActiveCount ? ` · 已启用 ${advancedActiveCount} 项` : ""}</strong><small>类型 · 细分流派 · RYM评分 · 本机状态</small></span><i aria-hidden="true">⌄</i>
+    </button>
+    {advancedOpen ? <div id="catalog-advanced-filter-panel" className="filter-grid filter-grid--advanced" aria-label="高级目录筛选">
     <fieldset className="catalog-related-genres">
       <legend>细分流派 / 相关流派</legend>
       <SearchInput aria-label="搜索相关流派" placeholder="搜索已核验流派" value={relatedGenreQuery} onChange={(event) => setRelatedGenreQuery(event.target.value)} />
@@ -62,8 +66,8 @@ export function DiscoverFilterFields({ query, updateFilter, updateStatus, update
     <FilterGroup label="发行类型"><Select aria-label="发行类型" value={filters.releaseType ?? ""} onChange={(event) => updateFilter("releaseType", event.target.value)}><option value="">全部</option>{releaseTypes.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
     <FilterGroup label="本机状态"><Select aria-label="本机状态" value={query.userStatus ?? ""} onChange={(event) => updateStatus(event.target.value)}><option value="">全部</option>{statuses.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
     <label className="checkbox-label"><Checkbox checked={Boolean(filters.editorialOnly)} onChange={(event) => updateFilter("editorialOnly", event.target.checked)} />只看有完整导览</label>
-    </div>
-  </details>
+    </div> : null}
+  </div>
   </>;
 }
 

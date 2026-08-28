@@ -56,7 +56,9 @@ export function createScrollRuntime(root, stage) {
     const galleryRect = galleryElement.getBoundingClientRect();
     const travel = Math.max(1, stageElement.offsetHeight - innerHeight);
     const progress = Math.max(0, Math.min(1, -rect.top / travel));
-    root.dataset.markerProgress = String(updateMarker(root, galleryRect.top).progress);
+    const markerState = updateMarker(root, galleryRect.top, galleryRect.bottom);
+    root.dataset.markerProgress = String(markerState.progress);
+    root.dataset.markerPhase = markerState.phase;
     root.dataset.transitionProgress = String(updateTransition(root, rect.top));
     updateGallery();
     if (!reducedMotion) {

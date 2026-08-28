@@ -77,15 +77,12 @@ test("reference-driven home preserves Stage progression, vinyl lifecycle, naviga
   await expect(root).toHaveAttribute("data-runtime-state", "ready");
   await expect(root).toHaveAttribute("data-gallery-count", "24");
   await expect(root).toHaveAttribute("data-stage-count", "6");
-  const galleryHrefs = await page.locator('#homepage-gallery a[href^="/albums/"]').evaluateAll((links) =>
-    links.map((link) => link.getAttribute("href")),
-  );
-  expect(galleryHrefs).toHaveLength(24);
-  expect(galleryHrefs.every(isHomeAlbumTarget)).toBe(true);
+  await expect(page.getByRole("button", { name: /选择《.+》作为黑胶标签/ })).toHaveCount(24);
+  expect(isHomeAlbumTarget(await page.getByRole("link", { name: /查看《.+》专辑详情/ }).getAttribute("href"))).toBe(true);
 
   const navigation = page.getByRole("navigation", { name: "主要导航" });
   await expect(navigation.getByRole("link", { name: "目录" })).toHaveAttribute("href", /^\/discover\/?$/);
-  await expect(navigation.getByRole("link", { name: "搜索" })).toHaveAttribute("href", /^\/search\/?$/);
+  await expect(navigation.getByRole("button", { name: "搜索" })).toBeVisible();
 
   const canvas = page.locator("#homepageStageCanvas");
   await scrollStageTo(page, 0.204);
@@ -121,25 +118,23 @@ test("discover, search, detail navigation and local state retain their current c
   await albumLink.click();
   await expect(page).toHaveURL(/\/albums\/[^/]+\/$/);
   const selectedAlbumTitle = await page.getByRole("heading", { level: 1 }).innerText();
-  const wantButton = page.locator(".pa-album-file__local-state button").filter({ hasText: "想听" }).first();
-  await expect(wantButton).toHaveText("想听");
-  await wantButton.click();
-  await expect(wantButton).toHaveText("已想听");
+  const favoriteButton = page.locator(".pa-album-file__local-state button").filter({ hasText: "收藏" }).first();
+  await expect(favoriteButton).toHaveText("收藏");
+  await favoriteButton.click();
+  await expect(favoriteButton).toHaveText("已收藏");
   await page.goBack();
   await expect(page).toHaveURL(filteredUrl);
   await expect(page.getByLabel("核心流派", { exact: true })).toHaveValue("pop");
 
-  await page.goto("/library/?state=wantToListen");
+  await page.goto("/library/");
   await expect(page.getByRole("heading", { level: 1, name: "我的专辑" })).toBeVisible();
   await expect(page.locator("main")).toContainText(selectedAlbumTitle);
 
-  await page.goto("/search/");
-  await page.waitForLoadState("networkidle");
-  await page.getByLabel("搜索专辑目录").fill("Radiohead");
-  await page.getByRole("button", { name: "检索档案" }).click();
+  await page.goto("/search/?q=Radiohead");
   await expect(page).toHaveURL(/q=Radiohead/);
-  await expect(page.getByRole("heading", { name: "专辑" })).toBeVisible();
-  await expect(page.getByRole("heading", { name: "艺人" })).toBeVisible();
+  await expect(page.getByLabel("全局搜索")).toHaveValue("Radiohead");
+  await expect(page.getByRole("heading", { name: /^专辑 \d+$/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /^艺人 \d+$/ })).toBeVisible();
 
   await page.goto("/albums/fantasy-jay-chou/?visualTest=1");
   await expect(page.getByRole("heading", { level: 1, name: "范特西" })).toBeVisible();
@@ -181,7 +176,7 @@ test("accepted home navigation, internal mobile menu and every required viewport
   await page.goto("/?visualTest=1");
   const homeNavigation = page.getByRole("navigation", { name: "主要导航" });
   await expect(homeNavigation.getByRole("link", { name: "目录" })).toBeVisible();
-  await expect(homeNavigation.getByRole("link", { name: "搜索" })).toBeVisible();
+  await expect(homeNavigation.getByRole("button", { name: "搜索" })).toBeVisible();
   await page.keyboard.press("Tab");
   await expect(page.locator(".ad-skip-link")).toBeFocused();
   await page.keyboard.press("Enter");

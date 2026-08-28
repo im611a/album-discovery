@@ -1,6 +1,19 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 import { createScrollRuntime } from "./scroll-runtime.js";
+import { calculateMarkerState } from "../marker/marker.js";
+
+describe("homepage vinyl dock states", () => {
+  it("moves from hero to dock and releases at the gallery boundary", () => {
+    expect(calculateMarkerState(800, 3000, 900, 1440)).toMatchObject({ phase: "hero", progress: 0, opacity: 1 });
+    const dock = calculateMarkerState(200, 2000, 900, 1440);
+    expect(dock.phase).toBe("dock");
+    expect(dock.scale).toBeGreaterThanOrEqual(0.4);
+    expect(dock.scale).toBeLessThan(0.5);
+    expect(dock.opacity).toBe(1);
+    expect(calculateMarkerState(100, 100, 900, 1440)).toMatchObject({ phase: "release", opacity: 0 });
+  });
+});
 
 describe("homepage pointer preservation", () => {
   afterEach(() => {
@@ -35,7 +48,7 @@ describe("homepage pointer preservation", () => {
     Object.defineProperty(stageElement, "offsetHeight", { configurable: true, value: 1600 });
     vi.spyOn(stageElement, "getBoundingClientRect").mockReturnValue({ top: 0, height: 1600 } as DOMRect);
     const gallery = root.querySelector<HTMLElement>(".ad-gallery")!;
-    vi.spyOn(gallery, "getBoundingClientRect").mockReturnValue({ top: 300, height: 900 } as DOMRect);
+    vi.spyOn(gallery, "getBoundingClientRect").mockReturnValue({ top: 300, bottom: 1200, height: 900 } as DOMRect);
     const marker = root.querySelector<HTMLElement>(".ad-marker")!;
     vi.spyOn(marker, "getBoundingClientRect").mockReturnValue({ left: 350, top: 250, width: 300, height: 300 } as DOMRect);
     const poster = root.querySelector<HTMLElement>(".ad-poster")!;
@@ -88,7 +101,7 @@ describe("homepage pointer preservation", () => {
     Object.defineProperty(stageElement, "offsetHeight", { configurable: true, value: 1600 });
     vi.spyOn(stageElement, "getBoundingClientRect").mockReturnValue({ top: 0, height: 1600 } as DOMRect);
     const gallery = root.querySelector<HTMLElement>(".ad-gallery")!;
-    vi.spyOn(gallery, "getBoundingClientRect").mockReturnValue({ top: 300, height: 900 } as DOMRect);
+    vi.spyOn(gallery, "getBoundingClientRect").mockReturnValue({ top: 300, bottom: 1200, height: 900 } as DOMRect);
     const poster = root.querySelector<HTMLElement>(".ad-poster")!;
     vi.spyOn(poster, "getBoundingClientRect").mockReturnValue({ top: 100, height: 300 } as DOMRect);
 

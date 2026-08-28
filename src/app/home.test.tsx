@@ -38,6 +38,7 @@ describe("production homepage shell", () => {
 
   it("selects one gallery album and exposes its accessible detail action", () => {
     const { container } = renderHome();
+    expect(screen.getByRole("heading", { name: "从《Madvillainy》继续" })).toBeInTheDocument();
     const next = screen.getAllByRole("button", { name: /选择《.+》作为黑胶标签/ }).find((button) => button.getAttribute("aria-pressed") === "false")!;
     fireEvent.click(next);
     expect(next).toHaveAttribute("aria-pressed", "true");
@@ -45,6 +46,9 @@ describe("production homepage shell", () => {
     expect(container.querySelector(`.ad-poster[data-album-id="${selectedId}"]`)).toHaveClass("is-selected");
     expect(container.querySelector(".ad-marker")).not.toHaveAttribute("data-vinyl-label", "madvillainy");
     expect(screen.getByRole("link", { name: /查看《.+》专辑详情/ })).toBeInTheDocument();
+    expect(container.querySelector(".ad-continuation")).not.toHaveAttribute("data-continuation-source", "madvillainy");
+    expect(screen.queryByRole("heading", { name: "从《Madvillainy》继续" })).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "进入推荐 ↗" })).toHaveAttribute("href", "/for-you");
   });
 
   it("keeps the active Stage above outgoing Gallery artwork", () => {

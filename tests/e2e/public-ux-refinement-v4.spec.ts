@@ -91,7 +91,7 @@ test("V4 keeps detail rhythm content-driven, exposes discovery filters, and sele
     await expect(page).toHaveURL(/decade=2000s/);
     await settleAndAudit(page);
     await page.screenshot({ path: testInfo.outputPath("screenshots", `discover-primary-${suffix}.png`), animations: "disabled" });
-    await page.locator(".catalog-advanced-filters summary").click();
+    await page.getByRole("button", { name: /更多筛选/ }).click();
     const relatedChoice = page.locator(".catalog-related-genres__choices button").nth(1);
     const relatedLabel = (await relatedChoice.textContent())?.trim() ?? "";
     await page.getByLabel("搜索相关流派").fill(relatedLabel);

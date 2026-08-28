@@ -31,6 +31,11 @@ const emptyQuery: CatalogQueryState = {
 
 describe("DiscoverCatalog URL state", () => {
   const renderCatalog = () => render(<PersonalStateProvider><DiscoverCatalog /></PersonalStateProvider>);
+  const openAdvancedFilters = () => {
+    const trigger = screen.getByRole("button", { name: /更多筛选/ });
+    if (trigger.getAttribute("aria-expanded") === "false") fireEvent.click(trigger);
+    return trigger;
+  };
 
   beforeEach(() => {
     push.mockClear();
@@ -42,6 +47,11 @@ describe("DiscoverCatalog URL state", () => {
     renderCatalog();
     expect(screen.getByRole("heading", { name: `${catalogAlbums.length} 张专辑` })).toBeInTheDocument();
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
+    const trigger = screen.getByRole("button", { name: /更多筛选/ });
+    expect(trigger).toHaveAttribute("aria-expanded", "false");
+    expect(screen.queryByLabelText("高级目录筛选")).not.toBeInTheDocument();
+    fireEvent.click(trigger);
+    expect(trigger).toHaveAttribute("aria-expanded", "true");
     for (const label of ["核心流派", "相关流派", "聆听场景", "年代", "发行类型", "本机状态", "排序"]) {
       expect(screen.getByLabelText(label)).toBeInTheDocument();
     }
@@ -70,12 +80,14 @@ describe("DiscoverCatalog URL state", () => {
     expect(screen.getByLabelText("本机状态")).toHaveValue("liked");
     expect(screen.getByLabelText("排序")).toHaveValue("release-oldest");
     expect(screen.getByLabelText("只看有完整导览")).toBeChecked();
+    expect(screen.getByRole("button", { name: /更多筛选 · 已启用 2 项/ })).toHaveAttribute("aria-expanded", "true");
   });
 
   it("ignores invalid values and clears the URL state", () => {
     query = "core=not-real&related=not-real&status=unknown";
     renderCatalog();
     expect(screen.getByLabelText("核心流派")).toHaveValue("");
+    openAdvancedFilters();
     expect(screen.getByRole("button", { name: "全部" })).toHaveAttribute("aria-pressed", "true");
     expect(screen.getByLabelText("本机状态")).toHaveValue("");
     fireEvent.click(screen.getByRole("button", { name: "清除全部" }));
@@ -113,6 +125,7 @@ describe("DiscoverCatalog URL state", () => {
       updateStatus={vi.fn()}
       updateSort={vi.fn()}
     />);
+    openAdvancedFilters();
     expect(screen.getByLabelText("搜索相关流派")).toHaveValue("");
     expect(screen.getByLabelText("相关流派").querySelectorAll("button")).toHaveLength(options.relatedGenres.length + 1);
     if (options.relatedGenres[0]) {
@@ -123,6 +136,7 @@ describe("DiscoverCatalog URL state", () => {
 
   it("searches only the canonical related-genre choices without changing catalog data", () => {
     render(<DiscoverFilterFields query={emptyQuery} updateFilter={vi.fn()} updateStatus={vi.fn()} updateSort={vi.fn()} />);
+    openAdvancedFilters();
     const target = options.relatedGenres[0]!;
     fireEvent.change(screen.getByLabelText("搜索相关流派"), { target: { value: target } });
     expect(screen.getByRole("button", { name: getTaxonomyLabel(target) })).toBeInTheDocument();
