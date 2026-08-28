@@ -117,7 +117,7 @@ export function DecadeTimeline() {
       />
       <div className="pa-decade-shelf__rail">
         {topics.map((topic) => (
-          <Link href={`/decades/${topic.slug}`} key={topic.key}>
+          <Link href={`/discover?decade=${encodeURIComponent(topic.key)}`} key={topic.key}>
             <span>{topic.label}</span>
             <small>{topic.count} 张</small>
           </Link>

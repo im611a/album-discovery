@@ -26,8 +26,12 @@ describe("R11-C whole-site preservation contracts", () => {
   });
 
   it("preserves navigation destinations and versioned local-state recovery", () => {
-    const hrefs = siteNavigationGroups.flatMap((group) => group.items.map(([href]) => href));
-    expect(hrefs).toEqual(expect.arrayContaining(["/discover", "/for-you", "/library", "/artists", "/search", "/settings"]));
+    const items: Array<{ kind: "link"; href: string; label: string } | { kind: "search"; label: string }> = [];
+    for (const group of siteNavigationGroups) items.push(...group.items);
+    const hrefs = items.flatMap((item) => item.kind === "link" ? [item.href] : []);
+    expect(hrefs).toEqual(expect.arrayContaining(["/discover", "/for-you", "/library", "/artists", "/settings"]));
+    expect(items.some((item) => item.kind === "search")).toBe(true);
+    expect(hrefs).not.toContain("/decades");
     expect(hrefs).not.toContain("/new-releases");
     const initial = createInitialUserState();
     expect(initial.version).toBe(1);

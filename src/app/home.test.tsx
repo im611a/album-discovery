@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import Home from "./page";
+import { GlobalSearchProvider } from "@/components/search/global-search";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
 
 vi.mock("@/components/homepage-production/runtime/mount-runtime.js", () => ({
@@ -10,7 +11,11 @@ vi.mock("@/components/homepage-production/runtime/mount-runtime.js", () => ({
 }));
 
 describe("production homepage shell", () => {
-  const renderHome = () => render(<PersonalStateProvider><Home /></PersonalStateProvider>);
+  const renderHome = () => render(
+    <PersonalStateProvider>
+      <GlobalSearchProvider><Home /></GlobalSearchProvider>
+    </PersonalStateProvider>,
+  );
   it("renders one route-aware interface, 24 gallery albums, and one six-album stage", () => {
     const { container } = renderHome();
     expect(screen.getByRole("heading", { level: 1, name: "专辑发现" })).toBeInTheDocument();

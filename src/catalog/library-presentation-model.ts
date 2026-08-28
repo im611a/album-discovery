@@ -228,7 +228,7 @@ function emptyState(
     actions: Object.freeze([
       action("浏览专辑目录", "前往发现页浏览专辑目录", "/discover"),
       action("查看本机推荐", "前往为你推荐", "/for-you"),
-      action("搜索专辑", "前往搜索专辑", "/search"),
+      action("浏览艺人档案", "前往艺人档案继续浏览", "/artists"),
     ]),
     accessibleMeaning: "当前 Library 没有保留专辑、最近查看或不适合记录。",
   });

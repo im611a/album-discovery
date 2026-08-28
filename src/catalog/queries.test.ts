@@ -38,4 +38,12 @@ describe("catalog queries", () => {
     expect(new Set(first.map((album) => album.id))).toEqual(new Set(getAllAlbums().map((album) => album.id)));
     expect(first.map((album) => album.id)).not.toEqual(getAllAlbums().map((album) => album.id));
   });
+  it("sorts verified RYM ratings first and never treats missing ratings as zero", () => {
+    const sorted = discoverAlbums({}, "rym-rating-desc");
+    const rated = sorted.filter((album) => album.rymRating != null);
+    expect(rated).toHaveLength(13);
+    expect(sorted.slice(0, rated.length).every((album) => album.rymRating != null)).toBe(true);
+    expect(sorted.slice(rated.length).every((album) => album.rymRating == null)).toBe(true);
+    expect(discoverAlbums({ rymRatedOnly: true })).toHaveLength(13);
+  });
 });

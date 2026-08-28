@@ -56,7 +56,7 @@ describe("R15-2B Library presentation information architecture", () => {
   it("builds a truthful empty orientation with real exits and no fake personal shelf", () => {
     const result = model(null);
     expect(result.pageEmptyState).toMatchObject({ kind: "FRESH_LIBRARY", title: "这里还没有收藏或最近查看" });
-    expect(result.pageEmptyState?.actions.map((item) => item.href)).toEqual(["/discover", "/for-you", "/search"]);
+    expect(result.pageEmptyState?.actions.map((item) => item.href)).toEqual(["/discover", "/for-you", "/artists"]);
     expect(result.primaryCollection.entries).toEqual([]);
     expect(result.recent.entries).toEqual([]);
   });

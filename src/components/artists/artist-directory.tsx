@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { ARTIST_NAME_CATEGORIES, countArtistNameCategories, getArtistNameCategory, type ArtistNameCategory } from "@/catalog/artist-name-category";
+import { ARTIST_GENRE_GROUPS, countArtistGenreGroups, getArtistGenreGroup, type ArtistGenreGroup } from "@/catalog/artist-primary-genre";
 import { normalizeSearchText } from "@/catalog/queries";
 import { publishedArtists } from "@/catalog/published-catalog";
 import { ArtistCard } from "./artist-card";
@@ -20,15 +20,15 @@ export function ArtistDirectory() {
   const router = useRouter();
   const query = params.get("q")?.trim() ?? "";
   const sort: ArtistSort = params.get("sort") === "name" ? "name" : "album-count";
-  const requestedCategory = params.get("script");
-  const category: ArtistNameCategory = ARTIST_NAME_CATEGORIES.some(([value]) => value === requestedCategory)
-    ? requestedCategory as ArtistNameCategory
+  const requestedCategory = params.get("genre");
+  const category: ArtistGenreGroup = ARTIST_GENRE_GROUPS.some(({ key }) => key === requestedCategory)
+    ? requestedCategory as ArtistGenreGroup
     : "all";
   const [value, setValue] = useState(query);
   const normalized = normalizeSearchText(query);
-  const categoryCounts = countArtistNameCategories(publishedArtists);
+  const categoryCounts = countArtistGenreGroups(publishedArtists);
   const artists = publishedArtists.filter((artist) =>
-    (category === "all" || getArtistNameCategory(artist.name) === category) &&
+    (category === "all" || getArtistGenreGroup(artist) === category) &&
     (!normalized || normalizeSearchText([artist.name, ...artist.aliases].join(" ")).includes(normalized)),
   ).sort((a, b) =>
     sort === "album-count"
@@ -42,18 +42,18 @@ export function ArtistDirectory() {
     else all.push({ label, artists: [artist] });
     return all;
   }, []);
-  const hrefFor = (nextCategory: ArtistNameCategory, nextQuery = query, nextSort = sort) => {
+  const hrefFor = (nextCategory: ArtistGenreGroup, nextQuery = query, nextSort = sort) => {
     const next = new URLSearchParams();
     if (nextQuery.trim()) next.set("q", nextQuery.trim());
     if (nextSort !== "album-count") next.set("sort", nextSort);
-    if (nextCategory !== "all") next.set("script", nextCategory);
+    if (nextCategory !== "all") next.set("genre", nextCategory);
     return next.size ? `/artists?${next}` : "/artists";
   };
   const navigate = (nextQuery: string, nextSort: ArtistSort) => router.push(hrefFor(category, nextQuery, nextSort), { scroll: false });
   return <>
-    <nav className="ux-artist-categories" aria-label="按艺人名称文字系统缩小范围">
-      <header><p className="section-kicker">先缩小范围</p><h2>名称文字系统</h2><p>这里只描述发布索引中的显示名称，不代表艺人的国家、地区、国籍或语言。</p></header>
-      <div>{ARTIST_NAME_CATEGORIES.map(([key, label]) => <Link key={key} href={hrefFor(key)} aria-current={category === key ? "page" : undefined}><strong>{label}</strong><span>{categoryCounts[key]}</span></Link>)}</div>
+    <nav className="ux-artist-categories" aria-label="按艺人主流派缩小范围">
+      <header><p className="section-kicker">先按音乐缩小范围</p><h2>主流派分类</h2><p>依据每位艺人已收录专辑的核心流派数量确定；数量并列时按稳定流派 key 排序，不使用姓名或地区推断。</p></header>
+      <div>{ARTIST_GENRE_GROUPS.map(({ key, label }) => <Link key={key} href={hrefFor(key)} aria-current={category === key ? "page" : undefined}><strong>{label}</strong><span>{categoryCounts[key]}</span></Link>)}</div>
     </nav>
     <form className="artist-tools r12-artist-tools" role="search" onSubmit={(event) => { event.preventDefault(); navigate(value, sort); }}>
       <label>搜索艺人<input type="search" value={value} onChange={(event) => setValue(event.target.value)} placeholder="输入艺人名称" /></label>
@@ -61,6 +61,6 @@ export function ArtistDirectory() {
       <button className="button button--secondary" type="submit">搜索</button>
     </form>
     <div className="results-bar r12-artist-results"><p aria-live="polite">找到 <strong>{artists.length}</strong> 位艺人</p><p>名称 · 作品数量 · 年份跨度 · 常见核心流派</p></div>
-    {artists.length ? <div className="r12-artist-index" data-artist-category={category}>{groups.map((group) => <section key={group.label} className="r12-artist-index__group" aria-labelledby={`artist-index-${group.label}`}><h2 id={`artist-index-${group.label}`}>{group.label}</h2><div className="artist-grid">{group.artists.map((artist) => <ArtistCard key={artist.artistId} artist={artist} />)}</div></section>)}</div> : <div className="empty-state"><h2>没有找到匹配艺人</h2><p>可以缩短名称，或切换名称文字系统。</p><button className="button button--secondary" type="button" onClick={() => { setValue(""); router.push("/artists", { scroll: false }); }}>查看全部艺人</button></div>}
+    {artists.length ? <div className="r12-artist-index" data-artist-category={category}>{groups.map((group) => <section key={group.label} className="r12-artist-index__group" aria-labelledby={`artist-index-${group.label}`}><h2 id={`artist-index-${group.label}`}>{group.label}</h2><div className="artist-grid">{group.artists.map((artist) => <ArtistCard key={artist.artistId} artist={artist} />)}</div></section>)}</div> : <div className="empty-state"><h2>没有找到匹配艺人</h2><p>可以缩短名称，或切换主流派分类。</p><button className="button button--secondary" type="button" onClick={() => { setValue(""); router.push("/artists", { scroll: false }); }}>查看全部艺人</button></div>}
   </>;
 }

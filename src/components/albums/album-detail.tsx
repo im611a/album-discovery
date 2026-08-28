@@ -64,7 +64,7 @@ export function AlbumDetail({ album: suppliedAlbum, viewModel, sameArtistAlbums 
         {album.aliases.length ? <p className="album-detail__aliases">别名：{album.aliases.join("、")}</p> : null}
         <p className="album-detail__artists">{album.artists.map((artist, index) => <span key={`${artist.id}:${artist.name}:${index}`}>{index ? "、" : ""}<DiscoveryContextLink href={`/artists/artist-${artist.neteaseArtistId}`} currentAlbumSlug={album.slug}>{artist.name}</DiscoveryContextLink></span>)}</p>
         <dl className="album-meta">
-          <div><dt>发行</dt><dd>{album.releaseDate ? <DiscoveryContextLink href={`/decades/${Math.floor(Number(album.releaseDate.slice(0, 4)) / 10) * 10}s`} currentAlbumSlug={album.slug}>{formatPartialDate(album.releaseDate, album.releaseDatePrecision)}</DiscoveryContextLink> : formatPartialDate(album.releaseDate, album.releaseDatePrecision)}</dd></div>
+          <div><dt>发行</dt><dd>{album.releaseDate ? <DiscoveryContextLink href={`/discover?decade=${Math.floor(Number(album.releaseDate.slice(0, 4)) / 10) * 10}s`} currentAlbumSlug={album.slug}>{formatPartialDate(album.releaseDate, album.releaseDatePrecision)}</DiscoveryContextLink> : formatPartialDate(album.releaseDate, album.releaseDatePrecision)}</dd></div>
           <div><dt>类型</dt><dd>{RELEASE_TYPE_LABELS[album.albumType]}</dd></div>
           {album.company ? <div><dt>发行公司</dt><dd>{album.company}</dd></div> : null}
           <div><dt>曲目</dt><dd>{album.trackCount} 首{totalDuration ? ` · 约 ${Math.round(totalDuration / 60000)} 分钟` : ""}</dd></div>

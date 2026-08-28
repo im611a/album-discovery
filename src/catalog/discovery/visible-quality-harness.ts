@@ -179,7 +179,7 @@ function possibleHops(albumId: string): readonly EntityHop[] {
     }
   });
   if (facts.era && (publishedDiscoveryIndex.albumIdsByEra.get(facts.era)?.length ?? 0) > 1) {
-    hops.push({ kind: "ERA", key: facts.era, pathname: `/decades/${facts.era}` });
+    hops.push({ kind: "ERA", key: facts.era, pathname: `/discover?decade=${encodeURIComponent(facts.era)}` });
   }
   facts.listeningContexts.forEach((key) => {
     if ((publishedDiscoveryIndex.albumIdsByListeningContext.get(key)?.length ?? 0) > 1) {

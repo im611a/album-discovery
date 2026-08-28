@@ -42,6 +42,11 @@ describe("homepage data adapter", () => {
     expect(homepageContent.gallery.every((item) => !("vinylPalette" in item))).toBe(true);
   });
 
+  it("keeps the approved Madvillainy identity available for the visual-only vinyl label", () => {
+    const label = homepageContent.gallery.find((item) => item.slug === "madvillainy");
+    expect(label).toMatchObject({ albumId: "album:316551", title: "Madvillainy", cover: expect.stringContaining("/catalog/covers/detail/316551.webp") });
+  });
+
   it("rejects a missing ID instead of silently choosing a fallback", () => {
     const missing = catalogAlbums.filter((album) => album.id !== APPROVED_HOMEPAGE_MAPPING.gallery[0].albumId);
     expect(() => buildHomepageContent(missing)).toThrow(/不存在/);

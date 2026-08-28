@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { SITE_NAME } from "@/lib/site";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
 import { RouteMotion } from "@/components/editorial/route-motion";
+import { GlobalSearchProvider } from "@/components/search/global-search";
 
 import "./globals.css";
 
@@ -20,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
-      <body className="pa-site"><RouteMotion /><PersonalStateProvider>{children}</PersonalStateProvider></body>
+      <body className="pa-site"><RouteMotion /><PersonalStateProvider><GlobalSearchProvider>{children}</GlobalSearchProvider></PersonalStateProvider></body>
     </html>
   );
 }

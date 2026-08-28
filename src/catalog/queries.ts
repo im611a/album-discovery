@@ -9,6 +9,7 @@ export interface DiscoverFilters {
   decade?: string | null;
   releaseType?: ReleaseType | null;
   editorialOnly?: boolean;
+  rymRatedOnly?: boolean;
 }
 
 export const getAllAlbums = () => catalogAlbums;
@@ -90,7 +91,8 @@ export function discoverAlbums(
     (!filters.context || album.contexts.includes(filters.context)) &&
     (!filters.decade || album.releaseDate?.startsWith(filters.decade.slice(0, 3))) &&
     (!filters.releaseType || album.albumType === filters.releaseType) &&
-    (!filters.editorialOnly || Boolean(album.editorial)),
+    (!filters.editorialOnly || Boolean(album.editorial)) &&
+    (!filters.rymRatedOnly || album.rymRating != null),
   );
   return [...filtered].sort((a, b) => {
     if (sort === "release-newest") return compareReleaseNewest(a, b);

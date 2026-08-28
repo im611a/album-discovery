@@ -2,13 +2,18 @@ import { render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 
 import { Breadcrumb, ExternalLink, FilterGroup, SearchInput, Select } from "./control-primitives";
+import { GlobalSearchProvider } from "./search/global-search";
 import { EmptyState, PageHeader, SiteShell } from "./site-primitives";
 
 vi.mock("next/navigation", () => ({ usePathname: () => "/discover" }));
 
 describe("R9 shared page primitives", () => {
   it("renders one shared header, main region and footer for inner routes", () => {
-    render(<SiteShell><PageHeader eyebrow="目录" title="测试页面">页面说明</PageHeader></SiteShell>);
+    render(
+      <GlobalSearchProvider>
+        <SiteShell><PageHeader eyebrow="目录" title="测试页面">页面说明</PageHeader></SiteShell>
+      </GlobalSearchProvider>,
+    );
     expect(screen.getAllByRole("banner")).toHaveLength(1);
     expect(screen.getByRole("main")).toHaveAttribute("id", "main-content");
     expect(screen.getByRole("contentinfo")).toBeInTheDocument();

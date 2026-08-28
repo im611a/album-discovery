@@ -45,10 +45,10 @@ describe("catalog view model foundation", () => {
 
   it("round-trips URL state in a stable parameter order", () => {
     const parsed = parseCatalogQuery(
-      "sort=random&type=album&scene=night&q=%E7%8E%8B%E8%8F%B2&status=liked",
+      "sort=rym-rating-desc&type=album&scene=night&q=%E7%8E%8B%E8%8F%B2&status=liked&rym=rated",
       catalogAlbums,
     );
-    expect(serializeCatalogQuery(parsed)).toBe("q=%E7%8E%8B%E8%8F%B2&scene=night&type=album&status=liked&sort=random");
+    expect(serializeCatalogQuery(parsed)).toBe("q=%E7%8E%8B%E8%8F%B2&scene=night&type=album&rym=rated&status=liked&sort=rym-rating-desc");
     expect(parseCatalogQuery(serializeCatalogQuery(parsed), catalogAlbums)).toEqual(parsed);
   });
 
@@ -63,6 +63,7 @@ describe("catalog view model foundation", () => {
         decade: null,
         releaseType: null,
         editorialOnly: false,
+        rymRatedOnly: false,
       },
       userStatus: null,
       sort: "recently-added",
@@ -81,5 +82,13 @@ describe("catalog view model foundation", () => {
       query: parseCatalogQuery(`scene=${encodeURIComponent(album?.contexts[0] ?? "")}`, catalogAlbums),
     });
     expect(view.albums.every((item) => item.contexts.includes(album?.contexts[0] ?? ""))).toBe(true);
+  });
+
+  it("keeps verified RYM sorting and presence filtering explicit", () => {
+    const query = parseCatalogQuery("sort=rym-rating-desc&rym=rated", catalogAlbums);
+    const view = buildCatalogViewModel({ albums: catalogAlbums, query });
+    expect(view.resultCount).toBe(13);
+    expect(view.albums.every((album) => album.rymRating != null)).toBe(true);
+    expect(view.albums.map((album) => album.rymRating)).toEqual([...view.albums].map((album) => album.rymRating).sort((a, b) => (b ?? 0) - (a ?? 0)));
   });
 });

@@ -168,9 +168,9 @@ function sourcePresentation(choice: ExploreRelationChoice) {
   };
   if (choice.source.kind === "ERA") return {
     label: choice.source.key.replace("s", " 年代"),
-    kindLabel: "年代专题",
-    href: `/decades/${choice.source.key}/?${exploreQuery}`,
-    action: "先查看这一年代专题",
+    kindLabel: "目录年代筛选",
+    href: `/discover?decade=${encodeURIComponent(choice.source.key)}&${exploreQuery}`,
+    action: "先查看这一年代的目录结果",
   };
   if (choice.source.kind === "LISTENING_CONTEXT") return {
     label: getListeningSceneLabel(choice.source.key),

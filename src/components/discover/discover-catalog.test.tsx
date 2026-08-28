@@ -23,6 +23,7 @@ const emptyQuery: CatalogQueryState = {
     decade: null,
     releaseType: null,
     editorialOnly: false,
+    rymRatedOnly: false,
   },
   userStatus: null,
   sort: "recently-added",
@@ -45,10 +46,11 @@ describe("DiscoverCatalog URL state", () => {
       expect(screen.getByLabelText(label)).toBeInTheDocument();
     }
     expect(screen.getByText("高级筛选")).toBeInTheDocument();
-    expect(screen.getByLabelText("排序").querySelectorAll("option")).toHaveLength(4);
+    expect(screen.getByLabelText("排序").querySelectorAll("option")).toHaveLength(5);
     expect(screen.getByLabelText("排序")).toHaveTextContent("随机发现");
     expect(screen.getByLabelText("排序")).not.toHaveTextContent("标题");
-    expect(screen.getByLabelText("排序")).not.toHaveTextContent("RYM");
+    expect(screen.getByLabelText("排序")).toHaveTextContent("RYM评分：高→低");
+    expect(screen.getByRole("checkbox", { name: /仅看有 RYM 评分/ })).toBeInTheDocument();
   });
 
   it("builds an encoded URL when a stable genre value changes", () => {
@@ -91,6 +93,15 @@ describe("DiscoverCatalog URL state", () => {
     expect(screen.getByRole("heading", { name: `${catalogAlbums.length} 张专辑` })).toBeInTheDocument();
     expect(screen.getByText(/当前显示/)).toHaveTextContent("当前显示 48 张");
     expect(container.querySelectorAll(".album-card")).toHaveLength(48);
+  });
+
+  it("explains incomplete RYM coverage and preserves the rated-only URL state", () => {
+    query = "sort=rym-rating-desc&rym=rated";
+    renderCatalog();
+    expect(screen.getByLabelText("排序")).toHaveValue("rym-rating-desc");
+    expect(screen.getByRole("checkbox", { name: /仅看有 RYM 评分/ })).toBeChecked();
+    expect(screen.getByText(/不将缺失值视为 0/)).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "13 张专辑" })).toBeInTheDocument();
   });
 
   it("keeps optional taxonomy controls honest when verified choices are absent", () => {

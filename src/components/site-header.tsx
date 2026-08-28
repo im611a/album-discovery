@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { SITE_NAME } from "@/lib/site";
 import { isNavigationItemActive, siteNavigationGroups } from "@/components/site-navigation";
+import { GlobalSearchTrigger } from "@/components/search/global-search";
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -28,7 +29,7 @@ export function SiteHeader() {
     <header className="site-header"><div className="page-container site-header__inner">
       <Link className="site-brand" href="/" aria-label={`${SITE_NAME}首页`}><span>{SITE_NAME}</span><small>Album Discovery Archive</small></Link>
       <button ref={buttonRef} className="mobile-menu-button" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen((value) => !value)}><span aria-hidden="true">{open ? "×" : "☰"}</span><span className="visually-hidden">{open ? "关闭菜单" : "打开菜单"}</span></button>
-      <nav id="primary-navigation" className="primary-nav" data-open={open ? "true" : "false"} aria-label="主导航">{siteNavigationGroups.map((group, groupIndex) => <div className="primary-nav__group" key={group.label}><span>{group.label}</span><div>{group.items.map(([href, label], itemIndex) => <Link ref={groupIndex === 0 && itemIndex === 0 ? firstLinkRef : undefined} key={href} href={href} onClick={() => setOpen(false)} aria-current={isNavigationItemActive(pathname, href) ? "page" : undefined}>{label}</Link>)}</div></div>)}</nav>
+      <nav id="primary-navigation" className="primary-nav" data-open={open ? "true" : "false"} aria-label="主导航">{siteNavigationGroups.map((group, groupIndex) => <div className="primary-nav__group" key={group.label}><span>{group.label}</span><div>{group.items.map((item, itemIndex) => item.kind === "link" ? <Link ref={groupIndex === 0 && itemIndex === 0 ? firstLinkRef : undefined} key={item.href} href={item.href} onClick={() => setOpen(false)} aria-current={isNavigationItemActive(pathname, item.href) ? "page" : undefined}>{item.label}</Link> : <GlobalSearchTrigger key="global-search" onOpen={() => setOpen(false)}>{item.label}</GlobalSearchTrigger>)}</div></div>)}</nav>
     </div></header>
   </>;
 }

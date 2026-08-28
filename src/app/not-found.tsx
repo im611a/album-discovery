@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { SiteShell } from "@/components/site-primitives";
+import { GlobalSearchTrigger } from "@/components/search/global-search";
 
 export default function NotFound() {
   return (
@@ -15,9 +16,7 @@ export default function NotFound() {
           <Link className="button button--secondary" href="/discover">
             进入发现
           </Link>
-          <Link className="button button--quiet" href="/search">
-            进入搜索
-          </Link>
+          <GlobalSearchTrigger className="button button--quiet">进入搜索</GlobalSearchTrigger>
         </div>
     </SiteShell>
   );

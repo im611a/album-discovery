@@ -204,7 +204,7 @@ function topicLens(kind: TopicKind) {
 function topicPathname(kind: TopicKind, key: string) {
   if (kind === "core") return `/genres/core/${key}/`;
   if (kind === "related") return `/genres/related/${key}/`;
-  if (kind === "decade") return `/decades/${key}/`;
+  if (kind === "decade") return `/discover?decade=${encodeURIComponent(key)}`;
   return `/scenes/${key}/`;
 }
 

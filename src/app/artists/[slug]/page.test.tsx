@@ -2,6 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import { publishedArtists } from "@/catalog/published-catalog";
 import ArtistPage from "./page";
+import { GlobalSearchProvider } from "@/components/search/global-search";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
 
 vi.mock("next/navigation", () => ({
@@ -15,7 +16,11 @@ describe("ArtistPage R16-2C integration", () => {
   it("keeps the complete chronology before collection context, personalization and continuous discovery", async () => {
     const artist = publishedArtists.find((candidate) => candidate.albumCount > 1)!;
     const page = await ArtistPage({ params: Promise.resolve({ slug: artist.slug }) });
-    const { container } = render(<PersonalStateProvider>{page}</PersonalStateProvider>);
+    const { container } = render(
+      <PersonalStateProvider>
+        <GlobalSearchProvider>{page}</GlobalSearchProvider>
+      </PersonalStateProvider>,
+    );
     const chronology = screen.getByRole("heading", { level: 2, name: "作品年表" });
     const collection = await screen.findByRole("heading", { level: 2, name: "这位艺人与我的专辑" });
     const continuation = screen.getByRole("heading", { level: 2, name: "从作品年表继续" });

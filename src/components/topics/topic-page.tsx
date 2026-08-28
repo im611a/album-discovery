@@ -14,8 +14,8 @@ export function TopicPage({ topic, pathname }: { topic: TopicSummary; pathname: 
   const albums = getTopicAlbums(topic.kind, topic.key);
   const discoveryPresentation = buildTopicDiscoveryPresentation(topic.kind, topic.key);
   if (!discoveryPresentation) throw new Error(`Missing discovery presentation for ${topic.kind} topic ${topic.key}.`);
-  const indexRoute = topic.kind === "decade" ? "/decades" : topic.kind === "scene" ? "/scenes" : "/discover";
-  const indexLabel = topic.kind === "decade" ? "年代" : topic.kind === "scene" ? "聆听场景" : "目录";
+  const indexRoute = topic.kind === "scene" ? "/scenes" : "/discover";
+  const indexLabel = topic.kind === "decade" ? "目录年代筛选" : topic.kind === "scene" ? "聆听场景" : "目录";
   return <article className="pa-topic-file" data-topic-kind={topic.kind}>
     <ReturnJourneyAffordance />
     <nav className="breadcrumbs" aria-label="面包屑"><Link href={indexRoute}>{indexLabel}</Link><span aria-hidden="true">/</span><span>{topic.label}</span></nav>

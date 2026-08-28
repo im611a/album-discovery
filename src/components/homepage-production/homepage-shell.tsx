@@ -10,12 +10,14 @@ import { Suspense } from "react";
 import { RecentReturnRail } from "@/components/home/recent-return-rail";
 
 export function HomepageShell() {
+  const vinylLabelAlbum = homepageContent.gallery.find((album) => album.slug === "madvillainy");
+  if (!vinylLabelAlbum) throw new Error("首页黑胶 label 所需的 Madvillainy 不在已批准首页映射中。");
   return (
     <HomepageRuntimeClient stageAlbums={homepageContent.stage}>
       <h1 className="ad-sr-only">专辑发现</h1>
       <HomepageFixedInterface />
       <main className="ad-work">
-        <HomepageVinylMarker />
+        <HomepageVinylMarker labelAlbum={vinylLabelAlbum} />
         <div className="ad-gallery-spacer" />
         <HomepageGallery albums={homepageContent.gallery} />
         <HomepageStage albums={homepageContent.stage} />

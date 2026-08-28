@@ -25,6 +25,7 @@ const SORT_VALUES: readonly CatalogSort[] = [
   "release-newest",
   "release-oldest",
   "random",
+  "rym-rating-desc",
 ];
 const STATUS_VALUES: readonly CatalogUserStatus[] = ["liked", "favorite", "saved", "listened", "dismissed"];
 const RELEASE_TYPES = Object.keys(RELEASE_TYPE_LABELS) as ReleaseType[];
@@ -55,6 +56,7 @@ export function parseCatalogQuery(
       decade: accepted(params.get("decade"), options.decades),
       releaseType: accepted(params.get("type"), RELEASE_TYPES),
       editorialOnly: params.get("editorial") === "1",
+      rymRatedOnly: params.get("rym") === "rated",
     },
     userStatus: accepted(params.get("status"), STATUS_VALUES),
     sort: accepted(params.get("sort"), SORT_VALUES) ?? "recently-added",
@@ -70,6 +72,7 @@ export function serializeCatalogQuery(state: CatalogQueryState) {
   if (state.filters.decade) params.set("decade", state.filters.decade);
   if (state.filters.releaseType) params.set("type", state.filters.releaseType);
   if (state.filters.editorialOnly) params.set("editorial", "1");
+  if (state.filters.rymRatedOnly) params.set("rym", "rated");
   if (state.userStatus) params.set("status", state.userStatus);
   if (state.sort !== "recently-added") params.set("sort", state.sort);
   return params.toString();

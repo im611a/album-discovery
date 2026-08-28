@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { siteNavigationGroups } from "@/components/site-navigation";
+import { GlobalSearchTrigger } from "@/components/search/global-search";
 
 export function HomepageFixedInterface() {
   return (
@@ -11,7 +12,7 @@ export function HomepageFixedInterface() {
           {siteNavigationGroups.map((group) => (
             <div className="ad-nav__column" key={group.label}>
               <span className="ad-nav__label">{group.label}</span>
-              {group.items.map(([href, label]) => <Link href={href} key={href}>{label}</Link>)}
+              {group.items.map((item) => item.kind === "link" ? <Link href={item.href} key={item.href}>{item.label}</Link> : <GlobalSearchTrigger key="global-search">{item.label}</GlobalSearchTrigger>)}
             </div>
           ))}
         </nav>
