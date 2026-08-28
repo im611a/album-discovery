@@ -11,6 +11,7 @@ describe("HomepageVinylMarker", () => {
     expect(container.querySelector(".ad-marker")).toHaveAttribute("data-audio-source", "required");
     expect(container.querySelector(".ad-marker__label img")).toHaveAttribute("src", expect.stringContaining("/catalog/covers/detail/316551.webp"));
     expect(screen.queryByRole("button")).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "查看《Madvillainy》专辑详情" })).toHaveAttribute("href", "/albums/madvillainy?pfrom=home");
     expect(container.querySelector("audio")).not.toBeInTheDocument();
   });
 });

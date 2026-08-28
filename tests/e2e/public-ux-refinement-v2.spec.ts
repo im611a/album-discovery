@@ -124,7 +124,7 @@ test("V2 product simplification remains clear, responsive and Pages-safe", async
   await expect(artistCategories).toContainText("不代表艺人的国家、地区、国籍或语言");
 
   await page.goto(`${basePath}/albums/madvillainy/?visualTest=1`);
-  await expect(page.getByRole("heading", { level: 2, name: "分类与聆听" })).toBeVisible();
+  await expect(page.getByRole("region", { name: "专辑分类与聆听信息" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "为什么值得完整听" })).toHaveCount(0);
   await expect(page.locator(".r12-related-works .pa-same-artist-shelf__record").first()).toBeVisible();
   await expect(page.locator(".r13-discovery")).toBeVisible();

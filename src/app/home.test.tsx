@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import Home from "./page";
 import { GlobalSearchProvider } from "@/components/search/global-search";
@@ -32,7 +32,19 @@ describe("production homepage shell", () => {
     renderHome();
     expect(screen.getByRole("link", { name: "目录" })).toHaveAttribute("href", "/discover");
     expect(screen.getByRole("link", { name: "推荐" })).toHaveAttribute("href", "/for-you");
-    expect(screen.getAllByRole("link", { name: /查看《.+》专辑详情/ })).toHaveLength(24);
+    expect(screen.getByRole("link", { name: "查看《Madvillainy》专辑详情" })).toHaveAttribute("href", "/albums/madvillainy?pfrom=home");
+    expect(screen.getAllByRole("button", { name: /选择《.+》作为黑胶标签/ })).toHaveLength(24);
+  });
+
+  it("selects one gallery album and exposes its accessible detail action", () => {
+    const { container } = renderHome();
+    const next = screen.getAllByRole("button", { name: /选择《.+》作为黑胶标签/ }).find((button) => button.getAttribute("aria-pressed") === "false")!;
+    fireEvent.click(next);
+    expect(next).toHaveAttribute("aria-pressed", "true");
+    const selectedId = next.closest("[data-album-id]")?.getAttribute("data-album-id");
+    expect(container.querySelector(`.ad-poster[data-album-id="${selectedId}"]`)).toHaveClass("is-selected");
+    expect(container.querySelector(".ad-marker")).not.toHaveAttribute("data-vinyl-label", "madvillainy");
+    expect(screen.getByRole("link", { name: /查看《.+》专辑详情/ })).toBeInTheDocument();
   });
 
   it("keeps the active Stage above outgoing Gallery artwork", () => {

@@ -79,8 +79,10 @@ describe("AlbumDetail", () => {
       rymRatingCount: 1200,
     };
     const { container } = render(<PersonalStateProvider><AlbumDetail album={album} /></PersonalStateProvider>);
-    const headings = [...container.querySelectorAll("h2")].map((heading) => heading.textContent);
-    expect(headings.indexOf("分类与聆听")).toBeLessThan(headings.indexOf("曲目表"));
+    const contextBand = screen.getByRole("region", { name: "专辑分类与聆听信息" });
+    const tracks = screen.getByRole("heading", { name: "曲目表" });
+    expect(contextBand.compareDocumentPosition(tracks) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(container.querySelector(".ux-album-facts .r12-detail-section-heading")).not.toBeInTheDocument();
     expect(screen.getByRole("heading", { level: 3, name: "流派" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { level: 3, name: "聆听场景" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { level: 3, name: "RYM 社区评分" })).toBeInTheDocument();

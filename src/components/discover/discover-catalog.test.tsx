@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { buildDiscoverOptions } from "@/catalog/queries";
-import { catalogAlbums } from "@/catalog/published-catalog";
+import { catalogAlbums, getTaxonomyLabel } from "@/catalog/published-catalog";
 import type { CatalogQueryState } from "@/catalog/catalog-view-model";
 import { PersonalStateProvider } from "@/features/personal-state/personal-state-provider";
 import { DiscoverCatalog, DiscoverFilterFields } from "./discover-catalog";
@@ -45,7 +45,8 @@ describe("DiscoverCatalog URL state", () => {
     for (const label of ["核心流派", "相关流派", "聆听场景", "年代", "发行类型", "本机状态", "排序"]) {
       expect(screen.getByLabelText(label)).toBeInTheDocument();
     }
-    expect(screen.getByText("高级筛选")).toBeInTheDocument();
+    expect(screen.getByText("更多筛选")).toBeInTheDocument();
+    expect(screen.getByLabelText("年代").closest(".filter-grid--primary")).toBeInTheDocument();
     expect(screen.getByLabelText("排序").querySelectorAll("option")).toHaveLength(5);
     expect(screen.getByLabelText("排序")).toHaveTextContent("随机发现");
     expect(screen.getByLabelText("排序")).not.toHaveTextContent("标题");
@@ -75,7 +76,7 @@ describe("DiscoverCatalog URL state", () => {
     query = "core=not-real&related=not-real&status=unknown";
     renderCatalog();
     expect(screen.getByLabelText("核心流派")).toHaveValue("");
-    expect(screen.getByLabelText("相关流派")).toHaveValue("");
+    expect(screen.getByRole("button", { name: "全部" })).toHaveAttribute("aria-pressed", "true");
     expect(screen.getByLabelText("本机状态")).toHaveValue("");
     fireEvent.click(screen.getByRole("button", { name: "清除全部" }));
     expect(push).toHaveBeenCalledWith("/discover", { scroll: false });
@@ -112,12 +113,19 @@ describe("DiscoverCatalog URL state", () => {
       updateStatus={vi.fn()}
       updateSort={vi.fn()}
     />);
-    const related = screen.getByLabelText("相关流派");
-    expect(related).toHaveDisplayValue("全部");
-    expect(related.querySelectorAll("option")).toHaveLength(options.relatedGenres.length + 1);
+    expect(screen.getByLabelText("搜索相关流派")).toHaveValue("");
+    expect(screen.getByLabelText("相关流派").querySelectorAll("button")).toHaveLength(options.relatedGenres.length + 1);
     if (options.relatedGenres[0]) {
-      fireEvent.change(related, { target: { value: options.relatedGenres[0] } });
+      fireEvent.click(screen.getByRole("button", { name: getTaxonomyLabel(options.relatedGenres[0]) }));
       expect(updateFilter).toHaveBeenCalledWith("relatedGenre", options.relatedGenres[0]);
     }
+  });
+
+  it("searches only the canonical related-genre choices without changing catalog data", () => {
+    render(<DiscoverFilterFields query={emptyQuery} updateFilter={vi.fn()} updateStatus={vi.fn()} updateSort={vi.fn()} />);
+    const target = options.relatedGenres[0]!;
+    fireEvent.change(screen.getByLabelText("搜索相关流派"), { target: { value: target } });
+    expect(screen.getByRole("button", { name: getTaxonomyLabel(target) })).toBeInTheDocument();
+    expect(screen.getByLabelText("相关流派").querySelectorAll("button")).toHaveLength(2);
   });
 });

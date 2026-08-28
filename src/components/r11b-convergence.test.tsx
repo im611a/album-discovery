@@ -23,7 +23,7 @@ describe("R11-B reference translation boundaries", () => {
   it("keeps advanced catalog filters in document flow", () => {
     const source = readFileSync(join(process.cwd(), "src/components/discover/discover-catalog.tsx"), "utf8");
     expect(source).toContain("catalog-advanced-filters");
-    expect(source).toContain("高级筛选");
+    expect(source).toContain("更多筛选");
     expect(source).not.toContain('role="dialog"');
   });
 

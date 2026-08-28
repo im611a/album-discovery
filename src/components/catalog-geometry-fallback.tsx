@@ -26,8 +26,8 @@ export function DiscoverCatalogFallback({ albums }: { albums: PublishedAlbumSumm
       </div>
       <div className="r12-catalog-toolbar__primary">
         <div className="catalog-search-form"><label>搜索专辑或艺人</label><div><input type="search" tabIndex={-1} readOnly /><button className="button button--primary" type="button" tabIndex={-1}>搜索</button></div></div>
-        <div className="filter-grid filter-grid--primary"><StaticSelect label="核心流派" /><StaticSelect label="排序" /></div>
-        <details className="catalog-advanced-filters"><summary><span>高级筛选</span><small>相关流派、场景、年代、类型与本机状态</small></summary></details>
+        <div className="filter-grid filter-grid--primary"><StaticSelect label="核心流派" /><StaticSelect label="年代" /><StaticSelect label="排序" /></div>
+        <details className="catalog-advanced-filters"><summary><span>更多筛选</span><small>细分流派、场景、类型、RYM 评分与本机状态</small></summary></details>
       </div>
       <p className="r12-catalog-toolbar__note">筛选属于浏览工具，不会改变目录数据。</p>
     </section>

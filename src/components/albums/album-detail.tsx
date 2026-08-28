@@ -79,8 +79,8 @@ export function AlbumDetail({ album: suppliedAlbum, viewModel, sameArtistAlbums 
       </div>
     </header>
     <div className="album-detail__content">
-      {album.coreGenres.length || album.relatedGenres.length || album.contexts.length || resolvedViewModel.rating.visible ? <section className="detail-card ux-album-facts" aria-labelledby="album-facts-title">
-        <DetailSectionHeading number="02" kicker="ALBUM CONTEXT" title="分类与聆听" id="album-facts-title" />
+      {album.coreGenres.length || album.relatedGenres.length || album.contexts.length || resolvedViewModel.rating.visible ? <section className="ux-album-facts" aria-label="专辑分类与聆听信息">
+        <p className="ux-album-facts__label">02 / ALBUM CONTEXT</p>
         <div className="ux-album-facts__grid">
           {album.coreGenres.length || album.relatedGenres.length ? <div><h3>流派</h3><div className="signal-groups">{album.coreGenres.map((item) => <DiscoveryContextLink key={item} href={`/discover?core=${encodeURIComponent(item)}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}{album.relatedGenres.map((item) => <DiscoveryContextLink key={item} href={`/discover?related=${encodeURIComponent(item)}`} currentAlbumSlug={album.slug}>{getTaxonomyLabel(item)}</DiscoveryContextLink>)}</div></div> : null}
           {album.contexts.length ? <div><h3>聆听场景</h3><div className="signal-groups">{album.contexts.map((item) => <DiscoveryContextLink key={item} href={`/scenes/${item}`} currentAlbumSlug={album.slug}>{getListeningSceneLabel(item)}</DiscoveryContextLink>)}</div></div> : null}

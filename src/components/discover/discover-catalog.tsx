@@ -33,17 +33,31 @@ function CatalogSearchForm({ initialQuery, onSubmit }: { initialQuery: string; o
 
 export function DiscoverFilterFields({ query, updateFilter, updateStatus, updateSort }: { query: CatalogQueryState; updateFilter: (key: FilterKey, value: string | boolean) => void; updateStatus: (value: string) => void; updateSort: (value: CatalogSort) => void }) {
   const filters = query.filters;
+  const [relatedGenreQuery, setRelatedGenreQuery] = useState("");
+  const normalizedRelatedQuery = relatedGenreQuery.trim().toLocaleLowerCase("zh-CN");
+  const visibleRelatedGenres = options.relatedGenres.filter((value) => {
+    if (!normalizedRelatedQuery) return true;
+    return `${value} ${getTaxonomyLabel(value)}`.toLocaleLowerCase("zh-CN").includes(normalizedRelatedQuery);
+  });
   return <>
   <div className="filter-grid filter-grid--primary" aria-label="主要目录筛选">
     <FilterGroup label="核心流派"><Select aria-label="核心流派" value={filters.coreGenre ?? ""} onChange={(event) => updateFilter("coreGenre", event.target.value)}><option value="">全部</option>{options.coreGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</Select></FilterGroup>
+    <FilterGroup label="年代"><Select aria-label="年代" value={filters.decade ?? ""} onChange={(event) => updateFilter("decade", event.target.value)}><option value="">全部年代</option>{options.decades.map((value) => <option key={value} value={value}>{value.replace("s", " 年代")}</option>)}</Select></FilterGroup>
     <FilterGroup label="排序"><Select aria-label="排序" value={sorts.some(([value]) => value === query.sort) ? query.sort : "recently-added"} onChange={(event) => updateSort(event.target.value as CatalogSort)}>{sorts.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
   </div>
   <details className="catalog-advanced-filters">
-    <summary><span>高级筛选</span><small>年代、RYM 评分存在性、相关流派、场景、类型与本机状态</small></summary>
+    <summary><span>更多筛选</span><small>细分流派、场景、类型、RYM 评分与本机状态</small></summary>
     <div className="filter-grid filter-grid--advanced" aria-label="高级目录筛选">
-    <FilterGroup label="相关流派"><Select aria-label="相关流派" value={filters.relatedGenre ?? ""} onChange={(event) => updateFilter("relatedGenre", event.target.value)}><option value="">全部</option>{options.relatedGenres.map((value) => <option key={value} value={value}>{getTaxonomyLabel(value)}</option>)}</Select></FilterGroup>
+    <fieldset className="catalog-related-genres">
+      <legend>细分流派 / 相关流派</legend>
+      <SearchInput aria-label="搜索相关流派" placeholder="搜索已核验流派" value={relatedGenreQuery} onChange={(event) => setRelatedGenreQuery(event.target.value)} />
+      <div className="catalog-related-genres__choices" aria-label="相关流派">
+        <button type="button" aria-pressed={!filters.relatedGenre} onClick={() => updateFilter("relatedGenre", "")}>全部</button>
+        {visibleRelatedGenres.map((value) => <button type="button" aria-pressed={filters.relatedGenre === value} key={value} onClick={() => updateFilter("relatedGenre", value)}>{getTaxonomyLabel(value)}</button>)}
+      </div>
+      <small>仅显示当前目录中有人工核验 Secondary Genres 的 11 张专辑；共 {options.relatedGenres.length} 个可用值。</small>
+    </fieldset>
     <FilterGroup label="聆听场景" hint=" · 本站策展维度"><Select aria-label="聆听场景" value={filters.context ?? ""} onChange={(event) => updateFilter("context", event.target.value)}><option value="">全部</option>{options.contexts.map((value) => <option key={value} value={value}>{getListeningSceneLabel(value)}</option>)}</Select></FilterGroup>
-    <FilterGroup label="年代"><Select aria-label="年代" value={filters.decade ?? ""} onChange={(event) => updateFilter("decade", event.target.value)}><option value="">全部</option>{options.decades.map((value) => <option key={value} value={value}>{value.replace("s", " 年代")}</option>)}</Select></FilterGroup>
     <label className="checkbox-label"><Checkbox checked={Boolean(filters.rymRatedOnly)} onChange={(event) => updateFilter("rymRatedOnly", event.target.checked)} />仅看有 RYM 评分 <span>({ratedAlbumCount})</span></label>
     <FilterGroup label="发行类型"><Select aria-label="发行类型" value={filters.releaseType ?? ""} onChange={(event) => updateFilter("releaseType", event.target.value)}><option value="">全部</option>{releaseTypes.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
     <FilterGroup label="本机状态"><Select aria-label="本机状态" value={query.userStatus ?? ""} onChange={(event) => updateStatus(event.target.value)}><option value="">全部</option>{statuses.map(([value, label]) => <option key={value} value={value}>{label}</option>)}</Select></FilterGroup>
