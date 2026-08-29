@@ -1,5 +1,12 @@
 import { clampDockOffset, updateMarker } from "../marker/marker.js";
 import { updateTransition } from "../transition/transition.js";
+import {
+  applyAmbientFlow,
+  approachFlowInfluence,
+  calculatePointFlowInfluence,
+  calculateRectFlowInfluence,
+  createEmptyFlowInfluence,
+} from "../ambient-flow/ambient-flow.js";
 
 export function createScrollRuntime(root, stage) {
   let raf = 0;
@@ -10,6 +17,16 @@ export function createScrollRuntime(root, stage) {
   const vinylPointer = { tx: 0, ty: 0, x: 0, y: 0 };
   const marker = root.querySelector(".ad-marker");
   const fixed = root.querySelector(".ad-fixed");
+  const ambientFlow = root.querySelector(".ad-ambient-flow");
+  const viewport = () => ({ width: innerWidth, height: innerHeight });
+  const flowPointer = {
+    target: createEmptyFlowInfluence(viewport()),
+    current: createEmptyFlowInfluence(viewport()),
+  };
+  const flowVinyl = {
+    target: createEmptyFlowInfluence(viewport()),
+    current: createEmptyFlowInfluence(viewport()),
+  };
   const drag = { pointerId: null, startX: 0, startY: 0, offset: { x: 0, y: 0 }, startOffset: { x: 0, y: 0 }, baseRect: null };
   const amplitudes = {
     large: { x: 180, y: 60 },
@@ -77,6 +94,7 @@ export function createScrollRuntime(root, stage) {
   function onPointer(event) {
     pointer.tx = 1 - event.clientX / innerWidth * 2;
     pointer.ty = 1 - event.clientY / innerHeight * 2;
+    flowPointer.target = calculatePointFlowInfluence({ x: event.clientX, y: event.clientY }, viewport());
     if (!pointerCapable || !marker) return;
     const rect = marker.getBoundingClientRect();
     const dx = (event.clientX - (rect.left + rect.width / 2)) / Math.max(1, rect.width);
@@ -84,6 +102,9 @@ export function createScrollRuntime(root, stage) {
     const proximity = Math.max(0, 1 - Math.hypot(dx, dy) / 1.35);
     vinylPointer.tx = Math.max(-1, Math.min(1, dx * 1.7)) * proximity;
     vinylPointer.ty = Math.max(-1, Math.min(1, dy * 1.7)) * proximity;
+  }
+  function onPointerLeave() {
+    flowPointer.target = createEmptyFlowInfluence(viewport());
   }
   function updateGallery() {
     const mobile = innerWidth <= 768;
@@ -115,6 +136,15 @@ export function createScrollRuntime(root, stage) {
     root.dataset.markerPhase = markerState.phase;
     if (markerState.phase !== "dock" && drag.pointerId !== null) finishDrag();
     if (markerState.phase === "hero" && (drag.offset.x || drag.offset.y)) finishDrag({ reset: true });
+    if (ambientFlow) {
+      flowVinyl.target = !reducedMotion && pointerCapable && markerState.phase === "dock" && marker
+        ? calculateRectFlowInfluence(marker.getBoundingClientRect(), viewport())
+        : createEmptyFlowInfluence(viewport());
+      flowPointer.current = approachFlowInfluence(flowPointer.current, flowPointer.target, reducedMotion ? 1 : 0.05);
+      flowVinyl.current = approachFlowInfluence(flowVinyl.current, flowVinyl.target, reducedMotion ? 1 : 0.06);
+      applyAmbientFlow(ambientFlow, flowPointer.current, flowVinyl.current, viewport());
+      ambientFlow.dataset.flowMarkerPhase = markerState.phase;
+    }
     root.dataset.transitionProgress = String(updateTransition(root, rect.top));
     updateGallery();
     if (!reducedMotion) {
@@ -148,7 +178,10 @@ export function createScrollRuntime(root, stage) {
       marker.addEventListener("pointercancel", onMarkerPointerUp);
     }
   }
-  if (!reducedMotion) addEventListener("pointermove", onPointer, { passive: true });
+  if (!reducedMotion && pointerCapable) {
+    addEventListener("pointermove", onPointer, { passive: true });
+    root.addEventListener("pointerleave", onPointerLeave);
+  }
   raf = requestAnimationFrame(tick);
   return {
     dispose() {
@@ -162,7 +195,19 @@ export function createScrollRuntime(root, stage) {
         marker.removeEventListener("pointerup", onMarkerPointerUp);
         marker.removeEventListener("pointercancel", onMarkerPointerUp);
       }
-      if (!reducedMotion) removeEventListener("pointermove", onPointer);
+      if (!reducedMotion && pointerCapable) {
+        removeEventListener("pointermove", onPointer);
+        root.removeEventListener("pointerleave", onPointerLeave);
+      }
+      if (ambientFlow) {
+        applyAmbientFlow(
+          ambientFlow,
+          createEmptyFlowInfluence(viewport()),
+          createEmptyFlowInfluence(viewport()),
+          viewport(),
+        );
+        delete ambientFlow.dataset.flowMarkerPhase;
+      }
     },
   };
 }

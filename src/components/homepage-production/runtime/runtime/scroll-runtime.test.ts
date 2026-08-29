@@ -91,6 +91,70 @@ describe("homepage pointer preservation", () => {
     expect(remove).toHaveBeenCalledWith("pointermove", expect.any(Function));
   });
 
+  it("reuses the single runtime frame for edge pointer, docked vinyl, and release recovery", () => {
+    const frames: FrameRequestCallback[] = [];
+    vi.stubGlobal("requestAnimationFrame", vi.fn((callback: FrameRequestCallback) => {
+      frames.push(callback);
+      return frames.length;
+    }));
+    vi.stubGlobal("cancelAnimationFrame", vi.fn());
+    vi.stubGlobal("innerWidth", 1000);
+    vi.stubGlobal("innerHeight", 800);
+    vi.stubGlobal("matchMedia", vi.fn((query: string) => ({ matches: query === "(pointer: fine)" })));
+    document.body.innerHTML = `
+      <main data-homepage-root>
+        <div class="ad-ambient-flow"></div>
+        <div class="ad-fixed"><div class="ad-marker"><span class="ad-marker__surface"></span></div></div>
+        <section class="ad-stage"></section>
+        <section class="ad-gallery"></section>
+      </main>`;
+    const root = document.querySelector<HTMLElement>("[data-homepage-root]")!;
+    const stageElement = root.querySelector<HTMLElement>(".ad-stage")!;
+    Object.defineProperty(stageElement, "offsetHeight", { configurable: true, value: 1600 });
+    vi.spyOn(stageElement, "getBoundingClientRect").mockReturnValue({ top: 0, height: 1600 } as DOMRect);
+    const gallery = root.querySelector<HTMLElement>(".ad-gallery")!;
+    const galleryRect = vi.spyOn(gallery, "getBoundingClientRect").mockReturnValue({ top: 200, bottom: 1200, height: 1000 } as DOMRect);
+    const marker = root.querySelector<HTMLElement>(".ad-marker")!;
+    vi.spyOn(marker, "getBoundingClientRect").mockImplementation(() => {
+      const x = Number.parseFloat(marker.style.getPropertyValue("--ad-marker-drag-x")) || 0;
+      const y = Number.parseFloat(marker.style.getPropertyValue("--ad-marker-drag-y")) || 0;
+      return { left: 350 + x, right: 650 + x, top: 250 + y, bottom: 550 + y, width: 300, height: 300 } as DOMRect;
+    });
+    const runtime = createScrollRuntime(root, { setProgress: vi.fn(), update: vi.fn() });
+    const flow = root.querySelector<HTMLElement>(".ad-ambient-flow")!;
+    const runFrames = (count: number) => {
+      for (let index = 0; index < count; index += 1) frames.shift()?.(index * 16);
+    };
+
+    runFrames(1);
+    expect(root.querySelector<HTMLElement>(".ad-fixed")!.dataset.markerPhase).toBe("dock");
+    window.dispatchEvent(new MouseEvent("pointermove", { clientX: 0, clientY: 400 }));
+    runFrames(24);
+    const pointerPeak = Number(flow.dataset.flowPointerEnergy);
+    expect(pointerPeak).toBeGreaterThan(0.65);
+    expect(flow.style.getPropertyValue("--flow-edge-left")).not.toBe("0.0000");
+    root.dispatchEvent(new Event("pointerleave"));
+    runFrames(70);
+    expect(Number(flow.dataset.flowPointerEnergy)).toBeLessThan(pointerPeak * 0.05);
+
+    dispatchPointer(marker, "pointerdown", { pointerId: 5, button: 0, clientX: 500, clientY: 400, bubbles: true, cancelable: true });
+    dispatchPointer(marker, "pointermove", { pointerId: 5, clientX: 1000, clientY: 400, bubbles: true, cancelable: true });
+    dispatchPointer(marker, "pointerup", { pointerId: 5, clientX: 1000, clientY: 400, bubbles: true, cancelable: true });
+    runFrames(30);
+    expect(Number(flow.dataset.flowVinylEnergy)).toBeGreaterThan(0.75);
+    expect(Number(flow.style.getPropertyValue("--flow-edge-right")))
+      .toBeGreaterThan(Number(flow.style.getPropertyValue("--flow-edge-left")));
+
+    galleryRect.mockReturnValue({ top: 0, bottom: 100, height: 100 } as DOMRect);
+    runFrames(90);
+    expect(flow.dataset.flowMarkerPhase).toBe("release");
+    expect(Number(flow.dataset.flowVinylEnergy)).toBeLessThan(0.005);
+    runtime.dispose();
+    expect(flow.dataset.flowPointerEnergy).toBe("0.0000");
+    expect(flow.dataset.flowVinylEnergy).toBe("0.0000");
+    expect(flow.dataset.flowMarkerPhase).toBeUndefined();
+  });
+
   it("drags only the docked desktop vinyl, preserves its release position, and resets on hero return", () => {
     const frames: FrameRequestCallback[] = [];
     vi.stubGlobal("requestAnimationFrame", vi.fn((callback: FrameRequestCallback) => {

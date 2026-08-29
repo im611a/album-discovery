@@ -19,6 +19,9 @@ describe("homepage experience interaction", () => {
     expect(container.querySelector(".ad-experience")).toHaveAttribute("data-selected-album", target.slug);
     expect(container.querySelector("[data-vinyl-label]")).toHaveAttribute("data-vinyl-label", target.slug);
     expect(container.querySelector("[data-continuation-source]")).toHaveAttribute("data-continuation-source", target.slug);
+    expect(container.querySelector(".ad-ambient-flow")).toHaveAttribute("data-flow-accent", target.accentColor);
+    expect(container.querySelectorAll(".ad-ambient-flow")).toHaveLength(1);
+    expect(container.querySelector(".ad-ambient-flow")).toHaveAttribute("aria-hidden", "true");
   });
 
   it("opens the relationship view and replaces its center through canonical relation options", () => {

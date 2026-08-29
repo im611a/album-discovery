@@ -6,6 +6,7 @@ import type { HomepageExperienceData } from "./homepage-experience-data";
 import { HomepageChromaticDiscovery } from "./homepage-chromatic-discovery";
 import { HomepageContinuation } from "./homepage-continuation";
 import { HomepageGallery } from "./homepage-gallery";
+import { HomepageAmbientFlowField } from "./homepage-ambient-flow-field";
 import { HomepageVinylMarker } from "./homepage-vinyl-marker";
 
 export function HomepageAlbumField({
@@ -30,6 +31,11 @@ export function HomepageAlbumField({
   } as CSSProperties;
 
   return <div className="ad-experience" style={atmosphereStyle} data-selected-album={selectedAlbum.slug} data-atmosphere={selectedAlbum.primaryVisualColor}>
+    <HomepageAmbientFlowField
+      albumId={selectedAlbum.albumId}
+      accentColor={selectedAlbum.accentColor}
+      accentSecondaryColor={selectedAlbum.accentSecondaryColor}
+    />
     <HomepageVinylMarker labelAlbum={selectedAlbum} />
     <div className="ad-gallery-spacer" />
     <HomepageGallery

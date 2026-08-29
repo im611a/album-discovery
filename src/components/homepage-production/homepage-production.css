@@ -25,16 +25,96 @@
   isolation: isolate;
   background: #000;
 }
-.ad-experience::before {
+.ad-ambient-flow {
+  --flow-focus-x: 50vw;
+  --flow-focus-y: 50vh;
+  --flow-edge-left: 0;
+  --flow-edge-right: 0;
+  --flow-edge-top: 0;
+  --flow-edge-bottom: 0;
   position: fixed;
   z-index: 0;
   inset: 0;
+  overflow: hidden;
   pointer-events: none;
-  content: "";
+  contain: strict;
+}
+.ad-ambient-flow__palette,
+.ad-ambient-flow__ambient,
+.ad-ambient-flow__rim,
+.ad-ambient-flow__header-suppression,
+.ad-ambient-flow__edge { position: absolute; display: block; pointer-events: none; }
+.ad-ambient-flow__palette {
+  --flow-accent: var(--ad-accent);
+  --flow-accent-secondary: var(--ad-accent-secondary);
+  inset: 0;
+  animation: ad-flow-palette-arrive 1.25s cubic-bezier(.22, .7, .2, 1) both;
+}
+.ad-ambient-flow__ambient {
+  inset: -18%;
   background:
-    radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--ad-accent) 9%, transparent) 0, transparent 42%),
-    linear-gradient(145deg, color-mix(in srgb, var(--ad-accent-secondary) 5%, transparent), transparent 50%);
-  transition: background 320ms ease;
+    radial-gradient(ellipse 32% 46% at 4% 33%, color-mix(in srgb, var(--flow-accent) 11%, transparent), transparent 72%),
+    radial-gradient(ellipse 38% 29% at 89% 5%, color-mix(in srgb, var(--flow-accent-secondary) 8%, transparent), transparent 74%),
+    radial-gradient(ellipse 30% 43% at 101% 72%, color-mix(in srgb, var(--flow-accent) 10%, transparent), transparent 73%),
+    radial-gradient(ellipse 44% 24% at 43% 101%, color-mix(in srgb, var(--flow-accent-secondary) 7%, transparent), transparent 76%);
+  filter: blur(clamp(58px, 6.8vw, 118px)) saturate(.58);
+  opacity: .7;
+  transform: translate3d(0, 0, 0) scale(1.02);
+  animation: ad-flow-ambient-breathe 24s ease-in-out infinite alternate;
+}
+.ad-ambient-flow__rim {
+  inset: -5%;
+  background:
+    radial-gradient(ellipse 29% 8% at 13% 2%, color-mix(in srgb, var(--flow-accent) 13%, transparent), transparent 72%),
+    radial-gradient(ellipse 8% 28% at 99% 34%, color-mix(in srgb, var(--flow-accent-secondary) 12%, transparent), transparent 74%),
+    radial-gradient(ellipse 25% 7% at 72% 99%, color-mix(in srgb, var(--flow-accent) 10%, transparent), transparent 72%),
+    radial-gradient(ellipse 7% 24% at 1% 78%, color-mix(in srgb, var(--flow-accent-secondary) 11%, transparent), transparent 76%);
+  filter: blur(clamp(24px, 3.2vw, 54px)) saturate(.62);
+  opacity: .58;
+  transform: translate3d(0, 0, 0);
+  animation: ad-flow-rim-drift 17s ease-in-out infinite alternate;
+}
+.ad-ambient-flow__edge {
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--flow-accent) 24%, transparent), transparent 72%);
+  filter: blur(clamp(28px, 3.8vw, 64px)) saturate(.58);
+  will-change: opacity, transform;
+}
+.ad-ambient-flow__edge--left,
+.ad-ambient-flow__edge--right {
+  top: var(--flow-focus-y);
+  width: clamp(180px, 20vw, 390px);
+  height: clamp(280px, 44vh, 560px);
+  transform: translateY(-50%);
+}
+.ad-ambient-flow__edge--left { left: clamp(-180px, -9vw, -72px); opacity: var(--flow-edge-left); }
+.ad-ambient-flow__edge--right { right: clamp(-180px, -9vw, -72px); opacity: var(--flow-edge-right); }
+.ad-ambient-flow__edge--top,
+.ad-ambient-flow__edge--bottom {
+  left: var(--flow-focus-x);
+  width: clamp(300px, 46vw, 720px);
+  height: clamp(150px, 19vh, 260px);
+  transform: translateX(-50%);
+}
+.ad-ambient-flow__edge--top { top: clamp(-120px, -7vh, -54px); opacity: var(--flow-edge-top); }
+.ad-ambient-flow__edge--bottom { bottom: clamp(-120px, -7vh, -54px); opacity: var(--flow-edge-bottom); }
+.ad-ambient-flow__header-suppression {
+  z-index: 2;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 29% 20% at 7% 0, #000 0 20%, rgb(0 0 0 / 82%) 42%, transparent 78%),
+    radial-gradient(ellipse 48% 21% at 100% 0, #000 0 18%, rgb(0 0 0 / 84%) 44%, transparent 80%);
+}
+@keyframes ad-flow-palette-arrive {
+  0%, 16% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes ad-flow-ambient-breathe {
+  0% { transform: translate3d(-.7%, .4%, 0) scale(1.015); opacity: .62; }
+  100% { transform: translate3d(.8%, -.6%, 0) scale(1.045); opacity: .74; }
+}
+@keyframes ad-flow-rim-drift {
+  0% { transform: translate3d(-.45%, .3%, 0) scale(1); }
+  100% { transform: translate3d(.55%, -.4%, 0) scale(1.018); }
 }
 .ad-sr-only {
   position: absolute;
@@ -471,6 +551,9 @@
 }
 
 @media (max-width: 768px) {
+  .ad-ambient-flow__ambient { opacity: .52; filter: blur(62px) saturate(.5); }
+  .ad-ambient-flow__rim { opacity: .42; }
+  .ad-ambient-flow__edge { display: none; }
   .ad-gallery-spacer { height: 88svh; }
   .ad-marker { width: clamp(170px, 52vw, 220px); height: clamp(170px, 52vw, 220px); top: 48%; }
   .ad-vinyl-selection { top: calc(100% + 12px); }
@@ -510,6 +593,10 @@
   .ad-relationship ul { grid-template-columns: 1fr; }
 }
 
+@media (pointer: coarse) {
+  .ad-ambient-flow__edge { display: none; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .ad-home { scroll-behavior: auto; }
   .ad-marker__grooves,
@@ -518,8 +605,14 @@
   .ad-marker,
   .ad-marker__surface { transition: none; transform-style: flat; }
   .ad-marker__surface { transform: none; }
-  .ad-experience::before,
+  .ad-ambient-flow__palette,
+  .ad-ambient-flow__ambient,
+  .ad-ambient-flow__rim,
   .ad-chromatic__wall img,
   .ad-chromatic__wall button > span { transition: none; }
+  .ad-ambient-flow__palette,
+  .ad-ambient-flow__ambient,
+  .ad-ambient-flow__rim { animation: none; }
+  .ad-ambient-flow__edge { display: none; }
   .ad-relationship__center { animation: none; }
 }

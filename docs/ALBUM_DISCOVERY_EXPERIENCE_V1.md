@@ -20,6 +20,14 @@ The allowed visual taxonomy is exactly: red, orange, yellow, green, cyan, blue, 
 
 The selected cover's colors affect only restrained highlights over the black homepage base. Text and focus indicators retain high-contrast neutral ink.
 
+### Homepage ambient flow field
+
+The Album Field uses one presentation-only ambient layer behind covers and the draggable vinyl. It inherits the selected album's existing safe accent pair; it does not sample covers at runtime, store another selected album, or introduce another color authority. A keyed palette layer briefly returns toward black before the next safe accent enters.
+
+The existing homepage scroll runtime remains the only continuous `requestAnimationFrame` loop. On fine pointers it writes restrained edge-energy variables to the ambient layer. During the `DOCK` phase it derives stronger edge influence from the existing vinyl rectangle and drag offset; `RELEASE` drives that influence back to zero. Coarse pointers retain only the slow selected-album atmosphere. Reduced motion disables continuous field animation and all pointer/vinyl distortion while preserving a faint static atmosphere.
+
+The field is `aria-hidden`, has `pointer-events: none`, and sits between the black page background and the existing covers/vinyl. Fragmented radial fields and smooth top-corner suppression avoid a complete border and protect fixed navigation contrast. It adds no image, audio, canvas, WebGL, provider request, dependency, or catalog data.
+
 ## Daily Record data gate
 
 Status: **BLOCKED BY RYM COVERAGE**.
