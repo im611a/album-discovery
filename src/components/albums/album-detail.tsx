@@ -69,12 +69,14 @@ export function AlbumDetail({ album: suppliedAlbum, viewModel, sameArtistAlbums 
           {album.company ? <div><dt>发行公司</dt><dd>{album.company}</dd></div> : null}
           <div><dt>曲目</dt><dd>{album.trackCount} 首{totalDuration ? ` · 约 ${Math.round(totalDuration / 60000)} 分钟` : ""}</dd></div>
         </dl>
-        <div className="pa-album-file__local-state" aria-label="本地专辑状态">
-          <p className="section-kicker">保存到当前设备</p>
-          <AlbumDetailActions album={album} />
-        </div>
-        <div className="pa-album-file__source-entry">
-          {neteaseLink ? <ExternalLink className="netease-album-link" href={neteaseLink.href}><span>{neteaseLink.label}</span>查看专辑与曲目信息 ↗</ExternalLink> : <p className="source-note">网易云音乐入口暂不可用。</p>}
+        <div className="pa-album-file__utilities">
+          <div className="pa-album-file__local-state" aria-label="本地专辑状态">
+            <p className="section-kicker">保存到当前设备</p>
+            <AlbumDetailActions album={album} />
+          </div>
+          <div className="pa-album-file__source-entry">
+            {neteaseLink ? <ExternalLink className="netease-album-link" href={neteaseLink.href}><span>{neteaseLink.label}</span>查看专辑与曲目信息 ↗</ExternalLink> : <p className="source-note">网易云音乐入口暂不可用。</p>}
+          </div>
         </div>
         {album.coreGenres.length || album.relatedGenres.length || album.contexts.length || resolvedViewModel.rating.visible ? <section className="ux-album-facts" aria-label="专辑分类与聆听信息">
           <p className="ux-album-facts__label">02 / ALBUM CONTEXT</p>

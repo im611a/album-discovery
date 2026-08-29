@@ -14,6 +14,33 @@ export function calculateMarkerState(contentTop, contentBottom, viewportHeight, 
   };
 }
 
+export function clampDockOffset(offset, baseRect, viewport, options = {}) {
+  const safe = {
+    left: options.left ?? 16,
+    right: options.right ?? 16,
+    top: options.top ?? 104,
+    bottom: options.bottom ?? 16,
+  };
+  const minimumX = safe.left - baseRect.left;
+  const maximumX = viewport.width - safe.right - baseRect.width - baseRect.left;
+  const minimumY = safe.top - baseRect.top;
+  const maximumY = viewport.height - safe.bottom - baseRect.height - baseRect.top;
+  let x = Math.max(minimumX, Math.min(maximumX, offset.x));
+  let y = Math.max(minimumY, Math.min(maximumY, offset.y));
+  const snapThreshold = options.snapThreshold ?? 0;
+  if (snapThreshold > 0) {
+    const left = baseRect.left + x;
+    const right = left + baseRect.width;
+    const top = baseRect.top + y;
+    const bottom = top + baseRect.height;
+    if (Math.abs(left - safe.left) <= snapThreshold) x = minimumX;
+    else if (Math.abs(viewport.width - safe.right - right) <= snapThreshold) x = maximumX;
+    if (Math.abs(top - safe.top) <= snapThreshold) y = minimumY;
+    else if (Math.abs(viewport.height - safe.bottom - bottom) <= snapThreshold) y = maximumY;
+  }
+  return { x, y };
+}
+
 export function updateMarker(root, contentTop, contentBottom) {
   const state = calculateMarkerState(contentTop, contentBottom, window.innerHeight, window.innerWidth);
   const marker = root.querySelector(".ad-marker");

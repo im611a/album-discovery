@@ -97,6 +97,14 @@ describe("AlbumDetail", () => {
     expect((await screen.findAllByRole("button", { name: "收藏" })).length).toBeGreaterThan(0);
   });
 
+  it("groups local state and the canonical source as one compact hero utility row", () => {
+    const { container } = render(<PersonalStateProvider><AlbumDetail album={getAlbumDetailBySlug("wake-after-the-rain")!} /></PersonalStateProvider>);
+    const utilities = container.querySelector(".pa-album-file__utilities");
+    expect(utilities).toContainElement(screen.getByLabelText("本地专辑状态"));
+    expect(utilities).toContainElement(screen.getByRole("link", { name: /网易云音乐.*查看专辑与曲目信息/ }));
+    expect(utilities?.children).toHaveLength(2);
+  });
+
   it("renders the authoritative discovery primary and alternates without a second album grid", () => {
     const viewModel = getAlbumDetailViewModel("wake-after-the-rain")!;
     const { container } = render(<PersonalStateProvider><AlbumDetail viewModel={viewModel} /></PersonalStateProvider>);

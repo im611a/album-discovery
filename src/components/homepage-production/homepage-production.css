@@ -177,6 +177,8 @@
 .ad-marker {
   --ad-marker-x: 0px;
   --ad-marker-y: 0px;
+  --ad-marker-drag-x: 0px;
+  --ad-marker-drag-y: 0px;
   --ad-marker-scale: 1;
   --ad-marker-opacity: 1;
   --ad-vinyl-tilt-x: 0deg;
@@ -190,13 +192,14 @@
   height: clamp(220px, 30vmin, 400px);
   pointer-events: none;
   opacity: var(--ad-marker-opacity);
-  transform: translate(calc(-50% + var(--ad-marker-x)), calc(-50% + var(--ad-marker-y))) scale(var(--ad-marker-scale));
+  transform: translate(calc(-50% + var(--ad-marker-x) + var(--ad-marker-drag-x)), calc(-50% + var(--ad-marker-y) + var(--ad-marker-drag-y))) scale(var(--ad-marker-scale));
   transform-origin: center;
   transition: opacity 120ms linear, transform 180ms ease-out;
 }
 .ad-fixed[data-marker-phase="dock"] { z-index: 90; }
-.ad-fixed[data-marker-phase="dock"] .ad-vinyl-selection { width: min(250px, 70vw); }
-.ad-fixed[data-marker-phase="dock"] .ad-vinyl-selection span { display: none; }
+.ad-fixed[data-marker-phase="dock"] .ad-vinyl-selection { display: none; }
+.ad-fixed[data-marker-phase="dock"] .ad-marker[data-drag-enabled="true"] { pointer-events: auto; cursor: grab; user-select: none; will-change: transform; }
+.ad-fixed[data-marker-phase="dock"] .ad-marker[data-dragging="true"] { cursor: grabbing; transition: opacity 120ms linear; }
 .ad-fixed[data-marker-phase="release"] { pointer-events: none; }
 .ad-marker__surface {
   position: absolute;
