@@ -18,6 +18,24 @@
 .ad-home *::before,
 .ad-home *::after { box-sizing: border-box; }
 .ad-home a { color: inherit; text-decoration: none; }
+.ad-experience {
+  --ad-accent: #d2778a;
+  --ad-accent-secondary: #222;
+  position: relative;
+  isolation: isolate;
+  background: #000;
+}
+.ad-experience::before {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background:
+    radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--ad-accent) 9%, transparent) 0, transparent 42%),
+    linear-gradient(145deg, color-mix(in srgb, var(--ad-accent-secondary) 5%, transparent), transparent 50%);
+  transition: background 320ms ease;
+}
 .ad-sr-only {
   position: absolute;
   width: 1px;
@@ -163,8 +181,8 @@
 }
 .ad-poster.is-selected { z-index: 8; }
 .ad-poster.is-selected button::after {
-  border-color: rgb(244 244 240 / 78%);
-  box-shadow: inset 0 0 0 3px rgb(0 0 0 / 28%);
+  border-color: color-mix(in srgb, var(--ad-accent) 64%, #f4f4f0);
+  box-shadow: inset 0 0 0 3px rgb(0 0 0 / 28%), 0 0 24px color-mix(in srgb, var(--ad-accent) 18%, transparent);
 }
 .ad-poster img {
   position: absolute;
@@ -236,7 +254,7 @@
   mix-blend-mode: screen;
   animation: ad-vinyl-turn 28s linear infinite;
 }
-.ad-marker__ring { inset: 22%; border: 1px solid rgb(217 217 217 / 64%); background: #222; }
+.ad-marker__ring { inset: 22%; border: 1px solid color-mix(in srgb, var(--ad-accent) 38%, #d9d9d9); background: #222; }
 .ad-marker__ring--inner { inset: 41%; }
 .ad-marker__label {
   inset: 33%;
@@ -244,7 +262,7 @@
   overflow: hidden;
   border: 1px solid rgb(255 255 255 / 32%);
   background: #171717;
-  box-shadow: 0 0 30px rgb(210 99 42 / 15%);
+  box-shadow: 0 0 30px color-mix(in srgb, var(--ad-accent) 18%, transparent);
   animation: ad-vinyl-turn 28s linear infinite;
 }
 .ad-marker__label { animation: ad-vinyl-turn 28s linear infinite, ad-vinyl-label-change 240ms ease-out; }
@@ -395,6 +413,50 @@
 .ad-continuation footer { display: flex; justify-content: flex-end; gap: 24px; margin-top: 34px; }
 .ad-continuation footer a, .ad-continuation footer button { padding: 4px 0; color: inherit; font: inherit; background: transparent; border: 0; border-bottom: 1px solid currentColor; cursor: pointer; }
 
+.ad-chromatic {
+  position: relative;
+  z-index: 11;
+  display: grid;
+  gap: clamp(28px, 4vw, 56px);
+  padding: clamp(86px, 12vw, 180px) var(--ad-pad);
+  border-top: 1px solid color-mix(in srgb, var(--ad-accent) 16%, rgb(217 217 217 / 24%));
+  background: color-mix(in srgb, var(--ad-accent) 4%, #000);
+}
+.ad-chromatic header { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr); gap: 12px 40px; align-items: end; }
+.ad-chromatic header p { grid-column: 1 / -1; margin: 0; color: var(--ad-ink-dim); font-size: 9px; letter-spacing: .18em; }
+.ad-chromatic h2 { margin: 0; max-width: 12ch; font: 400 clamp(2.5rem, 6vw, 7rem)/.9 Georgia, "Noto Serif SC", serif; letter-spacing: -.055em; }
+.ad-chromatic header span { max-width: 42ch; color: var(--ad-ink-dim); }
+.ad-chromatic__filters { display: flex; flex-wrap: wrap; gap: 8px 18px; border-top: 1px solid rgb(217 217 217 / 20%); padding-top: 18px; }
+.ad-chromatic__filters button { padding: 4px 0; color: var(--ad-ink-dim); font: inherit; font-size: 12px; background: none; border: 0; border-bottom: 1px solid transparent; cursor: pointer; }
+.ad-chromatic__filters button[aria-pressed="true"] { color: #f4f4f0; border-color: color-mix(in srgb, var(--ad-accent) 60%, #f4f4f0); }
+.ad-chromatic__wall { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); gap: clamp(5px, .8vw, 14px); padding: 0; margin: 0; list-style: none; }
+.ad-chromatic__wall button { position: relative; display: block; width: 100%; aspect-ratio: 1; padding: 0; overflow: hidden; color: #fff; background: #111; border: 1px solid transparent; cursor: pointer; }
+.ad-chromatic__wall button.is-selected { border-color: color-mix(in srgb, var(--ad-accent) 55%, #fff); box-shadow: 0 0 22px color-mix(in srgb, var(--ad-accent) 16%, transparent); }
+.ad-chromatic__wall img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 180ms ease, filter 180ms ease; }
+.ad-chromatic__wall button > span { position: absolute; inset: auto 0 0; display: grid; gap: 4px; padding: 28px 9px 9px; text-align: left; background: linear-gradient(transparent, rgb(0 0 0 / 92%)); opacity: 0; transform: translateY(8px); transition: opacity 160ms ease, transform 160ms ease; }
+.ad-chromatic__wall strong, .ad-chromatic__wall small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ad-chromatic__wall strong { font: 400 12px/1.1 Georgia, "Noto Serif SC", serif; }
+.ad-chromatic__wall small { color: rgb(255 255 255 / 72%); font-size: 8px; }
+.ad-chromatic__wall button:hover > span, .ad-chromatic__wall button:focus-visible > span { opacity: 1; transform: translateY(0); }
+.ad-chromatic__wall button:hover img, .ad-chromatic__wall button:focus-visible img { transform: scale(1.025); filter: brightness(.8); }
+.ad-chromatic button:focus-visible, .ad-relationship button:focus-visible, .ad-relationship a:focus-visible, .ad-relationship h3:focus-visible { outline: 2px solid color-mix(in srgb, var(--ad-accent) 50%, #fff); outline-offset: 3px; }
+
+.ad-relationship { display: grid; grid-template-columns: minmax(220px, .72fr) minmax(0, 1.7fr); gap: clamp(28px, 5vw, 78px); margin-top: clamp(52px, 7vw, 100px); padding-top: clamp(40px, 6vw, 84px); border-top: 1px solid color-mix(in srgb, var(--ad-accent) 26%, rgb(217 217 217 / 24%)); }
+.ad-relationship__center { display: grid; align-content: start; gap: 7px; animation: ad-relationship-enter 220ms ease-out; }
+.ad-relationship__center > p { margin: 0 0 8px; color: var(--ad-ink-dim); font-size: 9px; letter-spacing: .18em; }
+.ad-relationship__center img { width: min(100%, 380px); height: auto; aspect-ratio: 1; object-fit: cover; margin-bottom: 10px; }
+.ad-relationship__center h3 { margin: 0; font: 400 clamp(1.8rem, 3.8vw, 4rem)/.95 Georgia, "Noto Serif SC", serif; letter-spacing: -.04em; overflow-wrap: anywhere; }
+.ad-relationship__center > span { color: var(--ad-ink-dim); }
+.ad-relationship__center > a { justify-self: start; margin-top: 10px; padding-bottom: 3px; border-bottom: 1px solid currentColor; }
+.ad-relationship ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-content: start; gap: clamp(12px, 2vw, 28px); padding: 0; margin: 0; list-style: none; }
+.ad-relationship li button { display: grid; grid-template-columns: minmax(76px, 34%) minmax(0, 1fr); width: 100%; gap: 12px; align-items: center; padding: 0; color: inherit; text-align: left; background: transparent; border: 0; cursor: pointer; }
+.ad-relationship li img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.ad-relationship li span { display: grid; gap: 6px; min-width: 0; }
+.ad-relationship li strong { font: 400 clamp(1rem, 1.45vw, 1.35rem)/1.08 Georgia, "Noto Serif SC", serif; overflow-wrap: anywhere; }
+.ad-relationship li small { color: var(--ad-ink-dim); font-size: 10px; letter-spacing: .06em; }
+.ad-relationship__empty { color: var(--ad-ink-dim); }
+@keyframes ad-relationship-enter { from { opacity: 0; transform: translateY(8px); } }
+
 @media (max-width: 1100px) {
   .ad-nav__column:nth-child(2) { display: none; }
   .ad-nav__column:nth-child(1) { left: calc(50% + 17px); }
@@ -437,6 +499,15 @@
   .ad-continuation header { grid-template-columns: 1fr; margin-bottom: 28px; }
   .ad-continuation ul { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 12px; }
   .ad-continuation footer { justify-content: flex-start; }
+  .ad-chromatic { padding-block: 72px; }
+  .ad-chromatic header { grid-template-columns: 1fr; }
+  .ad-chromatic__filters { gap-inline: 16px; }
+  .ad-chromatic__wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .ad-chromatic__wall li:nth-child(n + 7) { display: none; }
+  .ad-chromatic__wall button > span { opacity: 1; transform: none; }
+  .ad-relationship { grid-template-columns: 1fr; }
+  .ad-relationship__center img { width: min(62vw, 300px); }
+  .ad-relationship ul { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -447,4 +518,8 @@
   .ad-marker,
   .ad-marker__surface { transition: none; transform-style: flat; }
   .ad-marker__surface { transform: none; }
+  .ad-experience::before,
+  .ad-chromatic__wall img,
+  .ad-chromatic__wall button > span { transition: none; }
+  .ad-relationship__center { animation: none; }
 }

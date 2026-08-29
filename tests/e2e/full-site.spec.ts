@@ -1,8 +1,12 @@
 import { mkdir } from "node:fs/promises";
 import path from "node:path";
 import { expect, test, type Page } from "@playwright/test";
+import { resolveRegressionEvidenceRoot } from "./helpers/evidence-output";
 
-const evidenceRoot = path.resolve(".local-data/v1.1-full-site-acceptance/pages");
+const evidenceRoot = resolveRegressionEvidenceRoot({
+  phase: "album-discovery-experience-v1-full-site",
+  environmentValue: process.env.ALBUM_DISCOVERY_EVIDENCE_DIR,
+});
 const cases = [
   ["01-home", "/?visualTest=1"],
   ["02-home-mid", "/?visualTest=1#featured-sequence-title"],
