@@ -51,9 +51,9 @@ describe("production homepage shell", () => {
     expect(screen.getByRole("link", { name: "进入推荐 ↗" })).toHaveAttribute("href", "/for-you");
   });
 
-  it("keeps the active Stage above outgoing Gallery artwork", () => {
+  it("keeps the active Stage above outgoing Gallery artwork without covering the ambient field", () => {
     const css = readFileSync(join(process.cwd(), "src/components/homepage-production/homepage-production.css"), "utf8");
-    expect(css).toMatch(/\.ad-stage\s*\{[\s\S]*?z-index:\s*10;[\s\S]*?background:\s*var\(--ad-bg\);/);
+    expect(css).toMatch(/\.ad-stage\s*\{[\s\S]*?z-index:\s*10;[\s\S]*?background:\s*transparent;/);
   });
 
   it("keeps every vinyl inside its Three.js sleeve group instead of the viewport", () => {

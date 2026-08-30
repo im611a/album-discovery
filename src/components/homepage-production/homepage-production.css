@@ -32,6 +32,18 @@
   --flow-edge-right: 0;
   --flow-edge-top: 0;
   --flow-edge-bottom: 0;
+  /* V1.1 visual calibration: keep the atmosphere tunable from one block. */
+  --flow-ambient-primary-mix: 32%;
+  --flow-ambient-secondary-mix: 26%;
+  --flow-ambient-opacity-low: .9;
+  --flow-ambient-opacity-high: 1;
+  --flow-ambient-blur: clamp(44px, 5.3vw, 92px);
+  --flow-rim-primary-mix: 48%;
+  --flow-rim-secondary-mix: 42%;
+  --flow-rim-opacity: .92;
+  --flow-rim-blur: clamp(14px, 2vw, 32px);
+  --flow-edge-mix: 65%;
+  --flow-edge-blur: clamp(20px, 2.8vw, 46px);
   position: fixed;
   z-index: 0;
   inset: 0;
@@ -48,69 +60,71 @@
   --flow-accent: var(--ad-accent);
   --flow-accent-secondary: var(--ad-accent-secondary);
   inset: 0;
-  animation: ad-flow-palette-arrive 1.25s cubic-bezier(.22, .7, .2, 1) both;
+  animation: ad-flow-palette-arrive 1.1s cubic-bezier(.22, .7, .2, 1) both;
 }
 .ad-ambient-flow__ambient {
-  inset: -18%;
+  inset: -10%;
   background:
-    radial-gradient(ellipse 32% 46% at 4% 33%, color-mix(in srgb, var(--flow-accent) 11%, transparent), transparent 72%),
-    radial-gradient(ellipse 38% 29% at 89% 5%, color-mix(in srgb, var(--flow-accent-secondary) 8%, transparent), transparent 74%),
-    radial-gradient(ellipse 30% 43% at 101% 72%, color-mix(in srgb, var(--flow-accent) 10%, transparent), transparent 73%),
-    radial-gradient(ellipse 44% 24% at 43% 101%, color-mix(in srgb, var(--flow-accent-secondary) 7%, transparent), transparent 76%);
-  filter: blur(clamp(58px, 6.8vw, 118px)) saturate(.58);
-  opacity: .7;
+    radial-gradient(ellipse 34% 48% at 1% 34%, color-mix(in srgb, var(--flow-accent) var(--flow-ambient-primary-mix), transparent), transparent 75%),
+    radial-gradient(ellipse 40% 27% at 91% 1%, color-mix(in srgb, var(--flow-accent-secondary) 20%, transparent), transparent 77%),
+    radial-gradient(ellipse 37% 48% at 101% 59%, color-mix(in srgb, var(--flow-accent) var(--flow-ambient-primary-mix), transparent), transparent 74%),
+    radial-gradient(ellipse 46% 25% at 62% 101%, color-mix(in srgb, var(--flow-accent-secondary) var(--flow-ambient-secondary-mix), transparent), transparent 76%),
+    radial-gradient(ellipse 27% 31% at 7% 91%, color-mix(in srgb, var(--flow-accent-secondary) 22%, transparent), transparent 76%);
+  filter: blur(var(--flow-ambient-blur)) saturate(.88);
+  opacity: var(--flow-ambient-opacity-high);
   transform: translate3d(0, 0, 0) scale(1.02);
   animation: ad-flow-ambient-breathe 24s ease-in-out infinite alternate;
 }
 .ad-ambient-flow__rim {
-  inset: -5%;
+  inset: -1.5%;
   background:
-    radial-gradient(ellipse 29% 8% at 13% 2%, color-mix(in srgb, var(--flow-accent) 13%, transparent), transparent 72%),
-    radial-gradient(ellipse 8% 28% at 99% 34%, color-mix(in srgb, var(--flow-accent-secondary) 12%, transparent), transparent 74%),
-    radial-gradient(ellipse 25% 7% at 72% 99%, color-mix(in srgb, var(--flow-accent) 10%, transparent), transparent 72%),
-    radial-gradient(ellipse 7% 24% at 1% 78%, color-mix(in srgb, var(--flow-accent-secondary) 11%, transparent), transparent 76%);
-  filter: blur(clamp(24px, 3.2vw, 54px)) saturate(.62);
-  opacity: .58;
+    radial-gradient(ellipse 22% 5% at 19% 1%, color-mix(in srgb, var(--flow-accent) var(--flow-rim-primary-mix), transparent), transparent 64%),
+    radial-gradient(ellipse 5% 23% at 99.5% 39%, color-mix(in srgb, var(--flow-accent-secondary) var(--flow-rim-secondary-mix), transparent), transparent 64%),
+    radial-gradient(ellipse 21% 5% at 70% 99.5%, color-mix(in srgb, var(--flow-accent) var(--flow-rim-primary-mix), transparent), transparent 63%),
+    radial-gradient(ellipse 5% 18% at .5% 77%, color-mix(in srgb, var(--flow-accent-secondary) var(--flow-rim-secondary-mix), transparent), transparent 66%);
+  filter: blur(var(--flow-rim-blur)) saturate(.9);
+  opacity: var(--flow-rim-opacity);
   transform: translate3d(0, 0, 0);
   animation: ad-flow-rim-drift 17s ease-in-out infinite alternate;
 }
 .ad-ambient-flow__edge {
-  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--flow-accent) 24%, transparent), transparent 72%);
-  filter: blur(clamp(28px, 3.8vw, 64px)) saturate(.58);
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--flow-accent) var(--flow-edge-mix), transparent), transparent 67%);
+  filter: blur(var(--flow-edge-blur)) saturate(.92);
   will-change: opacity, transform;
 }
 .ad-ambient-flow__edge--left,
 .ad-ambient-flow__edge--right {
   top: var(--flow-focus-y);
-  width: clamp(180px, 20vw, 390px);
-  height: clamp(280px, 44vh, 560px);
+  width: clamp(240px, 24vw, 470px);
+  height: clamp(300px, 46vh, 580px);
   transform: translateY(-50%);
 }
-.ad-ambient-flow__edge--left { left: clamp(-180px, -9vw, -72px); opacity: var(--flow-edge-left); }
-.ad-ambient-flow__edge--right { right: clamp(-180px, -9vw, -72px); opacity: var(--flow-edge-right); }
+.ad-ambient-flow__edge--left { left: clamp(-132px, -6vw, -52px); opacity: var(--flow-edge-left); }
+.ad-ambient-flow__edge--right { right: clamp(-132px, -6vw, -52px); opacity: var(--flow-edge-right); }
 .ad-ambient-flow__edge--top,
 .ad-ambient-flow__edge--bottom {
   left: var(--flow-focus-x);
-  width: clamp(300px, 46vw, 720px);
-  height: clamp(150px, 19vh, 260px);
+  width: clamp(340px, 50vw, 780px);
+  height: clamp(170px, 21vh, 280px);
   transform: translateX(-50%);
 }
-.ad-ambient-flow__edge--top { top: clamp(-120px, -7vh, -54px); opacity: var(--flow-edge-top); }
-.ad-ambient-flow__edge--bottom { bottom: clamp(-120px, -7vh, -54px); opacity: var(--flow-edge-bottom); }
+.ad-ambient-flow__edge--top { top: clamp(-92px, -5vh, -42px); opacity: var(--flow-edge-top); }
+.ad-ambient-flow__edge--bottom { bottom: clamp(-92px, -5vh, -42px); opacity: var(--flow-edge-bottom); }
 .ad-ambient-flow__header-suppression {
   z-index: 2;
   inset: 0;
   background:
-    radial-gradient(ellipse 29% 20% at 7% 0, #000 0 20%, rgb(0 0 0 / 82%) 42%, transparent 78%),
-    radial-gradient(ellipse 48% 21% at 100% 0, #000 0 18%, rgb(0 0 0 / 84%) 44%, transparent 80%);
+    radial-gradient(ellipse 23% 15% at 6% 0, #000 0 18%, rgb(0 0 0 / 80%) 38%, transparent 72%),
+    radial-gradient(ellipse 34% 16% at 100% 0, #000 0 16%, rgb(0 0 0 / 82%) 40%, transparent 74%);
 }
 @keyframes ad-flow-palette-arrive {
-  0%, 16% { opacity: 0; }
+  0% { opacity: .08; }
+  10% { opacity: .04; }
   100% { opacity: 1; }
 }
 @keyframes ad-flow-ambient-breathe {
-  0% { transform: translate3d(-.7%, .4%, 0) scale(1.015); opacity: .62; }
-  100% { transform: translate3d(.8%, -.6%, 0) scale(1.045); opacity: .74; }
+  0% { transform: translate3d(-.7%, .4%, 0) scale(1.015); opacity: var(--flow-ambient-opacity-low); }
+  100% { transform: translate3d(.8%, -.6%, 0) scale(1.045); opacity: var(--flow-ambient-opacity-high); }
 }
 @keyframes ad-flow-rim-drift {
   0% { transform: translate3d(-.45%, .3%, 0) scale(1); }
@@ -386,7 +400,7 @@
   z-index: 10;
   height: calc(100svh + 1900px);
   margin-top: clamp(48px, 8vh, 96px);
-  background: var(--ad-bg);
+  background: transparent;
 }
 .ad-stage__pin {
   position: sticky;
@@ -551,8 +565,14 @@
 }
 
 @media (max-width: 768px) {
-  .ad-ambient-flow__ambient { opacity: .52; filter: blur(62px) saturate(.5); }
-  .ad-ambient-flow__rim { opacity: .42; }
+  .ad-ambient-flow {
+    --flow-ambient-primary-mix: 22%;
+    --flow-ambient-secondary-mix: 17%;
+    --flow-rim-primary-mix: 30%;
+    --flow-rim-secondary-mix: 25%;
+  }
+  .ad-ambient-flow__ambient { opacity: .66; filter: blur(62px) saturate(.56); }
+  .ad-ambient-flow__rim { opacity: .52; }
   .ad-ambient-flow__edge { display: none; }
   .ad-gallery-spacer { height: 88svh; }
   .ad-marker { width: clamp(170px, 52vw, 220px); height: clamp(170px, 52vw, 220px); top: 48%; }

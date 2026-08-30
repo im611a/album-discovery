@@ -66,10 +66,10 @@ export function applyAmbientFlow(element, pointer, vinyl, viewport) {
   const set = (name, value) => element.style.setProperty(name, value);
   set("--flow-focus-x", `${focusX.toFixed(2)}px`);
   set("--flow-focus-y", `${focusY.toFixed(2)}px`);
-  set("--flow-edge-left", Math.min(0.22, pointer.left * 0.07 + vinyl.left * 0.18).toFixed(4));
-  set("--flow-edge-right", Math.min(0.22, pointer.right * 0.07 + vinyl.right * 0.18).toFixed(4));
-  set("--flow-edge-top", Math.min(0.16, pointer.top * 0.05 + vinyl.top * 0.12).toFixed(4));
-  set("--flow-edge-bottom", Math.min(0.2, pointer.bottom * 0.06 + vinyl.bottom * 0.16).toFixed(4));
+  set("--flow-edge-left", Math.min(0.38, pointer.left * 0.2 + vinyl.left * 0.36).toFixed(4));
+  set("--flow-edge-right", Math.min(0.38, pointer.right * 0.2 + vinyl.right * 0.36).toFixed(4));
+  set("--flow-edge-top", Math.min(0.28, pointer.top * 0.12 + vinyl.top * 0.23).toFixed(4));
+  set("--flow-edge-bottom", Math.min(0.34, pointer.bottom * 0.16 + vinyl.bottom * 0.29).toFixed(4));
   element.dataset.flowPointerEnergy = pointer.energy.toFixed(4);
   element.dataset.flowVinylEnergy = vinyl.energy.toFixed(4);
 }
