@@ -56,6 +56,59 @@ describe("production homepage shell", () => {
     expect(css).toMatch(/\.ad-stage\s*\{[\s\S]*?z-index:\s*10;[\s\S]*?background:\s*transparent;/);
   });
 
+  it("keeps one canonical, non-interactive Stage flow below the WebGL and typography layers", () => {
+    const { container } = renderHome();
+    const css = readFileSync(join(process.cwd(), "src/components/homepage-production/homepage-production.css"), "utf8");
+    const flow = container.querySelector(".ad-stage__flow");
+    const canvas = container.querySelector(".ad-stage__canvas");
+
+    expect(container.querySelectorAll(".ad-stage__flow")).toHaveLength(1);
+    expect(flow).toHaveAttribute("aria-hidden", "true");
+    expect(flow).toHaveAttribute("data-stage-flow", "camera-active-album");
+    expect(flow).toHaveAttribute("data-stage-ambient-album-id", "album:29704");
+    expect(container.querySelector(".ad-stage")).toHaveAttribute("data-stage-ambient-album-id", "album:29704");
+    expect(flow?.nextElementSibling).toBe(canvas);
+    expect(css).toMatch(/\.ad-stage__flow\s*\{[\s\S]*?z-index:\s*0;[\s\S]*?var\(--ad-stage-flow-accent\)[\s\S]*?var\(--ad-stage-flow-accent-secondary\)[\s\S]*?pointer-events:\s*none;/);
+    expect(css).toMatch(/\.ad-stage__canvas\s*\{[\s\S]*?z-index:\s*1;/);
+    expect(css).toMatch(/\.ad-stage__title\s*\{[\s\S]*?z-index:\s*2;/);
+  });
+
+  it("interpolates canonical accent colors without restarting the palette from transparent", () => {
+    const css = readFileSync(join(process.cwd(), "src/components/homepage-production/homepage-production.css"), "utf8");
+    const ambient = readFileSync(
+      join(process.cwd(), "src/components/homepage-production/homepage-ambient-flow-field.tsx"),
+      "utf8",
+    );
+
+    expect(css).toContain("@property --ad-accent");
+    expect(css).toContain("@property --ad-flow-accent");
+    expect(css).toContain("@property --ad-stage-flow-accent");
+    expect(css).toMatch(/--ad-accent 900ms cubic-bezier\(\.22, \.7, \.2, 1\)/);
+    expect(css).toMatch(/--ad-flow-accent 1200ms linear/);
+    expect(css).toMatch(/--ad-stage-flow-accent 1200ms linear/);
+    expect(css).not.toContain("ad-flow-palette-arrive");
+    expect(ambient).not.toContain("key={albumId}");
+    expect(ambient).not.toContain("paletteStyle");
+  });
+
+  it("places the single Chromatic Discovery directly after Stage in semantic document order", () => {
+    const { container } = renderHome();
+    const order = [...container.querySelectorAll(
+      ".ad-gallery, .ad-stage, .ad-chromatic, .r17-recent-return, .ad-continuation, .ad-ending",
+    )].map((element) => element.classList[0]);
+
+    expect(order).toEqual([
+      "ad-gallery",
+      "ad-stage",
+      "ad-chromatic",
+      "r17-recent-return",
+      "ad-continuation",
+      "ad-ending",
+    ]);
+    expect(container.querySelectorAll(".ad-chromatic")).toHaveLength(1);
+    expect(screen.getByRole("heading", { name: "按封面的颜色翻唱片" })).toBeInTheDocument();
+  });
+
   it("keeps every vinyl inside its Three.js sleeve group instead of the viewport", () => {
     const css = readFileSync(join(process.cwd(), "src/components/homepage-production/homepage-production.css"), "utf8");
     const scene = readFileSync(join(process.cwd(), "src/components/homepage-production/runtime/stage/stage-scene.js"), "utf8");

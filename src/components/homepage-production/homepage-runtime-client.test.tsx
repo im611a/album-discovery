@@ -1,18 +1,24 @@
 import { act, render } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { homepageContent } from "./homepage-data-adapter";
+import { buildHomepageExperienceData } from "./homepage-experience-data";
 import { HomepageRuntimeClient } from "./homepage-runtime-client";
+import { buildHomepageStageAtmosphereAlbums } from "./homepage-stage";
 import { mountHomepageRuntime } from "./runtime/mount-runtime.js";
 
 vi.mock("./runtime/mount-runtime.js", () => ({ mountHomepageRuntime: vi.fn() }));
 
 describe("homepage runtime lifecycle boundary", () => {
+  const stageAlbums = buildHomepageStageAtmosphereAlbums(
+    homepageContent.stage,
+    buildHomepageExperienceData(),
+  );
   beforeEach(() => vi.mocked(mountHomepageRuntime).mockReset());
 
   it("mounts once and disposes on unmount", async () => {
     const dispose = vi.fn();
     vi.mocked(mountHomepageRuntime).mockResolvedValue(dispose);
-    const view = render(<HomepageRuntimeClient stageAlbums={homepageContent.stage}><canvas /></HomepageRuntimeClient>);
+    const view = render(<HomepageRuntimeClient stageAlbums={stageAlbums}><canvas /></HomepageRuntimeClient>);
     await act(async () => { await Promise.resolve(); });
     expect(mountHomepageRuntime).toHaveBeenCalledTimes(1);
     view.unmount();
@@ -23,7 +29,7 @@ describe("homepage runtime lifecycle boundary", () => {
     const disposers = Array.from({ length: 5 }, () => vi.fn());
     disposers.forEach((dispose) => vi.mocked(mountHomepageRuntime).mockResolvedValueOnce(dispose));
     for (let index = 0; index < 5; index += 1) {
-      const view = render(<HomepageRuntimeClient stageAlbums={homepageContent.stage}><canvas /></HomepageRuntimeClient>);
+      const view = render(<HomepageRuntimeClient stageAlbums={stageAlbums}><canvas /></HomepageRuntimeClient>);
       await act(async () => { await Promise.resolve(); });
       view.unmount();
     }

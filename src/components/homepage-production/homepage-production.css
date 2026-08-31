@@ -1,3 +1,33 @@
+@property --ad-accent {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #d2778a;
+}
+@property --ad-accent-secondary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #222;
+}
+@property --ad-flow-accent {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #b27676;
+}
+@property --ad-flow-accent-secondary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #7c4646;
+}
+@property --ad-stage-flow-accent {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #b27676;
+}
+@property --ad-stage-flow-accent-secondary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #7c4646;
+}
 .ad-home {
   --ad-bg: #000;
   --ad-ink: #d9d9d9;
@@ -21,9 +51,16 @@
 .ad-experience {
   --ad-accent: #d2778a;
   --ad-accent-secondary: #222;
+  --ad-flow-accent: #d2778a;
+  --ad-flow-accent-secondary: #777;
   position: relative;
   isolation: isolate;
   background: #000;
+  transition:
+    --ad-accent 900ms cubic-bezier(.22, .7, .2, 1),
+    --ad-accent-secondary 900ms cubic-bezier(.22, .7, .2, 1),
+    --ad-flow-accent 1200ms linear,
+    --ad-flow-accent-secondary 1200ms linear;
 }
 .ad-ambient-flow {
   --flow-focus-x: 50vw;
@@ -57,10 +94,9 @@
 .ad-ambient-flow__header-suppression,
 .ad-ambient-flow__edge { position: absolute; display: block; pointer-events: none; }
 .ad-ambient-flow__palette {
-  --flow-accent: var(--ad-accent);
-  --flow-accent-secondary: var(--ad-accent-secondary);
+  --flow-accent: var(--ad-flow-accent);
+  --flow-accent-secondary: var(--ad-flow-accent-secondary);
   inset: 0;
-  animation: ad-flow-palette-arrive 1.1s cubic-bezier(.22, .7, .2, 1) both;
 }
 .ad-ambient-flow__ambient {
   inset: -10%;
@@ -116,11 +152,6 @@
   background:
     radial-gradient(ellipse 23% 15% at 6% 0, #000 0 18%, rgb(0 0 0 / 80%) 38%, transparent 72%),
     radial-gradient(ellipse 34% 16% at 100% 0, #000 0 16%, rgb(0 0 0 / 82%) 40%, transparent 74%);
-}
-@keyframes ad-flow-palette-arrive {
-  0% { opacity: .08; }
-  10% { opacity: .04; }
-  100% { opacity: 1; }
 }
 @keyframes ad-flow-ambient-breathe {
   0% { transform: translate3d(-.7%, .4%, 0) scale(1.015); opacity: var(--flow-ambient-opacity-low); }
@@ -401,6 +432,9 @@
   height: calc(100svh + 1900px);
   margin-top: clamp(48px, 8vh, 96px);
   background: transparent;
+  transition:
+    --ad-stage-flow-accent 1200ms linear,
+    --ad-stage-flow-accent-secondary 1200ms linear;
 }
 .ad-stage__pin {
   position: sticky;
@@ -408,6 +442,22 @@
   height: 100svh;
   overflow: hidden;
   isolation: isolate;
+}
+.ad-stage__flow {
+  position: absolute;
+  z-index: 0;
+  inset: -8%;
+  background:
+    radial-gradient(ellipse 34% 50% at -3% 32%, color-mix(in srgb, var(--ad-stage-flow-accent) 36%, transparent), transparent 74%),
+    radial-gradient(ellipse 32% 42% at 103% 58%, color-mix(in srgb, var(--ad-stage-flow-accent-secondary) 32%, transparent), transparent 73%),
+    radial-gradient(ellipse 44% 22% at 68% 103%, color-mix(in srgb, var(--ad-stage-flow-accent) 25%, transparent), transparent 76%),
+    radial-gradient(ellipse 24% 14% at 27% -2%, color-mix(in srgb, var(--ad-stage-flow-accent-secondary) 18%, transparent), transparent 78%);
+  filter: blur(clamp(24px, 3.2vw, 54px)) saturate(.82);
+  opacity: .58;
+  pointer-events: none;
+  transform: translate3d(-.35%, .25%, 0) scale(1.015);
+  animation: ad-stage-flow-drift 26s ease-in-out infinite alternate;
+  will-change: transform;
 }
 .ad-stage__canvas {
   position: absolute;
@@ -447,6 +497,9 @@
   padding: clamp(80px, 12vh, 150px) var(--ad-pad) max(44px, 8vh);
   border-top: 1px solid rgb(217 217 217 / 24%);
   background: #000;
+}
+@keyframes ad-stage-flow-drift {
+  to { transform: translate3d(.45%, -.35%, 0) scale(1.035); }
 }
 .r17-recent-return {
   position: relative;
@@ -593,6 +646,7 @@
   .ad-poster__frame { width: calc(100% * var(--mobile-square-scale)); }
   .ad-stage__title { font-size: 16px; }
   .ad-stage__meta { font-size: clamp(36px, 11vw, 48px); }
+  .ad-stage__flow { opacity: .38; filter: blur(34px) saturate(.68); }
   .ad-ending { min-height: 64svh; grid-template-columns: 1fr; align-content: end; }
   .r17-recent-return { padding-block: 72px; }
   .r17-recent-return__header { grid-template-columns: 1fr; }
@@ -619,6 +673,8 @@
 
 @media (prefers-reduced-motion: reduce) {
   .ad-home { scroll-behavior: auto; }
+  .ad-experience { transition: none; }
+  .ad-stage { transition: none; }
   .ad-marker__grooves,
   .ad-marker__shine,
   .ad-marker__label { animation: none; }
@@ -634,5 +690,6 @@
   .ad-ambient-flow__ambient,
   .ad-ambient-flow__rim { animation: none; }
   .ad-ambient-flow__edge { display: none; }
+  .ad-stage__flow { animation: none; transform: none; }
   .ad-relationship__center { animation: none; }
 }

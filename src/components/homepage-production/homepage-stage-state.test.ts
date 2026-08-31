@@ -8,7 +8,21 @@ import {
   getHomepageStageTargetX,
   getHomepageVinylLifecycle,
   HOMEPAGE_STAGE_REFERENCE,
+  stepHomepageVinylMotion,
 } from "./homepage-stage-state";
+
+function simulateVinylMotion(start: number, target: number, durationMs: number) {
+  let state = { progress: start, velocity: 0 };
+  for (let elapsed = 0; elapsed < durationMs; elapsed += 1000 / 60) {
+    state = stepHomepageVinylMotion(
+      state.progress,
+      target,
+      state.velocity,
+      Math.min(1000 / 60, durationMs - elapsed),
+    );
+  }
+  return state;
+}
 
 describe("homepage reference Stage contract", () => {
   it("preserves /01 through /06 and approved title mappings", () => {
@@ -88,19 +102,69 @@ describe("homepage reference Stage contract", () => {
       mobileSpacingRatio: 1.72,
       desktopVinylExposure: 0.58,
       mobileVinylExposure: 0.34,
-      firstVinylEjectUnits: 240,
+      firstVinylEjectUnits: 320,
       vinylDiameterRatio: 0.97,
+      vinylEmergeSmoothTimeMs: 380,
+      vinylRetractSmoothTimeMs: 330,
     });
   });
 
-  it("uses the reference lead-in to reveal only a small crescent at Stage 3%", () => {
+  it("starts slowly, then settles with more physical weight while retracting slightly faster", () => {
+    const emerge100 = simulateVinylMotion(0, 1, 100).progress;
+    const emerge300 = simulateVinylMotion(0, 1, 300).progress;
+    const emerge800 = simulateVinylMotion(0, 1, 800).progress;
+    const retract100 = simulateVinylMotion(1, 0, 100).progress;
+    const retract300 = simulateVinylMotion(1, 0, 300).progress;
+    const retract800 = simulateVinylMotion(1, 0, 800).progress;
+
+    expect(emerge100).toBeLessThan(.14);
+    expect(emerge300).toBeGreaterThan(.4);
+    expect(emerge300).toBeLessThan(.56);
+    expect(emerge800).toBeGreaterThan(.9);
+    expect(emerge800).toBeLessThan(.97);
+    expect(retract100).toBeGreaterThan(.82);
+    expect(retract300).toBeGreaterThan(.35);
+    expect(retract300).toBeLessThan(.52);
+    expect(retract800).toBeLessThan(.06);
+    expect(1 - retract300).toBeGreaterThan(emerge300);
+  });
+
+  it("retargets the current vinyl trajectory without queuing stale destinations", () => {
+    const emerging = simulateVinylMotion(0, 1, 240);
+    const reversing = stepHomepageVinylMotion(
+      emerging.progress,
+      0,
+      emerging.velocity,
+      1000 / 60,
+    );
+    const latest = stepHomepageVinylMotion(
+      reversing.progress,
+      .72,
+      reversing.velocity,
+      1000 / 60,
+    );
+
+    expect(emerging.progress).toBeGreaterThan(0);
+    expect(reversing.progress).toBeLessThan(emerging.progress);
+    expect(reversing.velocity).toBeLessThan(0);
+    expect(latest.progress).toBeGreaterThan(reversing.progress);
+    expect(latest.velocity).toBeGreaterThan(0);
+    expect(latest.progress).toBeLessThan(.72);
+  });
+
+  it("snaps vinyl travel to the latest target under reduced motion", () => {
+    expect(stepHomepageVinylMotion(.2, 1, .4, 16, true)).toEqual({ progress: 1, velocity: 0 });
+    expect(stepHomepageVinylMotion(.8, 0, -.4, 16, true)).toEqual({ progress: 0, velocity: 0 });
+  });
+
+  it("uses the expanded lead-in domain to reveal only a small crescent at Stage 3%", () => {
     const early = getHomepageVinylLifecycle(0.03, 0, 6);
     const middle = getHomepageVinylLifecycle(0.06, 0, 6);
-    const settled = getHomepageVinylLifecycle(220 / 1900, 0, 6);
-    expect(early).toMatchObject({ ownerIndex: 0, incomingIndex: 0, ejectProgress: 57 / 240 });
-    expect(middle.ejectProgress).toBe(114 / 240);
-    expect(settled.ejectProgress).toBeCloseTo(220 / 240);
-    expect(early.groupEjectProgress).toEqual([57 / 240, 0, 0, 0, 0, 0]);
+    const settled = getHomepageVinylLifecycle(320 / 1900, 0.3, 6);
+    expect(early).toMatchObject({ ownerIndex: 0, incomingIndex: 0, ejectProgress: 57 / 320 });
+    expect(middle.ejectProgress).toBe(114 / 320);
+    expect(settled.ejectProgress).toBe(1);
+    expect(early.groupEjectProgress).toEqual([57 / 320, 0, 0, 0, 0, 0]);
   });
 
   it("keeps the outgoing record after the active camera index has switched", () => {
@@ -115,8 +179,8 @@ describe("homepage reference Stage contract", () => {
 
   it("delays ownership handoff, then lets incoming eject while outgoing finishes retracting", () => {
     const before = getHomepageVinylLifecycle(0.204, 0.51, 6);
-    const after = getHomepageVinylLifecycle(0.22, 0.53, 6);
-    const incomingSettled = getHomepageVinylLifecycle(0.24, 0.71, 6);
+    const after = getHomepageVinylLifecycle(0.23, 0.57, 6);
+    const incomingSettled = getHomepageVinylLifecycle(0.28, 0.9, 6);
     const settled = getHomepageVinylLifecycle((220 + 1680 / 5) / 1900, 1, 6);
     expect(before.ownerIndex).toBe(0);
     expect(before.groupEjectProgress[1]).toBe(0);
@@ -129,8 +193,8 @@ describe("homepage reference Stage contract", () => {
   });
 
   it("keeps both record trajectories continuous across the discrete ownership handoff", () => {
-    const before = getHomepageVinylLifecycle(0.21, 0.52 - 0.000001, 6);
-    const after = getHomepageVinylLifecycle(0.21, 0.52 + 0.000001, 6);
+    const before = getHomepageVinylLifecycle(0.22, 0.56 - 0.000001, 6);
+    const after = getHomepageVinylLifecycle(0.22, 0.56 + 0.000001, 6);
 
     expect(before.ownerIndex).toBe(0);
     expect(after.ownerIndex).toBe(1);
@@ -139,8 +203,8 @@ describe("homepage reference Stage contract", () => {
     expect(after.groupEjectProgress[1]).toBeLessThan(0.000001);
   });
 
-  it("retracts the outgoing record and ejects the incoming record monotonically from 20.4% to 24%", () => {
-    const progresses = [0.204, 0.21, 0.215, 0.22, 0.225, 0.23, 0.235, 0.24];
+  it("retracts the outgoing record and ejects the incoming record monotonically across the wider handoff", () => {
+    const progresses = [0.204, 0.215, 0.225, 0.235, 0.245, 0.255, 0.265, 0.276];
     const positions = progresses.map((progress) =>
       getHomepageStageTargetX(progress, 6, 1));
     const states = progresses.map((progress, index) =>

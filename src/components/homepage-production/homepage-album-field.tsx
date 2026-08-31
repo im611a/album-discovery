@@ -8,16 +8,19 @@ import { HomepageContinuation } from "./homepage-continuation";
 import { HomepageGallery } from "./homepage-gallery";
 import { HomepageAmbientFlowField } from "./homepage-ambient-flow-field";
 import { HomepageVinylMarker } from "./homepage-vinyl-marker";
+import { getHomepageAmbientPaintColor } from "./homepage-atmosphere-color";
 
 export function HomepageAlbumField({
   albums,
   initialAlbumSlug,
   experience,
+  stage,
   children,
 }: {
   albums: readonly HomepageAlbum[];
   initialAlbumSlug: string;
   experience: HomepageExperienceData;
+  stage: ReactNode;
   children: ReactNode;
 }) {
   const initialAlbum = albums.find((album) => album.slug === initialAlbumSlug);
@@ -28,6 +31,8 @@ export function HomepageAlbumField({
   const atmosphereStyle = {
     "--ad-accent": selectedAlbum.accentColor,
     "--ad-accent-secondary": selectedAlbum.accentSecondaryColor,
+    "--ad-flow-accent": getHomepageAmbientPaintColor(selectedAlbum.accentColor),
+    "--ad-flow-accent-secondary": getHomepageAmbientPaintColor(selectedAlbum.accentSecondaryColor),
   } as CSSProperties;
 
   return <div className="ad-experience" style={atmosphereStyle} data-selected-album={selectedAlbum.slug} data-atmosphere={selectedAlbum.primaryVisualColor}>
@@ -43,6 +48,7 @@ export function HomepageAlbumField({
       selectedAlbumId={selectedAlbum.albumId}
       onSelect={setSelectedAlbumId}
     />
+    {stage}
     <HomepageChromaticDiscovery
       albums={experience.albums}
       chromaticAlbumIds={experience.chromaticAlbumIds}

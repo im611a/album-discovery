@@ -1,5 +1,6 @@
 import { createStageScene } from "./stage-scene.js";
 import {
+  stepHomepageVinylMotion,
   getHomepageStageIndexForCamera,
   getHomepageStageReferencePose,
   getHomepageStageTargetX,
@@ -36,7 +37,11 @@ export async function mountStage(root, items) {
   const canvas = root.querySelector("#homepageStageCanvas");
   const title = root.querySelector("#homepageStageTitle");
   const number = root.querySelector("#homepageStageNumber");
-  if (!canvas || !title || !number) throw new Error("Homepage stage DOM is incomplete.");
+  const stageElement = canvas?.closest(".ad-stage");
+  const stageFlow = stageElement?.querySelector(".ad-stage__flow");
+  if (!canvas || !title || !number || !stageElement || !stageFlow) {
+    throw new Error("Homepage stage DOM is incomplete.");
+  }
 
   const state = await createStageScene(canvas, items);
   let scale = 1;
@@ -51,6 +56,22 @@ export async function mountStage(root, items) {
   let active = false;
   let disposed = false;
   let lastVinylLifecycle = getHomepageVinylLifecycle(0, 0, items.length);
+  let lastUpdateTime = null;
+  const vinylVelocities = items.map(() => 0);
+
+  function bindStageAtmosphere(index) {
+    const item = items[index];
+    stageElement.style.setProperty("--ad-stage-flow-accent", item.stageFlowAccentColor);
+    stageElement.style.setProperty(
+      "--ad-stage-flow-accent-secondary",
+      item.stageFlowAccentSecondaryColor,
+    );
+    stageElement.dataset.stageAmbientAlbumId = item.albumId;
+    stageFlow.dataset.stageAmbientAlbumId = item.albumId;
+    stageFlow.dataset.stageFlowAccent = item.stageFlowAccentColor;
+    stageFlow.dataset.stageFlowAccentSecondary = item.stageFlowAccentSecondaryColor;
+    canvas.dataset.stageAmbientAlbumId = item.albumId;
+  }
 
   function resize() {
     if (disposed) return;
@@ -87,6 +108,9 @@ export async function mountStage(root, items) {
 
   function update() {
     if (disposed || !active) return;
+    const updateTime = performance.now();
+    const elapsedMs = lastUpdateTime === null ? 1000 / 60 : updateTime - lastUpdateTime;
+    lastUpdateTime = updateTime;
     const before = cameraX;
     if (reducedMotion) cameraX = targetX;
     else cameraX += (targetX - cameraX) * HOMEPAGE_STAGE_REFERENCE.cameraEase;
@@ -107,7 +131,18 @@ export async function mountStage(root, items) {
       group.scale.set(scale, scale, 1);
       group.scale.x = pose.scaleX;
 
-      group.userData.out = vinylLifecycle.groupEjectProgress[index] ?? 0;
+      const targetVinylProgress = vinylLifecycle.groupEjectProgress[index] ?? 0;
+      const beforeVinylProgress = group.userData.out;
+      const vinylMotion = stepHomepageVinylMotion(
+        beforeVinylProgress,
+        targetVinylProgress,
+        vinylVelocities[index],
+        elapsedMs,
+        reducedMotion,
+      );
+      group.userData.out = vinylMotion.progress;
+      vinylVelocities[index] = vinylMotion.velocity;
+      if (Math.abs(group.userData.out - beforeVinylProgress) > 1e-5) moving = true;
       if (!reducedMotion && group.userData.out > 0.01) {
         group.userData.spin += group.userData.out * HOMEPAGE_STAGE_REFERENCE.vinylSpinStep;
         moving = true;
@@ -125,6 +160,7 @@ export async function mountStage(root, items) {
         rotationY: Number(pose.rotationY.toFixed(4)),
         scaleX: Number(pose.scaleX.toFixed(4)),
         vinylOwner: vinylLifecycle.ownerIndex === index,
+        vinylTargetProgress: Number(targetVinylProgress.toFixed(4)),
         vinylEjectProgress: Number(group.userData.out.toFixed(4)),
         vinylExposure: Number(exposure.toFixed(4)),
         vinylRotationZ: Number(group.userData.vinyl.rotation.z.toFixed(4)),
@@ -171,12 +207,16 @@ export async function mountStage(root, items) {
     canvas.dataset.incomingIndex = String(vinylLifecycle.incomingIndex ?? -1);
     canvas.dataset.vinylOwnerIndex = String(vinylLifecycle.ownerIndex ?? -1);
     canvas.dataset.vinylEjectProgress = vinylLifecycle.ejectProgress.toFixed(4);
+    canvas.dataset.vinylRenderedEjectProgress = (
+      state.groups[vinylLifecycle.ownerIndex ?? -1]?.userData.out ?? 0
+    ).toFixed(4);
     canvas.dataset.vinylDiameterRatio = String(HOMEPAGE_STAGE_REFERENCE.vinylDiameterRatio);
     canvas.dataset.vinylLabelRadiusRatio = String(HOMEPAGE_STAGE_REFERENCE.vinylLabelRadiusRatio);
     canvas.dataset.stageGroups = JSON.stringify(diagnostics);
 
     if (selected !== current) {
       current = selected;
+      bindStageAtmosphere(current);
       title.textContent = `${items[current].artists.join("、")} – ${items[current].title}`;
       title.dataset.albumId = items[current].albumId;
       title.href = `/albums/${items[current].slug}/?pfrom=home`;
@@ -202,6 +242,7 @@ export async function mountStage(root, items) {
         incomingIndex: lastVinylLifecycle.incomingIndex,
         vinylOwnerIndex: lastVinylLifecycle.ownerIndex,
         vinylEjectProgress: lastVinylLifecycle.ejectProgress,
+        vinylRenderedEjectProgress: state.groups[lastVinylLifecycle.ownerIndex ?? -1]?.userData.out ?? 0,
         previous: current > 0 ? current - 1 : null,
         next: current < items.length - 1 ? current + 1 : null,
         cameraX,

@@ -1,13 +1,13 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { HomepageStageAlbum } from "./homepage-data-adapter";
+import type { HomepageStageAtmosphereAlbum } from "./homepage-stage";
 
 export function HomepageRuntimeClient({
   stageAlbums,
   children,
 }: {
-  stageAlbums: readonly HomepageStageAlbum[];
+  stageAlbums: readonly HomepageStageAtmosphereAlbum[];
   children: React.ReactNode;
 }) {
   const rootRef = useRef<HTMLDivElement>(null);

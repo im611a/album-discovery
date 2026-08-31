@@ -9,14 +9,67 @@ export const HOMEPAGE_STAGE_REFERENCE = Object.freeze({
   mobileSpacingRatio: 1.72,
   desktopVinylExposure: 0.58,
   mobileVinylExposure: 0.34,
-  firstVinylEjectUnits: 240,
-  vinylRetractStart: 0.4,
-  vinylOwnershipHandoff: 0.52,
-  vinylRetractEnd: 0.68,
-  vinylIncomingSettled: 0.7,
+  firstVinylEjectUnits: 320,
+  vinylRetractStart: 0.3,
+  vinylOwnershipHandoff: 0.56,
+  vinylRetractEnd: 0.82,
+  vinylIncomingSettled: 0.88,
+  vinylEmergeSmoothTimeMs: 380,
+  vinylRetractSmoothTimeMs: 330,
+  vinylMotionSettleDelta: 0.001,
+  vinylMotionSettleVelocity: 0.002,
   vinylDiameterRatio: 0.97,
   vinylLabelRadiusRatio: 0.3,
 });
+
+export interface HomepageVinylMotionState {
+  progress: number;
+  velocity: number;
+}
+
+export function stepHomepageVinylMotion(
+  current: number,
+  target: number,
+  velocity: number,
+  elapsedMs: number,
+  reducedMotion = false,
+): HomepageVinylMotionState {
+  const safeCurrent = clamp(current, 0, 1);
+  const safeTarget = clamp(target, 0, 1);
+  if (reducedMotion) return { progress: safeTarget, velocity: 0 };
+  if (
+    Math.abs(safeTarget - safeCurrent) <= HOMEPAGE_STAGE_REFERENCE.vinylMotionSettleDelta
+    && Math.abs(velocity) <= HOMEPAGE_STAGE_REFERENCE.vinylMotionSettleVelocity
+  ) {
+    return { progress: safeTarget, velocity: 0 };
+  }
+
+  const delta = safeTarget - safeCurrent;
+  const safeVelocity = delta * velocity < 0 ? 0 : velocity;
+  const smoothTimeMs = delta >= 0
+    ? HOMEPAGE_STAGE_REFERENCE.vinylEmergeSmoothTimeMs
+    : HOMEPAGE_STAGE_REFERENCE.vinylRetractSmoothTimeMs;
+  const elapsedSeconds = clamp(elapsedMs, 0, 64) / 1000;
+  const omega = 2 / (smoothTimeMs / 1000);
+  const scaledTime = omega * elapsedSeconds;
+  const decay = 1 / (
+    1 + scaledTime + 0.48 * scaledTime ** 2 + 0.235 * scaledTime ** 3
+  );
+  const change = safeCurrent - safeTarget;
+  const temporary = (safeVelocity + omega * change) * elapsedSeconds;
+  let nextVelocity = (safeVelocity - omega * temporary) * decay;
+  let next = safeTarget + (change + temporary) * decay;
+
+  next = clamp(next, Math.min(safeCurrent, safeTarget), Math.max(safeCurrent, safeTarget));
+  if (
+    Math.abs(safeTarget - next) <= HOMEPAGE_STAGE_REFERENCE.vinylMotionSettleDelta
+    && Math.abs(nextVelocity) <= HOMEPAGE_STAGE_REFERENCE.vinylMotionSettleVelocity
+  ) {
+    next = safeTarget;
+    nextVelocity = 0;
+  }
+  return { progress: next, velocity: nextVelocity };
+}
 
 function clamp(value: number, minimum: number, maximum: number) {
   return Math.max(minimum, Math.min(maximum, value));
@@ -58,7 +111,7 @@ export function getHomepageVinylLifecycle(
   const stageUnits = safeStageProgress
     * (count * HOMEPAGE_STAGE_REFERENCE.itemUnits + HOMEPAGE_STAGE_REFERENCE.leadInUnits);
 
-  if (cameraAlbumPosition <= 1e-4) {
+  if (cameraAlbumPosition <= HOMEPAGE_STAGE_REFERENCE.vinylRetractStart) {
     const ejectProgress = clamp(
       stageUnits / HOMEPAGE_STAGE_REFERENCE.firstVinylEjectUnits,
       0,
